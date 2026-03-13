@@ -1,0 +1,214 @@
+{
+  "article": {
+    "id": "036",
+    "title": "灵感式写作",
+    "path": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+    "date": "2025-11-19",
+    "author": "葬爱咸鱼",
+    "content_hash": "438d4140a81eb76aabf4c9538e0d58aefb698898e619be9bcaa8673d3772b09a"
+  },
+  "entities": [
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "用于处理代码和编程式写作任务的AI Agent工具",
+      "mention_count": 10,
+      "aliases": [
+        "Claude Code"
+      ],
+      "tags": [
+        "Agent",
+        "SDK",
+        "大模型"
+      ]
+    },
+    {
+      "id": "彼得-蒂尔",
+      "name": "彼得·蒂尔",
+      "type": "person",
+      "description": "创办VC的知名投资人，探讨过技术停滞和美国衰落等议题",
+      "mention_count": 9,
+      "aliases": [
+        "Peter Thiel"
+      ],
+      "tags": [
+        "VC创始人"
+      ]
+    },
+    {
+      "id": "cherry-studio",
+      "name": "Cherry Studio",
+      "type": "product",
+      "description": "开源第三方模型客户端，支持编程Agent和模型切换",
+      "mention_count": 6,
+      "aliases": [],
+      "tags": [
+        "模型客户端",
+        "编程Agent"
+      ]
+    },
+    {
+      "id": "孙宇晨",
+      "name": "孙宇晨",
+      "type": "person",
+      "description": "被称为“炒作仙人”，其文章风格被用作AI文风学习的参考范本",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "炒作仙人"
+      ]
+    },
+    {
+      "id": "uber",
+      "name": "Uber",
+      "type": "company",
+      "description": "知名网约车公司",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "科技公司"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "具备思维链能力的国产AI模型平台",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "K2 Thinking",
+        "思维链"
+      ]
+    },
+    {
+      "id": "uber创始人",
+      "name": "Uber创始人",
+      "type": "person",
+      "description": "曾论述中国公司竞争能带来创新的创始人",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "扎克伯格",
+      "name": "扎克伯格",
+      "type": "person",
+      "description": "与彼得·蒂尔有过邮件通信的科技人物",
+      "mention_count": 2,
+      "aliases": [
+        "Mark Zuckerberg"
+      ],
+      "tags": [
+        "科技人物"
+      ]
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "type": "company",
+      "description": "Claude及Claude Code背后的AI开发公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI公司"
+      ]
+    },
+    {
+      "id": "月之暗面",
+      "name": "月之暗面",
+      "type": "company",
+      "description": "Kimi开放平台背后的AI公司",
+      "mention_count": 1,
+      "aliases": [
+        "Moonshot"
+      ],
+      "tags": [
+        "国产大模型公司"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Anthropic",
+      "target": "Claude",
+      "relation_type": "develops",
+      "label": "Anthropic是Claude系列生态产品的开发公司",
+      "weight": 2,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "彼得·蒂尔",
+      "target": "扎克伯格",
+      "relation_type": "collaborates_with",
+      "label": "两人之间存在邮件通信往来",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Anthropic",
+      "target": "月之暗面",
+      "relation_type": "competes_with",
+      "label": "作为底层模型供应商在API调用市场竞争",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Claude",
+      "target": "Kimi",
+      "relation_type": "competes_with",
+      "label": "在处理复杂任务的场景中，Kimi被用作Claude的国产平替方案",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "月之暗面",
+      "target": "Kimi",
+      "relation_type": "develops",
+      "label": "Moonshot(月之暗面)开发Kimi模型及其开放平台",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Uber创始人",
+      "target": "Uber",
+      "relation_type": "founder_of",
+      "label": "创办了Uber",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "Cherry Studio",
+      "target": "Claude",
+      "relation_type": "integrates_with",
+      "label": "Cherry Studio客户端内集成了Claude Code的SDK",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Cherry Studio",
+      "target": "Kimi",
+      "relation_type": "integrates_with",
+      "label": "Cherry Studio支持切换并直接调用Kimi(K2 Thinking)模型",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 10,
+    "relationship_count": 8,
+    "pruned_entities": []
+  }
+}

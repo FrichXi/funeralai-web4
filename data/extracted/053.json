@@ -1,0 +1,254 @@
+{
+  "article": {
+    "id": "053",
+    "title": "第一届葬AI炒作大赛（北京线下活动）",
+    "path": "articles/053_2026-01-19_葬爱咸鱼_第一届葬AI炒作大赛（北京线下活动）.md",
+    "date": "2026-01-19",
+    "author": "葬爱咸鱼",
+    "content_hash": "13353bb294cffbfea041175626e35eab2797f90aef44ea99bbb8ca2fb4681f1a"
+  },
+  "entities": [
+    {
+      "id": "austin",
+      "name": "Austin",
+      "type": "person",
+      "description": "Taku创始人，自称做真正的AI OS",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI OS"
+      ]
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "type": "product",
+      "description": "AI浏览器或相关产品，kaiyi曾参与其前身开发",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI浏览器",
+        "AI产品"
+      ]
+    },
+    {
+      "id": "nixon",
+      "name": "Nixon",
+      "type": "person",
+      "description": "脑放电波主播、硬件产品经理",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "硬件产品经理",
+        "主播"
+      ]
+    },
+    {
+      "id": "kaiyi",
+      "name": "kaiyi",
+      "type": "person",
+      "description": "做过AI浏览器的工程师，Manus前身浏览器的资深开发",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "工程师",
+        "AI浏览器"
+      ]
+    },
+    {
+      "id": "尚晋",
+      "name": "尚晋",
+      "type": "person",
+      "description": "Readever创始人，AI投资人，对AI创投生态有尖锐观点",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "葬爱咸鱼",
+      "name": "葬爱咸鱼",
+      "type": "person",
+      "description": "葬AI实控人，活动开场嘉宾",
+      "mention_count": 2,
+      "aliases": [
+        "咸鱼"
+      ],
+      "tags": [
+        "实控人"
+      ]
+    },
+    {
+      "id": "阶跃",
+      "name": "阶跃",
+      "type": "company",
+      "description": "市面上的AI公司之一，曾被葬AI锐评",
+      "mention_count": 2,
+      "aliases": [
+        "阶跃星辰"
+      ],
+      "tags": [
+        "大模型公司"
+      ]
+    },
+    {
+      "id": "readever",
+      "name": "Readever",
+      "type": "company",
+      "description": "AI相关公司，由尚晋创立",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI公司"
+      ]
+    },
+    {
+      "id": "taku",
+      "name": "Taku",
+      "type": "company",
+      "description": "AI创业公司，由Austin创立",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI初创",
+        "AI OS"
+      ]
+    },
+    {
+      "id": "硅星人",
+      "name": "硅星人",
+      "type": "company",
+      "description": "科技媒体机构，骆轶航为其创始人",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "科技媒体"
+      ]
+    },
+    {
+      "id": "脑放电波",
+      "name": "脑放电波",
+      "type": "company",
+      "description": "播客或自媒体机构，Nixon为其主播",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "播客"
+      ]
+    },
+    {
+      "id": "阶跃桌面助手",
+      "name": "阶跃桌面助手",
+      "type": "product",
+      "description": "阶跃推出的桌面端AI应用",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "桌面助手",
+        "AI应用"
+      ]
+    },
+    {
+      "id": "骆轶航",
+      "name": "骆轶航",
+      "type": "person",
+      "description": "硅星人创始人兼CEO，活动开场嘉宾",
+      "mention_count": 1,
+      "aliases": [
+        "骆师"
+      ],
+      "tags": [
+        "CEO",
+        "媒体人"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "葬爱咸鱼",
+      "target": "骆轶航",
+      "relation_type": "collaborates_with",
+      "label": "骆轶航与咸鱼共同在活动中开场",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "阶跃",
+      "target": "阶跃桌面助手",
+      "relation_type": "develops",
+      "label": "阶跃桌面助手是阶跃公司开发的产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Austin",
+      "target": "Taku",
+      "relation_type": "founder_of",
+      "label": "Austin是Taku的创始人",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "尚晋",
+      "target": "Readever",
+      "relation_type": "founder_of",
+      "label": "尚晋是Readever的创始人",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "骆轶航",
+      "target": "硅星人",
+      "relation_type": "founder_of",
+      "label": "骆轶航是硅星人创始人兼CEO",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "Nixon",
+      "target": "脑放电波",
+      "relation_type": "works_at",
+      "label": "Nixon是脑放电波的主播",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "kaiyi",
+      "target": "Manus",
+      "relation_type": "works_on",
+      "label": "kaiyi是Manus前身浏览器的资深开发",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 13,
+    "relationship_count": 7,
+    "pruned_entities": [
+      {
+        "name": "Kimi",
+        "reason": "low-signal"
+      },
+      {
+        "name": "MiniMax",
+        "reason": "low-signal"
+      },
+      {
+        "name": "智谱AI",
+        "reason": "low-signal"
+      },
+      {
+        "name": "沐秋",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

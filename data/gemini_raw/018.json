@@ -1,0 +1,478 @@
+{
+  "entities": [
+    {
+      "name": "Mulerun",
+      "type": "product",
+      "description": "阿里云推出的Agent平台，核心思路为放弃UGC做小B2C供给侧改革，定位类似AI时代的淘宝。",
+      "aliases": [
+        "MuleRun",
+        "电骡"
+      ],
+      "tags": [
+        "Agent平台",
+        "小B2C",
+        "供给侧改革"
+      ]
+    },
+    {
+      "name": "扣子",
+      "type": "product",
+      "description": "字节跳动推出的基于UGC生态的Agent平台。",
+      "aliases": [
+        "Coze"
+      ],
+      "tags": [
+        "Agent平台",
+        "UGC",
+        "低代码"
+      ]
+    },
+    {
+      "name": "Manus",
+      "type": "product",
+      "description": "调用AWS云电脑的AI Agent产品。",
+      "aliases": [],
+      "tags": [
+        "Agent平台",
+        "云电脑"
+      ]
+    },
+    {
+      "name": "淘宝",
+      "type": "product",
+      "description": "阿里旗下的核心电商平台，以服务小B商家为基础构建的平台模式。",
+      "aliases": [],
+      "tags": [
+        "小B2C平台",
+        "电商"
+      ]
+    },
+    {
+      "name": "阿里云",
+      "type": "company",
+      "description": "开发和提供Mulerun平台及底层算力的云计算公司。",
+      "aliases": [],
+      "tags": [
+        "云计算",
+        "算力基础设施"
+      ]
+    },
+    {
+      "name": "字节跳动",
+      "type": "company",
+      "description": "开发了扣子Agent平台及抖音的中国互联网巨头。",
+      "aliases": [
+        "字节"
+      ],
+      "tags": [
+        "互联网巨头",
+        "大厂"
+      ]
+    },
+    {
+      "name": "无影云电脑",
+      "type": "product",
+      "description": "阿里云提供的云电脑服务，被Mulerun底层调用以执行任务。",
+      "aliases": [],
+      "tags": [
+        "云电脑",
+        "基础设施"
+      ]
+    },
+    {
+      "name": "AWS云电脑",
+      "type": "product",
+      "description": "被Manus底层调用的云端计算环境。",
+      "aliases": [],
+      "tags": [
+        "云电脑"
+      ]
+    },
+    {
+      "name": "YouWare",
+      "type": "product",
+      "description": "市面上的AI Agent平台之一，走需求侧改革的UGC路线。",
+      "aliases": [],
+      "tags": [
+        "Agent平台",
+        "UGC"
+      ]
+    },
+    {
+      "name": "MyShell",
+      "type": "product",
+      "description": "市面上的AI Agent平台之一，走UGC生态路线。",
+      "aliases": [
+        "My Shell"
+      ],
+      "tags": [
+        "Agent平台",
+        "UGC"
+      ]
+    },
+    {
+      "name": "Dify",
+      "type": "product",
+      "description": "专业的AI应用开发平台，其开发案例可作为申请Mulerun开发者的资质。",
+      "aliases": [],
+      "tags": [
+        "专业平台",
+        "开发工具"
+      ]
+    },
+    {
+      "name": "n8n",
+      "type": "product",
+      "description": "专业的工作流自动化平台，与Dify同属开发者资质认证平台。",
+      "aliases": [],
+      "tags": [
+        "专业平台",
+        "开发工具"
+      ]
+    },
+    {
+      "name": "天猫",
+      "type": "product",
+      "description": "阿里旗下的B2C电商平台。",
+      "aliases": [],
+      "tags": [
+        "B2C平台"
+      ]
+    },
+    {
+      "name": "eBay",
+      "type": "product",
+      "description": "早期的C2C模式电商平台，被用来与当前的Agent平台现状做对比。",
+      "aliases": [],
+      "tags": [
+        "C2C平台"
+      ]
+    },
+    {
+      "name": "支付宝",
+      "type": "product",
+      "description": "淘宝早期用于担保交易以解决信任机制的创新产品。",
+      "aliases": [],
+      "tags": [
+        "支付工具",
+        "信任机制"
+      ]
+    },
+    {
+      "name": "阿里巴巴",
+      "type": "company",
+      "description": "开发了淘宝、天猫及支付宝的中国互联网巨头。",
+      "aliases": [
+        "阿里"
+      ],
+      "tags": [
+        "互联网巨头",
+        "电商大厂",
+        "阿里铁军"
+      ]
+    },
+    {
+      "name": "抖音",
+      "type": "product",
+      "description": "字节跳动旗下的短视频平台，代表了数据飞轮加UGC社区的成功模式。",
+      "aliases": [],
+      "tags": [
+        "短视频",
+        "UGC社区"
+      ]
+    },
+    {
+      "name": "星穹铁道代肝",
+      "type": "product",
+      "description": "Mulerun平台上提供自动登录领积分服务的游戏辅助Agent。",
+      "aliases": [],
+      "tags": [
+        "AI Agent",
+        "游戏辅助"
+      ]
+    },
+    {
+      "name": "General Browser Operator",
+      "type": "product",
+      "description": "Mulerun平台上的AI浏览器Agent，通过调用云电脑浏览网页生成报告。",
+      "aliases": [],
+      "tags": [
+        "AI Agent",
+        "AI浏览器"
+      ]
+    },
+    {
+      "name": "Nano Banana",
+      "type": "product",
+      "description": "Mulerun平台上的一个小工具Agent，可一键生成手办照片。",
+      "aliases": [],
+      "tags": [
+        "AI Agent",
+        "图像生成"
+      ]
+    },
+    {
+      "name": "夸克",
+      "type": "product",
+      "description": "拥有“超级框”功能的搜索应用，被设想为Agent平台未来统一入口的形态。",
+      "aliases": [],
+      "tags": [
+        "搜索引擎",
+        "统一入口"
+      ]
+    },
+    {
+      "name": "App Store",
+      "type": "product",
+      "description": "苹果公司的应用商店，与淘宝同为降低小团队分发成本的平台代表。",
+      "aliases": [],
+      "tags": [
+        "应用商店",
+        "分发渠道"
+      ]
+    },
+    {
+      "name": "美团",
+      "type": "company",
+      "description": "经历过百团大战的中国互联网公司。",
+      "aliases": [],
+      "tags": [
+        "团购",
+        "互联网公司"
+      ]
+    },
+    {
+      "name": "腾讯",
+      "type": "company",
+      "description": "中国互联网巨头之一，被提及可能在未来重金下场AI平台之战。",
+      "aliases": [],
+      "tags": [
+        "互联网巨头"
+      ]
+    },
+    {
+      "name": "马卡龙",
+      "type": "company",
+      "description": "文章末尾提及的处于中关村创业大街的创业项目/公司。",
+      "aliases": [],
+      "tags": [
+        "创业公司"
+      ]
+    },
+    {
+      "name": "张一鸣",
+      "type": "person",
+      "description": "字节跳动创始人，被视为互联网行业成功创业者的代名词之一。",
+      "aliases": [
+        "一鸣"
+      ],
+      "tags": [
+        "创始人",
+        "行业标杆"
+      ]
+    },
+    {
+      "name": "王兴",
+      "type": "person",
+      "description": "美团创始人，带领美团在百团大战中胜出的关键人物。",
+      "aliases": [],
+      "tags": [
+        "创始人",
+        "行业标杆"
+      ]
+    },
+    {
+      "name": "马云",
+      "type": "person",
+      "description": "阿里巴巴创始人，早期制定了淘宝三年不收费的策略。",
+      "aliases": [
+        "马老师"
+      ],
+      "tags": [
+        "创始人"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "阿里云",
+      "target": "Mulerun",
+      "type": "develops",
+      "description": "Mulerun是由阿里云开发和推出的。",
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "扣子",
+      "type": "develops",
+      "description": "扣子是字节跳动推出的产品。",
+      "confidence": "high"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "淘宝",
+      "type": "develops",
+      "description": "淘宝是阿里巴巴旗下的核心产品。",
+      "confidence": "high"
+    },
+    {
+      "source": "Mulerun",
+      "target": "淘宝",
+      "type": "compares_to",
+      "description": "文章核心观点认为Mulerun放弃UGC转做小B供给侧的模式，是想做AI时代的淘宝。",
+      "confidence": "high"
+    },
+    {
+      "source": "Mulerun",
+      "target": "eBay",
+      "type": "compares_to",
+      "description": "作者认为Mulerun目前由于收取手续费等原因，形态更像eBay而不是淘宝。",
+      "confidence": "high"
+    },
+    {
+      "source": "Mulerun",
+      "target": "扣子",
+      "type": "competes_with",
+      "description": "两者同为AI Agent平台，属于竞争关系。",
+      "confidence": "medium"
+    },
+    {
+      "source": "Mulerun",
+      "target": "Manus",
+      "type": "competes_with",
+      "description": "两者同为AI Agent平台及工具，被文章放在一起对比。",
+      "confidence": "medium"
+    },
+    {
+      "source": "扣子",
+      "target": "Manus",
+      "type": "competes_with",
+      "description": "同属AI平台赛道的竞争产品。",
+      "confidence": "medium"
+    },
+    {
+      "source": "YouWare",
+      "target": "MyShell",
+      "type": "competes_with",
+      "description": "同为走UGC路线的早期Agent平台，属于竞品。",
+      "confidence": "high"
+    },
+    {
+      "source": "淘宝",
+      "target": "eBay",
+      "type": "competes_with",
+      "description": "早期电商时代模式之争的经典竞争对手。",
+      "confidence": "high"
+    },
+    {
+      "source": "Mulerun",
+      "target": "无影云电脑",
+      "type": "integrates_with",
+      "description": "Mulerun底层的Agent运行调用了阿里云的无影云电脑能力。",
+      "confidence": "high"
+    },
+    {
+      "source": "Manus",
+      "target": "AWS云电脑",
+      "type": "integrates_with",
+      "description": "Manus底层的运行调用了AWS云电脑。",
+      "confidence": "high"
+    },
+    {
+      "source": "Mulerun",
+      "target": "星穹铁道代肝",
+      "type": "integrates_with",
+      "description": "星穹铁道代肝是运行在Mulerun平台上的Agent应用。",
+      "confidence": "high"
+    },
+    {
+      "source": "Mulerun",
+      "target": "General Browser Operator",
+      "type": "integrates_with",
+      "description": "General Browser Operator是运行在Mulerun平台上的浏览器Agent。",
+      "confidence": "high"
+    },
+    {
+      "source": "Mulerun",
+      "target": "Nano Banana",
+      "type": "integrates_with",
+      "description": "Nano Banana是Mulerun平台上的工具应用。",
+      "confidence": "high"
+    },
+    {
+      "source": "General Browser Operator",
+      "target": "Manus",
+      "type": "compares_to",
+      "description": "General Browser Operator的使用体验和模式被直接比作使用Manus。",
+      "confidence": "high"
+    },
+    {
+      "source": "淘宝",
+      "target": "支付宝",
+      "type": "integrates_with",
+      "description": "淘宝早期通过引入支付宝来担保交易解决信任问题。",
+      "confidence": "high"
+    },
+    {
+      "source": "Mulerun",
+      "target": "夸克",
+      "type": "compares_to",
+      "description": "作者设想Mulerun等Agent平台未来需要的统一搜索入口形态就像夸克的“超级框”。",
+      "confidence": "medium"
+    },
+    {
+      "source": "马云",
+      "target": "淘宝",
+      "type": "works_on",
+      "description": "马云主导了淘宝的创立与早期战略（如三年不收费）。",
+      "confidence": "high"
+    },
+    {
+      "source": "马云",
+      "target": "阿里巴巴",
+      "type": "founder_of",
+      "description": "马云是阿里巴巴的创始人。",
+      "confidence": "high"
+    },
+    {
+      "source": "王兴",
+      "target": "美团",
+      "type": "founder_of",
+      "description": "王兴作为创始人带领美团在百团大战中胜出。",
+      "confidence": "high"
+    },
+    {
+      "source": "张一鸣",
+      "target": "字节跳动",
+      "type": "founder_of",
+      "description": "张一鸣是字节跳动的创始人。",
+      "confidence": "medium"
+    },
+    {
+      "source": "张一鸣",
+      "target": "王兴",
+      "type": "related",
+      "description": "两人作为中国互联网标志性的成功创业者被作者并列提及（“人人成王兴，大伙都一鸣”）。",
+      "confidence": "medium"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "腾讯",
+      "type": "competes_with",
+      "description": "中国互联网巨头间的宏观竞争关系，被预期未来将在AI平台领域展开大战。",
+      "confidence": "medium"
+    },
+    {
+      "source": "腾讯",
+      "target": "字节跳动",
+      "type": "competes_with",
+      "description": "同属互联网巨头，未来大概率在AI领域有直接竞争。",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "018",
+  "_article_title": "电骡快跑，Mulerun想做AI淘宝",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

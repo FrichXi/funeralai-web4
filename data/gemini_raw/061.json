@@ -1,0 +1,188 @@
+{
+  "entities": [
+    {
+      "name": "字节跳动",
+      "type": "company",
+      "description": "中国互联网科技公司，开发了抖音、即梦等产品，文中探讨了其通过AI视频模型实现社交的布局。",
+      "aliases": [
+        "字节"
+      ],
+      "tags": [
+        "AI社交",
+        "元宇宙"
+      ]
+    },
+    {
+      "name": "Seedance",
+      "type": "product",
+      "description": "字节推出的AI视频生成大模型，支持参考图片、视频和音频生成并复刻内容。",
+      "aliases": [
+        "Seedance 2.0"
+      ],
+      "tags": [
+        "大参考时代",
+        "AI视频"
+      ]
+    },
+    {
+      "name": "即梦",
+      "type": "product",
+      "description": "字节旗下的AI创作应用，内置了AI形象定制和视频合拍功能。",
+      "tags": [
+        "AI分身",
+        "视频生成"
+      ]
+    },
+    {
+      "name": "抖音",
+      "type": "product",
+      "description": "字节旗下的短视频平台，文中预测其将深度整合AI模型以实现社交功能突破。",
+      "tags": [
+        "短视频",
+        "社交"
+      ]
+    },
+    {
+      "name": "小云雀",
+      "type": "product",
+      "description": "字节旗下的AI工具，允许用户直接复制粘贴抖音爆款链接作为生成素材。"
+    },
+    {
+      "name": "Sora",
+      "type": "product",
+      "description": "OpenAI推出的AI视频模型，文中指出其缺乏素材库和分发渠道，产品逻辑被字节借鉴。",
+      "aliases": [
+        "Sora 2"
+      ],
+      "tags": [
+        "AI视频模型"
+      ]
+    },
+    {
+      "name": "张楠",
+      "type": "person",
+      "description": "字节跳动高管，在即梦平台上找人测试打样合拍功能。"
+    },
+    {
+      "name": "微信",
+      "type": "product",
+      "description": "腾讯旗下的社交软件，文中作为评估抖音社交能力对比的基准。",
+      "tags": [
+        "社交软件"
+      ]
+    },
+    {
+      "name": "快手",
+      "type": "company",
+      "description": "短视频公司，是字节跳动在短视频生态上的主要竞争对手。"
+    },
+    {
+      "name": "OiiOii",
+      "type": "product",
+      "description": "一款AI相关产品或应用，文中提到其近期被Sora的更新背刺。"
+    },
+    {
+      "name": "Nano Banana",
+      "type": "product",
+      "description": "文中提及的一款可以通过手动拼接图片来完成超高难度多镜头视频任务的工具。"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "字节跳动",
+      "target": "Seedance",
+      "type": "develops",
+      "description": "字节跳动研发了Seedance视频生成大模型。",
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "即梦",
+      "type": "develops",
+      "description": "字节跳动开发并运营了即梦应用。",
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "抖音",
+      "type": "develops",
+      "description": "字节跳动开发并运营抖音平台。",
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "小云雀",
+      "type": "develops",
+      "description": "字节跳动开发了小云雀工具。",
+      "confidence": "high"
+    },
+    {
+      "source": "张楠",
+      "target": "字节跳动",
+      "type": "works_at",
+      "description": "张楠是字节跳动的高管。",
+      "confidence": "high"
+    },
+    {
+      "source": "张楠",
+      "target": "即梦",
+      "type": "works_on",
+      "description": "张楠在即梦平台中频繁进行合拍功能的打样和测试。",
+      "confidence": "medium"
+    },
+    {
+      "source": "Seedance",
+      "target": "Sora",
+      "type": "compares_to",
+      "description": "文章核心观点认为字节的Seedance在抄袭并借鉴Sora的产品逻辑。",
+      "confidence": "high"
+    },
+    {
+      "source": "Seedance",
+      "target": "Sora",
+      "type": "competes_with",
+      "description": "作者认为Seedance的表现让Sora面临失业危机，两者为直接竞品。",
+      "confidence": "high"
+    },
+    {
+      "source": "即梦",
+      "target": "Seedance",
+      "type": "integrates_with",
+      "description": "即梦应用底层接入了Seedance模型来提供视频和图片复刻能力。",
+      "confidence": "high"
+    },
+    {
+      "source": "抖音",
+      "target": "Seedance",
+      "type": "integrates_with",
+      "description": "文章推断抖音未来将全面嵌入整合Seedance模型以打造AI社交体验。",
+      "confidence": "medium"
+    },
+    {
+      "source": "抖音",
+      "target": "微信",
+      "type": "compares_to",
+      "description": "作者对比抖音和微信，指出抖音长期缺乏不可替代的微信式社交功能。",
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "快手",
+      "type": "competes_with",
+      "description": "如果字节的内容生态因AI变得廉价而崩溃，作为竞争对手的快手将会受益。",
+      "confidence": "medium"
+    },
+    {
+      "source": "OiiOii",
+      "target": "Sora",
+      "type": "competes_with",
+      "description": "文中提及OiiOii近期被Sora的业务更新所背刺，存在生存竞争关系。",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "061",
+  "_article_title": "Seedance 2.0让字节元神启动",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

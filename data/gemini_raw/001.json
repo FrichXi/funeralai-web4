@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "name": "icon",
+      "type": "product",
+      "description": "被文章认为在弱信息行业（如电商广告视频生成）较有前途的AI产品",
+      "tags": [
+        "AI生成",
+        "弱信息场景"
+      ]
+    },
+    {
+      "name": "Lovart",
+      "type": "product",
+      "description": "被文章认为在弱信息行业较有前途的AI产品",
+      "tags": [
+        "AI生成",
+        "弱信息场景"
+      ]
+    },
+    {
+      "name": "Medeo",
+      "type": "product",
+      "description": "在文中作为对比对象，被认为前途不如icon和Lovart的AI产品",
+      "tags": [
+        "AI生成"
+      ]
+    },
+    {
+      "name": "ListenHub",
+      "type": "product",
+      "description": "在文中作为对比对象，被认为前途不如icon和Lovart的AI产品",
+      "tags": [
+        "AI生成"
+      ]
+    },
+    {
+      "name": "DeepResearch",
+      "type": "product",
+      "description": "具有交互确认环节的AI产品，文中认为其确认环节效果有限",
+      "tags": [
+        "AI产品",
+        "交互反馈"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "icon",
+      "target": "Medeo",
+      "type": "compares_to",
+      "description": "文章明确对比，认为icon比Medeo更有前途",
+      "confidence": "high"
+    },
+    {
+      "source": "icon",
+      "target": "ListenHub",
+      "type": "compares_to",
+      "description": "文章明确对比，认为icon比ListenHub更有前途",
+      "confidence": "high"
+    },
+    {
+      "source": "Lovart",
+      "target": "Medeo",
+      "type": "compares_to",
+      "description": "文章明确对比，认为Lovart比Medeo更有前途",
+      "confidence": "high"
+    },
+    {
+      "source": "Lovart",
+      "target": "ListenHub",
+      "type": "compares_to",
+      "description": "文章明确对比，认为Lovart比ListenHub更有前途",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "001",
+  "_article_title": "炒作狗才做「一句话生成」AI",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

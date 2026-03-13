@@ -1,0 +1,315 @@
+{
+  "entities": [
+    {
+      "name": "Agnes",
+      "type": "company",
+      "description": "被指炒作和抄袭的AI初创公司",
+      "aliases": [
+        "Agnes AI"
+      ],
+      "tags": [
+        "AI公司",
+        "出海",
+        "炒作争议"
+      ]
+    },
+    {
+      "name": "Agnes",
+      "type": "product",
+      "description": "Agnes公司推出的AI应用平台",
+      "aliases": [],
+      "tags": [
+        "AI Agent",
+        "抄袭争议"
+      ]
+    },
+    {
+      "name": "开为科技",
+      "type": "company",
+      "description": "由杨通创办的原零售SaaS公司，后转型AI领域",
+      "aliases": [],
+      "tags": [
+        "SaaS转型",
+        "营销解决"
+      ]
+    },
+    {
+      "name": "杨通",
+      "type": "person",
+      "description": "开为科技与Agnes的创始人",
+      "aliases": [
+        "Bruce Yang"
+      ],
+      "tags": [
+        "创始人",
+        "连续创业者"
+      ]
+    },
+    {
+      "name": "GenSpark",
+      "type": "product",
+      "description": "AI产品，被指遭Agnes像素级抄袭",
+      "aliases": [],
+      "tags": [
+        "AI搜索",
+        "被抄袭对象"
+      ]
+    },
+    {
+      "name": "景鲲",
+      "type": "person",
+      "description": "GenSpark相关核心人物",
+      "aliases": [],
+      "tags": [
+        "行业人物"
+      ]
+    },
+    {
+      "name": "夸克",
+      "type": "product",
+      "description": "被作者用来与Agnes进行生成效果对比的产品",
+      "aliases": [],
+      "tags": [
+        "工具"
+      ]
+    },
+    {
+      "name": "Flowith",
+      "type": "product",
+      "description": "被作者用来与Agnes进行对比的AI产品",
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "知名AI公司，被Agnes频繁蹭热度对标",
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "被蹭热度"
+      ]
+    },
+    {
+      "name": "Manus",
+      "type": "product",
+      "description": "知名AI智能体产品，被Agnes声称超越或复制",
+      "aliases": [],
+      "tags": [
+        "AI Agent"
+      ]
+    },
+    {
+      "name": "Roles",
+      "type": "product",
+      "description": "开为科技早前发布的AI产品",
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "name": "Lovart",
+      "type": "product",
+      "description": "设计类头部AI应用，被Agnes对标访问量",
+      "aliases": [],
+      "tags": [
+        "设计应用"
+      ]
+    },
+    {
+      "name": "Instagram",
+      "type": "product",
+      "description": "知名社交应用，被Agnes对标增长纪录",
+      "aliases": [],
+      "tags": [
+        "社交媒体"
+      ]
+    },
+    {
+      "name": "Snapchat",
+      "type": "product",
+      "description": "知名社交应用，被Agnes对标增长纪录",
+      "aliases": [],
+      "tags": [
+        "社交媒体"
+      ]
+    },
+    {
+      "name": "大冰",
+      "type": "person",
+      "description": "知名人物，被用作比喻Agnes和杨通的炒作行为",
+      "aliases": [],
+      "tags": [
+        "比喻对象"
+      ]
+    },
+    {
+      "name": "刘宇",
+      "type": "person",
+      "description": "拥有高估值多模态AI项目的行业人物，被预判将成Agnes蹭热度目标",
+      "aliases": [],
+      "tags": [
+        "多模态AI"
+      ]
+    },
+    {
+      "name": "Office",
+      "type": "product",
+      "description": "知名办公软件，Agnes声称要终结其时代",
+      "aliases": [],
+      "tags": [
+        "办公软件"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "杨通",
+      "target": "开为科技",
+      "type": "founder_of",
+      "description": "杨通于2019年创办了开为科技",
+      "confidence": "high"
+    },
+    {
+      "source": "杨通",
+      "target": "Agnes",
+      "type": "founder_of",
+      "description": "杨通是Agnes公司的创始人",
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "Agnes",
+      "type": "develops",
+      "description": "Agnes公司开发了同名AI产品",
+      "confidence": "high"
+    },
+    {
+      "source": "开为科技",
+      "target": "Roles",
+      "type": "develops",
+      "description": "开为科技发布了Roles产品",
+      "confidence": "high"
+    },
+    {
+      "source": "开为科技",
+      "target": "Agnes",
+      "type": "develops",
+      "description": "开为科技团队借新加坡主体炒作并推出了Agnes产品",
+      "confidence": "medium"
+    },
+    {
+      "source": "景鲲",
+      "target": "GenSpark",
+      "type": "works_on",
+      "description": "景鲲是GenSpark的核心相关人物",
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "GenSpark",
+      "type": "compares_to",
+      "description": "Agnes产品被指责像素级抄袭GenSpark",
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "GenSpark",
+      "type": "competes_with",
+      "description": "Agnes试图作为GenSpark的平替竞品",
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "大冰",
+      "type": "compares_to",
+      "description": "Agnes公司因过度炒作被比喻为AI圈的大冰",
+      "confidence": "high"
+    },
+    {
+      "source": "杨通",
+      "target": "大冰",
+      "type": "compares_to",
+      "description": "创始人杨通被调侃炒作到自己成为AI圈的大冰",
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "DeepSeek",
+      "type": "compares_to",
+      "description": "Agnes公司自诩为东南亚或新加坡的DeepSeek",
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "Manus",
+      "type": "compares_to",
+      "description": "Agnes声称其产品功能逼近或复制了Manus",
+      "confidence": "high"
+    },
+    {
+      "source": "Roles",
+      "target": "Manus",
+      "type": "compares_to",
+      "description": "开为科技发文宣称Roles上个月就实现了Manus的功能",
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "Flowith",
+      "type": "compares_to",
+      "description": "作者通过实际生成任务对比了Agnes与Flowith",
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "夸克",
+      "type": "compares_to",
+      "description": "作者认为Agnes的生成效果平平无奇，不如用夸克",
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "Lovart",
+      "type": "compares_to",
+      "description": "Agnes通过宣称访问量接近Lovart来蹭热度",
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "Instagram",
+      "type": "compares_to",
+      "description": "Agnes标榜打破了Instagram的增长纪录",
+      "confidence": "medium"
+    },
+    {
+      "source": "Agnes",
+      "target": "Snapchat",
+      "type": "compares_to",
+      "description": "Agnes标榜打破了Snapchat的增长纪录",
+      "confidence": "medium"
+    },
+    {
+      "source": "Agnes",
+      "target": "Office",
+      "type": "compares_to",
+      "description": "Agnes宣传口号中声称要终结Office时代",
+      "confidence": "medium"
+    },
+    {
+      "source": "杨通",
+      "target": "刘宇",
+      "type": "compares_to",
+      "description": "作者预判杨通接下来会去虚空蹭刘宇及其多模态AI项目的热度",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "039",
+  "_article_title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

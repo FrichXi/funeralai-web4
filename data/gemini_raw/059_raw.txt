@@ -1,0 +1,220 @@
+```json
+{
+  "entities": [
+    {
+      "name": "Clawdbot",
+      "type": "product",
+      "description": "通过聊天软件操控电脑的AI助手，引发广泛炒作",
+      "aliases": [],
+      "tags": ["AI助手", "开源项目"]
+    },
+    {
+      "name": "马斯克",
+      "type": "person",
+      "description": "推特平台算法更新的推动者，被指引发Clawdbot炒作",
+      "aliases": ["Elon Musk", "马圣"],
+      "tags": ["推荐算法", "KOL"]
+    },
+    {
+      "name": "Claude code",
+      "type": "product",
+      "description": "Anthropic开发的Agent引擎，可被Clawdbot等工具调用执行任务",
+      "aliases": ["CC"],
+      "tags": ["Agent引擎"]
+    },
+    {
+      "name": "阿里云",
+      "type": "company",
+      "description": "国内云服务厂商，提供无影云电脑部署服务",
+      "aliases": [],
+      "tags": ["云厂商"]
+    },
+    {
+      "name": "无影云电脑",
+      "type": "product",
+      "description": "阿里云旗下的云电脑产品",
+      "aliases": [],
+      "tags": ["部署服务"]
+    },
+    {
+      "name": "钉钉",
+      "type": "product",
+      "description": "聊天软件，可接入Clawdbot进行交互",
+      "aliases": [],
+      "tags": ["聊天软件"]
+    },
+    {
+      "name": "峰哥",
+      "type": "person",
+      "description": "文中用于比喻喜欢将各种事物连接起来的程序员特质",
+      "aliases": [],
+      "tags": ["比喻对象"]
+    },
+    {
+      "name": "谷歌",
+      "type": "company",
+      "description": "开发了Antigravity的科技巨头",
+      "aliases": ["Google"],
+      "tags": []
+    },
+    {
+      "name": "Antigravity",
+      "type": "product",
+      "description": "谷歌推出的Agent功能，可根据本地文件撰写文档",
+      "aliases": [],
+      "tags": ["Agent"]
+    },
+    {
+      "name": "Anthropic",
+      "type": "company",
+      "description": "Claude code的开发公司",
+      "aliases": [],
+      "tags": ["大模型厂商"]
+    },
+    {
+      "name": "Cowork",
+      "type": "product",
+      "description": "基于Claude code开发的套壳应用",
+      "aliases": [],
+      "tags": ["CC套壳"]
+    },
+    {
+      "name": "邪恶意大利人",
+      "type": "person",
+      "description": "Cowork应用的开发者",
+      "aliases": [],
+      "tags": ["开发者"]
+    },
+    {
+      "name": "Proma",
+      "type": "product",
+      "description": "基于Claude SDK开发的套壳应用",
+      "aliases": ["proma.cool"],
+      "tags": ["CC套壳"]
+    },
+    {
+      "name": "阶跃桌面伙伴",
+      "type": "product",
+      "description": "AI套壳参赛选手之一",
+      "aliases": [],
+      "tags": ["桌面助手"]
+    },
+    {
+      "name": "Cherry studio",
+      "type": "product",
+      "description": "AI套壳参赛选手之一",
+      "aliases": [],
+      "tags": ["客户端"]
+    },
+    {
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内AI模型厂商，较早参与Clawdbot炒作",
+      "aliases": [],
+      "tags": ["模型厂"]
+    },
+    {
+      "name": "MiniMax Agent",
+      "type": "product",
+      "description": "MiniMax推出的Agent应用",
+      "aliases": [],
+      "tags": ["Agent"]
+    },
+    {
+      "name": "奥地利老哥",
+      "type": "person",
+      "description": "Clawdbot的开源开发者",
+      "aliases": [],
+      "tags": ["开源作者"]
+    },
+    {
+      "name": "川普",
+      "type": "person",
+      "description": "美国总统，文中被用作马斯克影响力的对比对象",
+      "aliases": ["川子", "Donald Trump"],
+      "tags": ["KOL"]
+    },
+    {
+      "name": "Dan Koe",
+      "type": "person",
+      "description": "推特上的典型爆款作者代表",
+      "aliases": [],
+      "tags": ["博主"]
+    },
+    {
+      "name": "a16z",
+      "type": "company",
+      "description": "知名投资机构，其媒体投资理论被提及",
+      "aliases": [],
+      "tags": ["投资机构"]
+    },
+    {
+      "name": "Manus",
+      "type": "product",
+      "description": "与Clawdbot同期引发热潮的AI产品，未开放邀请码",
+      "aliases": [],
+      "tags": ["AI产品"]
+    },
+    {
+      "name": "腾讯云",
+      "type": "company",
+      "description": "国内云服务厂商，提供一键部署服务器支持",
+      "aliases": [],
+      "tags": ["云厂商"]
+    },
+    {
+      "name": "火山引擎",
+      "type": "company",
+      "description": "国内云服务厂商",
+      "aliases": [],
+      "tags": ["云厂商"]
+    },
+    {
+      "name": "AWS",
+      "type": "company",
+      "description": "美国云服务巨头，参与了部署炒作",
+      "aliases": [],
+      "tags": ["云厂商"]
+    },
+    {
+      "name": "特斯拉",
+      "type": "company",
+      "description": "受马斯克绝对掌控的科技巨头",
+      "aliases": ["Tesla"],
+      "tags": []
+    },
+    {
+      "name": "xAI",
+      "type": "company",
+      "description": "受马斯克绝对掌控的AI科技公司",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "SpaceX",
+      "type": "company",
+      "description": "受马斯克绝对掌控的航天公司",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "通义千问",
+      "type": "product",
+      "description": "AI产品，被作者建议增加日程助手功能",
+      "aliases": ["千问"],
+      "tags": ["AI大模型"]
+    },
+    {
+      "name": "马卡龙",
+      "type": "product",
+      "description": "具有日程提醒/日程助手功能的AI产品",
+      "aliases": [],
+      "tags": ["日程助手"]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "马斯克",
+      "target": "Clawdbot",
+      "type": "related",
+      

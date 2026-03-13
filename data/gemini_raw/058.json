@@ -1,0 +1,394 @@
+{
+  "entities": [
+    {
+      "name": "Dokie",
+      "type": "product",
+      "description": "张月光推出的AI PPT生成产品",
+      "aliases": [],
+      "tags": [
+        "AI PPT"
+      ]
+    },
+    {
+      "name": "ListenHub",
+      "type": "product",
+      "description": "橘子开发的AI产品，已转型做科普PPT视频",
+      "aliases": [],
+      "tags": [
+        "AI播客",
+        "科普视频"
+      ]
+    },
+    {
+      "name": "GenSpark",
+      "type": "product",
+      "description": "具有PPT生成功能的AI Agent产品",
+      "aliases": [],
+      "tags": [
+        "Agent",
+        "AI PPT"
+      ]
+    },
+    {
+      "name": "张月光",
+      "type": "person",
+      "description": "明星创业者，Dokie、妙鸭等产品的开发者",
+      "aliases": [
+        "月光"
+      ],
+      "tags": [
+        "明星创业者",
+        "独立开发者"
+      ]
+    },
+    {
+      "name": "Gamma",
+      "type": "product",
+      "description": "知名的AI PPT生成工具",
+      "aliases": [],
+      "tags": [
+        "AI PPT"
+      ]
+    },
+    {
+      "name": "蓝驰创投",
+      "type": "company",
+      "description": "同时投资了GenSpark（景鲲）和Dokie（张月光）的投资机构",
+      "aliases": [
+        "蓝驰"
+      ],
+      "tags": [
+        "VC",
+        "投资机构"
+      ]
+    },
+    {
+      "name": "Nano banana",
+      "type": "product",
+      "description": "一种多模态生成工具或模型，可用于生成图文并茂的PPT视频",
+      "aliases": [],
+      "tags": [
+        "多模态"
+      ]
+    },
+    {
+      "name": "庄明浩",
+      "type": "person",
+      "description": "AI行业评论中提到的投资人",
+      "aliases": [
+        "庄老师明浩"
+      ],
+      "tags": [
+        "投资人"
+      ]
+    },
+    {
+      "name": "NotebookLM",
+      "type": "product",
+      "description": "Google推出的AI笔记和研究工具",
+      "aliases": [],
+      "tags": [
+        "AI工具"
+      ]
+    },
+    {
+      "name": "百度",
+      "type": "company",
+      "description": "国内互联网大厂，投资了张月光并开发了自己的AI PPT产品",
+      "aliases": [],
+      "tags": [
+        "大厂",
+        "投资方"
+      ]
+    },
+    {
+      "name": "景鲲",
+      "type": "person",
+      "description": "百度出走高管，GenSpark创始人",
+      "aliases": [],
+      "tags": [
+        "创业者",
+        "前高管"
+      ]
+    },
+    {
+      "name": "Oreate AI",
+      "type": "product",
+      "description": "百度自己开发的AI PPT生成产品",
+      "aliases": [],
+      "tags": [
+        "AI PPT"
+      ]
+    },
+    {
+      "name": "李彦宏",
+      "type": "person",
+      "description": "百度CEO",
+      "aliases": [
+        "Robin"
+      ],
+      "tags": [
+        "CEO"
+      ]
+    },
+    {
+      "name": "Lovable",
+      "type": "product",
+      "description": "AI应用生成产品，在AI圈常被作为对标对象",
+      "aliases": [],
+      "tags": [
+        "AI编程"
+      ]
+    },
+    {
+      "name": "橘子",
+      "type": "person",
+      "description": "ListenHub的创始人，完成新一轮融资",
+      "aliases": [],
+      "tags": [
+        "创业者"
+      ]
+    },
+    {
+      "name": "ChatPods",
+      "type": "product",
+      "description": "张月光此前做过的AI播客产品，目前已关停",
+      "aliases": [],
+      "tags": [
+        "AI播客"
+      ]
+    },
+    {
+      "name": "Manus",
+      "type": "product",
+      "description": "受到广泛关注的爆款AI Agent产品",
+      "aliases": [],
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "name": "妙鸭",
+      "type": "product",
+      "description": "张月光此前开发的爆款AI相机产品",
+      "aliases": [
+        "妙鸭相机"
+      ],
+      "tags": [
+        "AI相机"
+      ]
+    },
+    {
+      "name": "Coladapic",
+      "type": "product",
+      "description": "张月光参与过的相机出海产品",
+      "aliases": [],
+      "tags": [
+        "出海产品",
+        "相机"
+      ]
+    },
+    {
+      "name": "猿辅导",
+      "type": "company",
+      "description": "在线教育公司，被用来与ChatPods做类比",
+      "aliases": [],
+      "tags": [
+        "教育"
+      ]
+    },
+    {
+      "name": "即刻",
+      "type": "company",
+      "description": "社交平台公司",
+      "aliases": [],
+      "tags": [
+        "社交"
+      ]
+    },
+    {
+      "name": "瓦总",
+      "type": "person",
+      "description": "即刻平台的相关高管或创始人",
+      "aliases": [],
+      "tags": [
+        "创始人"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张月光",
+      "target": "Dokie",
+      "type": "works_on",
+      "description": "Dokie是张月光推出的新产品",
+      "confidence": "high"
+    },
+    {
+      "source": "Dokie",
+      "target": "ListenHub",
+      "type": "competes_with",
+      "description": "标题及内文中直接对比了Dokie与ListenHub的表现",
+      "confidence": "high"
+    },
+    {
+      "source": "Dokie",
+      "target": "GenSpark",
+      "type": "compares_to",
+      "description": "文章将Dokie与同样做PPT的GenSpark进行对比",
+      "confidence": "high"
+    },
+    {
+      "source": "Dokie",
+      "target": "Gamma",
+      "type": "competes_with",
+      "description": "提到Dokie与Gamma在PPT生成赛道的竞争关系",
+      "confidence": "high"
+    },
+    {
+      "source": "蓝驰创投",
+      "target": "张月光",
+      "type": "invests_in",
+      "description": "蓝驰创投是张月光项目的投资方",
+      "confidence": "high"
+    },
+    {
+      "source": "蓝驰创投",
+      "target": "景鲲",
+      "type": "invests_in",
+      "description": "蓝驰创投同时投资了GenSpark（景鲲项目）和Dokie",
+      "confidence": "medium"
+    },
+    {
+      "source": "景鲲",
+      "target": "百度",
+      "type": "works_at",
+      "description": "景鲲曾是百度出走的高管",
+      "confidence": "high"
+    },
+    {
+      "source": "景鲲",
+      "target": "GenSpark",
+      "type": "works_on",
+      "description": "景鲲是GenSpark的创始者（根据文章上下文的PPT生态指代）",
+      "confidence": "medium"
+    },
+    {
+      "source": "百度",
+      "target": "Oreate AI",
+      "type": "develops",
+      "description": "百度自己开发的AI PPT产品",
+      "confidence": "high"
+    },
+    {
+      "source": "百度",
+      "target": "张月光",
+      "type": "invests_in",
+      "description": "张月光是百度的被投对象",
+      "confidence": "high"
+    },
+    {
+      "source": "李彦宏",
+      "target": "百度",
+      "type": "works_at",
+      "description": "Robin(李彦宏)在百度任职并听取PPT汇报",
+      "confidence": "high"
+    },
+    {
+      "source": "橘子",
+      "target": "ListenHub",
+      "type": "works_on",
+      "description": "ListenHub是橘子创业开发的产品",
+      "confidence": "high"
+    },
+    {
+      "source": "张月光",
+      "target": "橘子",
+      "type": "compares_to",
+      "description": "文章转述他人言论将张月光与橘子作为创业者进行比较",
+      "confidence": "high"
+    },
+    {
+      "source": "ListenHub",
+      "target": "Nano banana",
+      "type": "integrates_with",
+      "description": "ListenHub使用Nano banana来生成科普PPT视频",
+      "confidence": "high"
+    },
+    {
+      "source": "张月光",
+      "target": "ChatPods",
+      "type": "works_on",
+      "description": "张月光曾开发并关闭了ChatPods",
+      "confidence": "high"
+    },
+    {
+      "source": "张月光",
+      "target": "妙鸭",
+      "type": "works_on",
+      "description": "张月光是妙鸭的开发者",
+      "confidence": "high"
+    },
+    {
+      "source": "张月光",
+      "target": "Coladapic",
+      "type": "works_on",
+      "description": "张月光参与制作了相机出海产品Coladapic",
+      "confidence": "high"
+    },
+    {
+      "source": "ListenHub",
+      "target": "ChatPods",
+      "type": "compares_to",
+      "description": "文章将成功转型的ListenHub与凉透的ChatPods进行对比",
+      "confidence": "high"
+    },
+    {
+      "source": "Dokie",
+      "target": "Manus",
+      "type": "compares_to",
+      "description": "张月光表示Dokie往大了说不可能是Manus级别的爆款",
+      "confidence": "high"
+    },
+    {
+      "source": "Dokie",
+      "target": "妙鸭",
+      "type": "compares_to",
+      "description": "张月光认为Dokie往小了说也达不到妙鸭的水平",
+      "confidence": "high"
+    },
+    {
+      "source": "张月光",
+      "target": "景鲲",
+      "type": "compares_to",
+      "description": "作者调侃张月光不要效仿景鲲老哥的故事",
+      "confidence": "medium"
+    },
+    {
+      "source": "ChatPods",
+      "target": "猿辅导",
+      "type": "compares_to",
+      "description": "作者认为ChatPods让人想到了猿辅导",
+      "confidence": "medium"
+    },
+    {
+      "source": "瓦总",
+      "target": "即刻",
+      "type": "works_at",
+      "description": "瓦总是即刻公司的代表人物",
+      "confidence": "high"
+    },
+    {
+      "source": "庄明浩",
+      "target": "NotebookLM",
+      "type": "works_on",
+      "description": "庄明浩使用NotebookLM生成了竞品PPT进行测试",
+      "confidence": "low"
+    }
+  ],
+  "_article_id": "058",
+  "_article_title": "「Dokie不如ListenHub」",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

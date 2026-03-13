@@ -1,0 +1,274 @@
+{
+  "entities": [
+    {
+      "name": "无招",
+      "type": "person",
+      "description": "钉钉核心人物，主导了钉钉软件重构及多款AI硬件的发布",
+      "tags": [
+        "自信",
+        "创新",
+        "重构"
+      ]
+    },
+    {
+      "name": "钉钉",
+      "type": "company",
+      "description": "发布了多款企业级AI软硬件产品及Agent OS的平台公司",
+      "aliases": [
+        "DingTalk"
+      ],
+      "tags": [
+        "办公软件",
+        "AI硬件"
+      ]
+    },
+    {
+      "name": "Plaud",
+      "type": "product",
+      "description": "一款AI硬件产品，作者将其与钉钉的硬件生态做背景对比提及",
+      "tags": [
+        "AI硬件",
+        "游击战"
+      ]
+    },
+    {
+      "name": "钉钉ONE",
+      "type": "product",
+      "description": "新版钉钉的首页超级入口，主打语音交互和AI驱动",
+      "tags": [
+        "超级入口",
+        "语音交互"
+      ]
+    },
+    {
+      "name": "悟空",
+      "type": "product",
+      "description": "钉钉内置的AI助理和需求分发路由器",
+      "tags": [
+        "AI助理",
+        "路由器",
+        "Agent"
+      ]
+    },
+    {
+      "name": "DingTalk Real",
+      "type": "product",
+      "description": "钉钉推出的独立企业主机/企业级AI硬件，用于运行Agent和统一调度",
+      "aliases": [
+        "Real"
+      ],
+      "tags": [
+        "企业级AI硬件",
+        "企业主机"
+      ]
+    },
+    {
+      "name": "钉钉Agent OS",
+      "type": "product",
+      "description": "主打Agent开发和模型训练的平台，运行在DingTalk Real上",
+      "aliases": [
+        "Agent OS"
+      ],
+      "tags": [
+        "操作系统",
+        "开发平台"
+      ]
+    },
+    {
+      "name": "AI防录音魔盒",
+      "type": "product",
+      "description": "开启后可防止10米内设备录音的AI硬件",
+      "aliases": [
+        "魔盒"
+      ],
+      "tags": [
+        "防录音",
+        "安全硬件"
+      ]
+    },
+    {
+      "name": "AI印",
+      "type": "product",
+      "description": "钉钉内置的海报生成与图层编辑工具",
+      "tags": [
+        "海报生成",
+        "图层编辑"
+      ]
+    },
+    {
+      "name": "Lovart",
+      "type": "product",
+      "description": "海报设计应用，钉钉的AI印被形容为再造了该产品，且钉钉为其提供了后端服务",
+      "tags": [
+        "设计工具"
+      ]
+    },
+    {
+      "name": "数美万物",
+      "type": "company",
+      "description": "与钉钉AI印及Lovart串联合作，提供实体海报打印寄送服务的公司",
+      "tags": [
+        "后端印刷",
+        "实体寄送"
+      ]
+    },
+    {
+      "name": "AI作业批改仪",
+      "type": "product",
+      "description": "钉钉发布的一款AI办公/教育硬件产品",
+      "tags": [
+        "AI硬件"
+      ]
+    },
+    {
+      "name": "AI数字前台",
+      "type": "product",
+      "description": "钉钉发布的一款企业前台场景的AI硬件",
+      "tags": [
+        "企业硬件"
+      ]
+    },
+    {
+      "name": "钉钉A1录音卡",
+      "type": "product",
+      "description": "带有语音备忘录实体按键的AI硬件录音设备",
+      "tags": [
+        "录音卡",
+        "实体按键"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "无招",
+      "target": "钉钉",
+      "type": "works_at",
+      "description": "无招回归钉钉并主导了软件改造与硬件发布",
+      "confidence": "high"
+    },
+    {
+      "source": "无招",
+      "target": "DingTalk Real",
+      "type": "works_on",
+      "description": "无招推出了DingTalk Real并邀请共创",
+      "confidence": "high"
+    },
+    {
+      "source": "无招",
+      "target": "AI防录音魔盒",
+      "type": "works_on",
+      "description": "无招根据朋友需求主导制作了防录音魔盒",
+      "confidence": "high"
+    },
+    {
+      "source": "钉钉",
+      "target": "钉钉ONE",
+      "type": "develops",
+      "description": "钉钉开发并推出了钉钉ONE作为新版超级入口",
+      "confidence": "high"
+    },
+    {
+      "source": "钉钉",
+      "target": "悟空",
+      "type": "develops",
+      "description": "钉钉开发了内置的AI助理悟空",
+      "confidence": "high"
+    },
+    {
+      "source": "钉钉",
+      "target": "DingTalk Real",
+      "type": "develops",
+      "description": "钉钉研发了该款企业级AI硬件",
+      "confidence": "high"
+    },
+    {
+      "source": "钉钉",
+      "target": "钉钉Agent OS",
+      "type": "develops",
+      "description": "钉钉设计推出了专属Agent开发及运行平台",
+      "confidence": "high"
+    },
+    {
+      "source": "钉钉",
+      "target": "AI防录音魔盒",
+      "type": "develops",
+      "description": "钉钉发布的硬件产品之一",
+      "confidence": "high"
+    },
+    {
+      "source": "钉钉",
+      "target": "AI印",
+      "type": "develops",
+      "description": "钉钉内部推出的海报生成工具",
+      "confidence": "high"
+    },
+    {
+      "source": "钉钉",
+      "target": "AI作业批改仪",
+      "type": "develops",
+      "description": "钉钉发布的五花八门的硬件之一",
+      "confidence": "high"
+    },
+    {
+      "source": "钉钉",
+      "target": "AI数字前台",
+      "type": "develops",
+      "description": "钉钉发布的五花八门的硬件之一",
+      "confidence": "high"
+    },
+    {
+      "source": "钉钉",
+      "target": "钉钉A1录音卡",
+      "type": "develops",
+      "description": "作者爱用的钉钉旗下硬件产品",
+      "confidence": "high"
+    },
+    {
+      "source": "钉钉ONE",
+      "target": "悟空",
+      "type": "integrates_with",
+      "description": "钉钉ONE作为超级入口，通过悟空作为路由器进行语音指令的拆解分配",
+      "confidence": "high"
+    },
+    {
+      "source": "DingTalk Real",
+      "target": "钉钉Agent OS",
+      "type": "integrates_with",
+      "description": "从钉钉Agent OS开发的Agent都跑在DingTalk Real这台企业主机上",
+      "confidence": "high"
+    },
+    {
+      "source": "AI印",
+      "target": "Lovart",
+      "type": "compares_to",
+      "description": "文中明确指出AI印支持图层编辑，纯属再造了Lovart",
+      "confidence": "high"
+    },
+    {
+      "source": "钉钉",
+      "target": "Lovart",
+      "type": "partners_with",
+      "description": "钉钉为Lovart做了后端服务支持",
+      "confidence": "high"
+    },
+    {
+      "source": "钉钉",
+      "target": "数美万物",
+      "type": "partners_with",
+      "description": "钉钉通过打印寄送服务串联对接了数美万物",
+      "confidence": "medium"
+    },
+    {
+      "source": "钉钉A1录音卡",
+      "target": "Plaud",
+      "type": "related",
+      "description": "同属AI硬件范畴，文章将Plaud的游击战与钉钉的AI硬件生态并列讨论",
+      "confidence": "low"
+    }
+  ],
+  "_article_id": "045",
+  "_article_title": "无招把钉钉当玩具整",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

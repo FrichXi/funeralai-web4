@@ -1,0 +1,243 @@
+{
+  "entities": [
+    {
+      "name": "MyShell",
+      "type": "company",
+      "description": "专业的Web3团队，开发并运营AI+Web3产品的公司",
+      "aliases": [
+        "MyShell团队"
+      ],
+      "tags": [
+        "Web3",
+        "AI公司",
+        "代币运营"
+      ]
+    },
+    {
+      "name": "MyShell平台",
+      "type": "product",
+      "description": "融合AI内容社区与创作者代币经济的AI+Web3聚合产品",
+      "aliases": [
+        "MyShell App",
+        "MyShell官网"
+      ],
+      "tags": [
+        "内容社区",
+        "AI玩具",
+        "Web3"
+      ]
+    },
+    {
+      "name": "Cluely",
+      "type": "product",
+      "description": "被作为对比的传统/常规AI产品",
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "name": "Headai",
+      "type": "product",
+      "description": "被作为对比的传统/常规AI产品",
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "name": "YouWare",
+      "type": "product",
+      "description": "主打Vibe Coding和前端小玩具的AI社区产品",
+      "aliases": [],
+      "tags": [
+        "Vibe Coding",
+        "内容社区",
+        "AI应用"
+      ]
+    },
+    {
+      "name": "Lucky Kisses",
+      "type": "product",
+      "description": "MyShell平台上的热门AI短视频生成工具",
+      "aliases": [],
+      "tags": [
+        "AI视频",
+        "AI玩具"
+      ]
+    },
+    {
+      "name": "Labubu Maker",
+      "type": "product",
+      "description": "MyShell平台上的图片风格转换AI工具",
+      "aliases": [],
+      "tags": [
+        "图像生成",
+        "AI玩具"
+      ]
+    },
+    {
+      "name": "ShellAgent",
+      "type": "product",
+      "description": "MyShell推出的通过文字输入生成Agent的AI功能",
+      "aliases": [
+        "Agent"
+      ],
+      "tags": [
+        "Agent生成",
+        "AI开发工具"
+      ]
+    },
+    {
+      "name": "MiniMax",
+      "type": "company",
+      "description": "提供API key供开发者调用的AI大模型公司",
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "API提供商"
+      ]
+    },
+    {
+      "name": "Manus",
+      "type": "product",
+      "description": "以邀请码内测模式闻名的AI产品",
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "name": "妙鸭相机",
+      "type": "product",
+      "description": "知名的AI图像/摄影小游戏类产品",
+      "aliases": [],
+      "tags": [
+        "AI图像"
+      ]
+    },
+    {
+      "name": "Shell币",
+      "type": "product",
+      "description": "MyShell平台发行的Web3代币，用于创作者经济结算",
+      "aliases": [
+        "Shell Token"
+      ],
+      "tags": [
+        "加密货币",
+        "Token",
+        "Web3"
+      ]
+    },
+    {
+      "name": "币安",
+      "type": "company",
+      "description": "币圈加密货币交易所",
+      "aliases": [
+        "Binance"
+      ],
+      "tags": [
+        "加密交易所",
+        "Web3"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "MyShell",
+      "target": "MyShell平台",
+      "type": "develops",
+      "description": "MyShell团队开发并运营了该AI+Web3平台",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell",
+      "target": "Shell币",
+      "type": "develops",
+      "description": "MyShell团队/平台发行了Shell币作为创作者经济代币",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell",
+      "target": "ShellAgent",
+      "type": "develops",
+      "description": "MyShell主推并开发了ShellAgent功能",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "Cluely",
+      "type": "compares_to",
+      "description": "文章将MyShell的炒作水平与Cluely进行对比，认为Cluely显得太老实",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "Headai",
+      "type": "compares_to",
+      "description": "文章将MyShell的炒作水平与Headai进行对比，认为Headai显得太老实",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "YouWare",
+      "type": "compares_to",
+      "description": "文章指出MyShell在学习YouWare讲述AI内容社区的故事，且在产品能力上被用来与YouWare做对比",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "YouWare",
+      "type": "competes_with",
+      "description": "两者均被定位为具有社区属性和提供前端小玩具的AI产品，存在竞争与平替关系",
+      "confidence": "medium"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "Manus",
+      "type": "compares_to",
+      "description": "文章形容MyShell是一个缝合了Manus邀请码模式的炒作产品",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "妙鸭相机",
+      "type": "compares_to",
+      "description": "文章形容MyShell缝合了类似妙鸭相机式的小游戏",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "Lucky Kisses",
+      "type": "integrates_with",
+      "description": "Lucky Kisses是集成在MyShell平台上的热门小玩具",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "Labubu Maker",
+      "type": "integrates_with",
+      "description": "Labubu Maker是集成在MyShell平台上的小玩具",
+      "confidence": "high"
+    },
+    {
+      "source": "ShellAgent",
+      "target": "MiniMax",
+      "type": "related",
+      "description": "作者在测试ShellAgent生成产品时尝试调用MiniMax的API key但失败",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell",
+      "target": "币安",
+      "type": "related",
+      "description": "MyShell在币安等交易所投放新闻稿以吸引币圈用户并推动炒作飞轮",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "013",
+  "_article_title": "MyShell说明AI创业真是发币",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

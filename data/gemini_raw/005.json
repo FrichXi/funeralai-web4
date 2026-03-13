@@ -1,0 +1,244 @@
+{
+  "entities": [
+    {
+      "name": "Kimi",
+      "type": "product",
+      "description": "月之暗面旗下的大模型产品，以长文本处理起家",
+      "aliases": [],
+      "tags": [
+        "Agent",
+        "社区",
+        "投流",
+        "Long Context",
+        "长文本处理"
+      ]
+    },
+    {
+      "name": "月之暗面",
+      "type": "company",
+      "description": "Kimi背后的估值达到30亿美金的大模型公司",
+      "aliases": [],
+      "tags": [
+        "独角兽",
+        "大模型"
+      ]
+    },
+    {
+      "name": "智谱",
+      "type": "company",
+      "description": "被作者列为与Kimi同列的“AI六小虎”之一的大模型公司",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "杨圣",
+      "type": "person",
+      "description": "Kimi的创始人，被贴上“天才少年”标签",
+      "aliases": [
+        "杨植麟"
+      ],
+      "tags": [
+        "卡耐基梅隆博士",
+        "技术理想主义",
+        "AGI信仰"
+      ]
+    },
+    {
+      "name": "王小川",
+      "type": "person",
+      "description": "做医疗大模型的行业知名人物，被用作比喻对象",
+      "aliases": [],
+      "tags": [
+        "医疗大模型"
+      ]
+    },
+    {
+      "name": "阿里",
+      "type": "company",
+      "description": "Kimi的大股东及核心投资方",
+      "aliases": [
+        "阿里巴巴"
+      ],
+      "tags": []
+    },
+    {
+      "name": "咸鱼之王",
+      "type": "product",
+      "description": "一款休闲游戏，Kimi被指与其抢夺用户留存",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "ofo",
+      "type": "product",
+      "description": "共享单车产品，其激进的投放策略被用来与Kimi对比",
+      "aliases": [
+        "ofo单车"
+      ],
+      "tags": [
+        "投流",
+        "用户增长"
+      ]
+    },
+    {
+      "name": "金沙江",
+      "type": "company",
+      "description": "投资机构，曾投资ofo，并被指是Kimi背后代表性的投资方",
+      "aliases": [
+        "金沙江创投"
+      ],
+      "tags": [
+        "投资人"
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "type": "company",
+      "description": "国际顶尖AI公司",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "Ilya Sutskever",
+      "type": "person",
+      "description": "OpenAI联合创始人，公开质疑Scaling Law",
+      "aliases": [
+        "Ilya"
+      ],
+      "tags": [
+        "AI科学家",
+        "Scaling Law"
+      ]
+    },
+    {
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "推出挑战Scaling Law的新模型的大模型公司",
+      "aliases": [],
+      "tags": [
+        "强化学习"
+      ]
+    },
+    {
+      "name": "循环智能",
+      "type": "company",
+      "description": "杨圣的前公司，在香港对杨圣提起仲裁",
+      "aliases": [],
+      "tags": [
+        "仲裁"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "月之暗面",
+      "target": "Kimi",
+      "type": "develops",
+      "description": "月之暗面开发了Kimi",
+      "confidence": "high"
+    },
+    {
+      "source": "杨圣",
+      "target": "月之暗面",
+      "type": "founder_of",
+      "description": "杨圣创立了月之暗面",
+      "confidence": "high"
+    },
+    {
+      "source": "杨圣",
+      "target": "Kimi",
+      "type": "works_on",
+      "description": "杨圣主导Kimi产品的开发与方向",
+      "confidence": "high"
+    },
+    {
+      "source": "杨圣",
+      "target": "王小川",
+      "type": "compares_to",
+      "description": "文章将杨圣做新业务的做法与王小川做医疗大模型进行类比",
+      "confidence": "high"
+    },
+    {
+      "source": "阿里",
+      "target": "月之暗面",
+      "type": "invests_in",
+      "description": "阿里以近8亿美元巨资下注月之暗面",
+      "confidence": "high"
+    },
+    {
+      "source": "阿里",
+      "target": "杨圣",
+      "type": "invests_in",
+      "description": "阿里作为机构实质性投资了杨圣的大模型项目",
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi",
+      "target": "咸鱼之王",
+      "type": "competes_with",
+      "description": "Kimi通过投流等方式与《咸鱼之王》争抢用户留存",
+      "confidence": "high"
+    },
+    {
+      "source": "金沙江",
+      "target": "ofo",
+      "type": "invests_in",
+      "description": "金沙江是ofo当年的投资方",
+      "confidence": "high"
+    },
+    {
+      "source": "金沙江",
+      "target": "月之暗面",
+      "type": "invests_in",
+      "description": "文章指出Kimi激进打法背后的资方属性指向金沙江等机构",
+      "confidence": "medium"
+    },
+    {
+      "source": "Kimi",
+      "target": "ofo",
+      "type": "compares_to",
+      "description": "Kimi不计成本的投流打法被类比为当年的ofo单车投放",
+      "confidence": "high"
+    },
+    {
+      "source": "Ilya Sutskever",
+      "target": "OpenAI",
+      "type": "founder_of",
+      "description": "Ilya Sutskever是OpenAI的联合创始人",
+      "confidence": "high"
+    },
+    {
+      "source": "杨圣",
+      "target": "循环智能",
+      "type": "works_at",
+      "description": "循环智能是杨圣的前公司",
+      "confidence": "high"
+    },
+    {
+      "source": "循环智能",
+      "target": "杨圣",
+      "type": "criticizes",
+      "description": "循环智能在香港对杨圣提起仲裁，发生法律纠纷与指控",
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi",
+      "target": "循环智能",
+      "type": "compares_to",
+      "description": "评论将Kimi比作“大号版的循环智能”",
+      "confidence": "high"
+    },
+    {
+      "source": "月之暗面",
+      "target": "智谱",
+      "type": "competes_with",
+      "description": "同属作者评价的“AI六小虎”行列，具有行业竞争关系",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "005",
+  "_article_title": "Kimi没有梦想",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

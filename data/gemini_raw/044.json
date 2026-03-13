@@ -1,0 +1,309 @@
+{
+  "entities": [
+    {
+      "name": "Plaud",
+      "type": "company",
+      "description": "一家实现盈利的AI硬件公司，主打AI录音卡片。",
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "录音卡片",
+        "游击战"
+      ]
+    },
+    {
+      "name": "MiniMax",
+      "type": "company",
+      "description": "被用作对比营收的AI大模型公司。",
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "name": "智谱",
+      "type": "company",
+      "description": "被用作对比营收的AI大模型公司。",
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "name": "钉钉",
+      "type": "company",
+      "description": "推出A1录音卡片的互联网大厂。",
+      "aliases": [],
+      "tags": [
+        "大厂",
+        "办公软件"
+      ]
+    },
+    {
+      "name": "出门问问",
+      "type": "company",
+      "description": "推出TicNote录音卡片的AI公司。",
+      "aliases": [],
+      "tags": [
+        "AI公司"
+      ]
+    },
+    {
+      "name": "讯飞",
+      "type": "company",
+      "description": "老牌语音转录与录音笔公司。",
+      "aliases": [
+        "科大讯飞"
+      ],
+      "tags": [
+        "语音转录",
+        "录音笔"
+      ]
+    },
+    {
+      "name": "许高",
+      "type": "person",
+      "description": "Plaud创始人，FA出身。",
+      "aliases": [],
+      "tags": [
+        "创始人",
+        "FA出身"
+      ]
+    },
+    {
+      "name": "Nixon",
+      "type": "person",
+      "description": "脑放电波主播、XR产品经理，Plaud Pin手环用户。",
+      "aliases": [],
+      "tags": [
+        "主播",
+        "产品经理"
+      ]
+    },
+    {
+      "name": "Note",
+      "type": "product",
+      "description": "Plaud推出的普通版AI录音卡片。",
+      "aliases": [
+        "Plaud Note",
+        "普通版卡片Note"
+      ],
+      "tags": [
+        "录音卡片",
+        "AI硬件"
+      ]
+    },
+    {
+      "name": "Pin",
+      "type": "product",
+      "description": "Plaud推出的手环/夹子形态录音硬件。",
+      "aliases": [
+        "Plaud Pin",
+        "Pin加手环"
+      ],
+      "tags": [
+        "AI硬件"
+      ]
+    },
+    {
+      "name": "Note Pro",
+      "type": "product",
+      "description": "Plaud推出的高级版录音卡片，增加高光标记功能。",
+      "aliases": [
+        "高级版卡片Note Pro"
+      ],
+      "tags": [
+        "录音卡片"
+      ]
+    },
+    {
+      "name": "A1",
+      "type": "product",
+      "description": "钉钉推出的录音卡片。",
+      "aliases": [
+        "钉钉A1"
+      ],
+      "tags": [
+        "录音卡片",
+        "语音备忘录"
+      ]
+    },
+    {
+      "name": "TicNote",
+      "type": "product",
+      "description": "出门问问推出的录音卡片。",
+      "aliases": [
+        "出门问问TicNote"
+      ],
+      "tags": [
+        "录音卡片"
+      ]
+    },
+    {
+      "name": "讯飞录音笔",
+      "type": "product",
+      "description": "讯飞推出的传统录音硬件，转录几乎免费。",
+      "aliases": [],
+      "tags": [
+        "录音笔"
+      ]
+    },
+    {
+      "name": "Looki",
+      "type": "product",
+      "description": "被Nixon称赞的XR硬件产品。",
+      "aliases": [],
+      "tags": [
+        "XR设备"
+      ]
+    },
+    {
+      "name": "Amen Ring",
+      "type": "product",
+      "description": "深圳制造的AI智能戒指产品。",
+      "aliases": [],
+      "tags": [
+        "智能戒指",
+        "AI硬件"
+      ]
+    },
+    {
+      "name": "Odyss",
+      "type": "product",
+      "description": "深圳制造的AI智能项链产品。",
+      "aliases": [
+        "Odyss项链"
+      ],
+      "tags": [
+        "智能项链",
+        "AI硬件"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "许高",
+      "target": "Plaud",
+      "type": "founder_of",
+      "description": "许高是Plaud的创始人，2022年开始做录音笔。",
+      "confidence": "high"
+    },
+    {
+      "source": "许高",
+      "target": "Note",
+      "type": "works_on",
+      "description": "许高作为创始人主导了Plaud Note等产品的开发。",
+      "confidence": "medium"
+    },
+    {
+      "source": "Plaud",
+      "target": "Note",
+      "type": "develops",
+      "description": "Plaud开发了Note普通版录音卡片。",
+      "confidence": "high"
+    },
+    {
+      "source": "Plaud",
+      "target": "Pin",
+      "type": "develops",
+      "description": "Plaud开发了Pin录音硬件。",
+      "confidence": "high"
+    },
+    {
+      "source": "Plaud",
+      "target": "Note Pro",
+      "type": "develops",
+      "description": "Plaud开发了高级版录音卡片Note Pro。",
+      "confidence": "high"
+    },
+    {
+      "source": "钉钉",
+      "target": "A1",
+      "type": "develops",
+      "description": "钉钉开发了A1录音卡片。",
+      "confidence": "high"
+    },
+    {
+      "source": "出门问问",
+      "target": "TicNote",
+      "type": "develops",
+      "description": "出门问问开发了TicNote录音卡片。",
+      "confidence": "high"
+    },
+    {
+      "source": "讯飞",
+      "target": "讯飞录音笔",
+      "type": "develops",
+      "description": "讯飞开发了讯飞录音笔。",
+      "confidence": "high"
+    },
+    {
+      "source": "Plaud",
+      "target": "MiniMax",
+      "type": "compares_to",
+      "description": "文章将Plaud的营收与MiniMax和智谱的营收之和进行对比。",
+      "confidence": "high"
+    },
+    {
+      "source": "Plaud",
+      "target": "智谱",
+      "type": "compares_to",
+      "description": "文章将Plaud的营收与MiniMax和智谱的营收之和进行对比。",
+      "confidence": "high"
+    },
+    {
+      "source": "Plaud",
+      "target": "钉钉",
+      "type": "competes_with",
+      "description": "Plaud在录音卡片细分市场与大厂（如钉钉）进行竞争/打游击战。",
+      "confidence": "medium"
+    },
+    {
+      "source": "Plaud",
+      "target": "出门问问",
+      "type": "competes_with",
+      "description": "出门问问发布了同款产品，与Plaud存在竞争。",
+      "confidence": "high"
+    },
+    {
+      "source": "Plaud",
+      "target": "讯飞",
+      "type": "competes_with",
+      "description": "Plaud避开正面竞争但在录音设备赛道上与讯飞存在竞争关系。",
+      "confidence": "high"
+    },
+    {
+      "source": "Note",
+      "target": "A1",
+      "type": "competes_with",
+      "description": "Plaud的Note与钉钉的A1同为录音卡片竞品。",
+      "confidence": "high"
+    },
+    {
+      "source": "Note",
+      "target": "TicNote",
+      "type": "competes_with",
+      "description": "Plaud的Note与出门问问的TicNote同为录音卡片竞品。",
+      "confidence": "high"
+    },
+    {
+      "source": "Pin",
+      "target": "讯飞录音笔",
+      "type": "compares_to",
+      "description": "文章提到21年买的讯飞录音笔和Plaud Pin形态差不多。",
+      "confidence": "high"
+    },
+    {
+      "source": "Nixon",
+      "target": "Looki",
+      "type": "praises",
+      "description": "Nixon觉得Looki很牛逼。",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "044",
+  "_article_title": "Plaud善打游击战",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

@@ -1,0 +1,516 @@
+{
+  "entities": [
+    {
+      "name": "Clawdbot",
+      "type": "product",
+      "description": "一款被广泛炒作的开源AI助手工具，可以通过手机聊天软件操控电脑端运行的AI。",
+      "aliases": [
+        "🦞"
+      ],
+      "tags": [
+        "AI助手",
+        "开源项目",
+        "手机遥控"
+      ]
+    },
+    {
+      "name": "马斯克",
+      "type": "person",
+      "description": "科技巨头控制人，通过推特的新推荐算法推动了大量的网络炒作。",
+      "aliases": [
+        "Musk",
+        "马圣"
+      ],
+      "tags": [
+        "推特控制人",
+        "KOL"
+      ]
+    },
+    {
+      "name": "Claude code",
+      "type": "product",
+      "description": "被视为一切Agent引擎的核心AI产品，常被作为底座进行套壳开发。",
+      "aliases": [
+        "CC"
+      ],
+      "tags": [
+        "Agent引擎",
+        "SDK"
+      ]
+    },
+    {
+      "name": "阿里云",
+      "type": "company",
+      "description": "国内云服务厂商，反应迅速地提供了无影云电脑部署文档接住了炒作流量。",
+      "aliases": [
+        "Aliyun"
+      ],
+      "tags": [
+        "云厂商"
+      ]
+    },
+    {
+      "name": "无影云电脑",
+      "type": "product",
+      "description": "阿里云旗下产品，其部署文档被认为简单清晰。",
+      "aliases": [],
+      "tags": [
+        "云桌面"
+      ]
+    },
+    {
+      "name": "钉钉",
+      "type": "product",
+      "description": "办公聊天软件，用户可将Clawdbot接入其中进行交互。",
+      "aliases": [
+        "DingTalk"
+      ],
+      "tags": [
+        "聊天软件"
+      ]
+    },
+    {
+      "name": "千问",
+      "type": "product",
+      "description": "大语言模型产品，被Clawdbot调用作为底层模型。",
+      "aliases": [
+        "Qwen",
+        "Qwen-Max"
+      ],
+      "tags": [
+        "大语言模型",
+        "ChatBot"
+      ]
+    },
+    {
+      "name": "峰哥",
+      "type": "person",
+      "description": "文中用来比喻程序员群体喜欢将各种设备连接起来的特质的人物。",
+      "aliases": [],
+      "tags": [
+        "比喻对象"
+      ]
+    },
+    {
+      "name": "谷歌",
+      "type": "company",
+      "description": "开发了Antigravity等AI功能的科技巨头。",
+      "aliases": [
+        "Google"
+      ],
+      "tags": [
+        "科技巨头"
+      ]
+    },
+    {
+      "name": "Antigravity",
+      "type": "product",
+      "description": "谷歌推出的包含Agent功能的产品，可基于本地文件撰写工作文档。",
+      "aliases": [],
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "name": "Anthropic",
+      "type": "company",
+      "description": "开发了Claude code的AI公司。",
+      "aliases": [],
+      "tags": [
+        "模型厂"
+      ]
+    },
+    {
+      "name": "Cowork",
+      "type": "product",
+      "description": "一款基于Claude code的套壳产品，被评价为体验极差、任务总是中断。",
+      "aliases": [],
+      "tags": [
+        "Claude code套壳"
+      ]
+    },
+    {
+      "name": "Proma",
+      "type": "product",
+      "description": "接入了Claude code SDK的套壳产品，任务执行相对稳定。",
+      "aliases": [
+        "proma.cool"
+      ],
+      "tags": [
+        "Claude code套壳"
+      ]
+    },
+    {
+      "name": "阶跃桌面伙伴",
+      "type": "product",
+      "description": "一款被提及的Claude code套壳参赛产品。",
+      "aliases": [],
+      "tags": [
+        "Claude code套壳"
+      ]
+    },
+    {
+      "name": "Cherry studio",
+      "type": "product",
+      "description": "一款被提及的Claude code套壳参赛产品。",
+      "aliases": [],
+      "tags": [
+        "Claude code套壳"
+      ]
+    },
+    {
+      "name": "MiniMax Agent",
+      "type": "product",
+      "description": "MiniMax推出的一款AI Agent产品。",
+      "aliases": [],
+      "tags": [
+        "Claude code套壳"
+      ]
+    },
+    {
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内AI模型厂商，较早参与了Clawdbot的炒作。",
+      "aliases": [],
+      "tags": [
+        "模型厂"
+      ]
+    },
+    {
+      "name": "Clawdbot开发者",
+      "type": "person",
+      "description": "开源了Clawdbot这款AI助手的奥地利开发者。",
+      "aliases": [
+        "奥地利老哥"
+      ],
+      "tags": [
+        "开源作者"
+      ]
+    },
+    {
+      "name": "Cowork开发者",
+      "type": "person",
+      "description": "制作了Cowork这款体验较差的套壳产品的开发者。",
+      "aliases": [
+        "邪恶意大利人"
+      ],
+      "tags": [
+        "套壳开发者"
+      ]
+    },
+    {
+      "name": "推特",
+      "type": "product",
+      "description": "马斯克控制的社交平台，其新推荐算法引发了全网炒作热潮。",
+      "aliases": [
+        "X",
+        "Twitter"
+      ],
+      "tags": [
+        "社交媒体",
+        "推荐算法"
+      ]
+    },
+    {
+      "name": "Dan Koe",
+      "type": "person",
+      "description": "推特上的典型爆款代表人物，写鸡汤文章穿透圈层。",
+      "aliases": [],
+      "tags": [
+        "推特KOL"
+      ]
+    },
+    {
+      "name": "a16z",
+      "type": "company",
+      "description": "知名投资机构，文中提及部分币圈人士在实践其媒体投资理念。",
+      "aliases": [],
+      "tags": [
+        "投资机构"
+      ]
+    },
+    {
+      "name": "川普",
+      "type": "person",
+      "description": "在文中被用来衡量马斯克的舆论影响力和炒作能力的政治人物。",
+      "aliases": [
+        "川子",
+        "Trump"
+      ],
+      "tags": [
+        "高权重节点"
+      ]
+    },
+    {
+      "name": "Manus",
+      "type": "product",
+      "description": "一款引发炒作热潮的AI产品，但因缺乏邀请码导致用户无法实际体验。",
+      "aliases": [],
+      "tags": [
+        "Agent",
+        "纯炒作"
+      ]
+    },
+    {
+      "name": "腾讯云",
+      "type": "company",
+      "description": "快速提供一键安装服务器教程以接住Clawdbot炒作流量的国内云厂商。",
+      "aliases": [],
+      "tags": [
+        "云厂商"
+      ]
+    },
+    {
+      "name": "火山引擎",
+      "type": "company",
+      "description": "快速反应并接住Clawdbot炒作流量的国内云厂商。",
+      "aliases": [],
+      "tags": [
+        "云厂商"
+      ]
+    },
+    {
+      "name": "AWS",
+      "type": "company",
+      "description": "美国云服务厂商，其关于Clawdbot的官方教程发布较国内厂商晚。",
+      "aliases": [],
+      "tags": [
+        "云厂商"
+      ]
+    },
+    {
+      "name": "特斯拉",
+      "type": "company",
+      "description": "马斯克绝对掌控的科技巨头之一。",
+      "aliases": [
+        "Tesla"
+      ],
+      "tags": [
+        "科技巨头"
+      ]
+    },
+    {
+      "name": "xAI",
+      "type": "company",
+      "description": "马斯克绝对掌控的AI科技巨头。",
+      "aliases": [],
+      "tags": [
+        "科技巨头"
+      ]
+    },
+    {
+      "name": "SpaceX",
+      "type": "company",
+      "description": "马斯克绝对掌控的太空探索科技巨头。",
+      "aliases": [],
+      "tags": [
+        "科技巨头"
+      ]
+    },
+    {
+      "name": "马卡龙",
+      "type": "product",
+      "description": "一款已经实现了调取通知和日历权限设置日程提醒功能的AI产品。",
+      "aliases": [],
+      "tags": [
+        "AI助手"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "马斯克",
+      "target": "Clawdbot",
+      "type": "related",
+      "description": "文章认为Clawdbot的平地炒作热潮从根本上是马斯克发动的。",
+      "confidence": "high"
+    },
+    {
+      "source": "Clawdbot",
+      "target": "Claude code",
+      "type": "integrates_with",
+      "description": "Clawdbot被用来操纵电脑终端里运行的Claude code干活。",
+      "confidence": "high"
+    },
+    {
+      "source": "阿里云",
+      "target": "无影云电脑",
+      "type": "develops",
+      "description": "无影云电脑是阿里云推出的产品，官方提供了部署文档。",
+      "confidence": "high"
+    },
+    {
+      "source": "Clawdbot",
+      "target": "钉钉",
+      "type": "integrates_with",
+      "description": "用户可以将Clawdbot接入钉钉，通过聊天群发消息操控它。",
+      "confidence": "high"
+    },
+    {
+      "source": "Clawdbot",
+      "target": "千问",
+      "type": "integrates_with",
+      "description": "Clawdbot底层调用了千问（Qwen-Max）大模型。",
+      "confidence": "high"
+    },
+    {
+      "source": "谷歌",
+      "target": "Antigravity",
+      "type": "develops",
+      "description": "Antigravity是谷歌开发的功能产品。",
+      "confidence": "high"
+    },
+    {
+      "source": "Antigravity",
+      "target": "Claude code",
+      "type": "compares_to",
+      "description": "对于非技术背景用户，谷歌的Antigravity比Claude code用起来更容易。",
+      "confidence": "high"
+    },
+    {
+      "source": "Anthropic",
+      "target": "Claude code",
+      "type": "develops",
+      "description": "Anthropic是Claude code的开发公司，并在CC套壳上与创业公司竞争。",
+      "confidence": "high"
+    },
+    {
+      "source": "Cowork开发者",
+      "target": "Cowork",
+      "type": "works_on",
+      "description": "该开发者独立制作了Cowork这款产品。",
+      "confidence": "high"
+    },
+    {
+      "source": "Cowork",
+      "target": "Claude code",
+      "type": "integrates_with",
+      "description": "Cowork是基于Claude code制作的套壳产品。",
+      "confidence": "high"
+    },
+    {
+      "source": "Proma",
+      "target": "Claude code",
+      "type": "integrates_with",
+      "description": "Proma接入了Claude code的SDK进行套壳开发。",
+      "confidence": "high"
+    },
+    {
+      "source": "Proma",
+      "target": "Cowork",
+      "type": "compares_to",
+      "description": "Proma的稳定性被认为优于体验糟糕的Cowork。",
+      "confidence": "high"
+    },
+    {
+      "source": "阶跃桌面伙伴",
+      "target": "Claude code",
+      "type": "integrates_with",
+      "description": "阶跃桌面伙伴被列为Claude code套壳大赛的参赛产品之一。",
+      "confidence": "medium"
+    },
+    {
+      "source": "Cherry studio",
+      "target": "Claude code",
+      "type": "integrates_with",
+      "description": "Cherry studio被列为Claude code套壳大赛的参赛产品之一。",
+      "confidence": "medium"
+    },
+    {
+      "source": "MiniMax Agent",
+      "target": "Claude code",
+      "type": "integrates_with",
+      "description": "MiniMax Agent被列为Claude code套壳大赛的参赛产品之一。",
+      "confidence": "medium"
+    },
+    {
+      "source": "MiniMax",
+      "target": "MiniMax Agent",
+      "type": "develops",
+      "description": "MiniMax公司开发了MiniMax Agent产品。",
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "Clawdbot",
+      "type": "related",
+      "description": "MiniMax作为模型厂很早就参与了Clawdbot的营销炒作。",
+      "confidence": "medium"
+    },
+    {
+      "source": "Clawdbot开发者",
+      "target": "Clawdbot",
+      "type": "works_on",
+      "description": "奥地利老哥开发并开源了Clawdbot。",
+      "confidence": "high"
+    },
+    {
+      "source": "马斯克",
+      "target": "推特",
+      "type": "works_on",
+      "description": "马斯克绝对掌控推特，并且推特的新推荐算法导致了大量爆款涌现。",
+      "confidence": "high"
+    },
+    {
+      "source": "Dan Koe",
+      "target": "推特",
+      "type": "related",
+      "description": "Dan Koe是通过推特新推荐算法获得巨大流量的典型受益KOL。",
+      "confidence": "high"
+    },
+    {
+      "source": "马斯克",
+      "target": "川普",
+      "type": "compares_to",
+      "description": "作者认为很难分出马斯克和川普在舆论影响力和炒作能力上的高下。",
+      "confidence": "high"
+    },
+    {
+      "source": "Clawdbot",
+      "target": "Manus",
+      "type": "compares_to",
+      "description": "两款产品都引发了炒作热潮，但因用户是否能实际用上而产生了不同口碑。",
+      "confidence": "high"
+    },
+    {
+      "source": "阿里云",
+      "target": "AWS",
+      "type": "compares_to",
+      "description": "国内云厂商（如阿里云）接住Clawdbot流量的反应速度快于美国的AWS。",
+      "confidence": "high"
+    },
+    {
+      "source": "马斯克",
+      "target": "特斯拉",
+      "type": "works_at",
+      "description": "马斯克绝对掌控特斯拉这家科技巨头。",
+      "confidence": "high"
+    },
+    {
+      "source": "马斯克",
+      "target": "xAI",
+      "type": "founder_of",
+      "description": "马斯克绝对掌控xAI。",
+      "confidence": "high"
+    },
+    {
+      "source": "马斯克",
+      "target": "SpaceX",
+      "type": "founder_of",
+      "description": "马斯克绝对掌控SpaceX。",
+      "confidence": "high"
+    },
+    {
+      "source": "千问",
+      "target": "马卡龙",
+      "type": "compares_to",
+      "description": "作者建议千问添加日程提醒功能，因为同类AI产品马卡龙已经实现了该功能。",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "059",
+  "_article_title": "Clawdbot是一场马斯克发动的中登炒作",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

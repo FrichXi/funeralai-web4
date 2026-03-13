@@ -1,0 +1,246 @@
+```json
+{
+  "entities": [
+    {
+      "name": "字节跳动",
+      "type": "company",
+      "description": "豆包及Seed系列大模型的开发母公司",
+      "aliases": ["字节", "宇宙厂"],
+      "tags": ["AI公司", "大模型厂商"]
+    },
+    {
+      "name": "火山引擎",
+      "type": "company",
+      "description": "字节跳动旗下的云服务和API提供商",
+      "aliases": ["火山"],
+      "tags": ["云服务", "算力", "API"]
+    },
+    {
+      "name": "豆包",
+      "type": "product",
+      "description": "字节跳动推出的多模态大模型及AI助手应用",
+      "aliases": ["豆包大模型", "豆姐"],
+      "tags": ["多模态Agent", "AI产品"]
+    },
+    {
+      "name": "Seed",
+      "type": "product",
+      "description": "字节跳动的基础大模型系列",
+      "aliases": ["Seed大模型", "种"],
+      "tags": ["基础模型", "多模态"]
+    },
+    {
+      "name": "Seedance",
+      "type": "product",
+      "description": "字节跳动推出的AI视频生成模型",
+      "tags": ["视频生成模型"]
+    },
+    {
+      "name": "Seedream",
+      "type": "product",
+      "description": "字节跳动推出的AI图像生成及处理模型",
+      "tags": ["图像生成模型"]
+    },
+    {
+      "name": "吴永辉",
+      "type": "person",
+      "description": "前Google DeepMind副总裁，现负责字节跳动Seed团队",
+      "tags": ["技术高管", "技术大牛"]
+    },
+    {
+      "name": "Google DeepMind",
+      "type": "company",
+      "description": "国际知名AI研究机构，吴永辉前东家",
+      "tags": ["AI机构"]
+    },
+    {
+      "name": "Google",
+      "type": "company",
+      "description": "国际科技巨头，Gemini的开发公司",
+      "aliases": ["谷歌"],
+      "tags": ["科技巨头"]
+    },
+    {
+      "name": "马斯克",
+      "type": "person",
+      "description": "知名科技企业家，对Seedance模型表示赞赏",
+      "tags": ["科技领袖"]
+    },
+    {
+      "name": "飞书",
+      "type": "product",
+      "description": "字节跳动旗下的办公协作软件",
+      "tags": ["办公软件"]
+    },
+    {
+      "name": "Premiere",
+      "type": "product",
+      "description": "传统视频剪辑软件",
+      "aliases": ["PR"],
+      "tags": ["视频剪辑"]
+    },
+    {
+      "name": "After Effects",
+      "type": "product",
+      "description": "传统视频特效软件",
+      "aliases": ["AE"],
+      "tags": ["视频特效"]
+    },
+    {
+      "name": "Photoshop",
+      "type": "product",
+      "description": "传统图像处理软件",
+      "tags": ["图像处理"]
+    },
+    {
+      "name": "智谱",
+      "type": "company",
+      "description": "国内AI大模型厂商",
+      "tags": ["模型厂商"]
+    },
+    {
+      "name": "Kimi",
+      "type": "product",
+      "description": "国内知名AI大模型产品",
+      "tags": ["大模型", "coding模型"]
+    },
+    {
+      "name": "Gemini",
+      "type": "product",
+      "description": "Google推出的全模态大模型",
+      "tags": ["全模态模型"]
+    },
+    {
+      "name": "Siri",
+      "type": "product",
+      "description": "苹果公司的智能语音助手",
+      "tags": ["语音助手"]
+    },
+    {
+      "name": "阿里云",
+      "type": "company",
+      "description": "阿里巴巴旗下的云服务商，火山引擎的竞争对手",
+      "tags": ["云服务"]
+    },
+    {
+      "name": "阿里巴巴",
+      "type": "company",
+      "description": "中国科技巨头，在AI领域与字节跳动竞争",
+      "aliases": ["阿里"],
+      "tags": ["科技巨头", "AI公司"]
+    },
+    {
+      "name": "NotebookLM",
+      "type": "product",
+      "description": "AI知识应用工具",
+      "tags": ["知识应用", "AI工具"]
+    },
+    {
+      "name": "OiiOii",
+      "type": "product",
+      "description": "接入视频大模型API的套壳AI应用",
+      "tags": ["套壳AI", "AI视频"]
+    },
+    {
+      "name": "Sora",
+      "type": "product",
+      "description": "知名的AI视频生成大模型",
+      "tags": ["视频大模型"]
+    },
+    {
+      "name": "Flova",
+      "type": "product",
+      "description": "与OiiOii存在竞争关系的AI应用",
+      "tags": ["套壳AI"]
+    },
+    {
+      "name": "芙崽",
+      "type": "product",
+      "description": "一款被提及作为反面案例的AI硬件或应用",
+      "tags": ["AI硬件"]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "字节跳动",
+      "target": "豆包",
+      "type": "develops",
+      "description": "字节跳动开发了豆包产品",
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "Seed",
+      "type": "develops",
+      "description": "字节跳动开发了Seed系列大模型",
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "Seedance",
+      "type": "develops",
+      "description": "字节跳动开发了Seedance视频模型",
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "Seedream",
+      "type": "develops",
+      "description": "字节跳动开发了Seedream图像模型",
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "飞书",
+      "type": "develops",
+      "description": "字节跳动开发了飞书",
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "火山引擎",
+      "type": "related",
+      "description": "火山引擎是字节跳动旗下的业务/平台",
+      "confidence": "high"
+    },
+    {
+      "source": "吴永辉",
+      "target": "Google DeepMind",
+      "type": "works_at",
+      "description": "吴永辉曾任Google DeepMind副总裁",
+      "confidence": "high"
+    },
+    {
+      "source": "吴永辉",
+      "target": "字节跳动",
+      "type": "works_at",
+      "description": "吴永辉目前在字节跳动任职并接管团队",
+      "confidence": "high"
+    },
+    {
+      "source": "吴永辉",
+      "target": "Seed",
+      "type": "works_on",
+      "description": "吴永辉接管并调整了Seed团队",
+      "confidence": "high"
+    },
+    {
+      "source": "马斯克",
+      "target": "Seedance",
+      "type": "praises",
+      "description": "文章提到马斯克被Seedance折服",
+      "confidence": "medium"
+    },
+    {
+      "source": "豆包",
+      "target": "飞书",
+      "type": "compares_to",
+      "description": "文章比喻豆包是AI时代的飞书",
+      "confidence": "high"
+    },
+    {
+      "source": "Seedance",
+      "target": "Premiere",
+      "type": "compares_to",
+      "description": "文章比喻Seedance是AI时代的PR",
+      "

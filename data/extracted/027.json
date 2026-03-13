@@ -1,0 +1,226 @@
+{
+  "article": {
+    "id": "027",
+    "title": "AI写作指南3.0编程式写作",
+    "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+    "date": "2025-10-09",
+    "author": "葬爱咸鱼",
+    "content_hash": "7b708c45847c481b22dc1001bce02bcb66cfdd27e0704c10b5f77b25705aa6bf"
+  },
+  "entities": [
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "AI编程Agent应用，可用于终端执行和工程化写作",
+      "mention_count": 19,
+      "aliases": [
+        "Claude Code",
+        "cc"
+      ],
+      "tags": [
+        "编程Agent",
+        "大模型"
+      ]
+    },
+    {
+      "id": "erlich",
+      "name": "Erlich",
+      "type": "person",
+      "description": "提供Claude Code中转服务及入门教程的开发者",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "开发者"
+      ]
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI",
+      "type": "product",
+      "description": "具有长上下文窗口特点的AI编程Agent",
+      "mention_count": 2,
+      "aliases": [
+        "Gemini"
+      ],
+      "tags": [
+        "编程Agent",
+        "大模型"
+      ]
+    },
+    {
+      "id": "cherry-studio",
+      "name": "Cherry Studio",
+      "type": "product",
+      "description": "为Claude Code提供前端界面的套壳应用",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "前端界面",
+        "套壳应用"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "AI编程Agent应用",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "编程Agent"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "AI大模型，可作为编程Agent的后端接入模型",
+      "mention_count": 1,
+      "aliases": [
+        "Kimi K2"
+      ],
+      "tags": [
+        "大模型",
+        "后端模型"
+      ]
+    },
+    {
+      "id": "qoder",
+      "name": "Qoder",
+      "type": "product",
+      "description": "AI编程Agent应用",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "编程Agent"
+      ]
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "AI大模型应用",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "阶跃电脑助手",
+      "name": "阶跃电脑助手",
+      "type": "product",
+      "description": "将Claude Code放到本地环境的套壳应用",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "本地环境",
+        "套壳应用"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Claude",
+      "target": "Gemini CLI",
+      "relation_type": "compares_to",
+      "label": "相比Claude Code，Gemini CLI上下文更长且价格更便宜",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Codex",
+      "relation_type": "competes_with",
+      "label": "同为可用于写作和编程的Agent工具",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Claude",
+      "target": "Qoder",
+      "relation_type": "competes_with",
+      "label": "同为可用于写作和编程的Agent工具",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Claude",
+      "target": "Qwen",
+      "relation_type": "competes_with",
+      "label": "同为可用于AI写作的底层模型/工具",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "low"
+    },
+    {
+      "source": "Gemini CLI",
+      "target": "Qwen",
+      "relation_type": "competes_with",
+      "label": "同为可用于AI写作的底层模型/工具",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "low"
+    },
+    {
+      "source": "Cherry Studio",
+      "target": "Claude",
+      "relation_type": "integrates_with",
+      "label": "Cherry Studio是Claude Code的前端界面套壳",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Kimi",
+      "relation_type": "integrates_with",
+      "label": "Claude Code可以接入Kimi作为后端模型运行",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "阶跃电脑助手",
+      "relation_type": "integrates_with",
+      "label": "阶跃电脑助手将Claude Code放到本地环境中运行",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Erlich",
+      "target": "Claude",
+      "relation_type": "works_on",
+      "label": "Erlich开发了Claude Code的中转服务并撰写了入门教程",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 9,
+    "relationship_count": 9,
+    "pruned_entities": [
+      {
+        "name": "Plaud录音卡片",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Wisper Flow",
+        "reason": "low-signal"
+      },
+      {
+        "name": "通义APP",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

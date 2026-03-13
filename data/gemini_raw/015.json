@@ -1,0 +1,221 @@
+{
+  "entities": [
+    {
+      "name": "马卡龙",
+      "type": "product",
+      "description": "被文章批评为脱实向虚、大规模投放炒作的AI Agent生成平台。",
+      "aliases": [
+        "Macaron"
+      ],
+      "tags": [
+        "Personal Agent",
+        "合成叙事",
+        "Vibe Coding"
+      ]
+    },
+    {
+      "name": "孙宇晨",
+      "type": "person",
+      "description": "币圈创业者，被文章作为与马卡龙及其创始人对比的虚幻/炒作代名词。",
+      "aliases": [
+        "孙割"
+      ],
+      "tags": [
+        "Web3"
+      ]
+    },
+    {
+      "name": "MyShell",
+      "type": "product",
+      "description": "具有逻辑闭环和创作者经济属性的AI与Web3平台，被认为比马卡龙更具实体属性。",
+      "tags": [
+        "Web3",
+        "创作者经济"
+      ]
+    },
+    {
+      "name": "Cursor",
+      "type": "product",
+      "description": "具有实际生产力属性的AI代码编写产品。",
+      "tags": [
+        "Vibe Coding"
+      ]
+    },
+    {
+      "name": "Claude Code",
+      "type": "product",
+      "description": "能实际执行任务的AI代码工具。",
+      "tags": [
+        "Vibe Coding"
+      ]
+    },
+    {
+      "name": "YouWare",
+      "type": "product",
+      "description": "被文章提及可用于制作生日贺卡的AI应用产品。",
+      "tags": [
+        "Vibe Coding"
+      ]
+    },
+    {
+      "name": "陪我",
+      "type": "product",
+      "description": "孙宇晨曾创办的陌生人社交语音房APP，被认为比马卡龙更具真实需求。",
+      "aliases": [
+        "陪我APP"
+      ]
+    },
+    {
+      "name": "陈总",
+      "type": "person",
+      "description": "马卡龙产品的创始人。",
+      "aliases": [
+        "这个中国年轻人"
+      ]
+    },
+    {
+      "name": "扎克伯格",
+      "type": "person",
+      "description": "Facebook创始人，被36氪采访对标为陈总的比较对象。",
+      "aliases": [
+        "小扎"
+      ]
+    },
+    {
+      "name": "36氪",
+      "type": "company",
+      "description": "发布关于马卡龙高度赞美性采访的媒体机构，被文章点名批评。",
+      "tags": [
+        "媒体"
+      ]
+    },
+    {
+      "name": "每日人物",
+      "type": "company",
+      "description": "媒体机构，被文章用来嘲讽36氪小编的业务水平。",
+      "tags": [
+        "媒体"
+      ]
+    },
+    {
+      "name": "反诈助手",
+      "type": "product",
+      "description": "马卡龙平台内官方推荐的Agent，实际为纯文字网页。",
+      "aliases": [
+        "Anti-Fraud Guide"
+      ]
+    },
+    {
+      "name": "绿色浪潮能源",
+      "type": "product",
+      "description": "马卡龙生成的虚构NGO组织官网Agent。",
+      "aliases": [
+        "GreenWave Energy"
+      ]
+    },
+    {
+      "name": "GreenWave",
+      "type": "company",
+      "description": "网络上真实存在的NGO组织，与马卡龙生成的虚假Agent无关。",
+      "tags": [
+        "NGO"
+      ]
+    },
+    {
+      "name": "行程小助手",
+      "type": "product",
+      "description": "马卡龙在聊天界面中为用户生成的一个没有实际自动提醒功能的Agent。"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "马卡龙",
+      "target": "MyShell",
+      "type": "compares_to",
+      "description": "文章对比了马卡龙和MyShell的脱实向虚程度。",
+      "confidence": "high"
+    },
+    {
+      "source": "马卡龙",
+      "target": "陪我",
+      "type": "compares_to",
+      "description": "文章将马卡龙与孙宇晨的陪我APP进行对比，认为后者至少有真实需求。",
+      "confidence": "high"
+    },
+    {
+      "source": "陈总",
+      "target": "马卡龙",
+      "type": "works_on",
+      "description": "陈总是马卡龙产品的创始人。",
+      "confidence": "high"
+    },
+    {
+      "source": "孙宇晨",
+      "target": "陪我",
+      "type": "works_on",
+      "description": "孙宇晨曾推出并运营过陪我APP。",
+      "confidence": "high"
+    },
+    {
+      "source": "陈总",
+      "target": "扎克伯格",
+      "type": "compares_to",
+      "description": "36氪在采访中将陈总与扎克伯格对标，称扎克伯格想做的Agent被陈总先做出来了。",
+      "confidence": "high"
+    },
+    {
+      "source": "陈总",
+      "target": "孙宇晨",
+      "type": "compares_to",
+      "description": "文章通过产品的脱实向虚程度，将马卡龙的创始人与孙宇晨的做派进行了间接对比。",
+      "confidence": "medium"
+    },
+    {
+      "source": "36氪",
+      "target": "马卡龙",
+      "type": "related",
+      "description": "36氪发表了针对马卡龙产品的高度分析与赞扬报道。",
+      "confidence": "high"
+    },
+    {
+      "source": "36氪",
+      "target": "陈总",
+      "type": "related",
+      "description": "36氪采访了马卡龙的创始人陈总。",
+      "confidence": "high"
+    },
+    {
+      "source": "反诈助手",
+      "target": "马卡龙",
+      "type": "integrates_with",
+      "description": "反诈助手是马卡龙平台内嵌生成的官方推荐Agent。",
+      "confidence": "high"
+    },
+    {
+      "source": "绿色浪潮能源",
+      "target": "马卡龙",
+      "type": "integrates_with",
+      "description": "绿色浪潮能源是马卡龙平台内嵌生成的一个Agent。",
+      "confidence": "high"
+    },
+    {
+      "source": "行程小助手",
+      "target": "马卡龙",
+      "type": "integrates_with",
+      "description": "行程小助手是马卡龙平台生成的交互Agent功能模块。",
+      "confidence": "high"
+    },
+    {
+      "source": "绿色浪潮能源",
+      "target": "GreenWave",
+      "type": "related",
+      "description": "马卡龙生成的虚拟网页Agent盗用了现实中存在的NGO组织GreenWave的名称。",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "015",
+  "_article_title": "在马卡龙面前，孙宇晨和Web3都像是实体经济",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

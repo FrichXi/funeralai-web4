@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "咸鱼",
+      "type": "person",
+      "description": "公众号“葬AI”主理人，葬爱咸鱼科技有限公司实控人，脱口秀演讲者",
+      "aliases": [
+        "葬爱咸鱼实控人"
+      ],
+      "tags": [
+        "AI评论",
+        "自媒体"
+      ]
+    },
+    {
+      "name": "葬爱咸鱼科技有限公司",
+      "type": "company",
+      "description": "由咸鱼在北京注册成立的公司",
+      "aliases": [],
+      "tags": [
+        "AI自媒体"
+      ]
+    },
+    {
+      "name": "Cherry Studio",
+      "type": "product",
+      "description": "可以调取大模型API的第三方客户端应用，支持版本管理",
+      "aliases": [],
+      "tags": [
+        "第三方客户端",
+        "大模型API"
+      ]
+    },
+    {
+      "name": "Toki",
+      "type": "product",
+      "description": "支持通过聊天截图或语音设置日程提醒的AI日程管理小工具",
+      "aliases": [],
+      "tags": [
+        "日程管理",
+        "Agent"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "咸鱼",
+      "target": "葬爱咸鱼科技有限公司",
+      "type": "founder_of",
+      "description": "咸鱼在北京注册了葬爱咸鱼科技有限公司并担任实控人",
+      "confidence": "high"
+    },
+    {
+      "source": "咸鱼",
+      "target": "Cherry Studio",
+      "type": "praises",
+      "description": "咸鱼在脱口秀和文章中表达了对Cherry Studio的认可和赞扬",
+      "confidence": "high"
+    },
+    {
+      "source": "咸鱼",
+      "target": "Toki",
+      "type": "praises",
+      "description": "咸鱼在文中称赞了Toki作为日程管理小工具的实用性",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "020",
+  "_article_title": "半年来目睹之AI创业怪现状",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

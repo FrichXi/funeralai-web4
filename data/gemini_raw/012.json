@@ -1,0 +1,186 @@
+{
+  "entities": [
+    {
+      "name": "Head AI (公司)",
+      "type": "company",
+      "description": "被指过度炒作的AI营销类初创企业",
+      "tags": [
+        "AI营销",
+        "代投放"
+      ]
+    },
+    {
+      "name": "Head AI",
+      "type": "product",
+      "description": "号称干掉市场部、实则为Cold Email群发工具的AI营销产品",
+      "aliases": [
+        "Aha Creator",
+        "Aha"
+      ],
+      "tags": [
+        "Cold Email群发工具"
+      ]
+    },
+    {
+      "name": "Head AI创始人",
+      "type": "person",
+      "description": "被指靠炒作概念包装产品的年轻创业者",
+      "tags": [
+        "00后",
+        "辍学创业",
+        "Web3"
+      ]
+    },
+    {
+      "name": "神奇百货",
+      "type": "company",
+      "description": "2015年移动互联网浪潮时的创业项目，实质为淘宝代购",
+      "tags": [
+        "淘宝代购"
+      ]
+    },
+    {
+      "name": "王凯歆",
+      "type": "person",
+      "description": "神奇百货创始人，17岁辍学创业的典型代表",
+      "tags": [
+        "95后",
+        "初中辍学"
+      ]
+    },
+    {
+      "name": "马佳佳",
+      "type": "person",
+      "description": "2015年移动互联网浪潮时期的知名创业者",
+      "tags": [
+        "情趣玩具电商"
+      ]
+    },
+    {
+      "name": "孙宇晨",
+      "type": "person",
+      "description": "知名创业者，常被作为炒作包装的代名词",
+      "aliases": [
+        "孙割"
+      ],
+      "tags": [
+        "区块链",
+        "付费异性语音房"
+      ]
+    },
+    {
+      "name": "Cluely",
+      "type": "company",
+      "description": "被a16z重金投资的初创项目，被作者认为是纯炒作项目",
+      "tags": [
+        "炒作项目"
+      ]
+    },
+    {
+      "name": "真格基金",
+      "type": "company",
+      "description": "知名风险投资机构",
+      "aliases": [
+        "真格"
+      ]
+    },
+    {
+      "name": "红杉资本",
+      "type": "company",
+      "description": "知名风险投资机构",
+      "aliases": [
+        "红杉"
+      ]
+    },
+    {
+      "name": "IDG资本",
+      "type": "company",
+      "description": "知名风险投资机构",
+      "aliases": [
+        "IDG"
+      ]
+    },
+    {
+      "name": "a16z",
+      "type": "company",
+      "description": "知名海外风险投资机构"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Head AI (公司)",
+      "target": "Head AI",
+      "type": "develops",
+      "description": "Head AI公司开发了同名产品",
+      "confidence": "high"
+    },
+    {
+      "source": "Head AI创始人",
+      "target": "Head AI (公司)",
+      "type": "founder_of",
+      "description": "创立了Head AI项目",
+      "confidence": "high"
+    },
+    {
+      "source": "Head AI (公司)",
+      "target": "神奇百货",
+      "type": "compares_to",
+      "description": "文章核心观点，认为Head AI的炒作套路和当年的神奇百货一模一样",
+      "confidence": "high"
+    },
+    {
+      "source": "Head AI创始人",
+      "target": "王凯歆",
+      "type": "compares_to",
+      "description": "作者认为Head AI创始人的故事包装手法与王凯歆如出一辙",
+      "confidence": "high"
+    },
+    {
+      "source": "王凯歆",
+      "target": "神奇百货",
+      "type": "founder_of",
+      "description": "王凯歆是神奇百货的创始人",
+      "confidence": "high"
+    },
+    {
+      "source": "真格基金",
+      "target": "王凯歆",
+      "type": "invests_in",
+      "description": "真格基金投资了王凯歆",
+      "confidence": "high"
+    },
+    {
+      "source": "真格基金",
+      "target": "神奇百货",
+      "type": "invests_in",
+      "description": "真格基金投资了王凯歆创立的项目",
+      "confidence": "medium"
+    },
+    {
+      "source": "红杉资本",
+      "target": "马佳佳",
+      "type": "invests_in",
+      "description": "红杉资本投资了马佳佳",
+      "confidence": "high"
+    },
+    {
+      "source": "IDG资本",
+      "target": "孙宇晨",
+      "type": "invests_in",
+      "description": "IDG资本投资了孙宇晨",
+      "confidence": "high"
+    },
+    {
+      "source": "a16z",
+      "target": "Cluely",
+      "type": "invests_in",
+      "description": "a16z给Cluely投资了1500万美元",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "012",
+  "_article_title": "Head AI让我想起了神奇百货",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

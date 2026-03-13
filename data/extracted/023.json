@@ -1,0 +1,47 @@
+{
+  "article": {
+    "id": "023",
+    "title": "全球首个性压抑AI发布",
+    "path": "articles/023_2025-09-17_葬爱咸鱼_全球首个性压抑AI发布.md",
+    "date": "2025-09-17",
+    "author": "葬爱咸鱼",
+    "content_hash": "fb7f8454d8747797735d59f80de0ed9be4c18168cc709d004a01ee8d51a2cb4e"
+  },
+  "entities": [
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内AI公司，其设立付费墙的商业行为被性压抑AI作为案例进行了解构分析。",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "付费墙"
+      ]
+    },
+    {
+      "id": "youware",
+      "name": "YouWare",
+      "type": "product",
+      "description": "一家AI公司，其关于“创始人神性”的话题被性压抑AI作为集体社会性阳痿的展演进行了解构。",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "神性"
+      ]
+    }
+  ],
+  "relationships": [],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 2,
+    "relationship_count": 0,
+    "pruned_entities": [
+      {
+        "name": "kaiyi",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

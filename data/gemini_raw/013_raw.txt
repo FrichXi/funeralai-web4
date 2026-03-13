@@ -1,0 +1,212 @@
+```json
+{
+  "entities": [
+    {
+      "name": "MyShell",
+      "type": "company",
+      "description": "具有Web3背景的AI创业团队及公司",
+      "aliases": ["MyShell团队"],
+      "tags": ["Web3", "AI创业"]
+    },
+    {
+      "name": "MyShell平台",
+      "type": "product",
+      "description": "结合AI与Web3内容社区的产品，包含多个AI小玩具与代币经济",
+      "aliases": ["MyShell", "app.myshell.ai"],
+      "tags": ["AI内容社区", "创作者经济"]
+    },
+    {
+      "name": "Shell币",
+      "type": "product",
+      "description": "MyShell平台发行的创作者经济代币",
+      "aliases": ["Shell积分"],
+      "tags": ["加密货币", "Web3代币"]
+    },
+    {
+      "name": "Cluely",
+      "type": "product",
+      "description": "被提及的AI产品，其炒作水平被认为不如MyShell",
+      "tags": ["AI产品"]
+    },
+    {
+      "name": "Headai",
+      "type": "product",
+      "description": "被提及的AI产品，其炒作水平被认为不如MyShell",
+      "tags": ["AI产品"]
+    },
+    {
+      "name": "YouWare",
+      "type": "product",
+      "description": "Vibe Coding社区，提供前端小游戏，是MyShell的竞品",
+      "tags": ["Vibe Coding", "社区"]
+    },
+    {
+      "name": "抖音",
+      "type": "product",
+      "description": "知名短视频平台，MyShell宣发时的对标对象"
+    },
+    {
+      "name": "Instagram",
+      "type": "product",
+      "description": "知名社交平台，MyShell宣发时的对标对象"
+    },
+    {
+      "name": "Lucky Kisses",
+      "type": "product",
+      "description": "MyShell上的热门小玩具，可生成女明星飞吻短视频",
+      "tags": ["AI短视频"]
+    },
+    {
+      "name": "Labubu Maker",
+      "type": "product",
+      "description": "MyShell上的小玩具，可将上传图片转换为Labubu风格",
+      "tags": ["AI生图"]
+    },
+    {
+      "name": "ShellAgent",
+      "type": "product",
+      "description": "MyShell主推的Agent生成功能",
+      "tags": ["AI Agent"]
+    },
+    {
+      "name": "胖猫视频生成器",
+      "type": "product",
+      "description": "作者在MyShell上尝试生成的视频工具",
+      "tags": ["AI视频"]
+    },
+    {
+      "name": "谷歌恐龙小游戏",
+      "type": "product",
+      "description": "作者在MyShell平台上尝试模拟生成的小游戏目标"
+    },
+    {
+      "name": "MiniMax",
+      "type": "company",
+      "description": "提供大模型API的AI公司",
+      "tags": ["大模型", "API提供商"]
+    },
+    {
+      "name": "Manus",
+      "type": "product",
+      "description": "知名AI产品，其邀请码营销模式被MyShell缝合借鉴",
+      "tags": ["AI Agent"]
+    },
+    {
+      "name": "妙鸭相机",
+      "type": "product",
+      "description": "知名AI生图产品，其小游戏模式被MyShell缝合借鉴",
+      "tags": ["AI生图"]
+    },
+    {
+      "name": "狗狗币",
+      "type": "product",
+      "description": "知名加密货币，被用来与ShellAgent/Shell币进行价值与空气属性的对比",
+      "tags": ["加密货币"]
+    },
+    {
+      "name": "4399小游戏",
+      "type": "product",
+      "description": "经典小游戏平台，被用来与YouWare生成的前端小玩具做能力对比"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "MyShell",
+      "target": "MyShell平台",
+      "type": "develops",
+      "description": "MyShell团队开发了MyShell平台",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell",
+      "target": "Shell币",
+      "type": "develops",
+      "description": "MyShell团队发行了Shell币",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "ShellAgent",
+      "type": "integrates_with",
+      "description": "MyShell平台内置并主推ShellAgent功能",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "Lucky Kisses",
+      "type": "integrates_with",
+      "description": "Lucky Kisses是MyShell平台上提供的小玩具",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "Labubu Maker",
+      "type": "integrates_with",
+      "description": "Labubu Maker是MyShell平台上提供的小玩具",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "胖猫视频生成器",
+      "type": "integrates_with",
+      "description": "胖猫视频生成器是用户在MyShell平台上生成的应用",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "谷歌恐龙小游戏",
+      "type": "compares_to",
+      "description": "用户尝试用MyShell平台模拟复刻谷歌恐龙小游戏",
+      "confidence": "medium"
+    },
+    {
+      "source": "胖猫视频生成器",
+      "target": "MiniMax",
+      "type": "related",
+      "description": "胖猫视频生成器尝试调用MiniMax的API Key",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "Cluely",
+      "type": "compares_to",
+      "description": "文章对比两者，认为Cluely的炒作水平远不如MyShell",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "Headai",
+      "type": "compares_to",
+      "description": "文章对比两者，认为Headai的炒作水平远不如MyShell",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "抖音",
+      "type": "compares_to",
+      "description": "MyShell宣发稿宣称要做AI时代的抖音",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "Instagram",
+      "type": "compares_to",
+      "description": "MyShell宣发稿宣称想做AI版的Instagram",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "YouWare",
+      "type": "compares_to",
+      "description": "MyShell被指学习模仿YouWare的社区故事，且产品能力不如YouWare",
+      "confidence": "high"
+    },
+    {
+      "source": "MyShell平台",
+      "target": "YouWare",
+      "type": "competes_with",
+      "description": "MyShell与YouWare等真金白银做社区的AI产品构成竞争",
+      "confidence": "high"
+    },
+    {
+      "source":

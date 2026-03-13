@@ -1,0 +1,141 @@
+{
+  "article": {
+    "id": "010",
+    "title": "YouWare说明AI创始人需要神性",
+    "path": "articles/010_2025-07-08_葬爱咸鱼_YouWare说明AI创始人需要神性.md",
+    "date": "2025-07-08",
+    "author": "葬爱咸鱼",
+    "content_hash": "bbfa6893bb985e8cc8fa17ac8e3a6d53a07d04f44516539f35ba90144a6e7778"
+  },
+  "entities": [
+    {
+      "id": "youware",
+      "name": "YouWare",
+      "type": "product",
+      "description": "一款AI网页生成和建站产品",
+      "mention_count": 15,
+      "aliases": [],
+      "tags": [
+        "AI建站",
+        "一句话生成",
+        "Agent"
+      ]
+    },
+    {
+      "id": "明超平",
+      "name": "明超平",
+      "type": "person",
+      "description": "YouWare创始人，前Kimi产品经理",
+      "mention_count": 8,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "知名AI产品",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI生成"
+      ]
+    },
+    {
+      "id": "月之暗面",
+      "name": "月之暗面",
+      "type": "company",
+      "description": "Kimi背后的公司，其股东参与了YouWare的投资",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI公司"
+      ]
+    },
+    {
+      "id": "杨植麟",
+      "name": "杨植麟",
+      "type": "person",
+      "description": "被投资人视为信仰标杆的AI行业标志性人物",
+      "mention_count": 1,
+      "aliases": [
+        "杨圣"
+      ],
+      "tags": [
+        "神级创始人"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "明超平",
+      "target": "杨植麟",
+      "relation_type": "compares_to",
+      "label": "投资人赌明超平有成为下一个杨圣的可能性",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "月之暗面",
+      "target": "Kimi",
+      "relation_type": "develops",
+      "label": "月之暗面是Kimi的开发公司",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    },
+    {
+      "source": "月之暗面",
+      "target": "YouWare",
+      "relation_type": "invests_in",
+      "label": "月之暗面的股东和Kimi幕后人物为YouWare提供了资金",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "low"
+    },
+    {
+      "source": "月之暗面",
+      "target": "明超平",
+      "relation_type": "invests_in",
+      "label": "月之暗面的相关股东实质上投资了明超平",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "low"
+    },
+    {
+      "source": "明超平",
+      "target": "月之暗面",
+      "relation_type": "works_at",
+      "label": "明超平作为前Kimi产品经理，曾在月之暗面任职",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    },
+    {
+      "source": "明超平",
+      "target": "Kimi",
+      "relation_type": "works_on",
+      "label": "明超平曾担任Kimi的产品经理",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "明超平",
+      "target": "YouWare",
+      "relation_type": "works_on",
+      "label": "明超平是YouWare的产品负责人/创始人",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 5,
+    "relationship_count": 7,
+    "pruned_entities": []
+  }
+}

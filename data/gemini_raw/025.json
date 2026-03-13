@@ -1,0 +1,124 @@
+{
+  "entities": [
+    {
+      "name": "论论",
+      "type": "product",
+      "description": "一款由文献检索转型为语音对话的AI应用，被作者戏称为全球首个“性压抑”AI",
+      "aliases": [
+        "论论APP"
+      ],
+      "tags": [
+        "ChatBot",
+        "语音AI",
+        "文献检索",
+        "性压抑"
+      ]
+    },
+    {
+      "name": "论论创始人",
+      "type": "person",
+      "description": "论论APP的创始人，提出“科技文明STC”叙事，将自己的脸和声音合成在产品中",
+      "aliases": [
+        "bro",
+        "小登"
+      ],
+      "tags": [
+        "宏大叙事",
+        "性压抑教父"
+      ]
+    },
+    {
+      "name": "峰哥",
+      "type": "person",
+      "description": "互联网知名人物，在文中被作为“性压抑”特质的比喻和对比对象",
+      "tags": [
+        "性压抑"
+      ]
+    },
+    {
+      "name": "孙宇晨",
+      "type": "person",
+      "description": "知名创业者，在文中被作者用作衡量勇气的对比对象",
+      "aliases": [
+        "孙割宇晨"
+      ]
+    },
+    {
+      "name": "牟其中",
+      "type": "person",
+      "description": "四川企业家，在文中被作者用作宏大叙事和传奇创业者的对比对象",
+      "tags": [
+        "商业文明"
+      ]
+    },
+    {
+      "name": "仲泰",
+      "type": "person",
+      "description": "观猹的制作者或运营者"
+    },
+    {
+      "name": "观猹",
+      "type": "product",
+      "description": "一个可以通过写点评获取论论APP邀请码的平台或产品",
+      "tags": [
+        "邀请码"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "论论创始人",
+      "target": "论论",
+      "type": "works_on",
+      "description": "论论创始人开发、发布并主导了论论APP的转型",
+      "confidence": "high"
+    },
+    {
+      "source": "论论创始人",
+      "target": "孙宇晨",
+      "type": "compares_to",
+      "description": "作者将论论创始人搞宏大叙事的勇气与孙宇晨进行比较，称其远远超越孙宇晨",
+      "confidence": "high"
+    },
+    {
+      "source": "论论创始人",
+      "target": "牟其中",
+      "type": "compares_to",
+      "description": "作者将论论创始人与牟其中对比，称其具有80岁传奇老企业家的智慧和勇气",
+      "confidence": "high"
+    },
+    {
+      "source": "论论创始人",
+      "target": "峰哥",
+      "type": "compares_to",
+      "description": "作者将论论创始人与峰哥进行对比，称论论创始人才是“最高最活的宏大叙事导师、性压抑教父”",
+      "confidence": "high"
+    },
+    {
+      "source": "论论",
+      "target": "峰哥",
+      "type": "compares_to",
+      "description": "作者认为相比于峰哥，论论才是真正的“性压抑”",
+      "confidence": "high"
+    },
+    {
+      "source": "仲泰",
+      "target": "观猹",
+      "type": "works_on",
+      "description": "文中明确提及“仲泰做的观猹”",
+      "confidence": "high"
+    },
+    {
+      "source": "观猹",
+      "target": "论论",
+      "type": "related",
+      "description": "用户可以通过在观猹上写点评来获取论论APP的邀请码",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "025",
+  "_article_title": "论论才是全球首个性压抑AI",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

@@ -1,0 +1,174 @@
+{
+  "article": {
+    "id": "062",
+    "title": "剪映炒Seedance 2.0，炒出一种推背感",
+    "path": "articles/062_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+    "date": "2026-02-12",
+    "author": "骡子马",
+    "content_hash": "55ba28d2f0576e64695f1cb43a5a36c68149e4aceadedb91aa533923c8a7640c"
+  },
+  "entities": [
+    {
+      "id": "剪映",
+      "name": "剪映",
+      "type": "product",
+      "description": "集成了Seedance模型能力的视频剪辑应用",
+      "mention_count": 29,
+      "aliases": [],
+      "tags": [
+        "视频剪辑",
+        "AI工作流"
+      ]
+    },
+    {
+      "id": "seedance",
+      "name": "Seedance",
+      "type": "product",
+      "description": "具有视频、动画生成能力的AI大模型",
+      "mention_count": 18,
+      "aliases": [
+        "Seedance 2.0"
+      ],
+      "tags": [
+        "AI视频生成",
+        "大模型"
+      ]
+    },
+    {
+      "id": "抖音",
+      "name": "抖音",
+      "type": "product",
+      "description": "短视频平台，与剪映深度绑定并形成内容生态循环",
+      "mention_count": 6,
+      "aliases": [],
+      "tags": [
+        "短视频平台"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "剪映、抖音的母公司，Seedance模型的开发及运营方",
+      "mention_count": 4,
+      "aliases": [
+        "字节"
+      ],
+      "tags": []
+    },
+    {
+      "id": "sora",
+      "name": "Sora",
+      "type": "product",
+      "description": "AI视频生成大模型，在文中被用作Seedance技术路线的对比对象",
+      "mention_count": 1,
+      "aliases": [
+        "Sora 2"
+      ],
+      "tags": [
+        "AI视频生成"
+      ]
+    },
+    {
+      "id": "即梦",
+      "name": "即梦",
+      "type": "product",
+      "description": "早期已接入并可使用Seedance模型的AI创作应用",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI创作"
+      ]
+    },
+    {
+      "id": "小云雀",
+      "name": "小云雀",
+      "type": "product",
+      "description": "早期已接入并可使用Seedance模型的AI应用",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Seedance",
+      "target": "Sora",
+      "relation_type": "compares_to",
+      "label": "文章认为Seedance目前更适合生成真人整活视频的特性，类似于Sora早期的技术路线",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "Seedance",
+      "relation_type": "develops",
+      "label": "字节跳动开发了Seedance模型并控制其真人素材上传权限",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "剪映",
+      "relation_type": "develops",
+      "label": "字节跳动通过剪映和抖音的产品组合拳定义短视频生态",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "抖音",
+      "relation_type": "develops",
+      "label": "字节跳动运营抖音及剪映等核心产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Seedance",
+      "target": "剪映",
+      "relation_type": "integrates_with",
+      "label": "剪映应用内部接入了Seedance大模型以提供视频生成和延长等AI功能",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Seedance",
+      "target": "即梦",
+      "relation_type": "integrates_with",
+      "label": "即梦应用此前已开放Seedance模型的访问入口",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Seedance",
+      "target": "小云雀",
+      "relation_type": "integrates_with",
+      "label": "小云雀应用此前已开放Seedance模型的访问入口",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "剪映",
+      "target": "抖音",
+      "relation_type": "integrates_with",
+      "label": "剪映与抖音深度绑定，形成了你中有我我中有你的内容生产与分发循环",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 7,
+    "relationship_count": 8,
+    "pruned_entities": []
+  }
+}

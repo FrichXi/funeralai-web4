@@ -1,0 +1,262 @@
+{
+  "entities": [
+    {
+      "name": "Atoms",
+      "type": "product",
+      "description": "基于多智能体架构的AI编程平台，主打平替Lovable",
+      "tags": [
+        "AI编程",
+        "多智能体",
+        "平替"
+      ]
+    },
+    {
+      "name": "Lovable",
+      "type": "product",
+      "description": "AI编程应用，被作为众多竞品的平替对标目标",
+      "tags": [
+        "AI编程"
+      ]
+    },
+    {
+      "name": "YouWare",
+      "type": "product",
+      "description": "AI编程平台，Atoms的竞品之一",
+      "tags": [
+        "AI编程",
+        "Lovable平替"
+      ]
+    },
+    {
+      "name": "DeepWisdom",
+      "type": "company",
+      "description": "开发了Atoms、OpenManus等产品的团队或公司"
+    },
+    {
+      "name": "MetaGPT",
+      "type": "product",
+      "description": "DeepWisdom团队相关的产品之一"
+    },
+    {
+      "name": "OpenManus",
+      "type": "product",
+      "description": "开源多智能体框架",
+      "tags": [
+        "开源"
+      ]
+    },
+    {
+      "name": "MGX",
+      "type": "product",
+      "description": "DeepWisdom团队相关的产品之一"
+    },
+    {
+      "name": "Manus",
+      "type": "product",
+      "description": "被OpenManus作为平替对标的AI产品"
+    },
+    {
+      "name": "Cursor",
+      "type": "product",
+      "description": "知名的AI代码编程工具"
+    },
+    {
+      "name": "Replit",
+      "type": "product",
+      "description": "AI代码生成工具"
+    },
+    {
+      "name": "圆脸眼镜哥",
+      "type": "person",
+      "description": "Atoms宣传片核心人物，代表团队创始人角色",
+      "aliases": [
+        "圆脸眼镜男"
+      ]
+    },
+    {
+      "name": "明超平",
+      "type": "person",
+      "description": "YouWare的创始核心人物",
+      "aliases": [
+        "小明"
+      ]
+    },
+    {
+      "name": "蚂蚁集团",
+      "type": "company",
+      "description": "投资了DeepWisdom团队的资方",
+      "aliases": [
+        "蚂蚁"
+      ]
+    },
+    {
+      "name": "字节跳动",
+      "type": "company",
+      "description": "被Atoms用来比喻其多智能体组织的科技巨头"
+    },
+    {
+      "name": "谷歌",
+      "type": "company",
+      "description": "科技巨头"
+    },
+    {
+      "name": "阿彪老哥",
+      "type": "person",
+      "description": "SEO领域的资深人士"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Atoms",
+      "target": "Lovable",
+      "type": "compares_to",
+      "description": "Atoms被核心论述为Lovable的平替产品",
+      "confidence": "high"
+    },
+    {
+      "source": "YouWare",
+      "target": "Lovable",
+      "type": "compares_to",
+      "description": "YouWare同样演变成Lovable的平替工具",
+      "confidence": "high"
+    },
+    {
+      "source": "OpenManus",
+      "target": "Manus",
+      "type": "compares_to",
+      "description": "OpenManus被用作平替Manus的产品",
+      "confidence": "high"
+    },
+    {
+      "source": "Atoms",
+      "target": "YouWare",
+      "type": "competes_with",
+      "description": "两者在Lovable平替大赛中产生竞争并被相互对比",
+      "confidence": "high"
+    },
+    {
+      "source": "DeepWisdom",
+      "target": "Atoms",
+      "type": "develops",
+      "description": "Atoms属于DeepWisdom团队名下产品",
+      "confidence": "high"
+    },
+    {
+      "source": "DeepWisdom",
+      "target": "MetaGPT",
+      "type": "develops",
+      "description": "MetaGPT属于DeepWisdom团队名下产品",
+      "confidence": "high"
+    },
+    {
+      "source": "DeepWisdom",
+      "target": "OpenManus",
+      "type": "develops",
+      "description": "OpenManus属于DeepWisdom团队名下产品",
+      "confidence": "high"
+    },
+    {
+      "source": "DeepWisdom",
+      "target": "MGX",
+      "type": "develops",
+      "description": "MGX属于DeepWisdom团队名下产品",
+      "confidence": "high"
+    },
+    {
+      "source": "圆脸眼镜哥",
+      "target": "DeepWisdom",
+      "type": "founder_of",
+      "description": "圆脸眼镜哥作为宣发代表并宣称一年融了2.2亿，推断为团队核心创始人",
+      "confidence": "medium"
+    },
+    {
+      "source": "圆脸眼镜哥",
+      "target": "Atoms",
+      "type": "works_on",
+      "description": "作为核心人物主导并宣传推广Atoms产品",
+      "confidence": "high"
+    },
+    {
+      "source": "明超平",
+      "target": "YouWare",
+      "type": "works_on",
+      "description": "明超平一晚上手搓出了YouWare的初版",
+      "confidence": "high"
+    },
+    {
+      "source": "圆脸眼镜哥",
+      "target": "Lovable",
+      "type": "criticizes",
+      "description": "评价Lovable只是写代码工具，并宣称其努力十辈子也追不上Atoms",
+      "confidence": "medium"
+    },
+    {
+      "source": "圆脸眼镜哥",
+      "target": "Replit",
+      "type": "criticizes",
+      "description": "评价Replit仅仅是帮忙写代码的工具",
+      "confidence": "low"
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "DeepWisdom",
+      "type": "invests_in",
+      "description": "文中提到团队爆到了蚂蚁金币，暗指获得蚂蚁的投资",
+      "confidence": "medium"
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "圆脸眼镜哥",
+      "type": "invests_in",
+      "description": "机构投资团队时建立的机构到创始人的直接关系",
+      "confidence": "medium"
+    },
+    {
+      "source": "Atoms",
+      "target": "字节跳动",
+      "type": "compares_to",
+      "description": "Atoms宣称自己是帮助个体搭建AI版的字节跳动",
+      "confidence": "medium"
+    },
+    {
+      "source": "Lovable",
+      "target": "Replit",
+      "type": "compares_to",
+      "description": "两者被共同归类对比为帮你写代码的工具",
+      "confidence": "medium"
+    },
+    {
+      "source": "明超平",
+      "target": "Cursor",
+      "type": "related",
+      "description": "使用Cursor手搓出了初版的YouWare产品",
+      "confidence": "medium"
+    },
+    {
+      "source": "明超平",
+      "target": "谷歌",
+      "type": "competes_with",
+      "description": "抢在谷歌发布产品前注册了相关域名",
+      "confidence": "low"
+    },
+    {
+      "source": "明超平",
+      "target": "圆脸眼镜哥",
+      "type": "competes_with",
+      "description": "两人作为同类对标产品的核心人物互相竞争",
+      "confidence": "medium"
+    },
+    {
+      "source": "阿彪老哥",
+      "target": "圆脸眼镜哥",
+      "type": "mentors",
+      "description": "作者建议圆脸眼镜哥去深圳潜心向阿彪老哥请教SEO经验",
+      "confidence": "low"
+    }
+  ],
+  "_article_id": "054",
+  "_article_title": "Atoms，平替Lovable的残酷物语",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

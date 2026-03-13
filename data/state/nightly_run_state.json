@@ -1,0 +1,339 @@
+{
+  "startedAt": "2026-03-09T12:34:05Z",
+  "updatedAt": "2026-03-09T12:51:42Z",
+  "config": {
+    "batchSize": 6,
+    "initialWorkers": 2,
+    "maxWorkers": 2,
+    "scaleUpAfterCleanRounds": 2,
+    "cooldownSeconds": 8,
+    "maxRounds": 30,
+    "frontendExport": true,
+    "force": true
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "startedAt": "2026-03-09T12:35:19Z",
+      "workers": 2,
+      "batchArticleIds": [
+        "001",
+        "002",
+        "003",
+        "004",
+        "005",
+        "006"
+      ],
+      "readyArticleIds": [
+        "001",
+        "002",
+        "003",
+        "004",
+        "005",
+        "006"
+      ],
+      "failedArticleIds": [],
+      "durationSeconds": 74.0,
+      "manifestCounts": {
+        "failed": 60,
+        "ready": 6
+      }
+    },
+    {
+      "round": 2,
+      "startedAt": "2026-03-09T12:36:16Z",
+      "workers": 2,
+      "batchArticleIds": [
+        "007",
+        "008",
+        "009",
+        "010",
+        "011",
+        "012"
+      ],
+      "readyArticleIds": [
+        "007",
+        "008",
+        "009",
+        "010",
+        "011",
+        "012"
+      ],
+      "failedArticleIds": [],
+      "durationSeconds": 57.4,
+      "manifestCounts": {
+        "failed": 54,
+        "ready": 12
+      }
+    },
+    {
+      "round": 3,
+      "startedAt": "2026-03-09T12:37:32Z",
+      "workers": 2,
+      "batchArticleIds": [
+        "013",
+        "014",
+        "015",
+        "016",
+        "017",
+        "018"
+      ],
+      "readyArticleIds": [
+        "013",
+        "014",
+        "015",
+        "016",
+        "017",
+        "018"
+      ],
+      "failedArticleIds": [],
+      "durationSeconds": 76.0,
+      "manifestCounts": {
+        "failed": 48,
+        "ready": 18
+      }
+    },
+    {
+      "round": 4,
+      "startedAt": "2026-03-09T12:40:13Z",
+      "workers": 2,
+      "batchArticleIds": [
+        "019",
+        "020",
+        "021",
+        "022",
+        "023",
+        "024"
+      ],
+      "readyArticleIds": [
+        "019",
+        "020",
+        "021",
+        "022",
+        "023",
+        "024"
+      ],
+      "failedArticleIds": [],
+      "durationSeconds": 160.7,
+      "manifestCounts": {
+        "failed": 42,
+        "ready": 24
+      }
+    },
+    {
+      "round": 5,
+      "startedAt": "2026-03-09T12:41:11Z",
+      "workers": 2,
+      "batchArticleIds": [
+        "025",
+        "026",
+        "027",
+        "028",
+        "029",
+        "030"
+      ],
+      "readyArticleIds": [
+        "025",
+        "026",
+        "027",
+        "028",
+        "029",
+        "030"
+      ],
+      "failedArticleIds": [],
+      "durationSeconds": 58.3,
+      "manifestCounts": {
+        "failed": 36,
+        "ready": 30
+      }
+    },
+    {
+      "round": 6,
+      "startedAt": "2026-03-09T12:42:22Z",
+      "workers": 2,
+      "batchArticleIds": [
+        "031",
+        "032",
+        "033",
+        "034",
+        "035",
+        "036"
+      ],
+      "readyArticleIds": [
+        "031",
+        "032",
+        "033",
+        "034",
+        "035",
+        "036"
+      ],
+      "failedArticleIds": [],
+      "durationSeconds": 70.6,
+      "manifestCounts": {
+        "failed": 30,
+        "ready": 36
+      }
+    },
+    {
+      "round": 7,
+      "startedAt": "2026-03-09T12:43:30Z",
+      "workers": 2,
+      "batchArticleIds": [
+        "037",
+        "038",
+        "039",
+        "040",
+        "041",
+        "042"
+      ],
+      "readyArticleIds": [
+        "037",
+        "038",
+        "039",
+        "040",
+        "041",
+        "042"
+      ],
+      "failedArticleIds": [],
+      "durationSeconds": 67.9,
+      "manifestCounts": {
+        "failed": 24,
+        "ready": 42
+      }
+    },
+    {
+      "round": 8,
+      "startedAt": "2026-03-09T12:44:29Z",
+      "workers": 2,
+      "batchArticleIds": [
+        "043",
+        "044",
+        "045",
+        "046",
+        "047",
+        "048"
+      ],
+      "readyArticleIds": [
+        "043",
+        "044",
+        "045",
+        "046",
+        "047",
+        "048"
+      ],
+      "failedArticleIds": [],
+      "durationSeconds": 59.7,
+      "manifestCounts": {
+        "failed": 18,
+        "ready": 48
+      }
+    },
+    {
+      "round": 9,
+      "startedAt": "2026-03-09T12:45:39Z",
+      "workers": 2,
+      "batchArticleIds": [
+        "049",
+        "050",
+        "051",
+        "052",
+        "053",
+        "054"
+      ],
+      "readyArticleIds": [
+        "049",
+        "050",
+        "051",
+        "052",
+        "053",
+        "054"
+      ],
+      "failedArticleIds": [],
+      "durationSeconds": 69.8,
+      "manifestCounts": {
+        "failed": 12,
+        "ready": 54
+      }
+    },
+    {
+      "round": 10,
+      "startedAt": "2026-03-09T12:46:53Z",
+      "workers": 2,
+      "batchArticleIds": [
+        "055",
+        "056",
+        "057",
+        "058",
+        "059",
+        "060"
+      ],
+      "readyArticleIds": [
+        "055",
+        "056",
+        "057",
+        "058",
+        "059",
+        "060"
+      ],
+      "failedArticleIds": [],
+      "durationSeconds": 73.5,
+      "manifestCounts": {
+        "failed": 6,
+        "ready": 60
+      }
+    },
+    {
+      "round": 11,
+      "startedAt": "2026-03-09T12:51:42Z",
+      "workers": 2,
+      "batchArticleIds": [
+        "061",
+        "062",
+        "063",
+        "064",
+        "065",
+        "066"
+      ],
+      "readyArticleIds": [
+        "061",
+        "062",
+        "063",
+        "064",
+        "065",
+        "066"
+      ],
+      "failedArticleIds": [],
+      "durationSeconds": 289.6,
+      "manifestCounts": {
+        "ready": 66
+      }
+    }
+  ],
+  "status": {
+    "counts": {
+      "ready": 66
+    },
+    "outstandingArticleIds": []
+  },
+  "finishedAt": "2026-03-09T12:51:42Z",
+  "result": {
+    "success": true,
+    "counts": {
+      "ready": 66
+    },
+    "graph": {
+      "fullNodes": 340,
+      "fullLinks": 434,
+      "nodes": 155,
+      "links": 236,
+      "frontendExported": true
+    },
+    "presentation": {
+      "graphViewNodes": 155,
+      "leaderboardEntries": 29
+    },
+    "articles": {
+      "count": 66
+    }
+  }
+}

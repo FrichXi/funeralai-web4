@@ -1,0 +1,535 @@
+{
+  "entities": [
+    {
+      "name": "葬AI模拟器",
+      "type": "product",
+      "description": "基于文章内容生成的开源对话AI项目",
+      "aliases": [],
+      "tags": [
+        "开源项目",
+        "一次性软件"
+      ]
+    },
+    {
+      "name": "Claude code",
+      "type": "product",
+      "description": "由Anthropic开发的AI编程工具，被广泛用作套壳应用的底层引擎",
+      "aliases": [
+        "CC"
+      ],
+      "tags": [
+        "编程Agent",
+        "通用引擎"
+      ]
+    },
+    {
+      "name": "邪恶意大利人",
+      "type": "person",
+      "description": "文中对Claude code开发者（即Anthropic创始人）的戏称",
+      "aliases": [],
+      "tags": [
+        "开发者"
+      ]
+    },
+    {
+      "name": "Anthropic",
+      "type": "company",
+      "description": "开发Claude code及其他AI套壳应用的公司",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "Erlich",
+      "type": "person",
+      "description": "AI开发者，开发了Claude code的套壳客户端Proma",
+      "aliases": [],
+      "tags": [
+        "开发者"
+      ]
+    },
+    {
+      "name": "Proma",
+      "type": "product",
+      "description": "基于Claude code打造的套壳客户端应用",
+      "aliases": [],
+      "tags": [
+        "套壳应用",
+        "编程Agent客户端"
+      ]
+    },
+    {
+      "name": "cowork",
+      "type": "product",
+      "description": "文中提及的AI套壳应用",
+      "aliases": [],
+      "tags": [
+        "套壳应用"
+      ]
+    },
+    {
+      "name": "Cherry studio",
+      "type": "product",
+      "description": "文中提及的AI套壳应用",
+      "aliases": [],
+      "tags": [
+        "套壳应用"
+      ]
+    },
+    {
+      "name": "阶跃桌面伙伴",
+      "type": "product",
+      "description": "文中提及的AI套壳应用",
+      "aliases": [],
+      "tags": [
+        "套壳应用"
+      ]
+    },
+    {
+      "name": "Qwen code",
+      "type": "product",
+      "description": "国产编程Agent产品",
+      "aliases": [],
+      "tags": [
+        "国产AI",
+        "编程Agent"
+      ]
+    },
+    {
+      "name": "Kimi code",
+      "type": "product",
+      "description": "国产编程Agent产品",
+      "aliases": [],
+      "tags": [
+        "国产AI",
+        "编程Agent"
+      ]
+    },
+    {
+      "name": "GLM code",
+      "type": "product",
+      "description": "国产编程Agent产品",
+      "aliases": [],
+      "tags": [
+        "国产AI",
+        "编程Agent"
+      ]
+    },
+    {
+      "name": "Taku",
+      "type": "product",
+      "description": "自称为自研框架的编程Agent产品",
+      "aliases": [],
+      "tags": [
+        "自研框架",
+        "编程Agent"
+      ]
+    },
+    {
+      "name": "Codex",
+      "type": "product",
+      "description": "AI编程工具，文中认为其能力强、干脆",
+      "aliases": [
+        "Codex SDK"
+      ],
+      "tags": [
+        "编程Agent"
+      ]
+    },
+    {
+      "name": "付铖",
+      "type": "person",
+      "description": "MuleRun产品经理，曾有3D打印模型商业经验",
+      "aliases": [],
+      "tags": [
+        "产品经理",
+        "创业者"
+      ]
+    },
+    {
+      "name": "MuleRun",
+      "type": "company",
+      "description": "一个智能体交易市场",
+      "aliases": [],
+      "tags": [
+        "智能体交易",
+        "Agent"
+      ]
+    },
+    {
+      "name": "Temu",
+      "type": "company",
+      "description": "跨境电商平台，付铖曾在此销售3D打印模型",
+      "aliases": [],
+      "tags": [
+        "电商"
+      ]
+    },
+    {
+      "name": "拓竹",
+      "type": "company",
+      "description": "知名的消费级3D打印机制造公司",
+      "aliases": [
+        "Bambu Lab"
+      ],
+      "tags": [
+        "3D打印",
+        "硬件出海"
+      ]
+    },
+    {
+      "name": "CyberBrick",
+      "type": "product",
+      "description": "拓竹推出的一套标准化电子模组产品线",
+      "aliases": [],
+      "tags": [
+        "电子模组",
+        "硬件套件"
+      ]
+    },
+    {
+      "name": "Wild Hornets",
+      "type": "company",
+      "description": "乌克兰使用3D打印生产无人机的组织",
+      "aliases": [],
+      "tags": [
+        "无人机制造",
+        "3D打印"
+      ]
+    },
+    {
+      "name": "小智AI",
+      "type": "product",
+      "description": "基于ESP32开发板和AI大模型的廉价AI硬件设备",
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "具身智能"
+      ]
+    },
+    {
+      "name": "乐鑫",
+      "type": "company",
+      "description": "开发ESP32开发板的微电子硬件公司",
+      "aliases": [],
+      "tags": [
+        "芯片",
+        "硬件"
+      ]
+    },
+    {
+      "name": "ESP32",
+      "type": "product",
+      "description": "廉价且广泛使用的开发板",
+      "aliases": [],
+      "tags": [
+        "开发板",
+        "底层硬件"
+      ]
+    },
+    {
+      "name": "千问",
+      "type": "product",
+      "description": "被小智AI调用API的底层AI大模型",
+      "aliases": [],
+      "tags": [
+        "大模型API"
+      ]
+    },
+    {
+      "name": "芙崽",
+      "type": "product",
+      "description": "销量第一的AI陪伴玩具",
+      "aliases": [],
+      "tags": [
+        "AI陪伴",
+        "硬件玩具"
+      ]
+    },
+    {
+      "name": "MimiClaw",
+      "type": "product",
+      "description": "能够运行在ESP32开发板上的开源Agent架构项目",
+      "aliases": [],
+      "tags": [
+        "开源项目",
+        "边缘计算"
+      ]
+    },
+    {
+      "name": "OpenClaw",
+      "type": "product",
+      "description": "MimiClaw对标的Agent产品",
+      "aliases": [],
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "name": "Cursor",
+      "type": "product",
+      "description": "AI代码编辑器，被用于快速开发产品demo",
+      "aliases": [],
+      "tags": [
+        "AI编程工具"
+      ]
+    },
+    {
+      "name": "Youware",
+      "type": "product",
+      "description": "通过Cursor快速开发出的产品demo",
+      "aliases": [],
+      "tags": [
+        "软件Demo"
+      ]
+    },
+    {
+      "name": "创想三维",
+      "type": "company",
+      "description": "位于深圳的全球知名3D打印机公司",
+      "aliases": [],
+      "tags": [
+        "3D打印"
+      ]
+    },
+    {
+      "name": "纵维立方",
+      "type": "company",
+      "description": "位于深圳的全球知名3D打印机公司",
+      "aliases": [],
+      "tags": [
+        "3D打印"
+      ]
+    },
+    {
+      "name": "智能派",
+      "type": "company",
+      "description": "位于深圳的全球知名3D打印机公司",
+      "aliases": [],
+      "tags": [
+        "3D打印"
+      ]
+    },
+    {
+      "name": "大疆",
+      "type": "company",
+      "description": "知名的无人机及硬件制造公司",
+      "aliases": [],
+      "tags": [
+        "无人机",
+        "硬件制造"
+      ]
+    },
+    {
+      "name": "火山引擎",
+      "type": "company",
+      "description": "云服务与软件工具提供商",
+      "aliases": [],
+      "tags": [
+        "软件工具",
+        "云服务"
+      ]
+    },
+    {
+      "name": "阿里云",
+      "type": "company",
+      "description": "云服务与软件工具提供商",
+      "aliases": [],
+      "tags": [
+        "软件工具",
+        "云服务"
+      ]
+    },
+    {
+      "name": "AWS",
+      "type": "company",
+      "description": "全球性的云服务提供商",
+      "aliases": [],
+      "tags": [
+        "软件工具",
+        "云服务"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "邪恶意大利人",
+      "target": "Claude code",
+      "type": "works_on",
+      "description": "邪恶意大利人（Anthropic创始人）制造了Claude code",
+      "confidence": "high"
+    },
+    {
+      "source": "邪恶意大利人",
+      "target": "Anthropic",
+      "type": "works_at",
+      "description": "邪恶意大利人作为Claude code的创造者，隶属于Anthropic",
+      "confidence": "medium"
+    },
+    {
+      "source": "Anthropic",
+      "target": "Claude code",
+      "type": "develops",
+      "description": "Anthropic开发了Claude code，以及其衍生的套壳应用",
+      "confidence": "high"
+    },
+    {
+      "source": "Erlich",
+      "target": "Proma",
+      "type": "works_on",
+      "description": "Erlich花费一天半时间制作了Proma",
+      "confidence": "high"
+    },
+    {
+      "source": "Proma",
+      "target": "Claude code",
+      "type": "integrates_with",
+      "description": "Proma是基于Claude code制作的套壳客户端",
+      "confidence": "high"
+    },
+    {
+      "source": "Proma",
+      "target": "cowork",
+      "type": "compares_to",
+      "description": "Proma的核心使用体验与cowork没有区别",
+      "confidence": "high"
+    },
+    {
+      "source": "Proma",
+      "target": "Cherry studio",
+      "type": "compares_to",
+      "description": "Proma的核心使用体验与Cherry studio没有区别",
+      "confidence": "high"
+    },
+    {
+      "source": "Proma",
+      "target": "阶跃桌面伙伴",
+      "type": "compares_to",
+      "description": "Proma的核心使用体验与阶跃桌面伙伴没有区别",
+      "confidence": "high"
+    },
+    {
+      "source": "Qwen code",
+      "target": "Claude code",
+      "type": "compares_to",
+      "description": "Qwen code与Claude code被作为编程Agent进行比较，体验略逊",
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi code",
+      "target": "Claude code",
+      "type": "compares_to",
+      "description": "Kimi code与Claude code被作为编程Agent进行比较，体验略逊",
+      "confidence": "high"
+    },
+    {
+      "source": "GLM code",
+      "target": "Claude code",
+      "type": "compares_to",
+      "description": "GLM code与Claude code被作为编程Agent进行比较，体验略逊",
+      "confidence": "high"
+    },
+    {
+      "source": "Taku",
+      "target": "Claude code",
+      "type": "compares_to",
+      "description": "Taku否认是Claude code套壳，但使用体验被指与CC套壳产品差不多",
+      "confidence": "high"
+    },
+    {
+      "source": "Codex",
+      "target": "Claude code",
+      "type": "compares_to",
+      "description": "作者认为Codex比Claude code更快干脆",
+      "confidence": "high"
+    },
+    {
+      "source": "付铖",
+      "target": "MuleRun",
+      "type": "works_on",
+      "description": "付铖是MuleRun的现任操盘者/产品经理",
+      "confidence": "high"
+    },
+    {
+      "source": "MuleRun",
+      "target": "Temu",
+      "type": "compares_to",
+      "description": "文中将MuleRun上卖Agent的商业逻辑与在Temu卖3D模型进行了本质层面的类比",
+      "confidence": "medium"
+    },
+    {
+      "source": "拓竹",
+      "target": "CyberBrick",
+      "type": "develops",
+      "description": "拓竹开发了入选时代周刊发明的CyberBrick产品线",
+      "confidence": "high"
+    },
+    {
+      "source": "乐鑫",
+      "target": "ESP32",
+      "type": "develops",
+      "description": "小智AI使用的ESP32开发板由乐鑫生产",
+      "confidence": "high"
+    },
+    {
+      "source": "小智AI",
+      "target": "ESP32",
+      "type": "integrates_with",
+      "description": "小智AI的硬件底层基于ESP32开发板",
+      "confidence": "high"
+    },
+    {
+      "source": "小智AI",
+      "target": "千问",
+      "type": "integrates_with",
+      "description": "小智AI通过调用千问API实现语音对话和智能功能",
+      "confidence": "high"
+    },
+    {
+      "source": "小智AI",
+      "target": "芙崽",
+      "type": "compares_to",
+      "description": "廉价AI硬件被指使用了与芙崽一模一样的外观方案（眼睛）",
+      "confidence": "high"
+    },
+    {
+      "source": "MimiClaw",
+      "target": "ESP32",
+      "type": "integrates_with",
+      "description": "开发者把MimiClaw的Agent架构直接装到了ESP32开发板上",
+      "confidence": "high"
+    },
+    {
+      "source": "MimiClaw",
+      "target": "OpenClaw",
+      "type": "compares_to",
+      "description": "MimiClaw被视作平替OpenClaw体验的产品",
+      "confidence": "high"
+    },
+    {
+      "source": "拓竹",
+      "target": "创想三维",
+      "type": "compares_to",
+      "description": "拓竹和创想三维被并列为中国南方主导硬件供应链的代表性3D打印企业",
+      "confidence": "medium"
+    },
+    {
+      "source": "拓竹",
+      "target": "纵维立方",
+      "type": "compares_to",
+      "description": "并列为全球出货量前四的深圳3D打印机厂商",
+      "confidence": "medium"
+    },
+    {
+      "source": "拓竹",
+      "target": "智能派",
+      "type": "compares_to",
+      "description": "并列为全球出货量前四的深圳3D打印机厂商",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "065",
+  "_article_title": "AI编程创造世界",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

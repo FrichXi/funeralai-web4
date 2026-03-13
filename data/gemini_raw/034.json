@@ -1,0 +1,85 @@
+{
+  "entities": [
+    {
+      "name": "千问",
+      "type": "product",
+      "description": "阿里巴巴出品的AI原生大模型应用产品",
+      "aliases": [
+        "千问APP",
+        "Qwen"
+      ],
+      "tags": [
+        "大模型",
+        "原生应用",
+        "AI助手"
+      ]
+    },
+    {
+      "name": "阿里巴巴",
+      "type": "company",
+      "description": "推出千问APP的科技公司",
+      "aliases": [
+        "阿里"
+      ],
+      "tags": [
+        "大厂",
+        "科技公司"
+      ]
+    },
+    {
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "知名的海外AI大模型原生产品，被用作千问的对标和测评对比对象",
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "AI应用"
+      ]
+    },
+    {
+      "name": "豆包",
+      "type": "product",
+      "description": "国产AI大模型应用，文中作为千问的竞品参与了能力对比",
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "AI助手"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "阿里巴巴",
+      "target": "千问",
+      "type": "develops",
+      "description": "阿里巴巴出品并推出了千问APP",
+      "confidence": "high"
+    },
+    {
+      "source": "千问",
+      "target": "ChatGPT",
+      "type": "compares_to",
+      "description": "文章指出千问需要像ChatGPT那样的原生产品形态",
+      "confidence": "high"
+    },
+    {
+      "source": "千问",
+      "target": "ChatGPT",
+      "type": "competes_with",
+      "description": "文章在烂字识图、医学建议、幽默理解、文章总结等多个场景下对千问和ChatGPT进行了深度测试与对比",
+      "confidence": "high"
+    },
+    {
+      "source": "千问",
+      "target": "豆包",
+      "type": "competes_with",
+      "description": "文章在寻求医学建议场景中将千问与豆包的能力进行了横向测试对比",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "034",
+  "_article_title": "千问唤起世界人民的最中幻想",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

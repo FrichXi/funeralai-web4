@@ -1,0 +1,241 @@
+{
+  "entities": [
+    {
+      "name": "Flowith",
+      "type": "company",
+      "description": "一家估值一亿多美元的AI创业公司",
+      "aliases": [],
+      "tags": [
+        "AI创业"
+      ]
+    },
+    {
+      "name": "Flowith OS",
+      "type": "product",
+      "description": "Flowith发布的AI浏览器及Agent操作系统",
+      "aliases": [
+        "Flowith",
+        "AI浏览器"
+      ],
+      "tags": [
+        "Agent OS"
+      ]
+    },
+    {
+      "name": "dereknee",
+      "type": "person",
+      "description": "Flowith创始人",
+      "aliases": [],
+      "tags": [
+        "创始人"
+      ]
+    },
+    {
+      "name": "锤子手机",
+      "type": "product",
+      "description": "智能手机品牌，文中被用作与Flowith进行类比的对象",
+      "aliases": [
+        "锤子"
+      ],
+      "tags": [
+        "点子型产品"
+      ]
+    },
+    {
+      "name": "ChatGPT Atlas",
+      "type": "product",
+      "description": "AI产品，Flowith OS宣传中的对标超越对象",
+      "aliases": [
+        "ChatGPT Altas",
+        "Altas",
+        "Atlas"
+      ],
+      "tags": []
+    },
+    {
+      "name": "阶跃桌面伙伴",
+      "type": "product",
+      "description": "具备调用浏览器及操作本地终端功能的AI产品",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "Head AI",
+      "type": "product",
+      "description": "被作者用来与Flowith OS做对比的AI产品",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "My Shell",
+      "type": "product",
+      "description": "被作者用来与Flowith OS做对比的AI产品",
+      "aliases": [],
+      "tags": [
+        "产品完整"
+      ]
+    },
+    {
+      "name": "YouWare",
+      "type": "product",
+      "description": "被作者用来与Flowith OS做对比的AI产品",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "明超平",
+      "type": "person",
+      "description": "AI行业人物，被评价为老实本分干活的典范",
+      "aliases": [],
+      "tags": [
+        "AI产品之神"
+      ]
+    },
+    {
+      "name": "Manus",
+      "type": "product",
+      "description": "开创通用Agent叙事的AI产品",
+      "aliases": [
+        "Man君"
+      ],
+      "tags": [
+        "通用Agent"
+      ]
+    },
+    {
+      "name": "Genspark",
+      "type": "product",
+      "description": "以快速复刻功能、执行力强著称的AI产品",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "Chrome",
+      "type": "product",
+      "description": "成熟稳定的传统浏览器",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "孙先生",
+      "type": "person",
+      "description": "被作者采访的鹤岗人士，前锤子手机粉丝",
+      "aliases": [],
+      "tags": [
+        "锤粉"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "dereknee",
+      "target": "Flowith",
+      "type": "founder_of",
+      "description": "dereknee是Flowith的创始人",
+      "confidence": "high"
+    },
+    {
+      "source": "Flowith",
+      "target": "Flowith OS",
+      "type": "develops",
+      "description": "Flowith公司开发了Flowith OS产品",
+      "confidence": "high"
+    },
+    {
+      "source": "dereknee",
+      "target": "Flowith OS",
+      "type": "works_on",
+      "description": "作为创始人，主导开发Flowith OS",
+      "confidence": "high"
+    },
+    {
+      "source": "Flowith OS",
+      "target": "锤子手机",
+      "type": "compares_to",
+      "description": "文章核心观点认为Flowith像锤子手机，空有点子设计但不好用",
+      "confidence": "high"
+    },
+    {
+      "source": "Flowith OS",
+      "target": "ChatGPT Atlas",
+      "type": "competes_with",
+      "description": "Flowith OS宣传号称超越ChatGPT Altas，存在竞争及对标关系",
+      "confidence": "high"
+    },
+    {
+      "source": "Flowith OS",
+      "target": "阶跃桌面伙伴",
+      "type": "competes_with",
+      "description": "两者功能重合，但阶跃桌面伙伴产品完成度比Flowith OS好",
+      "confidence": "high"
+    },
+    {
+      "source": "Flowith OS",
+      "target": "Chrome",
+      "type": "competes_with",
+      "description": "Flowith OS作为AI浏览器，试图替代成熟稳定的Chrome浏览器",
+      "confidence": "high"
+    },
+    {
+      "source": "Flowith OS",
+      "target": "Head AI",
+      "type": "compares_to",
+      "description": "文章将Flowith OS与Head AI进行优劣对比",
+      "confidence": "high"
+    },
+    {
+      "source": "Flowith OS",
+      "target": "My Shell",
+      "type": "compares_to",
+      "description": "文章将Flowith OS与My Shell进行优劣对比，凸显My Shell产品完整",
+      "confidence": "high"
+    },
+    {
+      "source": "Flowith OS",
+      "target": "YouWare",
+      "type": "compares_to",
+      "description": "文章将Flowith OS与YouWare进行对比",
+      "confidence": "high"
+    },
+    {
+      "source": "Flowith OS",
+      "target": "Manus",
+      "type": "compares_to",
+      "description": "文章将Flowith OS的叙事能力与开创Agent叙事的Manus进行对比",
+      "confidence": "high"
+    },
+    {
+      "source": "Flowith OS",
+      "target": "Genspark",
+      "type": "compares_to",
+      "description": "文章将Flowith的执行力与Genspark进行对比",
+      "confidence": "high"
+    },
+    {
+      "source": "dereknee",
+      "target": "明超平",
+      "type": "compares_to",
+      "description": "文章用老实干活的典范明超平，反讽缺乏创意和叙事能力的Flowith创业者",
+      "confidence": "medium"
+    },
+    {
+      "source": "孙先生",
+      "target": "锤子手机",
+      "type": "praises",
+      "description": "孙先生曾是锤子手机的粉丝",
+      "confidence": "high"
+    },
+    {
+      "source": "孙先生",
+      "target": "Flowith OS",
+      "type": "criticizes",
+      "description": "孙先生对Flowith像锤子手机的说法反应激烈并作出失态言论，表现出对Flowith的批评态势",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "032",
+  "_article_title": "Flowith是个锤子",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

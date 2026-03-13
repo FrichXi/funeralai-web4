@@ -1,0 +1,200 @@
+{
+  "entities": [
+    {
+      "name": "Claude Code",
+      "type": "product",
+      "description": "AI编程Agent应用，可用于终端执行和工程化写作",
+      "aliases": [
+        "cc",
+        "Claude"
+      ],
+      "tags": [
+        "编程Agent",
+        "大模型"
+      ]
+    },
+    {
+      "name": "Cherry Studio",
+      "type": "product",
+      "description": "为Claude Code提供前端界面的套壳应用",
+      "aliases": [],
+      "tags": [
+        "前端界面",
+        "套壳应用"
+      ]
+    },
+    {
+      "name": "阶跃电脑助手",
+      "type": "product",
+      "description": "将Claude Code放到本地环境的套壳应用",
+      "aliases": [],
+      "tags": [
+        "本地环境",
+        "套壳应用"
+      ]
+    },
+    {
+      "name": "通义APP",
+      "type": "product",
+      "description": "提供语音输入和录音转录功能的AI应用",
+      "aliases": [
+        "通义"
+      ],
+      "tags": [
+        "语音输入"
+      ]
+    },
+    {
+      "name": "Plaud录音卡片",
+      "type": "product",
+      "description": "用于录音和口述思路转录的AI硬件设备",
+      "aliases": [
+        "Plaud"
+      ],
+      "tags": [
+        "硬件",
+        "语音输入"
+      ]
+    },
+    {
+      "name": "Wisper Flow",
+      "type": "product",
+      "description": "Mac端语音输入工具",
+      "aliases": [],
+      "tags": [
+        "语音输入",
+        "效率工具"
+      ]
+    },
+    {
+      "name": "Gemini CLI",
+      "type": "product",
+      "description": "具有长上下文窗口特点的AI编程Agent",
+      "aliases": [
+        "Gemini"
+      ],
+      "tags": [
+        "编程Agent",
+        "大模型"
+      ]
+    },
+    {
+      "name": "Codex",
+      "type": "product",
+      "description": "AI编程Agent应用",
+      "aliases": [],
+      "tags": [
+        "编程Agent"
+      ]
+    },
+    {
+      "name": "Qoder",
+      "type": "product",
+      "description": "AI编程Agent应用",
+      "aliases": [],
+      "tags": [
+        "编程Agent"
+      ]
+    },
+    {
+      "name": "Erlich",
+      "type": "person",
+      "description": "提供Claude Code中转服务及入门教程的开发者",
+      "aliases": [],
+      "tags": [
+        "开发者"
+      ]
+    },
+    {
+      "name": "Kimi",
+      "type": "product",
+      "description": "AI大模型，可作为编程Agent的后端接入模型",
+      "aliases": [
+        "Kimi K2"
+      ],
+      "tags": [
+        "大模型",
+        "后端模型"
+      ]
+    },
+    {
+      "name": "Qwen",
+      "type": "product",
+      "description": "AI大模型应用",
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Cherry Studio",
+      "target": "Claude Code",
+      "type": "integrates_with",
+      "description": "Cherry Studio是Claude Code的前端界面套壳",
+      "confidence": "high"
+    },
+    {
+      "source": "阶跃电脑助手",
+      "target": "Claude Code",
+      "type": "integrates_with",
+      "description": "阶跃电脑助手将Claude Code放到本地环境中运行",
+      "confidence": "high"
+    },
+    {
+      "source": "Gemini CLI",
+      "target": "Claude Code",
+      "type": "compares_to",
+      "description": "相比Claude Code，Gemini CLI上下文更长且价格更便宜",
+      "confidence": "high"
+    },
+    {
+      "source": "Codex",
+      "target": "Claude Code",
+      "type": "competes_with",
+      "description": "同为可用于写作和编程的Agent工具",
+      "confidence": "medium"
+    },
+    {
+      "source": "Qoder",
+      "target": "Claude Code",
+      "type": "competes_with",
+      "description": "同为可用于写作和编程的Agent工具",
+      "confidence": "medium"
+    },
+    {
+      "source": "Erlich",
+      "target": "Claude Code",
+      "type": "works_on",
+      "description": "Erlich开发了Claude Code的中转服务并撰写了入门教程",
+      "confidence": "high"
+    },
+    {
+      "source": "Claude Code",
+      "target": "Kimi",
+      "type": "integrates_with",
+      "description": "Claude Code可以接入Kimi作为后端模型运行",
+      "confidence": "high"
+    },
+    {
+      "source": "Gemini CLI",
+      "target": "Qwen",
+      "type": "competes_with",
+      "description": "同为可用于AI写作的底层模型/工具",
+      "confidence": "low"
+    },
+    {
+      "source": "Claude Code",
+      "target": "Qwen",
+      "type": "competes_with",
+      "description": "同为可用于AI写作的底层模型/工具",
+      "confidence": "low"
+    }
+  ],
+  "_article_id": "027",
+  "_article_title": "AI写作指南3.0编程式写作",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

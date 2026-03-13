@@ -1,0 +1,295 @@
+{
+  "entities": [
+    {
+      "name": "葬AI",
+      "type": "company",
+      "description": "AI行业自媒体组织，“第一届葬AI炒作大赛”的主办方",
+      "aliases": [
+        "葬爱家族"
+      ],
+      "tags": [
+        "自媒体",
+        "活动主办方"
+      ]
+    },
+    {
+      "name": "骆轶航",
+      "type": "person",
+      "description": "硅星人创始人兼CEO，活动开场嘉宾",
+      "aliases": [
+        "骆师"
+      ],
+      "tags": [
+        "创始人",
+        "CEO",
+        "媒体人"
+      ]
+    },
+    {
+      "name": "硅星人",
+      "type": "company",
+      "description": "科技媒体机构，骆轶航为其创始人",
+      "aliases": [],
+      "tags": [
+        "科技媒体"
+      ]
+    },
+    {
+      "name": "咸鱼",
+      "type": "person",
+      "description": "葬AI实控人，活动开场嘉宾",
+      "aliases": [],
+      "tags": [
+        "实控人"
+      ]
+    },
+    {
+      "name": "Nixon",
+      "type": "person",
+      "description": "脑放电波主播、硬件产品经理",
+      "aliases": [],
+      "tags": [
+        "硬件产品经理",
+        "主播"
+      ]
+    },
+    {
+      "name": "脑放电波",
+      "type": "company",
+      "description": "播客或自媒体机构，Nixon为其主播",
+      "aliases": [],
+      "tags": [
+        "播客",
+        "媒体"
+      ]
+    },
+    {
+      "name": "Austin",
+      "type": "person",
+      "description": "Taku创始人，自称做真正的AI OS",
+      "aliases": [],
+      "tags": [
+        "创始人",
+        "AI OS"
+      ]
+    },
+    {
+      "name": "Taku",
+      "type": "company",
+      "description": "AI创业公司，由Austin创立",
+      "aliases": [],
+      "tags": [
+        "AI初创",
+        "AI OS"
+      ]
+    },
+    {
+      "name": "kaiyi",
+      "type": "person",
+      "description": "做过AI浏览器的工程师，Manus前身浏览器的资深开发",
+      "aliases": [],
+      "tags": [
+        "工程师",
+        "AI浏览器"
+      ]
+    },
+    {
+      "name": "Manus",
+      "type": "product",
+      "description": "AI浏览器或相关产品，kaiyi曾参与其前身开发",
+      "aliases": [],
+      "tags": [
+        "AI浏览器",
+        "AI产品"
+      ]
+    },
+    {
+      "name": "尚晋",
+      "type": "person",
+      "description": "Readever创始人，AI投资人，对AI创投生态有尖锐观点",
+      "aliases": [],
+      "tags": [
+        "创始人",
+        "AI投资人"
+      ]
+    },
+    {
+      "name": "Readever",
+      "type": "company",
+      "description": "AI相关公司，由尚晋创立",
+      "aliases": [],
+      "tags": [
+        "AI公司"
+      ]
+    },
+    {
+      "name": "阶跃",
+      "type": "company",
+      "description": "市面上的AI公司之一，曾被葬AI锐评",
+      "aliases": [
+        "阶跃星辰"
+      ],
+      "tags": [
+        "大模型公司"
+      ]
+    },
+    {
+      "name": "阶跃桌面助手",
+      "type": "product",
+      "description": "阶跃推出的桌面端AI应用",
+      "aliases": [],
+      "tags": [
+        "桌面助手",
+        "AI应用"
+      ]
+    },
+    {
+      "name": "MiniMax",
+      "type": "company",
+      "description": "市面上的主要AI公司之一，曾被葬AI锐评",
+      "aliases": [],
+      "tags": [
+        "大模型公司"
+      ]
+    },
+    {
+      "name": "智谱",
+      "type": "company",
+      "description": "市面上的主要AI公司之一，曾被葬AI锐评",
+      "aliases": [],
+      "tags": [
+        "大模型公司"
+      ]
+    },
+    {
+      "name": "Kimi",
+      "type": "product",
+      "description": "市面上主要的AI产品之一，曾被葬AI锐评",
+      "aliases": [],
+      "tags": [
+        "AI助手"
+      ]
+    },
+    {
+      "name": "沐秋",
+      "type": "person",
+      "description": "炒作大赛活动的后台联系人",
+      "aliases": [],
+      "tags": [
+        "工作人员"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "骆轶航",
+      "target": "硅星人",
+      "type": "founder_of",
+      "description": "骆轶航是硅星人创始人兼CEO",
+      "confidence": "high"
+    },
+    {
+      "source": "咸鱼",
+      "target": "葬AI",
+      "type": "founder_of",
+      "description": "咸鱼是葬AI的实控人",
+      "confidence": "high"
+    },
+    {
+      "source": "Austin",
+      "target": "Taku",
+      "type": "founder_of",
+      "description": "Austin是Taku的创始人",
+      "confidence": "high"
+    },
+    {
+      "source": "尚晋",
+      "target": "Readever",
+      "type": "founder_of",
+      "description": "尚晋是Readever的创始人",
+      "confidence": "high"
+    },
+    {
+      "source": "kaiyi",
+      "target": "Manus",
+      "type": "works_on",
+      "description": "kaiyi是Manus前身浏览器的资深开发",
+      "confidence": "high"
+    },
+    {
+      "source": "Nixon",
+      "target": "脑放电波",
+      "type": "works_at",
+      "description": "Nixon是脑放电波的主播",
+      "confidence": "high"
+    },
+    {
+      "source": "骆轶航",
+      "target": "咸鱼",
+      "type": "collaborates_with",
+      "description": "骆轶航与咸鱼共同在活动中开场",
+      "confidence": "high"
+    },
+    {
+      "source": "硅星人",
+      "target": "葬AI",
+      "type": "partners_with",
+      "description": "两家机构负责人联合开场并组织讨论，存在合作关系",
+      "confidence": "medium"
+    },
+    {
+      "source": "沐秋",
+      "target": "葬AI",
+      "type": "works_at",
+      "description": "沐秋负责处理葬AI活动报名的后台联系工作",
+      "confidence": "medium"
+    },
+    {
+      "source": "阶跃",
+      "target": "阶跃桌面助手",
+      "type": "develops",
+      "description": "阶跃桌面助手是阶跃公司开发的产品",
+      "confidence": "high"
+    },
+    {
+      "source": "葬AI",
+      "target": "MiniMax",
+      "type": "criticizes",
+      "description": "葬AI在过去半年内锐评过MiniMax",
+      "confidence": "high"
+    },
+    {
+      "source": "葬AI",
+      "target": "Kimi",
+      "type": "criticizes",
+      "description": "葬AI在过去半年内锐评过Kimi",
+      "confidence": "high"
+    },
+    {
+      "source": "葬AI",
+      "target": "阶跃",
+      "type": "criticizes",
+      "description": "葬AI在过去半年内锐评过阶跃",
+      "confidence": "high"
+    },
+    {
+      "source": "葬AI",
+      "target": "智谱",
+      "type": "criticizes",
+      "description": "葬AI在过去半年内锐评过智谱",
+      "confidence": "high"
+    },
+    {
+      "source": "葬AI",
+      "target": "Manus",
+      "type": "criticizes",
+      "description": "葬AI在过去半年内锐评过Manus等产品",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "053",
+  "_article_title": "第一届葬AI炒作大赛（北京线下活动）",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

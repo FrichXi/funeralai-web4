@@ -1,0 +1,122 @@
+{
+  "entities": [
+    {
+      "name": "讯飞",
+      "type": "company",
+      "description": "提供语音或文本识别翻译服务的科技公司，支持朝鲜语识别。",
+      "aliases": [
+        "科大讯飞"
+      ],
+      "tags": [
+        "语音识别",
+        "人工智能"
+      ]
+    },
+    {
+      "name": "Gemini",
+      "type": "product",
+      "description": "人工智能大模型，被作者用于生成特定文风的提示词。",
+      "aliases": [
+        "Gemini 2.5 Pro"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "name": "Manus",
+      "type": "company",
+      "description": "一家位于新加坡的AI公司，近期披露了九千万美元的年化营收。",
+      "aliases": [],
+      "tags": [
+        "AI初创",
+        "新加坡公司"
+      ]
+    },
+    {
+      "name": "肖弘",
+      "type": "person",
+      "description": "Manus公司的创始人。",
+      "aliases": [],
+      "tags": [
+        "创始人"
+      ]
+    },
+    {
+      "name": "Qwen",
+      "type": "product",
+      "description": "国产大模型，被用于测试提示词的通用性。",
+      "aliases": [
+        "Qwen 3",
+        "通义",
+        "通义千问"
+      ],
+      "tags": [
+        "大模型",
+        "国产模型"
+      ]
+    },
+    {
+      "name": "K2",
+      "type": "product",
+      "description": "国产大模型，在特定文风提示词测试中表现出更好的格式跟随能力。",
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "国产模型"
+      ]
+    },
+    {
+      "name": "马卡龙",
+      "type": "product",
+      "description": "被称为“世界首个Personal Agent”的AI产品。",
+      "aliases": [],
+      "tags": [
+        "Personal Agent",
+        "AI Agent"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "肖弘",
+      "target": "Manus",
+      "type": "founder_of",
+      "description": "明确提到肖弘是Manus的创始人。",
+      "confidence": "high"
+    },
+    {
+      "source": "肖弘",
+      "target": "Manus",
+      "type": "works_at",
+      "description": "作为创始人，肖弘在Manus公司任职并发表指示。",
+      "confidence": "high"
+    },
+    {
+      "source": "K2",
+      "target": "Qwen",
+      "type": "compares_to",
+      "description": "文中将K2和Qwen在执行主体文风提示词的效果进行了直接对比，指出K2加粗人名的表现更到位。",
+      "confidence": "high"
+    },
+    {
+      "source": "Qwen",
+      "target": "Gemini",
+      "type": "compares_to",
+      "description": "为了测试在Gemini上生成的提示词的通用性，作者将其跨模型在Qwen上进行了对比验证。",
+      "confidence": "medium"
+    },
+    {
+      "source": "K2",
+      "target": "Gemini",
+      "type": "compares_to",
+      "description": "为了测试在Gemini上生成的提示词的通用性，作者将其跨模型在K2上进行了对比验证。",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "019",
+  "_article_title": "我研发出了主体思想AI",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

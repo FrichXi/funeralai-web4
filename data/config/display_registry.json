@@ -1,0 +1,109 @@
+{
+  "version": 2,
+  "updatedAt": "2026-03-09T00:00:00Z",
+  "defaults": {
+    "leaderboardSize": 20
+  },
+  "presentation": {
+    "siteMode": "analysis-2d",
+    "graphEngine": "cytoscape",
+    "detailExperience": "drawer",
+    "leaderboardStrategy": "auto-first"
+  },
+  "nodes": [
+    {
+      "nodeId": "a16z",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/a16z-badge.svg",
+      "assetAlt": "a16z badge",
+      "featured": true,
+      "leaderboardSegments": ["vcs"],
+      "sizeBoost": 0.32
+    },
+    {
+      "nodeId": "红杉",
+      "visualMode": "text",
+      "featured": true,
+      "leaderboardSegments": ["vcs"],
+      "sizeBoost": 0.2
+    },
+    {
+      "nodeId": "锦秋基金",
+      "visualMode": "text",
+      "leaderboardSegments": ["vcs"],
+      "sizeBoost": 0.12
+    },
+    {
+      "nodeId": "plaud",
+      "visualMode": "image",
+      "localAssetPath": "/assets/nodes/plaud-badge.svg",
+      "assetAlt": "Plaud badge",
+      "featured": true,
+      "leaderboardSegments": [],
+      "sizeBoost": 0.3
+    },
+    {
+      "nodeId": "字节跳动",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/bytedance-badge.svg",
+      "assetAlt": "字节跳动 badge",
+      "featured": true,
+      "leaderboardSegments": ["companies"],
+      "sizeBoost": 0.3
+    },
+    {
+      "nodeId": "minimax",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/minimax-badge.svg",
+      "assetAlt": "MiniMax badge",
+      "featured": true,
+      "leaderboardSegments": ["companies"],
+      "sizeBoost": 0.28
+    },
+    {
+      "nodeId": "looki",
+      "visualMode": "text",
+      "featured": true,
+      "leaderboardSegments": [],
+      "sizeBoost": 0.2
+    },
+    {
+      "nodeId": "蚂蚁集团",
+      "visualMode": "text",
+      "leaderboardSegments": ["vcs"],
+      "sizeBoost": 0.1
+    },
+    {
+      "nodeId": "claude",
+      "visualMode": "image",
+      "localAssetPath": "/assets/nodes/claude-badge.svg",
+      "assetAlt": "Claude badge",
+      "featured": true,
+      "sizeBoost": 0.25
+    },
+    {
+      "nodeId": "manus",
+      "visualMode": "image",
+      "localAssetPath": "/assets/nodes/manus-badge.svg",
+      "assetAlt": "Manus badge",
+      "featured": true,
+      "sizeBoost": 0.25
+    },
+    {
+      "nodeId": "豆包",
+      "visualMode": "image",
+      "localAssetPath": "/assets/nodes/doubao-badge.svg",
+      "assetAlt": "豆包 badge",
+      "featured": true,
+      "sizeBoost": 0.22
+    },
+    {
+      "nodeId": "杨洁",
+      "visualMode": "image",
+      "localAssetPath": "/assets/nodes/yangjie-badge.svg",
+      "assetAlt": "杨洁 badge",
+      "featured": true,
+      "sizeBoost": 0.18
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "entities": [
+    {
+      "name": "智谱",
+      "type": "company",
+      "description": "中国大模型初创公司，正面临大模型技术落后与商业化转型的两难困境",
+      "aliases": [
+        "智谱AI"
+      ],
+      "tags": [
+        "清华系",
+        "AI六小虎",
+        "G端市场",
+        "大模型"
+      ]
+    },
+    {
+      "name": "百川",
+      "type": "company",
+      "description": "中国大模型初创公司，与智谱同属“AI六小虎”之一",
+      "tags": [
+        "AI六小虎"
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "type": "company",
+      "description": "全球领先的AI科技巨头，智谱最初对标的对象",
+      "tags": [
+        "平台型科技巨头"
+      ]
+    },
+    {
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "以更强性能、更低成本和支持本地化部署打破智谱护城河的AI公司",
+      "tags": [
+        "本地化部署",
+        "安全可控"
+      ]
+    },
+    {
+      "name": "临汾市人民医院",
+      "type": "company",
+      "description": "招标采购了基于DeepSeek的医疗系统的公立医院",
+      "tags": [
+        "G端客户"
+      ]
+    },
+    {
+      "name": "AutoGLM沉思",
+      "type": "product",
+      "description": "智谱推出的Agent产品，被指前端体验较差（如缺乏自动折叠功能）",
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "name": "零一万物",
+      "type": "company",
+      "description": "已官宣转型做应用的大模型初创公司",
+      "tags": [
+        "应用转型"
+      ]
+    },
+    {
+      "name": "Manus",
+      "type": "product",
+      "description": "当前火热的Agent产品",
+      "tags": [
+        "Agent",
+        "AI应用"
+      ]
+    },
+    {
+      "name": "YouWare",
+      "type": "product",
+      "description": "明星AI应用",
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "name": "中关村科学城",
+      "type": "company",
+      "description": "北京市海淀区的投资平台，领投了智谱",
+      "tags": [
+        "国资平台",
+        "战投"
+      ]
+    },
+    {
+      "name": "商汤",
+      "type": "company",
+      "description": "上一代AI四小龙之一，文章用其发展路径和财务状况对比智谱",
+      "tags": [
+        "AI四小龙",
+        "AI安防"
+      ]
+    },
+    {
+      "name": "海康",
+      "type": "company",
+      "description": "传统安防巨头，在业务落地中力压AI公司",
+      "aliases": [
+        "海康威视"
+      ],
+      "tags": [
+        "传统企业",
+        "安防"
+      ]
+    },
+    {
+      "name": "中金",
+      "type": "company",
+      "description": "负责智谱IPO辅导的金融机构",
+      "tags": [
+        "券商",
+        "IPO辅导"
+      ]
+    },
+    {
+      "name": "北京证监局",
+      "type": "company",
+      "description": "智谱启动IPO的备案监管机构",
+      "tags": [
+        "监管机构"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "智谱",
+      "target": "OpenAI",
+      "type": "compares_to",
+      "description": "智谱一度被视为“中国版OpenAI”的最有力竞争者",
+      "confidence": "high"
+    },
+    {
+      "source": "智谱",
+      "target": "DeepSeek",
+      "type": "competes_with",
+      "description": "DeepSeek在G端市场提供了更具性价比的替代方案，取代了智谱的生态位",
+      "confidence": "high"
+    },
+    {
+      "source": "临汾市人民医院",
+      "target": "DeepSeek",
+      "type": "partners_with",
+      "description": "临汾市人民医院招标采购基于DeepSeek的医疗系统",
+      "confidence": "high"
+    },
+    {
+      "source": "智谱",
+      "target": "AutoGLM沉思",
+      "type": "develops",
+      "description": "智谱开发了跟风的Agent产品AutoGLM沉思",
+      "confidence": "high"
+    },
+    {
+      "source": "智谱",
+      "target": "零一万物",
+      "type": "compares_to",
+      "description": "文章对比智谱死磕大模型与零一万物转型做应用的不同路径",
+      "confidence": "medium"
+    },
+    {
+      "source": "中关村科学城",
+      "target": "智谱",
+      "type": "invests_in",
+      "description": "中关村科学城领投了智谱数十亿融资",
+      "confidence": "high"
+    },
+    {
+      "source": "智谱",
+      "target": "商汤",
+      "type": "compares_to",
+      "description": "智谱的顶尖学术背景、高估值和商业化挑战与上一代商汤高度相似",
+      "confidence": "high"
+    },
+    {
+      "source": "商汤",
+      "target": "海康",
+      "type": "competes_with",
+      "description": "商汤等AI企业在安防领域竞争不过海康这样的传统企业",
+      "confidence": "high"
+    },
+    {
+      "source": "中金",
+      "target": "智谱",
+      "type": "partners_with",
+      "description": "中金担任智谱IPO的辅导机构",
+      "confidence": "high"
+    },
+    {
+      "source": "智谱",
+      "target": "百川",
+      "type": "related",
+      "description": "同属AI六小虎，文章预告将依次锐评两家公司",
+      "confidence": "low"
+    }
+  ],
+  "_article_id": "006",
+  "_article_title": "智谱的存在主义危机",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

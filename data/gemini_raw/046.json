@@ -1,0 +1,173 @@
+{
+  "entities": [
+    {
+      "name": "Medeo",
+      "type": "product",
+      "description": "一款主打“言出法随”和聊天式交互的AI视频生成Agent，近期获得约2300万美元融资。",
+      "aliases": [],
+      "tags": [
+        "AI视频Agent",
+        "视频生成",
+        "出海产品"
+      ]
+    },
+    {
+      "name": "剪映",
+      "type": "product",
+      "description": "一款视频编辑软件，提供价格低廉的AI文字成片和非线性编辑功能，文章标题建议Medeo改名为该产品的删减版。",
+      "aliases": [],
+      "tags": [
+        "视频剪辑",
+        "AI文字成片",
+        "非线性编辑"
+      ]
+    },
+    {
+      "name": "OiiOii",
+      "type": "product",
+      "description": "一款被作者提及并与Medeo在动画短片生成能力上进行对比的AI产品。",
+      "aliases": [],
+      "tags": [
+        "视频生成"
+      ]
+    },
+    {
+      "name": "Sora",
+      "type": "product",
+      "description": "视频生成大模型，Medeo在特定场景下底层调用其能力生成视频并完成对口型。",
+      "aliases": [
+        "Sora2"
+      ],
+      "tags": [
+        "视频大模型",
+        "底层模型"
+      ]
+    },
+    {
+      "name": "抖音",
+      "type": "product",
+      "description": "短视频内容平台，作者提到用Medeo生成的解说视频适合发布在该平台上做营销号起号。",
+      "aliases": [
+        "TikTok"
+      ],
+      "tags": [
+        "短视频平台",
+        "营销号"
+      ]
+    },
+    {
+      "name": "字节跳动",
+      "type": "company",
+      "description": "剪映的开发公司，文章末尾戏谑建议Medeo团队向其老板展示以寻求收购。",
+      "aliases": [
+        "字节"
+      ],
+      "tags": [
+        "互联网大厂"
+      ]
+    },
+    {
+      "name": "昆汀",
+      "type": "person",
+      "description": "西方知名电影导演，文章在测试Medeo时输入了其名字以期生成带有其风格特点的短片，被用作风格比喻对象。",
+      "aliases": [
+        "昆汀·塔伦蒂诺",
+        "Quentin Tarantino"
+      ],
+      "tags": [
+        "电影导演",
+        "风格提示词"
+      ]
+    },
+    {
+      "name": "王家卫",
+      "type": "person",
+      "description": "知名电影导演，文中被用作比喻Medeo官方视频案例所呈现出的特定氛围感风格。",
+      "aliases": [],
+      "tags": [
+        "电影导演",
+        "风格比喻"
+      ]
+    },
+    {
+      "name": "娄烨",
+      "type": "person",
+      "description": "知名电影导演，文中与王家卫一起被用来形容Medeo生成视频的晃动镜头和纯粹氛围感风格。",
+      "aliases": [],
+      "tags": [
+        "电影导演",
+        "风格比喻"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Medeo",
+      "target": "剪映",
+      "type": "compares_to",
+      "description": "文章标题直接将Medeo比作'剪映（删减版）'，并在正文中将其工作流、价格与剪映的AI文字成片功能进行深度对比。",
+      "confidence": "high"
+    },
+    {
+      "source": "Medeo",
+      "target": "剪映",
+      "type": "competes_with",
+      "description": "两者在AI视频生成与剪辑工具赛道上存在竞争关系，作者认为剪映的效率和成本目前优于Medeo。",
+      "confidence": "high"
+    },
+    {
+      "source": "Medeo",
+      "target": "OiiOii",
+      "type": "compares_to",
+      "description": "作者在测试Medeo的动画短片能力时，明确将其与之前体验过的竞品OiiOii进行优劣对比。",
+      "confidence": "high"
+    },
+    {
+      "source": "Medeo",
+      "target": "Sora",
+      "type": "integrates_with",
+      "description": "Medeo在处理纯故事类视频和使用特定配方(recipe)时，直接调用集成Sora大模型来生成视频片段和对口型。",
+      "confidence": "high"
+    },
+    {
+      "source": "Medeo",
+      "target": "昆汀",
+      "type": "compares_to",
+      "description": "作者通过提示词要求Medeo模仿昆汀的风格生成电影，并将最终产出与昆汀标志性的剧情设计和暴力美学进行对比。",
+      "confidence": "medium"
+    },
+    {
+      "source": "Medeo",
+      "target": "王家卫",
+      "type": "compares_to",
+      "description": "作者将Medeo官方展示的氛围感案例视频比喻为王家卫的电影风格。",
+      "confidence": "medium"
+    },
+    {
+      "source": "Medeo",
+      "target": "娄烨",
+      "type": "compares_to",
+      "description": "作者将Medeo官方展示的晃动镜头案例视频比喻为娄烨的电影风格。",
+      "confidence": "medium"
+    },
+    {
+      "source": "字节跳动",
+      "target": "剪映",
+      "type": "develops",
+      "description": "文中通过提及带着产品去找'字节老板们'并直接对标剪映，间接反映了字节跳动对剪映的开发和拥有关系。",
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "Medeo",
+      "type": "related",
+      "description": "作者在文末以戏谑的口吻建议Medeo向字节跳动的老板们展示企业宣传片以寻求被收购。",
+      "confidence": "low"
+    }
+  ],
+  "_article_id": "046",
+  "_article_title": "建议Medeo改名剪映（删减版）",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

@@ -1,0 +1,384 @@
+{
+  "entities": [
+    {
+      "name": "自然选择",
+      "type": "company",
+      "description": "一家AI陪伴公司",
+      "aliases": [],
+      "tags": [
+        "AI陪伴"
+      ]
+    },
+    {
+      "name": "Vivix",
+      "type": "company",
+      "description": "估值13.2亿美元的项目/公司",
+      "aliases": [],
+      "tags": [
+        "高估值"
+      ]
+    },
+    {
+      "name": "字节跳动",
+      "type": "company",
+      "description": "内涵段子的母公司",
+      "aliases": [
+        "字节"
+      ],
+      "tags": [
+        "大厂"
+      ]
+    },
+    {
+      "name": "Tristan",
+      "type": "person",
+      "description": "自然选择创始人",
+      "aliases": [],
+      "tags": [
+        "创始人"
+      ]
+    },
+    {
+      "name": "Clear",
+      "type": "person",
+      "description": "自然选择联合创始人",
+      "aliases": [],
+      "tags": [
+        "联创"
+      ]
+    },
+    {
+      "name": "咸鱼",
+      "type": "person",
+      "description": "Elys的早期高强度内测用户",
+      "aliases": [],
+      "tags": [
+        "内测用户"
+      ]
+    },
+    {
+      "name": "王慧文",
+      "type": "person",
+      "description": "即刻平台上的常驻话题人物",
+      "aliases": [],
+      "tags": [
+        "行业人物"
+      ]
+    },
+    {
+      "name": "张小龙",
+      "type": "person",
+      "description": "微信创始人",
+      "aliases": [
+        "龙哥"
+      ],
+      "tags": [
+        "产品经理"
+      ]
+    },
+    {
+      "name": "刘宇",
+      "type": "person",
+      "description": "Vivix项目的核心人物",
+      "aliases": [],
+      "tags": [
+        "行业人物"
+      ]
+    },
+    {
+      "name": "kaiyi",
+      "type": "person",
+      "description": "评价Elys的用户",
+      "aliases": [],
+      "tags": [
+        "评论者"
+      ]
+    },
+    {
+      "name": "特朗普",
+      "type": "person",
+      "description": "Elys平台上被用户cos的对象",
+      "aliases": [],
+      "tags": [
+        "比喻对象"
+      ]
+    },
+    {
+      "name": "俞浩",
+      "type": "person",
+      "description": "Elys平台上被用户cos的对象",
+      "aliases": [],
+      "tags": [
+        "比喻对象"
+      ]
+    },
+    {
+      "name": "Elys",
+      "type": "product",
+      "description": "自然选择推出的一款AI社交产品",
+      "aliases": [
+        "爱丽丝论坛"
+      ],
+      "tags": [
+        "AI社交",
+        "分身",
+        "赛博斗蛐蛐"
+      ]
+    },
+    {
+      "name": "EVE",
+      "type": "product",
+      "description": "自然选择即将上线的面向女性的AI陪伴产品",
+      "aliases": [],
+      "tags": [
+        "女性陪伴"
+      ]
+    },
+    {
+      "name": "Second Me",
+      "type": "product",
+      "description": "AI分身/社交类产品",
+      "aliases": [],
+      "tags": [
+        "社交产品"
+      ]
+    },
+    {
+      "name": "Clubhouse",
+      "type": "product",
+      "description": "被用于对比Elys的语音社交产品",
+      "aliases": [],
+      "tags": [
+        "语音社交"
+      ]
+    },
+    {
+      "name": "Openclaw",
+      "type": "product",
+      "description": "被用于对比的面向中老年的AI NAS应用",
+      "aliases": [],
+      "tags": [
+        "AI NAS"
+      ]
+    },
+    {
+      "name": "微信",
+      "type": "product",
+      "description": "国民级社交产品",
+      "aliases": [],
+      "tags": [
+        "社交"
+      ]
+    },
+    {
+      "name": "即刻",
+      "type": "product",
+      "description": "被评价为创投圈领英的社区产品",
+      "aliases": [],
+      "tags": [
+        "社区"
+      ]
+    },
+    {
+      "name": "内涵段子",
+      "type": "product",
+      "description": "字节跳动曾经推出的搞笑社区，被视为Elys的理想形态",
+      "aliases": [],
+      "tags": [
+        "搞笑社区"
+      ]
+    },
+    {
+      "name": "豆包",
+      "type": "product",
+      "description": "大模型产品，在Elys中被cos",
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "name": "千问",
+      "type": "product",
+      "description": "大模型产品，在Elys中被cos",
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "name": "元宝",
+      "type": "product",
+      "description": "大模型产品，在Elys中被cos",
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "name": "贴吧",
+      "type": "product",
+      "description": "互联网社区平台",
+      "aliases": [],
+      "tags": [
+        "社区"
+      ]
+    },
+    {
+      "name": "微博",
+      "type": "product",
+      "description": "社交媒体平台",
+      "aliases": [],
+      "tags": [
+        "社交媒体"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Tristan",
+      "target": "自然选择",
+      "type": "founder_of",
+      "description": "Tristan是自然选择的创始人",
+      "confidence": "high"
+    },
+    {
+      "source": "Clear",
+      "target": "自然选择",
+      "type": "founder_of",
+      "description": "Clear是自然选择的联合创始人",
+      "confidence": "high"
+    },
+    {
+      "source": "Tristan",
+      "target": "Clear",
+      "type": "co_founded",
+      "description": "两人同为自然选择的联合创始人",
+      "confidence": "high"
+    },
+    {
+      "source": "自然选择",
+      "target": "Elys",
+      "type": "develops",
+      "description": "自然选择开发了Elys",
+      "confidence": "high"
+    },
+    {
+      "source": "自然选择",
+      "target": "EVE",
+      "type": "develops",
+      "description": "自然选择开发了EVE",
+      "confidence": "high"
+    },
+    {
+      "source": "Tristan",
+      "target": "Elys",
+      "type": "works_on",
+      "description": "Tristan主导或参与开发了Elys",
+      "confidence": "high"
+    },
+    {
+      "source": "Clear",
+      "target": "Elys",
+      "type": "works_on",
+      "description": "Clear参与了Elys的开发和内测",
+      "confidence": "high"
+    },
+    {
+      "source": "刘宇",
+      "target": "Vivix",
+      "type": "founder_of",
+      "description": "文中提及刘宇的Vivix",
+      "confidence": "medium"
+    },
+    {
+      "source": "字节跳动",
+      "target": "内涵段子",
+      "type": "develops",
+      "description": "内涵段子是字节跳动推出的产品",
+      "confidence": "high"
+    },
+    {
+      "source": "张小龙",
+      "target": "微信",
+      "type": "works_on",
+      "description": "张小龙与微信高度绑定",
+      "confidence": "high"
+    },
+    {
+      "source": "Elys",
+      "target": "内涵段子",
+      "type": "compares_to",
+      "description": "文章核心论述Elys应该做成AI内涵段子，且具备其雏形",
+      "confidence": "high"
+    },
+    {
+      "source": "Elys",
+      "target": "Clubhouse",
+      "type": "compares_to",
+      "description": "作者感觉Elys像Clubhouse",
+      "confidence": "high"
+    },
+    {
+      "source": "Elys",
+      "target": "即刻",
+      "type": "compares_to",
+      "description": "Elys被形容为光屁股版的即刻，且用户群重合度高",
+      "confidence": "high"
+    },
+    {
+      "source": "Elys",
+      "target": "Second Me",
+      "type": "compares_to",
+      "description": "作者第一反应将其视为做Second Me的同类尝试",
+      "confidence": "medium"
+    },
+    {
+      "source": "Elys",
+      "target": "Openclaw",
+      "type": "compares_to",
+      "description": "文章将Elys与Openclaw进行趣味性对比",
+      "confidence": "high"
+    },
+    {
+      "source": "元宝",
+      "target": "Elys",
+      "type": "competes_with",
+      "description": "作者认为Elys很适合被元宝团队抄袭竞争",
+      "confidence": "medium"
+    },
+    {
+      "source": "kaiyi",
+      "target": "Elys",
+      "type": "criticizes",
+      "description": "kaiyi评价Elys是光屁股版的即刻",
+      "confidence": "high"
+    },
+    {
+      "source": "Clear",
+      "target": "自然选择",
+      "type": "criticizes",
+      "description": "Clear在Elys里的分身调侃自家公司是垃圾公司",
+      "confidence": "medium"
+    },
+    {
+      "source": "王慧文",
+      "target": "即刻",
+      "type": "related",
+      "description": "王慧文经常在即刻发帖并引发互动",
+      "confidence": "high"
+    },
+    {
+      "source": "咸鱼",
+      "target": "Elys",
+      "type": "related",
+      "description": "咸鱼是Elys里的活跃内测用户并频繁制造话题",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "063",
+  "_article_title": "Elys应该做成AI内涵段子",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

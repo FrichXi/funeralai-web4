@@ -1,0 +1,214 @@
+{
+  "entities": [
+    {
+      "name": "Manus",
+      "type": "product",
+      "description": "通用Agent平台，被作者称为“版本神”，开创了左边大模型右边云电脑沙盒的产品形态",
+      "aliases": [],
+      "tags": [
+        "通用Agent",
+        "沙盒",
+        "任务调度"
+      ]
+    },
+    {
+      "name": "扣子空间",
+      "type": "product",
+      "description": "通用Agent产品，具备逼真的AI播客音色",
+      "aliases": [],
+      "tags": [
+        "Agent",
+        "AI播客"
+      ]
+    },
+    {
+      "name": "MuleRun",
+      "type": "product",
+      "description": "作者规划要锐评的Agent平台之一",
+      "aliases": [],
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "name": "马卡龙",
+      "type": "product",
+      "description": "Agent产品，其宣传片因引入变焦概念和讲述故事的能力受到提及",
+      "aliases": [],
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "name": "Genspark",
+      "type": "product",
+      "description": "本来做AI搜索的产品，通过学习/抄袭Manus获得了较高ARR",
+      "aliases": [],
+      "tags": [
+        "AI搜索",
+        "Agent"
+      ]
+    },
+    {
+      "name": "Genspark创始人",
+      "type": "person",
+      "description": "Genspark的创始人，经常顶着黑眼圈拍宣传片",
+      "aliases": [
+        "老哥"
+      ],
+      "tags": [
+        "创始人"
+      ]
+    },
+    {
+      "name": "MiniMax",
+      "type": "company",
+      "description": "开发了MiniMax Agent的AI公司",
+      "aliases": [],
+      "tags": [
+        "AI公司"
+      ]
+    },
+    {
+      "name": "MiniMax Agent",
+      "type": "product",
+      "description": "强化了vibe coding能力的Agent产品",
+      "aliases": [],
+      "tags": [
+        "vibe coding",
+        "Agent"
+      ]
+    },
+    {
+      "name": "YouWare",
+      "type": "product",
+      "description": "被MiniMax Agent竞争、抢夺生意的目标产品",
+      "aliases": [],
+      "tags": [
+        "编程工具"
+      ]
+    },
+    {
+      "name": "飞书",
+      "type": "product",
+      "description": "在线办公平台，面临通用Agent产品的替代竞争",
+      "aliases": [],
+      "tags": [
+        "办公平台"
+      ]
+    },
+    {
+      "name": "Notion",
+      "type": "product",
+      "description": "在线办公平台，面临通用Agent产品的替代竞争",
+      "aliases": [],
+      "tags": [
+        "办公平台"
+      ]
+    },
+    {
+      "name": "王兴",
+      "type": "person",
+      "description": "行业关键人物，被用作AI创业者渴望成为的成功标杆比喻",
+      "aliases": [],
+      "tags": [
+        "企业家"
+      ]
+    },
+    {
+      "name": "张一鸣",
+      "type": "person",
+      "description": "行业关键人物，被用作AI创业者渴望成为的成功标杆比喻",
+      "aliases": [
+        "一鸣"
+      ],
+      "tags": [
+        "企业家"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Genspark",
+      "target": "Manus",
+      "type": "compares_to",
+      "description": "文章明确指出Genspark在“学”和“紧贴着抄”Manus",
+      "confidence": "high"
+    },
+    {
+      "source": "扣子空间",
+      "target": "Manus",
+      "type": "compares_to",
+      "description": "文章明确指出扣子空间在学Manus，未做出颠覆形态的创新",
+      "confidence": "high"
+    },
+    {
+      "source": "Genspark",
+      "target": "Manus",
+      "type": "competes_with",
+      "description": "Genspark作为同类通用Agent与Manus存在竞争关系",
+      "confidence": "medium"
+    },
+    {
+      "source": "Genspark创始人",
+      "target": "Genspark",
+      "type": "works_on",
+      "description": "创始人负责并推广Genspark产品",
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "MiniMax Agent",
+      "type": "develops",
+      "description": "MiniMax公司开发了MiniMax Agent",
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax Agent",
+      "target": "YouWare",
+      "type": "competes_with",
+      "description": "MiniMax Agent强化编码能力后想抢YouWare的生意",
+      "confidence": "high"
+    },
+    {
+      "source": "Manus",
+      "target": "飞书",
+      "type": "competes_with",
+      "description": "独立Agent产品有望取代并竞争在线办公平台",
+      "confidence": "high"
+    },
+    {
+      "source": "Manus",
+      "target": "Notion",
+      "type": "competes_with",
+      "description": "独立Agent产品有望取代并竞争在线办公平台",
+      "confidence": "high"
+    },
+    {
+      "source": "扣子空间",
+      "target": "飞书",
+      "type": "competes_with",
+      "description": "独立Agent产品有望取代并竞争在线办公平台",
+      "confidence": "high"
+    },
+    {
+      "source": "扣子空间",
+      "target": "Notion",
+      "type": "competes_with",
+      "description": "独立Agent产品有望取代并竞争在线办公平台",
+      "confidence": "high"
+    },
+    {
+      "source": "王兴",
+      "target": "张一鸣",
+      "type": "related",
+      "description": "同为被作者引用为创业者终极目标的行业标杆人物",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "016",
+  "_article_title": "Manus依然是版本神",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

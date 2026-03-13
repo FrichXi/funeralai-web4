@@ -1,0 +1,354 @@
+{
+  "entities": [
+    {
+      "name": "千问",
+      "type": "product",
+      "description": "具备Agent任务执行能力的AI助手，打通了阿里系生态",
+      "aliases": [
+        "千问APP",
+        "任务助手",
+        "千问任务助理",
+        "Qwen"
+      ],
+      "tags": [
+        "AI",
+        "Agent",
+        "任务助手",
+        "大模型"
+      ]
+    },
+    {
+      "name": "阿里巴巴",
+      "type": "company",
+      "description": "千问背后的母公司及生态系统提供方",
+      "aliases": [
+        "阿里",
+        "阿里系",
+        "阿里生态"
+      ],
+      "tags": [
+        "大厂",
+        "电商",
+        "中国AI",
+        "支付"
+      ]
+    },
+    {
+      "name": "高德",
+      "type": "product",
+      "description": "阿里生态下的地图导航应用",
+      "tags": [
+        "地图",
+        "出行",
+        "导航"
+      ]
+    },
+    {
+      "name": "飞猪",
+      "type": "product",
+      "description": "阿里生态下的旅游出行应用",
+      "tags": [
+        "旅游",
+        "买票",
+        "订酒店"
+      ]
+    },
+    {
+      "name": "支付宝",
+      "type": "product",
+      "description": "阿里生态下的支付应用",
+      "tags": [
+        "支付",
+        "金融"
+      ]
+    },
+    {
+      "name": "淘宝",
+      "type": "product",
+      "description": "阿里生态下的电商购物平台",
+      "aliases": [
+        "淘宝闪购",
+        "淘宝主站"
+      ],
+      "tags": [
+        "电商",
+        "购物"
+      ]
+    },
+    {
+      "name": "豆包手机",
+      "type": "product",
+      "description": "具备AI功能的手机产品，文中作为被围剿和体验不佳的反面案例",
+      "tags": [
+        "AI硬件",
+        "智能手机"
+      ]
+    },
+    {
+      "name": "抖音极速版",
+      "type": "product",
+      "description": "字节跳动旗下短视频应用，文中提及在豆包手机上刷该应用的相关体验",
+      "tags": [
+        "短视频",
+        "网赚"
+      ]
+    },
+    {
+      "name": "咸鱼",
+      "type": "person",
+      "description": "作者的朋友/同事，因看好千问等AI产品表现购入了阿里股票",
+      "tags": [
+        "投资者",
+        "体验者"
+      ]
+    },
+    {
+      "name": "刀哥",
+      "type": "person",
+      "description": "东北亚文化/狠活网红，经营好果汁店",
+      "tags": [
+        "网红",
+        "狠活",
+        "亚文化"
+      ]
+    },
+    {
+      "name": "好果汁店",
+      "type": "company",
+      "description": "刀哥开设的实体店铺",
+      "tags": [
+        "实体店",
+        "餐饮"
+      ]
+    },
+    {
+      "name": "虎哥",
+      "type": "person",
+      "description": "东北亚文化代表人物之一",
+      "tags": [
+        "网红",
+        "狠活"
+      ]
+    },
+    {
+      "name": "冬泳怪鸽",
+      "type": "person",
+      "description": "东北亚文化代表人物之一",
+      "tags": [
+        "网红",
+        "狠活"
+      ]
+    },
+    {
+      "name": "谷歌",
+      "type": "company",
+      "description": "美国科技公司，正推进与沃尔玛合作的AI购物",
+      "aliases": [
+        "Google"
+      ],
+      "tags": [
+        "科技巨头",
+        "AI"
+      ]
+    },
+    {
+      "name": "沃尔玛",
+      "type": "company",
+      "description": "美国零售巨头，与谷歌有合作",
+      "aliases": [
+        "Walmart"
+      ],
+      "tags": [
+        "零售",
+        "商超"
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "type": "company",
+      "description": "美国AI模型公司，文中被调侃为“美国小千问”",
+      "tags": [
+        "模型厂",
+        "AI"
+      ]
+    },
+    {
+      "name": "亚马逊",
+      "type": "company",
+      "description": "美国电商与科技巨头，文中被调侃为“美国小阿里”",
+      "aliases": [
+        "Amazon"
+      ],
+      "tags": [
+        "电商",
+        "科技巨头"
+      ]
+    },
+    {
+      "name": "死了么",
+      "type": "product",
+      "description": "近期爆火的AI小应用",
+      "tags": [
+        "AI应用",
+        "小程序"
+      ]
+    },
+    {
+      "name": "做了么",
+      "type": "product",
+      "description": "针对中年夫妻假性亲密关系的整活AI小应用",
+      "tags": [
+        "AI应用",
+        "小程序"
+      ]
+    },
+    {
+      "name": "特朗普",
+      "type": "person",
+      "description": "美国政治人物，文中被用作千问生成整活文章的素材",
+      "tags": [
+        "政治人物"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "阿里巴巴",
+      "target": "千问",
+      "type": "develops",
+      "description": "阿里巴巴开发并拥有开源模型Qwen及千问APP",
+      "confidence": "high"
+    },
+    {
+      "source": "千问",
+      "target": "高德",
+      "type": "integrates_with",
+      "description": "千问任务助手直接调用高德进行路线规划和导航",
+      "confidence": "high"
+    },
+    {
+      "source": "千问",
+      "target": "飞猪",
+      "type": "integrates_with",
+      "description": "千问任务助手直接调用飞猪安排旅游行程",
+      "confidence": "high"
+    },
+    {
+      "source": "千问",
+      "target": "支付宝",
+      "type": "integrates_with",
+      "description": "千问将支付宝付费场景无缝融入旅行和购物计划",
+      "confidence": "high"
+    },
+    {
+      "source": "千问",
+      "target": "淘宝",
+      "type": "integrates_with",
+      "description": "千问接入了淘宝闪购和淘宝主站，实现AI一站式购物",
+      "confidence": "high"
+    },
+    {
+      "source": "千问",
+      "target": "豆包手机",
+      "type": "competes_with",
+      "description": "文章将千问的高效办事能力与豆包手机的表现不佳进行对比",
+      "confidence": "high"
+    },
+    {
+      "source": "豆包手机",
+      "target": "抖音极速版",
+      "type": "integrates_with",
+      "description": "豆包手机内部搭载或联动抖音极速版",
+      "confidence": "medium"
+    },
+    {
+      "source": "咸鱼",
+      "target": "阿里巴巴",
+      "type": "invests_in",
+      "description": "咸鱼因为看好中国AI的发展，购入了阿里股票",
+      "confidence": "high"
+    },
+    {
+      "source": "咸鱼",
+      "target": "千问",
+      "type": "praises",
+      "description": "咸鱼对千问等中国AI产品表现满意并因此产生投资行为",
+      "confidence": "medium"
+    },
+    {
+      "source": "咸鱼",
+      "target": "刀哥",
+      "type": "collaborates_with",
+      "description": "咸鱼去沈阳与狠活爱豆刀哥见面握手",
+      "confidence": "high"
+    },
+    {
+      "source": "刀哥",
+      "target": "好果汁店",
+      "type": "founder_of",
+      "description": "刀哥开设并经营了这家好果汁店",
+      "confidence": "high"
+    },
+    {
+      "source": "刀哥",
+      "target": "虎哥",
+      "type": "related",
+      "description": "同为东北隐秘角落的狠活亚文化代表人物",
+      "confidence": "medium"
+    },
+    {
+      "source": "虎哥",
+      "target": "冬泳怪鸽",
+      "type": "related",
+      "description": "同为东北隐秘角落的狠活亚文化代表人物",
+      "confidence": "medium"
+    },
+    {
+      "source": "谷歌",
+      "target": "沃尔玛",
+      "type": "partners_with",
+      "description": "谷歌与沃尔玛合作发展AI购物",
+      "confidence": "high"
+    },
+    {
+      "source": "亚马逊",
+      "target": "阿里巴巴",
+      "type": "compares_to",
+      "description": "文中将亚马逊调侃为“美国小阿里”",
+      "confidence": "high"
+    },
+    {
+      "source": "OpenAI",
+      "target": "阿里巴巴",
+      "type": "competes_with",
+      "description": "文中调侃OpenAI是“美国小千问”，并对比两家公司在自建电商和AI购物生态上的差距",
+      "confidence": "medium"
+    },
+    {
+      "source": "千问",
+      "target": "死了么",
+      "type": "related",
+      "description": "千问应用开发功能可以轻易复刻生成类似“死了么”的AI小应用",
+      "confidence": "medium"
+    },
+    {
+      "source": "千问",
+      "target": "做了么",
+      "type": "related",
+      "description": "作者利用千问任务助理成功开发出了“做了么”这款AI产品原型",
+      "confidence": "high"
+    },
+    {
+      "source": "特朗普",
+      "target": "千问",
+      "type": "related",
+      "description": "特朗普关于格陵兰岛的言论被用作测试千问整活文章生成能力的命题",
+      "confidence": "low"
+    }
+  ],
+  "_article_id": "051",
+  "_article_title": "狠狠办千问",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

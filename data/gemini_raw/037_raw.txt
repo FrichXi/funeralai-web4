@@ -1,0 +1,322 @@
+```json
+{
+  "entities": [
+    {
+      "name": "Gambo",
+      "type": "product",
+      "description": "一款能一键生成游戏的Coding Agent产品，也是一个游戏社区",
+      "aliases": [],
+      "tags": ["AI游戏引擎", "Coding Agent"]
+    },
+    {
+      "name": "Dora AI",
+      "type": "company",
+      "description": "Gambo背后的开发团队/公司，此前开发过基于AI的无代码网站生成工具",
+      "aliases": ["Dora"],
+      "tags": ["无代码工具", "3D交互设计"]
+    },
+    {
+      "name": "周卓泉",
+      "type": "person",
+      "description": "Dora AI和Gambo创始人，前时光校园创始人，独立游戏开发者",
+      "aliases": [],
+      "tags": ["连续创业者", "IDG 90后创业者"]
+    },
+    {
+      "name": "IDG资本",
+      "type": "company",
+      "description": "知名投资机构，曾设立90后基金投资周卓泉等人",
+      "aliases": ["IDG", "IDG 90后基金"],
+      "tags": ["投资机构"]
+    },
+    {
+      "name": "高瓴",
+      "type": "company",
+      "description": "知名投资机构，曾投资Dora AI",
+      "aliases": [],
+      "tags": ["投资机构"]
+    },
+    {
+      "name": "Figma",
+      "type": "product",
+      "description": "知名设计工具，Dora早期曾踩中其红利",
+      "aliases": [],
+      "tags": ["设计工具"]
+    },
+    {
+      "name": "孙宇晨",
+      "type": "person",
+      "description": "IDG 90后基金被投创业者代表之一",
+      "aliases": ["孙割"],
+      "tags": ["IDG 90后创业者"]
+    },
+    {
+      "name": "Rosebud",
+      "type": "product",
+      "description": "海外比较火的AI游戏引擎",
+      "aliases": [],
+      "tags": ["AI游戏引擎"]
+    },
+    {
+      "name": "phaser",
+      "type": "product",
+      "description": "一款HTML5 2D游戏框架，Gambo早期基于此开发",
+      "aliases": [],
+      "tags": ["游戏框架"]
+    },
+    {
+      "name": "Godot",
+      "type": "product",
+      "description": "海外最火的开源游戏引擎，Gambo正计划升级至该引擎",
+      "aliases": [],
+      "tags": ["开源游戏引擎"]
+    },
+    {
+      "name": "OpenAI",
+      "type": "company",
+      "description": "知名AI公司，开发了OpenAI Five",
+      "aliases": [],
+      "tags": ["AI公司"]
+    },
+    {
+      "name": "OpenAI Five",
+      "type": "product",
+      "description": "OpenAI训练出的游戏AI智能体，曾击败Dota 2世界冠军",
+      "aliases": [],
+      "tags": ["游戏AI"]
+    },
+    {
+      "name": "腾讯 AI Lab",
+      "type": "company",
+      "description": "腾讯旗下AI实验室，开发了绝悟AI",
+      "aliases": [],
+      "tags": ["AI实验室"]
+    },
+    {
+      "name": "腾讯绝悟 AI",
+      "type": "product",
+      "description": "腾讯开发的游戏强化学习AI系统",
+      "aliases": ["绝悟 AI"],
+      "tags": ["强化学习"]
+    },
+    {
+      "name": "王者荣耀",
+      "type": "product",
+      "description": "知名游戏，周卓泉曾逆向工程获取数据并在其中训练AI",
+      "aliases": [],
+      "tags": ["游戏"]
+    },
+    {
+      "name": "时光校园",
+      "type": "product",
+      "description": "周卓泉早期创办的线下match社交项目",
+      "aliases": [],
+      "tags": ["社交应用"]
+    },
+    {
+      "name": "Tinder",
+      "type": "product",
+      "description": "知名社交应用，以滑动匹配功能著称",
+      "aliases": [],
+      "tags": ["社交应用"]
+    },
+    {
+      "name": "Insta360",
+      "type": "company",
+      "description": "知名全景相机及影像公司，创始人曾是IDG 90后基金一员",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "齐俊元",
+      "type": "person",
+      "description": "知名创业者，IDG 90后基金被投者之一",
+      "aliases": [],
+      "tags": ["IDG 90后创业者"]
+    },
+    {
+      "name": "郭列",
+      "type": "person",
+      "description": "Faceu创始人，IDG 90后基金被投者之一",
+      "aliases": [],
+      "tags": ["IDG 90后创业者"]
+    },
+    {
+      "name": "Faceu",
+      "type": "company",
+      "description": "知名拍照应用开发团队/公司，后被字节收购并孵化出剪映",
+      "aliases": [],
+      "tags": ["工具出海"]
+    },
+    {
+      "name": "字节跳动",
+      "type": "company",
+      "description": "知名科技公司，收购了Faceu",
+      "aliases": ["字节"],
+      "tags": ["互联网大厂"]
+    },
+    {
+      "name": "剪映",
+      "type": "product",
+      "description": "知名视频剪辑工具，由Faceu团队开发",
+      "aliases": [],
+      "tags": ["视频剪辑"]
+    },
+    {
+      "name": "bilibili",
+      "type": "company",
+      "description": "知名视频平台，其创始人曾是IDG 90后基金相关成员",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "叠纸",
+      "type": "company",
+      "description": "知名游戏公司，其创始人曾是IDG 90后基金相关成员",
+      "aliases": [],
+      "tags": ["游戏公司"]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "周卓泉",
+      "target": "Dora AI",
+      "type": "founder_of",
+      "description": "周卓泉是Dora AI的创始人",
+      "confidence": "high"
+    },
+    {
+      "source": "周卓泉",
+      "target": "Gambo",
+      "type": "works_on",
+      "description": "周卓泉带队开发了Gambo",
+      "confidence": "high"
+    },
+    {
+      "source": "Dora AI",
+      "target": "Gambo",
+      "type": "develops",
+      "description": "Dora AI团队开发了Gambo",
+      "confidence": "high"
+    },
+    {
+      "source": "IDG资本",
+      "target": "周卓泉",
+      "type": "invests_in",
+      "description": "IDG资本早期通过90后基金投资了周卓泉",
+      "confidence": "high"
+    },
+    {
+      "source": "IDG资本",
+      "target": "孙宇晨",
+      "type": "invests_in",
+      "description": "孙宇晨是IDG 90后基金的被投者之一",
+      "confidence": "high"
+    },
+    {
+      "source": "IDG资本",
+      "target": "齐俊元",
+      "type": "invests_in",
+      "description": "齐俊元是IDG 90后基金的被投者之一",
+      "confidence": "high"
+    },
+    {
+      "source": "IDG资本",
+      "target": "郭列",
+      "type": "invests_in",
+      "description": "郭列是IDG 90后基金的被投者之一",
+      "confidence": "high"
+    },
+    {
+      "source": "高瓴",
+      "target": "Dora AI",
+      "type": "invests_in",
+      "description": "高瓴曾向Dora AI投资近500万美金",
+      "confidence": "high"
+    },
+    {
+      "source": "Dora AI",
+      "target": "Figma",
+      "type": "related",
+      "description": "Dora AI最早踩中了Figma的红利",
+      "confidence": "medium"
+    },
+    {
+      "source": "周卓泉",
+      "target": "孙宇晨",
+      "type": "compares_to",
+      "description": "作者调侃同为90后代表，周卓泉在PR方面没学到孙宇晨的皮毛",
+      "confidence": "high"
+    },
+    {
+      "source": "Gambo",
+      "target": "Rosebud",
+      "type": "competes_with",
+      "description": "Gambo与海外的Rosebud是同类AI游戏引擎，且Gambo能生成连贯动画而对比品不行",
+      "confidence": "high"
+    },
+    {
+      "source": "Gambo",
+      "target": "phaser",
+      "type": "integrates_with",
+      "description": "Gambo的生成游戏是基于phaser框架制作的",
+      "confidence": "high"
+    },
+    {
+      "source": "Gambo",
+      "target": "Godot",
+      "type": "integrates_with",
+      "description": "Gambo团队计划将引擎底层框架升级为Godot",
+      "confidence": "high"
+    },
+    {
+      "source": "OpenAI",
+      "target": "OpenAI Five",
+      "type": "develops",
+      "description": "OpenAI训练出了OpenAI Five",
+      "confidence": "high"
+    },
+    {
+      "source": "腾讯 AI Lab",
+      "target": "腾讯绝悟 AI",
+      "type": "develops",
+      "description": "腾讯AI Lab团队开发了绝悟AI",
+      "confidence": "high"
+    },
+    {
+      "source": "周卓泉",
+      "target": "腾讯绝悟 AI",
+      "type": "related",
+      "description": "周卓泉参考学习了腾讯绝悟AI团队的强化学习训练架构",
+      "confidence": "high"
+    },
+    {
+      "source": "周卓泉",
+      "target": "王者荣耀",
+      "type": "related",
+      "description": "周卓泉破解了王者荣耀系统以获取数据来训练AI",
+      "confidence": "high"
+    },
+    {
+      "source": "周卓泉",
+      "target": "时光校园",
+      "type": "works_on",
+      "description": "周卓泉早期开发了时光校园项目",
+      "confidence": "high"
+    },
+    {
+      "source": "时光校园",
+      "target": "Tinder",
+      "type": "compares_to",
+      "description": "时光校园被描述为早于Tinder发明了“滑一滑”功能",
+      "confidence": "high"
+    },
+    {
+      "source": "郭列",
+      "target": "Faceu",
+      "type": "founder_of",
+      "description": "郭列创办并带领了Faceu团队",
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",

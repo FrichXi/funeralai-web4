@@ -1,0 +1,405 @@
+{
+  "entities": [
+    {
+      "name": "云端OpenClaw",
+      "type": "product",
+      "description": "文章核心讨论的云端部署的AI代理产品类统称",
+      "aliases": [
+        "云端龙虾",
+        "云端Openclaw"
+      ],
+      "tags": [
+        "云端部署",
+        "龙虾架构",
+        "小白化产品"
+      ]
+    },
+    {
+      "name": "Openclaw",
+      "type": "product",
+      "description": "面向开发者的原始AI控制环境项目",
+      "aliases": [
+        "OpenClaw"
+      ],
+      "tags": [
+        "开发者产品",
+        "本地环境"
+      ]
+    },
+    {
+      "name": "骆轶航",
+      "type": "person",
+      "description": "文章中被用作对比调侃对象的行业人物",
+      "aliases": [
+        "骆老师轶航"
+      ],
+      "tags": [
+        "行业人物"
+      ]
+    },
+    {
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内大模型公司，推出了MaxClaw",
+      "aliases": [
+        "胖猫 (文中特定语境代称)"
+      ],
+      "tags": [
+        "大模型公司",
+        "上市公司"
+      ]
+    },
+    {
+      "name": "Kimi",
+      "type": "company",
+      "description": "国内大模型公司（月之暗面），推出Kimi claw等产品",
+      "aliases": [],
+      "tags": [
+        "大模型公司",
+        "御三家"
+      ]
+    },
+    {
+      "name": "腾讯云",
+      "type": "company",
+      "description": "提供云端Openclaw部署服务的云服务厂商",
+      "aliases": [],
+      "tags": [
+        "云厂商"
+      ]
+    },
+    {
+      "name": "MaxClaw",
+      "type": "product",
+      "description": "MiniMax旗下的云端Openclaw产品",
+      "aliases": [
+        "Maxclaw"
+      ],
+      "tags": [
+        "云端OpenClaw"
+      ]
+    },
+    {
+      "name": "Kimi claw",
+      "type": "product",
+      "description": "Kimi旗下的云端Openclaw产品",
+      "aliases": [
+        "Kimiclaw"
+      ],
+      "tags": [
+        "云端OpenClaw"
+      ]
+    },
+    {
+      "name": "Kimi Code",
+      "type": "product",
+      "description": "Kimi旗下的代码助手产品",
+      "aliases": [],
+      "tags": [
+        "代码助手"
+      ]
+    },
+    {
+      "name": "Kimi Agent",
+      "type": "product",
+      "description": "Kimi的智能体集群服务",
+      "aliases": [
+        "Kimi Agent集群"
+      ],
+      "tags": [
+        "Agent集群"
+      ]
+    },
+    {
+      "name": "Kimi API",
+      "type": "product",
+      "description": "Kimi提供的大模型API接口",
+      "aliases": [
+        "Kimi api"
+      ],
+      "tags": [
+        "API服务"
+      ]
+    },
+    {
+      "name": "腾讯云Openclaw",
+      "type": "product",
+      "description": "腾讯云提供的Openclaw一键部署服务",
+      "aliases": [
+        "QQ小冰Openclaw (文中作者自命名)"
+      ],
+      "tags": [
+        "云部署服务"
+      ]
+    },
+    {
+      "name": "QQ小冰",
+      "type": "product",
+      "description": "腾讯QQ平台的早期AI聊天机器人",
+      "aliases": [
+        "正版QQ小冰"
+      ],
+      "tags": [
+        "聊天机器人"
+      ]
+    },
+    {
+      "name": "派宝",
+      "type": "product",
+      "description": "腾讯相关AI助手，被云端大模型错认",
+      "aliases": [],
+      "tags": [
+        "AI助手"
+      ]
+    },
+    {
+      "name": "元宝派",
+      "type": "product",
+      "description": "腾讯目前主推的AI产品",
+      "aliases": [],
+      "tags": [
+        "AI产品"
+      ]
+    },
+    {
+      "name": "腾讯",
+      "type": "company",
+      "description": "开发元宝派的互联网大厂",
+      "aliases": [],
+      "tags": [
+        "互联网大厂"
+      ]
+    },
+    {
+      "name": "乐鑫科技",
+      "type": "company",
+      "description": "文中大模型视觉识别错误输出的上市公司名称",
+      "aliases": [],
+      "tags": [
+        "股票",
+        "上市公司"
+      ]
+    },
+    {
+      "name": "胖猫",
+      "type": "person",
+      "description": "网络事件人物，被大模型视觉识别混淆",
+      "aliases": [],
+      "tags": [
+        "网络人物"
+      ]
+    },
+    {
+      "name": "科比·布莱恩特",
+      "type": "person",
+      "description": "著名篮球运动员，文中作为大模型幻觉的比喻对象",
+      "aliases": [
+        "科比",
+        "曼巴"
+      ],
+      "tags": [
+        "篮球运动员"
+      ]
+    },
+    {
+      "name": "咸鱼",
+      "type": "person",
+      "description": "与作者探讨云端龙虾类产品的行业评论者或同事",
+      "aliases": [],
+      "tags": [
+        "行业评论者"
+      ]
+    },
+    {
+      "name": "Claude Code",
+      "type": "product",
+      "description": "Anthropic推出的本地环境代码助手",
+      "aliases": [
+        "Claude code"
+      ],
+      "tags": [
+        "本地环境AI"
+      ]
+    },
+    {
+      "name": "Codex",
+      "type": "product",
+      "description": "能够执行复杂本地工作的代码AI模型",
+      "aliases": [],
+      "tags": [
+        "本地环境AI"
+      ]
+    },
+    {
+      "name": "Manus",
+      "type": "company",
+      "description": "推出类龙虾聊天助手的新加坡AI公司",
+      "aliases": [
+        "新加坡家人们"
+      ],
+      "tags": [
+        "AI公司"
+      ]
+    },
+    {
+      "name": "Manus Agents",
+      "type": "product",
+      "description": "Manus推出的类龙虾聊天助手产品",
+      "aliases": [],
+      "tags": [
+        "Agent集群",
+        "类龙虾产品"
+      ]
+    },
+    {
+      "name": "MiniMax CEO",
+      "type": "person",
+      "description": "MiniMax公司的首席执行官",
+      "aliases": [],
+      "tags": [
+        "CEO",
+        "创始人"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "云端OpenClaw",
+      "target": "骆轶航",
+      "type": "compares_to",
+      "description": "文章用骆轶航作为评价云端OpenClaw能力的调侃性参照物",
+      "confidence": "medium"
+    },
+    {
+      "source": "MiniMax",
+      "target": "MaxClaw",
+      "type": "develops",
+      "description": "MiniMax公司开发了MaxClaw",
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi",
+      "target": "Kimi claw",
+      "type": "develops",
+      "description": "Kimi公司推出了199元的Kimi claw",
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi",
+      "target": "Kimi Code",
+      "type": "develops",
+      "description": "Kimi官方拥有的代码产品",
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi",
+      "target": "Kimi Agent",
+      "type": "develops",
+      "description": "Kimi官方拥有的Agent集群",
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi",
+      "target": "Kimi API",
+      "type": "develops",
+      "description": "Kimi提供的底层模型API",
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi claw",
+      "target": "Kimi Code",
+      "type": "integrates_with",
+      "description": "作者尝试让Kimi claw调用Kimi Code，但官方不支持",
+      "confidence": "medium"
+    },
+    {
+      "source": "腾讯云",
+      "target": "腾讯云Openclaw",
+      "type": "develops",
+      "description": "腾讯云提供Openclaw云端部署服务",
+      "confidence": "high"
+    },
+    {
+      "source": "腾讯云Openclaw",
+      "target": "QQ小冰",
+      "type": "compares_to",
+      "description": "作者评价腾讯云部署的Openclaw智商和正版QQ小冰不相上下",
+      "confidence": "high"
+    },
+    {
+      "source": "派宝",
+      "target": "元宝派",
+      "type": "compares_to",
+      "description": "作者质疑AI认出的“派宝”是否就是“元宝派”的平替或相关物",
+      "confidence": "medium"
+    },
+    {
+      "source": "腾讯",
+      "target": "元宝派",
+      "type": "develops",
+      "description": "作者指出腾讯正在全心全意做元宝派",
+      "confidence": "high"
+    },
+    {
+      "source": "胖猫",
+      "target": "科比·布莱恩特",
+      "type": "compares_to",
+      "description": "Kimi API产生视觉幻觉，将胖猫照片识别为科比",
+      "confidence": "high"
+    },
+    {
+      "source": "咸鱼",
+      "target": "云端OpenClaw",
+      "type": "criticizes",
+      "description": "咸鱼批评云端龙虾类产品实际上只是Chatbot升级版",
+      "confidence": "high"
+    },
+    {
+      "source": "Claude Code",
+      "target": "云端OpenClaw",
+      "type": "competes_with",
+      "description": "作者认为Claude Code在能力上完全秒杀云端OpenClaw",
+      "confidence": "high"
+    },
+    {
+      "source": "Manus",
+      "target": "Manus Agents",
+      "type": "develops",
+      "description": "Manus公司紧急上线了类龙虾聊天助手产品Manus Agents",
+      "confidence": "high"
+    },
+    {
+      "source": "Manus Agents",
+      "target": "云端OpenClaw",
+      "type": "compares_to",
+      "description": "作者认为Manus Agents是目前最好用的云端Openclaw类产品",
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax CEO",
+      "target": "MiniMax",
+      "type": "works_at",
+      "description": "该人物担任MiniMax公司的CEO",
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi",
+      "target": "MiniMax",
+      "type": "competes_with",
+      "description": "Kimi与MiniMax作为大模型公司竞相PR收入与ARR",
+      "confidence": "medium"
+    },
+    {
+      "source": "云端OpenClaw",
+      "target": "Openclaw",
+      "type": "related",
+      "description": "云端Openclaw是基于开源Openclaw项目去除了本地部署环节的云端版本",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "067",
+  "_article_title": "云端OpenClaw更是路边一条",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

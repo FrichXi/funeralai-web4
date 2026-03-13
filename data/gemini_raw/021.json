@@ -1,0 +1,130 @@
+{
+  "entities": [
+    {
+      "name": "Cherry Studio",
+      "type": "product",
+      "description": "调取大模型API的第三方开源会话管理工具，支持对话分支功能",
+      "tags": [
+        "ChatBot",
+        "会话管理",
+        "自然语言IDE"
+      ]
+    },
+    {
+      "name": "Toki",
+      "type": "product",
+      "description": "AI日程管理工具，支持截图与语音识别设置提醒",
+      "aliases": [
+        "Dola"
+      ],
+      "tags": [
+        "日程管理",
+        "效率工具"
+      ]
+    },
+    {
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "知名大模型对话网页端",
+      "tags": [
+        "ChatBot"
+      ]
+    },
+    {
+      "name": "Gemini",
+      "type": "product",
+      "description": "知名大模型对话网页端",
+      "tags": [
+        "ChatBot"
+      ]
+    },
+    {
+      "name": "Google",
+      "type": "company",
+      "description": "科技公司，推出了AI Studio",
+      "tags": [
+        "大厂"
+      ]
+    },
+    {
+      "name": "AI Studio",
+      "type": "product",
+      "description": "Google推出的纯开发者大模型对话网站",
+      "tags": [
+        "开发者平台"
+      ]
+    },
+    {
+      "name": "Cursor",
+      "type": "product",
+      "description": "知名AI编程工具",
+      "tags": [
+        "IDE"
+      ]
+    },
+    {
+      "name": "扫描全能王",
+      "type": "product",
+      "description": "知名实用小工具",
+      "tags": [
+        "实用工具"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Google",
+      "target": "AI Studio",
+      "type": "develops",
+      "description": "Google推出了AI Studio网站",
+      "confidence": "high"
+    },
+    {
+      "source": "Cherry Studio",
+      "target": "ChatGPT",
+      "type": "compares_to",
+      "description": "文章对比了Cherry Studio与ChatGPT在对话分支功能上的体验和推出时间",
+      "confidence": "high"
+    },
+    {
+      "source": "Cherry Studio",
+      "target": "Gemini",
+      "type": "compares_to",
+      "description": "文章指出早期Gemini网页端没有Cherry Studio那样的分支功能",
+      "confidence": "high"
+    },
+    {
+      "source": "Cherry Studio",
+      "target": "AI Studio",
+      "type": "compares_to",
+      "description": "文章对比了Cherry Studio和Google AI Studio在分支功能、前端UI及加载速度上的差异",
+      "confidence": "high"
+    },
+    {
+      "source": "Cherry Studio",
+      "target": "Cursor",
+      "type": "compares_to",
+      "description": "作者将Cherry Studio比作自然语言领域的IDE，即写作版的Cursor",
+      "confidence": "high"
+    },
+    {
+      "source": "Cherry Studio",
+      "target": "扫描全能王",
+      "type": "compares_to",
+      "description": "文章将Cherry Studio比喻为扫描全能王一样简单且真正有用的工具",
+      "confidence": "medium"
+    },
+    {
+      "source": "Toki",
+      "target": "扫描全能王",
+      "type": "compares_to",
+      "description": "文章将Toki比喻为扫描全能王一样不讲大故事但真正有用的工具",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "021",
+  "_article_title": "Cherry Studio是一个伟大的AI工具",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

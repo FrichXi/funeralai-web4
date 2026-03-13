@@ -1,0 +1,111 @@
+{
+  "entities": [
+    {
+      "name": "YouMind",
+      "type": "product",
+      "description": "一款强调阅读原始文本的AI创作和知识库产品",
+      "aliases": [],
+      "tags": [
+        "AI创作",
+        "知识库",
+        "AI搜索"
+      ]
+    },
+    {
+      "name": "Grimo",
+      "type": "product",
+      "description": "一款定位为“AI加编辑器”的AI写作与创作产品",
+      "aliases": [],
+      "tags": [
+        "AI创作",
+        "AI编辑器"
+      ]
+    },
+    {
+      "name": "玉伯",
+      "type": "person",
+      "description": "YouMind 创始人，提出“稿生万物”、“创作伴侣”等产品理念",
+      "aliases": [],
+      "tags": [
+        "创始人"
+      ]
+    },
+    {
+      "name": "ima",
+      "type": "product",
+      "description": "腾讯推出的知识库产品",
+      "aliases": [
+        "腾讯ima",
+        "腾讯ima知识库"
+      ],
+      "tags": [
+        "知识库"
+      ]
+    },
+    {
+      "name": "腾讯",
+      "type": "company",
+      "description": "ima 知识库的开发公司",
+      "aliases": [
+        "Tencent"
+      ],
+      "tags": [
+        "科技公司"
+      ]
+    },
+    {
+      "name": "ChatGPT Deep Research",
+      "type": "product",
+      "description": "一种能够自动联网搜索并生成综述报告的AI深度研究工具，被用作与YouMind作对比",
+      "aliases": [
+        "Deep Research"
+      ],
+      "tags": [
+        "AI报告",
+        "深度研究"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "玉伯",
+      "target": "YouMind",
+      "type": "works_on",
+      "description": "玉伯是 YouMind 的创始人，主导了该产品的理念与开发",
+      "confidence": "high"
+    },
+    {
+      "source": "YouMind",
+      "target": "ima",
+      "type": "compares_to",
+      "description": "文中将 YouMind 评价为“前进一步的腾讯ima知识库”",
+      "confidence": "high"
+    },
+    {
+      "source": "YouMind",
+      "target": "ChatGPT Deep Research",
+      "type": "compares_to",
+      "description": "文中将 YouMind 的 Board 联网搜索及综述功能比作“去中心化的 ChatGPT Deep Research”",
+      "confidence": "high"
+    },
+    {
+      "source": "腾讯",
+      "target": "ima",
+      "type": "develops",
+      "description": "腾讯开发了 ima 知识库",
+      "confidence": "high"
+    },
+    {
+      "source": "YouMind",
+      "target": "Grimo",
+      "type": "competes_with",
+      "description": "二者均为当前处于探索阶段的 AI 创作产品，在 AI 辅助写作场景下存在竞品关系",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "002",
+  "_article_title": "AI创作产品，还没找到自己的形态",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

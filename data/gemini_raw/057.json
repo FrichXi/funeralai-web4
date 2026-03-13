@@ -1,0 +1,253 @@
+{
+  "entities": [
+    {
+      "name": "张月光",
+      "type": "person",
+      "description": "AI产品制作人，连续创业者，打造了《星眠》等产品",
+      "aliases": [
+        "月光",
+        "月光老师"
+      ],
+      "tags": [
+        "明星创业者",
+        "AI伴游"
+      ]
+    },
+    {
+      "name": "星眠",
+      "type": "product",
+      "description": "张月光团队开发的一款带有Chatbot功能的AI乙女游戏",
+      "aliases": [],
+      "tags": [
+        "AI乙游",
+        "Chatbot",
+        "梦境旅馆"
+      ]
+    },
+    {
+      "name": "Dokie",
+      "type": "product",
+      "description": "近期进行宣发的AI PPT产品",
+      "aliases": [],
+      "tags": [
+        "AI PPT"
+      ]
+    },
+    {
+      "name": "百度",
+      "type": "company",
+      "description": "国内互联网大厂，投资或资助了张月光的《星眠》项目",
+      "aliases": [],
+      "tags": [
+        "大厂",
+        "投资方"
+      ]
+    },
+    {
+      "name": "Robin",
+      "type": "person",
+      "description": "百度创始人/CEO",
+      "aliases": [
+        "李彦宏"
+      ],
+      "tags": [
+        "大厂高管",
+        "投资人"
+      ]
+    },
+    {
+      "name": "星野",
+      "type": "product",
+      "description": "一款AI陪伴聊天应用，被用作与《星眠》进行对比",
+      "aliases": [],
+      "tags": [
+        "AI聊天",
+        "UGC社区"
+      ]
+    },
+    {
+      "name": "橙光游戏",
+      "type": "product",
+      "description": "知名的文字游戏平台，被用来形容《星眠》的某些系统设定",
+      "aliases": [],
+      "tags": [
+        "文字游戏"
+      ]
+    },
+    {
+      "name": "恋与深空",
+      "type": "product",
+      "description": "成熟的3D非AI乙女游戏，被多次用于与《星眠》对比",
+      "aliases": [],
+      "tags": [
+        "乙女游戏",
+        "IP塑造"
+      ]
+    },
+    {
+      "name": "出海相机产品",
+      "type": "product",
+      "description": "张月光团队目前在做的一款出海相机应用，在小红书上以独立开发者身份运营",
+      "aliases": [
+        "这个相机"
+      ],
+      "tags": [
+        "出海产品",
+        "独立开发者"
+      ]
+    },
+    {
+      "name": "妙鸭",
+      "type": "product",
+      "description": "知名的AI写真相机应用，张月光曾参与打造",
+      "aliases": [
+        "妙鸭相机"
+      ],
+      "tags": [
+        "AI相机",
+        "爆款应用"
+      ]
+    },
+    {
+      "name": "ChatPods",
+      "type": "product",
+      "description": "文中提及的一款AI产品，与相机产品进行好用程度的对比",
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "name": "电子羊DeepSheep",
+      "type": "person",
+      "description": "AI行业的知名评论者，曾对张月光的方法论进行评价",
+      "aliases": [
+        "@电子羊DeepSheep"
+      ],
+      "tags": [
+        "KOL",
+        "行业评论"
+      ]
+    },
+    {
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "OpenAI的通用大语言模型产品，被视为AI陪伴赛道的未来方向之一",
+      "aliases": [],
+      "tags": [
+        "3D伴游方向",
+        "大模型"
+      ]
+    },
+    {
+      "name": "豆包",
+      "type": "product",
+      "description": "字节跳动旗下的AI产品，被作者类比为中国版ChatGPT",
+      "aliases": [],
+      "tags": [
+        "AI伴游",
+        "大语言模型"
+      ]
+    },
+    {
+      "name": "Soul",
+      "type": "product",
+      "description": "一款主打灵魂交友的社交软件，被作者戏称为AI陪伴用户的最终归宿",
+      "aliases": [],
+      "tags": [
+        "社交应用"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张月光",
+      "target": "星眠",
+      "type": "works_on",
+      "description": "张月光主导开发了AI乙女游戏《星眠》",
+      "confidence": "high"
+    },
+    {
+      "source": "百度",
+      "target": "星眠",
+      "type": "invests_in",
+      "description": "百度为《星眠》项目提供了资金或资源支持",
+      "confidence": "high"
+    },
+    {
+      "source": "百度",
+      "target": "张月光",
+      "type": "invests_in",
+      "description": "百度投资或资助了张月光及其团队",
+      "confidence": "high"
+    },
+    {
+      "source": "Robin",
+      "target": "百度",
+      "type": "works_at",
+      "description": "Robin(李彦宏)是百度的核心人物",
+      "confidence": "high"
+    },
+    {
+      "source": "张月光",
+      "target": "出海相机产品",
+      "type": "works_on",
+      "description": "张月光及其团队目前在开发一款出海相机产品",
+      "confidence": "high"
+    },
+    {
+      "source": "张月光",
+      "target": "妙鸭",
+      "type": "works_on",
+      "description": "张月光曾参与开发打造《妙鸭》相机",
+      "confidence": "high"
+    },
+    {
+      "source": "星眠",
+      "target": "星野",
+      "type": "compares_to",
+      "description": "作者认为《星眠》的对话模式和系统是《星野》玩剩下的，且都不尽如人意",
+      "confidence": "high"
+    },
+    {
+      "source": "星眠",
+      "target": "恋与深空",
+      "type": "compares_to",
+      "description": "作者将AI乙游《星眠》与传统正经乙游《恋与深空》在IP塑造和角色扮演机制上进行了深度对比",
+      "confidence": "high"
+    },
+    {
+      "source": "星眠",
+      "target": "橙光游戏",
+      "type": "compares_to",
+      "description": "作者吐槽《星眠》的表达方式如同复古的橙光游戏",
+      "confidence": "medium"
+    },
+    {
+      "source": "出海相机产品",
+      "target": "ChatPods",
+      "type": "compares_to",
+      "description": "作者认为张月光团队的相机产品比ChatPods等应用加起来都好用",
+      "confidence": "medium"
+    },
+    {
+      "source": "电子羊DeepSheep",
+      "target": "张月光",
+      "type": "praises",
+      "description": "电子羊DeepSheep曾公开赞扬张月光总结战略方法论的能力",
+      "confidence": "high"
+    },
+    {
+      "source": "豆包",
+      "target": "ChatGPT",
+      "type": "compares_to",
+      "description": "作者认为3D版的豆包可能会成为中国版的3D ChatGPT，代表未来AI陪伴方向",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "057",
+  "_article_title": "张月光给乙女游戏加了个Chatbot",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

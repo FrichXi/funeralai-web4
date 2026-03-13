@@ -1,0 +1,285 @@
+{
+  "article": {
+    "id": "029",
+    "title": "AI写作指南3.0编程式写作",
+    "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+    "date": "2025-10-16",
+    "author": "葬爱咸鱼",
+    "content_hash": "524b3a52c538e72bf7423f05ced42f8585926e4b100fa911f030532f0945e435"
+  },
+  "entities": [
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "AI编程Agent应用，可通过终端执行任务",
+      "mention_count": 18,
+      "aliases": [
+        "Claude Code",
+        "cc"
+      ],
+      "tags": [
+        "编程Agent",
+        "终端工具",
+        "大模型"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "type": "product",
+      "description": "Google开发的大语言模型",
+      "mention_count": 5,
+      "aliases": [
+        "Gemini 2.5 Pro"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI",
+      "type": "product",
+      "description": "基于Gemini模型的终端编程Agent",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "编程Agent",
+        "终端工具"
+      ]
+    },
+    {
+      "id": "cherry-studio",
+      "name": "Cherry Studio",
+      "type": "product",
+      "description": "为Claude Code等大模型提供前端界面的套壳应用",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "前端界面",
+        "套壳应用"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "AI编程Agent工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "编程Agent"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "大语言模型，可作为编程Agent的后端",
+      "mention_count": 1,
+      "aliases": [
+        "Kimi K2"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "plaud",
+      "name": "Plaud",
+      "type": "product",
+      "description": "具备录音功能的AI硬件产品",
+      "mention_count": 1,
+      "aliases": [
+        "Plaud录音卡片"
+      ],
+      "tags": [
+        "AI硬件",
+        "语音输入"
+      ]
+    },
+    {
+      "id": "qoder",
+      "name": "Qoder",
+      "type": "product",
+      "description": "AI编程Agent工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "编程Agent"
+      ]
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "阿里开发的大语言模型",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "通义",
+      "name": "通义",
+      "type": "product",
+      "description": "具备录音转写功能的AI应用",
+      "mention_count": 1,
+      "aliases": [
+        "通义APP"
+      ],
+      "tags": [
+        "语音输入"
+      ]
+    },
+    {
+      "id": "阶跃",
+      "name": "阶跃",
+      "type": "company",
+      "description": "阶跃电脑助手的开发公司",
+      "mention_count": 1,
+      "aliases": [
+        "阶跃星辰"
+      ],
+      "tags": [
+        "AI公司"
+      ]
+    },
+    {
+      "id": "阶跃电脑助手",
+      "name": "阶跃电脑助手",
+      "type": "product",
+      "description": "将Claude Code等能力置于本地环境的助手工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "本地环境",
+        "套壳应用"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Claude",
+      "target": "Codex",
+      "relation_type": "competes_with",
+      "label": "两者均为同类的编程Agent工具",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Gemini",
+      "relation_type": "competes_with",
+      "label": "两者均为通用大语言模型",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Gemini CLI",
+      "relation_type": "competes_with",
+      "label": "两者均为同类的编程Agent工具",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Qoder",
+      "relation_type": "competes_with",
+      "label": "两者均为同类的编程Agent工具",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Qwen",
+      "relation_type": "competes_with",
+      "label": "两者均为通用大语言模型",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Gemini",
+      "target": "Qwen",
+      "relation_type": "competes_with",
+      "label": "两者均为通用大语言模型",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Plaud",
+      "target": "通义",
+      "relation_type": "competes_with",
+      "label": "两者均被作者作为口述录音的同类输入工具提及",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "阶跃",
+      "target": "阶跃电脑助手",
+      "relation_type": "develops",
+      "label": "阶跃公司开发了阶跃电脑助手",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    },
+    {
+      "source": "Cherry Studio",
+      "target": "Claude",
+      "relation_type": "integrates_with",
+      "label": "Cherry Studio作为前端界面套壳并集成了Claude Code",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Kimi",
+      "relation_type": "integrates_with",
+      "label": "Kimi模型可作为后端API接入Claude Code使用",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "阶跃电脑助手",
+      "relation_type": "integrates_with",
+      "label": "阶跃电脑助手在本地环境中集成了Claude Code",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Gemini",
+      "target": "Gemini CLI",
+      "relation_type": "integrates_with",
+      "label": "Gemini CLI底层调用Gemini大模型",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 12,
+    "relationship_count": 12,
+    "pruned_entities": [
+      {
+        "name": "Wisper Flow",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

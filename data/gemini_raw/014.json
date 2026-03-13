@@ -1,0 +1,204 @@
+{
+  "entities": [
+    {
+      "name": "ChatPods",
+      "type": "product",
+      "description": "一款集合播客并生成语音摘要的独立AI播客产品",
+      "aliases": [],
+      "tags": [
+        "AI播客",
+        "语音摘要",
+        "独立产品"
+      ]
+    },
+    {
+      "name": "来福电台",
+      "type": "product",
+      "description": "一款内容由AI生成的播客应用，包含系统推荐单集和用户定制功能",
+      "aliases": [],
+      "tags": [
+        "AI播客",
+        "音频生成",
+        "数据飞轮"
+      ]
+    },
+    {
+      "name": "小宇宙",
+      "type": "product",
+      "description": "国内流行的播客收听平台",
+      "aliases": [],
+      "tags": [
+        "播客平台"
+      ]
+    },
+    {
+      "name": "Spotify",
+      "type": "company",
+      "description": "海外知名流媒体及播客平台",
+      "aliases": [],
+      "tags": [
+        "播客平台",
+        "海外市场"
+      ]
+    },
+    {
+      "name": "喜马拉雅",
+      "type": "product",
+      "description": "知名音频分享与播客平台",
+      "aliases": [],
+      "tags": [
+        "音频平台",
+        "内容平台"
+      ]
+    },
+    {
+      "name": "豆包",
+      "type": "product",
+      "description": "具备语音模式的大语言模型应用",
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "语音模式"
+      ]
+    },
+    {
+      "name": "ListenHub",
+      "type": "product",
+      "description": "一款具有语音生成能力的应用或工具",
+      "aliases": [],
+      "tags": [
+        "语音生成"
+      ]
+    },
+    {
+      "name": "NotebookLM",
+      "type": "product",
+      "description": "定位为“音频概览”的AI知识库及语音摘要工具",
+      "aliases": [
+        "Audio Overviews"
+      ],
+      "tags": [
+        "知识库",
+        "语音摘要",
+        "音频概览"
+      ]
+    },
+    {
+      "name": "谷歌",
+      "type": "company",
+      "description": "NotebookLM的开发公司",
+      "aliases": [
+        "Google"
+      ],
+      "tags": [
+        "科技巨头"
+      ]
+    },
+    {
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "具备语音模式的大型语言模型产品",
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "语音模式"
+      ]
+    },
+    {
+      "name": "Ima",
+      "type": "product",
+      "description": "腾讯旗下的知识库工具，具备语音摘要功能",
+      "aliases": [
+        "腾讯Ima"
+      ],
+      "tags": [
+        "知识库",
+        "语音摘要"
+      ]
+    },
+    {
+      "name": "腾讯",
+      "type": "company",
+      "description": "Ima知识库工具的开发公司",
+      "aliases": [
+        "Tencent"
+      ],
+      "tags": [
+        "科技大厂"
+      ]
+    },
+    {
+      "name": "微信读书",
+      "type": "product",
+      "description": "具备语音朗读功能的阅读应用",
+      "aliases": [],
+      "tags": [
+        "阅读应用",
+        "语音朗读"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "谷歌",
+      "target": "NotebookLM",
+      "type": "develops",
+      "description": "谷歌开发并推出了NotebookLM工具",
+      "confidence": "high"
+    },
+    {
+      "source": "腾讯",
+      "target": "Ima",
+      "type": "develops",
+      "description": "腾讯开发了Ima知识库工具",
+      "confidence": "high"
+    },
+    {
+      "source": "来福电台",
+      "target": "喜马拉雅",
+      "type": "compares_to",
+      "description": "文章将生成AI虚构故事的来福电台评价为“低配版喜马拉雅”",
+      "confidence": "high"
+    },
+    {
+      "source": "来福电台",
+      "target": "豆包",
+      "type": "compares_to",
+      "description": "文章对比了两者的语音效果，认为来福电台的机械语音比不上豆包",
+      "confidence": "high"
+    },
+    {
+      "source": "来福电台",
+      "target": "ListenHub",
+      "type": "compares_to",
+      "description": "文章评价来福电台的语音效果不如ListenHub",
+      "confidence": "high"
+    },
+    {
+      "source": "ChatPods",
+      "target": "微信读书",
+      "type": "competes_with",
+      "description": "文章认为市面上的AI播客产品（如ChatPods）本质是语音摘要工具，实际竞争对手是微信读书的语音朗读功能",
+      "confidence": "medium"
+    },
+    {
+      "source": "来福电台",
+      "target": "微信读书",
+      "type": "competes_with",
+      "description": "文章认为市面上的AI播客产品（如来福电台）本质是语音摘要工具，实际竞争对手是微信读书的语音朗读功能",
+      "confidence": "medium"
+    },
+    {
+      "source": "ChatPods",
+      "target": "小宇宙",
+      "type": "compares_to",
+      "description": "文章对ChatPods生成的摘要模式提出质疑，对比用户直接去小宇宙收听原播客的行为逻辑",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "014",
+  "_article_title": "除了投资人，没人需要AI播客",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

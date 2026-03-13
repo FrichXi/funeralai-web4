@@ -1,0 +1,326 @@
+{
+  "entities": [
+    {
+      "name": "Manus (公司)",
+      "type": "company",
+      "description": "被Meta收购的AI初创团队/公司",
+      "aliases": [
+        "Manus团队"
+      ],
+      "tags": [
+        "出海",
+        "Agent"
+      ]
+    },
+    {
+      "name": "Manus (产品)",
+      "type": "product",
+      "description": "满足日常信息获取需求的通用AI Agent产品",
+      "aliases": [
+        "Manus"
+      ],
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "name": "Meta",
+      "type": "company",
+      "description": "收购了Manus的科技巨头",
+      "aliases": [],
+      "tags": [
+        "大公司"
+      ]
+    },
+    {
+      "name": "肖弘",
+      "type": "person",
+      "description": "Manus的核心创始人",
+      "aliases": [
+        "Chinese founder"
+      ],
+      "tags": [
+        "创始人"
+      ]
+    },
+    {
+      "name": "Peak",
+      "type": "person",
+      "description": "Manus团队核心人员",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "刘元",
+      "type": "person",
+      "description": "发掘并投资了肖弘/Manus的投资人",
+      "aliases": [],
+      "tags": [
+        "投资人"
+      ]
+    },
+    {
+      "name": "骆轶航",
+      "type": "person",
+      "description": "曾办黑客马拉松，早期曾批评后转为支持Manus的行业人物",
+      "aliases": [
+        "骆师",
+        "骆老师"
+      ],
+      "tags": []
+    },
+    {
+      "name": "OpenAI",
+      "type": "company",
+      "description": "被用作行业估值参考基准的AI公司",
+      "aliases": [],
+      "tags": [
+        "估值参考"
+      ]
+    },
+    {
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "与Manus存在需求平移和对比关系的AI聊天产品",
+      "aliases": [],
+      "tags": [
+        "竞品"
+      ]
+    },
+    {
+      "name": "GPT Thinking",
+      "type": "product",
+      "description": "ChatGPT的思考模式功能",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "Kimi",
+      "type": "product",
+      "description": "面向消费者整活的AI产品",
+      "aliases": [],
+      "tags": [
+        "ToC"
+      ]
+    },
+    {
+      "name": "砸盘两兄弟",
+      "type": "company",
+      "description": "被指不擅长面向消费者整活的国内大模型公司",
+      "aliases": [
+        "两兄弟"
+      ],
+      "tags": [
+        "国产大模型"
+      ]
+    },
+    {
+      "name": "扎克伯格",
+      "type": "person",
+      "description": "Meta CEO，收购Manus的决策者",
+      "aliases": [
+        "邪恶蜥蜴人",
+        "扎子",
+        "蜥蜴人"
+      ],
+      "tags": [
+        "CEO"
+      ]
+    },
+    {
+      "name": "Alexandr Wang",
+      "type": "person",
+      "description": "Scale AI CEO，Manus团队向其汇报工作的高管",
+      "aliases": [
+        "创业小登",
+        "疯狂小登"
+      ],
+      "tags": [
+        "高管"
+      ]
+    },
+    {
+      "name": "奇绩创坛",
+      "type": "company",
+      "description": "被指盛产Alexandr Wang类创业者的机构",
+      "aliases": [],
+      "tags": [
+        "投资机构"
+      ]
+    },
+    {
+      "name": "Monica",
+      "type": "product",
+      "description": "年营收1200万美金的AI产品，与Manus团队相关",
+      "aliases": [],
+      "tags": [
+        "出海产品"
+      ]
+    },
+    {
+      "name": "智谱",
+      "type": "company",
+      "description": "国产大模型公司，被假想为Monica的潜在收购方",
+      "aliases": [],
+      "tags": [
+        "国产大模型"
+      ]
+    },
+    {
+      "name": "郭宇",
+      "type": "person",
+      "description": "被用作隐喻“财富自由后提前退休”的行业人物",
+      "aliases": [],
+      "tags": [
+        "退休生活"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Meta",
+      "target": "Manus (公司)",
+      "type": "acquires",
+      "description": "Meta斥资约20亿美元收购了Manus",
+      "confidence": "high"
+    },
+    {
+      "source": "Manus (公司)",
+      "target": "Manus (产品)",
+      "type": "develops",
+      "description": "Manus公司开发了同名Agent产品",
+      "confidence": "high"
+    },
+    {
+      "source": "肖弘",
+      "target": "Manus (公司)",
+      "type": "founder_of",
+      "description": "肖弘是Manus的Chinese founder",
+      "confidence": "high"
+    },
+    {
+      "source": "Peak",
+      "target": "Manus (公司)",
+      "type": "works_at",
+      "description": "Peak是Manus团队核心人员之一",
+      "confidence": "high"
+    },
+    {
+      "source": "肖弘",
+      "target": "Peak",
+      "type": "co_founded",
+      "description": "两人共同作为Manus的核心人员被并列提及",
+      "confidence": "medium"
+    },
+    {
+      "source": "刘元",
+      "target": "肖弘",
+      "type": "invests_in",
+      "description": "刘元发现了肖弘并投了100万美元",
+      "confidence": "high"
+    },
+    {
+      "source": "刘元",
+      "target": "Manus (公司)",
+      "type": "invests_in",
+      "description": "刘元投资了肖弘创办的项目",
+      "confidence": "high"
+    },
+    {
+      "source": "骆轶航",
+      "target": "Manus (公司)",
+      "type": "criticizes",
+      "description": "骆轶航最早是Manus的黑子",
+      "confidence": "high"
+    },
+    {
+      "source": "骆轶航",
+      "target": "肖弘",
+      "type": "praises",
+      "description": "骆轶航迷途知返，选择支持中国创始人",
+      "confidence": "high"
+    },
+    {
+      "source": "Manus (产品)",
+      "target": "ChatGPT",
+      "type": "competes_with",
+      "description": "Manus平移了一部分ChatGPT用户的需求",
+      "confidence": "high"
+    },
+    {
+      "source": "Manus (产品)",
+      "target": "ChatGPT",
+      "type": "compares_to",
+      "description": "作者认为Manus大致相当于1%的ChatGPT",
+      "confidence": "high"
+    },
+    {
+      "source": "Manus (产品)",
+      "target": "GPT Thinking",
+      "type": "compares_to",
+      "description": "Manus免费版完成速度比GPT Thinking还要快",
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi",
+      "target": "砸盘两兄弟",
+      "type": "compares_to",
+      "description": "作者锐评Kimi显著好于砸盘两兄弟",
+      "confidence": "high"
+    },
+    {
+      "source": "扎克伯格",
+      "target": "Meta",
+      "type": "works_at",
+      "description": "扎克伯格作为Meta核心人物主导收购并产生焦虑",
+      "confidence": "high"
+    },
+    {
+      "source": "Manus (公司)",
+      "target": "Alexandr Wang",
+      "type": "compares_to",
+      "description": "作者吐槽Manus爆金币的数量等于1/7个Alexandr Wang",
+      "confidence": "high"
+    },
+    {
+      "source": "肖弘",
+      "target": "Alexandr Wang",
+      "type": "collaborates_with",
+      "description": "收购后Manus诸公要向Alexandr Wang汇报工作",
+      "confidence": "medium"
+    },
+    {
+      "source": "Alexandr Wang",
+      "target": "奇绩创坛",
+      "type": "related",
+      "description": "Alexandr Wang被形容为奇绩创坛盛产的人物类型",
+      "confidence": "low"
+    },
+    {
+      "source": "Manus (公司)",
+      "target": "Monica",
+      "type": "develops",
+      "description": "文中将Monica与Manus团队的去留并列讨论",
+      "confidence": "medium"
+    },
+    {
+      "source": "智谱",
+      "target": "Monica",
+      "type": "related",
+      "description": "作者戏谑提问Monica要不要卖给智谱",
+      "confidence": "low"
+    },
+    {
+      "source": "肖弘",
+      "target": "郭宇",
+      "type": "compares_to",
+      "description": "作者将Manus团队收购后的状态与郭宇的退休生活作对比",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "048",
+  "_article_title": "第一届Manus杯新加坡概念作文大赛",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

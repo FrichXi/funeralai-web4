@@ -1,0 +1,278 @@
+{
+  "article": {
+    "id": "028",
+    "title": "a16z是一家媒体公司",
+    "path": "articles/028_2025-10-14_葬爱咸鱼_a16z是一家媒体公司.md",
+    "date": "2025-10-14",
+    "author": "葬爱咸鱼",
+    "content_hash": "2486a0d930d07bbac641e1c1315a6640d3120d2906d31bedb7551010ea0c8f03"
+  },
+  "entities": [
+    {
+      "id": "a16z",
+      "name": "a16z",
+      "type": "company",
+      "description": "一家顶级的风险投资机构，本质上通过内容制造叙事并作为媒体公司运营进行投资盈利。",
+      "mention_count": 53,
+      "aliases": [
+        "Andreessen Horowitz"
+      ],
+      "tags": [
+        "VC",
+        "媒体公司",
+        "一级市场"
+      ]
+    },
+    {
+      "id": "it-s-time-to-build",
+      "name": "It's Time to Build",
+      "type": "product",
+      "description": "Marc Andreessen在2020年疫情初期撰写的文章产品，呼吁建设并击中西方社会情绪。",
+      "mention_count": 7,
+      "aliases": [],
+      "tags": [
+        "叙事产品"
+      ]
+    },
+    {
+      "id": "the-little-tech-agenda",
+      "name": "The Little Tech Agenda",
+      "type": "product",
+      "description": "Marc Andreessen撰写的文章产品，将支持小科技公司与捍卫美国技术霸权等同起来。",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "叙事产品"
+      ]
+    },
+    {
+      "id": "why-ai-will-save-the-world",
+      "name": "Why AI Will Save the World",
+      "type": "product",
+      "description": "Marc Andreessen撰写的文章产品，驳斥AI威胁论并力推AI加速主义。",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "叙事产品"
+      ]
+    },
+    {
+      "id": "特朗普",
+      "name": "特朗普",
+      "type": "person",
+      "description": "文中被用作比喻对象，指代凭借自身影响力和权力直接制造市场行情（K线）的人。",
+      "mention_count": 3,
+      "aliases": [
+        "Trump"
+      ],
+      "tags": [
+        "股神",
+        "意见领袖"
+      ]
+    },
+    {
+      "id": "opensea",
+      "name": "OpenSea",
+      "type": "company",
+      "description": "a16z在Web3领域重金投资的明星项目，估值曾暴涨。",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "Web3",
+        "加密货币"
+      ]
+    },
+    {
+      "id": "the-techno-optimist-manifesto",
+      "name": "The Techno-Optimist Manifesto",
+      "type": "product",
+      "description": "Marc Andreessen撰写的技术乐观主义宣言文章产品。",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "宣言",
+        "叙事产品"
+      ]
+    },
+    {
+      "id": "孙宇晨",
+      "name": "孙宇晨",
+      "type": "person",
+      "description": "币圈知名人物，文中被用作比喻对象，以对比a16z在一级市场的运作模式。",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "币圈",
+        "炒作"
+      ]
+    },
+    {
+      "id": "character-ai",
+      "name": "Character.AI",
+      "type": "company",
+      "description": "a16z在AI赛道领投1.5亿美元A轮的明星公司。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI应用",
+        "人工智能"
+      ]
+    },
+    {
+      "id": "chris-dixon",
+      "name": "Chris Dixon",
+      "type": "person",
+      "description": "a16z内容团队成员，负责加密货币领域的内容输出。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "内容团队"
+      ]
+    },
+    {
+      "id": "connie-chan",
+      "name": "Connie Chan",
+      "type": "person",
+      "description": "a16z内容团队成员，专注中国市场和移动互联网的内容输出。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "内容团队"
+      ]
+    },
+    {
+      "id": "dapper-labs",
+      "name": "Dapper Labs",
+      "type": "company",
+      "description": "a16z在Web3领域投资的明星项目之一。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "Web3",
+        "加密货币"
+      ]
+    },
+    {
+      "id": "katherine-boyle",
+      "name": "Katherine Boyle",
+      "type": "person",
+      "description": "a16z内容团队成员，主导American Dynamism系列专栏。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "内容团队"
+      ]
+    },
+    {
+      "id": "sriram-krishnan",
+      "name": "Sriram Krishnan",
+      "type": "person",
+      "description": "a16z播客主持人，参与Web3叙事创作。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "播客主持人",
+        "内容团队"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "a16z",
+      "target": "孙宇晨",
+      "relation_type": "compares_to",
+      "label": "文章将a16z在一级市场依靠叙事拉盘的行为与孙宇晨在币圈炒作的行为进行类比。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "a16z",
+      "target": "特朗普",
+      "relation_type": "compares_to",
+      "label": "文章将a16z比作现代版股神特朗普，认为两者都通过权力和影响力直接制造市场行情。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "a16z",
+      "target": "Why AI Will Save the World",
+      "relation_type": "develops",
+      "label": "a16z作为一家本质上的媒体公司，系统化地产出此类核心内容产品以影响市场。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    },
+    {
+      "source": "a16z",
+      "target": "Character.AI",
+      "relation_type": "invests_in",
+      "label": "a16z在2023年领投了Character.AI的1.5亿美元A轮融资。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "a16z",
+      "target": "Dapper Labs",
+      "relation_type": "invests_in",
+      "label": "a16z在Web3领域投资了Dapper Labs。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "a16z",
+      "target": "OpenSea",
+      "relation_type": "invests_in",
+      "label": "a16z在Web3领域投资了OpenSea。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Chris Dixon",
+      "target": "a16z",
+      "relation_type": "works_at",
+      "label": "Chris Dixon在a16z任职，负责加密货币领域内容。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Connie Chan",
+      "target": "a16z",
+      "relation_type": "works_at",
+      "label": "Connie Chan在a16z任职，专注中国市场和移动互联网内容。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Katherine Boyle",
+      "target": "a16z",
+      "relation_type": "works_at",
+      "label": "Katherine Boyle在a16z任职，主导特定专栏。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Sriram Krishnan",
+      "target": "a16z",
+      "relation_type": "works_at",
+      "label": "Sriram Krishnan在a16z任职，主持播客并参与内容创作。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 14,
+    "relationship_count": 10,
+    "pruned_entities": []
+  }
+}

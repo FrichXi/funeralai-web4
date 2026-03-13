@@ -1,0 +1,173 @@
+{
+  "article": {
+    "id": "047",
+    "title": "我被AI圈大冰投诉了（附真诚道歉信）",
+    "path": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+    "date": "2025-12-29",
+    "author": "沐秋",
+    "content_hash": "5d3e373ef8bdee9a35a52e2bab3b5bf3ba1d692df46e36ea05591c0e7fcec65f"
+  },
+  "entities": [
+    {
+      "id": "agnes",
+      "name": "Agnes",
+      "type": "product",
+      "description": "被作者反讽吐槽的新加坡AI协作平台应用",
+      "mention_count": 22,
+      "aliases": [
+        "Agnes AI"
+      ],
+      "tags": [
+        "AI应用",
+        "Agent",
+        "东南亚"
+      ]
+    },
+    {
+      "id": "genspark",
+      "name": "Genspark",
+      "type": "product",
+      "description": "被Agnes对标且被指涉嫌抄袭的AI产品",
+      "mention_count": 9,
+      "aliases": [],
+      "tags": [
+        "AI协作平台"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "知名AI企业，Agnes自称为其东南亚版本",
+      "mention_count": 7,
+      "aliases": [],
+      "tags": [
+        "行业标杆"
+      ]
+    },
+    {
+      "id": "lovart",
+      "name": "Lovart",
+      "type": "product",
+      "description": "设计类头部应用，被Agnes用于对比访问量",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "设计应用"
+      ]
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "type": "product",
+      "description": "被Agnes宣称数据逼近的AI产品",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "id": "sapiens-ai",
+      "name": "Sapiens AI",
+      "type": "company",
+      "description": "开发Agnes的新加坡AI团队",
+      "mention_count": 1,
+      "aliases": [
+        "Sapiens",
+        "新加坡Sapiens AI团队"
+      ],
+      "tags": [
+        "新加坡"
+      ]
+    },
+    {
+      "id": "大冰",
+      "name": "大冰",
+      "type": "person",
+      "description": "知名人物，在文章标题和正文中被用作嘲讽Agnes及其团队的比喻对象",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "比喻对象"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Agnes",
+      "target": "DeepSeek",
+      "relation_type": "compares_to",
+      "label": "Agnes自封为东南亚DeepSeek的种子选手",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "Genspark",
+      "relation_type": "compares_to",
+      "label": "文章指出Agnes在产品思路上与Genspark极其类似，被称为丐版/贵族版Genspark",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "Lovart",
+      "relation_type": "compares_to",
+      "label": "Agnes宣称其访问量接近Lovart",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "Manus",
+      "relation_type": "compares_to",
+      "label": "Agnes宣称其数据表现逼近Manus",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "大冰",
+      "relation_type": "compares_to",
+      "label": "文章标题及正文将Agnes及其团队比作AI圈大冰进行嘲讽",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "Genspark",
+      "relation_type": "competes_with",
+      "label": "Agnes宣称在3个月内追平Genspark",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Sapiens AI",
+      "target": "Agnes",
+      "relation_type": "develops",
+      "label": "Agnes AI由新加坡Sapiens AI团队打造",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 7,
+    "relationship_count": 7,
+    "pruned_entities": [
+      {
+        "name": "南京开为网络科技有限公司",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "article": {
+    "id": "050",
+    "title": "Rokid是我的太阳（指物理温度）",
+    "path": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+    "date": "2026-01-08",
+    "author": "葬爱咸鱼",
+    "content_hash": "74833b886116f3b1a8fd796a743d6e5b6e3bb095a4b19653618f8c952668d4b3"
+  },
+  "entities": [
+    {
+      "id": "rokid",
+      "name": "Rokid",
+      "type": "company",
+      "description": "国内AR眼镜行业的先行企业，推出多款AI眼镜产品",
+      "mention_count": 26,
+      "aliases": [],
+      "tags": [
+        "AR眼镜",
+        "AI眼镜",
+        "生态开放"
+      ]
+    },
+    {
+      "id": "乐奇",
+      "name": "乐奇",
+      "type": "product",
+      "description": "Rokid眼镜内置的AI语音助手",
+      "mention_count": 9,
+      "aliases": [
+        "AI助手aka乐奇"
+      ],
+      "tags": [
+        "AI语音助手",
+        "AI Agent"
+      ]
+    },
+    {
+      "id": "影目",
+      "name": "影目",
+      "type": "company",
+      "description": "国内AI/AR眼镜研发公司，推出Inmo系列产品",
+      "mention_count": 2,
+      "aliases": [
+        "Inmo"
+      ],
+      "tags": [
+        "AR眼镜"
+      ]
+    },
+    {
+      "id": "imx681",
+      "name": "IMX681",
+      "type": "product",
+      "description": "索尼研发的一款传感器，被应用于Rokid Glasses的摄像头中",
+      "mention_count": 1,
+      "aliases": [
+        "索尼 IMX681 传感器"
+      ],
+      "tags": [
+        "传感器",
+        "摄像头"
+      ]
+    },
+    {
+      "id": "looki",
+      "name": "Looki",
+      "type": "product",
+      "description": "AI眼镜领域的同行业品牌",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI眼镜"
+      ]
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "type": "company",
+      "description": "国际科技巨头，开发了相对封闭生态的智能眼镜/头显设备",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "科技巨头",
+        "封闭生态"
+      ]
+    },
+    {
+      "id": "rokid创始人",
+      "name": "Rokid创始人",
+      "type": "person",
+      "description": "Rokid公司的创始人，被作者视为AR领域的先行者",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "夸克s1",
+      "name": "夸克S1",
+      "type": "product",
+      "description": "阿里夸克推出的AI智能眼镜产品",
+      "mention_count": 1,
+      "aliases": [
+        "夸克智能眼镜"
+      ],
+      "tags": [
+        "智能眼镜",
+        "AI硬件"
+      ]
+    },
+    {
+      "id": "扎克伯格",
+      "name": "扎克伯格",
+      "type": "person",
+      "description": "Meta公司的核心创始人及掌控者",
+      "mention_count": 1,
+      "aliases": [
+        "Zuckerberg"
+      ],
+      "tags": []
+    },
+    {
+      "id": "索尼",
+      "name": "索尼",
+      "type": "company",
+      "description": "全球知名的电子和传感器制造企业",
+      "mention_count": 1,
+      "aliases": [
+        "Sony"
+      ],
+      "tags": [
+        "硬件供应链"
+      ]
+    },
+    {
+      "id": "阿里",
+      "name": "阿里",
+      "type": "company",
+      "description": "中国大型互联网科技公司，夸克产品的母公司",
+      "mention_count": 1,
+      "aliases": [
+        "阿里巴巴"
+      ],
+      "tags": [
+        "大厂"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Meta",
+      "target": "Rokid",
+      "relation_type": "compares_to",
+      "label": "文章将Rokid的开放生态与Meta的封闭生态进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Looki",
+      "target": "Rokid",
+      "relation_type": "competes_with",
+      "label": "Looki与Rokid在AI眼镜赛道存在竞争及功能追赶关系",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Rokid",
+      "target": "乐奇",
+      "relation_type": "develops",
+      "label": "Rokid开发了名为乐奇的内置AI助手",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "索尼",
+      "target": "IMX681",
+      "relation_type": "develops",
+      "label": "索尼研发并制造了IMX681传感器",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "阿里",
+      "target": "夸克S1",
+      "relation_type": "develops",
+      "label": "阿里夸克团队开发了夸克S1 AI眼镜",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Rokid创始人",
+      "target": "Rokid",
+      "relation_type": "founder_of",
+      "label": "Rokid创始人创立了Rokid公司",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "扎克伯格",
+      "target": "Meta",
+      "relation_type": "founder_of",
+      "label": "扎克伯格是Meta的核心人物及掌控者",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 11,
+    "relationship_count": 7,
+    "pruned_entities": [
+      {
+        "name": "Inmo Go3",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "Rokid Glasses",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "同花顺",
+        "reason": "low-signal"
+      },
+      {
+        "name": "豆包",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

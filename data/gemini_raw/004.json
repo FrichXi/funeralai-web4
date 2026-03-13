@@ -1,0 +1,351 @@
+{
+  "entities": [
+    {
+      "name": "MiniMax",
+      "type": "company",
+      "description": "中国AI初创公司，被戏称为AI六小虎之一",
+      "aliases": [
+        "MinMax"
+      ],
+      "tags": [
+        "AI六小虎",
+        "视频生成模型",
+        "大模型公司"
+      ]
+    },
+    {
+      "name": "海螺AI",
+      "type": "product",
+      "description": "MiniMax旗下的AI视频与对话产品",
+      "aliases": [
+        "海螺"
+      ],
+      "tags": [
+        "视频生成",
+        "胖猫智能体"
+      ]
+    },
+    {
+      "name": "星野",
+      "type": "product",
+      "description": "MiniMax旗下的AI对话应用",
+      "aliases": [
+        "星野app"
+      ],
+      "tags": [
+        "智能体",
+        "AI对话",
+        "抽象网红"
+      ]
+    },
+    {
+      "name": "Kimi",
+      "type": "product",
+      "description": "国内知名的AI对话产品",
+      "aliases": [],
+      "tags": [
+        "数据飞轮"
+      ]
+    },
+    {
+      "name": "杨圣",
+      "type": "person",
+      "description": "与Kimi相关的核心行业人物（指代杨植麟）",
+      "aliases": [
+        "杨植麟"
+      ],
+      "tags": [
+        "创始人",
+        "AI六小虎"
+      ]
+    },
+    {
+      "name": "豆包",
+      "type": "product",
+      "description": "字节跳动旗下的AI大模型及对话产品",
+      "aliases": [],
+      "tags": [
+        "视频生成",
+        "AI大模型"
+      ]
+    },
+    {
+      "name": "即梦",
+      "type": "product",
+      "description": "AI视频生成工具，海螺AI的竞品",
+      "aliases": [],
+      "tags": [
+        "视频生成"
+      ]
+    },
+    {
+      "name": "可灵",
+      "type": "product",
+      "description": "AI视频生成工具，海螺AI的竞品",
+      "aliases": [],
+      "tags": [
+        "视频生成"
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "type": "person",
+      "description": "海外知名AI行业领袖",
+      "aliases": [],
+      "tags": [
+        "行业人物"
+      ]
+    },
+    {
+      "name": "泡泡玛特",
+      "type": "company",
+      "description": "国内知名潮玩公司，被用于对比MiniMax的审美能力",
+      "aliases": [],
+      "tags": [
+        "潮玩",
+        "审美"
+      ]
+    },
+    {
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "国内知名AI大模型公司，推出了R1等模型",
+      "aliases": [],
+      "tags": [
+        "开源模型",
+        "推理模型"
+      ]
+    },
+    {
+      "name": "智谱",
+      "type": "company",
+      "description": "国内AI大模型公司，AI六小虎之一",
+      "aliases": [],
+      "tags": [
+        "AI六小虎",
+        "to G"
+      ]
+    },
+    {
+      "name": "阶跃星辰",
+      "type": "company",
+      "description": "国内AI大模型公司，AI六小虎之一",
+      "aliases": [],
+      "tags": [
+        "AI六小虎",
+        "to G"
+      ]
+    },
+    {
+      "name": "王小川",
+      "type": "person",
+      "description": "AI医疗领域创业者，AI六小虎一代代表人物",
+      "aliases": [],
+      "tags": [
+        "AI医疗",
+        "AI六小虎"
+      ]
+    },
+    {
+      "name": "李开复",
+      "type": "person",
+      "description": "知名创业教父，AI公司创始人",
+      "aliases": [],
+      "tags": [
+        "创业教父",
+        "AI六小虎"
+      ]
+    },
+    {
+      "name": "Cursor",
+      "type": "product",
+      "description": "知名AI编程工具",
+      "aliases": [],
+      "tags": [
+        "AI编程",
+        "MCP"
+      ]
+    },
+    {
+      "name": "Gemini",
+      "type": "product",
+      "description": "Google推出的AI大模型",
+      "aliases": [],
+      "tags": [
+        "长文写作",
+        "超长上下文"
+      ]
+    },
+    {
+      "name": "Claude",
+      "type": "product",
+      "description": "Anthropic推出的AI大模型",
+      "aliases": [],
+      "tags": [
+        "编程"
+      ]
+    },
+    {
+      "name": "Qwen",
+      "type": "product",
+      "description": "阿里推出的开源大模型",
+      "aliases": [],
+      "tags": [
+        "开源模型"
+      ]
+    },
+    {
+      "name": "Manus",
+      "type": "product",
+      "description": "可用于生成PPT的AI Agent",
+      "aliases": [],
+      "tags": [
+        "Agent",
+        "PPT生成"
+      ]
+    },
+    {
+      "name": "Genspark",
+      "type": "product",
+      "description": "可用于生成PPT的AI Agent",
+      "aliases": [],
+      "tags": [
+        "Agent",
+        "PPT生成"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "MiniMax",
+      "target": "海螺AI",
+      "type": "develops",
+      "description": "MiniMax是海螺AI的开发公司",
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "星野",
+      "type": "develops",
+      "description": "MiniMax开发了AI对话产品星野",
+      "confidence": "high"
+    },
+    {
+      "source": "杨圣",
+      "target": "Kimi",
+      "type": "works_on",
+      "description": "杨圣是Kimi产品的核心人物，致力于打造Kimi数据飞轮",
+      "confidence": "high"
+    },
+    {
+      "source": "海螺AI",
+      "target": "豆包",
+      "type": "competes_with",
+      "description": "部分博主因海螺AI收费而转投其竞品豆包",
+      "confidence": "high"
+    },
+    {
+      "source": "海螺AI",
+      "target": "豆包",
+      "type": "compares_to",
+      "description": "文章对比了两者生成的胖猫视频，认为豆包缺乏海螺AI特有的神态",
+      "confidence": "high"
+    },
+    {
+      "source": "海螺AI",
+      "target": "即梦",
+      "type": "competes_with",
+      "description": "文章将海螺AI的视频生成能力与即梦进行竞品比较",
+      "confidence": "high"
+    },
+    {
+      "source": "海螺AI",
+      "target": "可灵",
+      "type": "competes_with",
+      "description": "文章将海螺AI的视频生成能力与可灵进行竞品比较",
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "泡泡玛特",
+      "type": "compares_to",
+      "description": "文章将MiniMax在AI产品上的审美和受众把控力与潮玩公司泡泡玛特进行类比",
+      "confidence": "high"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "MiniMax",
+      "type": "competes_with",
+      "description": "DeepSeek新品发布对MiniMax等AI六小虎公司形成了强烈的竞争压力",
+      "confidence": "medium"
+    },
+    {
+      "source": "MiniMax",
+      "target": "智谱",
+      "type": "competes_with",
+      "description": "同为国内大模型领域的AI六小虎，存在行业竞争关系",
+      "confidence": "medium"
+    },
+    {
+      "source": "MiniMax",
+      "target": "阶跃星辰",
+      "type": "competes_with",
+      "description": "同为国内大模型领域的AI六小虎，存在行业竞争关系",
+      "confidence": "medium"
+    },
+    {
+      "source": "智谱",
+      "target": "阶跃星辰",
+      "type": "competes_with",
+      "description": "同被列为AI六小虎并在业务路线上被对比评价",
+      "confidence": "high"
+    },
+    {
+      "source": "王小川",
+      "target": "李开复",
+      "type": "competes_with",
+      "description": "同为上一代AI六小虎的代表性创业人物",
+      "confidence": "low"
+    },
+    {
+      "source": "杨圣",
+      "target": "王小川",
+      "type": "competes_with",
+      "description": "同为上一代AI六小虎的代表性创业人物",
+      "confidence": "low"
+    },
+    {
+      "source": "Sam Altman",
+      "target": "杨圣",
+      "type": "compares_to",
+      "description": "文章将海外AI领袖Sam Altman的产品思路与国内AI创始人（暗指杨圣等高学历人才）进行对比",
+      "confidence": "medium"
+    },
+    {
+      "source": "Cursor",
+      "target": "海螺AI",
+      "type": "integrates_with",
+      "description": "Cursor可通过MCP服务器调用MiniMax的克隆声音与视频生成能力",
+      "confidence": "medium"
+    },
+    {
+      "source": "Gemini",
+      "target": "Claude",
+      "type": "competes_with",
+      "description": "在不同任务场景（长文与编程）中被作为主流模型竞品进行对比",
+      "confidence": "medium"
+    },
+    {
+      "source": "Manus",
+      "target": "Genspark",
+      "type": "competes_with",
+      "description": "两者同为具有优秀PPT生成效果的Agent竞品",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "004",
+  "_article_title": "MiniMax的胖猫宇宙",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

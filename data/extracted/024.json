@@ -1,0 +1,126 @@
+{
+  "article": {
+    "id": "024",
+    "title": "像编程一样写作",
+    "path": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+    "date": "2025-09-22",
+    "author": "葬爱咸鱼",
+    "content_hash": "5295a892921ebeef8917c25434c985d5adfda102505ee058e429e02ceec293d9"
+  },
+  "entities": [
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "一种可作为项目经理自动拆解任务并分步执行的编程Agent终端",
+      "mention_count": 22,
+      "aliases": [
+        "Claude 3.5 Sonnet",
+        "Claude Code"
+      ],
+      "tags": [
+        "编程Agent",
+        "编程式写作",
+        "上下文工程"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "type": "product",
+      "description": "具备超长上下文窗口和较强逻辑能力的大语言模型",
+      "mention_count": 2,
+      "aliases": [
+        "Gemini 2.5 Pro"
+      ],
+      "tags": []
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "type": "company",
+      "description": "开发和提供Claude系列服务的人工智能公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "具有长上下文能力的大语言模型，文中被用作Claude Code的后端调用模型",
+      "mention_count": 1,
+      "aliases": [
+        "K2",
+        "Kimi K2"
+      ],
+      "tags": [
+        "大语言模型",
+        "平替"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Anthropic",
+      "target": "Claude",
+      "relation_type": "develops",
+      "label": "Anthropic是Claude Code的服务提供商与开发方",
+      "weight": 2,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Gemini",
+      "relation_type": "compares_to",
+      "label": "作者对比了使用传统对话式模型（如Gemini）与使用项目管理式Agent（Claude Code）在版本管理和写作效率上的区别",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Kimi",
+      "relation_type": "compares_to",
+      "label": "由于Anthropic对特定区域的服务限制，作者将Kimi作为Claude后端的平替使用",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Gemini",
+      "target": "Kimi",
+      "relation_type": "compares_to",
+      "label": "作者对比了在AI写作场景下Gemini生成长文的流畅性与Kimi在性价比及部分环节幻觉率上的差异",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Kimi",
+      "relation_type": "integrates_with",
+      "label": "作者将Claude Code的后端模型切换为Kimi，组合使用以自动拆解和执行写作任务",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 4,
+    "relationship_count": 5,
+    "pruned_entities": [
+      {
+        "name": "Wisper Flow",
+        "reason": "low-signal"
+      },
+      {
+        "name": "通义",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

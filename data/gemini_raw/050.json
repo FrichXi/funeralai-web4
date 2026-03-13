@@ -1,0 +1,285 @@
+{
+  "entities": [
+    {
+      "name": "Rokid",
+      "type": "company",
+      "description": "国内AR眼镜行业的先行企业，推出多款AI眼镜产品",
+      "aliases": [],
+      "tags": [
+        "AR眼镜",
+        "AI眼镜",
+        "生态开放"
+      ]
+    },
+    {
+      "name": "Rokid Glasses",
+      "type": "product",
+      "description": "Rokid推出的一款AI眼镜，具备拍摄、AR显示、语音助手等功能",
+      "aliases": [
+        "Rokid Glasses AI眼镜",
+        "Rokid眼镜"
+      ],
+      "tags": [
+        "AI硬件",
+        "智能眼镜",
+        "光波导"
+      ]
+    },
+    {
+      "name": "Rokid创始人",
+      "type": "person",
+      "description": "Rokid公司的创始人，被作者视为AR领域的先行者",
+      "aliases": [],
+      "tags": [
+        "创业者"
+      ]
+    },
+    {
+      "name": "索尼",
+      "type": "company",
+      "description": "全球知名的电子和传感器制造企业",
+      "aliases": [
+        "Sony"
+      ],
+      "tags": [
+        "硬件供应链"
+      ]
+    },
+    {
+      "name": "IMX681",
+      "type": "product",
+      "description": "索尼研发的一款传感器，被应用于Rokid Glasses的摄像头中",
+      "aliases": [
+        "索尼 IMX681 传感器"
+      ],
+      "tags": [
+        "传感器",
+        "摄像头"
+      ]
+    },
+    {
+      "name": "影目",
+      "type": "company",
+      "description": "国内AI/AR眼镜研发公司，推出Inmo系列产品",
+      "aliases": [
+        "Inmo"
+      ],
+      "tags": [
+        "AR眼镜"
+      ]
+    },
+    {
+      "name": "Inmo Go3",
+      "type": "product",
+      "description": "影目推出的一款单绿光波导AR眼镜",
+      "aliases": [],
+      "tags": [
+        "智能眼镜"
+      ]
+    },
+    {
+      "name": "阿里",
+      "type": "company",
+      "description": "中国大型互联网科技公司，夸克产品的母公司",
+      "aliases": [
+        "阿里巴巴"
+      ],
+      "tags": [
+        "大厂"
+      ]
+    },
+    {
+      "name": "夸克S1",
+      "type": "product",
+      "description": "阿里夸克推出的AI智能眼镜产品",
+      "aliases": [
+        "夸克智能眼镜"
+      ],
+      "tags": [
+        "智能眼镜",
+        "AI硬件"
+      ]
+    },
+    {
+      "name": "乐奇",
+      "type": "product",
+      "description": "Rokid眼镜内置的AI语音助手",
+      "aliases": [
+        "AI助手aka乐奇"
+      ],
+      "tags": [
+        "AI语音助手",
+        "AI Agent"
+      ]
+    },
+    {
+      "name": "Looki",
+      "type": "company",
+      "description": "AI眼镜领域的同行业品牌",
+      "aliases": [],
+      "tags": [
+        "AI眼镜"
+      ]
+    },
+    {
+      "name": "Meta",
+      "type": "company",
+      "description": "国际科技巨头，开发了相对封闭生态的智能眼镜/头显设备",
+      "aliases": [],
+      "tags": [
+        "科技巨头",
+        "封闭生态"
+      ]
+    },
+    {
+      "name": "扎克伯格",
+      "type": "person",
+      "description": "Meta公司的核心创始人及掌控者",
+      "aliases": [
+        "Zuckerberg"
+      ],
+      "tags": [
+        "创始人"
+      ]
+    },
+    {
+      "name": "同花顺",
+      "type": "product",
+      "description": "知名的股票软件，可通过Rokid眼镜的开放生态接入",
+      "aliases": [],
+      "tags": [
+        "金融应用",
+        "第三方APP"
+      ]
+    },
+    {
+      "name": "豆包",
+      "type": "product",
+      "description": "手机端的AI助手应用，在测试中与Rokid的翻译功能产生交互干扰",
+      "aliases": [],
+      "tags": [
+        "AI助手",
+        "大模型应用"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Rokid创始人",
+      "target": "Rokid",
+      "type": "founder_of",
+      "description": "Rokid创始人创立了Rokid公司",
+      "confidence": "high"
+    },
+    {
+      "source": "Rokid创始人",
+      "target": "Rokid Glasses",
+      "type": "works_on",
+      "description": "Rokid创始人主导推出了Rokid Glasses等硬件产品",
+      "confidence": "medium"
+    },
+    {
+      "source": "Rokid",
+      "target": "Rokid Glasses",
+      "type": "develops",
+      "description": "Rokid公司开发并推出了Rokid Glasses AI眼镜",
+      "confidence": "high"
+    },
+    {
+      "source": "索尼",
+      "target": "IMX681",
+      "type": "develops",
+      "description": "索尼研发并制造了IMX681传感器",
+      "confidence": "high"
+    },
+    {
+      "source": "Rokid Glasses",
+      "target": "IMX681",
+      "type": "integrates_with",
+      "description": "Rokid Glasses的摄像头使用了索尼的IMX681传感器",
+      "confidence": "high"
+    },
+    {
+      "source": "影目",
+      "target": "Inmo Go3",
+      "type": "develops",
+      "description": "影目公司开发了Inmo Go3智能眼镜",
+      "confidence": "high"
+    },
+    {
+      "source": "阿里",
+      "target": "夸克S1",
+      "type": "develops",
+      "description": "阿里夸克团队开发了夸克S1 AI眼镜",
+      "confidence": "high"
+    },
+    {
+      "source": "Rokid Glasses",
+      "target": "Inmo Go3",
+      "type": "compares_to",
+      "description": "文章将Rokid Glasses的漏光问题与Inmo Go3进行了对比展示",
+      "confidence": "high"
+    },
+    {
+      "source": "Rokid Glasses",
+      "target": "夸克S1",
+      "type": "compares_to",
+      "description": "文章将Rokid Glasses的光波导漏光情况与优化更好的夸克S1进行了对比",
+      "confidence": "high"
+    },
+    {
+      "source": "Rokid",
+      "target": "乐奇",
+      "type": "develops",
+      "description": "Rokid开发了名为乐奇的内置AI助手",
+      "confidence": "high"
+    },
+    {
+      "source": "Rokid Glasses",
+      "target": "乐奇",
+      "type": "integrates_with",
+      "description": "Rokid Glasses内置集成了乐奇AI助手作为交互核心",
+      "confidence": "high"
+    },
+    {
+      "source": "Rokid",
+      "target": "Looki",
+      "type": "competes_with",
+      "description": "Looki与Rokid在AI眼镜赛道存在竞争及功能追赶关系",
+      "confidence": "medium"
+    },
+    {
+      "source": "扎克伯格",
+      "target": "Meta",
+      "type": "founder_of",
+      "description": "扎克伯格是Meta的核心人物及掌控者",
+      "confidence": "high"
+    },
+    {
+      "source": "Rokid",
+      "target": "Meta",
+      "type": "compares_to",
+      "description": "文章将Rokid的开放生态与Meta的封闭生态进行了对比",
+      "confidence": "high"
+    },
+    {
+      "source": "Rokid Glasses",
+      "target": "同花顺",
+      "type": "integrates_with",
+      "description": "同花顺作为第三方应用被接入到Rokid Glasses的开放生态中运行",
+      "confidence": "medium"
+    },
+    {
+      "source": "Rokid Glasses",
+      "target": "豆包",
+      "type": "related",
+      "description": "作者同时开启手机豆包和Rokid眼镜进行测试，眼镜将豆包的语音误认为交流对象一并翻译",
+      "confidence": "low"
+    }
+  ],
+  "_article_id": "050",
+  "_article_title": "Rokid是我的太阳（指物理温度）",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

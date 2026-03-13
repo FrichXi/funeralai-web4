@@ -1,0 +1,266 @@
+{
+  "entities": [
+    {
+      "name": "HeyGen",
+      "type": "company",
+      "description": "估值达小几亿美金的出海AI应用公司",
+      "aliases": [],
+      "tags": [
+        "AI应用",
+        "出海"
+      ]
+    },
+    {
+      "name": "Opusclip",
+      "type": "company",
+      "description": "估值达小几亿美金的出海AI应用公司",
+      "aliases": [],
+      "tags": [
+        "AI应用",
+        "出海"
+      ]
+    },
+    {
+      "name": "GenSpark",
+      "type": "company",
+      "description": "估值10亿美金的AI应用公司，不以中国公司自居",
+      "aliases": [],
+      "tags": [
+        "AI应用",
+        "出海"
+      ]
+    },
+    {
+      "name": "Plaud",
+      "type": "company",
+      "description": "主打海外市场的AI硬件录音卡公司，近期宣布进入中国内地市场",
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "出海"
+      ]
+    },
+    {
+      "name": "许高",
+      "type": "person",
+      "description": "Plaud公司的核心高管或创始人",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "Plaud录音卡",
+      "type": "product",
+      "description": "Plaud推出的AI硬件录音产品",
+      "aliases": [
+        "Plaud Note Pro",
+        "Plaud普通版"
+      ],
+      "tags": [
+        "AI硬件",
+        "录音卡"
+      ]
+    },
+    {
+      "name": "华强北录音卡",
+      "type": "product",
+      "description": "深圳华强北制造的模仿Plaud的白牌录音硬件",
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "山寨"
+      ]
+    },
+    {
+      "name": "钉钉",
+      "type": "company",
+      "description": "国内企业级办公应用公司，推出AI实体按键产品",
+      "aliases": [],
+      "tags": [
+        "办公生态"
+      ]
+    },
+    {
+      "name": "钉钉A1",
+      "type": "product",
+      "description": "钉钉推出的语音备忘录实体按键卡片",
+      "aliases": [
+        "钉钉录音卡片"
+      ],
+      "tags": [
+        "AI硬件",
+        "软硬结合"
+      ]
+    },
+    {
+      "name": "出门问问",
+      "type": "company",
+      "description": "国内AI公司，推出录音硬件产品",
+      "aliases": [
+        "Mobvoi"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Ticnote",
+      "type": "product",
+      "description": "出门问问推出的录音卡片",
+      "aliases": [],
+      "tags": [
+        "AI硬件"
+      ]
+    },
+    {
+      "name": "飞书",
+      "type": "company",
+      "description": "国内企业级办公应用公司",
+      "aliases": [],
+      "tags": [
+        "办公生态"
+      ]
+    },
+    {
+      "name": "Looki",
+      "type": "product",
+      "description": "一款项链形态的AI相机，主打海外市场",
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "AI相机"
+      ]
+    },
+    {
+      "name": "Lovart",
+      "type": "company",
+      "description": "对外包装为美国公司的AI软件公司",
+      "aliases": [],
+      "tags": [
+        "AI软件"
+      ]
+    },
+    {
+      "name": "liblib",
+      "type": "company",
+      "description": "国内AI公司，Lovart背后的实际关联方",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "Manus",
+      "type": "product",
+      "description": "需要依赖国外大模型的AI应用/产品",
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "name": "Claude",
+      "type": "product",
+      "description": "国外AI大模型产品",
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "name": "Nana Banana",
+      "type": "product",
+      "description": "被AI应用高度需求的新AI模型",
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "许高",
+      "target": "Plaud",
+      "type": "works_at",
+      "description": "许高作为Plaud代表接受采访，说明其业务战略",
+      "confidence": "high"
+    },
+    {
+      "source": "许高",
+      "target": "Plaud录音卡",
+      "type": "praises",
+      "description": "许高称赞自家的Plaud录音卡是“在全球市场大放异彩的最好产品”",
+      "confidence": "high"
+    },
+    {
+      "source": "Plaud",
+      "target": "Plaud录音卡",
+      "type": "develops",
+      "description": "Plaud公司研发并销售该款AI硬件录音卡",
+      "confidence": "high"
+    },
+    {
+      "source": "华强北录音卡",
+      "target": "Plaud录音卡",
+      "type": "compares_to",
+      "description": "华强北录音卡在外形上抄袭模仿Plaud，作为廉价平替品被对比",
+      "confidence": "high"
+    },
+    {
+      "source": "钉钉",
+      "target": "钉钉A1",
+      "type": "develops",
+      "description": "钉钉开发了包含实体按键的A1录音硬件",
+      "confidence": "high"
+    },
+    {
+      "source": "出门问问",
+      "target": "Ticnote",
+      "type": "develops",
+      "description": "出门问问研发了Ticnote录音硬件",
+      "confidence": "high"
+    },
+    {
+      "source": "钉钉A1",
+      "target": "Plaud录音卡",
+      "type": "competes_with",
+      "description": "钉钉A1作为国内市场的竞品，与Plaud录音卡存在竞争关系",
+      "confidence": "high"
+    },
+    {
+      "source": "Ticnote",
+      "target": "Plaud录音卡",
+      "type": "competes_with",
+      "description": "Ticnote作为同类AI录音硬件与Plaud构成竞争",
+      "confidence": "high"
+    },
+    {
+      "source": "钉钉",
+      "target": "飞书",
+      "type": "competes_with",
+      "description": "两者在国内办公生态及潜在AI硬件生态中存在竞争与对比关系",
+      "confidence": "medium"
+    },
+    {
+      "source": "liblib",
+      "target": "Lovart",
+      "type": "related",
+      "description": "Lovart在发布及融资宣发时试图规避由liblib制作的关联背景",
+      "confidence": "high"
+    },
+    {
+      "source": "Manus",
+      "target": "Claude",
+      "type": "integrates_with",
+      "description": "Manus刚需并依赖调用Claude等国外大模型",
+      "confidence": "high"
+    },
+    {
+      "source": "Lovart",
+      "target": "Nana Banana",
+      "type": "related",
+      "description": "Lovart作为AI公司第一时间需要接入并依赖Nana Banana模型促增长",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "033",
+  "_article_title": "搞AI硬件别装美国公司",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

@@ -1,0 +1,292 @@
+{
+  "entities": [
+    {
+      "name": "B站",
+      "type": "company",
+      "description": "中国知名视频平台，推出「视频播客出圈计划」",
+      "aliases": [
+        "bilibili"
+      ],
+      "tags": [
+        "视频平台",
+        "商业化",
+        "内容社区"
+      ]
+    },
+    {
+      "name": "YouTube",
+      "type": "company",
+      "description": "全球知名视频平台，美国头部视频播客的重要传播阵地",
+      "aliases": [],
+      "tags": [
+        "视频平台",
+        "播客阵地"
+      ]
+    },
+    {
+      "name": "Lex Fridman",
+      "type": "person",
+      "description": "美国知名播客主播，常被作为视频播客领域的标杆人物",
+      "aliases": [],
+      "tags": [
+        "播客主播",
+        "标杆人物"
+      ]
+    },
+    {
+      "name": "贝索斯",
+      "type": "person",
+      "description": "知名企业家，曾作为嘉宾参与Lex Fridman的播客对谈",
+      "aliases": [
+        "Jeff Bezos"
+      ],
+      "tags": [
+        "企业家",
+        "访谈嘉宾"
+      ]
+    },
+    {
+      "name": "Joe Rogan",
+      "type": "person",
+      "description": "美国头部视频播客主播",
+      "aliases": [],
+      "tags": [
+        "播客主播"
+      ]
+    },
+    {
+      "name": "马斯克",
+      "type": "person",
+      "description": "知名企业家，曾接受Joe Rogan的播客采访",
+      "aliases": [
+        "Elon Musk"
+      ],
+      "tags": [
+        "企业家",
+        "访谈嘉宾"
+      ]
+    },
+    {
+      "name": "The Joe Rogan Experience",
+      "type": "product",
+      "description": "由Joe Rogan主持的知名播客节目",
+      "aliases": [],
+      "tags": [
+        "视频播客"
+      ]
+    },
+    {
+      "name": "王汉洋",
+      "type": "person",
+      "description": "B站创作者、播客《蜉蝣天地》主播",
+      "aliases": [],
+      "tags": [
+        "UP主",
+        "播客主播"
+      ]
+    },
+    {
+      "name": "蜉蝣天地",
+      "type": "product",
+      "description": "创作者王汉洋的一档视频播客节目",
+      "aliases": [
+        "Meanders"
+      ],
+      "tags": [
+        "视频播客"
+      ]
+    },
+    {
+      "name": "约小亚",
+      "type": "person",
+      "description": "播客《商业就是这样》的主播",
+      "aliases": [
+        "约老师"
+      ],
+      "tags": [
+        "播客主播"
+      ]
+    },
+    {
+      "name": "商业就是这样",
+      "type": "product",
+      "description": "一档商业类播客节目",
+      "aliases": [],
+      "tags": [
+        "音频播客"
+      ]
+    },
+    {
+      "name": "花火",
+      "type": "product",
+      "description": "B站旗下的商业化合作服务平台",
+      "aliases": [],
+      "tags": [
+        "商业化平台"
+      ]
+    },
+    {
+      "name": "充电",
+      "type": "product",
+      "description": "B站为创作者提供的粉丝赞助变现功能",
+      "aliases": [],
+      "tags": [
+        "创作者变现"
+      ]
+    },
+    {
+      "name": "课堂",
+      "type": "product",
+      "description": "B站的知识付费与课程功能",
+      "aliases": [],
+      "tags": [
+        "商业化渠道"
+      ]
+    },
+    {
+      "name": "王一快",
+      "type": "person",
+      "description": "B站UP主，通过视频播客实现商业化",
+      "aliases": [
+        "王一块"
+      ],
+      "tags": [
+        "UP主",
+        "播客主播"
+      ]
+    },
+    {
+      "name": "快言快语",
+      "type": "product",
+      "description": "UP主王一快的视频播客栏目",
+      "aliases": [],
+      "tags": [
+        "视频播客"
+      ]
+    },
+    {
+      "name": "中二的大暄哥",
+      "type": "person",
+      "description": "B站UP主，视频播客创作者",
+      "aliases": [],
+      "tags": [
+        "UP主",
+        "播客主播"
+      ]
+    },
+    {
+      "name": "Tiger Legal Talks",
+      "type": "product",
+      "description": "UP主中二的大暄哥的视频播客栏目",
+      "aliases": [],
+      "tags": [
+        "视频播客"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "B站",
+      "target": "YouTube",
+      "type": "compares_to",
+      "description": "文章将B站作为中国视频播客的变量，与作为美国头部播客阵地的YouTube进行对标和比较",
+      "confidence": "high"
+    },
+    {
+      "source": "Joe Rogan",
+      "target": "The Joe Rogan Experience",
+      "type": "works_on",
+      "description": "Joe Rogan是该播客节目的主播",
+      "confidence": "high"
+    },
+    {
+      "source": "Joe Rogan",
+      "target": "马斯克",
+      "type": "collaborates_with",
+      "description": "Joe Rogan在节目中采访了马斯克",
+      "confidence": "high"
+    },
+    {
+      "source": "Lex Fridman",
+      "target": "贝索斯",
+      "type": "collaborates_with",
+      "description": "Lex Fridman在节目中与贝索斯进行对谈",
+      "confidence": "high"
+    },
+    {
+      "source": "B站",
+      "target": "花火",
+      "type": "develops",
+      "description": "花火是B站推出的商业化平台",
+      "confidence": "high"
+    },
+    {
+      "source": "B站",
+      "target": "充电",
+      "type": "develops",
+      "description": "充电是B站开发的创作者变现功能",
+      "confidence": "high"
+    },
+    {
+      "source": "B站",
+      "target": "课堂",
+      "type": "develops",
+      "description": "课堂是B站提供的商业化知识产品",
+      "confidence": "high"
+    },
+    {
+      "source": "王汉洋",
+      "target": "蜉蝣天地",
+      "type": "works_on",
+      "description": "王汉洋是《蜉蝣天地》的主持人/创作者",
+      "confidence": "high"
+    },
+    {
+      "source": "约小亚",
+      "target": "商业就是这样",
+      "type": "works_on",
+      "description": "约小亚是《商业就是这样》的主播",
+      "confidence": "high"
+    },
+    {
+      "source": "王汉洋",
+      "target": "约小亚",
+      "type": "collaborates_with",
+      "description": "王汉洋在节目中邀请了约小亚作为嘉宾对谈",
+      "confidence": "high"
+    },
+    {
+      "source": "王一快",
+      "target": "快言快语",
+      "type": "works_on",
+      "description": "王一快创作并主持了《快言快语》播客",
+      "confidence": "high"
+    },
+    {
+      "source": "中二的大暄哥",
+      "target": "Tiger Legal Talks",
+      "type": "works_on",
+      "description": "中二的大暄哥创作并主持了《Tiger Legal Talks》播客",
+      "confidence": "high"
+    },
+    {
+      "source": "快言快语",
+      "target": "课堂",
+      "type": "integrates_with",
+      "description": "通过B站的课堂等功能实现播客内容的商业化",
+      "confidence": "medium"
+    },
+    {
+      "source": "Tiger Legal Talks",
+      "target": "充电",
+      "type": "integrates_with",
+      "description": "该播客内容通过B站的充电功能实现商业支持",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "011",
+  "_article_title": "B站发起视频播客，看得见的商业化",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

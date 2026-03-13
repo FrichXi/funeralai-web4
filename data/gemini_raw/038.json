@@ -1,0 +1,207 @@
+{
+  "entities": [
+    {
+      "name": "蚂蚁集团",
+      "type": "company",
+      "description": "中国互联网巨头，开发了AI应用灵光。",
+      "aliases": [
+        "蚂蚁"
+      ],
+      "tags": [
+        "大厂",
+        "互联网巨头"
+      ]
+    },
+    {
+      "name": "马卡龙(公司)",
+      "type": "company",
+      "description": "估值不到一亿美元的AI创业团队，由锴杰等人创办。",
+      "aliases": [
+        "马卡龙团队"
+      ],
+      "tags": [
+        "创业公司"
+      ]
+    },
+    {
+      "name": "马卡龙",
+      "type": "product",
+      "description": "一款支持普通用户手搓AI应用的平台/产品，具备较好的设计审美。",
+      "aliases": [],
+      "tags": [
+        "Agent商店",
+        "Vibe Coding",
+        "AI应用"
+      ]
+    },
+    {
+      "name": "灵光",
+      "type": "product",
+      "description": "蚂蚁集团开发的AI应用，主打排版能力和生成前端界面的闪应用。",
+      "aliases": [
+        "灵光APP"
+      ],
+      "tags": [
+        "ChatBot",
+        "闪应用"
+      ]
+    },
+    {
+      "name": "豆包",
+      "type": "product",
+      "description": "AI产品，文中作为灵光的潜在竞对被提及。",
+      "aliases": [],
+      "tags": [
+        "大模型应用"
+      ]
+    },
+    {
+      "name": "锴杰",
+      "type": "person",
+      "description": "马卡龙的核心人物/创始人，被评价为具有创新能力和韧性。",
+      "aliases": [],
+      "tags": [
+        "创始人"
+      ]
+    },
+    {
+      "name": "Nano Banana",
+      "type": "product",
+      "description": "一种具有强大能力的AI大模型，被马卡龙等应用所依赖。",
+      "aliases": [],
+      "tags": [
+        "基础模型"
+      ]
+    },
+    {
+      "name": "Lovart",
+      "type": "company",
+      "description": "一家估值达到五六亿美金的AI相关公司，获投资。",
+      "aliases": [],
+      "tags": [
+        "AI公司"
+      ]
+    },
+    {
+      "name": "杨泽昊",
+      "type": "person",
+      "description": "AI创业者，正在开发Agent手机项目。",
+      "aliases": [],
+      "tags": [
+        "创业者"
+      ]
+    },
+    {
+      "name": "豆包手机",
+      "type": "product",
+      "description": "由豆包相关的团队推出的AI硬件/手机产品。",
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "Agent手机"
+      ]
+    },
+    {
+      "name": "杨泽昊的Agent手机",
+      "type": "product",
+      "description": "杨泽昊正在开发的Agent手机项目，在市场竞争中受到了打击。",
+      "aliases": [
+        "Agent手机项目"
+      ],
+      "tags": [
+        "AI硬件"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "蚂蚁集团",
+      "target": "灵光",
+      "type": "develops",
+      "description": "蚂蚁集团调动了200多人的AGI探索小组开发了灵光APP。",
+      "confidence": "high"
+    },
+    {
+      "source": "灵光",
+      "target": "马卡龙",
+      "type": "compares_to",
+      "description": "文章明确将灵光类比为“低配版马卡龙”、“老登版马卡龙”、“神似马卡龙的应用”。",
+      "confidence": "high"
+    },
+    {
+      "source": "灵光",
+      "target": "马卡龙",
+      "type": "competes_with",
+      "description": "两款应用在功能逻辑和目标群体上有直接对标和竞争关系。",
+      "confidence": "high"
+    },
+    {
+      "source": "灵光",
+      "target": "豆包",
+      "type": "competes_with",
+      "description": "文章提及蚂蚁集团可能试图用灵光去打（竞争）豆包。",
+      "confidence": "medium"
+    },
+    {
+      "source": "锴杰",
+      "target": "马卡龙(公司)",
+      "type": "founder_of",
+      "description": "锴杰是马卡龙公司的核心主导者与创始人。",
+      "confidence": "high"
+    },
+    {
+      "source": "锴杰",
+      "target": "马卡龙",
+      "type": "works_on",
+      "description": "锴杰负责马卡龙APP的开发、bug修复与迭代。",
+      "confidence": "high"
+    },
+    {
+      "source": "马卡龙(公司)",
+      "target": "马卡龙",
+      "type": "develops",
+      "description": "马卡龙公司/团队开发了马卡龙APP。",
+      "confidence": "high"
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "马卡龙(公司)",
+      "type": "acquires",
+      "description": "文章核心观点（含标题）强烈建议蚂蚁集团收购马卡龙公司以弥补创新不足。",
+      "confidence": "low"
+    },
+    {
+      "source": "马卡龙",
+      "target": "Nano Banana",
+      "type": "integrates_with",
+      "description": "马卡龙上的部分Agent小程序（如照片转3D）严重依赖于Nano Banana模型的能力。",
+      "confidence": "high"
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "Lovart",
+      "type": "invests_in",
+      "description": "文中提到投资Lovart的五六亿美金估值，暗示蚂蚁集团参与或考虑了该项投资。",
+      "confidence": "medium"
+    },
+    {
+      "source": "杨泽昊",
+      "target": "杨泽昊的Agent手机",
+      "type": "works_on",
+      "description": "杨泽昊自己正在开发Agent手机产品。",
+      "confidence": "high"
+    },
+    {
+      "source": "杨泽昊的Agent手机",
+      "target": "豆包手机",
+      "type": "competes_with",
+      "description": "杨泽昊的Agent手机项目在市场竞争中被豆包手机等同类产品“干掉”。",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "038",
+  "_article_title": "建议蚂蚁集团收购马卡龙",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

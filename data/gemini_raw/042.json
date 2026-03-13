@@ -1,0 +1,132 @@
+{
+  "entities": [
+    {
+      "name": "Looki",
+      "type": "company",
+      "description": "一家研发AI硬件的初创公司，开创了AI胸载摄像头赛道。",
+      "aliases": [
+        "Looki公司"
+      ],
+      "tags": [
+        "硬件公司",
+        "AI硬件"
+      ]
+    },
+    {
+      "name": "Looki L1",
+      "type": "product",
+      "description": "Looki推出的AI胸载摄像头，主打记录生活、Vlog生成与第二大脑问答功能。",
+      "aliases": [
+        "Looki"
+      ],
+      "tags": [
+        "AI硬件",
+        "胸载摄像头",
+        "Vlog设备",
+        "第二大脑"
+      ]
+    },
+    {
+      "name": "Plaud",
+      "type": "company",
+      "description": "2023年开始研发录音卡片的AI硬件公司。",
+      "aliases": [],
+      "tags": [
+        "硬件公司",
+        "AI硬件"
+      ]
+    },
+    {
+      "name": "Plaud录音卡",
+      "type": "product",
+      "description": "Plaud推出的AI录音卡片硬件产品。",
+      "aliases": [
+        "Plaud",
+        "录音卡片"
+      ],
+      "tags": [
+        "AI硬件",
+        "AI录音"
+      ]
+    },
+    {
+      "name": "大疆",
+      "type": "company",
+      "description": "提供正经影像设备的知名科技巨头。",
+      "aliases": [],
+      "tags": [
+        "影像设备"
+      ]
+    },
+    {
+      "name": "影石",
+      "type": "company",
+      "description": "提供全景及运动影像设备的科技公司。",
+      "aliases": [],
+      "tags": [
+        "影像设备"
+      ]
+    },
+    {
+      "name": "AI Vlog",
+      "type": "product",
+      "description": "一款网页端AI视频剪辑工具，能够自动生成Vlog。",
+      "aliases": [
+        "myaivlog.com"
+      ],
+      "tags": [
+        "AI剪辑",
+        "视频工具"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Looki",
+      "target": "Looki L1",
+      "type": "develops",
+      "description": "Looki公司开发了AI胸载摄像头Looki L1。",
+      "confidence": "high"
+    },
+    {
+      "source": "Plaud",
+      "target": "Plaud录音卡",
+      "type": "develops",
+      "description": "Plaud公司开发了AI录音卡片产品。",
+      "confidence": "high"
+    },
+    {
+      "source": "Looki L1",
+      "target": "Plaud录音卡",
+      "type": "compares_to",
+      "description": "文章将Looki比作录音卡片的集美版，将其与Plaud（集帅AI硬件）进行了对标和比较。",
+      "confidence": "high"
+    },
+    {
+      "source": "Looki",
+      "target": "Plaud",
+      "type": "compares_to",
+      "description": "文章将Looki目前作为唯一一家做胸载摄像头的处境，与2023年只有Plaud在做录音卡进行了类比。",
+      "confidence": "high"
+    },
+    {
+      "source": "影石",
+      "target": "大疆",
+      "type": "competes_with",
+      "description": "大疆和影石同为提供正经影像设备的竞品厂商，被并列作为Vlog用户的较优解决方案。",
+      "confidence": "medium"
+    },
+    {
+      "source": "影石",
+      "target": "AI Vlog",
+      "type": "related",
+      "description": "文章作者建议影石公司收购AI Vlog，以在硬件基础上补全自动剪辑工具链。",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "042",
+  "_article_title": "Looki开创AI胸载摄像头",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

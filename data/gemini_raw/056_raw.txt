@@ -1,0 +1,229 @@
+```json
+{
+  "entities": [
+    {
+      "name": "阶跃星辰",
+      "type": "company",
+      "description": "AI大模型公司，近期宣布B+轮融资，入局软硬件一体全栈闭环路线。",
+      "aliases": ["阶跃"],
+      "tags": ["大模型", "AI四小虎"]
+    },
+    {
+      "name": "印奇",
+      "type": "person",
+      "description": "阶跃星辰董事长，负责串联各方资源，被称为AI界的连接仙人。",
+      "aliases": [],
+      "tags": ["连接天才"]
+    },
+    {
+      "name": "唐杰",
+      "type": "person",
+      "description": "AI行业关键人物，近期在行业内复出。",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "王小川",
+      "type": "person",
+      "description": "百川智能的关键负责人。",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "百川智能",
+      "type": "company",
+      "description": "AI大模型公司，账上有30亿现金。",
+      "aliases": ["百川"],
+      "tags": ["大模型"]
+    },
+    {
+      "name": "MiniMax",
+      "type": "company",
+      "description": "近期已上市的AI大模型公司。",
+      "aliases": [],
+      "tags": ["大模型", "AI四小虎"]
+    },
+    {
+      "name": "智谱",
+      "type": "company",
+      "description": "近期已上市的AI大模型公司。",
+      "aliases": [],
+      "tags": ["大模型", "AI四小虎"]
+    },
+    {
+      "name": "Kimi",
+      "type": "company",
+      "description": "大模型公司，近期宣布融资5亿美金。",
+      "aliases": [],
+      "tags": ["大模型", "AI四小虎"]
+    },
+    {
+      "name": "阿里云",
+      "type": "company",
+      "description": "大型综合性云计算与服务平台。",
+      "aliases": [],
+      "tags": ["2B"]
+    },
+    {
+      "name": "火山引擎",
+      "type": "company",
+      "description": "大型综合性技术服务平台。",
+      "aliases": [],
+      "tags": ["2B"]
+    },
+    {
+      "name": "豆包",
+      "type": "product",
+      "description": "竞争激烈的2C端AI应用代表。",
+      "aliases": [],
+      "tags": ["2C应用"]
+    },
+    {
+      "name": "Manus",
+      "type": "product",
+      "description": "被视为行业标杆、难以被复制的AI应用。",
+      "aliases": [],
+      "tags": ["2C应用"]
+    },
+    {
+      "name": "阶跃桌面伙伴",
+      "type": "product",
+      "description": "阶跃星辰推出的一款桌面AI产品。",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "name": "千里",
+      "type": "company",
+      "description": "拥有软硬件研发和工程化能力的终端及智驾方案公司。",
+      "aliases": [],
+      "tags": ["汽车智能", "智驾系统"]
+    },
+    {
+      "name": "吉利",
+      "type": "company",
+      "description": "拥有强大制造能力和渠道规模的汽车厂商。",
+      "aliases": [],
+      "tags": ["汽车"]
+    },
+    {
+      "name": "OPPO",
+      "type": "company",
+      "description": "手机厂商，与阶跃星辰达成合作。",
+      "aliases": [],
+      "tags": ["手机"]
+    },
+    {
+      "name": "荣耀",
+      "type": "company",
+      "description": "手机厂商，与阶跃星辰达成合作。",
+      "aliases": [],
+      "tags": ["手机"]
+    },
+    {
+      "name": "旷视",
+      "type": "company",
+      "description": "早期AI公司，具备成熟的CV技术。",
+      "aliases": [],
+      "tags": ["CV", "AI 1.0"]
+    },
+    {
+      "name": "峰哥",
+      "type": "person",
+      "description": "网红人物，被用作比喻印奇连接能力的对象。",
+      "aliases": [],
+      "tags": ["比喻对象"]
+    },
+    {
+      "name": "刀哥",
+      "type": "person",
+      "description": "网红人物，被用作比喻阶跃星辰顽强生存的对象。",
+      "aliases": ["刀割"],
+      "tags": ["比喻对象"]
+    },
+    {
+      "name": "虎哥",
+      "type": "person",
+      "description": "网红人物，被用作比喻大模型公司发布产品等整活行为的对象。",
+      "aliases": [],
+      "tags": ["比喻对象"]
+    },
+    {
+      "name": "怪鸽",
+      "type": "person",
+      "description": "网红人物，被用作比喻大模型公司整活求生状态的对象。",
+      "aliases": [],
+      "tags": ["比喻对象"]
+    },
+    {
+      "name": "特斯拉",
+      "type": "company",
+      "description": "年营收数百亿美金的成熟汽车公司。",
+      "aliases": [],
+      "tags": ["汽车"]
+    },
+    {
+      "name": "小米",
+      "type": "company",
+      "description": "涉及汽车与硬件制造的大型科技企业。",
+      "aliases": [],
+      "tags": ["汽车"]
+    },
+    {
+      "name": "理想",
+      "type": "company",
+      "description": "拼命强调自己是AI公司的造车新势力。",
+      "aliases": [],
+      "tags": ["汽车"]
+    },
+    {
+      "name": "小鹏",
+      "type": "company",
+      "description": "拼命强调自己是AI公司的造车新势力。",
+      "aliases": [],
+      "tags": ["汽车"]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "印奇",
+      "target": "阶跃星辰",
+      "type": "works_at",
+      "description": "印奇官宣回归并出任阶跃星辰董事长。",
+      "confidence": "high"
+    },
+    {
+      "source": "王小川",
+      "target": "百川智能",
+      "type": "works_at",
+      "description": "王小川作为百川智能的负责人在对外发声。",
+      "confidence": "high"
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "阶跃桌面伙伴",
+      "type": "develops",
+      "description": "阶跃星辰开发了阶跃桌面伙伴。",
+      "confidence": "high"
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "吉利",
+      "type": "partners_with",
+      "description": "阶跃星辰绑定吉利进行深度服务及场景合作。",
+      "confidence": "high"
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "千里",
+      "type": "partners_with",
+      "description": "阶跃星辰出技术，与出终端的千里进行合作。",
+      "confidence": "high"
+    },
+    {
+      "source": "千里",
+      "target": "吉利",
+      "type": "partners_with",
+      "description": "千里与吉利在汽车和智驾领域形成合作联盟。",
+      "confidence": "high"
+    

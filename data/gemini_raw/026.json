@@ -1,0 +1,198 @@
+{
+  "entities": [
+    {
+      "name": "吴泳铭",
+      "type": "person",
+      "description": "阿里巴巴CEO，在云栖大会上提出了通往ASI的大模型三段论",
+      "aliases": [
+        "吴妈"
+      ],
+      "tags": [
+        "讲好AI故事",
+        "ASI三段论"
+      ]
+    },
+    {
+      "name": "阿里",
+      "type": "company",
+      "description": "阿里巴巴集团",
+      "aliases": [
+        "阿里巴巴"
+      ],
+      "tags": [
+        "云栖大会",
+        "市值"
+      ]
+    },
+    {
+      "name": "阿里云",
+      "type": "company",
+      "description": "提出大模型是下一代操作系统、超级AI云是下一代计算机的战略判断",
+      "aliases": [],
+      "tags": [
+        "大模型OS",
+        "超级AI云",
+        "算力"
+      ]
+    },
+    {
+      "name": "杨立昆",
+      "type": "person",
+      "description": "对纯大语言模型路线能否实现AGI提出质疑的AI领域代表人物",
+      "aliases": [
+        "Yann LeCun"
+      ],
+      "tags": [
+        "反方质疑",
+        "物理交互"
+      ]
+    },
+    {
+      "name": "李飞飞",
+      "type": "person",
+      "description": "对纯大语言模型路线能否实现AGI提出质疑的AI领域代表人物",
+      "aliases": [
+        "Fei-Fei Li"
+      ],
+      "tags": [
+        "反方质疑",
+        "物理交互"
+      ]
+    },
+    {
+      "name": "智谱",
+      "type": "company",
+      "description": "国内AI研发机构/公司，推出了AutoGLM",
+      "aliases": [
+        "智谱AI"
+      ],
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "name": "AutoGLM",
+      "type": "product",
+      "description": "智谱开发的AI Agent产品，可以通过自然语言让AI代为操作手机APP",
+      "aliases": [],
+      "tags": [
+        "云手机",
+        "物理交互"
+      ]
+    },
+    {
+      "name": "无影AgentBay",
+      "type": "product",
+      "description": "阿里云提供的Agent服务底层支撑系统/平台",
+      "aliases": [
+        "AgentBay"
+      ],
+      "tags": [
+        "云手机",
+        "底层调用"
+      ]
+    },
+    {
+      "name": "MuleRun",
+      "type": "company",
+      "description": "AI行业的创业公司或项目，主打Agent生态互联的商业叙事",
+      "aliases": [],
+      "tags": [
+        "Agent生态"
+      ]
+    },
+    {
+      "name": "通义大模型",
+      "type": "product",
+      "description": "阿里云开发的大语言模型系列，主公开源生态",
+      "aliases": [
+        "通义千问",
+        "Qwen"
+      ],
+      "tags": [
+        "开源",
+        "大模型OS"
+      ]
+    },
+    {
+      "name": "万相",
+      "type": "product",
+      "description": "阿里云发布的视觉/视频生成类大模型产品",
+      "aliases": [],
+      "tags": [
+        "视觉理解",
+        "视频生成"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "吴泳铭",
+      "target": "阿里",
+      "type": "works_at",
+      "description": "吴泳铭担任阿里的CEO",
+      "confidence": "high"
+    },
+    {
+      "source": "吴泳铭",
+      "target": "阿里云",
+      "type": "works_at",
+      "description": "吴泳铭代表阿里云对外发布核心叙事与战略",
+      "confidence": "high"
+    },
+    {
+      "source": "智谱",
+      "target": "AutoGLM",
+      "type": "develops",
+      "description": "智谱研发并发布了AutoGLM产品",
+      "confidence": "high"
+    },
+    {
+      "source": "阿里云",
+      "target": "无影AgentBay",
+      "type": "develops",
+      "description": "无影AgentBay是阿里云开发的产品或服务",
+      "confidence": "high"
+    },
+    {
+      "source": "AutoGLM",
+      "target": "无影AgentBay",
+      "type": "integrates_with",
+      "description": "AutoGLM底层调用了阿里云的无影AgentBay来实现操作",
+      "confidence": "high"
+    },
+    {
+      "source": "阿里云",
+      "target": "通义大模型",
+      "type": "develops",
+      "description": "阿里云开发并开源了通义大模型（通义千问）",
+      "confidence": "high"
+    },
+    {
+      "source": "阿里云",
+      "target": "万相",
+      "type": "develops",
+      "description": "阿里云开发并发布了万相模型",
+      "confidence": "high"
+    },
+    {
+      "source": "MuleRun",
+      "target": "阿里云",
+      "type": "compares_to",
+      "description": "文章将MuleRun讲的故事与阿里云构建若干Agent互联生态的叙事进行对比",
+      "confidence": "medium"
+    },
+    {
+      "source": "杨立昆",
+      "target": "李飞飞",
+      "type": "related",
+      "description": "两人在文中均被作为对纯大模型路线提出明确质疑的反方代表人物",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "026",
+  "_article_title": "吴妈讲好中国AI故事",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

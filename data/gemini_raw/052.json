@@ -1,0 +1,314 @@
+{
+  "entities": [
+    {
+      "name": "Flova",
+      "type": "product",
+      "description": "集成了多模态大模型能力的AI视频生成工具，被作者比喻为“AI剪映宝宝”",
+      "aliases": [
+        "AI剪映宝宝"
+      ],
+      "tags": [
+        "AI视频生成",
+        "画布软件",
+        "自然语言剪辑"
+      ]
+    },
+    {
+      "name": "郭列",
+      "type": "person",
+      "description": "船岛、脸萌及Faceu创始人，被作者戏称为“剪映亲爹”",
+      "aliases": [
+        "剪映亲爹"
+      ],
+      "tags": [
+        "创始人"
+      ]
+    },
+    {
+      "name": "朱亦辉",
+      "type": "person",
+      "description": "AI产品经理，在社群中高度评价过Flova",
+      "tags": [
+        "AI产品经理"
+      ]
+    },
+    {
+      "name": "船岛",
+      "type": "company",
+      "description": "郭列离开字节后创办的公司，开发了Flova",
+      "aliases": [
+        "船岛游戏"
+      ],
+      "tags": [
+        "AI创业"
+      ]
+    },
+    {
+      "name": "脸萌科技",
+      "type": "company",
+      "description": "郭列此前创办的科技公司，后被字节跳动收购",
+      "tags": [
+        "被收购"
+      ]
+    },
+    {
+      "name": "字节",
+      "type": "company",
+      "description": "收购了脸萌科技的大型科技公司",
+      "aliases": [
+        "字节跳动"
+      ]
+    },
+    {
+      "name": "IDG 90后基金",
+      "type": "company",
+      "description": "曾投资郭列及其创办的脸萌科技的早期基金",
+      "tags": [
+        "投资机构"
+      ]
+    },
+    {
+      "name": "剪映",
+      "type": "product",
+      "description": "由原脸萌团队开发的知名视频剪辑软件",
+      "tags": [
+        "视频剪辑"
+      ]
+    },
+    {
+      "name": "OiiOii",
+      "type": "product",
+      "description": "AI视频生成工具，被视为Flova的竞品",
+      "tags": [
+        "AI视频生成"
+      ]
+    },
+    {
+      "name": "Medeo",
+      "type": "product",
+      "description": "AI视频生成工具，被视为Flova的竞品",
+      "tags": [
+        "AI视频生成"
+      ]
+    },
+    {
+      "name": "脸萌",
+      "type": "product",
+      "description": "郭列团队早期开发的知名应用"
+    },
+    {
+      "name": "Faceu",
+      "type": "product",
+      "description": "郭列团队早期开发的知名应用"
+    },
+    {
+      "name": "醒图",
+      "type": "product",
+      "description": "原脸萌团队被收购后开发的应用"
+    },
+    {
+      "name": "Nano Banana",
+      "type": "product",
+      "description": "AI图像生成工具，在Flova的工作流中被提及和使用"
+    },
+    {
+      "name": "Suno",
+      "type": "product",
+      "description": "AI音乐生成工具，被内嵌在Flova中",
+      "tags": [
+        "AI音乐"
+      ]
+    },
+    {
+      "name": "Mureka",
+      "type": "product",
+      "description": "AI音乐生成工具，被内嵌在Flova中",
+      "tags": [
+        "AI音乐"
+      ]
+    },
+    {
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "AI对话工具，其功能常被集成或替代于AI视频工作流中"
+    },
+    {
+      "name": "Claude",
+      "type": "product",
+      "description": "AI对话工具，其功能常被集成或替代于AI视频工作流中"
+    },
+    {
+      "name": "Midjourney",
+      "type": "product",
+      "description": "AI图像生成工具"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "郭列",
+      "target": "船岛",
+      "type": "founder_of",
+      "description": "郭列是船岛的创始人",
+      "confidence": "high"
+    },
+    {
+      "source": "郭列",
+      "target": "脸萌科技",
+      "type": "founder_of",
+      "description": "郭列是脸萌科技的创始人",
+      "confidence": "high"
+    },
+    {
+      "source": "郭列",
+      "target": "Flova",
+      "type": "works_on",
+      "description": "郭列在船岛转换新方向后主导了Flova项目",
+      "confidence": "high"
+    },
+    {
+      "source": "郭列",
+      "target": "剪映",
+      "type": "related",
+      "description": "文章将郭列比作“剪映亲爹”，因其带领的脸萌团队后来开发了剪映",
+      "confidence": "high"
+    },
+    {
+      "source": "船岛",
+      "target": "Flova",
+      "type": "develops",
+      "description": "船岛公司开发了Flova",
+      "confidence": "high"
+    },
+    {
+      "source": "脸萌科技",
+      "target": "脸萌",
+      "type": "develops",
+      "description": "脸萌科技开发了应用脸萌",
+      "confidence": "high"
+    },
+    {
+      "source": "脸萌科技",
+      "target": "Faceu",
+      "type": "develops",
+      "description": "脸萌科技开发了应用Faceu",
+      "confidence": "high"
+    },
+    {
+      "source": "脸萌科技",
+      "target": "剪映",
+      "type": "develops",
+      "description": "脸萌科技团队被收购后开发了剪映",
+      "confidence": "high"
+    },
+    {
+      "source": "脸萌科技",
+      "target": "醒图",
+      "type": "develops",
+      "description": "脸萌科技团队被收购后开发了醒图",
+      "confidence": "high"
+    },
+    {
+      "source": "字节",
+      "target": "脸萌科技",
+      "type": "acquires",
+      "description": "字节于2018年以3亿美元收购了脸萌科技",
+      "confidence": "high"
+    },
+    {
+      "source": "IDG 90后基金",
+      "target": "脸萌科技",
+      "type": "invests_in",
+      "description": "IDG 90后基金曾投资脸萌科技",
+      "confidence": "high"
+    },
+    {
+      "source": "IDG 90后基金",
+      "target": "郭列",
+      "type": "invests_in",
+      "description": "IDG 90后基金投资了郭列主导的项目",
+      "confidence": "high"
+    },
+    {
+      "source": "朱亦辉",
+      "target": "Flova",
+      "type": "praises",
+      "description": "朱亦辉在群里吹捧过Flova，称其为一句话生成产品领域的SOTA",
+      "confidence": "high"
+    },
+    {
+      "source": "Flova",
+      "target": "剪映",
+      "type": "compares_to",
+      "description": "文章将Flova比喻为“AI剪映宝宝”及“AI剪映雏形”",
+      "confidence": "high"
+    },
+    {
+      "source": "Flova",
+      "target": "OiiOii",
+      "type": "competes_with",
+      "description": "Flova与OiiOii是竞品关系，且测试结果认为Flova表现更好",
+      "confidence": "high"
+    },
+    {
+      "source": "Flova",
+      "target": "Medeo",
+      "type": "competes_with",
+      "description": "Flova与Medeo是竞品关系，且测试结果认为Flova表现更好",
+      "confidence": "high"
+    },
+    {
+      "source": "OiiOii",
+      "target": "Medeo",
+      "type": "competes_with",
+      "description": "同为被作者吐槽的AI视频生成工具竞品",
+      "confidence": "medium"
+    },
+    {
+      "source": "Flova",
+      "target": "Suno",
+      "type": "integrates_with",
+      "description": "Flova内嵌集成了Suno音乐模型",
+      "confidence": "high"
+    },
+    {
+      "source": "Flova",
+      "target": "Mureka",
+      "type": "integrates_with",
+      "description": "Flova内嵌集成了Mureka音乐模型",
+      "confidence": "high"
+    },
+    {
+      "source": "Flova",
+      "target": "Nano Banana",
+      "type": "integrates_with",
+      "description": "Flova的工作流中会连接并使用类似Nano Banana的生图能力",
+      "confidence": "high"
+    },
+    {
+      "source": "Flova",
+      "target": "ChatGPT",
+      "type": "integrates_with",
+      "description": "Flova作为一个画布软件，通过整合多种大模型替代了原先需单独打开ChatGPT写脚本的繁琐步骤",
+      "confidence": "medium"
+    },
+    {
+      "source": "Flova",
+      "target": "Claude",
+      "type": "integrates_with",
+      "description": "Flova通过整合模型替代了原先需单独打开Claude写脚本的步骤",
+      "confidence": "medium"
+    },
+    {
+      "source": "Flova",
+      "target": "Midjourney",
+      "type": "integrates_with",
+      "description": "Flova的集成能力替代了用户单独跨平台使用Midjourney生成素材的繁琐流程",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "052",
+  "_article_title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

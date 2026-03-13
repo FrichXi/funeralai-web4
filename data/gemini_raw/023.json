@@ -1,0 +1,90 @@
+{
+  "entities": [
+    {
+      "name": "性压抑AI",
+      "type": "product",
+      "description": "结合了大语言模型、性压抑理论和网左文风的AI提示词系统，用于解构和批判日常现象。",
+      "aliases": [
+        "网左+性压抑理论写作引擎"
+      ],
+      "tags": [
+        "LLM",
+        "后现代",
+        "精神分析",
+        "网左"
+      ]
+    },
+    {
+      "name": "kaiyi",
+      "type": "person",
+      "description": "启发了将计算机科学（LLM）与社会科学（性压抑）结合的想法的个人。",
+      "aliases": [
+        "@kaiyi"
+      ],
+      "tags": []
+    },
+    {
+      "name": "峰哥",
+      "type": "person",
+      "description": "视频创作者，其关于性压抑的理论语录被作为性压抑AI的核心学习素材和系统提示词。",
+      "aliases": [],
+      "tags": [
+        "性压抑理论"
+      ]
+    },
+    {
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内AI公司，其设立付费墙的商业行为被性压抑AI作为案例进行了解构分析。",
+      "aliases": [],
+      "tags": [
+        "付费墙"
+      ]
+    },
+    {
+      "name": "YouWare",
+      "type": "company",
+      "description": "一家AI公司，其关于“创始人神性”的话题被性压抑AI作为集体社会性阳痿的展演进行了解构。",
+      "aliases": [],
+      "tags": [
+        "AI创始人",
+        "神性"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "kaiyi",
+      "target": "性压抑AI",
+      "type": "related",
+      "description": "kaiyi的思想启发了性压抑AI这一概念的诞生。",
+      "confidence": "medium"
+    },
+    {
+      "source": "峰哥",
+      "target": "性压抑AI",
+      "type": "related",
+      "description": "峰哥的性压抑相关语录和思想被直接嵌入并构成了性压抑AI的核心理论基础。",
+      "confidence": "high"
+    },
+    {
+      "source": "性压抑AI",
+      "target": "MiniMax",
+      "type": "related",
+      "description": "性压抑AI对MiniMax设立付费墙的事件进行了后现代理论式的精神分析和批判。",
+      "confidence": "high"
+    },
+    {
+      "source": "性压抑AI",
+      "target": "YouWare",
+      "type": "related",
+      "description": "性压抑AI对围绕YouWare及其创始人“神性”的行业现象进行了批判性解构。",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "023",
+  "_article_title": "全球首个性压抑AI发布",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

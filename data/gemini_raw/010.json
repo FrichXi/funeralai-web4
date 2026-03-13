@@ -1,0 +1,108 @@
+{
+  "entities": [
+    {
+      "name": "YouWare",
+      "type": "product",
+      "description": "一款AI网页生成和建站产品",
+      "aliases": [],
+      "tags": [
+        "AI建站",
+        "一句话生成",
+        "Agent"
+      ]
+    },
+    {
+      "name": "明超平",
+      "type": "person",
+      "description": "YouWare创始人，前Kimi产品经理",
+      "aliases": [],
+      "tags": [
+        "创始人",
+        "产品经理"
+      ]
+    },
+    {
+      "name": "Kimi",
+      "type": "product",
+      "description": "知名AI产品",
+      "aliases": [],
+      "tags": [
+        "AI生成"
+      ]
+    },
+    {
+      "name": "月之暗面",
+      "type": "company",
+      "description": "Kimi背后的公司，其股东参与了YouWare的投资",
+      "aliases": [],
+      "tags": [
+        "AI公司"
+      ]
+    },
+    {
+      "name": "杨圣",
+      "type": "person",
+      "description": "被投资人视为信仰标杆的AI行业标志性人物",
+      "aliases": [],
+      "tags": [
+        "神级创始人"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "明超平",
+      "target": "YouWare",
+      "type": "works_on",
+      "description": "明超平是YouWare的产品负责人/创始人",
+      "confidence": "high"
+    },
+    {
+      "source": "明超平",
+      "target": "Kimi",
+      "type": "works_on",
+      "description": "明超平曾担任Kimi的产品经理",
+      "confidence": "high"
+    },
+    {
+      "source": "月之暗面",
+      "target": "Kimi",
+      "type": "develops",
+      "description": "月之暗面是Kimi的开发公司",
+      "confidence": "medium"
+    },
+    {
+      "source": "明超平",
+      "target": "月之暗面",
+      "type": "works_at",
+      "description": "明超平作为前Kimi产品经理，曾在月之暗面任职",
+      "confidence": "medium"
+    },
+    {
+      "source": "月之暗面",
+      "target": "YouWare",
+      "type": "invests_in",
+      "description": "月之暗面的股东和Kimi幕后人物为YouWare提供了资金",
+      "confidence": "low"
+    },
+    {
+      "source": "月之暗面",
+      "target": "明超平",
+      "type": "invests_in",
+      "description": "月之暗面的相关股东实质上投资了明超平",
+      "confidence": "low"
+    },
+    {
+      "source": "明超平",
+      "target": "杨圣",
+      "type": "compares_to",
+      "description": "投资人赌明超平有成为下一个杨圣的可能性",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "010",
+  "_article_title": "YouWare说明AI创始人需要神性",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

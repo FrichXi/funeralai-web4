@@ -1,0 +1,138 @@
+{
+  "article": {
+    "id": "012",
+    "title": "Head AI让我想起了神奇百货",
+    "path": "articles/012_2025-07-11_葬爱咸鱼_Head AI让我想起了神奇百货.md",
+    "date": "2025-07-11",
+    "author": "葬爱咸鱼",
+    "content_hash": "51c16cc4a15ce6d1d2e57a80a7210d7297a8ff24e1b8f8e87bfc99981baf8150"
+  },
+  "entities": [
+    {
+      "id": "head-ai",
+      "name": "Head AI",
+      "type": "product",
+      "description": "号称干掉市场部、实则为Cold Email群发工具的AI营销产品",
+      "mention_count": 12,
+      "aliases": [
+        "Aha",
+        "Aha Creator"
+      ],
+      "tags": [
+        "Cold Email群发工具"
+      ]
+    },
+    {
+      "id": "王凯歆",
+      "name": "王凯歆",
+      "type": "person",
+      "description": "神奇百货创始人，17岁辍学创业的典型代表",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "95后",
+        "初中辍学"
+      ]
+    },
+    {
+      "id": "cluely",
+      "name": "Cluely",
+      "type": "company",
+      "description": "被a16z重金投资的初创项目，被作者认为是纯炒作项目",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "炒作项目"
+      ]
+    },
+    {
+      "id": "a16z",
+      "name": "a16z",
+      "type": "company",
+      "description": "知名海外风险投资机构",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "孙宇晨",
+      "name": "孙宇晨",
+      "type": "person",
+      "description": "知名创业者，常被作为炒作包装的代名词",
+      "mention_count": 2,
+      "aliases": [
+        "孙割"
+      ],
+      "tags": [
+        "区块链",
+        "付费异性语音房"
+      ]
+    },
+    {
+      "id": "神奇百货",
+      "name": "神奇百货",
+      "type": "company",
+      "description": "2015年移动互联网浪潮时的创业项目，实质为淘宝代购",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "淘宝代购"
+      ]
+    },
+    {
+      "id": "马佳佳",
+      "name": "马佳佳",
+      "type": "person",
+      "description": "2015年移动互联网浪潮时期的知名创业者",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "情趣玩具电商"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "王凯歆",
+      "target": "神奇百货",
+      "relation_type": "founder_of",
+      "label": "王凯歆是神奇百货的创始人",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "a16z",
+      "target": "Cluely",
+      "relation_type": "invests_in",
+      "label": "a16z给Cluely投资了1500万美元",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 7,
+    "relationship_count": 2,
+    "pruned_entities": [
+      {
+        "name": "Head AI (公司)",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "IDG资本",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "真格基金",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "红杉资本",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "article": {
+    "id": "017",
+    "title": "字节用扣子证明，Agent只能被计划",
+    "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+    "date": "2025-08-29",
+    "author": "葬爱咸鱼",
+    "content_hash": "a9d8c4a1e41f9b73c05ee7af0212d17aeded240c2445e2dc5b52774fae09dab9"
+  },
+  "entities": [
+    {
+      "id": "扣子",
+      "name": "扣子",
+      "type": "product",
+      "description": "字节跳动推出的低代码AI应用开发平台。",
+      "mention_count": 29,
+      "aliases": [
+        "coze"
+      ],
+      "tags": [
+        "低代码平台",
+        "Agent平台",
+        "To B"
+      ]
+    },
+    {
+      "id": "扣子空间",
+      "name": "扣子空间",
+      "type": "product",
+      "description": "扣子团队推出的通用Agent C端产品。",
+      "mention_count": 8,
+      "aliases": [],
+      "tags": [
+        "通用Agent",
+        "To C"
+      ]
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "type": "product",
+      "description": "具有邮件交互功能的通用Agent平台，是扣子空间的竞品。",
+      "mention_count": 7,
+      "aliases": [],
+      "tags": [
+        "通用Agent",
+        "邮件交互"
+      ]
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "type": "product",
+      "description": "开源的AI应用开发和工作流搭建平台，是扣子的主要竞品。",
+      "mention_count": 6,
+      "aliases": [],
+      "tags": [
+        "开源",
+        "工作流",
+        "定制Agent"
+      ]
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "type": "product",
+      "description": "开源的工作流自动化工具，专业开发者常用于定制Agent。",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "开源",
+        "工作流",
+        "高客单价"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "中国互联网科技大厂，扣子（Coze）的母公司。",
+      "mention_count": 4,
+      "aliases": [
+        "字节"
+      ],
+      "tags": [
+        "大厂",
+        "AI战略"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "AI编程工具，能够直接由自然语言转换出代码跑通demo。",
+      "mention_count": 3,
+      "aliases": [
+        "Claude Code"
+      ],
+      "tags": [
+        "AI编程",
+        "Vibe Coding"
+      ]
+    },
+    {
+      "id": "妙鸭相机",
+      "name": "妙鸭相机",
+      "type": "product",
+      "description": "曾在C端爆火的AI应用，被用作衡量扣子平台产出应用的天花板标准。",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "C端产品",
+        "AI应用"
+      ]
+    },
+    {
+      "id": "mulerun",
+      "name": "Mulerun",
+      "type": "product",
+      "description": "阿里云投资的Agent发行平台，面向专业开发者。",
+      "mention_count": 2,
+      "aliases": [
+        "MuleRun"
+      ],
+      "tags": [
+        "Agent发行平台",
+        "To B"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "主流通用大模型产品，文中提到其解决了作者的搜索需求。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "搜索",
+        "通用AI"
+      ]
+    },
+    {
+      "id": "coze-studio",
+      "name": "Coze Studio",
+      "type": "product",
+      "description": "扣子的核心组件，已被火山引擎开源。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "开源组件",
+        "基础设施"
+      ]
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "type": "product",
+      "description": "流行的AI编程工具，支持Vibe Coding。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI编程",
+        "Vibe Coding"
+      ]
+    },
+    {
+      "id": "张一鸣",
+      "name": "张一鸣",
+      "type": "person",
+      "description": "字节跳动创始人，文中作为思考AI战略的代入角色。",
+      "mention_count": 1,
+      "aliases": [
+        "一鸣"
+      ],
+      "tags": [
+        "老板视角"
+      ]
+    },
+    {
+      "id": "火山引擎",
+      "name": "火山引擎",
+      "type": "company",
+      "description": "字节跳动旗下的云服务平台，接管了扣子团队并开源了Coze Studio。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "云服务",
+        "To B"
+      ]
+    },
+    {
+      "id": "王兴",
+      "name": "王兴",
+      "type": "person",
+      "description": "美团创始人，文中与张一鸣并列，作为“下大棋”老板视角的比喻对象。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "战略",
+        "老板视角"
+      ]
+    },
+    {
+      "id": "百度",
+      "name": "百度",
+      "type": "company",
+      "description": "中国互联网大厂，在文中被作为“落后版本公司”的对比代称。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "落后版本"
+      ]
+    },
+    {
+      "id": "阿里云",
+      "name": "阿里云",
+      "type": "company",
+      "description": "Mulerun的投资方，提供算力等基础设施。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "基础设施"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Manus",
+      "target": "扣子空间",
+      "relation_type": "compares_to",
+      "label": "作者表示使用Manus和扣子空间的感受是一样的，二者体验被直接对比。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "百度",
+      "relation_type": "compares_to",
+      "label": "文中在探讨公司战略时，将字节跳动与百度进行对比，暗讽百度是“落后版本的公司”。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "张一鸣",
+      "target": "王兴",
+      "relation_type": "compares_to",
+      "label": "文章将张一鸣与王兴作为具有战略高度的老板角色进行并列比喻（“人人成王兴，大伙都一鸣”）。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "ChatGPT",
+      "target": "Manus",
+      "relation_type": "competes_with",
+      "label": "作者认为通用Agent的需求被ChatGPT解决，暗示两者在满足用户通用需求上存在竞争关系。",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Claude",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "label": "Claude Code同样作为AI编程工具，取代了扣子原有的To C开发功能。",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Cursor",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "label": "Cursor等AI编程工具的兴起，取代了扣子等低代码平台部分面向普通用户的开发功能。",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Dify",
+      "target": "n8n",
+      "relation_type": "competes_with",
+      "label": "Dify和n8n都是占据开源生态位的Agent工作流搭建竞品。",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Dify",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "label": "扣子与Dify在搭建工作流和给企业定制Agent的业务上存在直接竞争。",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Manus",
+      "target": "扣子空间",
+      "relation_type": "competes_with",
+      "label": "扣子空间与Manus同属于通用Agent产品，存在直接竞争/平替关系。",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "n8n",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "label": "扣子与n8n在专业开发者选择上存在直接竞争，且n8n客单价更高。",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "扣子",
+      "relation_type": "develops",
+      "label": "扣子是字节跳动为探索AI应用落地而开发的平台。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "扣子空间",
+      "relation_type": "develops",
+      "label": "扣子空间是字节跳动（扣子团队）亲自下场做的C端Agent产品。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "火山引擎",
+      "target": "Coze Studio",
+      "relation_type": "develops",
+      "label": "扣子团队划归火山引擎后，由火山引擎将核心组件Coze Studio开源。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "张一鸣",
+      "target": "字节跳动",
+      "relation_type": "founder_of",
+      "label": "张一鸣是字节跳动的创始人（文章设定站在张一鸣视角思考字节跳动的业务）。",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "Coze Studio",
+      "target": "扣子",
+      "relation_type": "integrates_with",
+      "label": "Coze Studio是扣子（coze）的核心组件。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "阿里云",
+      "target": "Mulerun",
+      "relation_type": "invests_in",
+      "label": "文中明确指出Mulerun是阿里云投资的项目。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 17,
+    "relationship_count": 16,
+    "pruned_entities": []
+  }
+}

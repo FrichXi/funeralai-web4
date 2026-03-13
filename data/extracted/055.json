@@ -1,0 +1,239 @@
+{
+  "article": {
+    "id": "055",
+    "title": "PixVerse像做梦一样做世界模型",
+    "path": "articles/055_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+    "date": "2026-01-23",
+    "author": "骡子马",
+    "content_hash": "a3b2469e5529f4424bc0cf71e808272bef744e65ea2eab934765d56274f445b4"
+  },
+  "entities": [
+    {
+      "id": "pixverse",
+      "name": "PixVerse",
+      "type": "product",
+      "description": "支持最高1080P分辨率的通用实时视频生成模型",
+      "mention_count": 15,
+      "aliases": [
+        "PixVerse R1"
+      ],
+      "tags": [
+        "视频生成",
+        "世界模型",
+        "实时交互",
+        "无限流"
+      ]
+    },
+    {
+      "id": "odyssey",
+      "name": "Odyssey",
+      "type": "product",
+      "description": "采用限定主题生成连续互动视频路线的世界模型产品",
+      "mention_count": 5,
+      "aliases": [
+        "Odyssey-2"
+      ],
+      "tags": [
+        "世界模型",
+        "互动视频"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "被用作形容AI行业突破性时刻的对标对象",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "行业标杆"
+      ]
+    },
+    {
+      "id": "genie",
+      "name": "Genie",
+      "type": "product",
+      "description": "Google开发的生成可拓展可操纵3D世界的产品",
+      "mention_count": 1,
+      "aliases": [
+        "Genie 3"
+      ],
+      "tags": [
+        "世界模型",
+        "3D生成"
+      ]
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "type": "company",
+      "description": "开发了Genie系列世界模型的科技巨头",
+      "mention_count": 1,
+      "aliases": [
+        "谷歌"
+      ],
+      "tags": [
+        "世界模型"
+      ]
+    },
+    {
+      "id": "marble",
+      "name": "Marble",
+      "type": "product",
+      "description": "李飞飞相关的生成可拓展可操纵3D世界的产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "世界模型",
+        "3D生成"
+      ]
+    },
+    {
+      "id": "sora",
+      "name": "Sora",
+      "type": "product",
+      "description": "市面上流行的AI视频模型",
+      "mention_count": 1,
+      "aliases": [
+        "Sora 2"
+      ],
+      "tags": [
+        "视频生成"
+      ]
+    },
+    {
+      "id": "veo",
+      "name": "Veo",
+      "type": "product",
+      "description": "市面上流行的AI视频模型",
+      "mention_count": 1,
+      "aliases": [
+        "Veo 3"
+      ],
+      "tags": [
+        "视频生成"
+      ]
+    },
+    {
+      "id": "tosi",
+      "name": "toSi",
+      "type": "product",
+      "description": "英伟达的世界模型项目，通过生成视频训练机器人和自动驾驶",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "世界模型",
+        "自动驾驶"
+      ]
+    },
+    {
+      "id": "李飞飞",
+      "name": "李飞飞",
+      "type": "person",
+      "description": "知名AI学者，其相关产品为可拓展操纵的3D世界模型Marble",
+      "mention_count": 1,
+      "aliases": [
+        "Fei-Fei Li"
+      ],
+      "tags": [
+        "世界模型",
+        "3D生成"
+      ]
+    },
+    {
+      "id": "英伟达",
+      "name": "英伟达",
+      "type": "company",
+      "description": "研发toSi项目世界模型的科技公司",
+      "mention_count": 1,
+      "aliases": [
+        "Nvidia"
+      ],
+      "tags": [
+        "世界模型",
+        "自动驾驶"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Genie",
+      "target": "Marble",
+      "relation_type": "compares_to",
+      "label": "两者被并列为生成可拓展可操纵3D世界路线的世界模型",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Odyssey",
+      "target": "PixVerse",
+      "relation_type": "compares_to",
+      "label": "文章指出PixVerse的机制路线与Odyssey类似，且有相同的画质走形通病",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "PixVerse",
+      "target": "Sora",
+      "relation_type": "compares_to",
+      "label": "文章将PixVerse的近乎实时生成能力与Sora进行对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "PixVerse",
+      "target": "Veo",
+      "relation_type": "compares_to",
+      "label": "文章将PixVerse的近乎实时生成能力与Veo进行对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Odyssey",
+      "target": "PixVerse",
+      "relation_type": "competes_with",
+      "label": "两者都是采用先限定主题再生成无限连续视频路线的世界模型",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Google",
+      "target": "Genie",
+      "relation_type": "develops",
+      "label": "Google开发了Genie模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "英伟达",
+      "target": "toSi",
+      "relation_type": "develops",
+      "label": "英伟达的世界模型属于toSi项目",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "李飞飞",
+      "target": "Marble",
+      "relation_type": "works_on",
+      "label": "文章提及Marble是李飞飞做的世界模型",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 11,
+    "relationship_count": 8,
+    "pruned_entities": []
+  }
+}

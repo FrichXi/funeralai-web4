@@ -1,0 +1,110 @@
+{
+  "entities": [
+    {
+      "name": "Claude Code",
+      "type": "product",
+      "description": "一种可作为项目经理自动拆解任务并分步执行的编程Agent终端",
+      "tags": [
+        "编程Agent",
+        "编程式写作",
+        "上下文工程"
+      ]
+    },
+    {
+      "name": "Kimi",
+      "type": "product",
+      "description": "具有长上下文能力的大语言模型，文中被用作Claude Code的后端调用模型",
+      "aliases": [
+        "Kimi K2",
+        "K2"
+      ],
+      "tags": [
+        "大语言模型",
+        "平替"
+      ]
+    },
+    {
+      "name": "Gemini",
+      "type": "product",
+      "description": "具备超长上下文窗口和较强逻辑能力的大语言模型",
+      "aliases": [
+        "Gemini 2.5 Pro"
+      ]
+    },
+    {
+      "name": "Anthropic",
+      "type": "company",
+      "description": "开发和提供Claude系列服务的人工智能公司"
+    },
+    {
+      "name": "Claude",
+      "type": "product",
+      "description": "大语言模型系列，文中提到其曾用于写作以及作为默认后端",
+      "aliases": [
+        "Claude 3.5 Sonnet"
+      ]
+    },
+    {
+      "name": "通义",
+      "type": "product",
+      "description": "包含语音转录口述想法功能的App产品",
+      "aliases": [
+        "通义app"
+      ]
+    },
+    {
+      "name": "Wisper Flow",
+      "type": "product",
+      "description": "用于随时唤起语音输入并讲明写作需求的Mac端应用工具"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Anthropic",
+      "target": "Claude Code",
+      "type": "develops",
+      "description": "Anthropic是Claude Code的服务提供商与开发方",
+      "confidence": "high"
+    },
+    {
+      "source": "Anthropic",
+      "target": "Claude",
+      "type": "develops",
+      "description": "Anthropic开发了Claude大模型",
+      "confidence": "medium"
+    },
+    {
+      "source": "Claude Code",
+      "target": "Kimi",
+      "type": "integrates_with",
+      "description": "作者将Claude Code的后端模型切换为Kimi，组合使用以自动拆解和执行写作任务",
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Kimi",
+      "type": "compares_to",
+      "description": "由于Anthropic对特定区域的服务限制，作者将Kimi作为Claude后端的平替使用",
+      "confidence": "high"
+    },
+    {
+      "source": "Gemini",
+      "target": "Kimi",
+      "type": "compares_to",
+      "description": "作者对比了在AI写作场景下Gemini生成长文的流畅性与Kimi在性价比及部分环节幻觉率上的差异",
+      "confidence": "high"
+    },
+    {
+      "source": "Claude Code",
+      "target": "Gemini",
+      "type": "compares_to",
+      "description": "作者对比了使用传统对话式模型（如Gemini）与使用项目管理式Agent（Claude Code）在版本管理和写作效率上的区别",
+      "confidence": "high"
+    }
+  ],
+  "_article_id": "024",
+  "_article_title": "像编程一样写作",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

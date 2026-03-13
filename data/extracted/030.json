@@ -1,0 +1,355 @@
+{
+  "article": {
+    "id": "030",
+    "title": "Agent OS的本地入口",
+    "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+    "date": "2025-10-20",
+    "author": "葬爱咸鱼",
+    "content_hash": "34444cd34aef5f8c7eee4f9d8edbde7996c2f18b1fff995632bb2f737f6c883b"
+  },
+  "entities": [
+    {
+      "id": "阶跃",
+      "name": "阶跃",
+      "type": "company",
+      "description": "开发了阶跃桌面助手及多款C端产品的AI公司，现侧重ToB定制业务",
+      "mention_count": 12,
+      "aliases": [],
+      "tags": [
+        "ToB定制"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "云端编程Agent工具，被多个新产品视为对标对象",
+      "mention_count": 9,
+      "aliases": [
+        "Claude Code",
+        "cc"
+      ],
+      "tags": [
+        "编程Agent",
+        "云端Agent",
+        "大模型"
+      ]
+    },
+    {
+      "id": "阶跃桌面助手",
+      "name": "阶跃桌面助手",
+      "type": "product",
+      "description": "基于本地环境的Agent产品，具备操作终端和本地文件能力",
+      "mention_count": 8,
+      "aliases": [],
+      "tags": [
+        "本地Agent",
+        "Agent OS",
+        "悬浮窗"
+      ]
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "type": "product",
+      "description": "能够访问本地文件并在本地环境调用的Agent产品",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "本地Agent"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "取代搜索需求的云端AI工具",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "云端AI"
+      ]
+    },
+    {
+      "id": "贾维斯",
+      "name": "贾维斯",
+      "type": "product",
+      "description": "钢铁侠的AI助手，文中作为Agent OS终极形态的比喻对象",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "Agent OS"
+      ]
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "type": "product",
+      "description": "AI代码编辑器，集成了Claude Code且可被阶跃桌面助手访问",
+      "mention_count": 3,
+      "aliases": [
+        "cursor"
+      ],
+      "tags": [
+        "编辑器"
+      ]
+    },
+    {
+      "id": "mulerun",
+      "name": "Mulerun",
+      "type": "product",
+      "description": "以云端为切入点的Agent交易市场平台",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "Agent交易市场"
+      ]
+    },
+    {
+      "id": "钟十六",
+      "name": "钟十六",
+      "type": "person",
+      "description": "阶跃桌面助手开发者，致力于将其打造成Agent OS入口",
+      "mention_count": 3,
+      "aliases": [
+        "小登",
+        "钟哥"
+      ],
+      "tags": [
+        "开发者"
+      ]
+    },
+    {
+      "id": "k2",
+      "name": "K2",
+      "type": "product",
+      "description": "作者写作时使用的AI大模型",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "windows",
+      "name": "Windows",
+      "type": "product",
+      "description": "微软的操作系统，已支持本地调用Manus",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "芙崽",
+      "name": "芙崽",
+      "type": "product",
+      "description": "具备搭载Agent OS潜力的AI硬件终端",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI硬件"
+      ]
+    },
+    {
+      "id": "deep-research",
+      "name": "Deep Research",
+      "type": "product",
+      "description": "研究类AI产品/功能",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "oppo",
+      "name": "OPPO",
+      "type": "company",
+      "description": "与阶跃开展定制开发生意的科技大厂",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "冒泡鸭",
+      "name": "冒泡鸭",
+      "type": "product",
+      "description": "阶跃开发但已关停的C端产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "千里科技",
+      "name": "千里科技",
+      "type": "company",
+      "description": "与阶跃开展定制开发生意的公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "狸谱",
+      "name": "狸谱",
+      "type": "product",
+      "description": "阶跃开发且即将关停的C端产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ChatGPT",
+      "target": "Deep Research",
+      "relation_type": "compares_to",
+      "label": "作者认为Deep Research在能力上无法超越ChatGPT",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Claude",
+      "target": "阶跃桌面助手",
+      "relation_type": "compares_to",
+      "label": "阶跃桌面助手立项初衷是做类似Claude Code的产品，并在交互上进行对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Mulerun",
+      "target": "阶跃桌面助手",
+      "relation_type": "compares_to",
+      "label": "两者本质切中同一个编程Agent机会，一个切本地环境，一个切云端",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "贾维斯",
+      "target": "阶跃桌面助手",
+      "relation_type": "compares_to",
+      "label": "钟十六希望把阶跃桌面助手做成类似贾维斯一样的Agent OS形态",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "阶跃",
+      "target": "冒泡鸭",
+      "relation_type": "develops",
+      "label": "冒泡鸭是阶跃公司此前开发的C端产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "阶跃",
+      "target": "狸谱",
+      "relation_type": "develops",
+      "label": "狸谱是阶跃公司此前开发的C端产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "阶跃",
+      "target": "阶跃桌面助手",
+      "relation_type": "develops",
+      "label": "阶跃公司是阶跃桌面助手的开发方",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Cursor",
+      "relation_type": "integrates_with",
+      "label": "作者在Cursor应用中使用Claude Code进行写作",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Cursor",
+      "target": "阶跃桌面助手",
+      "relation_type": "integrates_with",
+      "label": "阶跃桌面助手可获取Cursor应用程序数据权限并修复其终端环境",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Manus",
+      "target": "Windows",
+      "relation_type": "integrates_with",
+      "label": "Manus可直接在Windows本地环境调用",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "OPPO",
+      "target": "阶跃",
+      "relation_type": "partners_with",
+      "label": "阶跃公司与OPPO有定制开发生意的合作",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "千里科技",
+      "target": "阶跃",
+      "relation_type": "partners_with",
+      "label": "阶跃公司与千里科技有定制开发生意的合作",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "钟十六",
+      "target": "阶跃",
+      "relation_type": "works_at",
+      "label": "根据文中语境，钟十六在阶跃公司任职并开发旗下产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "钟十六",
+      "target": "阶跃桌面助手",
+      "relation_type": "works_on",
+      "label": "钟十六负责开发了阶跃桌面助手",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 17,
+    "relationship_count": 14,
+    "pruned_entities": [
+      {
+        "name": "Gemini",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Manus团队",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "looki",
+        "reason": "low-signal"
+      },
+      {
+        "name": "plaud",
+        "reason": "low-signal"
+      },
+      {
+        "name": "微软",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

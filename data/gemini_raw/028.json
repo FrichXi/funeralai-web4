@@ -1,0 +1,284 @@
+{
+  "entities": [
+    {
+      "name": "a16z",
+      "type": "company",
+      "description": "一家顶级的风险投资机构，本质上通过内容制造叙事并作为媒体公司运营进行投资盈利。",
+      "aliases": [
+        "Andreessen Horowitz"
+      ],
+      "tags": [
+        "VC",
+        "投资机构",
+        "媒体公司",
+        "一级市场"
+      ]
+    },
+    {
+      "name": "Marc Andreessen",
+      "type": "person",
+      "description": "a16z创始人，顶级内容创作者，通过撰写宏大叙事文章影响行业趋势。",
+      "aliases": [
+        "Marc"
+      ],
+      "tags": [
+        "创始人",
+        "投资人",
+        "内容创作者"
+      ]
+    },
+    {
+      "name": "孙宇晨",
+      "type": "person",
+      "description": "币圈知名人物，文中被用作比喻对象，以对比a16z在一级市场的运作模式。",
+      "aliases": [],
+      "tags": [
+        "币圈",
+        "炒作"
+      ]
+    },
+    {
+      "name": "特朗普",
+      "type": "person",
+      "description": "文中被用作比喻对象，指代凭借自身影响力和权力直接制造市场行情（K线）的人。",
+      "aliases": [
+        "Trump"
+      ],
+      "tags": [
+        "股神",
+        "意见领袖"
+      ]
+    },
+    {
+      "name": "Chris Dixon",
+      "type": "person",
+      "description": "a16z内容团队成员，负责加密货币领域的内容输出。",
+      "aliases": [],
+      "tags": [
+        "投资人",
+        "内容团队"
+      ]
+    },
+    {
+      "name": "Connie Chan",
+      "type": "person",
+      "description": "a16z内容团队成员，专注中国市场和移动互联网的内容输出。",
+      "aliases": [],
+      "tags": [
+        "投资人",
+        "内容团队"
+      ]
+    },
+    {
+      "name": "Katherine Boyle",
+      "type": "person",
+      "description": "a16z内容团队成员，主导American Dynamism系列专栏。",
+      "aliases": [],
+      "tags": [
+        "投资人",
+        "内容团队"
+      ]
+    },
+    {
+      "name": "Sriram Krishnan",
+      "type": "person",
+      "description": "a16z播客主持人，参与Web3叙事创作。",
+      "aliases": [],
+      "tags": [
+        "播客主持人",
+        "内容团队"
+      ]
+    },
+    {
+      "name": "OpenSea",
+      "type": "company",
+      "description": "a16z在Web3领域重金投资的明星项目，估值曾暴涨。",
+      "aliases": [],
+      "tags": [
+        "Web3",
+        "加密货币"
+      ]
+    },
+    {
+      "name": "Dapper Labs",
+      "type": "company",
+      "description": "a16z在Web3领域投资的明星项目之一。",
+      "aliases": [],
+      "tags": [
+        "Web3",
+        "加密货币"
+      ]
+    },
+    {
+      "name": "Character.AI",
+      "type": "company",
+      "description": "a16z在AI赛道领投1.5亿美元A轮的明星公司。",
+      "aliases": [],
+      "tags": [
+        "AI应用",
+        "人工智能"
+      ]
+    },
+    {
+      "name": "Why AI Will Save the World",
+      "type": "product",
+      "description": "Marc Andreessen撰写的文章产品，驳斥AI威胁论并力推AI加速主义。",
+      "aliases": [],
+      "tags": [
+        "文章",
+        "叙事产品",
+        "AI"
+      ]
+    },
+    {
+      "name": "It's Time to Build",
+      "type": "product",
+      "description": "Marc Andreessen在2020年疫情初期撰写的文章产品，呼吁建设并击中西方社会情绪。",
+      "aliases": [],
+      "tags": [
+        "文章",
+        "叙事产品"
+      ]
+    },
+    {
+      "name": "The Techno-Optimist Manifesto",
+      "type": "product",
+      "description": "Marc Andreessen撰写的技术乐观主义宣言文章产品。",
+      "aliases": [],
+      "tags": [
+        "文章",
+        "宣言",
+        "叙事产品"
+      ]
+    },
+    {
+      "name": "The Little Tech Agenda",
+      "type": "product",
+      "description": "Marc Andreessen撰写的文章产品，将支持小科技公司与捍卫美国技术霸权等同起来。",
+      "aliases": [],
+      "tags": [
+        "文章",
+        "叙事产品"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Marc Andreessen",
+      "target": "a16z",
+      "type": "founder_of",
+      "description": "Marc Andreessen于2009年创立了a16z并为其定下了媒体公司的定位。",
+      "confidence": "high"
+    },
+    {
+      "source": "Chris Dixon",
+      "target": "a16z",
+      "type": "works_at",
+      "description": "Chris Dixon在a16z任职，负责加密货币领域内容。",
+      "confidence": "high"
+    },
+    {
+      "source": "Connie Chan",
+      "target": "a16z",
+      "type": "works_at",
+      "description": "Connie Chan在a16z任职，专注中国市场和移动互联网内容。",
+      "confidence": "high"
+    },
+    {
+      "source": "Katherine Boyle",
+      "target": "a16z",
+      "type": "works_at",
+      "description": "Katherine Boyle在a16z任职，主导特定专栏。",
+      "confidence": "high"
+    },
+    {
+      "source": "Sriram Krishnan",
+      "target": "a16z",
+      "type": "works_at",
+      "description": "Sriram Krishnan在a16z任职，主持播客并参与内容创作。",
+      "confidence": "high"
+    },
+    {
+      "source": "Chris Dixon",
+      "target": "Marc Andreessen",
+      "type": "collaborates_with",
+      "description": "两人同为a16z的核心人员，共同参与构建公司的内容与投资叙事。",
+      "confidence": "medium"
+    },
+    {
+      "source": "a16z",
+      "target": "OpenSea",
+      "type": "invests_in",
+      "description": "a16z在Web3领域投资了OpenSea。",
+      "confidence": "high"
+    },
+    {
+      "source": "a16z",
+      "target": "Dapper Labs",
+      "type": "invests_in",
+      "description": "a16z在Web3领域投资了Dapper Labs。",
+      "confidence": "high"
+    },
+    {
+      "source": "a16z",
+      "target": "Character.AI",
+      "type": "invests_in",
+      "description": "a16z在2023年领投了Character.AI的1.5亿美元A轮融资。",
+      "confidence": "high"
+    },
+    {
+      "source": "a16z",
+      "target": "孙宇晨",
+      "type": "compares_to",
+      "description": "文章将a16z在一级市场依靠叙事拉盘的行为与孙宇晨在币圈炒作的行为进行类比。",
+      "confidence": "high"
+    },
+    {
+      "source": "a16z",
+      "target": "特朗普",
+      "type": "compares_to",
+      "description": "文章将a16z比作现代版股神特朗普，认为两者都通过权力和影响力直接制造市场行情。",
+      "confidence": "high"
+    },
+    {
+      "source": "Marc Andreessen",
+      "target": "Why AI Will Save the World",
+      "type": "works_on",
+      "description": "Marc Andreessen撰写了这篇文章产品。",
+      "confidence": "high"
+    },
+    {
+      "source": "Marc Andreessen",
+      "target": "It's Time to Build",
+      "type": "works_on",
+      "description": "Marc Andreessen打磨并发表了这篇极具影响力的文章产品。",
+      "confidence": "high"
+    },
+    {
+      "source": "Marc Andreessen",
+      "target": "The Techno-Optimist Manifesto",
+      "type": "works_on",
+      "description": "Marc Andreessen创作了该技术乐观主义宣言。",
+      "confidence": "high"
+    },
+    {
+      "source": "Marc Andreessen",
+      "target": "The Little Tech Agenda",
+      "type": "works_on",
+      "description": "Marc Andreessen撰写了该议程文章。",
+      "confidence": "high"
+    },
+    {
+      "source": "a16z",
+      "target": "Why AI Will Save the World",
+      "type": "develops",
+      "description": "a16z作为一家本质上的媒体公司，系统化地产出此类核心内容产品以影响市场。",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "028",
+  "_article_title": "a16z是一家媒体公司",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

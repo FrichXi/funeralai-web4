@@ -1,0 +1,189 @@
+{
+  "article": {
+    "id": "060",
+    "title": "AI硬件炒作上天了",
+    "path": "articles/060_2026-02-03_骡子马_AI硬件炒作上天了.md",
+    "date": "2026-02-03",
+    "author": "骡子马",
+    "content_hash": "1ac1b5e6ad823e7fad4b3f7fd556e8ddf2163242bfb0c7a829acd9c1e6a73268"
+  },
+  "entities": [
+    {
+      "id": "小红书",
+      "name": "小红书",
+      "type": "company",
+      "description": "社交平台，向涉飞的AI宠物项目投资了1200万人民币",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "投资方",
+        "社交平台"
+      ]
+    },
+    {
+      "id": "spacex",
+      "name": "SpaceX",
+      "type": "company",
+      "description": "被GRU Space声称将用来运送建筑材料的太空公司",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "商业航天"
+      ]
+    },
+    {
+      "id": "锦秋基金",
+      "name": "锦秋基金",
+      "type": "company",
+      "description": "AI项目天使期的主要金主之一",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "基金"
+      ]
+    },
+    {
+      "id": "马斯克",
+      "name": "马斯克",
+      "type": "person",
+      "description": "知名科技企业家，对SpaceX的商业航天进展负责，且旗下拥有Grok模型",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "科技企业家"
+      ]
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "type": "product",
+      "description": "马斯克旗下的AI应用/大模型",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "AI应用"
+      ]
+    },
+    {
+      "id": "mova",
+      "name": "MOVA",
+      "type": "company",
+      "description": "开发了Pilot 70扫地机器人模组的公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "硬件厂商"
+      ]
+    },
+    {
+      "id": "pilot-70",
+      "name": "Pilot 70",
+      "type": "product",
+      "description": "一款号称能飞的扫地机器人模组",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "扫地机器人",
+        "AI硬件"
+      ]
+    },
+    {
+      "id": "skyris",
+      "name": "SKYRIS",
+      "type": "company",
+      "description": "开发机器人宠物BOOBOO的创业公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI初创公司",
+        "PPT创业"
+      ]
+    },
+    {
+      "id": "张宇诺",
+      "name": "张宇诺",
+      "type": "person",
+      "description": "SKYRIS创始人",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "MOVA",
+      "target": "Pilot 70",
+      "relation_type": "develops",
+      "label": "MOVA开发了Pilot 70扫地机器人模组",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "张宇诺",
+      "target": "SKYRIS",
+      "relation_type": "founder_of",
+      "label": "张宇诺是SKYRIS的创始人",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "马斯克",
+      "target": "SpaceX",
+      "relation_type": "founder_of",
+      "label": "文章指出商业航天的进展责任在马斯克",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "medium"
+    },
+    {
+      "source": "小红书",
+      "target": "SKYRIS",
+      "relation_type": "invests_in",
+      "label": "小红书为该“飞天”项目投资了1200万人民币",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "小红书",
+      "target": "张宇诺",
+      "relation_type": "invests_in",
+      "label": "小红书投资了张宇诺主导的创业项目",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "马斯克",
+      "target": "Grok",
+      "relation_type": "works_on",
+      "label": "文章指出Grok为马斯克旗下的产品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 9,
+    "relationship_count": 6,
+    "pruned_entities": [
+      {
+        "name": "GRU Space",
+        "reason": "low-signal"
+      },
+      {
+        "name": "红杉中国",
+        "reason": "low-signal"
+      },
+      {
+        "name": "蚂蚁集团",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

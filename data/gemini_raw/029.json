@@ -1,0 +1,231 @@
+{
+  "entities": [
+    {
+      "name": "Claude Code",
+      "type": "product",
+      "description": "AI编程Agent应用，可通过终端执行任务",
+      "aliases": [
+        "cc"
+      ],
+      "tags": [
+        "编程Agent",
+        "终端工具"
+      ]
+    },
+    {
+      "name": "Cherry Studio",
+      "type": "product",
+      "description": "为Claude Code等大模型提供前端界面的套壳应用",
+      "tags": [
+        "前端界面",
+        "套壳应用"
+      ]
+    },
+    {
+      "name": "阶跃电脑助手",
+      "type": "product",
+      "description": "将Claude Code等能力置于本地环境的助手工具",
+      "tags": [
+        "本地环境",
+        "套壳应用"
+      ]
+    },
+    {
+      "name": "阶跃",
+      "type": "company",
+      "description": "阶跃电脑助手的开发公司",
+      "aliases": [
+        "阶跃星辰"
+      ],
+      "tags": [
+        "AI公司"
+      ]
+    },
+    {
+      "name": "通义",
+      "type": "product",
+      "description": "具备录音转写功能的AI应用",
+      "aliases": [
+        "通义APP"
+      ],
+      "tags": [
+        "语音输入"
+      ]
+    },
+    {
+      "name": "Plaud",
+      "type": "product",
+      "description": "具备录音功能的AI硬件产品",
+      "aliases": [
+        "Plaud录音卡片"
+      ],
+      "tags": [
+        "AI硬件",
+        "语音输入"
+      ]
+    },
+    {
+      "name": "Wisper Flow",
+      "type": "product",
+      "description": "Mac端的语音输入和识别工具",
+      "tags": [
+        "语音输入",
+        "Mac应用"
+      ]
+    },
+    {
+      "name": "Gemini CLI",
+      "type": "product",
+      "description": "基于Gemini模型的终端编程Agent",
+      "tags": [
+        "编程Agent",
+        "终端工具"
+      ]
+    },
+    {
+      "name": "Gemini",
+      "type": "product",
+      "description": "Google开发的大语言模型",
+      "aliases": [
+        "Gemini 2.5 Pro"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "name": "Codex",
+      "type": "product",
+      "description": "AI编程Agent工具",
+      "tags": [
+        "编程Agent"
+      ]
+    },
+    {
+      "name": "Qoder",
+      "type": "product",
+      "description": "AI编程Agent工具",
+      "tags": [
+        "编程Agent"
+      ]
+    },
+    {
+      "name": "Kimi",
+      "type": "product",
+      "description": "大语言模型，可作为编程Agent的后端",
+      "aliases": [
+        "Kimi K2"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "name": "Claude",
+      "type": "product",
+      "description": "Anthropic开发的大语言模型",
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "name": "Qwen",
+      "type": "product",
+      "description": "阿里开发的大语言模型",
+      "tags": [
+        "大模型"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "阶跃",
+      "target": "阶跃电脑助手",
+      "type": "develops",
+      "description": "阶跃公司开发了阶跃电脑助手",
+      "confidence": "medium"
+    },
+    {
+      "source": "Cherry Studio",
+      "target": "Claude Code",
+      "type": "integrates_with",
+      "description": "Cherry Studio作为前端界面套壳并集成了Claude Code",
+      "confidence": "high"
+    },
+    {
+      "source": "阶跃电脑助手",
+      "target": "Claude Code",
+      "type": "integrates_with",
+      "description": "阶跃电脑助手在本地环境中集成了Claude Code",
+      "confidence": "high"
+    },
+    {
+      "source": "Claude Code",
+      "target": "Gemini CLI",
+      "type": "competes_with",
+      "description": "两者均为同类的编程Agent工具",
+      "confidence": "high"
+    },
+    {
+      "source": "Claude Code",
+      "target": "Codex",
+      "type": "competes_with",
+      "description": "两者均为同类的编程Agent工具",
+      "confidence": "high"
+    },
+    {
+      "source": "Claude Code",
+      "target": "Qoder",
+      "type": "competes_with",
+      "description": "两者均为同类的编程Agent工具",
+      "confidence": "high"
+    },
+    {
+      "source": "Gemini",
+      "target": "Gemini CLI",
+      "type": "integrates_with",
+      "description": "Gemini CLI底层调用Gemini大模型",
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi",
+      "target": "Claude Code",
+      "type": "integrates_with",
+      "description": "Kimi模型可作为后端API接入Claude Code使用",
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Gemini",
+      "type": "competes_with",
+      "description": "两者均为通用大语言模型",
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Qwen",
+      "type": "competes_with",
+      "description": "两者均为通用大语言模型",
+      "confidence": "high"
+    },
+    {
+      "source": "Gemini",
+      "target": "Qwen",
+      "type": "competes_with",
+      "description": "两者均为通用大语言模型",
+      "confidence": "high"
+    },
+    {
+      "source": "通义",
+      "target": "Plaud",
+      "type": "competes_with",
+      "description": "两者均被作者作为口述录音的同类输入工具提及",
+      "confidence": "medium"
+    }
+  ],
+  "_article_id": "029",
+  "_article_title": "AI写作指南3.0编程式写作",
+  "_model": "gemini-3.1-pro-preview",
+  "_prompt_version": "2026-03-11-relationship-recall-v6",
+  "_extractor_version": "2026-03-10-strength-pipeline-v4"
+}

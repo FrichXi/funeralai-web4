@@ -1,0 +1,241 @@
+{
+  "article": {
+    "id": "006",
+    "title": "智谱的存在主义危机",
+    "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+    "date": "2025-06-25",
+    "author": "葬爱咸鱼",
+    "content_hash": "5fe28944def77b7ec85a0e59c374209f38f2cfc5e07e48e8005d24b490edaca8"
+  },
+  "entities": [
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "中国大模型初创公司，正面临大模型技术落后与商业化转型的两难困境",
+      "mention_count": 28,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "清华系",
+        "AI六小虎",
+        "G端市场",
+        "大模型"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "以更强性能、更低成本和支持本地化部署打破智谱护城河的AI公司",
+      "mention_count": 7,
+      "aliases": [],
+      "tags": [
+        "本地化部署",
+        "安全可控"
+      ]
+    },
+    {
+      "id": "商汤",
+      "name": "商汤",
+      "type": "company",
+      "description": "上一代AI四小龙之一，文章用其发展路径和财务状况对比智谱",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "AI四小龙",
+        "AI安防"
+      ]
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "type": "company",
+      "description": "全球领先的AI科技巨头，智谱最初对标的对象",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "平台型科技巨头"
+      ]
+    },
+    {
+      "id": "autoglm沉思",
+      "name": "AutoGLM沉思",
+      "type": "product",
+      "description": "智谱推出的Agent产品，被指前端体验较差（如缺乏自动折叠功能）",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "id": "中关村科学城",
+      "name": "中关村科学城",
+      "type": "company",
+      "description": "北京市海淀区的投资平台，领投了智谱",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "国资平台",
+        "战投"
+      ]
+    },
+    {
+      "id": "中金",
+      "name": "中金",
+      "type": "company",
+      "description": "负责智谱IPO辅导的金融机构",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "券商",
+        "IPO辅导"
+      ]
+    },
+    {
+      "id": "临汾市人民医院",
+      "name": "临汾市人民医院",
+      "type": "company",
+      "description": "招标采购了基于DeepSeek的医疗系统的公立医院",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "G端客户"
+      ]
+    },
+    {
+      "id": "海康",
+      "name": "海康",
+      "type": "company",
+      "description": "传统安防巨头，在业务落地中力压AI公司",
+      "mention_count": 1,
+      "aliases": [
+        "海康威视"
+      ],
+      "tags": [
+        "传统企业",
+        "安防"
+      ]
+    },
+    {
+      "id": "零一万物",
+      "name": "零一万物",
+      "type": "company",
+      "description": "已官宣转型做应用的大模型初创公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "应用转型"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "OpenAI",
+      "target": "智谱AI",
+      "relation_type": "compares_to",
+      "label": "智谱一度被视为“中国版OpenAI”的最有力竞争者",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "商汤",
+      "target": "智谱AI",
+      "relation_type": "compares_to",
+      "label": "智谱的顶尖学术背景、高估值和商业化挑战与上一代商汤高度相似",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "零一万物",
+      "relation_type": "compares_to",
+      "label": "文章对比智谱死磕大模型与零一万物转型做应用的不同路径",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "智谱AI",
+      "relation_type": "competes_with",
+      "label": "DeepSeek在G端市场提供了更具性价比的替代方案，取代了智谱的生态位",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "商汤",
+      "target": "海康",
+      "relation_type": "competes_with",
+      "label": "商汤等AI企业在安防领域竞争不过海康这样的传统企业",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "AutoGLM沉思",
+      "relation_type": "develops",
+      "label": "智谱开发了跟风的Agent产品AutoGLM沉思",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "中关村科学城",
+      "target": "智谱AI",
+      "relation_type": "invests_in",
+      "label": "中关村科学城领投了智谱数十亿融资",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "临汾市人民医院",
+      "relation_type": "partners_with",
+      "label": "临汾市人民医院招标采购基于DeepSeek的医疗系统",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "中金",
+      "target": "智谱AI",
+      "relation_type": "partners_with",
+      "label": "中金担任智谱IPO的辅导机构",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 10,
+    "relationship_count": 9,
+    "pruned_entities": [
+      {
+        "name": "Manus",
+        "reason": "low-signal"
+      },
+      {
+        "name": "YouWare",
+        "reason": "low-signal"
+      },
+      {
+        "name": "北京证监局",
+        "reason": "low-signal"
+      },
+      {
+        "name": "百川智能",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

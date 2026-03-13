@@ -1,0 +1,199 @@
+```json
+{
+  "entities": [
+    {
+      "name": "孙洋",
+      "type": "person",
+      "description": "Looki创始人",
+      "aliases": [],
+      "tags": ["创始人", "AI硬件"]
+    },
+    {
+      "name": "Looki",
+      "type": "product",
+      "description": "一款AI第一人称视角可穿戴相机",
+      "aliases": [],
+      "tags": ["AI相机", "可穿戴设备", "Vlog"]
+    },
+    {
+      "name": "Looki（公司）",
+      "type": "company",
+      "description": "开发Looki相机的背后公司",
+      "aliases": ["Looki团队"],
+      "tags": ["AI硬件创业公司"]
+    },
+    {
+      "name": "大疆",
+      "type": "company",
+      "description": "知名无人机及相机制造商",
+      "aliases": ["DJI"],
+      "tags": ["无人机", "相机", "硬件巨头"]
+    },
+    {
+      "name": "Insta360",
+      "type": "company",
+      "description": "知名全景相机及运动相机制造商",
+      "aliases": ["影石"],
+      "tags": ["运动相机"]
+    },
+    {
+      "name": "许高",
+      "type": "person",
+      "description": "Plaud产品的核心负责人及创始人",
+      "aliases": [],
+      "tags": ["硬件创业者"]
+    },
+    {
+      "name": "Plaud",
+      "type": "product",
+      "description": "一款AI录音硬件产品",
+      "aliases": [],
+      "tags": ["AI硬件"]
+    },
+    {
+      "name": "Plaud（公司）",
+      "type": "company",
+      "description": "Plaud硬件背后的开发公司",
+      "aliases": [],
+      "tags": ["AI硬件公司"]
+    },
+    {
+      "name": "出门问问",
+      "type": "company",
+      "description": "国内AI公司，被指抄袭Plaud",
+      "aliases": [],
+      "tags": ["AI公司", "抄袭争议"]
+    },
+    {
+      "name": "钉钉",
+      "type": "company",
+      "description": "国内企业服务平台，文中被指其硬件方向抄袭Plaud",
+      "aliases": [],
+      "tags": ["大厂产品", "抄袭争议"]
+    },
+    {
+      "name": "苹果",
+      "type": "company",
+      "description": "国际科技巨头",
+      "aliases": ["Apple"],
+      "tags": ["科技巨头"]
+    },
+    {
+      "name": "iPod",
+      "type": "product",
+      "description": "苹果公司早期推出的音乐播放器",
+      "aliases": [],
+      "tags": ["消费电子"]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "孙洋",
+      "target": "Looki（公司）",
+      "type": "founder_of",
+      "description": "孙洋是Looki的创始人",
+      "confidence": "high"
+    },
+    {
+      "source": "孙洋",
+      "target": "Looki",
+      "type": "works_on",
+      "description": "孙洋主导设计和开发了Looki产品",
+      "confidence": "high"
+    },
+    {
+      "source": "Looki（公司）",
+      "target": "Looki",
+      "type": "develops",
+      "description": "Looki公司研发了该同名AI相机",
+      "confidence": "high"
+    },
+    {
+      "source": "Looki",
+      "target": "大疆",
+      "type": "compares_to",
+      "description": "孙洋提出Looki和当年大疆一样存在磁吸或配件丢失的问题",
+      "confidence": "high"
+    },
+    {
+      "source": "Looki",
+      "target": "Insta360",
+      "type": "compares_to",
+      "description": "孙洋将Looki在佩戴丢失问题上与Insta360相比较",
+      "confidence": "high"
+    },
+    {
+      "source": "孙洋",
+      "target": "大疆",
+      "type": "compares_to",
+      "description": "孙洋用大疆当年推出新品遭遇“喷子”的经历，类比自己和Looki当下的处境",
+      "confidence": "high"
+    },
+    {
+      "source": "许高",
+      "target": "Plaud（公司）",
+      "type": "founder_of",
+      "description": "许高是主导Plaud发展的核心创始人",
+      "confidence": "medium"
+    },
+    {
+      "source": "许高",
+      "target": "Plaud",
+      "type": "works_on",
+      "description": "许高花了一年多时间探索Plaud在国内的规划",
+      "confidence": "high"
+    },
+    {
+      "source": "Plaud（公司）",
+      "target": "Plaud",
+      "type": "develops",
+      "description": "Plaud公司开发了Plaud硬件",
+      "confidence": "high"
+    },
+    {
+      "source": "出门问问",
+      "target": "Plaud",
+      "type": "competes_with",
+      "description": "出门问问抄袭了Plaud的产品形态，成为竞品",
+      "confidence": "high"
+    },
+    {
+      "source": "钉钉",
+      "target": "Plaud",
+      "type": "competes_with",
+      "description": "钉钉抄袭了Plaud的产品形态，成为竞品",
+      "confidence": "high"
+    },
+    {
+      "source": "孙洋",
+      "target": "出门问问",
+      "type": "criticizes",
+      "description": "孙洋批评出门问问抄袭Plaud，导致市场杠杆消失",
+      "confidence": "high"
+    },
+    {
+      "source": "孙洋",
+      "target": "钉钉",
+      "type": "criticizes",
+      "description": "孙洋批评钉钉抄袭Plaud，导致市场被破坏",
+      "confidence": "high"
+    },
+    {
+      "source": "苹果",
+      "target": "iPod",
+      "type": "develops",
+      "description": "苹果公司开发了iPod",
+      "confidence": "high"
+    },
+    {
+      "source": "Looki",
+      "target": "iPod",
+      "type": "compares_to",
+      "description": "孙洋借苹果初代手机自比“更好的iPod”，来类比Looki用Vlog作为产品向用户沟通的切入点",
+      "confidence": "medium"
+    },
+    {
+      "source": "孙洋",
+      "target": "许高",
+      "type": "related",
+      "description": "孙洋在分析国内硬件环境时，提及同行许高的商业决策
