@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  /* 葬AI Dark Purple Theme — brand color #7351cf */
+  :root {
+    --background: 255 10% 7%;
+    --foreground: 260 20% 90%;
+    --card: 260 30% 10%;
+    --card-foreground: 260 20% 90%;
+    --popover: 260 30% 10%;
+    --popover-foreground: 260 20% 90%;
+    --primary: 258 55% 57%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 260 30% 16%;
+    --secondary-foreground: 260 20% 88%;
+    --muted: 260 20% 14%;
+    --muted-foreground: 260 10% 55%;
+    --accent: 340 70% 65%;
+    --accent-foreground: 260 30% 7%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 260 25% 20%;
+    --input: 260 25% 18%;
+    --ring: 258 55% 57%;
+    --radius: 0rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* 8bitcn retro font */
+.retro {
+  font-family: "Press Start 2P", system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
