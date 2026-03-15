@@ -4,7 +4,70 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Added (Phase 7: Knowledge graph overhaul)
+- Multi-key Gemini API support in `extract_gemini.py` (round-robin `GEMINI_API_KEYS`)
+- `scripts/overrides.py` — declarative post-processing rules (node merges, type corrections, edge fixes, missing edges)
+- `scripts/post_process.py` — post-processing execution engine (8-step pipeline)
+- `scripts/build_presentation.py` — frontend data generator (graph-view, leaderboards, article-index, display-registry)
+- `vc_firm` entity type in extraction pipeline (`graph_utils.py`, `extract_gemini.py`)
+- Full extraction pipeline merged from 葬AI模拟器 (`extract_gemini.py`, `graph_builder.py`, `graph_utils.py`, `pipeline_state.py`, `build_graph.py`, `run_full_extraction.py`)
+- `.gitignore` for API keys, raw data, Python cache
+- `requirements.txt` for Python dependencies
+
+### Changed (Phase 7)
+- Knowledge graph data: 435→431 nodes, 812→1035 edges (full re-extraction + post-processing)
+- FCOSE layout: degree-based nodeRepulsion, wider spacing, lower gravity
+- Extraction prompt: 4 entity types (added vc_firm), 6 relationship guidance rules
+- `article-index.json` format: wrapped in `{articles: [...], count: N}` for frontend compatibility
+
+### Fixed (Phase 7)
+- Entity type violations: Plaud/YouWare/Looki/MyShell correctly typed as product (not company)
+- 5 VC firms (a16z, IDG, 红杉资本, 高瓴, 锦秋基金) correctly typed as vc_firm
+- 21 duplicate nodes merged (manus产品, 通义千问, 马卡龙app, 云从科技, etc.)
+- 310 bidirectional edges added (competes_with + compares_to)
+- `graph-config.ts`: replaced `any` type with proper type annotation
+
+### Added (Open-source engineering overhaul)
+- `LICENSE` — MIT license
+- `.env.example` — API key template for fork users
+- `README.md` — Project overview, architecture, quick start (EN/CN)
+- `CONTRIBUTING.md` — How to add articles, fix entities, add types
+- `docs/data-formats.md` — JSON schema documentation for all data files
+- `site/README.md` — Replaced Next.js template with project-specific docs
+- `pipeline.toml` — Externalized pipeline configuration (model, concurrency, etc.)
+- `scripts/__init__.py` — Make scripts/ a Python package
+- `scripts/run_pipeline.py` — Unified CLI: `python -m scripts.run_pipeline [full|extract|build|present]`
+- `tests/` — pytest test suite (61 tests): graph_utils, pipeline_state, graph_builder
+- `site/src/lib/__tests__/` — vitest test suite (20 tests): graph-config, constants
+- `site/vitest.config.ts` — Vitest configuration
+- `.github/workflows/ci.yml` — GitHub Actions CI (Python tests, frontend lint, build, vitest)
+- Module-level docstrings for `graph_builder.py`, `graph_utils.py`, `pipeline_state.py`
+- Article filename validation in `pipeline_state.py` (warns on non-standard names)
+- Config loading from `pipeline.toml` in `pipeline_state.py` (with fallback defaults)
+
 ### Changed
+- `.gitignore` — Added `site/.next/`, `site/out/`, `site/node_modules/`, `site/.vercel/`, `data/extracted/`, `data/graph/`, `*.tsbuildinfo`
+- `requirements.txt` — Specified actual dependencies: `httpx>=0.27,<1.0`, `python-dotenv>=1.0,<2.0`
+- `.DS_Store` removed from git tracking
+
+### Added (Phase 6: Simulator repo merge)
+- Merged 9 pipeline scripts from 葬AI模拟器 into `scripts/`:
+  - `extract_gemini.py` — Gemini incremental entity extraction
+  - `graph_builder.py` — Graph aggregation and canonical layer derivation
+  - `graph_utils.py` — Entity normalization, merge maps, blacklists
+  - `pipeline_state.py` — Manifest management, article parsing, pipeline constants
+  - `build_graph.py` — Standalone graph build from manifest
+  - `run_full_extraction.py` — Unattended batch extraction runner
+  - `overrides.py` — Declarative post-processing override rules
+  - `post_process.py` — Apply overrides to canonical graph
+  - `build_presentation.py` — Generate frontend data (graph-view, leaderboards, article-index)
+- `data/graph/canonical_corrected.json` — Post-processed graph output from simulator
+- `requirements.txt` — Python dependency placeholder
+- Root `.gitignore` — Ignore `.env`, `data/gemini_raw/`, `__pycache__/`, `.DS_Store`, etc.
+- Existing `scripts/enrich_graph.py` kept as reference (not deleted)
+
+### Changed
+- 图谱 FCOSE 布局参数调优：增大节点间距(180)、边长(180+)、迭代次数(5000)，降低重力(0.15)，nodeRepulsion 改为按 degree 分级(10k/15k/25k)，启用 nodeDimensionsIncludeLabels
 - 排行榜页：用 4 个分类 Tab 替换原 h1 标题位置，增大触摸目标 (min-h-[44px])
 - 排行榜 TabsList：移动端横向滚动 (overflow-x-auto scrollbar-hide)，防止 tab 被挤压
 - 图谱 EntityDrawer：移动端改为底部弹出面板 (35vh 折叠/80vh 展开)，图谱保持可见

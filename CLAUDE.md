@@ -1,6 +1,6 @@
 # 葬AI 知识图谱分析站点
 
-> Last verified: 2026-03-14
+> Last verified: 2026-03-15
 
 ## 项目概述
 
@@ -24,10 +24,24 @@
 | `web-data/articles/{001-068}.json` | 单篇文章详情（body_markdown、entities、relationships） |
 | `web-data/leaderboards.json` | 4 个分类排行榜（products/founders/vcs/companies） |
 | `data/config/display_registry.json` | 节点展示配置（visualMode、featured） |
+| `data/graph/canonical.json` | 聚合后原始图谱 |
+| `data/graph/canonical_corrected.json` | 后处理修正后图谱 |
 
 ## 技术架构
 
 ```
+scripts/                       # 完整提取+后处理管线
+├── extract_gemini.py          # Gemini 提取（支持多 key 轮询）
+├── graph_builder.py           # 图谱聚合
+├── graph_utils.py             # 实体类型/合并/关系配置
+├── pipeline_state.py          # 版本管理 + manifest
+├── build_graph.py             # 聚合入口
+├── run_full_extraction.py     # 全量提取 runner
+├── overrides.py               # 声明式后处理规则
+├── post_process.py            # 后处理执行引擎
+├── build_presentation.py      # 前端数据生成
+└── enrich_graph.py            # (legacy) 旧后处理脚本，待移除
+
 site/                          # Next.js 项目根目录
 ├── public/data/               # prebuild 脚本从 web-data/ 拷贝
 ├── src/
@@ -127,6 +141,27 @@ acquires, co_founded, collaborates_with, compares_to, competes_with, criticizes,
 - `next build` → 纯静态 `out/`
 - 部署目标: Vercel / Netlify / Cloudflare Pages
 
+## 提取管线
+
+### 全链路命令
+```bash
+python3 scripts/run_full_extraction.py --force   # 提取 + 聚合 → canonical.json
+python3 scripts/post_process.py                  # 后处理 → canonical_corrected.json
+python3 scripts/build_presentation.py            # 生成前端数据 → web-data/
+cd site && npm run build                         # 构建前端
+```
+
+### 多 key 支持
+在 `.env` 中设置 `GEMINI_API_KEY=key1,key2,key3`（逗号分隔），自动轮询。
+
+### 后处理规则
+所有领域知识集中在 `scripts/overrides.py`（纯数据文件）：
+- NODE_MERGES: 同义节点合并
+- TYPE_CORRECTIONS: 实体类型修正
+- EDGE_TYPE_FIXES: 关系类型/端点修正
+- MISSING_EDGES: 补充 Gemini 无法推导的关系
+- BIDIRECTIONAL_RELATION_TYPES: 对称关系双向补全
+
 ## 变更规范
 
 每次改动必须：
@@ -134,3 +169,5 @@ acquires, co_founded, collaborates_with, compares_to, competes_with, criticizes,
 2. 如涉及架构变更（新文件/目录、路由变更、数据流变更），同步更新 `CLAUDE.md`
 3. 新增节点类型 → 只改 `constants.ts` 的 `NODE_TYPE_REGISTRY` + `types.ts` 的 `NodeType`
 4. 新增关系类型 → 只改 `constants.ts` 的 `RELATION_STYLES` + `types.ts` 的 `RelationType`
+5. 新增后处理规则 → 只改 `overrides.py`
+6. 新增实体类型 → 同时改 `graph_utils.py` 的 `ALLOWED_ENTITY_TYPES` + `TYPE_ALIASES`

@@ -13,6 +13,7 @@ export const ZOOM_THRESHOLDS = {
   HIGH_MENTION_MIN: 5,
 };
 
+// Tuning params — adjust after data changes; these are starting points
 // ── fcose layout options ──
 export const FCOSE_LAYOUT_OPTIONS = {
   name: 'fcose',
@@ -20,12 +21,17 @@ export const FCOSE_LAYOUT_OPTIONS = {
   randomize: true,
   animate: true,
   animationDuration: 1000,
-  nodeSeparation: 100,
+  nodeSeparation: 180,
   idealEdgeLength: (edge: { data: (key: string) => number }) =>
-    120 + (1 / ((edge.data('weight') as number) || 1)) * 50,
-  nodeRepulsion: () => 8000,
-  gravity: 0.25,
-  gravityRange: 3.8,
+    180 + (1 / ((edge.data('weight') as number) || 1)) * 80,
+  nodeRepulsion: (node: { data: (key: string) => number }) => {
+    const degree = node.data('degree') || 0;
+    return degree > 15 ? 25000 : degree > 8 ? 15000 : 10000;
+  },
+  gravity: 0.15,
+  gravityRange: 5.0,
+  numIter: 5000,
+  nodeDimensionsIncludeLabels: true,
 } as unknown as cytoscape.LayoutOptions;
 
 // ── Pure functions ──

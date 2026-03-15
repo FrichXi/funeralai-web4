@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-09T00:00:00Z",
+  "updatedAt": "2026-03-13T00:00:00Z",
   "defaults": {
     "leaderboardSize": 20
   },
@@ -43,7 +43,7 @@
       "assetAlt": "Plaud badge",
       "featured": true,
       "leaderboardSegments": [
-        "companies"
+        "products"
       ]
     },
     {
@@ -68,10 +68,12 @@
     },
     {
       "nodeId": "looki",
-      "visualMode": "text",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/looki-badge.svg",
+      "assetAlt": "Looki badge",
       "featured": true,
       "leaderboardSegments": [
-        "companies"
+        "products"
       ]
     },
     {
@@ -122,55 +124,233 @@
       ]
     },
     {
-      "nodeId": "qwen",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "products"
-      ]
-    },
-    {
       "nodeId": "kimi",
-      "visualMode": "text",
-      "featured": false,
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/kimi-badge.svg",
+      "assetAlt": "Kimi badge",
+      "featured": true,
       "leaderboardSegments": [
         "products"
       ]
     },
     {
       "nodeId": "genspark",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "products"
-      ]
-    },
-    {
-      "nodeId": "openclaw",
-      "visualMode": "text",
-      "featured": false,
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/genspark-badge.svg",
+      "assetAlt": "GenSpark badge",
+      "featured": true,
       "leaderboardSegments": [
         "products"
       ]
     },
     {
       "nodeId": "chatgpt",
-      "visualMode": "text",
-      "featured": false,
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/chatgpt-badge.svg",
+      "assetAlt": "ChatGPT badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "gemini",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/gemini-badge.svg",
+      "assetAlt": "Gemini badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "千问",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/qwen-badge.svg",
+      "assetAlt": "千问 badge",
+      "featured": true
+    },
+    {
+      "nodeId": "cherry-studio",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/cherry-studio-badge.svg",
+      "assetAlt": "Cherry Studio badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "flova",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/flova-badge.svg",
+      "assetAlt": "Flova badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "flowith",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/flowith-badge.svg",
+      "assetAlt": "Flowith badge"
+    },
+    {
+      "nodeId": "openclaw",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/openclaw-badge.svg",
+      "assetAlt": "OpenClaw badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "seedance",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/seedance-badge.svg",
+      "assetAlt": "Seedance badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "马卡龙",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/macaroon-badge.svg",
+      "assetAlt": "马卡龙 badge",
       "leaderboardSegments": [
         "products"
       ]
     },
     {
       "nodeId": "mulerun",
-      "visualMode": "text",
-      "featured": false,
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/mulerun-badge.svg",
+      "assetAlt": "MuleRun badge",
       "leaderboardSegments": [
         "products"
       ]
     },
     {
-      "nodeId": "阶跃桌面伙伴",
+      "nodeId": "剪映",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/jianying-badge.svg",
+      "assetAlt": "剪映 badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "youware",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/youware-badge.svg",
+      "assetAlt": "YouWare badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "智谱ai",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/zhipu-badge.svg",
+      "assetAlt": "智谱AI badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "钉钉",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/dingtalk-badge.svg",
+      "assetAlt": "钉钉 badge",
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "deepseek",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/deepseek-badge.svg",
+      "assetAlt": "DeepSeek badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "openai",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/openai-badge.svg",
+      "assetAlt": "OpenAI badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "anthropic",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/anthropic-badge.svg",
+      "assetAlt": "Anthropic badge",
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "阿里云",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/aliyun-badge.svg",
+      "assetAlt": "阿里云 badge",
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "阶跃星辰",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/stepfun-badge.svg",
+      "assetAlt": "阶跃星辰 badge",
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "阶跃",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/stepfun2-badge.svg",
+      "assetAlt": "阶跃 badge",
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "阿里",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/ali-badge.svg",
+      "assetAlt": "阿里 badge",
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "myshell",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/myshell-badge.svg",
+      "assetAlt": "MyShell badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "扣子",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/kouzi-badge.svg",
+      "assetAlt": "扣子 badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "qwen",
       "visualMode": "text",
       "featured": false,
       "leaderboardSegments": [
@@ -186,63 +366,7 @@
       ]
     },
     {
-      "nodeId": "seedance",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "products"
-      ]
-    },
-    {
-      "nodeId": "马卡龙",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "products"
-      ]
-    },
-    {
-      "nodeId": "扣子",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "products"
-      ]
-    },
-    {
-      "nodeId": "cherry-studio",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "products"
-      ]
-    },
-    {
-      "nodeId": "剪映",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "products"
-      ]
-    },
-    {
-      "nodeId": "gemini",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "products"
-      ]
-    },
-    {
-      "nodeId": "flova",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "products"
-      ]
-    },
-    {
-      "nodeId": "oiioii",
+      "nodeId": "阶跃桌面伙伴",
       "visualMode": "text",
       "featured": false,
       "leaderboardSegments": [
@@ -251,6 +375,14 @@
     },
     {
       "nodeId": "medeo",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "lovart",
       "visualMode": "text",
       "featured": false,
       "leaderboardSegments": [
@@ -314,7 +446,7 @@
       ]
     },
     {
-      "nodeId": "李开复",
+      "nodeId": "扎克伯格",
       "visualMode": "text",
       "featured": false,
       "leaderboardSegments": [
@@ -322,7 +454,7 @@
       ]
     },
     {
-      "nodeId": "扎克伯格",
+      "nodeId": "李开复",
       "visualMode": "text",
       "featured": false,
       "leaderboardSegments": [
@@ -338,14 +470,6 @@
       ]
     },
     {
-      "nodeId": "郭列",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "founders"
-      ]
-    },
-    {
       "nodeId": "肖弘",
       "visualMode": "text",
       "featured": false,
@@ -354,7 +478,23 @@
       ]
     },
     {
+      "nodeId": "郭列",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
       "nodeId": "许高",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "锴杰",
       "visualMode": "text",
       "featured": false,
       "leaderboardSegments": [
@@ -378,7 +518,15 @@
       ]
     },
     {
-      "nodeId": "锴杰",
+      "nodeId": "杨通",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "景鲲",
       "visualMode": "text",
       "featured": false,
       "leaderboardSegments": [
@@ -387,22 +535,6 @@
     },
     {
       "nodeId": "邪恶意大利人",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "founders"
-      ]
-    },
-    {
-      "nodeId": "clear",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "founders"
-      ]
-    },
-    {
-      "nodeId": "杨通",
       "visualMode": "text",
       "featured": false,
       "leaderboardSegments": [
@@ -450,14 +582,6 @@
       ]
     },
     {
-      "nodeId": "idg-90后基金",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "vcs"
-      ]
-    },
-    {
       "nodeId": "benchmark",
       "visualMode": "text",
       "featured": false,
@@ -466,43 +590,11 @@
       ]
     },
     {
-      "nodeId": "智谱ai",
+      "nodeId": "idg-90后基金",
       "visualMode": "text",
       "featured": false,
       "leaderboardSegments": [
-        "companies"
-      ]
-    },
-    {
-      "nodeId": "阶跃星辰",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "companies"
-      ]
-    },
-    {
-      "nodeId": "youware",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "companies"
-      ]
-    },
-    {
-      "nodeId": "钉钉",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "companies"
-      ]
-    },
-    {
-      "nodeId": "deepseek",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "companies"
+        "vcs"
       ]
     },
     {
@@ -510,35 +602,11 @@
       "visualMode": "text",
       "featured": false,
       "leaderboardSegments": [
-        "companies"
-      ]
-    },
-    {
-      "nodeId": "阿里云",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "companies"
+        "products"
       ]
     },
     {
       "nodeId": "阿里巴巴",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "companies"
-      ]
-    },
-    {
-      "nodeId": "myshell",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "companies"
-      ]
-    },
-    {
-      "nodeId": "openai",
       "visualMode": "text",
       "featured": false,
       "leaderboardSegments": [
@@ -570,14 +638,6 @@
       ]
     },
     {
-      "nodeId": "anthropic",
-      "visualMode": "text",
-      "featured": false,
-      "leaderboardSegments": [
-        "companies"
-      ]
-    },
-    {
       "nodeId": "rokid",
       "visualMode": "text",
       "featured": false,
@@ -587,6 +647,94 @@
     },
     {
       "nodeId": "百川智能",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "杨植麟",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "骆轶航",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "王凯歆",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "clear",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "刘宇",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "商汤科技",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "火山引擎",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "千里科技",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "腾讯",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "meta",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "苹果",
       "visualMode": "text",
       "featured": false,
       "leaderboardSegments": [
