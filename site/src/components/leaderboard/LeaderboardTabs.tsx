@@ -60,7 +60,7 @@ function TypeBadge({ type }: { type: string }) {
   const badgeClasses = NODE_BADGE_CLASSES[type] ?? 'bg-[#94a3b8] border-[#94a3b8] text-white';
 
   return (
-    <Badge className={`text-[9px] px-1.5 py-0.5 ${badgeClasses}`}>
+    <Badge className={`text-[10px] md:text-[11px] px-1.5 py-0.5 ${badgeClasses}`}>
       {label}
     </Badge>
   );
@@ -90,7 +90,7 @@ function EntryRow({ entry }: { entry: LeaderboardEntry }) {
         <div className="flex items-center gap-2">
           <Link
             href={`/graph?focus=${encodeURIComponent(entry.nodeId)}`}
-            className="text-xs hover:text-primary transition-colors underline-offset-4 hover:underline"
+            className="text-xs md:text-sm hover:text-primary transition-colors underline-offset-4 hover:underline"
           >
             {entry.displayName}
           </Link>
@@ -108,17 +108,17 @@ function EntryRow({ entry }: { entry: LeaderboardEntry }) {
       </TableCell>
 
       {/* Mentions */}
-      <TableCell className="text-center text-xs tabular-nums">
+      <TableCell className="text-center text-xs md:text-sm tabular-nums">
         {entry.mention_count}
       </TableCell>
 
       {/* Articles */}
-      <TableCell className="text-center text-xs tabular-nums">
+      <TableCell className="text-center text-xs md:text-sm tabular-nums">
         {entry.article_count}
       </TableCell>
 
       {/* Connections */}
-      <TableCell className="text-center text-xs tabular-nums">
+      <TableCell className="text-center text-xs md:text-sm tabular-nums">
         {entry.degree}
       </TableCell>
     </TableRow>
@@ -135,16 +135,16 @@ function SegmentTable({ entries }: { entries: LeaderboardEntry[] }) {
   }
 
   return (
-    <div className="w-full overflow-x-auto">
+    <div className="w-full overflow-x-auto max-w-4xl">
       <Table className="w-full">
         <TableHeader>
           <TableRow>
-            <TableHead className="w-12 text-center text-[10px]">#</TableHead>
-            <TableHead className="text-[10px]">Name</TableHead>
-            <TableHead className="text-[10px]">Type</TableHead>
-            <TableHead className="text-center text-[10px]">Mentions</TableHead>
-            <TableHead className="text-center text-[10px]">Articles</TableHead>
-            <TableHead className="text-center text-[10px]">Connections</TableHead>
+            <TableHead className="w-12 text-center text-[10px] md:text-xs">#</TableHead>
+            <TableHead className="text-[10px] md:text-xs">Name</TableHead>
+            <TableHead className="text-[10px] md:text-xs">Type</TableHead>
+            <TableHead className="text-center text-[10px] md:text-xs">Mentions</TableHead>
+            <TableHead className="text-center text-[10px] md:text-xs">Articles</TableHead>
+            <TableHead className="text-center text-[10px] md:text-xs">Connections</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>

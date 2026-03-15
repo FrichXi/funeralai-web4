@@ -139,7 +139,7 @@ export function GraphControls({ cy, onSelectNode, typeFilters, onToggleType }: G
             <button
               key={type}
               onClick={() => onToggleType(type)}
-              className={`flex items-center gap-1.5 rounded px-2 py-0.5 text-[10px] border transition-colors ${
+              className={`flex items-center gap-1.5 rounded px-2 py-1 text-[11px] border transition-colors ${
                 active
                   ? 'border-border bg-secondary text-foreground'
                   : 'border-transparent bg-transparent text-muted-foreground opacity-50'

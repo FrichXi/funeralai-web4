@@ -4,6 +4,58 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Changed (UI: font size audit + sponsor redesign)
+- Leaderboard sponsor aside: redesigned with inline ♔ trophy, centered layout, gradient divider, proper font hierarchy (14px/16px/12px)
+- Graph sidebar tabs: `text-[9px]` → `text-[11px]`, `shrink-0` → `flex-1 min-w-0` for even distribution, count badge `text-[8px]` → `text-[9px]`
+- Graph sidebar stats line: `text-[10px]` → `text-[9px]` (subordinate to tab labels)
+- Leaderboard table type badges: `text-[9px]/text-[10px]` → `text-[10px]/text-[11px]`
+- Graph controls filter buttons: `text-[10px] py-0.5` → `text-[11px] py-1`
+
+### Added (Phase 9: Comprehensive fix — graph + leaderboard + UI)
+- Article 055: 来认识下2025年最活跃的CVC (renumbered articles 055-069 → 056-070)
+- 葬AI node as company + 3 author works_at edges (葬爱咸鱼, 沐秋, 骡子马)
+- Leaderboard sponsor widget (right sidebar, sticky, retro style)
+- 蚂蚁集团 added to VC leaderboard (absorbed 蚂蚁集团投资部, now #1 VC)
+
+### Changed (Phase 9)
+- Weight formula: cap effective mentions at 25 per article (suppresses single-article interview outliers)
+- Node merges: 蚂蚁→蚂蚁集团, 蚂蚁集团投资部→蚂蚁集团, IDG 90后基金→IDG, Vivix AI→Vivix, 葬爱咸鱼科技有限公司→葬AI
+- Graph sidebar: 300px → 260px
+- Leaderboard table: left-aligned (removed mx-auto)
+- Homepage subtitle: "AI 行业知识图谱" → data cutoff notice
+- 钉钉/阿里云 kept as independent nodes (different from 字节跳动 — 阿里 business units are more distinct)
+- Knowledge graph: 460 nodes, 1120 links (post-correction)
+
+### Fixed (Phase 9)
+- Yinsen ranked #1 founders due to 123 mentions in 1 article (now capped at 25 effective)
+- 蚂蚁/蚂蚁集团 were two separate nodes — CVC article investments disconnected from 蚂蚁集团
+- IDG 90后基金 appearing as separate entity from IDG
+- Article 055 (CVC) card missing excerpt text
+- 葬AI authors (葬爱咸鱼, 沐秋, 骡子马) had no works_at relationship to 葬AI
+
+### Added (Phase 8: Systematic graph correction + article 069)
+- Article 069: 一个山东套壳AI如何上桌对话Cherry Studio创始人
+- `MISSING_NODES` in overrides.py — add nodes Gemini didn't extract (蚂蚁集团投资部, 龚震, 闪电说)
+- `DESCRIPTION_OVERRIDES` in overrides.py — neutral rewording of node descriptions
+- `step0b_add_missing_nodes()` in post_process.py
+- `step3b_description_overrides()` in post_process.py
+- `enrich_article_index()` in build_presentation.py — enriches article-index with author, excerpt, entity_count, relationship_count
+- 65+ new edges from systematic graph review (develops, invests_in, competes_with)
+- 六小虎 bilateral competition edges (DeepSeek, MiniMax, 月之暗面, 百川智能, 阶跃星辰, 智谱AI)
+
+### Changed (Phase 8)
+- Ranking formula: `mention_count * sqrt(article_count)` replaces raw `mention_count` — suppresses single-article high-mention outliers
+- Graph sidebar width: 360px → 300px
+- Leaderboard table: responsive font sizes (md: breakpoint), centered with max-w-4xl
+- 蚂蚁集团 + 支付宝 merged
+- Agnes/杨通 descriptions neutralized
+- Knowledge graph: 446 nodes, 1072 links (post-correction)
+
+### Fixed (Phase 8)
+- Article 068 missing from article-index.json
+- Product nodes missing `develops` edge to parent company (夸克→阿里巴巴, 飞书→字节跳动, 元宝→腾讯, etc.)
+- 龚震→闪电说(founder_of) + 龚震→Manus(works_at) added
+
 ### Added (Phase 7: Knowledge graph overhaul)
 - Multi-key Gemini API support in `extract_gemini.py` (round-robin `GEMINI_API_KEYS`)
 - `scripts/overrides.py` — declarative post-processing rules (node merges, type corrections, edge fixes, missing edges)

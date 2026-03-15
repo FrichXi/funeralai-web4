@@ -43,7 +43,7 @@ function CompactEntry({
       </span>
 
       {/* Type badge */}
-      <Badge className={`text-[8px] px-1 py-0 shrink-0 ${badgeClasses}`}>
+      <Badge className={`text-[9px] px-1 py-0 shrink-0 ${badgeClasses}`}>
         {typeLabel}
       </Badge>
 
@@ -64,15 +64,15 @@ export function LeaderboardSidebar({
     <div className="flex h-full flex-col">
       <Tabs defaultValue="products" className="flex h-full flex-col">
         {/* Tabs at very top */}
-        <TabsList className="shrink-0 border-b border-border flex-wrap px-2 py-2">
+        <TabsList className="shrink-0 border-b border-border flex flex-nowrap px-0.5 py-1.5 overflow-x-auto">
           {LEADERBOARD_SEGMENTS.map((seg) => (
             <TabsTrigger
               key={seg.key}
               value={seg.key}
-              className="text-[10px] px-2 py-1.5"
+              className="text-[11px] px-1 py-1 whitespace-nowrap flex-1 min-w-0"
             >
               {seg.label}
-              <span className="ml-1 text-[8px] text-muted-foreground">
+              <span className="ml-0.5 text-[9px] text-muted-foreground">
                 {data.segments[seg.key].length}
               </span>
             </TabsTrigger>
@@ -80,7 +80,7 @@ export function LeaderboardSidebar({
         </TabsList>
 
         {/* Compact stats line */}
-        <div className="shrink-0 px-3 py-1.5 text-[10px] text-muted-foreground border-b border-border/50">
+        <div className="shrink-0 px-3 py-1.5 text-[9px] text-muted-foreground border-b border-border/50">
           {stats.nodeCount} 节点 · {stats.linkCount} 边 · {stats.articleCount} 篇文章
         </div>
 
