@@ -1,0 +1,1453 @@
+{
+  "version": 1,
+  "updatedAt": "2026-03-19T07:14:51Z",
+  "pipeline": {
+    "extractor": "gemini",
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "extractor_version": "2026-03-15-overrides-pipeline-v5",
+    "graph_schema_version": "2026-03-15-vc-firm-v3"
+  },
+  "articles": {
+    "001": {
+      "article_id": "001",
+      "path": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
+      "title": "炒作狗才做「一句话生成」AI",
+      "date": "2025-05-26",
+      "author": "葬爱咸鱼",
+      "content_hash": "7290cb94963106a14863bd1bdd9e09b8c5316c7c3cf550f2595a31a471681459",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/001.json",
+      "raw_path": "data/gemini_raw/001.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "002": {
+      "article_id": "002",
+      "path": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+      "title": "AI创作产品，还没找到自己的形态",
+      "date": "2025-06-13",
+      "author": "葬爱咸鱼",
+      "content_hash": "80073aaf582049329e0c80ef29d279a4b7ad36610aedebba7192f9e151b9c301",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/002.json",
+      "raw_path": "data/gemini_raw/002.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "003": {
+      "article_id": "003",
+      "path": "articles/003_2025-06-18_葬爱咸鱼_语音输入，会取代敲键盘.md",
+      "title": "语音输入，会取代敲键盘",
+      "date": "2025-06-18",
+      "author": "葬爱咸鱼",
+      "content_hash": "ce795c510084235ce1e3b075dc24693730b4262bc90f6a2ef51a6f896c72fe9a",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/003.json",
+      "raw_path": "data/gemini_raw/003.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "004": {
+      "article_id": "004",
+      "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+      "title": "MiniMax的胖猫宇宙",
+      "date": "2025-06-23",
+      "author": "葬爱咸鱼",
+      "content_hash": "1719d212849d5175cda29505671e1f8dc474ad463d51e1cc4e4d5d2a4a583a69",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/004.json",
+      "raw_path": "data/gemini_raw/004.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "005": {
+      "article_id": "005",
+      "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+      "title": "Kimi没有梦想",
+      "date": "2025-06-24",
+      "author": "葬爱咸鱼",
+      "content_hash": "6004e7ad5be2cb1bcb749de12e5d4d065d6dec4b6f2c2d00b6e8d2e16dbd32b0",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/005.json",
+      "raw_path": "data/gemini_raw/005.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "006": {
+      "article_id": "006",
+      "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+      "title": "智谱的存在主义危机",
+      "date": "2025-06-25",
+      "author": "葬爱咸鱼",
+      "content_hash": "5fe28944def77b7ec85a0e59c374209f38f2cfc5e07e48e8005d24b490edaca8",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/006.json",
+      "raw_path": "data/gemini_raw/006.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "007": {
+      "article_id": "007",
+      "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+      "title": "王小川造不出医生",
+      "date": "2025-06-26",
+      "author": "葬爱咸鱼",
+      "content_hash": "cc8259304f8e97225eba356590d3ee8b9c44d174c3851d07f68356ee4fea090a",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/007.json",
+      "raw_path": "data/gemini_raw/007.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "008": {
+      "article_id": "008",
+      "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+      "title": "前后不一李开复",
+      "date": "2025-06-27",
+      "author": "葬爱咸鱼",
+      "content_hash": "73b5d04ffab560269c1894a17a46794f70d7d27db81f3d4f4ce247bf369aba2f",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/008.json",
+      "raw_path": "data/gemini_raw/008.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "009": {
+      "article_id": "009",
+      "path": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+      "title": "阶跃星辰没有新闻",
+      "date": "2025-06-28",
+      "author": "葬爱咸鱼",
+      "content_hash": "9d13616cffadde0c406a113b8c1e536d3406430cc1dbd7a3f6a16faf1270db1b",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/009.json",
+      "raw_path": "data/gemini_raw/009.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "010": {
+      "article_id": "010",
+      "path": "articles/010_2025-07-08_葬爱咸鱼_YouWare说明AI创始人需要神性.md",
+      "title": "YouWare说明AI创始人需要神性",
+      "date": "2025-07-08",
+      "author": "葬爱咸鱼",
+      "content_hash": "bbfa6893bb985e8cc8fa17ac8e3a6d53a07d04f44516539f35ba90144a6e7778",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/010.json",
+      "raw_path": "data/gemini_raw/010.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "011": {
+      "article_id": "011",
+      "path": "articles/011_2025-07-11_葬爱咸鱼_Head AI让我想起了神奇百货.md",
+      "title": "Head AI让我想起了神奇百货",
+      "date": "2025-07-11",
+      "author": "葬爱咸鱼",
+      "content_hash": "51c16cc4a15ce6d1d2e57a80a7210d7297a8ff24e1b8f8e87bfc99981baf8150",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/011.json",
+      "raw_path": "data/gemini_raw/011.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "012": {
+      "article_id": "012",
+      "path": "articles/012_2025-08-01_葬爱咸鱼_MyShell说明AI创业真是发币.md",
+      "title": "MyShell说明AI创业真是发币",
+      "date": "2025-08-01",
+      "author": "葬爱咸鱼",
+      "content_hash": "6a58e95e9ebf95b3dc03b8860ff56923f1124d7cd9f6b6033de35ea80cc4da60",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/012.json",
+      "raw_path": "data/gemini_raw/012.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "013": {
+      "article_id": "013",
+      "path": "articles/013_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+      "title": "除了投资人，没人需要AI播客",
+      "date": "2025-08-07",
+      "author": "葬爱咸鱼",
+      "content_hash": "cce8692605779651f53cde27127b190b92d6e7f57243eb2bb86ade55dbdf1297",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/013.json",
+      "raw_path": "data/gemini_raw/013.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "014": {
+      "article_id": "014",
+      "path": "articles/014_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+      "title": "在马卡龙面前，孙宇晨和Web3都像是实体经济",
+      "date": "2025-08-18",
+      "author": "葬爱咸鱼",
+      "content_hash": "d5970cfaab4bd744d3daa590954aa0883c9ada6ec664394e94899ca53d078c36",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/014.json",
+      "raw_path": "data/gemini_raw/014.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "015": {
+      "article_id": "015",
+      "path": "articles/015_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
+      "title": "Manus依然是版本神",
+      "date": "2025-08-25",
+      "author": "葬爱咸鱼",
+      "content_hash": "ef982d2833c3211fcf2e764fbfd5394a3738c66177e6951166e00cb6e54409e4",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/015.json",
+      "raw_path": "data/gemini_raw/015.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "016": {
+      "article_id": "016",
+      "path": "articles/016_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+      "title": "字节用扣子证明，Agent只能被计划",
+      "date": "2025-08-29",
+      "author": "葬爱咸鱼",
+      "content_hash": "a9d8c4a1e41f9b73c05ee7af0212d17aeded240c2445e2dc5b52774fae09dab9",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/016.json",
+      "raw_path": "data/gemini_raw/016.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "017": {
+      "article_id": "017",
+      "path": "articles/017_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+      "title": "电骡快跑，Mulerun想做AI淘宝",
+      "date": "2025-09-02",
+      "author": "葬爱咸鱼",
+      "content_hash": "f2433c13e3140f9737039fe57b9e9ddfa0480fa17d4b38009b52c1c48ee91750",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/017.json",
+      "raw_path": "data/gemini_raw/017.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "018": {
+      "article_id": "018",
+      "path": "articles/018_2025-09-04_葬爱咸鱼_我研发出了主体思想AI.md",
+      "title": "我研发出了主体思想AI",
+      "date": "2025-09-04",
+      "author": "葬爱咸鱼",
+      "content_hash": "633c0d92ee7e03da80a44750be0692812174915ebbfecfb2744758d260f33593",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/018.json",
+      "raw_path": "data/gemini_raw/018.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "019": {
+      "article_id": "019",
+      "path": "articles/019_2025-09-08_葬爱咸鱼_半年来目睹之AI创业怪现状.md",
+      "title": "半年来目睹之AI创业怪现状",
+      "date": "2025-09-08",
+      "author": "葬爱咸鱼",
+      "content_hash": "9b56b4ff2102595748d8315b2459abaf85f474fa61ea300ec24190ed0d501059",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/019.json",
+      "raw_path": "data/gemini_raw/019.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "020": {
+      "article_id": "020",
+      "path": "articles/020_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+      "title": "Cherry Studio是一个伟大的AI工具",
+      "date": "2025-09-11",
+      "author": "葬爱咸鱼",
+      "content_hash": "225389b9746f13c57676b37bd4c3ef3c38e35f61bb2b8ab6d796e3958763bdf1",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/020.json",
+      "raw_path": "data/gemini_raw/020.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "021": {
+      "article_id": "021",
+      "path": "articles/021_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+      "title": "GenSpark重做百度",
+      "date": "2025-09-15",
+      "author": "葬爱咸鱼",
+      "content_hash": "152d5e42a948da35ca114fa7d1f142b082aa8ed14b9befd2f3b21962a5cd353c",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/021.json",
+      "raw_path": "data/gemini_raw/021.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "022": {
+      "article_id": "022",
+      "path": "articles/022_2025-09-17_葬爱咸鱼_全球首个性压抑AI发布.md",
+      "title": "全球首个性压抑AI发布",
+      "date": "2025-09-17",
+      "author": "葬爱咸鱼",
+      "content_hash": "fb7f8454d8747797735d59f80de0ed9be4c18168cc709d004a01ee8d51a2cb4e",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/022.json",
+      "raw_path": "data/gemini_raw/022.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "023": {
+      "article_id": "023",
+      "path": "articles/023_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+      "title": "像编程一样写作",
+      "date": "2025-09-22",
+      "author": "葬爱咸鱼",
+      "content_hash": "5295a892921ebeef8917c25434c985d5adfda102505ee058e429e02ceec293d9",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/023.json",
+      "raw_path": "data/gemini_raw/023.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "024": {
+      "article_id": "024",
+      "path": "articles/024_2025-09-23_葬爱咸鱼_论论才是全球首个性压抑AI.md",
+      "title": "论论才是全球首个性压抑AI",
+      "date": "2025-09-23",
+      "author": "葬爱咸鱼",
+      "content_hash": "ac177dc18ffd259d1105681c46a632c1babc88ec7c31294ff7e36d1ed9a4c263",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/024.json",
+      "raw_path": "data/gemini_raw/024.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "025": {
+      "article_id": "025",
+      "path": "articles/025_2025-09-25_葬爱咸鱼_吴妈讲好中国AI故事.md",
+      "title": "吴妈讲好中国AI故事",
+      "date": "2025-09-25",
+      "author": "葬爱咸鱼",
+      "content_hash": "1fed35544234feb86c8368cfaaa9a7b278baa413181725ca72a1e8350a50296a",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/025.json",
+      "raw_path": "data/gemini_raw/025.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "026": {
+      "article_id": "026",
+      "path": "articles/026_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+      "title": "AI写作指南3.0编程式写作",
+      "date": "2025-10-09",
+      "author": "葬爱咸鱼",
+      "content_hash": "7b708c45847c481b22dc1001bce02bcb66cfdd27e0704c10b5f77b25705aa6bf",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/026.json",
+      "raw_path": "data/gemini_raw/026.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "027": {
+      "article_id": "027",
+      "path": "articles/027_2025-10-14_葬爱咸鱼_a16z是一家媒体公司.md",
+      "title": "a16z是一家媒体公司",
+      "date": "2025-10-14",
+      "author": "葬爱咸鱼",
+      "content_hash": "2486a0d930d07bbac641e1c1315a6640d3120d2906d31bedb7551010ea0c8f03",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/027.json",
+      "raw_path": "data/gemini_raw/027.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "028": {
+      "article_id": "028",
+      "path": "articles/028_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+      "title": "AI写作指南3.0编程式写作",
+      "date": "2025-10-16",
+      "author": "葬爱咸鱼",
+      "content_hash": "524b3a52c538e72bf7423f05ced42f8585926e4b100fa911f030532f0945e435",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/028.json",
+      "raw_path": "data/gemini_raw/028.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "029": {
+      "article_id": "029",
+      "path": "articles/029_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+      "title": "Agent OS的本地入口",
+      "date": "2025-10-20",
+      "author": "葬爱咸鱼",
+      "content_hash": "34444cd34aef5f8c7eee4f9d8edbde7996c2f18b1fff995632bb2f737f6c883b",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/029.json",
+      "raw_path": "data/gemini_raw/029.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "030": {
+      "article_id": "030",
+      "path": "articles/030_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+      "title": "追忆AI四小龙，热潮是怎么完蛋的",
+      "date": "2025-10-27",
+      "author": "葬爱咸鱼",
+      "content_hash": "fb4e18b49b63f74a382eef6aa4137b1d514238d4fa2eaa3c02ae850044c9e128",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/030.json",
+      "raw_path": "data/gemini_raw/030.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "031": {
+      "article_id": "031",
+      "path": "articles/031_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+      "title": "Flowith是个锤子",
+      "date": "2025-10-31",
+      "author": "葬爱咸鱼",
+      "content_hash": "fd129596192f3ed8a5884bd8ff86fb8f9f8f860c141ae9dc83e59c2ee9cfe4ff",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/031.json",
+      "raw_path": "data/gemini_raw/031.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "032": {
+      "article_id": "032",
+      "path": "articles/032_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+      "title": "搞AI硬件别装美国公司",
+      "date": "2025-11-14",
+      "author": "沐秋",
+      "content_hash": "73c515c257b82c796f253e7aef4c237674a430f65feb19773dd68b2526af624a",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/032.json",
+      "raw_path": "data/gemini_raw/032.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "033": {
+      "article_id": "033",
+      "path": "articles/033_2025-11-17_葬爱咸鱼_千问唤起世界人民的最中幻想.md",
+      "title": "千问唤起世界人民的最中幻想",
+      "date": "2025-11-17",
+      "author": "葬爱咸鱼",
+      "content_hash": "199551a8a6024a1eecc6b719f5c634bcbbdee7a903b7362e684def192e21367a",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/033.json",
+      "raw_path": "data/gemini_raw/033.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "034": {
+      "article_id": "034",
+      "path": "articles/034_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+      "title": "彼得蒂尔是中国的辱追梦男",
+      "date": "2025-11-18",
+      "author": "葬爱咸鱼",
+      "content_hash": "7ae707f82b00602f86ca8ee970e039f54b844e93407880c0ac82a2c7b1327d47",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/034.json",
+      "raw_path": "data/gemini_raw/034.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "035": {
+      "article_id": "035",
+      "path": "articles/035_2025-11-19_葬爱咸鱼_灵感式写作.md",
+      "title": "灵感式写作",
+      "date": "2025-11-19",
+      "author": "葬爱咸鱼",
+      "content_hash": "438d4140a81eb76aabf4c9538e0d58aefb698898e619be9bcaa8673d3772b09a",
+      "status": "ready",
+      "reason": "model_changed",
+      "artifact_path": "data/extracted/035.json",
+      "raw_path": "data/gemini_raw/035.json",
+      "extracted_at": "2026-03-11T09:11:51Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "036": {
+      "article_id": "036",
+      "path": "articles/036_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+      "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
+      "date": "2025-11-27",
+      "author": "沐秋",
+      "content_hash": "20ff0a38ebc2f4a0a5d1cc2e0bb4fec1be52ebe3273c686424f0f230d9f88827",
+      "status": "ready",
+      "reason": "model_changed",
+      "artifact_path": "data/extracted/036.json",
+      "raw_path": "data/gemini_raw/036.json",
+      "extracted_at": "2026-03-11T09:11:51Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "037": {
+      "article_id": "037",
+      "path": "articles/037_2025-12-02_葬爱咸鱼_建议蚂蚁集团收购马卡龙.md",
+      "title": "建议蚂蚁集团收购马卡龙",
+      "date": "2025-12-02",
+      "author": "葬爱咸鱼",
+      "content_hash": "fe26cbc3a23cfb590724a55f68b3e2338d2a96f2221398496167af7fc8872d74",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/037.json",
+      "raw_path": "data/gemini_raw/037.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "038": {
+      "article_id": "038",
+      "path": "articles/038_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+      "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+      "date": "2025-12-05",
+      "author": "葬爱咸鱼",
+      "content_hash": "b0e99e16aec79ee428b3cdd98d781b9951d0de85b38650fc0b44fde299ed749e",
+      "status": "ready",
+      "reason": "model_changed",
+      "artifact_path": "data/extracted/038.json",
+      "raw_path": "data/gemini_raw/038.json",
+      "extracted_at": "2026-03-11T09:11:51Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "039": {
+      "article_id": "039",
+      "path": "articles/039_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+      "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+      "date": "2025-12-12",
+      "author": "沐秋",
+      "content_hash": "ec4bb1dc4f40d27de7af957946d75d2a86372ae798ee7043e4796e159f310b74",
+      "status": "ready",
+      "reason": "model_changed",
+      "artifact_path": "data/extracted/039.json",
+      "raw_path": "data/gemini_raw/039.json",
+      "extracted_at": "2026-03-11T09:11:51Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "040": {
+      "article_id": "040",
+      "path": "articles/040_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+      "title": "感谢OiiOii，没人因你而失业",
+      "date": "2025-12-15",
+      "author": "葬爱咸鱼",
+      "content_hash": "d066280713521b6ced6da19874057374273402276b251bf8b860ecb8bed6115d",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/040.json",
+      "raw_path": "data/gemini_raw/040.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "041": {
+      "article_id": "041",
+      "path": "articles/041_2025-12-16_沐秋_Looki开创AI胸载摄像头.md",
+      "title": "Looki开创AI胸载摄像头",
+      "date": "2025-12-16",
+      "author": "沐秋",
+      "content_hash": "9bbd787462540db04dc660b1f75f5777246b00023de9c0115cdad838815ac17c",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/041.json",
+      "raw_path": "data/gemini_raw/041.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "042": {
+      "article_id": "042",
+      "path": "articles/042_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+      "title": "Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子",
+      "date": "2025-12-18",
+      "author": "沐秋",
+      "content_hash": "7ce8b3a7d4cbe42c5f87145bddefae0d1334c683f1800c623931ace47d99e67a",
+      "status": "ready",
+      "reason": "model_changed",
+      "artifact_path": "data/extracted/042.json",
+      "raw_path": "data/gemini_raw/042.json",
+      "extracted_at": "2026-03-11T09:11:51Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "043": {
+      "article_id": "043",
+      "path": "articles/043_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+      "title": "Plaud善打游击战",
+      "date": "2025-12-23",
+      "author": "葬爱咸鱼",
+      "content_hash": "973baeb3666df3e7c26be56f68fe3536fc4dd9e0f755672bc8b28fc8e050d603",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/043.json",
+      "raw_path": "data/gemini_raw/043.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "044": {
+      "article_id": "044",
+      "path": "articles/044_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+      "title": "无招把钉钉当玩具整",
+      "date": "2025-12-24",
+      "author": "葬爱咸鱼",
+      "content_hash": "7e01d275f57a69abb83869c09ac4f40177051a8c7a95f7b3fe1201a1714007d6",
+      "status": "ready",
+      "reason": "model_changed",
+      "artifact_path": "data/extracted/044.json",
+      "raw_path": "data/gemini_raw/044.json",
+      "extracted_at": "2026-03-11T09:11:51Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "045": {
+      "article_id": "045",
+      "path": "articles/045_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+      "title": "建议Medeo改名剪映（删减版）",
+      "date": "2025-12-26",
+      "author": "葬爱咸鱼",
+      "content_hash": "0c2b17bcf7915df6dd4ed5e6536f0b28ce14d9cbe465fce6f60044c6b3d8e33f",
+      "status": "ready",
+      "reason": "model_changed",
+      "artifact_path": "data/extracted/045.json",
+      "raw_path": "data/gemini_raw/045.json",
+      "extracted_at": "2026-03-11T09:11:51Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "046": {
+      "article_id": "046",
+      "path": "articles/046_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+      "title": "我被AI圈大冰投诉了（附真诚道歉信）",
+      "date": "2025-12-29",
+      "author": "沐秋",
+      "content_hash": "5d3e373ef8bdee9a35a52e2bab3b5bf3ba1d692df46e36ea05591c0e7fcec65f",
+      "status": "ready",
+      "reason": "model_changed",
+      "artifact_path": "data/extracted/046.json",
+      "raw_path": "data/gemini_raw/046.json",
+      "extracted_at": "2026-03-11T09:11:51Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "047": {
+      "article_id": "047",
+      "path": "articles/047_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+      "title": "第一届Manus杯新加坡概念作文大赛",
+      "date": "2025-12-30",
+      "author": "葬爱咸鱼",
+      "content_hash": "805a350afe586a89c9125c174a64ff0fe40d82d2ce3f35d68ba46e5cc91f7868",
+      "status": "ready",
+      "reason": "model_changed",
+      "artifact_path": "data/extracted/047.json",
+      "raw_path": "data/gemini_raw/047.json",
+      "extracted_at": "2026-03-11T09:11:51Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "048": {
+      "article_id": "048",
+      "path": "articles/048_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+      "title": "建议六小虎合并，实现China AGI",
+      "date": "2026-01-05",
+      "author": "葬爱咸鱼",
+      "content_hash": "cfe7c7d11c5a7ed6819819ed4c117b6a3e900c9580cb6d8122d0ec2297f5c2ac",
+      "status": "ready",
+      "reason": "model_changed",
+      "artifact_path": "data/extracted/048.json",
+      "raw_path": "data/gemini_raw/048.json",
+      "extracted_at": "2026-03-11T09:11:51Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "049": {
+      "article_id": "049",
+      "path": "articles/049_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+      "title": "Rokid是我的太阳（指物理温度）",
+      "date": "2026-01-08",
+      "author": "葬爱咸鱼",
+      "content_hash": "74833b886116f3b1a8fd796a743d6e5b6e3bb095a4b19653618f8c952668d4b3",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/049.json",
+      "raw_path": "data/gemini_raw/049.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "050": {
+      "article_id": "050",
+      "path": "articles/050_2026-01-15_骡子马_狠狠办千问.md",
+      "title": "狠狠办千问",
+      "date": "2026-01-15",
+      "author": "骡子马",
+      "content_hash": "6a508e1d678a2d0f9e3eeaeade5718d4810cfc5ed9a02de07b22bcb292118f1f",
+      "status": "ready",
+      "reason": "model_changed",
+      "artifact_path": "data/extracted/050.json",
+      "raw_path": "data/gemini_raw/050.json",
+      "extracted_at": "2026-03-11T09:11:51Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "051": {
+      "article_id": "051",
+      "path": "articles/051_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+      "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+      "date": "2026-01-16",
+      "author": "骡子马",
+      "content_hash": "af988c60f874b4773e5d9c468a2ae49be28be6efb8a80cac2c26431ebcf54f91",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/051.json",
+      "raw_path": "data/gemini_raw/051.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "052": {
+      "article_id": "052",
+      "path": "articles/052_2026-01-19_葬爱咸鱼_第一届葬AI炒作大赛（北京线下活动）.md",
+      "title": "第一届葬AI炒作大赛（北京线下活动）",
+      "date": "2026-01-19",
+      "author": "葬爱咸鱼",
+      "content_hash": "13353bb294cffbfea041175626e35eab2797f90aef44ea99bbb8ca2fb4681f1a",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/052.json",
+      "raw_path": "data/gemini_raw/052.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "053": {
+      "article_id": "053",
+      "path": "articles/053_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+      "title": "Atoms，平替Lovable的残酷物语",
+      "date": "2026-01-21",
+      "author": "葬爱咸鱼",
+      "content_hash": "dc1e02061cded81363706476e3c58e84d112e423e85bf036167467772c507ffe",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/053.json",
+      "raw_path": "data/gemini_raw/053.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "054": {
+      "article_id": "054",
+      "path": "articles/054_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+      "title": "来认识下2025年最活跃的CVC",
+      "date": "2026-01-22",
+      "author": "沐秋",
+      "content_hash": "67e5ed04a4db0926837963021c0c6a5c6d089b819b1d15d85cfe18020e691657",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/054.json",
+      "raw_path": "data/gemini_raw/054.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "055": {
+      "article_id": "055",
+      "path": "articles/055_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+      "title": "PixVerse像做梦一样做世界模型",
+      "date": "2026-01-23",
+      "author": "骡子马",
+      "content_hash": "a3b2469e5529f4424bc0cf71e808272bef744e65ea2eab934765d56274f445b4",
+      "status": "ready",
+      "reason": "forced",
+      "artifact_path": "data/extracted/055.json",
+      "raw_path": "data/gemini_raw/055.json",
+      "extracted_at": "2026-03-15T17:53:32Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "056": {
+      "article_id": "056",
+      "path": "articles/056_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+      "title": "AI四小虎进入狠活大赛",
+      "date": "2026-01-26",
+      "author": "葬爱咸鱼",
+      "content_hash": "a880db651ebe911a19829cb0d52916b661a5d97ee33f42a063af990445ac43c1",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/056.json",
+      "raw_path": "data/gemini_raw/056.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "057": {
+      "article_id": "057",
+      "path": "articles/057_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+      "title": "张月光给乙女游戏加了个Chatbot",
+      "date": "2026-01-27",
+      "author": "沐秋",
+      "content_hash": "1025eb2212186c57918bf8dd17822fb73c2ee9b31a8742a0a167262ca33d5416",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/057.json",
+      "raw_path": "data/gemini_raw/057.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "058": {
+      "article_id": "058",
+      "path": "articles/058_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+      "title": "「Dokie不如ListenHub」",
+      "date": "2026-01-28",
+      "author": "沐秋",
+      "content_hash": "000b836eb23e6be0f4da1e4e23e9f2da2673f552c114ea6c9dc4f90c8cc80d81",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/058.json",
+      "raw_path": "data/gemini_raw/058.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "059": {
+      "article_id": "059",
+      "path": "articles/059_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+      "title": "Clawdbot是一场马斯克发动的中登炒作",
+      "date": "2026-01-30",
+      "author": "葬爱咸鱼",
+      "content_hash": "801fc24acae0fd02a870b9d7fcc707ac56c019ab0e9e24ce13b75daa9a7bc7a6",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/059.json",
+      "raw_path": "data/gemini_raw/059.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "060": {
+      "article_id": "060",
+      "path": "articles/060_2026-02-03_骡子马_AI硬件炒作上天了.md",
+      "title": "AI硬件炒作上天了",
+      "date": "2026-02-03",
+      "author": "骡子马",
+      "content_hash": "1ac1b5e6ad823e7fad4b3f7fd556e8ddf2163242bfb0c7a829acd9c1e6a73268",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/060.json",
+      "raw_path": "data/gemini_raw/060.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "061": {
+      "article_id": "061",
+      "path": "articles/061_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+      "title": "Seedance 2.0让字节元神启动",
+      "date": "2026-02-10",
+      "author": "骡子马",
+      "content_hash": "b776b478b16894fad465f3c3961759abb2a010f4fd72e5027c0f810b9567f22e",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/061.json",
+      "raw_path": "data/gemini_raw/061.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "062": {
+      "article_id": "062",
+      "path": "articles/062_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+      "title": "剪映炒Seedance 2.0，炒出一种推背感",
+      "date": "2026-02-12",
+      "author": "骡子马",
+      "content_hash": "55ba28d2f0576e64695f1cb43a5a36c68149e4aceadedb91aa533923c8a7640c",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/062.json",
+      "raw_path": "data/gemini_raw/062.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "063": {
+      "article_id": "063",
+      "path": "articles/063_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+      "title": "Elys应该做成AI内涵段子",
+      "date": "2026-02-13",
+      "author": "沐秋",
+      "content_hash": "f6147a9efde95abe54cebe4979808126fdcc692bc5555115de655edc1440d8b0",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/063.json",
+      "raw_path": "data/gemini_raw/063.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "064": {
+      "article_id": "064",
+      "path": "articles/064_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+      "title": "豆包有Seed，火山有种",
+      "date": "2026-02-14",
+      "author": "沐秋",
+      "content_hash": "da03e74efa9a4e4e982de6142f2291ecae5e7a6be77f94764221d8515547bd89",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/064.json",
+      "raw_path": "data/gemini_raw/064.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "065": {
+      "article_id": "065",
+      "path": "articles/065_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+      "title": "AI编程创造世界",
+      "date": "2026-02-24",
+      "author": "葬爱咸鱼",
+      "content_hash": "0ab5b3d5e40bfcc8c260612f39863781008cea022e48fc6e1c1400bd53161157",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/065.json",
+      "raw_path": "data/gemini_raw/065.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "066": {
+      "article_id": "066",
+      "path": "articles/066_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+      "title": "OpenClaw不如狗一条",
+      "date": "2026-03-03",
+      "author": "葬爱咸鱼",
+      "content_hash": "bed1aa5aecedb7fb7539d75a0a1a5f60744755bb250b90be027f3ab0d0647035",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/066.json",
+      "raw_path": "data/gemini_raw/066.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "067": {
+      "article_id": "067",
+      "path": "articles/067_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+      "title": "云端OpenClaw更是路边一条",
+      "date": "2026-03-04",
+      "author": "沐秋",
+      "content_hash": "6087e727127bc22e6de7d895c2b041e45992ed65acd846796883b92f32375e98",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/067.json",
+      "raw_path": "data/gemini_raw/067.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "068": {
+      "article_id": "068",
+      "path": "articles/068_2026-03-09_骡子马_AI圈炒作圣经震撼首发.md",
+      "title": "AI圈炒作圣经震撼首发",
+      "date": "2026-03-09",
+      "author": "骡子马",
+      "content_hash": "69c7e54fbe2886d519e0536596532f8a4f493a60770367c681e417077fa800fa",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/068.json",
+      "raw_path": "data/gemini_raw/068.json",
+      "extracted_at": "2026-03-11T09:05:56Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-11-relationship-recall-v6",
+        "extractor_version": "2026-03-10-strength-pipeline-v4"
+      }
+    },
+    "069": {
+      "article_id": "069",
+      "path": "articles/069_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+      "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+      "date": "2026-03-13",
+      "author": "沐秋",
+      "content_hash": "997215b25c6a9577d0f1d60b4bbb1f4e5eecc62d68eba15c5b883361fabdf508",
+      "status": "ready",
+      "reason": "forced",
+      "artifact_path": "data/extracted/069.json",
+      "raw_path": "data/gemini_raw/069.json",
+      "extracted_at": "2026-03-16T06:42:45Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "070": {
+      "article_id": "070",
+      "path": "articles/070_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
+      "title": "Mulerun借假修真Agent市场明牌竞争",
+      "date": "2026-03-16",
+      "author": "葬爱咸鱼",
+      "content_hash": "6844ed34a6aba201baaf1fbb7e6dcfbc67155214a7a279c2a050565a499d675b",
+      "status": "ready",
+      "reason": "up_to_date",
+      "artifact_path": "data/extracted/070.json",
+      "raw_path": "data/gemini_raw/070.json",
+      "extracted_at": "2026-03-19T07:11:36Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "071": {
+      "article_id": "071",
+      "path": "articles/071_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+      "title": "小智AI才是真正的具身智能",
+      "date": "2026-03-17",
+      "author": "沐秋",
+      "content_hash": "cb8a6fb53d7483d85d9fca4494ca78af98cee9b058fc392cb43251d41b68c6ae",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/071.json",
+      "raw_path": "data/gemini_raw/071.json",
+      "extracted_at": "2026-03-19T07:14:51Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "072": {
+      "article_id": "072",
+      "path": "articles/072_2026-03-19_沐秋_Lovart狂做TapNow.md",
+      "title": "Lovart狂做TapNow",
+      "date": "2026-03-19",
+      "author": "沐秋",
+      "content_hash": "637c9b95961e6ceee92d82aced3a9c5d9a2f35db26550de321640e8f0f946b17",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/072.json",
+      "raw_path": "data/gemini_raw/072.json",
+      "extracted_at": "2026-03-19T07:14:51Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    }
+  }
+}

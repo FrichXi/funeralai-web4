@@ -1,0 +1,857 @@
+{
+  "version": 2,
+  "updatedAt": "2026-03-13T00:00:00Z",
+  "defaults": {
+    "leaderboardSize": 20
+  },
+  "presentation": {
+    "siteMode": "analysis-2d",
+    "graphEngine": "cytoscape",
+    "detailExperience": "drawer",
+    "leaderboardStrategy": "auto-first"
+  },
+  "nodes": [
+    {
+      "nodeId": "a16z",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/a16z-badge.svg",
+      "assetAlt": "a16z badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "vcs"
+      ]
+    },
+    {
+      "nodeId": "红杉",
+      "visualMode": "text",
+      "featured": true,
+      "leaderboardSegments": [
+        "vcs"
+      ]
+    },
+    {
+      "nodeId": "锦秋基金",
+      "visualMode": "text",
+      "leaderboardSegments": [
+        "vcs"
+      ]
+    },
+    {
+      "nodeId": "plaud",
+      "visualMode": "image",
+      "localAssetPath": "/assets/nodes/plaud-badge.svg",
+      "assetAlt": "Plaud badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "字节跳动",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/bytedance-badge.svg",
+      "assetAlt": "字节跳动 badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "minimax",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/minimax-badge.svg",
+      "assetAlt": "MiniMax badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "looki",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/looki-badge.svg",
+      "assetAlt": "Looki badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "蚂蚁集团",
+      "visualMode": "text",
+      "leaderboardSegments": [
+        "vcs"
+      ]
+    },
+    {
+      "nodeId": "claude",
+      "visualMode": "image",
+      "localAssetPath": "/assets/nodes/claude-badge.svg",
+      "assetAlt": "Claude badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "manus",
+      "visualMode": "image",
+      "localAssetPath": "/assets/nodes/manus-badge.svg",
+      "assetAlt": "Manus badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "豆包",
+      "visualMode": "image",
+      "localAssetPath": "/assets/nodes/doubao-badge.svg",
+      "assetAlt": "豆包 badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "杨洁",
+      "visualMode": "image",
+      "localAssetPath": "/assets/nodes/yangjie-badge.svg",
+      "assetAlt": "杨洁 badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "kimi",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/kimi-badge.svg",
+      "assetAlt": "Kimi badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "genspark",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/genspark-badge.svg",
+      "assetAlt": "GenSpark badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "chatgpt",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/chatgpt-badge.svg",
+      "assetAlt": "ChatGPT badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "gemini",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/gemini-badge.svg",
+      "assetAlt": "Gemini badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "千问",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/qwen-badge.svg",
+      "assetAlt": "千问 badge",
+      "featured": true
+    },
+    {
+      "nodeId": "cherry-studio",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/cherry-studio-badge.svg",
+      "assetAlt": "Cherry Studio badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "flova",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/flova-badge.svg",
+      "assetAlt": "Flova badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "flowith",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/flowith-badge.svg",
+      "assetAlt": "Flowith badge"
+    },
+    {
+      "nodeId": "openclaw",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/openclaw-badge.svg",
+      "assetAlt": "OpenClaw badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "seedance",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/seedance-badge.svg",
+      "assetAlt": "Seedance badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "马卡龙",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/macaroon-badge.svg",
+      "assetAlt": "马卡龙 badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "mulerun",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/mulerun-badge.svg",
+      "assetAlt": "MuleRun badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "剪映",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/jianying-badge.svg",
+      "assetAlt": "剪映 badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "youware",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/youware-badge.svg",
+      "assetAlt": "YouWare badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "智谱ai",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/zhipu-badge.svg",
+      "assetAlt": "智谱AI badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "钉钉",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/dingtalk-badge.svg",
+      "assetAlt": "钉钉 badge",
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "deepseek",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/deepseek-badge.svg",
+      "assetAlt": "DeepSeek badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "openai",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/openai-badge.svg",
+      "assetAlt": "OpenAI badge",
+      "featured": true,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "anthropic",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/anthropic-badge.svg",
+      "assetAlt": "Anthropic badge",
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "阿里云",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/aliyun-badge.svg",
+      "assetAlt": "阿里云 badge",
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "阶跃星辰",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/stepfun-badge.svg",
+      "assetAlt": "阶跃星辰 badge",
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "阶跃",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/stepfun2-badge.svg",
+      "assetAlt": "阶跃 badge",
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "阿里",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/ali-badge.svg",
+      "assetAlt": "阿里 badge",
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "myshell",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/myshell-badge.svg",
+      "assetAlt": "MyShell badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "扣子",
+      "visualMode": "logo",
+      "localAssetPath": "/assets/nodes/kouzi-badge.svg",
+      "assetAlt": "扣子 badge",
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "qwen",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "flowith-os",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "阶跃桌面伙伴",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "medeo",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "lovart",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "马斯克",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "葬爱咸鱼",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "彼得-蒂尔",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "王小川",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "明超平",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "印奇",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "周卓泉",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "扎克伯格",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "李开复",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "孙洋",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "肖弘",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "郭列",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "许高",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "锴杰",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "圆脸眼镜哥",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "刀哥",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "杨通",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "景鲲",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "邪恶意大利人",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "红杉资本",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "vcs"
+      ]
+    },
+    {
+      "nodeId": "idg",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "vcs"
+      ]
+    },
+    {
+      "nodeId": "高瓴",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "vcs"
+      ]
+    },
+    {
+      "nodeId": "五源",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "vcs"
+      ]
+    },
+    {
+      "nodeId": "金沙江",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "vcs"
+      ]
+    },
+    {
+      "nodeId": "benchmark",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "vcs"
+      ]
+    },
+    {
+      "nodeId": "idg-90后基金",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "vcs"
+      ]
+    },
+    {
+      "nodeId": "agnes",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "阿里巴巴",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "谷歌",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "百度",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "零一万物",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "rokid",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "百川智能",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "杨植麟",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "骆轶航",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "王凯歆",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "clear",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "刘宇",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "商汤科技",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "火山引擎",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "千里科技",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "腾讯",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "meta",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "苹果",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "yinsen",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    },
+    {
+      "nodeId": "蚂蚁集团投资部",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "vcs"
+      ]
+    },
+    {
+      "nodeId": "月之暗面",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "蚂蚁",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "ofo",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "uber",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "特斯拉",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "胖虎ai",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "b站",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "京东",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "小红书",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "拓竹",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "companies"
+      ]
+    },
+    {
+      "nodeId": "飞书",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "products"
+      ]
+    },
+    {
+      "nodeId": "陈冕",
+      "visualMode": "text",
+      "featured": false,
+      "leaderboardSegments": [
+        "founders"
+      ]
+    }
+  ]
+}

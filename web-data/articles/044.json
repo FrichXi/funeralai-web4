@@ -1,0 +1,370 @@
+{
+  "id": "044",
+  "title": "无招把钉钉当玩具整",
+  "date": "2025-12-24",
+  "author": "葬爱咸鱼",
+  "path": "articles/044_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+  "permalink": "/articles/044",
+  "markdown_link": "articles/044_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+  "raw_markdown": "# 无招把钉钉当玩具整\n\n- **作者**：葬爱咸鱼\n- **发布日期**：2025-12-24\n- **来源**：微信公众号「葬愛咸鱼」\n\n---\n\n「我就觉得应该这么做」\n昨天详细论证了Plaud如何善打游击战、以及中国AI硬件凭借深圳供应链越来越伟大的故\n事。\n刚好在杭州听完了无招如何改造钉钉的演讲，我来看看钉钉又发了啥硬件，又是咋扯到\nAgent OS的故事的。\n听完整场演讲我的最大感受是，无招简直是把钉钉当玩具整，活是真多😭\n先从钉钉的软件说起。\n现在打开新版的钉钉，传统的消息列表没了，首页是空白的钉钉ONE，下面是一个语音输\n入框。可以叫语音框给列表发消息。\n你要发消息？就得点开底下的Agent bar，第二个才是「消息」。传统的消息列表，被降级成\n若干Agent中的一个。\n这个变化相当激进。钉钉有几亿用户，敢在这么大体量的产品上做这么大的改动。\n真是敢于告别曾经。\n我理解了一下，无招是把自己当老板、AI当牛马的思维重做了钉钉。\n老板的工作方式很简单：不想填表格，不想点开若干个对话框，直接按住告诉AI指令，然后\nAI自己去执行。就像我昨天在钉钉发，「把Plaud的稿子发给沐秋排版」（沐秋未读未回）。\n挺好的，指挥不动人，但大伙都能指挥AI，人人都是AI的老板。\n钉钉ONE现在就这么设计的。一个超级入口（钉钉ONE），一个路由器（悟空），若干个\nAgent。你按住语音输入框说话，悟空这个AI助理会拆解你的需求，然后分配给具体的\nAgent去执行——发消息、编辑文档、查日程、订差旅。\n无招赌的是，传统的列表式交互已经过时了，大伙需要新的AI驱动的办公软件。\n从软件层面的重构推导到硬件，就是这个叫DingTalk Real的设备。\n\n个人设备上，一个超级入口+路由器+若干Agent，用软件就够了；但组织层面，几十台设备\n的协同，就需要在这些设备之上有一个操作系统，不能让每个人的手机和电脑各自为政，得\n有个东西把它们串起来，统一调度。\n公司里有几十台设备，得有个Runtime环境，得有权限管理，得知道哪些数据能访问、哪些\n不能。\n这就是Real要做的事情，运行若干Agent、调用企业内部环境的操作系统，一个独立的企业\n主机。\n但DingTalk Real现在做的场景，还是AI浏览器都在讲的那几个：差旅比价、筛选简历、填\n表格，员工下班，Agent继续干活。场景没有超出想象。刚开放申请，也还没能实际体验\n到。\n钉钉Agent OS的设计里，有一层主打 Agent 的开发和模型的训练的平台，企业能用自己的\n数据来定制开发。从这里开发的 Agent 都可以跑在 Real 上。想做一个Agent开发平台的概\n念属于是。\n倒是定价让我印象深刻，只要199元月费，就能和无招共创「全球首个专为Agent 打造的企\n业级AI硬件」，What can I say 朋友们？\n钉钉还整了非常多的活，我第一次看到一场发布会活的数量如此密集真的。\n比如AI防录音魔盒。因为无招的朋友跟他说，现在大家都录音，能不能做个防录音的东西？\n无招就做了个魔盒，魔盒一开，10米内所有设备都录不了音。\n以子之矛，攻子之盾，让他率先闭环了。\n\n还有AI印。现在可以在钉钉里生成海报了，还支持图层编辑，纯属再造Lovart。而且钉钉给\nLovart做了后端，你生成完可以选择打印出来寄给你，这还串上了个数美万物。属于是中小\n创业者和个体户刚需，不用再找设计、找印刷厂。\n无招还自问自答，解释怎么保证DingTalk Real的安全底线，他给的解决方式是确保你能拔\n电源。真是大道至简，我怀疑要是问老哥怎么保证AI不会背叛人类，他也会说记得拔AI电\n源。\n还有AI作业批改仪、AI数字前台，一堆五花八门的硬件。属于是无招整了一堆电子玩具，建\n议他退休后去再造迪士尼。\n你可以说无招发期货，但不能说他没活，也不能说这些活不实用。\n这也是我爱用钉钉A1录音卡的原因，单纯因为它有一个语音备忘录实体按键，能省掉开手\n机的麻烦。\n我整场演讲听下来，第一感觉是人人都是钉钉的老板。\n那剩下的故事就是，钉钉是给AI用的，钉钉来负责调用这一堆软硬件、Agent，人只需要指\n挥钉钉就行。\n无招在发布会结束前还真情流露了几分钟，他说自己每天早上起来，看到AI技术进展都很兴\n奋。从95年上大学到现在，我们用的所有产品，从Windows到iPhone，一直到AI，都是美\n国公司在定义。微软、谷歌、苹果、OpenAI，都是美国的，现在终于有机会自己来定义了\n😭\n太伟大了，就是要自信😭\n对一个已经取得成功的产品、又要自我革命的人来说，不自信就不会敢挥刀向内，干不掉过\n去的自己。\n无招回归不到一年就整出这么多活，我看钉钉好日子还在后面。\n\n无招在演讲最后还表述了一下自己的创新方式。他说在团队里创新是很难的，做任何一个创\n新动作都会有很多人问为什么要这么做。老哥说自己不知道为什么，但就觉得应该这么做。\n发布会最后放了一个很燃的MV，大意是悟空奋起千钧棒，要砸碎那个旧世界，有两句歌词\n是：\n「如今我独步在这九霄之上，再不怕前路哪怕是风浪……大圣归来了用的新的模样，苍穹之\n下谁敢不仰望。」\n我很好奇老哥看这视频时的心理反应。\n（本文配图由 ChatGPT 生成，Claude Code within Cherry Studio辅助写作）\n00:32\n00:32\n\n---\n*原文链接：https://mp.weixin.qq.com/s/g_XkJhhRS26XuvqxbMVgsw*\n",
+  "body_markdown": "「我就觉得应该这么做」\n昨天详细论证了Plaud如何善打游击战、以及中国AI硬件凭借深圳供应链越来越伟大的故\n事。\n刚好在杭州听完了无招如何改造钉钉的演讲，我来看看钉钉又发了啥硬件，又是咋扯到\nAgent OS的故事的。\n听完整场演讲我的最大感受是，无招简直是把钉钉当玩具整，活是真多😭\n先从钉钉的软件说起。\n现在打开新版的钉钉，传统的消息列表没了，首页是空白的钉钉ONE，下面是一个语音输\n入框。可以叫语音框给列表发消息。\n你要发消息？就得点开底下的Agent bar，第二个才是「消息」。传统的消息列表，被降级成\n若干Agent中的一个。\n这个变化相当激进。钉钉有几亿用户，敢在这么大体量的产品上做这么大的改动。\n真是敢于告别曾经。\n我理解了一下，无招是把自己当老板、AI当牛马的思维重做了钉钉。\n老板的工作方式很简单：不想填表格，不想点开若干个对话框，直接按住告诉AI指令，然后\nAI自己去执行。就像我昨天在钉钉发，「把Plaud的稿子发给沐秋排版」（沐秋未读未回）。\n挺好的，指挥不动人，但大伙都能指挥AI，人人都是AI的老板。\n钉钉ONE现在就这么设计的。一个超级入口（钉钉ONE），一个路由器（悟空），若干个\nAgent。你按住语音输入框说话，悟空这个AI助理会拆解你的需求，然后分配给具体的\nAgent去执行——发消息、编辑文档、查日程、订差旅。\n无招赌的是，传统的列表式交互已经过时了，大伙需要新的AI驱动的办公软件。\n从软件层面的重构推导到硬件，就是这个叫DingTalk Real的设备。\n\n个人设备上，一个超级入口+路由器+若干Agent，用软件就够了；但组织层面，几十台设备\n的协同，就需要在这些设备之上有一个操作系统，不能让每个人的手机和电脑各自为政，得\n有个东西把它们串起来，统一调度。\n公司里有几十台设备，得有个Runtime环境，得有权限管理，得知道哪些数据能访问、哪些\n不能。\n这就是Real要做的事情，运行若干Agent、调用企业内部环境的操作系统，一个独立的企业\n主机。\n但DingTalk Real现在做的场景，还是AI浏览器都在讲的那几个：差旅比价、筛选简历、填\n表格，员工下班，Agent继续干活。场景没有超出想象。刚开放申请，也还没能实际体验\n到。\n钉钉Agent OS的设计里，有一层主打 Agent 的开发和模型的训练的平台，企业能用自己的\n数据来定制开发。从这里开发的 Agent 都可以跑在 Real 上。想做一个Agent开发平台的概\n念属于是。\n倒是定价让我印象深刻，只要199元月费，就能和无招共创「全球首个专为Agent 打造的企\n业级AI硬件」，What can I say 朋友们？\n钉钉还整了非常多的活，我第一次看到一场发布会活的数量如此密集真的。\n比如AI防录音魔盒。因为无招的朋友跟他说，现在大家都录音，能不能做个防录音的东西？\n无招就做了个魔盒，魔盒一开，10米内所有设备都录不了音。\n以子之矛，攻子之盾，让他率先闭环了。\n\n还有AI印。现在可以在钉钉里生成海报了，还支持图层编辑，纯属再造Lovart。而且钉钉给\nLovart做了后端，你生成完可以选择打印出来寄给你，这还串上了个数美万物。属于是中小\n创业者和个体户刚需，不用再找设计、找印刷厂。\n无招还自问自答，解释怎么保证DingTalk Real的安全底线，他给的解决方式是确保你能拔\n电源。真是大道至简，我怀疑要是问老哥怎么保证AI不会背叛人类，他也会说记得拔AI电\n源。\n还有AI作业批改仪、AI数字前台，一堆五花八门的硬件。属于是无招整了一堆电子玩具，建\n议他退休后去再造迪士尼。\n你可以说无招发期货，但不能说他没活，也不能说这些活不实用。\n这也是我爱用钉钉A1录音卡的原因，单纯因为它有一个语音备忘录实体按键，能省掉开手\n机的麻烦。\n我整场演讲听下来，第一感觉是人人都是钉钉的老板。\n那剩下的故事就是，钉钉是给AI用的，钉钉来负责调用这一堆软硬件、Agent，人只需要指\n挥钉钉就行。\n无招在发布会结束前还真情流露了几分钟，他说自己每天早上起来，看到AI技术进展都很兴\n奋。从95年上大学到现在，我们用的所有产品，从Windows到iPhone，一直到AI，都是美\n国公司在定义。微软、谷歌、苹果、OpenAI，都是美国的，现在终于有机会自己来定义了\n😭\n太伟大了，就是要自信😭\n对一个已经取得成功的产品、又要自我革命的人来说，不自信就不会敢挥刀向内，干不掉过\n去的自己。\n无招回归不到一年就整出这么多活，我看钉钉好日子还在后面。\n\n无招在演讲最后还表述了一下自己的创新方式。他说在团队里创新是很难的，做任何一个创\n新动作都会有很多人问为什么要这么做。老哥说自己不知道为什么，但就觉得应该这么做。\n发布会最后放了一个很燃的MV，大意是悟空奋起千钧棒，要砸碎那个旧世界，有两句歌词\n是：\n「如今我独步在这九霄之上，再不怕前路哪怕是风浪……大圣归来了用的新的模样，苍穹之\n下谁敢不仰望。」\n我很好奇老哥看这视频时的心理反应。\n00:32\n00:32",
+  "excerpt": "「我就觉得应该这么做」 昨天详细论证了Plaud如何善打游击战、以及中国AI硬件凭借深圳供应链越来越伟大的故 事。 刚好在杭州听完了无招如何改造钉钉的演讲，我来看看钉钉又发了啥硬件，又是咋扯到 Agent OS的故事的。 听完整场演讲我的最大感受是，无招简直是把钉钉当玩具整，活是真多😭 先从钉钉的软件说起。 现在打开新版的钉钉，传统的消息列表没了，首页是空白的钉钉ONE，下面是一个语音输 入框。可以叫语音框给列表发消息。 你要发消...",
+  "entity_count": 15,
+  "relationship_count": 17,
+  "entities": [
+    {
+      "id": "plaud",
+      "name": "Plaud",
+      "type": "product",
+      "description": "主打海外市场的AI硬件录音卡公司，近期宣布进入中国内地市场",
+      "mention_count": 51,
+      "aliases": [
+        "Plaud录音卡片"
+      ],
+      "tags": [
+        "AI硬件",
+        "录音卡片",
+        "游击战"
+      ]
+    },
+    {
+      "id": "pin",
+      "name": "Pin",
+      "type": "product",
+      "description": "Plaud推出的手环/夹子形态录音硬件。",
+      "mention_count": 7,
+      "aliases": [
+        "Pin加手环",
+        "Plaud Pin"
+      ],
+      "tags": [
+        "AI硬件"
+      ]
+    },
+    {
+      "id": "钉钉",
+      "name": "钉钉",
+      "type": "company",
+      "description": "发布了多款企业级AI软硬件产品及Agent OS的平台公司",
+      "mention_count": 5,
+      "aliases": [
+        "DingTalk"
+      ],
+      "tags": [
+        "大厂",
+        "办公软件"
+      ]
+    },
+    {
+      "id": "讯飞",
+      "name": "讯飞",
+      "type": "company",
+      "description": "提供语音或文本识别翻译服务的科技公司，支持朝鲜语识别。",
+      "mention_count": 4,
+      "aliases": [
+        "科大讯飞"
+      ],
+      "tags": [
+        "语音转录",
+        "录音笔"
+      ]
+    },
+    {
+      "id": "许高",
+      "name": "许高",
+      "type": "person",
+      "description": "Plaud公司的核心高管或创始人",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "FA出身"
+      ]
+    },
+    {
+      "id": "钉钉a1",
+      "name": "钉钉A1",
+      "type": "product",
+      "description": "钉钉推出的语音备忘录实体按键卡片",
+      "mention_count": 4,
+      "aliases": [
+        "a1",
+        "钉钉A1录音卡",
+        "钉钉录音卡片"
+      ],
+      "tags": [
+        "录音卡片",
+        "语音备忘录"
+      ]
+    },
+    {
+      "id": "note",
+      "name": "Note",
+      "type": "product",
+      "description": "Plaud推出的普通版AI录音卡片。",
+      "mention_count": 3,
+      "aliases": [
+        "Plaud Note",
+        "普通版卡片Note"
+      ],
+      "tags": [
+        "录音卡片",
+        "AI硬件"
+      ]
+    },
+    {
+      "id": "nixon",
+      "name": "Nixon",
+      "type": "person",
+      "description": "脑放电波主播、XR产品经理，Plaud Pin手环用户。",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "主播"
+      ]
+    },
+    {
+      "id": "note-pro",
+      "name": "Note Pro",
+      "type": "product",
+      "description": "Plaud推出的高级版录音卡片，增加高光标记功能。",
+      "mention_count": 2,
+      "aliases": [
+        "高级版卡片Note Pro"
+      ],
+      "tags": [
+        "录音卡片"
+      ]
+    },
+    {
+      "id": "出门问问",
+      "name": "出门问问",
+      "type": "company",
+      "description": "推出TicNote录音卡片的AI公司。",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI公司"
+      ]
+    },
+    {
+      "id": "讯飞录音笔",
+      "name": "讯飞录音笔",
+      "type": "product",
+      "description": "讯飞推出的传统录音硬件，转录几乎免费。",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "录音笔"
+      ]
+    },
+    {
+      "id": "looki",
+      "name": "Looki",
+      "type": "product",
+      "description": "一家研发AI硬件的初创公司，开创了AI胸载摄像头赛道。",
+      "mention_count": 1,
+      "aliases": [
+        "Looki公司",
+        "Looki相机"
+      ],
+      "tags": [
+        "XR设备"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内AI公司，其设立付费墙的商业行为被性压抑AI作为案例进行了解构分析。",
+      "mention_count": 1,
+      "aliases": [
+        "MinMax"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "ticnote",
+      "name": "TicNote",
+      "type": "product",
+      "description": "出门问问推出的录音卡片。",
+      "mention_count": 1,
+      "aliases": [
+        "Ticnote",
+        "出门问问TicNote"
+      ],
+      "tags": [
+        "录音卡片"
+      ]
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "AI大模型研发公司，曾为Cherry Studio提供免费API额度",
+      "mention_count": 1,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "minimax",
+      "target_id": "plaud",
+      "source": "MiniMax",
+      "target": "Plaud",
+      "relation_type": "compares_to",
+      "label": "文章将Plaud的营收与MiniMax和智谱的营收之和进行对比。",
+      "weight": 1
+    },
+    {
+      "source_id": "pin",
+      "target_id": "讯飞录音笔",
+      "source": "Pin",
+      "target": "讯飞录音笔",
+      "relation_type": "compares_to",
+      "label": "文章提到21年买的讯飞录音笔和Plaud Pin形态差不多。",
+      "weight": 1
+    },
+    {
+      "source_id": "plaud",
+      "target_id": "智谱ai",
+      "source": "Plaud",
+      "target": "智谱AI",
+      "relation_type": "compares_to",
+      "label": "文章将Plaud的营收与MiniMax和智谱的营收之和进行对比。",
+      "weight": 1
+    },
+    {
+      "source_id": "note",
+      "target_id": "ticnote",
+      "source": "Note",
+      "target": "TicNote",
+      "relation_type": "competes_with",
+      "label": "Plaud的Note与出门问问的TicNote同为录音卡片竞品。",
+      "weight": 1
+    },
+    {
+      "source_id": "plaud",
+      "target_id": "出门问问",
+      "source": "Plaud",
+      "target": "出门问问",
+      "relation_type": "competes_with",
+      "label": "出门问问发布了同款产品，与Plaud存在竞争。",
+      "weight": 1
+    },
+    {
+      "source_id": "plaud",
+      "target_id": "讯飞",
+      "source": "Plaud",
+      "target": "讯飞",
+      "relation_type": "competes_with",
+      "label": "Plaud避开正面竞争但在录音设备赛道上与讯飞存在竞争关系。",
+      "weight": 1
+    },
+    {
+      "source_id": "plaud",
+      "target_id": "钉钉",
+      "source": "Plaud",
+      "target": "钉钉",
+      "relation_type": "competes_with",
+      "label": "Plaud在录音卡片细分市场与大厂（如钉钉）进行竞争/打游击战。",
+      "weight": 1
+    },
+    {
+      "source_id": "钉钉a1",
+      "target_id": "note",
+      "source": "钉钉A1",
+      "target": "Note",
+      "relation_type": "competes_with",
+      "label": "Plaud的Note与钉钉的A1同为录音卡片竞品。",
+      "weight": 1
+    },
+    {
+      "source_id": "plaud",
+      "target_id": "note",
+      "source": "Plaud",
+      "target": "Note",
+      "relation_type": "develops",
+      "label": "Plaud开发了Note普通版录音卡片。",
+      "weight": 1
+    },
+    {
+      "source_id": "plaud",
+      "target_id": "note-pro",
+      "source": "Plaud",
+      "target": "Note Pro",
+      "relation_type": "develops",
+      "label": "Plaud开发了高级版录音卡片Note Pro。",
+      "weight": 1
+    },
+    {
+      "source_id": "plaud",
+      "target_id": "pin",
+      "source": "Plaud",
+      "target": "Pin",
+      "relation_type": "develops",
+      "label": "Plaud开发了Pin录音硬件。",
+      "weight": 1
+    },
+    {
+      "source_id": "出门问问",
+      "target_id": "ticnote",
+      "source": "出门问问",
+      "target": "TicNote",
+      "relation_type": "develops",
+      "label": "出门问问开发了TicNote录音卡片。",
+      "weight": 1
+    },
+    {
+      "source_id": "讯飞",
+      "target_id": "讯飞录音笔",
+      "source": "讯飞",
+      "target": "讯飞录音笔",
+      "relation_type": "develops",
+      "label": "讯飞开发了讯飞录音笔。",
+      "weight": 1
+    },
+    {
+      "source_id": "钉钉",
+      "target_id": "钉钉a1",
+      "source": "钉钉",
+      "target": "钉钉A1",
+      "relation_type": "develops",
+      "label": "钉钉开发了A1录音卡片。",
+      "weight": 1
+    },
+    {
+      "source_id": "许高",
+      "target_id": "plaud",
+      "source": "许高",
+      "target": "Plaud",
+      "relation_type": "founder_of",
+      "label": "许高是Plaud的创始人，2022年开始做录音笔。",
+      "weight": 1
+    },
+    {
+      "source_id": "nixon",
+      "target_id": "looki",
+      "source": "Nixon",
+      "target": "Looki",
+      "relation_type": "praises",
+      "label": "Nixon觉得Looki很牛逼。",
+      "weight": 1
+    },
+    {
+      "source_id": "许高",
+      "target_id": "note",
+      "source": "许高",
+      "target": "Note",
+      "relation_type": "works_on",
+      "label": "许高作为创始人主导了Plaud Note等产品的开发。",
+      "weight": 1
+    }
+  ]
+}

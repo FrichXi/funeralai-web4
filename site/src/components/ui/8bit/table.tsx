@@ -1,0 +1,116 @@
+"use client";
+
+import type * as React from "react";
+
+import { cn } from "@/lib/utils";
+
+import {
+  Table as ShadcnTable,
+  TableBody as ShadcnTableBody,
+  TableCaption as ShadcnTableCaption,
+  TableCell as ShadcnTableCell,
+  TableFooter as ShadcnTableFooter,
+  TableHead as ShadcnTableHead,
+  TableHeader as ShadcnTableHeader,
+  TableRow as ShadcnTableRow,
+} from "@/components/ui/table";
+import {
+  tableContainerVariants,
+  tableVariants,
+  type TableAlign,
+  type TableFont,
+  type TableLayout,
+  type TableVariant,
+} from "@/components/ui/8bit/table-contracts";
+
+import "@/components/ui/8bit/styles/retro.css";
+
+function Table({
+  className,
+  containerClassName,
+  font,
+  variant,
+  layout,
+  align,
+  ...props
+}: React.ComponentProps<"table"> & {
+  containerClassName?: string;
+  font?: TableFont;
+  variant?: TableVariant;
+  layout?: TableLayout;
+  align?: TableAlign;
+}) {
+  return (
+    <div
+      className={cn(
+        tableContainerVariants({ layout, align }),
+        tableVariants({ font, variant }),
+        containerClassName
+      )}
+    >
+      <ShadcnTable className={className} {...props} />
+
+      {variant !== "borderless" && (
+        <div
+          className="absolute inset-0 border-x-6 -mx-1.5 border-foreground dark:border-ring pointer-events-none"
+          aria-hidden="true"
+        />
+      )}
+    </div>
+  );
+}
+
+function TableHeader({ className, ...props }: React.ComponentProps<"thead">) {
+  return (
+    <ShadcnTableHeader
+      className={cn(className, "border-b-4 border-foreground dark:border-ring")}
+      {...props}
+    />
+  );
+}
+
+function TableBody({ className, ...props }: React.ComponentProps<"tbody">) {
+  return <ShadcnTableBody className={cn(className)} {...props} />;
+}
+
+function TableFooter({ className, ...props }: React.ComponentProps<"tfoot">) {
+  return <ShadcnTableFooter className={cn(className)} {...props} />;
+}
+
+function TableRow({ className, ...props }: React.ComponentProps<"tr">) {
+  return (
+    <ShadcnTableRow
+      className={cn(
+        className,
+        "border-dashed border-b-4 border-foreground dark:border-ring"
+      )}
+      {...props}
+    />
+  );
+}
+
+function TableHead({ className, ...props }: React.ComponentProps<"th">) {
+  return <ShadcnTableHead className={cn(className)} {...props} />;
+}
+
+function TableCell({ className, ...props }: React.ComponentProps<"td">) {
+  return <ShadcnTableCell className={cn(className)} {...props} />;
+}
+
+function TableCaption({
+  className,
+  ...props
+}: React.ComponentProps<"caption">) {
+  return <ShadcnTableCaption className={cn(className)} {...props} />;
+}
+
+export {
+  Table,
+  TableHeader,
+  TableBody,
+  TableFooter,
+  TableHead,
+  TableRow,
+  TableCell,
+  TableCaption,
+};

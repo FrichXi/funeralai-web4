@@ -1,0 +1,339 @@
+{
+  "id": "067",
+  "title": "云端OpenClaw更是路边一条",
+  "date": "2026-03-04",
+  "author": "沐秋",
+  "path": "articles/067_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+  "permalink": "/articles/067",
+  "markdown_link": "articles/067_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+  "raw_markdown": "# 云端OpenClaw更是路边一条\n\n- **作者**：沐秋\n- **发布日期**：2026-03-04\n- **来源**：微信公众号「葬AI」\n\n---\n\n「云端OpenClaw是21世纪最大骗局」\n\nOpenclaw是不是不如骆老师轶航家的狗还需要探讨，但云端Openclaw肯定是路边一条。\n\n这两天我先后用了Minimax、Kimi，还有腾讯云的云端Openclaw。\n\n首先必须承认，是我太懒惰了，看到国内大模型公司说能一键部署Openclaw就直接付费了，没有独立思考。\n\n结果就悲催了。\n\n我最开始用的是MaxClaw，确实付了钱直达对话框了，连接进飞书后我马上问Maxclaw，能不能登录我的小红书？\n\n它说理论上可以，但它现在没有我的浏览器控制能力，需要在电脑上安装Openclaw客户端并配对后，才可以执行命令、运行脚本。\n\n不是，怎么又绕回来要安装本地Openclaw，那我花钱买你有何用？\n\n我本来还疑惑为什么一登陆就建议我连进飞书呢？到这里才发现，原来接入飞书和钉钉就是云端龙虾的精髓，除了这个和一堆内置skill外没别的了。\n\n我想难道是我使用方法不对？连忙去拜读了吹这玩意的一堆case，结果都是什么生成一份投资报告啊、做一个新闻抓取器啊，还有抓取X近一周热点新闻什么的。\n\n不是哥们，这些任务直接拿模型做不也一样吗？鉴定为表演式使用Openclaw。\n\n此时我还没有死心，想是不是39的Maxclaw便宜没好货，于是买了隔壁199的Kimi claw，没想到也是路边。\n\n我试着让它调用Kimi Code，它说官方没有Kimi Code，但它可以帮我造一个。\n\n给我气笑了，我只能把我的VS Code截图给它。另外，Kimi claw也不能调用Kimi 的Agent集群，属于是好的还没舍得拿出来给大伙用。\n\n我知道没法自动登录网站，干脆登好了小红书，把网页链接发给Kimi claw，让它帮我在上面找北京一室一厅的房子，结果回答我说小红书检测到了自动化浏览器环境，被屏蔽了😭\n\n只能通过公开资料整理给我——又回到Chatbot 逻辑了。\n\n也能理解吧。国内环境就是封闭，就算是已经接入飞书了，命令Kimi claw在飞书里构建生态也被处处设防。\n\n本质上这类云端Openclaw产品都是裸模型加上龙虾架构，大部分回答没有被调优设计过，很可能大部分通用问题不如直接问Chatbot，完全不适合小白用户。所以不要再欺负我们黑铁兄弟了😭\n\n我又抱着试一试的心态买了腾讯云的Openclaw部署服务。先是买了云服务器，自己配置了Kimi API、又在QQ开发平台上整了个bot，将其命名为QQ小冰，假装QQ小冰秽土重生。\n\n结果呢，这个QQ小冰Openclaw不仅卡得要死，听不懂语音，还不能识别图片，智商和正版QQ小冰不相上下。\n\n后来QQ小冰Openclaw又说可以识别了，我发了张表情包，它先说这是QQ聊天的截图，又说这是我和AI助手派宝的聊天。有没有懂哥说一下，派宝是元宝派吗？\n\n我真没辙了。家人们这个真得避雷一下吧。云厂商一点优化不做啊。腾讯全心全意干元宝派去了是吧，等这波红包带来的DAU回落完就老实了。\n\n后续我发现，识别图片不准可能是Kimi api的问题，因为我们问Kimi claw也出现了类似问题：我给它发B站的视频，它说我在看乐鑫科技股票；给它发胖猫照片，它说这是科比·布莱恩特🤣\n\nWhat can i say，曼巴out😭\n\n这里再补充一下，Openclaw是一个面向开发者的产品，所有服务包括语音转文字，都需要专门配置相关的API。\n\n云端Openclaw当然已经降低了门槛，但也就是省去部署Openclaw本身的环节，大部分API仍然需要自己配置。\n\n而类似我这种被Openclaw炒作热潮吸引进来的普通用户是难以理解的，都已经部署了一个云服务器、还把它接入QQ了，居然连语音、图片都识别不了，只能给我写点简单的报告，完全浪费了我用于打三角洲的时间。\n\n咸鱼昨天说，云端龙虾类产品，实际上是Chatbot升级版。我认为还不如Chatbot，因为Claude还能给我准确的实现路径。\n\n要让AI真正干复杂工作，而不只是写调研报告、做个人网站，现阶段还是离不开Claude code和Codex，而这一切的前提是AI有本地环境。\n\n可以这么理解，没有本地环境的云端Openclaw就是路边一条。它的唯一用途是让你伪装成中登在飞书里指挥AI，享受当领导的感觉。\n\n我们实测下来，目前云端Openclaw最好用的是Manus Agents。\n\n新加坡家人们在春节紧急上线了类龙虾的聊天助手产品，可以一键配置到Telegram使用，原来上岸了也要努力💪\n\n就是积分也用的太快了\n\n因为 Manus早接入了谷歌等海外服务生态，所以在聊天窗口里，可以发语音叫它完成所有Manus网站能完成的事情。\n\n比如开启 Agent集群 Wide research，并行完成十几项任务，然后把报告发到邮箱里，或者上传Github——不过我的问题是，这些功能在Manus里不也一样能用吗？\n\n（咸鱼补充：我反对这段话啊，微信发语音指挥员工干活，和站工位面前手把手教下属debug，这能一样吗？）\n\n不过往好处的地方想想，中国大模型公司终于享受到了美国般的待遇，可算有地方让爱薅羊毛的大伙大量消耗掉token了，这才让御三家有竞相在OpenRouter打榜吹牛逼的底气。\n\n亲爱的Kimi真是发达了，急着pr近20天收入超过去年全年。当然这不能说明Kimi claw牛逼，只能说明去年C端真没挣到啥钱。\n\n**而我们的好朋友胖猫，作为一家上市公司的MiniMax，CEO竟然直接在电话会上说2月的ARR超过了1.5亿美金，所以2月收入是1.5/12亿美金？**\n\n怎么胖猫也染上了创业公司的恶习😭\n\n家人们，云端Openclaw是21世纪最大的骗局，它最坏的地方就是把一款面向开发者的产品包装成小白点击即玩的，实际上大伙一键用上的都是丐版Openclaw，没有本地环境还要挨个配置API。\n\n这玩意Claude code来全秒了。有这钱你拿去找个健身教练减减肥不好吗？AI时代活得久最重要。\n\n最后，我对大伙的真诚建议是，如果真的有AI成瘾症，不玩Openclaw就活不下去，而且懒得部署，那就去小红书花400找人上门。我看北京已经有人上门部署Openclaw送两小时保洁了，Openclaw有没有用不清楚，起码你家更干净了。\n\n这位博主说得很有道理，下载安装包的时候就应该打扫卫生，把空闲的时间利用起来。\n\n最后，谨以此文纪念我为Maxclaw、Kimiclaw和腾讯云花的money😭\n\n（本文封面由ChatGPT 生成，纯人工写作）\n\n---\n*原文链接：https://mp.weixin.qq.com/s/VdnN6TsU2tIeZEiWFjCcNg*\n",
+  "body_markdown": "「云端OpenClaw是21世纪最大骗局」\n\nOpenclaw是不是不如骆老师轶航家的狗还需要探讨，但云端Openclaw肯定是路边一条。\n\n这两天我先后用了Minimax、Kimi，还有腾讯云的云端Openclaw。\n\n首先必须承认，是我太懒惰了，看到国内大模型公司说能一键部署Openclaw就直接付费了，没有独立思考。\n\n结果就悲催了。\n\n我最开始用的是MaxClaw，确实付了钱直达对话框了，连接进飞书后我马上问Maxclaw，能不能登录我的小红书？\n\n它说理论上可以，但它现在没有我的浏览器控制能力，需要在电脑上安装Openclaw客户端并配对后，才可以执行命令、运行脚本。\n\n不是，怎么又绕回来要安装本地Openclaw，那我花钱买你有何用？\n\n我本来还疑惑为什么一登陆就建议我连进飞书呢？到这里才发现，原来接入飞书和钉钉就是云端龙虾的精髓，除了这个和一堆内置skill外没别的了。\n\n我想难道是我使用方法不对？连忙去拜读了吹这玩意的一堆case，结果都是什么生成一份投资报告啊、做一个新闻抓取器啊，还有抓取X近一周热点新闻什么的。\n\n不是哥们，这些任务直接拿模型做不也一样吗？鉴定为表演式使用Openclaw。\n\n此时我还没有死心，想是不是39的Maxclaw便宜没好货，于是买了隔壁199的Kimi claw，没想到也是路边。\n\n我试着让它调用Kimi Code，它说官方没有Kimi Code，但它可以帮我造一个。\n\n给我气笑了，我只能把我的VS Code截图给它。另外，Kimi claw也不能调用Kimi 的Agent集群，属于是好的还没舍得拿出来给大伙用。\n\n我知道没法自动登录网站，干脆登好了小红书，把网页链接发给Kimi claw，让它帮我在上面找北京一室一厅的房子，结果回答我说小红书检测到了自动化浏览器环境，被屏蔽了😭\n\n只能通过公开资料整理给我——又回到Chatbot 逻辑了。\n\n也能理解吧。国内环境就是封闭，就算是已经接入飞书了，命令Kimi claw在飞书里构建生态也被处处设防。\n\n本质上这类云端Openclaw产品都是裸模型加上龙虾架构，大部分回答没有被调优设计过，很可能大部分通用问题不如直接问Chatbot，完全不适合小白用户。所以不要再欺负我们黑铁兄弟了😭\n\n我又抱着试一试的心态买了腾讯云的Openclaw部署服务。先是买了云服务器，自己配置了Kimi API、又在QQ开发平台上整了个bot，将其命名为QQ小冰，假装QQ小冰秽土重生。\n\n结果呢，这个QQ小冰Openclaw不仅卡得要死，听不懂语音，还不能识别图片，智商和正版QQ小冰不相上下。\n\n后来QQ小冰Openclaw又说可以识别了，我发了张表情包，它先说这是QQ聊天的截图，又说这是我和AI助手派宝的聊天。有没有懂哥说一下，派宝是元宝派吗？\n\n我真没辙了。家人们这个真得避雷一下吧。云厂商一点优化不做啊。腾讯全心全意干元宝派去了是吧，等这波红包带来的DAU回落完就老实了。\n\n后续我发现，识别图片不准可能是Kimi api的问题，因为我们问Kimi claw也出现了类似问题：我给它发B站的视频，它说我在看乐鑫科技股票；给它发胖猫照片，它说这是科比·布莱恩特🤣\n\nWhat can i say，曼巴out😭\n\n这里再补充一下，Openclaw是一个面向开发者的产品，所有服务包括语音转文字，都需要专门配置相关的API。\n\n云端Openclaw当然已经降低了门槛，但也就是省去部署Openclaw本身的环节，大部分API仍然需要自己配置。\n\n而类似我这种被Openclaw炒作热潮吸引进来的普通用户是难以理解的，都已经部署了一个云服务器、还把它接入QQ了，居然连语音、图片都识别不了，只能给我写点简单的报告，完全浪费了我用于打三角洲的时间。\n\n咸鱼昨天说，云端龙虾类产品，实际上是Chatbot升级版。我认为还不如Chatbot，因为Claude还能给我准确的实现路径。\n\n要让AI真正干复杂工作，而不只是写调研报告、做个人网站，现阶段还是离不开Claude code和Codex，而这一切的前提是AI有本地环境。\n\n可以这么理解，没有本地环境的云端Openclaw就是路边一条。它的唯一用途是让你伪装成中登在飞书里指挥AI，享受当领导的感觉。\n\n我们实测下来，目前云端Openclaw最好用的是Manus Agents。\n\n新加坡家人们在春节紧急上线了类龙虾的聊天助手产品，可以一键配置到Telegram使用，原来上岸了也要努力💪\n\n就是积分也用的太快了\n\n因为 Manus早接入了谷歌等海外服务生态，所以在聊天窗口里，可以发语音叫它完成所有Manus网站能完成的事情。\n\n比如开启 Agent集群 Wide research，并行完成十几项任务，然后把报告发到邮箱里，或者上传Github——不过我的问题是，这些功能在Manus里不也一样能用吗？\n\n（咸鱼补充：我反对这段话啊，微信发语音指挥员工干活，和站工位面前手把手教下属debug，这能一样吗？）\n\n不过往好处的地方想想，中国大模型公司终于享受到了美国般的待遇，可算有地方让爱薅羊毛的大伙大量消耗掉token了，这才让御三家有竞相在OpenRouter打榜吹牛逼的底气。\n\n亲爱的Kimi真是发达了，急着pr近20天收入超过去年全年。当然这不能说明Kimi claw牛逼，只能说明去年C端真没挣到啥钱。\n\n**而我们的好朋友胖猫，作为一家上市公司的MiniMax，CEO竟然直接在电话会上说2月的ARR超过了1.5亿美金，所以2月收入是1.5/12亿美金？**\n\n怎么胖猫也染上了创业公司的恶习😭\n\n家人们，云端Openclaw是21世纪最大的骗局，它最坏的地方就是把一款面向开发者的产品包装成小白点击即玩的，实际上大伙一键用上的都是丐版Openclaw，没有本地环境还要挨个配置API。\n\n这玩意Claude code来全秒了。有这钱你拿去找个健身教练减减肥不好吗？AI时代活得久最重要。\n\n最后，我对大伙的真诚建议是，如果真的有AI成瘾症，不玩Openclaw就活不下去，而且懒得部署，那就去小红书花400找人上门。我看北京已经有人上门部署Openclaw送两小时保洁了，Openclaw有没有用不清楚，起码你家更干净了。\n\n这位博主说得很有道理，下载安装包的时候就应该打扫卫生，把空闲的时间利用起来。\n\n最后，谨以此文纪念我为Maxclaw、Kimiclaw和腾讯云花的money😭\n\n（本文封面由ChatGPT 生成，纯人工写作）",
+  "excerpt": "「云端OpenClaw是21世纪最大骗局」 Openclaw是不是不如骆老师轶航家的狗还需要探讨，但云端Openclaw肯定是路边一条。 这两天我先后用了Minimax、Kimi，还有腾讯云的云端Openclaw。 首先必须承认，是我太懒惰了，看到国内大模型公司说能一键部署Openclaw就直接付费了，没有独立思考。 结果就悲催了。 我最开始用的是MaxClaw，确实付了钱直达对话框了，连接进飞书后我马上问Maxclaw，能不能登...",
+  "entity_count": 16,
+  "relationship_count": 12,
+  "entities": [
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "type": "product",
+      "description": "一款AI相关产品或工具，被Cherry Studio集成",
+      "mention_count": 18,
+      "aliases": [
+        "Clawdbot",
+        "Openclaw",
+        "云端OpenClaw",
+        "云端Openclaw",
+        "云端龙虾",
+        "龙虾",
+        "🦞"
+      ],
+      "tags": [
+        "开源",
+        "Agent",
+        "后端All in One",
+        "情感陪伴"
+      ]
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "type": "product",
+      "description": "通用Agent平台，被作者称为“版本神”，开创了左边大模型右边云电脑沙盒的产品形态",
+      "mention_count": 7,
+      "aliases": [
+        "Manus (产品)",
+        "Manus Agents",
+        "Manus产品",
+        "Man君",
+        "新加坡家人们"
+      ],
+      "tags": [
+        "云端AI",
+        "封闭系统"
+      ]
+    },
+    {
+      "id": "阶跃桌面伙伴",
+      "name": "阶跃桌面伙伴",
+      "type": "product",
+      "description": "拥有本地环境权限的编程Agent套壳及桌面OS产品",
+      "mention_count": 6,
+      "aliases": [
+        "阶跃桌面助手",
+        "阶跃电脑助手"
+      ],
+      "tags": [
+        "编程Agent",
+        "本地环境",
+        "桌面OS"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "Anthropic发布的AI编程Agent工具，被集成入Cherry Studio",
+      "mention_count": 4,
+      "aliases": [
+        "CC",
+        "Claude 3.5 Sonnet",
+        "Claude Code",
+        "Claude code",
+        "cc"
+      ],
+      "tags": [
+        "编程Agent",
+        "云端AI"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "OpenAI的通用大语言模型产品，被视为AI陪伴赛道的未来方向之一",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "云端AI"
+      ]
+    },
+    {
+      "id": "安卓",
+      "name": "安卓",
+      "type": "product",
+      "description": "开源操作系统，被用来类比Openclaw的开源属性",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "开源"
+      ]
+    },
+    {
+      "id": "微信",
+      "name": "微信",
+      "type": "product",
+      "description": "腾讯旗下的社交软件，文中作为评估抖音社交能力对比的基准。",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "前端All in One"
+      ]
+    },
+    {
+      "id": "苹果",
+      "name": "苹果",
+      "type": "company",
+      "description": "科技公司，其封闭生态被用来类比Manus",
+      "mention_count": 2,
+      "aliases": [
+        "Apple"
+      ],
+      "tags": [
+        "封闭系统"
+      ]
+    },
+    {
+      "id": "飞书",
+      "name": "飞书",
+      "type": "product",
+      "description": "企业协同办公软件，其交互界面和模式被Cherry Studio视为参考和替代对标",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "聊天软件"
+      ]
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "type": "product",
+      "description": "聊天软件，可接入Openclaw",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "聊天软件"
+      ]
+    },
+    {
+      "id": "elys",
+      "name": "Elys",
+      "type": "product",
+      "description": "社交类AI产品，被形容为光屁股版的即刻",
+      "mention_count": 1,
+      "aliases": [
+        "爱丽丝论坛"
+      ],
+      "tags": []
+    },
+    {
+      "id": "genspark",
+      "name": "GenSpark",
+      "type": "product",
+      "description": "缝合了文档、图片、视频等功能的前端All in One AI应用",
+      "mention_count": 1,
+      "aliases": [
+        "Genspark"
+      ],
+      "tags": [
+        "前端All in One"
+      ]
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "type": "product",
+      "description": "聊天软件，可接入Openclaw",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "聊天软件"
+      ]
+    },
+    {
+      "id": "kaiyi",
+      "name": "kaiyi",
+      "type": "person",
+      "description": "做过AI浏览器的工程师，Manus前身浏览器的资深开发",
+      "mention_count": 1,
+      "aliases": [
+        "凯一",
+        "孙先生",
+        "鹤岗凯一"
+      ],
+      "tags": []
+    },
+    {
+      "id": "即刻",
+      "name": "即刻",
+      "type": "product",
+      "description": "社交平台，被用作比喻Elys的参照物",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "社交"
+      ]
+    },
+    {
+      "id": "钟十六",
+      "name": "钟十六",
+      "type": "person",
+      "description": "阶跃桌面助手开发者，致力于将其打造成Agent OS入口",
+      "mention_count": 1,
+      "aliases": [
+        "钟哥",
+        "钟经纬"
+      ],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "elys",
+      "target_id": "即刻",
+      "source": "Elys",
+      "target": "即刻",
+      "relation_type": "compares_to",
+      "label": "Elys被形容为「光屁股版的即刻」",
+      "weight": 1
+    },
+    {
+      "source_id": "genspark",
+      "target_id": "微信",
+      "source": "GenSpark",
+      "target": "微信",
+      "relation_type": "compares_to",
+      "label": "Genspark等产品试图学习微信的前端All in One模式",
+      "weight": 1
+    },
+    {
+      "source_id": "manus",
+      "target_id": "openclaw",
+      "source": "Manus",
+      "target": "OpenClaw",
+      "relation_type": "compares_to",
+      "label": "Openclaw被视为Manus给AI加上手这一思路的延伸",
+      "weight": 1
+    },
+    {
+      "source_id": "manus",
+      "target_id": "苹果",
+      "source": "Manus",
+      "target": "苹果",
+      "relation_type": "compares_to",
+      "label": "Manus被比喻为AI界的苹果，是一个流畅但昂贵的封闭系统",
+      "weight": 1
+    },
+    {
+      "source_id": "openclaw",
+      "target_id": "安卓",
+      "source": "OpenClaw",
+      "target": "安卓",
+      "relation_type": "compares_to",
+      "label": "Openclaw被比喻为AI界的安卓，是一个便宜可玩性高的开源系统",
+      "weight": 1
+    },
+    {
+      "source_id": "openclaw",
+      "target_id": "阶跃桌面伙伴",
+      "source": "OpenClaw",
+      "target": "阶跃桌面伙伴",
+      "relation_type": "competes_with",
+      "label": "阶跃桌面伙伴早已具备Openclaw的核心理念(本地环境、任务)，开发者对Openclaw的爆火感到不平",
+      "weight": 1
+    },
+    {
+      "source_id": "kaiyi",
+      "target_id": "openclaw",
+      "source": "kaiyi",
+      "target": "OpenClaw",
+      "relation_type": "criticizes",
+      "label": "鹤岗凯一锐评Openclaw，认为其是一个情感陪伴产品",
+      "weight": 1
+    },
+    {
+      "source_id": "claude",
+      "target_id": "openclaw",
+      "source": "Claude",
+      "target": "OpenClaw",
+      "relation_type": "integrates_with",
+      "label": "Openclaw可以调用电脑上安装的Claude code做复杂工作",
+      "weight": 1
+    },
+    {
+      "source_id": "discord",
+      "target_id": "openclaw",
+      "source": "Discord",
+      "target": "OpenClaw",
+      "relation_type": "integrates_with",
+      "label": "Openclaw可以接入Discord进行对话",
+      "weight": 1
+    },
+    {
+      "source_id": "openclaw",
+      "target_id": "telegram",
+      "source": "OpenClaw",
+      "target": "Telegram",
+      "relation_type": "integrates_with",
+      "label": "Openclaw可以接入Telegram进行对话",
+      "weight": 1
+    },
+    {
+      "source_id": "openclaw",
+      "target_id": "飞书",
+      "source": "OpenClaw",
+      "target": "飞书",
+      "relation_type": "integrates_with",
+      "label": "Openclaw可以接入飞书等聊天软件进行对话",
+      "weight": 1
+    },
+    {
+      "source_id": "钟十六",
+      "target_id": "阶跃桌面伙伴",
+      "source": "钟十六",
+      "target": "阶跃桌面伙伴",
+      "relation_type": "works_on",
+      "label": "钟经纬主导并上线了阶跃桌面伙伴产品",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "id": "059",
+  "title": "Clawdbot是一场马斯克发动的中登炒作",
+  "date": "2026-01-30",
+  "author": "葬爱咸鱼",
+  "path": "articles/059_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+  "permalink": "/articles/059",
+  "markdown_link": "articles/059_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+  "raw_markdown": "# Clawdbot是一场马斯克发动的中登炒作\n\n- **作者**：葬爱咸鱼\n- **发布日期**：2026-01-30\n- **来源**：微信公众号「葬愛咸鱼」\n\n---\n\n「世界是一个信息网络」\nClawdbot是我见过最中登、最程序员趣味的AI产品。\n这玩意和NAS一模一样，除了自媒体和中年电子爱好者，我想不出来任何人需要使用\nClawdbot。\n怎么会有人对着一个手机遥控器嗨上一周呢？\n完全是欺负绝大部分看AI自媒体的家人，不会自己部署一个Clawdbot，没有实际体感。\nClawdbot就是一个手机遥控器。功能一句话就能讲明白，用手机聊天软件操控电脑里运\n行的AI助手。\nAI助手的能力来自获取了电脑的系统权限，包括本地终端、API密钥、聊天软件账号密码\n等全部权限。\n只要你敢把敏感权限都开放，让这玩意获取账号密码，那确实可以做到：\n你在聊天软件里给Clawdbot发句信息，叫他操纵电脑终端里运行的Claude code干活。\n还可以无限套娃下去，你确实可以在手机里叫Clawdbot用Claude code调用Skill操纵剪辑\n软件剪视频，操纵Figma做设计……\n一种AI人体蜈蚣的绝美滋味。\nClawdbot工作示意图\n虽然我对这轮Clawdbot平地干拔的炒作感到无比厌恶，但为了锐评这玩意，还是要上手\n用一用的，不然就成只会看-1报告的大厂中登了👋😭👋\n刚好各家云厂商又在卷新热点，于是我给\n阿里云爆了49金币。（后文会讲到美国炒作云\nAWS怎么推动了这波🦞大炒。）这里表扬一句，阿里云评论区置顶的无影云电脑部署文档\n比正文简单清晰。\n我只花了十多分钟就接入了钉钉，实现了在葬爱咸鱼科技有限公司钉钉群，发消息\n@clawdbot，就能让它干点小活。\n比如搜索个天气、写个五子棋小游戏、管理本地文件，或者讲个苏联笑话。\n我不知道是Clawdbot整了限制，还是调用的Qwen-Max模型有比较高的道德水平。这玩\n意不能地域歧视，不能搞颜色，但可以讲苏联笑话。\n有点难评。\n\n非要说个优点的话，Clawdbot的记忆功能不错，我要求回复时都要叫我葬爱咸鱼，他每\n次都照做。\n我也完全能够想象出，假如给这个云电脑装了Claude code，或者直接用我的个人电脑，\nClawdbot是可以完成更多任务。\n比如有人分享自己在健身房，发消息叫Clawdbot操纵CC写程序。\n嗯，这样很好。但为什么在健身房还要写程序呢。说真的，有点可悲😭\n我其实能够理解程序员朋友们的爽点的，程序员的爽点和正常人不一样。\n程序员把什么玩意儿连接起来就很开心，比如用手机操纵家里的NAS，或者拿手机操纵家\n里的Mac mini。\n我能想象出，程序员现在能做到的最爽的事情，应该是拿手机操纵Mac mini里运行的\nClawdbot，然后给这玩意接上小米全家桶的权限，用手机命令Clawdbot控制小家电。\n直接爽晕。\n我能理解的，程序员的本质是峰哥嘛，都喜欢连接。\n但是，Clawdbot对普通用户完全没用啊。\n首先，我为什么要在手机操纵CC写代码，手机屏幕太小看不明白，IDE存在的目的就是让\n我更好地阅读、编辑啊。\n其次，是有少数人就爱用手机办公，很多老板都不用电脑了。但他们完全可以用更安全成\n熟的方案，tmux远程连接终端，还有一堆bot项目可以实现手机发消息操纵Claude\ncode。\n\n完全没必要整Clawdbot这么吓人的活，把本地文件和聊天软件账号都交给一个开发两个\n月的开源项目，还会把所有聊天对话都上传到模型厂服务器。\n随便就搜出来一堆替代方案\n最重要的是，绝大部分人fomo得非常抽象。\nClaude code是一个真东西，而这玩意普及率还非常地低。\n我试图教会一位非技术背景的阿里老哥使用CC，折腾一周后，还是谷歌的Antigravity用\n起来更容易。\n就是反重力里边的Agent功能，已经足够让老哥大呼震惊，可以根据他的本地文件，撰写\n真的能用的工作文档和投资策略。\n未来半年最确定性的机会是，Claude code套壳大赛。\n因为CC事实上是一切Agent的引擎，给它套上易用的壳，接上更多有用的API服务，就能\n创造非常大的价值。\n并且，你会发现在CC套壳上，Anthropic和创业公司完全处于一个起跑线。\n邪恶意大利人自己做的套壳Cowork一比吊糟，任务总是中断、没有任何附加功能，我很\n后悔为了试用这玩意爆了90美元金币。\n还不如我朋友花一个月时间做的CC套壳 proma.cool，至少这玩意任务不咋中断，都是接\n的CC SDK，干活没本质区别。\n\n壳的壁垒是很高的。大家都接入差不多的引擎，那做好壳的各种小功能和交互设计，给用\n户带来更好的使用体验，就是非常确定性的机会。\n我们可以举一系列参赛选手：\n阶跃桌面伙伴、\nCherry studio、\nProma、MiniMax\nAgent，我认识的就有这些，其他请家人们补充到评论区。\n所以我完全不理解，推特和公众号的炒作家人们在嗨什么，就这么喜欢连接？😭\n不过，Clawdbot炒作热潮并不能怪他的开发者。\n奥地利老哥开源一个AI助手没有伤害任何人。并且这种T0级别的炒作热潮不可能是他个\n人设计的，他要有这个水平应该直接干川子的总统特别顾问，AI属于小儿科来。\n我的独立思考的发现是，Clawdbot炒作热潮主要怪马斯克。\n因为推特最近更新了推荐算法，新的推荐算法号称完全由大语言模型驱动。\n这一个月来，我刷推的直接感受是，几百万阅读、几万十几万点赞的文章越来越多了。这\n种打穿圈层的超级爆款在不断涌现。\n一个典型代表是Dan Koe，此人写作水平不如知乎优秀答主，他那些鸡汤文章居然能穿透\n中英文区，一堆毫不相干的中文区博主都在发表读后感悟。\n更直接的例子是币圈文艺复兴了。好几个币圈炒作狗都在写推特长文，分享自己的交易心\n得。都冒出来有炒作狗号称要用媒体做币圈投资了。\n最适合实践a16z这套\n媒体投资嗑的，果然是币圈炒作狗😭\n\n炒作麻了\n为了佐证我的观察，我拿Claude code 分析了马圣开源的X 推荐算法仓库\n（https://github.com/xai-org/x-algorithm）。\n结果令人泪目——新推荐算法的核心指标是互动（engagement）。\n这玩意只学习一件事，什么内容能让用户点击、停留、互动。\n不判断内容质量，不判断标题党，纯粹的行为预测机器。模型的评分公式非常简单粗暴：\n最终分数 = 点赞概率×权重 + 回复概率×权重+转发概率×权重 + 停留时间×权重 ……\n同时，检索系统会从全局语料库里挖掘「你可能感兴趣」的内容推给你，哪怕发帖人你根\n本不认识。\n两套机制一叠加：高互动内容天然高分+主动破圈推送 = 超级爆款批量涌现。\n我操有没有人管管马斯克啊。推特真的在hack全世界人民了😭\n你要把这个世界想象成一张信息网络。\n推特整体在信息网络的权重最高。因为推荐算法主导的文字社区，相比起短视频和订阅制\n平台，形成全平台的炒作爆款容易得多了。\n川子、马斯克等各路KOL是一个个权重较高的节点。  NYT、WSJ这些传统媒体之前是局\n域网，现在弱化成了节点。\n\n推特的下游，才是Tiktok、Reddit、公众号乃至于抖音、小红书。因为推特的权重更高，\n这些权重较低的局域网会扩散传播推特的爆款内容。\n这就导致了谁hack了推特，就等于hack了整个互联网，可以往全世界人民脑袋里灌屎。\n而hack推特，只需要十几二十个KOL。\n从谷歌搜索趋势和Github Star数都可以看出，Clawdbot是在1月25号（周日）彻底炒作起\n来的，炒作曲线堪称平地干拔。\n那么上个周末发生了什么呢？\n一群英文区KOL，主要是科技博主，也有几个币圈的，集体炒作「Mac Mini部署」「五分\n钟AWS部署」「第一个AI员工」「24/7AI助手」……\n我看这一堆炒作概念脑壳嗡嗡的。\n经过了周末英文区的大炒作后，中文区和公众号、小红书的炒作博主们纷纷紧跟潮流，各\n种部署教程、震惊、炸裂、我拿Clawdbot五分钟/十分钟炒作出了疯狂的案例，还有\nMacMini涨价的梗图开始网路全铺。\n不过，Clawdbot和Manus都引发炒作热潮，但口碑不同的原因在于——Manus你真明白\n怎么用。一个聊天框嘛谁不会用，但Manus不给邀请码导致我用不上就坏透了，一眼鉴定\n\n为纯炒作。\n而Clawdbot绝大部分家人真不知道怎么用。即便按照云厂商的傻瓜教程，也要花点时间\n来部署、接入聊天软件。而家人们怎么能够承认自己不会用一个时髦AI产品呢？\n当然，这场盛大的炒作中，值得学习的地方也挺多的。\nClawdbot接入聊天软件就是一个堪比Manus展示任务执行过程的传播杰作。\n那一堆远程连接终端的工具项目，家人们确实不明觉历。但能在聊天软件直接\n@clawdbot，这下全都明白了，甚至还能发语音下任务。\n这里还要表扬腾讯云、阿里云、火山引擎等一种云厂商反应快，炒作思路过硬。一键安装\n好服务器，肯定比用户自己去终端一句一句输入命令容易得多。\n不管这玩意是什么，接住流量就是平台应该做的。\n我认真研究了一下，AWS官方1月28日才跟上炒作节奏，出了官方教程，之前全是KOL自\n发的。国内云厂商反应速度其实是要快于AWS的。\n还有MiniMax一个模型厂，早在1月26日就开始\n炒作Clawdbot，这个反应速度让我更相\n信了一点胖猫的2C能力。\n最后，我的想法还有两个。\n一个是，我真的觉得马斯克应该被管起来。\n他事实上拥有了人类有史以来最有影响力的媒体，他本人也成为了本世界最有影响力的人\n物。\n你很难分高下出他和川普，因为马圣至少还能炒作几十年，并且他能够绝对掌控特斯拉、\nxAI、SpaceX这三家科技巨头。其中的推特真的可以hack全世界。\n另一个是，我真诚建议千问，加个日程助手功能。用户发个语音或者聊天截图，ChatBot\n能设置日程提醒。应该也不复杂，就调取通知和日历权限的事，毕竟\n马卡龙都实现\n了。\n与其让新出现的AI产品都炒作自己是个人助理、Personal agent，不如直接自己上了。督\n促创业小登整点新活，革新炒作思路，大厂要给小登上点强度。\n我说完了，今年工作基本结束，下周滑雪去了。家人们加油🫡\n\n---\n*原文链接：https://mp.weixin.qq.com/s/HYpLVozJhUJhKYTGH8LoZw*\n",
+  "body_markdown": "「世界是一个信息网络」\nClawdbot是我见过最中登、最程序员趣味的AI产品。\n这玩意和NAS一模一样，除了自媒体和中年电子爱好者，我想不出来任何人需要使用\nClawdbot。\n怎么会有人对着一个手机遥控器嗨上一周呢？\n完全是欺负绝大部分看AI自媒体的家人，不会自己部署一个Clawdbot，没有实际体感。\nClawdbot就是一个手机遥控器。功能一句话就能讲明白，用手机聊天软件操控电脑里运\n行的AI助手。\nAI助手的能力来自获取了电脑的系统权限，包括本地终端、API密钥、聊天软件账号密码\n等全部权限。\n只要你敢把敏感权限都开放，让这玩意获取账号密码，那确实可以做到：\n你在聊天软件里给Clawdbot发句信息，叫他操纵电脑终端里运行的Claude code干活。\n还可以无限套娃下去，你确实可以在手机里叫Clawdbot用Claude code调用Skill操纵剪辑\n软件剪视频，操纵Figma做设计……\n一种AI人体蜈蚣的绝美滋味。\nClawdbot工作示意图\n虽然我对这轮Clawdbot平地干拔的炒作感到无比厌恶，但为了锐评这玩意，还是要上手\n用一用的，不然就成只会看-1报告的大厂中登了👋😭👋\n刚好各家云厂商又在卷新热点，于是我给\n阿里云爆了49金币。（后文会讲到美国炒作云\nAWS怎么推动了这波🦞大炒。）这里表扬一句，阿里云评论区置顶的无影云电脑部署文档\n比正文简单清晰。\n我只花了十多分钟就接入了钉钉，实现了在葬爱咸鱼科技有限公司钉钉群，发消息\n@clawdbot，就能让它干点小活。\n比如搜索个天气、写个五子棋小游戏、管理本地文件，或者讲个苏联笑话。\n我不知道是Clawdbot整了限制，还是调用的Qwen-Max模型有比较高的道德水平。这玩\n意不能地域歧视，不能搞颜色，但可以讲苏联笑话。\n有点难评。\n\n非要说个优点的话，Clawdbot的记忆功能不错，我要求回复时都要叫我葬爱咸鱼，他每\n次都照做。\n我也完全能够想象出，假如给这个云电脑装了Claude code，或者直接用我的个人电脑，\nClawdbot是可以完成更多任务。\n比如有人分享自己在健身房，发消息叫Clawdbot操纵CC写程序。\n嗯，这样很好。但为什么在健身房还要写程序呢。说真的，有点可悲😭\n我其实能够理解程序员朋友们的爽点的，程序员的爽点和正常人不一样。\n程序员把什么玩意儿连接起来就很开心，比如用手机操纵家里的NAS，或者拿手机操纵家\n里的Mac mini。\n我能想象出，程序员现在能做到的最爽的事情，应该是拿手机操纵Mac mini里运行的\nClawdbot，然后给这玩意接上小米全家桶的权限，用手机命令Clawdbot控制小家电。\n直接爽晕。\n我能理解的，程序员的本质是峰哥嘛，都喜欢连接。\n但是，Clawdbot对普通用户完全没用啊。\n首先，我为什么要在手机操纵CC写代码，手机屏幕太小看不明白，IDE存在的目的就是让\n我更好地阅读、编辑啊。\n其次，是有少数人就爱用手机办公，很多老板都不用电脑了。但他们完全可以用更安全成\n熟的方案，tmux远程连接终端，还有一堆bot项目可以实现手机发消息操纵Claude\ncode。\n\n完全没必要整Clawdbot这么吓人的活，把本地文件和聊天软件账号都交给一个开发两个\n月的开源项目，还会把所有聊天对话都上传到模型厂服务器。\n随便就搜出来一堆替代方案\n最重要的是，绝大部分人fomo得非常抽象。\nClaude code是一个真东西，而这玩意普及率还非常地低。\n我试图教会一位非技术背景的阿里老哥使用CC，折腾一周后，还是谷歌的Antigravity用\n起来更容易。\n就是反重力里边的Agent功能，已经足够让老哥大呼震惊，可以根据他的本地文件，撰写\n真的能用的工作文档和投资策略。\n未来半年最确定性的机会是，Claude code套壳大赛。\n因为CC事实上是一切Agent的引擎，给它套上易用的壳，接上更多有用的API服务，就能\n创造非常大的价值。\n并且，你会发现在CC套壳上，Anthropic和创业公司完全处于一个起跑线。\n邪恶意大利人自己做的套壳Cowork一比吊糟，任务总是中断、没有任何附加功能，我很\n后悔为了试用这玩意爆了90美元金币。\n还不如我朋友花一个月时间做的CC套壳 proma.cool，至少这玩意任务不咋中断，都是接\n的CC SDK，干活没本质区别。\n\n壳的壁垒是很高的。大家都接入差不多的引擎，那做好壳的各种小功能和交互设计，给用\n户带来更好的使用体验，就是非常确定性的机会。\n我们可以举一系列参赛选手：\n阶跃桌面伙伴、\nCherry studio、\nProma、MiniMax\nAgent，我认识的就有这些，其他请家人们补充到评论区。\n所以我完全不理解，推特和公众号的炒作家人们在嗨什么，就这么喜欢连接？😭\n不过，Clawdbot炒作热潮并不能怪他的开发者。\n奥地利老哥开源一个AI助手没有伤害任何人。并且这种T0级别的炒作热潮不可能是他个\n人设计的，他要有这个水平应该直接干川子的总统特别顾问，AI属于小儿科来。\n我的独立思考的发现是，Clawdbot炒作热潮主要怪马斯克。\n因为推特最近更新了推荐算法，新的推荐算法号称完全由大语言模型驱动。\n这一个月来，我刷推的直接感受是，几百万阅读、几万十几万点赞的文章越来越多了。这\n种打穿圈层的超级爆款在不断涌现。\n一个典型代表是Dan Koe，此人写作水平不如知乎优秀答主，他那些鸡汤文章居然能穿透\n中英文区，一堆毫不相干的中文区博主都在发表读后感悟。\n更直接的例子是币圈文艺复兴了。好几个币圈炒作狗都在写推特长文，分享自己的交易心\n得。都冒出来有炒作狗号称要用媒体做币圈投资了。\n最适合实践a16z这套\n媒体投资嗑的，果然是币圈炒作狗😭\n\n炒作麻了\n为了佐证我的观察，我拿Claude code 分析了马圣开源的X 推荐算法仓库\n（https://github.com/xai-org/x-algorithm）。\n结果令人泪目——新推荐算法的核心指标是互动（engagement）。\n这玩意只学习一件事，什么内容能让用户点击、停留、互动。\n不判断内容质量，不判断标题党，纯粹的行为预测机器。模型的评分公式非常简单粗暴：\n最终分数 = 点赞概率×权重 + 回复概率×权重+转发概率×权重 + 停留时间×权重 ……\n同时，检索系统会从全局语料库里挖掘「你可能感兴趣」的内容推给你，哪怕发帖人你根\n本不认识。\n两套机制一叠加：高互动内容天然高分+主动破圈推送 = 超级爆款批量涌现。\n我操有没有人管管马斯克啊。推特真的在hack全世界人民了😭\n你要把这个世界想象成一张信息网络。\n推特整体在信息网络的权重最高。因为推荐算法主导的文字社区，相比起短视频和订阅制\n平台，形成全平台的炒作爆款容易得多了。\n川子、马斯克等各路KOL是一个个权重较高的节点。  NYT、WSJ这些传统媒体之前是局\n域网，现在弱化成了节点。\n\n推特的下游，才是Tiktok、Reddit、公众号乃至于抖音、小红书。因为推特的权重更高，\n这些权重较低的局域网会扩散传播推特的爆款内容。\n这就导致了谁hack了推特，就等于hack了整个互联网，可以往全世界人民脑袋里灌屎。\n而hack推特，只需要十几二十个KOL。\n从谷歌搜索趋势和Github Star数都可以看出，Clawdbot是在1月25号（周日）彻底炒作起\n来的，炒作曲线堪称平地干拔。\n那么上个周末发生了什么呢？\n一群英文区KOL，主要是科技博主，也有几个币圈的，集体炒作「Mac Mini部署」「五分\n钟AWS部署」「第一个AI员工」「24/7AI助手」……\n我看这一堆炒作概念脑壳嗡嗡的。\n经过了周末英文区的大炒作后，中文区和公众号、小红书的炒作博主们纷纷紧跟潮流，各\n种部署教程、震惊、炸裂、我拿Clawdbot五分钟/十分钟炒作出了疯狂的案例，还有\nMacMini涨价的梗图开始网路全铺。\n不过，Clawdbot和Manus都引发炒作热潮，但口碑不同的原因在于——Manus你真明白\n怎么用。一个聊天框嘛谁不会用，但Manus不给邀请码导致我用不上就坏透了，一眼鉴定\n\n为纯炒作。\n而Clawdbot绝大部分家人真不知道怎么用。即便按照云厂商的傻瓜教程，也要花点时间\n来部署、接入聊天软件。而家人们怎么能够承认自己不会用一个时髦AI产品呢？\n当然，这场盛大的炒作中，值得学习的地方也挺多的。\nClawdbot接入聊天软件就是一个堪比Manus展示任务执行过程的传播杰作。\n那一堆远程连接终端的工具项目，家人们确实不明觉历。但能在聊天软件直接\n@clawdbot，这下全都明白了，甚至还能发语音下任务。\n这里还要表扬腾讯云、阿里云、火山引擎等一种云厂商反应快，炒作思路过硬。一键安装\n好服务器，肯定比用户自己去终端一句一句输入命令容易得多。\n不管这玩意是什么，接住流量就是平台应该做的。\n我认真研究了一下，AWS官方1月28日才跟上炒作节奏，出了官方教程，之前全是KOL自\n发的。国内云厂商反应速度其实是要快于AWS的。\n还有MiniMax一个模型厂，早在1月26日就开始\n炒作Clawdbot，这个反应速度让我更相\n信了一点胖猫的2C能力。\n最后，我的想法还有两个。\n一个是，我真的觉得马斯克应该被管起来。\n他事实上拥有了人类有史以来最有影响力的媒体，他本人也成为了本世界最有影响力的人\n物。\n你很难分高下出他和川普，因为马圣至少还能炒作几十年，并且他能够绝对掌控特斯拉、\nxAI、SpaceX这三家科技巨头。其中的推特真的可以hack全世界。\n另一个是，我真诚建议千问，加个日程助手功能。用户发个语音或者聊天截图，ChatBot\n能设置日程提醒。应该也不复杂，就调取通知和日历权限的事，毕竟\n马卡龙都实现\n了。\n与其让新出现的AI产品都炒作自己是个人助理、Personal agent，不如直接自己上了。督\n促创业小登整点新活，革新炒作思路，大厂要给小登上点强度。\n我说完了，今年工作基本结束，下周滑雪去了。家人们加油🫡",
+  "excerpt": "「世界是一个信息网络」 Clawdbot是我见过最中登、最程序员趣味的AI产品。 这玩意和NAS一模一样，除了自媒体和中年电子爱好者，我想不出来任何人需要使用 Clawdbot。 怎么会有人对着一个手机遥控器嗨上一周呢？ 完全是欺负绝大部分看AI自媒体的家人，不会自己部署一个Clawdbot，没有实际体感。 Clawdbot就是一个手机遥控器。功能一句话就能讲明白，用手机聊天软件操控电脑里运 行的AI助手。 AI助手的能力来自获取...",
+  "entity_count": 17,
+  "relationship_count": 20,
+  "entities": [
+    {
+      "id": "dokie",
+      "name": "Dokie",
+      "type": "product",
+      "description": "张月光推出的AI PPT生成产品",
+      "mention_count": 10,
+      "aliases": [],
+      "tags": [
+        "AI PPT"
+      ]
+    },
+    {
+      "id": "张月光",
+      "name": "张月光",
+      "type": "person",
+      "description": "AI产品制作人，连续创业者，打造了《星眠》等产品",
+      "mention_count": 9,
+      "aliases": [
+        "月光",
+        "月光老师"
+      ],
+      "tags": [
+        "明星创业者",
+        "独立开发者"
+      ]
+    },
+    {
+      "id": "百度",
+      "name": "百度",
+      "type": "company",
+      "description": "BAT之一，好大夫在线的前股东，曾雪中送炭投资多位AI创业者",
+      "mention_count": 6,
+      "aliases": [
+        "Baidu",
+        "百度战投"
+      ],
+      "tags": [
+        "大厂",
+        "投资方"
+      ]
+    },
+    {
+      "id": "chatpods",
+      "name": "ChatPods",
+      "type": "product",
+      "description": "一款集合播客并生成语音摘要的独立AI播客产品",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "AI播客"
+      ]
+    },
+    {
+      "id": "genspark",
+      "name": "GenSpark",
+      "type": "product",
+      "description": "缝合了文档、图片、视频等功能的前端All in One AI应用",
+      "mention_count": 4,
+      "aliases": [
+        "Genspark"
+      ],
+      "tags": [
+        "Agent",
+        "AI PPT"
+      ]
+    },
+    {
+      "id": "listenhub",
+      "name": "ListenHub",
+      "type": "product",
+      "description": "在文中作为对比对象，被认为前途不如icon和Lovart的AI产品",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "AI播客",
+        "科普视频"
+      ]
+    },
+    {
+      "id": "橘子",
+      "name": "橘子",
+      "type": "person",
+      "description": "ListenHub的创始人，完成新一轮融资",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "nano-banana",
+      "name": "Nano Banana",
+      "type": "product",
+      "description": "Mulerun平台上的一个小工具Agent，可一键生成手办照片。",
+      "mention_count": 2,
+      "aliases": [
+        "Nano banana"
+      ],
+      "tags": [
+        "多模态"
+      ]
+    },
+    {
+      "id": "即刻",
+      "name": "即刻",
+      "type": "product",
+      "description": "社交平台，被用作比喻Elys的参照物",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "社交"
+      ]
+    },
+    {
+      "id": "妙鸭",
+      "name": "妙鸭",
+      "type": "product",
+      "description": "知名的AI写真相机应用，张月光曾参与打造",
+      "mention_count": 2,
+      "aliases": [
+        "妙鸭相机"
+      ],
+      "tags": [
+        "AI相机"
+      ]
+    },
+    {
+      "id": "景鲲",
+      "name": "景鲲",
+      "type": "person",
+      "description": "百度出走高管，GenSpark创始人",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "前高管"
+      ]
+    },
+    {
+      "id": "coladapic",
+      "name": "Coladapic",
+      "type": "product",
+      "description": "张月光参与过的相机出海产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "出海产品",
+        "相机"
+      ]
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "type": "product",
+      "description": "海外知名的AI制作PPT工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI PPT"
+      ]
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "type": "product",
+      "description": "通用Agent平台，被作者称为“版本神”，开创了左边大模型右边云电脑沙盒的产品形态",
+      "mention_count": 1,
+      "aliases": [
+        "Manus (产品)",
+        "Manus Agents",
+        "Manus产品",
+        "Man君",
+        "新加坡家人们"
+      ],
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "id": "oreate-ai",
+      "name": "Oreate AI",
+      "type": "product",
+      "description": "百度自己开发的AI PPT生成产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI PPT"
+      ]
+    },
+    {
+      "id": "猿辅导",
+      "name": "猿辅导",
+      "type": "company",
+      "description": "在线教育公司，被用来与ChatPods做类比",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "教育"
+      ]
+    },
+    {
+      "id": "瓦总",
+      "name": "瓦总",
+      "type": "person",
+      "description": "即刻平台的相关高管或创始人",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "chatpods",
+      "target_id": "listenhub",
+      "source": "ChatPods",
+      "target": "ListenHub",
+      "relation_type": "compares_to",
+      "label": "文章将成功转型的ListenHub与凉透的ChatPods进行对比",
+      "weight": 1
+    },
+    {
+      "source_id": "chatpods",
+      "target_id": "猿辅导",
+      "source": "ChatPods",
+      "target": "猿辅导",
+      "relation_type": "compares_to",
+      "label": "作者认为ChatPods让人想到了猿辅导",
+      "weight": 1
+    },
+    {
+      "source_id": "dokie",
+      "target_id": "genspark",
+      "source": "Dokie",
+      "target": "GenSpark",
+      "relation_type": "compares_to",
+      "label": "文章将Dokie与同样做PPT的GenSpark进行对比",
+      "weight": 1
+    },
+    {
+      "source_id": "dokie",
+      "target_id": "manus",
+      "source": "Dokie",
+      "target": "Manus",
+      "relation_type": "compares_to",
+      "label": "张月光表示Dokie往大了说不可能是Manus级别的爆款",
+      "weight": 1
+    },
+    {
+      "source_id": "dokie",
+      "target_id": "妙鸭",
+      "source": "Dokie",
+      "target": "妙鸭",
+      "relation_type": "compares_to",
+      "label": "张月光认为Dokie往小了说也达不到妙鸭的水平",
+      "weight": 1
+    },
+    {
+      "source_id": "张月光",
+      "target_id": "景鲲",
+      "source": "张月光",
+      "target": "景鲲",
+      "relation_type": "compares_to",
+      "label": "作者调侃张月光不要效仿景鲲老哥的故事",
+      "weight": 1
+    },
+    {
+      "source_id": "张月光",
+      "target_id": "橘子",
+      "source": "张月光",
+      "target": "橘子",
+      "relation_type": "compares_to",
+      "label": "文章转述他人言论将张月光与橘子作为创业者进行比较",
+      "weight": 1
+    },
+    {
+      "source_id": "dokie",
+      "target_id": "gamma",
+      "source": "Dokie",
+      "target": "Gamma",
+      "relation_type": "competes_with",
+      "label": "提到Dokie与Gamma在PPT生成赛道的竞争关系",
+      "weight": 1
+    },
+    {
+      "source_id": "dokie",
+      "target_id": "listenhub",
+      "source": "Dokie",
+      "target": "ListenHub",
+      "relation_type": "competes_with",
+      "label": "标题及内文中直接对比了Dokie与ListenHub的表现",
+      "weight": 1
+    },
+    {
+      "source_id": "百度",
+      "target_id": "oreate-ai",
+      "source": "百度",
+      "target": "Oreate AI",
+      "relation_type": "develops",
+      "label": "百度自己开发的AI PPT产品",
+      "weight": 1
+    },
+    {
+      "source_id": "listenhub",
+      "target_id": "nano-banana",
+      "source": "ListenHub",
+      "target": "Nano Banana",
+      "relation_type": "integrates_with",
+      "label": "ListenHub使用Nano banana来生成科普PPT视频",
+      "weight": 1
+    },
+    {
+      "source_id": "百度",
+      "target_id": "张月光",
+      "source": "百度",
+      "target": "张月光",
+      "relation_type": "invests_in",
+      "label": "张月光是百度的被投对象",
+      "weight": 1
+    },
+    {
+      "source_id": "景鲲",
+      "target_id": "百度",
+      "source": "景鲲",
+      "target": "百度",
+      "relation_type": "works_at",
+      "label": "景鲲曾是百度出走的高管",
+      "weight": 1
+    },
+    {
+      "source_id": "瓦总",
+      "target_id": "即刻",
+      "source": "瓦总",
+      "target": "即刻",
+      "relation_type": "works_at",
+      "label": "瓦总是即刻公司的代表人物",
+      "weight": 1
+    },
+    {
+      "source_id": "张月光",
+      "target_id": "chatpods",
+      "source": "张月光",
+      "target": "ChatPods",
+      "relation_type": "works_on",
+      "label": "张月光曾开发并关闭了ChatPods",
+      "weight": 1
+    },
+    {
+      "source_id": "张月光",
+      "target_id": "coladapic",
+      "source": "张月光",
+      "target": "Coladapic",
+      "relation_type": "works_on",
+      "label": "张月光参与制作了相机出海产品Coladapic",
+      "weight": 1
+    },
+    {
+      "source_id": "张月光",
+      "target_id": "dokie",
+      "source": "张月光",
+      "target": "Dokie",
+      "relation_type": "works_on",
+      "label": "Dokie是张月光推出的新产品",
+      "weight": 1
+    },
+    {
+      "source_id": "张月光",
+      "target_id": "妙鸭",
+      "source": "张月光",
+      "target": "妙鸭",
+      "relation_type": "works_on",
+      "label": "张月光是妙鸭的开发者",
+      "weight": 1
+    },
+    {
+      "source_id": "景鲲",
+      "target_id": "genspark",
+      "source": "景鲲",
+      "target": "GenSpark",
+      "relation_type": "works_on",
+      "label": "景鲲是GenSpark的创始者（根据文章上下文的PPT生态指代）",
+      "weight": 1
+    },
+    {
+      "source_id": "橘子",
+      "target_id": "listenhub",
+      "source": "橘子",
+      "target": "ListenHub",
+      "relation_type": "works_on",
+      "label": "ListenHub是橘子创业开发的产品",
+      "weight": 1
+    }
+  ]
+}

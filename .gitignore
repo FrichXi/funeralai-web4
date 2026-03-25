@@ -1,0 +1,49 @@
+# API keys / local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# Gemini raw responses (regenerable)
+data/gemini_raw/
+
+# Run state (regenerable)
+data/state/nightly_run_state.json
+
+# Extracted artifacts (regenerable via pipeline)
+data/extracted/
+
+# Graph intermediates (only track canonical, not full)
+data/graph/canonical_full.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Next.js / Node
+site/.next/
+site/out/
+site/node_modules/
+site/.vercel/
+*.tsbuildinfo
+
+# OS
+.DS_Store
+
+# Brand binary assets
+葬ai物料/
+
+# Prebuild generated copy
+site/public/data/
+
+# Claude Code local config
+.claude/
+
+# Logs
+*.log
+
+# Local article source override
+pipeline.local.toml

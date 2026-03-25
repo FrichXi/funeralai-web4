@@ -1,0 +1,401 @@
+{
+  "id": "017",
+  "title": "电骡快跑，Mulerun想做AI淘宝",
+  "date": "2025-09-02",
+  "author": "葬爱咸鱼",
+  "path": "articles/017_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+  "permalink": "/articles/017",
+  "markdown_link": "articles/017_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+  "raw_markdown": "# 电骡快跑，Mulerun想做AI淘宝\n\n- **作者**：葬爱咸鱼\n- **发布日期**：2025-09-02\n- **来源**：微信公众号「葬愛咸鱼」\n\n---\n\n「等大来」\n「上网最重要的不是学习，而是开心❤️\n最近搞AI创业的老乡们没活了。有鉴于此，我宣布开启下大棋系列，从战略高度锐评Agent平台。\n下大棋就要站在老板角度。我们的口号是：人人成王兴，大伙都一鸣。\n第一篇是Manus，第二篇是扣子，第三篇是MuleRun。」\n书接上回。\n我们上次讲了字节的扣子。结论是，普通用户（UGC）撑不起来Agent平台。\n一方面，低代码平台的开发部分，已经被Vibe Coding取代了。用户想整活，直接和AI对话\n生成代码就完事了，不需要再去费力地拖拽组件。\n另一方面，现在还没有出现新的内容形式，没有新的短视频，也就没有新的AI内容平台机\n会。大伙的社交和表达需求早就被传统社交媒体垄断了，没有理由再迁移到一个冷启动的平\n台。\n那么问题来了：\n现在是2025年，我是吴妈，看着市面上这堆AI平台半死不活的样子，我该怎么再做一个\nAgent平台？\n阿里云做的Mulerun，就是一个非常阿里味儿的回答。\nMulerun的核心思路是：放弃UGC，做供给侧改革。\n之前的Agent平台，不管是YouWare、MyShell还是扣子，思路都是需求侧改革。它们希望\n普通用户来平台上创造内容，并以此吸引更多用户来消费，形成一个UGC生态。\n但事实证明，Agent平台的需求侧改革很难走通。\nMulerun的选择是，直接做小B2C。找专业开发者来定制Agent，提高平台上的Agent质量，\n来吸引普通用户。\n\n平台提高了开发者门槛。申请成为Mulerun的开发者，需要提交在Dify、n8n等专业平台上\n的开发案例，然后审核。\nMulerun不需要一堆C端用户来平台上整活，它想要从供给侧来解决问题。\n我不需要一堆普通用户在我这平台上浪费服务器资源，反正他们也做不出什么正经东西。我\n直接去找专业的开发者、小团队，让他们把高质量的Agent发布到我这。我平台负责提供基\n础设施——阿里云算力、无影云电脑、流量扶持/。\n然后，平台再将这些质量合格的Agent，卖给广大的C端用户。\n这是非常纯正的淘宝思路。\n淘宝是一个小B2C平台，天猫才是B2C平台。淘宝真正的做起来，靠的是服务温州、义乌、\n广州那些外贸工厂和小商家。\n\neBay当时是C2C模式，个人卖家卖闲置，平台收手续费。这个模式的问题是供给不稳定，\n商品质量参差不齐，卖家也没有动力去投广告做运营，平台无法盈利。\n而淘宝做了很多机制创新，比如免手续费、支付宝来担保交易。还有就是组建了非常强的销\n售团队 aka 阿里铁军，大量路子野的销售老哥深入温州、义乌的工厂，把那些有稳定货源\n但缺乏全国销售渠道的小商家，一个一个拉到淘宝开店。\n这些小B商家，构成了淘宝最核心的供给。他们能提供海量、标准的商品，并且愿意付费做\n推广。\n淘宝通过供给侧改革，才真正撬动了庞大的需求侧市场。\nMulerun想复刻的，就是这个故事：我自己去找一堆AI义乌小商品老板，让他们把货上架我\n这个AI淘宝。\n我一看Mulerun就乐了。\n首先，他们的UI设计很好看。在一个充斥着平庸无聊小清新风格的互联网上，Mulerun的设\n计是有格调的，是反平庸无聊的现代主义的。让我想起了上古下载软件电驴🫏。\n\n其次，他们的思路太典了。在一众新一代创业者集体被抖音brainwashing。一讲大故事就是\n要数据飞轮+UGC社区的时候，阿里老哥拿出了看家的阿里电商心法。这不能不说是一种版\n本回归。\n但是，电骡Mulerun现在上的货怎么样呢？\n只能说还非常早期啊。\nMulerun上现在一共就21个Agent。平均质量肯定是高于YouWare、MyShell的，但依然没\n有一个有让我付费的冲动。\n有几个案例让我印象深刻。\n一个是「星穹铁道代肝」，它其实不能帮你直接打游戏，但能自动登录领积分。另一个是AI\n浏览器「General Browser Operator」，跟使用Manus一样，输入问题，它去调用云电脑浏\n览网页，给你生成一个报告。我确实看不出来这些通用Agent生成的报告有什么大的区别。\n\n这两个Agent都是主要靠的是云电脑能力，Mule调用的\n无影云电脑是有点东西的。\nManus调用的AWS云电脑，你能看到一个浏览器界面，还可以进入这个界面，自己来操纵\n浏览器；扣子空间调用的就比较糙，就是个命令行界面，也没法交互。\n而Mulerun调用的无影云电脑，它直接显示一个完整的Windows桌面，你可以真的操作这个\n云电脑，只是有点延迟。\n还有一个是Web3领域的案例。一个币圈KOL给Mulerun定制开发了一个交易Agent，跟另一\n个人类交易员直播PK，结果Agent赢了。Agent找到了一个资金费率套利机会，而人类交易\n员最后梭哈亏损。\n但这个Web3交易Agent还没上架，你们币圈炒作太疯狂了，我暂且蒙在鼓里。\n其他就是一些你完全能想象到的小工具了。可以用Nano Banana一键生成手办照片，还能\n生成Mulerun风格的头像。这些小工具和My Shell的区别不大。\n\n最直接的问题是，Mulerun现在还是AI eBay，不是AI淘宝。\n因为，淘宝区别于eBay最核心最本质的特征是不收手续费。而Mulerun是打算抽5%手续费\n的。\nAgent平台怎么能抽手续费呢？马老师干淘宝，当年的口号是三年不收费，后来挣钱也是靠\n给商家做竞价排名。\n还有一个更核心的问题，\n淘宝是需要搜索框的。未来几千上万的Agent，用户不可能一个\n个翻介绍。平台必须提供一个统一的入口。\n我能想到的最直接的形态，就是像夸克的「超级框」那样。用户在一个搜索框里提出任何需\n求，平台自动路由给最合适的Agent来执行。\n但最核心的问题是：AI时代，真的还需要一个淘宝或者Agent Store吗？\n淘宝和App Store能崛起，是因为在那个年代，小商家和独立开发者自建渠道、获取流量的\n成本极高。\n但是，时代变了。\n今天，一个Agent小团队通过社交媒体一夜爆火，并非不可能。小团队建立自有渠道的门\n槛，确实降低了。开发者、小团队最缺的不是渠道，而是创意。\n这个问题，你没法跳大神。没人能断言三年后一定存不存在一个AI淘宝。这种事，只能碰一\n碰才知道。\n我的直觉是，电骡快跑是有机会的。因为AI供给侧aka专业开发者的处境，和当年那些有货\n卖不出去的小商家太像了。他们需要一个能连接用户、解决信任、提供基础设施的平台。\n\n但是，做平台从来不是纯技术活。平台是一个连接器，需要运营、增长、销售等极其综合的\n能力。\n十多年前发生的故事是，阿里铁军的销售老哥打满全场。干完淘宝，还去美团搭建了地推团\n队，帮助美团扛过了像是传奇故事一样的百团大战。\n我的商业故事启蒙就是高中上晚自习，看何瑫写的\n 消失的煤老板。\n百团大战那会，煤老板提着几亿元现金，搞团购网站。以为哥几个财力无敌了。最后发现王\n兴这些人能摇来美元基金，彻底丧失自信了。\n而现在，Mulerun这些Agent平台都还太早期了。还在不想要太多用户，邀请码都还没取消\n的阶段。\n我期待的真正的战争——各家巨头全力下场，疯狂大撒币，赌一个AI时代的平台机会，还远\n远没到来。\n怎么说呢？\n你现在回去喝两瓶假酒，一觉睡到明年，等阿里腾讯字节这些巨头带着大撒币的预算全力下\n场时再醒来，你会发现，自己什么都没错过。\n等大来。\n（本文配图由 ChatGPT 生成，Gemini 2.5 Pro 辅助写作。预告一下周四晚八点的直播，中\n关村创业大街的AGI吧，我和马卡龙创始人线下真实）\n",
+  "body_markdown": "# 电骡快跑，Mulerun想做AI淘宝\n\n- **作者**：葬爱咸鱼\n- **发布日期**：2025-09-02\n- **来源**：微信公众号「葬愛咸鱼」\n\n---\n\n「等大来」\n「上网最重要的不是学习，而是开心❤️\n最近搞AI创业的老乡们没活了。有鉴于此，我宣布开启下大棋系列，从战略高度锐评Agent平台。\n下大棋就要站在老板角度。我们的口号是：人人成王兴，大伙都一鸣。\n第一篇是Manus，第二篇是扣子，第三篇是MuleRun。」\n书接上回。\n我们上次讲了字节的扣子。结论是，普通用户（UGC）撑不起来Agent平台。\n一方面，低代码平台的开发部分，已经被Vibe Coding取代了。用户想整活，直接和AI对话\n生成代码就完事了，不需要再去费力地拖拽组件。\n另一方面，现在还没有出现新的内容形式，没有新的短视频，也就没有新的AI内容平台机\n会。大伙的社交和表达需求早就被传统社交媒体垄断了，没有理由再迁移到一个冷启动的平\n台。\n那么问题来了：\n现在是2025年，我是吴妈，看着市面上这堆AI平台半死不活的样子，我该怎么再做一个\nAgent平台？\n阿里云做的Mulerun，就是一个非常阿里味儿的回答。\nMulerun的核心思路是：放弃UGC，做供给侧改革。\n之前的Agent平台，不管是YouWare、MyShell还是扣子，思路都是需求侧改革。它们希望\n普通用户来平台上创造内容，并以此吸引更多用户来消费，形成一个UGC生态。\n但事实证明，Agent平台的需求侧改革很难走通。\nMulerun的选择是，直接做小B2C。找专业开发者来定制Agent，提高平台上的Agent质量，\n来吸引普通用户。\n\n平台提高了开发者门槛。申请成为Mulerun的开发者，需要提交在Dify、n8n等专业平台上\n的开发案例，然后审核。\nMulerun不需要一堆C端用户来平台上整活，它想要从供给侧来解决问题。\n我不需要一堆普通用户在我这平台上浪费服务器资源，反正他们也做不出什么正经东西。我\n直接去找专业的开发者、小团队，让他们把高质量的Agent发布到我这。我平台负责提供基\n础设施——阿里云算力、无影云电脑、流量扶持/。\n然后，平台再将这些质量合格的Agent，卖给广大的C端用户。\n这是非常纯正的淘宝思路。\n淘宝是一个小B2C平台，天猫才是B2C平台。淘宝真正的做起来，靠的是服务温州、义乌、\n广州那些外贸工厂和小商家。\n\neBay当时是C2C模式，个人卖家卖闲置，平台收手续费。这个模式的问题是供给不稳定，\n商品质量参差不齐，卖家也没有动力去投广告做运营，平台无法盈利。\n而淘宝做了很多机制创新，比如免手续费、支付宝来担保交易。还有就是组建了非常强的销\n售团队 aka 阿里铁军，大量路子野的销售老哥深入温州、义乌的工厂，把那些有稳定货源\n但缺乏全国销售渠道的小商家，一个一个拉到淘宝开店。\n这些小B商家，构成了淘宝最核心的供给。他们能提供海量、标准的商品，并且愿意付费做\n推广。\n淘宝通过供给侧改革，才真正撬动了庞大的需求侧市场。\nMulerun想复刻的，就是这个故事：我自己去找一堆AI义乌小商品老板，让他们把货上架我\n这个AI淘宝。\n我一看Mulerun就乐了。\n首先，他们的UI设计很好看。在一个充斥着平庸无聊小清新风格的互联网上，Mulerun的设\n计是有格调的，是反平庸无聊的现代主义的。让我想起了上古下载软件电驴🫏。\n\n其次，他们的思路太典了。在一众新一代创业者集体被抖音brainwashing。一讲大故事就是\n要数据飞轮+UGC社区的时候，阿里老哥拿出了看家的阿里电商心法。这不能不说是一种版\n本回归。\n但是，电骡Mulerun现在上的货怎么样呢？\n只能说还非常早期啊。\nMulerun上现在一共就21个Agent。平均质量肯定是高于YouWare、MyShell的，但依然没\n有一个有让我付费的冲动。\n有几个案例让我印象深刻。\n一个是「星穹铁道代肝」，它其实不能帮你直接打游戏，但能自动登录领积分。另一个是AI\n浏览器「General Browser Operator」，跟使用Manus一样，输入问题，它去调用云电脑浏\n览网页，给你生成一个报告。我确实看不出来这些通用Agent生成的报告有什么大的区别。\n\n这两个Agent都是主要靠的是云电脑能力，Mule调用的\n无影云电脑是有点东西的。\nManus调用的AWS云电脑，你能看到一个浏览器界面，还可以进入这个界面，自己来操纵\n浏览器；扣子空间调用的就比较糙，就是个命令行界面，也没法交互。\n而Mulerun调用的无影云电脑，它直接显示一个完整的Windows桌面，你可以真的操作这个\n云电脑，只是有点延迟。\n还有一个是Web3领域的案例。一个币圈KOL给Mulerun定制开发了一个交易Agent，跟另一\n个人类交易员直播PK，结果Agent赢了。Agent找到了一个资金费率套利机会，而人类交易\n员最后梭哈亏损。\n但这个Web3交易Agent还没上架，你们币圈炒作太疯狂了，我暂且蒙在鼓里。\n其他就是一些你完全能想象到的小工具了。可以用Nano Banana一键生成手办照片，还能\n生成Mulerun风格的头像。这些小工具和My Shell的区别不大。\n\n最直接的问题是，Mulerun现在还是AI eBay，不是AI淘宝。\n因为，淘宝区别于eBay最核心最本质的特征是不收手续费。而Mulerun是打算抽5%手续费\n的。\nAgent平台怎么能抽手续费呢？马老师干淘宝，当年的口号是三年不收费，后来挣钱也是靠\n给商家做竞价排名。\n还有一个更核心的问题，\n淘宝是需要搜索框的。未来几千上万的Agent，用户不可能一个\n个翻介绍。平台必须提供一个统一的入口。\n我能想到的最直接的形态，就是像夸克的「超级框」那样。用户在一个搜索框里提出任何需\n求，平台自动路由给最合适的Agent来执行。\n但最核心的问题是：AI时代，真的还需要一个淘宝或者Agent Store吗？\n淘宝和App Store能崛起，是因为在那个年代，小商家和独立开发者自建渠道、获取流量的\n成本极高。\n但是，时代变了。\n今天，一个Agent小团队通过社交媒体一夜爆火，并非不可能。小团队建立自有渠道的门\n槛，确实降低了。开发者、小团队最缺的不是渠道，而是创意。\n这个问题，你没法跳大神。没人能断言三年后一定存不存在一个AI淘宝。这种事，只能碰一\n碰才知道。\n我的直觉是，电骡快跑是有机会的。因为AI供给侧aka专业开发者的处境，和当年那些有货\n卖不出去的小商家太像了。他们需要一个能连接用户、解决信任、提供基础设施的平台。\n\n但是，做平台从来不是纯技术活。平台是一个连接器，需要运营、增长、销售等极其综合的\n能力。\n十多年前发生的故事是，阿里铁军的销售老哥打满全场。干完淘宝，还去美团搭建了地推团\n队，帮助美团扛过了像是传奇故事一样的百团大战。\n我的商业故事启蒙就是高中上晚自习，看何瑫写的\n 消失的煤老板。\n百团大战那会，煤老板提着几亿元现金，搞团购网站。以为哥几个财力无敌了。最后发现王\n兴这些人能摇来美元基金，彻底丧失自信了。\n而现在，Mulerun这些Agent平台都还太早期了。还在不想要太多用户，邀请码都还没取消\n的阶段。\n我期待的真正的战争——各家巨头全力下场，疯狂大撒币，赌一个AI时代的平台机会，还远\n远没到来。\n怎么说呢？\n你现在回去喝两瓶假酒，一觉睡到明年，等阿里腾讯字节这些巨头带着大撒币的预算全力下\n场时再醒来，你会发现，自己什么都没错过。\n等大来。\n关村创业大街的AGI吧，我和马卡龙创始人线下真实）",
+  "excerpt": "# 电骡快跑，Mulerun想做AI淘宝 - **作者**：葬爱咸鱼 - **发布日期**：2025-09-02 - **来源**：微信公众号「葬愛咸鱼」 --- 「等大来」 「上网最重要的不是学习，而是开心❤️ 最近搞AI创业的老乡们没活了。有鉴于此，我宣布开启下大棋系列，从战略高度锐评Agent平台。 下大棋就要站在老板角度。我们的口号是：人人成王兴，大伙都一鸣。 第一篇是Manus，第二篇是扣子，第三篇是MuleRun。」...",
+  "entity_count": 17,
+  "relationship_count": 16,
+  "entities": [
+    {
+      "id": "扣子",
+      "name": "扣子",
+      "type": "product",
+      "description": "字节跳动推出的基于UGC生态的Agent平台。",
+      "mention_count": 29,
+      "aliases": [
+        "Coze",
+        "coze"
+      ],
+      "tags": [
+        "低代码平台",
+        "Agent平台",
+        "To B"
+      ]
+    },
+    {
+      "id": "扣子空间",
+      "name": "扣子空间",
+      "type": "product",
+      "description": "通用Agent产品，具备逼真的AI播客音色",
+      "mention_count": 8,
+      "aliases": [],
+      "tags": [
+        "通用Agent",
+        "To C"
+      ]
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "type": "product",
+      "description": "通用Agent平台，被作者称为“版本神”，开创了左边大模型右边云电脑沙盒的产品形态",
+      "mention_count": 7,
+      "aliases": [
+        "Manus (产品)",
+        "Manus Agents",
+        "Manus产品",
+        "Man君",
+        "新加坡家人们"
+      ],
+      "tags": [
+        "通用Agent",
+        "邮件交互"
+      ]
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "type": "product",
+      "description": "开源的AI应用开发和工作流搭建平台，是扣子的主要竞品。",
+      "mention_count": 6,
+      "aliases": [],
+      "tags": [
+        "开源",
+        "工作流",
+        "定制Agent"
+      ]
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "type": "product",
+      "description": "开源的工作流自动化工具，专业开发者常用于定制Agent。",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "开源",
+        "工作流",
+        "高客单价"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "中国互联网科技公司，开发了抖音、即梦等产品，文中探讨了其通过AI视频模型实现社交的布局。",
+      "mention_count": 4,
+      "aliases": [
+        "头条",
+        "字节",
+        "宇宙厂"
+      ],
+      "tags": [
+        "大厂",
+        "AI战略"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "Anthropic发布的AI编程Agent工具，被集成入Cherry Studio",
+      "mention_count": 3,
+      "aliases": [
+        "CC",
+        "Claude 3.5 Sonnet",
+        "Claude Code",
+        "Claude code",
+        "cc"
+      ],
+      "tags": [
+        "AI编程",
+        "Vibe Coding"
+      ]
+    },
+    {
+      "id": "妙鸭",
+      "name": "妙鸭",
+      "type": "product",
+      "description": "知名的AI写真相机应用，张月光曾参与打造",
+      "mention_count": 3,
+      "aliases": [
+        "妙鸭相机"
+      ],
+      "tags": [
+        "C端产品",
+        "AI应用"
+      ]
+    },
+    {
+      "id": "mulerun",
+      "name": "MuleRun",
+      "type": "product",
+      "description": "阿里云推出的Agent平台，核心思路为放弃UGC做小B2C供给侧改革，定位类似AI时代的淘宝。",
+      "mention_count": 2,
+      "aliases": [
+        "Mulerun",
+        "电骡"
+      ],
+      "tags": [
+        "Agent发行平台",
+        "To B"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "OpenAI的通用大语言模型产品，被视为AI陪伴赛道的未来方向之一",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "搜索",
+        "通用AI"
+      ]
+    },
+    {
+      "id": "coze-studio",
+      "name": "Coze Studio",
+      "type": "product",
+      "description": "扣子的核心组件，已被火山引擎开源。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "开源组件",
+        "基础设施"
+      ]
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "type": "product",
+      "description": "AI代码编辑器，集成了Claude Code且可被阶跃桌面助手访问",
+      "mention_count": 1,
+      "aliases": [
+        "cursor"
+      ],
+      "tags": [
+        "AI编程",
+        "Vibe Coding"
+      ]
+    },
+    {
+      "id": "张一鸣",
+      "name": "张一鸣",
+      "type": "person",
+      "description": "字节跳动创始人，文中作为思考AI战略的代入角色。",
+      "mention_count": 1,
+      "aliases": [
+        "一鸣"
+      ],
+      "tags": [
+        "老板视角"
+      ]
+    },
+    {
+      "id": "火山引擎",
+      "name": "火山引擎",
+      "type": "company",
+      "description": "字节跳动旗下的云服务平台，接管了扣子团队并开源了Coze Studio。",
+      "mention_count": 1,
+      "aliases": [
+        "火山"
+      ],
+      "tags": [
+        "云服务",
+        "To B"
+      ]
+    },
+    {
+      "id": "王兴",
+      "name": "王兴",
+      "type": "person",
+      "description": "美团创始人，文中与张一鸣并列，作为“下大棋”老板视角的比喻对象。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "战略",
+        "老板视角"
+      ]
+    },
+    {
+      "id": "百度",
+      "name": "百度",
+      "type": "company",
+      "description": "BAT之一，好大夫在线的前股东，曾雪中送炭投资多位AI创业者",
+      "mention_count": 1,
+      "aliases": [
+        "Baidu",
+        "百度战投"
+      ],
+      "tags": [
+        "落后版本"
+      ]
+    },
+    {
+      "id": "阿里云",
+      "name": "阿里云",
+      "type": "company",
+      "description": "国内云服务厂商，反应迅速地提供了无影云电脑部署文档接住了炒作流量。",
+      "mention_count": 1,
+      "aliases": [
+        "Aliyun"
+      ],
+      "tags": [
+        "基础设施"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "manus",
+      "target_id": "扣子空间",
+      "source": "Manus",
+      "target": "扣子空间",
+      "relation_type": "compares_to",
+      "label": "作者表示使用Manus和扣子空间的感受是一样的，二者体验被直接对比。",
+      "weight": 1
+    },
+    {
+      "source_id": "字节跳动",
+      "target_id": "百度",
+      "source": "字节跳动",
+      "target": "百度",
+      "relation_type": "compares_to",
+      "label": "文中在探讨公司战略时，将字节跳动与百度进行对比，暗讽百度是“落后版本的公司”。",
+      "weight": 1
+    },
+    {
+      "source_id": "张一鸣",
+      "target_id": "王兴",
+      "source": "张一鸣",
+      "target": "王兴",
+      "relation_type": "compares_to",
+      "label": "文章将张一鸣与王兴作为具有战略高度的老板角色进行并列比喻（“人人成王兴，大伙都一鸣”）。",
+      "weight": 1
+    },
+    {
+      "source_id": "chatgpt",
+      "target_id": "manus",
+      "source": "ChatGPT",
+      "target": "Manus",
+      "relation_type": "competes_with",
+      "label": "作者认为通用Agent的需求被ChatGPT解决，暗示两者在满足用户通用需求上存在竞争关系。",
+      "weight": 1
+    },
+    {
+      "source_id": "claude",
+      "target_id": "扣子",
+      "source": "Claude",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "label": "Claude Code同样作为AI编程工具，取代了扣子原有的To C开发功能。",
+      "weight": 1
+    },
+    {
+      "source_id": "cursor",
+      "target_id": "扣子",
+      "source": "Cursor",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "label": "Cursor等AI编程工具的兴起，取代了扣子等低代码平台部分面向普通用户的开发功能。",
+      "weight": 1
+    },
+    {
+      "source_id": "dify",
+      "target_id": "n8n",
+      "source": "Dify",
+      "target": "n8n",
+      "relation_type": "competes_with",
+      "label": "Dify和n8n都是占据开源生态位的Agent工作流搭建竞品。",
+      "weight": 1
+    },
+    {
+      "source_id": "dify",
+      "target_id": "扣子",
+      "source": "Dify",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "label": "扣子与Dify在搭建工作流和给企业定制Agent的业务上存在直接竞争。",
+      "weight": 1
+    },
+    {
+      "source_id": "manus",
+      "target_id": "扣子空间",
+      "source": "Manus",
+      "target": "扣子空间",
+      "relation_type": "competes_with",
+      "label": "扣子空间与Manus同属于通用Agent产品，存在直接竞争/平替关系。",
+      "weight": 1
+    },
+    {
+      "source_id": "n8n",
+      "target_id": "扣子",
+      "source": "n8n",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "label": "扣子与n8n在专业开发者选择上存在直接竞争，且n8n客单价更高。",
+      "weight": 1
+    },
+    {
+      "source_id": "字节跳动",
+      "target_id": "扣子",
+      "source": "字节跳动",
+      "target": "扣子",
+      "relation_type": "develops",
+      "label": "扣子是字节跳动为探索AI应用落地而开发的平台。",
+      "weight": 1
+    },
+    {
+      "source_id": "字节跳动",
+      "target_id": "扣子空间",
+      "source": "字节跳动",
+      "target": "扣子空间",
+      "relation_type": "develops",
+      "label": "扣子空间是字节跳动（扣子团队）亲自下场做的C端Agent产品。",
+      "weight": 1
+    },
+    {
+      "source_id": "火山引擎",
+      "target_id": "coze-studio",
+      "source": "火山引擎",
+      "target": "Coze Studio",
+      "relation_type": "develops",
+      "label": "扣子团队划归火山引擎后，由火山引擎将核心组件Coze Studio开源。",
+      "weight": 1
+    },
+    {
+      "source_id": "张一鸣",
+      "target_id": "字节跳动",
+      "source": "张一鸣",
+      "target": "字节跳动",
+      "relation_type": "founder_of",
+      "label": "张一鸣是字节跳动的创始人（文章设定站在张一鸣视角思考字节跳动的业务）。",
+      "weight": 1
+    },
+    {
+      "source_id": "coze-studio",
+      "target_id": "扣子",
+      "source": "Coze Studio",
+      "target": "扣子",
+      "relation_type": "integrates_with",
+      "label": "Coze Studio是扣子（coze）的核心组件。",
+      "weight": 1
+    },
+    {
+      "source_id": "阿里云",
+      "target_id": "mulerun",
+      "source": "阿里云",
+      "target": "MuleRun",
+      "relation_type": "invests_in",
+      "label": "文中明确指出Mulerun是阿里云投资的项目。",
+      "weight": 1
+    }
+  ]
+}

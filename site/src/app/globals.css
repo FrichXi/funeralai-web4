@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Fusion Pixel";
+  src: url("/fonts/fusion-pixel-12px-proportional.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  /* 葬AI Dark Purple Theme — brand color #7351cf */
+  :root {
+    --navbar-height: 2.5rem;
+    --background: 255 10% 7%;
+    --foreground: 260 20% 90%;
+    --card: 260 30% 10%;
+    --card-foreground: 260 20% 90%;
+    --popover: 260 30% 10%;
+    --popover-foreground: 260 20% 90%;
+    --primary: 258 55% 57%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 260 30% 16%;
+    --secondary-foreground: 260 20% 88%;
+    --muted: 260 20% 14%;
+    --muted-foreground: 260 10% 55%;
+    --accent: 340 70% 65%;
+    --accent-foreground: 260 30% 7%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 260 25% 20%;
+    --input: 260 25% 18%;
+    --ring: 258 55% 57%;
+    --radius: 0rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Fusion Pixel", "Press Start 2P", system-ui, sans-serif;
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: unset;
+    line-height: 1.8;
+  }
+}
+
+.article-prose {
+  font-family: var(--font-mono), 'Menlo', 'Consolas', monospace;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+  line-height: 1.75;
+}
+
+.ai-context {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

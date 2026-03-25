@@ -1,0 +1,15 @@
+# Pipeline configuration for 葬AI Knowledge Graph
+# Fork users: edit this file instead of modifying Python source code.
+
+[pipeline]
+model = "gemini-3.1-pro-preview"
+prompt_version = "2026-03-15-vc-firm-relationship-v7"
+extractor_version = "2026-03-15-overrides-pipeline-v5"
+graph_schema_version = "2026-03-15-vc-firm-v3"
+
+[extraction]
+max_workers = 4
+max_retries = 6
+batch_size = 6
+cooldown_seconds = 8
+max_rounds = 30

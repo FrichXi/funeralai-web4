@@ -1,0 +1,289 @@
+{
+  "id": "029",
+  "title": "Agent OS的本地入口",
+  "date": "2025-10-20",
+  "author": "葬爱咸鱼",
+  "path": "articles/029_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+  "permalink": "/articles/029",
+  "markdown_link": "articles/029_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+  "raw_markdown": "# Agent OS的本地入口\n\n- **作者**：葬爱咸鱼\n- **发布日期**：2025-10-20\n- **来源**：微信公众号「葬愛咸鱼」\n\n---\n\n「小登赢老登」\n9月中的时候，我的小登朋友钟十六说他要整个狠活，做一个类似Claude Code的产品。\n我当时是真没什么期待。\n所有人都在做Claude Code套壳，就像年初所有人都在做workflow一样。到了9月底，钟十\n六把阶跃桌面助手的邀请码发给我，我也没有认真用👋😭👋\n因为现在cc相关工具已经太多了。\n而且，阶跃2C确实不行。之前的C端产品全军覆没——冒泡鸭和狸谱，一个已经关停，一个\n即将关停。老板成天想的是和OPPO、千里科技这些大公司做定制开发生意。让我对阶跃\n实在没什么好奇心。\n直到国庆假期，我玩红色警戒，遇到一个真需求。\n我下了上百张各个版本的地图，不同mod的地图后缀名不一样，需要统一改成.mpr。文件\n夹里还有各种格式的压缩包、已解压的文件夹，非常混乱。\n我试着给阶跃桌面助手一个指令：整理这个文件夹，统一后缀、解压文件、去重、归档到主\n文件夹。\n就这么一个我自己做要花半小时的工作，阶跃桌面助手真的完成了。\n公众号后台扣\n「114514」送红警地图包🥵\n它调用本地终端写脚本改后缀，调用解压软件解压缩包，再用脚本归档，最后把需要删除的\n文件放到一个待删除文件夹。花了五六分钟，把我的红警地图包整理得非常简洁。我只需要\n把待删除文件夹拖进回收站就完事了。\n扣「红警」也送\n☺️\n这是第一个Aha Moment。我突然意识到，它能操作本地终端，做任何云端AI做不到的事\n情。\n另一个Aha Moment是修复Claude Code环境。\n我最近一直用cc写作，有时会在Claude和K2模型之间切换。国庆期间用了一段时间K2后，\n想切回Claude就怎么也切不回来了。我设置了新的环境变量，但终端依然报API错误。\n我上ChatGPT搜了一下。ChatGPT给了解决方案，但需要我自己创建脚本、保存到指定文件\n夹，太繁琐了。\n\n我试着把问题告诉阶跃桌面助手。它要了访问cursor应用数据的权限（我在cursor里用\ncc），然后真的在终端里修复好问题了。\n这对我来说是两个非常大的Aha Moment。\n我的大部分需求，都已经被云端AI工具满足了。ChatGPT-5取代了我的搜索需求，Gemini\n取代了轻量级的文字处理，Claude Code取代了重的写作任务。\n不过，所有这些AI工具都有一个问题：没法获取本地环境。当Claude Code环境出错时，我\n没法让任何AI工具来修复它。\n但是，阶跃桌面助手可以做到这个事情。\n所以国庆后，我和钟十六聊了聊。我大为震撼，bro这个产品从立项到上线只花了1个半\n月，但完成度相当高。相较于cc的终端交互，他用普通用户更容易使用的悬浮窗，实现了本\n地环境的Agent。\nbro讲了一个很大的故事：他想做的是贾维斯。用悬浮窗这个形态，是因为想做一个新的\nAgent OS入口🥵\n贾维斯能帮钢铁侠自动完成任务，你说了什么需求，就自动完成，并交付结果。同时，贾维\n斯能给你个性化的操作界面钢铁侠在家里工作室的3D显示屏。\n\n这两点，就是Agent OS的核心。\n悬浮窗和Workspace，对应的是两种不同的使用场景。\n悬浮窗，很像钢铁侠穿着战甲在外面飞的时候，战甲里显示的那些信息。轻量、不干扰、随\n时补充信息。\n而Workspace，很像钢铁侠在家里工作间的那些大屏幕。个性化你看到的完整界面，提供更\n丰富的GUI能力。\n两者并列，服务轻重两种不同的场景。\n大伙都在讲AI操作系统的故事，钟哥是把Agent OS讲得最清楚，并且真端出来了一个能用\n的产品的。小登确实领先老登👍\n但贾维斯只是愿景。这个故事能不能成，关键在本地环境。\n从趋势上看，本地环境正在成为Agent的新战场。\n云端Agent的问题是：需要上传文件、无法直接操作本地环境、安全性和隐私的顾虑。而本\n地Agent可以直接访问你的文件、调用本地工具、符合用户的操作习惯。\n\n但问题在于，现有的本地编程Agent，主要面向开发者，在终端调cc显然不适合普通用户。\n所以，更大的价值在于，把本地编程Agent的能力带给普通用户。\n最近一个很有意思的例子是Manus。Manus和微软达成了合作，现在可以直接在Windows\n本地里调用Manus。比如用本地文件夹里的文档创建一个网站，只需要一键，Manus就会在\n几分钟内构建一个网站。\nManus最重要的更新，不是它能生成网站，这属于没活硬整，而是可以访问Windows的本\n地文件。\n当然，阶跃桌面助手还比较早期，它能干的活，也都能找到替代品。\n改文件后缀名这些活，Claude Code 本身也能干。Deep Research 我也不相信能超过\nChatGPT。并且，阶跃的悬浮窗退出之后，就没法用快捷键唤起了，你得重新打开应用。还\n有不支持语音输入。\n我直觉上会觉得，如果能按个快捷键直接语音输入到悬浮窗里，把需求讲给AI，让它去执\n行，这个工作流会更闭环。\n更大的问题是安全和信任。用这个产品，它需要非常多本地权限。处理终端问题的时候，它\n还要访问我的Cursor应用程序的权限。\n我确实没有那么信任阶跃，这对我来说是一个很大的顾虑。不过，钟十六说安全问题会用端\n云结合来解决，用端侧模型来处理敏感信息，这是未来版本的规划。\n但即便如此，阶跃桌面助手的价值还是很明确。把编程Agent的能力放到了本地环境，并且\n把复杂的终端做得很简单易用。用古早的悬浮窗交互，试图做一个新的入口。\n这个方向是对的。因为本地环境才是真正有价值的战场。\n我之前写过一篇文章，讲Agent交易市场\nMulerun。\nMulerun的核心思路是，Claude Code这样的编程Agent会成为一种新入口的引擎。\n用户在搜索框里提出需求，编程Agent就会生成若干一次性软件来满足用户的需求。不再是\n去App Store下载固定的软件，而是根据你的需求，现场生成软件。\nbro看到的，其实是同样的趋势。编程Agent带来的变化，是新入口和编程能力的提升。它\n可以生成一次性软件，绕开传统服务商来直接满足用户需求。\n不想看YouTube的Shorts，就生成一个去掉Shorts的版本。想在淘宝京东拼多多之间比价，\n就生成一个三合一的比价工具。不需要等服务商来满足你，也不需要去App Store下载固定\n的软件。你有需求，Agent就现场生成软件来满足你。\n这就是编程Agent带来的变化：不再是服务商决定产品形态，而是用户需求驱动软件生成。\n\nbro的切入点是本地环境。而Mulerun的切入点是云端。但本质上，大家看到的是同一个机\n会：编程Agent会成为下一代入口的引擎。\n从工具到入口到OS，这是一条清晰的演进路径。\n现在，阶跃桌面助手是一个工具。未来，悬浮窗会成为一个新的交互入口。终局，是Agent\nOS，像贾维斯一样的存在。\nAgent OS完全可以搭载在新的终端硬件上，手机、PC、汽车，乃至于plaud、芙崽、\nlooki。\n本人至今未能成功\n与芙崽对话😅\n在PC端上，不用依赖终端的进展，独立APP也能获取必要权限和用户上下文，实现更快速\n的迭代，同时具备向其余终端拓展的能力。此外，生产力也是当前用户更痛的场景。所以从\n这个点做切入，更容易积累一些壁垒。\n这是一个绝对大的故事。大伙讲的都是一样的故事，但钟哥不仅编得逻辑自洽，而且还端出\n了能用的产品。执行力这一块属于是🥵\n所有人都看到了这个趋势。PC厂、手机厂、车厂，都在尝试把Agent能力放进本地环境。谁\n能建立这个入口，谁就有机会定义下一代操作系统。\n云端的战争打出狗脑子来了，但面向普通用户的本地Agent产品才刚刚开始。\n打通云端和本地，才是Agent OS能提供的新价值。\n（本文配图由 ChatGPT 生成，Claude Code辅助写作）\n\n---\n*原文链接：https://mp.weixin.qq.com/s/fPizW9ivBuHQAg2UmKqjSw*\n",
+  "body_markdown": "「小登赢老登」\n9月中的时候，我的小登朋友钟十六说他要整个狠活，做一个类似Claude Code的产品。\n我当时是真没什么期待。\n所有人都在做Claude Code套壳，就像年初所有人都在做workflow一样。到了9月底，钟十\n六把阶跃桌面助手的邀请码发给我，我也没有认真用👋😭👋\n因为现在cc相关工具已经太多了。\n而且，阶跃2C确实不行。之前的C端产品全军覆没——冒泡鸭和狸谱，一个已经关停，一个\n即将关停。老板成天想的是和OPPO、千里科技这些大公司做定制开发生意。让我对阶跃\n实在没什么好奇心。\n直到国庆假期，我玩红色警戒，遇到一个真需求。\n我下了上百张各个版本的地图，不同mod的地图后缀名不一样，需要统一改成.mpr。文件\n夹里还有各种格式的压缩包、已解压的文件夹，非常混乱。\n我试着给阶跃桌面助手一个指令：整理这个文件夹，统一后缀、解压文件、去重、归档到主\n文件夹。\n就这么一个我自己做要花半小时的工作，阶跃桌面助手真的完成了。\n公众号后台扣\n「114514」送红警地图包🥵\n它调用本地终端写脚本改后缀，调用解压软件解压缩包，再用脚本归档，最后把需要删除的\n文件放到一个待删除文件夹。花了五六分钟，把我的红警地图包整理得非常简洁。我只需要\n把待删除文件夹拖进回收站就完事了。\n扣「红警」也送\n☺️\n这是第一个Aha Moment。我突然意识到，它能操作本地终端，做任何云端AI做不到的事\n情。\n另一个Aha Moment是修复Claude Code环境。\n我最近一直用cc写作，有时会在Claude和K2模型之间切换。国庆期间用了一段时间K2后，\n想切回Claude就怎么也切不回来了。我设置了新的环境变量，但终端依然报API错误。\n我上ChatGPT搜了一下。ChatGPT给了解决方案，但需要我自己创建脚本、保存到指定文件\n夹，太繁琐了。\n\n我试着把问题告诉阶跃桌面助手。它要了访问cursor应用数据的权限（我在cursor里用\ncc），然后真的在终端里修复好问题了。\n这对我来说是两个非常大的Aha Moment。\n我的大部分需求，都已经被云端AI工具满足了。ChatGPT-5取代了我的搜索需求，Gemini\n取代了轻量级的文字处理，Claude Code取代了重的写作任务。\n不过，所有这些AI工具都有一个问题：没法获取本地环境。当Claude Code环境出错时，我\n没法让任何AI工具来修复它。\n但是，阶跃桌面助手可以做到这个事情。\n所以国庆后，我和钟十六聊了聊。我大为震撼，bro这个产品从立项到上线只花了1个半\n月，但完成度相当高。相较于cc的终端交互，他用普通用户更容易使用的悬浮窗，实现了本\n地环境的Agent。\nbro讲了一个很大的故事：他想做的是贾维斯。用悬浮窗这个形态，是因为想做一个新的\nAgent OS入口🥵\n贾维斯能帮钢铁侠自动完成任务，你说了什么需求，就自动完成，并交付结果。同时，贾维\n斯能给你个性化的操作界面钢铁侠在家里工作室的3D显示屏。\n\n这两点，就是Agent OS的核心。\n悬浮窗和Workspace，对应的是两种不同的使用场景。\n悬浮窗，很像钢铁侠穿着战甲在外面飞的时候，战甲里显示的那些信息。轻量、不干扰、随\n时补充信息。\n而Workspace，很像钢铁侠在家里工作间的那些大屏幕。个性化你看到的完整界面，提供更\n丰富的GUI能力。\n两者并列，服务轻重两种不同的场景。\n大伙都在讲AI操作系统的故事，钟哥是把Agent OS讲得最清楚，并且真端出来了一个能用\n的产品的。小登确实领先老登👍\n但贾维斯只是愿景。这个故事能不能成，关键在本地环境。\n从趋势上看，本地环境正在成为Agent的新战场。\n云端Agent的问题是：需要上传文件、无法直接操作本地环境、安全性和隐私的顾虑。而本\n地Agent可以直接访问你的文件、调用本地工具、符合用户的操作习惯。\n\n但问题在于，现有的本地编程Agent，主要面向开发者，在终端调cc显然不适合普通用户。\n所以，更大的价值在于，把本地编程Agent的能力带给普通用户。\n最近一个很有意思的例子是Manus。Manus和微软达成了合作，现在可以直接在Windows\n本地里调用Manus。比如用本地文件夹里的文档创建一个网站，只需要一键，Manus就会在\n几分钟内构建一个网站。\nManus最重要的更新，不是它能生成网站，这属于没活硬整，而是可以访问Windows的本\n地文件。\n当然，阶跃桌面助手还比较早期，它能干的活，也都能找到替代品。\n改文件后缀名这些活，Claude Code 本身也能干。Deep Research 我也不相信能超过\nChatGPT。并且，阶跃的悬浮窗退出之后，就没法用快捷键唤起了，你得重新打开应用。还\n有不支持语音输入。\n我直觉上会觉得，如果能按个快捷键直接语音输入到悬浮窗里，把需求讲给AI，让它去执\n行，这个工作流会更闭环。\n更大的问题是安全和信任。用这个产品，它需要非常多本地权限。处理终端问题的时候，它\n还要访问我的Cursor应用程序的权限。\n我确实没有那么信任阶跃，这对我来说是一个很大的顾虑。不过，钟十六说安全问题会用端\n云结合来解决，用端侧模型来处理敏感信息，这是未来版本的规划。\n但即便如此，阶跃桌面助手的价值还是很明确。把编程Agent的能力放到了本地环境，并且\n把复杂的终端做得很简单易用。用古早的悬浮窗交互，试图做一个新的入口。\n这个方向是对的。因为本地环境才是真正有价值的战场。\n我之前写过一篇文章，讲Agent交易市场\nMulerun。\nMulerun的核心思路是，Claude Code这样的编程Agent会成为一种新入口的引擎。\n用户在搜索框里提出需求，编程Agent就会生成若干一次性软件来满足用户的需求。不再是\n去App Store下载固定的软件，而是根据你的需求，现场生成软件。\nbro看到的，其实是同样的趋势。编程Agent带来的变化，是新入口和编程能力的提升。它\n可以生成一次性软件，绕开传统服务商来直接满足用户需求。\n不想看YouTube的Shorts，就生成一个去掉Shorts的版本。想在淘宝京东拼多多之间比价，\n就生成一个三合一的比价工具。不需要等服务商来满足你，也不需要去App Store下载固定\n的软件。你有需求，Agent就现场生成软件来满足你。\n这就是编程Agent带来的变化：不再是服务商决定产品形态，而是用户需求驱动软件生成。\n\nbro的切入点是本地环境。而Mulerun的切入点是云端。但本质上，大家看到的是同一个机\n会：编程Agent会成为下一代入口的引擎。\n从工具到入口到OS，这是一条清晰的演进路径。\n现在，阶跃桌面助手是一个工具。未来，悬浮窗会成为一个新的交互入口。终局，是Agent\nOS，像贾维斯一样的存在。\nAgent OS完全可以搭载在新的终端硬件上，手机、PC、汽车，乃至于plaud、芙崽、\nlooki。\n本人至今未能成功\n与芙崽对话😅\n在PC端上，不用依赖终端的进展，独立APP也能获取必要权限和用户上下文，实现更快速\n的迭代，同时具备向其余终端拓展的能力。此外，生产力也是当前用户更痛的场景。所以从\n这个点做切入，更容易积累一些壁垒。\n这是一个绝对大的故事。大伙讲的都是一样的故事，但钟哥不仅编得逻辑自洽，而且还端出\n了能用的产品。执行力这一块属于是🥵\n所有人都看到了这个趋势。PC厂、手机厂、车厂，都在尝试把Agent能力放进本地环境。谁\n能建立这个入口，谁就有机会定义下一代操作系统。\n云端的战争打出狗脑子来了，但面向普通用户的本地Agent产品才刚刚开始。\n打通云端和本地，才是Agent OS能提供的新价值。",
+  "excerpt": "「小登赢老登」 9月中的时候，我的小登朋友钟十六说他要整个狠活，做一个类似Claude Code的产品。 我当时是真没什么期待。 所有人都在做Claude Code套壳，就像年初所有人都在做workflow一样。到了9月底，钟十 六把阶跃桌面助手的邀请码发给我，我也没有认真用👋😭👋 因为现在cc相关工具已经太多了。 而且，阶跃2C确实不行。之前的C端产品全军覆没——冒泡鸭和狸谱，一个已经关停，一个 即将关停。老板成天想的是和OPP...",
+  "entity_count": 11,
+  "relationship_count": 12,
+  "entities": [
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "Anthropic发布的AI编程Agent工具，被集成入Cherry Studio",
+      "mention_count": 18,
+      "aliases": [
+        "CC",
+        "Claude 3.5 Sonnet",
+        "Claude Code",
+        "Claude code",
+        "cc"
+      ],
+      "tags": [
+        "编程Agent",
+        "终端工具",
+        "大模型"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "type": "product",
+      "description": "人工智能大模型，被作者用于生成特定文风的提示词。",
+      "mention_count": 5,
+      "aliases": [
+        "Gemini 2.5 Pro"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI",
+      "type": "product",
+      "description": "具有长上下文窗口特点的AI编程Agent",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "编程Agent",
+        "终端工具"
+      ]
+    },
+    {
+      "id": "cherry-studio",
+      "name": "Cherry Studio",
+      "type": "product",
+      "description": "调取大模型API的第三方开源会话管理工具，支持对话分支功能",
+      "mention_count": 1,
+      "aliases": [
+        "Cherry",
+        "Cherry studio"
+      ],
+      "tags": [
+        "前端界面",
+        "套壳应用"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "AI编程工具，文中认为其能力强、干脆",
+      "mention_count": 1,
+      "aliases": [
+        "Codex SDK"
+      ],
+      "tags": [
+        "编程Agent"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "具有长上下文能力的大语言模型，文中被用作Claude Code的后端调用模型",
+      "mention_count": 1,
+      "aliases": [
+        "K2",
+        "Kimi K2",
+        "k2"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "plaud",
+      "name": "Plaud",
+      "type": "product",
+      "description": "主打海外市场的AI硬件录音卡公司，近期宣布进入中国内地市场",
+      "mention_count": 1,
+      "aliases": [
+        "Plaud录音卡片"
+      ],
+      "tags": [
+        "AI硬件",
+        "语音输入"
+      ]
+    },
+    {
+      "id": "qoder",
+      "name": "Qoder",
+      "type": "product",
+      "description": "AI编程Agent应用",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "编程Agent"
+      ]
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "在Openrouter上调用量排名前列的AI模型",
+      "mention_count": 1,
+      "aliases": [
+        "Qwen 3",
+        "Qwen-Max",
+        "任务助手",
+        "千问",
+        "千问APP",
+        "千问任务助理",
+        "通义",
+        "通义APP",
+        "通义千问",
+        "通义大模型",
+        "阿里通义"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "阶跃星辰",
+      "name": "阶跃星辰",
+      "type": "company",
+      "description": "AI四小虎之一，近期B+轮融资超50亿元，走软硬件一体闭环路线的大模型公司",
+      "mention_count": 1,
+      "aliases": [
+        "阶跃"
+      ],
+      "tags": [
+        "AI公司"
+      ]
+    },
+    {
+      "id": "阶跃桌面伙伴",
+      "name": "阶跃桌面伙伴",
+      "type": "product",
+      "description": "拥有本地环境权限的编程Agent套壳及桌面OS产品",
+      "mention_count": 1,
+      "aliases": [
+        "阶跃桌面助手",
+        "阶跃电脑助手"
+      ],
+      "tags": [
+        "本地环境",
+        "套壳应用"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "claude",
+      "target_id": "codex",
+      "source": "Claude",
+      "target": "Codex",
+      "relation_type": "competes_with",
+      "label": "两者均为同类的编程Agent工具",
+      "weight": 1
+    },
+    {
+      "source_id": "claude",
+      "target_id": "gemini",
+      "source": "Claude",
+      "target": "Gemini",
+      "relation_type": "competes_with",
+      "label": "两者均为通用大语言模型",
+      "weight": 1
+    },
+    {
+      "source_id": "claude",
+      "target_id": "gemini-cli",
+      "source": "Claude",
+      "target": "Gemini CLI",
+      "relation_type": "competes_with",
+      "label": "两者均为同类的编程Agent工具",
+      "weight": 1
+    },
+    {
+      "source_id": "claude",
+      "target_id": "qoder",
+      "source": "Claude",
+      "target": "Qoder",
+      "relation_type": "competes_with",
+      "label": "两者均为同类的编程Agent工具",
+      "weight": 1
+    },
+    {
+      "source_id": "claude",
+      "target_id": "qwen",
+      "source": "Claude",
+      "target": "Qwen",
+      "relation_type": "competes_with",
+      "label": "两者均为通用大语言模型",
+      "weight": 1
+    },
+    {
+      "source_id": "gemini",
+      "target_id": "qwen",
+      "source": "Gemini",
+      "target": "Qwen",
+      "relation_type": "competes_with",
+      "label": "两者均为通用大语言模型",
+      "weight": 1
+    },
+    {
+      "source_id": "plaud",
+      "target_id": "qwen",
+      "source": "Plaud",
+      "target": "Qwen",
+      "relation_type": "competes_with",
+      "label": "两者均被作者作为口述录音的同类输入工具提及",
+      "weight": 1
+    },
+    {
+      "source_id": "阶跃星辰",
+      "target_id": "阶跃桌面伙伴",
+      "source": "阶跃星辰",
+      "target": "阶跃桌面伙伴",
+      "relation_type": "develops",
+      "label": "阶跃公司开发了阶跃电脑助手",
+      "weight": 1
+    },
+    {
+      "source_id": "cherry-studio",
+      "target_id": "claude",
+      "source": "Cherry Studio",
+      "target": "Claude",
+      "relation_type": "integrates_with",
+      "label": "Cherry Studio作为前端界面套壳并集成了Claude Code",
+      "weight": 1
+    },
+    {
+      "source_id": "claude",
+      "target_id": "kimi",
+      "source": "Claude",
+      "target": "Kimi",
+      "relation_type": "integrates_with",
+      "label": "Kimi模型可作为后端API接入Claude Code使用",
+      "weight": 1
+    },
+    {
+      "source_id": "claude",
+      "target_id": "阶跃桌面伙伴",
+      "source": "Claude",
+      "target": "阶跃桌面伙伴",
+      "relation_type": "integrates_with",
+      "label": "阶跃电脑助手在本地环境中集成了Claude Code",
+      "weight": 1
+    },
+    {
+      "source_id": "gemini",
+      "target_id": "gemini-cli",
+      "source": "Gemini",
+      "target": "Gemini CLI",
+      "relation_type": "integrates_with",
+      "label": "Gemini CLI底层调用Gemini大模型",
+      "weight": 1
+    }
+  ]
+}
