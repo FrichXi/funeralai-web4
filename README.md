@@ -100,4 +100,4 @@ python -m scripts.run_pipeline --articles 069 070  # 指定文章
 
 ## License
 
-[MIT](LICENSE)
+[AGPL-3.0](LICENSE)
