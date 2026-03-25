@@ -96,7 +96,7 @@ python -m scripts.run_pipeline --articles 069 070  # 指定文章
 ## 相关项目
 
 - [funeralai](https://github.com/FrichXi/funeralai) — 分析框架本体，Claude Code / Codex skill
-- [funaral-cli](https://github.com/FrichXi/funaral-cli) — CLI / TUI 交互工具，`pip install funeralai`
+- [funeral-cli](https://github.com/FrichXi/funeral-cli) — CLI / TUI 交互工具，`pip install funeralai`
 
 ## License
 
