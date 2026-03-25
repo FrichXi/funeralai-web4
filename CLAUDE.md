@@ -210,7 +210,7 @@ acquires, co_founded, collaborates_with, compares_to, competes_with, criticizes,
 
 - **域名**: `https://funeralai.cc`
 - **托管**: Cloudflare Pages（项目名 `funeral-ai-web4`）
-- **仓库**: `https://github.com/FrichXi/funeral-web4`（public，分支 `main`）
+- **仓库**: `https://github.com/FrichXi/funeralai-web4`（public，分支 `main`）
 
 ### Next.js 配置
 
