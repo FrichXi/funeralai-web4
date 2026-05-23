@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Fixed
+- CI: upgrade Node.js from 18 to 20 in all frontend jobs — Vitest/rolldown requires `node:util.styleText` (Node 20+)
+
 ### Changed
 - README: added live site link (funeralai.cc), updated stats to 93 articles / 556 entities / 1396 relationships, fixed git clone URL to `FrichXi/funeral-ai-web4`
 - `llms.txt`: updated entity/relationship counts to match current graph data
