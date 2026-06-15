@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/FrichXi/funeralai/main/assets/logo.png" alt="葬AI" width="400">
+</p>
+
 # 葬AI Knowledge Graph / 葬AI 知识图谱
 
 An open-source pipeline that turns a collection of Chinese AI industry commentary articles into an interactive knowledge graph. 93 articles are processed by Gemini to extract entities and relationships, then aggregated into a browsable graph with leaderboards. **556 entities, 1396 relationships** — the most comprehensive Chinese AI industry knowledge graph.
