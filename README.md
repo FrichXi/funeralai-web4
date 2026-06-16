@@ -4,9 +4,9 @@
 
 # 葬AI Knowledge Graph / 葬AI 知识图谱
 
-An open-source pipeline that turns a collection of Chinese AI industry commentary articles into an interactive knowledge graph. 93 articles are processed by Gemini to extract entities and relationships, then aggregated into a browsable graph with leaderboards. **556 entities, 1396 relationships** — the most comprehensive Chinese AI industry knowledge graph.
+An open-source pipeline that turns a collection of Chinese AI industry commentary articles into an interactive knowledge graph. 104 articles are processed by Gemini to extract entities and relationships, then aggregated into a browsable graph with leaderboards. **605 entities, 1566 relationships** — the most comprehensive Chinese AI industry knowledge graph.
 
-一个开源的知识图谱管线：将中文 AI 行业评论文章集合转化为可交互的知识图谱可视化站点。93 篇文章经 Gemini 提取实体与关系，聚合为包含排行榜的可浏览图谱。**556 个实体、1396 条关系** — 最全面的中文 AI 行业知识图谱。
+一个开源的知识图谱管线：将中文 AI 行业评论文章集合转化为可交互的知识图谱可视化站点。104 篇文章经 Gemini 提取实体与关系，聚合为包含排行榜的可浏览图谱。**605 个实体、1566 条关系** — 最全面的中文 AI 行业知识图谱。
 
 **Live site / 在线站点**: [funeralai.cc](https://funeralai.cc)
 
@@ -98,7 +98,7 @@ npm run build      # Static export to site/out/
 ## Project Structure / 项目结构
 
 ```
-├── articles/              # Source markdown articles (001-093)
+├── articles/              # Source markdown articles (001-104)
 ├── scripts/               # Python pipeline
 │   ├── run_pipeline.py    # Unified CLI entry point
 │   ├── extract_gemini.py  # Gemini extraction
@@ -136,6 +136,14 @@ To import new Substack posts into the configured corpus and refresh the repo mir
 ```bash
 python -m scripts.import_substack_articles
 ```
+
+To push a completed content/data refresh to GitHub without accidentally mixing unrelated local edits:
+
+```bash
+./scripts/sync_github_repo.sh "content: sync article 104"
+```
+
+The helper only stages article/content sync paths (`articles/`, `data/`, `web-data/`, `site/public/data/`, `site/public/llms.txt`, `README.md`, `CHANGELOG.md`, `pipeline.toml`). If other local files are dirty, it exits with a blocker instead of pushing a mixed commit.
 
 ## Frontend Maintainability
 

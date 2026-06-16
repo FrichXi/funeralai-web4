@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-20T17:51:30Z",
+  "updatedAt": "2026-06-16T15:10:04Z",
   "pipeline": {
     "extractor": "gemini",
     "model": "gemini-3.1-pro-preview",
@@ -1861,6 +1861,226 @@
       "artifact_path": "data/extracted/093.json",
       "raw_path": "data/gemini_raw/093.json",
       "extracted_at": "2026-05-20T17:30:06Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "094": {
+      "article_id": "094",
+      "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+      "title": "大部分男的聊天水平不如EVE",
+      "date": "2026-05-21",
+      "author": "沐秋",
+      "content_hash": "1d91a85e8a6fb05bc52529c01b94c484f3a3bd5c8693b968927e4aed88ea601e",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/094.json",
+      "raw_path": "data/gemini_raw/094.json",
+      "extracted_at": "2026-06-03T08:20:12Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "095": {
+      "article_id": "095",
+      "path": "articles/095_2026-05-24_骡子马_4K的可灵没能复兴残酷底层物语.md",
+      "title": "4K的可灵没能复兴残酷底层物语",
+      "date": "2026-05-24",
+      "author": "骡子马",
+      "content_hash": "6143dbcd9390bf5f29ec57f2a8bf7b53d98c7a016aeebac88082362a1a1cc8b1",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/095.json",
+      "raw_path": "data/gemini_raw/095.json",
+      "extracted_at": "2026-06-03T08:20:12Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "096": {
+      "article_id": "096",
+      "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+      "title": "葬AI一周年，我不再用AI写作",
+      "date": "2026-05-27",
+      "author": "葬爱咸鱼",
+      "content_hash": "a7c6af63c44eb12542eb8c6af282f9a5853afe30a754c72725e49f17cef84abd",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/096.json",
+      "raw_path": "data/gemini_raw/096.json",
+      "extracted_at": "2026-06-03T08:20:12Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "097": {
+      "article_id": "097",
+      "path": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+      "title": "光帆耳机拒绝长发男",
+      "date": "2026-05-28",
+      "author": "沐秋",
+      "content_hash": "d93cd8a0334db535241f2a1415acc105fcc32e504e313a42b1907dc9ca87ca98",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/097.json",
+      "raw_path": "data/gemini_raw/097.json",
+      "extracted_at": "2026-06-03T08:20:12Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "098": {
+      "article_id": "098",
+      "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+      "title": "HeyGen不是给人用的",
+      "date": "2026-06-01",
+      "author": "骡子马",
+      "content_hash": "034065cad5f231f40aa62ee2ffe2634db798e4f0387f96e542740f043a6b9f11",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/098.json",
+      "raw_path": "data/gemini_raw/098.json",
+      "extracted_at": "2026-06-03T08:20:12Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "099": {
+      "article_id": "099",
+      "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+      "title": "马卡龙开创AI短剧Neo Lab",
+      "date": "2026-06-04",
+      "author": "葬爱咸鱼",
+      "content_hash": "09e766b15329fefc26165d964499bb79c17a354bd8b4c784ef307aed5f4cff2c",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/099.json",
+      "raw_path": "data/gemini_raw/099.json",
+      "extracted_at": "2026-06-14T08:18:52Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "100": {
+      "article_id": "100",
+      "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+      "title": "网吧黑客松里有真黑客",
+      "date": "2026-06-07",
+      "author": "沐秋",
+      "content_hash": "b78632ecedb3a2f1a86179566072c14670f562a8e882d18cb009736c3665e542",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/100.json",
+      "raw_path": "data/gemini_raw/100.json",
+      "extracted_at": "2026-06-14T08:18:52Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "101": {
+      "article_id": "101",
+      "path": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+      "title": "AI圈神童杀死神人",
+      "date": "2026-06-08",
+      "author": "骡子马",
+      "content_hash": "359d16b77ca237405765efe00d7cadfea223dc9f343fcad1f74aa4adf09ea818",
+      "status": "ready",
+      "reason": "forced",
+      "artifact_path": "data/extracted/101.json",
+      "raw_path": "data/gemini_raw/101.json",
+      "extracted_at": "2026-06-14T08:19:47Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "102": {
+      "article_id": "102",
+      "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+      "title": "腾讯做了一堆情感陪伴Agent",
+      "date": "2026-06-09",
+      "author": "沐秋",
+      "content_hash": "169b228d4dcaf97f197dedc9d90541b3d69a4c9693443a5b265a63cd11a2e1fb",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/102.json",
+      "raw_path": "data/gemini_raw/102.json",
+      "extracted_at": "2026-06-14T08:18:52Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "103": {
+      "article_id": "103",
+      "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+      "title": "Kimi看天讨饭吃",
+      "date": "2026-06-10",
+      "author": "葬爱咸鱼",
+      "content_hash": "d4a490c72da4a47f678726d302de4f40cd486f72b79cfb1197f85460ee48fd9f",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/103.json",
+      "raw_path": "data/gemini_raw/103.json",
+      "extracted_at": "2026-06-14T08:18:52Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "104": {
+      "article_id": "104",
+      "path": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+      "title": "生数鉴定为鸭腿吃多了",
+      "date": "2026-06-15",
+      "author": "骡子马",
+      "content_hash": "4ccfb0bd8ee3db70681e41dc58bcc3e7bf4dd1dc3cf61be31f86c3ef042ef2ff",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/104.json",
+      "raw_path": "data/gemini_raw/104.json",
+      "extracted_at": "2026-06-15T06:01:52Z",
       "last_error": null,
       "extractor": {
         "name": "gemini",

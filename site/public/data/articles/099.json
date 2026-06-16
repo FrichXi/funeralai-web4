@@ -1,0 +1,533 @@
+{
+  "id": "099",
+  "title": "马卡龙开创AI短剧Neo Lab",
+  "date": "2026-06-04",
+  "author": "葬爱咸鱼",
+  "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+  "permalink": "/articles/099",
+  "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+  "raw_markdown": "# 马卡龙开创AI短剧Neo Lab\n\n2026年6月4日 葬爱咸鱼 葬AI\n\n---\n\n马卡龙又出来炒作自己新一轮融资了，但我感到十分难过😭\n\n因为马卡龙——喔不对，他们现在管自己叫Mindverse，自我认同是一家 Neo Lab aka 做Agent模型的实验室——炒作水平每况愈下，居然沦落到提不出来新的故事，只能靠偏门小众技术名词来糊弄愚蠢的投资人了。\n\n这两天，我的微信被马卡龙刷屏了。家人们纷纷转发伟大的Agent模型实验室Mindverse的融资新闻。\n\n给我看笑喷了。家人们谁看了融资稿能绷得住？\n\n虽然2亿美金估值，好几个轮次加起来融了5000万美元，在如今沸腾火热的创投市场数字不算夸张。\n\n但是，现在是2026年6月，有人讲自己要做LoRA实现模型持续学习，居然还真的有美团战投爆金币支持梦想。\n\n这里要点名批评美团战投。外卖员那么辛苦送外卖，一单挣来块八毛钱，这两年还没这么多，就这么霍霍给了Neo lab。\n\n再看看隔壁美团龙珠，一出手就是高位接Kimi，投的是真大模型，这财投眼光就是比战投好。建议美团战投早点裁了吧，看来战投就是不如财投。\n\n回归主题，让我来给各位解释一下马卡龙是怎么实现梯云纵的。\n\n马卡龙宣称，Agent需要大模型能从真实任务中持续学习，而「实现持续进化的关键在于 LoRA 技术」。\n\n前半句当然是对的，但我看到LoRA就绷不住了，因为我真用过这玩意，我真知道这玩意干啥的。\n\nLoRA是大模型的后训练阶段用到的技术之一，也可以称之为我们更常说的微调。这玩意最常见的用途是给图像模型套滤镜，比如绕开限制，让图像模型生成NSFW内容🥵\n\n基本上也就这个作用了。\n\n它的原理用一句话概括，LoRA是给大模型挂载的技能包，通过小样本数据训练出一小组参数补丁，不用重新预训练大模型，就可以给模型加上特定的技能、风格。\n\n一个工程师哥们的评价是：「LoRA这个东西现在已经没什么人研究了。23、24年模型能力是一坨的时候，你有微调的必要。但现在都是用Prompt去引导模型，已经完全没有微调的必要了。」\n\n事实上，最简单的完整体验LoRA流程的办法，是花169块钱去充一个Liblib的进阶版会员😘\n\n对的，你没有看错，训LoRA是图片生成网站的古早功能。以至于我向Lib家人报告自己被这玩意爆金币时，他的第一反应是「这个很古老，你怎么想起来了」？\n\n当然是为了热爱马卡龙啦。\n\n给图片模型训LoRA的过程很简单。我上传了80多张葬AI的封面图，选择了Qwen image。因为LoRA要动模型局部的权重，所以用户只能给开源模型用这玩意。\n\n然后呢，Lib花了十几分钟跑出来一个LoRA插件，我测试生成了几张图。在提示词完全没有提到「复古电子像素风格」的前提下，依然生成了这个风格的图片。\n\n如上图所示，LoRA约等于给模型套滤镜。\n\n作为对照组，我也给单纯的Qwen image发了相同的提示词，生成的图片自然就没有葬AI的特定风格，be like⬇️\n\n更实际的用途是，大部分图像模型都会限制色情内容。那么对于开源模型，可以专门训练一个LoRA插件，绕开这部分限制。（我们非常不提倡这种邪恶用途。）\n\n但也就这样了。我真的不知道LoRA还有什么实际用途。\n\n我又问了好几个Agent产品创始人和工程师，没有一个人见过LoRA用在文本模型的实际业务上。如果有人在实际业务里用LoRA，请在评论区让家人们学习一下💗\n\n当然了，马卡龙的宣称是，我们的LoRA和一般的图片滤镜不一样。我们这是可以让大模型一次性加载几千上万个的高级LoRA技能包。\n\n他们还创造了一个新词，mixture of LoRA。意思是他们还要做LoRA的路由层，让大模型推理时可以启动相关的LoRA。\n\n真是非常美好的故事啊，只是这套嗑已经被人讲了114514遍了。聪明的你有没有发现，马卡龙讲的LoRA和Skill完全是一个生态位。\n\n让大模型加载技能包，更有经验地完成特定任务。这个Skill还可以不断更新，让大模型在真实任务中学习经验，越来越聪明。\n\n欸，这不是EvoMap的故事吗？马卡龙你也是「全球首个Al Agent自我进化与协作基础设施」？\n\n大伙都唠的一套嗑，只是把Skill这个名字换成了基因和LoRA。那我觉得Skill还是比其他玩意好很多。\n\n首先，Skill比较简单易用，可以直接用自然语言叫Agent把历史对话封装成Skill。并且，Skill已经有了比较成熟的生态，所有Agent用户基本可以无缝衔接地用上Skill。\n\n反观LoRA，这玩意要动模型的权重层，除了模型厂自己以外，用户只能在开源模型上用LoRA，Claude、GPT这些闭源模型都没法用。\n\n最重要的是，LoRA没有用户。连图片模型都没啥人用LoRA了，更没有人在实际业务里用这玩意。\n\n因为今天的模型能力已经进步非常大，Qwen、Kimi、Deepseek这些开源模型，基本可以完成所有日常文字、编程任务。\n\n我自己平时就用Opencode接DS V4 pro和Qwen 3.7 plus，做些整理财务数据、英语学习笔记、维护美丽的葬AI网站（funeralai.cc）这些任务。一天下来花不到十块钱，也没遇到啥错误。\n\n然后，你马卡龙突然说你在复兴LoRA，还有一堆「千人千面、持续学习、个性化、原子分子、生物学、细胞膜」的大词往大模型上怼。\n\n我的评价是不如EvoMap。\n\n当然了，马克龙的自我认同是「一家做 Agent 模型的 Frontier lab」，正好是这一两个月创投行业最火热的Neo lab概念。\n\n既然是实验室，那么马卡龙专注于复兴小众偏门LoRA技术，并且为之讲一个超级无敌巨大美丽故事，也是十分合理的。毕竟我们不能证伪这个技术路线做不出来伟大成果。\n\n无论如何，还是祝福马卡龙复兴LoRA成功吧。\n\n不过，另一个让我感到悲伤的地方是，马卡龙现在管自己叫Mindverse，不仅和陶芳波的公司同名，还几乎不提自己的起家产品马卡龙了。\n\n他们甚至把马卡龙缝进了一个新的故事，即马卡龙不是C端产品，而是他们模型的Agent harness，如同Claude的Claude code。\n\n我真是难过啊。马卡龙大半年前发布的时候，还说的这是全球首个Personal agent，要做若干自定义的小程序，来满足用户的个性化需求。\n\n还好创始人补充了一句，「Macaron，现在有 200 多万用户、超过 10 万日活。」\n\n真是让人绷不住，因为我真知道马卡龙的用户是怎么来的。\n\n在TikTok搜索「Macaron ai story code」，能搜出来一堆AI短视频，配音朗诵网络小说，页面上有数字代码，引导用户下载马卡龙，输入数字代码。\n\n然后，用户就可以在马卡龙里看完整版网络小说了。\n\n我半年前第一次看到这个套路的时候笑喷了，马卡龙团队到底怎么想出来这种神仙套路的。\n\n最幽默的是，马卡龙里边的网文还是完全照搬的知乎盐选小说，原文翻译，只字未改，我简单一搜就找出了知乎正版。\n\n不知道马卡龙给知乎付版权费了不？没有的话，知乎完全可以起诉维权一个。\n\n一些老登投资人还在反思自己是不是不懂年轻用户，其实不然，是你不懂知乎盐选，没想到海外有这么多人爱在马卡龙里看盐选小说。\n\n看着英文盐选小说真是绷不住😅\n\n让我们再来复习一下，创始人说，马卡龙APP主要是为了给模型提供「一个真实、长期、会持续产生反馈的Agent harness和训练环境。」\n\n我都不敢想一个真实、长期、会持续产生反馈的网络小说APP，会训练出来什么。原来是这才是Mindverse的核心技术😭\n\n我建议马卡龙和LibTV合作一下，接入Seedance API，一键生成AI短剧。首要目标是帮Mindverse收集高质量的用户反馈数据，其次应该还能拉一波用户。\n\n最后总结一下吧。\n\n即便2025年涌现出了那么多神产品，马卡龙依然是其中最神的那一个。首先它完全没用，其次它还被一众大厂模仿了。\n\n蚂蚁灵光和马克龙完全一个思路，当时我还写过一篇文章建议蚂蚁集团收购马卡龙。最幽默的是，马卡龙上一轮融资确实是蚂蚁投的。\n\n甚至于，百度秒哒今天都还在唠一句话生成小程序这套嗑。\n\n我真心觉得，要是他们一直坚持做马卡龙产品，说不定发展还不错。\n\n虽然这几个月大伙在唱衰应用，都在讲Neo lab，讲世界模型的故事，疯狂假装自己是模型公司，满足投资人冲业绩的急切需求。\n\n但市场热情总是一阵一阵的，23、24年大家都在讲模型层伟大，25年从Manus带火Agent后，迎来了AI产品风口。\n\n这半年因为Anthropic、OpenAI的估值表现，还有智谱、Minimax的股市狂飙，带动了一级市场重新热情拥抱模型。Kimi从40亿美金涨到200亿美金，更有众多世界模型和号称做模型层各个环节的Neo lab，估值完全超过应用项目。\n\n去年，一个AI应用天使轮估值一亿美元都是了不得的项目，差不多郭列级别才有可能。今年，一个博士生号称做模型，成立一个Neo lab天使轮一两亿美金变成了正常现象。\n\n我只能说你们投资人太极端了，要么极端唱衰，要么极端唱多，似乎创投行业有一种魔力，入行自动升级成二极管思路。\n\n至于为什么市场上总有这么多神项目呢？\n\n有一个朋友说得好，「一级市场没有天灾，都是人祸。傻x项目被投出来，多半是下面有想急于出手/证明自己的投资人，或者是出于内部竞争。内部竞争最能催生投资傻x项目。」\n\n回到马卡龙上。虽然现在市场风口是模型，但一个基本常识是，AI落地肯定要靠产品，并且模型厂的那一堆生产力产品不可能吃掉大部分市场份额\n\n马卡龙已经被证明是老登会FOMO的产品形态，他要是一直做下去，搞不好比现在做实验室估值高得多。\n\n我真的很怀疑，追着投Neo lab的投资人有没有动脑子想过。美国的Neo lab是内斗失败的德高望重老科学家的避难所，主要是尊重老资历的行业地位，顺便相信老科学家能憋个大的，憋不出来也能被收购。\n\n但在我们国内，这一切都不成立啊。我从结果上来描述马卡龙就是，一开始做产品，产品发了很快转Neo lab。反正实验室一时半会没法证伪，投资人短期只有业绩，很难背锅。\n\n更伟大的是，全球最大的Neo lab，由内斗失败的OpenAI CTO创办的Thinking Machines估值大概500亿美元。马卡龙才2亿美元估值，约等于人家的1/250。\n\n真是所有人都赢麻了。\n\n突然想起来一个问题，要是Vivix刘宇和张月光声称自己是个算法实验室，是不是就没人说他们产品不行了？\n\n（本文封面由ChatGPT生成，纯人工写作）\n",
+  "body_markdown": "# 马卡龙开创AI短剧Neo Lab\n\n2026年6月4日 葬爱咸鱼 葬AI\n\n---\n\n马卡龙又出来炒作自己新一轮融资了，但我感到十分难过😭\n\n因为马卡龙——喔不对，他们现在管自己叫Mindverse，自我认同是一家 Neo Lab aka 做Agent模型的实验室——炒作水平每况愈下，居然沦落到提不出来新的故事，只能靠偏门小众技术名词来糊弄愚蠢的投资人了。\n\n这两天，我的微信被马卡龙刷屏了。家人们纷纷转发伟大的Agent模型实验室Mindverse的融资新闻。\n\n给我看笑喷了。家人们谁看了融资稿能绷得住？\n\n虽然2亿美金估值，好几个轮次加起来融了5000万美元，在如今沸腾火热的创投市场数字不算夸张。\n\n但是，现在是2026年6月，有人讲自己要做LoRA实现模型持续学习，居然还真的有美团战投爆金币支持梦想。\n\n这里要点名批评美团战投。外卖员那么辛苦送外卖，一单挣来块八毛钱，这两年还没这么多，就这么霍霍给了Neo lab。\n\n再看看隔壁美团龙珠，一出手就是高位接Kimi，投的是真大模型，这财投眼光就是比战投好。建议美团战投早点裁了吧，看来战投就是不如财投。\n\n回归主题，让我来给各位解释一下马卡龙是怎么实现梯云纵的。\n\n马卡龙宣称，Agent需要大模型能从真实任务中持续学习，而「实现持续进化的关键在于 LoRA 技术」。\n\n前半句当然是对的，但我看到LoRA就绷不住了，因为我真用过这玩意，我真知道这玩意干啥的。\n\nLoRA是大模型的后训练阶段用到的技术之一，也可以称之为我们更常说的微调。这玩意最常见的用途是给图像模型套滤镜，比如绕开限制，让图像模型生成NSFW内容🥵\n\n基本上也就这个作用了。\n\n它的原理用一句话概括，LoRA是给大模型挂载的技能包，通过小样本数据训练出一小组参数补丁，不用重新预训练大模型，就可以给模型加上特定的技能、风格。\n\n一个工程师哥们的评价是：「LoRA这个东西现在已经没什么人研究了。23、24年模型能力是一坨的时候，你有微调的必要。但现在都是用Prompt去引导模型，已经完全没有微调的必要了。」\n\n事实上，最简单的完整体验LoRA流程的办法，是花169块钱去充一个Liblib的进阶版会员😘\n\n对的，你没有看错，训LoRA是图片生成网站的古早功能。以至于我向Lib家人报告自己被这玩意爆金币时，他的第一反应是「这个很古老，你怎么想起来了」？\n\n当然是为了热爱马卡龙啦。\n\n给图片模型训LoRA的过程很简单。我上传了80多张葬AI的封面图，选择了Qwen image。因为LoRA要动模型局部的权重，所以用户只能给开源模型用这玩意。\n\n然后呢，Lib花了十几分钟跑出来一个LoRA插件，我测试生成了几张图。在提示词完全没有提到「复古电子像素风格」的前提下，依然生成了这个风格的图片。\n\n如上图所示，LoRA约等于给模型套滤镜。\n\n作为对照组，我也给单纯的Qwen image发了相同的提示词，生成的图片自然就没有葬AI的特定风格，be like⬇️\n\n更实际的用途是，大部分图像模型都会限制色情内容。那么对于开源模型，可以专门训练一个LoRA插件，绕开这部分限制。（我们非常不提倡这种邪恶用途。）\n\n但也就这样了。我真的不知道LoRA还有什么实际用途。\n\n我又问了好几个Agent产品创始人和工程师，没有一个人见过LoRA用在文本模型的实际业务上。如果有人在实际业务里用LoRA，请在评论区让家人们学习一下💗\n\n当然了，马卡龙的宣称是，我们的LoRA和一般的图片滤镜不一样。我们这是可以让大模型一次性加载几千上万个的高级LoRA技能包。\n\n他们还创造了一个新词，mixture of LoRA。意思是他们还要做LoRA的路由层，让大模型推理时可以启动相关的LoRA。\n\n真是非常美好的故事啊，只是这套嗑已经被人讲了114514遍了。聪明的你有没有发现，马卡龙讲的LoRA和Skill完全是一个生态位。\n\n让大模型加载技能包，更有经验地完成特定任务。这个Skill还可以不断更新，让大模型在真实任务中学习经验，越来越聪明。\n\n欸，这不是EvoMap的故事吗？马卡龙你也是「全球首个Al Agent自我进化与协作基础设施」？\n\n大伙都唠的一套嗑，只是把Skill这个名字换成了基因和LoRA。那我觉得Skill还是比其他玩意好很多。\n\n首先，Skill比较简单易用，可以直接用自然语言叫Agent把历史对话封装成Skill。并且，Skill已经有了比较成熟的生态，所有Agent用户基本可以无缝衔接地用上Skill。\n\n反观LoRA，这玩意要动模型的权重层，除了模型厂自己以外，用户只能在开源模型上用LoRA，Claude、GPT这些闭源模型都没法用。\n\n最重要的是，LoRA没有用户。连图片模型都没啥人用LoRA了，更没有人在实际业务里用这玩意。\n\n因为今天的模型能力已经进步非常大，Qwen、Kimi、Deepseek这些开源模型，基本可以完成所有日常文字、编程任务。\n\n我自己平时就用Opencode接DS V4 pro和Qwen 3.7 plus，做些整理财务数据、英语学习笔记、维护美丽的葬AI网站（funeralai.cc）这些任务。一天下来花不到十块钱，也没遇到啥错误。\n\n然后，你马卡龙突然说你在复兴LoRA，还有一堆「千人千面、持续学习、个性化、原子分子、生物学、细胞膜」的大词往大模型上怼。\n\n我的评价是不如EvoMap。\n\n当然了，马克龙的自我认同是「一家做 Agent 模型的 Frontier lab」，正好是这一两个月创投行业最火热的Neo lab概念。\n\n既然是实验室，那么马卡龙专注于复兴小众偏门LoRA技术，并且为之讲一个超级无敌巨大美丽故事，也是十分合理的。毕竟我们不能证伪这个技术路线做不出来伟大成果。\n\n无论如何，还是祝福马卡龙复兴LoRA成功吧。\n\n不过，另一个让我感到悲伤的地方是，马卡龙现在管自己叫Mindverse，不仅和陶芳波的公司同名，还几乎不提自己的起家产品马卡龙了。\n\n他们甚至把马卡龙缝进了一个新的故事，即马卡龙不是C端产品，而是他们模型的Agent harness，如同Claude的Claude code。\n\n我真是难过啊。马卡龙大半年前发布的时候，还说的这是全球首个Personal agent，要做若干自定义的小程序，来满足用户的个性化需求。\n\n还好创始人补充了一句，「Macaron，现在有 200 多万用户、超过 10 万日活。」\n\n真是让人绷不住，因为我真知道马卡龙的用户是怎么来的。\n\n在TikTok搜索「Macaron ai story code」，能搜出来一堆AI短视频，配音朗诵网络小说，页面上有数字代码，引导用户下载马卡龙，输入数字代码。\n\n然后，用户就可以在马卡龙里看完整版网络小说了。\n\n我半年前第一次看到这个套路的时候笑喷了，马卡龙团队到底怎么想出来这种神仙套路的。\n\n最幽默的是，马卡龙里边的网文还是完全照搬的知乎盐选小说，原文翻译，只字未改，我简单一搜就找出了知乎正版。\n\n不知道马卡龙给知乎付版权费了不？没有的话，知乎完全可以起诉维权一个。\n\n一些老登投资人还在反思自己是不是不懂年轻用户，其实不然，是你不懂知乎盐选，没想到海外有这么多人爱在马卡龙里看盐选小说。\n\n看着英文盐选小说真是绷不住😅\n\n让我们再来复习一下，创始人说，马卡龙APP主要是为了给模型提供「一个真实、长期、会持续产生反馈的Agent harness和训练环境。」\n\n我都不敢想一个真实、长期、会持续产生反馈的网络小说APP，会训练出来什么。原来是这才是Mindverse的核心技术😭\n\n我建议马卡龙和LibTV合作一下，接入Seedance API，一键生成AI短剧。首要目标是帮Mindverse收集高质量的用户反馈数据，其次应该还能拉一波用户。\n\n最后总结一下吧。\n\n即便2025年涌现出了那么多神产品，马卡龙依然是其中最神的那一个。首先它完全没用，其次它还被一众大厂模仿了。\n\n蚂蚁灵光和马克龙完全一个思路，当时我还写过一篇文章建议蚂蚁集团收购马卡龙。最幽默的是，马卡龙上一轮融资确实是蚂蚁投的。\n\n甚至于，百度秒哒今天都还在唠一句话生成小程序这套嗑。\n\n我真心觉得，要是他们一直坚持做马卡龙产品，说不定发展还不错。\n\n虽然这几个月大伙在唱衰应用，都在讲Neo lab，讲世界模型的故事，疯狂假装自己是模型公司，满足投资人冲业绩的急切需求。\n\n但市场热情总是一阵一阵的，23、24年大家都在讲模型层伟大，25年从Manus带火Agent后，迎来了AI产品风口。\n\n这半年因为Anthropic、OpenAI的估值表现，还有智谱、Minimax的股市狂飙，带动了一级市场重新热情拥抱模型。Kimi从40亿美金涨到200亿美金，更有众多世界模型和号称做模型层各个环节的Neo lab，估值完全超过应用项目。\n\n去年，一个AI应用天使轮估值一亿美元都是了不得的项目，差不多郭列级别才有可能。今年，一个博士生号称做模型，成立一个Neo lab天使轮一两亿美金变成了正常现象。\n\n我只能说你们投资人太极端了，要么极端唱衰，要么极端唱多，似乎创投行业有一种魔力，入行自动升级成二极管思路。\n\n至于为什么市场上总有这么多神项目呢？\n\n有一个朋友说得好，「一级市场没有天灾，都是人祸。傻x项目被投出来，多半是下面有想急于出手/证明自己的投资人，或者是出于内部竞争。内部竞争最能催生投资傻x项目。」\n\n回到马卡龙上。虽然现在市场风口是模型，但一个基本常识是，AI落地肯定要靠产品，并且模型厂的那一堆生产力产品不可能吃掉大部分市场份额\n\n马卡龙已经被证明是老登会FOMO的产品形态，他要是一直做下去，搞不好比现在做实验室估值高得多。\n\n我真的很怀疑，追着投Neo lab的投资人有没有动脑子想过。美国的Neo lab是内斗失败的德高望重老科学家的避难所，主要是尊重老资历的行业地位，顺便相信老科学家能憋个大的，憋不出来也能被收购。\n\n但在我们国内，这一切都不成立啊。我从结果上来描述马卡龙就是，一开始做产品，产品发了很快转Neo lab。反正实验室一时半会没法证伪，投资人短期只有业绩，很难背锅。\n\n更伟大的是，全球最大的Neo lab，由内斗失败的OpenAI CTO创办的Thinking Machines估值大概500亿美元。马卡龙才2亿美元估值，约等于人家的1/250。\n\n真是所有人都赢麻了。\n\n突然想起来一个问题，要是Vivix刘宇和张月光声称自己是个算法实验室，是不是就没人说他们产品不行了？\n\n（本文封面由ChatGPT生成，纯人工写作）",
+  "excerpt": "# 马卡龙开创AI短剧Neo Lab 2026年6月4日 葬爱咸鱼 葬AI --- 马卡龙又出来炒作自己新一轮融资了，但我感到十分难过😭 因为马卡龙——喔不对，他们现在管自己叫Mindverse，自我认同是一家 Neo Lab aka 做Agent模型的实验室——炒作水平每况愈下，居然沦落到提不出来新的故事，只能靠偏门小众技术名词来糊弄愚蠢的投资人了。 这两天，我的微信被马卡龙刷屏了。家人们纷纷转发伟大的Agent模型实验室Min...",
+  "entity_count": 24,
+  "relationship_count": 19,
+  "entities": [
+    {
+      "id": "马卡龙",
+      "name": "马卡龙",
+      "type": "product",
+      "description": "Mindverse的起家产品，曾定位为Personal agent，现转型为收集数据的Agent harness",
+      "mention_count": 37,
+      "aliases": [
+        "Macaron",
+        "马卡龙APP"
+      ],
+      "tags": [
+        "AI短剧",
+        "网络小说",
+        "Personal agent"
+      ]
+    },
+    {
+      "id": "mindverse",
+      "name": "Mindverse",
+      "type": "company",
+      "description": "原马卡龙团队转型后的公司，自称为Agent模型实验室",
+      "mention_count": 5,
+      "aliases": [
+        "Agent模型实验室",
+        "Neo Lab"
+      ],
+      "tags": [
+        "Agent",
+        "LoRA持续学习",
+        "Frontier lab"
+      ]
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "在Openrouter上调用量排名前列的AI模型",
+      "mention_count": 4,
+      "aliases": [
+        "Qwen 3",
+        "Qwen 3.7 plus",
+        "Qwen image",
+        "Qwen-Max",
+        "任务助手",
+        "千问",
+        "千问APP",
+        "千问任务助理",
+        "通义",
+        "通义APP",
+        "通义千问",
+        "通义大模型",
+        "阿里通义"
+      ],
+      "tags": [
+        "开源模型",
+        "图像模型"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "由Anthropic开发的AI编程工具，被广泛用作套壳应用的底层引擎",
+      "mention_count": 3,
+      "aliases": [
+        "CC",
+        "CC SDK",
+        "Claude 3.5 Sonnet",
+        "Claude Code",
+        "Claude code",
+        "Claude code SDK",
+        "cc",
+        "沐秋"
+      ],
+      "tags": [
+        "闭源模型",
+        "Agent harness"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "具有长上下文能力的大语言模型，文中被用作Claude Code的后端调用模型",
+      "mention_count": 3,
+      "aliases": [
+        "K2",
+        "Kimi K2",
+        "k2"
+      ],
+      "tags": [
+        "大模型",
+        "开源/闭源模型"
+      ]
+    },
+    {
+      "id": "evomap",
+      "name": "EvoMap",
+      "type": "product",
+      "description": "号称全球首个AI Agent自我进化与协作基础设施的项目",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "自我进化",
+        "Skill",
+        "Agent"
+      ]
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "type": "company",
+      "description": "开创AI潮流的伟大企业，开发了ChatGPT",
+      "mention_count": 2,
+      "aliases": [
+        "O社"
+      ],
+      "tags": [
+        "模型公司"
+      ]
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "type": "company",
+      "description": "Claude及Claude Code背后的AI开发公司",
+      "mention_count": 1,
+      "aliases": [
+        "A畜"
+      ],
+      "tags": [
+        "模型公司"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "AI大模型公司，其爆火为Cherry Studio带来大量流量",
+      "mention_count": 1,
+      "aliases": [
+        "DS",
+        "DS V4 pro",
+        "Deepseek",
+        "Deepseek V4"
+      ],
+      "tags": [
+        "开源模型"
+      ]
+    },
+    {
+      "id": "libtv",
+      "name": "LibTV",
+      "type": "product",
+      "description": "Lovart推出的AI视频生成新产品，其功能和界面高度模仿TapNow。",
+      "mention_count": 1,
+      "aliases": [
+        "Libtv"
+      ],
+      "tags": [
+        "AI短剧"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内AI公司，其设立付费墙的商业行为被性压抑AI作为案例进行了解构分析。",
+      "mention_count": 1,
+      "aliases": [
+        "MinMax",
+        "Minimax"
+      ],
+      "tags": [
+        "模型层"
+      ]
+    },
+    {
+      "id": "openai-cto",
+      "name": "OpenAI CTO",
+      "type": "person",
+      "description": "OpenAI前高管，离职后创办了Thinking Machines",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "内斗失败",
+        "老科学家"
+      ]
+    },
+    {
+      "id": "opencode",
+      "name": "Opencode",
+      "type": "product",
+      "description": "被作者用来接入Deepseek和Qwen执行日常任务的工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI编程",
+        "自动化"
+      ]
+    },
+    {
+      "id": "seedance",
+      "name": "Seedance",
+      "type": "product",
+      "description": "字节推出的AI视频生成大模型，支持参考图片、视频和音频生成并复刻内容。",
+      "mention_count": 1,
+      "aliases": [
+        "Seedance 2.0",
+        "Seedance API"
+      ],
+      "tags": [
+        "API",
+        "AI短剧"
+      ]
+    },
+    {
+      "id": "thinking-machines",
+      "name": "Thinking Machines",
+      "type": "company",
+      "description": "由前OpenAI CTO创办的Neo lab，估值极高",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "Neo lab",
+        "算法实验室"
+      ]
+    },
+    {
+      "id": "vivix",
+      "name": "Vivix",
+      "type": "company",
+      "description": "刘宇和张月光所在的AI公司，文章假设其如果转做算法实验室的处境",
+      "mention_count": 1,
+      "aliases": [
+        "Vivix AI"
+      ],
+      "tags": [
+        "AI公司",
+        "算法实验室"
+      ]
+    },
+    {
+      "id": "刘宇",
+      "name": "刘宇",
+      "type": "person",
+      "description": "拥有高估值多模态AI项目的行业人物，被预判将成Agnes蹭热度目标",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "张月光",
+      "name": "张月光",
+      "type": "person",
+      "description": "AI产品制作人，连续创业者，打造了《星眠》等产品",
+      "mention_count": 1,
+      "aliases": [
+        "月光",
+        "月光老师"
+      ],
+      "tags": []
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "国内AI大模型公司，为Cherry Studio提供免费API支持",
+      "mention_count": 1,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "模型层"
+      ]
+    },
+    {
+      "id": "百度",
+      "name": "百度",
+      "type": "company",
+      "description": "BAT之一，好大夫在线的前股东，曾雪中送炭投资多位AI创业者",
+      "mention_count": 1,
+      "aliases": [
+        "Baidu",
+        "百度战投"
+      ],
+      "tags": [
+        "大厂"
+      ]
+    },
+    {
+      "id": "秒哒",
+      "name": "秒哒",
+      "type": "product",
+      "description": "百度推出的产品，主打一句话生成小程序",
+      "mention_count": 1,
+      "aliases": [
+        "百度秒哒"
+      ],
+      "tags": [
+        "一句话生成小程序"
+      ]
+    },
+    {
+      "id": "美团龙珠",
+      "name": "美团龙珠",
+      "type": "company",
+      "description": "投资机构，参与了Rezona第二轮融资",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "财务投资"
+      ]
+    },
+    {
+      "id": "蚂蚁灵光",
+      "name": "蚂蚁灵光",
+      "type": "product",
+      "description": "蚂蚁集团推出的产品，与马卡龙思路一致",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "模仿产品"
+      ]
+    },
+    {
+      "id": "蚂蚁集团",
+      "name": "蚂蚁集团",
+      "type": "company",
+      "description": "中国互联网巨头，开发了AI应用灵光。",
+      "mention_count": 1,
+      "aliases": [
+        "支付宝",
+        "蚂蚁",
+        "蚂蚁战投",
+        "蚂蚁投资",
+        "蚂蚁金服",
+        "蚂蚁集团投资部"
+      ],
+      "tags": [
+        "大厂",
+        "资方"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "刘宇",
+      "target_id": "张月光",
+      "source": "刘宇",
+      "target": "张月光",
+      "relation_type": "co_founded",
+      "label": "刘宇和张月光作为核心组合共同负责Vivix项目",
+      "weight": 1
+    },
+    {
+      "source_id": "anthropic",
+      "target_id": "openai",
+      "source": "Anthropic",
+      "target": "OpenAI",
+      "relation_type": "compares_to",
+      "label": "Anthropic和OpenAI作为海外模型大厂，被并列讨论其高估值对行业风口的影响",
+      "weight": 1
+    },
+    {
+      "source_id": "evomap",
+      "target_id": "mindverse",
+      "source": "EvoMap",
+      "target": "Mindverse",
+      "relation_type": "compares_to",
+      "label": "马卡龙（Mindverse）讲的Agent进化故事被指与EvoMap的故事雷同",
+      "weight": 1
+    },
+    {
+      "source_id": "mindverse",
+      "target_id": "thinking-machines",
+      "source": "Mindverse",
+      "target": "Thinking Machines",
+      "relation_type": "compares_to",
+      "label": "作者将Thinking Machines 500亿美元的估值与Mindverse 2亿美元的估值进行了对比",
+      "weight": 1
+    },
+    {
+      "source_id": "minimax",
+      "target_id": "智谱ai",
+      "source": "MiniMax",
+      "target": "智谱AI",
+      "relation_type": "compares_to",
+      "label": "智谱与MiniMax作为国内模型层代表，被放在一起论述其在股市的狂飙表现",
+      "weight": 1
+    },
+    {
+      "source_id": "秒哒",
+      "target_id": "马卡龙",
+      "source": "秒哒",
+      "target": "马卡龙",
+      "relation_type": "compares_to",
+      "label": "百度秒哒被指仍在唠一句话生成小程序这套类似马卡龙的嗑",
+      "weight": 1
+    },
+    {
+      "source_id": "蚂蚁灵光",
+      "target_id": "马卡龙",
+      "source": "蚂蚁灵光",
+      "target": "马卡龙",
+      "relation_type": "compares_to",
+      "label": "蚂蚁灵光与马卡龙被指思路完全一样，属于模仿产品",
+      "weight": 1
+    },
+    {
+      "source_id": "mindverse",
+      "target_id": "马卡龙",
+      "source": "Mindverse",
+      "target": "马卡龙",
+      "relation_type": "develops",
+      "label": "马卡龙是Mindverse（原马卡龙团队）开发的起家产品",
+      "weight": 1
+    },
+    {
+      "source_id": "百度",
+      "target_id": "秒哒",
+      "source": "百度",
+      "target": "秒哒",
+      "relation_type": "develops",
+      "label": "百度开发了秒哒产品",
+      "weight": 1
+    },
+    {
+      "source_id": "蚂蚁集团",
+      "target_id": "蚂蚁灵光",
+      "source": "蚂蚁集团",
+      "target": "蚂蚁灵光",
+      "relation_type": "develops",
+      "label": "蚂蚁集团开发了蚂蚁灵光产品",
+      "weight": 1
+    },
+    {
+      "source_id": "openai-cto",
+      "target_id": "thinking-machines",
+      "source": "OpenAI CTO",
+      "target": "Thinking Machines",
+      "relation_type": "founder_of",
+      "label": "内斗失败的OpenAI CTO创办了Thinking Machines",
+      "weight": 1
+    },
+    {
+      "source_id": "刘宇",
+      "target_id": "vivix",
+      "source": "刘宇",
+      "target": "Vivix",
+      "relation_type": "founder_of",
+      "label": "刘宇是Vivix的核心人物及创办者",
+      "weight": 1
+    },
+    {
+      "source_id": "张月光",
+      "target_id": "vivix",
+      "source": "张月光",
+      "target": "Vivix",
+      "relation_type": "founder_of",
+      "label": "张月光是Vivix的核心人物及创办者",
+      "weight": 1
+    },
+    {
+      "source_id": "deepseek",
+      "target_id": "opencode",
+      "source": "DeepSeek",
+      "target": "Opencode",
+      "relation_type": "integrates_with",
+      "label": "作者使用Opencode接入了Deepseek模型来完成日常任务",
+      "weight": 1
+    },
+    {
+      "source_id": "libtv",
+      "target_id": "seedance",
+      "source": "LibTV",
+      "target": "Seedance",
+      "relation_type": "integrates_with",
+      "label": "文中建议LibTV通过接入Seedance API来实现一键生成AI短剧",
+      "weight": 1
+    },
+    {
+      "source_id": "opencode",
+      "target_id": "qwen",
+      "source": "Opencode",
+      "target": "Qwen",
+      "relation_type": "integrates_with",
+      "label": "作者使用Opencode接入了Qwen模型来完成日常任务",
+      "weight": 1
+    },
+    {
+      "source_id": "美团龙珠",
+      "target_id": "kimi",
+      "source": "美团龙珠",
+      "target": "Kimi",
+      "relation_type": "invests_in",
+      "label": "美团龙珠高位接盘投资了Kimi",
+      "weight": 1
+    },
+    {
+      "source_id": "蚂蚁集团",
+      "target_id": "mindverse",
+      "source": "蚂蚁集团",
+      "target": "Mindverse",
+      "relation_type": "invests_in",
+      "label": "蚂蚁集团在上一轮融资中投资了马卡龙（Mindverse）",
+      "weight": 1
+    },
+    {
+      "source_id": "openai-cto",
+      "target_id": "openai",
+      "source": "OpenAI CTO",
+      "target": "OpenAI",
+      "relation_type": "works_at",
+      "label": "OpenAI CTO曾任职于OpenAI",
+      "weight": 1
+    }
+  ]
+}

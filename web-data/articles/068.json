@@ -52,11 +52,13 @@
     },
     {
       "id": "kimi-claw",
-      "name": "Kimi claw",
+      "name": "Kimi Claw",
       "type": "product",
-      "description": "Kimi旗下的云端Openclaw产品",
+      "description": "AI阅读与分析产品，文中被指出无法读取小红书链接，与EVE的理解能力形成对比",
       "mention_count": 6,
       "aliases": [
+        "Kimi",
+        "Kimi claw",
         "Kimiclaw"
       ],
       "tags": []
@@ -93,7 +95,7 @@
       "id": "腾讯",
       "name": "腾讯",
       "type": "company",
-      "description": "中国互联网巨头之一，被提及可能在未来重金下场AI平台之战。",
+      "description": "中国知名科技互联网公司，在文中开发了多款Agent及其他软件产品",
       "mention_count": 4,
       "aliases": [
         "Tencent"
@@ -151,7 +153,7 @@
     {
       "id": "腾讯云",
       "name": "腾讯云",
-      "type": "company",
+      "type": "product",
       "description": "提供云端Openclaw部署服务的云服务厂商",
       "mention_count": 3,
       "aliases": [],
@@ -176,7 +178,7 @@
       "id": "kimi-code",
       "name": "Kimi Code",
       "type": "product",
-      "description": "Kimi旗下的代码助手产品",
+      "description": "月之暗面推出的第三方编程CLI工具",
       "mention_count": 2,
       "aliases": [
         "Kimi code"
@@ -193,6 +195,7 @@
       "mention_count": 2,
       "aliases": [
         "MinMax",
+        "Minimax",
         "胖猫 (文中特定语境代称)"
       ],
       "tags": [
@@ -317,20 +320,20 @@
     },
     {
       "source_id": "kimi",
+      "target_id": "kimi-claw",
+      "source": "Kimi",
+      "target": "Kimi Claw",
+      "relation_type": "develops",
+      "label": "Kimi公司推出了199元的Kimi claw",
+      "weight": 1
+    },
+    {
+      "source_id": "kimi",
       "target_id": "kimi-code",
       "source": "Kimi",
       "target": "Kimi Code",
       "relation_type": "develops",
       "label": "Kimi官方拥有的代码产品",
-      "weight": 1
-    },
-    {
-      "source_id": "kimi",
-      "target_id": "kimi-claw",
-      "source": "Kimi",
-      "target": "Kimi claw",
-      "relation_type": "develops",
-      "label": "Kimi公司推出了199元的Kimi claw",
       "weight": 1
     },
     {
@@ -355,7 +358,7 @@
       "source_id": "kimi-code",
       "target_id": "kimi-claw",
       "source": "Kimi Code",
-      "target": "Kimi claw",
+      "target": "Kimi Claw",
       "relation_type": "integrates_with",
       "label": "作者尝试让Kimi claw调用Kimi Code，但官方不支持",
       "weight": 1

@@ -4,14 +4,24 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Added
+- `scripts/sync_github_repo.sh` to let the weekday Substack automation push article/graph/stat updates to GitHub while refusing to mix in unrelated local changes.
+
 ### Fixed
+- Substack importer now falls back to the local Chrome CDP proxy when direct requests are blocked by Cloudflare challenges.
+- Article 093 source filename normalized so generated article metadata no longer picks up the `_副本` suffix during deployment.
 - CI: upgrade Node.js from 18 to 20 in all frontend jobs — Vitest/rolldown requires `node:util.styleText` (Node 20+)
 
 ### Changed
 - README: added live site link (funeralai.cc), updated stats to 93 articles / 556 entities / 1396 relationships, fixed git clone URL to `FrichXi/funeral-ai-web4`
 - `llms.txt`: updated entity/relationship counts to match current graph data
+- Weekday Substack automation should now deploy first, then sync the GitHub repo only when the working tree contains sync-scoped content/data changes.
 
 ### Added
+- Article 104 imported from Substack: "生数鉴定为鸭腿吃多了" (104). Incremental pipeline run completed successfully with 12 entities and 14 relationships extracted; public stats updated to 104 articles / 605 entities / 1566 relationships.
+- Environment templates for OpenAI-compatible local agent providers: Alibaba Cloud DashScope China, Kimi/Moonshot China, and DeepSeek.
+- Articles 099-103 imported from Substack: "马卡龙开创AI短剧Neo Lab" (099), "网吧黑客松里有真黑客" (100), "AI圈神童杀死神人" (101), "腾讯做了一堆情感陪伴Agent" (102), and "Kimi看天讨饭吃" (103). Full pipeline: import → extraction → post-processing → frontend data → deploy.
+- Articles 094-098 imported from Substack: "大部分男的聊天水平不如EVE" (094), "4K的可灵没能复兴残酷底层物语" (095), "葬AI一周年，我不再用AI写作" (096), "光帆耳机拒绝长发男" (097), and "HeyGen不是给人用的" (098). Full pipeline: import → extraction → post-processing → frontend data → deploy.
 - Pre-deploy KG review gate (`scripts/kg_review_gate.py`) and `site` deploy hook. Deployment now rebuilds graph data, checks holistic review coverage, verifies extracted entities survive into frontend payloads, and surfaces relationship candidates before upload.
 - Articles 073-077: "做个人吧，别做AI" (073), "我们决定代表全体人类向龙虾宣战" (074), "葬CLI如闪电般上线" (075), "OpenClaw气功纪录片今日上映" (076), "Flova和TapNow背对背拥抱" (077). Full pipeline: extraction → post-processing → frontend data → deploy.
 - Articles 070-072: "Mulerun借假修真Agent市场明牌竞争" (070), "小智AI才是真正的具身智能" (071), "Lovart狂做TapNow" (072). Full pipeline: extraction → graph aggregation → post-processing → frontend data → deploy.
