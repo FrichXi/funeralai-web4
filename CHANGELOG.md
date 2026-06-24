@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file.
 - Article 105 imported from Substack: "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8" (105). Incremental pipeline run completed successfully with 16 entities and 15 relationships extracted; public stats updated to 105 articles / 609 entities / 1578 relationships.
 
 ### Changed
+- CI GitHub Actions now use Node 24-compatible action runtimes (`checkout@v7`, `setup-node@v6`, `setup-python@v6`) and run frontend jobs on Node.js 24.
 - Frontend builds now require an explicit `/test` staging mode: `STAGE_TEST=skip` for clean CI builds, `STAGE_TEST=required` for benchmark updates, with local benchmark paths kept in ignored `site/benchmark.local.json`.
 - `site/public/data/`, `site/public/test/`, and `data/graph/canonical_full.json` are treated as generated artifacts instead of tracked source.
 - `/test` default ranking, value leaderboard, and round matrix now use the 2026-06-24 composite score: graph-weighted base score plus full graph-stability recheck. r6 Doubao is adjusted from 100 to 88.8 due to severe graph motion.
