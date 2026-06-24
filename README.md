@@ -10,6 +10,8 @@ An open-source pipeline that turns a collection of Chinese AI industry commentar
 
 **Live site / 在线站点**: [funeralai.cc](https://funeralai.cc)
 
+**Benchmark / 模型实测**: [funeralai.cc/test](https://funeralai.cc/test) publishes the 8-model / 80-site Web4 rebuild benchmark. The default score is the 2026-06-24 composite standard: graph-weighted base score plus full graph-stability recheck.
+
 ## Architecture / 架构
 
 ```

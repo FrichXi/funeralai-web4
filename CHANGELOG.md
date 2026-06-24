@@ -5,7 +5,11 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
+- `/test` benchmark now publishes the 8-model / 80-site composite leaderboard, including Doubao Seed 2.1 Pro and Step 3.7 Flash, with old graph-weighted scores kept as archive evidence.
 - `scripts/sync_github_repo.sh` to let the weekday Substack automation push article/graph/stat updates to GitHub while refusing to mix in unrelated local changes.
+
+### Changed
+- `/test` default ranking, value leaderboard, and round matrix now use the 2026-06-24 composite score: graph-weighted base score plus full graph-stability recheck. r6 Doubao is adjusted from 100 to 88.8 due to severe graph motion.
 
 ### Fixed
 - Substack importer now falls back to the local Chrome CDP proxy when direct requests are blocked by Cloudflare challenges.
