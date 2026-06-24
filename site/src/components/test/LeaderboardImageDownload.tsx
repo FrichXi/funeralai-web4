@@ -1,12 +1,13 @@
 'use client';
 
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Download, Loader2 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface LeaderboardImageDownloadProps {
   className?: string;
   imageUrl?: string;
+  imageVersion?: string;
   fileNamePrefix?: string;
   shareTitle?: string;
   buttonLabel?: string;
@@ -18,9 +19,24 @@ const DEFAULT_SHARE_TITLE = '葬AI 模型总榜';
 const DEFAULT_BUTTON_LABEL = '下载榜单图';
 const IMAGE_FETCH_TIMEOUT_MS = 15000;
 
-async function fetchLeaderboardImage(imageUrl: string, signal?: AbortSignal) {
+function versionedImageUrl(imageUrl: string, imageVersion?: string, cacheBust = false) {
+  const baseOrigin = typeof window === 'undefined' ? 'https://funeralai.local' : window.location.origin;
+  const url = new URL(imageUrl, baseOrigin);
+
+  if (imageVersion) {
+    url.searchParams.set('v', imageVersion);
+  }
+
+  if (cacheBust) {
+    url.searchParams.set('downloadAt', String(Date.now()));
+  }
+
+  return url.origin === baseOrigin ? `${url.pathname}${url.search}${url.hash}` : url.toString();
+}
+
+async function fetchLeaderboardImage(imageUrl: string, signal?: AbortSignal, cache: RequestCache = 'reload') {
   const response = await fetch(imageUrl, {
-    cache: 'force-cache',
+    cache,
     signal,
   });
 
@@ -32,11 +48,11 @@ async function fetchLeaderboardImage(imageUrl: string, signal?: AbortSignal) {
   return blob.type === 'image/png' ? blob : new Blob([blob], { type: 'image/png' });
 }
 
-function fetchLeaderboardImageWithTimeout(imageUrl: string) {
+function fetchLeaderboardImageWithTimeout(imageUrl: string, cache: RequestCache = 'reload') {
   const controller = new AbortController();
   const timeoutId = window.setTimeout(() => controller.abort(), IMAGE_FETCH_TIMEOUT_MS);
 
-  return fetchLeaderboardImage(imageUrl, controller.signal).finally(() => {
+  return fetchLeaderboardImage(imageUrl, controller.signal, cache).finally(() => {
     window.clearTimeout(timeoutId);
   });
 }
@@ -55,23 +71,26 @@ function downloadBlob(blob: Blob, fileName: string) {
 export function LeaderboardImageDownload({
   className,
   imageUrl = DEFAULT_LEADERBOARD_IMAGE_URL,
+  imageVersion,
   fileNamePrefix = DEFAULT_FILE_NAME_PREFIX,
   shareTitle = DEFAULT_SHARE_TITLE,
   buttonLabel = DEFAULT_BUTTON_LABEL,
 }: LeaderboardImageDownloadProps) {
-  const [imageBlob, setImageBlob] = useState<Blob | null>(null);
   const [isPreparing, setIsPreparing] = useState(true);
   const [isGenerating, setIsGenerating] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const preparedImageUrl = useMemo(
+    () => versionedImageUrl(imageUrl, imageVersion),
+    [imageUrl, imageVersion],
+  );
 
   useEffect(() => {
     let cancelled = false;
 
     async function preloadImage() {
       try {
-        const blob = await fetchLeaderboardImageWithTimeout(imageUrl);
+        await fetchLeaderboardImageWithTimeout(preparedImageUrl, 'reload');
         if (!cancelled) {
-          setImageBlob(blob);
           setError(null);
         }
       } catch {
@@ -90,15 +109,15 @@ export function LeaderboardImageDownload({
     return () => {
       cancelled = true;
     };
-  }, [imageUrl]);
+  }, [preparedImageUrl]);
 
   const handleDownload = useCallback(async () => {
     setIsGenerating(true);
     setError(null);
 
     try {
-      const blob = imageBlob || (await fetchLeaderboardImageWithTimeout(imageUrl));
-      setImageBlob(blob);
+      const downloadImageUrl = versionedImageUrl(imageUrl, imageVersion, true);
+      const blob = await fetchLeaderboardImageWithTimeout(downloadImageUrl, 'no-store');
 
       const fileName = `${fileNamePrefix}-${new Date().toISOString().slice(0, 10)}.png`;
       const file = new File([blob], fileName, { type: 'image/png' });
@@ -132,7 +151,7 @@ export function LeaderboardImageDownload({
     } finally {
       setIsGenerating(false);
     }
-  }, [fileNamePrefix, imageBlob, imageUrl, shareTitle]);
+  }, [fileNamePrefix, imageUrl, imageVersion, shareTitle]);
 
   const isBusy = isPreparing || isGenerating;
 

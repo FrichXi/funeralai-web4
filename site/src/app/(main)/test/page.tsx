@@ -867,6 +867,19 @@ export default function TestPage() {
   const efficiencyRows = rankEfficiencyRows(manifest.efficiencyLeaderboard);
   const scored = manifest.entries.filter((entry) => Number.isFinite(entry.score)).length;
   const scoreFormula = manifest.scoreFormula || 'loading 15 + graph/25*35 + articles/25*15 + visual 20 + interaction 15';
+  const modelLeaderboardImageVersion = [
+    manifest.generatedAt,
+    manifest.scoreStandard,
+    manifest.entries.length,
+    scored,
+    ...summaries.map((summary) => `${summary.version}:${formatScore(summary.avg)}`),
+  ].join('|');
+  const valueLeaderboardImageVersion = [
+    manifest.generatedAt,
+    manifest.scoreStandard,
+    manifest.efficiencyLeaderboard?.length ?? 0,
+    ...efficiencyRows.map((row) => `${row.modelVersion}:${formatScore(row.scoreAvg ?? null)}:${row.valueIndex ?? ''}`),
+  ].join('|');
 
   return (
     <>
@@ -877,7 +890,10 @@ export default function TestPage() {
           <div className="flex flex-col gap-1 lg:flex-row lg:items-end lg:justify-between">
             <div className="flex items-center justify-between gap-3">
               <h2 className="retro text-[20px] leading-none text-primary">模型总榜</h2>
-              <LeaderboardImageDownload buttonLabel="下载榜单图" />
+              <LeaderboardImageDownload
+                imageVersion={modelLeaderboardImageVersion}
+                buttonLabel="下载榜单图"
+              />
             </div>
             <p className="hidden max-w-2xl text-xs leading-6 text-muted-foreground md:block lg:text-right">
               <span className="text-foreground">评分公式：</span>
@@ -893,6 +909,7 @@ export default function TestPage() {
               <h2 className="retro text-[20px] leading-none text-primary">性价比榜</h2>
               <LeaderboardImageDownload
                 imageUrl="/test/value-leaderboard-mobile.png"
+                imageVersion={valueLeaderboardImageVersion}
                 fileNamePrefix="funeralai-value-leaderboard"
                 shareTitle="葬AI 性价比榜"
                 buttonLabel="下载性价比图"
