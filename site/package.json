@@ -4,15 +4,15 @@
   "private": true,
   "scripts": {
     "prebuild": "bash prebuild.sh",
-    "stage:test": "node scripts/stage-test-sites.mjs",
+    "stage:test": "STAGE_TEST=required node scripts/stage-test-sites.mjs",
     "render:leaderboard-image": "node scripts/render-leaderboard-image.mjs",
     "dev": "bash prebuild.sh && next dev",
-    "build": "bash prebuild.sh && next build && npm run render:leaderboard-image",
+    "build": "next build && npm run render:leaderboard-image",
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
-    "predeploy": "cd .. && python3 -m scripts.run_pipeline build && python3 scripts/kg_review_gate.py",
-    "deploy": "npm run build && env -u ALL_PROXY -u all_proxy -u HTTP_PROXY -u http_proxy -u HTTPS_PROXY -u https_proxy -u NO_PROXY -u no_proxy wrangler pages deploy out --project-name funeral-ai-web4",
+    "predeploy": "cd .. && scripts/doctor_repo.sh --profile release",
+    "deploy": "cd .. && scripts/deploy_site.sh --profile release",
     "deploy:raw": "wrangler pages deploy out --project-name funeral-ai-web4"
   },
   "dependencies": {

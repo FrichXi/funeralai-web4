@@ -7,6 +7,24 @@ on:
     branches: [main]
 
 jobs:
+  repo-hygiene:
+    name: Repository Hygiene
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python3 scripts/check_no_secrets.py
+      - run: |
+          tracked="$(git ls-files site/public/data site/public/test data/graph/canonical_full.json)"
+          if [ -n "$tracked" ]; then
+            echo "Generated files must not be tracked:"
+            echo "$tracked"
+            exit 1
+          fi
+      - run: bash scripts/doctor_repo.sh --profile release --ci
+
   python-tests:
     name: Python Tests
     runs-on: ubuntu-latest
@@ -48,7 +66,7 @@ jobs:
           cache: "npm"
           cache-dependency-path: site/package-lock.json
       - run: npm ci
-      - run: npm run build
+      - run: STAGE_TEST=skip npm run build
 
   frontend-tests:
     name: Frontend Tests

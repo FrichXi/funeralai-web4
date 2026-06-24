@@ -25,6 +25,16 @@ site/node_modules/
 site/.vercel/
 *.tsbuildinfo
 
+# Local deploy/tool caches and screenshots
+.wrangler/
+site/output/
+site/benchmark.local.json
+site/benchmark.local.*.json
+!site/benchmark.local.example.json
+AGENTS.local.md
+Web4/
+website/
+
 # OS
 .DS_Store
 

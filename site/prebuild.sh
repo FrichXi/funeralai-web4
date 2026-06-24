@@ -37,5 +37,18 @@ cp "$DATA_SRC"/articles/*.json "$DATA_DEST/articles/"
 
 echo "Done. Copied $(ls "$DATA_DEST/articles/" | wc -l | tr -d ' ') article files + 3 index files."
 
-echo "Staging isolated /test module ..."
-node "$SCRIPT_DIR/scripts/stage-test-sites.mjs"
+STAGE_TEST_MODE="${STAGE_TEST:-skip}"
+
+case "$STAGE_TEST_MODE" in
+  required|auto)
+    echo "Staging isolated /test module (STAGE_TEST=$STAGE_TEST_MODE) ..."
+    STAGE_TEST="$STAGE_TEST_MODE" node "$SCRIPT_DIR/scripts/stage-test-sites.mjs"
+    ;;
+  skip)
+    echo "Skipping isolated /test staging (STAGE_TEST=skip)."
+    ;;
+  *)
+    echo "ERROR: STAGE_TEST must be required, auto, or skip; got '$STAGE_TEST_MODE'." >&2
+    exit 1
+    ;;
+esac

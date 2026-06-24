@@ -5,17 +5,20 @@ import { fileURLToPath } from "node:url";
 const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
 const SITE_DIR = path.dirname(SCRIPT_DIR);
 const PROJECT_ROOT = path.dirname(SITE_DIR);
-const SOURCE_ROOT =
-  process.env.TEST_SOURCE_ROOT || "/Users/xixiangyu/Documents/cc写作/qwen";
+const STAGE_TEST_MODE = process.env.STAGE_TEST || "required";
+const BENCHMARK_CONFIG_PATH =
+  process.env.TEST_BENCHMARK_CONFIG || path.join(SITE_DIR, "benchmark.local.json");
+const BENCHMARK_CONFIG = await readBenchmarkConfig();
+const SOURCE_ROOT = setting("TEST_SOURCE_ROOT", "sourceRoot");
 const RECHECK_DIR =
-  process.env.TEST_RECHECK_DIR ||
-  path.join(SOURCE_ROOT, "append-20260623", "stability-full-20260624");
+  setting("TEST_RECHECK_DIR", "recheckDir") ||
+  (SOURCE_ROOT ? path.join(SOURCE_ROOT, "append-20260623", "stability-full-20260624") : "");
 const SCORE_CSV = path.join(RECHECK_DIR, "full-stability-recheck.csv");
 const SCORE_JSON = path.join(RECHECK_DIR, "full-stability-recheck.json");
 const SCORE_REPORT = path.join(RECHECK_DIR, "full-stability-recheck.md");
 const GRAPHWEIGHTED_RECHECK_DIR =
-  process.env.TEST_GRAPHWEIGHTED_RECHECK_DIR ||
-  path.join(SOURCE_ROOT, "append-20260623");
+  setting("TEST_GRAPHWEIGHTED_RECHECK_DIR", "graphWeightedRecheckDir") ||
+  (SOURCE_ROOT ? path.join(SOURCE_ROOT, "append-20260623") : "");
 const GRAPHWEIGHTED_SCORE_CSV = path.join(
   GRAPHWEIGHTED_RECHECK_DIR,
   "playwright-recheck-graphweighted.csv"
@@ -29,32 +32,42 @@ const GRAPHWEIGHTED_SCORE_REPORT = path.join(
   "playwright-recheck-graphweighted.md"
 );
 const EFFICIENCY_CSV =
-  process.env.TEST_EFFICIENCY_CSV ||
-  path.join(
-    SOURCE_ROOT,
-    "append-20260623",
-    "model-call-logs-20260623",
-    "extracted",
-    "cross-model-comparison.csv"
-  );
+  setting("TEST_EFFICIENCY_CSV", "efficiencyCsv") ||
+  (SOURCE_ROOT
+    ? path.join(
+        SOURCE_ROOT,
+        "append-20260623",
+        "model-call-logs-20260623",
+        "extracted",
+        "cross-model-comparison.csv"
+      )
+    : "");
 const MODEL_LOG_ANALYSIS =
-  process.env.TEST_MODEL_LOG_ANALYSIS ||
-  path.join(SOURCE_ROOT, "append-20260623", "model-call-logs-20260623", "model-log-analysis.md");
+  setting("TEST_MODEL_LOG_ANALYSIS", "modelLogAnalysis") ||
+  (SOURCE_ROOT
+    ? path.join(SOURCE_ROOT, "append-20260623", "model-call-logs-20260623", "model-log-analysis.md")
+    : "");
 const LEGACY_MANIFEST =
-  process.env.TEST_LEGACY_MANIFEST ||
-  path.join(SOURCE_ROOT, "append-20260623", "legacy-6-model", "manifest.json");
+  setting("TEST_LEGACY_MANIFEST", "legacyManifest") ||
+  (SOURCE_ROOT ? path.join(SOURCE_ROOT, "append-20260623", "legacy-6-model", "manifest.json") : "");
 const LEGACY_SCORE_CSV =
-  process.env.TEST_LEGACY_SCORE_CSV ||
-  path.join(SOURCE_ROOT, "append-20260623", "legacy-6-model", "playwright-recheck-graphweighted.csv");
+  setting("TEST_LEGACY_SCORE_CSV", "legacyScoreCsv") ||
+  (SOURCE_ROOT
+    ? path.join(SOURCE_ROOT, "append-20260623", "legacy-6-model", "playwright-recheck-graphweighted.csv")
+    : "");
 const LEGACY_SCORE_JSON =
-  process.env.TEST_LEGACY_SCORE_JSON ||
-  path.join(SOURCE_ROOT, "append-20260623", "legacy-6-model", "playwright-recheck-graphweighted.json");
+  setting("TEST_LEGACY_SCORE_JSON", "legacyScoreJson") ||
+  (SOURCE_ROOT
+    ? path.join(SOURCE_ROOT, "append-20260623", "legacy-6-model", "playwright-recheck-graphweighted.json")
+    : "");
 const LEGACY_SCORE_REPORT =
-  process.env.TEST_LEGACY_SCORE_REPORT ||
-  path.join(SOURCE_ROOT, "append-20260623", "legacy-6-model", "playwright-recheck-graphweighted.md");
+  setting("TEST_LEGACY_SCORE_REPORT", "legacyScoreReport") ||
+  (SOURCE_ROOT
+    ? path.join(SOURCE_ROOT, "append-20260623", "legacy-6-model", "playwright-recheck-graphweighted.md")
+    : "");
 const TEST_SHARED_DATA_DIR =
-  process.env.TEST_SHARED_DATA_DIR ||
-  path.join(SOURCE_ROOT, "append-20260623", "web4-b110bf9", "web-data");
+  setting("TEST_SHARED_DATA_DIR", "testSharedDataDir") ||
+  (SOURCE_ROOT ? path.join(SOURCE_ROOT, "append-20260623", "web4-b110bf9", "web-data") : "");
 const TEST_DEST = path.join(SITE_DIR, "public", "test");
 const EXPECTED_TEST_ARTICLE_COUNT = 104;
 const EXPECTED_TEST_LATEST_ARTICLE_ID = "104";
@@ -160,6 +173,39 @@ function invariant(condition, message) {
   if (!condition) {
     throw new Error(message);
   }
+}
+
+async function readBenchmarkConfig() {
+  if (!(await exists(BENCHMARK_CONFIG_PATH))) {
+    return {};
+  }
+
+  const config = JSON.parse(await readFile(BENCHMARK_CONFIG_PATH, "utf8"));
+  invariant(
+    config && typeof config === "object" && !Array.isArray(config),
+    `Benchmark config must be a JSON object: ${BENCHMARK_CONFIG_PATH}`
+  );
+  return config;
+}
+
+function setting(envName, configKey) {
+  return process.env[envName] || BENCHMARK_CONFIG[configKey] || "";
+}
+
+function missingBenchmarkConfigError(missingSettings) {
+  const missing = missingSettings.map((item) => item.name).join(", ");
+  return (
+    `Missing benchmark staging settings: ${missing}.\n` +
+    `Create ignored config ${BENCHMARK_CONFIG_PATH}, set TEST_* environment variables, ` +
+    "or run with STAGE_TEST=skip/auto when /test artifacts are not required."
+  );
+}
+
+function validateStageMode() {
+  invariant(
+    ["required", "auto", "skip"].includes(STAGE_TEST_MODE),
+    `STAGE_TEST must be required, auto, or skip; got ${STAGE_TEST_MODE}`
+  );
 }
 
 async function exists(filePath) {
@@ -964,6 +1010,29 @@ async function writeLegacySnapshot() {
 }
 
 async function main() {
+  validateStageMode();
+
+  if (STAGE_TEST_MODE === "skip") {
+    console.log("Skipped isolated /test staging (STAGE_TEST=skip).");
+    return;
+  }
+
+  const missingSettings = [
+    { name: "sourceRoot / TEST_SOURCE_ROOT", value: SOURCE_ROOT },
+    { name: "recheckDir / TEST_RECHECK_DIR", value: RECHECK_DIR },
+    { name: "graphWeightedRecheckDir / TEST_GRAPHWEIGHTED_RECHECK_DIR", value: GRAPHWEIGHTED_RECHECK_DIR },
+    { name: "testSharedDataDir / TEST_SHARED_DATA_DIR", value: TEST_SHARED_DATA_DIR },
+  ].filter((item) => !item.value);
+
+  if (missingSettings.length) {
+    const message = missingBenchmarkConfigError(missingSettings);
+    if (STAGE_TEST_MODE === "auto") {
+      console.warn(`Skipping isolated /test staging: ${message}`);
+      return;
+    }
+    throw new Error(message);
+  }
+
   invariant(await exists(SOURCE_ROOT), `TEST_SOURCE_ROOT does not exist: ${SOURCE_ROOT}`);
   invariant(
     await exists(TEST_SHARED_DATA_DIR),

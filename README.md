@@ -142,10 +142,26 @@ python -m scripts.import_substack_articles
 To push a completed content/data refresh to GitHub without accidentally mixing unrelated local edits:
 
 ```bash
-./scripts/sync_github_repo.sh "content: sync articles 106"
+./scripts/sync_github_repo.sh --profile content "content: sync articles 106"
 ```
 
-The helper only stages article/content sync paths (`articles/`, `data/`, `web-data/`, `site/public/data/`, `site/public/llms.txt`, `README.md`, `CHANGELOG.md`, `pipeline.toml`). If other local files are dirty, it exits with a blocker instead of pushing a mixed commit.
+The helper only stages paths allowed by the selected profile. Use `content` for article/data refreshes, `test-benchmark` for `/test` benchmark work, `site-ui` for frontend/theme changes, and `release` only for intentionally combined releases. If other local files are dirty, it exits with a blocker instead of pushing a mixed commit.
+
+## Repository Hygiene
+
+This repo is deployed only from `/Users/xixiangyu/Documents/葬AI Web4` on the local machine. Before release-sensitive work, run:
+
+```bash
+./scripts/doctor_repo.sh --profile release
+```
+
+Deploy through the guarded wrapper:
+
+```bash
+./scripts/deploy_site.sh --profile release
+```
+
+`site/public/data/` and `site/public/test/` are generated build artifacts and must stay untracked. `/test` benchmark staging is explicit: use `STAGE_TEST=required npm run stage:test` when updating benchmark data, and `STAGE_TEST=skip npm run build` for clean CI-style builds that should not depend on the external benchmark workspace.
 
 ## Frontend Maintainability
 
