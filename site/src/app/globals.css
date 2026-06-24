@@ -42,6 +42,28 @@
     --radius: 0rem;
   }
 
+  :root[data-theme='day'] {
+    --background: 42 39% 94%;
+    --foreground: 264 20% 9%;
+    --card: 40 100% 97%;
+    --card-foreground: 264 20% 9%;
+    --popover: 40 100% 97%;
+    --popover-foreground: 264 20% 9%;
+    --primary: 258 55% 47%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 38 31% 88%;
+    --secondary-foreground: 264 20% 13%;
+    --muted: 38 31% 88%;
+    --muted-foreground: 268 12% 42%;
+    --accent: 340 56% 46%;
+    --accent-foreground: 40 100% 97%;
+    --destructive: 0 70% 46%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 38 25% 80%;
+    --input: 38 25% 80%;
+    --ring: 258 55% 47%;
+  }
+
   * {
     @apply border-border;
   }
@@ -51,6 +73,45 @@
     -webkit-font-smoothing: none;
     -moz-osx-font-smoothing: unset;
     line-height: 1.8;
+  }
+
+  body,
+  nav,
+  footer,
+  aside,
+  button,
+  a,
+  input,
+  textarea,
+  select {
+    transition:
+      background-color 160ms ease,
+      border-color 160ms ease,
+      color 160ms ease,
+      box-shadow 160ms ease;
+  }
+
+  :root[data-theme='day'] .text-\[\#fde047\],
+  :root[data-theme='day'] .text-\[\#facc15\],
+  :root[data-theme='day'] .text-\[\#fbbf24\],
+  :root[data-theme='day'] .text-\[\#fef9c3\],
+  :root[data-theme='day'] .text-\[\#fef3c7\],
+  :root[data-theme='day'] .text-\[\#fde68a\] {
+    color: #8a5a00 !important;
+  }
+
+  :root[data-theme='day'] .text-\[\#9b7de8\],
+  :root[data-theme='day'] .text-\[\#c4b5fd\],
+  :root[data-theme='day'] .text-\[\#e9d5ff\],
+  :root[data-theme='day'] .text-\[\#f5e9ff\],
+  :root[data-theme='day'] .text-\[\#f1ebff\],
+  :root[data-theme='day'] .text-\[\#ddd6fe\] {
+    color: #5b3ea7 !important;
+  }
+
+  :root[data-theme='day'] .text-\[\#94a3b8\],
+  :root[data-theme='day'] .text-gray-300 {
+    color: #526071 !important;
   }
 }
 

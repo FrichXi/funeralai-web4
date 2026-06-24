@@ -37,6 +37,9 @@ const EFFICIENCY_CSV =
     "extracted",
     "cross-model-comparison.csv"
   );
+const MODEL_LOG_ANALYSIS =
+  process.env.TEST_MODEL_LOG_ANALYSIS ||
+  path.join(SOURCE_ROOT, "append-20260623", "model-call-logs-20260623", "model-log-analysis.md");
 const LEGACY_MANIFEST =
   process.env.TEST_LEGACY_MANIFEST ||
   path.join(SOURCE_ROOT, "append-20260623", "legacy-6-model", "manifest.json");
@@ -49,8 +52,13 @@ const LEGACY_SCORE_JSON =
 const LEGACY_SCORE_REPORT =
   process.env.TEST_LEGACY_SCORE_REPORT ||
   path.join(SOURCE_ROOT, "append-20260623", "legacy-6-model", "playwright-recheck-graphweighted.md");
-const WEB_DATA_DIR = path.join(PROJECT_ROOT, "web-data");
+const TEST_SHARED_DATA_DIR =
+  process.env.TEST_SHARED_DATA_DIR ||
+  path.join(SOURCE_ROOT, "append-20260623", "web4-b110bf9", "web-data");
 const TEST_DEST = path.join(SITE_DIR, "public", "test");
+const EXPECTED_TEST_ARTICLE_COUNT = 104;
+const EXPECTED_TEST_LATEST_ARTICLE_ID = "104";
+const EXPECTED_TEST_LATEST_ARTICLE_DATE = "2026-06-15";
 const SCORE_STANDARD = "playwright-recheck-composite-stability-20260624";
 const TEST_ASSET_VERSION = "20260624-composite-stability";
 const TEST_METHOD_REPO_URL =
@@ -62,6 +70,8 @@ const TEST_REPORT_URL = "/test/playwright-recheck-composite.md";
 const TEST_GRAPHWEIGHTED_CSV_URL = "/test/playwright-recheck-graphweighted.csv";
 const TEST_GRAPHWEIGHTED_JSON_URL = "/test/playwright-recheck-graphweighted.json";
 const TEST_GRAPHWEIGHTED_REPORT_URL = "/test/playwright-recheck-graphweighted.md";
+const TEST_MODEL_LOG_ANALYSIS_URL = "/test/model-log-analysis.md";
+const TEST_EFFICIENCY_CSV_URL = "/test/cross-model-comparison.csv";
 const TEST_DATA_VERSION =
   "2026-06-15-visible-graph-audit-v2+2026-06-23-append-doubao-step+2026-06-24-composite-stability";
 const TEST_SCORE_FORMULA =
@@ -159,6 +169,57 @@ async function exists(filePath) {
   } catch {
     return false;
   }
+}
+
+async function readJson(filePath) {
+  return JSON.parse(await readFile(filePath, "utf8"));
+}
+
+function normalizeArticleId(value) {
+  return String(value ?? "").padStart(3, "0");
+}
+
+async function validateFrozenTestData(dataDir) {
+  const articleIndexPath = path.join(dataDir, "article-index.json");
+  const graphPath = path.join(dataDir, "graph-view.json");
+  const leaderboardsPath = path.join(dataDir, "leaderboards.json");
+  const articlesDir = path.join(dataDir, "articles");
+
+  invariant(await exists(articleIndexPath), `Missing frozen test article index: ${articleIndexPath}`);
+  invariant(await exists(graphPath), `Missing frozen test graph data: ${graphPath}`);
+  invariant(await exists(leaderboardsPath), `Missing frozen test leaderboards: ${leaderboardsPath}`);
+  invariant(await exists(articlesDir), `Missing frozen test articles directory: ${articlesDir}`);
+
+  const articleIndex = await readJson(articleIndexPath);
+  const articles = Array.isArray(articleIndex.articles) ? articleIndex.articles : [];
+  const latestArticle = articles[articles.length - 1] || {};
+  const latestId = normalizeArticleId(latestArticle.id);
+  const articleFiles = (await readdir(articlesDir)).filter((file) => file.endsWith(".json"));
+
+  invariant(
+    articleIndex.count === EXPECTED_TEST_ARTICLE_COUNT && articles.length === EXPECTED_TEST_ARTICLE_COUNT,
+    `Frozen /test data must contain ${EXPECTED_TEST_ARTICLE_COUNT} articles; got count=${articleIndex.count}, entries=${articles.length}`
+  );
+  invariant(
+    latestId === EXPECTED_TEST_LATEST_ARTICLE_ID &&
+      latestArticle.date === EXPECTED_TEST_LATEST_ARTICLE_DATE,
+    `Frozen /test data latest article must be ${EXPECTED_TEST_LATEST_ARTICLE_ID} / ${EXPECTED_TEST_LATEST_ARTICLE_DATE}; got ${latestId} / ${latestArticle.date}`
+  );
+  invariant(
+    articleFiles.length === EXPECTED_TEST_ARTICLE_COUNT,
+    `Frozen /test data must contain ${EXPECTED_TEST_ARTICLE_COUNT} article payloads; got ${articleFiles.length}`
+  );
+  invariant(
+    articleFiles.includes(`${EXPECTED_TEST_LATEST_ARTICLE_ID}.json`) && !articleFiles.includes("105.json"),
+    "Frozen /test data must stop at article 104 and must not include article 105"
+  );
+
+  const graph = await readJson(graphPath);
+  invariant(
+    graph.metadata?.articleCount === EXPECTED_TEST_ARTICLE_COUNT &&
+      graph.metadata?.includedArticleCount === EXPECTED_TEST_ARTICLE_COUNT,
+    `Frozen /test graph metadata must be ${EXPECTED_TEST_ARTICLE_COUNT} articles; got articleCount=${graph.metadata?.articleCount}, includedArticleCount=${graph.metadata?.includedArticleCount}`
+  );
 }
 
 function parseCsvLine(line) {
@@ -319,10 +380,14 @@ function buildModelScoreStats(scores) {
   }
 
   const ranked = Array.from(grouped.entries())
-    .map(([model, values]) => ({
-      model,
-      avg: Number(average(values).toFixed(2)),
-    }))
+    .map(([model, values]) => {
+      const avg = average(values);
+      return {
+        model,
+        avg: Number.isFinite(avg) ? Number(avg.toFixed(2)) : null,
+      };
+    })
+    .filter((item) => Number.isFinite(item.avg))
     .sort((a, b) => b.avg - a.avg || a.model.localeCompare(b.model));
 
   return new Map(
@@ -477,6 +542,32 @@ async function readEfficiencyLeaderboard(modelScoreStats) {
   }
 
   return addValueIndex(rows);
+}
+
+function sanitizePublicAnalysisMarkdown(text) {
+  return text
+    .replace(
+      "- 原始日志已归档到 `raw/`：`step日志.xlsx`、`seed日志.pdf`、`doubao-console-usage-20260623.png`。",
+      "- 原始日志和账单截图只保留在本地归档，不随公开页面或 GitHub 发布；公开版只发布汇总表、交叉对比 CSV 和结论。"
+    )
+    .replace(
+      "- 旧 6 个模型的现金花费来自用户补充账单口径：",
+      "- 追加前模型的现金花费来自用户补充账单口径："
+    );
+}
+
+async function writePublicAnalysisArtifacts() {
+  if (await exists(MODEL_LOG_ANALYSIS)) {
+    const analysis = await readFile(MODEL_LOG_ANALYSIS, "utf8");
+    await writeFile(
+      path.join(TEST_DEST, "model-log-analysis.md"),
+      sanitizePublicAnalysisMarkdown(analysis)
+    );
+  } else {
+    console.warn(`skip missing model log analysis: ${MODEL_LOG_ANALYSIS}`);
+  }
+
+  await copyPublicArtifact(EFFICIENCY_CSV, path.join(TEST_DEST, "cross-model-comparison.csv"));
 }
 
 async function detectSiteRoot(sourceDir) {
@@ -712,7 +803,7 @@ function createEntry({ round, model, siteRoot, score }) {
     visual: pending ? null : score.visual,
     interaction: pending ? null : score.interaction,
     evidence: pending
-      ? `${model.name} ${round} 产物已隔离上线，等待同一 graph-weighted 规则复测后填入正式得分。`
+      ? `${model.name} ${round} 产物已隔离上线，等待同一复合评分规则复测后填入正式得分。`
       : score.evidence,
     pending,
     crownRank: null,
@@ -874,7 +965,11 @@ async function writeLegacySnapshot() {
 
 async function main() {
   invariant(await exists(SOURCE_ROOT), `TEST_SOURCE_ROOT does not exist: ${SOURCE_ROOT}`);
-  invariant(await exists(WEB_DATA_DIR), `web-data does not exist: ${WEB_DATA_DIR}`);
+  invariant(
+    await exists(TEST_SHARED_DATA_DIR),
+    `Frozen /test shared data does not exist: ${TEST_SHARED_DATA_DIR}`
+  );
+  await validateFrozenTestData(TEST_SHARED_DATA_DIR);
 
   const expectedEntries = MODELS.length * 10;
   const scores = await readScores();
@@ -889,13 +984,14 @@ async function main() {
 
   await rm(TEST_DEST, { recursive: true, force: true });
   await mkdir(TEST_DEST, { recursive: true });
-  await copyTree(WEB_DATA_DIR, path.join(TEST_DEST, "data"));
+  await copyTree(TEST_SHARED_DATA_DIR, path.join(TEST_DEST, "data"));
   await copyPublicArtifact(SCORE_CSV, path.join(TEST_DEST, "playwright-recheck-composite.csv"));
   await copyPublicArtifact(SCORE_JSON, path.join(TEST_DEST, "playwright-recheck-composite.json"));
   await copyPublicArtifact(SCORE_REPORT, path.join(TEST_DEST, "playwright-recheck-composite.md"));
   await copyPublicArtifact(GRAPHWEIGHTED_SCORE_CSV, path.join(TEST_DEST, "playwright-recheck-graphweighted.csv"));
   await copyPublicArtifact(GRAPHWEIGHTED_SCORE_JSON, path.join(TEST_DEST, "playwright-recheck-graphweighted.json"));
   await copyPublicArtifact(GRAPHWEIGHTED_SCORE_REPORT, path.join(TEST_DEST, "playwright-recheck-graphweighted.md"));
+  await writePublicAnalysisArtifacts();
 
   for (let round = 1; round <= 10; round += 1) {
     const roundId = `r${round}`;
@@ -937,6 +1033,8 @@ async function main() {
     graphWeightedScoreCsvUrl: TEST_GRAPHWEIGHTED_CSV_URL,
     graphWeightedScoreJsonUrl: TEST_GRAPHWEIGHTED_JSON_URL,
     graphWeightedReportUrl: TEST_GRAPHWEIGHTED_REPORT_URL,
+    modelLogAnalysisUrl: TEST_MODEL_LOG_ANALYSIS_URL,
+    efficiencyCsvUrl: TEST_EFFICIENCY_CSV_URL,
     runnerPolicy:
       "Models, providers, and runners are separate. opencode, Claude Code, pai, and custom commands are execution shells as long as they run the same task in isolated rounds.",
     scoreFormula: TEST_SCORE_FORMULA,

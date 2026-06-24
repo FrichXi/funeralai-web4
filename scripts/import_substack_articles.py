@@ -14,6 +14,8 @@ import json
 import re
 import shutil
 import sys
+import time
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
@@ -21,7 +23,7 @@ from datetime import datetime, timezone
 from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlsplit, urlunsplit
+from urllib.parse import quote, urlsplit, urlunsplit
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
@@ -188,9 +190,95 @@ class SimpleHtmlToMarkdown(HTMLParser):
 
 def fetch_text(url: str) -> str:
     request = urllib.request.Request(url, headers=REQUEST_HEADERS)
-    with urllib.request.urlopen(request, timeout=30) as response:
-        charset = response.headers.get_content_charset() or "utf-8"
-        return response.read().decode(charset)
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            charset = response.headers.get_content_charset() or "utf-8"
+            return response.read().decode(charset)
+    except (urllib.error.HTTPError, urllib.error.URLError) as error:
+        if isinstance(error, urllib.error.HTTPError) and error.code not in {403, 503}:
+            raise
+        return fetch_text_via_cdp(url, error)
+
+
+def fetch_text_via_cdp(url: str, original_error: Exception) -> str:
+    """Fallback for Substack Cloudflare challenges when CDP proxy is available."""
+    proxy_base = "http://localhost:3456"
+    target_url_parts = urlsplit(url)
+
+    for target_id in list_cdp_targets_for_host(proxy_base, target_url_parts.netloc):
+        text = cdp_fetch_text(proxy_base, target_id, url)
+        if text:
+            return text
+
+    for attempt in range(3):
+        target_id = ""
+        try:
+            new_url = f"{proxy_base}/new?url={quote(url, safe='')}"
+            with urllib.request.urlopen(new_url, timeout=30) as response:
+                payload = json.loads(response.read().decode("utf-8"))
+            target_id = str(payload["targetId"])
+
+            text = cdp_fetch_text(proxy_base, target_id, url)
+            if text:
+                return text
+        except Exception:
+            pass
+        finally:
+            if target_id:
+                try:
+                    urllib.request.urlopen(
+                        f"{proxy_base}/close?target={quote(target_id, safe='')}",
+                        timeout=5,
+                    ).read()
+                except Exception:
+                    pass
+        if attempt < 2:
+            time.sleep(1)
+    raise original_error
+
+
+def list_cdp_targets_for_host(proxy_base: str, host: str) -> list[str]:
+    try:
+        with urllib.request.urlopen(f"{proxy_base}/targets", timeout=5) as response:
+            targets = json.loads(response.read().decode("utf-8"))
+    except Exception:
+        return []
+
+    target_ids: list[str] = []
+    for target in targets:
+        target_url = str(target.get("url") or "")
+        if target.get("type") != "page":
+            continue
+        if urlsplit(target_url).netloc == host:
+            target_ids.append(str(target.get("targetId")))
+    return [target_id for target_id in target_ids if target_id]
+
+
+def cdp_fetch_text(proxy_base: str, target_id: str, url: str) -> str | None:
+    script = (
+        "(async()=>{"
+        f"const r=await fetch({json.dumps(url)});"
+        "const text=await r.text();"
+        "return {status:r.status, contentType:r.headers.get('content-type'), text};"
+        "})()"
+    )
+    eval_request = urllib.request.Request(
+        f"{proxy_base}/eval?target={quote(target_id, safe='')}",
+        data=script.encode("utf-8"),
+        headers={"Content-Type": "text/plain"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(eval_request, timeout=60) as response:
+            result = json.loads(response.read().decode("utf-8"))
+    except Exception:
+        return None
+
+    value = result.get("value") or {}
+    status = int(value.get("status") or 0)
+    if status >= 400 or not value.get("text"):
+        return None
+    return str(value["text"])
 
 
 def normalize_url(url: str) -> str:

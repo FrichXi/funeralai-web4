@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-16T15:10:04Z",
+  "updatedAt": "2026-06-24T16:21:09Z",
   "pipeline": {
     "extractor": "gemini",
     "model": "gemini-3.1-pro-preview",
@@ -2081,6 +2081,86 @@
       "artifact_path": "data/extracted/104.json",
       "raw_path": "data/gemini_raw/104.json",
       "extracted_at": "2026-06-15T06:01:52Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "105": {
+      "article_id": "105",
+      "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+      "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+      "date": "2026-06-17",
+      "author": "葬爱咸鱼",
+      "content_hash": "ecd577946b21cc3dd810b6fe23b39b21fb2f18c0de8f8eaa440b1b76233fc76e",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/105.json",
+      "raw_path": "data/gemini_raw/105.json",
+      "extracted_at": "2026-06-17T09:30:29Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "106": {
+      "article_id": "106",
+      "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+      "title": "我来给LibTV道喜了",
+      "date": "2026-06-18",
+      "author": "沐秋",
+      "content_hash": "d995f4657239c33dd60a7e9798862b5cd72fcb1f7bb75d61e7c1db9b738a5e74",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/106.json",
+      "raw_path": "data/gemini_raw/106.json",
+      "extracted_at": "2026-06-18T08:23:44Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "107": {
+      "article_id": "107",
+      "path": "articles/107_2026-06-22_葬爱咸鱼_网吧黑客松将于杭州风光大办.md",
+      "title": "网吧黑客松将于杭州风光大办",
+      "date": "2026-06-22",
+      "author": "葬爱咸鱼",
+      "content_hash": "4a9902dd080727d4537f2cde6db5784b8c6fbeaaf162964dc10627be66b9fd4c",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/107.json",
+      "raw_path": "data/gemini_raw/107.json",
+      "extracted_at": "2026-06-23T06:31:10Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "108": {
+      "article_id": "108",
+      "path": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+      "title": "深圳AI硬件特别正常",
+      "date": "2026-06-23",
+      "author": "葬爱咸鱼",
+      "content_hash": "092bf52648d4ac7dcb77ba5e729008e080d965d6d1a17951bf349665f4b193f5",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/108.json",
+      "raw_path": "data/gemini_raw/108.json",
+      "extracted_at": "2026-06-23T06:31:10Z",
       "last_error": null,
       "extractor": {
         "name": "gemini",

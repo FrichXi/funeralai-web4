@@ -36,3 +36,6 @@ cp "$DATA_SRC/leaderboards.json" "$DATA_DEST/"
 cp "$DATA_SRC"/articles/*.json "$DATA_DEST/articles/"
 
 echo "Done. Copied $(ls "$DATA_DEST/articles/" | wc -l | tr -d ' ') article files + 3 index files."
+
+echo "Staging isolated /test module ..."
+node "$SCRIPT_DIR/scripts/stage-test-sites.mjs"

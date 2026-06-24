@@ -5,6 +5,8 @@ import path from 'path';
 import { Crown, Database, ExternalLink, FileText, Github } from 'lucide-react';
 import { Footer } from '@/components/layout/Footer';
 import { PageContainer } from '@/components/layout/PageContainer';
+import { LeaderboardImageDownload } from '@/components/test/LeaderboardImageDownload';
+import { MethodologyTransitionLink } from '@/components/test/MethodologyTransitionLink';
 import { Badge } from '@/components/ui/8bit/badge';
 import {
   Table,
@@ -58,7 +60,6 @@ interface TestEntry {
   evidence: string;
   pending: boolean;
   crownRank: number | null;
-  scoreSource?: string;
   adjustedRank?: number | null;
   graphWeightedRank?: number | null;
   graphWeightedScore?: number | null;
@@ -72,6 +73,8 @@ interface TestEntry {
   sampleKind?: string | null;
   avgChangedRatio?: number | null;
   avgMeanAbs?: number | null;
+  maxChangedRatio?: number | null;
+  maxMeanAbs?: number | null;
 }
 
 interface EfficiencyEntry {
@@ -233,7 +236,7 @@ function readManifest(): TestManifest {
       runnerPolicy:
         'Models, providers, and runners are separate. opencode, Claude Code, pai, and custom commands are execution shells as long as they run the same task in isolated rounds.',
       scoreFormula:
-        '复合评分 = loading 15 + adjusted graph/25*35 + articles/25*15 + visual 20 + interaction 15',
+        '复合评分 = loading 15 + adjusted graph/25*35 + articles/25*15 + visual 20 + interaction 15；adjusted graph 来自全量图谱稳定性复核',
       limitations: [
         'This leaderboard only describes the FuneralAI Web4 website-rebuild task.',
         'It is not a general model capability ranking.',
@@ -288,6 +291,30 @@ function formatValueIndex(value: number | null | undefined) {
   }
 
   return value.toFixed(1);
+}
+
+function formatMaybeScore(value: number | null | undefined) {
+  if (value === null || value === undefined || !Number.isFinite(value)) {
+    return 'n/a';
+  }
+
+  return formatScore(value);
+}
+
+function scoreTooltip(entry: TestEntry) {
+  const details = [entry.evidence];
+
+  if (Number.isFinite(entry.graphWeightedScore)) {
+    details.push(`旧 graph-weighted 分：${formatMaybeScore(entry.graphWeightedScore)}`);
+  }
+
+  if (entry.stabilityStatus) {
+    details.push(
+      `图谱稳定性：${entry.stabilityStatus}；Graph/25 ${formatMaybeScore(entry.oldGraph25)} -> ${formatMaybeScore(entry.adjustedGraph25)}；扣分 ${formatMaybeScore(entry.effectivePenaltyGraph25)}`
+    );
+  }
+
+  return details.filter(Boolean).join('\n');
 }
 
 function average(values: Array<number | null>) {
@@ -409,43 +436,6 @@ function CrownMark({ rank }: { rank: number | null }) {
   );
 }
 
-function stabilityText(status?: string | null) {
-  if (!status) return '未记录';
-  if (status === 'stable') return '稳定';
-  if (status === 'mild') return '轻微抖动';
-  if (status === 'unstable') return '不稳定';
-  if (status === 'severe') return '严重抖动';
-  if (status === 'not_measurable') return '不可测';
-  return status;
-}
-
-function entryTooltip(entry: TestEntry) {
-  const lines = [
-    `复合分：${formatScore(entry.score)}（${entry.grade}）`,
-  ];
-
-  if (Number.isFinite(entry.graphWeightedScore)) {
-    lines.push(
-      `旧 graph-weighted：${formatScore(entry.graphWeightedScore ?? null)}${
-        entry.graphWeightedGrade ? `（${entry.graphWeightedGrade}）` : ''
-      }`
-    );
-  }
-
-  if (entry.stabilityStatus) {
-    lines.push(
-      `稳定性：${stabilityText(entry.stabilityStatus)}；Graph/25 ${formatScore(
-        entry.oldGraph25 ?? null
-      )} -> ${formatScore(entry.adjustedGraph25 ?? null)}；扣分 ${formatScore(
-        entry.effectivePenaltyGraph25 ?? null
-      )}`
-    );
-  }
-
-  lines.push(entry.evidence);
-  return lines.join('\n');
-}
-
 function PixelModelIcon({ icon }: { icon: string }) {
   const spec = PIXEL_ICON_SPECS[icon] || PIXEL_ICON_SPECS.diamond;
   const p = spec.pixelSize;
@@ -473,10 +463,6 @@ function PixelModelIcon({ icon }: { icon: string }) {
 }
 
 function ScoreBadge({ entry }: { entry: TestEntry }) {
-  const hasPenalty =
-    Number.isFinite(entry.effectivePenaltyGraph25) && Number(entry.effectivePenaltyGraph25) > 0;
-  const needsAuditLabel = !hasPenalty && entry.stabilityStatus && entry.stabilityStatus !== 'stable';
-
   return (
     <span className="inline-flex items-center gap-1.5">
       <Badge className={cn('px-1.5 py-0.5 text-[10px]', gradeClass(entry.grade))}>
@@ -485,16 +471,6 @@ function ScoreBadge({ entry }: { entry: TestEntry }) {
       <span className={entry.pending ? 'text-muted-foreground' : 'text-foreground'}>
         {formatScore(entry.score)}
       </span>
-      {hasPenalty ? (
-        <span className="text-[10px] font-bold tabular-nums text-destructive" title={entryTooltip(entry)}>
-          -{formatScore(entry.effectivePenaltyGraph25 ?? null)}
-        </span>
-      ) : null}
-      {needsAuditLabel ? (
-        <span className="text-[10px] text-muted-foreground" title={entryTooltip(entry)}>
-          审
-        </span>
-      ) : null}
       <CrownMark rank={entry.crownRank} />
     </span>
   );
@@ -527,20 +503,8 @@ function TestHeader({ manifest, scored }: { manifest: TestManifest; scored: numb
       external: false,
     },
     {
-      href: manifest.reportUrl || '/test/playwright-recheck-composite.md',
-      label: '报告',
-      icon: FileText,
-      external: false,
-    },
-    {
-      href: manifest.graphWeightedReportUrl || '/test/playwright-recheck-graphweighted.md',
-      label: '旧分',
-      icon: FileText,
-      external: false,
-    },
-    {
       href: '/test/legacy-6-model/',
-      label: '旧 6 模型',
+      label: '旧榜单',
       icon: FileText,
       external: false,
     },
@@ -557,13 +521,31 @@ function TestHeader({ manifest, scored }: { manifest: TestManifest; scored: numb
             </span>
           </div>
           <p className="text-sm text-muted-foreground">
-            真实工作任务多轮复现；默认采用复合评分：graph-weighted 基础分加全量图谱稳定性复核。
+            真实工作任务多轮复现；模型、provider、runner 分开记录；结果只代表本次 Web4
+            复杂个人网站任务。
           </p>
         </div>
 
         <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap lg:justify-end">
           {links.map((item) => {
             const Icon = item.icon;
+            const content = (
+              <>
+                <Icon className="h-3.5 w-3.5" aria-hidden="true" />
+                <span>{item.label}</span>
+                {item.external ? <ExternalLink className="h-3 w-3" aria-hidden="true" /> : null}
+              </>
+            );
+            const className =
+              'inline-flex items-center justify-center gap-2 border border-border px-3 py-2 text-xs text-foreground transition-colors hover:border-primary hover:text-primary';
+
+            if (item.label === '模型分析') {
+              return (
+                <MethodologyTransitionLink key={item.label} href={item.href} className={className}>
+                  {content}
+                </MethodologyTransitionLink>
+              );
+            }
 
             return (
               <a
@@ -571,11 +553,9 @@ function TestHeader({ manifest, scored }: { manifest: TestManifest; scored: numb
                 href={item.href}
                 target={item.external ? '_blank' : undefined}
                 rel={item.external ? 'noopener noreferrer' : undefined}
-                className="inline-flex items-center justify-center gap-2 border border-border px-3 py-2 text-xs text-foreground transition-colors hover:border-primary hover:text-primary"
+                className={className}
               >
-                <Icon className="h-3.5 w-3.5" aria-hidden="true" />
-                <span>{item.label}</span>
-                {item.external ? <ExternalLink className="h-3 w-3" aria-hidden="true" /> : null}
+                {content}
               </a>
             );
           })}
@@ -583,7 +563,7 @@ function TestHeader({ manifest, scored }: { manifest: TestManifest; scored: numb
       </div>
 
       <p className="text-xs leading-6 text-muted-foreground">
-        不是通用 benchmark：它把个人真实任务标准化后交给可替换 runner 反复执行，再用可审计证据评分；旧 graph-weighted 分数保留为归档证据。
+        不是通用 benchmark：它把个人真实任务标准化后交给可替换 runner 反复执行，再用可审计证据评分。
       </p>
     </section>
   );
@@ -815,9 +795,14 @@ function CostEfficiencyTable({ rows }: { rows: RankedEfficiencyEntry[] }) {
         ))}
       </div>
 
-      <p className="px-3 pb-3 pt-1 text-[11px] leading-5 text-[#6d6078] md:px-4">
-        性价比指数由质量均分除以综合消耗排名得到；价格、耗时、调用、token 均参与消耗计算；Step 采用赠送额度等价成本，GLM 采用国内 API 估算中点。
-      </p>
+      <Image
+        src="/scoreboard-logo.png"
+        alt="葬AI"
+        width={1400}
+        height={774}
+        className="pointer-events-none absolute bottom-2 right-2 h-9 w-auto md:bottom-3 md:right-4 md:h-12"
+        style={{ imageRendering: 'pixelated' }}
+      />
     </div>
   );
 }
@@ -861,7 +846,7 @@ function RoundMatrix({ entries }: { entries: TestEntry[] }) {
                     <a
                       href={entry.href}
                       className="inline-flex max-w-full items-center gap-2 text-foreground underline-offset-4 hover:text-primary hover:underline"
-                      title={entryTooltip(entry)}
+                      title={scoreTooltip(entry)}
                     >
                       <ScoreBadge entry={entry} />
                     </a>
@@ -881,30 +866,37 @@ export default function TestPage() {
   const summaries = summarize(manifest.entries);
   const efficiencyRows = rankEfficiencyRows(manifest.efficiencyLeaderboard);
   const scored = manifest.entries.filter((entry) => Number.isFinite(entry.score)).length;
+  const scoreFormula = manifest.scoreFormula || 'loading 15 + graph/25*35 + articles/25*15 + visual 20 + interaction 15';
 
   return (
     <>
       <PageContainer className="space-y-10">
         <TestHeader manifest={manifest} scored={scored} />
 
-        <section className="space-y-2 md:space-y-4">
+        <section className="space-y-2 md:space-y-4" data-leaderboard-export>
           <div className="flex flex-col gap-1 lg:flex-row lg:items-end lg:justify-between">
-            <div>
+            <div className="flex items-center justify-between gap-3">
               <h2 className="retro text-[20px] leading-none text-primary">模型总榜</h2>
+              <LeaderboardImageDownload buttonLabel="下载榜单图" />
             </div>
             <p className="hidden max-w-2xl text-xs leading-6 text-muted-foreground md:block lg:text-right">
               <span className="text-foreground">评分公式：</span>
-              {manifest.scoreFormula ||
-                '复合评分 = loading 15 + adjusted graph/25*35 + articles/25*15 + visual 20 + interaction 15'}
+              {scoreFormula}
             </p>
           </div>
           <SummaryTable summaries={summaries} />
         </section>
 
-        <section className="space-y-2 md:space-y-4">
+        <section className="space-y-2 md:space-y-4" data-value-leaderboard-export>
           <div className="flex flex-col gap-1 lg:flex-row lg:items-end lg:justify-between">
-            <div>
+            <div className="flex items-center justify-between gap-3">
               <h2 className="retro text-[20px] leading-none text-primary">性价比榜</h2>
+              <LeaderboardImageDownload
+                imageUrl="/test/value-leaderboard-mobile.png"
+                fileNamePrefix="funeralai-value-leaderboard"
+                shareTitle="葬AI 性价比榜"
+                buttonLabel="下载性价比图"
+              />
             </div>
             <p className="hidden max-w-2xl text-xs leading-6 text-muted-foreground md:block lg:text-right">
               按质量均分相对综合消耗排序，不影响模型总榜。

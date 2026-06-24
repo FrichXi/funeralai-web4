@@ -1,0 +1,410 @@
+{
+  "id": "105",
+  "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+  "date": "2026-06-17",
+  "author": "葬爱咸鱼",
+  "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+  "permalink": "/articles/105",
+  "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+  "raw_markdown": "# 葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8\n\n2026年6月17日 葬爱咸鱼 葬AI\n\n---\n\n这是葬AI起号以来工作量最大的一篇文章。\n\n为了严肃评测国产模型的能力，我自研了一个Benchmark，完整测试了智谱、Qwen、Kimi、Minimax、Deepseek这些最新国产模型，还引入了境外势力Claude作对照组。\n\n现在大模型评测的问题是什么？\n\n就是所有模型厂都在刷分，还都刷的SWE-bench那几个基准测试。这导致你从榜单根本看不出来区分度，反正新模型都会号称自己全球第三、国产第一。\n\n所有模型厂都刷相同的基准测试还带来了另一个大问题，就是模型同质化。所有模型都以刷高分为目标，所有模型都卷编程（coding）和长程任务/工具调用（agentic）这两种能力。\n\n那模型就是不会有人味，不会有风格。模型的差距只存在于跑编程任务的成功率。\n\n甚至，卷编程会损害写作能力。因为编程能力是有标准答案的，所有模型都会出现过度抓细节、思考过程结构化、生成回答冗长这些趋势。\n\n语言简洁、有人味的Claude Sonnet 3.5一去不复返了。卷编程之后，Claude的写作能力越来越差劲，这直接影响了对话体验。我现在和Claude APP对话，时常感觉自己在用ChatGPT，回答都在稳稳地接住你。\n\n我想知道不同的模型在真实工程任务上的表现——不是跑榜单刷分，而是让它们独立完成一个完整的网站重构：从读取本地数据、写代码、生成页面，到最终产出可以直接浏览的网站。\n\n先放测试结果，GLM 5.2得分第一，甚至略微超越了Claude Opus 4.8。\n\n然后依次是Qwen 3.7 Max、Kimi K2.7-code、MiniMax M3和DeepSeek V4 Pro。\n\n测试过程是这样的。\n\n葬AI有一个美丽的网站funeralai.cc，这个网站会同步我们的所有文章，并且把文章跑成知识图谱。\n\n我把网站的完整本地数据——103 篇文章正文、600 节点/1546 条边的知识图谱——作为输入，给每个模型一份完全相同的执行方案，要求它们重构一个包含首页、知识图谱页、文章列表和 103 篇详情页的完整静态网站。\n\n为了保证公平，每个模型跑 10 轮，每轮都是独立的全新Opencode 会话，不存在对话记忆。一共生成了60个网站。\n\n评分环节，再由Agent来逐个在浏览器打开查看。使用一样的评分框架，从五个维度，包括基础完整性（15%）、图谱质量（35%）、文章完整性（15%）、视觉（20%）、交互稳定性（15%），来逐个独立打分，最后加权算平均分。\n\n我在葬AI网站上开源了完整的测试方法，也把这些模型测试生成60个网页都部署上线。\n\nfuneralai.cc/test\n\n这个网站里有本次测试的所有产物、详细分析报告和Github链接。你可以挨个点进去看60个测试网页。\n\n结果总体不算出人意料，符合我对这些模型的使用体感。\n\n让我们来挨个分析一下。\n\nGLM系列是公认的国产模型编程第一。唯一让人惊讶的是，GLM 5.2得分（85.5）略微超越了Claude Opus 4.8（85.2）。\n\n这两个模型生成的网站都质量很高，功能该有的都有，知识图谱都能一次性渲染完成，并且交互都复刻得不错。\n\n比如这是Claude Opus 4.8得分最高的产物，功能完整，知识图谱都可以交互。只是视觉没有完全复刻扣了点分。\n\nfuneralai.cc/test/r1/claude-opus-4-8\n\n而这是GLM 5.2生成的较好的网站，明显视觉复刻更到位，只是交互有点问题，节点之间互相遮挡扣了分。\n\nfuneralai.cc/test/r5/glm-x-preview\n\n总之，分别跑了10个轮次下来，GLM 5.2和Opus 4.8 区别不大。前者胜在产出稳定，没有极端案例。后者主要是因为有一轮图谱没有渲染成功，导致拉低了均分。\n\n我和身边朋友也是这个体感。在前端和业务逻辑一次性生成的案例上，GLM 5.2的表现完全不逊色Opus 4.8。\n\n我的朋友凯一在拿几个模型复刻LibTV之后，大呼GLM无敌，连画布页面都复刻得有模有样，一眼超越了没生成出画布的Codex和Kimi。于是他当即关掉了Kimi会员自动续费。\n\n但也有人反映，GLM 5.2还是没有达到Opus 4.6水平。众所周知，Opus 4.8在很多方面不如4.6，这是A畜特有的负面更新。\n\n除了GLM 5.2牛逼外，我的另一个重大发现是，Qwen 3.7 Max（82.4分）很行。\n\n主要胜在工程能力稳定，几乎没有大的错误，图谱基本能稳定渲染。扣分主要来自视觉和交互波动：有几轮 CSS 变量和设计系统很弱，导致视觉分明显下滑。\n\nQwen 3.7 Max是全场工程能力最稳定的模型，并且与前两个模型体感相差不大，在日常工作中完全可用。\n\n这其实是一件很难得的事情，因为Qwen系列一向的特点是没有最强模型，大家想到Qwen都是开源中小尺寸模型，但Qwen 3.7系列达到了完全可用的水平。\n\n然后就是我们亲爱的最会做产品的Kimi（80.3分）。\n\nKimi K2.7-code最主要的问题是产出质量不稳定。好的轮次能到高分，但也有3个轮次没有渲染出图谱，直接拉低了均分。比如下面这轮就只产出了个空壳。\n\nhttps://funeralai.cc/test/r4/kimi-k2-7-code\n\n这里必须多说一句，Kimi是所有模型中花费最第二高的，仅次于Claude。\n\nClaude跑一轮测试花了我202.5元人民币。Kimi跑完测试居然花了164.6元。远高于花费23.5元的Qwen和23.2元的MiniMax，更是被只花了17.1块钱的DeepSeek当场薄杀。\n\n我看到账单十分震惊，专门拉了日志分析，原来Kimi API消耗中，绝大部分都花在了缓存命中，测试产生了104.73M缓存命中token，这部分就花了136.15元。\n\nDS也这个情况，它测试产生了191M缓存命中token。但胜在DS缓存命中超级无敌便宜，只有Kimi价格的1/52。所以DS实际成本才这么便宜。\n\n然后这两个模型缓存命中非常夸张的原因是，调用次数特别多。测试中，Kimi K2.7-code发生了1046 次请求，DeepSeek v4-pro 有 1129 次请求。这是因为模型一次性生成的做不对，Agent就会多次请求，反复修。\n\n这就和Qwen形成了鲜明对比，整个测试，Qwen 3.7 Max只产生了288 次请求，导致缓存命中量少，所以成本偏低。不愧是工程能力最稳定的模型👍\n\n不过，虽然DeepSeek V4 Pro（67.1分）生成质量最不稳定。有高分轮次，但低分轮次过低，导致均分最低。\n\n但你梁圣真的很便宜。那句话怎么说来着，DS卖Token只收你电费，剩下的研发成本你别管，工作日9:30-15:00梁圣自有办法解决。\n\n而且DS主要是工程稳定性不行，如果是我自己使用，通过多轮次交互，DS用起来也不是不行。过去一个多月，我一直用Opencode接DS干日常工作，也没遇到啥问题。\n\n所以，确实存在一条DeepSeek斩杀线，价格更贵、质量好得不明显的模型就会被淘汰。\n\nMiniMax M3（77.4分）就在逼近这条斩杀线。\n\nMiniMax的视觉设计是明显优势，CSS 变量和页面质感经常很好。但在最考验工程能力的图谱页上，10轮只成功了3轮，导致均分被拉低。\n\n下图就是一个空壳图谱页的典型例子。\n\nhttps://funeralai.cc/test/r3/minimax-m3\n\n同样的成本，我可以用工程能力更稳定的Qwen 3.7 Max。所以，MiniMax的生态位到底在哪里呢？\n\nMiniMax和Kimi的问题很相似，都是前端完成度不错，但工程能力不稳定。Kimi情况好很多，不至于被DS斩杀。\n\n但有编程能力最强的GLM 5.2和价格相对便宜、工程能力稳定的Qwen 3.7Max，为什么要用这么贵的Kimi 2.7 code呢？\n\n我就不过多举例了，反正60个测试网页都上线了葬AI网站，你可以挨个查看各个模型产出物的优劣，一目了然。\n\n最后总结一下吧。\n\n这个基准测试的缘起是我要写Qwen。我又不想空口扯组织战略，那不成纯纯阿里味了。\n\n为了严肃评测Qwen 3.7 Max的能力，我想到了用自己相对复杂的工程任务葬AI网站，作为基准来评价各个模型能力。\n\n核心原因是模型厂都刷榜，导致最有名的几个基准测试都没有区分度了。而且如果你看过SWE-bench题目的话，就能发现他的思路是找Github上的Issue，给AI真实的人类编程遇到的问题，看AI能不能解决问题。\n\n这个思路和葬AI基准测试是一样的。我也是给AI完整的仓库，叫它重构一个带有图谱的相对复杂的网站，然后对比原版网站来评分。\n\n并且，这个测试思路可以泛化。我认识不少干产品、技术的朋友都有自己的私人评测集，大概是几个他工作中真实遇到的工程问题，每次出新模型就跑一下这几个问题。\n\n这是好事啊，大家应该有自己的Benchmark来评测这些模型。\n\n因为一套榜单不能代表所有需求。重点不是找出全世界最强模型，而是找到对你的真实工作最有用的模型。\n\n比如GLM虽然得分更高，但写作不如DeepSeek灵活。而根据我的体感，现在所有模型的写作水平，可能都不如一年多前发布的Claude Sonnet 4.0。\n\n我开源了葬AI基准测试的思路，核心是把你日常真正会做的工作抽象成一个可重复任务，然后让不同模型来多轮完成，并且评分。\n\ngithub.com/FrichXi/personal-work-benchmark\n\n可以把链接发给你的Agent，叫它参考这个思路制作对你自己有可信度的Benchmark。\n\n当然了，我这次跑出来的得分可能也就图一乐。\n\n虽然我尽力控制变量，但还是遇到了一些其他因素，比如我没买到GLM会员，所以GLM 5.2调用的是智谱家人提供的内测接口，加不加智不知道，但肯定不是降智版本。\n\n要是过两天我买到GLM 5.2会员，跑出来不是这个分，我也将向家人们道歉并痛斥智谱诈骗（希望不要）。\n\n而Claude Opus 4.8，我走的是中转站API。虽然这是一个荣登Anthropic报告的大中转站，还是原价API，但是不是完全正版也不好说。评测得出的细微分数差距没有意义，看个大概结论就行。\n\n结论就是GLM 5.2牛逼，真达到了Opus 4.8水平，Qwen 3.7 Max其次，最有工程稳定性。\n\nKimi尤其需要加强infra，多向梁圣学习降本增效，你这缓存价格我真用不起。最需要努力的是MiniMax，快往前跑孩子，别一不留神跌落斩杀线了💪\n\n最后声明一下，本篇文章没有接受任何赞助，完全是客观评测结果和主观使用体验的结合。\n\n虽然看起来很像智谱广告，但我确实没收智谱或者任何人钱，比心❤️\n\n敬请期待我们后续把Qwen、智谱等模型厂挨个写一遍。\n\n（本文封面由ChatGPT生成，纯人工写作）\n",
+  "body_markdown": "# 葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8\n\n2026年6月17日 葬爱咸鱼 葬AI\n\n---\n\n这是葬AI起号以来工作量最大的一篇文章。\n\n为了严肃评测国产模型的能力，我自研了一个Benchmark，完整测试了智谱、Qwen、Kimi、Minimax、Deepseek这些最新国产模型，还引入了境外势力Claude作对照组。\n\n现在大模型评测的问题是什么？\n\n就是所有模型厂都在刷分，还都刷的SWE-bench那几个基准测试。这导致你从榜单根本看不出来区分度，反正新模型都会号称自己全球第三、国产第一。\n\n所有模型厂都刷相同的基准测试还带来了另一个大问题，就是模型同质化。所有模型都以刷高分为目标，所有模型都卷编程（coding）和长程任务/工具调用（agentic）这两种能力。\n\n那模型就是不会有人味，不会有风格。模型的差距只存在于跑编程任务的成功率。\n\n甚至，卷编程会损害写作能力。因为编程能力是有标准答案的，所有模型都会出现过度抓细节、思考过程结构化、生成回答冗长这些趋势。\n\n语言简洁、有人味的Claude Sonnet 3.5一去不复返了。卷编程之后，Claude的写作能力越来越差劲，这直接影响了对话体验。我现在和Claude APP对话，时常感觉自己在用ChatGPT，回答都在稳稳地接住你。\n\n我想知道不同的模型在真实工程任务上的表现——不是跑榜单刷分，而是让它们独立完成一个完整的网站重构：从读取本地数据、写代码、生成页面，到最终产出可以直接浏览的网站。\n\n先放测试结果，GLM 5.2得分第一，甚至略微超越了Claude Opus 4.8。\n\n然后依次是Qwen 3.7 Max、Kimi K2.7-code、MiniMax M3和DeepSeek V4 Pro。\n\n测试过程是这样的。\n\n葬AI有一个美丽的网站funeralai.cc，这个网站会同步我们的所有文章，并且把文章跑成知识图谱。\n\n我把网站的完整本地数据——103 篇文章正文、600 节点/1546 条边的知识图谱——作为输入，给每个模型一份完全相同的执行方案，要求它们重构一个包含首页、知识图谱页、文章列表和 103 篇详情页的完整静态网站。\n\n为了保证公平，每个模型跑 10 轮，每轮都是独立的全新Opencode 会话，不存在对话记忆。一共生成了60个网站。\n\n评分环节，再由Agent来逐个在浏览器打开查看。使用一样的评分框架，从五个维度，包括基础完整性（15%）、图谱质量（35%）、文章完整性（15%）、视觉（20%）、交互稳定性（15%），来逐个独立打分，最后加权算平均分。\n\n我在葬AI网站上开源了完整的测试方法，也把这些模型测试生成60个网页都部署上线。\n\nfuneralai.cc/test\n\n这个网站里有本次测试的所有产物、详细分析报告和Github链接。你可以挨个点进去看60个测试网页。\n\n结果总体不算出人意料，符合我对这些模型的使用体感。\n\n让我们来挨个分析一下。\n\nGLM系列是公认的国产模型编程第一。唯一让人惊讶的是，GLM 5.2得分（85.5）略微超越了Claude Opus 4.8（85.2）。\n\n这两个模型生成的网站都质量很高，功能该有的都有，知识图谱都能一次性渲染完成，并且交互都复刻得不错。\n\n比如这是Claude Opus 4.8得分最高的产物，功能完整，知识图谱都可以交互。只是视觉没有完全复刻扣了点分。\n\nfuneralai.cc/test/r1/claude-opus-4-8\n\n而这是GLM 5.2生成的较好的网站，明显视觉复刻更到位，只是交互有点问题，节点之间互相遮挡扣了分。\n\nfuneralai.cc/test/r5/glm-x-preview\n\n总之，分别跑了10个轮次下来，GLM 5.2和Opus 4.8 区别不大。前者胜在产出稳定，没有极端案例。后者主要是因为有一轮图谱没有渲染成功，导致拉低了均分。\n\n我和身边朋友也是这个体感。在前端和业务逻辑一次性生成的案例上，GLM 5.2的表现完全不逊色Opus 4.8。\n\n我的朋友凯一在拿几个模型复刻LibTV之后，大呼GLM无敌，连画布页面都复刻得有模有样，一眼超越了没生成出画布的Codex和Kimi。于是他当即关掉了Kimi会员自动续费。\n\n但也有人反映，GLM 5.2还是没有达到Opus 4.6水平。众所周知，Opus 4.8在很多方面不如4.6，这是A畜特有的负面更新。\n\n除了GLM 5.2牛逼外，我的另一个重大发现是，Qwen 3.7 Max（82.4分）很行。\n\n主要胜在工程能力稳定，几乎没有大的错误，图谱基本能稳定渲染。扣分主要来自视觉和交互波动：有几轮 CSS 变量和设计系统很弱，导致视觉分明显下滑。\n\nQwen 3.7 Max是全场工程能力最稳定的模型，并且与前两个模型体感相差不大，在日常工作中完全可用。\n\n这其实是一件很难得的事情，因为Qwen系列一向的特点是没有最强模型，大家想到Qwen都是开源中小尺寸模型，但Qwen 3.7系列达到了完全可用的水平。\n\n然后就是我们亲爱的最会做产品的Kimi（80.3分）。\n\nKimi K2.7-code最主要的问题是产出质量不稳定。好的轮次能到高分，但也有3个轮次没有渲染出图谱，直接拉低了均分。比如下面这轮就只产出了个空壳。\n\nhttps://funeralai.cc/test/r4/kimi-k2-7-code\n\n这里必须多说一句，Kimi是所有模型中花费最第二高的，仅次于Claude。\n\nClaude跑一轮测试花了我202.5元人民币。Kimi跑完测试居然花了164.6元。远高于花费23.5元的Qwen和23.2元的MiniMax，更是被只花了17.1块钱的DeepSeek当场薄杀。\n\n我看到账单十分震惊，专门拉了日志分析，原来Kimi API消耗中，绝大部分都花在了缓存命中，测试产生了104.73M缓存命中token，这部分就花了136.15元。\n\nDS也这个情况，它测试产生了191M缓存命中token。但胜在DS缓存命中超级无敌便宜，只有Kimi价格的1/52。所以DS实际成本才这么便宜。\n\n然后这两个模型缓存命中非常夸张的原因是，调用次数特别多。测试中，Kimi K2.7-code发生了1046 次请求，DeepSeek v4-pro 有 1129 次请求。这是因为模型一次性生成的做不对，Agent就会多次请求，反复修。\n\n这就和Qwen形成了鲜明对比，整个测试，Qwen 3.7 Max只产生了288 次请求，导致缓存命中量少，所以成本偏低。不愧是工程能力最稳定的模型👍\n\n不过，虽然DeepSeek V4 Pro（67.1分）生成质量最不稳定。有高分轮次，但低分轮次过低，导致均分最低。\n\n但你梁圣真的很便宜。那句话怎么说来着，DS卖Token只收你电费，剩下的研发成本你别管，工作日9:30-15:00梁圣自有办法解决。\n\n而且DS主要是工程稳定性不行，如果是我自己使用，通过多轮次交互，DS用起来也不是不行。过去一个多月，我一直用Opencode接DS干日常工作，也没遇到啥问题。\n\n所以，确实存在一条DeepSeek斩杀线，价格更贵、质量好得不明显的模型就会被淘汰。\n\nMiniMax M3（77.4分）就在逼近这条斩杀线。\n\nMiniMax的视觉设计是明显优势，CSS 变量和页面质感经常很好。但在最考验工程能力的图谱页上，10轮只成功了3轮，导致均分被拉低。\n\n下图就是一个空壳图谱页的典型例子。\n\nhttps://funeralai.cc/test/r3/minimax-m3\n\n同样的成本，我可以用工程能力更稳定的Qwen 3.7 Max。所以，MiniMax的生态位到底在哪里呢？\n\nMiniMax和Kimi的问题很相似，都是前端完成度不错，但工程能力不稳定。Kimi情况好很多，不至于被DS斩杀。\n\n但有编程能力最强的GLM 5.2和价格相对便宜、工程能力稳定的Qwen 3.7Max，为什么要用这么贵的Kimi 2.7 code呢？\n\n我就不过多举例了，反正60个测试网页都上线了葬AI网站，你可以挨个查看各个模型产出物的优劣，一目了然。\n\n最后总结一下吧。\n\n这个基准测试的缘起是我要写Qwen。我又不想空口扯组织战略，那不成纯纯阿里味了。\n\n为了严肃评测Qwen 3.7 Max的能力，我想到了用自己相对复杂的工程任务葬AI网站，作为基准来评价各个模型能力。\n\n核心原因是模型厂都刷榜，导致最有名的几个基准测试都没有区分度了。而且如果你看过SWE-bench题目的话，就能发现他的思路是找Github上的Issue，给AI真实的人类编程遇到的问题，看AI能不能解决问题。\n\n这个思路和葬AI基准测试是一样的。我也是给AI完整的仓库，叫它重构一个带有图谱的相对复杂的网站，然后对比原版网站来评分。\n\n并且，这个测试思路可以泛化。我认识不少干产品、技术的朋友都有自己的私人评测集，大概是几个他工作中真实遇到的工程问题，每次出新模型就跑一下这几个问题。\n\n这是好事啊，大家应该有自己的Benchmark来评测这些模型。\n\n因为一套榜单不能代表所有需求。重点不是找出全世界最强模型，而是找到对你的真实工作最有用的模型。\n\n比如GLM虽然得分更高，但写作不如DeepSeek灵活。而根据我的体感，现在所有模型的写作水平，可能都不如一年多前发布的Claude Sonnet 4.0。\n\n我开源了葬AI基准测试的思路，核心是把你日常真正会做的工作抽象成一个可重复任务，然后让不同模型来多轮完成，并且评分。\n\ngithub.com/FrichXi/personal-work-benchmark\n\n可以把链接发给你的Agent，叫它参考这个思路制作对你自己有可信度的Benchmark。\n\n当然了，我这次跑出来的得分可能也就图一乐。\n\n虽然我尽力控制变量，但还是遇到了一些其他因素，比如我没买到GLM会员，所以GLM 5.2调用的是智谱家人提供的内测接口，加不加智不知道，但肯定不是降智版本。\n\n要是过两天我买到GLM 5.2会员，跑出来不是这个分，我也将向家人们道歉并痛斥智谱诈骗（希望不要）。\n\n而Claude Opus 4.8，我走的是中转站API。虽然这是一个荣登Anthropic报告的大中转站，还是原价API，但是不是完全正版也不好说。评测得出的细微分数差距没有意义，看个大概结论就行。\n\n结论就是GLM 5.2牛逼，真达到了Opus 4.8水平，Qwen 3.7 Max其次，最有工程稳定性。\n\nKimi尤其需要加强infra，多向梁圣学习降本增效，你这缓存价格我真用不起。最需要努力的是MiniMax，快往前跑孩子，别一不留神跌落斩杀线了💪\n\n最后声明一下，本篇文章没有接受任何赞助，完全是客观评测结果和主观使用体验的结合。\n\n虽然看起来很像智谱广告，但我确实没收智谱或者任何人钱，比心❤️\n\n敬请期待我们后续把Qwen、智谱等模型厂挨个写一遍。\n\n（本文封面由ChatGPT生成，纯人工写作）",
+  "excerpt": "# 葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8 2026年6月17日 葬爱咸鱼 葬AI --- 这是葬AI起号以来工作量最大的一篇文章。 为了严肃评测国产模型的能力，我自研了一个Benchmark，完整测试了智谱、Qwen、Kimi、Minimax、Deepseek这些最新国产模型，还引入了境外势力Claude作对照组。 现在大模型评测的问题是什么？ 就是所有模型厂都在刷分，还都刷的SWE-bench那几个基准测...",
+  "entity_count": 16,
+  "relationship_count": 15,
+  "entities": [
+    {
+      "id": "glm",
+      "name": "GLM",
+      "type": "product",
+      "description": "智谱开发的大模型系列，在评测中得分第一",
+      "mention_count": 17,
+      "aliases": [
+        "GLM 5.2"
+      ],
+      "tags": [
+        "编程能力强",
+        "视觉复刻",
+        "产出稳定"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "具有长上下文能力的大语言模型，文中被用作Claude Code的后端调用模型",
+      "mention_count": 16,
+      "aliases": [
+        "K2",
+        "K2.7-code",
+        "Kimi K2",
+        "Kimi K2.7-code",
+        "k2"
+      ],
+      "tags": [
+        "最会做产品",
+        "缓存命中成本高",
+        "产出不稳定"
+      ]
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "阿里开发的大模型系列，被评为全场工程能力最稳定的模型",
+      "mention_count": 16,
+      "aliases": [
+        "Qwen 3",
+        "Qwen 3.7",
+        "Qwen 3.7 Max",
+        "Qwen 3.7 plus",
+        "Qwen image",
+        "Qwen-Max",
+        "任务助手",
+        "千问",
+        "千问APP",
+        "千问任务助理",
+        "通义",
+        "通义APP",
+        "通义千问",
+        "通义大模型",
+        "阿里通义"
+      ],
+      "tags": [
+        "工程稳定",
+        "成本低",
+        "开源中小尺寸模型"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "由Anthropic开发的AI编程工具，被广泛用作套壳应用的底层引擎",
+      "mention_count": 12,
+      "aliases": [
+        "CC",
+        "CC SDK",
+        "Claude 3.5 Sonnet",
+        "Claude Code",
+        "Claude Opus 4.8",
+        "Claude Sonnet 3.5",
+        "Claude Sonnet 4.0",
+        "Claude code",
+        "Claude code SDK",
+        "Opus 4.6",
+        "Opus 4.8",
+        "cc",
+        "沐秋"
+      ],
+      "tags": [
+        "境外势力",
+        "人味",
+        "写作能力",
+        "A畜"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内AI公司，其设立付费墙的商业行为被性压抑AI作为案例进行了解构分析。",
+      "mention_count": 9,
+      "aliases": [
+        "MinMax",
+        "Minimax"
+      ],
+      "tags": [
+        "模型厂",
+        "斩杀线"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "AI大模型公司，其爆火为Cherry Studio带来大量流量",
+      "mention_count": 7,
+      "aliases": [
+        "DS",
+        "DS V4 pro",
+        "Deepseek",
+        "Deepseek V4"
+      ],
+      "tags": [
+        "只收电费",
+        "降本增效"
+      ]
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "国内AI大模型公司，为Cherry Studio提供免费API支持",
+      "mention_count": 6,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "模型厂",
+        "内测接口"
+      ]
+    },
+    {
+      "id": "梁圣",
+      "name": "梁圣",
+      "type": "person",
+      "description": "DeepSeek的核心决策者（梁文锋），以控制极低研发成本著称",
+      "mention_count": 3,
+      "aliases": [
+        "梁文锋"
+      ],
+      "tags": [
+        "降本增效"
+      ]
+    },
+    {
+      "id": "葬ai基准测试",
+      "name": "葬AI基准测试",
+      "type": "product",
+      "description": "作者自研的基于完整静态网站重构的大模型能力评测基准",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "Benchmark",
+        "知识图谱",
+        "静态网站重构"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "OpenAI的通用大语言模型产品，被视为AI陪伴赛道的未来方向之一",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "对话体验"
+      ]
+    },
+    {
+      "id": "opencode",
+      "name": "Opencode",
+      "type": "product",
+      "description": "被作者用来接入Deepseek和Qwen执行日常任务的工具",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "独立会话",
+        "多轮交互"
+      ]
+    },
+    {
+      "id": "swe-bench",
+      "name": "SWE-bench",
+      "type": "product",
+      "description": "主流的大模型编程基准测试工具，导致了模型刷榜同质化",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "刷榜",
+        "基准测试",
+        "同质化"
+      ]
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "type": "company",
+      "description": "Claude及Claude Code背后的AI开发公司",
+      "mention_count": 1,
+      "aliases": [
+        "A畜"
+      ],
+      "tags": [
+        "Anthropic报告",
+        "大中转站"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "现成的AI Agent产品，可用于驱动HyperFrames",
+      "mention_count": 1,
+      "aliases": [
+        "Codex SDK",
+        "codex",
+        "骡子马"
+      ],
+      "tags": [
+        "代码模型"
+      ]
+    },
+    {
+      "id": "kaiyi",
+      "name": "kaiyi",
+      "type": "person",
+      "description": "做过AI浏览器的工程师，Manus前身浏览器的资深开发",
+      "mention_count": 1,
+      "aliases": [
+        "凯一",
+        "孙先生",
+        "鹤岗凯一"
+      ],
+      "tags": [
+        "测试者"
+      ]
+    },
+    {
+      "id": "阿里巴巴",
+      "name": "阿里巴巴",
+      "type": "company",
+      "description": "开发了Happy Horse视频模型和Happy Oyster世界模型",
+      "mention_count": 1,
+      "aliases": [
+        "阿里"
+      ],
+      "tags": [
+        "组织战略",
+        "阿里味"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "chatgpt",
+      "target_id": "claude",
+      "source": "ChatGPT",
+      "target": "Claude",
+      "relation_type": "compares_to",
+      "label": "作者表示卷编程后，和Claude对话时常感觉是在用缺乏人味的ChatGPT",
+      "weight": 1
+    },
+    {
+      "source_id": "claude",
+      "target_id": "glm",
+      "source": "Claude",
+      "target": "GLM",
+      "relation_type": "compares_to",
+      "label": "作者指出GLM 5.2得分第一，在表现上略微超越了Claude Opus 4.8",
+      "weight": 1
+    },
+    {
+      "source_id": "codex",
+      "target_id": "glm",
+      "source": "Codex",
+      "target": "GLM",
+      "relation_type": "compares_to",
+      "label": "GLM在生成画布页面的能力上直接超越了没生成出来的Codex",
+      "weight": 1
+    },
+    {
+      "source_id": "glm",
+      "target_id": "qwen",
+      "source": "GLM",
+      "target": "Qwen",
+      "relation_type": "compares_to",
+      "label": "Qwen 3.7 Max的体感与得分前两名的GLM和Claude相差不大",
+      "weight": 1
+    },
+    {
+      "source_id": "kimi",
+      "target_id": "qwen",
+      "source": "Kimi",
+      "target": "Qwen",
+      "relation_type": "compares_to",
+      "label": "Qwen的低API请求数和低成本与产生大量请求的Kimi形成鲜明对比",
+      "weight": 1
+    },
+    {
+      "source_id": "swe-bench",
+      "target_id": "葬ai基准测试",
+      "source": "SWE-bench",
+      "target": "葬AI基准测试",
+      "relation_type": "compares_to",
+      "label": "作者提到葬AI基准测试给真实工程仓库的思路和SWE-bench寻找真实Issue的思路一样",
+      "weight": 1
+    },
+    {
+      "source_id": "deepseek",
+      "target_id": "minimax",
+      "source": "DeepSeek",
+      "target": "MiniMax",
+      "relation_type": "competes_with",
+      "label": "DeepSeek拉低了行业的存活价格线，而MiniMax公司正在逼近这条斩杀线",
+      "weight": 1
+    },
+    {
+      "source_id": "智谱ai",
+      "target_id": "阿里巴巴",
+      "source": "智谱AI",
+      "target": "阿里巴巴",
+      "relation_type": "competes_with",
+      "label": "二者均处在高度内卷、互相刷榜竞争国产第一的大模型公司赛道中",
+      "weight": 1
+    },
+    {
+      "source_id": "kaiyi",
+      "target_id": "codex",
+      "source": "kaiyi",
+      "target": "Codex",
+      "relation_type": "criticizes",
+      "label": "凯一认为GLM一眼超越了没能生成出画布页面的Codex",
+      "weight": 1
+    },
+    {
+      "source_id": "kaiyi",
+      "target_id": "kimi",
+      "source": "kaiyi",
+      "target": "Kimi",
+      "relation_type": "criticizes",
+      "label": "凯一因为不满意Kimi的生成表现，当即关掉了Kimi会员自动续费",
+      "weight": 1
+    },
+    {
+      "source_id": "anthropic",
+      "target_id": "claude",
+      "source": "Anthropic",
+      "target": "Claude",
+      "relation_type": "develops",
+      "label": "Claude由Anthropic开发（文中提及这是荣登Anthropic报告的模型）",
+      "weight": 1
+    },
+    {
+      "source_id": "智谱ai",
+      "target_id": "glm",
+      "source": "智谱AI",
+      "target": "GLM",
+      "relation_type": "develops",
+      "label": "GLM系列模型由智谱公司开发（文中提及智谱家人提供的内测接口）",
+      "weight": 1
+    },
+    {
+      "source_id": "阿里巴巴",
+      "target_id": "qwen",
+      "source": "阿里巴巴",
+      "target": "Qwen",
+      "relation_type": "develops",
+      "label": "Qwen由阿里开发（文中提到为了避免纯纯阿里味而写Qwen测试）",
+      "weight": 1
+    },
+    {
+      "source_id": "梁圣",
+      "target_id": "deepseek",
+      "source": "梁圣",
+      "target": "DeepSeek",
+      "relation_type": "founder_of",
+      "label": "梁圣是DeepSeek的老板/创始人（文中提及他自有办法解决剩余研发成本）",
+      "weight": 1
+    },
+    {
+      "source_id": "kaiyi",
+      "target_id": "glm",
+      "source": "kaiyi",
+      "target": "GLM",
+      "relation_type": "praises",
+      "label": "凯一在复刻测试后大呼GLM无敌，赞扬其生成能力",
+      "weight": 1
+    }
+  ]
+}

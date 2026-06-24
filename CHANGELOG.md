@@ -5,8 +5,10 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
-- `/test` benchmark now publishes the 8-model / 80-site composite leaderboard, including Doubao Seed 2.1 Pro and Step 3.7 Flash, with old graph-weighted scores kept as archive evidence.
+- Articles 107-108 imported from Substack: "网吧黑客松将于杭州风光大办" (107) and "深圳AI硬件特别正常" (108). Incremental pipeline run completed successfully with 4/3 and 12/5 entity/relationship counts; public stats updated to 108 articles / 619 entities / 1602 relationships.
+- Article 106 imported from Substack: "我来给LibTV道喜了" (106). Incremental pipeline run completed successfully with 14 entities and 19 relationships extracted; public stats updated to 106 articles / 609 entities / 1594 relationships.
 - `scripts/sync_github_repo.sh` to let the weekday Substack automation push article/graph/stat updates to GitHub while refusing to mix in unrelated local changes.
+- Article 105 imported from Substack: "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8" (105). Incremental pipeline run completed successfully with 16 entities and 15 relationships extracted; public stats updated to 105 articles / 609 entities / 1578 relationships.
 
 ### Changed
 - `/test` default ranking, value leaderboard, and round matrix now use the 2026-06-24 composite score: graph-weighted base score plus full graph-stability recheck. r6 Doubao is adjusted from 100 to 88.8 due to severe graph motion.

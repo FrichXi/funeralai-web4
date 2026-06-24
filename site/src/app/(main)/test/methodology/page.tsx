@@ -1,5 +1,9 @@
 import type { Metadata } from 'next';
-import { ArrowLeft, BarChart3, CheckCircle2, Scale } from 'lucide-react';
+import fs from 'node:fs';
+import path from 'node:path';
+import ReactMarkdown, { type Components } from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import { ArrowLeft, BarChart3, CheckCircle2, Database, Moon, Scale } from 'lucide-react';
 import { Footer } from '@/components/layout/Footer';
 import { PageContainer } from '@/components/layout/PageContainer';
 
@@ -7,221 +11,531 @@ export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
   title: '模型分析 - 葬AI Web4',
-  description: '葬AI Web4 真实工作任务评测的模型排名与逐项分析。',
+  description: '葬AI Web4 真实工作任务评测的模型排名、追加测试、性价比、成本和调用分析。',
   robots: {
     index: false,
     follow: false,
   },
 };
 
-const rankings = [
-  ['1', 'GLM 5.2', '85.2', '72.8-93.0', '复合分仍第一，视觉和交互分高'],
-  ['2', 'Claude Opus 4.8', '84.9', '57.8-98.0', '单站上限最高，低尾拖累均分'],
-  ['3', 'Qwen 3.7 Max', '82.4', '66.2-93.8', '图谱渲染稳定，视觉波动大'],
-  ['4', 'Kimi K2.7-code', '80.3', '51.6-93.8', '均衡，但也有低分轮次'],
-  ['5', 'Doubao Seed 2.1 Pro', '77.6', '55.6-96.0', 'r6 严重抖动后修正，低尾仍明显'],
-  ['6', 'MiniMax M3', '77.4', '52.6-95.8', '视觉强，图谱空壳偏多'],
-  ['7', 'Step 3.7 Flash', '68.3', '53.0-87.8', '文章完整，图谱和视觉弱轮次偏多'],
-  ['8', 'DeepSeek V4 Pro', '67.1', '39.2-96.0', '图谱和视觉稳定性最弱'],
-] as const;
+interface TestEntry {
+  round: string;
+  model: string;
+  modelVersion?: string;
+  score: number | null;
+  loading: number | null;
+  graph: number | null;
+  articles: number | null;
+  visual: number | null;
+  interaction: number | null;
+}
 
-const comparison = [
-  ['复合均分', '85.2', '84.9', 'GLM 只领先 0.3'],
-  ['Adjusted Graph/25', '15.7', '18.4', 'Opus 图谱更强'],
-  ['Articles/25', '25.0', '24.6', 'GLM 文章项满分'],
-  ['Visual', '18.4', '16.0', 'GLM 视觉更稳定'],
-  ['Interaction', '14.8', '13.4', 'GLM 交互分更稳定'],
-  ['最低分', '72.8', '57.8', 'Opus 低尾更低'],
-] as const;
+interface EfficiencyEntry {
+  model: string;
+  modelVersion: string;
+  mainRank: number | null;
+  scoreAvg?: number | null;
+  tokensTotal: number | null;
+  costLabel: string;
+  costSortCny?: number | null;
+  consumptionRank?: number | null;
+  valueIndex?: number | null;
+  calls: number | null;
+  wallMinutes: number | null;
+  note?: string;
+}
 
-const modelAnalyses = [
-  {
-    name: 'GLM 5.2',
-    body: 'GLM 5.2 的图谱结果是 6 轮真渲染、4 轮空壳。复合复核里 r10 出现轻微抖动，Graph/25 从 22 调到 20，总分从 93.8 调到 91；但它文章项全满，视觉和交互分普遍高，所以复合均分仍排第一。',
-  },
-  {
-    name: 'Claude Opus 4.8',
-    body: 'Opus 4.8 的亮点非常明确：r1 以 98 分拿到全场第一，10 轮里有 8 轮图谱真渲染，调整后图谱均分也高于 GLM。它的问题是波动：r3 是图谱空壳加弱样式，只有 57.8；r10 轻微抖动后从 91 调到 88.2。它不是跑错模型，而是 10 轮里确实出现了更重的低尾。',
-  },
-  {
-    name: 'Qwen 3.7 Max',
-    body: 'Qwen 仍然是工程可靠性很强的模型。它的图谱基本能稳定渲染，文章项也接近满分。扣分主要来自视觉和交互波动：有几轮 CSS 变量和设计系统很弱，导致视觉分明显下滑。它不像 Opus 那样有全场最高单站，但整体比较可信。',
-  },
-  {
-    name: 'Kimi K2.7-code',
-    body: 'Kimi 的平均表现比较均衡，文章完整性好，好的轮次能到 A 档。但它也有低分轮次，尤其是图谱不可见或样式系统弱的时候会被 graph-weighted 公式明显惩罚。它适合作为稳定候选，但这次不如 Qwen 和前两名。',
-  },
-  {
-    name: 'Doubao Seed 2.1 Pro',
-    body: 'Doubao 是追加测试里表现更强的新模型，但复合复核改变了它的关键样本：r6 旧分 100，因知识图谱严重抖动，Graph/25 从 25 调到 17，总分变为 88.8。它仍有 r4、r9 两个 96 分站点，说明上限很高；但 r10 55.6、r5 62 和 r6 抖动一起拉低了复合均分。',
-  },
-  {
-    name: 'MiniMax M3',
-    body: 'MiniMax 的视觉设计是明显优势，CSS 变量和页面质感经常很好。但图谱页空壳偏多，graph-weighted 公式放大图谱权重以后，它的总分被压下来。它适合做视觉初稿，但在这个任务里不能只靠好看赢。',
-  },
-  {
-    name: 'Step 3.7 Flash',
-    body: 'Step 的文章项稳定，10 轮文章分都是满分，但图谱和视觉弱轮次较多，导致总均分 68.3。它有 r6 87.8、r1 86.8 的可用高分轮次，也有多轮 D 档，当前更像能完成内容结构、但前端图谱和视觉稳定性不足。',
-  },
-  {
-    name: 'DeepSeek V4 Pro',
-    body: 'DeepSeek 的最大问题是图谱和视觉稳定性。它也有高分轮次，但低分轮次太低，尤其是图谱不渲染、样式系统弱时会被严重扣分。这个结果更像工程落地稳定性问题，不是单纯能不能写代码的问题。',
-  },
-] as const;
+interface TestManifest {
+  generatedAt?: string;
+  snapshotDate?: string;
+  dataVersion?: string;
+  scoreFormula?: string;
+  scoreStandard?: string;
+  expectedEntries?: number;
+  entries: TestEntry[];
+  efficiencyLeaderboard?: EfficiencyEntry[];
+}
 
-const takeaways = [
-  '10 轮复合均分和单站最高分是两件事。Opus 4.8 的最好产物全场第一，但均分略低于 GLM。',
-  'Doubao 和 Step 是追加测试：它们锁定旧数据快照和同一评分脚本加入旧榜，旧 60 行分数没有被改写。',
-  '复合评分仍以 graph-weighted 为基础，但额外全量复核图谱稳定性；明显持续抖动会只从 Graph/25 项扣分。',
-  'graph-weighted 基础分会强烈惩罚空壳图谱。文章页做完整但图谱不渲染，已经不能拿高分。',
-  '这次可以确认 Opus 4.8 使用的是精确模型 claude-opus-4-8，不是 claude-opus-4。',
-  '生成条件是对齐的，复合复核也覆盖全部 80 个站点；Doubao 和 Step 的边界是运行日期晚于旧 60 个模型，所以结论仍应读作旧榜追加结果。',
-  '旧 graph-weighted 文件保留为归档证据；公开默认总榜、性价比榜和 Round 矩阵使用复合评分。',
-] as const;
+interface ModelSummary {
+  model: string;
+  version: string;
+  count: number;
+  avg: number;
+  min: number;
+  max: number;
+  loading: number | null;
+  graph: number | null;
+  articles: number | null;
+  visual: number | null;
+  interaction: number | null;
+  highCount: number;
+  lowCount: number;
+}
+
+const TEST_PUBLIC_DIR = path.join(process.cwd(), 'public', 'test');
+const DEFAULT_MANIFEST: TestManifest = {
+  entries: [],
+  efficiencyLeaderboard: [],
+};
+
+function readPublicText(fileName: string, fallback = '') {
+  try {
+    return fs.readFileSync(path.join(TEST_PUBLIC_DIR, fileName), 'utf8');
+  } catch {
+    return fallback;
+  }
+}
+
+function readManifest() {
+  try {
+    const raw = fs.readFileSync(path.join(TEST_PUBLIC_DIR, 'manifest.json'), 'utf8');
+    return JSON.parse(raw) as TestManifest;
+  } catch {
+    return DEFAULT_MANIFEST;
+  }
+}
+
+function parseCsvLine(line: string) {
+  const cells: string[] = [];
+  let current = '';
+  let quoted = false;
+
+  for (let index = 0; index < line.length; index += 1) {
+    const char = line[index];
+    const next = line[index + 1];
+
+    if (char === '"' && quoted && next === '"') {
+      current += '"';
+      index += 1;
+      continue;
+    }
+
+    if (char === '"') {
+      quoted = !quoted;
+      continue;
+    }
+
+    if (char === ',' && !quoted) {
+      cells.push(current);
+      current = '';
+      continue;
+    }
+
+    current += char;
+  }
+
+  cells.push(current);
+  return cells;
+}
+
+function parseCsv(raw: string) {
+  const [headerLine, ...lines] = raw.trim().split(/\r?\n/);
+
+  if (!headerLine) {
+    return [] as Record<string, string>[];
+  }
+
+  const headers = parseCsvLine(headerLine);
+  return lines
+    .filter((line) => line.trim())
+    .map((line) => {
+      const cells = parseCsvLine(line);
+      return Object.fromEntries(headers.map((header, index) => [header, cells[index] ?? '']));
+    });
+}
+
+function finiteNumber(value: number | null | undefined): value is number {
+  return typeof value === 'number' && Number.isFinite(value);
+}
+
+function average(values: Array<number | null | undefined>) {
+  const numbers = values.filter(finiteNumber);
+
+  if (!numbers.length) {
+    return null;
+  }
+
+  return numbers.reduce((sum, value) => sum + value, 0) / numbers.length;
+}
+
+function formatNumber(value: number | null | undefined, digits = 1) {
+  if (!finiteNumber(value)) {
+    return '暂缺';
+  }
+
+  return value.toLocaleString('zh-CN', {
+    minimumFractionDigits: digits,
+    maximumFractionDigits: digits,
+  });
+}
+
+function formatInteger(value: number | null | undefined) {
+  if (!finiteNumber(value)) {
+    return '暂缺';
+  }
+
+  return Math.round(value).toLocaleString('zh-CN');
+}
+
+function formatCompactTokens(value: number | null | undefined) {
+  if (!finiteNumber(value)) {
+    return '暂缺';
+  }
+
+  if (value >= 1_000_000) {
+    return `${(value / 1_000_000).toLocaleString('zh-CN', {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2,
+    })}M`;
+  }
+
+  return formatInteger(value);
+}
+
+function formatGeneratedAt(value?: string) {
+  if (!value) {
+    return '待生成';
+  }
+
+  const date = new Date(value);
+
+  if (Number.isNaN(date.getTime())) {
+    return value;
+  }
+
+  return new Intl.DateTimeFormat('zh-CN', {
+    dateStyle: 'medium',
+    timeStyle: 'short',
+    timeZone: 'Asia/Shanghai',
+  }).format(date);
+}
+
+function summarizeModels(entries: TestEntry[]) {
+  const groups = new Map<string, TestEntry[]>();
+
+  for (const entry of entries) {
+    if (!finiteNumber(entry.score)) {
+      continue;
+    }
+
+    const rows = groups.get(entry.model) ?? [];
+    rows.push(entry);
+    groups.set(entry.model, rows);
+  }
+
+  const summaries: ModelSummary[] = Array.from(groups.entries()).map(([model, rows]) => {
+    const scores = rows.map((row) => row.score).filter(finiteNumber);
+    return {
+      model,
+      version: rows[0]?.modelVersion || model,
+      count: scores.length,
+      avg: average(scores) ?? 0,
+      min: Math.min(...scores),
+      max: Math.max(...scores),
+      loading: average(rows.map((row) => row.loading)),
+      graph: average(rows.map((row) => row.graph)),
+      articles: average(rows.map((row) => row.articles)),
+      visual: average(rows.map((row) => row.visual)),
+      interaction: average(rows.map((row) => row.interaction)),
+      highCount: scores.filter((score) => score >= 90).length,
+      lowCount: scores.filter((score) => score < 70).length,
+    };
+  });
+
+  return summaries.sort((a, b) => b.avg - a.avg || a.model.localeCompare(b.model));
+}
+
+function metricFromCsv(rows: Record<string, string>[], model: string, key: string) {
+  const row = rows.find((item) => item.model === model);
+  return row?.[key] || '';
+}
+
+const markdownComponents: Components = {
+  h1: ({ children }) => (
+    <h2 className="retro mt-10 text-[20px] leading-8 text-[#5b3ea7]">{children}</h2>
+  ),
+  h2: ({ children }) => (
+    <h3 className="retro mt-9 text-[18px] leading-8 text-[#5b3ea7]">{children}</h3>
+  ),
+  h3: ({ children }) => (
+    <h4 className="retro mt-7 text-[15px] leading-7 text-[#5b3ea7]">{children}</h4>
+  ),
+  p: ({ children }) => <p className="my-4 text-[15px] leading-8 text-[#2f2938]">{children}</p>,
+  ul: ({ children }) => (
+    <ul className="my-5 list-disc space-y-2 pl-5 text-[15px] leading-8 text-[#2f2938]">
+      {children}
+    </ul>
+  ),
+  ol: ({ children }) => (
+    <ol className="my-5 list-decimal space-y-3 pl-5 text-[15px] leading-8 text-[#2f2938]">
+      {children}
+    </ol>
+  ),
+  li: ({ children }) => <li>{children}</li>,
+  strong: ({ children }) => <strong className="font-semibold text-[#17131d]">{children}</strong>,
+  code: ({ children }) => (
+    <code className="border border-[#d7cfbf] bg-[#fffaf0] px-1.5 py-0.5 font-mono text-[0.9em] text-[#5b3ea7]">
+      {children}
+    </code>
+  ),
+  table: ({ children }) => (
+    <div className="my-6 overflow-x-auto border-2 border-[#2f2938] bg-[#fffaf0] shadow-[6px_6px_0_#2f2938]">
+      <table className="w-full min-w-[760px] border-collapse text-left text-[13px] text-[#17131d]">
+        {children}
+      </table>
+    </div>
+  ),
+  thead: ({ children }) => <thead className="border-b-2 border-[#17131d] bg-[#ebe4d6]">{children}</thead>,
+  th: ({ children }) => (
+    <th className="px-3 py-2 font-semibold text-[#43384f] align-bottom">{children}</th>
+  ),
+  td: ({ children }) => (
+    <td className="border-b border-[#d7cfbf] px-3 py-2 align-top text-[#2f2938]">{children}</td>
+  ),
+  a: ({ children, href }) => (
+    <a href={href} className="text-[#5b3ea7] underline underline-offset-4">
+      {children}
+    </a>
+  ),
+};
+
+function StatCard({ label, value, detail }: { label: string; value: string; detail: string }) {
+  return (
+    <div className="border-y-4 border-[#2f2938] py-4">
+      <p className="retro text-[11px] text-[#5b3ea7]">{label}</p>
+      <p className="mt-2 text-3xl font-semibold tracking-normal text-[#17131d]">{value}</p>
+      <p className="mt-2 text-xs leading-5 text-[#6d6078]">{detail}</p>
+    </div>
+  );
+}
+
+function QualityTable({ summaries, csvRows }: { summaries: ModelSummary[]; csvRows: Record<string, string>[] }) {
+  return (
+    <div className="overflow-x-auto border-2 border-[#2f2938] bg-[#fffaf0] shadow-[8px_8px_0_#2f2938]">
+      <table className="w-full min-w-[960px] border-collapse text-[13px] text-[#17131d]">
+        <thead className="border-b-2 border-[#17131d] bg-[#ebe4d6]">
+          <tr>
+            <th className="px-3 py-2 text-right text-[#43384f]">排名</th>
+            <th className="px-3 py-2 text-left text-[#43384f]">模型</th>
+            <th className="px-3 py-2 text-right text-[#43384f]">均分</th>
+            <th className="px-3 py-2 text-right text-[#43384f]">区间</th>
+            <th className="px-3 py-2 text-right text-[#43384f]">图谱/25</th>
+            <th className="px-3 py-2 text-right text-[#43384f]">文章/25</th>
+            <th className="px-3 py-2 text-right text-[#43384f]">视觉</th>
+            <th className="px-3 py-2 text-right text-[#43384f]">交互</th>
+            <th className="px-3 py-2 text-right text-[#43384f]">A 档轮次</th>
+            <th className="px-3 py-2 text-right text-[#43384f]">低尾轮次</th>
+          </tr>
+        </thead>
+        <tbody>
+          {summaries.map((summary, index) => (
+            <tr key={summary.model} className="border-b border-[#d7cfbf] last:border-b-0">
+              <td className="px-3 py-2 text-right tabular-nums">{index + 1}</td>
+              <td className="px-3 py-2">
+                <strong>{summary.version}</strong>
+                <div className="text-[11px] text-[#6d6078]">{summary.count} 轮有效结果</div>
+              </td>
+              <td className="px-3 py-2 text-right tabular-nums font-semibold">{formatNumber(summary.avg)}</td>
+              <td className="px-3 py-2 text-right tabular-nums">
+                {formatNumber(summary.min)}-{formatNumber(summary.max)}
+              </td>
+              <td className="px-3 py-2 text-right tabular-nums">
+                {metricFromCsv(csvRows, summary.model, 'graph_avg') || formatNumber((summary.graph ?? 0) / 35 * 25)}
+              </td>
+              <td className="px-3 py-2 text-right tabular-nums">
+                {metricFromCsv(csvRows, summary.model, 'articles_avg') || formatNumber((summary.articles ?? 0) / 15 * 25)}
+              </td>
+              <td className="px-3 py-2 text-right tabular-nums">{formatNumber(summary.visual)}</td>
+              <td className="px-3 py-2 text-right tabular-nums">{formatNumber(summary.interaction)}</td>
+              <td className="px-3 py-2 text-right tabular-nums">{summary.highCount}</td>
+              <td className="px-3 py-2 text-right tabular-nums">{summary.lowCount}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function EfficiencyTable({ rows }: { rows: EfficiencyEntry[] }) {
+  return (
+    <div className="overflow-x-auto border-2 border-[#2f2938] bg-[#fffaf0] shadow-[8px_8px_0_#2f2938]">
+      <table className="w-full min-w-[900px] border-collapse text-[13px] text-[#17131d]">
+        <thead className="border-b-2 border-[#17131d] bg-[#ebe4d6]">
+          <tr>
+            <th className="px-3 py-2 text-right text-[#43384f]">性价比排名</th>
+            <th className="px-3 py-2 text-left text-[#43384f]">模型</th>
+            <th className="px-3 py-2 text-right text-[#43384f]">质量排名</th>
+            <th className="px-3 py-2 text-right text-[#43384f]">均分</th>
+            <th className="px-3 py-2 text-right text-[#43384f]">成本</th>
+            <th className="px-3 py-2 text-right text-[#43384f]">调用</th>
+            <th className="px-3 py-2 text-right text-[#43384f]">耗时</th>
+            <th className="px-3 py-2 text-right text-[#43384f]">可见 token</th>
+            <th className="px-3 py-2 text-right text-[#43384f]">value index</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row, index) => (
+            <tr key={row.model} className="border-b border-[#d7cfbf] last:border-b-0">
+              <td className="px-3 py-2 text-right tabular-nums">{index + 1}</td>
+              <td className="px-3 py-2">
+                <strong>{row.modelVersion}</strong>
+                {row.note ? <div className="max-w-[300px] text-[11px] leading-5 text-[#6d6078]">{row.note}</div> : null}
+              </td>
+              <td className="px-3 py-2 text-right tabular-nums">{formatInteger(row.mainRank)}</td>
+              <td className="px-3 py-2 text-right tabular-nums">{formatNumber(row.scoreAvg)}</td>
+              <td className="px-3 py-2 text-right tabular-nums">{row.costLabel}</td>
+              <td className="px-3 py-2 text-right tabular-nums">{formatInteger(row.calls)}</td>
+              <td className="px-3 py-2 text-right tabular-nums">{formatNumber(row.wallMinutes)} 分钟</td>
+              <td className="px-3 py-2 text-right tabular-nums">{formatCompactTokens(row.tokensTotal)}</td>
+              <td className="px-3 py-2 text-right tabular-nums font-semibold">{formatNumber(row.valueIndex, 2)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
 
 export default function ModelAnalysisPage() {
+  const manifest = readManifest();
+  const scoredEntries = manifest.entries.filter((entry) => finiteNumber(entry.score));
+  const summaries = summarizeModels(manifest.entries);
+  const efficiencyRows = manifest.efficiencyLeaderboard ?? [];
+  const csvRows = parseCsv(readPublicText('cross-model-comparison.csv'));
+  const analysisMarkdown = readPublicText(
+    'model-log-analysis.md',
+    '公开分析文件尚未生成。请先运行 `npm run stage:test`。'
+  );
+  const doubao = summaries.find((summary) => summary.model === 'Doubao');
+  const step = summaries.find((summary) => summary.model === 'Step');
+
   return (
     <>
-      <PageContainer className="space-y-10">
-        <section className="space-y-4">
-          <p className="retro text-[11px] text-muted-foreground">
-            PERSONAL REAL-WORK BENCHMARK
-          </p>
-          <div className="max-w-4xl space-y-4">
-            <h1 className="retro text-[24px] text-primary">模型分析</h1>
-            <p className="text-sm leading-7 text-muted-foreground">
-              这页汇总葬AI Web4 复杂个人网站重构任务的 80 个生成产物结果。排名只说明模型在这套复合评分和 10 轮抽样里的表现，不代表通用模型能力排名。
+      <main className="min-h-screen bg-[#f5f1e8] text-[#17131d]">
+        <PageContainer className="space-y-10 py-8 md:py-12">
+          <section className="space-y-6">
+            <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
+              <div className="max-w-4xl space-y-4">
+                <p className="retro text-[11px] text-[#6d6078]">PERSONAL REAL-WORK BENCHMARK</p>
+                <h1 className="retro text-[26px] leading-10 text-[#5b3ea7]">模型分析</h1>
+                <p className="text-[15px] leading-8 text-[#2f2938]">
+                  这页把当前公开榜单的质量结果、2026-06-23 追加测试、性价比榜、缓存成本和调用耗时放在同一个口径里解释。它不是通用模型能力排名，而是葬AI Web4 复杂个人网站重构任务的一次可审计快照。
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                <a
+                  href="/test/"
+                  className="inline-flex items-center gap-2 border border-[#2f2938] bg-[#fffaf0] px-3 py-2 text-xs text-[#17131d] transition-colors hover:bg-[#ebe4d6]"
+                >
+                  <ArrowLeft className="h-3.5 w-3.5" aria-hidden="true" />
+                  <span>返回测试总榜</span>
+                </a>
+                <a
+                  href="/test/legacy-6-model/"
+                  className="inline-flex items-center gap-2 border border-[#2f2938] bg-[#fffaf0] px-3 py-2 text-xs text-[#17131d] transition-colors hover:bg-[#ebe4d6]"
+                >
+                  <Moon className="h-3.5 w-3.5" aria-hidden="true" />
+                  <span>旧榜单</span>
+                </a>
+              </div>
+            </div>
+
+            <div className="grid gap-4 md:grid-cols-4">
+              <StatCard
+                label="PUBLIC SITES"
+                value={String(manifest.entries.length || manifest.expectedEntries || 0)}
+                detail={`已评分 ${scoredEntries.length} 个，追加前快照另存为旧榜单。`}
+              />
+              <StatCard
+                label="MODELS"
+                value={String(summaries.length)}
+                detail="每个模型 10 轮独立产物，模型、provider、runner 分开记录。"
+              />
+              <StatCard
+                label="EFFICIENCY"
+                value={String(efficiencyRows.length)}
+                detail="性价比榜覆盖质量、现金/等价成本、耗时、调用数和 token 负载。"
+              />
+              <StatCard
+                label="SNAPSHOT"
+                value={manifest.snapshotDate || '2026-06-15'}
+                detail={`页面生成：${formatGeneratedAt(manifest.generatedAt)}`}
+              />
+            </div>
+          </section>
+
+          <section className="grid gap-4 md:grid-cols-3">
+            <div className="space-y-3 border-y-4 border-[#2f2938] py-4">
+              <Scale className="h-5 w-5 text-[#5b3ea7]" aria-hidden="true" />
+              <h2 className="retro text-[14px] text-[#5b3ea7]">统一公式</h2>
+              <p className="text-xs leading-6 text-[#6d6078]">
+                {manifest.scoreFormula || 'loading 15 + graph/25*35 + articles/25*15 + visual 20 + interaction 15'}
+              </p>
+            </div>
+            <div className="space-y-3 border-y-4 border-[#2f2938] py-4">
+              <CheckCircle2 className="h-5 w-5 text-[#5b3ea7]" aria-hidden="true" />
+              <h2 className="retro text-[14px] text-[#5b3ea7]">追加边界</h2>
+              <p className="text-xs leading-6 text-[#6d6078]">
+                Doubao 和 Step 是 2026-06-23 在同一冻结数据、同一任务 prompt、同一 graph-weighted 基础评分和同一图谱稳定性复核下追加进榜；旧榜单保留追加前状态。
+              </p>
+            </div>
+            <div className="space-y-3 border-y-4 border-[#2f2938] py-4">
+              <Database className="h-5 w-5 text-[#5b3ea7]" aria-hidden="true" />
+              <h2 className="retro text-[14px] text-[#5b3ea7]">公开边界</h2>
+              <p className="text-xs leading-6 text-[#6d6078]">
+                公开页面和 GitHub 只发布汇总 CSV、JSON、Markdown 与方法说明；原始账单 PDF、控制台截图和完整本地日志不公开。
+              </p>
+            </div>
+          </section>
+
+          <section className="space-y-4">
+            <div className="flex items-center gap-2">
+              <BarChart3 className="h-5 w-5 text-[#5b3ea7]" aria-hidden="true" />
+              <h2 className="retro text-[20px] text-[#5b3ea7]">质量总榜</h2>
+            </div>
+            <QualityTable summaries={summaries} csvRows={csvRows} />
+            <p className="max-w-4xl text-[15px] leading-8 text-[#2f2938]">
+              总榜仍然按产物质量排序。GLM 5.2 与 Claude Opus 4.8 的均分差距很窄；Doubao 追加后落在 Kimi 之后、MiniMax 之前；Step 的文章项稳定，但图谱和视觉弱轮次拉低了总分。
             </p>
-          </div>
-          <a
-            href="/test/"
-            className="inline-flex items-center gap-2 border border-border px-3 py-2 text-xs text-foreground transition-colors hover:border-primary hover:text-primary"
-          >
-            <ArrowLeft className="h-3.5 w-3.5" aria-hidden="true" />
-            <span>返回测试总榜</span>
-          </a>
-        </section>
+          </section>
 
-        <section className="space-y-4">
-          <div className="flex items-center gap-2">
-            <BarChart3 className="h-5 w-5 text-primary" aria-hidden="true" />
-            <h2 className="retro text-[20px] text-primary">结论概览</h2>
-          </div>
-          <div className="overflow-x-auto">
-            <table className="w-full min-w-[760px] text-sm">
-              <thead className="border-b-4 border-foreground dark:border-ring">
-                <tr>
-                  <th className="px-2 py-3 text-left text-xs font-medium text-foreground">排名</th>
-                  <th className="px-2 py-3 text-left text-xs font-medium text-foreground">模型</th>
-                  <th className="px-2 py-3 text-left text-xs font-medium text-foreground">10 轮均分</th>
-                  <th className="px-2 py-3 text-left text-xs font-medium text-foreground">最低到最高</th>
-                  <th className="px-2 py-3 text-left text-xs font-medium text-foreground">主要判断</th>
-                </tr>
-              </thead>
-              <tbody>
-                {rankings.map(([rank, model, average, range, note]) => (
-                  <tr key={model} className="border-b border-dashed border-border">
-                    <td className="px-2 py-3 text-xs tabular-nums text-primary">{rank}</td>
-                    <td className="px-2 py-3 text-xs text-foreground">{model}</td>
-                    <td className="px-2 py-3 text-xs tabular-nums text-foreground">{average}</td>
-                    <td className="px-2 py-3 text-xs tabular-nums text-muted-foreground">{range}</td>
-                    <td className="px-2 py-3 text-xs leading-6 text-muted-foreground">{note}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className="max-w-4xl text-sm leading-7 text-muted-foreground">
-            GLM 5.2 比 Claude Opus 4.8 高 0.3 分，差距非常小。这个结果不应该被读成「GLM 整体能力压过 Opus」，更准确地说是：在这套复合评分和 10 轮抽样里，GLM 的平均表现略高。
-          </p>
-        </section>
-
-        <section className="grid gap-4 md:grid-cols-3">
-          <div className="space-y-3 border-y-4 border-foreground py-4 dark:border-ring">
-            <CheckCircle2 className="h-5 w-5 text-primary" aria-hidden="true" />
-            <h2 className="retro text-[14px] text-primary">同条件生成</h2>
-            <p className="text-xs leading-6 text-muted-foreground">
-              同一个 prompt、同一套本地数据、同一个网站重构任务、同样 10 轮独立 opencode 会话、同样的产物目录结构。
-            </p>
-          </div>
-          <div className="space-y-3 border-y-4 border-foreground py-4 dark:border-ring">
-            <Scale className="h-5 w-5 text-primary" aria-hidden="true" />
-            <h2 className="retro text-[14px] text-primary">统一复核</h2>
-            <p className="text-xs leading-6 text-muted-foreground">
-              最终总榜按 graph-weighted 基础分加图谱稳定性复核计算；稳定性扣分只作用于 Graph/25 项。
-            </p>
-          </div>
-          <div className="space-y-3 border-y-4 border-foreground py-4 dark:border-ring">
-            <CheckCircle2 className="h-5 w-5 text-primary" aria-hidden="true" />
-            <h2 className="retro text-[14px] text-primary">模型确认</h2>
-            <p className="text-xs leading-6 text-muted-foreground">
-              Claude Opus 4.8 使用精确模型 ID claude-opus-4-8，API 探针的响应模型字段也是 claude-opus-4-8。
-            </p>
-          </div>
-        </section>
-
-        <section className="space-y-4">
-          <h2 className="retro text-[20px] text-primary">测试边界</h2>
-          <div className="grid gap-3 text-sm leading-7 text-muted-foreground md:grid-cols-2">
-            <p>复合评分的基础仍是 Playwright graph-weighted 复核：loading 15 + graph/25*35 + articles/25*15 + visual 20 + interaction 15。2026-06-24 的新增复核只检测图谱是否在打开后持续抖动，并只调整 Graph/25。</p>
-            <p>需要保留的限制是：Doubao 和 Step 是 2026-06-23 追加测试，锁定旧数据快照、旧 prompt 和同一基础评分脚本加入旧榜；2026-06-24 的稳定性复核覆盖全部 80 个站点，而不是只检查新 20 个。</p>
-          </div>
-        </section>
-
-        <section className="space-y-4">
-          <h2 className="retro text-[20px] text-primary">为什么 GLM 5.2 略高于 Opus 4.8</h2>
-          <div className="max-w-4xl space-y-3 text-sm leading-7 text-muted-foreground">
-            <p>关键不是图谱。Opus 4.8 调整后的图谱均分是 18.4/25，高于 GLM 的 15.7/25；Opus r1 还拿到了全场最高的 98 分。按图谱上限看，Opus 明显很强。</p>
-            <p>GLM 赢在平均项和低尾控制。</p>
-          </div>
-          <div className="overflow-x-auto">
-            <table className="w-full min-w-[680px] text-sm">
-              <thead className="border-b-4 border-foreground dark:border-ring">
-                <tr>
-                  <th className="px-2 py-3 text-left text-xs font-medium text-foreground">指标</th>
-                  <th className="px-2 py-3 text-left text-xs font-medium text-foreground">GLM 5.2</th>
-                  <th className="px-2 py-3 text-left text-xs font-medium text-foreground">Opus 4.8</th>
-                  <th className="px-2 py-3 text-left text-xs font-medium text-foreground">解释</th>
-                </tr>
-              </thead>
-              <tbody>
-                {comparison.map(([metric, glm, opus, note]) => (
-                  <tr key={metric} className="border-b border-dashed border-border">
-                    <td className="px-2 py-3 text-xs text-primary">{metric}</td>
-                    <td className="px-2 py-3 text-xs tabular-nums text-foreground">{glm}</td>
-                    <td className="px-2 py-3 text-xs tabular-nums text-foreground">{opus}</td>
-                    <td className="px-2 py-3 text-xs leading-6 text-muted-foreground">{note}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className="max-w-4xl text-sm leading-7 text-muted-foreground">
-            Opus 4.8 的 r3 只有 57.8，r6 只有 70.4，r5 只有 75，这几轮把均分拉了下来。GLM 虽然有 4 轮图谱空壳，r10 也因轻微抖动从 93.8 调到 91，但文章项全满，视觉和交互分普遍高，最低分也没有跌破 70，所以平均值略高。0.3 分太窄，不适合下绝对判断。
-          </p>
-        </section>
-
-        <section className="space-y-4">
-          <h2 className="retro text-[20px] text-primary">各模型分析</h2>
-          <div className="grid gap-4 md:grid-cols-2">
-            {modelAnalyses.map((item) => (
-              <article key={item.name} className="space-y-3 border-y-4 border-foreground py-4 dark:border-ring">
-                <h3 className="retro text-[14px] text-primary">{item.name}</h3>
-                <p className="text-xs leading-6 text-muted-foreground">{item.body}</p>
+          <section className="space-y-4">
+            <h2 className="retro text-[20px] text-[#5b3ea7]">Doubao vs Step</h2>
+            <div className="grid gap-4 md:grid-cols-2">
+              <article className="border-y-4 border-[#2f2938] py-4">
+                <h3 className="retro text-[14px] text-[#5b3ea7]">Doubao Seed 2.1 Pro</h3>
+                <p className="mt-3 text-sm leading-7 text-[#2f2938]">
+                  均分 {formatNumber(doubao?.avg)}，区间 {formatNumber(doubao?.min)}-{formatNumber(doubao?.max)}。它有满分和多个 A 档高分轮次，说明产物上限很高；但低尾、耗时和重跑成本也是真问题。
+                </p>
               </article>
-            ))}
-          </div>
-        </section>
+              <article className="border-y-4 border-[#2f2938] py-4">
+                <h3 className="retro text-[14px] text-[#5b3ea7]">Step 3.7 Flash</h3>
+                <p className="mt-3 text-sm leading-7 text-[#2f2938]">
+                  均分 {formatNumber(step?.avg)}，区间 {formatNumber(step?.min)}-{formatNumber(step?.max)}。它跑得快、现金成本极低，文章页基本稳定，但这次任务里图谱和视觉不够稳。
+                </p>
+              </article>
+            </div>
+          </section>
 
-        <section className="space-y-4">
-          <h2 className="retro text-[20px] text-primary">核心启示</h2>
-          <ol className="max-w-4xl list-decimal space-y-3 pl-5 text-sm leading-7 text-muted-foreground">
-            {takeaways.map((takeaway) => (
-              <li key={takeaway}>{takeaway}</li>
-            ))}
-          </ol>
-        </section>
-      </PageContainer>
+          <section className="space-y-4">
+            <h2 className="retro text-[20px] text-[#5b3ea7]">性价比榜</h2>
+            <EfficiencyTable rows={efficiencyRows} />
+            <p className="max-w-4xl text-[15px] leading-8 text-[#2f2938]">
+              性价比榜不是质量总榜的替代品。它把成本排名、耗时排名、调用数排名和可见 token 排名按 40% / 25% / 20% / 15% 合成工程消耗排名，再用质量均分除以该消耗排名得到 value index。这个口径适合解释“这次任务做完要付出多少工程消耗”，不适合单独判断哪个模型最好。
+            </p>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="retro text-[20px] text-[#5b3ea7]">公开分析全文</h2>
+            <div className="border-2 border-[#2f2938] bg-[#f8f3e8] px-4 py-5 shadow-[8px_8px_0_#2f2938] md:px-8 md:py-8">
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
+                {analysisMarkdown}
+              </ReactMarkdown>
+            </div>
+          </section>
+        </PageContainer>
+      </main>
       <Footer />
     </>
   );
