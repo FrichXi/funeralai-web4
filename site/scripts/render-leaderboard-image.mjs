@@ -9,6 +9,7 @@ const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
 const SITE_DIR = path.dirname(SCRIPT_DIR);
 const OUT_DIR = path.join(SITE_DIR, "out");
 const PUBLIC_TEST_DIR = path.join(SITE_DIR, "public", "test");
+const STAGE_TEST_MODE = process.env.STAGE_TEST || "";
 const LEADERBOARD_IMAGES = [
   {
     label: "model leaderboard",
@@ -178,9 +179,36 @@ async function renderLeaderboardImage(page, origin, imageConfig) {
 
   const target = page.locator(imageConfig.selector);
   await target.waitFor({ state: "visible", timeout: 15_000 });
+  await target.scrollIntoViewIfNeeded();
 
   if (imageConfig.waitForLogo) {
-    await page.locator(`${imageConfig.selector} img[alt="葬AI"]`).waitFor({ state: "visible", timeout: 15_000 });
+    const logo = page.locator(`${imageConfig.selector} img[alt="葬AI"]`);
+    await logo.waitFor({ state: "visible", timeout: 15_000 });
+    await logo.evaluate((image) => {
+      if (image instanceof HTMLImageElement && image.complete && image.naturalWidth > 0) {
+        return;
+      }
+
+      return new Promise((resolve, reject) => {
+        const timeoutId = window.setTimeout(() => reject(new Error("Leaderboard logo image load timeout")), 15_000);
+        image.addEventListener(
+          "load",
+          () => {
+            window.clearTimeout(timeoutId);
+            resolve(undefined);
+          },
+          { once: true }
+        );
+        image.addEventListener(
+          "error",
+          () => {
+            window.clearTimeout(timeoutId);
+            reject(new Error("Leaderboard logo image failed to load"));
+          },
+          { once: true }
+        );
+      });
+    });
   }
 
   const outImagePath = path.join(OUT_DIR, "test", imageConfig.fileName);
@@ -198,6 +226,11 @@ async function renderLeaderboardImage(page, origin, imageConfig) {
 }
 
 async function main() {
+  if (STAGE_TEST_MODE === "skip") {
+    console.log("Skipping leaderboard image render (STAGE_TEST=skip).");
+    return;
+  }
+
   invariant(await existingFile(path.join(OUT_DIR, "test", "index.html")), "Run next build before rendering the leaderboard image");
 
   const server = await createStaticServer();

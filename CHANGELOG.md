@@ -17,6 +17,7 @@ All notable changes to this project will be documented in this file.
 - `/test` default ranking, value leaderboard, and round matrix now use the 2026-06-24 composite score: graph-weighted base score plus full graph-stability recheck. r6 Doubao is adjusted from 100 to 88.8 due to severe graph motion.
 
 ### Fixed
+- CI frontend builds no longer render `/test` leaderboard PNGs when `STAGE_TEST=skip`; production rendering now scrolls each export target into view and waits for the logo image to load before screenshotting.
 - `/test` leaderboard image downloads now fetch a manifest-versioned, cache-busted PNG on every click, so exported images follow the current public ranking instead of an older cached file.
 - Substack importer now falls back to the local Chrome CDP proxy when direct requests are blocked by Cloudflare challenges.
 - Article 093 source filename normalized so generated article metadata no longer picks up the `_副本` suffix during deployment.
