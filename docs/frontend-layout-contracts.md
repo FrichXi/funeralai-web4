@@ -5,9 +5,12 @@
 ## TL;DR
 
 - Do not touch `scripts/`, `data/`, `web-data/`, or `pipeline.toml` for frontend maintainability work.
+- Check `docs/frontend-refactor-checkpoint.md` before large visual refactors and keep content/data refreshes separate from UI work.
+- Use `docs/frontend-refactor-readiness.md` and `python3 scripts/frontend_refactor_readiness.py` before article typography or benchmark expansion work.
 - Page shells own width, gutters, grids, sticky/fixed placement, and cross-section alignment.
 - Feature components own internal layout only.
 - Primitives may style themselves, but must not silently decide page-level layout.
+- Shared colors and visual constants live in `site/src/lib/visual-tokens.ts`; graph semantic colors still flow through `constants.ts`.
 - `--navbar-height` is the only navbar height source of truth.
 - Keep current visuals unchanged unless a task explicitly asks for redesign.
 
@@ -30,6 +33,8 @@ Examples:
 
 - `LeaderboardPageClient`: leaderboard title/table alignment
 - `GraphClient`: graph canvas + sidebar split
+- `ArticleBody`: markdown component mapping and article-reading internals
+- `/test` components/scripts: benchmark-era presentation and export internals
 
 ### Primitive
 
@@ -39,6 +44,13 @@ Must not silently own viewport math, page centering, sticky/fixed placement, or 
 If a primitive needs layout behavior, expose it as an explicit prop or variant.
 
 ## Shared Layout Contracts
+
+### Visual tokens
+
+- Use `site/src/lib/visual-tokens.ts` for shared brand, semantic, leaderboard, test-page, and theme-transition color constants.
+- Keep graph data semantics in `NODE_TYPE_REGISTRY` and `RELATION_STYLES`; those registries may import token values, but feature components should not duplicate the same hex maps.
+- If a visual decision applies to more than one feature, add a named token or local visual config module instead of another page-level `text-[#...]` / `bg-[#...]` cluster.
+- Feature-local decorative maps may live beside the feature, as in `components/leaderboard/leaderboard-visuals.ts`, when moving them into global tokens would mix business-specific presentation with shared design primitives.
 
 ### Navbar height
 
@@ -84,14 +96,19 @@ Do not hide page-level layout behavior inside a primitive default.
 
 ## Refactor Checklist
 
-1. Verify whether the change is page-shell, feature-layout, or primitive-level.
-2. If it affects alignment across sections, implement it at page or feature level.
-3. If a primitive needs new layout behavior, add an explicit prop/variant instead of changing hidden defaults.
-4. Reuse `PageContainer` and `StatusScreen` before adding another one-off shell.
-5. Keep current visuals unchanged unless the task explicitly requests a redesign.
+1. Read `docs/frontend-refactor-checkpoint.md` and confirm the work is not mixing article/data refreshes with UI changes.
+2. Run `python3 scripts/frontend_refactor_readiness.py` when the change touches article typography, `/articles`, `/test`, benchmark staging, or benchmark exports.
+3. Verify whether the change is page-shell, feature-layout, primitive-level, or visual-token work.
+4. If it affects alignment across sections, implement it at page or feature level.
+5. If a primitive needs new layout behavior, add an explicit prop/variant instead of changing hidden defaults.
+6. Reuse `PageContainer` and `StatusScreen` before adding another one-off shell.
+7. Keep current visuals unchanged unless the task explicitly requests a redesign.
 
 ## Validation
 
+- `bash scripts/doctor_repo.sh --profile site-ui --ci`
+- `python3 scripts/frontend_refactor_readiness.py`
+- `pytest tests/ -q`
 - `npm run build`
 - `npm run test`
-- manual check of `/`, `/leaderboard`, `/articles`, and `/graph`
+- manual check of `/`, `/leaderboard`, `/articles`, `/articles/001`, `/graph`, `/graph?focus=<known-node-id>`, `/test`, and `/test/methodology`

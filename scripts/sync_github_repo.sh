@@ -71,6 +71,7 @@ test_benchmark_paths=(
   "AGENTS.md"
   "README.md"
   "CHANGELOG.md"
+  "docs"
   "site/benchmark.local.example.json"
   "site/package.json"
   "site/package-lock.json"
@@ -96,6 +97,7 @@ site_ui_paths=(
   "AGENTS.md"
   "README.md"
   "CHANGELOG.md"
+  "docs"
   "site/package.json"
   "site/package-lock.json"
   "site/prebuild.sh"
@@ -105,7 +107,9 @@ site_ui_paths=(
   "scripts/check_no_secrets.py"
   "scripts/deploy_site.sh"
   "scripts/doctor_repo.sh"
+  "scripts/frontend_refactor_readiness.py"
   "scripts/sync_github_repo.sh"
+  "tests"
 )
 
 allowed_paths=()

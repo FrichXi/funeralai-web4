@@ -60,6 +60,13 @@ export function cn(...inputs: ClassValue[]) {
 - **紫色品牌色**：所有强调元素用 `#7351cf`，辅以粉色/珊瑚色点缀
 - **HSL CSS 变量**：所有颜色通过 CSS 变量定义，Tailwind 消费，方便全局替换
 
+### 当前实现入口
+
+- `site/src/app/globals.css`：全站 CSS 变量、基础字体、day/night 主题覆盖。
+- `site/src/lib/visual-tokens.ts`：品牌色、图谱语义色、榜单色、测试页浅色系、主题转场色的 TS token 层。
+- `site/src/lib/constants.ts`：图谱节点类型和关系类型 registry；它可以消费 visual tokens，但仍是图谱语义色对外入口。
+- Feature-local 视觉配置可放在 feature 目录，例如 `components/leaderboard/leaderboard-visuals.ts`；不要把业务专用赞助榜主题塞进通用 primitive。
+
 ### CSS 变量（globals.css :root）
 
 ```css
@@ -505,7 +512,8 @@ border-y-4, border-x-4 像素边框
 7. **创建 8-bit 组件**：按第 3 节的像素边框模式，包装 shadcn 基础组件
 8. **添加 retro.css**：第 2 节的 `.retro` 和 `.pixelated` 工具类
 9. **创建 `lib/utils.ts`**：`cn()` 函数
-10. **按需换色**：修改 `--primary`、`--ring`、`--accent`、`dropShadow.brand` 的色值
+10. **创建视觉 token 层**：把跨组件复用的品牌/语义/榜单/浅色页颜色集中到 `lib/visual-tokens.ts`
+11. **按需换色**：修改 `--primary`、`--ring`、`--accent`、`dropShadow.brand`，再同步 token 层里的命名色值
 
 ---
 

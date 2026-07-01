@@ -1,5 +1,12 @@
 'use client';
 
+import { useEffect, useRef, useState } from 'react';
+import {
+  CelestialThemeTransition,
+  type CelestialTransitionDirection,
+  CELESTIAL_THEME_SWAP_MS,
+  CELESTIAL_TRANSITION_DURATION_MS,
+} from '@/components/theme/CelestialThemeTransition';
 import { useTheme } from '@/components/theme/ThemeProvider';
 
 const SUN_PIXELS = [
@@ -56,20 +63,61 @@ function PixelCelestialIcon({ activeTheme }: { activeTheme: 'night' | 'day' }) {
 }
 
 export function ThemeToggle() {
-  const { theme, toggleTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
+  const [transitionDirection, setTransitionDirection] =
+    useState<CelestialTransitionDirection | null>(null);
+  const swapTimeoutRef = useRef<number | null>(null);
+  const endTimeoutRef = useRef<number | null>(null);
   const isDay = theme === 'day';
 
+  useEffect(() => {
+    return () => {
+      if (swapTimeoutRef.current !== null) {
+        window.clearTimeout(swapTimeoutRef.current);
+      }
+      if (endTimeoutRef.current !== null) {
+        window.clearTimeout(endTimeoutRef.current);
+      }
+    };
+  }, []);
+
+  function handleToggle() {
+    if (transitionDirection !== null) {
+      return;
+    }
+
+    const nextTheme = isDay ? 'night' : 'day';
+
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setTheme(nextTheme);
+      return;
+    }
+
+    setTransitionDirection(nextTheme === 'day' ? 'to-day' : 'to-night');
+    swapTimeoutRef.current = window.setTimeout(() => {
+      setTheme(nextTheme);
+    }, CELESTIAL_THEME_SWAP_MS);
+    endTimeoutRef.current = window.setTimeout(() => {
+      setTransitionDirection(null);
+      swapTimeoutRef.current = null;
+      endTimeoutRef.current = null;
+    }, CELESTIAL_TRANSITION_DURATION_MS);
+  }
+
   return (
-    <button
-      type="button"
-      aria-label={isDay ? '切换夜晚模式' : '切换白天模式'}
-      aria-pressed={isDay}
-      title={isDay ? '切换夜晚模式' : '切换白天模式'}
-      onClick={toggleTheme}
-      className="inline-flex h-8 w-8 shrink-0 items-center justify-center border border-border bg-background text-primary transition-colors hover:border-primary hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
-    >
-      <PixelCelestialIcon activeTheme={theme} />
-    </button>
+    <>
+      <button
+        type="button"
+        aria-label={isDay ? '切换夜晚模式' : '切换白天模式'}
+        aria-pressed={isDay}
+        title={isDay ? '切换夜晚模式' : '切换白天模式'}
+        onClick={handleToggle}
+        disabled={transitionDirection !== null}
+        className="inline-flex h-8 w-8 shrink-0 items-center justify-center border border-border bg-background text-primary transition-colors hover:border-primary hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+      >
+        <PixelCelestialIcon activeTheme={theme} />
+      </button>
+      {transitionDirection ? <CelestialThemeTransition direction={transitionDirection} /> : null}
+    </>
   );
 }
-

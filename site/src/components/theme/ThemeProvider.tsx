@@ -3,16 +3,18 @@
 import {
   createContext,
   type ReactNode,
+  useCallback,
   useContext,
   useEffect,
   useMemo,
   useState,
 } from 'react';
 
-type SiteTheme = 'night' | 'day';
+export type SiteTheme = 'night' | 'day';
 
 interface ThemeContextValue {
   theme: SiteTheme;
+  setTheme: (theme: SiteTheme) => void;
   toggleTheme: () => void;
 }
 
@@ -36,11 +38,22 @@ function storedTheme() {
 }
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setTheme] = useState<SiteTheme>('night');
+  const [theme, setThemeState] = useState<SiteTheme>('night');
+
+  const setTheme = useCallback((nextTheme: SiteTheme) => {
+    setThemeState(nextTheme);
+    applyTheme(nextTheme);
+
+    try {
+      window.localStorage.setItem(THEME_STORAGE_KEY, nextTheme);
+    } catch {
+      // Theme still changes for the current page even when storage is unavailable.
+    }
+  }, []);
 
   useEffect(() => {
     const initialTheme = storedTheme();
-    setTheme(initialTheme);
+    setThemeState(initialTheme);
     applyTheme(initialTheme);
 
     function handleStorage(event: StorageEvent) {
@@ -49,7 +62,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
       }
 
       const nextTheme = event.newValue === 'day' ? 'day' : 'night';
-      setTheme(nextTheme);
+      setThemeState(nextTheme);
       applyTheme(nextTheme);
     }
 
@@ -60,22 +73,10 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   const value = useMemo<ThemeContextValue>(
     () => ({
       theme,
-      toggleTheme: () => {
-        setTheme((currentTheme) => {
-          const nextTheme = currentTheme === 'day' ? 'night' : 'day';
-          applyTheme(nextTheme);
-
-          try {
-            window.localStorage.setItem(THEME_STORAGE_KEY, nextTheme);
-          } catch {
-            // Theme still changes for the current page even when storage is unavailable.
-          }
-
-          return nextTheme;
-        });
-      },
+      setTheme,
+      toggleTheme: () => setTheme(theme === 'day' ? 'night' : 'day'),
     }),
-    [theme]
+    [setTheme, theme]
   );
 
   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
@@ -90,4 +91,3 @@ export function useTheme() {
 
   return context;
 }
-

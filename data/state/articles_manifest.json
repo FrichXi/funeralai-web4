@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-24T16:21:09Z",
+  "updatedAt": "2026-07-01T16:17:50Z",
   "pipeline": {
     "extractor": "gemini",
     "model": "gemini-3.1-pro-preview",
@@ -2161,6 +2161,66 @@
       "artifact_path": "data/extracted/108.json",
       "raw_path": "data/gemini_raw/108.json",
       "extracted_at": "2026-06-23T06:31:10Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "109": {
+      "article_id": "109",
+      "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+      "title": "智谱与Anthropic是母凭子贵",
+      "date": "2026-06-23",
+      "author": "沐秋",
+      "content_hash": "92e7dee80cc25238f5a5343c1e19c190e9c9d21ef25013fdba6d300f2c40e62d",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/109.json",
+      "raw_path": "data/gemini_raw/109.json",
+      "extracted_at": "2026-06-29T13:21:10Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "110": {
+      "article_id": "110",
+      "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+      "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+      "date": "2026-06-24",
+      "author": "葬爱咸鱼",
+      "content_hash": "85e6b806fad3e6a437c8702063fff500d95cd25ae53d373f8597e204f7d27288",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/110.json",
+      "raw_path": "data/gemini_raw/110.json",
+      "extracted_at": "2026-06-29T13:21:10Z",
+      "last_error": null,
+      "extractor": {
+        "name": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "111": {
+      "article_id": "111",
+      "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+      "title": "用豆包办公得坐小孩那桌",
+      "date": "2026-06-25",
+      "author": "骡子马",
+      "content_hash": "04fad5b5ff5c753951e6d52ba1662d1bca5c3d5c7b02a8a1a4295b11cbf2cb02",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/111.json",
+      "raw_path": "data/gemini_raw/111.json",
+      "extracted_at": "2026-06-29T13:21:10Z",
       "last_error": null,
       "extractor": {
         "name": "gemini",

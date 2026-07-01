@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import { ThemeProvider } from '@/components/theme/ThemeProvider';
 import './globals.css';
+import '@/components/theme/celestial-theme-transition.css';
 
 const geistMono = localFont({
   src: './fonts/GeistMonoVF.woff',

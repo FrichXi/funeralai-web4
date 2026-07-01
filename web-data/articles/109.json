@@ -1,0 +1,536 @@
+{
+  "id": "109",
+  "title": "智谱与Anthropic是母凭子贵",
+  "date": "2026-06-23",
+  "author": "沐秋",
+  "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+  "permalink": "/articles/109",
+  "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+  "raw_markdown": "# 智谱与Anthropic是母凭子贵\n\n2026年6月23日 沐秋 葬AI\n\n---\n\n「把GLM5.2往死里测」\n\nAnthropic增加绿卡认证后，最开心是智谱，直接原地化身战狼，高呼「前沿智能属于所有人」，提前把专注Coding的GLM5.2发了。\n\n除了刷一波国产品牌好感度外，还精准狙击了同样在最近发布的Kimi 2.7 code。\n\n只能说Kimi 2.7 code还是发早了，不然高低能跟GLM5.2一起当国产双子星😭\n\n不过话又说回来，虽然Anthropic是个畜生，但智谱能有今天的万亿市值。Anthropic是最大功臣。\n\n首先是Claude不当人，Claude Code刚火没多久就开始疯狂封号，我用了Claude Code两天就给我干没了。\n\n但广大人民群众又有用上先进Claude Code的客观需求，于是Claude Code+国产模型的特色用法应用而生。\n\n那一波里面发力最狠的是智谱市场。因为我刷到的博主全在推荐Claude Code+智谱GLM Coding Plan。\n\n智谱还专门整了一句话（npx @z_ai/coding-helper）直接配置。两边一起发力，爽吃Claude Code退出中国的大部分流量。\n\n甚至到现在，智谱官方支持的Coding Agent工具里，排名第一的还是Claude Code。大伙公认能发挥GLM 5.2能力的也是Claude Code。\n你的文字还爱他😭\n\n反观Minimax/Kimi与阶跃，虽然理论上可以用类似的配置，但几乎没声量。而且大伙配置完就很难有动力去换新的。\n\n不过我认为在智谱Coding Plan疯狂限购的今天，Kimi仍有开蹭Claude Code的空间。\n\n另一个神来之笔是，智谱在推出GLM-5 时开创性地发明了在Openrouter用匿名模型打榜的全新营销方式。\n\n首先是在OpenRouter上线了名为「Pony Alpha」的模型，完全免费可用，性能牛逼，还整了一堆中推博主去猜是谁。\n\n大伙就配合说，哎呀，到底是DeepSeek-V4？还是Grok 4.2呢？\n\n最后由智谱亲自揭晓谜底，营造一种「我操竟然是GLM-5，而且编程能力接近Claude Opus 4.5」的戏剧效果。\n\n我都看到有人说这是「中国AI的两弹一星时刻」了。\n\n在智谱以后，还有小米搞的「Hunter Alpha」模型、蚂蚁搞的「大象」模型，炒作套路和智谱没区别，都是先说「卧槽有新模型，国外网友都说好用」。DeepSeek-V4要发了？\n\n等热度高到一定程度，小米和蚂蚁再出来说，别猜了，就是我。\n\n这个套路还有继续迭代，Kimi、Minimax、阶跃，有一个算一个，一发新模型就喜欢在OpenRouter上整免费调用量，刷OpenRouter登顶的嘉豪故事。\n\n中国大模型直接赢麻了。\n\n类似的炒作方式用一次还可以，但老搞匿名模型吸引大伙注意力是一种非常坏的行为。下次整点新活吧。\n\n我还记得上市之前，智谱有7成收入来自为企业做本地部署大模型系统，所以大伙都知道它是To B、To G大模型，当时市场明显更看好有C端收入的Minimax。（当然现在Minimax的C端故事也讲不下去了，我们之后再来复盘Minimax）\n\n上一篇写Kimi提到过「杨圣和模型版本共存亡，版本重回模型层了，Kimi也如同满月一样照耀AI行业🌕」\n\n其实智谱也一样。唐杰年初发内部信说要全面回归基础模型研究，并以Coding作为突破口。接着我们就看到，过去半年，编程牛逼了，于是智谱也牛逼了。\n\n而在走多模态和C端产品的Minimax在模型能力上是显著弱于这两家的。\n\n反观智谱的多模态和产品虽然一坨，什么AutoGLM、AutoClaw、智谱清言、智谱清影、写作蛙，全是路边，甚至我到最近才知道智谱有自己的编程客户端Z Code。\n\n但只要能卡到国内编程模型第一的身位，产品爱咋折腾咋折腾。\n\n不知道是不是智谱给国内用户的信心太足了，有些人不知道是串还是啥，都开始发「智谱把OpenAI 和 Claude打到没法IPO」，「Claude、OpenAI 迎来了智谱斩杀线」。\n\n还有人问智谱是啥公司，底下直接回他，「Anthropic母公司。」怪不得Anthropic这么牛逼，原来是「母凭子贵」。\n\n还有什么「载入史册！智谱突然发布核弹GLM-5.2引爆AI圈，Anthropic慌忙下架Fable 5暂避锋芒！」看完我直接瘫软在地。\n\n我看来Anthropic是有点怕智谱的。\n\n扯了那么多淡，智谱GLM-5.2到底啥水平，虽然在葬AI基准测试里拿下过第一，但那是AI操纵跑的程序，它被人用的真实编程水平到底如何呢？\n\n我和工程师凯一再次一起往死里测了下。\n\n由于我不爱打分，主打直观对比，所以同样的任务选择和K2.7 Code相比较。\n\nK2.7 Code模型使用的测试环境（Harness）是 Kimi Code Cli，GLM-5.2 使用的测试环境（Harness）是 Opencode，均不安装任何 Skill，完全让模型 + Harness 自己发挥。\n\n第一个任务，我先找了篇介绍鹅腿阿姨时间的公众号文章给它，让他阅读一下当前目录下的 PDF文件，根据事件并且发动想象力制作一个可交互游戏，禁止做成纯文字交互游戏。\n\n首先，K2.7 Code让我扮演阿姨卖鸭腿，GLM-5.2让我扮演清北学子揭露阿姨邪恶面目，已经高下立判了。\n\nKimi 做的游戏是让我控制一个阿姨在页面上走来走去，躲避监管并且尽可能多地卖给他们鸭腿，中规中矩。\n\nGLM则做了一个阿姨在天上发鸭腿和毒鸭腿，我在下面接的游戏。游戏逻辑有严重 BUG，我得吃 15 个毒鸭腿才能过关。\n\n但吃一个鸭腿就掉一条命，而我只有三条命，虽然 GLM 让我伸张正义，但 GLM 给我的生命力只能让我殉道。\n\n正义迟到了。\n\n另外，冲刺或是用键盘控制走路也做不到，一用键盘人物就会有重影，显然键盘和鼠标在左右脑互搏。\n\n我还想考考两个模型对风格的理解能力，于是让他俩给游戏做成像素风，并且添加一些玩法。\n\n这一环自由发挥后就逐渐有问题了，正好直接开始考验他俩修Bug 的水平。\n\n这是Kimi一轮修复的结果，美术有魂斗罗的感觉，可惜游戏做的一坨，完全不知所云：\n\n而GLM修复完直接给我干外太空去了，而且还加入了技能选择环节，但屏幕不断乱晃的问题仍然没有解决：\n\n只能说在有更多指令后，GLM和Kimi逐渐拉开了差距。\n\n那我们接着给指令：根据这个故事，改成黑暗之魂 like 的游戏。除此之外没给任何提示，就让模型自己思考对黑暗之魂的理解。\n\nKimi做的让人难以看懂，也不知该如何评价：\n\nGLM 做的凑合能看了，魂该有的要素比 Kimi 多，还有对话剧情。不过游戏 Bug 也多。\n\n综合来讲还是GLM 更胜一筹。\n\nhtml或多或少有点炒作了，我让他们用正儿八经的像素游戏制作工具尝试一下。\n\n指挥模型用Godot 4（做像素游戏的常见引擎）做技术展示加上Python 生图，结果发现做出来的东西都运行不了。\n\n看来两家模型都没有使用游戏引擎的知识，即使能用Python生图，也没法放进引擎里。\n\n我又让他们去做张雪峰快跑。\n\n首先Kimi就没理解我在说什么，做了个躲避作业怪，跟我说的收集雪糕的主题完全不同。\n\n而且游戏也完全没法玩，跑 5 秒就会卡住，可能又犯了让人难以知道玩法的老毛病\n\nGLM 的视觉更好一点，同时还实现了跳远和蹲下躲避等元素。\n\n我们还找了 Codex 教练进来打样。只能说Codex还是真神，因为哥们底线最低的。\n\nKimi和GLM都怕版权问题没找巧乐兹和张雪峰图片，即使我强烈要求，他们也不去。但Codex真把神请回来了，同时游戏还原度也是最高的。\n\n最后忘不了我们的爱冕环节。\n\n我让他们仨去调研一下市面上的视频Agent产品，其中重点关注LibTV，尽自己所能做一款类似LibTV的视频Agent。\n\n实现下还是GLM完胜，甚至比Codex还要好。\n\n当然他们三个都没有实现完整功能，都只画了个 UI，得接入API才能实现生图功能。\n\n先看Kimi做的，不懂哥们在干嘛，毫无学习和参考。真用你肯定完蛋了。\n\nCodex 做的也有一股老人味儿。好处是理解了LibTV的本质是一句话生成短剧。\n\n最后看了GLM做的我直接跪下了。有剧本框、有分镜版，还分了五宫格，甚至连新版本的Agent模式都搞来了，调研能力碾压大部分产品经理。\n\n仔细看，左上角还发明了一个叫LibNano V3的生图模型，非常符合人设。\n\n如果当时有GLM，整个TapNow完全就顺手的事儿。\n\n只能说LibTV+GLM5.2可能要统治世界了。\n当然，如果你不能像冕一样统治世界，那也可以来统治我们的网吧黑客松，多吃几桶泡面葬AI给你办加冕典礼。\n\n（本文封面由ChatGPT 生成，纯人工写作）\n",
+  "body_markdown": "# 智谱与Anthropic是母凭子贵\n\n2026年6月23日 沐秋 葬AI\n\n---\n\n「把GLM5.2往死里测」\n\nAnthropic增加绿卡认证后，最开心是智谱，直接原地化身战狼，高呼「前沿智能属于所有人」，提前把专注Coding的GLM5.2发了。\n\n除了刷一波国产品牌好感度外，还精准狙击了同样在最近发布的Kimi 2.7 code。\n\n只能说Kimi 2.7 code还是发早了，不然高低能跟GLM5.2一起当国产双子星😭\n\n不过话又说回来，虽然Anthropic是个畜生，但智谱能有今天的万亿市值。Anthropic是最大功臣。\n\n首先是Claude不当人，Claude Code刚火没多久就开始疯狂封号，我用了Claude Code两天就给我干没了。\n\n但广大人民群众又有用上先进Claude Code的客观需求，于是Claude Code+国产模型的特色用法应用而生。\n\n那一波里面发力最狠的是智谱市场。因为我刷到的博主全在推荐Claude Code+智谱GLM Coding Plan。\n\n智谱还专门整了一句话（npx @z_ai/coding-helper）直接配置。两边一起发力，爽吃Claude Code退出中国的大部分流量。\n\n甚至到现在，智谱官方支持的Coding Agent工具里，排名第一的还是Claude Code。大伙公认能发挥GLM 5.2能力的也是Claude Code。\n你的文字还爱他😭\n\n反观Minimax/Kimi与阶跃，虽然理论上可以用类似的配置，但几乎没声量。而且大伙配置完就很难有动力去换新的。\n\n不过我认为在智谱Coding Plan疯狂限购的今天，Kimi仍有开蹭Claude Code的空间。\n\n另一个神来之笔是，智谱在推出GLM-5 时开创性地发明了在Openrouter用匿名模型打榜的全新营销方式。\n\n首先是在OpenRouter上线了名为「Pony Alpha」的模型，完全免费可用，性能牛逼，还整了一堆中推博主去猜是谁。\n\n大伙就配合说，哎呀，到底是DeepSeek-V4？还是Grok 4.2呢？\n\n最后由智谱亲自揭晓谜底，营造一种「我操竟然是GLM-5，而且编程能力接近Claude Opus 4.5」的戏剧效果。\n\n我都看到有人说这是「中国AI的两弹一星时刻」了。\n\n在智谱以后，还有小米搞的「Hunter Alpha」模型、蚂蚁搞的「大象」模型，炒作套路和智谱没区别，都是先说「卧槽有新模型，国外网友都说好用」。DeepSeek-V4要发了？\n\n等热度高到一定程度，小米和蚂蚁再出来说，别猜了，就是我。\n\n这个套路还有继续迭代，Kimi、Minimax、阶跃，有一个算一个，一发新模型就喜欢在OpenRouter上整免费调用量，刷OpenRouter登顶的嘉豪故事。\n\n中国大模型直接赢麻了。\n\n类似的炒作方式用一次还可以，但老搞匿名模型吸引大伙注意力是一种非常坏的行为。下次整点新活吧。\n\n我还记得上市之前，智谱有7成收入来自为企业做本地部署大模型系统，所以大伙都知道它是To B、To G大模型，当时市场明显更看好有C端收入的Minimax。（当然现在Minimax的C端故事也讲不下去了，我们之后再来复盘Minimax）\n\n上一篇写Kimi提到过「杨圣和模型版本共存亡，版本重回模型层了，Kimi也如同满月一样照耀AI行业🌕」\n\n其实智谱也一样。唐杰年初发内部信说要全面回归基础模型研究，并以Coding作为突破口。接着我们就看到，过去半年，编程牛逼了，于是智谱也牛逼了。\n\n而在走多模态和C端产品的Minimax在模型能力上是显著弱于这两家的。\n\n反观智谱的多模态和产品虽然一坨，什么AutoGLM、AutoClaw、智谱清言、智谱清影、写作蛙，全是路边，甚至我到最近才知道智谱有自己的编程客户端Z Code。\n\n但只要能卡到国内编程模型第一的身位，产品爱咋折腾咋折腾。\n\n不知道是不是智谱给国内用户的信心太足了，有些人不知道是串还是啥，都开始发「智谱把OpenAI 和 Claude打到没法IPO」，「Claude、OpenAI 迎来了智谱斩杀线」。\n\n还有人问智谱是啥公司，底下直接回他，「Anthropic母公司。」怪不得Anthropic这么牛逼，原来是「母凭子贵」。\n\n还有什么「载入史册！智谱突然发布核弹GLM-5.2引爆AI圈，Anthropic慌忙下架Fable 5暂避锋芒！」看完我直接瘫软在地。\n\n我看来Anthropic是有点怕智谱的。\n\n扯了那么多淡，智谱GLM-5.2到底啥水平，虽然在葬AI基准测试里拿下过第一，但那是AI操纵跑的程序，它被人用的真实编程水平到底如何呢？\n\n我和工程师凯一再次一起往死里测了下。\n\n由于我不爱打分，主打直观对比，所以同样的任务选择和K2.7 Code相比较。\n\nK2.7 Code模型使用的测试环境（Harness）是 Kimi Code Cli，GLM-5.2 使用的测试环境（Harness）是 Opencode，均不安装任何 Skill，完全让模型 + Harness 自己发挥。\n\n第一个任务，我先找了篇介绍鹅腿阿姨时间的公众号文章给它，让他阅读一下当前目录下的 PDF文件，根据事件并且发动想象力制作一个可交互游戏，禁止做成纯文字交互游戏。\n\n首先，K2.7 Code让我扮演阿姨卖鸭腿，GLM-5.2让我扮演清北学子揭露阿姨邪恶面目，已经高下立判了。\n\nKimi 做的游戏是让我控制一个阿姨在页面上走来走去，躲避监管并且尽可能多地卖给他们鸭腿，中规中矩。\n\nGLM则做了一个阿姨在天上发鸭腿和毒鸭腿，我在下面接的游戏。游戏逻辑有严重 BUG，我得吃 15 个毒鸭腿才能过关。\n\n但吃一个鸭腿就掉一条命，而我只有三条命，虽然 GLM 让我伸张正义，但 GLM 给我的生命力只能让我殉道。\n\n正义迟到了。\n\n另外，冲刺或是用键盘控制走路也做不到，一用键盘人物就会有重影，显然键盘和鼠标在左右脑互搏。\n\n我还想考考两个模型对风格的理解能力，于是让他俩给游戏做成像素风，并且添加一些玩法。\n\n这一环自由发挥后就逐渐有问题了，正好直接开始考验他俩修Bug 的水平。\n\n这是Kimi一轮修复的结果，美术有魂斗罗的感觉，可惜游戏做的一坨，完全不知所云：\n\n而GLM修复完直接给我干外太空去了，而且还加入了技能选择环节，但屏幕不断乱晃的问题仍然没有解决：\n\n只能说在有更多指令后，GLM和Kimi逐渐拉开了差距。\n\n那我们接着给指令：根据这个故事，改成黑暗之魂 like 的游戏。除此之外没给任何提示，就让模型自己思考对黑暗之魂的理解。\n\nKimi做的让人难以看懂，也不知该如何评价：\n\nGLM 做的凑合能看了，魂该有的要素比 Kimi 多，还有对话剧情。不过游戏 Bug 也多。\n\n综合来讲还是GLM 更胜一筹。\n\nhtml或多或少有点炒作了，我让他们用正儿八经的像素游戏制作工具尝试一下。\n\n指挥模型用Godot 4（做像素游戏的常见引擎）做技术展示加上Python 生图，结果发现做出来的东西都运行不了。\n\n看来两家模型都没有使用游戏引擎的知识，即使能用Python生图，也没法放进引擎里。\n\n我又让他们去做张雪峰快跑。\n\n首先Kimi就没理解我在说什么，做了个躲避作业怪，跟我说的收集雪糕的主题完全不同。\n\n而且游戏也完全没法玩，跑 5 秒就会卡住，可能又犯了让人难以知道玩法的老毛病\n\nGLM 的视觉更好一点，同时还实现了跳远和蹲下躲避等元素。\n\n我们还找了 Codex 教练进来打样。只能说Codex还是真神，因为哥们底线最低的。\n\nKimi和GLM都怕版权问题没找巧乐兹和张雪峰图片，即使我强烈要求，他们也不去。但Codex真把神请回来了，同时游戏还原度也是最高的。\n\n最后忘不了我们的爱冕环节。\n\n我让他们仨去调研一下市面上的视频Agent产品，其中重点关注LibTV，尽自己所能做一款类似LibTV的视频Agent。\n\n实现下还是GLM完胜，甚至比Codex还要好。\n\n当然他们三个都没有实现完整功能，都只画了个 UI，得接入API才能实现生图功能。\n\n先看Kimi做的，不懂哥们在干嘛，毫无学习和参考。真用你肯定完蛋了。\n\nCodex 做的也有一股老人味儿。好处是理解了LibTV的本质是一句话生成短剧。\n\n最后看了GLM做的我直接跪下了。有剧本框、有分镜版，还分了五宫格，甚至连新版本的Agent模式都搞来了，调研能力碾压大部分产品经理。\n\n仔细看，左上角还发明了一个叫LibNano V3的生图模型，非常符合人设。\n\n如果当时有GLM，整个TapNow完全就顺手的事儿。\n\n只能说LibTV+GLM5.2可能要统治世界了。\n当然，如果你不能像冕一样统治世界，那也可以来统治我们的网吧黑客松，多吃几桶泡面葬AI给你办加冕典礼。\n\n（本文封面由ChatGPT 生成，纯人工写作）",
+  "excerpt": "# 智谱与Anthropic是母凭子贵 2026年6月23日 沐秋 葬AI --- 「把GLM5.2往死里测」 Anthropic增加绿卡认证后，最开心是智谱，直接原地化身战狼，高呼「前沿智能属于所有人」，提前把专注Coding的GLM5.2发了。 除了刷一波国产品牌好感度外，还精准狙击了同样在最近发布的Kimi 2.7 code。 只能说Kimi 2.7 code还是发早了，不然高低能跟GLM5.2一起当国产双子星😭 不过话又说...",
+  "entity_count": 23,
+  "relationship_count": 24,
+  "entities": [
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "国内AI大模型公司，为Cherry Studio提供免费API支持",
+      "mention_count": 26,
+      "aliases": [
+        "智谱",
+        "智谱清言"
+      ],
+      "tags": [
+        "To B",
+        "To G",
+        "基础模型",
+        "Coding"
+      ]
+    },
+    {
+      "id": "glm",
+      "name": "GLM",
+      "type": "product",
+      "description": "智谱开发的大模型系列，在评测中得分第一",
+      "mention_count": 20,
+      "aliases": [
+        "GLM 5.2",
+        "GLM-5",
+        "GLM-5.2",
+        "GLM5.2"
+      ],
+      "tags": [
+        "Coding",
+        "基础模型"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "具有长上下文能力的大语言模型，文中被用作Claude Code的后端调用模型",
+      "mention_count": 16,
+      "aliases": [
+        "K2",
+        "K2.7 Code",
+        "K2.7-code",
+        "Kimi 2.7 code",
+        "Kimi Code",
+        "Kimi K2",
+        "Kimi K2.7-code",
+        "k2"
+      ],
+      "tags": [
+        "C端",
+        "Coding"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "由Anthropic开发的AI编程工具，被广泛用作套壳应用的底层引擎",
+      "mention_count": 13,
+      "aliases": [
+        "CC",
+        "CC SDK",
+        "Claude 3.5 Sonnet",
+        "Claude Code",
+        "Claude Opus 4.5",
+        "Claude Opus 4.8",
+        "Claude Sonnet 3.5",
+        "Claude Sonnet 4.0",
+        "Claude code",
+        "Claude code SDK",
+        "Opus",
+        "Opus 4.6",
+        "Opus 4.8",
+        "cc",
+        "沐秋"
+      ],
+      "tags": [
+        "Coding Agent"
+      ]
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "type": "company",
+      "description": "Claude及Claude Code背后的AI开发公司",
+      "mention_count": 8,
+      "aliases": [
+        "A畜"
+      ],
+      "tags": [
+        "前沿模型"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内AI公司，其设立付费墙的商业行为被性压抑AI作为案例进行了解构分析。",
+      "mention_count": 6,
+      "aliases": [
+        "MinMax",
+        "Minimax"
+      ],
+      "tags": [
+        "多模态",
+        "C端"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "现成的AI Agent产品，可用于驱动HyperFrames",
+      "mention_count": 5,
+      "aliases": [
+        "Codex SDK",
+        "codex",
+        "骡子马"
+      ],
+      "tags": [
+        "代码辅助"
+      ]
+    },
+    {
+      "id": "libtv",
+      "name": "LibTV",
+      "type": "product",
+      "description": "Lovart推出的AI视频生成新产品，其功能和界面高度模仿TapNow。",
+      "mention_count": 4,
+      "aliases": [
+        "Libtv",
+        "爱冕TV"
+      ],
+      "tags": [
+        "视频Agent",
+        "短剧"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "AI大模型公司，其爆火为Cherry Studio带来大量流量",
+      "mention_count": 2,
+      "aliases": [
+        "DS",
+        "DS V4 pro",
+        "DeepSeek-V4",
+        "Deepseek",
+        "Deepseek V4"
+      ],
+      "tags": []
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "type": "company",
+      "description": "开创AI潮流的伟大企业，开发了ChatGPT",
+      "mention_count": 2,
+      "aliases": [
+        "O社"
+      ],
+      "tags": []
+    },
+    {
+      "id": "小米",
+      "name": "小米",
+      "type": "company",
+      "description": "科技公司，推出了匿名测试模型",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "蚂蚁集团",
+      "name": "蚂蚁集团",
+      "type": "company",
+      "description": "中国互联网巨头，开发了AI应用灵光。",
+      "mention_count": 2,
+      "aliases": [
+        "支付宝",
+        "蚂蚁",
+        "蚂蚁战投",
+        "蚂蚁投资",
+        "蚂蚁金服",
+        "蚂蚁集团投资部"
+      ],
+      "tags": []
+    },
+    {
+      "id": "阶跃星辰",
+      "name": "阶跃星辰",
+      "type": "company",
+      "description": "AI四小虎之一，近期B+轮融资超50亿元，走软硬件一体闭环路线的大模型公司",
+      "mention_count": 2,
+      "aliases": [
+        "阶跃"
+      ],
+      "tags": []
+    },
+    {
+      "id": "autoclaw",
+      "name": "AutoClaw",
+      "type": "product",
+      "description": "智谱推出的多模态或AI产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "autoglm",
+      "name": "AutoGLM",
+      "type": "product",
+      "description": "智谱开发的AI Agent产品，可以通过自然语言让AI代为操作手机APP",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "hunter-alpha",
+      "name": "Hunter Alpha",
+      "type": "product",
+      "description": "小米推出的匿名测试模型",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "匿名模型"
+      ]
+    },
+    {
+      "id": "pony-alpha",
+      "name": "Pony Alpha",
+      "type": "product",
+      "description": "智谱在OpenRouter上用于匿名打榜测试的模型别名",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "匿名模型"
+      ]
+    },
+    {
+      "id": "z-code",
+      "name": "Z Code",
+      "type": "product",
+      "description": "智谱自有的编程客户端",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "客户端"
+      ]
+    },
+    {
+      "id": "写作蛙",
+      "name": "写作蛙",
+      "type": "product",
+      "description": "智谱推出的AI写作辅助工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "唐杰",
+      "name": "唐杰",
+      "type": "person",
+      "description": "被提议出任假想合并公司“胖虎AI”的董事长",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "大象",
+      "name": "大象",
+      "type": "product",
+      "description": "蚂蚁推出的匿名测试模型",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "匿名模型"
+      ]
+    },
+    {
+      "id": "智谱清影",
+      "name": "智谱清影",
+      "type": "product",
+      "description": "智谱推出的AI视频生成等多模态产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "杨植麟",
+      "name": "杨植麟",
+      "type": "person",
+      "description": "Kimi高管，发布全员信强调公司融资金额充裕",
+      "mention_count": 1,
+      "aliases": [
+        "杨圣"
+      ],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "anthropic",
+      "target_id": "智谱ai",
+      "source": "Anthropic",
+      "target": "智谱AI",
+      "relation_type": "compares_to",
+      "label": "文章调侃因为Anthropic给智谱带来了巨大流量收益，智谱仿佛成了Anthropic的“母公司”（母凭子贵）",
+      "weight": 1
+    },
+    {
+      "source_id": "claude",
+      "target_id": "glm",
+      "source": "Claude",
+      "target": "GLM",
+      "relation_type": "compares_to",
+      "label": "GLM-5在匿名打榜时展现出接近Claude的编程能力",
+      "weight": 1
+    },
+    {
+      "source_id": "anthropic",
+      "target_id": "智谱ai",
+      "source": "Anthropic",
+      "target": "智谱AI",
+      "relation_type": "competes_with",
+      "label": "智谱在编码等能力上与Anthropic竞争，并试图吃下其退出国内带来的流量",
+      "weight": 1
+    },
+    {
+      "source_id": "codex",
+      "target_id": "glm",
+      "source": "Codex",
+      "target": "GLM",
+      "relation_type": "competes_with",
+      "label": "在游戏代码编写和需求还原测试中，与Codex进行同台竞技对比",
+      "weight": 1
+    },
+    {
+      "source_id": "codex",
+      "target_id": "kimi",
+      "source": "Codex",
+      "target": "Kimi",
+      "relation_type": "competes_with",
+      "label": "在游戏代码编写测试中与Codex进行了对比",
+      "weight": 1
+    },
+    {
+      "source_id": "glm",
+      "target_id": "kimi",
+      "source": "GLM",
+      "target": "Kimi",
+      "relation_type": "competes_with",
+      "label": "GLM5.2在编程能力评估中被视作专门狙击Kimi的产品",
+      "weight": 1
+    },
+    {
+      "source_id": "minimax",
+      "target_id": "智谱ai",
+      "source": "MiniMax",
+      "target": "智谱AI",
+      "relation_type": "competes_with",
+      "label": "智谱与Minimax在AI模型商业化与能力上互为竞品并被市场对比",
+      "weight": 1
+    },
+    {
+      "source_id": "openai",
+      "target_id": "智谱ai",
+      "source": "OpenAI",
+      "target": "智谱AI",
+      "relation_type": "competes_with",
+      "label": "网络评论称智谱在模型能力上严重威胁OpenAI",
+      "weight": 1
+    },
+    {
+      "source_id": "智谱ai",
+      "target_id": "阶跃星辰",
+      "source": "智谱AI",
+      "target": "阶跃星辰",
+      "relation_type": "competes_with",
+      "label": "智谱与阶跃等国内公司同为大模型竞争对手",
+      "weight": 1
+    },
+    {
+      "source_id": "anthropic",
+      "target_id": "claude",
+      "source": "Anthropic",
+      "target": "Claude",
+      "relation_type": "develops",
+      "label": "Anthropic研发了Claude大模型",
+      "weight": 2
+    },
+    {
+      "source_id": "小米",
+      "target_id": "hunter-alpha",
+      "source": "小米",
+      "target": "Hunter Alpha",
+      "relation_type": "develops",
+      "label": "小米上线了名为Hunter Alpha的匿名模型",
+      "weight": 1
+    },
+    {
+      "source_id": "智谱ai",
+      "target_id": "autoclaw",
+      "source": "智谱AI",
+      "target": "AutoClaw",
+      "relation_type": "develops",
+      "label": "智谱研发的产品",
+      "weight": 1
+    },
+    {
+      "source_id": "智谱ai",
+      "target_id": "autoglm",
+      "source": "智谱AI",
+      "target": "AutoGLM",
+      "relation_type": "develops",
+      "label": "智谱研发的C端/多模态产品",
+      "weight": 1
+    },
+    {
+      "source_id": "智谱ai",
+      "target_id": "glm",
+      "source": "智谱AI",
+      "target": "GLM",
+      "relation_type": "develops",
+      "label": "智谱研发了GLM模型",
+      "weight": 1
+    },
+    {
+      "source_id": "智谱ai",
+      "target_id": "pony-alpha",
+      "source": "智谱AI",
+      "target": "Pony Alpha",
+      "relation_type": "develops",
+      "label": "智谱在OpenRouter上以Pony Alpha之名发布匿名模型",
+      "weight": 1
+    },
+    {
+      "source_id": "智谱ai",
+      "target_id": "z-code",
+      "source": "智谱AI",
+      "target": "Z Code",
+      "relation_type": "develops",
+      "label": "智谱开发的编程客户端",
+      "weight": 1
+    },
+    {
+      "source_id": "智谱ai",
+      "target_id": "写作蛙",
+      "source": "智谱AI",
+      "target": "写作蛙",
+      "relation_type": "develops",
+      "label": "智谱研发的写作产品",
+      "weight": 1
+    },
+    {
+      "source_id": "智谱ai",
+      "target_id": "智谱清影",
+      "source": "智谱AI",
+      "target": "智谱清影",
+      "relation_type": "develops",
+      "label": "智谱研发的生成产品",
+      "weight": 1
+    },
+    {
+      "source_id": "蚂蚁集团",
+      "target_id": "大象",
+      "source": "蚂蚁集团",
+      "target": "大象",
+      "relation_type": "develops",
+      "label": "蚂蚁上线了名为大象的匿名模型",
+      "weight": 1
+    },
+    {
+      "source_id": "claude",
+      "target_id": "glm",
+      "source": "Claude",
+      "target": "GLM",
+      "relation_type": "integrates_with",
+      "label": "大量博主推荐及官方支持将Claude Code工具结合GLM API作为特色配置方案",
+      "weight": 1
+    },
+    {
+      "source_id": "glm",
+      "target_id": "libtv",
+      "source": "GLM",
+      "target": "LibTV",
+      "relation_type": "integrates_with",
+      "label": "文末评价利用GLM结合LibTV这种Agent应用有极强的生产力",
+      "weight": 1
+    },
+    {
+      "source_id": "glm",
+      "target_id": "pony-alpha",
+      "source": "GLM",
+      "target": "Pony Alpha",
+      "relation_type": "related",
+      "label": "Pony Alpha是GLM-5在海外评测平台上用于匿名测试的马甲名称",
+      "weight": 1
+    },
+    {
+      "source_id": "唐杰",
+      "target_id": "智谱ai",
+      "source": "唐杰",
+      "target": "智谱AI",
+      "relation_type": "works_at",
+      "label": "唐杰在智谱发内部信决定公司战略方向",
+      "weight": 1
+    },
+    {
+      "source_id": "杨植麟",
+      "target_id": "kimi",
+      "source": "杨植麟",
+      "target": "Kimi",
+      "relation_type": "works_on",
+      "label": "杨圣被指与Kimi模型版本共存亡",
+      "weight": 1
+    }
+  ]
+}

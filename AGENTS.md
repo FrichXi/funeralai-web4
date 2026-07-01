@@ -1,10 +1,10 @@
 # 葬AI 知识图谱分析站点
 
-> Last verified: 2026-05-21
+> Last verified: 2026-07-01
 
 ## 项目概述
 
-为中文 AI 行业评论媒体"葬AI"搭建公开知识图谱分析站点。93 篇文章（编号 001-093）经 Gemini 提取实体与关系，聚合为知识图谱（具体节点/边数量见 `web-data/graph-view.json`）。纯静态部署，无后端。
+为中文 AI 行业评论媒体"葬AI"搭建公开知识图谱分析站点。111 篇文章（编号 001-111）经 Gemini 提取实体与关系，聚合为知识图谱（具体节点/边数量见 `web-data/graph-view.json`）。纯静态部署，无后端。
 
 ## 品牌风格
 
@@ -36,9 +36,13 @@
 ├── CHANGELOG.md                       # 变更日志
 ├── docs/
 │   ├── frontend-layout-contracts.md   # 前端布局规则
+│   ├── frontend-refactor-checkpoint.md # 前端大重构前工作区基线
+│   ├── frontend-refactor-readiness.md # 文章排版/benchmark 改造前检查
+│   ├── kg-holistic-review-099-111.md  # 099-111 图谱整体复核记录
+│   ├── ui-design-system.md            # 8-bit 视觉系统说明
 │   └── data-formats.md               # 数据 JSON 格式定义
 │
-├── articles/                          # 原始 Markdown 文章（001-093）
+├── articles/                          # 原始 Markdown 文章（001-111）
 ├── data/
 │   ├── extracted/{id}.json            # Gemini 提取结果（每篇文章）
 │   ├── graph/
@@ -54,7 +58,7 @@
 │   ├── graph-view.json                # 主图谱数据（nodes + links）
 │   ├── article-index.json             # 文章索引（含 count 包装）
 │   ├── leaderboards.json              # 4 个分类排行榜
-│   └── articles/{id}.json             # 单篇文章详情（001-093，含 body_markdown）
+│   └── articles/{id}.json             # 单篇文章详情（001-111，含 body_markdown）
 │
 ├── scripts/                           # 提取 + 后处理 + 构建管线（Python）
 │   ├── extract_gemini.py              # Gemini API 提取（支持多 key 轮询）
@@ -67,6 +71,7 @@
 │   ├── overrides.py                   # 声明式后处理规则（纯数据）
 │   ├── post_process.py                # 后处理执行引擎
 │   ├── build_presentation.py          # 前端数据生成 → web-data/
+│   ├── frontend_refactor_readiness.py # 前端重构前只读体检报告
 │   ├── enrich_graph.py                # (legacy) 旧后处理脚本，待移除
 │   └── sync_github_repo.sh            # 将文章/图谱/公开统计安全提交并推送到 GitHub
 │
@@ -98,13 +103,15 @@
         │       │   ├── layout.tsx     # 宽度包装 + Footer
         │       │   ├── page.tsx       # 文章列表 + CollectionPage JSON-LD
         │       │   └── [id]/page.tsx  # 文章详情（SSG）+ Article JSON-LD
-        │       └── leaderboard/
-        │           └── page.tsx       # 排行榜 + ItemList JSON-LD
+        │       ├── leaderboard/
+        │       │   └── page.tsx       # 排行榜 + ItemList JSON-LD
+        │       └── test/              # Web4 rebuild benchmark 展示页
         ├── components/
         │   ├── layout/                # Navbar, Footer, PageContainer, StatusScreen
         │   ├── graph/                 # GraphCanvas, GraphControls, GraphLegend, EntityDrawer
         │   ├── leaderboard/           # LeaderboardPageClient, LeaderboardTabs, LeaderboardSidebar
         │   ├── article/               # ArticleList, ArticleBody, EntityTag
+        │   ├── theme/                 # ThemeProvider + celestial transition
         │   └── ui/                    # 通用 UI 原语（8bit 像素风 + shadcn 基础组件）
         ├── hooks/
         │   ├── useGraphData.ts        # 图谱数据加载（fetch + error/retry）
@@ -114,6 +121,7 @@
             ├── data.ts                # 数据加载工具（SSG 构建时用）
             ├── graph-config.ts        # Cytoscape 样式/布局配置/纯函数
             ├── constants.ts           # NODE_TYPE_REGISTRY、RELATION_STYLES 映射
+            ├── visual-tokens.ts       # 前端品牌/语义/榜单/测试页视觉 token
             └── utils.ts               # 通用工具函数（cn 等）
 ```
 
@@ -242,7 +250,8 @@ acquires, co_founded, collaborates_with, compares_to, competes_with, criticizes,
 部署脚本定义见 `site/package.json`：
 - `scripts/deploy_site.sh --profile release`: 只允许从 `/Users/xixiangyu/Documents/葬AI Web4` 发布，先运行 `doctor_repo.sh`、`python3 -m scripts.run_pipeline build` 和 `python3 scripts/kg_review_gate.py`，再以 `STAGE_TEST=required` 构建并上传 Cloudflare Pages。
 - `npm run deploy`: 从 `site/` 目录委托给 `scripts/deploy_site.sh --profile release`。
-- `npm run deploy:raw`: 保留原始 wrangler 命令，仅在确认代理环境不会干扰 Cloudflare 认证时使用
+- `npm run deploy:raw`: 保留原始 wrangler 命令，仅用于非 production 的临时排障；不得从它发布正式域名。
+- **production 硬规则**: 不得从 `/Users/xixiangyu/Documents/cc写作/qwen/append-*`、detached HEAD、复制出来的 `web4-*` 目录或任何非 canonical root 执行 Cloudflare production 部署。也不得直接运行 `wrangler pages deploy ... --branch main` 绕过 `doctor_repo.sh`。正式发布只能在 `/Users/xixiangyu/Documents/葬AI Web4/site` 运行 `npm run deploy`，并确认 deploy summary 里 `main articles` 是当前线上应有数量。
 - GitHub 同步：部署成功后，根据事务类型使用 `./scripts/sync_github_repo.sh --profile content|test-benchmark|site-ui|release "<commit message>"`。该脚本只允许提交 profile 范围内的文件；若工作区还有无关改动，会直接阻断，避免把本地实验性改动一起推上 GitHub。
 
 ### 工作事务 profile
@@ -289,8 +298,12 @@ acquires, co_founded, collaborates_with, compares_to, competes_with, criticizes,
 - 页面壳管 `max-width`、gutter、grid、sticky/fixed、跨区块对齐
 - feature 组件只管本功能内部布局
 - primitive 如需影响布局，必须暴露显式 prop/variant
+- 共享视觉常量优先放在 `site/src/lib/visual-tokens.ts`；图谱节点/关系语义色仍通过 `constants.ts` 的 registry 暴露
 - `--navbar-height` 是导航高度唯一来源
 - 排行榜对齐规则以该文档为准，不要再用嵌套 `justify-center` 拼凑
+- 大规模视觉重构前先看 `docs/frontend-refactor-checkpoint.md`，不要把文章导入、图谱数据刷新和 UI 重构混在一个事务里
+- 文章排版规范或 benchmark 扩展前先跑 `python3 scripts/frontend_refactor_readiness.py --strict`；需要核对线上状态时加 `--live`，发布/云端就绪检查用 `--release-strict`，并参考 `docs/frontend-refactor-readiness.md`
+- 文章排版主入口是 `ArticleBody.tsx` + `build_presentation.py` 的 `body_markdown`；benchmark 主入口是 `/test` routes + `site/scripts/stage-test-sites.mjs`
 
 ## 提取管线
 

@@ -1,0 +1,453 @@
+{
+  "id": "110",
+  "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+  "date": "2026-06-24",
+  "author": "葬爱咸鱼",
+  "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+  "permalink": "/articles/110",
+  "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+  "raw_markdown": "# 葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力\n\n2026年6月24日 葬爱咸鱼 葬AI\n\n---\n\n豆包产品无敌，但Seed模型一直不温不火，大伙对它的印象就两个：\n\n工资高，隔三差五就有千万年包上亿年包新闻，也不知道真假；多模态，但编程能力不太行。\n\n以至于你豆姐被戏称为糖包，甚至成了一个形容词。Gemini拉了，你们叫它北美大豆包。Grok更拉，你们居然说这是北美二豆包。\n\n真是岂有此理！岂不闻君忧臣劳君辱臣死之理乎！豆姐卫士何在？\n\n所以我们有理由相信，Seed模型团队有充足动力憋个大的，不求像Seedance那样放大卫星，至少要将文本模型赶上国内一线水平。\n\n这次Seed 2.1 Pro发布，特别强调了编程和长任务执行的能力，宣传口号是终于能胜任Agent工作的模型，还号称补上了Coding的拼图。\n\n事实果真如此吗？\n\n为了客观体现Seed 2.1 Pro的编程水平，我用它重跑了一遍葬AI基准测试。让我用最直白、不绕弯的方式，不卖关子，一次性给你模型能力榜单⬇️\n\n结果令人震惊。Seed 2.1 Pro的得分和MiniMax M3差不多，略低于Kimi 2.7 Code ，相比国模第一GLM 5.2更是有明显差距。\n\n这次增加测试了Seed 2.1 Pro和Step 3.7 Flash两个新模型。\n\n测试方法依然是，每个模型跑10轮，每轮独立的Opencode会话，输入同一个执行方案，来重构美丽的葬AI网站（funeralai.cc）。由Codex来调度和打分，用加权平均分排序。\n\n葬AI网站上有测试模型的全部产物，8x10一共80个，大伙可以自己直观感受每个模型的差距。\n\nSeed 2.1 Pro的问题主要出在，很难一次性生成好的结果，工程能力不太稳定。\n\n这导致了Seed的模型调用数比较高，跑完测试任务的调用数为449次，远高于GLM 5.2（321）、Qwen 3.7 Max（218），和Step 3.7 Flash（443）一个水平，仅次于全场调用数最高的MiniMax M3（653）。\n\n体现在生成结果上，Seed 2.1 Pro的产出物很不稳定。\n\nSeed的高分很高，产出了3个高分，但低分更低，波动显著，拉低了总得分。比如下图就是一个高分产物，知识图谱清晰可交互。\n\n主要扣分点是，Seed生成不明白知识图谱，这种相对复杂的前端任务，Seed在10次里失败了6次。比如下图就是一个典型的低分产物，知识图谱是空的。\n\n另一个大问题是，Seed 2.1 Pro的生成速度太慢了。\n\n跑完测试任务耗时128.9分钟，仅次于MiniMax M3（153.9分钟），远高于于全场最快的DeepSeek V4 Pro（46.7分钟），和比较快的Qwen 3.7 Max（53.3分钟）、Step 3.7 Flash（57.4分钟）、GLM 5.2（69.7分钟）。\n\n生成速度慢的原因，可能是Seed的长程任务执行能力不太行。\n\n这其实是符合豆包自己发布的榜单的。\n\n经过凯一的提醒，我发现原来字节自己跑的测试也反映了这个问题。这两个 Bench 对长程任务 plan 能力的评估比较有代表性，豆包也没藏着掖着，确实不够SOTA。\n\n坦诚清晰，符合字节价值观👍\n\n凯一对Seed 2.1 Pro评分的解释是，「Seed 通用能力其实好一点，不是 Coding 专精，如果测深度调研，数据爬取，在浏览器里点点点，可能 Seed 就比 GLM 好，GLM 是 Coding 专精。」\n\n不过，现在模型厂全都在卷编程，Seed这次更新也主打任务执行和编程能力。还是让我们回到这次编程测试上。\n\n一共10轮测试任务，Seed 2.1 Pro干出来了8个无效进程，有效产物命中率等于55.6%。依旧远高于GLM 5.2的3个无效，Kimi的2个无效和Step一个无效，其他模型没有失败进程。\n\n调用次数高、任务失败较多，导致了Seed 2.1 Pro的成本也较高，跑完测试任务一共花了41.3元，依旧仅次于Opus 4.8（202.5 元）和Kimi K2.7 Code（164.6 元），远高于DS、Qwen、Minimax都在20元左右的成本，和GLM 5.2成本一致。\n\n所以，在没有任何折扣，直接从火山引擎官网调用的情况下，Seed 2.1 Pro做编程任务的性价比显著不高。\n\n为了直观感受这些模型的完成任务速度、花费和调用数，我也做了一个葬AI基准测试性价比榜。\n\n让大伙除了认识到最强模型之外，也能给予高性价比模型一点关心❤️\n\n其中可以看出，阶跃的Step 3.7 Flash模型特别让我惊喜。它的能力得分比DeepSeek V4 Pro高，成本花费居然比DS还便宜，跑完测试任务只花了11.2元，连注册账号送的15块钱都没用完。\n\n所以在加权了调用数、耗时这些维度后，Step 3.7 Flash是所有模型中的性价比第三名。\n\n性价比榜还非常直观地展示出了一条危险线，就是不仅存在Deepseek斩杀线，也有Claude斩杀线。\n\n性价比低于梁圣很正常，但性价比低于Claude就非常危险。而MiniMax M3、Kimi 2.7 Code 、Seed 2.1 Pro这三个模型的性价比指数都低于Opus 4.8了。\n\n要努力啊，Kimi、MiniMax和Seed的家人们，一定要努力逃逸平庸的重力💪\n\n我是相信Seed的，因为从未听说过Seed蒸馏，国产之光靠你了。\n\n最后声明一下，葬AI基准测试依然没有接受任何人的赞助。\n\n这是相对客观的编程能力的评测。两个榜单和所有测试产物都可以在葬AI网站阅读详细版：\n\nfuneralai.cc/test\n\n关于Seed模型，明天还有一篇骡子马写的主观评测，看看Seed 2.1 Pro多模态啥的到底行不行。力争主客观结合，帮助家人把每个模型整明白🫰\n\n（本文封面由ChatGPT生成，纯人工写作）\n",
+  "body_markdown": "# 葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力\n\n2026年6月24日 葬爱咸鱼 葬AI\n\n---\n\n豆包产品无敌，但Seed模型一直不温不火，大伙对它的印象就两个：\n\n工资高，隔三差五就有千万年包上亿年包新闻，也不知道真假；多模态，但编程能力不太行。\n\n以至于你豆姐被戏称为糖包，甚至成了一个形容词。Gemini拉了，你们叫它北美大豆包。Grok更拉，你们居然说这是北美二豆包。\n\n真是岂有此理！岂不闻君忧臣劳君辱臣死之理乎！豆姐卫士何在？\n\n所以我们有理由相信，Seed模型团队有充足动力憋个大的，不求像Seedance那样放大卫星，至少要将文本模型赶上国内一线水平。\n\n这次Seed 2.1 Pro发布，特别强调了编程和长任务执行的能力，宣传口号是终于能胜任Agent工作的模型，还号称补上了Coding的拼图。\n\n事实果真如此吗？\n\n为了客观体现Seed 2.1 Pro的编程水平，我用它重跑了一遍葬AI基准测试。让我用最直白、不绕弯的方式，不卖关子，一次性给你模型能力榜单⬇️\n\n结果令人震惊。Seed 2.1 Pro的得分和MiniMax M3差不多，略低于Kimi 2.7 Code ，相比国模第一GLM 5.2更是有明显差距。\n\n这次增加测试了Seed 2.1 Pro和Step 3.7 Flash两个新模型。\n\n测试方法依然是，每个模型跑10轮，每轮独立的Opencode会话，输入同一个执行方案，来重构美丽的葬AI网站（funeralai.cc）。由Codex来调度和打分，用加权平均分排序。\n\n葬AI网站上有测试模型的全部产物，8x10一共80个，大伙可以自己直观感受每个模型的差距。\n\nSeed 2.1 Pro的问题主要出在，很难一次性生成好的结果，工程能力不太稳定。\n\n这导致了Seed的模型调用数比较高，跑完测试任务的调用数为449次，远高于GLM 5.2（321）、Qwen 3.7 Max（218），和Step 3.7 Flash（443）一个水平，仅次于全场调用数最高的MiniMax M3（653）。\n\n体现在生成结果上，Seed 2.1 Pro的产出物很不稳定。\n\nSeed的高分很高，产出了3个高分，但低分更低，波动显著，拉低了总得分。比如下图就是一个高分产物，知识图谱清晰可交互。\n\n主要扣分点是，Seed生成不明白知识图谱，这种相对复杂的前端任务，Seed在10次里失败了6次。比如下图就是一个典型的低分产物，知识图谱是空的。\n\n另一个大问题是，Seed 2.1 Pro的生成速度太慢了。\n\n跑完测试任务耗时128.9分钟，仅次于MiniMax M3（153.9分钟），远高于于全场最快的DeepSeek V4 Pro（46.7分钟），和比较快的Qwen 3.7 Max（53.3分钟）、Step 3.7 Flash（57.4分钟）、GLM 5.2（69.7分钟）。\n\n生成速度慢的原因，可能是Seed的长程任务执行能力不太行。\n\n这其实是符合豆包自己发布的榜单的。\n\n经过凯一的提醒，我发现原来字节自己跑的测试也反映了这个问题。这两个 Bench 对长程任务 plan 能力的评估比较有代表性，豆包也没藏着掖着，确实不够SOTA。\n\n坦诚清晰，符合字节价值观👍\n\n凯一对Seed 2.1 Pro评分的解释是，「Seed 通用能力其实好一点，不是 Coding 专精，如果测深度调研，数据爬取，在浏览器里点点点，可能 Seed 就比 GLM 好，GLM 是 Coding 专精。」\n\n不过，现在模型厂全都在卷编程，Seed这次更新也主打任务执行和编程能力。还是让我们回到这次编程测试上。\n\n一共10轮测试任务，Seed 2.1 Pro干出来了8个无效进程，有效产物命中率等于55.6%。依旧远高于GLM 5.2的3个无效，Kimi的2个无效和Step一个无效，其他模型没有失败进程。\n\n调用次数高、任务失败较多，导致了Seed 2.1 Pro的成本也较高，跑完测试任务一共花了41.3元，依旧仅次于Opus 4.8（202.5 元）和Kimi K2.7 Code（164.6 元），远高于DS、Qwen、Minimax都在20元左右的成本，和GLM 5.2成本一致。\n\n所以，在没有任何折扣，直接从火山引擎官网调用的情况下，Seed 2.1 Pro做编程任务的性价比显著不高。\n\n为了直观感受这些模型的完成任务速度、花费和调用数，我也做了一个葬AI基准测试性价比榜。\n\n让大伙除了认识到最强模型之外，也能给予高性价比模型一点关心❤️\n\n其中可以看出，阶跃的Step 3.7 Flash模型特别让我惊喜。它的能力得分比DeepSeek V4 Pro高，成本花费居然比DS还便宜，跑完测试任务只花了11.2元，连注册账号送的15块钱都没用完。\n\n所以在加权了调用数、耗时这些维度后，Step 3.7 Flash是所有模型中的性价比第三名。\n\n性价比榜还非常直观地展示出了一条危险线，就是不仅存在Deepseek斩杀线，也有Claude斩杀线。\n\n性价比低于梁圣很正常，但性价比低于Claude就非常危险。而MiniMax M3、Kimi 2.7 Code 、Seed 2.1 Pro这三个模型的性价比指数都低于Opus 4.8了。\n\n要努力啊，Kimi、MiniMax和Seed的家人们，一定要努力逃逸平庸的重力💪\n\n我是相信Seed的，因为从未听说过Seed蒸馏，国产之光靠你了。\n\n最后声明一下，葬AI基准测试依然没有接受任何人的赞助。\n\n这是相对客观的编程能力的评测。两个榜单和所有测试产物都可以在葬AI网站阅读详细版：\n\nfuneralai.cc/test\n\n关于Seed模型，明天还有一篇骡子马写的主观评测，看看Seed 2.1 Pro多模态啥的到底行不行。力争主客观结合，帮助家人把每个模型整明白🫰\n\n（本文封面由ChatGPT生成，纯人工写作）",
+  "excerpt": "# 葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力 2026年6月24日 葬爱咸鱼 葬AI --- 豆包产品无敌，但Seed模型一直不温不火，大伙对它的印象就两个： 工资高，隔三差五就有千万年包上亿年包新闻，也不知道真假；多模态，但编程能力不太行。 以至于你豆姐被戏称为糖包，甚至成了一个形容词。Gemini拉了，你们叫它北美大豆包。Grok更拉，你们居然说这是北美二豆包。 真是岂有此理！岂不闻君忧臣劳君辱臣死之理乎...",
+  "entity_count": 16,
+  "relationship_count": 18,
+  "entities": [
+    {
+      "id": "seed",
+      "name": "Seed",
+      "type": "product",
+      "description": "字节跳动自研的底层AI大模型系列，支撑豆包等应用",
+      "mention_count": 28,
+      "aliases": [
+        "Doubao-Seed-2.0-pro",
+        "Doubao-Seed-2.1-pro",
+        "Seed 2.1",
+        "Seed 2.1 pro",
+        "Seed模型",
+        "Seed系列"
+      ],
+      "tags": [
+        "大模型",
+        "长程任务",
+        "编程能力"
+      ]
+    },
+    {
+      "id": "glm",
+      "name": "GLM",
+      "type": "product",
+      "description": "智谱开发的大模型系列，在评测中得分第一",
+      "mention_count": 7,
+      "aliases": [
+        "GLM 5.2",
+        "GLM-5",
+        "GLM-5.2",
+        "GLM5.2"
+      ],
+      "tags": [
+        "大模型",
+        "Coding专精"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内AI公司，其设立付费墙的商业行为被性压抑AI作为案例进行了解构分析。",
+      "mention_count": 6,
+      "aliases": [
+        "MinMax",
+        "Minimax"
+      ],
+      "tags": [
+        "AI公司"
+      ]
+    },
+    {
+      "id": "step",
+      "name": "Step",
+      "type": "product",
+      "description": "阶跃公司开发的大模型，性价比表现优秀",
+      "mention_count": 6,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "具有长上下文能力的大语言模型，文中被用作Claude Code的后端调用模型",
+      "mention_count": 5,
+      "aliases": [
+        "K2",
+        "K2.7 Code",
+        "K2.7-code",
+        "Kimi 2.7 code",
+        "Kimi Code",
+        "Kimi K2",
+        "Kimi K2.7-code",
+        "k2"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "抖音旗下/字节系的AI大模型产品，也是《豆包AI赚钱手册》的核心探讨对象",
+      "mention_count": 5,
+      "aliases": [
+        "糖包",
+        "豆包App",
+        "豆包专业版",
+        "豆姐"
+      ],
+      "tags": [
+        "AI助手",
+        "多模态"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "AI大模型公司，其爆火为Cherry Studio带来大量流量",
+      "mention_count": 3,
+      "aliases": [
+        "DS",
+        "DS V4 pro",
+        "DeepSeek-V4",
+        "Deepseek",
+        "Deepseek V4"
+      ],
+      "tags": [
+        "AI公司",
+        "价格战发起者"
+      ]
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "阿里开发的大模型系列，被评为全场工程能力最稳定的模型",
+      "mention_count": 3,
+      "aliases": [
+        "Qwen 3",
+        "Qwen 3.7",
+        "Qwen 3.7 Max",
+        "Qwen 3.7 plus",
+        "Qwen image",
+        "Qwen-Max",
+        "任务助手",
+        "千问",
+        "千问APP",
+        "千问任务助理",
+        "通义",
+        "通义APP",
+        "通义千问",
+        "通义大模型",
+        "阿里通义"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "由Anthropic开发的AI编程工具，被广泛用作套壳应用的底层引擎",
+      "mention_count": 2,
+      "aliases": [
+        "CC",
+        "CC SDK",
+        "Claude 3.5 Sonnet",
+        "Claude Code",
+        "Claude Opus 4.5",
+        "Claude Opus 4.8",
+        "Claude Sonnet 3.5",
+        "Claude Sonnet 4.0",
+        "Claude code",
+        "Claude code SDK",
+        "Opus",
+        "Opus 4.6",
+        "Opus 4.8",
+        "cc",
+        "沐秋"
+      ],
+      "tags": [
+        "大模型",
+        "性价比标杆"
+      ]
+    },
+    {
+      "id": "kaiyi",
+      "name": "kaiyi",
+      "type": "person",
+      "description": "做过AI浏览器的工程师，Manus前身浏览器的资深开发",
+      "mention_count": 2,
+      "aliases": [
+        "凯一",
+        "孙先生",
+        "鹤岗凯一"
+      ],
+      "tags": [
+        "知情人"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "中国互联网科技公司，开发了抖音、即梦等产品，文中探讨了其通过AI视频模型实现社交的布局。",
+      "mention_count": 2,
+      "aliases": [
+        "头条",
+        "字节",
+        "字节家族",
+        "字节系",
+        "宇宙厂",
+        "老东家"
+      ],
+      "tags": [
+        "大厂",
+        "科技公司"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "type": "product",
+      "description": "AI大模型产品，文中被用于与EVE对比图像细节识别能力",
+      "mention_count": 1,
+      "aliases": [
+        "Gemini 2.5 Pro",
+        "Gemini 3.5 Flash",
+        "北美大豆包"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "type": "product",
+      "description": "xAI开发的大型语言模型，被戏称为北美二豆包",
+      "mention_count": 1,
+      "aliases": [
+        "北美二豆包"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "梁圣",
+      "name": "梁圣",
+      "type": "person",
+      "description": "指代DeepSeek创始人梁文锋，在文中被用作极致性价比的比喻标杆",
+      "mention_count": 1,
+      "aliases": [
+        "梁文锋"
+      ],
+      "tags": [
+        "行业标杆"
+      ]
+    },
+    {
+      "id": "火山引擎",
+      "name": "火山引擎",
+      "type": "company",
+      "description": "字节跳动旗下的云服务平台，接管了扣子团队并开源了Coze Studio。",
+      "mention_count": 1,
+      "aliases": [
+        "火山"
+      ],
+      "tags": [
+        "云平台"
+      ]
+    },
+    {
+      "id": "阶跃星辰",
+      "name": "阶跃星辰",
+      "type": "company",
+      "description": "AI四小虎之一，近期B+轮融资超50亿元，走软硬件一体闭环路线的大模型公司",
+      "mention_count": 1,
+      "aliases": [
+        "阶跃"
+      ],
+      "tags": [
+        "AI初创"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "claude",
+      "target_id": "kimi",
+      "source": "Claude",
+      "target": "Kimi",
+      "relation_type": "compares_to",
+      "label": "Kimi的性价比指数跌破了Claude（Opus）斩杀线",
+      "weight": 1
+    },
+    {
+      "source_id": "claude",
+      "target_id": "seed",
+      "source": "Claude",
+      "target": "Seed",
+      "relation_type": "compares_to",
+      "label": "Seed的性价比指数跌破了Claude（Opus）斩杀线",
+      "weight": 1
+    },
+    {
+      "source_id": "gemini",
+      "target_id": "豆包",
+      "source": "Gemini",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "label": "Gemini表现不佳，被戏称为“北美大豆包”",
+      "weight": 1
+    },
+    {
+      "source_id": "grok",
+      "target_id": "豆包",
+      "source": "Grok",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "label": "Grok表现更差，被戏称为“北美二豆包”",
+      "weight": 1
+    },
+    {
+      "source_id": "kimi",
+      "target_id": "梁圣",
+      "source": "Kimi",
+      "target": "梁圣",
+      "relation_type": "compares_to",
+      "label": "Kimi的性价比被用来与代表极致性价比的‘梁圣’进行对比，处于斩杀线以下",
+      "weight": 1
+    },
+    {
+      "source_id": "seed",
+      "target_id": "梁圣",
+      "source": "Seed",
+      "target": "梁圣",
+      "relation_type": "compares_to",
+      "label": "Seed模型的性价比被用来与代表极致性价比的‘梁圣’进行对比，处于斩杀线以下",
+      "weight": 1
+    },
+    {
+      "source_id": "glm",
+      "target_id": "seed",
+      "source": "GLM",
+      "target": "Seed",
+      "relation_type": "competes_with",
+      "label": "两者在编程基准测试中同台竞技且被多处对比",
+      "weight": 1
+    },
+    {
+      "source_id": "kimi",
+      "target_id": "seed",
+      "source": "Kimi",
+      "target": "Seed",
+      "relation_type": "competes_with",
+      "label": "同为参加基准测试的竞品模型",
+      "weight": 1
+    },
+    {
+      "source_id": "qwen",
+      "target_id": "seed",
+      "source": "Qwen",
+      "target": "Seed",
+      "relation_type": "competes_with",
+      "label": "同为参加基准测试的竞品模型",
+      "weight": 1
+    },
+    {
+      "source_id": "seed",
+      "target_id": "step",
+      "source": "Seed",
+      "target": "Step",
+      "relation_type": "competes_with",
+      "label": "同为参加基准测试的竞品模型",
+      "weight": 1
+    },
+    {
+      "source_id": "字节跳动",
+      "target_id": "seed",
+      "source": "字节跳动",
+      "target": "Seed",
+      "relation_type": "develops",
+      "label": "Seed是字节跳动（豆包团队）开发的大模型",
+      "weight": 1
+    },
+    {
+      "source_id": "字节跳动",
+      "target_id": "火山引擎",
+      "source": "字节跳动",
+      "target": "火山引擎",
+      "relation_type": "develops",
+      "label": "火山引擎是字节跳动旗下的云服务平台",
+      "weight": 1
+    },
+    {
+      "source_id": "字节跳动",
+      "target_id": "豆包",
+      "source": "字节跳动",
+      "target": "豆包",
+      "relation_type": "develops",
+      "label": "豆包是字节跳动旗下的AI产品",
+      "weight": 1
+    },
+    {
+      "source_id": "阶跃星辰",
+      "target_id": "step",
+      "source": "阶跃星辰",
+      "target": "Step",
+      "relation_type": "develops",
+      "label": "文中明确提到“阶跃的Step 3.7 Flash模型”",
+      "weight": 1
+    },
+    {
+      "source_id": "梁圣",
+      "target_id": "deepseek",
+      "source": "梁圣",
+      "target": "DeepSeek",
+      "relation_type": "founder_of",
+      "label": "梁圣（梁文锋）是DeepSeek的创始人，被代指DeepSeek的极致性价比",
+      "weight": 1
+    },
+    {
+      "source_id": "seed",
+      "target_id": "火山引擎",
+      "source": "Seed",
+      "target": "火山引擎",
+      "relation_type": "integrates_with",
+      "label": "Seed模型通过火山引擎官网进行API调用",
+      "weight": 1
+    },
+    {
+      "source_id": "kaiyi",
+      "target_id": "字节跳动",
+      "source": "kaiyi",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "label": "凯一了解字节内部测试数据并为Seed模型解释，推断为内部员工",
+      "weight": 1
+    },
+    {
+      "source_id": "kaiyi",
+      "target_id": "seed",
+      "source": "kaiyi",
+      "target": "Seed",
+      "relation_type": "works_on",
+      "label": "凯一为Seed模型的能力偏好（非Coding专精，擅长通用能力）提供官方视角的解释",
+      "weight": 1
+    }
+  ]
+}

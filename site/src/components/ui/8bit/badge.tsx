@@ -28,6 +28,16 @@ export interface BitButtonProps
   asChild?: boolean;
 }
 
+function isVisualClass(className: string) {
+  const baseClass = className.includes(':') ? className.slice(className.lastIndexOf(':') + 1) : className;
+  return (
+    baseClass.startsWith("bg-") ||
+    baseClass.startsWith("border-") ||
+    baseClass.startsWith("text-") ||
+    baseClass.startsWith("rounded-")
+  );
+}
+
 function Badge({
   children,
   className = "",
@@ -40,24 +50,10 @@ function Badge({
   const classes = className.split(" ");
 
   // visual classes for badge and sidebars
-  const visualClasses = classes.filter(
-    (c) =>
-      c.startsWith("bg-") ||
-      c.startsWith("border-") ||
-      c.startsWith("text-") ||
-      c.startsWith("rounded-")
-  );
+  const visualClasses = classes.filter((c) => isVisualClass(c));
 
   // Container should accept all non-visual utility classes (e.g., size, spacing, layout)
-  const containerClasses = classes.filter(
-    (c) =>
-      !(
-        c.startsWith("bg-") ||
-        c.startsWith("border-") ||
-        c.startsWith("text-") ||
-        c.startsWith("rounded-")
-      )
-  );
+  const containerClasses = classes.filter((c) => !isVisualClass(c));
 
   return (
     <div className={cn("relative inline-flex items-stretch", containerClasses)}>

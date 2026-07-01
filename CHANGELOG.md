@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
+- Holistic KG review record for articles 099-111, with `pipeline.toml` coverage advanced to article 111 after verifying that advisory co-mention candidates do not require new stable overrides.
+- Frontend readiness audit script (`scripts/frontend_refactor_readiness.py`, with optional live-site metadata checks) and documentation for upcoming article typography and multi-benchmark work.
+- Frontend refactor checkpoint (`docs/frontend-refactor-checkpoint.md`) and shared visual token layer (`site/src/lib/visual-tokens.ts`) to separate visual-system work from content/data refreshes.
+- Articles 109-111 imported from Substack: "智谱与Anthropic是母凭子贵" (109), "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力" (110), and "用豆包办公得坐小孩那桌" (111). Incremental pipeline run completed successfully with 23/24, 16/18, and 12/15 entity/relationship counts; public stats updated to 111 articles / 629 entities / 1656 relationships.
 - Repository hygiene guardrails: `doctor_repo.sh`, `deploy_site.sh`, and `check_no_secrets.py` now enforce the canonical deploy root, profile-specific release checks, generated-file tracking checks, and public secret scanning.
 - Articles 107-108 imported from Substack: "网吧黑客松将于杭州风光大办" (107) and "深圳AI硬件特别正常" (108). Incremental pipeline run completed successfully with 4/3 and 12/5 entity/relationship counts; public stats updated to 108 articles / 619 entities / 1602 relationships.
 - Article 106 imported from Substack: "我来给LibTV道喜了" (106). Incremental pipeline run completed successfully with 14 entities and 19 relationships extracted; public stats updated to 106 articles / 609 entities / 1594 relationships.
@@ -12,6 +16,8 @@ All notable changes to this project will be documented in this file.
 - Article 105 imported from Substack: "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8" (105). Incremental pipeline run completed successfully with 16 entities and 15 relationships extracted; public stats updated to 105 articles / 609 entities / 1578 relationships.
 
 ### Changed
+- GitHub sync profiles now include frontend governance docs, readiness checks, and tests so release/site-ui commits can carry the refactor groundwork without bypassing `sync_github_repo.sh`.
+- Frontend visual groundwork now routes shared brand/semantic colors through `visual-tokens.ts`, extracts leaderboard sponsor visuals into a feature-local module, and moves celestial theme-transition CSS out of `globals.css`.
 - CI GitHub Actions now use Node 24-compatible action runtimes (`checkout@v7`, `setup-node@v6`, `setup-python@v6`) and run frontend jobs on Node.js 24.
 - Frontend builds now require an explicit `/test` staging mode: `STAGE_TEST=skip` for clean CI builds, `STAGE_TEST=required` for benchmark updates, with local benchmark paths kept in ignored `site/benchmark.local.json`.
 - `site/public/data/`, `site/public/test/`, and `data/graph/canonical_full.json` are treated as generated artifacts instead of tracked source.

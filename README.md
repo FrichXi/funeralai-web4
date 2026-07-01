@@ -4,9 +4,9 @@
 
 # 葬AI Knowledge Graph / 葬AI 知识图谱
 
-An open-source pipeline that turns a collection of Chinese AI industry commentary articles into an interactive knowledge graph. 108 articles are processed by Gemini to extract entities and relationships, then aggregated into a browsable graph with leaderboards. **619 entities, 1602 relationships** — the most comprehensive Chinese AI industry knowledge graph.
+An open-source pipeline that turns a collection of Chinese AI industry commentary articles into an interactive knowledge graph. 111 articles are processed by Gemini to extract entities and relationships, then aggregated into a browsable graph with leaderboards. **629 entities, 1656 relationships** — the most comprehensive Chinese AI industry knowledge graph.
 
-一个开源的知识图谱管线：将中文 AI 行业评论文章集合转化为可交互的知识图谱可视化站点。108 篇文章经 Gemini 提取实体与关系，聚合为包含排行榜的可浏览图谱。**619 个实体、1602 条关系** — 最全面的中文 AI 行业知识图谱。
+一个开源的知识图谱管线：将中文 AI 行业评论文章集合转化为可交互的知识图谱可视化站点。111 篇文章经 Gemini 提取实体与关系，聚合为包含排行榜的可浏览图谱。**629 个实体、1656 条关系** — 最全面的中文 AI 行业知识图谱。
 
 **Live site / 在线站点**: [funeralai.cc](https://funeralai.cc)
 
@@ -100,7 +100,7 @@ npm run build      # Static export to site/out/
 ## Project Structure / 项目结构
 
 ```
-├── articles/              # Source markdown articles (001-108)
+├── articles/              # Source markdown articles (001-111)
 ├── scripts/               # Python pipeline
 │   ├── run_pipeline.py    # Unified CLI entry point
 │   ├── extract_gemini.py  # Gemini extraction
@@ -168,6 +168,20 @@ Deploy through the guarded wrapper:
 Frontend layout and hidden UI contracts are documented in [`docs/frontend-layout-contracts.md`](docs/frontend-layout-contracts.md).
 
 That document is frontend-only: it covers page shells, navbar offsets, leaderboard alignment, and primitive layout boundaries. It does not change the pipeline or generated data.
+
+Before large article typography or benchmark-page work, run the read-only readiness audit:
+
+```bash
+python3 scripts/frontend_refactor_readiness.py
+# Include live funeralai.cc metadata when cloud-state visibility matters:
+python3 scripts/frontend_refactor_readiness.py --live
+# Fail fast for local frontend-refactor prerequisites:
+python3 scripts/frontend_refactor_readiness.py --strict
+# Fail fast for release/cloud readiness:
+python3 scripts/frontend_refactor_readiness.py --release-strict
+```
+
+The detailed readiness notes live in [`docs/frontend-refactor-readiness.md`](docs/frontend-refactor-readiness.md). They call out the article rendering chain (`body_markdown` → `ArticleBody`) and the benchmark expansion chain (`/test` routes → `stage-test-sites.mjs` → staged manifest/export images).
 
 ## Contributing / 贡献
 
