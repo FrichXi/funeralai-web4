@@ -485,10 +485,10 @@ def _split_sentences(text: str) -> list[str]:
     if not compact:
         return []
 
-    if sentencex_segment is not None:
-        language = "zh" if _CJK_RE.search(compact) else "en"
+    has_cjk = bool(_CJK_RE.search(compact))
+    if sentencex_segment is not None and not has_cjk:
         try:
-            sentences = [sentence.strip() for sentence in sentencex_segment(language, compact)]
+            sentences = [sentence.strip() for sentence in sentencex_segment("en", compact)]
             return [sentence for sentence in sentences if sentence]
         except Exception:
             pass
