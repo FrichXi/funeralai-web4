@@ -4,7 +4,7 @@
 
 ## 项目概述
 
-为中文 AI 行业评论媒体"葬AI"搭建公开知识图谱分析站点。111 篇文章（编号 001-111）经 Gemini 提取实体与关系，聚合为知识图谱（具体节点/边数量见 `web-data/graph-view.json`）。纯静态部署，无后端。
+为中文 AI 行业评论媒体"葬AI"搭建公开知识图谱分析站点。当前文章语料经 Qwen 3.7 Max 提取实体与关系，聚合为知识图谱（具体文章数、节点数、边数量见 `web-data/graph-view.json` 与 `web-data/article-index.json`）。纯静态部署，无后端。
 
 ## 品牌风格
 
@@ -44,7 +44,7 @@
 │
 ├── articles/                          # 原始 Markdown 文章（001-111）
 ├── data/
-│   ├── extracted/{id}.json            # Gemini 提取结果（每篇文章）
+│   ├── extracted/{id}.json            # 提取结果（每篇文章，当前默认 Qwen 3.7 Max）
 │   ├── graph/
 │   │   ├── canonical.json             # 聚合后原始图谱
 │   │   ├── canonical_corrected.json   # 后处理修正后图谱
@@ -61,7 +61,7 @@
 │   └── articles/{id}.json             # 单篇文章详情（001-111，含 body_markdown）
 │
 ├── scripts/                           # 提取 + 后处理 + 构建管线（Python）
-│   ├── extract_gemini.py              # Gemini API 提取（支持多 key 轮询）
+│   ├── extract_gemini.py              # Qwen 3.7 Max 提取（DashScope OpenAI-compatible）
 │   ├── graph_builder.py               # 图谱聚合（多篇 → 单图）
 │   ├── graph_utils.py                 # 实体类型/合并/关系配置
 │   ├── pipeline_state.py              # 版本管理 + manifest
@@ -129,7 +129,7 @@
 
 ```
 articles/*.md
-  → extract_gemini.py → data/extracted/{id}.json     （Gemini 提取）
+  → extract_gemini.py → data/extracted/{id}.json     （Qwen 3.7 Max 提取）
   → build_graph.py    → data/graph/canonical.json     （聚合）
   → post_process.py   → data/graph/canonical_corrected.json  （后处理修正）
   → build_presentation.py → web-data/*.json           （前端数据）
@@ -315,8 +315,9 @@ python3 scripts/build_presentation.py            # 生成前端数据 → web-da
 cd site && npm run build                         # 构建前端
 ```
 
-### 多 key 支持
-在 `.env` 中设置 `GEMINI_API_KEY=key1,key2,key3`（逗号分隔），自动轮询。
+### 提取模型与密钥
+默认提取模型由 `pipeline.toml` 控制，当前为 `qwen3.7-max`。
+提取脚本优先读取 `~/.env` 中的 `DASHSCOPE_API_KEY` / `DASHSCOPE_BASE_URL`，再允许仓库内 `.env` 覆盖。
 
 ### 后处理规则
 所有领域知识集中在 `scripts/overrides.py`（纯数据文件）：

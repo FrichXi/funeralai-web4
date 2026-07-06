@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
+- Article readability pipeline: presentation builds now normalize soft-wrapped article Markdown for readable `body_markdown`, and article detail pages use a centered typography-first reading layout with graph context moved after the body.
+- Article 114 imported from Substack: "硬件转转大会来了" (114). Incremental pipeline run completed successfully with 11 entities and 7 relationships extracted; public stats updated to 114 articles / 649 entities / 1699 relationships.
+- Article 113 imported from Substack: "世界模型走了一些弯路" (113). Incremental pipeline run completed successfully with 22 entities and 18 relationships extracted; public stats updated to 113 articles / 644 entities / 1693 relationships.
+- Article 112 imported from Substack: "老天保佑Qwen救救阿里巴巴" (112). Re-extracted with `qwen3.7-max`; public stats updated to 112 articles / 633 entities / 1668 relationships.
+- Extraction pipeline now loads `/Users/xixiangyu/.env` before repo-local `.env`, so the weekday workflow can reuse the shared DashScope API key without copying secrets into the repository.
 - Holistic KG review record for articles 099-111, with `pipeline.toml` coverage advanced to article 111 after verifying that advisory co-mention candidates do not require new stable overrides.
 - Frontend readiness audit script (`scripts/frontend_refactor_readiness.py`, with optional live-site metadata checks) and documentation for upcoming article typography and multi-benchmark work.
 - Frontend refactor checkpoint (`docs/frontend-refactor-checkpoint.md`) and shared visual token layer (`site/src/lib/visual-tokens.ts`) to separate visual-system work from content/data refreshes.
@@ -16,6 +21,9 @@ All notable changes to this project will be documented in this file.
 - Article 105 imported from Substack: "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8" (105). Incremental pipeline run completed successfully with 16 entities and 15 relationships extracted; public stats updated to 105 articles / 609 entities / 1578 relationships.
 
 ### Changed
+- Frontend dependencies now resolve with zero `npm audit` findings by upgrading Next.js to the patched 15.x line, refreshing frontend tooling, and overriding Next's nested PostCSS to the safe project version.
+- Article detail pages now place the knowledge graph summary in the former opening excerpt slot and omit the top excerpt panel.
+- Default extractor provider switched from Gemini to DashScope OpenAI-compatible Chat Completions with `qwen3.7-max`; pipeline config, CLI validation, and setup docs now point at `DASHSCOPE_API_KEY`.
 - GitHub sync profiles now include frontend governance docs, readiness checks, and tests so release/site-ui commits can carry the refactor groundwork without bypassing `sync_github_repo.sh`.
 - Frontend visual groundwork now routes shared brand/semantic colors through `visual-tokens.ts`, extracts leaderboard sponsor visuals into a feature-local module, and moves celestial theme-transition CSS out of `globals.css`.
 - CI GitHub Actions now use Node 24-compatible action runtimes (`checkout@v7`, `setup-node@v6`, `setup-python@v6`) and run frontend jobs on Node.js 24.

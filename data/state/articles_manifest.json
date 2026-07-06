@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-01T16:17:50Z",
+  "updatedAt": "2026-07-06T06:03:39Z",
   "pipeline": {
-    "extractor": "gemini",
-    "model": "gemini-3.1-pro-preview",
+    "extractor": "qwen-openai-compatible",
+    "model": "qwen3.7-max",
     "prompt_version": "2026-03-15-vc-firm-relationship-v7",
-    "extractor_version": "2026-03-15-overrides-pipeline-v5",
+    "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1",
     "graph_schema_version": "2026-03-15-vc-firm-v3"
   },
   "articles": {
@@ -2227,6 +2227,66 @@
         "model": "gemini-3.1-pro-preview",
         "prompt_version": "2026-03-15-vc-firm-relationship-v7",
         "extractor_version": "2026-03-15-overrides-pipeline-v5"
+      }
+    },
+    "112": {
+      "article_id": "112",
+      "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+      "title": "老天保佑Qwen救救阿里巴巴",
+      "date": "2026-07-02",
+      "author": "葬爱咸鱼",
+      "content_hash": "276db85b111eb7e1c5ba2da70bad8f860421b6d79ae0f75543e566e180b95904",
+      "status": "ready",
+      "reason": "forced",
+      "artifact_path": "data/extracted/112.json",
+      "raw_path": "data/gemini_raw/112.json",
+      "extracted_at": "2026-07-02T18:51:14Z",
+      "last_error": null,
+      "extractor": {
+        "name": "qwen-openai-compatible",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "113": {
+      "article_id": "113",
+      "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+      "title": "世界模型走了一些弯路",
+      "date": "2026-07-02",
+      "author": "骡子马",
+      "content_hash": "a6afa1b2799b9566da0d3ccf2f895a1321c98f531aefb2507a485b1f63b789b7",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/113.json",
+      "raw_path": "data/gemini_raw/113.json",
+      "extracted_at": "2026-07-03T07:05:58Z",
+      "last_error": null,
+      "extractor": {
+        "name": "qwen-openai-compatible",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "114": {
+      "article_id": "114",
+      "path": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
+      "title": "硬件转转大会来了",
+      "date": "2026-07-05",
+      "author": "沐秋",
+      "content_hash": "fd87952160050e3b13d7bdbaede802601f13244974367702ca1d0c013c751056",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/114.json",
+      "raw_path": "data/gemini_raw/114.json",
+      "extracted_at": "2026-07-06T06:02:00Z",
+      "last_error": null,
+      "extractor": {
+        "name": "qwen-openai-compatible",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
       }
     }
   }

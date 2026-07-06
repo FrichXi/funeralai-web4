@@ -205,8 +205,8 @@ async def main_async(args) -> int:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run unattended full extraction rounds until all active articles are ready")
     parser.add_argument("--batch-size", type=int, default=6, help="How many articles to process per round")
-    parser.add_argument("--initial-workers", type=int, default=2, help="Initial concurrent Gemini requests")
-    parser.add_argument("--max-workers", type=int, default=2, help="Upper bound for concurrent Gemini requests")
+    parser.add_argument("--initial-workers", type=int, default=2, help="Initial concurrent model requests")
+    parser.add_argument("--max-workers", type=int, default=2, help="Upper bound for concurrent model requests")
     parser.add_argument(
         "--scale-up-after-clean-rounds",
         type=int,

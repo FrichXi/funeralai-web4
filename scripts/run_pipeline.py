@@ -3,7 +3,7 @@ run_pipeline.py -- Unified CLI entry point for the 葬AI knowledge graph pipelin
 
 Wraps existing scripts into a single command:
     python -m scripts.run_pipeline              # Full pipeline
-    python -m scripts.run_pipeline extract      # Gemini extraction only
+    python -m scripts.run_pipeline extract      # Qwen extraction only
     python -m scripts.run_pipeline build        # Post-process + presentation
     python -m scripts.run_pipeline present      # Regenerate frontend data only
     python -m scripts.run_pipeline --articles 069 070  # Specific articles
@@ -29,13 +29,13 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 
 
 def run_extract(args: argparse.Namespace) -> int:
-    """Run Gemini extraction via extract_gemini.py."""
+    """Run Qwen extraction via extract_gemini.py."""
     from extract_gemini import load_project_env, main_async
 
     load_project_env(PROJECT_ROOT / ".env")
 
-    if not os.environ.get("GEMINI_API_KEY") and not os.environ.get("GEMINI_API_KEYS"):
-        print("ERROR: Set GEMINI_API_KEY or GEMINI_API_KEYS in .env")
+    if not os.environ.get("DASHSCOPE_API_KEY"):
+        print("ERROR: Set DASHSCOPE_API_KEY in ~/.env or .env")
         return 1
 
     extract_args = SimpleNamespace(
@@ -78,7 +78,7 @@ def run_build_presentation() -> int:
 def run_full(args: argparse.Namespace) -> int:
     """Run the full pipeline: extract → post-process → presentation."""
     print("=" * 70)
-    print("STAGE 1/3: Gemini Extraction")
+    print("STAGE 1/3: Qwen Extraction")
     print("=" * 70)
     rc = run_extract(args)
     if rc != 0:
@@ -148,7 +148,7 @@ def main() -> int:
     )
     parser.add_argument("--articles", nargs="+", help="Specific article IDs (e.g. 069 070)")
     parser.add_argument("--limit", type=int, help="Process only first N articles")
-    parser.add_argument("--workers", type=int, default=4, help="Concurrent Gemini requests")
+    parser.add_argument("--workers", type=int, default=4, help="Concurrent extraction requests")
     parser.add_argument("--force", action="store_true", help="Force re-extraction")
 
     args = parser.parse_args()

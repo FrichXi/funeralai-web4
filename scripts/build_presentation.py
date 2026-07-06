@@ -17,6 +17,7 @@ Usage:
 from __future__ import annotations
 
 import json
+import re
 import sys
 from datetime import date, datetime
 from collections import Counter, defaultdict
@@ -31,6 +32,11 @@ if str(SCRIPT_DIR) not in sys.path:
 from graph_utils import RELATION_STRENGTH, DEFAULT_RELATION_STRENGTH, MERGE_MAP, sanitize_id
 from overrides import COMPANY_SUBSIDIARIES, EXCLUDED_ARTICLES, LEADERBOARD_EXCLUDE, NODE_MERGES
 from pipeline_state import extracted_artifact_path, load_articles
+
+try:
+    from sentencex import segment as sentencex_segment
+except ImportError:  # pragma: no cover - requirements.txt provides it in normal installs.
+    sentencex_segment = None
 
 PROJECT_ROOT = SCRIPT_DIR.parent
 CORRECTED_PATH = PROJECT_ROOT / "data" / "graph" / "canonical_corrected.json"
@@ -428,6 +434,160 @@ def build_excerpt(markdown: str, max_len: int = 220) -> str:
     return compact[: max_len - 3].rstrip() + "..."
 
 
+_STRUCTURAL_LINE_RE = re.compile(
+    r"^\s*(#{1,6}\s|[-*+]\s+|\d+[.)]\s+|>\s*|!\[[^\]]*\]\(|\|)"
+)
+_SENTENCE_FALLBACK_RE = re.compile(r"[^。！？!?；;]+[。！？!?；;]?")
+_CJK_RE = re.compile(r"[\u3400-\u9fff]")
+_STANDALONE_QUOTE_RE = re.compile(r"^「[^」]{2,48}」$")
+
+
+def _is_structural_markdown_block(lines: list[str]) -> bool:
+    non_empty = [line for line in lines if line.strip()]
+    if not non_empty:
+        return False
+    return any(_STRUCTURAL_LINE_RE.match(line) for line in non_empty)
+
+
+def _needs_paragraph_normalization(block: str) -> bool:
+    lines = [line.strip() for line in block.splitlines() if line.strip()]
+    if len(lines) < 5:
+        return False
+    if len(block) < 320 and len(lines) < 8:
+        return False
+    average_line_len = sum(len(line) for line in lines) / len(lines)
+    return average_line_len < 90
+
+
+def _join_text_parts(parts: list[str]) -> str:
+    text = ""
+    for part in parts:
+        stripped = part.strip()
+        if not stripped:
+            continue
+        if not text:
+            text = stripped
+            continue
+        prev = text[-1]
+        first = stripped[0]
+        needs_space = (
+            prev.isascii()
+            and first.isascii()
+            and (prev.isalnum() or prev in ".,;:!?)]}\"'")
+            and (first.isalnum() or first in "([{\"'")
+        )
+        text += (" " if needs_space else "") + stripped
+    return text
+
+
+def _split_sentences(text: str) -> list[str]:
+    compact = re.sub(r"\s+", " ", text).strip()
+    if not compact:
+        return []
+
+    if sentencex_segment is not None:
+        language = "zh" if _CJK_RE.search(compact) else "en"
+        try:
+            sentences = [sentence.strip() for sentence in sentencex_segment(language, compact)]
+            return [sentence for sentence in sentences if sentence]
+        except Exception:
+            pass
+
+    return [
+        match.group(0).strip()
+        for match in _SENTENCE_FALLBACK_RE.finditer(compact)
+        if match.group(0).strip()
+    ] or [compact]
+
+
+def _sentences_to_paragraphs(sentences: list[str]) -> list[str]:
+    paragraphs: list[str] = []
+    current: list[str] = []
+    current_len = 0
+    current_sentence_count = 0
+
+    for sentence in sentences:
+        current.append(sentence)
+        current_len += len(sentence)
+        current_sentence_count += 1
+        strong_boundary = sentence.endswith(("。", "！", "？", "!", "?", "；", ";"))
+        colon_boundary = sentence.endswith(("：", ":"))
+
+        if (
+            (strong_boundary and (current_len >= 120 or current_sentence_count >= 3))
+            or current_len >= 260
+            or colon_boundary
+        ):
+            paragraphs.append(_join_text_parts(current))
+            current = []
+            current_len = 0
+            current_sentence_count = 0
+
+    if current:
+        paragraphs.append(_join_text_parts(current))
+
+    return paragraphs
+
+
+def _normalize_plain_text_block(block: str) -> str:
+    lines = [line.strip() for line in block.splitlines() if line.strip()]
+    if not _needs_paragraph_normalization(block):
+        return "\n".join(lines)
+
+    normalized_parts: list[str] = []
+    run: list[str] = []
+
+    def flush_run() -> None:
+        if not run:
+            return
+        repaired = _join_text_parts(run)
+        normalized_parts.extend(_sentences_to_paragraphs(_split_sentences(repaired)))
+        run.clear()
+
+    for line in lines:
+        if _STANDALONE_QUOTE_RE.match(line):
+            flush_run()
+            normalized_parts.append(line)
+        else:
+            run.append(line)
+
+    flush_run()
+    return "\n\n".join(normalized_parts)
+
+
+def normalize_article_markdown(markdown: str) -> str:
+    """Improve soft-wrapped article text for reading without editing source files."""
+    normalized_source = markdown.replace("\r\n", "\n").replace("\r", "\n").strip()
+    if not normalized_source:
+        return ""
+
+    blocks: list[str] = []
+    current: list[str] = []
+    in_code_fence = False
+
+    def flush_current() -> None:
+        if not current:
+            return
+        if in_code_fence or _is_structural_markdown_block(current):
+            blocks.append("\n".join(line.rstrip() for line in current).strip())
+        else:
+            blocks.append(_normalize_plain_text_block("\n".join(current)))
+        current.clear()
+
+    for line in normalized_source.splitlines():
+        if line.strip().startswith("```"):
+            current.append(line.rstrip())
+            in_code_fence = not in_code_fence
+            continue
+        if not in_code_fence and not line.strip():
+            flush_current()
+            continue
+        current.append(line.rstrip())
+
+    flush_current()
+    return "\n\n".join(block for block in blocks if block).strip()
+
+
 def _build_graph_lookup(graph_data: dict) -> tuple[dict[str, dict], dict[str, str]]:
     id_to_node = {node["id"]: node for node in graph_data.get("nodes", [])}
     lookup: dict[str, str] = {}
@@ -588,6 +748,8 @@ def build_article_payloads(
             )
         )
 
+        body_markdown = normalize_article_markdown(article["text"])
+
         payloads.append({
             "id": article_id,
             "title": article["title"],
@@ -597,8 +759,8 @@ def build_article_payloads(
             "permalink": f"/articles/{article_id}",
             "markdown_link": article["path"],
             "raw_markdown": article["raw_text"],
-            "body_markdown": article["text"],
-            "excerpt": build_excerpt(article["text"]),
+            "body_markdown": body_markdown,
+            "excerpt": build_excerpt(body_markdown),
             "entity_count": len(entities),
             "relationship_count": len(relationships),
             "entities": entities,

@@ -62,6 +62,12 @@ content_paths=(
   "README.md"
   "CHANGELOG.md"
   "pipeline.toml"
+  "requirements.txt"
+  "scripts/build_presentation.py"
+  "scripts/extract_gemini.py"
+  "scripts/pipeline_state.py"
+  "scripts/run_full_extraction.py"
+  "scripts/run_pipeline.py"
 )
 
 test_benchmark_paths=(
@@ -101,9 +107,12 @@ site_ui_paths=(
   "site/package.json"
   "site/package-lock.json"
   "site/prebuild.sh"
+  "site/tailwind.config.ts"
+  "site/tsconfig.json"
   "site/public"
   "site/scripts"
   "site/src"
+  "requirements.txt"
   "scripts/check_no_secrets.py"
   "scripts/deploy_site.sh"
   "scripts/doctor_repo.sh"

@@ -1,4 +1,4 @@
-import { copyFile, mkdir, readdir, readFile, rm, stat, writeFile } from "node:fs/promises";
+import { copyFile, mkdir, readdir, readFile, rename, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -69,6 +69,7 @@ const TEST_SHARED_DATA_DIR =
   setting("TEST_SHARED_DATA_DIR", "testSharedDataDir") ||
   (SOURCE_ROOT ? path.join(SOURCE_ROOT, "append-20260623", "web4-b110bf9", "web-data") : "");
 const TEST_DEST = path.join(SITE_DIR, "public", "test");
+const TEST_TRASH_ROOT = path.join(SITE_DIR, ".stage-test-trash");
 const EXPECTED_TEST_ARTICLE_COUNT = 104;
 const EXPECTED_TEST_LATEST_ARTICLE_ID = "104";
 const EXPECTED_TEST_LATEST_ARTICLE_DATE = "2026-06-15";
@@ -215,6 +216,20 @@ async function exists(filePath) {
   } catch {
     return false;
   }
+}
+
+async function moveExistingTestDestAside() {
+  if (!(await exists(TEST_DEST))) {
+    return;
+  }
+
+  await mkdir(TEST_TRASH_ROOT, { recursive: true });
+  const trashTarget = path.join(
+    TEST_TRASH_ROOT,
+    `test-${new Date().toISOString().replaceAll(":", "-")}`
+  );
+  console.log(`Moving existing /test aside: ${TEST_DEST} -> ${trashTarget}`);
+  await rename(TEST_DEST, trashTarget);
 }
 
 async function readJson(filePath) {
@@ -1051,7 +1066,7 @@ async function main() {
   );
   const entries = [];
 
-  await rm(TEST_DEST, { recursive: true, force: true });
+  await moveExistingTestDestAside();
   await mkdir(TEST_DEST, { recursive: true });
   await copyTree(TEST_SHARED_DATA_DIR, path.join(TEST_DEST, "data"));
   await copyPublicArtifact(SCORE_CSV, path.join(TEST_DEST, "playwright-recheck-composite.csv"));
@@ -1064,6 +1079,7 @@ async function main() {
 
   for (let round = 1; round <= 10; round += 1) {
     const roundId = `r${round}`;
+    console.log(`Staging ${roundId}...`);
 
     for (const model of MODELS) {
       const sourceDir = path.join(SOURCE_ROOT, roundId, model.sourceSlug || model.slug);
@@ -1075,6 +1091,7 @@ async function main() {
         hasAssetsData: await exists(path.join(siteRoot, "assets", "data")),
       };
 
+      console.log(`  copy ${roundId}/${model.slug} <- ${siteRoot}`);
       await copyTree(siteRoot, destDir, basePath, rewriteOptions);
       entries.push(
         createEntry({
@@ -1123,6 +1140,7 @@ async function main() {
 
   await writeFile(path.join(TEST_DEST, "manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`);
   await writeLegacySnapshot();
+  console.log("Running /test isolation scan...");
   await scanIsolation();
 
   const scored = entries.filter((entry) => Number.isFinite(entry.score)).length;

@@ -12,9 +12,12 @@ export function generateStaticParams() {
   return getAllArticleIds().map((id) => ({ id }));
 }
 
-export function generateMetadata({ params }: { params: { id: string } }): Metadata {
+type ArticlePageParams = Promise<{ id: string }>;
+
+export async function generateMetadata({ params }: { params: ArticlePageParams }): Promise<Metadata> {
+  const { id } = await params;
   try {
-    const article = getArticle(params.id);
+    const article = getArticle(id);
     const description = article.excerpt
       ? article.excerpt.slice(0, 160)
       : `${article.author} - ${article.title}`;
@@ -36,13 +39,16 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
   }
 }
 
-export default function ArticleDetailPage({ params }: { params: { id: string } }) {
+export default async function ArticleDetailPage({ params }: { params: ArticlePageParams }) {
+  const { id } = await params;
   let article;
   try {
-    article = getArticle(params.id);
+    article = getArticle(id);
   } catch {
     notFound();
   }
+
+  const hasGraphSummary = article.entities.length > 0 || article.relationships.length > 0;
 
   return (
     <article>
@@ -61,66 +67,56 @@ export default function ArticleDetailPage({ params }: { params: { id: string } }
               logo: { '@type': 'ImageObject', url: 'https://funeralai.cc/logo.png' },
             },
             description: article.excerpt ? article.excerpt.slice(0, 160) : article.title,
-            mainEntityOfPage: `https://funeralai.cc/articles/${params.id}/`,
+            mainEntityOfPage: `https://funeralai.cc/articles/${id}/`,
             image: 'https://funeralai.cc/og-image.png',
             inLanguage: 'zh-CN',
           }),
         }}
       />
-      {/* Back link */}
-      <div className="mb-6">
-        <Link
-          href="/articles"
-          className="retro text-xs text-muted-foreground hover:text-primary transition-colors"
-        >
-          &larr; 返回文章列表
-        </Link>
-      </div>
-
-      {/* Header */}
-      <header className="mb-8">
-        <h1 className="retro text-[24px] text-primary mb-3 leading-relaxed">
-          {article.title}
-        </h1>
-        <div className="flex items-center gap-3 text-sm text-muted-foreground flex-wrap">
-          <span>{article.date}</span>
-          <span className="text-border">|</span>
-          <span>{article.author}</span>
-          {article.entity_count > 0 && (
-            <>
-              <span className="text-border">|</span>
-              <span>{article.entity_count} 个实体</span>
-            </>
-          )}
-          {article.relationship_count > 0 && (
-            <>
-              <span className="text-border">|</span>
-              <span>{article.relationship_count} 条关系</span>
-            </>
-          )}
-        </div>
-      </header>
-
-      <Separator className="mb-8" />
-
-      {/* Main content + sidebar layout */}
-      <div className="flex flex-col lg:flex-row gap-8">
-        {/* Article body */}
-        <div className="flex-1 min-w-0">
-          <ArticleBody markdown={article.body_markdown} />
+      <div className="mx-auto w-full max-w-3xl">
+        {/* Back link */}
+        <div className="mb-8">
+          <Link
+            href="/articles"
+            className="retro text-xs text-muted-foreground hover:text-primary transition-colors"
+          >
+            &larr; 返回文章列表
+          </Link>
         </div>
 
-        {/* Sidebar: entities & relationships */}
-        {(article.entities.length > 0 || article.relationships.length > 0) && (
-          <aside className="lg:w-72 flex-shrink-0">
-            <div className="lg:sticky lg:top-20 space-y-6">
-              {/* Entities */}
+        {/* Header */}
+        <header className="mb-8">
+          <h1 className="retro mb-4 text-balance text-[28px] leading-tight text-primary md:text-[36px]">
+            {article.title}
+          </h1>
+          <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
+            <span>{article.date}</span>
+            <span className="text-border">|</span>
+            <span>{article.author}</span>
+            {article.entity_count > 0 && (
+              <>
+                <span className="text-border">|</span>
+                <span>{article.entity_count} 个实体</span>
+              </>
+            )}
+            {article.relationship_count > 0 && (
+              <>
+                <span className="text-border">|</span>
+                <span>{article.relationship_count} 条关系</span>
+              </>
+            )}
+          </div>
+
+          {hasGraphSummary && (
+            <section className="mt-7 border border-border bg-card/60 p-5 md:p-6">
+              <h2 className="retro mb-4 text-sm text-primary">知识图谱摘要</h2>
+
               {article.entities.length > 0 && (
-                <div className="border border-border rounded-sm p-4 bg-card">
-                  <h3 className="retro text-xs text-primary mb-3">
+                <details className="group border-t border-border py-4" open>
+                  <summary className="retro cursor-pointer select-none text-xs text-foreground transition-colors hover:text-primary">
                     提及实体 ({article.entities.length})
-                  </h3>
-                  <div className="flex flex-wrap gap-2">
+                  </summary>
+                  <div className="mt-4 flex flex-wrap gap-2">
                     {article.entities.map((entity) => (
                       <EntityTag
                         key={entity.id}
@@ -130,27 +126,26 @@ export default function ArticleDetailPage({ params }: { params: { id: string } }
                       />
                     ))}
                   </div>
-                </div>
+                </details>
               )}
 
-              {/* Relationships */}
               {article.relationships.length > 0 && (
-                <div className="border border-border rounded-sm p-4 bg-card">
-                  <h3 className="retro text-xs text-primary mb-3">
+                <details className="group border-t border-border py-4">
+                  <summary className="retro cursor-pointer select-none text-xs text-foreground transition-colors hover:text-primary">
                     关系 ({article.relationships.length})
-                  </h3>
-                  <div className="space-y-3">
+                  </summary>
+                  <div className="mt-4 grid gap-3">
                     {article.relationships.map((rel, i) => {
                       const style = RELATION_STYLES[rel.relation_type as RelationType];
                       return (
                         <div
                           key={`${rel.source}-${rel.target}-${i}`}
-                          className="text-xs leading-relaxed"
+                          className="border border-border bg-background/35 p-3 text-xs leading-relaxed"
                         >
-                          <div className="flex items-center gap-1.5 flex-wrap">
-                            <span className="text-foreground font-medium">{rel.source}</span>
+                          <div className="flex flex-wrap items-center gap-1.5">
+                            <span className="font-medium text-foreground">{rel.source}</span>
                             <span
-                              className="px-1.5 py-0.5 rounded-sm text-[10px]"
+                              className="px-1.5 py-0.5 text-[10px]"
                               style={{
                                 color: style?.color ?? '#94a3b8',
                                 backgroundColor: `${style?.color ?? '#94a3b8'}20`,
@@ -159,10 +154,10 @@ export default function ArticleDetailPage({ params }: { params: { id: string } }
                             >
                               {style?.label ?? rel.relation_type}
                             </span>
-                            <span className="text-foreground font-medium">{rel.target}</span>
+                            <span className="font-medium text-foreground">{rel.target}</span>
                           </div>
                           {rel.label && (
-                            <p className="text-muted-foreground mt-1 pl-2 border-l border-border">
+                            <p className="mt-2 border-l border-border pl-3 text-muted-foreground">
                               {rel.label}
                             </p>
                           )}
@@ -170,11 +165,15 @@ export default function ArticleDetailPage({ params }: { params: { id: string } }
                       );
                     })}
                   </div>
-                </div>
+                </details>
               )}
-            </div>
-          </aside>
-        )}
+            </section>
+          )}
+        </header>
+
+        <Separator className="mb-10" />
+
+        <ArticleBody markdown={article.body_markdown} />
       </div>
     </article>
   );

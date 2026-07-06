@@ -4,9 +4,9 @@
 
 # 葬AI Knowledge Graph / 葬AI 知识图谱
 
-An open-source pipeline that turns a collection of Chinese AI industry commentary articles into an interactive knowledge graph. 111 articles are processed by Gemini to extract entities and relationships, then aggregated into a browsable graph with leaderboards. **629 entities, 1656 relationships** — the most comprehensive Chinese AI industry knowledge graph.
+An open-source pipeline that turns a collection of Chinese AI industry commentary articles into an interactive knowledge graph. 114 articles are processed by Qwen 3.7 Max to extract entities and relationships, then aggregated into a browsable graph with leaderboards. **649 entities, 1699 relationships** — the most comprehensive Chinese AI industry knowledge graph.
 
-一个开源的知识图谱管线：将中文 AI 行业评论文章集合转化为可交互的知识图谱可视化站点。111 篇文章经 Gemini 提取实体与关系，聚合为包含排行榜的可浏览图谱。**629 个实体、1656 条关系** — 最全面的中文 AI 行业知识图谱。
+一个开源的知识图谱管线：将中文 AI 行业评论文章集合转化为可交互的知识图谱可视化站点。114 篇文章经 Qwen 3.7 Max 提取实体与关系，聚合为包含排行榜的可浏览图谱。**649 个实体、1699 条关系** — 最全面的中文 AI 行业知识图谱。
 
 **Live site / 在线站点**: [funeralai.cc](https://funeralai.cc)
 
@@ -18,7 +18,7 @@ An open-source pipeline that turns a collection of Chinese AI industry commentar
 articles/*.md                    # Source articles (markdown)
         │
         ▼
-scripts/extract_gemini.py        # Gemini entity/relationship extraction
+scripts/extract_gemini.py        # Qwen 3.7 Max entity/relationship extraction
         │
         ▼
 data/extracted/{id}.json         # Per-article extraction artifacts
@@ -42,7 +42,7 @@ site/                            # Next.js 14 static site (Cytoscape graph + lea
 
 - Python 3.10+
 - Node.js 18+
-- A [Gemini API key](https://aistudio.google.com/apikey)
+- A DashScope API key for `qwen3.7-max`
 
 ### Setup
 
@@ -58,7 +58,7 @@ cd site && npm install && cd ..
 
 # Configure API key
 cp .env.example .env
-# Edit .env and add your GEMINI_API_KEY
+# Edit .env or ~/.env and add your DASHSCOPE_API_KEY
 ```
 
 ### Run the Pipeline
@@ -68,7 +68,7 @@ cp .env.example .env
 python -m scripts.run_pipeline
 
 # Or run individual steps:
-python -m scripts.run_pipeline extract     # Gemini extraction only
+python -m scripts.run_pipeline extract     # Qwen extraction only
 python -m scripts.run_pipeline build       # Post-process + generate frontend data
 python -m scripts.run_pipeline present     # Regenerate frontend JSON only
 
@@ -100,10 +100,10 @@ npm run build      # Static export to site/out/
 ## Project Structure / 项目结构
 
 ```
-├── articles/              # Source markdown articles (001-111)
+├── articles/              # Source markdown articles (001-114)
 ├── scripts/               # Python pipeline
 │   ├── run_pipeline.py    # Unified CLI entry point
-│   ├── extract_gemini.py  # Gemini extraction
+│   ├── extract_gemini.py  # Qwen 3.7 Max extraction
 │   ├── graph_builder.py   # Graph aggregation
 │   ├── graph_utils.py     # Entity normalization, merge maps, blacklists
 │   ├── pipeline_state.py  # Manifest management, config loading
@@ -124,7 +124,7 @@ npm run build      # Static export to site/out/
 
 ## Configuration / 配置
 
-Pipeline settings are in `pipeline.toml`. Fork users can adjust model, prompt version, concurrency, etc. without editing Python source code.
+Pipeline settings are in `pipeline.toml`. Fork users can adjust model, prompt version, concurrency, etc. without editing Python source code. On this machine the extractor loads `~/.env` first, then allows repo-local `.env` values to override it.
 
 The `[kg_review]` section records the last holistic relationship review coverage. `site/npm run deploy` rebuilds the graph, runs `scripts/kg_review_gate.py`, builds the static site, then uploads. If new articles accumulate past `max_unreviewed_articles` or extracted entities disappear from frontend data, deployment fails until `overrides.py` and `last_holistic_review_article` are updated.
 

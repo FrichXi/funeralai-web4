@@ -7,6 +7,7 @@ import pytest
 from build_presentation import (
     build_article_index,
     build_article_payloads,
+    normalize_article_markdown,
     validate_article_payloads,
     validate_graph_metadata,
 )
@@ -55,6 +56,33 @@ def _graph() -> dict:
 
 
 class TestBuildArticlePayloads:
+    def test_normalizes_body_markdown_but_keeps_raw_markdown(self):
+        source_articles = [
+            {
+                **_article("001", "Wrapped"),
+                "text": (
+                    "第一句先被错误断行\n"
+                    "继续接在同一句里。\n"
+                    "第二句提供更多背景，方便超过阈值。\n"
+                    "第三句继续解释为什么这是一坨文本。\n"
+                    "第四句仍然没有空行。\n"
+                    "第五句让这段足够长。\n"
+                    "第六句应当被拆出可读段落。\n"
+                    "第七句收尾。"
+                ),
+                "raw_text": "# Wrapped\n\nraw source should stay untouched",
+            }
+        ]
+
+        with patch("build_presentation.load_json", return_value={}):
+            payloads, missing = build_article_payloads(source_articles, _graph())
+
+        assert missing == ["001"]
+        payload = payloads[0]
+        assert payload["raw_markdown"] == "# Wrapped\n\nraw source should stay untouched"
+        assert "错误断行继续接在同一句里" in payload["body_markdown"]
+        assert "\n\n" in payload["body_markdown"]
+
     def test_keeps_source_articles_even_when_artifact_missing(self):
         source_articles = [_article("001", "One"), _article("003", "Three")]
         artifacts = {
@@ -134,6 +162,66 @@ class TestBuildArticlePayloads:
         assert relationship["target_id"] == "openclaw"
         assert relationship["source"] == "Moltbook"
         assert relationship["target"] == "OpenClaw"
+
+
+class TestNormalizeArticleMarkdown:
+    def test_splits_single_newline_heavy_chinese_text_into_paragraphs(self):
+        markdown = "\n".join(
+            [
+                "亲爱的AI炒作狗们，",
+                "别做一句话生成产品了，因为它只会制造噪音。",
+                "原因很简单，问题在信息输入。",
+                "没有原创输入，AI只是在重复互联网已有信息。",
+                "这会让用户读到更多低质量内容。",
+                "真正的价值增量在信息输入环节。",
+                "创作者才是高质量的信息源。",
+                "所以产品首先要解决输入问题。",
+            ]
+        )
+
+        normalized = normalize_article_markdown(markdown)
+
+        assert "狗们，别做" in normalized
+        assert normalized.count("\n\n") >= 1
+
+    def test_preserves_structural_markdown_blocks(self):
+        markdown = "\n".join(
+            [
+                "- 第一项",
+                "- 第二项",
+                "",
+                "![图](https://example.com/a.png)",
+                "",
+                "```",
+                "const x = 1",
+                "```",
+            ]
+        )
+
+        assert normalize_article_markdown(markdown) == markdown
+
+    def test_leaves_healthy_paragraphs_unchanged(self):
+        markdown = "第一段已经很好。没有必要重切。\n\n第二段也很好。"
+
+        assert normalize_article_markdown(markdown) == markdown
+
+    def test_keeps_short_opening_quote_as_own_paragraph(self):
+        markdown = "\n".join(
+            [
+                "「香农：噪音是信息的敌人」",
+                "亲爱的AI炒作狗们，",
+                "别做一句话生成产品了，因为它只会制造噪音。",
+                "原因很简单，问题在信息输入。",
+                "没有原创输入，AI只是在重复互联网已有信息。",
+                "这会让用户读到更多低质量内容。",
+                "真正的价值增量在信息输入环节。",
+                "创作者才是高质量的信息源。",
+            ]
+        )
+
+        normalized = normalize_article_markdown(markdown)
+
+        assert normalized.startswith("「香农：噪音是信息的敌人」\n\n亲爱的AI炒作狗们，")
 
 
 class TestValidation:

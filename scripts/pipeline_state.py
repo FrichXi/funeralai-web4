@@ -102,10 +102,10 @@ ARTICLE_SOURCE_DIR = Path(
     or _PIPELINE_CONFIG.get("articles", {}).get("source_dir", str(ARTICLES_DIR))
 ).expanduser()
 
-EXTRACTOR_NAME = "gemini"
-MODEL_NAME = _PIPELINE_CONFIG.get("pipeline", {}).get("model", "gemini-3.1-pro-preview")
+EXTRACTOR_NAME = _PIPELINE_CONFIG.get("pipeline", {}).get("extractor_name", "qwen-openai-compatible")
+MODEL_NAME = _PIPELINE_CONFIG.get("pipeline", {}).get("model", "qwen3.7-max")
 PROMPT_VERSION = _PIPELINE_CONFIG.get("pipeline", {}).get("prompt_version", "2026-03-15-vc-firm-relationship-v7")
-EXTRACTOR_VERSION = _PIPELINE_CONFIG.get("pipeline", {}).get("extractor_version", "2026-03-15-overrides-pipeline-v5")
+EXTRACTOR_VERSION = _PIPELINE_CONFIG.get("pipeline", {}).get("extractor_version", "2026-07-03-qwen37max-openai-compatible-v1")
 GRAPH_SCHEMA_VERSION = _PIPELINE_CONFIG.get("pipeline", {}).get("graph_schema_version", "2026-03-15-vc-firm-v3")
 
 

@@ -7,6 +7,9 @@ import pytest
 
 from pipeline_state import (
     ARTICLE_FILENAME_RE,
+    EXTRACTOR_VERSION,
+    MODEL_NAME,
+    PROMPT_VERSION,
     article_record_from_path,
     extract_article_body,
     extraction_decision,
@@ -74,9 +77,9 @@ class TestExtractionDecision:
             "status": "ready",
             "content_hash": "abc123",
             "extractor": {
-                "model": "gemini-3.1-pro-preview",
-                "prompt_version": "2026-03-15-vc-firm-relationship-v7",
-                "extractor_version": "2026-03-15-overrides-pipeline-v5",
+                "model": MODEL_NAME,
+                "prompt_version": PROMPT_VERSION,
+                "extractor_version": EXTRACTOR_VERSION,
             },
         }
         # Create a fake artifact file so the existence check passes

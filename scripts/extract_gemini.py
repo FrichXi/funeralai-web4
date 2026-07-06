@@ -1,5 +1,5 @@
 """
-葬AI宇宙 — Gemini 增量实体提取脚本
+葬AI宇宙 — 增量实体提取脚本
 
 主流程：
 1. 扫描 `articles/` 并同步 `data/state/articles_manifest.json`
@@ -19,7 +19,6 @@
 
 import argparse
 import asyncio
-import itertools
 import os
 import sys
 import time
@@ -52,9 +51,9 @@ from pipeline_state import (
 )
 
 
-def load_project_env(path: Path) -> None:
+def _load_env_file(path: Path, override: bool) -> None:
     if load_dotenv is not None:
-        load_dotenv(path)
+        load_dotenv(path, override=override)
         return
     if not path.exists():
         return
@@ -67,7 +66,14 @@ def load_project_env(path: Path) -> None:
         key = key.strip()
         value = value.strip().strip('"').strip("'")
         if key:
-            os.environ.setdefault(key, value)
+            if override or key not in os.environ:
+                os.environ[key] = value
+
+
+def load_project_env(path: Path) -> None:
+    # Load the user's shared env first, then let the repo-local .env override it.
+    _load_env_file(Path.home() / ".env", override=False)
+    _load_env_file(path, override=True)
 
 
 load_project_env(PROJECT_ROOT / ".env")
@@ -185,43 +191,43 @@ EXTRACTION_PROMPT = """【项目目标】
 """
 
 
-# Multi-key round-robin: set GEMINI_API_KEYS=key1,key2,key3 in .env (comma-separated)
-# Falls back to single GEMINI_API_KEY for backwards compatibility
-def _init_api_keys():
-    # Support both GEMINI_API_KEYS and GEMINI_API_KEY (comma-separated or single)
-    raw = os.environ.get("GEMINI_API_KEYS", "") or os.environ.get("GEMINI_API_KEY", "")
-    keys = [k.strip() for k in raw.split(",") if k.strip()]
-    return keys
-
-_API_KEYS: list[str] = []
-_KEY_CYCLE = None
-
-def _next_api_key() -> str:
-    global _API_KEYS, _KEY_CYCLE
-    if not _API_KEYS:
-        _API_KEYS = _init_api_keys()
-        _KEY_CYCLE = itertools.cycle(_API_KEYS)
-    return next(_KEY_CYCLE)
+def _dashscope_api_key() -> str | None:
+    return os.environ.get("DASHSCOPE_API_KEY")
 
 
-async def call_gemini(prompt: str, system_prompt: str | None = None, max_retries: int = 6):
+def _dashscope_base_url() -> str:
+    return os.environ.get("DASHSCOPE_BASE_URL", "https://dashscope.aliyuncs.com/compatible-mode/v1").rstrip("/")
+
+
+async def call_model(prompt: str, system_prompt: str | None = None, max_retries: int = 6):
     import httpx
 
     proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
 
-    body = {
-        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-        "generationConfig": {"maxOutputTokens": 65536},
-    }
+    messages = []
     if system_prompt:
-        body["systemInstruction"] = {"parts": [{"text": system_prompt}]}
+        messages.append({"role": "system", "content": system_prompt})
+    messages.append({"role": "user", "content": prompt})
+
+    body = {
+        "model": MODEL_NAME,
+        "messages": messages,
+        "response_format": {"type": "json_object"},
+        "max_completion_tokens": 65536,
+        # Extraction wants deterministic JSON, not exposed chain-of-thought.
+        "enable_thinking": False,
+    }
+
+    headers = {
+        "Authorization": f"Bearer {_dashscope_api_key()}",
+        "Content-Type": "application/json",
+    }
+    url = f"{_dashscope_base_url()}/chat/completions"
 
     for attempt in range(max_retries):
-        api_key = _next_api_key()
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_NAME}:generateContent?key={api_key}"
         try:
             async with httpx.AsyncClient(timeout=120, proxy=proxy) as client:
-                resp = await client.post(url, json=body)
+                resp = await client.post(url, json=body, headers=headers)
 
                 if resp.status_code == 429:
                     wait = min(2 ** attempt * 3, 60)
@@ -239,9 +245,10 @@ async def call_gemini(prompt: str, system_prompt: str | None = None, max_retries
 
                 resp.raise_for_status()
                 data = resp.json()
-                if not data.get("candidates"):
+                choices = data.get("choices") or []
+                if not choices:
                     return None
-                return data["candidates"][0]["content"]["parts"][0]["text"]
+                return choices[0].get("message", {}).get("content")
 
         except Exception as exc:
             if attempt < max_retries - 1:
@@ -282,7 +289,7 @@ async def extract_one(article: dict, semaphore: asyncio.Semaphore):
     async with semaphore:
         print(f"  [{article['id']}] {article['title'][:30]}...", flush=True)
         prompt = EXTRACTION_PROMPT + article["prompt_text"]
-        raw_text = await call_gemini(prompt, system_prompt=SYSTEM_PROMPT)
+        raw_text = await call_model(prompt, system_prompt=SYSTEM_PROMPT)
         parsed = parse_json_response(raw_text)
 
         if not parsed:
@@ -394,19 +401,18 @@ async def main_async(args):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Incrementally extract article entities with Gemini")
+    parser = argparse.ArgumentParser(description="Incrementally extract article entities with Qwen")
     parser.add_argument("--limit", type=int, help="Only process the first N selected articles")
-    parser.add_argument("--workers", type=int, default=4, help="Concurrent Gemini requests")
+    parser.add_argument("--workers", type=int, default=4, help="Concurrent extraction requests")
     parser.add_argument("--articles", nargs="+", help="Specific article IDs to process, e.g. 001 002 010")
     parser.add_argument("--force", action="store_true", help="Re-extract even if manifest says the article is up to date")
     parser.add_argument("--allow-partial-export", action="store_true", help="Allow graph export even if some articles are still pending")
     args = parser.parse_args()
 
-    if not os.environ.get("GEMINI_API_KEY") and not os.environ.get("GEMINI_API_KEYS"):
-        print("ERROR: Set GEMINI_API_KEY or GEMINI_API_KEYS (comma-separated) in .env")
+    if not _dashscope_api_key():
+        print("ERROR: Set DASHSCOPE_API_KEY in ~/.env or .env")
         sys.exit(1)
-    keys = _init_api_keys()
-    print(f"Using {len(keys)} API key(s)")
+    print(f"Using extractor={MODEL_NAME} via {_dashscope_base_url()}")
 
     sys.exit(asyncio.run(main_async(args)))
 
