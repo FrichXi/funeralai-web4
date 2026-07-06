@@ -21,6 +21,7 @@ All notable changes to this project will be documented in this file.
 - Article 105 imported from Substack: "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8" (105). Incremental pipeline run completed successfully with 16 entities and 15 relationships extracted; public stats updated to 105 articles / 609 entities / 1578 relationships.
 
 ### Changed
+- Knowledge graph now defaults to a connected-node view, with controls for connected/core/full topology modes to reduce isolated-node clutter while keeping the complete graph accessible.
 - Frontend dependencies now resolve with zero `npm audit` findings by upgrading Next.js to the patched 15.x line, refreshing frontend tooling, and overriding Next's nested PostCSS to the safe project version.
 - Article detail pages now place the knowledge graph summary in the former opening excerpt slot and omit the top excerpt panel.
 - Default extractor provider switched from Gemini to DashScope OpenAI-compatible Chat Completions with `qwen3.7-max`; pipeline config, CLI validation, and setup docs now point at `DASHSCOPE_API_KEY`.

@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useCallback } from 'react';
+import { useEffect, useRef, useCallback, useMemo, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import cytoscape from 'cytoscape';
 import fcose from 'cytoscape-fcose';
@@ -23,6 +23,7 @@ cytoscape.use(fcose);
 export default function GraphCanvas({ focusNodeId }: GraphCanvasProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const cyRef = useRef<Core | null>(null);
+  const [cyInstance, setCyInstance] = useState<Core | null>(null);
   const searchParams = useSearchParams();
 
   const { graphData, loading: dataLoading, error, retry } = useGraphData();
@@ -32,12 +33,51 @@ export default function GraphCanvas({ focusNodeId }: GraphCanvasProps) {
     typeFilters,
     tooltip,
     updateLabelVisibility,
+    applyVisibilityFilters,
     clearHighlight,
     handleSelectNode,
     handleToggleType,
+    handleSetTopologyMode,
     showTooltip,
     hideTooltip,
+    topologyMode,
   } = useGraphInteraction(cyRef);
+
+  const graphStats = useMemo(() => {
+    if (!graphData) {
+      return null;
+    }
+
+    const degree = new Map<string, number>();
+    graphData.nodes.forEach((node) => degree.set(node.id, 0));
+    graphData.links.forEach((link) => {
+      degree.set(link.source, (degree.get(link.source) ?? 0) + 1);
+      degree.set(link.target, (degree.get(link.target) ?? 0) + 1);
+    });
+
+    const isolated = graphData.nodes.filter((node) => (degree.get(node.id) ?? 0) === 0).length;
+    const leaf = graphData.nodes.filter((node) => (degree.get(node.id) ?? 0) === 1).length;
+    const visibleNodeIds = new Set(
+      graphData.nodes
+        .filter((node) => {
+          if (typeFilters[node.type] === false) return false;
+
+          const nodeDegree = degree.get(node.id) ?? 0;
+          if (topologyMode === 'core') return nodeDegree >= 2;
+          if (topologyMode === 'connected') return nodeDegree >= 1;
+          return true;
+        })
+        .map((node) => node.id)
+    );
+
+    return {
+      totalNodes: graphData.nodes.length,
+      visibleNodes: visibleNodeIds.size,
+      isolated,
+      leaf,
+      totalLinks: graphData.links.length,
+    };
+  }, [graphData, topologyMode, typeFilters]);
 
   // ── Stable ref for handleSelectNode ──
   const handleSelectNodeRef = useRef(handleSelectNode);
@@ -70,14 +110,17 @@ export default function GraphCanvas({ focusNodeId }: GraphCanvasProps) {
     });
 
     cyRef.current = cy;
+    setCyInstance(cy);
     layoutRunningRef.current = true;
 
     const layout = cy.layout(FCOSE_LAYOUT_OPTIONS);
+    applyVisibilityFilters(cy, typeFilters, topologyMode);
 
     layout.on('layoutstop', () => {
       layoutRunningRef.current = false;
 
       updateLabelVisibility(cy);
+      applyVisibilityFilters(cy, typeFilters, topologyMode);
 
       const focusId = searchParams.get('focus');
       if (focusId) {
@@ -121,6 +164,7 @@ export default function GraphCanvas({ focusNodeId }: GraphCanvasProps) {
     return () => {
       cy.destroy();
       cyRef.current = null;
+      setCyInstance(null);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [graphData]);
@@ -177,10 +221,13 @@ export default function GraphCanvas({ focusNodeId }: GraphCanvasProps) {
 
       {/* Controls */}
       <GraphControls
-        cy={cyRef.current}
+        cy={cyInstance}
         onSelectNode={handleSelectNode}
         typeFilters={typeFilters}
         onToggleType={handleToggleType}
+        topologyMode={topologyMode}
+        onSetTopologyMode={handleSetTopologyMode}
+        graphStats={graphStats}
       />
 
       {/* Legend */}

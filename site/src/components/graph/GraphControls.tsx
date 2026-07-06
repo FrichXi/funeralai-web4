@@ -2,15 +2,25 @@
 
 import { useState, useCallback, useRef, useEffect } from 'react';
 import type { Core } from 'cytoscape';
-import { Search, X } from 'lucide-react';
+import { Network, Search, X } from 'lucide-react';
 import { Input } from '@/components/ui/8bit/input';
 import { NODE_COLORS, NODE_TYPE_LABELS } from '@/lib/constants';
+import type { GraphTopologyMode } from '@/hooks/useGraphInteraction';
 
 interface GraphControlsProps {
   cy: Core | null;
   onSelectNode: (nodeId: string) => void;
   typeFilters: Record<string, boolean>;
   onToggleType: (type: string) => void;
+  topologyMode: GraphTopologyMode;
+  onSetTopologyMode: (mode: GraphTopologyMode) => void;
+  graphStats: {
+    totalNodes: number;
+    visibleNodes: number;
+    isolated: number;
+    leaf: number;
+    totalLinks: number;
+  } | null;
 }
 
 interface SearchResult {
@@ -19,7 +29,21 @@ interface SearchResult {
   type: string;
 }
 
-export function GraphControls({ cy, onSelectNode, typeFilters, onToggleType }: GraphControlsProps) {
+const TOPOLOGY_MODES: Array<{ value: GraphTopologyMode; label: string; title: string }> = [
+  { value: 'connected', label: '连通', title: '隐藏没有关系的孤立节点' },
+  { value: 'core', label: '核心', title: '只显示至少有两条关系的节点' },
+  { value: 'all', label: '全量', title: '显示所有节点，包括待补边孤点' },
+];
+
+export function GraphControls({
+  cy,
+  onSelectNode,
+  typeFilters,
+  onToggleType,
+  topologyMode,
+  onSetTopologyMode,
+  graphStats,
+}: GraphControlsProps) {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<SearchResult[]>([]);
   const [showResults, setShowResults] = useState(false);
@@ -38,6 +62,8 @@ export function GraphControls({ cy, onSelectNode, typeFilters, onToggleType }: G
     const matched: SearchResult[] = [];
 
     cy.nodes().forEach((node) => {
+      if (node.hasClass('filtered-out')) return;
+
       const label = (node.data('label') as string || '').toLowerCase();
       const aliases = (node.data('aliases') as string[] || []);
       const matchesAlias = aliases.some((a: string) => a.toLowerCase().includes(q));
@@ -128,6 +154,47 @@ export function GraphControls({ cy, onSelectNode, typeFilters, onToggleType }: G
                 </span>
               </button>
             ))}
+          </div>
+        )}
+      </div>
+
+      {/* Topology cleanup mode */}
+      <div className="border-t border-border px-3 py-2">
+        <div className="mb-2 flex items-center gap-1.5 text-[11px] text-muted-foreground">
+          <Network className="size-3" aria-hidden="true" />
+          <span>连接视图</span>
+        </div>
+        <div className="grid grid-cols-3 border border-border bg-background/50">
+          {TOPOLOGY_MODES.map((mode) => {
+            const active = topologyMode === mode.value;
+            return (
+              <button
+                key={mode.value}
+                type="button"
+                title={mode.title}
+                onClick={() => onSetTopologyMode(mode.value)}
+                className={`min-h-7 px-2 text-[11px] transition-colors ${
+                  active
+                    ? 'bg-primary text-primary-foreground'
+                    : 'text-muted-foreground hover:bg-secondary hover:text-foreground'
+                }`}
+              >
+                {mode.label}
+              </button>
+            );
+          })}
+        </div>
+        {graphStats && (
+          <div className="mt-2 grid grid-cols-3 gap-1 text-center text-[10px] text-muted-foreground">
+            <span className="border border-border/70 bg-background/35 px-1 py-1">
+              {graphStats.visibleNodes}/{graphStats.totalNodes}
+            </span>
+            <span className="border border-border/70 bg-background/35 px-1 py-1">
+              孤点 {graphStats.isolated}
+            </span>
+            <span className="border border-border/70 bg-background/35 px-1 py-1">
+              叶子 {graphStats.leaf}
+            </span>
           </div>
         )}
       </div>

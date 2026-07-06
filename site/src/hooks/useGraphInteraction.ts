@@ -4,6 +4,8 @@ import type { GraphNode } from '@/lib/types';
 import { ALL_NODE_TYPES } from '@/lib/constants';
 import { ZOOM_THRESHOLDS } from '@/lib/graph-config';
 
+export type GraphTopologyMode = 'connected' | 'core' | 'all';
+
 interface TooltipState {
   x: number;
   y: number;
@@ -17,7 +19,15 @@ export function useGraphInteraction(cyRef: MutableRefObject<Core | null>) {
   const [typeFilters, setTypeFilters] = useState<Record<string, boolean>>(
     Object.fromEntries(ALL_NODE_TYPES.map((t) => [t, true]))
   );
+  const [topologyMode, setTopologyMode] = useState<GraphTopologyMode>('connected');
   const [tooltip, setTooltip] = useState<TooltipState | null>(null);
+
+  const nodePassesTopologyMode = useCallback((cy: Core, nodeId: string, mode: GraphTopologyMode) => {
+    const degree = cy.$id(nodeId).degree(false);
+    if (mode === 'core') return degree >= 2;
+    if (mode === 'connected') return degree >= 1;
+    return true;
+  }, []);
 
   // ── Update label visibility based on zoom ──
   const updateLabelVisibility = useCallback((cy: Core) => {
@@ -54,10 +64,14 @@ export function useGraphInteraction(cyRef: MutableRefObject<Core | null>) {
   }, []);
 
   // ── Apply type filters ──
-  const applyTypeFilters = useCallback((cy: Core, filters: Record<string, boolean>) => {
+  const applyVisibilityFilters = useCallback((
+    cy: Core,
+    filters: Record<string, boolean>,
+    mode: GraphTopologyMode,
+  ) => {
     cy.nodes().forEach((node) => {
       const type = node.data('type') as string;
-      if (filters[type] === false) {
+      if (filters[type] === false || !nodePassesTopologyMode(cy, node.id(), mode)) {
         node.addClass('filtered-out');
       } else {
         node.removeClass('filtered-out');
@@ -66,13 +80,18 @@ export function useGraphInteraction(cyRef: MutableRefObject<Core | null>) {
     cy.edges().forEach((edge) => {
       const srcType = edge.source().data('type') as string;
       const tgtType = edge.target().data('type') as string;
-      if (filters[srcType] === false || filters[tgtType] === false) {
+      const sourceHidden =
+        filters[srcType] === false || !nodePassesTopologyMode(cy, edge.source().id(), mode);
+      const targetHidden =
+        filters[tgtType] === false || !nodePassesTopologyMode(cy, edge.target().id(), mode);
+      if (sourceHidden || targetHidden) {
         edge.style('display', 'none');
       } else {
         edge.style('display', 'element');
       }
     });
-  }, []);
+    updateLabelVisibility(cy);
+  }, [nodePassesTopologyMode, updateLabelVisibility]);
 
   // ── Highlight a node and its neighborhood ──
   const highlightNode = useCallback((cy: Core, nodeId: string) => {
@@ -124,11 +143,20 @@ export function useGraphInteraction(cyRef: MutableRefObject<Core | null>) {
       const next = { ...prev, [type]: !prev[type] };
       const cy = cyRef.current;
       if (cy) {
-        applyTypeFilters(cy, next);
+        applyVisibilityFilters(cy, next, topologyMode);
       }
       return next;
     });
-  }, [cyRef, applyTypeFilters]);
+  }, [cyRef, applyVisibilityFilters, topologyMode]);
+
+  // ── Toggle topology/connectedness filter ──
+  const handleSetTopologyMode = useCallback((mode: GraphTopologyMode) => {
+    setTopologyMode(mode);
+    const cy = cyRef.current;
+    if (cy) {
+      applyVisibilityFilters(cy, typeFilters, mode);
+    }
+  }, [cyRef, applyVisibilityFilters, typeFilters]);
 
   // ── Show tooltip ──
   const showTooltip = useCallback((x: number, y: number, name: string, type: string, description: string) => {
@@ -143,13 +171,15 @@ export function useGraphInteraction(cyRef: MutableRefObject<Core | null>) {
   return {
     selectedNode,
     typeFilters,
+    topologyMode,
     tooltip,
     updateLabelVisibility,
-    applyTypeFilters,
+    applyVisibilityFilters,
     highlightNode,
     clearHighlight,
     handleSelectNode,
     handleToggleType,
+    handleSetTopologyMode,
     showTooltip,
     hideTooltip,
   };
