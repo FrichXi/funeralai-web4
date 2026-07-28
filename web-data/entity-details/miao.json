@@ -1,0 +1,85 @@
+{
+  "node": {
+    "id": "miao",
+    "name": "MiAO",
+    "type": "company",
+    "description": "估值20亿的AI游戏公司，开发了《五星好市民》",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI游戏",
+      "开发商"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "083",
+        "title": "估值20亿的AI游戏公司，做了款像素GTA",
+        "date": "2026-04-22",
+        "path": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+        "permalink": "/articles/083",
+        "markdown_link": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0216
+  },
+  "links": [
+    {
+      "source": "miao",
+      "target": "五星好市民",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiAO在测并认领的新游戏产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "083"
+      ],
+      "evidences": [
+        {
+          "article_id": "083",
+          "title": "估值20亿的AI游戏公司，做了款像素GTA",
+          "permalink": "/articles/083",
+          "markdown_link": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+          "path": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+          "date": "2026-04-22",
+          "label": "MiAO在测并认领的新游戏产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "吴萌",
+      "target": "miao",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "吴萌成立了新公司MiAO",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "083"
+      ],
+      "evidences": [
+        {
+          "article_id": "083",
+          "title": "估值20亿的AI游戏公司，做了款像素GTA",
+          "permalink": "/articles/083",
+          "markdown_link": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+          "path": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+          "date": "2026-04-22",
+          "label": "吴萌成立了新公司MiAO",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

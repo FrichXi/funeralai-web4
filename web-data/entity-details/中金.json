@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "中金",
+    "name": "中金",
+    "type": "company",
+    "description": "负责智谱IPO辅导的金融机构",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "IPO辅导",
+      "券商"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "006",
+        "title": "智谱的存在主义危机",
+        "date": "2025-06-25",
+        "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+        "permalink": "/articles/006",
+        "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0085
+  },
+  "links": [
+    {
+      "source": "中金",
+      "target": "智谱ai",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "中金担任智谱IPO的辅导机构",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "006"
+      ],
+      "evidences": [
+        {
+          "article_id": "006",
+          "title": "智谱的存在主义危机",
+          "permalink": "/articles/006",
+          "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "date": "2025-06-25",
+          "label": "中金担任智谱IPO的辅导机构",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,73 @@
+{
+  "node": {
+    "id": "砸盘两兄弟",
+    "name": "砸盘两兄弟",
+    "type": "company",
+    "description": "被指不擅长面向消费者整活的国内大模型公司",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "两兄弟"
+    ],
+    "tags": [
+      "国产大模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "048",
+        "title": "第一届Manus杯新加坡概念作文大赛",
+        "date": "2025-12-30",
+        "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+        "permalink": "/articles/048",
+        "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0172
+  },
+  "links": [
+    {
+      "source": "kimi",
+      "target": "砸盘两兄弟",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者锐评Kimi显著好于砸盘两兄弟",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "048"
+      ],
+      "evidences": [
+        {
+          "article_id": "048",
+          "title": "第一届Manus杯新加坡概念作文大赛",
+          "permalink": "/articles/048",
+          "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+          "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+          "date": "2025-12-30",
+          "label": "作者锐评Kimi显著好于砸盘两兄弟",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "砸盘两兄弟",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者锐评Kimi显著好于砸盘两兄弟",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

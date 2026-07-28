@@ -1,0 +1,356 @@
+{
+  "node": {
+    "id": "远识资本",
+    "name": "远识资本",
+    "type": "vc_firm",
+    "description": "被文章称为“宇宙第一FA”的财务顾问机构，为多家AI企业融资",
+    "mention_count": 5,
+    "article_count": 2,
+    "aliases": [
+      "远识"
+    ],
+    "tags": [
+      "FA",
+      "创投"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "085",
+        "title": "谁是宇宙第一FA",
+        "date": "2026-04-27",
+        "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "permalink": "/articles/085",
+        "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "087",
+        "title": "Vivix用13亿美金估值复活科比",
+        "date": "2026-05-06",
+        "path": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+        "permalink": "/articles/087",
+        "markdown_link": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 13,
+    "composite_weight": 0.1027
+  },
+  "links": [
+    {
+      "source": "a16z",
+      "target": "远识资本",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将远识制造共识的能力与a16z的公开喊单模式进行类比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "文章将远识制造共识的能力与a16z的公开喊单模式进行类比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "包凡",
+      "target": "远识资本",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章标题和正文对比两者，指出宇宙第一FA不是包凡而是远识",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "文章标题和正文对比两者，指出宇宙第一FA不是包凡而是远识",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "远识资本",
+      "target": "a16z",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将远识制造共识的能力与a16z的公开喊单模式进行类比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "远识资本",
+      "target": "包凡",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章标题和正文对比两者，指出宇宙第一FA不是包凡而是远识",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "远识资本",
+      "target": "vivix",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "文章提到Vivix是远识资本的代表作，推断存在投资关系",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "087"
+      ],
+      "evidences": [
+        {
+          "article_id": "087",
+          "title": "Vivix用13亿美金估值复活科比",
+          "permalink": "/articles/087",
+          "markdown_link": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+          "path": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+          "date": "2026-05-06",
+          "label": "文章提到Vivix是远识资本的代表作，推断存在投资关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "远识资本",
+      "target": "刘宇",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "远识资本投资了刘宇主导的Vivix项目",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "087"
+      ],
+      "evidences": [
+        {
+          "article_id": "087",
+          "title": "Vivix用13亿美金估值复活科比",
+          "permalink": "/articles/087",
+          "markdown_link": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+          "path": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+          "date": "2026-05-06",
+          "label": "远识资本投资了刘宇主导的Vivix项目",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "karpo",
+      "target": "远识资本",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "远识资本服务推介Karpo项目",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "远识资本服务推介Karpo项目",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "lineargame",
+      "target": "远识资本",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "远识资本运作LinearGame项目造势",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "远识资本运作LinearGame项目造势",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "lovart",
+      "target": "远识资本",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "远识作为FA服务并推介Lovart",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "远识作为FA服务并推介Lovart",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "rezona",
+      "target": "远识资本",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "远识资本深度参与运作Rezona的多轮炒作融资",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "远识资本深度参与运作Rezona的多轮炒作融资",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "vivix",
+      "target": "远识资本",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "远识资本作为推手参与炒热Vivix",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "远识资本作为推手参与炒热Vivix",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "youware",
+      "target": "远识资本",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "Youware的FA也是远识资本",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "Youware的FA也是远识资本",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "吴碧薇",
+      "target": "远识资本",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "吴碧薇是远识资本的合伙人",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "吴碧薇是远识资本的合伙人",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

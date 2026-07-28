@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "onlyfans",
+    "name": "onlyfans",
+    "type": "product",
+    "description": "内容订阅平台，文中建议7verse可以重做其AI化版本",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "创作者经济"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "087",
+        "title": "Vivix用13亿美金估值复活科比",
+        "date": "2026-05-06",
+        "path": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+        "permalink": "/articles/087",
+        "markdown_link": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0221
+  },
+  "links": [
+    {
+      "source": "7verse",
+      "target": "onlyfans",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者建议7verse往NSFW方向努力，将onlyfans的模式用AI重做一遍",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "087"
+      ],
+      "evidences": [
+        {
+          "article_id": "087",
+          "title": "Vivix用13亿美金估值复活科比",
+          "permalink": "/articles/087",
+          "markdown_link": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+          "path": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+          "date": "2026-05-06",
+          "label": "作者建议7verse往NSFW方向努力，将onlyfans的模式用AI重做一遍",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "onlyfans",
+      "target": "7verse",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者建议7verse往NSFW方向努力，将onlyfans的模式用AI重做一遍",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,87 @@
+{
+  "node": {
+    "id": "garry-tan",
+    "name": "Garry Tan",
+    "type": "person",
+    "description": "YC总裁，开源了AI软件工厂gstack并进行高调宣传。",
+    "mention_count": 4,
+    "article_count": 1,
+    "aliases": [
+      "猕猴桃先生"
+    ],
+    "tags": [
+      "AI炒作",
+      "向上管理"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "074",
+        "title": "做个人吧，别做AI",
+        "date": "2026-03-22",
+        "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+        "permalink": "/articles/074",
+        "markdown_link": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+        "mention_count": 4
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.024
+  },
+  "links": [
+    {
+      "source": "garry-tan",
+      "target": "yc",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "Garry Tan担任YC总裁。",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "074"
+      ],
+      "evidences": [
+        {
+          "article_id": "074",
+          "title": "做个人吧，别做AI",
+          "permalink": "/articles/074",
+          "markdown_link": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "date": "2026-03-22",
+          "label": "Garry Tan担任YC总裁。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "garry-tan",
+      "target": "gstack",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Garry Tan开源并大力宣传了gstack项目。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "074"
+      ],
+      "evidences": [
+        {
+          "article_id": "074",
+          "title": "做个人吧，别做AI",
+          "permalink": "/articles/074",
+          "markdown_link": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "date": "2026-03-22",
+          "label": "Garry Tan开源并大力宣传了gstack项目。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

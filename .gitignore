@@ -22,6 +22,7 @@ __pycache__/
 site/.next/
 site/out/
 site/node_modules/
+**/node_modules/
 site/.vercel/
 *.tsbuildinfo
 
@@ -44,7 +45,9 @@ website/
 # Prebuild generated copy
 site/public/data/
 site/public/test/
+site/public/release-manifest.json
 site/.stage-test-trash/
+site/.release-receipts/
 
 # Claude Code local config
 .claude/

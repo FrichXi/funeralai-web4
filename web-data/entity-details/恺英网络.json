@@ -1,0 +1,85 @@
+{
+  "node": {
+    "id": "恺英网络",
+    "name": "恺英网络",
+    "type": "company",
+    "description": "游戏公司，EVE的投资方",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "投资方",
+      "游戏公司"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "094",
+        "title": "大部分男的聊天水平不如EVE",
+        "date": "2026-05-21",
+        "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+        "permalink": "/articles/094",
+        "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0226
+  },
+  "links": [
+    {
+      "source": "恺英网络",
+      "target": "eve",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "文中明确提到恺英网络是EVE的投资方",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "094"
+      ],
+      "evidences": [
+        {
+          "article_id": "094",
+          "title": "大部分男的聊天水平不如EVE",
+          "permalink": "/articles/094",
+          "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "date": "2026-05-21",
+          "label": "文中明确提到恺英网络是EVE的投资方",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "恺英网络",
+      "target": "自然选择",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "基于恺英网络投资了EVE，可合理推断其投资了开发EVE的母公司自然选择",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "094"
+      ],
+      "evidences": [
+        {
+          "article_id": "094",
+          "title": "大部分男的聊天水平不如EVE",
+          "permalink": "/articles/094",
+          "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "date": "2026-05-21",
+          "label": "基于恺英网络投资了EVE，可合理推断其投资了开发EVE的母公司自然选择",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

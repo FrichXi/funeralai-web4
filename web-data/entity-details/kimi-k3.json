@@ -1,0 +1,179 @@
+{
+  "node": {
+    "id": "kimi-k3",
+    "name": "Kimi K3",
+    "type": "product",
+    "description": "月之暗面发布的大模型，前端代码生成与视觉理解能力突出",
+    "mention_count": 8,
+    "article_count": 1,
+    "aliases": [
+      "K3"
+    ],
+    "tags": [
+      "前端生成",
+      "多模态",
+      "大模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "122",
+        "title": "Kimi K3打响前端闪电战",
+        "date": "2026-07-22",
+        "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+        "permalink": "/articles/122",
+        "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+        "mention_count": 8
+      }
+    ],
+    "degree": 7,
+    "composite_weight": 0.0736
+  },
+  "links": [
+    {
+      "source": "claude-fable-5",
+      "target": "kimi-k3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "评测显示K3综合能力仅次于5.6 Sol和Fable 5",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "评测显示K3综合能力仅次于5.6 Sol和Fable 5",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "source": "kimi-k3",
+      "target": "claude-fable-5",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "评测显示K3综合能力仅次于5.6 Sol和Fable 5",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "glm-5-2",
+      "target": "kimi-k3",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "K3显著超越GLM 5.2，两者争夺国产模型头部位置",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "K3显著超越GLM 5.2，两者争夺国产模型头部位置",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi-k3",
+      "target": "glm-5-2",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "K3显著超越GLM 5.2，两者争夺国产模型头部位置",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "沐秋",
+      "target": "kimi-k3",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "沐秋批评K3宣传片软蒸馏Fable 5",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "沐秋批评K3宣传片软蒸馏Fable 5",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "月之暗面",
+      "target": "kimi-k3",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "月之暗面开发Kimi K3模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "杨植麟",
+      "target": "kimi-k3",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Kimi开发了K3模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "Kimi开发了K3模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

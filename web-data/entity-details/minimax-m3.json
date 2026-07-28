@@ -1,0 +1,284 @@
+{
+  "node": {
+    "id": "minimax-m3",
+    "name": "MiniMax M3",
+    "type": "product",
+    "description": "MiniMax推出的大语言模型，支持1M上下文，在编程和智能体任务上表现前沿",
+    "mention_count": 32,
+    "article_count": 3,
+    "aliases": [
+      "M3"
+    ],
+    "tags": [
+      "LLM",
+      "多模态",
+      "大模型",
+      "长上下文"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "117",
+        "title": "我来给MiniMax道歉了",
+        "date": "2026-07-11",
+        "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "permalink": "/articles/117",
+        "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "mention_count": 16
+      },
+      {
+        "article_id": "116",
+        "title": "民办大模型MiniMax努力专升本",
+        "date": "2026-07-09",
+        "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "permalink": "/articles/116",
+        "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "mention_count": 13
+      },
+      {
+        "article_id": "122",
+        "title": "Kimi K3打响前端闪电战",
+        "date": "2026-07-22",
+        "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+        "permalink": "/articles/122",
+        "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 8,
+    "composite_weight": 0.1564
+  },
+  "links": [
+    {
+      "source": "deepseek-v4",
+      "target": "minimax-m3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章建议在复杂任务中用DeepSeek V4替代MiniMax M3",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "116"
+      ],
+      "evidences": [
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "文章建议在复杂任务中用DeepSeek V4替代MiniMax M3",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "glm-5-2",
+      "target": "minimax-m3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在CEO-Bench评测和网站重构任务中进行对比测试",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "116",
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "两者在CEO-Bench长程经营模拟评测中进行了直接对比",
+          "weight": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "在CEO-Bench评测和网站重构任务中进行对比测试",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax-m3",
+      "target": "deepseek-v4",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章建议在复杂任务中用DeepSeek V4替代MiniMax M3",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "minimax-m3",
+      "target": "glm-5-2",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在CEO-Bench评测和网站重构任务中进行对比测试",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "016",
+      "target": "minimax-m3",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "016通过CEO-Bench测试揭示MiniMax M3商业经营逻辑缺陷",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "116"
+      ],
+      "evidences": [
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "016通过CEO-Bench测试揭示MiniMax M3商业经营逻辑缺陷",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "朱亦辉",
+      "target": "minimax-m3",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "朱亦辉认为M3核心科技是叙事能力，而非真实技术水平",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "朱亦辉认为M3核心科技是叙事能力，而非真实技术水平",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "minimax-m3",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax开发并发布了M3模型",
+      "weight": 3,
+      "strength": 4,
+      "effective_weight": 15,
+      "article_count": 3,
+      "evidence_articles": [
+        "116",
+        "117",
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "MiniMax开发了M3模型",
+          "weight": 1
+        },
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "MiniMax开发了M3大语言模型",
+          "weight": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "MiniMax开发并发布了M3模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "minimax-m3",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "咸鱼评价MiniMax M3复刻LibTV前端视觉效果逼真",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "116"
+      ],
+      "evidences": [
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "咸鱼评价MiniMax M3复刻LibTV前端视觉效果逼真",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "minimax-m3",
+      "target": "智谱ai",
+      "score": 0.4607,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "116",
+        "117",
+        "122"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

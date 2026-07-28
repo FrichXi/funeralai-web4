@@ -1,0 +1,110 @@
+{
+  "node": {
+    "id": "ebay",
+    "name": "eBay",
+    "type": "company",
+    "description": "早期的C2C模式电商平台，被用来与当前的Agent平台现状做对比。",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "C2C平台"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "018",
+        "title": "电骡快跑，Mulerun想做AI淘宝",
+        "date": "2025-09-02",
+        "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+        "permalink": "/articles/018",
+        "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0298
+  },
+  "links": [
+    {
+      "source": "ebay",
+      "target": "mulerun",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Mulerun目前由于收取手续费等原因，形态更像eBay而不是淘宝。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "018"
+      ],
+      "evidences": [
+        {
+          "article_id": "018",
+          "title": "电骡快跑，Mulerun想做AI淘宝",
+          "permalink": "/articles/018",
+          "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "date": "2025-09-02",
+          "label": "作者认为Mulerun目前由于收取手续费等原因，形态更像eBay而不是淘宝。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "mulerun",
+      "target": "ebay",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Mulerun目前由于收取手续费等原因，形态更像eBay而不是淘宝。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "ebay",
+      "target": "淘宝",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "早期电商时代模式之争的经典竞争对手。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "018"
+      ],
+      "evidences": [
+        {
+          "article_id": "018",
+          "title": "电骡快跑，Mulerun想做AI淘宝",
+          "permalink": "/articles/018",
+          "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "date": "2025-09-02",
+          "label": "早期电商时代模式之争的经典竞争对手。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "淘宝",
+      "target": "ebay",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "早期电商时代模式之争的经典竞争对手。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

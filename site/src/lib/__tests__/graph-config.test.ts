@@ -88,7 +88,7 @@ describe('buildElements', () => {
     const elements = buildElements(data);
     expect(elements).toHaveLength(2); // 1 node + 1 edge
     expect(elements[0].data.id).toBe('openai');
-    expect(elements[1].data.source).toBe('openai');
+    expect((elements[1].data as { source: string }).source).toBe('openai');
   });
 
   it('handles empty data', () => {

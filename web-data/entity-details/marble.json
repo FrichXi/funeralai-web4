@@ -1,0 +1,98 @@
+{
+  "node": {
+    "id": "marble",
+    "name": "Marble",
+    "type": "product",
+    "description": "李飞飞相关的生成可拓展可操纵3D世界的产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "3D生成",
+      "世界模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "056",
+        "title": "PixVerse像做梦一样做世界模型",
+        "date": "2026-01-23",
+        "path": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+        "permalink": "/articles/056",
+        "markdown_link": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0239
+  },
+  "links": [
+    {
+      "source": "genie",
+      "target": "marble",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者被并列为生成可拓展可操纵3D世界路线的世界模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "056"
+      ],
+      "evidences": [
+        {
+          "article_id": "056",
+          "title": "PixVerse像做梦一样做世界模型",
+          "permalink": "/articles/056",
+          "markdown_link": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+          "path": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+          "date": "2026-01-23",
+          "label": "两者被并列为生成可拓展可操纵3D世界路线的世界模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "marble",
+      "target": "genie",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者被并列为生成可拓展可操纵3D世界路线的世界模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "李飞飞",
+      "target": "marble",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "文章提及Marble是李飞飞做的世界模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "056"
+      ],
+      "evidences": [
+        {
+          "article_id": "056",
+          "title": "PixVerse像做梦一样做世界模型",
+          "permalink": "/articles/056",
+          "markdown_link": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+          "path": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+          "date": "2026-01-23",
+          "label": "文章提及Marble是李飞飞做的世界模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

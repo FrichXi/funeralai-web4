@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "shellagent",
+    "name": "ShellAgent",
+    "type": "product",
+    "description": "MyShell推出的通过文字输入生成Agent的AI功能",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI开发工具",
+      "Agent生成"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "013",
+        "title": "MyShell说明AI创业真是发币",
+        "date": "2025-08-01",
+        "path": "articles/013_2025-08-01_葬爱咸鱼_MyShell说明AI创业真是发币.md",
+        "permalink": "/articles/013",
+        "markdown_link": "articles/013_2025-08-01_葬爱咸鱼_MyShell说明AI创业真是发币.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0095
+  },
+  "links": [
+    {
+      "source": "myshell",
+      "target": "shellagent",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MyShell主推并开发了ShellAgent功能",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "013"
+      ],
+      "evidences": [
+        {
+          "article_id": "013",
+          "title": "MyShell说明AI创业真是发币",
+          "permalink": "/articles/013",
+          "markdown_link": "articles/013_2025-08-01_葬爱咸鱼_MyShell说明AI创业真是发币.md",
+          "path": "articles/013_2025-08-01_葬爱咸鱼_MyShell说明AI创业真是发币.md",
+          "date": "2025-08-01",
+          "label": "MyShell主推并开发了ShellAgent功能",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

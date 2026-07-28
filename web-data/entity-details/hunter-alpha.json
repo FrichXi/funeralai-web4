@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "hunter-alpha",
+    "name": "Hunter Alpha",
+    "type": "product",
+    "description": "小米推出的匿名测试模型",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "匿名模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "109",
+        "title": "智谱与Anthropic是母凭子贵",
+        "date": "2026-06-23",
+        "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "permalink": "/articles/109",
+        "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0152
+  },
+  "links": [
+    {
+      "source": "小米",
+      "target": "hunter-alpha",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "小米上线了名为Hunter Alpha的匿名模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "109"
+      ],
+      "evidences": [
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "date": "2026-06-23",
+          "label": "小米上线了名为Hunter Alpha的匿名模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

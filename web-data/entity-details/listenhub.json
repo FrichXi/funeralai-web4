@@ -1,0 +1,325 @@
+{
+  "node": {
+    "id": "listenhub",
+    "name": "ListenHub",
+    "type": "product",
+    "description": "在文中作为对比对象，被认为前途不如icon和Lovart的AI产品",
+    "mention_count": 10,
+    "article_count": 3,
+    "aliases": [],
+    "tags": [
+      "AI播客",
+      "AI生成",
+      "科普视频",
+      "语音生成"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "059",
+        "title": "「Dokie不如ListenHub」",
+        "date": "2026-01-28",
+        "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "permalink": "/articles/059",
+        "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "mention_count": 8
+      },
+      {
+        "article_id": "014",
+        "title": "除了投资人，没人需要AI播客",
+        "date": "2025-08-07",
+        "path": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+        "permalink": "/articles/014",
+        "markdown_link": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "001",
+        "title": "炒作狗才做「一句话生成」AI",
+        "date": "2025-05-26",
+        "path": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
+        "permalink": "/articles/001",
+        "markdown_link": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 13,
+    "composite_weight": 0.1017
+  },
+  "links": [
+    {
+      "source": "chatpods",
+      "target": "listenhub",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将成功转型的ListenHub与凉透的ChatPods进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "059"
+      ],
+      "evidences": [
+        {
+          "article_id": "059",
+          "title": "「Dokie不如ListenHub」",
+          "permalink": "/articles/059",
+          "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "date": "2026-01-28",
+          "label": "文章将成功转型的ListenHub与凉透的ChatPods进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "icon",
+      "target": "listenhub",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章明确对比，认为icon比ListenHub更有前途",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "001"
+      ],
+      "evidences": [
+        {
+          "article_id": "001",
+          "title": "炒作狗才做「一句话生成」AI",
+          "permalink": "/articles/001",
+          "markdown_link": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
+          "path": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
+          "date": "2025-05-26",
+          "label": "文章明确对比，认为icon比ListenHub更有前途",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "listenhub",
+      "target": "chatpods",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将成功转型的ListenHub与凉透的ChatPods进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "listenhub",
+      "target": "icon",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章明确对比，认为icon比ListenHub更有前途",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "listenhub",
+      "target": "lovart",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章明确对比，认为Lovart比ListenHub更有前途",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "001"
+      ],
+      "evidences": [
+        {
+          "article_id": "001",
+          "title": "炒作狗才做「一句话生成」AI",
+          "permalink": "/articles/001",
+          "markdown_link": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
+          "path": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
+          "date": "2025-05-26",
+          "label": "文章明确对比，认为Lovart比ListenHub更有前途",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "listenhub",
+      "target": "来福电台",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章评价来福电台的语音效果不如ListenHub",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "014"
+      ],
+      "evidences": [
+        {
+          "article_id": "014",
+          "title": "除了投资人，没人需要AI播客",
+          "permalink": "/articles/014",
+          "markdown_link": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "path": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "date": "2025-08-07",
+          "label": "文章评价来福电台的语音效果不如ListenHub",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "lovart",
+      "target": "listenhub",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章明确对比，认为Lovart比ListenHub更有前途",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "来福电台",
+      "target": "listenhub",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章评价来福电台的语音效果不如ListenHub",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "dokie",
+      "target": "listenhub",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "标题及内文中直接对比了Dokie与ListenHub的表现",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "059"
+      ],
+      "evidences": [
+        {
+          "article_id": "059",
+          "title": "「Dokie不如ListenHub」",
+          "permalink": "/articles/059",
+          "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "date": "2026-01-28",
+          "label": "标题及内文中直接对比了Dokie与ListenHub的表现",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "listenhub",
+      "target": "dokie",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "标题及内文中直接对比了Dokie与ListenHub的表现",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "橘子",
+      "target": "listenhub",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "橘子创立ListenHub",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 5,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "listenhub",
+      "target": "nano-banana",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "ListenHub使用Nano banana来生成科普PPT视频",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "059"
+      ],
+      "evidences": [
+        {
+          "article_id": "059",
+          "title": "「Dokie不如ListenHub」",
+          "permalink": "/articles/059",
+          "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "date": "2026-01-28",
+          "label": "ListenHub使用Nano banana来生成科普PPT视频",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "橘子",
+      "target": "listenhub",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "ListenHub是橘子创业开发的产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "059"
+      ],
+      "evidences": [
+        {
+          "article_id": "059",
+          "title": "「Dokie不如ListenHub」",
+          "permalink": "/articles/059",
+          "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "date": "2026-01-28",
+          "label": "ListenHub是橘子创业开发的产品",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "listenhub",
+      "target": "张月光",
+      "score": 0.497,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "059"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

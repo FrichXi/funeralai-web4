@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "网易",
+    "name": "网易",
+    "type": "company",
+    "description": "互联网巨头，旗下有道推出了龙虾产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "互联网大厂"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "116",
+        "title": "民办大模型MiniMax努力专升本",
+        "date": "2026-07-09",
+        "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "permalink": "/articles/116",
+        "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.022
+  },
+  "links": [
+    {
+      "source": "网易",
+      "target": "有道龙虾",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "网易有道更新了龙虾产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "116"
+      ],
+      "evidences": [
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "网易有道更新了龙虾产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "丁磊",
+      "target": "网易",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "文中提到“被丁磊裁掉的外包”，隐含丁磊为网易决策者/创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "116"
+      ],
+      "evidences": [
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "文中提到“被丁磊裁掉的外包”，隐含丁磊为网易决策者/创始人",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

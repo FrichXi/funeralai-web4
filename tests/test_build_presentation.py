@@ -8,9 +8,22 @@ from build_presentation import (
     build_article_index,
     build_article_payloads,
     normalize_article_markdown,
+    stable_presentation_timestamp,
     validate_article_payloads,
     validate_graph_metadata,
 )
+
+
+def test_stable_presentation_timestamp_uses_latest_ready_extraction():
+    manifest = {
+        "articles": {
+            "001": {"status": "ready", "extracted_at": "2026-07-20T10:00:00Z"},
+            "002": {"status": "ready", "extracted_at": "2026-07-28T06:01:50Z"},
+            "003": {"status": "removed", "extracted_at": "2026-07-29T00:00:00Z"},
+        }
+    }
+
+    assert stable_presentation_timestamp(manifest) == "2026-07-28T06:01:50Z"
 
 
 def _article(article_id: str, title: str = "Title") -> dict:

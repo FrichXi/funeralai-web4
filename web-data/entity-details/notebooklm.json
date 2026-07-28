@@ -1,0 +1,186 @@
+{
+  "node": {
+    "id": "notebooklm",
+    "name": "NotebookLM",
+    "type": "product",
+    "description": "定位为“音频概览”的AI知识库及语音摘要工具",
+    "mention_count": 4,
+    "article_count": 3,
+    "aliases": [
+      "Audio Overviews"
+    ],
+    "tags": [
+      "AI播客",
+      "知识库",
+      "知识应用",
+      "语音摘要",
+      "音频概览"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "014",
+        "title": "除了投资人，没人需要AI播客",
+        "date": "2025-08-07",
+        "path": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+        "permalink": "/articles/014",
+        "markdown_link": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "065",
+        "title": "豆包有Seed，火山有种",
+        "date": "2026-02-14",
+        "path": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+        "permalink": "/articles/065",
+        "markdown_link": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "022",
+        "title": "GenSpark重做百度",
+        "date": "2025-09-15",
+        "path": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+        "permalink": "/articles/022",
+        "markdown_link": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 7,
+    "composite_weight": 0.056
+  },
+  "links": [
+    {
+      "source": "notebooklm",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者对比了使用豆包和NotebookLM完成同一任务的体验",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "065"
+      ],
+      "evidences": [
+        {
+          "article_id": "065",
+          "title": "豆包有Seed，火山有种",
+          "permalink": "/articles/065",
+          "markdown_link": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+          "path": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+          "date": "2026-02-14",
+          "label": "作者对比了使用豆包和NotebookLM完成同一任务的体验",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包",
+      "target": "notebooklm",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者对比了使用豆包和NotebookLM完成同一任务的体验",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "genspark",
+      "target": "notebooklm",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "GenSpark通过整合AI播客等类似功能，试图替代/竞争NotebookLM",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "022"
+      ],
+      "evidences": [
+        {
+          "article_id": "022",
+          "title": "GenSpark重做百度",
+          "permalink": "/articles/022",
+          "markdown_link": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+          "path": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+          "date": "2025-09-15",
+          "label": "GenSpark通过整合AI播客等类似功能，试图替代/竞争NotebookLM",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "notebooklm",
+      "target": "genspark",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "GenSpark通过整合AI播客等类似功能，试图替代/竞争NotebookLM",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "notebooklm",
+      "target": "youmind",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "YouMind和NotebookLM都是AI知识管理产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "youmind",
+      "target": "notebooklm",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "YouMind和NotebookLM都是AI知识管理产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "谷歌",
+      "target": "notebooklm",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "谷歌开发并推出了NotebookLM工具",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "014"
+      ],
+      "evidences": [
+        {
+          "article_id": "014",
+          "title": "除了投资人，没人需要AI播客",
+          "permalink": "/articles/014",
+          "markdown_link": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "path": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "date": "2025-08-07",
+          "label": "谷歌开发并推出了NotebookLM工具",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

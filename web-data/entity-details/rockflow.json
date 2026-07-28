@@ -1,0 +1,95 @@
+{
+  "node": {
+    "id": "rockflow",
+    "name": "Rockflow",
+    "type": "product",
+    "description": "被蚂蚁投资的应用，主要接受存量美股/港股用户",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "055",
+        "title": "来认识下2025年最活跃的CVC",
+        "date": "2026-01-22",
+        "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "permalink": "/articles/055",
+        "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0253
+  },
+  "links": [
+    {
+      "source": "rockflow",
+      "target": "富途牛牛",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者期待Rockflow早日成为富途牛牛（对标）",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "作者期待Rockflow早日成为富途牛牛（对标）",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "富途牛牛",
+      "target": "rockflow",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者期待Rockflow早日成为富途牛牛（对标）",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "rockflow",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "蚂蚁投资了Rockflow",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "蚂蚁投资了Rockflow",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,884 @@
+{
+  "node": {
+    "id": "cherry-studio",
+    "name": "Cherry Studio",
+    "type": "product",
+    "description": "调取大模型API的第三方开源会话管理工具，支持对话分支功能",
+    "mention_count": 85,
+    "article_count": 11,
+    "aliases": [
+      "Cherry",
+      "Cherry studio",
+      "🍒"
+    ],
+    "tags": [
+      "Agent",
+      "ChatBot",
+      "Chatbox客户端",
+      "Claude code套壳",
+      "会话管理",
+      "前端界面",
+      "大模型API",
+      "套壳应用",
+      "模型客户端",
+      "第三方客户端",
+      "编程Agent",
+      "自然语言IDE"
+    ],
+    "references": 11,
+    "source_article_count": 11,
+    "source_articles": [
+      {
+        "article_id": "070",
+        "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+        "date": "2026-03-13",
+        "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+        "permalink": "/articles/070",
+        "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+        "mention_count": 52
+      },
+      {
+        "article_id": "021",
+        "title": "Cherry Studio是一个伟大的AI工具",
+        "date": "2025-09-11",
+        "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+        "permalink": "/articles/021",
+        "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+        "mention_count": 16
+      },
+      {
+        "article_id": "036",
+        "title": "灵感式写作",
+        "date": "2025-11-19",
+        "path": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+        "permalink": "/articles/036",
+        "markdown_link": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+        "mention_count": 6
+      },
+      {
+        "article_id": "020",
+        "title": "半年来目睹之AI创业怪现状",
+        "date": "2025-09-08",
+        "path": "articles/020_2025-09-08_葬爱咸鱼_半年来目睹之AI创业怪现状.md",
+        "permalink": "/articles/020",
+        "markdown_link": "articles/020_2025-09-08_葬爱咸鱼_半年来目睹之AI创业怪现状.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "040",
+        "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+        "date": "2025-12-12",
+        "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "permalink": "/articles/040",
+        "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "076",
+        "title": "葬CLI如闪电般上线",
+        "date": "2026-03-26",
+        "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+        "permalink": "/articles/076",
+        "markdown_link": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "066",
+        "title": "AI编程创造世界",
+        "date": "2026-02-24",
+        "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "permalink": "/articles/066",
+        "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "060",
+        "title": "Clawdbot是一场马斯克发动的中登炒作",
+        "date": "2026-01-30",
+        "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+        "permalink": "/articles/060",
+        "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "031",
+        "title": "追忆AI四小龙，热潮是怎么完蛋的",
+        "date": "2025-10-27",
+        "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "permalink": "/articles/031",
+        "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "029",
+        "title": "AI写作指南3.0编程式写作",
+        "date": "2025-10-16",
+        "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "permalink": "/articles/029",
+        "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "027",
+        "title": "AI写作指南3.0编程式写作",
+        "date": "2025-10-09",
+        "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "permalink": "/articles/027",
+        "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 29,
+    "composite_weight": 0.2913
+  },
+  "links": [
+    {
+      "source": "ai-studio",
+      "target": "cherry-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了Cherry Studio和Google AI Studio在分支功能、前端UI及加载速度上的差异",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "021"
+      ],
+      "evidences": [
+        {
+          "article_id": "021",
+          "title": "Cherry Studio是一个伟大的AI工具",
+          "permalink": "/articles/021",
+          "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "date": "2025-09-11",
+          "label": "文章对比了Cherry Studio和Google AI Studio在分支功能、前端UI及加载速度上的差异",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatbox",
+      "target": "cherry-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作为同类客户端产品被放在一起比较",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "070"
+      ],
+      "evidences": [
+        {
+          "article_id": "070",
+          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+          "permalink": "/articles/070",
+          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "date": "2026-03-13",
+          "label": "作为同类客户端产品被放在一起比较",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "cherry-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了Cherry Studio与ChatGPT在对话分支功能上的体验和推出时间",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "021",
+        "040"
+      ],
+      "evidences": [
+        {
+          "article_id": "040",
+          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+          "permalink": "/articles/040",
+          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "date": "2025-12-12",
+          "label": "Cherry Studio的分支功能被拿来对比ChatGPT也拥有的功能",
+          "weight": 1
+        },
+        {
+          "article_id": "021",
+          "title": "Cherry Studio是一个伟大的AI工具",
+          "permalink": "/articles/021",
+          "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "date": "2025-09-11",
+          "label": "文章对比了Cherry Studio与ChatGPT在对话分支功能上的体验和推出时间",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cherry-studio",
+      "target": "ai-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了Cherry Studio和Google AI Studio在分支功能、前端UI及加载速度上的差异",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "cherry-studio",
+      "target": "chatbox",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作为同类客户端产品被放在一起比较",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "cherry-studio",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了Cherry Studio与ChatGPT在对话分支功能上的体验和推出时间",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "cherry-studio",
+      "target": "cursor",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Cherry Studio比作自然语言领域的IDE，即写作版的Cursor",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "021"
+      ],
+      "evidences": [
+        {
+          "article_id": "021",
+          "title": "Cherry Studio是一个伟大的AI工具",
+          "permalink": "/articles/021",
+          "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "date": "2025-09-11",
+          "label": "作者将Cherry Studio比作自然语言领域的IDE，即写作版的Cursor",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cherry-studio",
+      "target": "gemini",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章指出早期Gemini网页端没有Cherry Studio那样的分支功能",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "021"
+      ],
+      "evidences": [
+        {
+          "article_id": "021",
+          "title": "Cherry Studio是一个伟大的AI工具",
+          "permalink": "/articles/021",
+          "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "date": "2025-09-11",
+          "label": "文章指出早期Gemini网页端没有Cherry Studio那样的分支功能",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cherry-studio",
+      "target": "proma",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Proma的核心使用体验与Cherry studio没有区别",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "066"
+      ],
+      "evidences": [
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "Proma的核心使用体验与Cherry studio没有区别",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cherry-studio",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Cherry studio在排行榜中位列Qwen之前",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "076"
+      ],
+      "evidences": [
+        {
+          "article_id": "076",
+          "title": "葬CLI如闪电般上线",
+          "permalink": "/articles/076",
+          "markdown_link": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+          "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+          "date": "2026-03-26",
+          "label": "Cherry studio在排行榜中位列Qwen之前",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cherry-studio",
+      "target": "wps",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "投资人认为Cherry Studio是下一代飞书、下一代WPS",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "070"
+      ],
+      "evidences": [
+        {
+          "article_id": "070",
+          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+          "permalink": "/articles/070",
+          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "date": "2026-03-13",
+          "label": "投资人认为Cherry Studio是下一代飞书、下一代WPS",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cherry-studio",
+      "target": "扫描全能王",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Cherry Studio比喻为扫描全能王一样简单且真正有用的工具",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "021"
+      ],
+      "evidences": [
+        {
+          "article_id": "021",
+          "title": "Cherry Studio是一个伟大的AI工具",
+          "permalink": "/articles/021",
+          "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "date": "2025-09-11",
+          "label": "文章将Cherry Studio比喻为扫描全能王一样简单且真正有用的工具",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cherry-studio",
+      "target": "飞书",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Yinsen认为Cherry Studio在产品形态和未来企业入口的目标上与飞书很像",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "070"
+      ],
+      "evidences": [
+        {
+          "article_id": "070",
+          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+          "permalink": "/articles/070",
+          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "date": "2026-03-13",
+          "label": "Yinsen认为Cherry Studio在产品形态和未来企业入口的目标上与飞书很像",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cursor",
+      "target": "cherry-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Cherry Studio比作自然语言领域的IDE，即写作版的Cursor",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "gemini",
+      "target": "cherry-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章指出早期Gemini网页端没有Cherry Studio那样的分支功能",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "proma",
+      "target": "cherry-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Proma的核心使用体验与Cherry studio没有区别",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qwen",
+      "target": "cherry-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Cherry studio在排行榜中位列Qwen之前",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "wps",
+      "target": "cherry-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "投资人认为Cherry Studio是下一代飞书、下一代WPS",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "扫描全能王",
+      "target": "cherry-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Cherry Studio比喻为扫描全能王一样简单且真正有用的工具",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "飞书",
+      "target": "cherry-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Yinsen认为Cherry Studio在产品形态和未来企业入口的目标上与飞书很像",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "cherry-studio",
+      "target": "豆包",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Yinsen曾短暂地对豆包抢占市场感到失落，后认为两者目标受众不同",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "070"
+      ],
+      "evidences": [
+        {
+          "article_id": "070",
+          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+          "permalink": "/articles/070",
+          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "date": "2026-03-13",
+          "label": "Yinsen曾短暂地对豆包抢占市场感到失落，后认为两者目标受众不同",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包",
+      "target": "cherry-studio",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Yinsen曾短暂地对豆包抢占市场感到失落，后认为两者目标受众不同",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "yinsen",
+      "target": "cherry-studio",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "Yinsen是Cherry studio的创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "076"
+      ],
+      "evidences": [
+        {
+          "article_id": "076",
+          "title": "葬CLI如闪电般上线",
+          "permalink": "/articles/076",
+          "markdown_link": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+          "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+          "date": "2026-03-26",
+          "label": "Yinsen是Cherry studio的创始人",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cherry-studio",
+      "target": "claude",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Cherry Studio是Claude Code的前端界面套壳",
+      "weight": 6,
+      "strength": 2,
+      "effective_weight": 18,
+      "article_count": 6,
+      "evidence_articles": [
+        "027",
+        "029",
+        "031",
+        "036",
+        "060",
+        "070"
+      ],
+      "evidences": [
+        {
+          "article_id": "070",
+          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+          "permalink": "/articles/070",
+          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "date": "2026-03-13",
+          "label": "Cherry Studio坚定不移地套壳/集成了Claude Code",
+          "weight": 1
+        },
+        {
+          "article_id": "060",
+          "title": "Clawdbot是一场马斯克发动的中登炒作",
+          "permalink": "/articles/060",
+          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "date": "2026-01-30",
+          "label": "Cherry studio被列为Claude code套壳大赛的参赛产品之一。",
+          "weight": 1
+        },
+        {
+          "article_id": "036",
+          "title": "灵感式写作",
+          "permalink": "/articles/036",
+          "markdown_link": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "path": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "date": "2025-11-19",
+          "label": "Cherry Studio客户端内集成了Claude Code的SDK",
+          "weight": 1
+        },
+        {
+          "article_id": "031",
+          "title": "追忆AI四小龙，热潮是怎么完蛋的",
+          "permalink": "/articles/031",
+          "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "date": "2025-10-27",
+          "label": "Cherry Studio集成了Claude Code SDK",
+          "weight": 1
+        },
+        {
+          "article_id": "029",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/029",
+          "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-16",
+          "label": "Cherry Studio作为前端界面套壳并集成了Claude Code",
+          "weight": 1
+        },
+        {
+          "article_id": "027",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/027",
+          "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-09",
+          "label": "Cherry Studio是Claude Code的前端界面套壳",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cherry-studio",
+      "target": "kimi",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Cherry Studio支持切换并直接调用Kimi(K2 Thinking)模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "036"
+      ],
+      "evidences": [
+        {
+          "article_id": "036",
+          "title": "灵感式写作",
+          "permalink": "/articles/036",
+          "markdown_link": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "path": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "date": "2025-11-19",
+          "label": "Cherry Studio支持切换并直接调用Kimi(K2 Thinking)模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cherry-studio",
+      "target": "openclaw",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Cherry Studio推出了普通用户安装OpenClaw最简单的方式",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "070"
+      ],
+      "evidences": [
+        {
+          "article_id": "070",
+          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+          "permalink": "/articles/070",
+          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "date": "2026-03-13",
+          "label": "Cherry Studio推出了普通用户安装OpenClaw最简单的方式",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cherry-studio",
+      "target": "智谱ai",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Cherry Studio的免费API部分由智谱和硅基流动提供",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "070"
+      ],
+      "evidences": [
+        {
+          "article_id": "070",
+          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+          "permalink": "/articles/070",
+          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "date": "2026-03-13",
+          "label": "Cherry Studio的免费API部分由智谱和硅基流动提供",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cherry-studio",
+      "target": "硅基流动",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Cherry Studio作为前端承接了硅基流动的API",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "070"
+      ],
+      "evidences": [
+        {
+          "article_id": "070",
+          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+          "permalink": "/articles/070",
+          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "date": "2026-03-13",
+          "label": "Cherry Studio作为前端承接了硅基流动的API",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "cherry-studio",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "咸鱼在脱口秀和文章中表达了对Cherry Studio的认可和赞扬",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "020"
+      ],
+      "evidences": [
+        {
+          "article_id": "020",
+          "title": "半年来目睹之AI创业怪现状",
+          "permalink": "/articles/020",
+          "markdown_link": "articles/020_2025-09-08_葬爱咸鱼_半年来目睹之AI创业怪现状.md",
+          "path": "articles/020_2025-09-08_葬爱咸鱼_半年来目睹之AI创业怪现状.md",
+          "date": "2025-09-08",
+          "label": "咸鱼在脱口秀和文章中表达了对Cherry Studio的认可和赞扬",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "cherry-studio",
+      "target": "阶跃桌面伙伴",
+      "score": 0.6923,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "027",
+        "029",
+        "060",
+        "066"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "anthropic",
+      "target": "cherry-studio",
+      "score": 0.6683,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "031",
+        "036",
+        "040",
+        "060",
+        "066"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "cherry-studio",
+      "target": "codex",
+      "score": 0.6517,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "027",
+        "029",
+        "066",
+        "076"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "cherry-studio",
+      "target": "manus",
+      "score": 0.5872,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "040",
+        "060",
+        "076"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "cherry-studio",
+      "target": "toki",
+      "score": 0.4955,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "020",
+        "021",
+        "040"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

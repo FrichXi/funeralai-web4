@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "真格基金",
+    "name": "真格基金",
+    "type": "vc_firm",
+    "description": "硬件转转大会联合主办方，投资了BodyPark和云望创新等项目",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI硬件"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "114",
+        "title": "硬件转转大会来了",
+        "date": "2026-07-05",
+        "path": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
+        "permalink": "/articles/114",
+        "markdown_link": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0219
+  },
+  "links": [
+    {
+      "source": "真格基金",
+      "target": "bodypark",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "真格基金投资了BodyPark项目",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "114"
+      ],
+      "evidences": [
+        {
+          "article_id": "114",
+          "title": "硬件转转大会来了",
+          "permalink": "/articles/114",
+          "markdown_link": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
+          "path": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
+          "date": "2026-07-05",
+          "label": "真格基金投资了BodyPark项目",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "真格基金",
+      "target": "云望创新",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "真格基金投资了云望创新项目",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "114"
+      ],
+      "evidences": [
+        {
+          "article_id": "114",
+          "title": "硬件转转大会来了",
+          "permalink": "/articles/114",
+          "markdown_link": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
+          "path": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
+          "date": "2026-07-05",
+          "label": "真格基金投资了云望创新项目",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

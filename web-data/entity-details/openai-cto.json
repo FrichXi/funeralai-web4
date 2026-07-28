@@ -1,0 +1,85 @@
+{
+  "node": {
+    "id": "openai-cto",
+    "name": "OpenAI CTO",
+    "type": "person",
+    "description": "OpenAI前高管，离职后创办了Thinking Machines",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "内斗失败",
+      "老科学家"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "099",
+        "title": "马卡龙开创AI短剧Neo Lab",
+        "date": "2026-06-04",
+        "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "permalink": "/articles/099",
+        "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0209
+  },
+  "links": [
+    {
+      "source": "openai-cto",
+      "target": "thinking-machines",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "内斗失败的OpenAI CTO创办了Thinking Machines",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "099"
+      ],
+      "evidences": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "内斗失败的OpenAI CTO创办了Thinking Machines",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "openai-cto",
+      "target": "openai",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "OpenAI CTO曾任职于OpenAI",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "099"
+      ],
+      "evidences": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "OpenAI CTO曾任职于OpenAI",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

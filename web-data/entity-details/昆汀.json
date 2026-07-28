@@ -1,0 +1,75 @@
+{
+  "node": {
+    "id": "昆汀",
+    "name": "昆汀",
+    "type": "person",
+    "description": "西方知名电影导演，文章在测试Medeo时输入了其名字以期生成带有其风格特点的短片，被用作风格比喻对象。",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [
+      "Quentin Tarantino",
+      "昆汀·塔伦蒂诺"
+    ],
+    "tags": [
+      "电影导演",
+      "风格提示词"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "046",
+        "title": "建议Medeo改名剪映（删减版）",
+        "date": "2025-12-26",
+        "path": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+        "permalink": "/articles/046",
+        "markdown_link": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0183
+  },
+  "links": [
+    {
+      "source": "medeo",
+      "target": "昆汀",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者通过提示词要求Medeo模仿昆汀的风格生成电影，并将最终产出与昆汀标志性的剧情设计和暴力美学进行对比。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "046"
+      ],
+      "evidences": [
+        {
+          "article_id": "046",
+          "title": "建议Medeo改名剪映（删减版）",
+          "permalink": "/articles/046",
+          "markdown_link": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+          "path": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+          "date": "2025-12-26",
+          "label": "作者通过提示词要求Medeo模仿昆汀的风格生成电影，并将最终产出与昆汀标志性的剧情设计和暴力美学进行对比。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "昆汀",
+      "target": "medeo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者通过提示词要求Medeo模仿昆汀的风格生成电影，并将最终产出与昆汀标志性的剧情设计和暴力美学进行对比。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

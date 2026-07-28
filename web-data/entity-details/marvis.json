@@ -1,0 +1,333 @@
+{
+  "node": {
+    "id": "marvis",
+    "name": "Marvis",
+    "type": "product",
+    "description": "腾讯应用宝团队开发的对话框形式本地Agent，主打情感陪伴",
+    "mention_count": 8,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Agent",
+      "应用宝团队",
+      "情感陪伴"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "102",
+        "title": "腾讯做了一堆情感陪伴Agent",
+        "date": "2026-06-09",
+        "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "permalink": "/articles/102",
+        "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "mention_count": 8
+      }
+    ],
+    "degree": 14,
+    "composite_weight": 0.1134
+  },
+  "links": [
+    {
+      "source": "codex",
+      "target": "marvis",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章指出在干活能力上大家都比不上Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "文章指出在干活能力上大家都比不上Codex",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "marvis",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章指出在干活能力上大家都比不上Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "marvis",
+      "target": "扣子",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章认为Marvis的出租功能可以和Coze无缝衔接协作主题",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "文章认为Marvis的出租功能可以和Coze无缝衔接协作主题",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "marvis",
+      "target": "阶跃桌面伙伴",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章认为Marvis用起来和阶跃桌面伙伴没区别",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "文章认为Marvis用起来和阶跃桌面伙伴没区别",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "扣子",
+      "target": "marvis",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章认为Marvis的出租功能可以和Coze无缝衔接协作主题",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阶跃桌面伙伴",
+      "target": "marvis",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章认为Marvis用起来和阶跃桌面伙伴没区别",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "marvis",
+      "target": "qclaw",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "腾讯内部三支团队推出的Agent产品存在内部赛马竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "腾讯内部三支团队推出的Agent产品存在内部赛马竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "marvis",
+      "target": "workbuddy",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为腾讯内部推行的Agent，构成赛马竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "同为腾讯内部推行的Agent，构成赛马竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "qclaw",
+      "target": "marvis",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "腾讯内部三支团队推出的Agent产品存在内部赛马竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "workbuddy",
+      "target": "marvis",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为腾讯内部推行的Agent，构成赛马竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "腾讯",
+      "target": "marvis",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "腾讯推出了Marvis",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "腾讯推出了Marvis",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "appagent",
+      "target": "marvis",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Marvis可以调用并指挥AppAgent执行任务",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "Marvis可以调用并指挥AppAgent执行任务",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "computer-agent",
+      "target": "marvis",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Marvis可以调用并指挥Computer Agent发力",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "Marvis可以调用并指挥Computer Agent发力",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "marvis",
+      "target": "王者荣耀",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Marvis会在没活干时自动运行（打）《王者荣耀》",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "Marvis会在没活干时自动运行（打）《王者荣耀》",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

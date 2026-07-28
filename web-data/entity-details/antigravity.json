@@ -1,0 +1,97 @@
+{
+  "node": {
+    "id": "antigravity",
+    "name": "Antigravity",
+    "type": "product",
+    "description": "谷歌推出的包含Agent功能的产品，可基于本地文件撰写工作文档。",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Agent"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "060",
+        "title": "Clawdbot是一场马斯克发动的中登炒作",
+        "date": "2026-01-30",
+        "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+        "permalink": "/articles/060",
+        "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0241
+  },
+  "links": [
+    {
+      "source": "antigravity",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "对于非技术背景用户，谷歌的Antigravity比Claude code用起来更容易。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "060"
+      ],
+      "evidences": [
+        {
+          "article_id": "060",
+          "title": "Clawdbot是一场马斯克发动的中登炒作",
+          "permalink": "/articles/060",
+          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "date": "2026-01-30",
+          "label": "对于非技术背景用户，谷歌的Antigravity比Claude code用起来更容易。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "antigravity",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "对于非技术背景用户，谷歌的Antigravity比Claude code用起来更容易。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "谷歌",
+      "target": "antigravity",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Antigravity是谷歌开发的功能产品。",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "060"
+      ],
+      "evidences": [
+        {
+          "article_id": "060",
+          "title": "Clawdbot是一场马斯克发动的中登炒作",
+          "permalink": "/articles/060",
+          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "date": "2026-01-30",
+          "label": "Antigravity是谷歌开发的功能产品。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

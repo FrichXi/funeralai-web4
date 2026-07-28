@@ -1,0 +1,210 @@
+{
+  "node": {
+    "id": "kaiyi",
+    "name": "kaiyi",
+    "type": "person",
+    "description": "做过AI浏览器的工程师，Manus前身浏览器的资深开发",
+    "mention_count": 7,
+    "article_count": 4,
+    "aliases": [
+      "凯一",
+      "孙先生",
+      "鹤岗凯一"
+    ],
+    "tags": [
+      "AI浏览器",
+      "工程师",
+      "评论者",
+      "锤粉"
+    ],
+    "references": 4,
+    "source_article_count": 4,
+    "source_articles": [
+      {
+        "article_id": "053",
+        "title": "第一届葬AI炒作大赛（北京线下活动）",
+        "date": "2026-01-19",
+        "path": "articles/053_2026-01-19_葬爱咸鱼_第一届葬AI炒作大赛（北京线下活动）.md",
+        "permalink": "/articles/053",
+        "markdown_link": "articles/053_2026-01-19_葬爱咸鱼_第一届葬AI炒作大赛（北京线下活动）.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "064",
+        "title": "Elys应该做成AI内涵段子",
+        "date": "2026-02-13",
+        "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "permalink": "/articles/064",
+        "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "067",
+        "title": "OpenClaw不如狗一条",
+        "date": "2026-03-03",
+        "path": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+        "permalink": "/articles/067",
+        "markdown_link": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "032",
+        "title": "Flowith是个锤子",
+        "date": "2025-10-31",
+        "path": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+        "permalink": "/articles/032",
+        "markdown_link": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0545
+  },
+  "links": [
+    {
+      "source": "kaiyi",
+      "target": "elys",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "kaiyi评价Elys是光屁股版的即刻",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "064"
+      ],
+      "evidences": [
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "kaiyi评价Elys是光屁股版的即刻",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kaiyi",
+      "target": "flowith-os",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "孙先生对Flowith像锤子手机的说法反应激烈并作出失态言论，表现出对Flowith的批评态势",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "032"
+      ],
+      "evidences": [
+        {
+          "article_id": "032",
+          "title": "Flowith是个锤子",
+          "permalink": "/articles/032",
+          "markdown_link": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+          "path": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+          "date": "2025-10-31",
+          "label": "孙先生对Flowith像锤子手机的说法反应激烈并作出失态言论，表现出对Flowith的批评态势",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kaiyi",
+      "target": "openclaw",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "鹤岗凯一锐评Openclaw，认为其是一个情感陪伴产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "067"
+      ],
+      "evidences": [
+        {
+          "article_id": "067",
+          "title": "OpenClaw不如狗一条",
+          "permalink": "/articles/067",
+          "markdown_link": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+          "path": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+          "date": "2026-03-03",
+          "label": "鹤岗凯一锐评Openclaw，认为其是一个情感陪伴产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kaiyi",
+      "target": "锤子手机",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "孙先生曾是锤子手机的粉丝",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "032"
+      ],
+      "evidences": [
+        {
+          "article_id": "032",
+          "title": "Flowith是个锤子",
+          "permalink": "/articles/032",
+          "markdown_link": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+          "path": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+          "date": "2025-10-31",
+          "label": "孙先生曾是锤子手机的粉丝",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kaiyi",
+      "target": "manus",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "kaiyi是Manus前身浏览器的资深开发",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "053"
+      ],
+      "evidences": [
+        {
+          "article_id": "053",
+          "title": "第一届葬AI炒作大赛（北京线下活动）",
+          "permalink": "/articles/053",
+          "markdown_link": "articles/053_2026-01-19_葬爱咸鱼_第一届葬AI炒作大赛（北京线下活动）.md",
+          "path": "articles/053_2026-01-19_葬爱咸鱼_第一届葬AI炒作大赛（北京线下活动）.md",
+          "date": "2026-01-19",
+          "label": "kaiyi是Manus前身浏览器的资深开发",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "kaiyi",
+      "target": "阶跃桌面伙伴",
+      "score": 0.4677,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "032",
+        "053",
+        "067"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

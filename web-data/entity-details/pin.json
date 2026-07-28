@@ -1,0 +1,112 @@
+{
+  "node": {
+    "id": "pin",
+    "name": "Pin",
+    "type": "product",
+    "description": "Plaud推出的手环/夹子形态录音硬件。",
+    "mention_count": 7,
+    "article_count": 1,
+    "aliases": [
+      "Pin加手环",
+      "Plaud Pin"
+    ],
+    "tags": [
+      "AI硬件"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "044",
+        "title": "Plaud善打游击战",
+        "date": "2025-12-23",
+        "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+        "permalink": "/articles/044",
+        "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+        "mention_count": 7
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0307
+  },
+  "links": [
+    {
+      "source": "pin",
+      "target": "讯飞录音笔",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章提到21年买的讯飞录音笔和Plaud Pin形态差不多。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "044"
+      ],
+      "evidences": [
+        {
+          "article_id": "044",
+          "title": "Plaud善打游击战",
+          "permalink": "/articles/044",
+          "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "date": "2025-12-23",
+          "label": "文章提到21年买的讯飞录音笔和Plaud Pin形态差不多。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "讯飞录音笔",
+      "target": "pin",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章提到21年买的讯飞录音笔和Plaud Pin形态差不多。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "plaud",
+      "target": "pin",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Plaud开发了Pin录音硬件。",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "044"
+      ],
+      "evidences": [
+        {
+          "article_id": "044",
+          "title": "Plaud善打游击战",
+          "permalink": "/articles/044",
+          "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "date": "2025-12-23",
+          "label": "Plaud开发了Pin录音硬件。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "pin",
+      "target": "讯飞",
+      "score": 0.3847,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "044"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

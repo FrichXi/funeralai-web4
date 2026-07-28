@@ -1,0 +1,85 @@
+{
+  "node": {
+    "id": "macaron-v1-preview",
+    "name": "Macaron-V1-Preview",
+    "type": "product",
+    "description": "马卡龙开发的模型，实为GLM 5.1后训练加Lora",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Lora",
+      "后训练"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "113",
+        "title": "世界模型走了一些弯路",
+        "date": "2026-07-02",
+        "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+        "permalink": "/articles/113",
+        "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0218
+  },
+  "links": [
+    {
+      "source": "马卡龙",
+      "target": "macaron-v1-preview",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "马卡龙开发了Macaron-V1-Preview模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "113"
+      ],
+      "evidences": [
+        {
+          "article_id": "113",
+          "title": "世界模型走了一些弯路",
+          "permalink": "/articles/113",
+          "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "date": "2026-07-02",
+          "label": "马卡龙开发了Macaron-V1-Preview模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "glm-5-1",
+      "target": "macaron-v1-preview",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Macaron-V1-Preview是基于GLM 5.1进行后训练和Lora微调的",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "113"
+      ],
+      "evidences": [
+        {
+          "article_id": "113",
+          "title": "世界模型走了一些弯路",
+          "permalink": "/articles/113",
+          "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "date": "2026-07-02",
+          "label": "Macaron-V1-Preview是基于GLM 5.1进行后训练和Lora微调的",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

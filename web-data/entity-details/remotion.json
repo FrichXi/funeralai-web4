@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "remotion",
+    "name": "Remotion",
+    "type": "product",
+    "description": "2021年出现的基于React框架的开源项目，通过写代码实现动效视频",
+    "mention_count": 5,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Vibe Motion",
+      "开源项目"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "098",
+        "title": "HeyGen不是给人用的",
+        "date": "2026-06-01",
+        "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+        "permalink": "/articles/098",
+        "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+        "mention_count": 5
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0299
+  },
+  "links": [
+    {
+      "source": "hyperframes",
+      "target": "remotion",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将相同需求发送给HyperFrames与Remotion进行成品效果对比测试",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "098"
+      ],
+      "evidences": [
+        {
+          "article_id": "098",
+          "title": "HeyGen不是给人用的",
+          "permalink": "/articles/098",
+          "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "date": "2026-06-01",
+          "label": "作者将相同需求发送给HyperFrames与Remotion进行成品效果对比测试",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "remotion",
+      "target": "hyperframes",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将相同需求发送给HyperFrames与Remotion进行成品效果对比测试",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

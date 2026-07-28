@@ -1,0 +1,187 @@
+{
+  "node": {
+    "id": "好大夫在线",
+    "name": "好大夫在线",
+    "type": "company",
+    "description": "开创互联网+分级诊疗体系的在线问诊平台",
+    "mention_count": 4,
+    "article_count": 2,
+    "aliases": [
+      "好大夫"
+    ],
+    "tags": [
+      "分级诊疗",
+      "在线问诊"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "055",
+        "title": "来认识下2025年最活跃的CVC",
+        "date": "2026-01-22",
+        "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "permalink": "/articles/055",
+        "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "007",
+        "title": "王小川造不出医生",
+        "date": "2025-06-26",
+        "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+        "permalink": "/articles/007",
+        "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 6,
+    "composite_weight": 0.0471
+  },
+  "links": [
+    {
+      "source": "蚂蚁集团",
+      "target": "好大夫在线",
+      "relation_type": "acquires",
+      "type": "acquires",
+      "label": "好大夫在线因无法独立盈利而卖身给支付宝",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "007"
+      ],
+      "evidences": [
+        {
+          "article_id": "007",
+          "title": "王小川造不出医生",
+          "permalink": "/articles/007",
+          "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "date": "2025-06-26",
+          "label": "好大夫在线因无法独立盈利而卖身给支付宝",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "好大夫在线",
+      "target": "百川智能",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章以好大夫在线难以兼顾社会价值与商业成功的经历，类比百川智能将面临的挑战",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "007"
+      ],
+      "evidences": [
+        {
+          "article_id": "007",
+          "title": "王小川造不出医生",
+          "permalink": "/articles/007",
+          "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "date": "2025-06-26",
+          "label": "文章以好大夫在线难以兼顾社会价值与商业成功的经历，类比百川智能将面临的挑战",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "百川智能",
+      "target": "好大夫在线",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章以好大夫在线难以兼顾社会价值与商业成功的经历，类比百川智能将面临的挑战",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "好大夫在线",
+      "target": "蚂蚁阿福",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "好大夫在线为蚂蚁阿福提供问诊数据",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "好大夫在线为蚂蚁阿福提供问诊数据",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "百度",
+      "target": "好大夫在线",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "百度曾是好大夫在线的股东",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "百度曾是好大夫在线的股东",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "腾讯",
+      "target": "好大夫在线",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "腾讯曾是好大夫在线的股东",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "腾讯曾是好大夫在线的股东",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

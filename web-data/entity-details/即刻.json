@@ -1,0 +1,160 @@
+{
+  "node": {
+    "id": "即刻",
+    "name": "即刻",
+    "type": "product",
+    "description": "内容社交产品，Elys种子用户和其高度重合",
+    "mention_count": 12,
+    "article_count": 4,
+    "aliases": [],
+    "tags": [
+      "社交",
+      "社区"
+    ],
+    "references": 4,
+    "source_article_count": 4,
+    "source_articles": [
+      {
+        "article_id": "064",
+        "title": "Elys应该做成AI内涵段子",
+        "date": "2026-02-13",
+        "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "permalink": "/articles/064",
+        "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "mention_count": 6
+      },
+      {
+        "article_id": "081",
+        "title": "小登领导AI社交",
+        "date": "2026-04-15",
+        "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+        "permalink": "/articles/081",
+        "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "059",
+        "title": "「Dokie不如ListenHub」",
+        "date": "2026-01-28",
+        "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "permalink": "/articles/059",
+        "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "067",
+        "title": "OpenClaw不如狗一条",
+        "date": "2026-03-03",
+        "path": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+        "permalink": "/articles/067",
+        "markdown_link": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0609
+  },
+  "links": [
+    {
+      "source": "elys",
+      "target": "即刻",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Elys被形容为光屁股版的即刻，且用户群重合度高",
+      "weight": 3,
+      "strength": 2,
+      "effective_weight": 9,
+      "article_count": 3,
+      "evidence_articles": [
+        "064",
+        "067",
+        "081"
+      ],
+      "evidences": [
+        {
+          "article_id": "081",
+          "title": "小登领导AI社交",
+          "permalink": "/articles/081",
+          "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "date": "2026-04-15",
+          "label": "文章指出Elys的本质是光屁股版的即刻",
+          "weight": 1
+        },
+        {
+          "article_id": "067",
+          "title": "OpenClaw不如狗一条",
+          "permalink": "/articles/067",
+          "markdown_link": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+          "path": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+          "date": "2026-03-03",
+          "label": "Elys被形容为「光屁股版的即刻」",
+          "weight": 1
+        },
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "Elys被形容为光屁股版的即刻，且用户群重合度高",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "即刻",
+      "target": "elys",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Elys被形容为光屁股版的即刻，且用户群重合度高",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "瓦总",
+      "target": "即刻",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "瓦总 founder_of 即刻",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 5,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "瓦总",
+      "target": "即刻",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "瓦总是即刻公司的代表人物",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "059"
+      ],
+      "evidences": [
+        {
+          "article_id": "059",
+          "title": "「Dokie不如ListenHub」",
+          "permalink": "/articles/059",
+          "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "date": "2026-01-28",
+          "label": "瓦总是即刻公司的代表人物",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

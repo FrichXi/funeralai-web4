@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "aix-studio",
+    "name": "Aix Studio",
+    "type": "product",
+    "description": "一款AI工具，其网格切分功能和标注UI设计被LibTV模仿。",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "设计工具"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "073",
+        "title": "Lovart狂做TapNow",
+        "date": "2026-03-19",
+        "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+        "permalink": "/articles/073",
+        "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0188
+  },
+  "links": [
+    {
+      "source": "aix-studio",
+      "target": "libtv",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "LibTV的网格切分和“标注”UI设计被指与Aix Studio高度相似。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "073"
+      ],
+      "evidences": [
+        {
+          "article_id": "073",
+          "title": "Lovart狂做TapNow",
+          "permalink": "/articles/073",
+          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "date": "2026-03-19",
+          "label": "LibTV的网格切分和“标注”UI设计被指与Aix Studio高度相似。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "libtv",
+      "target": "aix-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "LibTV的网格切分和“标注”UI设计被指与Aix Studio高度相似。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

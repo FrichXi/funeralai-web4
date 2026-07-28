@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "张楠",
+    "name": "张楠",
+    "type": "person",
+    "description": "字节跳动高管，在即梦平台上找人测试打样合拍功能。",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "062",
+        "title": "Seedance 2.0让字节元神启动",
+        "date": "2026-02-10",
+        "path": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+        "permalink": "/articles/062",
+        "markdown_link": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0179
+  },
+  "links": [
+    {
+      "source": "张楠",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "张楠是字节跳动的高管。",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "062"
+      ],
+      "evidences": [
+        {
+          "article_id": "062",
+          "title": "Seedance 2.0让字节元神启动",
+          "permalink": "/articles/062",
+          "markdown_link": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+          "path": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+          "date": "2026-02-10",
+          "label": "张楠是字节跳动的高管。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "张楠",
+      "target": "即梦",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "张楠在即梦平台中频繁进行合拍功能的打样和测试。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "062"
+      ],
+      "evidences": [
+        {
+          "article_id": "062",
+          "title": "Seedance 2.0让字节元神启动",
+          "permalink": "/articles/062",
+          "markdown_link": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+          "path": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+          "date": "2026-02-10",
+          "label": "张楠在即梦平台中频繁进行合拍功能的打样和测试。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "pollo-ai",
+    "name": "pollo.ai",
+    "type": "product",
+    "description": "接入市面上主流大模型的AI模型集合站产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "模型集合站"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "022",
+        "title": "GenSpark重做百度",
+        "date": "2025-09-15",
+        "path": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+        "permalink": "/articles/022",
+        "markdown_link": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0156
+  },
+  "links": [
+    {
+      "source": "hao123",
+      "target": "pollo-ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "pollo.ai被比作1999年的Hao123",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "022"
+      ],
+      "evidences": [
+        {
+          "article_id": "022",
+          "title": "GenSpark重做百度",
+          "permalink": "/articles/022",
+          "markdown_link": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+          "path": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+          "date": "2025-09-15",
+          "label": "pollo.ai被比作1999年的Hao123",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "pollo-ai",
+      "target": "hao123",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "pollo.ai被比作1999年的Hao123",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

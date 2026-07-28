@@ -1,0 +1,133 @@
+{
+  "node": {
+    "id": "无招",
+    "name": "无招",
+    "type": "person",
+    "description": "钉钉核心人物，主导了钉钉软件重构及多款AI硬件的发布",
+    "mention_count": 20,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "创新",
+      "自信",
+      "行业人物",
+      "重构"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "045",
+        "title": "无招把钉钉当玩具整",
+        "date": "2025-12-24",
+        "path": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+        "permalink": "/articles/045",
+        "markdown_link": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+        "mention_count": 18
+      },
+      {
+        "article_id": "120",
+        "title": "Raft说明AI应用不会亡！",
+        "date": "2026-07-15",
+        "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+        "permalink": "/articles/120",
+        "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0567
+  },
+  "links": [
+    {
+      "source": "无招",
+      "target": "钉钉",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "无招回归钉钉并主导了软件改造与硬件发布",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "045",
+        "120"
+      ],
+      "evidences": [
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "date": "2026-07-15",
+          "label": "文中提及“无招当年还在钉钉搞每日一包”，表明其任职关系",
+          "weight": 1
+        },
+        {
+          "article_id": "045",
+          "title": "无招把钉钉当玩具整",
+          "permalink": "/articles/045",
+          "markdown_link": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "path": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "date": "2025-12-24",
+          "label": "无招回归钉钉并主导了软件改造与硬件发布",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "无招",
+      "target": "ai防录音魔盒",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "无招根据朋友需求主导制作了防录音魔盒",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "045"
+      ],
+      "evidences": [
+        {
+          "article_id": "045",
+          "title": "无招把钉钉当玩具整",
+          "permalink": "/articles/045",
+          "markdown_link": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "path": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "date": "2025-12-24",
+          "label": "无招根据朋友需求主导制作了防录音魔盒",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "无招",
+      "target": "dingtalk-real",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "无招推出了DingTalk Real并邀请共创",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "045"
+      ],
+      "evidences": [
+        {
+          "article_id": "045",
+          "title": "无招把钉钉当玩具整",
+          "permalink": "/articles/045",
+          "markdown_link": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "path": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "date": "2025-12-24",
+          "label": "无招推出了DingTalk Real并邀请共创",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

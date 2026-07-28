@@ -1,0 +1,338 @@
+{
+  "node": {
+    "id": "零一万物",
+    "name": "零一万物",
+    "type": "company",
+    "description": "国内AI初创公司，曾立志成为AGI时代的微软，后转向ToB业务",
+    "mention_count": 10,
+    "article_count": 3,
+    "aliases": [
+      "零一"
+    ],
+    "tags": [
+      "AI六小虎",
+      "ToB转型",
+      "大模型初创",
+      "应用转型"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "008",
+        "title": "前后不一李开复",
+        "date": "2025-06-27",
+        "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+        "permalink": "/articles/008",
+        "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+        "mention_count": 8
+      },
+      {
+        "article_id": "009",
+        "title": "阶跃星辰没有新闻",
+        "date": "2025-06-28",
+        "path": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+        "permalink": "/articles/009",
+        "markdown_link": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "006",
+        "title": "智谱的存在主义危机",
+        "date": "2025-06-25",
+        "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+        "permalink": "/articles/006",
+        "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 12,
+    "composite_weight": 0.0869
+  },
+  "links": [
+    {
+      "source": "谷雪梅",
+      "target": "零一万物",
+      "relation_type": "co_founded",
+      "type": "co_founded",
+      "label": "谷雪梅联合创立零一万物",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 5,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "微软",
+      "target": "零一万物",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "零一万物曾立志将自身打造为“AGI时代的微软”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "008"
+      ],
+      "evidences": [
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "零一万物曾立志将自身打造为“AGI时代的微软”",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "智谱ai",
+      "target": "零一万物",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比智谱死磕大模型与零一万物转型做应用的不同路径",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "006"
+      ],
+      "evidences": [
+        {
+          "article_id": "006",
+          "title": "智谱的存在主义危机",
+          "permalink": "/articles/006",
+          "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "date": "2025-06-25",
+          "label": "文章对比智谱死磕大模型与零一万物转型做应用的不同路径",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "零一万物",
+      "target": "微软",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "零一万物曾立志将自身打造为“AGI时代的微软”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "零一万物",
+      "target": "智谱ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比智谱死磕大模型与零一万物转型做应用的不同路径",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "零一万物",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者同属上一代AI大模型领域的“AI六小虎”，存在行业竞对关系",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "008",
+        "009"
+      ],
+      "evidences": [
+        {
+          "article_id": "009",
+          "title": "阶跃星辰没有新闻",
+          "permalink": "/articles/009",
+          "markdown_link": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+          "path": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+          "date": "2025-06-28",
+          "label": "同为被列入AI六小虎名单的行业竞争对手",
+          "weight": 1
+        },
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "两者同属上一代AI大模型领域的“AI六小虎”，存在行业竞对关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "零一万物",
+      "target": "阶跃星辰",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者同属上一代AI大模型领域的“AI六小虎”，存在行业竞对关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "零一万物",
+      "target": "ai-2-0数字人",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "零一万物发布了面向ToB市场的AI 2.0数字人解决方案",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "008"
+      ],
+      "evidences": [
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "零一万物发布了面向ToB市场的AI 2.0数字人解决方案",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "戴宗宏",
+      "target": "零一万物",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "作为百川或零一万物的出走联合创始人被提及",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "008"
+      ],
+      "evidences": [
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "作为百川或零一万物的出走联合创始人被提及",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "李开复",
+      "target": "零一万物",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "李开复为零一万物设定目标并作为核心决策人主导公司战略",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "008"
+      ],
+      "evidences": [
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "李开复为零一万物设定目标并作为核心决策人主导公司战略",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "孩子王",
+      "target": "零一万物",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "零一万物在ToB业务上与孩子王签约合作",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "008"
+      ],
+      "evidences": [
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "零一万物在ToB业务上与孩子王签约合作",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "百胜中国",
+      "target": "零一万物",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "零一万物在ToB业务上与百胜中国签约合作",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "008"
+      ],
+      "evidences": [
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "零一万物在ToB业务上与百胜中国签约合作",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "百川智能",
+      "target": "零一万物",
+      "score": 0.4215,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "008"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

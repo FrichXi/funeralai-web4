@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "云从科技",
+    "name": "云从科技",
+    "type": "company",
+    "description": "上一代AI四小龙之一，被用来比喻阶跃星辰逐渐被遗忘的处境",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI四小龙"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "009",
+        "title": "阶跃星辰没有新闻",
+        "date": "2025-06-28",
+        "path": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+        "permalink": "/articles/009",
+        "markdown_link": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0149
+  },
+  "links": [
+    {
+      "source": "云从科技",
+      "target": "阶跃星辰",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将阶跃星辰被遗忘的处境比作上一代AI四小龙中的云从科技",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "009"
+      ],
+      "evidences": [
+        {
+          "article_id": "009",
+          "title": "阶跃星辰没有新闻",
+          "permalink": "/articles/009",
+          "markdown_link": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+          "path": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+          "date": "2025-06-28",
+          "label": "文章将阶跃星辰被遗忘的处境比作上一代AI四小龙中的云从科技",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "云从科技",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将阶跃星辰被遗忘的处境比作上一代AI四小龙中的云从科技",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

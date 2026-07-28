@@ -1,0 +1,106 @@
+{
+  "node": {
+    "id": "tripo",
+    "name": "Tripo",
+    "type": "company",
+    "description": "AI公司，网吧黑客松赞助方，主要业务涉及3D模型",
+    "mention_count": 16,
+    "article_count": 4,
+    "aliases": [
+      "Tirpo",
+      "Tripo AI"
+    ],
+    "tags": [
+      "3D模型",
+      "3D游戏",
+      "3D生成",
+      "AI公司",
+      "AI工具",
+      "赞助方"
+    ],
+    "references": 4,
+    "source_article_count": 4,
+    "source_articles": [
+      {
+        "article_id": "115",
+        "title": "网吧黑客松为西湖醋鱼平反",
+        "date": "2026-07-08",
+        "path": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
+        "permalink": "/articles/115",
+        "markdown_link": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
+        "mention_count": 7
+      },
+      {
+        "article_id": "100",
+        "title": "网吧黑客松里有真黑客",
+        "date": "2026-06-07",
+        "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+        "permalink": "/articles/100",
+        "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "107",
+        "title": "网吧黑客松将于杭州风光大办",
+        "date": "2026-06-22",
+        "path": "articles/107_2026-06-22_葬爱咸鱼_网吧黑客松将于杭州风光大办.md",
+        "permalink": "/articles/107",
+        "markdown_link": "articles/107_2026-06-22_葬爱咸鱼_网吧黑客松将于杭州风光大办.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "093",
+        "title": "在网吧办黑客松才是正经事",
+        "date": "2026-05-19",
+        "path": "articles/093_2026-05-19_沐秋_在网吧办黑客松才是正经事.md",
+        "permalink": "/articles/093",
+        "markdown_link": "articles/093_2026-05-19_沐秋_在网吧办黑客松才是正经事.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0767
+  },
+  "links": [
+    {
+      "source": "vast",
+      "target": "tripo",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "文章在文末鸣谢中以“Tripo AI (VAST)”的形式表明了VAST是Tripo的母公司/开发公司",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "107"
+      ],
+      "evidences": [
+        {
+          "article_id": "107",
+          "title": "网吧黑客松将于杭州风光大办",
+          "permalink": "/articles/107",
+          "markdown_link": "articles/107_2026-06-22_葬爱咸鱼_网吧黑客松将于杭州风光大办.md",
+          "path": "articles/107_2026-06-22_葬爱咸鱼_网吧黑客松将于杭州风光大办.md",
+          "date": "2026-06-22",
+          "label": "文章在文末鸣谢中以“Tripo AI (VAST)”的形式表明了VAST是Tripo的母公司/开发公司",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "monolith",
+      "target": "tripo",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "Monolith与Tripo共同赞助第一届网吧黑客松",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

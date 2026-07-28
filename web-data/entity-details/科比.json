@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "科比",
+    "name": "科比",
+    "type": "person",
+    "description": "著名篮球运动员，在文章中被用作数字人复活的测试对象",
+    "mention_count": 11,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "赛博永生"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "087",
+        "title": "Vivix用13亿美金估值复活科比",
+        "date": "2026-05-06",
+        "path": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+        "permalink": "/articles/087",
+        "markdown_link": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+        "mention_count": 11
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0406
+  },
+  "links": [
+    {
+      "source": "7verse",
+      "target": "科比",
+      "relation_type": "related",
+      "type": "related",
+      "label": "7verse使用科比社交内容生成互动数字人",
+      "weight": 1,
+      "strength": 1,
+      "effective_weight": 1,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "vivix",
+      "target": "科比",
+      "relation_type": "related",
+      "type": "related",
+      "label": "Vivix通过7verse探索科比互动数字人",
+      "weight": 1,
+      "strength": 1,
+      "effective_weight": 1,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,95 @@
+{
+  "node": {
+    "id": "dereknee",
+    "name": "dereknee",
+    "type": "person",
+    "description": "Flowith创始人",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "032",
+        "title": "Flowith是个锤子",
+        "date": "2025-10-31",
+        "path": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+        "permalink": "/articles/032",
+        "markdown_link": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0236
+  },
+  "links": [
+    {
+      "source": "dereknee",
+      "target": "明超平",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章用老实干活的典范明超平，反讽缺乏创意和叙事能力的Flowith创业者",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "032"
+      ],
+      "evidences": [
+        {
+          "article_id": "032",
+          "title": "Flowith是个锤子",
+          "permalink": "/articles/032",
+          "markdown_link": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+          "path": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+          "date": "2025-10-31",
+          "label": "文章用老实干活的典范明超平，反讽缺乏创意和叙事能力的Flowith创业者",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "明超平",
+      "target": "dereknee",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章用老实干活的典范明超平，反讽缺乏创意和叙事能力的Flowith创业者",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "dereknee",
+      "target": "flowith-os",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "dereknee是Flowith的创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "032"
+      ],
+      "evidences": [
+        {
+          "article_id": "032",
+          "title": "Flowith是个锤子",
+          "permalink": "/articles/032",
+          "markdown_link": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+          "path": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+          "date": "2025-10-31",
+          "label": "dereknee是Flowith的创始人",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

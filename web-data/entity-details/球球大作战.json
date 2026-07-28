@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "球球大作战",
+    "name": "球球大作战",
+    "type": "product",
+    "description": "吴萌曾担任制作人的知名游戏产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "游戏"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "083",
+        "title": "估值20亿的AI游戏公司，做了款像素GTA",
+        "date": "2026-04-22",
+        "path": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+        "permalink": "/articles/083",
+        "markdown_link": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0196
+  },
+  "links": [
+    {
+      "source": "巨人",
+      "target": "球球大作战",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "巨人网络旗下开发的游戏产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "083"
+      ],
+      "evidences": [
+        {
+          "article_id": "083",
+          "title": "估值20亿的AI游戏公司，做了款像素GTA",
+          "permalink": "/articles/083",
+          "markdown_link": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+          "path": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+          "date": "2026-04-22",
+          "label": "巨人网络旗下开发的游戏产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "吴萌",
+      "target": "球球大作战",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "吴萌是《球球大作战》的制作人",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "083"
+      ],
+      "evidences": [
+        {
+          "article_id": "083",
+          "title": "估值20亿的AI游戏公司，做了款像素GTA",
+          "permalink": "/articles/083",
+          "markdown_link": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+          "path": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+          "date": "2026-04-22",
+          "label": "吴萌是《球球大作战》的制作人",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

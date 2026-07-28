@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "影石",
+    "name": "影石",
+    "type": "company",
+    "description": "提供全景及运动影像设备的科技公司。",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "影像设备"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "042",
+        "title": "Looki开创AI胸载摄像头",
+        "date": "2025-12-16",
+        "path": "articles/042_2025-12-16_沐秋_Looki开创AI胸载摄像头.md",
+        "permalink": "/articles/042",
+        "markdown_link": "articles/042_2025-12-16_沐秋_Looki开创AI胸载摄像头.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0181
+  },
+  "links": [
+    {
+      "source": "大疆",
+      "target": "影石",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "大疆和影石同为提供正经影像设备的竞品厂商，被并列作为Vlog用户的较优解决方案。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "042"
+      ],
+      "evidences": [
+        {
+          "article_id": "042",
+          "title": "Looki开创AI胸载摄像头",
+          "permalink": "/articles/042",
+          "markdown_link": "articles/042_2025-12-16_沐秋_Looki开创AI胸载摄像头.md",
+          "path": "articles/042_2025-12-16_沐秋_Looki开创AI胸载摄像头.md",
+          "date": "2025-12-16",
+          "label": "大疆和影石同为提供正经影像设备的竞品厂商，被并列作为Vlog用户的较优解决方案。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "影石",
+      "target": "大疆",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "大疆和影石同为提供正经影像设备的竞品厂商，被并列作为Vlog用户的较优解决方案。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

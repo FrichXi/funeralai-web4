@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "郭宇",
+    "name": "郭宇",
+    "type": "person",
+    "description": "被用作隐喻“财富自由后提前退休”的行业人物",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "退休生活"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "048",
+        "title": "第一届Manus杯新加坡概念作文大赛",
+        "date": "2025-12-30",
+        "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+        "permalink": "/articles/048",
+        "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0184
+  },
+  "links": [
+    {
+      "source": "肖弘",
+      "target": "郭宇",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Manus团队收购后的状态与郭宇的退休生活作对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "048"
+      ],
+      "evidences": [
+        {
+          "article_id": "048",
+          "title": "第一届Manus杯新加坡概念作文大赛",
+          "permalink": "/articles/048",
+          "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+          "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+          "date": "2025-12-30",
+          "label": "作者将Manus团队收购后的状态与郭宇的退休生活作对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "郭宇",
+      "target": "肖弘",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Manus团队收购后的状态与郭宇的退休生活作对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

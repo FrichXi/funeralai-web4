@@ -1,0 +1,85 @@
+{
+  "node": {
+    "id": "coze-studio",
+    "name": "Coze Studio",
+    "type": "product",
+    "description": "扣子的核心组件，已被火山引擎开源。",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "基础设施",
+      "开源组件"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "017",
+        "title": "字节用扣子证明，Agent只能被计划",
+        "date": "2025-08-29",
+        "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "permalink": "/articles/017",
+        "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0155
+  },
+  "links": [
+    {
+      "source": "火山引擎",
+      "target": "coze-studio",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "扣子团队划归火山引擎后，由火山引擎将核心组件Coze Studio开源。",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "017"
+      ],
+      "evidences": [
+        {
+          "article_id": "017",
+          "title": "字节用扣子证明，Agent只能被计划",
+          "permalink": "/articles/017",
+          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "date": "2025-08-29",
+          "label": "扣子团队划归火山引擎后，由火山引擎将核心组件Coze Studio开源。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "coze-studio",
+      "target": "扣子",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Coze Studio是扣子（coze）的核心组件。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "017"
+      ],
+      "evidences": [
+        {
+          "article_id": "017",
+          "title": "字节用扣子证明，Agent只能被计划",
+          "permalink": "/articles/017",
+          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "date": "2025-08-29",
+          "label": "Coze Studio是扣子（coze）的核心组件。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

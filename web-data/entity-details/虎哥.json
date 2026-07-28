@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "虎哥",
+    "name": "虎哥",
+    "type": "person",
+    "description": "咬打火机的后快手时代网红，被用来比喻发布常规AI产品的行为",
+    "mention_count": 5,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "比喻对象",
+      "狠活",
+      "网红"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "057",
+        "title": "AI四小虎进入狠活大赛",
+        "date": "2026-01-26",
+        "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "permalink": "/articles/057",
+        "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "051",
+        "title": "狠狠办千问",
+        "date": "2026-01-15",
+        "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "permalink": "/articles/051",
+        "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0266
+  },
+  "links": [
+    {
+      "source": "虎哥",
+      "target": "阶跃桌面伙伴",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "阶跃发布的小桌面产品被类比为虎哥的咬打火机活",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "057"
+      ],
+      "evidences": [
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "阶跃发布的小桌面产品被类比为虎哥的咬打火机活",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阶跃桌面伙伴",
+      "target": "虎哥",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "阶跃发布的小桌面产品被类比为虎哥的咬打火机活",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

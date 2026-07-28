@@ -1,0 +1,69 @@
+{
+  "node": {
+    "id": "摩拜",
+    "name": "摩拜",
+    "type": "company",
+    "description": "共享单车公司，ofo的竞品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "055",
+        "title": "来认识下2025年最活跃的CVC",
+        "date": "2026-01-22",
+        "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "permalink": "/articles/055",
+        "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0176
+  },
+  "links": [
+    {
+      "source": "ofo",
+      "target": "摩拜",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "ofo和摩拜存在竞争与合并风险",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "ofo和摩拜存在竞争与合并风险",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "摩拜",
+      "target": "ofo",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "ofo和摩拜存在竞争与合并风险",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

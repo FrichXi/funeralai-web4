@@ -1,0 +1,97 @@
+{
+  "node": {
+    "id": "viduclaw",
+    "name": "ViduClaw",
+    "type": "product",
+    "description": "Vidu网站上的新功能，支持对话与长视频拼接",
+    "mention_count": 8,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "工作流"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "104",
+        "title": "生数鉴定为鸭腿吃多了",
+        "date": "2026-06-15",
+        "path": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+        "permalink": "/articles/104",
+        "markdown_link": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+        "mention_count": 8
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0444
+  },
+  "links": [
+    {
+      "source": "openclaw",
+      "target": "viduclaw",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将ViduClaw的名字与产品逻辑同OpenClaw进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "104"
+      ],
+      "evidences": [
+        {
+          "article_id": "104",
+          "title": "生数鉴定为鸭腿吃多了",
+          "permalink": "/articles/104",
+          "markdown_link": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "path": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "date": "2026-06-15",
+          "label": "文章将ViduClaw的名字与产品逻辑同OpenClaw进行了对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "viduclaw",
+      "target": "openclaw",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将ViduClaw的名字与产品逻辑同OpenClaw进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "生数科技",
+      "target": "viduclaw",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "生数科技在Vidu中推出了ViduClaw功能",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "104"
+      ],
+      "evidences": [
+        {
+          "article_id": "104",
+          "title": "生数鉴定为鸭腿吃多了",
+          "permalink": "/articles/104",
+          "markdown_link": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "path": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "date": "2026-06-15",
+          "label": "生数科技在Vidu中推出了ViduClaw功能",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

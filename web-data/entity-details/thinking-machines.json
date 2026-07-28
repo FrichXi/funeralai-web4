@@ -1,0 +1,98 @@
+{
+  "node": {
+    "id": "thinking-machines",
+    "name": "Thinking Machines",
+    "type": "company",
+    "description": "由前OpenAI CTO创办的Neo lab，估值极高",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Neo lab",
+      "算法实验室"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "099",
+        "title": "马卡龙开创AI短剧Neo Lab",
+        "date": "2026-06-04",
+        "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "permalink": "/articles/099",
+        "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0272
+  },
+  "links": [
+    {
+      "source": "mindverse",
+      "target": "thinking-machines",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Thinking Machines 500亿美元的估值与Mindverse 2亿美元的估值进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "099"
+      ],
+      "evidences": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "作者将Thinking Machines 500亿美元的估值与Mindverse 2亿美元的估值进行了对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "thinking-machines",
+      "target": "mindverse",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Thinking Machines 500亿美元的估值与Mindverse 2亿美元的估值进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "openai-cto",
+      "target": "thinking-machines",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "内斗失败的OpenAI CTO创办了Thinking Machines",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "099"
+      ],
+      "evidences": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "内斗失败的OpenAI CTO创办了Thinking Machines",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

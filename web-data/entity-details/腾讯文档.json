@@ -1,0 +1,97 @@
+{
+  "node": {
+    "id": "腾讯文档",
+    "name": "腾讯文档",
+    "type": "product",
+    "description": "腾讯开发的在线文档办公产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "办公工具"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "102",
+        "title": "腾讯做了一堆情感陪伴Agent",
+        "date": "2026-06-09",
+        "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "permalink": "/articles/102",
+        "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0273
+  },
+  "links": [
+    {
+      "source": "腾讯文档",
+      "target": "钉钉",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比吐槽腾讯文档比钉钉还要难用",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "文章对比吐槽腾讯文档比钉钉还要难用",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "钉钉",
+      "target": "腾讯文档",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比吐槽腾讯文档比钉钉还要难用",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "腾讯",
+      "target": "腾讯文档",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "腾讯开发的文档类产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "腾讯开发的文档类产品",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

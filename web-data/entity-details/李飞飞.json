@@ -1,0 +1,159 @@
+{
+  "node": {
+    "id": "李飞飞",
+    "name": "李飞飞",
+    "type": "person",
+    "description": "知名AI学者，其相关产品为可拓展操纵的3D世界模型Marble",
+    "mention_count": 4,
+    "article_count": 3,
+    "aliases": [
+      "Fei-Fei Li"
+    ],
+    "tags": [
+      "3D生成",
+      "AI学者",
+      "世界模型",
+      "学术圈"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "086",
+        "title": "世界模型是梦核军备竞赛",
+        "date": "2026-05-05",
+        "path": "articles/086_2026-05-05_骡子马_世界模型是梦核军备竞赛.md",
+        "permalink": "/articles/086",
+        "markdown_link": "articles/086_2026-05-05_骡子马_世界模型是梦核军备竞赛.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "113",
+        "title": "世界模型走了一些弯路",
+        "date": "2026-07-02",
+        "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+        "permalink": "/articles/113",
+        "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "056",
+        "title": "PixVerse像做梦一样做世界模型",
+        "date": "2026-01-23",
+        "path": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+        "permalink": "/articles/056",
+        "markdown_link": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0551
+  },
+  "links": [
+    {
+      "source": "李飞飞",
+      "target": "黄仁勋",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两人被并列提名为同期发布各自新一代世界模型的代表人物",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "086"
+      ],
+      "evidences": [
+        {
+          "article_id": "086",
+          "title": "世界模型是梦核军备竞赛",
+          "permalink": "/articles/086",
+          "markdown_link": "articles/086_2026-05-05_骡子马_世界模型是梦核军备竞赛.md",
+          "path": "articles/086_2026-05-05_骡子马_世界模型是梦核军备竞赛.md",
+          "date": "2026-05-05",
+          "label": "两人被并列提名为同期发布各自新一代世界模型的代表人物",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "黄仁勋",
+      "target": "李飞飞",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两人被并列提名为同期发布各自新一代世界模型的代表人物",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "李飞飞",
+      "target": "杨立昆",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "被放在一起比较，看在AI浪潮中谁能真憋出大招突破",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "086"
+      ],
+      "evidences": [
+        {
+          "article_id": "086",
+          "title": "世界模型是梦核军备竞赛",
+          "permalink": "/articles/086",
+          "markdown_link": "articles/086_2026-05-05_骡子马_世界模型是梦核军备竞赛.md",
+          "path": "articles/086_2026-05-05_骡子马_世界模型是梦核军备竞赛.md",
+          "date": "2026-05-05",
+          "label": "被放在一起比较，看在AI浪潮中谁能真憋出大招突破",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "杨立昆",
+      "target": "李飞飞",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "被放在一起比较，看在AI浪潮中谁能真憋出大招突破",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "李飞飞",
+      "target": "marble",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "文章提及Marble是李飞飞做的世界模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "056"
+      ],
+      "evidences": [
+        {
+          "article_id": "056",
+          "title": "PixVerse像做梦一样做世界模型",
+          "permalink": "/articles/056",
+          "markdown_link": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+          "path": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+          "date": "2026-01-23",
+          "label": "文章提及Marble是李飞飞做的世界模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

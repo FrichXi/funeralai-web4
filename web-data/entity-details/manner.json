@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "manner",
+    "name": "Manner",
+    "type": "company",
+    "description": "与Kimi联名的咖啡品牌",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "消费品牌"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "103",
+        "title": "Kimi看天讨饭吃",
+        "date": "2026-06-10",
+        "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "permalink": "/articles/103",
+        "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0147
+  },
+  "links": [
+    {
+      "source": "manner",
+      "target": "月之暗面",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "Kimi率先与Manner联名打开思路",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "Kimi率先与Manner联名打开思路",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

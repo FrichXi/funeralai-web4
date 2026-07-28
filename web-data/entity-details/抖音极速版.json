@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "抖音极速版",
+    "name": "抖音极速版",
+    "type": "product",
+    "description": "字节跳动旗下短视频应用，文中提及在豆包手机上刷该应用的相关体验",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "短视频",
+      "网赚"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "051",
+        "title": "狠狠办千问",
+        "date": "2026-01-15",
+        "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "permalink": "/articles/051",
+        "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0174
+  },
+  "links": [
+    {
+      "source": "字节跳动",
+      "target": "抖音极速版",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "字节跳动开发抖音极速版",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "抖音极速版",
+      "target": "豆包手机",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "豆包手机内部搭载或联动抖音极速版",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "051"
+      ],
+      "evidences": [
+        {
+          "article_id": "051",
+          "title": "狠狠办千问",
+          "permalink": "/articles/051",
+          "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "date": "2026-01-15",
+          "label": "豆包手机内部搭载或联动抖音极速版",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

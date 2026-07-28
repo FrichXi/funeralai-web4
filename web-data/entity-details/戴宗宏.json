@@ -1,0 +1,95 @@
+{
+  "node": {
+    "id": "戴宗宏",
+    "name": "戴宗宏",
+    "type": "person",
+    "description": "百川智能或零一万物出走的联合创始人之一",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "008",
+        "title": "前后不一李开复",
+        "date": "2025-06-27",
+        "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+        "permalink": "/articles/008",
+        "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0212
+  },
+  "links": [
+    {
+      "source": "戴宗宏",
+      "target": "百川智能",
+      "relation_type": "co_founded",
+      "type": "co_founded",
+      "label": "戴宗宏联合创立百川智能",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 5,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "戴宗宏",
+      "target": "谷雪梅",
+      "relation_type": "co_founded",
+      "type": "co_founded",
+      "label": "同为AI大模型公司（百川/零一）出走的联合创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "008"
+      ],
+      "evidences": [
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "同为AI大模型公司（百川/零一）出走的联合创始人",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "戴宗宏",
+      "target": "零一万物",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "作为百川或零一万物的出走联合创始人被提及",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "008"
+      ],
+      "evidences": [
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "作为百川或零一万物的出走联合创始人被提及",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

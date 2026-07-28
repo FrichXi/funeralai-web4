@@ -1,0 +1,308 @@
+{
+  "node": {
+    "id": "sora",
+    "name": "Sora",
+    "type": "product",
+    "description": "OpenAI推出的AI视频模型，文中指出其缺乏素材库和分发渠道，产品逻辑被字节借鉴。",
+    "mention_count": 12,
+    "article_count": 4,
+    "aliases": [
+      "Sora 2"
+    ],
+    "tags": [
+      "AI视频模型",
+      "AI视频生成",
+      "视频模型",
+      "视频生成"
+    ],
+    "references": 4,
+    "source_article_count": 4,
+    "source_articles": [
+      {
+        "article_id": "062",
+        "title": "Seedance 2.0让字节元神启动",
+        "date": "2026-02-10",
+        "path": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+        "permalink": "/articles/062",
+        "markdown_link": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+        "mention_count": 9
+      },
+      {
+        "article_id": "104",
+        "title": "生数鉴定为鸭腿吃多了",
+        "date": "2026-06-15",
+        "path": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+        "permalink": "/articles/104",
+        "markdown_link": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "063",
+        "title": "剪映炒Seedance 2.0，炒出一种推背感",
+        "date": "2026-02-12",
+        "path": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+        "permalink": "/articles/063",
+        "markdown_link": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "056",
+        "title": "PixVerse像做梦一样做世界模型",
+        "date": "2026-01-23",
+        "path": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+        "permalink": "/articles/056",
+        "markdown_link": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 11,
+    "composite_weight": 0.1056
+  },
+  "links": [
+    {
+      "source": "pixverse",
+      "target": "sora",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将PixVerse的近乎实时生成能力与Sora进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "056"
+      ],
+      "evidences": [
+        {
+          "article_id": "056",
+          "title": "PixVerse像做梦一样做世界模型",
+          "permalink": "/articles/056",
+          "markdown_link": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+          "path": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+          "date": "2026-01-23",
+          "label": "文章将PixVerse的近乎实时生成能力与Sora进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seedance",
+      "target": "sora",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章核心观点认为字节的Seedance在抄袭并借鉴Sora的产品逻辑。",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "062",
+        "063"
+      ],
+      "evidences": [
+        {
+          "article_id": "063",
+          "title": "剪映炒Seedance 2.0，炒出一种推背感",
+          "permalink": "/articles/063",
+          "markdown_link": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+          "path": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+          "date": "2026-02-12",
+          "label": "文章认为Seedance目前更适合生成真人整活视频的特性，类似于Sora早期的技术路线",
+          "weight": 1
+        },
+        {
+          "article_id": "062",
+          "title": "Seedance 2.0让字节元神启动",
+          "permalink": "/articles/062",
+          "markdown_link": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+          "path": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+          "date": "2026-02-10",
+          "label": "文章核心观点认为字节的Seedance在抄袭并借鉴Sora的产品逻辑。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "sora",
+      "target": "pixverse",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将PixVerse的近乎实时生成能力与Sora进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "sora",
+      "target": "seedance",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章核心观点认为字节的Seedance在抄袭并借鉴Sora的产品逻辑。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "sora",
+      "target": "vidu",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Vidu早期的生成时长突破曾被拿来与Sora的demo进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "104"
+      ],
+      "evidences": [
+        {
+          "article_id": "104",
+          "title": "生数鉴定为鸭腿吃多了",
+          "permalink": "/articles/104",
+          "markdown_link": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "path": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "date": "2026-06-15",
+          "label": "Vidu早期的生成时长突破曾被拿来与Sora的demo进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "vidu",
+      "target": "sora",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Vidu早期的生成时长突破曾被拿来与Sora的demo进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "oiioii",
+      "target": "sora",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中提及OiiOii近期被Sora的业务更新所背刺，存在生存竞争关系。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "062"
+      ],
+      "evidences": [
+        {
+          "article_id": "062",
+          "title": "Seedance 2.0让字节元神启动",
+          "permalink": "/articles/062",
+          "markdown_link": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+          "path": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+          "date": "2026-02-10",
+          "label": "文中提及OiiOii近期被Sora的业务更新所背刺，存在生存竞争关系。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seedance",
+      "target": "sora",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "作者认为Seedance的表现让Sora面临失业危机，两者为直接竞品。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "062"
+      ],
+      "evidences": [
+        {
+          "article_id": "062",
+          "title": "Seedance 2.0让字节元神启动",
+          "permalink": "/articles/062",
+          "markdown_link": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+          "path": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+          "date": "2026-02-10",
+          "label": "作者认为Seedance的表现让Sora面临失业危机，两者为直接竞品。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "sora",
+      "target": "oiioii",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中提及OiiOii近期被Sora的业务更新所背刺，存在生存竞争关系。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "sora",
+      "target": "seedance",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "作者认为Seedance的表现让Sora面临失业危机，两者为直接竞品。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "openai",
+      "target": "sora",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "OpenAI开发Sora",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "sora",
+      "target": "即梦",
+      "score": 0.5338,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "062",
+        "063",
+        "104"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "sora",
+      "target": "可灵",
+      "score": 0.3938,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "104"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "node": {
+    "id": "高瓴",
+    "name": "高瓴",
+    "type": "vc_firm",
+    "description": "知名投资机构",
+    "mention_count": 8,
+    "article_count": 3,
+    "aliases": [
+      "高瓴资本"
+    ],
+    "tags": [
+      "Mega Fund",
+      "风险投资"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "085",
+        "title": "谁是宇宙第一FA",
+        "date": "2026-04-27",
+        "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "permalink": "/articles/085",
+        "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "mention_count": 5
+      },
+      {
+        "article_id": "040",
+        "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+        "date": "2025-12-12",
+        "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "permalink": "/articles/040",
+        "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "037",
+        "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
+        "date": "2025-11-27",
+        "path": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+        "permalink": "/articles/037",
+        "markdown_link": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0497
+  },
+  "links": [
+    {
+      "source": "锦秋基金",
+      "target": "高瓴",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "锦秋基金在今年不可避免地要与高瓴等Mega Fund同台竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "040"
+      ],
+      "evidences": [
+        {
+          "article_id": "040",
+          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+          "permalink": "/articles/040",
+          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "date": "2025-12-12",
+          "label": "锦秋基金在今年不可避免地要与高瓴等Mega Fund同台竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "高瓴",
+      "target": "锦秋基金",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "锦秋基金在今年不可避免地要与高瓴等Mega Fund同台竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "高瓴",
+      "target": "dora-ai",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "Dora AI曾获得高瓴接近500万美金的融资",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "037"
+      ],
+      "evidences": [
+        {
+          "article_id": "037",
+          "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
+          "permalink": "/articles/037",
+          "markdown_link": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "path": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "date": "2025-11-27",
+          "label": "Dora AI曾获得高瓴接近500万美金的融资",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "高瓴",
+      "target": "karpo",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "高瓴大手笔投资了Karpo项目",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "高瓴大手笔投资了Karpo项目",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

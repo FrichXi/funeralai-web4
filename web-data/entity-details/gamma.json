@@ -1,0 +1,119 @@
+{
+  "node": {
+    "id": "gamma",
+    "name": "Gamma",
+    "type": "product",
+    "description": "海外知名的AI制作PPT工具",
+    "mention_count": 2,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "AI PPT"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "059",
+        "title": "「Dokie不如ListenHub」",
+        "date": "2026-01-28",
+        "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "permalink": "/articles/059",
+        "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "022",
+        "title": "GenSpark重做百度",
+        "date": "2025-09-15",
+        "path": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+        "permalink": "/articles/022",
+        "markdown_link": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0333
+  },
+  "links": [
+    {
+      "source": "dokie",
+      "target": "gamma",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "提到Dokie与Gamma在PPT生成赛道的竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "059"
+      ],
+      "evidences": [
+        {
+          "article_id": "059",
+          "title": "「Dokie不如ListenHub」",
+          "permalink": "/articles/059",
+          "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "date": "2026-01-28",
+          "label": "提到Dokie与Gamma在PPT生成赛道的竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gamma",
+      "target": "dokie",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "提到Dokie与Gamma在PPT生成赛道的竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "gamma",
+      "target": "genspark",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "GenSpark通过整合类似功能，在AI PPT等领域与Gamma构成竞争与替代关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "022"
+      ],
+      "evidences": [
+        {
+          "article_id": "022",
+          "title": "GenSpark重做百度",
+          "permalink": "/articles/022",
+          "markdown_link": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+          "path": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+          "date": "2025-09-15",
+          "label": "GenSpark通过整合类似功能，在AI PPT等领域与Gamma构成竞争与替代关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "genspark",
+      "target": "gamma",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "GenSpark通过整合类似功能，在AI PPT等领域与Gamma构成竞争与替代关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

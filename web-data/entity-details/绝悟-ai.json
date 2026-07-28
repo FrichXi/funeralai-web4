@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "绝悟-ai",
+    "name": "绝悟 AI",
+    "type": "product",
+    "description": "腾讯旗下用于王者荣耀等游戏的AI团队及架构",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI智能体",
+      "强化学习"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "037",
+        "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
+        "date": "2025-11-27",
+        "path": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+        "permalink": "/articles/037",
+        "markdown_link": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0166
+  },
+  "links": [
+    {
+      "source": "腾讯",
+      "target": "绝悟-ai",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "腾讯开发绝悟AI",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "腾讯-ai-lab",
+      "target": "绝悟-ai",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "腾讯旗下的绝悟AI团队构建了强化学习训练架构",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "037"
+      ],
+      "evidences": [
+        {
+          "article_id": "037",
+          "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
+          "permalink": "/articles/037",
+          "markdown_link": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "path": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "date": "2025-11-27",
+          "label": "腾讯旗下的绝悟AI团队构建了强化学习训练架构",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

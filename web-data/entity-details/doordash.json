@@ -1,0 +1,69 @@
+{
+  "node": {
+    "id": "doordash",
+    "name": "DoorDash",
+    "type": "company",
+    "description": "在线外卖平台",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "035",
+        "title": "彼得蒂尔是中国的辱追梦男",
+        "date": "2025-11-18",
+        "path": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+        "permalink": "/articles/035",
+        "markdown_link": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0165
+  },
+  "links": [
+    {
+      "source": "doordash",
+      "target": "uber",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "DoorDash和Uber Eats均为美国在线外卖平台",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "035"
+      ],
+      "evidences": [
+        {
+          "article_id": "035",
+          "title": "彼得蒂尔是中国的辱追梦男",
+          "permalink": "/articles/035",
+          "markdown_link": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+          "path": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+          "date": "2025-11-18",
+          "label": "DoorDash和Uber Eats均为美国在线外卖平台",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "uber",
+      "target": "doordash",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "DoorDash和Uber Eats均为美国在线外卖平台",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

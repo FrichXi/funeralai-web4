@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "gpt-image",
+    "name": "GPT-Image",
+    "type": "product",
+    "description": "支持基于多图参考进行生成的AI做图模型",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "图片生成"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "012",
+        "title": "CrePal成为首个胖猫视频Agent",
+        "date": "2025-07-25",
+        "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+        "permalink": "/articles/012",
+        "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0158
+  },
+  "links": [
+    {
+      "source": "crepal",
+      "target": "gpt-image",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "CrePal的子Agent中集成了GPT-Image生成模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "CrePal的子Agent中集成了GPT-Image生成模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "jiaming",
+      "target": "gpt-image",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "jiaming评价其为目前最好的多图参考融合模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "jiaming评价其为目前最好的多图参考融合模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

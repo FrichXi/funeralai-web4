@@ -1,0 +1,138 @@
+{
+  "node": {
+    "id": "钉钉a1",
+    "name": "钉钉A1",
+    "type": "product",
+    "description": "钉钉推出的语音备忘录实体按键卡片",
+    "mention_count": 6,
+    "article_count": 3,
+    "aliases": [
+      "a1",
+      "钉钉A1录音卡",
+      "钉钉录音卡片"
+    ],
+    "tags": [
+      "AI硬件",
+      "实体按键",
+      "录音卡",
+      "录音卡片",
+      "语音备忘录",
+      "软硬结合"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "033",
+        "title": "搞AI硬件别装美国公司",
+        "date": "2025-11-14",
+        "path": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+        "permalink": "/articles/033",
+        "markdown_link": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "045",
+        "title": "无招把钉钉当玩具整",
+        "date": "2025-12-24",
+        "path": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+        "permalink": "/articles/045",
+        "markdown_link": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "044",
+        "title": "Plaud善打游击战",
+        "date": "2025-12-23",
+        "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+        "permalink": "/articles/044",
+        "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+        "mention_count": 4
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0352
+  },
+  "links": [
+    {
+      "source": "note",
+      "target": "钉钉a1",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Plaud的Note与钉钉的A1同为录音卡片竞品。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "钉钉a1",
+      "target": "note",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Plaud的Note与钉钉的A1同为录音卡片竞品。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "044"
+      ],
+      "evidences": [
+        {
+          "article_id": "044",
+          "title": "Plaud善打游击战",
+          "permalink": "/articles/044",
+          "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "date": "2025-12-23",
+          "label": "Plaud的Note与钉钉的A1同为录音卡片竞品。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "钉钉",
+      "target": "钉钉a1",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "钉钉开发了包含实体按键的A1录音硬件",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "033"
+      ],
+      "evidences": [
+        {
+          "article_id": "033",
+          "title": "搞AI硬件别装美国公司",
+          "permalink": "/articles/033",
+          "markdown_link": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+          "path": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+          "date": "2025-11-14",
+          "label": "钉钉开发了包含实体按键的A1录音硬件",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "plaud",
+      "target": "钉钉a1",
+      "score": 0.4727,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "033",
+        "044",
+        "045"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

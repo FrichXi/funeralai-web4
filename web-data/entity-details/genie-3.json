@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "genie-3",
+    "name": "Genie 3",
+    "type": "product",
+    "description": "世界模型产品，被指出存在穿墙、穿模等物理定律问题",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "世界模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "121",
+        "title": "蚂蚁把世界模型作为一场儿戏",
+        "date": "2026-07-16",
+        "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+        "permalink": "/articles/121",
+        "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.025
+  },
+  "links": [
+    {
+      "source": "genie-3",
+      "target": "lingbot-world-2-0",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了两者在处理穿墙、穿模等物理交互问题上的不同表现",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "121"
+      ],
+      "evidences": [
+        {
+          "article_id": "121",
+          "title": "蚂蚁把世界模型作为一场儿戏",
+          "permalink": "/articles/121",
+          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "date": "2026-07-16",
+          "label": "文章对比了两者在处理穿墙、穿模等物理交互问题上的不同表现",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "lingbot-world-2-0",
+      "target": "genie-3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了两者在处理穿墙、穿模等物理交互问题上的不同表现",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

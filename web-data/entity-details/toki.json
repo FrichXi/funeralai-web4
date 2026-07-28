@@ -1,0 +1,133 @@
+{
+  "node": {
+    "id": "toki",
+    "name": "Toki",
+    "type": "product",
+    "description": "支持通过聊天截图或语音设置日程提醒的AI日程管理小工具",
+    "mention_count": 18,
+    "article_count": 3,
+    "aliases": [
+      "Dola"
+    ],
+    "tags": [
+      "Agent",
+      "效率工具",
+      "日程管理"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "021",
+        "title": "Cherry Studio是一个伟大的AI工具",
+        "date": "2025-09-11",
+        "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+        "permalink": "/articles/021",
+        "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+        "mention_count": 13
+      },
+      {
+        "article_id": "040",
+        "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+        "date": "2025-12-12",
+        "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "permalink": "/articles/040",
+        "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "020",
+        "title": "半年来目睹之AI创业怪现状",
+        "date": "2025-09-08",
+        "path": "articles/020_2025-09-08_葬爱咸鱼_半年来目睹之AI创业怪现状.md",
+        "permalink": "/articles/020",
+        "markdown_link": "articles/020_2025-09-08_葬爱咸鱼_半年来目睹之AI创业怪现状.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0421
+  },
+  "links": [
+    {
+      "source": "toki",
+      "target": "扫描全能王",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Toki比喻为扫描全能王一样不讲大故事但真正有用的工具",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "021"
+      ],
+      "evidences": [
+        {
+          "article_id": "021",
+          "title": "Cherry Studio是一个伟大的AI工具",
+          "permalink": "/articles/021",
+          "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "date": "2025-09-11",
+          "label": "文章将Toki比喻为扫描全能王一样不讲大故事但真正有用的工具",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "扫描全能王",
+      "target": "toki",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Toki比喻为扫描全能王一样不讲大故事但真正有用的工具",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "toki",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "咸鱼在文中称赞了Toki作为日程管理小工具的实用性",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "020"
+      ],
+      "evidences": [
+        {
+          "article_id": "020",
+          "title": "半年来目睹之AI创业怪现状",
+          "permalink": "/articles/020",
+          "markdown_link": "articles/020_2025-09-08_葬爱咸鱼_半年来目睹之AI创业怪现状.md",
+          "path": "articles/020_2025-09-08_葬爱咸鱼_半年来目睹之AI创业怪现状.md",
+          "date": "2025-09-08",
+          "label": "咸鱼在文中称赞了Toki作为日程管理小工具的实用性",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "cherry-studio",
+      "target": "toki",
+      "score": 0.4955,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "020",
+        "021",
+        "040"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

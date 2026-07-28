@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "福棠-百川",
+    "name": "福棠·百川",
+    "type": "product",
+    "description": "百川智能研发的AI模型，主要做AI初筛与远程复核",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI模型",
+      "初筛"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "007",
+        "title": "王小川造不出医生",
+        "date": "2025-06-26",
+        "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+        "permalink": "/articles/007",
+        "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0085
+  },
+  "links": [
+    {
+      "source": "百川智能",
+      "target": "福棠-百川",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "百川智能研发了「福棠·百川」AI模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "007"
+      ],
+      "evidences": [
+        {
+          "article_id": "007",
+          "title": "王小川造不出医生",
+          "permalink": "/articles/007",
+          "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "date": "2025-06-26",
+          "label": "百川智能研发了「福棠·百川」AI模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

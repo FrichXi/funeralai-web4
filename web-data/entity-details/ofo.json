@@ -1,0 +1,183 @@
+{
+  "node": {
+    "id": "ofo",
+    "name": "ofo",
+    "type": "company",
+    "description": "共享单车产品，其激进的投放策略被用来与Kimi对比",
+    "mention_count": 4,
+    "article_count": 3,
+    "aliases": [
+      "ofo单车"
+    ],
+    "tags": [
+      "投流",
+      "用户增长"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "055",
+        "title": "来认识下2025年最活跃的CVC",
+        "date": "2026-01-22",
+        "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "permalink": "/articles/055",
+        "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "040",
+        "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+        "date": "2025-12-12",
+        "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "permalink": "/articles/040",
+        "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "005",
+        "title": "Kimi没有梦想",
+        "date": "2025-06-24",
+        "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+        "permalink": "/articles/005",
+        "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 6,
+    "composite_weight": 0.0506
+  },
+  "links": [
+    {
+      "source": "kimi",
+      "target": "ofo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Kimi不计成本的投流打法被类比为当年的ofo单车投放",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "005"
+      ],
+      "evidences": [
+        {
+          "article_id": "005",
+          "title": "Kimi没有梦想",
+          "permalink": "/articles/005",
+          "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "date": "2025-06-24",
+          "label": "Kimi不计成本的投流打法被类比为当年的ofo单车投放",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "ofo",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Kimi不计成本的投流打法被类比为当年的ofo单车投放",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "ofo",
+      "target": "摩拜",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "ofo和摩拜存在竞争与合并风险",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "ofo和摩拜存在竞争与合并风险",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "摩拜",
+      "target": "ofo",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "ofo和摩拜存在竞争与合并风险",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "ofo",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "蚂蚁曾投资ofo",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "蚂蚁曾投资ofo",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "金沙江",
+      "target": "ofo",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "金沙江重注ofo",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "040"
+      ],
+      "evidences": [
+        {
+          "article_id": "040",
+          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+          "permalink": "/articles/040",
+          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "date": "2025-12-12",
+          "label": "金沙江重注ofo",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

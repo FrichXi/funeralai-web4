@@ -1,0 +1,97 @@
+{
+  "node": {
+    "id": "openmanus",
+    "name": "OpenManus",
+    "type": "product",
+    "description": "开源多智能体框架",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "开源"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "054",
+        "title": "Atoms，平替Lovable的残酷物语",
+        "date": "2026-01-21",
+        "path": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+        "permalink": "/articles/054",
+        "markdown_link": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0266
+  },
+  "links": [
+    {
+      "source": "manus",
+      "target": "openmanus",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "OpenManus被用作平替Manus的产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "054"
+      ],
+      "evidences": [
+        {
+          "article_id": "054",
+          "title": "Atoms，平替Lovable的残酷物语",
+          "permalink": "/articles/054",
+          "markdown_link": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+          "path": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+          "date": "2026-01-21",
+          "label": "OpenManus被用作平替Manus的产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "openmanus",
+      "target": "manus",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "OpenManus被用作平替Manus的产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "deepwisdom",
+      "target": "openmanus",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "OpenManus属于DeepWisdom团队名下产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "054"
+      ],
+      "evidences": [
+        {
+          "article_id": "054",
+          "title": "Atoms，平替Lovable的残酷物语",
+          "permalink": "/articles/054",
+          "markdown_link": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+          "path": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+          "date": "2026-01-21",
+          "label": "OpenManus属于DeepWisdom团队名下产品",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

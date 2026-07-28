@@ -1,0 +1,86 @@
+{
+  "node": {
+    "id": "船岛",
+    "name": "船岛",
+    "type": "company",
+    "description": "郭列离开字节后创办的公司，开发了Flova",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [
+      "船岛游戏"
+    ],
+    "tags": [
+      "AI创业"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "052",
+        "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+        "date": "2026-01-16",
+        "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "permalink": "/articles/052",
+        "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0202
+  },
+  "links": [
+    {
+      "source": "船岛",
+      "target": "flova",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "船岛公司开发了Flova",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "052"
+      ],
+      "evidences": [
+        {
+          "article_id": "052",
+          "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+          "permalink": "/articles/052",
+          "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "date": "2026-01-16",
+          "label": "船岛公司开发了Flova",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "郭列",
+      "target": "船岛",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "郭列是船岛的创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "052"
+      ],
+      "evidences": [
+        {
+          "article_id": "052",
+          "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+          "permalink": "/articles/052",
+          "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "date": "2026-01-16",
+          "label": "郭列是船岛的创始人",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

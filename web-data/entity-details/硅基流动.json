@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "硅基流动",
+    "name": "硅基流动",
+    "type": "company",
+    "description": "AI API服务提供商",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "API服务"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "070",
+        "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+        "date": "2026-03-13",
+        "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+        "permalink": "/articles/070",
+        "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.014
+  },
+  "links": [
+    {
+      "source": "cherry-studio",
+      "target": "硅基流动",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Cherry Studio作为前端承接了硅基流动的API",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "070"
+      ],
+      "evidences": [
+        {
+          "article_id": "070",
+          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+          "permalink": "/articles/070",
+          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "date": "2026-03-13",
+          "label": "Cherry Studio作为前端承接了硅基流动的API",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

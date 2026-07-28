@@ -1,0 +1,189 @@
+{
+  "node": {
+    "id": "淘宝",
+    "name": "淘宝",
+    "type": "product",
+    "description": "阿里旗下的核心电商平台，以服务小B商家为基础构建的平台模式。",
+    "mention_count": 24,
+    "article_count": 2,
+    "aliases": [
+      "淘宝主站",
+      "淘宝闪购"
+    ],
+    "tags": [
+      "小B2C平台",
+      "电商",
+      "购物"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "018",
+        "title": "电骡快跑，Mulerun想做AI淘宝",
+        "date": "2025-09-02",
+        "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+        "permalink": "/articles/018",
+        "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+        "mention_count": 22
+      },
+      {
+        "article_id": "051",
+        "title": "狠狠办千问",
+        "date": "2026-01-15",
+        "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "permalink": "/articles/051",
+        "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 7,
+    "composite_weight": 0.0701
+  },
+  "links": [
+    {
+      "source": "mulerun",
+      "target": "淘宝",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章核心观点认为Mulerun放弃UGC转做小B供给侧的模式，是想做AI时代的淘宝。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "018"
+      ],
+      "evidences": [
+        {
+          "article_id": "018",
+          "title": "电骡快跑，Mulerun想做AI淘宝",
+          "permalink": "/articles/018",
+          "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "date": "2025-09-02",
+          "label": "文章核心观点认为Mulerun放弃UGC转做小B供给侧的模式，是想做AI时代的淘宝。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "淘宝",
+      "target": "mulerun",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章核心观点认为Mulerun放弃UGC转做小B供给侧的模式，是想做AI时代的淘宝。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "ebay",
+      "target": "淘宝",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "早期电商时代模式之争的经典竞争对手。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "018"
+      ],
+      "evidences": [
+        {
+          "article_id": "018",
+          "title": "电骡快跑，Mulerun想做AI淘宝",
+          "permalink": "/articles/018",
+          "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "date": "2025-09-02",
+          "label": "早期电商时代模式之争的经典竞争对手。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "淘宝",
+      "target": "ebay",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "早期电商时代模式之争的经典竞争对手。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "淘宝",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "阿里巴巴开发淘宝",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qwen",
+      "target": "淘宝",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "千问接入了淘宝闪购和淘宝主站，实现AI一站式购物",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "051"
+      ],
+      "evidences": [
+        {
+          "article_id": "051",
+          "title": "狠狠办千问",
+          "permalink": "/articles/051",
+          "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "date": "2026-01-15",
+          "label": "千问接入了淘宝闪购和淘宝主站，实现AI一站式购物",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "淘宝",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "淘宝早期通过引入支付宝来担保交易解决信任问题。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "018"
+      ],
+      "evidences": [
+        {
+          "article_id": "018",
+          "title": "电骡快跑，Mulerun想做AI淘宝",
+          "permalink": "/articles/018",
+          "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "date": "2025-09-02",
+          "label": "淘宝早期通过引入支付宝来担保交易解决信任问题。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

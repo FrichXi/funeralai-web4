@@ -1,0 +1,204 @@
+{
+  "node": {
+    "id": "文心一言",
+    "name": "文心一言",
+    "type": "product",
+    "description": "百度推出的对话式AI产品，文中被批评能力落后、DAU低",
+    "mention_count": 20,
+    "article_count": 1,
+    "aliases": [
+      "ERNIE Bot"
+    ],
+    "tags": [
+      "Chatbot",
+      "ToC"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "125",
+        "title": "建议百度文心一言申请非遗",
+        "date": "2026-07-28",
+        "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+        "permalink": "/articles/125",
+        "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+        "mention_count": 20
+      }
+    ],
+    "degree": 8,
+    "composite_weight": 0.1146
+  },
+  "links": [
+    {
+      "source": "deepseek-r1",
+      "target": "文心一言",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文心一言因DeepSeek R1发布而被迫宣布免费，形成对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "125"
+      ],
+      "evidences": [
+        {
+          "article_id": "125",
+          "title": "建议百度文心一言申请非遗",
+          "permalink": "/articles/125",
+          "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "date": "2026-07-28",
+          "label": "文心一言因DeepSeek R1发布而被迫宣布免费，形成对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "小爱同学",
+      "target": "文心一言",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中讽刺文心一言智商直追小爱同学",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "125"
+      ],
+      "evidences": [
+        {
+          "article_id": "125",
+          "title": "建议百度文心一言申请非遗",
+          "permalink": "/articles/125",
+          "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "date": "2026-07-28",
+          "label": "文中讽刺文心一言智商直追小爱同学",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "文心一言",
+      "target": "deepseek-r1",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文心一言因DeepSeek R1发布而被迫宣布免费，形成对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "文心一言",
+      "target": "小爱同学",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中讽刺文心一言智商直追小爱同学",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "文心一言",
+      "target": "豆包",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文心一言在AI弱智笑话生态及流量上与豆包竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "125"
+      ],
+      "evidences": [
+        {
+          "article_id": "125",
+          "title": "建议百度文心一言申请非遗",
+          "permalink": "/articles/125",
+          "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "date": "2026-07-28",
+          "label": "文心一言在AI弱智笑话生态及流量上与豆包竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包",
+      "target": "文心一言",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文心一言在AI弱智笑话生态及流量上与豆包竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "文心一言",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "作者批评文心一言能力弱、视频生成失败、DAU极低",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "125"
+      ],
+      "evidences": [
+        {
+          "article_id": "125",
+          "title": "建议百度文心一言申请非遗",
+          "permalink": "/articles/125",
+          "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "date": "2026-07-28",
+          "label": "作者批评文心一言能力弱、视频生成失败、DAU极低",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "百度",
+      "target": "文心一言",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "百度开发了文心一言产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "125"
+      ],
+      "evidences": [
+        {
+          "article_id": "125",
+          "title": "建议百度文心一言申请非遗",
+          "permalink": "/articles/125",
+          "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "date": "2026-07-28",
+          "label": "百度开发了文心一言产品",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

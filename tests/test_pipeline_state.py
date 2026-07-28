@@ -13,9 +13,23 @@ from pipeline_state import (
     article_record_from_path,
     extract_article_body,
     extraction_decision,
+    empty_manifest,
     load_articles,
+    save_manifest,
     sha256_text,
 )
+
+
+def test_save_manifest_preserves_timestamp_when_payload_is_unchanged(tmp_path):
+    manifest_path = tmp_path / "articles_manifest.json"
+    manifest = empty_manifest()
+    with patch("pipeline_state.MANIFEST_FILE", manifest_path):
+        save_manifest(manifest)
+        first = manifest_path.read_bytes()
+        save_manifest(manifest)
+        second = manifest_path.read_bytes()
+
+    assert second == first
 
 
 class TestArticleFilenameRegex:

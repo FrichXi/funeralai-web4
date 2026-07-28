@@ -1,0 +1,241 @@
+{
+  "node": {
+    "id": "opencode",
+    "name": "Opencode",
+    "type": "product",
+    "description": "被作者用来接入Deepseek和Qwen执行日常任务的工具",
+    "mention_count": 9,
+    "article_count": 5,
+    "aliases": [],
+    "tags": [
+      "AI工具",
+      "AI编程",
+      "代理",
+      "多轮交互",
+      "独立会话",
+      "编程CLI",
+      "自动化"
+    ],
+    "references": 5,
+    "source_article_count": 5,
+    "source_articles": [
+      {
+        "article_id": "103",
+        "title": "Kimi看天讨饭吃",
+        "date": "2026-06-10",
+        "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "permalink": "/articles/103",
+        "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "105",
+        "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+        "date": "2026-06-17",
+        "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "permalink": "/articles/105",
+        "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "076",
+        "title": "葬CLI如闪电般上线",
+        "date": "2026-03-26",
+        "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+        "permalink": "/articles/076",
+        "markdown_link": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "099",
+        "title": "马卡龙开创AI短剧Neo Lab",
+        "date": "2026-06-04",
+        "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "permalink": "/articles/099",
+        "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "092",
+        "title": "深圳AI硬件十分疯狂",
+        "date": "2026-05-18",
+        "path": "articles/092_2026-05-18_葬爱咸鱼_深圳AI硬件十分疯狂.md",
+        "permalink": "/articles/092",
+        "markdown_link": "articles/092_2026-05-18_葬爱咸鱼_深圳AI硬件十分疯狂.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 6,
+    "composite_weight": 0.086
+  },
+  "links": [
+    {
+      "source": "opencode",
+      "target": "葬cli",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "葬CLI抄了Opencode的CLI壳子",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "076"
+      ],
+      "evidences": [
+        {
+          "article_id": "076",
+          "title": "葬CLI如闪电般上线",
+          "permalink": "/articles/076",
+          "markdown_link": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+          "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+          "date": "2026-03-26",
+          "label": "葬CLI抄了Opencode的CLI壳子",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "葬cli",
+      "target": "opencode",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "葬CLI抄了Opencode的CLI壳子",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi-code",
+      "target": "opencode",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在第三方编程CLI生态位上存在竞争和对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "在第三方编程CLI生态位上存在竞争和对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "opencode",
+      "target": "kimi-code",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在第三方编程CLI生态位上存在竞争和对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "deepseek",
+      "target": "opencode",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "作者使用Opencode结合Deepseek并发运行子代理",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "092",
+        "099"
+      ],
+      "evidences": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "作者使用Opencode接入了Deepseek模型来完成日常任务",
+          "weight": 1
+        },
+        {
+          "article_id": "092",
+          "title": "深圳AI硬件十分疯狂",
+          "permalink": "/articles/092",
+          "markdown_link": "articles/092_2026-05-18_葬爱咸鱼_深圳AI硬件十分疯狂.md",
+          "path": "articles/092_2026-05-18_葬爱咸鱼_深圳AI硬件十分疯狂.md",
+          "date": "2026-05-18",
+          "label": "作者使用Opencode结合Deepseek并发运行子代理",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "opencode",
+      "target": "qwen",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "作者使用Opencode接入了Qwen模型来完成日常任务",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "099",
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "用户日常任务用Opencode接入Qwen大模型产品",
+          "weight": 1
+        },
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "作者使用Opencode接入了Qwen模型来完成日常任务",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "claude",
+      "target": "opencode",
+      "score": 0.6631,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "076",
+        "099",
+        "103",
+        "105"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

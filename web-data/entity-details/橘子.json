@@ -1,0 +1,108 @@
+{
+  "node": {
+    "id": "橘子",
+    "name": "橘子",
+    "type": "person",
+    "description": "ListenHub的创始人，完成新一轮融资",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "059",
+        "title": "「Dokie不如ListenHub」",
+        "date": "2026-01-28",
+        "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "permalink": "/articles/059",
+        "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0332
+  },
+  "links": [
+    {
+      "source": "张月光",
+      "target": "橘子",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章转述他人言论将张月光与橘子作为创业者进行比较",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "059"
+      ],
+      "evidences": [
+        {
+          "article_id": "059",
+          "title": "「Dokie不如ListenHub」",
+          "permalink": "/articles/059",
+          "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "date": "2026-01-28",
+          "label": "文章转述他人言论将张月光与橘子作为创业者进行比较",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "橘子",
+      "target": "张月光",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章转述他人言论将张月光与橘子作为创业者进行比较",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "橘子",
+      "target": "listenhub",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "橘子创立ListenHub",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 5,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "橘子",
+      "target": "listenhub",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "ListenHub是橘子创业开发的产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "059"
+      ],
+      "evidences": [
+        {
+          "article_id": "059",
+          "title": "「Dokie不如ListenHub」",
+          "permalink": "/articles/059",
+          "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "date": "2026-01-28",
+          "label": "ListenHub是橘子创业开发的产品",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,67 @@
+{
+  "node": {
+    "id": "travis-kalanick",
+    "name": "Travis Kalanick",
+    "type": "person",
+    "description": "Uber创始人",
+    "mention_count": 3,
+    "article_count": 2,
+    "aliases": [
+      "Uber创始人"
+    ],
+    "tags": [],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "035",
+        "title": "彼得蒂尔是中国的辱追梦男",
+        "date": "2025-11-18",
+        "path": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+        "permalink": "/articles/035",
+        "markdown_link": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "036",
+        "title": "灵感式写作",
+        "date": "2025-11-19",
+        "path": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+        "permalink": "/articles/036",
+        "markdown_link": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0151
+  },
+  "links": [
+    {
+      "source": "travis-kalanick",
+      "target": "uber",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "Travis Kalanick是Uber创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "035"
+      ],
+      "evidences": [
+        {
+          "article_id": "035",
+          "title": "彼得蒂尔是中国的辱追梦男",
+          "permalink": "/articles/035",
+          "markdown_link": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+          "path": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+          "date": "2025-11-18",
+          "label": "Travis Kalanick是Uber创始人",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

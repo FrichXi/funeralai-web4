@@ -1,0 +1,578 @@
+{
+  "node": {
+    "id": "glm",
+    "name": "GLM",
+    "type": "product",
+    "description": "智谱AI开发的大语言模型，文中提及GLM 5.2版本",
+    "mention_count": 64,
+    "article_count": 5,
+    "aliases": [
+      "GLM 5.2",
+      "GLM-5",
+      "GLM-5.2",
+      "GLM5.2"
+    ],
+    "tags": [
+      "Coding",
+      "Coding专精",
+      "产出稳定",
+      "国模第一",
+      "基础模型",
+      "大模型",
+      "大语言模型",
+      "编程",
+      "编程能力强",
+      "视觉复刻"
+    ],
+    "references": 5,
+    "source_article_count": 5,
+    "source_articles": [
+      {
+        "article_id": "105",
+        "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+        "date": "2026-06-17",
+        "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "permalink": "/articles/105",
+        "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "mention_count": 22
+      },
+      {
+        "article_id": "109",
+        "title": "智谱与Anthropic是母凭子贵",
+        "date": "2026-06-23",
+        "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "permalink": "/articles/109",
+        "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "mention_count": 20
+      },
+      {
+        "article_id": "112",
+        "title": "老天保佑Qwen救救阿里巴巴",
+        "date": "2026-07-02",
+        "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+        "permalink": "/articles/112",
+        "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+        "mention_count": 14
+      },
+      {
+        "article_id": "110",
+        "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+        "date": "2026-06-24",
+        "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "permalink": "/articles/110",
+        "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "mention_count": 7
+      },
+      {
+        "article_id": "049",
+        "title": "建议六小虎合并，实现China AGI",
+        "date": "2026-01-05",
+        "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "permalink": "/articles/049",
+        "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 18,
+    "composite_weight": 0.3002
+  },
+  "links": [
+    {
+      "source": "claude",
+      "target": "glm",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "GLM被评价为若干Claude平替之一",
+      "weight": 3,
+      "strength": 2,
+      "effective_weight": 9,
+      "article_count": 3,
+      "evidence_articles": [
+        "049",
+        "105",
+        "109"
+      ],
+      "evidences": [
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "date": "2026-06-23",
+          "label": "GLM-5在匿名打榜时展现出接近Claude的编程能力",
+          "weight": 1
+        },
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "作者指出GLM 5.2得分第一，在表现上略微超越了Claude Opus 4.8",
+          "weight": 1
+        },
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "GLM被评价为若干Claude平替之一",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "glm",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "GLM在生成画布页面的能力上直接超越了没生成出来的Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "105"
+      ],
+      "evidences": [
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "GLM在生成画布页面的能力上直接超越了没生成出来的Codex",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "glm",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "GLM被评价为若干Claude平替之一",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "glm",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "GLM在生成画布页面的能力上直接超越了没生成出来的Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "glm",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Qwen 3.7 Max的体感与得分前两名的GLM和Claude相差不大",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "105"
+      ],
+      "evidences": [
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "Qwen 3.7 Max的体感与得分前两名的GLM和Claude相差不大",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "qwen",
+      "target": "glm",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Qwen 3.7 Max的体感与得分前两名的GLM和Claude相差不大",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "codex",
+      "target": "glm",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在游戏代码编写和需求还原测试中，与Codex进行同台竞技对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "109"
+      ],
+      "evidences": [
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "date": "2026-06-23",
+          "label": "在游戏代码编写和需求还原测试中，与Codex进行同台竞技对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "glm",
+      "target": "codex",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在游戏代码编写和需求还原测试中，与Codex进行同台竞技对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "glm",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "GLM5.2在编程能力评估中被视作专门狙击Kimi的产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "109"
+      ],
+      "evidences": [
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "date": "2026-06-23",
+          "label": "GLM5.2在编程能力评估中被视作专门狙击Kimi的产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "glm",
+      "target": "qwen",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Qwen与GLM争夺国模第一的位置，能力接近",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "112"
+      ],
+      "evidences": [
+        {
+          "article_id": "112",
+          "title": "老天保佑Qwen救救阿里巴巴",
+          "permalink": "/articles/112",
+          "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "date": "2026-07-02",
+          "label": "Qwen与GLM争夺国模第一的位置，能力接近",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "glm",
+      "target": "seed",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者在编程基准测试中同台竞技且被多处对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "两者在编程基准测试中同台竞技且被多处对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "glm",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "GLM5.2在编程能力评估中被视作专门狙击Kimi的产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qwen",
+      "target": "glm",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Qwen与GLM争夺国模第一的位置，能力接近",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "seed",
+      "target": "glm",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者在编程基准测试中同台竞技且被多处对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "智谱ai",
+      "target": "glm",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "智谱开发的大模型产品",
+      "weight": 4,
+      "strength": 4,
+      "effective_weight": 20,
+      "article_count": 4,
+      "evidence_articles": [
+        "049",
+        "105",
+        "109",
+        "112"
+      ],
+      "evidences": [
+        {
+          "article_id": "112",
+          "title": "老天保佑Qwen救救阿里巴巴",
+          "permalink": "/articles/112",
+          "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "date": "2026-07-02",
+          "label": "智谱AI开发GLM系列模型",
+          "weight": 1
+        },
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "date": "2026-06-23",
+          "label": "智谱研发了GLM模型",
+          "weight": 1
+        },
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "GLM系列模型由智谱公司开发（文中提及智谱家人提供的内测接口）",
+          "weight": 1
+        },
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "智谱开发的大模型产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "glm",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "大量博主推荐及官方支持将Claude Code工具结合GLM API作为特色配置方案",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "109"
+      ],
+      "evidences": [
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "date": "2026-06-23",
+          "label": "大量博主推荐及官方支持将Claude Code工具结合GLM API作为特色配置方案",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "glm",
+      "target": "libtv",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文末评价利用GLM结合LibTV这种Agent应用有极强的生产力",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "109"
+      ],
+      "evidences": [
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "date": "2026-06-23",
+          "label": "文末评价利用GLM结合LibTV这种Agent应用有极强的生产力",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "凯一",
+      "target": "glm",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "凯一在复刻测试后大呼GLM无敌，赞扬其生成能力",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "105"
+      ],
+      "evidences": [
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "凯一在复刻测试后大呼GLM无敌，赞扬其生成能力",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "gemini",
+      "target": "glm",
+      "score": 0.4816,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 5 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "110"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "deepseek",
+      "target": "glm",
+      "score": 0.4705,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "049",
+        "105",
+        "109",
+        "110"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "glm",
+      "target": "字节跳动",
+      "score": 0.4442,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "110",
+        "112"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "glm",
+      "target": "豆包",
+      "score": 0.4328,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "110",
+        "112"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "glm",
+      "target": "minimax",
+      "score": 0.41,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "049",
+        "105",
+        "109",
+        "110"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

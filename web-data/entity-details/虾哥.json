@@ -1,0 +1,68 @@
+{
+  "node": {
+    "id": "虾哥",
+    "name": "虾哥",
+    "type": "person",
+    "description": "深圳电子佬精神代表，办公室摆满小智AI硬件",
+    "mention_count": 10,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "小智之父",
+      "电子佬"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "072",
+        "title": "小智AI才是真正的具身智能",
+        "date": "2026-03-17",
+        "path": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+        "permalink": "/articles/072",
+        "markdown_link": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+        "mention_count": 8
+      },
+      {
+        "article_id": "092",
+        "title": "深圳AI硬件十分疯狂",
+        "date": "2026-05-18",
+        "path": "articles/092_2026-05-18_葬爱咸鱼_深圳AI硬件十分疯狂.md",
+        "permalink": "/articles/092",
+        "markdown_link": "articles/092_2026-05-18_葬爱咸鱼_深圳AI硬件十分疯狂.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0341
+  },
+  "links": [
+    {
+      "source": "虾哥",
+      "target": "小智ai",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "虾哥是小智AI的开发者，并在GitHub上将其开源",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "072"
+      ],
+      "evidences": [
+        {
+          "article_id": "072",
+          "title": "小智AI才是真正的具身智能",
+          "permalink": "/articles/072",
+          "markdown_link": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+          "path": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+          "date": "2026-03-17",
+          "label": "虾哥是小智AI的开发者，并在GitHub上将其开源",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

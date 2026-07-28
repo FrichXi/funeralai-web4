@@ -1,0 +1,651 @@
+{
+  "node": {
+    "id": "elys",
+    "name": "Elys",
+    "type": "product",
+    "description": "自然选择推出的另一款AI社交产品，主打赛博分身社交",
+    "mention_count": 64,
+    "article_count": 4,
+    "aliases": [
+      "爱丽丝论坛"
+    ],
+    "tags": [
+      "AI分身",
+      "AI社交",
+      "分身",
+      "赛博分身",
+      "赛博斗蛐蛐"
+    ],
+    "references": 4,
+    "source_article_count": 4,
+    "source_articles": [
+      {
+        "article_id": "081",
+        "title": "小登领导AI社交",
+        "date": "2026-04-15",
+        "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+        "permalink": "/articles/081",
+        "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+        "mention_count": 32
+      },
+      {
+        "article_id": "064",
+        "title": "Elys应该做成AI内涵段子",
+        "date": "2026-02-13",
+        "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "permalink": "/articles/064",
+        "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "mention_count": 27
+      },
+      {
+        "article_id": "094",
+        "title": "大部分男的聊天水平不如EVE",
+        "date": "2026-05-21",
+        "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+        "permalink": "/articles/094",
+        "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "067",
+        "title": "OpenClaw不如狗一条",
+        "date": "2026-03-03",
+        "path": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+        "permalink": "/articles/067",
+        "markdown_link": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 25,
+    "composite_weight": 0.2721
+  },
+  "links": [
+    {
+      "source": "clubhouse",
+      "target": "elys",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者感觉Elys像Clubhouse",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "064",
+        "081"
+      ],
+      "evidences": [
+        {
+          "article_id": "081",
+          "title": "小登领导AI社交",
+          "permalink": "/articles/081",
+          "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "date": "2026-04-15",
+          "label": "文章认为Elys和Clubhouse是非常像的产品",
+          "weight": 1
+        },
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "作者感觉Elys像Clubhouse",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "elys",
+      "target": "clubhouse",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者感觉Elys像Clubhouse",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "elys",
+      "target": "eve",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者对比了两款产品的推出顺序、交互场景，并探讨了两者的差异与联系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "094"
+      ],
+      "evidences": [
+        {
+          "article_id": "094",
+          "title": "大部分男的聊天水平不如EVE",
+          "permalink": "/articles/094",
+          "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "date": "2026-05-21",
+          "label": "作者对比了两款产品的推出顺序、交互场景，并探讨了两者的差异与联系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "elys",
+      "target": "openclaw",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Elys与Openclaw进行趣味性对比",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "064",
+        "081"
+      ],
+      "evidences": [
+        {
+          "article_id": "081",
+          "title": "小登领导AI社交",
+          "permalink": "/articles/081",
+          "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "date": "2026-04-15",
+          "label": "币圈将Elys和Openclaw并称为Web4两大产品",
+          "weight": 1
+        },
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "文章将Elys与Openclaw进行趣味性对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "elys",
+      "target": "second-me",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者第一反应将其视为做Second Me的同类尝试",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "064"
+      ],
+      "evidences": [
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "作者第一反应将其视为做Second Me的同类尝试",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "elys",
+      "target": "sekai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同为AI社交产品，Julian将其产品机制和体验与Elys做对比探讨",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "081"
+      ],
+      "evidences": [
+        {
+          "article_id": "081",
+          "title": "小登领导AI社交",
+          "permalink": "/articles/081",
+          "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "date": "2026-04-15",
+          "label": "同为AI社交产品，Julian将其产品机制和体验与Elys做对比探讨",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "elys",
+      "target": "tinder",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中认为如果将EVE和Elys结合起来，就相当于诞生了‘AI Tinder’",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "094"
+      ],
+      "evidences": [
+        {
+          "article_id": "094",
+          "title": "大部分男的聊天水平不如EVE",
+          "permalink": "/articles/094",
+          "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "date": "2026-05-21",
+          "label": "文中认为如果将EVE和Elys结合起来，就相当于诞生了‘AI Tinder’",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "elys",
+      "target": "内涵段子",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章核心论述Elys应该做成AI内涵段子，且具备其雏形",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "064"
+      ],
+      "evidences": [
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "文章核心论述Elys应该做成AI内涵段子，且具备其雏形",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "elys",
+      "target": "即刻",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Elys被形容为光屁股版的即刻，且用户群重合度高",
+      "weight": 3,
+      "strength": 2,
+      "effective_weight": 9,
+      "article_count": 3,
+      "evidence_articles": [
+        "064",
+        "067",
+        "081"
+      ],
+      "evidences": [
+        {
+          "article_id": "081",
+          "title": "小登领导AI社交",
+          "permalink": "/articles/081",
+          "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "date": "2026-04-15",
+          "label": "文章指出Elys的本质是光屁股版的即刻",
+          "weight": 1
+        },
+        {
+          "article_id": "067",
+          "title": "OpenClaw不如狗一条",
+          "permalink": "/articles/067",
+          "markdown_link": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+          "path": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+          "date": "2026-03-03",
+          "label": "Elys被形容为「光屁股版的即刻」",
+          "weight": 1
+        },
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "Elys被形容为光屁股版的即刻，且用户群重合度高",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "eve",
+      "target": "elys",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者对比了两款产品的推出顺序、交互场景，并探讨了两者的差异与联系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "openclaw",
+      "target": "elys",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Elys与Openclaw进行趣味性对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "second-me",
+      "target": "elys",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者第一反应将其视为做Second Me的同类尝试",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "sekai",
+      "target": "elys",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同为AI社交产品，Julian将其产品机制和体验与Elys做对比探讨",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "tinder",
+      "target": "elys",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中认为如果将EVE和Elys结合起来，就相当于诞生了‘AI Tinder’",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "内涵段子",
+      "target": "elys",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章核心论述Elys应该做成AI内涵段子，且具备其雏形",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "即刻",
+      "target": "elys",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Elys被形容为光屁股版的即刻，且用户群重合度高",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "elys",
+      "target": "second-me",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为AI分身社交产品，由于团队节点权重问题表现出截然不同的传播效果",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "081"
+      ],
+      "evidences": [
+        {
+          "article_id": "081",
+          "title": "小登领导AI社交",
+          "permalink": "/articles/081",
+          "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "date": "2026-04-15",
+          "label": "同为AI分身社交产品，由于团队节点权重问题表现出截然不同的传播效果",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "elys",
+      "target": "元宝",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "作者认为Elys很适合被元宝团队抄袭竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "064"
+      ],
+      "evidences": [
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "作者认为Elys很适合被元宝团队抄袭竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "second-me",
+      "target": "elys",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为AI分身社交产品，由于团队节点权重问题表现出截然不同的传播效果",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "元宝",
+      "target": "elys",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "作者认为Elys很适合被元宝团队抄袭竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kaiyi",
+      "target": "elys",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "kaiyi评价Elys是光屁股版的即刻",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "064"
+      ],
+      "evidences": [
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "kaiyi评价Elys是光屁股版的即刻",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "自然选择",
+      "target": "elys",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "自然选择开发了Elys",
+      "weight": 3,
+      "strength": 4,
+      "effective_weight": 15,
+      "article_count": 3,
+      "evidence_articles": [
+        "064",
+        "081",
+        "094"
+      ],
+      "evidences": [
+        {
+          "article_id": "094",
+          "title": "大部分男的聊天水平不如EVE",
+          "permalink": "/articles/094",
+          "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "date": "2026-05-21",
+          "label": "文中明确提到‘自然选择的另一款社交产品Elys’",
+          "weight": 1
+        },
+        {
+          "article_id": "081",
+          "title": "小登领导AI社交",
+          "permalink": "/articles/081",
+          "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "date": "2026-04-15",
+          "label": "自然选择团队是Elys的开发团队",
+          "weight": 1
+        },
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "自然选择开发了Elys",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "沐秋",
+      "target": "elys",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "沐秋向周围人推荐了Elys",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "081"
+      ],
+      "evidences": [
+        {
+          "article_id": "081",
+          "title": "小登领导AI社交",
+          "permalink": "/articles/081",
+          "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "date": "2026-04-15",
+          "label": "沐秋向周围人推荐了Elys",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "clear",
+      "target": "elys",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Clear参与了Elys的开发和内测",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "064"
+      ],
+      "evidences": [
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "Clear参与了Elys的开发和内测",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "tristan",
+      "target": "elys",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Tristan主导或参与开发了Elys",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "064"
+      ],
+      "evidences": [
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "Tristan主导或参与开发了Elys",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

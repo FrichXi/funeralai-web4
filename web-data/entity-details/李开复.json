@@ -1,0 +1,212 @@
+{
+  "node": {
+    "id": "李开复",
+    "name": "李开复",
+    "type": "person",
+    "description": "零一万物创始人，被称为创业教父，文中指出其战略方向前后不一",
+    "mention_count": 13,
+    "article_count": 3,
+    "aliases": [
+      "开复老师",
+      "教父"
+    ],
+    "tags": [
+      "AI六小虎",
+      "AI战略",
+      "创业教父",
+      "前后不一"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "008",
+        "title": "前后不一李开复",
+        "date": "2025-06-27",
+        "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+        "permalink": "/articles/008",
+        "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+        "mention_count": 11
+      },
+      {
+        "article_id": "049",
+        "title": "建议六小虎合并，实现China AGI",
+        "date": "2026-01-05",
+        "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "permalink": "/articles/049",
+        "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "004",
+        "title": "MiniMax的胖猫宇宙",
+        "date": "2025-06-23",
+        "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "permalink": "/articles/004",
+        "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 6,
+    "composite_weight": 0.0531
+  },
+  "links": [
+    {
+      "source": "李开复",
+      "target": "王小川",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为上一代AI六小虎的代表性创业人物",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "004"
+      ],
+      "evidences": [
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "date": "2025-06-23",
+          "label": "同为上一代AI六小虎的代表性创业人物",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "王小川",
+      "target": "李开复",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为上一代AI六小虎的代表性创业人物",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "李开复",
+      "target": "零一万物",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "李开复为零一万物设定目标并作为核心决策人主导公司战略",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "008"
+      ],
+      "evidences": [
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "李开复为零一万物设定目标并作为核心决策人主导公司战略",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "李开复",
+      "target": "乔布斯",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "李开复引用乔布斯关于“串联这些点”的话来阐述自己的创业初心",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "008"
+      ],
+      "evidences": [
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "李开复引用乔布斯关于“串联这些点”的话来阐述自己的创业初心",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "李开复",
+      "target": "胖虎ai",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "被提议在假想合并公司干高级副总裁",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "049"
+      ],
+      "evidences": [
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "被提议在假想合并公司干高级副总裁",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "李开复",
+      "target": "ai-2-0数字人",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "李开复主导了公司向ToB业务转型，并确认为公司带来七成以上收入",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "008"
+      ],
+      "evidences": [
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "李开复主导了公司向ToB业务转型，并确认为公司带来七成以上收入",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "李开复",
+      "target": "杨植麟",
+      "score": 0.4166,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "004",
+        "049"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

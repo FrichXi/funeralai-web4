@@ -1,0 +1,177 @@
+{
+  "node": {
+    "id": "minimax-hub",
+    "name": "MiniMax Hub",
+    "type": "product",
+    "description": "MiniMax推出的视频Agent平台，主打无限画布和Agent功能",
+    "mention_count": 9,
+    "article_count": 3,
+    "aliases": [],
+    "tags": [
+      "AI视频",
+      "Agent",
+      "海螺视频",
+      "视频Agent"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "119",
+        "title": "视频Agent进入大致敬时代",
+        "date": "2026-07-14",
+        "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+        "permalink": "/articles/119",
+        "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "117",
+        "title": "我来给MiniMax道歉了",
+        "date": "2026-07-11",
+        "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "permalink": "/articles/117",
+        "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "116",
+        "title": "民办大模型MiniMax努力专升本",
+        "date": "2026-07-09",
+        "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "permalink": "/articles/116",
+        "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0697
+  },
+  "links": [
+    {
+      "source": "libtv",
+      "target": "minimax-hub",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同属视频Agent赛道，MiniMax Hub新加入战局与LibTV竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "119"
+      ],
+      "evidences": [
+        {
+          "article_id": "119",
+          "title": "视频Agent进入大致敬时代",
+          "permalink": "/articles/119",
+          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "date": "2026-07-14",
+          "label": "同属视频Agent赛道，MiniMax Hub新加入战局与LibTV竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax-hub",
+      "target": "libtv",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同属视频Agent赛道，MiniMax Hub新加入战局与LibTV竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "minimax",
+      "target": "minimax-hub",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax下场搞了自己的视频Agent MiniMax Hub",
+      "weight": 3,
+      "strength": 4,
+      "effective_weight": 15,
+      "article_count": 3,
+      "evidence_articles": [
+        "116",
+        "117",
+        "119"
+      ],
+      "evidences": [
+        {
+          "article_id": "119",
+          "title": "视频Agent进入大致敬时代",
+          "permalink": "/articles/119",
+          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "date": "2026-07-14",
+          "label": "MiniMax Hub是MiniMax推出的产品",
+          "weight": 1
+        },
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "MiniMax推出了视频Agent平台MiniMax Hub",
+          "weight": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "MiniMax下场搞了自己的视频Agent MiniMax Hub",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax-hub",
+      "target": "seedance",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "MiniMax Hub首选接入Seedance模型，并提供35折优惠",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "116",
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "MiniMax Hub将Seedance作为首选视频模型，并提供35折优惠",
+          "weight": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "MiniMax Hub首选接入Seedance模型，并提供35折优惠",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

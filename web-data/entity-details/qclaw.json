@@ -1,0 +1,203 @@
+{
+  "node": {
+    "id": "qclaw",
+    "name": "QClaw",
+    "type": "product",
+    "description": "腾讯电脑管家团队开发的主打情感陪伴的Agent",
+    "mention_count": 8,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Agent",
+      "情感陪伴",
+      "电脑管家团队"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "102",
+        "title": "腾讯做了一堆情感陪伴Agent",
+        "date": "2026-06-09",
+        "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "permalink": "/articles/102",
+        "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "mention_count": 8
+      }
+    ],
+    "degree": 8,
+    "composite_weight": 0.0754
+  },
+  "links": [
+    {
+      "source": "qclaw",
+      "target": "workbuddy",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章评价WorkBuddy使用起来与QClaw没区别，高度同质化",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "文章评价WorkBuddy使用起来与QClaw没区别，高度同质化",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "workbuddy",
+      "target": "qclaw",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章评价WorkBuddy使用起来与QClaw没区别，高度同质化",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "marvis",
+      "target": "qclaw",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "腾讯内部三支团队推出的Agent产品存在内部赛马竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "腾讯内部三支团队推出的Agent产品存在内部赛马竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "qclaw",
+      "target": "marvis",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "腾讯内部三支团队推出的Agent产品存在内部赛马竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qclaw",
+      "target": "workbuddy",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为腾讯内部赛马竞争的Agent产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "同为腾讯内部赛马竞争的Agent产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "workbuddy",
+      "target": "qclaw",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为腾讯内部赛马竞争的Agent产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "腾讯",
+      "target": "qclaw",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "腾讯正在猛推QClaw",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "腾讯正在猛推QClaw",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "qclaw",
+      "target": "微信",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "QClaw被爆炒的原因是能够连接微信并在手机端对话",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "QClaw被爆炒的原因是能够连接微信并在手机端对话",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

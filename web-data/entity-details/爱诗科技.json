@@ -1,0 +1,148 @@
+{
+  "node": {
+    "id": "爱诗科技",
+    "name": "爱诗科技",
+    "type": "company",
+    "description": "开发了PixVerse的AI视频创业公司",
+    "mention_count": 2,
+    "article_count": 2,
+    "aliases": [
+      "爱诗"
+    ],
+    "tags": [
+      "AI视频",
+      "视频Agent"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "119",
+        "title": "视频Agent进入大致敬时代",
+        "date": "2026-07-14",
+        "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+        "permalink": "/articles/119",
+        "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "104",
+        "title": "生数鉴定为鸭腿吃多了",
+        "date": "2026-06-15",
+        "path": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+        "permalink": "/articles/104",
+        "markdown_link": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0498
+  },
+  "links": [
+    {
+      "source": "字节跳动",
+      "target": "爱诗科技",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中称爱诗科技的“爱诗范”是对“字节范”的拙劣模仿",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "119"
+      ],
+      "evidences": [
+        {
+          "article_id": "119",
+          "title": "视频Agent进入大致敬时代",
+          "permalink": "/articles/119",
+          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "date": "2026-07-14",
+          "label": "文中称爱诗科技的“爱诗范”是对“字节范”的拙劣模仿",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "爱诗科技",
+      "target": "字节跳动",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中称爱诗科技的“爱诗范”是对“字节范”的拙劣模仿",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "爱诗科技",
+      "target": "生数科技",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "生数科技与爱诗科技在视频生成能力及资本市场（如IPO上市）上存在直接竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "104"
+      ],
+      "evidences": [
+        {
+          "article_id": "104",
+          "title": "生数鉴定为鸭腿吃多了",
+          "permalink": "/articles/104",
+          "markdown_link": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "path": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "date": "2026-06-15",
+          "label": "生数科技与爱诗科技在视频生成能力及资本市场（如IPO上市）上存在直接竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "生数科技",
+      "target": "爱诗科技",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "生数科技与爱诗科技在视频生成能力及资本市场（如IPO上市）上存在直接竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "爱诗科技",
+      "target": "pixverse",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "爱诗科技开发了视频模型PixVerse",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "104"
+      ],
+      "evidences": [
+        {
+          "article_id": "104",
+          "title": "生数鉴定为鸭腿吃多了",
+          "permalink": "/articles/104",
+          "markdown_link": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "path": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "date": "2026-06-15",
+          "label": "爱诗科技开发了视频模型PixVerse",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

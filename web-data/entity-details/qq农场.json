@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "qq农场",
+    "name": "QQ农场",
+    "type": "product",
+    "description": "经典养成游戏，Aippy中的一款养鸡游戏被作者称为简易版QQ农场。",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "养成游戏"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "079",
+        "title": "电玩城复活在信息流",
+        "date": "2026-04-08",
+        "path": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+        "permalink": "/articles/079",
+        "markdown_link": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0192
+  },
+  "links": [
+    {
+      "source": "aippy",
+      "target": "qq农场",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Aippy中的养鸡下蛋游戏被作者比作简易版QQ农场。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "079"
+      ],
+      "evidences": [
+        {
+          "article_id": "079",
+          "title": "电玩城复活在信息流",
+          "permalink": "/articles/079",
+          "markdown_link": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+          "path": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+          "date": "2026-04-08",
+          "label": "Aippy中的养鸡下蛋游戏被作者比作简易版QQ农场。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "qq农场",
+      "target": "aippy",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Aippy中的养鸡下蛋游戏被作者比作简易版QQ农场。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

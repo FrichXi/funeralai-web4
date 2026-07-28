@@ -13,7 +13,7 @@ interface LeaderboardImageDownloadProps {
   buttonLabel?: string;
 }
 
-const DEFAULT_LEADERBOARD_IMAGE_URL = '/test/model-leaderboard-mobile.png';
+const DEFAULT_LEADERBOARD_IMAGE_URL = '/test/model-leaderboard.png';
 const DEFAULT_FILE_NAME_PREFIX = 'funeralai-model-leaderboard';
 const DEFAULT_SHARE_TITLE = '葬AI 模型总榜';
 const DEFAULT_BUTTON_LABEL = '下载榜单图';

@@ -1,0 +1,832 @@
+{
+  "node": {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "type": "company",
+    "description": "AI大模型公司，其爆火为Cherry Studio带来大量流量",
+    "mention_count": 62,
+    "article_count": 18,
+    "aliases": [
+      "DS",
+      "DS V4 pro",
+      "DeepSeek-V4",
+      "Deepseek",
+      "Deepseek V4",
+      "深度求索"
+    ],
+    "tags": [
+      "AI公司",
+      "AI写作",
+      "价格战发起者",
+      "只收电费",
+      "大模型",
+      "大模型公司",
+      "大模型厂商",
+      "安全可控",
+      "开源",
+      "开源模型",
+      "推理模型",
+      "本地化部署",
+      "行业标杆",
+      "被蹭热度",
+      "降本增效"
+    ],
+    "references": 18,
+    "source_article_count": 18,
+    "source_articles": [
+      {
+        "article_id": "039",
+        "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+        "date": "2025-12-05",
+        "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+        "permalink": "/articles/039",
+        "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+        "mention_count": 11
+      },
+      {
+        "article_id": "105",
+        "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+        "date": "2026-06-17",
+        "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "permalink": "/articles/105",
+        "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "mention_count": 7
+      },
+      {
+        "article_id": "047",
+        "title": "我被AI圈大冰投诉了（附真诚道歉信）",
+        "date": "2025-12-29",
+        "path": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+        "permalink": "/articles/047",
+        "markdown_link": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+        "mention_count": 7
+      },
+      {
+        "article_id": "006",
+        "title": "智谱的存在主义危机",
+        "date": "2025-06-25",
+        "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+        "permalink": "/articles/006",
+        "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+        "mention_count": 7
+      },
+      {
+        "article_id": "070",
+        "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+        "date": "2026-03-13",
+        "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+        "permalink": "/articles/070",
+        "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "125",
+        "title": "建议百度文心一言申请非遗",
+        "date": "2026-07-28",
+        "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+        "permalink": "/articles/125",
+        "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "117",
+        "title": "我来给MiniMax道歉了",
+        "date": "2026-07-11",
+        "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "permalink": "/articles/117",
+        "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "110",
+        "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+        "date": "2026-06-24",
+        "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "permalink": "/articles/110",
+        "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "103",
+        "title": "Kimi看天讨饭吃",
+        "date": "2026-06-10",
+        "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "permalink": "/articles/103",
+        "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "122",
+        "title": "Kimi K3打响前端闪电战",
+        "date": "2026-07-22",
+        "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+        "permalink": "/articles/122",
+        "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "109",
+        "title": "智谱与Anthropic是母凭子贵",
+        "date": "2026-06-23",
+        "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "permalink": "/articles/109",
+        "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "088",
+        "title": "读过豆包赚钱手册才敢自称懂AI",
+        "date": "2026-05-07",
+        "path": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+        "permalink": "/articles/088",
+        "markdown_link": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "056",
+        "title": "PixVerse像做梦一样做世界模型",
+        "date": "2026-01-23",
+        "path": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+        "permalink": "/articles/056",
+        "markdown_link": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "004",
+        "title": "MiniMax的胖猫宇宙",
+        "date": "2025-06-23",
+        "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "permalink": "/articles/004",
+        "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "099",
+        "title": "马卡龙开创AI短剧Neo Lab",
+        "date": "2026-06-04",
+        "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "permalink": "/articles/099",
+        "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "092",
+        "title": "深圳AI硬件十分疯狂",
+        "date": "2026-05-18",
+        "path": "articles/092_2026-05-18_葬爱咸鱼_深圳AI硬件十分疯狂.md",
+        "permalink": "/articles/092",
+        "markdown_link": "articles/092_2026-05-18_葬爱咸鱼_深圳AI硬件十分疯狂.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "049",
+        "title": "建议六小虎合并，实现China AGI",
+        "date": "2026-01-05",
+        "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "permalink": "/articles/049",
+        "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "008",
+        "title": "前后不一李开复",
+        "date": "2025-06-27",
+        "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+        "permalink": "/articles/008",
+        "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 26,
+    "composite_weight": 0.3548
+  },
+  "links": [
+    {
+      "source": "agnes",
+      "target": "deepseek",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes公司自诩为东南亚或新加坡的DeepSeek",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "039",
+        "047"
+      ],
+      "evidences": [
+        {
+          "article_id": "047",
+          "title": "我被AI圈大冰投诉了（附真诚道歉信）",
+          "permalink": "/articles/047",
+          "markdown_link": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "path": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "date": "2025-12-29",
+          "label": "Agnes自封为东南亚DeepSeek的种子选手",
+          "weight": 1
+        },
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "Agnes公司自诩为东南亚或新加坡的DeepSeek",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "agnes",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes公司自诩为东南亚或新加坡的DeepSeek",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "deepseek",
+      "target": "openai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将一流造福全民的DeepSeek与开创潮流的伟大企业OpenAI并列对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "008"
+      ],
+      "evidences": [
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "文中将一流造福全民的DeepSeek与开创潮流的伟大企业OpenAI并列对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "openai",
+      "target": "deepseek",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将一流造福全民的DeepSeek与开创潮流的伟大企业OpenAI并列对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "deepseek",
+      "target": "minimax",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "DeepSeek新品发布对MiniMax等AI六小虎公司形成了强烈的竞争压力",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "004",
+        "105"
+      ],
+      "evidences": [
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "DeepSeek拉低了行业的存活价格线，而MiniMax公司正在逼近这条斩杀线",
+          "weight": 1
+        },
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "date": "2025-06-23",
+          "label": "DeepSeek新品发布对MiniMax等AI六小虎公司形成了强烈的竞争压力",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "qwen",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在Openrouter调用量排名上存在竞争对比关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "049"
+      ],
+      "evidences": [
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "在Openrouter调用量排名上存在竞争对比关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "智谱ai",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "DeepSeek在G端市场提供了更具性价比的替代方案，取代了智谱的生态位",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "006"
+      ],
+      "evidences": [
+        {
+          "article_id": "006",
+          "title": "智谱的存在主义危机",
+          "permalink": "/articles/006",
+          "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "date": "2025-06-25",
+          "label": "DeepSeek在G端市场提供了更具性价比的替代方案，取代了智谱的生态位",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "月之暗面",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "DeepSeek和月之暗面都是国内AI大模型公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "deepseek",
+      "target": "百川智能",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "DeepSeek和百川智能都是国内AI大模型公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "deepseek",
+      "target": "豆包",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "豆包和DeepSeek都是国内AI大模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "deepseek",
+      "target": "阶跃星辰",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "DeepSeek和阶跃星辰都是国内AI大模型公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "minimax",
+      "target": "deepseek",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "DeepSeek新品发布对MiniMax等AI六小虎公司形成了强烈的竞争压力",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qwen",
+      "target": "deepseek",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在Openrouter调用量排名上存在竞争对比关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "智谱ai",
+      "target": "deepseek",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "DeepSeek在G端市场提供了更具性价比的替代方案，取代了智谱的生态位",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "月之暗面",
+      "target": "deepseek",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "DeepSeek和月之暗面都是国内AI大模型公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "百川智能",
+      "target": "deepseek",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "DeepSeek和百川智能都是国内AI大模型公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "豆包",
+      "target": "deepseek",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "豆包和DeepSeek都是国内AI大模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "deepseek",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "DeepSeek和阶跃星辰都是国内AI大模型公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "deepseek",
+      "target": "deepseek-gui",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Deepseek公司推出了Deepseek GUI",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "Deepseek公司推出了Deepseek GUI",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "deepseek-r1",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "DeepSeek开发了R1模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "125"
+      ],
+      "evidences": [
+        {
+          "article_id": "125",
+          "title": "建议百度文心一言申请非遗",
+          "permalink": "/articles/125",
+          "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "date": "2026-07-28",
+          "label": "DeepSeek开发了R1模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "deepseek-tui",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "属于Deepseek生态的终端产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "属于Deepseek生态的终端产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "梁圣",
+      "target": "deepseek",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "梁圣是DeepSeek的老板/创始人（文中提及他自有办法解决剩余研发成本）",
+      "weight": 2,
+      "strength": 5,
+      "effective_weight": 12,
+      "article_count": 2,
+      "evidence_articles": [
+        "105",
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "梁圣（梁文锋）是DeepSeek的创始人，被代指DeepSeek的极致性价比",
+          "weight": 1
+        },
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "梁圣是DeepSeek的老板/创始人（文中提及他自有办法解决剩余研发成本）",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "deepseek",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "在AI写作SOP流水线中，DeepSeek写正文与Claude起标题环节相接",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "088"
+      ],
+      "evidences": [
+        {
+          "article_id": "088",
+          "title": "读过豆包赚钱手册才敢自称懂AI",
+          "permalink": "/articles/088",
+          "markdown_link": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+          "path": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+          "date": "2026-05-07",
+          "label": "在AI写作SOP流水线中，DeepSeek写正文与Claude起标题环节相接",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "opencode",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "作者使用Opencode结合Deepseek并发运行子代理",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "092",
+        "099"
+      ],
+      "evidences": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "作者使用Opencode接入了Deepseek模型来完成日常任务",
+          "weight": 1
+        },
+        {
+          "article_id": "092",
+          "title": "深圳AI硬件十分疯狂",
+          "permalink": "/articles/092",
+          "markdown_link": "articles/092_2026-05-18_葬爱咸鱼_深圳AI硬件十分疯狂.md",
+          "path": "articles/092_2026-05-18_葬爱咸鱼_深圳AI硬件十分疯狂.md",
+          "date": "2026-05-18",
+          "label": "作者使用Opencode结合Deepseek并发运行子代理",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "豆包",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "在作者描述的AI写作SOP流水线中，豆包写大纲，DeepSeek配合写正文",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "088"
+      ],
+      "evidences": [
+        {
+          "article_id": "088",
+          "title": "读过豆包赚钱手册才敢自称懂AI",
+          "permalink": "/articles/088",
+          "markdown_link": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+          "path": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+          "date": "2026-05-07",
+          "label": "在作者描述的AI写作SOP流水线中，豆包写大纲，DeepSeek配合写正文",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "临汾市人民医院",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "临汾市人民医院招标采购基于DeepSeek的医疗系统",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "006"
+      ],
+      "evidences": [
+        {
+          "article_id": "006",
+          "title": "智谱的存在主义危机",
+          "permalink": "/articles/006",
+          "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "date": "2025-06-25",
+          "label": "临汾市人民医院招标采购基于DeepSeek的医疗系统",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "deepseek",
+      "target": "kimi",
+      "score": 0.9014,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 8 篇文章；共享 8 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "004",
+        "049",
+        "099",
+        "105",
+        "109"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "anthropic",
+      "target": "deepseek",
+      "score": 0.6488,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "070",
+        "099",
+        "103",
+        "105",
+        "109"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "deepseek",
+      "target": "阿里巴巴",
+      "score": 0.5744,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "049",
+        "103",
+        "105",
+        "122",
+        "125"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "chatgpt",
+      "target": "deepseek",
+      "score": 0.5445,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "008",
+        "070",
+        "088",
+        "105"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "deepseek",
+      "target": "字节跳动",
+      "score": 0.5067,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "070",
+        "088",
+        "103",
+        "110",
+        "125"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

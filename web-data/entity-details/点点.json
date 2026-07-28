@@ -1,0 +1,108 @@
+{
+  "node": {
+    "id": "点点",
+    "name": "点点",
+    "type": "product",
+    "description": "AI产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "101",
+        "title": "AI圈神童杀死神人",
+        "date": "2026-06-08",
+        "path": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+        "permalink": "/articles/101",
+        "markdown_link": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0336
+  },
+  "links": [
+    {
+      "source": "灵光",
+      "target": "点点",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将两者并列，形容为大厂在黑客松上为了展示而使用的AI产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "101"
+      ],
+      "evidences": [
+        {
+          "article_id": "101",
+          "title": "AI圈神童杀死神人",
+          "permalink": "/articles/101",
+          "markdown_link": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "path": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "date": "2026-06-08",
+          "label": "文章将两者并列，形容为大厂在黑客松上为了展示而使用的AI产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "点点",
+      "target": "灵光",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将两者并列，形容为大厂在黑客松上为了展示而使用的AI产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "点点",
+      "target": "秒哒",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将两者并列，形容为大厂在黑客松上为了展示而使用的AI产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "101"
+      ],
+      "evidences": [
+        {
+          "article_id": "101",
+          "title": "AI圈神童杀死神人",
+          "permalink": "/articles/101",
+          "markdown_link": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "path": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "date": "2026-06-08",
+          "label": "文章将两者并列，形容为大厂在黑客松上为了展示而使用的AI产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "秒哒",
+      "target": "点点",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将两者并列，形容为大厂在黑客松上为了展示而使用的AI产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

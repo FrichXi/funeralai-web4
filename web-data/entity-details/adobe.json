@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "adobe",
+    "name": "Adobe",
+    "type": "company",
+    "description": "知名软件公司，被用作比喻对象",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "软件公司"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "065",
+        "title": "豆包有Seed，火山有种",
+        "date": "2026-02-14",
+        "path": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+        "permalink": "/articles/065",
+        "markdown_link": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.018
+  },
+  "links": [
+    {
+      "source": "adobe",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将豆包类比为AI时代的Adobe",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "065"
+      ],
+      "evidences": [
+        {
+          "article_id": "065",
+          "title": "豆包有Seed，火山有种",
+          "permalink": "/articles/065",
+          "markdown_link": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+          "path": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+          "date": "2026-02-14",
+          "label": "文章将豆包类比为AI时代的Adobe",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包",
+      "target": "adobe",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将豆包类比为AI时代的Adobe",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,2493 @@
+{
+  "node": {
+    "id": "claude",
+    "name": "Claude",
+    "type": "product",
+    "description": "由Anthropic开发的AI编程工具，被广泛用作套壳应用的底层引擎",
+    "mention_count": 220,
+    "article_count": 36,
+    "aliases": [
+      "CC",
+      "CC SDK",
+      "Claude 3.5 Sonnet",
+      "Claude Code",
+      "Claude Opus 4.5",
+      "Claude Opus 4.8",
+      "Claude Sonnet 3.5",
+      "Claude Sonnet 4.0",
+      "Claude code",
+      "Claude code SDK",
+      "Opus",
+      "Opus 4.6",
+      "Opus 4.8",
+      "cc",
+      "沐秋"
+    ],
+    "tags": [
+      "AI Agent",
+      "AI写作",
+      "AI大模型",
+      "AI工具",
+      "AI编程",
+      "Agent",
+      "Agent harness",
+      "Agent引擎",
+      "A畜",
+      "Coding Agent",
+      "SDK",
+      "Vibe Coding",
+      "上下文工程",
+      "云端AI",
+      "云端Agent",
+      "人味",
+      "代码生成",
+      "写作能力",
+      "境外势力",
+      "大模型",
+      "大语言模型",
+      "底层模型",
+      "开发工具",
+      "性价比标杆",
+      "本地环境",
+      "本地环境AI",
+      "标杆模型",
+      "独立开发者",
+      "环境",
+      "终端工具",
+      "编程",
+      "编程Agent",
+      "编程产品",
+      "编程工具",
+      "编程式写作",
+      "通用引擎",
+      "闭源模型"
+    ],
+    "references": 36,
+    "source_article_count": 36,
+    "source_articles": [
+      {
+        "article_id": "024",
+        "title": "像编程一样写作",
+        "date": "2025-09-22",
+        "path": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+        "permalink": "/articles/024",
+        "markdown_link": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+        "mention_count": 22
+      },
+      {
+        "article_id": "027",
+        "title": "AI写作指南3.0编程式写作",
+        "date": "2025-10-09",
+        "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "permalink": "/articles/027",
+        "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "mention_count": 19
+      },
+      {
+        "article_id": "029",
+        "title": "AI写作指南3.0编程式写作",
+        "date": "2025-10-16",
+        "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "permalink": "/articles/029",
+        "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "mention_count": 18
+      },
+      {
+        "article_id": "105",
+        "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+        "date": "2026-06-17",
+        "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "permalink": "/articles/105",
+        "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "mention_count": 17
+      },
+      {
+        "article_id": "070",
+        "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+        "date": "2026-03-13",
+        "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+        "permalink": "/articles/070",
+        "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+        "mention_count": 16
+      },
+      {
+        "article_id": "109",
+        "title": "智谱与Anthropic是母凭子贵",
+        "date": "2026-06-23",
+        "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "permalink": "/articles/109",
+        "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "mention_count": 13
+      },
+      {
+        "article_id": "096",
+        "title": "葬AI一周年，我不再用AI写作",
+        "date": "2026-05-27",
+        "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+        "permalink": "/articles/096",
+        "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+        "mention_count": 12
+      },
+      {
+        "article_id": "036",
+        "title": "灵感式写作",
+        "date": "2025-11-19",
+        "path": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+        "permalink": "/articles/036",
+        "markdown_link": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+        "mention_count": 10
+      },
+      {
+        "article_id": "103",
+        "title": "Kimi看天讨饭吃",
+        "date": "2026-06-10",
+        "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "permalink": "/articles/103",
+        "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "mention_count": 9
+      },
+      {
+        "article_id": "030",
+        "title": "Agent OS的本地入口",
+        "date": "2025-10-20",
+        "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "permalink": "/articles/030",
+        "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "mention_count": 9
+      },
+      {
+        "article_id": "060",
+        "title": "Clawdbot是一场马斯克发动的中登炒作",
+        "date": "2026-01-30",
+        "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+        "permalink": "/articles/060",
+        "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+        "mention_count": 7
+      },
+      {
+        "article_id": "098",
+        "title": "HeyGen不是给人用的",
+        "date": "2026-06-01",
+        "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+        "permalink": "/articles/098",
+        "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+        "mention_count": 6
+      },
+      {
+        "article_id": "066",
+        "title": "AI编程创造世界",
+        "date": "2026-02-24",
+        "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "permalink": "/articles/066",
+        "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "mention_count": 6
+      },
+      {
+        "article_id": "090",
+        "title": "Bloome重做元宝派",
+        "date": "2026-05-12",
+        "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "permalink": "/articles/090",
+        "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "mention_count": 5
+      },
+      {
+        "article_id": "089",
+        "title": "Slock说明AI群聊不成立",
+        "date": "2026-05-10",
+        "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+        "permalink": "/articles/089",
+        "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "076",
+        "title": "葬CLI如闪电般上线",
+        "date": "2026-03-26",
+        "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+        "permalink": "/articles/076",
+        "markdown_link": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "067",
+        "title": "OpenClaw不如狗一条",
+        "date": "2026-03-03",
+        "path": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+        "permalink": "/articles/067",
+        "markdown_link": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "031",
+        "title": "追忆AI四小龙，热潮是怎么完蛋的",
+        "date": "2025-10-27",
+        "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "permalink": "/articles/031",
+        "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "101",
+        "title": "AI圈神童杀死神人",
+        "date": "2026-06-08",
+        "path": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+        "permalink": "/articles/101",
+        "markdown_link": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "099",
+        "title": "马卡龙开创AI短剧Neo Lab",
+        "date": "2026-06-04",
+        "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "permalink": "/articles/099",
+        "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "091",
+        "title": "中亚世界没有豆包信仰",
+        "date": "2026-05-14",
+        "path": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+        "permalink": "/articles/091",
+        "markdown_link": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "071",
+        "title": "Mulerun借假修真Agent市场明牌竞争",
+        "date": "2026-03-16",
+        "path": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
+        "permalink": "/articles/071",
+        "markdown_link": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "068",
+        "title": "云端OpenClaw更是路边一条",
+        "date": "2026-03-04",
+        "path": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+        "permalink": "/articles/068",
+        "markdown_link": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "017",
+        "title": "字节用扣子证明，Agent只能被计划",
+        "date": "2025-08-29",
+        "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "permalink": "/articles/017",
+        "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "015",
+        "title": "在马卡龙面前，孙宇晨和Web3都像是实体经济",
+        "date": "2025-08-18",
+        "path": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+        "permalink": "/articles/015",
+        "markdown_link": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "111",
+        "title": "用豆包办公得坐小孩那桌",
+        "date": "2026-06-25",
+        "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+        "permalink": "/articles/111",
+        "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "110",
+        "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+        "date": "2026-06-24",
+        "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "permalink": "/articles/110",
+        "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "100",
+        "title": "网吧黑客松里有真黑客",
+        "date": "2026-06-07",
+        "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+        "permalink": "/articles/100",
+        "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "088",
+        "title": "读过豆包赚钱手册才敢自称懂AI",
+        "date": "2026-05-07",
+        "path": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+        "permalink": "/articles/088",
+        "markdown_link": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "074",
+        "title": "做个人吧，别做AI",
+        "date": "2026-03-22",
+        "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+        "permalink": "/articles/074",
+        "markdown_link": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "052",
+        "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+        "date": "2026-01-16",
+        "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "permalink": "/articles/052",
+        "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "049",
+        "title": "建议六小虎合并，实现China AGI",
+        "date": "2026-01-05",
+        "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "permalink": "/articles/049",
+        "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "040",
+        "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+        "date": "2025-12-12",
+        "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "permalink": "/articles/040",
+        "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "033",
+        "title": "搞AI硬件别装美国公司",
+        "date": "2025-11-14",
+        "path": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+        "permalink": "/articles/033",
+        "markdown_link": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "009",
+        "title": "阶跃星辰没有新闻",
+        "date": "2025-06-28",
+        "path": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+        "permalink": "/articles/009",
+        "markdown_link": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "004",
+        "title": "MiniMax的胖猫宇宙",
+        "date": "2025-06-23",
+        "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "permalink": "/articles/004",
+        "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 79,
+    "composite_weight": 1.0
+  },
+  "links": [
+    {
+      "source": "antigravity",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "对于非技术背景用户，谷歌的Antigravity比Claude code用起来更容易。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "060"
+      ],
+      "evidences": [
+        {
+          "article_id": "060",
+          "title": "Clawdbot是一场马斯克发动的中登炒作",
+          "permalink": "/articles/060",
+          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "date": "2026-01-30",
+          "label": "对于非技术背景用户，谷歌的Antigravity比Claude code用起来更容易。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Yinsen将初次使用Claude Code的震撼感与第一次用ChatGPT进行对比",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "070",
+        "105"
+      ],
+      "evidences": [
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "作者表示卷编程后，和Claude对话时常感觉是在用缺乏人味的ChatGPT",
+          "weight": 1
+        },
+        {
+          "article_id": "070",
+          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+          "permalink": "/articles/070",
+          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "date": "2026-03-13",
+          "label": "Yinsen将初次使用Claude Code的震撼感与第一次用ChatGPT进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "antigravity",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "对于非技术背景用户，谷歌的Antigravity比Claude code用起来更容易。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "claude",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Yinsen将初次使用Claude Code的震撼感与第一次用ChatGPT进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "claude",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Codex比Claude code更快干脆",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "066",
+        "101"
+      ],
+      "evidences": [
+        {
+          "article_id": "101",
+          "title": "AI圈神童杀死神人",
+          "permalink": "/articles/101",
+          "markdown_link": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "path": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "date": "2026-06-08",
+          "label": "文章将两者并列为“AI抓周”的比喻对象，同属AI编程类生产力工具",
+          "weight": 1
+        },
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "作者认为Codex比Claude code更快干脆",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "gemini",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者对比了使用传统对话式模型（如Gemini）与使用项目管理式Agent（Claude Code）在版本管理和写作效率上的区别",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "024",
+        "101"
+      ],
+      "evidences": [
+        {
+          "article_id": "101",
+          "title": "AI圈神童杀死神人",
+          "permalink": "/articles/101",
+          "markdown_link": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "path": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "date": "2026-06-08",
+          "label": "文章将两者并列为“AI抓周”的比喻对象",
+          "weight": 1
+        },
+        {
+          "article_id": "024",
+          "title": "像编程一样写作",
+          "permalink": "/articles/024",
+          "markdown_link": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+          "path": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+          "date": "2025-09-22",
+          "label": "作者对比了使用传统对话式模型（如Gemini）与使用项目管理式Agent（Claude Code）在版本管理和写作效率上的区别",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "gemini-cli",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "相比Claude Code，Gemini CLI上下文更长且价格更便宜",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "027"
+      ],
+      "evidences": [
+        {
+          "article_id": "027",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/027",
+          "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-09",
+          "label": "相比Claude Code，Gemini CLI上下文更长且价格更便宜",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "glm",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "GLM被评价为若干Claude平替之一",
+      "weight": 3,
+      "strength": 2,
+      "effective_weight": 9,
+      "article_count": 3,
+      "evidence_articles": [
+        "049",
+        "105",
+        "109"
+      ],
+      "evidences": [
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "date": "2026-06-23",
+          "label": "GLM-5在匿名打榜时展现出接近Claude的编程能力",
+          "weight": 1
+        },
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "作者指出GLM 5.2得分第一，在表现上略微超越了Claude Opus 4.8",
+          "weight": 1
+        },
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "GLM被评价为若干Claude平替之一",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "glm-code",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "GLM code与Claude code被作为编程Agent进行比较，体验略逊",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "066"
+      ],
+      "evidences": [
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "GLM code与Claude code被作为编程Agent进行比较，体验略逊",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "由于Anthropic对特定区域的服务限制，作者将Kimi作为Claude后端的平替使用",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "024",
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "Kimi的性价比指数跌破了Claude（Opus）斩杀线",
+          "weight": 1
+        },
+        {
+          "article_id": "024",
+          "title": "像编程一样写作",
+          "permalink": "/articles/024",
+          "markdown_link": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+          "path": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+          "date": "2025-09-22",
+          "label": "由于Anthropic对特定区域的服务限制，作者将Kimi作为Claude后端的平替使用",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "kimi-code",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Kimi code与Claude code被作为编程Agent进行比较，体验略逊",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "066"
+      ],
+      "evidences": [
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "Kimi code与Claude code被作为编程Agent进行比较，体验略逊",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "manus",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Manus在排行榜中仅次于Claude",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "076"
+      ],
+      "evidences": [
+        {
+          "article_id": "076",
+          "title": "葬CLI如闪电般上线",
+          "permalink": "/articles/076",
+          "markdown_link": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+          "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+          "date": "2026-03-26",
+          "label": "Manus在排行榜中仅次于Claude",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "open-code",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中详细对比了两者在整理学习笔记时的表现和信息取舍能力",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "096"
+      ],
+      "evidences": [
+        {
+          "article_id": "096",
+          "title": "葬AI一周年，我不再用AI写作",
+          "permalink": "/articles/096",
+          "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "date": "2026-05-27",
+          "label": "文中详细对比了两者在整理学习笔记时的表现和信息取舍能力",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "openclaw",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将经不住推敲的龙虾框架与Claude code SDK对比，认为正经做产品应选后者",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "071"
+      ],
+      "evidences": [
+        {
+          "article_id": "071",
+          "title": "Mulerun借假修真Agent市场明牌竞争",
+          "permalink": "/articles/071",
+          "markdown_link": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
+          "path": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
+          "date": "2026-03-16",
+          "label": "文章将经不住推敲的龙虾框架与Claude code SDK对比，认为正经做产品应选后者",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "qwen-code",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Qwen code与Claude code被作为编程Agent进行比较，体验略逊",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "066"
+      ],
+      "evidences": [
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "Qwen code与Claude code被作为编程Agent进行比较，体验略逊",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "seed",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Seed的性价比指数跌破了Claude（Opus）斩杀线",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "110",
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "作者在网页生成、视频剪辑、3D建模等多个任务中将Seed与Claude进行能力对比",
+          "weight": 1
+        },
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "Seed的性价比指数跌破了Claude（Opus）斩杀线",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "taku",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Taku否认是Claude code套壳，但使用体验被指与CC套壳产品差不多",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "066"
+      ],
+      "evidences": [
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "Taku否认是Claude code套壳，但使用体验被指与CC套壳产品差不多",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "葬cli",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "葬CLI的使用过程和Claude code一模一样",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "076"
+      ],
+      "evidences": [
+        {
+          "article_id": "076",
+          "title": "葬CLI如闪电般上线",
+          "permalink": "/articles/076",
+          "markdown_link": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+          "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+          "date": "2026-03-26",
+          "label": "葬CLI的使用过程和Claude code一模一样",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "大V比较了使用豆包的孩子与使用Claude的孩子在未来可能存在的差距",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "091"
+      ],
+      "evidences": [
+        {
+          "article_id": "091",
+          "title": "中亚世界没有豆包信仰",
+          "permalink": "/articles/091",
+          "markdown_link": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+          "path": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+          "date": "2026-05-14",
+          "label": "大V比较了使用豆包的孩子与使用Claude的孩子在未来可能存在的差距",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "阶跃桌面伙伴",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "阶跃桌面助手立项初衷是做类似Claude Code的产品，并在交互上进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "030"
+      ],
+      "evidences": [
+        {
+          "article_id": "030",
+          "title": "Agent OS的本地入口",
+          "permalink": "/articles/030",
+          "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "date": "2025-10-20",
+          "label": "阶跃桌面助手立项初衷是做类似Claude Code的产品，并在交互上进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Codex比Claude code更快干脆",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "gemini",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者对比了使用传统对话式模型（如Gemini）与使用项目管理式Agent（Claude Code）在版本管理和写作效率上的区别",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "gemini-cli",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "相比Claude Code，Gemini CLI上下文更长且价格更便宜",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "glm",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "GLM被评价为若干Claude平替之一",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "glm-code",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "GLM code与Claude code被作为编程Agent进行比较，体验略逊",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "由于Anthropic对特定区域的服务限制，作者将Kimi作为Claude后端的平替使用",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi-code",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Kimi code与Claude code被作为编程Agent进行比较，体验略逊",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "manus",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Manus在排行榜中仅次于Claude",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "open-code",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中详细对比了两者在整理学习笔记时的表现和信息取舍能力",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "openclaw",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将经不住推敲的龙虾框架与Claude code SDK对比，认为正经做产品应选后者",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qwen-code",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Qwen code与Claude code被作为编程Agent进行比较，体验略逊",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "seed",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Seed的性价比指数跌破了Claude（Opus）斩杀线",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "taku",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Taku否认是Claude code套壳，但使用体验被指与CC套壳产品差不多",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "葬cli",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "葬CLI的使用过程和Claude code一模一样",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "豆包",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "大V比较了使用豆包的孩子与使用Claude的孩子在未来可能存在的差距",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阶跃桌面伙伴",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "阶跃桌面助手立项初衷是做类似Claude Code的产品，并在交互上进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "chatgpt",
+      "target": "claude",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同属于用户会选择的顶级大模型竞品",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "009",
+        "089"
+      ],
+      "evidences": [
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "date": "2026-05-10",
+          "label": "Claude靠模型能力打穿编程场景，估值超过了ChatGPT",
+          "weight": 1
+        },
+        {
+          "article_id": "009",
+          "title": "阶跃星辰没有新闻",
+          "permalink": "/articles/009",
+          "markdown_link": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+          "path": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+          "date": "2025-06-28",
+          "label": "同属于用户会选择的顶级大模型竞品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "chatgpt",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同属于用户会选择的顶级大模型竞品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "claude",
+      "target": "codex",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为可用于写作和编程的Agent工具",
+      "weight": 4,
+      "strength": 3,
+      "effective_weight": 16,
+      "article_count": 4,
+      "evidence_articles": [
+        "027",
+        "029",
+        "089",
+        "100"
+      ],
+      "evidences": [
+        {
+          "article_id": "100",
+          "title": "网吧黑客松里有真黑客",
+          "permalink": "/articles/100",
+          "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "date": "2026-06-07",
+          "label": "两者均为黑客松中常用的AI代码生成工具，文中指出大部分人用Codex，而Claude Code表现不佳被边缘化",
+          "weight": 1
+        },
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "date": "2026-05-10",
+          "label": "文章提到Claude Code在快速被Codex反超",
+          "weight": 1
+        },
+        {
+          "article_id": "029",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/029",
+          "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-16",
+          "label": "两者均为同类的编程Agent工具",
+          "weight": 1
+        },
+        {
+          "article_id": "027",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/027",
+          "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-09",
+          "label": "同为可用于写作和编程的Agent工具",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "gemini",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在不同任务场景（长文与编程）中被作为主流模型竞品进行对比",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "004",
+        "029"
+      ],
+      "evidences": [
+        {
+          "article_id": "029",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/029",
+          "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-16",
+          "label": "两者均为通用大语言模型",
+          "weight": 1
+        },
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "date": "2025-06-23",
+          "label": "在不同任务场景（长文与编程）中被作为主流模型竞品进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "gemini-cli",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为同类的编程Agent工具",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "029"
+      ],
+      "evidences": [
+        {
+          "article_id": "029",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/029",
+          "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-16",
+          "label": "两者均为同类的编程Agent工具",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "grimo",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Stain因为看到了Claude code的出现而关掉了Grimo，存在替代和竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "096"
+      ],
+      "evidences": [
+        {
+          "article_id": "096",
+          "title": "葬AI一周年，我不再用AI写作",
+          "permalink": "/articles/096",
+          "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "date": "2026-05-27",
+          "label": "Stain因为看到了Claude code的出现而关掉了Grimo，存在替代和竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在处理复杂任务的场景中，Kimi被用作Claude的国产平替方案",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "036"
+      ],
+      "evidences": [
+        {
+          "article_id": "036",
+          "title": "灵感式写作",
+          "permalink": "/articles/036",
+          "markdown_link": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "path": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "date": "2025-11-19",
+          "label": "在处理复杂任务的场景中，Kimi被用作Claude的国产平替方案",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "openclaw",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "作者认为Claude Code在能力上完全秒杀云端OpenClaw",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "068"
+      ],
+      "evidences": [
+        {
+          "article_id": "068",
+          "title": "云端OpenClaw更是路边一条",
+          "permalink": "/articles/068",
+          "markdown_link": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+          "path": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+          "date": "2026-03-04",
+          "label": "作者认为Claude Code在能力上完全秒杀云端OpenClaw",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "qoder",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为可用于写作和编程的Agent工具",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "027",
+        "029"
+      ],
+      "evidences": [
+        {
+          "article_id": "029",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/029",
+          "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-16",
+          "label": "两者均为同类的编程Agent工具",
+          "weight": 1
+        },
+        {
+          "article_id": "027",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/027",
+          "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-09",
+          "label": "同为可用于写作和编程的Agent工具",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "qwen",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为可用于AI写作的底层模型/工具",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "027",
+        "029"
+      ],
+      "evidences": [
+        {
+          "article_id": "029",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/029",
+          "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-16",
+          "label": "两者均为通用大语言模型",
+          "weight": 1
+        },
+        {
+          "article_id": "027",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/027",
+          "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-09",
+          "label": "同为可用于AI写作的底层模型/工具",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Claude Code同样作为AI编程工具，取代了扣子原有的To C开发功能。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "017"
+      ],
+      "evidences": [
+        {
+          "article_id": "017",
+          "title": "字节用扣子证明，Agent只能被计划",
+          "permalink": "/articles/017",
+          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "date": "2025-08-29",
+          "label": "Claude Code同样作为AI编程工具，取代了扣子原有的To C开发功能。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "claude",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为可用于写作和编程的Agent工具",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "gemini",
+      "target": "claude",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在不同任务场景（长文与编程）中被作为主流模型竞品进行对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "gemini-cli",
+      "target": "claude",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为同类的编程Agent工具",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "grimo",
+      "target": "claude",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Stain因为看到了Claude code的出现而关掉了Grimo，存在替代和竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi",
+      "target": "claude",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在处理复杂任务的场景中，Kimi被用作Claude的国产平替方案",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "openclaw",
+      "target": "claude",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "作者认为Claude Code在能力上完全秒杀云端OpenClaw",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qoder",
+      "target": "claude",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为可用于写作和编程的Agent工具",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qwen",
+      "target": "claude",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为可用于AI写作的底层模型/工具",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "扣子",
+      "target": "claude",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Claude Code同样作为AI编程工具，取代了扣子原有的To C开发功能。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "anthropic",
+      "target": "claude",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Anthropic是Claude Code的服务提供商与开发方",
+      "weight": 12,
+      "strength": 4,
+      "effective_weight": 48,
+      "article_count": 9,
+      "evidence_articles": [
+        "024",
+        "031",
+        "036",
+        "060",
+        "066",
+        "070",
+        "103",
+        "105",
+        "109"
+      ],
+      "evidences": [
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "date": "2026-06-23",
+          "label": "Anthropic研发了Claude大模型",
+          "weight": 2
+        },
+        {
+          "article_id": "036",
+          "title": "灵感式写作",
+          "permalink": "/articles/036",
+          "markdown_link": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "path": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "date": "2025-11-19",
+          "label": "Anthropic是Claude系列生态产品的开发公司",
+          "weight": 2
+        },
+        {
+          "article_id": "024",
+          "title": "像编程一样写作",
+          "permalink": "/articles/024",
+          "markdown_link": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+          "path": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+          "date": "2025-09-22",
+          "label": "Anthropic是Claude Code的服务提供商与开发方",
+          "weight": 2
+        },
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "Claude由Anthropic开发（文中提及这是荣登Anthropic报告的模型）",
+          "weight": 1
+        },
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "Claude code是Anthropic主打的编程应用",
+          "weight": 1
+        },
+        {
+          "article_id": "070",
+          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+          "permalink": "/articles/070",
+          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "date": "2026-03-13",
+          "label": "Anthropic是Claude系列产品的开发公司",
+          "weight": 1
+        },
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "Anthropic开发了Claude code，以及其衍生的套壳应用",
+          "weight": 1
+        },
+        {
+          "article_id": "060",
+          "title": "Clawdbot是一场马斯克发动的中登炒作",
+          "permalink": "/articles/060",
+          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "date": "2026-01-30",
+          "label": "Anthropic是Claude code的开发公司，并在CC套壳上与创业公司竞争。",
+          "weight": 1
+        },
+        {
+          "article_id": "031",
+          "title": "追忆AI四小龙，热潮是怎么完蛋的",
+          "permalink": "/articles/031",
+          "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "date": "2025-10-27",
+          "label": "Anthropic开发了Claude Code",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "blender",
+      "target": "claude",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "作者通过MCP协议将Claude(Opus 4.8)接入Blender进行对比测试",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "作者通过MCP协议将Claude(Opus 4.8)接入Blender进行对比测试",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "bloome",
+      "target": "claude",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Bloome支持接入并调用本地的Claude code",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "Bloome支持接入并调用本地的Claude code",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cherry-studio",
+      "target": "claude",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Cherry Studio是Claude Code的前端界面套壳",
+      "weight": 6,
+      "strength": 2,
+      "effective_weight": 18,
+      "article_count": 6,
+      "evidence_articles": [
+        "027",
+        "029",
+        "031",
+        "036",
+        "060",
+        "070"
+      ],
+      "evidences": [
+        {
+          "article_id": "070",
+          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+          "permalink": "/articles/070",
+          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "date": "2026-03-13",
+          "label": "Cherry Studio坚定不移地套壳/集成了Claude Code",
+          "weight": 1
+        },
+        {
+          "article_id": "060",
+          "title": "Clawdbot是一场马斯克发动的中登炒作",
+          "permalink": "/articles/060",
+          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "date": "2026-01-30",
+          "label": "Cherry studio被列为Claude code套壳大赛的参赛产品之一。",
+          "weight": 1
+        },
+        {
+          "article_id": "036",
+          "title": "灵感式写作",
+          "permalink": "/articles/036",
+          "markdown_link": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "path": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "date": "2025-11-19",
+          "label": "Cherry Studio客户端内集成了Claude Code的SDK",
+          "weight": 1
+        },
+        {
+          "article_id": "031",
+          "title": "追忆AI四小龙，热潮是怎么完蛋的",
+          "permalink": "/articles/031",
+          "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "date": "2025-10-27",
+          "label": "Cherry Studio集成了Claude Code SDK",
+          "weight": 1
+        },
+        {
+          "article_id": "029",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/029",
+          "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-16",
+          "label": "Cherry Studio作为前端界面套壳并集成了Claude Code",
+          "weight": 1
+        },
+        {
+          "article_id": "027",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/027",
+          "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-09",
+          "label": "Cherry Studio是Claude Code的前端界面套壳",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "codex",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "在AI写作SOP流水线中，Claude起完标题后由Codex进行校对",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "088"
+      ],
+      "evidences": [
+        {
+          "article_id": "088",
+          "title": "读过豆包赚钱手册才敢自称懂AI",
+          "permalink": "/articles/088",
+          "markdown_link": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+          "path": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+          "date": "2026-05-07",
+          "label": "在AI写作SOP流水线中，Claude起完标题后由Codex进行校对",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "conductor",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Conductor可以方便地打开使用Claude code",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "Conductor可以方便地打开使用Claude code",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "cowork",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Cowork是基于Claude code制作的套壳产品。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "060"
+      ],
+      "evidences": [
+        {
+          "article_id": "060",
+          "title": "Clawdbot是一场马斯克发动的中登炒作",
+          "permalink": "/articles/060",
+          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "date": "2026-01-30",
+          "label": "Cowork是基于Claude code制作的套壳产品。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "cursor",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "作者在Cursor应用中使用Claude Code进行写作",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "030"
+      ],
+      "evidences": [
+        {
+          "article_id": "030",
+          "title": "Agent OS的本地入口",
+          "permalink": "/articles/030",
+          "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "date": "2025-10-20",
+          "label": "作者在Cursor应用中使用Claude Code进行写作",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "deepseek",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "在AI写作SOP流水线中，DeepSeek写正文与Claude起标题环节相接",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "088"
+      ],
+      "evidences": [
+        {
+          "article_id": "088",
+          "title": "读过豆包赚钱手册才敢自称懂AI",
+          "permalink": "/articles/088",
+          "markdown_link": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+          "path": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+          "date": "2026-05-07",
+          "label": "在AI写作SOP流水线中，DeepSeek写正文与Claude起标题环节相接",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "flova",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Flova通过整合模型替代了原先需单独打开Claude写脚本的步骤",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "052"
+      ],
+      "evidences": [
+        {
+          "article_id": "052",
+          "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+          "permalink": "/articles/052",
+          "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "date": "2026-01-16",
+          "label": "Flova通过整合模型替代了原先需单独打开Claude写脚本的步骤",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "glm",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "大量博主推荐及官方支持将Claude Code工具结合GLM API作为特色配置方案",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "109"
+      ],
+      "evidences": [
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "date": "2026-06-23",
+          "label": "大量博主推荐及官方支持将Claude Code工具结合GLM API作为特色配置方案",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "gstack",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "gstack需要在Claude Code里安装后使用。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "074"
+      ],
+      "evidences": [
+        {
+          "article_id": "074",
+          "title": "做个人吧，别做AI",
+          "permalink": "/articles/074",
+          "markdown_link": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "date": "2026-03-22",
+          "label": "gstack需要在Claude Code里安装后使用。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "hyperframes",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "使用HyperFrames必须具备并接入现成的AI agent，如Claude Code",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "098"
+      ],
+      "evidences": [
+        {
+          "article_id": "098",
+          "title": "HeyGen不是给人用的",
+          "permalink": "/articles/098",
+          "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "date": "2026-06-01",
+          "label": "使用HyperFrames必须具备并接入现成的AI agent，如Claude Code",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "kimi",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "作者将Claude Code的后端模型切换为Kimi，组合使用以自动拆解和执行写作任务",
+      "weight": 3,
+      "strength": 2,
+      "effective_weight": 9,
+      "article_count": 3,
+      "evidence_articles": [
+        "024",
+        "027",
+        "029"
+      ],
+      "evidences": [
+        {
+          "article_id": "029",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/029",
+          "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-16",
+          "label": "Kimi模型可作为后端API接入Claude Code使用",
+          "weight": 1
+        },
+        {
+          "article_id": "027",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/027",
+          "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-09",
+          "label": "Claude Code可以接入Kimi作为后端模型运行",
+          "weight": 1
+        },
+        {
+          "article_id": "024",
+          "title": "像编程一样写作",
+          "permalink": "/articles/024",
+          "markdown_link": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+          "path": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+          "date": "2025-09-22",
+          "label": "作者将Claude Code的后端模型切换为Kimi，组合使用以自动拆解和执行写作任务",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "manus",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Manus刚需并依赖调用Claude等国外大模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "033"
+      ],
+      "evidences": [
+        {
+          "article_id": "033",
+          "title": "搞AI硬件别装美国公司",
+          "permalink": "/articles/033",
+          "markdown_link": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+          "path": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+          "date": "2025-11-14",
+          "label": "Manus刚需并依赖调用Claude等国外大模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "openclaw",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Openclaw可以调用电脑上安装的Claude code做复杂工作",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "067"
+      ],
+      "evidences": [
+        {
+          "article_id": "067",
+          "title": "OpenClaw不如狗一条",
+          "permalink": "/articles/067",
+          "markdown_link": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+          "path": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+          "date": "2026-03-03",
+          "label": "Openclaw可以调用电脑上安装的Claude code做复杂工作",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "proma",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Proma接入了Claude code的SDK进行套壳开发。",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "060",
+        "066"
+      ],
+      "evidences": [
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "Proma是基于Claude code制作的套壳客户端",
+          "weight": 1
+        },
+        {
+          "article_id": "060",
+          "title": "Clawdbot是一场马斯克发动的中登炒作",
+          "permalink": "/articles/060",
+          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "date": "2026-01-30",
+          "label": "Proma接入了Claude code的SDK进行套壳开发。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "slock",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Slock群聊中可以接入用户本地的Claude Code作为Agent",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "089"
+      ],
+      "evidences": [
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "date": "2026-05-10",
+          "label": "Slock群聊中可以接入用户本地的Claude Code作为Agent",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "阶跃桌面伙伴",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "阶跃桌面伙伴被列为Claude code套壳大赛的参赛产品之一。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "060"
+      ],
+      "evidences": [
+        {
+          "article_id": "060",
+          "title": "Clawdbot是一场马斯克发动的中登炒作",
+          "permalink": "/articles/060",
+          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "date": "2026-01-30",
+          "label": "阶跃桌面伙伴被列为Claude code套壳大赛的参赛产品之一。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "yinsen",
+      "target": "claude",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "Yinsen高度赞扬Claude Code是教科书级别的",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "070"
+      ],
+      "evidences": [
+        {
+          "article_id": "070",
+          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+          "permalink": "/articles/070",
+          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "date": "2026-03-13",
+          "label": "Yinsen高度赞扬Claude Code是教科书级别的",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "dario",
+      "target": "claude",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Dario是管理/开发Claude的关键人物",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "096"
+      ],
+      "evidences": [
+        {
+          "article_id": "096",
+          "title": "葬AI一周年，我不再用AI写作",
+          "permalink": "/articles/096",
+          "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "date": "2026-05-27",
+          "label": "Dario是管理/开发Claude的关键人物",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "erlich",
+      "target": "claude",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Erlich开发了Claude Code的中转服务并撰写了入门教程",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "027"
+      ],
+      "evidences": [
+        {
+          "article_id": "027",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/027",
+          "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-09",
+          "label": "Erlich开发了Claude Code的中转服务并撰写了入门教程",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "杨洁",
+      "target": "claude",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "杨洁习惯拿Claude code跑初期的产品demo",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "040"
+      ],
+      "evidences": [
+        {
+          "article_id": "040",
+          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+          "permalink": "/articles/040",
+          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "date": "2025-12-12",
+          "label": "杨洁习惯拿Claude code跑初期的产品demo",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "claude",
+      "target": "智谱ai",
+      "score": 0.9053,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 10 篇文章；共享 6 个邻居",
+      "evidence_article_ids": [
+        "004",
+        "009",
+        "049",
+        "070",
+        "089"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "claude",
+      "target": "飞书",
+      "score": 0.7899,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 5 篇文章；共享 6 个邻居",
+      "evidence_article_ids": [
+        "033",
+        "067",
+        "070",
+        "088",
+        "090"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "claude",
+      "target": "阿里巴巴",
+      "score": 0.7343,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "049",
+        "071",
+        "103",
+        "105"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "claude",
+      "target": "字节跳动",
+      "score": 0.7166,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 8 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "017",
+        "040",
+        "052",
+        "070",
+        "088"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "claude",
+      "target": "opencode",
+      "score": 0.6631,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "076",
+        "099",
+        "103",
+        "105"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

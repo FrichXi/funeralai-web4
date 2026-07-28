@@ -1,0 +1,123 @@
+{
+  "node": {
+    "id": "讯飞",
+    "name": "讯飞",
+    "type": "company",
+    "description": "提供语音或文本识别翻译服务的科技公司，支持朝鲜语识别。",
+    "mention_count": 6,
+    "article_count": 2,
+    "aliases": [
+      "科大讯飞"
+    ],
+    "tags": [
+      "人工智能",
+      "录音笔",
+      "语音识别",
+      "语音转录"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "044",
+        "title": "Plaud善打游击战",
+        "date": "2025-12-23",
+        "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+        "permalink": "/articles/044",
+        "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "019",
+        "title": "我研发出了主体思想AI",
+        "date": "2025-09-04",
+        "path": "articles/019_2025-09-04_葬爱咸鱼_我研发出了主体思想AI.md",
+        "permalink": "/articles/019",
+        "markdown_link": "articles/019_2025-09-04_葬爱咸鱼_我研发出了主体思想AI.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0307
+  },
+  "links": [
+    {
+      "source": "plaud",
+      "target": "讯飞",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Plaud避开正面竞争但在录音设备赛道上与讯飞存在竞争关系。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "044"
+      ],
+      "evidences": [
+        {
+          "article_id": "044",
+          "title": "Plaud善打游击战",
+          "permalink": "/articles/044",
+          "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "date": "2025-12-23",
+          "label": "Plaud避开正面竞争但在录音设备赛道上与讯飞存在竞争关系。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "讯飞",
+      "target": "plaud",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Plaud避开正面竞争但在录音设备赛道上与讯飞存在竞争关系。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "讯飞",
+      "target": "讯飞录音笔",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "讯飞开发了讯飞录音笔。",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "044"
+      ],
+      "evidences": [
+        {
+          "article_id": "044",
+          "title": "Plaud善打游击战",
+          "permalink": "/articles/044",
+          "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "date": "2025-12-23",
+          "label": "讯飞开发了讯飞录音笔。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "pin",
+      "target": "讯飞",
+      "score": 0.3847,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "044"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

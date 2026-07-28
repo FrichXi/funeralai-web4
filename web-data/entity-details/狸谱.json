@@ -1,0 +1,56 @@
+{
+  "node": {
+    "id": "狸谱",
+    "name": "狸谱",
+    "type": "product",
+    "description": "阶跃开发且即将关停的C端产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "030",
+        "title": "Agent OS的本地入口",
+        "date": "2025-10-20",
+        "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "permalink": "/articles/030",
+        "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0098
+  },
+  "links": [
+    {
+      "source": "阶跃星辰",
+      "target": "狸谱",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "狸谱是阶跃公司此前开发的C端产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "030"
+      ],
+      "evidences": [
+        {
+          "article_id": "030",
+          "title": "Agent OS的本地入口",
+          "permalink": "/articles/030",
+          "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "date": "2025-10-20",
+          "label": "狸谱是阶跃公司此前开发的C端产品",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

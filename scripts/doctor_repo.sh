@@ -76,6 +76,10 @@ if [[ -n "$branch" && "$branch" != "main" ]]; then
   fail "Current branch is '$branch'; expected 'main'."
 fi
 
+if ! python3 scripts/repo_profiles.py check-dirty --profile "$profile"; then
+  fail "Dirty worktree exceeds the '$profile' transaction scope."
+fi
+
 if ! python3 scripts/check_no_secrets.py --staged >/tmp/web4-secret-check.log 2>&1; then
   cat /tmp/web4-secret-check.log >&2
   fail "Secret check failed."
@@ -86,7 +90,7 @@ fi
 tracked_generated=()
 while IFS= read -r path; do
   [[ -n "$path" ]] && tracked_generated+=("$path")
-done < <(git ls-files site/public/data site/public/test data/graph/canonical_full.json)
+done < <(git ls-files site/public/data site/public/test site/public/release-manifest.json data/graph/canonical_full.json)
 
 if (( ${#tracked_generated[@]} > 0 )); then
   fail "Generated files are still tracked: ${tracked_generated[*]}"
@@ -98,13 +102,55 @@ for path in ".wrangler/cache/pages.json" "site/output/playwright/test-page-deskt
   fi
 done
 
+public_test_duplicates=()
+while IFS= read -r path; do
+  [[ -n "$path" ]] && public_test_duplicates+=("$path")
+done < <(find site/public -mindepth 1 -maxdepth 1 -type d -name 'test *' -print 2>/dev/null)
+
+if (( ${#public_test_duplicates[@]} > 0 )); then
+  fail "Duplicate benchmark directories would be copied into the Pages upload: ${public_test_duplicates[*]}"
+fi
+
+source_backups=()
+while IFS= read -r path; do
+  [[ -n "$path" ]] && source_backups+=("$path")
+done < <(find site/src -type f \( -name '* 2.*' -o -iname '* copy.*' -o -iname '*backup*' \) -print 2>/dev/null)
+
+if (( ${#source_backups[@]} > 0 )); then
+  fail "Backup/copy files are present inside the source tree: ${source_backups[*]}"
+fi
+
+nested_node_modules=()
+while IFS= read -r path; do
+  [[ -n "$path" ]] && nested_node_modules+=("$path")
+done < <(find site/src -type d -name node_modules -prune -print 2>/dev/null)
+
+if (( ${#nested_node_modules[@]} > 0 )); then
+  fail "Tool caches are present inside the source tree: ${nested_node_modules[*]}"
+fi
+
+if ! python3 -m py_compile scripts/release_guard.py; then
+  fail "Release guard Python syntax check failed."
+fi
+
+while IFS= read -r function_file; do
+  if ! node --check "$function_file" >/dev/null; then
+    fail "Pages Function syntax check failed: $function_file"
+  fi
+done < <(find site/functions -type f -name '*.js' -print 2>/dev/null)
+
 if [[ "$profile" == "test-benchmark" || "$profile" == "release" ]]; then
   if [[ "$ci_mode" == false ]]; then
-    config_path="${TEST_BENCHMARK_CONFIG:-site/benchmark.local.json}"
-    if [[ ! -f "$config_path" ]]; then
-      fail "Missing benchmark config: $config_path"
+    if node -e 'const fs=require("fs");try{const m=JSON.parse(fs.readFileSync("site/public/test/manifest.json","utf8"));process.exit(m.releaseId==="web4-graph-v2-first-official"?0:1)}catch{process.exit(1)}'; then
+      if ! (cd site && node scripts/stage-graph-v2-benchmark.mjs --verify-current); then
+        fail "Graph V2 benchmark release verification failed."
+      fi
     else
-      node - "$config_path" <<'NODE' || fail "Benchmark config points to missing required files."
+      config_path="${TEST_BENCHMARK_CONFIG:-site/benchmark.local.json}"
+      if [[ ! -f "$config_path" ]]; then
+        fail "Missing benchmark config: $config_path"
+      else
+        node - "$config_path" <<'NODE' || fail "Benchmark config points to missing required files."
 const fs = require("node:fs");
 const path = require("node:path");
 const configPath = process.argv[2];
@@ -125,6 +171,7 @@ if (missing.length) {
 }
 console.log(`Benchmark config OK: ${sourceRoot}`);
 NODE
+      fi
     fi
   else
     echo "CI mode: skipping canonical benchmark-local config check."

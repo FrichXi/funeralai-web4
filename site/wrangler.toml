@@ -1,0 +1,18 @@
+# Generated from the existing Cloudflare Pages project and extended for runtime bindings.
+name = "funeral-ai-web4"
+pages_build_output_dir = "./out"
+compatibility_date = "2026-03-16"
+
+[[d1_databases]]
+binding = "BENCHMARK_VOTES_DB"
+database_name = "funeralai-web4-feedback"
+database_id = "84ba1c2c-85b5-4b29-b0c6-9a4c17670ef9"
+migrations_dir = "migrations"
+
+[env.production]
+
+[[env.production.d1_databases]]
+binding = "BENCHMARK_VOTES_DB"
+database_name = "funeralai-web4-feedback"
+database_id = "84ba1c2c-85b5-4b29-b0c6-9a4c17670ef9"
+migrations_dir = "migrations"

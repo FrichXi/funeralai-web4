@@ -1,0 +1,136 @@
+{
+  "node": {
+    "id": "step-aos",
+    "name": "Step AOS",
+    "type": "product",
+    "description": "阶跃星辰推出的智能体原生操作系统",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "操作系统",
+      "智能体"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "123",
+        "title": "阶跃软的不行来硬的",
+        "date": "2026-07-23",
+        "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+        "permalink": "/articles/123",
+        "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0408
+  },
+  "links": [
+    {
+      "source": "step-aos",
+      "target": "光帆耳机",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Step AOS试图解决GUI操作问题，文中以光帆耳机权限受限作为反面教材进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "123"
+      ],
+      "evidences": [
+        {
+          "article_id": "123",
+          "title": "阶跃软的不行来硬的",
+          "permalink": "/articles/123",
+          "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "date": "2026-07-23",
+          "label": "Step AOS试图解决GUI操作问题，文中以光帆耳机权限受限作为反面教材进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "光帆耳机",
+      "target": "step-aos",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Step AOS试图解决GUI操作问题，文中以光帆耳机权限受限作为反面教材进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "step-aos",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "阶跃星辰开发了Step AOS智能体原生操作系统",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "123"
+      ],
+      "evidences": [
+        {
+          "article_id": "123",
+          "title": "阶跃软的不行来硬的",
+          "permalink": "/articles/123",
+          "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "date": "2026-07-23",
+          "label": "阶跃星辰开发了Step AOS智能体原生操作系统",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "step-aos",
+      "target": "stepx-neo",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "阶跃手机的核心卖点是集成了Step AOS系统",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "123"
+      ],
+      "evidences": [
+        {
+          "article_id": "123",
+          "title": "阶跃软的不行来硬的",
+          "permalink": "/articles/123",
+          "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "date": "2026-07-23",
+          "label": "阶跃手机的核心卖点是集成了Step AOS系统",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "step-aos",
+      "target": "豆包",
+      "score": 0.3594,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "123"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

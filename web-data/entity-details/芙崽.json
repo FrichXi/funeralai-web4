@@ -1,0 +1,117 @@
+{
+  "node": {
+    "id": "芙崽",
+    "name": "芙崽",
+    "type": "product",
+    "description": "具备搭载Agent OS潜力的AI硬件终端",
+    "mention_count": 7,
+    "article_count": 3,
+    "aliases": [],
+    "tags": [
+      "AI硬件",
+      "AI陪伴",
+      "硬件玩具"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "055",
+        "title": "来认识下2025年最活跃的CVC",
+        "date": "2026-01-22",
+        "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "permalink": "/articles/055",
+        "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "030",
+        "title": "Agent OS的本地入口",
+        "date": "2025-10-20",
+        "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "permalink": "/articles/030",
+        "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "066",
+        "title": "AI编程创造世界",
+        "date": "2026-02-24",
+        "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "permalink": "/articles/066",
+        "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.038
+  },
+  "links": [
+    {
+      "source": "小智ai",
+      "target": "芙崽",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "廉价AI硬件被指使用了与芙崽一模一样的外观方案（眼睛）",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "066"
+      ],
+      "evidences": [
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "廉价AI硬件被指使用了与芙崽一模一样的外观方案（眼睛）",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "芙崽",
+      "target": "小智ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "廉价AI硬件被指使用了与芙崽一模一样的外观方案（眼睛）",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "京东",
+      "target": "芙崽",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "芙崽的首发在京东",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "芙崽的首发在京东",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

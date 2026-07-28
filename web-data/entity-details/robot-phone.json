@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "robot-phone",
+    "name": "Robot Phone",
+    "type": "product",
+    "description": "荣耀发布的AI手机，带有云台功能",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI手机"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "123",
+        "title": "阶跃软的不行来硬的",
+        "date": "2026-07-23",
+        "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+        "permalink": "/articles/123",
+        "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0226
+  },
+  "links": [
+    {
+      "source": "robot-phone",
+      "target": "stepx-neo",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "阶跃手机与荣耀Robot Phone在WAIC上同台竞争全球首款AI智能体手机",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "123"
+      ],
+      "evidences": [
+        {
+          "article_id": "123",
+          "title": "阶跃软的不行来硬的",
+          "permalink": "/articles/123",
+          "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "date": "2026-07-23",
+          "label": "阶跃手机与荣耀Robot Phone在WAIC上同台竞争全球首款AI智能体手机",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "stepx-neo",
+      "target": "robot-phone",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "阶跃手机与荣耀Robot Phone在WAIC上同台竞争全球首款AI智能体手机",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

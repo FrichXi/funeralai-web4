@@ -1,0 +1,74 @@
+{
+  "node": {
+    "id": "gta",
+    "name": "GTA",
+    "type": "product",
+    "description": "经典开放世界游戏，《五星好市民》被大量指代和对比为它的像素版",
+    "mention_count": 13,
+    "article_count": 1,
+    "aliases": [
+      "侠盗猎车手"
+    ],
+    "tags": [
+      "开放世界",
+      "游戏"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "083",
+        "title": "估值20亿的AI游戏公司，做了款像素GTA",
+        "date": "2026-04-22",
+        "path": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+        "permalink": "/articles/083",
+        "markdown_link": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+        "mention_count": 13
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.043
+  },
+  "links": [
+    {
+      "source": "gta",
+      "target": "五星好市民",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "被称为像素版GTA，被指抄袭/神似GTA",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "083"
+      ],
+      "evidences": [
+        {
+          "article_id": "083",
+          "title": "估值20亿的AI游戏公司，做了款像素GTA",
+          "permalink": "/articles/083",
+          "markdown_link": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+          "path": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+          "date": "2026-04-22",
+          "label": "被称为像素版GTA，被指抄袭/神似GTA",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "五星好市民",
+      "target": "gta",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "被称为像素版GTA，被指抄袭/神似GTA",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

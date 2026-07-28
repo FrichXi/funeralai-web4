@@ -1,0 +1,97 @@
+{
+  "node": {
+    "id": "makerworld",
+    "name": "MakerWorld",
+    "type": "product",
+    "description": "拓竹旗下的产品线，其开发者生态被用来类比小智AI的开源生态",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "开发者生态"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "072",
+        "title": "小智AI才是真正的具身智能",
+        "date": "2026-03-17",
+        "path": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+        "permalink": "/articles/072",
+        "markdown_link": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.025
+  },
+  "links": [
+    {
+      "source": "makerworld",
+      "target": "小智ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将小智AI的开发者生态模式类比为拓竹的MakerWorld",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "072"
+      ],
+      "evidences": [
+        {
+          "article_id": "072",
+          "title": "小智AI才是真正的具身智能",
+          "permalink": "/articles/072",
+          "markdown_link": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+          "path": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+          "date": "2026-03-17",
+          "label": "文章将小智AI的开发者生态模式类比为拓竹的MakerWorld",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "小智ai",
+      "target": "makerworld",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将小智AI的开发者生态模式类比为拓竹的MakerWorld",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "拓竹",
+      "target": "makerworld",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "拓竹拥有MakerWorld产品线",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "072"
+      ],
+      "evidences": [
+        {
+          "article_id": "072",
+          "title": "小智AI才是真正的具身智能",
+          "permalink": "/articles/072",
+          "markdown_link": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+          "path": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+          "date": "2026-03-17",
+          "label": "拓竹拥有MakerWorld产品线",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

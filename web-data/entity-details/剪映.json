@@ -1,0 +1,438 @@
+{
+  "node": {
+    "id": "剪映",
+    "name": "剪映",
+    "type": "product",
+    "description": "一款视频编辑软件，提供价格低廉的AI文字成片和非线性编辑功能，文章标题建议Medeo改名为该产品的删减版。",
+    "mention_count": 59,
+    "article_count": 6,
+    "aliases": [],
+    "tags": [
+      "AI工作流",
+      "AI文字成片",
+      "视频剪辑",
+      "视频工具",
+      "非线性编辑"
+    ],
+    "references": 6,
+    "source_article_count": 6,
+    "source_articles": [
+      {
+        "article_id": "063",
+        "title": "剪映炒Seedance 2.0，炒出一种推背感",
+        "date": "2026-02-12",
+        "path": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+        "permalink": "/articles/063",
+        "markdown_link": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+        "mention_count": 34
+      },
+      {
+        "article_id": "046",
+        "title": "建议Medeo改名剪映（删减版）",
+        "date": "2025-12-26",
+        "path": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+        "permalink": "/articles/046",
+        "markdown_link": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+        "mention_count": 12
+      },
+      {
+        "article_id": "052",
+        "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+        "date": "2026-01-16",
+        "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "permalink": "/articles/052",
+        "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "mention_count": 9
+      },
+      {
+        "article_id": "078",
+        "title": "Flova和TapNow背对背拥抱",
+        "date": "2026-04-07",
+        "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+        "permalink": "/articles/078",
+        "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "088",
+        "title": "读过豆包赚钱手册才敢自称懂AI",
+        "date": "2026-05-07",
+        "path": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+        "permalink": "/articles/088",
+        "markdown_link": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "037",
+        "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
+        "date": "2025-11-27",
+        "path": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+        "permalink": "/articles/037",
+        "markdown_link": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 12,
+    "composite_weight": 0.1706
+  },
+  "links": [
+    {
+      "source": "flova",
+      "target": "剪映",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Flova比喻为“AI剪映宝宝”及“AI剪映雏形”",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "052",
+        "078"
+      ],
+      "evidences": [
+        {
+          "article_id": "078",
+          "title": "Flova和TapNow背对背拥抱",
+          "permalink": "/articles/078",
+          "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "date": "2026-04-07",
+          "label": "Flova被形容为怀了个“剪映宝宝雏形”",
+          "weight": 1
+        },
+        {
+          "article_id": "052",
+          "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+          "permalink": "/articles/052",
+          "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "date": "2026-01-16",
+          "label": "文章将Flova比喻为“AI剪映宝宝”及“AI剪映雏形”",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "medeo",
+      "target": "剪映",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章标题直接将Medeo比作'剪映（删减版）'，并在正文中将其工作流、价格与剪映的AI文字成片功能进行深度对比。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "046"
+      ],
+      "evidences": [
+        {
+          "article_id": "046",
+          "title": "建议Medeo改名剪映（删减版）",
+          "permalink": "/articles/046",
+          "markdown_link": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+          "path": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+          "date": "2025-12-26",
+          "label": "文章标题直接将Medeo比作'剪映（删减版）'，并在正文中将其工作流、价格与剪映的AI文字成片功能进行深度对比。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "剪映",
+      "target": "flova",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Flova比喻为“AI剪映宝宝”及“AI剪映雏形”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "剪映",
+      "target": "medeo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章标题直接将Medeo比作'剪映（删减版）'，并在正文中将其工作流、价格与剪映的AI文字成片功能进行深度对比。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "medeo",
+      "target": "剪映",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者在AI视频生成与剪辑工具赛道上存在竞争关系，作者认为剪映的效率和成本目前优于Medeo。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "046"
+      ],
+      "evidences": [
+        {
+          "article_id": "046",
+          "title": "建议Medeo改名剪映（删减版）",
+          "permalink": "/articles/046",
+          "markdown_link": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+          "path": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+          "date": "2025-12-26",
+          "label": "两者在AI视频生成与剪辑工具赛道上存在竞争关系，作者认为剪映的效率和成本目前优于Medeo。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "剪映",
+      "target": "medeo",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者在AI视频生成与剪辑工具赛道上存在竞争关系，作者认为剪映的效率和成本目前优于Medeo。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "字节跳动",
+      "target": "剪映",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "文中通过提及带着产品去找'字节老板们'并直接对标剪映，间接反映了字节跳动对剪映的开发和拥有关系。",
+      "weight": 4,
+      "strength": 4,
+      "effective_weight": 20,
+      "article_count": 4,
+      "evidence_articles": [
+        "046",
+        "063",
+        "078",
+        "088"
+      ],
+      "evidences": [
+        {
+          "article_id": "088",
+          "title": "读过豆包赚钱手册才敢自称懂AI",
+          "permalink": "/articles/088",
+          "markdown_link": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+          "path": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+          "date": "2026-05-07",
+          "label": "文中将其归类为字节系产品",
+          "weight": 1
+        },
+        {
+          "article_id": "078",
+          "title": "Flova和TapNow背对背拥抱",
+          "permalink": "/articles/078",
+          "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "date": "2026-04-07",
+          "label": "剪映是字节跳动旗下产品",
+          "weight": 1
+        },
+        {
+          "article_id": "063",
+          "title": "剪映炒Seedance 2.0，炒出一种推背感",
+          "permalink": "/articles/063",
+          "markdown_link": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+          "path": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+          "date": "2026-02-12",
+          "label": "字节跳动通过剪映和抖音的产品组合拳定义短视频生态",
+          "weight": 1
+        },
+        {
+          "article_id": "046",
+          "title": "建议Medeo改名剪映（删减版）",
+          "permalink": "/articles/046",
+          "markdown_link": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+          "path": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+          "date": "2025-12-26",
+          "label": "文中通过提及带着产品去找'字节老板们'并直接对标剪映，间接反映了字节跳动对剪映的开发和拥有关系。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "脸萌科技",
+      "target": "剪映",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "脸萌科技团队被收购后开发了剪映",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "052"
+      ],
+      "evidences": [
+        {
+          "article_id": "052",
+          "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+          "permalink": "/articles/052",
+          "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "date": "2026-01-16",
+          "label": "脸萌科技团队被收购后开发了剪映",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seedance",
+      "target": "剪映",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "剪映应用内部接入了Seedance大模型以提供视频生成和延长等AI功能",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "063"
+      ],
+      "evidences": [
+        {
+          "article_id": "063",
+          "title": "剪映炒Seedance 2.0，炒出一种推背感",
+          "permalink": "/articles/063",
+          "markdown_link": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+          "path": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+          "date": "2026-02-12",
+          "label": "剪映应用内部接入了Seedance大模型以提供视频生成和延长等AI功能",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "剪映",
+      "target": "抖音",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "剪映与抖音深度绑定，形成了你中有我我中有你的内容生产与分发循环",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "063"
+      ],
+      "evidences": [
+        {
+          "article_id": "063",
+          "title": "剪映炒Seedance 2.0，炒出一种推背感",
+          "permalink": "/articles/063",
+          "markdown_link": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+          "path": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+          "date": "2026-02-12",
+          "label": "剪映与抖音深度绑定，形成了你中有我我中有你的内容生产与分发循环",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "张逍然",
+      "target": "剪映",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "曾担任剪映产品负责人",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "078"
+      ],
+      "evidences": [
+        {
+          "article_id": "078",
+          "title": "Flova和TapNow背对背拥抱",
+          "permalink": "/articles/078",
+          "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "date": "2026-04-07",
+          "label": "曾担任剪映产品负责人",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "王学智",
+      "target": "剪映",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "曾担任剪映技术负责人",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "078"
+      ],
+      "evidences": [
+        {
+          "article_id": "078",
+          "title": "Flova和TapNow背对背拥抱",
+          "permalink": "/articles/078",
+          "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "date": "2026-04-07",
+          "label": "曾担任剪映技术负责人",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "剪映",
+      "target": "郭列",
+      "score": 0.4795,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "037",
+        "052",
+        "078"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "oiioii",
+      "target": "剪映",
+      "score": 0.4449,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "046",
+        "052",
+        "078"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "剪映",
+      "target": "即梦",
+      "score": 0.422,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "063",
+        "078",
+        "088"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

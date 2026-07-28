@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "面壁智能",
+    "name": "面壁智能",
+    "type": "company",
+    "description": "一家AI公司，文章质疑为何其未被选入AI六小虎名单",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "大模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "009",
+        "title": "阶跃星辰没有新闻",
+        "date": "2025-06-28",
+        "path": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+        "permalink": "/articles/009",
+        "markdown_link": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0155
+  },
+  "links": [
+    {
+      "source": "阶跃星辰",
+      "target": "面壁智能",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章对比两家公司，质疑为何六小虎名单选择了阶跃星辰而非面壁智能",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "009"
+      ],
+      "evidences": [
+        {
+          "article_id": "009",
+          "title": "阶跃星辰没有新闻",
+          "permalink": "/articles/009",
+          "markdown_link": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+          "path": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+          "date": "2025-06-28",
+          "label": "文章对比两家公司，质疑为何六小虎名单选择了阶跃星辰而非面壁智能",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "面壁智能",
+      "target": "阶跃星辰",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章对比两家公司，质疑为何六小虎名单选择了阶跃星辰而非面壁智能",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

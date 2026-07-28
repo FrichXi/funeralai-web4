@@ -15,7 +15,12 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22"
       - run: python3 scripts/check_no_secrets.py
+      - run: bash -n scripts/*.sh site/prebuild.sh
+      - run: python3 -m py_compile scripts/*.py
       - run: |
           tracked="$(git ls-files site/public/data site/public/test data/graph/canonical_full.json)"
           if [ -n "$tracked" ]; then
@@ -46,7 +51,7 @@ jobs:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v6
         with:
-          node-version: "24"
+          node-version: "22"
           cache: "npm"
           cache-dependency-path: site/package-lock.json
       - run: npm ci
@@ -62,11 +67,12 @@ jobs:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v6
         with:
-          node-version: "24"
+          node-version: "22"
           cache: "npm"
           cache-dependency-path: site/package-lock.json
       - run: npm ci
-      - run: STAGE_TEST=skip npm run build
+      - run: CI=true STAGE_TEST=ci npm run build
+      - run: python3 ../scripts/release_guard.py verify-local --mode ci
 
   frontend-tests:
     name: Frontend Tests
@@ -78,8 +84,8 @@ jobs:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v6
         with:
-          node-version: "24"
+          node-version: "22"
           cache: "npm"
           cache-dependency-path: site/package-lock.json
       - run: npm ci
-      - run: npx vitest run
+      - run: npm run test

@@ -1,0 +1,133 @@
+{
+  "node": {
+    "id": "cowork",
+    "name": "Cowork",
+    "type": "product",
+    "description": "一款基于Claude code的套壳产品，被评价为体验极差、任务总是中断。",
+    "mention_count": 2,
+    "article_count": 2,
+    "aliases": [
+      "cowork"
+    ],
+    "tags": [
+      "Claude code套壳",
+      "套壳应用"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "066",
+        "title": "AI编程创造世界",
+        "date": "2026-02-24",
+        "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "permalink": "/articles/066",
+        "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "060",
+        "title": "Clawdbot是一场马斯克发动的中登炒作",
+        "date": "2026-01-30",
+        "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+        "permalink": "/articles/060",
+        "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0296
+  },
+  "links": [
+    {
+      "source": "cowork",
+      "target": "proma",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Proma的稳定性被认为优于体验糟糕的Cowork。",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "060",
+        "066"
+      ],
+      "evidences": [
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "Proma的核心使用体验与cowork没有区别",
+          "weight": 1
+        },
+        {
+          "article_id": "060",
+          "title": "Clawdbot是一场马斯克发动的中登炒作",
+          "permalink": "/articles/060",
+          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "date": "2026-01-30",
+          "label": "Proma的稳定性被认为优于体验糟糕的Cowork。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "proma",
+      "target": "cowork",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Proma的稳定性被认为优于体验糟糕的Cowork。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "claude",
+      "target": "cowork",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Cowork是基于Claude code制作的套壳产品。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "060"
+      ],
+      "evidences": [
+        {
+          "article_id": "060",
+          "title": "Clawdbot是一场马斯克发动的中登炒作",
+          "permalink": "/articles/060",
+          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "date": "2026-01-30",
+          "label": "Cowork是基于Claude code制作的套壳产品。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "cherry-studio",
+      "target": "cowork",
+      "score": 0.3835,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "060",
+        "066"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

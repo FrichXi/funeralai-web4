@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "智能派",
+    "name": "智能派",
+    "type": "company",
+    "description": "位于深圳的全球知名3D打印机公司",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "3D打印"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "066",
+        "title": "AI编程创造世界",
+        "date": "2026-02-24",
+        "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "permalink": "/articles/066",
+        "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0182
+  },
+  "links": [
+    {
+      "source": "拓竹",
+      "target": "智能派",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "并列为全球出货量前四的深圳3D打印机厂商",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "066"
+      ],
+      "evidences": [
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "并列为全球出货量前四的深圳3D打印机厂商",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "智能派",
+      "target": "拓竹",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "并列为全球出货量前四的深圳3D打印机厂商",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

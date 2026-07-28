@@ -1,0 +1,121 @@
+{
+  "node": {
+    "id": "豆包手机",
+    "name": "豆包手机",
+    "type": "product",
+    "description": "具备AI功能的手机产品，文中作为被围剿和体验不佳的反面案例",
+    "mention_count": 4,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "AI硬件",
+      "Agent手机",
+      "智能手机"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "038",
+        "title": "建议蚂蚁集团收购马卡龙",
+        "date": "2025-12-02",
+        "path": "articles/038_2025-12-02_葬爱咸鱼_建议蚂蚁集团收购马卡龙.md",
+        "permalink": "/articles/038",
+        "markdown_link": "articles/038_2025-12-02_葬爱咸鱼_建议蚂蚁集团收购马卡龙.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "051",
+        "title": "狠狠办千问",
+        "date": "2026-01-15",
+        "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "permalink": "/articles/051",
+        "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0364
+  },
+  "links": [
+    {
+      "source": "qwen",
+      "target": "豆包手机",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章将千问的高效办事能力与豆包手机的表现不佳进行对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "051"
+      ],
+      "evidences": [
+        {
+          "article_id": "051",
+          "title": "狠狠办千问",
+          "permalink": "/articles/051",
+          "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "date": "2026-01-15",
+          "label": "文章将千问的高效办事能力与豆包手机的表现不佳进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包手机",
+      "target": "qwen",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章将千问的高效办事能力与豆包手机的表现不佳进行对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "字节跳动",
+      "target": "豆包手机",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "字节跳动开发豆包手机",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "抖音极速版",
+      "target": "豆包手机",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "豆包手机内部搭载或联动抖音极速版",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "051"
+      ],
+      "evidences": [
+        {
+          "article_id": "051",
+          "title": "狠狠办千问",
+          "permalink": "/articles/051",
+          "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "date": "2026-01-15",
+          "label": "豆包手机内部搭载或联动抖音极速版",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

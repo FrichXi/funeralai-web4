@@ -1,0 +1,167 @@
+{
+  "node": {
+    "id": "mindverse",
+    "name": "Mindverse",
+    "type": "company",
+    "description": "原马卡龙团队转型后的公司，自称为Agent模型实验室",
+    "mention_count": 10,
+    "article_count": 1,
+    "aliases": [
+      "Agent模型实验室",
+      "Neo Lab"
+    ],
+    "tags": [
+      "Agent",
+      "Frontier lab",
+      "LoRA持续学习"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "099",
+        "title": "马卡龙开创AI短剧Neo Lab",
+        "date": "2026-06-04",
+        "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "permalink": "/articles/099",
+        "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "mention_count": 10
+      }
+    ],
+    "degree": 6,
+    "composite_weight": 0.0669
+  },
+  "links": [
+    {
+      "source": "evomap",
+      "target": "mindverse",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "马卡龙（Mindverse）讲的Agent进化故事被指与EvoMap的故事雷同",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "099"
+      ],
+      "evidences": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "马卡龙（Mindverse）讲的Agent进化故事被指与EvoMap的故事雷同",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "mindverse",
+      "target": "evomap",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "马卡龙（Mindverse）讲的Agent进化故事被指与EvoMap的故事雷同",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "mindverse",
+      "target": "thinking-machines",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Thinking Machines 500亿美元的估值与Mindverse 2亿美元的估值进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "099"
+      ],
+      "evidences": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "作者将Thinking Machines 500亿美元的估值与Mindverse 2亿美元的估值进行了对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "thinking-machines",
+      "target": "mindverse",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Thinking Machines 500亿美元的估值与Mindverse 2亿美元的估值进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "mindverse",
+      "target": "马卡龙",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "马卡龙是Mindverse（原马卡龙团队）开发的起家产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "099"
+      ],
+      "evidences": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "马卡龙是Mindverse（原马卡龙团队）开发的起家产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "mindverse",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "蚂蚁集团在上一轮融资中投资了马卡龙（Mindverse）",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "099"
+      ],
+      "evidences": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "蚂蚁集团在上一轮融资中投资了马卡龙（Mindverse）",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

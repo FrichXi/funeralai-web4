@@ -1,0 +1,112 @@
+{
+  "node": {
+    "id": "n8n",
+    "name": "n8n",
+    "type": "product",
+    "description": "开源的工作流自动化工具，专业开发者常用于定制Agent。",
+    "mention_count": 5,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "工作流",
+      "开源",
+      "高客单价"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "017",
+        "title": "字节用扣子证明，Agent只能被计划",
+        "date": "2025-08-29",
+        "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "permalink": "/articles/017",
+        "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "mention_count": 5
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0313
+  },
+  "links": [
+    {
+      "source": "dify",
+      "target": "n8n",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Dify和n8n都是占据开源生态位的Agent工作流搭建竞品。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "017"
+      ],
+      "evidences": [
+        {
+          "article_id": "017",
+          "title": "字节用扣子证明，Agent只能被计划",
+          "permalink": "/articles/017",
+          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "date": "2025-08-29",
+          "label": "Dify和n8n都是占据开源生态位的Agent工作流搭建竞品。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "n8n",
+      "target": "dify",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Dify和n8n都是占据开源生态位的Agent工作流搭建竞品。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "n8n",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "扣子与n8n在专业开发者选择上存在直接竞争，且n8n客单价更高。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "017"
+      ],
+      "evidences": [
+        {
+          "article_id": "017",
+          "title": "字节用扣子证明，Agent只能被计划",
+          "permalink": "/articles/017",
+          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "date": "2025-08-29",
+          "label": "扣子与n8n在专业开发者选择上存在直接竞争，且n8n客单价更高。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "扣子",
+      "target": "n8n",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "扣子与n8n在专业开发者选择上存在直接竞争，且n8n客单价更高。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

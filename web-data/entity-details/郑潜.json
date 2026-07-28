@@ -1,0 +1,93 @@
+{
+  "node": {
+    "id": "郑潜",
+    "name": "郑潜",
+    "type": "person",
+    "description": "Moya机器人的创始人",
+    "mention_count": 3,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "AI硬件"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "108",
+        "title": "深圳AI硬件特别正常",
+        "date": "2026-06-23",
+        "path": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+        "permalink": "/articles/108",
+        "markdown_link": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "114",
+        "title": "硬件转转大会来了",
+        "date": "2026-07-05",
+        "path": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
+        "permalink": "/articles/114",
+        "markdown_link": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0332
+  },
+  "links": [
+    {
+      "source": "郑潜",
+      "target": "moya",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "郑潜是Moya机器人的创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "114"
+      ],
+      "evidences": [
+        {
+          "article_id": "114",
+          "title": "硬件转转大会来了",
+          "permalink": "/articles/114",
+          "markdown_link": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
+          "path": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
+          "date": "2026-07-05",
+          "label": "郑潜是Moya机器人的创始人",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "郑潜",
+      "target": "moya",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "郑潜是Moya机器人的创始人，负责主导该产品的研发",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "108"
+      ],
+      "evidences": [
+        {
+          "article_id": "108",
+          "title": "深圳AI硬件特别正常",
+          "permalink": "/articles/108",
+          "markdown_link": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+          "path": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+          "date": "2026-06-23",
+          "label": "郑潜是Moya机器人的创始人，负责主导该产品的研发",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

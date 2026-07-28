@@ -1,0 +1,73 @@
+{
+  "node": {
+    "id": "gpt",
+    "name": "GPT",
+    "type": "product",
+    "description": "OpenAI开发的大模型系列",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [
+      "GPT-5.5"
+    ],
+    "tags": [
+      "大模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "111",
+        "title": "用豆包办公得坐小孩那桌",
+        "date": "2026-06-25",
+        "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+        "permalink": "/articles/111",
+        "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.024
+  },
+  "links": [
+    {
+      "source": "gpt",
+      "target": "seed",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在开发世界杯足球游戏的测试中，Seed与GPT的生成效果被拿来直接对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "在开发世界杯足球游戏的测试中，Seed与GPT的生成效果被拿来直接对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seed",
+      "target": "gpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在开发世界杯足球游戏的测试中，Seed与GPT的生成效果被拿来直接对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

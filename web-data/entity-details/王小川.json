@@ -1,0 +1,282 @@
+{
+  "node": {
+    "id": "王小川",
+    "name": "王小川",
+    "type": "person",
+    "description": "百川智能掌舵人，提出用AI大模型造出专家级别的医生",
+    "mention_count": 16,
+    "article_count": 5,
+    "aliases": [],
+    "tags": [
+      "AI六小虎",
+      "AI医疗",
+      "一把手",
+      "医疗大模型",
+      "辅助诊断"
+    ],
+    "references": 5,
+    "source_article_count": 5,
+    "source_articles": [
+      {
+        "article_id": "007",
+        "title": "王小川造不出医生",
+        "date": "2025-06-26",
+        "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+        "permalink": "/articles/007",
+        "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+        "mention_count": 12
+      },
+      {
+        "article_id": "057",
+        "title": "AI四小虎进入狠活大赛",
+        "date": "2026-01-26",
+        "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "permalink": "/articles/057",
+        "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "049",
+        "title": "建议六小虎合并，实现China AGI",
+        "date": "2026-01-05",
+        "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "permalink": "/articles/049",
+        "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "005",
+        "title": "Kimi没有梦想",
+        "date": "2025-06-24",
+        "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+        "permalink": "/articles/005",
+        "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "004",
+        "title": "MiniMax的胖猫宇宙",
+        "date": "2025-06-23",
+        "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "permalink": "/articles/004",
+        "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 9,
+    "composite_weight": 0.0798
+  },
+  "links": [
+    {
+      "source": "杨植麟",
+      "target": "王小川",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将杨圣做新业务的做法与王小川做医疗大模型进行类比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "005"
+      ],
+      "evidences": [
+        {
+          "article_id": "005",
+          "title": "Kimi没有梦想",
+          "permalink": "/articles/005",
+          "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "date": "2025-06-24",
+          "label": "文章将杨圣做新业务的做法与王小川做医疗大模型进行类比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "王小川",
+      "target": "杨植麟",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将杨圣做新业务的做法与王小川做医疗大模型进行类比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "李开复",
+      "target": "王小川",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为上一代AI六小虎的代表性创业人物",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "004"
+      ],
+      "evidences": [
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "date": "2025-06-23",
+          "label": "同为上一代AI六小虎的代表性创业人物",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "杨植麟",
+      "target": "王小川",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为上一代AI六小虎的代表性创业人物",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "004"
+      ],
+      "evidences": [
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "date": "2025-06-23",
+          "label": "同为上一代AI六小虎的代表性创业人物",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "王小川",
+      "target": "李开复",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为上一代AI六小虎的代表性创业人物",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "王小川",
+      "target": "杨植麟",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为上一代AI六小虎的代表性创业人物",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "王小川",
+      "target": "百川智能",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "王小川是百川智能的掌舵人，主导公司的AI医疗业务方向",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "007"
+      ],
+      "evidences": [
+        {
+          "article_id": "007",
+          "title": "王小川造不出医生",
+          "permalink": "/articles/007",
+          "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "date": "2025-06-26",
+          "label": "王小川是百川智能的掌舵人，主导公司的AI医疗业务方向",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "王小川",
+      "target": "百川智能",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "王小川作为百川的一把手发声",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "057"
+      ],
+      "evidences": [
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "王小川作为百川的一把手发声",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "王小川",
+      "target": "胖虎ai",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "被提议在假想合并公司干高级副总裁",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "049"
+      ],
+      "evidences": [
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "被提议在假想合并公司干高级副总裁",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "kimi",
+      "target": "王小川",
+      "score": 0.4056,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 1 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "004",
+        "005",
+        "049",
+        "057"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

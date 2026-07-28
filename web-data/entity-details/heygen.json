@@ -1,0 +1,137 @@
+{
+  "node": {
+    "id": "heygen",
+    "name": "HeyGen",
+    "type": "company",
+    "description": "一家主打数字人和AI视频业务的公司，开发了HyperFrames",
+    "mention_count": 19,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI视频",
+      "数字人"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "098",
+        "title": "HeyGen不是给人用的",
+        "date": "2026-06-01",
+        "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+        "permalink": "/articles/098",
+        "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+        "mention_count": 19
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0808
+  },
+  "links": [
+    {
+      "source": "heygen",
+      "target": "manus",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章明确表示HeyGen公司是平行时空的Manus（视频agent版）",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "098"
+      ],
+      "evidences": [
+        {
+          "article_id": "098",
+          "title": "HeyGen不是给人用的",
+          "permalink": "/articles/098",
+          "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "date": "2026-06-01",
+          "label": "文章明确表示HeyGen公司是平行时空的Manus（视频agent版）",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "manus",
+      "target": "heygen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章明确表示HeyGen公司是平行时空的Manus（视频agent版）",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "heygen",
+      "target": "higgsfield",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "HeyGen看到Higgsfield推出Vibe Motion商业化产品后赶紧跟上，表现出业务竞争与追赶关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "098"
+      ],
+      "evidences": [
+        {
+          "article_id": "098",
+          "title": "HeyGen不是给人用的",
+          "permalink": "/articles/098",
+          "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "date": "2026-06-01",
+          "label": "HeyGen看到Higgsfield推出Vibe Motion商业化产品后赶紧跟上，表现出业务竞争与追赶关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "higgsfield",
+      "target": "heygen",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "HeyGen看到Higgsfield推出Vibe Motion商业化产品后赶紧跟上，表现出业务竞争与追赶关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "heygen",
+      "target": "hyperframes",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "HeyGen研究并推出了所谓靠写代码就能做出视频的开源视频产品HyperFrames",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "098"
+      ],
+      "evidences": [
+        {
+          "article_id": "098",
+          "title": "HeyGen不是给人用的",
+          "permalink": "/articles/098",
+          "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "date": "2026-06-01",
+          "label": "HeyGen研究并推出了所谓靠写代码就能做出视频的开源视频产品HyperFrames",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

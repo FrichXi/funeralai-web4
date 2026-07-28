@@ -1,0 +1,122 @@
+{
+  "node": {
+    "id": "chatgpt-deep-research",
+    "name": "ChatGPT Deep Research",
+    "type": "product",
+    "description": "一种能够自动联网搜索并生成综述报告的AI深度研究工具，被用作与YouMind作对比",
+    "mention_count": 2,
+    "article_count": 2,
+    "aliases": [
+      "Deep Research"
+    ],
+    "tags": [
+      "AI报告",
+      "深度研究"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "002",
+        "title": "AI创作产品，还没找到自己的形态",
+        "date": "2025-06-13",
+        "path": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+        "permalink": "/articles/002",
+        "markdown_link": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "030",
+        "title": "Agent OS的本地入口",
+        "date": "2025-10-20",
+        "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "permalink": "/articles/030",
+        "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0308
+  },
+  "links": [
+    {
+      "source": "chatgpt",
+      "target": "chatgpt-deep-research",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Deep Research在能力上无法超越ChatGPT",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "030"
+      ],
+      "evidences": [
+        {
+          "article_id": "030",
+          "title": "Agent OS的本地入口",
+          "permalink": "/articles/030",
+          "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "date": "2025-10-20",
+          "label": "作者认为Deep Research在能力上无法超越ChatGPT",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt-deep-research",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Deep Research在能力上无法超越ChatGPT",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "chatgpt-deep-research",
+      "target": "youmind",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将 YouMind 的 Board 联网搜索及综述功能比作“去中心化的 ChatGPT Deep Research”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "002"
+      ],
+      "evidences": [
+        {
+          "article_id": "002",
+          "title": "AI创作产品，还没找到自己的形态",
+          "permalink": "/articles/002",
+          "markdown_link": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+          "path": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+          "date": "2025-06-13",
+          "label": "文中将 YouMind 的 Board 联网搜索及综述功能比作“去中心化的 ChatGPT Deep Research”",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "youmind",
+      "target": "chatgpt-deep-research",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将 YouMind 的 Board 联网搜索及综述功能比作“去中心化的 ChatGPT Deep Research”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

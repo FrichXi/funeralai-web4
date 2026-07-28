@@ -4,13 +4,13 @@
 
 # 葬AI Knowledge Graph / 葬AI 知识图谱
 
-An open-source pipeline that turns a collection of Chinese AI industry commentary articles into an interactive knowledge graph. 114 articles are processed by Qwen 3.7 Max to extract entities and relationships, then aggregated into a browsable graph with leaderboards. **649 entities, 1699 relationships** — the most comprehensive Chinese AI industry knowledge graph.
+An open-source pipeline that turns a collection of Chinese AI industry commentary articles into an interactive knowledge graph. 125 articles are processed by Qwen 3.7 Max to extract entities and relationships, then aggregated into a browsable graph with leaderboards. **699 entities, 1860 relationships** — the most comprehensive Chinese AI industry knowledge graph.
 
-一个开源的知识图谱管线：将中文 AI 行业评论文章集合转化为可交互的知识图谱可视化站点。114 篇文章经 Qwen 3.7 Max 提取实体与关系，聚合为包含排行榜的可浏览图谱。**649 个实体、1699 条关系** — 最全面的中文 AI 行业知识图谱。
+一个开源的知识图谱管线：将中文 AI 行业评论文章集合转化为可交互的知识图谱可视化站点。125 篇文章经 Qwen 3.7 Max 提取实体与关系，聚合为包含排行榜的可浏览图谱。**699 个实体、1860 条关系** — 最全面的中文 AI 行业知识图谱。
 
 **Live site / 在线站点**: [funeralai.cc](https://funeralai.cc)
 
-**Benchmark / 模型实测**: [funeralai.cc/test](https://funeralai.cc/test) publishes the 8-model / 80-site Web4 rebuild benchmark. The default score is the 2026-06-24 composite standard: graph-weighted base score plus full graph-stability recheck.
+**Benchmark / 模型实测**: [funeralai.cc/test](https://funeralai.cc/test) publishes the Graph V2 first-official benchmark: 16 models × 10 frozen engineering tasks, with compatible viewers and byte-preserving raw archives.
 
 ## Architecture / 架构
 
@@ -33,7 +33,7 @@ scripts/build_presentation.py    # Generate frontend-ready JSON
 web-data/                        # graph-view.json, leaderboards.json, article-index.json
         │
         ▼
-site/                            # Next.js 14 static site (Cytoscape graph + leaderboards)
+site/                            # Next.js 15 static site (Cytoscape graph + leaderboards)
 ```
 
 ## Quick Start / 快速开始
@@ -41,7 +41,7 @@ site/                            # Next.js 14 static site (Cytoscape graph + lea
 ### Prerequisites
 
 - Python 3.10+
-- Node.js 18+
+- Node.js 20–25 (CI uses Node 22)
 - A DashScope API key for `qwen3.7-max`
 
 ### Setup
@@ -100,7 +100,7 @@ npm run build      # Static export to site/out/
 ## Project Structure / 项目结构
 
 ```
-├── articles/              # Source markdown articles (001-114)
+├── articles/              # Source markdown articles (001-125)
 ├── scripts/               # Python pipeline
 │   ├── run_pipeline.py    # Unified CLI entry point
 │   ├── extract_gemini.py  # Qwen 3.7 Max extraction
@@ -110,13 +110,15 @@ npm run build      # Static export to site/out/
 │   ├── overrides.py       # Declarative post-processing rules
 │   ├── post_process.py    # Apply overrides to graph
 │   ├── kg_review_gate.py  # Pre-deploy entity/relationship review gate
+│   ├── release_guard.py   # Release identity + local/remote verification
+│   ├── rollback_pages.py  # Dry-run-first Cloudflare rollback
 │   └── build_presentation.py  # Generate frontend data
 ├── data/
 │   ├── config/            # display_registry.json, schema config
 │   ├── extracted/         # Per-article extraction artifacts (generated)
 │   └── graph/             # Canonical graphs (generated)
 ├── web-data/              # Frontend-ready JSON (generated)
-├── site/                  # Next.js 14 frontend
+├── site/                  # Next.js 15 frontend
 ├── pipeline.toml          # Pipeline configuration
 ├── requirements.txt       # Python dependencies
 └── tests/                 # pytest + vitest tests
@@ -126,7 +128,7 @@ npm run build      # Static export to site/out/
 
 Pipeline settings are in `pipeline.toml`. Fork users can adjust model, prompt version, concurrency, etc. without editing Python source code. On this machine the extractor loads `~/.env` first, then allows repo-local `.env` values to override it.
 
-The `[kg_review]` section records the last holistic relationship review coverage. `site/npm run deploy` rebuilds the graph, runs `scripts/kg_review_gate.py`, builds the static site, then uploads. If new articles accumulate past `max_unreviewed_articles` or extracted entities disappear from frontend data, deployment fails until `overrides.py` and `last_holistic_review_article` are updated.
+The `[kg_review]` section records the last holistic relationship review coverage. `site/npm run deploy` rebuilds the graph, runs all review/test gates, builds once, verifies an immutable preview, then promotes the same `site/out` tree and verifies production. If new articles accumulate past `max_unreviewed_articles` or extracted entities disappear from frontend data, deployment fails before production until `overrides.py` and `last_holistic_review_article` are updated.
 
 ## Article Source / 文章源
 
@@ -155,13 +157,15 @@ This repo is deployed only from `/Users/xixiangyu/Documents/葬AI Web4` on the l
 ./scripts/doctor_repo.sh --profile release
 ```
 
-Deploy through the guarded wrapper:
+Deploy through the guarded two-phase wrapper:
 
 ```bash
 ./scripts/deploy_site.sh --profile release
 ```
 
-`site/public/data/` and `site/public/test/` are generated build artifacts and must stay untracked. `/test` benchmark staging is explicit: use `STAGE_TEST=required npm run stage:test` when updating benchmark data, and `STAGE_TEST=skip npm run build` for clean CI-style builds that should not depend on the external benchmark workspace.
+`site/public/data/`, `site/public/test/`, and `site/public/release-manifest.json` are generated build artifacts and must stay untracked. Production uses `STAGE_TEST=required`; clean GitHub CI uses a deterministic `STAGE_TEST=ci` compile fixture and can never be promoted as production benchmark data.
+
+Every release carries `/release-manifest.json` with article/graph/benchmark counts, key-file hashes, a full static-tree digest, and Git/runtime identity. The deploy wrapper verifies this contract on preview, the unique production URL, and `funeralai.cc`, then stores the previous production deployment in an ignored receipt. See [`docs/engineering-reliability-plan.md`](docs/engineering-reliability-plan.md), its [audit](docs/engineering-reliability-plan-audit.md), and the [release/rollback runbook](docs/release-operations.md).
 
 ## Frontend Maintainability
 

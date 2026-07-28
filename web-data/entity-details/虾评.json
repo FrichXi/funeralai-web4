@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "虾评",
+    "name": "虾评",
+    "type": "product",
+    "description": "可供上传产品分析框架或评价产品的平台",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "评价平台"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "082",
+        "title": "Coze 2.5让Agent成群结队",
+        "date": "2026-04-20",
+        "path": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+        "permalink": "/articles/082",
+        "markdown_link": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0132
+  },
+  "links": [
+    {
+      "source": "葬cli",
+      "target": "虾评",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "葬CLI反炒作分析框架被上传到虾评平台供其他Agent使用",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "082"
+      ],
+      "evidences": [
+        {
+          "article_id": "082",
+          "title": "Coze 2.5让Agent成群结队",
+          "permalink": "/articles/082",
+          "markdown_link": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+          "path": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+          "date": "2026-04-20",
+          "label": "葬CLI反炒作分析框架被上传到虾评平台供其他Agent使用",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

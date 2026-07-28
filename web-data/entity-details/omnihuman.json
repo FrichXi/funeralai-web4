@@ -1,0 +1,98 @@
+{
+  "node": {
+    "id": "omnihuman",
+    "name": "OmniHuman",
+    "type": "product",
+    "description": "字节跳动的数字人/语音模型产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "2.5D建模",
+      "数字人"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "113",
+        "title": "世界模型走了一些弯路",
+        "date": "2026-07-02",
+        "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+        "permalink": "/articles/113",
+        "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0281
+  },
+  "links": [
+    {
+      "source": "mainecoon",
+      "target": "omnihuman",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中建议世界模型公司参考OmniHuman等2.5D建模+语音对口型路线",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "113"
+      ],
+      "evidences": [
+        {
+          "article_id": "113",
+          "title": "世界模型走了一些弯路",
+          "permalink": "/articles/113",
+          "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "date": "2026-07-02",
+          "label": "文中建议世界模型公司参考OmniHuman等2.5D建模+语音对口型路线",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "omnihuman",
+      "target": "mainecoon",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中建议世界模型公司参考OmniHuman等2.5D建模+语音对口型路线",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "字节跳动",
+      "target": "omnihuman",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "字节跳动开发OmniHuman数字人产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "113"
+      ],
+      "evidences": [
+        {
+          "article_id": "113",
+          "title": "世界模型走了一些弯路",
+          "permalink": "/articles/113",
+          "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "date": "2026-07-02",
+          "label": "字节跳动开发OmniHuman数字人产品",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

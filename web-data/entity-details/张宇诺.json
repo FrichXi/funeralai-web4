@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "张宇诺",
+    "name": "张宇诺",
+    "type": "person",
+    "description": "SKYRIS创始人",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "061",
+        "title": "AI硬件炒作上天了",
+        "date": "2026-02-03",
+        "path": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+        "permalink": "/articles/061",
+        "markdown_link": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0178
+  },
+  "links": [
+    {
+      "source": "张宇诺",
+      "target": "skyris",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "张宇诺是SKYRIS的创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "061"
+      ],
+      "evidences": [
+        {
+          "article_id": "061",
+          "title": "AI硬件炒作上天了",
+          "permalink": "/articles/061",
+          "markdown_link": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+          "path": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+          "date": "2026-02-03",
+          "label": "张宇诺是SKYRIS的创始人",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "小红书",
+      "target": "张宇诺",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "小红书投资了张宇诺主导的创业项目",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "061"
+      ],
+      "evidences": [
+        {
+          "article_id": "061",
+          "title": "AI硬件炒作上天了",
+          "permalink": "/articles/061",
+          "markdown_link": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+          "path": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+          "date": "2026-02-03",
+          "label": "小红书投资了张宇诺主导的创业项目",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

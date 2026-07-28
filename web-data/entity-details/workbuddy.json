@@ -1,0 +1,286 @@
+{
+  "node": {
+    "id": "workbuddy",
+    "name": "WorkBuddy",
+    "type": "product",
+    "description": "本地Agent工具，文中用于对比贬低秒哒3.0",
+    "mention_count": 8,
+    "article_count": 3,
+    "aliases": [],
+    "tags": [
+      "AI办公",
+      "Agent",
+      "本地工具",
+      "生产力工具",
+      "腾讯云团队"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "102",
+        "title": "腾讯做了一堆情感陪伴Agent",
+        "date": "2026-06-09",
+        "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "permalink": "/articles/102",
+        "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "mention_count": 6
+      },
+      {
+        "article_id": "125",
+        "title": "建议百度文心一言申请非遗",
+        "date": "2026-07-28",
+        "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+        "permalink": "/articles/125",
+        "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "111",
+        "title": "用豆包办公得坐小孩那桌",
+        "date": "2026-06-25",
+        "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+        "permalink": "/articles/111",
+        "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 11,
+    "composite_weight": 0.1087
+  },
+  "links": [
+    {
+      "source": "qclaw",
+      "target": "workbuddy",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章评价WorkBuddy使用起来与QClaw没区别，高度同质化",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "文章评价WorkBuddy使用起来与QClaw没区别，高度同质化",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "workbuddy",
+      "target": "qclaw",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章评价WorkBuddy使用起来与QClaw没区别，高度同质化",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "workbuddy",
+      "target": "元宝",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在办公场景下，腾讯开始用WorkBuddy平替/取代元宝的生态定位",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "在办公场景下，腾讯开始用WorkBuddy平替/取代元宝的生态定位",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "workbuddy",
+      "target": "秒哒3-0",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中认为秒哒3.0不如WorkBuddy",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "125"
+      ],
+      "evidences": [
+        {
+          "article_id": "125",
+          "title": "建议百度文心一言申请非遗",
+          "permalink": "/articles/125",
+          "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "date": "2026-07-28",
+          "label": "文中认为秒哒3.0不如WorkBuddy",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "元宝",
+      "target": "workbuddy",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在办公场景下，腾讯开始用WorkBuddy平替/取代元宝的生态定位",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "秒哒3-0",
+      "target": "workbuddy",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中认为秒哒3.0不如WorkBuddy",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "marvis",
+      "target": "workbuddy",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为腾讯内部推行的Agent，构成赛马竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "同为腾讯内部推行的Agent，构成赛马竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "qclaw",
+      "target": "workbuddy",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为腾讯内部赛马竞争的Agent产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "同为腾讯内部赛马竞争的Agent产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "workbuddy",
+      "target": "marvis",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为腾讯内部推行的Agent，构成赛马竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "workbuddy",
+      "target": "qclaw",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为腾讯内部赛马竞争的Agent产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "腾讯",
+      "target": "workbuddy",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "腾讯正在猛推WorkBuddy",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "102",
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "腾讯面向工作场景开发推出了WorkBuddy",
+          "weight": 1
+        },
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "腾讯正在猛推WorkBuddy",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

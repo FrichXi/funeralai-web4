@@ -1,0 +1,122 @@
+{
+  "node": {
+    "id": "grok",
+    "name": "Grok",
+    "type": "product",
+    "description": "xAI开发的大型语言模型，被戏称为北美二豆包",
+    "mention_count": 2,
+    "article_count": 2,
+    "aliases": [
+      "北美二豆包"
+    ],
+    "tags": [
+      "AI应用",
+      "大模型"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "110",
+        "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+        "date": "2026-06-24",
+        "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "permalink": "/articles/110",
+        "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "061",
+        "title": "AI硬件炒作上天了",
+        "date": "2026-02-03",
+        "path": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+        "permalink": "/articles/061",
+        "markdown_link": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0393
+  },
+  "links": [
+    {
+      "source": "grok",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Grok表现更差，被戏称为“北美二豆包”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "Grok表现更差，被戏称为“北美二豆包”",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包",
+      "target": "grok",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Grok表现更差，被戏称为“北美二豆包”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "xai",
+      "target": "grok",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "xAI开发Grok",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "马斯克",
+      "target": "grok",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "文章指出Grok为马斯克旗下的产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "061"
+      ],
+      "evidences": [
+        {
+          "article_id": "061",
+          "title": "AI硬件炒作上天了",
+          "permalink": "/articles/061",
+          "markdown_link": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+          "path": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+          "date": "2026-02-03",
+          "label": "文章指出Grok为马斯克旗下的产品",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

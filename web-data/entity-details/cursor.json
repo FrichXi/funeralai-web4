@@ -1,0 +1,370 @@
+{
+  "node": {
+    "id": "cursor",
+    "name": "Cursor",
+    "type": "product",
+    "description": "AI代码编辑器，集成了Claude Code且可被阶跃桌面助手访问",
+    "mention_count": 9,
+    "article_count": 6,
+    "aliases": [
+      "cursor"
+    ],
+    "tags": [
+      "AI代码",
+      "AI编程",
+      "IDE",
+      "MCP",
+      "Vibe Coding",
+      "编辑器"
+    ],
+    "references": 6,
+    "source_article_count": 6,
+    "source_articles": [
+      {
+        "article_id": "030",
+        "title": "Agent OS的本地入口",
+        "date": "2025-10-20",
+        "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "permalink": "/articles/030",
+        "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "054",
+        "title": "Atoms，平替Lovable的残酷物语",
+        "date": "2026-01-21",
+        "path": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+        "permalink": "/articles/054",
+        "markdown_link": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "022",
+        "title": "GenSpark重做百度",
+        "date": "2025-09-15",
+        "path": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+        "permalink": "/articles/022",
+        "markdown_link": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "021",
+        "title": "Cherry Studio是一个伟大的AI工具",
+        "date": "2025-09-11",
+        "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+        "permalink": "/articles/021",
+        "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "017",
+        "title": "字节用扣子证明，Agent只能被计划",
+        "date": "2025-08-29",
+        "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "permalink": "/articles/017",
+        "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "004",
+        "title": "MiniMax的胖猫宇宙",
+        "date": "2025-06-23",
+        "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "permalink": "/articles/004",
+        "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 11,
+    "composite_weight": 0.0921
+  },
+  "links": [
+    {
+      "source": "cherry-studio",
+      "target": "cursor",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Cherry Studio比作自然语言领域的IDE，即写作版的Cursor",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "021"
+      ],
+      "evidences": [
+        {
+          "article_id": "021",
+          "title": "Cherry Studio是一个伟大的AI工具",
+          "permalink": "/articles/021",
+          "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "date": "2025-09-11",
+          "label": "作者将Cherry Studio比作自然语言领域的IDE，即写作版的Cursor",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cursor",
+      "target": "cherry-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Cherry Studio比作自然语言领域的IDE，即写作版的Cursor",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "codex",
+      "target": "cursor",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Codex和Cursor都是AI编程工具",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "cursor",
+      "target": "codex",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Codex和Cursor都是AI编程工具",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "cursor",
+      "target": "genspark",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "GenSpark期望缝合包括代码在内的各种能力以竞争垂直产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "022"
+      ],
+      "evidences": [
+        {
+          "article_id": "022",
+          "title": "GenSpark重做百度",
+          "permalink": "/articles/022",
+          "markdown_link": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+          "path": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+          "date": "2025-09-15",
+          "label": "GenSpark期望缝合包括代码在内的各种能力以竞争垂直产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cursor",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Cursor等AI编程工具的兴起，取代了扣子等低代码平台部分面向普通用户的开发功能。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "017"
+      ],
+      "evidences": [
+        {
+          "article_id": "017",
+          "title": "字节用扣子证明，Agent只能被计划",
+          "permalink": "/articles/017",
+          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "date": "2025-08-29",
+          "label": "Cursor等AI编程工具的兴起，取代了扣子等低代码平台部分面向普通用户的开发功能。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "genspark",
+      "target": "cursor",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "GenSpark期望缝合包括代码在内的各种能力以竞争垂直产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "扣子",
+      "target": "cursor",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Cursor等AI编程工具的兴起，取代了扣子等低代码平台部分面向普通用户的开发功能。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "claude",
+      "target": "cursor",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "作者在Cursor应用中使用Claude Code进行写作",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "030"
+      ],
+      "evidences": [
+        {
+          "article_id": "030",
+          "title": "Agent OS的本地入口",
+          "permalink": "/articles/030",
+          "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "date": "2025-10-20",
+          "label": "作者在Cursor应用中使用Claude Code进行写作",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cursor",
+      "target": "海螺ai",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Cursor可通过MCP服务器调用MiniMax的克隆声音与视频生成能力",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "004"
+      ],
+      "evidences": [
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "date": "2025-06-23",
+          "label": "Cursor可通过MCP服务器调用MiniMax的克隆声音与视频生成能力",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cursor",
+      "target": "阶跃桌面伙伴",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "阶跃桌面助手可获取Cursor应用程序数据权限并修复其终端环境",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "030"
+      ],
+      "evidences": [
+        {
+          "article_id": "030",
+          "title": "Agent OS的本地入口",
+          "permalink": "/articles/030",
+          "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "date": "2025-10-20",
+          "label": "阶跃桌面助手可获取Cursor应用程序数据权限并修复其终端环境",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "cursor",
+      "target": "manus",
+      "score": 0.6603,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "004",
+        "017",
+        "022",
+        "030",
+        "054"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "cursor",
+      "target": "mulerun",
+      "score": 0.4593,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "017",
+        "022",
+        "030"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "chatgpt",
+      "target": "cursor",
+      "score": 0.4199,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "017",
+        "021",
+        "030"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "cursor",
+      "target": "gemini",
+      "score": 0.4187,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "004",
+        "021"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "cursor",
+      "target": "豆包",
+      "score": 0.3907,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "004"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

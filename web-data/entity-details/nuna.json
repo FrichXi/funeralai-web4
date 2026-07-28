@@ -1,0 +1,73 @@
+{
+  "node": {
+    "id": "nuna",
+    "name": "Nuna",
+    "type": "product",
+    "description": "配备毫米波雷达、结合心率和情绪进行录音总结的吊坠项链",
+    "mention_count": 4,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "健康监测",
+      "吊坠项链",
+      "录音总结"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "108",
+        "title": "深圳AI硬件特别正常",
+        "date": "2026-06-23",
+        "path": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+        "permalink": "/articles/108",
+        "markdown_link": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+        "mention_count": 4
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0289
+  },
+  "links": [
+    {
+      "source": "nuna",
+      "target": "whoop手环",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Nuna与Whoop手环的市场定位和性价比进行了比喻性对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "108"
+      ],
+      "evidences": [
+        {
+          "article_id": "108",
+          "title": "深圳AI硬件特别正常",
+          "permalink": "/articles/108",
+          "markdown_link": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+          "path": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+          "date": "2026-06-23",
+          "label": "作者将Nuna与Whoop手环的市场定位和性价比进行了比喻性对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "whoop手环",
+      "target": "nuna",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Nuna与Whoop手环的市场定位和性价比进行了比喻性对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "higgsfield",
+    "name": "Higgsfield",
+    "type": "company",
+    "description": "海外著名AI视频独角兽公司",
+    "mention_count": 5,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI视频",
+      "独角兽"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "098",
+        "title": "HeyGen不是给人用的",
+        "date": "2026-06-01",
+        "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+        "permalink": "/articles/098",
+        "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+        "mention_count": 5
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0425
+  },
+  "links": [
+    {
+      "source": "higgsfield",
+      "target": "tapnow",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将海外著名AI视频独角兽Higgsfield比作美国的TapNow",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "098"
+      ],
+      "evidences": [
+        {
+          "article_id": "098",
+          "title": "HeyGen不是给人用的",
+          "permalink": "/articles/098",
+          "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "date": "2026-06-01",
+          "label": "文章将海外著名AI视频独角兽Higgsfield比作美国的TapNow",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "tapnow",
+      "target": "higgsfield",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将海外著名AI视频独角兽Higgsfield比作美国的TapNow",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "heygen",
+      "target": "higgsfield",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "HeyGen看到Higgsfield推出Vibe Motion商业化产品后赶紧跟上，表现出业务竞争与追赶关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "098"
+      ],
+      "evidences": [
+        {
+          "article_id": "098",
+          "title": "HeyGen不是给人用的",
+          "permalink": "/articles/098",
+          "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "date": "2026-06-01",
+          "label": "HeyGen看到Higgsfield推出Vibe Motion商业化产品后赶紧跟上，表现出业务竞争与追赶关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "higgsfield",
+      "target": "heygen",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "HeyGen看到Higgsfield推出Vibe Motion商业化产品后赶紧跟上，表现出业务竞争与追赶关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,146 @@
+{
+  "node": {
+    "id": "meta",
+    "name": "Meta",
+    "type": "company",
+    "description": "国际科技巨头，开发了相对封闭生态的智能眼镜/头显设备",
+    "mention_count": 4,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "封闭生态",
+      "科技巨头"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "048",
+        "title": "第一届Manus杯新加坡概念作文大赛",
+        "date": "2025-12-30",
+        "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+        "permalink": "/articles/048",
+        "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "050",
+        "title": "Rokid是我的太阳（指物理温度）",
+        "date": "2026-01-08",
+        "path": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+        "permalink": "/articles/050",
+        "markdown_link": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0433
+  },
+  "links": [
+    {
+      "source": "meta",
+      "target": "rokid",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Rokid的开放生态与Meta的封闭生态进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "050"
+      ],
+      "evidences": [
+        {
+          "article_id": "050",
+          "title": "Rokid是我的太阳（指物理温度）",
+          "permalink": "/articles/050",
+          "markdown_link": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+          "path": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+          "date": "2026-01-08",
+          "label": "文章将Rokid的开放生态与Meta的封闭生态进行了对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "rokid",
+      "target": "meta",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Rokid的开放生态与Meta的封闭生态进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "meta",
+      "target": "instagram",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Meta开发Instagram",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "扎克伯格",
+      "target": "meta",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "扎克伯格是Meta的核心人物及掌控者",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "050"
+      ],
+      "evidences": [
+        {
+          "article_id": "050",
+          "title": "Rokid是我的太阳（指物理温度）",
+          "permalink": "/articles/050",
+          "markdown_link": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+          "path": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+          "date": "2026-01-08",
+          "label": "扎克伯格是Meta的核心人物及掌控者",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "扎克伯格",
+      "target": "meta",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "扎克伯格作为Meta核心人物主导收购并产生焦虑",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "048"
+      ],
+      "evidences": [
+        {
+          "article_id": "048",
+          "title": "第一届Manus杯新加坡概念作文大赛",
+          "permalink": "/articles/048",
+          "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+          "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+          "date": "2025-12-30",
+          "label": "扎克伯格作为Meta核心人物主导收购并产生焦虑",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,366 @@
+{
+  "node": {
+    "id": "百川智能",
+    "name": "百川智能",
+    "type": "company",
+    "description": "一家拿VC融资的AI公司，正尝试研发AI辅助诊断医疗大模型",
+    "mention_count": 11,
+    "article_count": 3,
+    "aliases": [
+      "百川"
+    ],
+    "tags": [
+      "AI六小虎",
+      "AI医疗",
+      "大模型公司",
+      "辅助诊断"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "007",
+        "title": "王小川造不出医生",
+        "date": "2025-06-26",
+        "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+        "permalink": "/articles/007",
+        "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+        "mention_count": 9
+      },
+      {
+        "article_id": "057",
+        "title": "AI四小虎进入狠活大赛",
+        "date": "2026-01-26",
+        "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "permalink": "/articles/057",
+        "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "008",
+        "title": "前后不一李开复",
+        "date": "2025-06-27",
+        "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+        "permalink": "/articles/008",
+        "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 16,
+    "composite_weight": 0.1156
+  },
+  "links": [
+    {
+      "source": "戴宗宏",
+      "target": "百川智能",
+      "relation_type": "co_founded",
+      "type": "co_founded",
+      "label": "戴宗宏联合创立百川智能",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 5,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "好大夫在线",
+      "target": "百川智能",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章以好大夫在线难以兼顾社会价值与商业成功的经历，类比百川智能将面临的挑战",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "007"
+      ],
+      "evidences": [
+        {
+          "article_id": "007",
+          "title": "王小川造不出医生",
+          "permalink": "/articles/007",
+          "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "date": "2025-06-26",
+          "label": "文章以好大夫在线难以兼顾社会价值与商业成功的经历，类比百川智能将面临的挑战",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "微医集团",
+      "target": "百川智能",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将百川智能向医院收费的商业模式与微医集团的困境作为参照对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "007"
+      ],
+      "evidences": [
+        {
+          "article_id": "007",
+          "title": "王小川造不出医生",
+          "permalink": "/articles/007",
+          "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "date": "2025-06-26",
+          "label": "文章将百川智能向医院收费的商业模式与微医集团的困境作为参照对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "百川智能",
+      "target": "好大夫在线",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章以好大夫在线难以兼顾社会价值与商业成功的经历，类比百川智能将面临的挑战",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "百川智能",
+      "target": "微医集团",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将百川智能向医院收费的商业模式与微医集团的困境作为参照对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "deepseek",
+      "target": "百川智能",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "DeepSeek和百川智能都是国内AI大模型公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "minimax",
+      "target": "百川智能",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "MiniMax和百川智能都是国内AI大模型公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "月之暗面",
+      "target": "百川智能",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "月之暗面和百川智能都是国内AI大模型公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "百川智能",
+      "target": "deepseek",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "DeepSeek和百川智能都是国内AI大模型公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "百川智能",
+      "target": "minimax",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "MiniMax和百川智能都是国内AI大模型公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "百川智能",
+      "target": "月之暗面",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "月之暗面和百川智能都是国内AI大模型公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "百川智能",
+      "target": "福棠-百川",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "百川智能研发了「福棠·百川」AI模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "007"
+      ],
+      "evidences": [
+        {
+          "article_id": "007",
+          "title": "王小川造不出医生",
+          "permalink": "/articles/007",
+          "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "date": "2025-06-26",
+          "label": "百川智能研发了「福棠·百川」AI模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "王小川",
+      "target": "百川智能",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "王小川是百川智能的掌舵人，主导公司的AI医疗业务方向",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "007"
+      ],
+      "evidences": [
+        {
+          "article_id": "007",
+          "title": "王小川造不出医生",
+          "permalink": "/articles/007",
+          "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "date": "2025-06-26",
+          "label": "王小川是百川智能的掌舵人，主导公司的AI医疗业务方向",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "谷雪梅",
+      "target": "百川智能",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "作为百川或零一万物的出走联合创始人被提及",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "008"
+      ],
+      "evidences": [
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "作为百川或零一万物的出走联合创始人被提及",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "北京儿童医院",
+      "target": "百川智能",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "百川智能与北京儿童医院合作，在地方落地AI医疗模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "007"
+      ],
+      "evidences": [
+        {
+          "article_id": "007",
+          "title": "王小川造不出医生",
+          "permalink": "/articles/007",
+          "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "date": "2025-06-26",
+          "label": "百川智能与北京儿童医院合作，在地方落地AI医疗模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "王小川",
+      "target": "百川智能",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "王小川作为百川的一把手发声",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "057"
+      ],
+      "evidences": [
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "王小川作为百川的一把手发声",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "百川智能",
+      "target": "零一万物",
+      "score": 0.4215,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "008"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

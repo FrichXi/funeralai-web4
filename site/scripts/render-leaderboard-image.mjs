@@ -14,18 +14,20 @@ const LEADERBOARD_IMAGES = [
   {
     label: "model leaderboard",
     selector: "[data-leaderboard-export]",
-    fileName: "model-leaderboard-mobile.png",
+    fileName: "model-leaderboard.png",
     waitForLogo: true,
   },
   {
     label: "value leaderboard",
     selector: "[data-value-leaderboard-export]",
-    fileName: "value-leaderboard-mobile.png",
+    fileName: "value-leaderboard.png",
     waitForLogo: true,
   },
 ];
-const MOBILE_VIEWPORT = { width: 390, height: 844 };
+const DESKTOP_VIEWPORT = { width: 1440, height: 1000 };
 const MIN_IMAGE_BYTES = 20_000;
+const MIN_IMAGE_WIDTH = 1000;
+const MAX_IMAGE_ASPECT_RATIO = 2;
 
 const MIME_TYPES = new Map([
   [".css", "text/css; charset=utf-8"],
@@ -85,6 +87,15 @@ async function resolveRequestPath(urlPath) {
 function createStaticServer() {
   const server = http.createServer(async (request, response) => {
     try {
+      if ((request.url || "").startsWith("/api/test/votes")) {
+        response.writeHead(200, {
+          "content-type": "application/json; charset=utf-8",
+          "cache-control": "no-store",
+        });
+        response.end(JSON.stringify({ ok: true, currentVote: null }));
+        return;
+      }
+
       const filePath = await resolveRequestPath(request.url || "/");
 
       if (!filePath) {
@@ -150,6 +161,14 @@ async function validatePng(filePath) {
       signature[3] === 0x47,
     `Generated leaderboard image is not a PNG: ${filePath}`
   );
+
+  const width = signature.readUInt32BE(16);
+  const height = signature.readUInt32BE(20);
+  invariant(width >= MIN_IMAGE_WIDTH, `Generated leaderboard image is too narrow: ${width}px`);
+  invariant(
+    height / width <= MAX_IMAGE_ASPECT_RATIO,
+    `Generated leaderboard image is still too tall: ${width}x${height}px`
+  );
 }
 
 async function renderLeaderboardImage(page, origin, imageConfig) {
@@ -184,6 +203,9 @@ async function renderLeaderboardImage(page, origin, imageConfig) {
   if (imageConfig.waitForLogo) {
     const logo = page.locator(`${imageConfig.selector} img[alt="葬AI"]`);
     await logo.waitFor({ state: "visible", timeout: 15_000 });
+    // Bring the lazy-loaded watermark into the viewport before waiting for its
+    // image bytes, then return to the section.
+    await logo.scrollIntoViewIfNeeded();
     await logo.evaluate((image) => {
       if (image instanceof HTMLImageElement && image.complete && image.naturalWidth > 0) {
         return;
@@ -209,6 +231,7 @@ async function renderLeaderboardImage(page, origin, imageConfig) {
         );
       });
     });
+    await target.scrollIntoViewIfNeeded();
   }
 
   const outImagePath = path.join(OUT_DIR, "test", imageConfig.fileName);
@@ -222,12 +245,12 @@ async function renderLeaderboardImage(page, origin, imageConfig) {
 
   await mkdir(PUBLIC_TEST_DIR, { recursive: true });
   await copyFile(outImagePath, publicImagePath);
-  console.log(`Rendered mobile ${imageConfig.label} image: ${outImagePath}`);
+  console.log(`Rendered desktop ${imageConfig.label} image: ${outImagePath}`);
 }
 
 async function main() {
-  if (STAGE_TEST_MODE === "skip") {
-    console.log("Skipping leaderboard image render (STAGE_TEST=skip).");
+  if (STAGE_TEST_MODE === "skip" || STAGE_TEST_MODE === "ci") {
+    console.log(`Skipping leaderboard image render (STAGE_TEST=${STAGE_TEST_MODE}).`);
     return;
   }
 
@@ -239,10 +262,8 @@ async function main() {
   try {
     browser = await launchChrome();
     const page = await browser.newPage({
-      viewport: MOBILE_VIEWPORT,
-      deviceScaleFactor: 3,
-      isMobile: true,
-      hasTouch: true,
+      viewport: DESKTOP_VIEWPORT,
+      deviceScaleFactor: 1,
     });
 
     for (const imageConfig of LEADERBOARD_IMAGES) {

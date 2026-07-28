@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "talkie",
+    "name": "Talkie",
+    "type": "product",
+    "description": "MiniMax旗下的海外C端情感陪伴产品",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [
+      "星野"
+    ],
+    "tags": [
+      "C端应用",
+      "情感陪伴"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "117",
+        "title": "我来给MiniMax道歉了",
+        "date": "2026-07-11",
+        "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "permalink": "/articles/117",
+        "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0211
+  },
+  "links": [
+    {
+      "source": "minimax",
+      "target": "talkie",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax拥有并持续运营C端产品Talkie/星野",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "MiniMax拥有并持续运营C端产品Talkie/星野",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

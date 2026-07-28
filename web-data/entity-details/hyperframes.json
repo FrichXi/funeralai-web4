@@ -1,0 +1,150 @@
+{
+  "node": {
+    "id": "hyperframes",
+    "name": "HyperFrames",
+    "type": "product",
+    "description": "HeyGen推出的开源视频产品，主打通过写代码和结合AI Agent生成视频",
+    "mention_count": 14,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Vibe Motion",
+      "开源视频"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "098",
+        "title": "HeyGen不是给人用的",
+        "date": "2026-06-01",
+        "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+        "permalink": "/articles/098",
+        "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+        "mention_count": 14
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0694
+  },
+  "links": [
+    {
+      "source": "hyperframes",
+      "target": "remotion",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将相同需求发送给HyperFrames与Remotion进行成品效果对比测试",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "098"
+      ],
+      "evidences": [
+        {
+          "article_id": "098",
+          "title": "HeyGen不是给人用的",
+          "permalink": "/articles/098",
+          "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "date": "2026-06-01",
+          "label": "作者将相同需求发送给HyperFrames与Remotion进行成品效果对比测试",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "remotion",
+      "target": "hyperframes",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将相同需求发送给HyperFrames与Remotion进行成品效果对比测试",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "heygen",
+      "target": "hyperframes",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "HeyGen研究并推出了所谓靠写代码就能做出视频的开源视频产品HyperFrames",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "098"
+      ],
+      "evidences": [
+        {
+          "article_id": "098",
+          "title": "HeyGen不是给人用的",
+          "permalink": "/articles/098",
+          "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "date": "2026-06-01",
+          "label": "HeyGen研究并推出了所谓靠写代码就能做出视频的开源视频产品HyperFrames",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "hyperframes",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "使用HyperFrames必须具备并接入现成的AI agent，如Claude Code",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "098"
+      ],
+      "evidences": [
+        {
+          "article_id": "098",
+          "title": "HeyGen不是给人用的",
+          "permalink": "/articles/098",
+          "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "date": "2026-06-01",
+          "label": "使用HyperFrames必须具备并接入现成的AI agent，如Claude Code",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "hyperframes",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "使用HyperFrames必须具备并接入现成的AI agent，如Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "098"
+      ],
+      "evidences": [
+        {
+          "article_id": "098",
+          "title": "HeyGen不是给人用的",
+          "permalink": "/articles/098",
+          "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "date": "2026-06-01",
+          "label": "使用HyperFrames必须具备并接入现成的AI agent，如Codex",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

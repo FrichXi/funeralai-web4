@@ -1,0 +1,102 @@
+{
+  "node": {
+    "id": "论论",
+    "name": "论论",
+    "type": "product",
+    "description": "一款由文献检索转型为语音对话的AI应用，被作者戏称为全球首个“性压抑”AI",
+    "mention_count": 28,
+    "article_count": 1,
+    "aliases": [
+      "论论APP"
+    ],
+    "tags": [
+      "ChatBot",
+      "性压抑",
+      "文献检索",
+      "语音AI"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "025",
+        "title": "论论才是全球首个性压抑AI",
+        "date": "2025-09-23",
+        "path": "articles/025_2025-09-23_葬爱咸鱼_论论才是全球首个性压抑AI.md",
+        "permalink": "/articles/025",
+        "markdown_link": "articles/025_2025-09-23_葬爱咸鱼_论论才是全球首个性压抑AI.md",
+        "mention_count": 28
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0429
+  },
+  "links": [
+    {
+      "source": "峰哥",
+      "target": "论论",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为相比于峰哥，论论才是真正的“性压抑”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "025"
+      ],
+      "evidences": [
+        {
+          "article_id": "025",
+          "title": "论论才是全球首个性压抑AI",
+          "permalink": "/articles/025",
+          "markdown_link": "articles/025_2025-09-23_葬爱咸鱼_论论才是全球首个性压抑AI.md",
+          "path": "articles/025_2025-09-23_葬爱咸鱼_论论才是全球首个性压抑AI.md",
+          "date": "2025-09-23",
+          "label": "作者认为相比于峰哥，论论才是真正的“性压抑”",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "论论",
+      "target": "峰哥",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为相比于峰哥，论论才是真正的“性压抑”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "论论创始人",
+      "target": "论论",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "论论创始人开发、发布并主导了论论APP的转型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "025"
+      ],
+      "evidences": [
+        {
+          "article_id": "025",
+          "title": "论论才是全球首个性压抑AI",
+          "permalink": "/articles/025",
+          "markdown_link": "articles/025_2025-09-23_葬爱咸鱼_论论才是全球首个性压抑AI.md",
+          "path": "articles/025_2025-09-23_葬爱咸鱼_论论才是全球首个性压抑AI.md",
+          "date": "2025-09-23",
+          "label": "论论创始人开发、发布并主导了论论APP的转型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

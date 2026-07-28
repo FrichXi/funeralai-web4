@@ -1,0 +1,171 @@
+{
+  "node": {
+    "id": "liblib",
+    "name": "Liblib",
+    "type": "product",
+    "description": "Lovart旗下的AI产品之一（国内）。",
+    "mention_count": 6,
+    "article_count": 3,
+    "aliases": [
+      "LibLib"
+    ],
+    "tags": [
+      "创作者社区",
+      "白月光"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "073",
+        "title": "Lovart狂做TapNow",
+        "date": "2026-03-19",
+        "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+        "permalink": "/articles/073",
+        "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "119",
+        "title": "视频Agent进入大致敬时代",
+        "date": "2026-07-14",
+        "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+        "permalink": "/articles/119",
+        "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "106",
+        "title": "我来给LibTV道喜了",
+        "date": "2026-06-18",
+        "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+        "permalink": "/articles/106",
+        "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0548
+  },
+  "links": [
+    {
+      "source": "liblib",
+      "target": "libtv",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "LibTV是Liblib旗下的视频Agent产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "119"
+      ],
+      "evidences": [
+        {
+          "article_id": "119",
+          "title": "视频Agent进入大致敬时代",
+          "permalink": "/articles/119",
+          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "date": "2026-07-14",
+          "label": "LibTV是Liblib旗下的视频Agent产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "libtv",
+      "target": "liblib",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "LibTV公司旗下拥有Liblib业务",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "106"
+      ],
+      "evidences": [
+        {
+          "article_id": "106",
+          "title": "我来给LibTV道喜了",
+          "permalink": "/articles/106",
+          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "date": "2026-06-18",
+          "label": "LibTV公司旗下拥有Liblib业务",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "lovart",
+      "target": "liblib",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Liblib是Lovart旗下开发的产品。",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "073"
+      ],
+      "evidences": [
+        {
+          "article_id": "073",
+          "title": "Lovart狂做TapNow",
+          "permalink": "/articles/073",
+          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "date": "2026-03-19",
+          "label": "Liblib是Lovart旗下开发的产品。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "陈冕",
+      "target": "liblib",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "文中明确提到“Liblib的冕神”、“孤身创业的冕神”",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "119"
+      ],
+      "evidences": [
+        {
+          "article_id": "119",
+          "title": "视频Agent进入大致敬时代",
+          "permalink": "/articles/119",
+          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "date": "2026-07-14",
+          "label": "文中明确提到“Liblib的冕神”、“孤身创业的冕神”",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "liblib",
+      "target": "字节跳动",
+      "score": 0.3564,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "073",
+        "106",
+        "119"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

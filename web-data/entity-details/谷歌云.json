@@ -1,0 +1,95 @@
+{
+  "node": {
+    "id": "谷歌云",
+    "name": "谷歌云",
+    "type": "product",
+    "description": "谷歌旗下的云平台",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "071",
+        "title": "Mulerun借假修真Agent市场明牌竞争",
+        "date": "2026-03-16",
+        "path": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
+        "permalink": "/articles/071",
+        "markdown_link": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.025
+  },
+  "links": [
+    {
+      "source": "火山引擎",
+      "target": "谷歌云",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "云端Agent大厂战场的直接竞争对手",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "071"
+      ],
+      "evidences": [
+        {
+          "article_id": "071",
+          "title": "Mulerun借假修真Agent市场明牌竞争",
+          "permalink": "/articles/071",
+          "markdown_link": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
+          "path": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
+          "date": "2026-03-16",
+          "label": "云端Agent大厂战场的直接竞争对手",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "谷歌云",
+      "target": "火山引擎",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "云端Agent大厂战场的直接竞争对手",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "谷歌",
+      "target": "谷歌云",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "谷歌云是谷歌旗下的云服务产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "071"
+      ],
+      "evidences": [
+        {
+          "article_id": "071",
+          "title": "Mulerun借假修真Agent市场明牌竞争",
+          "permalink": "/articles/071",
+          "markdown_link": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
+          "path": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
+          "date": "2026-03-16",
+          "label": "谷歌云是谷歌旗下的云服务产品",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "canva",
+    "name": "Canva",
+    "type": "company",
+    "description": "知名设计平台，被用来与Lovart进行估值和生态位的对标估算。",
+    "mention_count": 4,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "设计平台"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "073",
+        "title": "Lovart狂做TapNow",
+        "date": "2026-03-19",
+        "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+        "permalink": "/articles/073",
+        "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+        "mention_count": 4
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0239
+  },
+  "links": [
+    {
+      "source": "canva",
+      "target": "lovart",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Lovart对标为“AI版Canva”，并进行了估值比例的对比。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "073"
+      ],
+      "evidences": [
+        {
+          "article_id": "073",
+          "title": "Lovart狂做TapNow",
+          "permalink": "/articles/073",
+          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "date": "2026-03-19",
+          "label": "文章将Lovart对标为“AI版Canva”，并进行了估值比例的对比。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "lovart",
+      "target": "canva",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Lovart对标为“AI版Canva”，并进行了估值比例的对比。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

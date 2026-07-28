@@ -1,0 +1,176 @@
+{
+  "node": {
+    "id": "葬cli",
+    "name": "葬CLI",
+    "type": "product",
+    "description": "全球首个反炒作CLI工具，用于评估分析产品事实与宣传的差距",
+    "mention_count": 20,
+    "article_count": 2,
+    "aliases": [
+      "反炒作CLI分析框架"
+    ],
+    "tags": [
+      "CLI",
+      "分析框架",
+      "反炒作",
+      "开源"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "076",
+        "title": "葬CLI如闪电般上线",
+        "date": "2026-03-26",
+        "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+        "permalink": "/articles/076",
+        "markdown_link": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+        "mention_count": 16
+      },
+      {
+        "article_id": "082",
+        "title": "Coze 2.5让Agent成群结队",
+        "date": "2026-04-20",
+        "path": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+        "permalink": "/articles/082",
+        "markdown_link": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+        "mention_count": 4
+      }
+    ],
+    "degree": 6,
+    "composite_weight": 0.0833
+  },
+  "links": [
+    {
+      "source": "claude",
+      "target": "葬cli",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "葬CLI的使用过程和Claude code一模一样",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "076"
+      ],
+      "evidences": [
+        {
+          "article_id": "076",
+          "title": "葬CLI如闪电般上线",
+          "permalink": "/articles/076",
+          "markdown_link": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+          "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+          "date": "2026-03-26",
+          "label": "葬CLI的使用过程和Claude code一模一样",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "opencode",
+      "target": "葬cli",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "葬CLI抄了Opencode的CLI壳子",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "076"
+      ],
+      "evidences": [
+        {
+          "article_id": "076",
+          "title": "葬CLI如闪电般上线",
+          "permalink": "/articles/076",
+          "markdown_link": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+          "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+          "date": "2026-03-26",
+          "label": "葬CLI抄了Opencode的CLI壳子",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "葬cli",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "葬CLI的使用过程和Claude code一模一样",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "葬cli",
+      "target": "opencode",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "葬CLI抄了Opencode的CLI壳子",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "扣子",
+      "target": "葬cli",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "扣子的云电脑环境中安装并运行了葬CLI，同时Coze可直接调用葬CLI进行分析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "082"
+      ],
+      "evidences": [
+        {
+          "article_id": "082",
+          "title": "Coze 2.5让Agent成群结队",
+          "permalink": "/articles/082",
+          "markdown_link": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+          "path": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+          "date": "2026-04-20",
+          "label": "扣子的云电脑环境中安装并运行了葬CLI，同时Coze可直接调用葬CLI进行分析",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "葬cli",
+      "target": "虾评",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "葬CLI反炒作分析框架被上传到虾评平台供其他Agent使用",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "082"
+      ],
+      "evidences": [
+        {
+          "article_id": "082",
+          "title": "Coze 2.5让Agent成群结队",
+          "permalink": "/articles/082",
+          "markdown_link": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+          "path": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+          "date": "2026-04-20",
+          "label": "葬CLI反炒作分析框架被上传到虾评平台供其他Agent使用",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

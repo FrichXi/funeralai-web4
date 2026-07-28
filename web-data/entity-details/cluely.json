@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "cluely",
+    "name": "Cluely",
+    "type": "company",
+    "description": "被a16z重金投资的初创项目，被作者认为是纯炒作项目",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "炒作项目"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "011",
+        "title": "Head AI让我想起了神奇百货",
+        "date": "2025-07-11",
+        "path": "articles/011_2025-07-11_葬爱咸鱼_Head AI让我想起了神奇百货.md",
+        "permalink": "/articles/011",
+        "markdown_link": "articles/011_2025-07-11_葬爱咸鱼_Head AI让我想起了神奇百货.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0093
+  },
+  "links": [
+    {
+      "source": "a16z",
+      "target": "cluely",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "a16z给Cluely投资了1500万美元",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "011"
+      ],
+      "evidences": [
+        {
+          "article_id": "011",
+          "title": "Head AI让我想起了神奇百货",
+          "permalink": "/articles/011",
+          "markdown_link": "articles/011_2025-07-11_葬爱咸鱼_Head AI让我想起了神奇百货.md",
+          "path": "articles/011_2025-07-11_葬爱咸鱼_Head AI让我想起了神奇百货.md",
+          "date": "2025-07-11",
+          "label": "a16z给Cluely投资了1500万美元",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

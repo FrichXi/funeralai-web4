@@ -1,0 +1,109 @@
+{
+  "node": {
+    "id": "taku",
+    "name": "Taku",
+    "type": "product",
+    "description": "自称为自研框架的编程Agent产品",
+    "mention_count": 2,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "AI OS",
+      "AI初创",
+      "编程Agent",
+      "自研框架"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "066",
+        "title": "AI编程创造世界",
+        "date": "2026-02-24",
+        "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "permalink": "/articles/066",
+        "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "053",
+        "title": "第一届葬AI炒作大赛（北京线下活动）",
+        "date": "2026-01-19",
+        "path": "articles/053_2026-01-19_葬爱咸鱼_第一届葬AI炒作大赛（北京线下活动）.md",
+        "permalink": "/articles/053",
+        "markdown_link": "articles/053_2026-01-19_葬爱咸鱼_第一届葬AI炒作大赛（北京线下活动）.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0294
+  },
+  "links": [
+    {
+      "source": "claude",
+      "target": "taku",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Taku否认是Claude code套壳，但使用体验被指与CC套壳产品差不多",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "066"
+      ],
+      "evidences": [
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "Taku否认是Claude code套壳，但使用体验被指与CC套壳产品差不多",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "taku",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Taku否认是Claude code套壳，但使用体验被指与CC套壳产品差不多",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "austin",
+      "target": "taku",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "Austin是Taku的创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "053"
+      ],
+      "evidences": [
+        {
+          "article_id": "053",
+          "title": "第一届葬AI炒作大赛（北京线下活动）",
+          "permalink": "/articles/053",
+          "markdown_link": "articles/053_2026-01-19_葬爱咸鱼_第一届葬AI炒作大赛（北京线下活动）.md",
+          "path": "articles/053_2026-01-19_葬爱咸鱼_第一届葬AI炒作大赛（北京线下活动）.md",
+          "date": "2026-01-19",
+          "label": "Austin是Taku的创始人",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

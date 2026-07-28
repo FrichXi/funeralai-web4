@@ -1,0 +1,257 @@
+{
+  "node": {
+    "id": "夸克",
+    "name": "夸克",
+    "type": "product",
+    "description": "拥有“超级框”功能的搜索应用，被设想为Agent平台未来统一入口的形态。",
+    "mention_count": 11,
+    "article_count": 5,
+    "aliases": [],
+    "tags": [
+      "2C",
+      "All In One",
+      "搜索引擎",
+      "移动搜索",
+      "统一入口",
+      "超级APP"
+    ],
+    "references": 5,
+    "source_article_count": 5,
+    "source_articles": [
+      {
+        "article_id": "022",
+        "title": "GenSpark重做百度",
+        "date": "2025-09-15",
+        "path": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+        "permalink": "/articles/022",
+        "markdown_link": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+        "mention_count": 5
+      },
+      {
+        "article_id": "040",
+        "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+        "date": "2025-12-12",
+        "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "permalink": "/articles/040",
+        "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "031",
+        "title": "追忆AI四小龙，热潮是怎么完蛋的",
+        "date": "2025-10-27",
+        "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "permalink": "/articles/031",
+        "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "039",
+        "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+        "date": "2025-12-05",
+        "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+        "permalink": "/articles/039",
+        "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "018",
+        "title": "电骡快跑，Mulerun想做AI淘宝",
+        "date": "2025-09-02",
+        "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+        "permalink": "/articles/018",
+        "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 9,
+    "composite_weight": 0.0801
+  },
+  "links": [
+    {
+      "source": "agnes",
+      "target": "夸克",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Agnes的生成效果平平无奇，不如用夸克",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "039"
+      ],
+      "evidences": [
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "作者认为Agnes的生成效果平平无奇，不如用夸克",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "夸克",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "夸克走的是类似ChatGPT的独立产品闭环道路",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "031"
+      ],
+      "evidences": [
+        {
+          "article_id": "031",
+          "title": "追忆AI四小龙，热潮是怎么完蛋的",
+          "permalink": "/articles/031",
+          "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "date": "2025-10-27",
+          "label": "夸克走的是类似ChatGPT的独立产品闭环道路",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "genspark",
+      "target": "夸克",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "GenSpark在用夸克纯净All In One的产品思路在海外做平台",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "022"
+      ],
+      "evidences": [
+        {
+          "article_id": "022",
+          "title": "GenSpark重做百度",
+          "permalink": "/articles/022",
+          "markdown_link": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+          "path": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+          "date": "2025-09-15",
+          "label": "GenSpark在用夸克纯净All In One的产品思路在海外做平台",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "mulerun",
+      "target": "夸克",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者设想Mulerun等Agent平台未来需要的统一搜索入口形态就像夸克的“超级框”。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "018"
+      ],
+      "evidences": [
+        {
+          "article_id": "018",
+          "title": "电骡快跑，Mulerun想做AI淘宝",
+          "permalink": "/articles/018",
+          "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "date": "2025-09-02",
+          "label": "作者设想Mulerun等Agent平台未来需要的统一搜索入口形态就像夸克的“超级框”。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "夸克",
+      "target": "agnes",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Agnes的生成效果平平无奇，不如用夸克",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "夸克",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "夸克走的是类似ChatGPT的独立产品闭环道路",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "夸克",
+      "target": "genspark",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "GenSpark在用夸克纯净All In One的产品思路在海外做平台",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "夸克",
+      "target": "mulerun",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者设想Mulerun等Agent平台未来需要的统一搜索入口形态就像夸克的“超级框”。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "夸克",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "阿里巴巴开发夸克搜索引擎",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "manus",
+      "target": "夸克",
+      "score": 0.6475,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "018",
+        "022",
+        "039",
+        "040"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

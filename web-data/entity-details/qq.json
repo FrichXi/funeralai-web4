@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "qq",
+    "name": "QQ",
+    "type": "product",
+    "description": "腾讯旗下的即时通讯社交软件",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "社交软件"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "102",
+        "title": "腾讯做了一堆情感陪伴Agent",
+        "date": "2026-06-09",
+        "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "permalink": "/articles/102",
+        "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0234
+  },
+  "links": [
+    {
+      "source": "腾讯",
+      "target": "qq",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "腾讯旗下的社交产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "腾讯旗下的社交产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "openclaw",
+      "target": "qq",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "用户曾尝试将OpenClaw接入QQ中",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "用户曾尝试将OpenClaw接入QQ中",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

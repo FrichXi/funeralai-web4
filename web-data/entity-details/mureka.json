@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "mureka",
+    "name": "Mureka",
+    "type": "product",
+    "description": "AI音乐生成工具，被内嵌在Flova中",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI音乐"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "052",
+        "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+        "date": "2026-01-16",
+        "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "permalink": "/articles/052",
+        "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0111
+  },
+  "links": [
+    {
+      "source": "flova",
+      "target": "mureka",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Flova内嵌集成了Mureka音乐模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "052"
+      ],
+      "evidences": [
+        {
+          "article_id": "052",
+          "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+          "permalink": "/articles/052",
+          "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "date": "2026-01-16",
+          "label": "Flova内嵌集成了Mureka音乐模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

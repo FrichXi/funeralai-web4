@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "blender",
+    "name": "Blender",
+    "type": "product",
+    "description": "开源3D建模软件，文中通过MCP协议接入了AI模型进行操作",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "3D建模"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "111",
+        "title": "用豆包办公得坐小孩那桌",
+        "date": "2026-06-25",
+        "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+        "permalink": "/articles/111",
+        "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0215
+  },
+  "links": [
+    {
+      "source": "blender",
+      "target": "claude",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "作者通过MCP协议将Claude(Opus 4.8)接入Blender进行对比测试",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "作者通过MCP协议将Claude(Opus 4.8)接入Blender进行对比测试",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "blender",
+      "target": "seed",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "作者通过MCP协议将Doubao-Seed模型接入了Blender以进行3D建模",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "作者通过MCP协议将Doubao-Seed模型接入了Blender以进行3D建模",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

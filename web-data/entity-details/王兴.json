@@ -1,0 +1,108 @@
+{
+  "node": {
+    "id": "王兴",
+    "name": "王兴",
+    "type": "person",
+    "description": "美团创始人，文中与张一鸣并列，作为“下大棋”老板视角的比喻对象。",
+    "mention_count": 2,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "战略",
+      "老板视角",
+      "行业标杆"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "018",
+        "title": "电骡快跑，Mulerun想做AI淘宝",
+        "date": "2025-09-02",
+        "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+        "permalink": "/articles/018",
+        "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "017",
+        "title": "字节用扣子证明，Agent只能被计划",
+        "date": "2025-08-29",
+        "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "permalink": "/articles/017",
+        "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0246
+  },
+  "links": [
+    {
+      "source": "张一鸣",
+      "target": "王兴",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将张一鸣与王兴作为具有战略高度的老板角色进行并列比喻（“人人成王兴，大伙都一鸣”）。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "017"
+      ],
+      "evidences": [
+        {
+          "article_id": "017",
+          "title": "字节用扣子证明，Agent只能被计划",
+          "permalink": "/articles/017",
+          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "date": "2025-08-29",
+          "label": "文章将张一鸣与王兴作为具有战略高度的老板角色进行并列比喻（“人人成王兴，大伙都一鸣”）。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "王兴",
+      "target": "张一鸣",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将张一鸣与王兴作为具有战略高度的老板角色进行并列比喻（“人人成王兴，大伙都一鸣”）。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "王兴",
+      "target": "美团",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "王兴作为创始人带领美团在百团大战中胜出。",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "018"
+      ],
+      "evidences": [
+        {
+          "article_id": "018",
+          "title": "电骡快跑，Mulerun想做AI淘宝",
+          "permalink": "/articles/018",
+          "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "date": "2025-09-02",
+          "label": "王兴作为创始人带领美团在百团大战中胜出。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

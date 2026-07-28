@@ -1,0 +1,132 @@
+{
+  "node": {
+    "id": "闹闹",
+    "name": "闹闹",
+    "type": "person",
+    "description": "OiiOii的相关负责人或核心主创成员",
+    "mention_count": 2,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "产品负责人"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "078",
+        "title": "Flova和TapNow背对背拥抱",
+        "date": "2026-04-07",
+        "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+        "permalink": "/articles/078",
+        "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "041",
+        "title": "感谢OiiOii，没人因你而失业",
+        "date": "2025-12-15",
+        "path": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+        "permalink": "/articles/041",
+        "markdown_link": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0361
+  },
+  "links": [
+    {
+      "source": "峰哥",
+      "target": "闹闹",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中吐槽OiiOii连接性不行时，调侃其产品经理（指向闹闹等主创）应该去拜一拜峰哥学习",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "041"
+      ],
+      "evidences": [
+        {
+          "article_id": "041",
+          "title": "感谢OiiOii，没人因你而失业",
+          "permalink": "/articles/041",
+          "markdown_link": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+          "path": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+          "date": "2025-12-15",
+          "label": "文中吐槽OiiOii连接性不行时，调侃其产品经理（指向闹闹等主创）应该去拜一拜峰哥学习",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "闹闹",
+      "target": "峰哥",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中吐槽OiiOii连接性不行时，调侃其产品经理（指向闹闹等主创）应该去拜一拜峰哥学习",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "闹闹",
+      "target": "oiioii",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "文中提到对OiiOii的锐评应让“闹闹闻过则喜”，暗示其深度参与或主导该产品的开发",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "041"
+      ],
+      "evidences": [
+        {
+          "article_id": "041",
+          "title": "感谢OiiOii，没人因你而失业",
+          "permalink": "/articles/041",
+          "markdown_link": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+          "path": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+          "date": "2025-12-15",
+          "label": "文中提到对OiiOii的锐评应让“闹闹闻过则喜”，暗示其深度参与或主导该产品的开发",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "闹闹",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "提及曾在字节跳动有一定级别",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "078"
+      ],
+      "evidences": [
+        {
+          "article_id": "078",
+          "title": "Flova和TapNow背对背拥抱",
+          "permalink": "/articles/078",
+          "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "date": "2026-04-07",
+          "label": "提及曾在字节跳动有一定级别",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

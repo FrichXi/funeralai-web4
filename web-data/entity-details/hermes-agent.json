@@ -1,0 +1,96 @@
+{
+  "node": {
+    "id": "hermes-agent",
+    "name": "Hermes Agent",
+    "type": "product",
+    "description": "具有币圈背景的Agent产品，与MiniMax有深度绑定",
+    "mention_count": 10,
+    "article_count": 2,
+    "aliases": [
+      "Hermes"
+    ],
+    "tags": [
+      "AI Agent",
+      "Agent",
+      "Web3",
+      "自我进化"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "117",
+        "title": "我来给MiniMax道歉了",
+        "date": "2026-07-11",
+        "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "permalink": "/articles/117",
+        "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "mention_count": 5
+      },
+      {
+        "article_id": "116",
+        "title": "民办大模型MiniMax努力专升本",
+        "date": "2026-07-09",
+        "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "permalink": "/articles/116",
+        "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "mention_count": 5
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0527
+  },
+  "links": [
+    {
+      "source": "hermes-agent",
+      "target": "openrouter",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章认为Hermes Agent有机会取代OpenRouter的生态位",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "116",
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "文中认为Hermes Agent假以时日有机会取代OpenRouter的生态位",
+          "weight": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "文章认为Hermes Agent有机会取代OpenRouter的生态位",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "openrouter",
+      "target": "hermes-agent",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章认为Hermes Agent有机会取代OpenRouter的生态位",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

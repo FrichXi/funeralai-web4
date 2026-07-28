@@ -1,0 +1,236 @@
+{
+  "node": {
+    "id": "gemini-cli",
+    "name": "Gemini CLI",
+    "type": "product",
+    "description": "具有长上下文窗口特点的AI编程Agent",
+    "mention_count": 4,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "大模型",
+      "终端工具",
+      "编程Agent"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "029",
+        "title": "AI写作指南3.0编程式写作",
+        "date": "2025-10-16",
+        "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "permalink": "/articles/029",
+        "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "027",
+        "title": "AI写作指南3.0编程式写作",
+        "date": "2025-10-09",
+        "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "permalink": "/articles/027",
+        "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 8,
+    "composite_weight": 0.0591
+  },
+  "links": [
+    {
+      "source": "claude",
+      "target": "gemini-cli",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "相比Claude Code，Gemini CLI上下文更长且价格更便宜",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "027"
+      ],
+      "evidences": [
+        {
+          "article_id": "027",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/027",
+          "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-09",
+          "label": "相比Claude Code，Gemini CLI上下文更长且价格更便宜",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gemini-cli",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "相比Claude Code，Gemini CLI上下文更长且价格更便宜",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "claude",
+      "target": "gemini-cli",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为同类的编程Agent工具",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "029"
+      ],
+      "evidences": [
+        {
+          "article_id": "029",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/029",
+          "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-16",
+          "label": "两者均为同类的编程Agent工具",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gemini-cli",
+      "target": "claude",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为同类的编程Agent工具",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "gemini-cli",
+      "target": "qwen",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为可用于AI写作的底层模型/工具",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "027"
+      ],
+      "evidences": [
+        {
+          "article_id": "027",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/027",
+          "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-09",
+          "label": "同为可用于AI写作的底层模型/工具",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "qwen",
+      "target": "gemini-cli",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为可用于AI写作的底层模型/工具",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "谷歌",
+      "target": "gemini-cli",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "谷歌开发Gemini CLI",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "gemini",
+      "target": "gemini-cli",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Gemini CLI底层调用Gemini大模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "029"
+      ],
+      "evidences": [
+        {
+          "article_id": "029",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/029",
+          "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-16",
+          "label": "Gemini CLI底层调用Gemini大模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "cherry-studio",
+      "target": "gemini-cli",
+      "score": 0.4219,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "027",
+        "029"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "gemini-cli",
+      "target": "kimi",
+      "score": 0.3719,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "027",
+        "029"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "codex",
+      "target": "gemini-cli",
+      "score": 0.3565,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "027",
+        "029"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

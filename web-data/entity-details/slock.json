@@ -1,0 +1,252 @@
+{
+  "node": {
+    "id": "slock",
+    "name": "Slock",
+    "type": "product",
+    "description": "一个号称AI版Slack的多Agent协作AI群聊产品",
+    "mention_count": 30,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "AI协作",
+      "AI群聊",
+      "上下文管理",
+      "多Agent协作"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "089",
+        "title": "Slock说明AI群聊不成立",
+        "date": "2026-05-10",
+        "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+        "permalink": "/articles/089",
+        "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+        "mention_count": 25
+      },
+      {
+        "article_id": "090",
+        "title": "Bloome重做元宝派",
+        "date": "2026-05-12",
+        "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "permalink": "/articles/090",
+        "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "mention_count": 5
+      }
+    ],
+    "degree": 10,
+    "composite_weight": 0.1369
+  },
+  "links": [
+    {
+      "source": "bloome",
+      "target": "slock",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Bloome在易用性上与偏技术的竞品Slock进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "Bloome在易用性上与偏技术的竞品Slock进行了对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "slack",
+      "target": "slock",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Slock号称是AI版的Slack",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "089"
+      ],
+      "evidences": [
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "date": "2026-05-10",
+          "label": "Slock号称是AI版的Slack",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "slock",
+      "target": "bloome",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Bloome在易用性上与偏技术的竞品Slock进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "slock",
+      "target": "slack",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Slock号称是AI版的Slack",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "bloome",
+      "target": "slock",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Bloome是与Slock同属于AI群聊思路的更易用的竞品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "089"
+      ],
+      "evidences": [
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "date": "2026-05-10",
+          "label": "Bloome是与Slock同属于AI群聊思路的更易用的竞品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "moxt",
+      "target": "slock",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "解决团队上下文整合问题的两种不同产品思路（云端封装 vs 本地群聊）",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "089"
+      ],
+      "evidences": [
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "date": "2026-05-10",
+          "label": "解决团队上下文整合问题的两种不同产品思路（云端封装 vs 本地群聊）",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "slock",
+      "target": "bloome",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Bloome是与Slock同属于AI群聊思路的更易用的竞品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "slock",
+      "target": "moxt",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "解决团队上下文整合问题的两种不同产品思路（云端封装 vs 本地群聊）",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "claude",
+      "target": "slock",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Slock群聊中可以接入用户本地的Claude Code作为Agent",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "089"
+      ],
+      "evidences": [
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "date": "2026-05-10",
+          "label": "Slock群聊中可以接入用户本地的Claude Code作为Agent",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "slock",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Slock群聊中可以接入用户本地的Codex作为Agent",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "089"
+      ],
+      "evidences": [
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "date": "2026-05-10",
+          "label": "Slock群聊中可以接入用户本地的Codex作为Agent",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

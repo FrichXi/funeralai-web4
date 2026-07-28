@@ -1,0 +1,149 @@
+{
+  "node": {
+    "id": "palantir",
+    "name": "Palantir",
+    "type": "company",
+    "description": "深度绑定政府客户的重交付平台型产品公司",
+    "mention_count": 4,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "2B",
+      "CV算法",
+      "军事AI",
+      "知识图谱",
+      "集成商"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "035",
+        "title": "彼得蒂尔是中国的辱追梦男",
+        "date": "2025-11-18",
+        "path": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+        "permalink": "/articles/035",
+        "markdown_link": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "031",
+        "title": "追忆AI四小龙，热潮是怎么完蛋的",
+        "date": "2025-10-27",
+        "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "permalink": "/articles/031",
+        "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.041
+  },
+  "links": [
+    {
+      "source": "palantir",
+      "target": "千里科技",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者打法类似，都是做2B集成商路径",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "031"
+      ],
+      "evidences": [
+        {
+          "article_id": "031",
+          "title": "追忆AI四小龙，热潮是怎么完蛋的",
+          "permalink": "/articles/031",
+          "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "date": "2025-10-27",
+          "label": "两者打法类似，都是做2B集成商路径",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "palantir",
+      "target": "商汤科技",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Palantir比作“美国商汤”，并认为其远远不如商汤科技",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "035"
+      ],
+      "evidences": [
+        {
+          "article_id": "035",
+          "title": "彼得蒂尔是中国的辱追梦男",
+          "permalink": "/articles/035",
+          "markdown_link": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+          "path": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+          "date": "2025-11-18",
+          "label": "文中将Palantir比作“美国商汤”，并认为其远远不如商汤科技",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "千里科技",
+      "target": "palantir",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者打法类似，都是做2B集成商路径",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "商汤科技",
+      "target": "palantir",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Palantir比作“美国商汤”，并认为其远远不如商汤科技",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "彼得-蒂尔",
+      "target": "palantir",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "他创办了Palantir这家军事AI公司",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "035"
+      ],
+      "evidences": [
+        {
+          "article_id": "035",
+          "title": "彼得蒂尔是中国的辱追梦男",
+          "permalink": "/articles/035",
+          "markdown_link": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+          "path": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+          "date": "2025-11-18",
+          "label": "他创办了Palantir这家军事AI公司",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

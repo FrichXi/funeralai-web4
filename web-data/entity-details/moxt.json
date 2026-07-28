@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "moxt",
+    "name": "Moxt",
+    "type": "product",
+    "description": "做AI员工、共用云端空间思路的AI产品",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI员工",
+      "Workspace"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "089",
+        "title": "Slock说明AI群聊不成立",
+        "date": "2026-05-10",
+        "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+        "permalink": "/articles/089",
+        "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0349
+  },
+  "links": [
+    {
+      "source": "moxt",
+      "target": "vm0",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属于采用AI员工+共用云端空间思路的典型产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "089"
+      ],
+      "evidences": [
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "date": "2026-05-10",
+          "label": "同属于采用AI员工+共用云端空间思路的典型产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "vm0",
+      "target": "moxt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属于采用AI员工+共用云端空间思路的典型产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "moxt",
+      "target": "slock",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "解决团队上下文整合问题的两种不同产品思路（云端封装 vs 本地群聊）",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "089"
+      ],
+      "evidences": [
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "date": "2026-05-10",
+          "label": "解决团队上下文整合问题的两种不同产品思路（云端封装 vs 本地群聊）",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "slock",
+      "target": "moxt",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "解决团队上下文整合问题的两种不同产品思路（云端封装 vs 本地群聊）",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

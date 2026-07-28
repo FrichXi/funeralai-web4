@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "波士顿动力",
+    "name": "波士顿动力",
+    "type": "company",
+    "description": "机器人公司，被用作比喻蚂蚁世界模型宣传效果的参照对象",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "具身智能",
+      "机器人"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "121",
+        "title": "蚂蚁把世界模型作为一场儿戏",
+        "date": "2026-07-16",
+        "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+        "permalink": "/articles/121",
+        "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0223
+  },
+  "links": [
+    {
+      "source": "波士顿动力",
+      "target": "蚂蚁集团",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章讽刺蚂蚁的宣传效果让百姓以为其要拳打波士顿动力",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "121"
+      ],
+      "evidences": [
+        {
+          "article_id": "121",
+          "title": "蚂蚁把世界模型作为一场儿戏",
+          "permalink": "/articles/121",
+          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "date": "2026-07-16",
+          "label": "文章讽刺蚂蚁的宣传效果让百姓以为其要拳打波士顿动力",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "波士顿动力",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章讽刺蚂蚁的宣传效果让百姓以为其要拳打波士顿动力",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

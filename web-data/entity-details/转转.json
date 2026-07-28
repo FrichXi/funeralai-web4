@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "转转",
+    "name": "转转",
+    "type": "company",
+    "description": "二手交易平台，文中用作比喻Lovart的套壳和流量转移生意。",
+    "mention_count": 6,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "中转站",
+      "二手平台"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "073",
+        "title": "Lovart狂做TapNow",
+        "date": "2026-03-19",
+        "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+        "permalink": "/articles/073",
+        "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+        "mention_count": 6
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.04
+  },
+  "links": [
+    {
+      "source": "libtv",
+      "target": "转转",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章结尾用转转来比喻LibTV在行业生态中的定位。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "073"
+      ],
+      "evidences": [
+        {
+          "article_id": "073",
+          "title": "Lovart狂做TapNow",
+          "permalink": "/articles/073",
+          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "date": "2026-03-19",
+          "label": "文章结尾用转转来比喻LibTV在行业生态中的定位。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "lovart",
+      "target": "转转",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者戏称Lovart相当于一个“转转”，是一个巨大的中转站生意。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "073"
+      ],
+      "evidences": [
+        {
+          "article_id": "073",
+          "title": "Lovart狂做TapNow",
+          "permalink": "/articles/073",
+          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "date": "2026-03-19",
+          "label": "作者戏称Lovart相当于一个“转转”，是一个巨大的中转站生意。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "转转",
+      "target": "libtv",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章结尾用转转来比喻LibTV在行业生态中的定位。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "转转",
+      "target": "lovart",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者戏称Lovart相当于一个“转转”，是一个巨大的中转站生意。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

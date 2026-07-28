@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "loopit",
+    "name": "Loopit",
+    "type": "product",
+    "description": "Aippy之后的AI内容/小游戏同类产品。",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI工具",
+      "UGC"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "079",
+        "title": "电玩城复活在信息流",
+        "date": "2026-04-08",
+        "path": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+        "permalink": "/articles/079",
+        "markdown_link": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0338
+  },
+  "links": [
+    {
+      "source": "aippy",
+      "target": "loopit",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Loopit发布的产品形态被指与Aippy非常像。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "079"
+      ],
+      "evidences": [
+        {
+          "article_id": "079",
+          "title": "电玩城复活在信息流",
+          "permalink": "/articles/079",
+          "markdown_link": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+          "path": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+          "date": "2026-04-08",
+          "label": "Loopit发布的产品形态被指与Aippy非常像。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "loopit",
+      "target": "aippy",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Loopit发布的产品形态被指与Aippy非常像。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "aippy",
+      "target": "loopit",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Loopit是Aippy在同赛道的后来者和竞品。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "079"
+      ],
+      "evidences": [
+        {
+          "article_id": "079",
+          "title": "电玩城复活在信息流",
+          "permalink": "/articles/079",
+          "markdown_link": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+          "path": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+          "date": "2026-04-08",
+          "label": "Loopit是Aippy在同赛道的后来者和竞品。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "loopit",
+      "target": "aippy",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Loopit是Aippy在同赛道的后来者和竞品。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

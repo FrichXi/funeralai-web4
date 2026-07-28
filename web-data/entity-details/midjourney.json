@@ -1,0 +1,182 @@
+{
+  "node": {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "type": "product",
+    "description": "海外知名的AI图片生成工具",
+    "mention_count": 4,
+    "article_count": 3,
+    "aliases": [],
+    "tags": [
+      "AI图片",
+      "写实类",
+      "图片生成"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "012",
+        "title": "CrePal成为首个胖猫视频Agent",
+        "date": "2025-07-25",
+        "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+        "permalink": "/articles/012",
+        "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "052",
+        "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+        "date": "2026-01-16",
+        "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "permalink": "/articles/052",
+        "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "022",
+        "title": "GenSpark重做百度",
+        "date": "2025-09-15",
+        "path": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+        "permalink": "/articles/022",
+        "markdown_link": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0426
+  },
+  "links": [
+    {
+      "source": "genspark",
+      "target": "midjourney",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "GenSpark通过功能整合，在AI制图方面替代/竞争Midjourney",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "022"
+      ],
+      "evidences": [
+        {
+          "article_id": "022",
+          "title": "GenSpark重做百度",
+          "permalink": "/articles/022",
+          "markdown_link": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+          "path": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+          "date": "2025-09-15",
+          "label": "GenSpark通过功能整合，在AI制图方面替代/竞争Midjourney",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "midjourney",
+      "target": "genspark",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "GenSpark通过功能整合，在AI制图方面替代/竞争Midjourney",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "crepal",
+      "target": "midjourney",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "CrePal的子Agent中集成了Midjourney生成模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "CrePal的子Agent中集成了Midjourney生成模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "flova",
+      "target": "midjourney",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Flova的集成能力替代了用户单独跨平台使用Midjourney生成素材的繁琐流程",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "052"
+      ],
+      "evidences": [
+        {
+          "article_id": "052",
+          "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+          "permalink": "/articles/052",
+          "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "date": "2026-01-16",
+          "label": "Flova的集成能力替代了用户单独跨平台使用Midjourney生成素材的繁琐流程",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "jiaming",
+      "target": "midjourney",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "jiaming评价Midjourney在写实细节把控和人脸保持上非常好",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "jiaming评价Midjourney在写实细节把控和人脸保持上非常好",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "midjourney",
+      "target": "suno",
+      "score": 0.367,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "012",
+        "052"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

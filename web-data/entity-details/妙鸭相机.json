@@ -1,0 +1,131 @@
+{
+  "node": {
+    "id": "妙鸭相机",
+    "name": "妙鸭相机",
+    "type": "product",
+    "description": "曾在C端爆火的AI应用，被用作衡量扣子平台产出应用的天花板标准。",
+    "mention_count": 6,
+    "article_count": 3,
+    "aliases": [
+      "妙鸭"
+    ],
+    "tags": [
+      "AI应用",
+      "AI相机",
+      "C端产品",
+      "爆款应用"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "017",
+        "title": "字节用扣子证明，Agent只能被计划",
+        "date": "2025-08-29",
+        "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "permalink": "/articles/017",
+        "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "059",
+        "title": "「Dokie不如ListenHub」",
+        "date": "2026-01-28",
+        "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "permalink": "/articles/059",
+        "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "058",
+        "title": "张月光给乙女游戏加了个Chatbot",
+        "date": "2026-01-27",
+        "path": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+        "permalink": "/articles/058",
+        "markdown_link": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0348
+  },
+  "links": [
+    {
+      "source": "dokie",
+      "target": "妙鸭相机",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "张月光认为Dokie往小了说也达不到妙鸭的水平",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "059"
+      ],
+      "evidences": [
+        {
+          "article_id": "059",
+          "title": "「Dokie不如ListenHub」",
+          "permalink": "/articles/059",
+          "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "date": "2026-01-28",
+          "label": "张月光认为Dokie往小了说也达不到妙鸭的水平",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "妙鸭相机",
+      "target": "dokie",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "张月光认为Dokie往小了说也达不到妙鸭的水平",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "张月光",
+      "target": "妙鸭相机",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "张月光曾参与开发打造《妙鸭》相机",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "058",
+        "059"
+      ],
+      "evidences": [
+        {
+          "article_id": "059",
+          "title": "「Dokie不如ListenHub」",
+          "permalink": "/articles/059",
+          "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "date": "2026-01-28",
+          "label": "张月光是妙鸭的开发者",
+          "weight": 1
+        },
+        {
+          "article_id": "058",
+          "title": "张月光给乙女游戏加了个Chatbot",
+          "permalink": "/articles/058",
+          "markdown_link": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+          "path": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+          "date": "2026-01-27",
+          "label": "张月光曾参与开发打造《妙鸭》相机",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

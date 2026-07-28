@@ -1,0 +1,60 @@
+{
+  "node": {
+    "id": "ernie-5-1",
+    "name": "ERNIE 5.1",
+    "type": "product",
+    "description": "百度文心一言模型，测试表现倒数第一且价格昂贵",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [
+      "文心一言"
+    ],
+    "tags": [
+      "大模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "122",
+        "title": "Kimi K3打响前端闪电战",
+        "date": "2026-07-22",
+        "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+        "permalink": "/articles/122",
+        "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.019
+  },
+  "links": [
+    {
+      "source": "百度",
+      "target": "ernie-5-1",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "百度开发了文心一言ERNIE 5.1",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "百度开发了文心一言ERNIE 5.1",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

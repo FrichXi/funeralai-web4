@@ -1,0 +1,156 @@
+{
+  "node": {
+    "id": "闫俊杰",
+    "name": "闫俊杰",
+    "type": "person",
+    "description": "被提议出任假想合并公司“胖虎AI”的CEO",
+    "mention_count": 2,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "085",
+        "title": "谁是宇宙第一FA",
+        "date": "2026-04-27",
+        "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "permalink": "/articles/085",
+        "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "049",
+        "title": "建议六小虎合并，实现China AGI",
+        "date": "2026-01-05",
+        "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "permalink": "/articles/049",
+        "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0433
+  },
+  "links": [
+    {
+      "source": "刘宇",
+      "target": "闫俊杰",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "投资圈用同出商汤的闫俊杰来类比刘宇",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "投资圈用同出商汤的闫俊杰来类比刘宇",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "闫俊杰",
+      "target": "刘宇",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "投资圈用同出商汤的闫俊杰来类比刘宇",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "闫俊杰",
+      "target": "minimax",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "闫俊杰创立了MiniMax",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "闫俊杰创立了MiniMax",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "闫俊杰",
+      "target": "商汤科技",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "闫俊杰此前曾在商汤任职",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "闫俊杰此前曾在商汤任职",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "闫俊杰",
+      "target": "胖虎ai",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "被提议出任假想合并公司的CEO",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "049"
+      ],
+      "evidences": [
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "被提议出任假想合并公司的CEO",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

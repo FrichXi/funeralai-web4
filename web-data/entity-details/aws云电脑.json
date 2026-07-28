@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "aws云电脑",
+    "name": "AWS云电脑",
+    "type": "product",
+    "description": "被Manus底层调用的云端计算环境。",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "云电脑"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "018",
+        "title": "电骡快跑，Mulerun想做AI淘宝",
+        "date": "2025-09-02",
+        "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+        "permalink": "/articles/018",
+        "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0092
+  },
+  "links": [
+    {
+      "source": "aws云电脑",
+      "target": "manus",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Manus底层的运行调用了AWS云电脑。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "018"
+      ],
+      "evidences": [
+        {
+          "article_id": "018",
+          "title": "电骡快跑，Mulerun想做AI淘宝",
+          "permalink": "/articles/018",
+          "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "date": "2025-09-02",
+          "label": "Manus底层的运行调用了AWS云电脑。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

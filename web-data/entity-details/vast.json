@@ -1,0 +1,127 @@
+{
+  "node": {
+    "id": "vast",
+    "name": "VAST",
+    "type": "company",
+    "description": "3D大模型/世界模型公司，被建议MiniMax参考",
+    "mention_count": 5,
+    "article_count": 3,
+    "aliases": [],
+    "tags": [
+      "3D生成",
+      "世界模型"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "117",
+        "title": "我来给MiniMax道歉了",
+        "date": "2026-07-11",
+        "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "permalink": "/articles/117",
+        "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "116",
+        "title": "民办大模型MiniMax努力专升本",
+        "date": "2026-07-09",
+        "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "permalink": "/articles/116",
+        "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "107",
+        "title": "网吧黑客松将于杭州风光大办",
+        "date": "2026-06-22",
+        "path": "articles/107_2026-06-22_葬爱咸鱼_网吧黑客松将于杭州风光大办.md",
+        "permalink": "/articles/107",
+        "markdown_link": "articles/107_2026-06-22_葬爱咸鱼_网吧黑客松将于杭州风光大办.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0519
+  },
+  "links": [
+    {
+      "source": "minimax",
+      "target": "vast",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章建议MiniMax参考VAST做3D/世界模型",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "116",
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "建议MiniMax参考VAST做3D大模型和世界模型",
+          "weight": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "文章建议MiniMax参考VAST做3D/世界模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "vast",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章建议MiniMax参考VAST做3D/世界模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "vast",
+      "target": "tripo",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "文章在文末鸣谢中以“Tripo AI (VAST)”的形式表明了VAST是Tripo的母公司/开发公司",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "107"
+      ],
+      "evidences": [
+        {
+          "article_id": "107",
+          "title": "网吧黑客松将于杭州风光大办",
+          "permalink": "/articles/107",
+          "markdown_link": "articles/107_2026-06-22_葬爱咸鱼_网吧黑客松将于杭州风光大办.md",
+          "path": "articles/107_2026-06-22_葬爱咸鱼_网吧黑客松将于杭州风光大办.md",
+          "date": "2026-06-22",
+          "label": "文章在文末鸣谢中以“Tripo AI (VAST)”的形式表明了VAST是Tripo的母公司/开发公司",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,190 @@
+{
+  "node": {
+    "id": "tutti",
+    "name": "Tutti",
+    "type": "product",
+    "description": "一款基于云电脑镜像技术的AI协作产品，支持实时同步本地Agent上下文",
+    "mention_count": 9,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI协作",
+      "云电脑",
+      "实时同步"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "120",
+        "title": "Raft说明AI应用不会亡！",
+        "date": "2026-07-15",
+        "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+        "permalink": "/articles/120",
+        "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+        "mention_count": 9
+      }
+    ],
+    "degree": 7,
+    "composite_weight": 0.0755
+  },
+  "links": [
+    {
+      "source": "raft",
+      "target": "tutti",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Raft的“极致简单”与Tutti的“极致复杂”进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "120"
+      ],
+      "evidences": [
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "date": "2026-07-15",
+          "label": "文中将Raft的“极致简单”与Tutti的“极致复杂”进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "tutti",
+      "target": "raft",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Raft的“极致简单”与Tutti的“极致复杂”进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "tutti",
+      "target": "钉钉",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中通过无招在钉钉的管理方式类比Tutti的协作模式，暗示替代关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "120"
+      ],
+      "evidences": [
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "date": "2026-07-15",
+          "label": "文中通过无招在钉钉的管理方式类比Tutti的协作模式，暗示替代关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "钉钉",
+      "target": "tutti",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中通过无招在钉钉的管理方式类比Tutti的协作模式，暗示替代关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "曾哥",
+      "target": "tutti",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "文中明确提到“Tutti创始人曾哥”",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "120"
+      ],
+      "evidences": [
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "date": "2026-07-15",
+          "label": "文中明确提到“Tutti创始人曾哥”",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "tutti",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文中提到Tutti在云端跑着Codex的镜像并实时同步上下文",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "120"
+      ],
+      "evidences": [
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "date": "2026-07-15",
+          "label": "文中提到Tutti在云端跑着Codex的镜像并实时同步上下文",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "tutti",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "作者对Tutti的技术思路表示叹为观止，虽然觉得过于复杂但认可其价值",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "120"
+      ],
+      "evidences": [
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "date": "2026-07-15",
+          "label": "作者对Tutti的技术思路表示叹为观止，虽然觉得过于复杂但认可其价值",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

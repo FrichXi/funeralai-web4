@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "cyberbrick",
+    "name": "CyberBrick",
+    "type": "product",
+    "description": "拓竹推出的一套标准化电子模组产品线",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "电子模组",
+      "硬件套件"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "066",
+        "title": "AI编程创造世界",
+        "date": "2026-02-24",
+        "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "permalink": "/articles/066",
+        "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0119
+  },
+  "links": [
+    {
+      "source": "拓竹",
+      "target": "cyberbrick",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "拓竹开发了入选时代周刊发明的CyberBrick产品线",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "066"
+      ],
+      "evidences": [
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "拓竹开发了入选时代周刊发明的CyberBrick产品线",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

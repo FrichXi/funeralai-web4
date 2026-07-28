@@ -1,0 +1,195 @@
+{
+  "node": {
+    "id": "小红书",
+    "name": "小红书",
+    "type": "company",
+    "description": "社交平台，向涉飞的AI宠物项目投资了1200万人民币",
+    "mention_count": 10,
+    "article_count": 3,
+    "aliases": [],
+    "tags": [
+      "内容社区",
+      "投资方",
+      "社交平台",
+      "避雷"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "055",
+        "title": "来认识下2025年最活跃的CVC",
+        "date": "2026-01-22",
+        "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "permalink": "/articles/055",
+        "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "mention_count": 5
+      },
+      {
+        "article_id": "061",
+        "title": "AI硬件炒作上天了",
+        "date": "2026-02-03",
+        "path": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+        "permalink": "/articles/061",
+        "markdown_link": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "091",
+        "title": "中亚世界没有豆包信仰",
+        "date": "2026-05-14",
+        "path": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+        "permalink": "/articles/091",
+        "markdown_link": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 6,
+    "composite_weight": 0.0655
+  },
+  "links": [
+    {
+      "source": "小红书",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在旅游景点排雷方面，作者认为豆包不如小红书有效",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "091"
+      ],
+      "evidences": [
+        {
+          "article_id": "091",
+          "title": "中亚世界没有豆包信仰",
+          "permalink": "/articles/091",
+          "markdown_link": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+          "path": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+          "date": "2026-05-14",
+          "label": "在旅游景点排雷方面，作者认为豆包不如小红书有效",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包",
+      "target": "小红书",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在旅游景点排雷方面，作者认为豆包不如小红书有效",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "小红书",
+      "target": "skyris",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "小红书为该“飞天”项目投资了1200万人民币",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "061"
+      ],
+      "evidences": [
+        {
+          "article_id": "061",
+          "title": "AI硬件炒作上天了",
+          "permalink": "/articles/061",
+          "markdown_link": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+          "path": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+          "date": "2026-02-03",
+          "label": "小红书为该“飞天”项目投资了1200万人民币",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "小红书",
+      "target": "typeless",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "小红书正在看Typeless项目",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "小红书正在看Typeless项目",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "小红书",
+      "target": "张宇诺",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "小红书投资了张宇诺主导的创业项目",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "061"
+      ],
+      "evidences": [
+        {
+          "article_id": "061",
+          "title": "AI硬件炒作上天了",
+          "permalink": "/articles/061",
+          "markdown_link": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+          "path": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+          "date": "2026-02-03",
+          "label": "小红书投资了张宇诺主导的创业项目",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "红杉资本",
+      "target": "小红书",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "红杉中国投资小红书",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "小红书",
+      "target": "真格",
+      "score": 0.3847,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "055"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

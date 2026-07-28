@@ -1,0 +1,1406 @@
+{
+  "node": {
+    "id": "kimi",
+    "name": "Kimi",
+    "type": "product",
+    "description": "具有长上下文能力的大语言模型，文中被用作Claude Code的后端调用模型",
+    "mention_count": 138,
+    "article_count": 26,
+    "aliases": [
+      "K2",
+      "K2.7 Code",
+      "K2.7-code",
+      "Kimi 2.7 code",
+      "Kimi Code",
+      "Kimi K2",
+      "Kimi K2.7-code",
+      "Kimi work",
+      "Moonshot AI",
+      "k2"
+    ],
+    "tags": [
+      "AI产品",
+      "AI助手",
+      "AI四小虎",
+      "AI四小龙",
+      "AI工具",
+      "AI生成",
+      "Agent",
+      "Coding",
+      "C端",
+      "K2 Thinking",
+      "Long Context",
+      "ToC",
+      "产出不稳定",
+      "后端模型",
+      "国产模型",
+      "大模型",
+      "大模型公司",
+      "大语言模型",
+      "平替",
+      "开源/闭源模型",
+      "御三家",
+      "思维链",
+      "投流",
+      "数据飞轮",
+      "最会做产品",
+      "本地Agent",
+      "社区",
+      "竞品",
+      "缓存命中成本高",
+      "长文本处理",
+      "高估值"
+    ],
+    "references": 26,
+    "source_article_count": 26,
+    "source_articles": [
+      {
+        "article_id": "122",
+        "title": "Kimi K3打响前端闪电战",
+        "date": "2026-07-22",
+        "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+        "permalink": "/articles/122",
+        "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+        "mention_count": 19
+      },
+      {
+        "article_id": "005",
+        "title": "Kimi没有梦想",
+        "date": "2025-06-24",
+        "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+        "permalink": "/articles/005",
+        "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+        "mention_count": 18
+      },
+      {
+        "article_id": "109",
+        "title": "智谱与Anthropic是母凭子贵",
+        "date": "2026-06-23",
+        "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "permalink": "/articles/109",
+        "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "mention_count": 16
+      },
+      {
+        "article_id": "105",
+        "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+        "date": "2026-06-17",
+        "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "permalink": "/articles/105",
+        "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "mention_count": 16
+      },
+      {
+        "article_id": "068",
+        "title": "云端OpenClaw更是路边一条",
+        "date": "2026-03-04",
+        "path": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+        "permalink": "/articles/068",
+        "markdown_link": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+        "mention_count": 13
+      },
+      {
+        "article_id": "049",
+        "title": "建议六小虎合并，实现China AGI",
+        "date": "2026-01-05",
+        "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "permalink": "/articles/049",
+        "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "mention_count": 8
+      },
+      {
+        "article_id": "117",
+        "title": "我来给MiniMax道歉了",
+        "date": "2026-07-11",
+        "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "permalink": "/articles/117",
+        "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "mention_count": 6
+      },
+      {
+        "article_id": "110",
+        "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+        "date": "2026-06-24",
+        "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "permalink": "/articles/110",
+        "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "mention_count": 5
+      },
+      {
+        "article_id": "116",
+        "title": "民办大模型MiniMax努力专升本",
+        "date": "2026-07-09",
+        "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "permalink": "/articles/116",
+        "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "099",
+        "title": "马卡龙开创AI短剧Neo Lab",
+        "date": "2026-06-04",
+        "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "permalink": "/articles/099",
+        "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "048",
+        "title": "第一届Manus杯新加坡概念作文大赛",
+        "date": "2025-12-30",
+        "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+        "permalink": "/articles/048",
+        "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "004",
+        "title": "MiniMax的胖猫宇宙",
+        "date": "2025-06-23",
+        "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "permalink": "/articles/004",
+        "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "112",
+        "title": "老天保佑Qwen救救阿里巴巴",
+        "date": "2026-07-02",
+        "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+        "permalink": "/articles/112",
+        "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "100",
+        "title": "网吧黑客松里有真黑客",
+        "date": "2026-06-07",
+        "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+        "permalink": "/articles/100",
+        "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "085",
+        "title": "谁是宇宙第一FA",
+        "date": "2026-04-27",
+        "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "permalink": "/articles/085",
+        "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "057",
+        "title": "AI四小虎进入狠活大赛",
+        "date": "2026-01-26",
+        "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "permalink": "/articles/057",
+        "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "040",
+        "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+        "date": "2025-12-12",
+        "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "permalink": "/articles/040",
+        "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "036",
+        "title": "灵感式写作",
+        "date": "2025-11-19",
+        "path": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+        "permalink": "/articles/036",
+        "markdown_link": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "010",
+        "title": "YouWare说明AI创始人需要神性",
+        "date": "2025-07-08",
+        "path": "articles/010_2025-07-08_葬爱咸鱼_YouWare说明AI创始人需要神性.md",
+        "permalink": "/articles/010",
+        "markdown_link": "articles/010_2025-07-08_葬爱咸鱼_YouWare说明AI创始人需要神性.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "065",
+        "title": "豆包有Seed，火山有种",
+        "date": "2026-02-14",
+        "path": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+        "permalink": "/articles/065",
+        "markdown_link": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "055",
+        "title": "来认识下2025年最活跃的CVC",
+        "date": "2026-01-22",
+        "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "permalink": "/articles/055",
+        "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "029",
+        "title": "AI写作指南3.0编程式写作",
+        "date": "2025-10-16",
+        "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "permalink": "/articles/029",
+        "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "027",
+        "title": "AI写作指南3.0编程式写作",
+        "date": "2025-10-09",
+        "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "permalink": "/articles/027",
+        "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "024",
+        "title": "像编程一样写作",
+        "date": "2025-09-22",
+        "path": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+        "permalink": "/articles/024",
+        "markdown_link": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "019",
+        "title": "我研发出了主体思想AI",
+        "date": "2025-09-04",
+        "path": "articles/019_2025-09-04_葬爱咸鱼_我研发出了主体思想AI.md",
+        "permalink": "/articles/019",
+        "markdown_link": "articles/019_2025-09-04_葬爱咸鱼_我研发出了主体思想AI.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "030",
+        "title": "Agent OS的本地入口",
+        "date": "2025-10-20",
+        "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "permalink": "/articles/030",
+        "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 46,
+    "composite_weight": 0.6552
+  },
+  "links": [
+    {
+      "source": "anthropic",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "访谈中将Kimi与Anthropic就伟大量化指标及产品影响力进行对比讨论",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "040"
+      ],
+      "evidences": [
+        {
+          "article_id": "040",
+          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+          "permalink": "/articles/040",
+          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "date": "2025-12-12",
+          "label": "访谈中将Kimi与Anthropic就伟大量化指标及产品影响力进行对比讨论",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "由于Anthropic对特定区域的服务限制，作者将Kimi作为Claude后端的平替使用",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "024",
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "Kimi的性价比指数跌破了Claude（Opus）斩杀线",
+          "weight": 1
+        },
+        {
+          "article_id": "024",
+          "title": "像编程一样写作",
+          "permalink": "/articles/024",
+          "markdown_link": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+          "path": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+          "date": "2025-09-22",
+          "label": "由于Anthropic对特定区域的服务限制，作者将Kimi作为Claude后端的平替使用",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gemini",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者对比了在AI写作场景下Gemini生成长文的流畅性与Kimi在性价比及部分环节幻觉率上的差异",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "024"
+      ],
+      "evidences": [
+        {
+          "article_id": "024",
+          "title": "像编程一样写作",
+          "permalink": "/articles/024",
+          "markdown_link": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+          "path": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+          "date": "2025-09-22",
+          "label": "作者对比了在AI写作场景下Gemini生成长文的流畅性与Kimi在性价比及部分环节幻觉率上的差异",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "anthropic",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "访谈中将Kimi与Anthropic就伟大量化指标及产品影响力进行对比讨论",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "由于Anthropic对特定区域的服务限制，作者将Kimi作为Claude后端的平替使用",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi",
+      "target": "gemini",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者对比了在AI写作场景下Gemini生成长文的流畅性与Kimi在性价比及部分环节幻觉率上的差异",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "市场认为MiniMax和Kimi是一个级别，形成强行双骄效果",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "116",
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "文中将MiniMax与Kimi并列为'强行双骄'及AI四小龙成员",
+          "weight": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "市场认为MiniMax和Kimi是一个级别，形成强行双骄效果",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "ofo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Kimi不计成本的投流打法被类比为当年的ofo单车投放",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "005"
+      ],
+      "evidences": [
+        {
+          "article_id": "005",
+          "title": "Kimi没有梦想",
+          "permalink": "/articles/005",
+          "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "date": "2025-06-24",
+          "label": "Kimi不计成本的投流打法被类比为当年的ofo单车投放",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Qwen的低API请求数和低成本与产生大量请求的Kimi形成鲜明对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "105"
+      ],
+      "evidences": [
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "Qwen的低API请求数和低成本与产生大量请求的Kimi形成鲜明对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "循环智能",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "评论将Kimi比作“大号版的循环智能”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "005"
+      ],
+      "evidences": [
+        {
+          "article_id": "005",
+          "title": "Kimi没有梦想",
+          "permalink": "/articles/005",
+          "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "date": "2025-06-24",
+          "label": "评论将Kimi比作“大号版的循环智能”",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "梁圣",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Kimi的性价比被用来与代表极致性价比的‘梁圣’进行对比，处于斩杀线以下",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "Kimi的性价比被用来与代表极致性价比的‘梁圣’进行对比，处于斩杀线以下",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "砸盘两兄弟",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者锐评Kimi显著好于砸盘两兄弟",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "048"
+      ],
+      "evidences": [
+        {
+          "article_id": "048",
+          "title": "第一届Manus杯新加坡概念作文大赛",
+          "permalink": "/articles/048",
+          "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+          "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+          "date": "2025-12-30",
+          "label": "作者锐评Kimi显著好于砸盘两兄弟",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "市场认为MiniMax和Kimi是一个级别，形成强行双骄效果",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "ofo",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Kimi不计成本的投流打法被类比为当年的ofo单车投放",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qwen",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Qwen的低API请求数和低成本与产生大量请求的Kimi形成鲜明对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "循环智能",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "评论将Kimi比作“大号版的循环智能”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "梁圣",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Kimi的性价比被用来与代表极致性价比的‘梁圣’进行对比，处于斩杀线以下",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "砸盘两兄弟",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者锐评Kimi显著好于砸盘两兄弟",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "claude",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在处理复杂任务的场景中，Kimi被用作Claude的国产平替方案",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "036"
+      ],
+      "evidences": [
+        {
+          "article_id": "036",
+          "title": "灵感式写作",
+          "permalink": "/articles/036",
+          "markdown_link": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "path": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "date": "2025-11-19",
+          "label": "在处理复杂任务的场景中，Kimi被用作Claude的国产平替方案",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在游戏代码编写测试中与Codex进行了对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "109"
+      ],
+      "evidences": [
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "date": "2026-06-23",
+          "label": "在游戏代码编写测试中与Codex进行了对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "glm",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "GLM5.2在编程能力评估中被视作专门狙击Kimi的产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "109"
+      ],
+      "evidences": [
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "date": "2026-06-23",
+          "label": "GLM5.2在编程能力评估中被视作专门狙击Kimi的产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "claude",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在处理复杂任务的场景中，Kimi被用作Claude的国产平替方案",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi",
+      "target": "codex",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在游戏代码编写测试中与Codex进行了对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi",
+      "target": "glm",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "GLM5.2在编程能力评估中被视作专门狙击Kimi的产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi",
+      "target": "minimax",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "MiniMax低迷的财务数据被认为砸了同行Kimi的估值盘",
+      "weight": 3,
+      "strength": 3,
+      "effective_weight": 12,
+      "article_count": 3,
+      "evidence_articles": [
+        "049",
+        "057",
+        "068"
+      ],
+      "evidences": [
+        {
+          "article_id": "068",
+          "title": "云端OpenClaw更是路边一条",
+          "permalink": "/articles/068",
+          "markdown_link": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+          "path": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+          "date": "2026-03-04",
+          "label": "Kimi与MiniMax作为大模型公司竞相PR收入与ARR",
+          "weight": 1
+        },
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "Kimi以大额融资回应MiniMax和智谱的上市",
+          "weight": 1
+        },
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "MiniMax低迷的财务数据被认为砸了同行Kimi的估值盘",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "qwen",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "千问和Kimi都是国内AI对话助手",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi",
+      "target": "seed",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为参加基准测试的竞品模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "同为参加基准测试的竞品模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "咸鱼之王",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Kimi通过投流等方式与《咸鱼之王》争抢用户留存",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "005"
+      ],
+      "evidences": [
+        {
+          "article_id": "005",
+          "title": "Kimi没有梦想",
+          "permalink": "/articles/005",
+          "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "date": "2025-06-24",
+          "label": "Kimi通过投流等方式与《咸鱼之王》争抢用户留存",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "智谱ai",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "智谱低迷的财务数据被认为砸了同行Kimi的估值盘",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "049",
+        "057"
+      ],
+      "evidences": [
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "Kimi以大额融资回应MiniMax和智谱的上市",
+          "weight": 1
+        },
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "智谱低迷的财务数据被认为砸了同行Kimi的估值盘",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "豆包",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "豆包与Kimi等模型厂商产品作为对比竞争提及",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "065"
+      ],
+      "evidences": [
+        {
+          "article_id": "065",
+          "title": "豆包有Seed，火山有种",
+          "permalink": "/articles/065",
+          "markdown_link": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+          "path": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+          "date": "2026-02-14",
+          "label": "豆包与Kimi等模型厂商产品作为对比竞争提及",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "阶跃星辰",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同属AI四小虎的直接竞争对手",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "057"
+      ],
+      "evidences": [
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "同属AI四小虎的直接竞争对手",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "MiniMax低迷的财务数据被认为砸了同行Kimi的估值盘",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qwen",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "千问和Kimi都是国内AI对话助手",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "seed",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为参加基准测试的竞品模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "咸鱼之王",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Kimi通过投流等方式与《咸鱼之王》争抢用户留存",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "智谱ai",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "智谱低迷的财务数据被认为砸了同行Kimi的估值盘",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "豆包",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "豆包与Kimi等模型厂商产品作为对比竞争提及",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同属AI四小虎的直接竞争对手",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "凯一",
+      "target": "kimi",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "凯一因为不满意Kimi的生成表现，当即关掉了Kimi会员自动续费",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "105"
+      ],
+      "evidences": [
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "凯一因为不满意Kimi的生成表现，当即关掉了Kimi会员自动续费",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "月之暗面",
+      "target": "kimi",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "月之暗面是Kimi的开发公司",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "010",
+        "036"
+      ],
+      "evidences": [
+        {
+          "article_id": "036",
+          "title": "灵感式写作",
+          "permalink": "/articles/036",
+          "markdown_link": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "path": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "date": "2025-11-19",
+          "label": "Moonshot(月之暗面)开发Kimi模型及其开放平台",
+          "weight": 1
+        },
+        {
+          "article_id": "010",
+          "title": "YouWare说明AI创始人需要神性",
+          "permalink": "/articles/010",
+          "markdown_link": "articles/010_2025-07-08_葬爱咸鱼_YouWare说明AI创始人需要神性.md",
+          "path": "articles/010_2025-07-08_葬爱咸鱼_YouWare说明AI创始人需要神性.md",
+          "date": "2025-07-08",
+          "label": "月之暗面是Kimi的开发公司",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cherry-studio",
+      "target": "kimi",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Cherry Studio支持切换并直接调用Kimi(K2 Thinking)模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "036"
+      ],
+      "evidences": [
+        {
+          "article_id": "036",
+          "title": "灵感式写作",
+          "permalink": "/articles/036",
+          "markdown_link": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "path": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "date": "2025-11-19",
+          "label": "Cherry Studio支持切换并直接调用Kimi(K2 Thinking)模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "kimi",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "作者将Claude Code的后端模型切换为Kimi，组合使用以自动拆解和执行写作任务",
+      "weight": 3,
+      "strength": 2,
+      "effective_weight": 9,
+      "article_count": 3,
+      "evidence_articles": [
+        "024",
+        "027",
+        "029"
+      ],
+      "evidences": [
+        {
+          "article_id": "029",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/029",
+          "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-16",
+          "label": "Kimi模型可作为后端API接入Claude Code使用",
+          "weight": 1
+        },
+        {
+          "article_id": "027",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/027",
+          "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-09",
+          "label": "Claude Code可以接入Kimi作为后端模型运行",
+          "weight": 1
+        },
+        {
+          "article_id": "024",
+          "title": "像编程一样写作",
+          "permalink": "/articles/024",
+          "markdown_link": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+          "path": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+          "date": "2025-09-22",
+          "label": "作者将Claude Code的后端模型切换为Kimi，组合使用以自动拆解和执行写作任务",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "美团龙珠",
+      "target": "kimi",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "美团龙珠高位接盘投资了Kimi",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "099"
+      ],
+      "evidences": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "美团龙珠高位接盘投资了Kimi",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "kimi",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "阿里投资了Kimi",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "阿里投资了Kimi",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "杨植麟",
+      "target": "kimi",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "作为Kimi高管发布全员信强调公司融资充裕",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "049"
+      ],
+      "evidences": [
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "作为Kimi高管发布全员信强调公司融资充裕",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "明超平",
+      "target": "kimi",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "明超平曾担任Kimi的产品经理",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "010",
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "明超平此前是Kimi的产品经理",
+          "weight": 1
+        },
+        {
+          "article_id": "010",
+          "title": "YouWare说明AI创始人需要神性",
+          "permalink": "/articles/010",
+          "markdown_link": "articles/010_2025-07-08_葬爱咸鱼_YouWare说明AI创始人需要神性.md",
+          "path": "articles/010_2025-07-08_葬爱咸鱼_YouWare说明AI创始人需要神性.md",
+          "date": "2025-07-08",
+          "label": "明超平曾担任Kimi的产品经理",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "deepseek",
+      "target": "kimi",
+      "score": 0.9014,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 8 篇文章；共享 8 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "004",
+        "049",
+        "099",
+        "105",
+        "109"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "kimi",
+      "target": "字节跳动",
+      "score": 0.7133,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "040",
+        "065",
+        "085",
+        "110",
+        "112"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "chatgpt",
+      "target": "kimi",
+      "score": 0.6433,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "030",
+        "040",
+        "048",
+        "105"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "kimi",
+      "target": "阿里云",
+      "score": 0.5366,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "049",
+        "055",
+        "057",
+        "065"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "kimi",
+      "target": "阶跃桌面伙伴",
+      "score": 0.4964,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "027",
+        "029",
+        "030",
+        "057"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

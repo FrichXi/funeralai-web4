@@ -1,0 +1,128 @@
+{
+  "node": {
+    "id": "许高",
+    "name": "许高",
+    "type": "person",
+    "description": "Plaud公司的核心高管或创始人",
+    "mention_count": 7,
+    "article_count": 3,
+    "aliases": [],
+    "tags": [
+      "FA出身"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "044",
+        "title": "Plaud善打游击战",
+        "date": "2025-12-23",
+        "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+        "permalink": "/articles/044",
+        "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "033",
+        "title": "搞AI硬件别装美国公司",
+        "date": "2025-11-14",
+        "path": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+        "permalink": "/articles/033",
+        "markdown_link": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "043",
+        "title": "Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子",
+        "date": "2025-12-18",
+        "path": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+        "permalink": "/articles/043",
+        "markdown_link": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0362
+  },
+  "links": [
+    {
+      "source": "许高",
+      "target": "plaud",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "许高是Plaud的创始人，2022年开始做录音笔。",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "044"
+      ],
+      "evidences": [
+        {
+          "article_id": "044",
+          "title": "Plaud善打游击战",
+          "permalink": "/articles/044",
+          "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "date": "2025-12-23",
+          "label": "许高是Plaud的创始人，2022年开始做录音笔。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "许高",
+      "target": "plaud",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "许高作为Plaud代表接受采访，说明其业务战略",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "033"
+      ],
+      "evidences": [
+        {
+          "article_id": "033",
+          "title": "搞AI硬件别装美国公司",
+          "permalink": "/articles/033",
+          "markdown_link": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+          "path": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+          "date": "2025-11-14",
+          "label": "许高作为Plaud代表接受采访，说明其业务战略",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "许高",
+      "target": "note",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "许高作为创始人主导了Plaud Note等产品的开发。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "044"
+      ],
+      "evidences": [
+        {
+          "article_id": "044",
+          "title": "Plaud善打游击战",
+          "permalink": "/articles/044",
+          "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "date": "2025-12-23",
+          "label": "许高作为创始人主导了Plaud Note等产品的开发。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

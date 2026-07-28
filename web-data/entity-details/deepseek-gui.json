@@ -1,0 +1,56 @@
+{
+  "node": {
+    "id": "deepseek-gui",
+    "name": "Deepseek GUI",
+    "type": "product",
+    "description": "Deepseek推出的图形界面产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "103",
+        "title": "Kimi看天讨饭吃",
+        "date": "2026-06-10",
+        "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "permalink": "/articles/103",
+        "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0147
+  },
+  "links": [
+    {
+      "source": "deepseek",
+      "target": "deepseek-gui",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Deepseek公司推出了Deepseek GUI",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "Deepseek公司推出了Deepseek GUI",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

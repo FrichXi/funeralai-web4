@@ -1,0 +1,97 @@
+{
+  "node": {
+    "id": "amoo",
+    "name": "Amoo",
+    "type": "product",
+    "description": "阶跃星辰推出的智能体应用",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "智能体"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "123",
+        "title": "阶跃软的不行来硬的",
+        "date": "2026-07-23",
+        "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+        "permalink": "/articles/123",
+        "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0345
+  },
+  "links": [
+    {
+      "source": "amoo",
+      "target": "anthropic",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Amoo的Logo被指在Anthropic Logo基础上加了刘海，设计高度相似",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "123"
+      ],
+      "evidences": [
+        {
+          "article_id": "123",
+          "title": "阶跃软的不行来硬的",
+          "permalink": "/articles/123",
+          "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "date": "2026-07-23",
+          "label": "Amoo的Logo被指在Anthropic Logo基础上加了刘海，设计高度相似",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "anthropic",
+      "target": "amoo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Amoo的Logo被指在Anthropic Logo基础上加了刘海，设计高度相似",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "amoo",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "阶跃星辰开发了Amoo智能体",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "123"
+      ],
+      "evidences": [
+        {
+          "article_id": "123",
+          "title": "阶跃软的不行来硬的",
+          "permalink": "/articles/123",
+          "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "date": "2026-07-23",
+          "label": "阶跃星辰开发了Amoo智能体",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

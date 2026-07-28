@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "迪士尼",
+    "name": "迪士尼",
+    "type": "company",
+    "description": "知名内容与影视IP公司",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "IP",
+      "内容版权"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "041",
+        "title": "感谢OiiOii，没人因你而失业",
+        "date": "2025-12-15",
+        "path": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+        "permalink": "/articles/041",
+        "markdown_link": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0106
+  },
+  "links": [
+    {
+      "source": "openai",
+      "target": "迪士尼",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "文中明确提到迪士尼与OpenAI签约，达成内容与AI视频生成的版权合作",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "041"
+      ],
+      "evidences": [
+        {
+          "article_id": "041",
+          "title": "感谢OiiOii，没人因你而失业",
+          "permalink": "/articles/041",
+          "markdown_link": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+          "path": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+          "date": "2025-12-15",
+          "label": "文中明确提到迪士尼与OpenAI签约，达成内容与AI视频生成的版权合作",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

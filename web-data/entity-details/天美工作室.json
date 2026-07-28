@@ -1,0 +1,86 @@
+{
+  "node": {
+    "id": "天美工作室",
+    "name": "天美工作室",
+    "type": "company",
+    "description": "腾讯旗下的游戏工作室",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "天美"
+    ],
+    "tags": [
+      "游戏开发"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "102",
+        "title": "腾讯做了一堆情感陪伴Agent",
+        "date": "2026-06-09",
+        "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "permalink": "/articles/102",
+        "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.021
+  },
+  "links": [
+    {
+      "source": "天美工作室",
+      "target": "三角洲行动",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "文中提及《三角洲行动》是天美工作室的产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "文中提及《三角洲行动》是天美工作室的产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "天美工作室",
+      "target": "王者荣耀",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "天美工作室开发的知名游戏",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "天美工作室开发的知名游戏",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

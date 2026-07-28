@@ -1,0 +1,100 @@
+{
+  "node": {
+    "id": "猫薄荷",
+    "name": "猫薄荷",
+    "type": "company",
+    "description": "00后创业团队，开发了MaineCoon社交世界模型",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [
+      "Catnip"
+    ],
+    "tags": [
+      "世界模型",
+      "社交大模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "113",
+        "title": "世界模型走了一些弯路",
+        "date": "2026-07-02",
+        "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+        "permalink": "/articles/113",
+        "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0307
+  },
+  "links": [
+    {
+      "source": "猫薄荷",
+      "target": "马卡龙",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中指出马卡龙和猫薄荷都存在自造基准测试、自封第一的行为",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "113"
+      ],
+      "evidences": [
+        {
+          "article_id": "113",
+          "title": "世界模型走了一些弯路",
+          "permalink": "/articles/113",
+          "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "date": "2026-07-02",
+          "label": "文中指出马卡龙和猫薄荷都存在自造基准测试、自封第一的行为",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "马卡龙",
+      "target": "猫薄荷",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中指出马卡龙和猫薄荷都存在自造基准测试、自封第一的行为",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "猫薄荷",
+      "target": "mainecoon",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "猫薄荷团队开发了MaineCoon社交世界模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "113"
+      ],
+      "evidences": [
+        {
+          "article_id": "113",
+          "title": "世界模型走了一些弯路",
+          "permalink": "/articles/113",
+          "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "date": "2026-07-02",
+          "label": "猫薄荷团队开发了MaineCoon社交世界模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

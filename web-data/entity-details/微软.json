@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "微软",
+    "name": "微软",
+    "type": "company",
+    "description": "全球科技巨头，零一万物早期立志对标的企业",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "Microsoft"
+    ],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "008",
+        "title": "前后不一李开复",
+        "date": "2025-06-27",
+        "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+        "permalink": "/articles/008",
+        "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0149
+  },
+  "links": [
+    {
+      "source": "微软",
+      "target": "零一万物",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "零一万物曾立志将自身打造为“AGI时代的微软”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "008"
+      ],
+      "evidences": [
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "零一万物曾立志将自身打造为“AGI时代的微软”",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "零一万物",
+      "target": "微软",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "零一万物曾立志将自身打造为“AGI时代的微软”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

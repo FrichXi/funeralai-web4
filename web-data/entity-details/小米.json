@@ -1,0 +1,265 @@
+{
+  "node": {
+    "id": "小米",
+    "name": "小米",
+    "type": "company",
+    "description": "科技公司，文中提及阶跃学到了其精髓",
+    "mention_count": 6,
+    "article_count": 5,
+    "aliases": [],
+    "tags": [
+      "手机",
+      "汽车",
+      "消费电子",
+      "科技公司"
+    ],
+    "references": 5,
+    "source_article_count": 5,
+    "source_articles": [
+      {
+        "article_id": "109",
+        "title": "智谱与Anthropic是母凭子贵",
+        "date": "2026-06-23",
+        "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "permalink": "/articles/109",
+        "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "123",
+        "title": "阶跃软的不行来硬的",
+        "date": "2026-07-23",
+        "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+        "permalink": "/articles/123",
+        "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "097",
+        "title": "光帆耳机拒绝长发男",
+        "date": "2026-05-28",
+        "path": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+        "permalink": "/articles/097",
+        "markdown_link": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "057",
+        "title": "AI四小虎进入狠活大赛",
+        "date": "2026-01-26",
+        "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "permalink": "/articles/057",
+        "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "040",
+        "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+        "date": "2025-12-12",
+        "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "permalink": "/articles/040",
+        "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 8,
+    "composite_weight": 0.089
+  },
+  "links": [
+    {
+      "source": "小米",
+      "target": "阶跃星辰",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为阶跃在商标设计上学到了小米的精髓",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "123"
+      ],
+      "evidences": [
+        {
+          "article_id": "123",
+          "title": "阶跃软的不行来硬的",
+          "permalink": "/articles/123",
+          "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "date": "2026-07-23",
+          "label": "作者认为阶跃在商标设计上学到了小米的精髓",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "小米",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为阶跃在商标设计上学到了小米的精髓",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "小米",
+      "target": "阶跃星辰",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "阶跃跨界到汽车产业，与小米同台竞技",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "057"
+      ],
+      "evidences": [
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "阶跃跨界到汽车产业，与小米同台竞技",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "小米",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "阶跃跨界到汽车产业，与小米同台竞技",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "小米",
+      "target": "hunter-alpha",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "小米上线了名为Hunter Alpha的匿名模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "109"
+      ],
+      "evidences": [
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "date": "2026-06-23",
+          "label": "小米上线了名为Hunter Alpha的匿名模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "小米",
+      "target": "小爱同学",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "小米是小爱同学的开发公司",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "097"
+      ],
+      "evidences": [
+        {
+          "article_id": "097",
+          "title": "光帆耳机拒绝长发男",
+          "permalink": "/articles/097",
+          "markdown_link": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+          "path": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+          "date": "2026-05-28",
+          "label": "小米是小爱同学的开发公司",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "雷军",
+      "target": "小米",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "雷军是小米的创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "040"
+      ],
+      "evidences": [
+        {
+          "article_id": "040",
+          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+          "permalink": "/articles/040",
+          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "date": "2025-12-12",
+          "label": "雷军是小米的创始人",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "五源",
+      "target": "小米",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "五源资本连投小米A到E轮",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "040"
+      ],
+      "evidences": [
+        {
+          "article_id": "040",
+          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+          "permalink": "/articles/040",
+          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "date": "2025-12-12",
+          "label": "五源资本连投小米A到E轮",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "刘芹",
+      "target": "小米",
+      "score": 0.3915,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "040"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

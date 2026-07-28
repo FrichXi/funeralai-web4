@@ -1,0 +1,109 @@
+{
+  "node": {
+    "id": "tv-show",
+    "name": "TV Show",
+    "type": "product",
+    "description": "LibTV里的社区功能，高度模仿TapTV。",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "社区功能"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "073",
+        "title": "Lovart狂做TapNow",
+        "date": "2026-03-19",
+        "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+        "permalink": "/articles/073",
+        "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0251
+  },
+  "links": [
+    {
+      "source": "taptv",
+      "target": "tv-show",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "LibTV的TV Show板块完全对标模仿了TapNow的TapTV板块。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "073"
+      ],
+      "evidences": [
+        {
+          "article_id": "073",
+          "title": "Lovart狂做TapNow",
+          "permalink": "/articles/073",
+          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "date": "2026-03-19",
+          "label": "LibTV的TV Show板块完全对标模仿了TapNow的TapTV板块。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "tv-show",
+      "target": "taptv",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "LibTV的TV Show板块完全对标模仿了TapNow的TapTV板块。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "libtv",
+      "target": "tv-show",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "TV Show是LibTV内置的功能模块。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "073"
+      ],
+      "evidences": [
+        {
+          "article_id": "073",
+          "title": "Lovart狂做TapNow",
+          "permalink": "/articles/073",
+          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "date": "2026-03-19",
+          "label": "TV Show是LibTV内置的功能模块。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "tapnow",
+      "target": "tv-show",
+      "score": 0.3743,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "073"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

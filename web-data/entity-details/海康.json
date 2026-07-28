@@ -1,0 +1,74 @@
+{
+  "node": {
+    "id": "海康",
+    "name": "海康",
+    "type": "company",
+    "description": "传统安防巨头，在业务落地中力压AI公司",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "海康威视"
+    ],
+    "tags": [
+      "传统企业",
+      "安防"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "006",
+        "title": "智谱的存在主义危机",
+        "date": "2025-06-25",
+        "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+        "permalink": "/articles/006",
+        "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0148
+  },
+  "links": [
+    {
+      "source": "商汤科技",
+      "target": "海康",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "商汤等AI企业在安防领域竞争不过海康这样的传统企业",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "006"
+      ],
+      "evidences": [
+        {
+          "article_id": "006",
+          "title": "智谱的存在主义危机",
+          "permalink": "/articles/006",
+          "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "date": "2025-06-25",
+          "label": "商汤等AI企业在安防领域竞争不过海康这样的传统企业",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "海康",
+      "target": "商汤科技",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "商汤等AI企业在安防领域竞争不过海康这样的传统企业",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

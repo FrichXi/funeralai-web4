@@ -1,0 +1,177 @@
+{
+  "node": {
+    "id": "快手",
+    "name": "快手",
+    "type": "company",
+    "description": "国内短视频平台，为可灵模型提供站内视频训练资源及场景生态。",
+    "mention_count": 11,
+    "article_count": 4,
+    "aliases": [],
+    "tags": [
+      "大厂",
+      "数字人",
+      "短视频平台"
+    ],
+    "references": 4,
+    "source_article_count": 4,
+    "source_articles": [
+      {
+        "article_id": "095",
+        "title": "4K的可灵没能复兴残酷底层物语",
+        "date": "2026-05-24",
+        "path": "articles/095_2026-05-24_骡子马_4K的可灵没能复兴残酷底层物语.md",
+        "permalink": "/articles/095",
+        "markdown_link": "articles/095_2026-05-24_骡子马_4K的可灵没能复兴残酷底层物语.md",
+        "mention_count": 8
+      },
+      {
+        "article_id": "113",
+        "title": "世界模型走了一些弯路",
+        "date": "2026-07-02",
+        "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+        "permalink": "/articles/113",
+        "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "104",
+        "title": "生数鉴定为鸭腿吃多了",
+        "date": "2026-06-15",
+        "path": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+        "permalink": "/articles/104",
+        "markdown_link": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "062",
+        "title": "Seedance 2.0让字节元神启动",
+        "date": "2026-02-10",
+        "path": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+        "permalink": "/articles/062",
+        "markdown_link": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0716
+  },
+  "links": [
+    {
+      "source": "字节跳动",
+      "target": "快手",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "如果字节的内容生态因AI变得廉价而崩溃，作为竞争对手的快手将会受益。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "062"
+      ],
+      "evidences": [
+        {
+          "article_id": "062",
+          "title": "Seedance 2.0让字节元神启动",
+          "permalink": "/articles/062",
+          "markdown_link": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+          "path": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+          "date": "2026-02-10",
+          "label": "如果字节的内容生态因AI变得廉价而崩溃，作为竞争对手的快手将会受益。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "快手",
+      "target": "字节跳动",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "如果字节的内容生态因AI变得廉价而崩溃，作为竞争对手的快手将会受益。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "快手",
+      "target": "kling-avatar",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "快手开发Kling-Avatar数字人产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "113"
+      ],
+      "evidences": [
+        {
+          "article_id": "113",
+          "title": "世界模型走了一些弯路",
+          "permalink": "/articles/113",
+          "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "date": "2026-07-02",
+          "label": "快手开发Kling-Avatar数字人产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "快手",
+      "target": "可灵",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "文章指出可灵使用快手得天独厚的站内资源进行训练，且从语境中体现出可灵隶属于快手。",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "095",
+        "104"
+      ],
+      "evidences": [
+        {
+          "article_id": "104",
+          "title": "生数鉴定为鸭腿吃多了",
+          "permalink": "/articles/104",
+          "markdown_link": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "path": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "date": "2026-06-15",
+          "label": "可灵是受快手大厂庇护的视频模型",
+          "weight": 1
+        },
+        {
+          "article_id": "095",
+          "title": "4K的可灵没能复兴残酷底层物语",
+          "permalink": "/articles/095",
+          "markdown_link": "articles/095_2026-05-24_骡子马_4K的可灵没能复兴残酷底层物语.md",
+          "path": "articles/095_2026-05-24_骡子马_4K的可灵没能复兴残酷底层物语.md",
+          "date": "2026-05-24",
+          "label": "文章指出可灵使用快手得天独厚的站内资源进行训练，且从语境中体现出可灵隶属于快手。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "即梦",
+      "target": "快手",
+      "score": 0.4025,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "062",
+        "095",
+        "104"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

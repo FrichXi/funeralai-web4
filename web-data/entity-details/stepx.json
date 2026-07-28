@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "stepx",
+    "name": "STEPX",
+    "type": "product",
+    "description": "阶跃星辰发布的大模型原生AI终端品牌",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI终端"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "123",
+        "title": "阶跃软的不行来硬的",
+        "date": "2026-07-23",
+        "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+        "permalink": "/articles/123",
+        "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0218
+  },
+  "links": [
+    {
+      "source": "阶跃星辰",
+      "target": "stepx",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "阶跃星辰发布了STEPX AI终端品牌",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "123"
+      ],
+      "evidences": [
+        {
+          "article_id": "123",
+          "title": "阶跃软的不行来硬的",
+          "permalink": "/articles/123",
+          "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "date": "2026-07-23",
+          "label": "阶跃星辰发布了STEPX AI终端品牌",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

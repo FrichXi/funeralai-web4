@@ -1,0 +1,91 @@
+{
+  "node": {
+    "id": "小云雀",
+    "name": "小云雀",
+    "type": "product",
+    "description": "字节旗下的AI工具，允许用户直接复制粘贴抖音爆款链接作为生成素材。",
+    "mention_count": 2,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "063",
+        "title": "剪映炒Seedance 2.0，炒出一种推背感",
+        "date": "2026-02-12",
+        "path": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+        "permalink": "/articles/063",
+        "markdown_link": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "062",
+        "title": "Seedance 2.0让字节元神启动",
+        "date": "2026-02-10",
+        "path": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+        "permalink": "/articles/062",
+        "markdown_link": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0233
+  },
+  "links": [
+    {
+      "source": "字节跳动",
+      "target": "小云雀",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "字节跳动开发了小云雀工具。",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "062"
+      ],
+      "evidences": [
+        {
+          "article_id": "062",
+          "title": "Seedance 2.0让字节元神启动",
+          "permalink": "/articles/062",
+          "markdown_link": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+          "path": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+          "date": "2026-02-10",
+          "label": "字节跳动开发了小云雀工具。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seedance",
+      "target": "小云雀",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "小云雀应用此前已开放Seedance模型的访问入口",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "063"
+      ],
+      "evidences": [
+        {
+          "article_id": "063",
+          "title": "剪映炒Seedance 2.0，炒出一种推背感",
+          "permalink": "/articles/063",
+          "markdown_link": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+          "path": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+          "date": "2026-02-12",
+          "label": "小云雀应用此前已开放Seedance模型的访问入口",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

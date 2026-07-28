@@ -1,0 +1,87 @@
+{
+  "node": {
+    "id": "token事业群",
+    "name": "Token事业群",
+    "type": "company",
+    "description": "阿里巴巴新成立的AI业务统筹组织，合并了原阿里云、淘天等AI业务",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "ATH"
+    ],
+    "tags": [
+      "AI整合",
+      "组织架构"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "112",
+        "title": "老天保佑Qwen救救阿里巴巴",
+        "date": "2026-07-02",
+        "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+        "permalink": "/articles/112",
+        "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0218
+  },
+  "links": [
+    {
+      "source": "阿里巴巴",
+      "target": "token事业群",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "阿里巴巴成立Token事业群(ATH)统筹AI业务",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "112"
+      ],
+      "evidences": [
+        {
+          "article_id": "112",
+          "title": "老天保佑Qwen救救阿里巴巴",
+          "permalink": "/articles/112",
+          "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "date": "2026-07-02",
+          "label": "阿里巴巴成立Token事业群(ATH)统筹AI业务",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "吴妈",
+      "target": "token事业群",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "吴妈直接领导阿里Token Foundry事业部",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "112"
+      ],
+      "evidences": [
+        {
+          "article_id": "112",
+          "title": "老天保佑Qwen救救阿里巴巴",
+          "permalink": "/articles/112",
+          "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "date": "2026-07-02",
+          "label": "吴妈直接领导阿里Token Foundry事业部",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

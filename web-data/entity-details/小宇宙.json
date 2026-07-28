@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "小宇宙",
+    "name": "小宇宙",
+    "type": "product",
+    "description": "国内流行的播客收听平台",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "播客平台"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "014",
+        "title": "除了投资人，没人需要AI播客",
+        "date": "2025-08-07",
+        "path": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+        "permalink": "/articles/014",
+        "markdown_link": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0167
+  },
+  "links": [
+    {
+      "source": "chatpods",
+      "target": "小宇宙",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对ChatPods生成的摘要模式提出质疑，对比用户直接去小宇宙收听原播客的行为逻辑",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "014"
+      ],
+      "evidences": [
+        {
+          "article_id": "014",
+          "title": "除了投资人，没人需要AI播客",
+          "permalink": "/articles/014",
+          "markdown_link": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "path": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "date": "2025-08-07",
+          "label": "文章对ChatPods生成的摘要模式提出质疑，对比用户直接去小宇宙收听原播客的行为逻辑",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "小宇宙",
+      "target": "chatpods",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对ChatPods生成的摘要模式提出质疑，对比用户直接去小宇宙收听原播客的行为逻辑",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

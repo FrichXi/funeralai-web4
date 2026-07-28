@@ -1,0 +1,150 @@
+{
+  "node": {
+    "id": "vidu-s1",
+    "name": "Vidu S1",
+    "type": "product",
+    "description": "生数科技的实时交互模型/虚拟陪伴产品",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "实时交互",
+      "虚拟陪伴"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "113",
+        "title": "世界模型走了一些弯路",
+        "date": "2026-07-02",
+        "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+        "permalink": "/articles/113",
+        "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 6,
+    "composite_weight": 0.0497
+  },
+  "links": [
+    {
+      "source": "chatgpt",
+      "target": "vidu-s1",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比Vidu S1与ChatGPT语音模式的延迟和双工体验",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "113"
+      ],
+      "evidences": [
+        {
+          "article_id": "113",
+          "title": "世界模型走了一些弯路",
+          "permalink": "/articles/113",
+          "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "date": "2026-07-02",
+          "label": "文中对比Vidu S1与ChatGPT语音模式的延迟和双工体验",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "vidu-s1",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比Vidu S1与ChatGPT语音模式的延迟和双工体验",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "vidu-s1",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比Vidu S1与豆包语音通话的低延迟全双工体验",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "113"
+      ],
+      "evidences": [
+        {
+          "article_id": "113",
+          "title": "世界模型走了一些弯路",
+          "permalink": "/articles/113",
+          "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "date": "2026-07-02",
+          "label": "文中对比Vidu S1与豆包语音通话的低延迟全双工体验",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包",
+      "target": "vidu-s1",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比Vidu S1与豆包语音通话的低延迟全双工体验",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "mainecoon",
+      "target": "vidu-s1",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为实时视频生成/虚拟陪伴赛道的竞品，且都被批评延迟高、半双工",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "113"
+      ],
+      "evidences": [
+        {
+          "article_id": "113",
+          "title": "世界模型走了一些弯路",
+          "permalink": "/articles/113",
+          "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "date": "2026-07-02",
+          "label": "两者均为实时视频生成/虚拟陪伴赛道的竞品，且都被批评延迟高、半双工",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "vidu-s1",
+      "target": "mainecoon",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为实时视频生成/虚拟陪伴赛道的竞品，且都被批评延迟高、半双工",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

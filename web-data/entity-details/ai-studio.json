@@ -1,0 +1,97 @@
+{
+  "node": {
+    "id": "ai-studio",
+    "name": "AI Studio",
+    "type": "product",
+    "description": "Google推出的纯开发者大模型对话网站",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "开发者平台"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "021",
+        "title": "Cherry Studio是一个伟大的AI工具",
+        "date": "2025-09-11",
+        "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+        "permalink": "/articles/021",
+        "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0219
+  },
+  "links": [
+    {
+      "source": "ai-studio",
+      "target": "cherry-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了Cherry Studio和Google AI Studio在分支功能、前端UI及加载速度上的差异",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "021"
+      ],
+      "evidences": [
+        {
+          "article_id": "021",
+          "title": "Cherry Studio是一个伟大的AI工具",
+          "permalink": "/articles/021",
+          "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "date": "2025-09-11",
+          "label": "文章对比了Cherry Studio和Google AI Studio在分支功能、前端UI及加载速度上的差异",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cherry-studio",
+      "target": "ai-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了Cherry Studio和Google AI Studio在分支功能、前端UI及加载速度上的差异",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "谷歌",
+      "target": "ai-studio",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Google推出了AI Studio网站",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "021"
+      ],
+      "evidences": [
+        {
+          "article_id": "021",
+          "title": "Cherry Studio是一个伟大的AI工具",
+          "permalink": "/articles/021",
+          "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "date": "2025-09-11",
+          "label": "Google推出了AI Studio网站",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "知识星球",
+    "name": "知识星球",
+    "type": "product",
+    "description": "社群付费产品，文中用于比喻Agent收费模式",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "付费社群"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "090",
+        "title": "Bloome重做元宝派",
+        "date": "2026-05-12",
+        "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "permalink": "/articles/090",
+        "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0202
+  },
+  "links": [
+    {
+      "source": "bloome",
+      "target": "知识星球",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Bloome内的Agent付费私聊模式被形容为神似知识星球",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "Bloome内的Agent付费私聊模式被形容为神似知识星球",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "知识星球",
+      "target": "bloome",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Bloome内的Agent付费私聊模式被形容为神似知识星球",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

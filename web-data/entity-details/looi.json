@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "looi",
+    "name": "Looi",
+    "type": "product",
+    "description": "不带屏幕、需要放置手机作为屏幕的桌面机器人",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "手机支架",
+      "桌面机器人"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "108",
+        "title": "深圳AI硬件特别正常",
+        "date": "2026-06-23",
+        "path": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+        "permalink": "/articles/108",
+        "markdown_link": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0264
+  },
+  "links": [
+    {
+      "source": "looi",
+      "target": "m5stack桌面机器人",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将M5Stack桌面机器人的功能丰富度与Looi进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "108"
+      ],
+      "evidences": [
+        {
+          "article_id": "108",
+          "title": "深圳AI硬件特别正常",
+          "permalink": "/articles/108",
+          "markdown_link": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+          "path": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+          "date": "2026-06-23",
+          "label": "作者将M5Stack桌面机器人的功能丰富度与Looi进行了对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "m5stack桌面机器人",
+      "target": "looi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将M5Stack桌面机器人的功能丰富度与Looi进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,97 @@
+{
+  "node": {
+    "id": "陪我",
+    "name": "陪我",
+    "type": "product",
+    "description": "孙宇晨曾创办的陌生人社交语音房APP，被认为比马卡龙更具真实需求。",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [
+      "陪我APP"
+    ],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "015",
+        "title": "在马卡龙面前，孙宇晨和Web3都像是实体经济",
+        "date": "2025-08-18",
+        "path": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+        "permalink": "/articles/015",
+        "markdown_link": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0232
+  },
+  "links": [
+    {
+      "source": "陪我",
+      "target": "马卡龙",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将马卡龙与孙宇晨的陪我APP进行对比，认为后者至少有真实需求。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "015"
+      ],
+      "evidences": [
+        {
+          "article_id": "015",
+          "title": "在马卡龙面前，孙宇晨和Web3都像是实体经济",
+          "permalink": "/articles/015",
+          "markdown_link": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+          "path": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+          "date": "2025-08-18",
+          "label": "文章将马卡龙与孙宇晨的陪我APP进行对比，认为后者至少有真实需求。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "马卡龙",
+      "target": "陪我",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将马卡龙与孙宇晨的陪我APP进行对比，认为后者至少有真实需求。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "孙宇晨",
+      "target": "陪我",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "孙宇晨曾推出并运营过陪我APP。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "015"
+      ],
+      "evidences": [
+        {
+          "article_id": "015",
+          "title": "在马卡龙面前，孙宇晨和Web3都像是实体经济",
+          "permalink": "/articles/015",
+          "markdown_link": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+          "path": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+          "date": "2025-08-18",
+          "label": "孙宇晨曾推出并运营过陪我APP。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

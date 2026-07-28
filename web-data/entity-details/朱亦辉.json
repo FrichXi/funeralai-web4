@@ -1,0 +1,129 @@
+{
+  "node": {
+    "id": "朱亦辉",
+    "name": "朱亦辉",
+    "type": "person",
+    "description": "葬AI的朋友，解释了MiniMax M3的市场认知问题",
+    "mention_count": 4,
+    "article_count": 3,
+    "aliases": [],
+    "tags": [
+      "行业人士",
+      "行业评论"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "052",
+        "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+        "date": "2026-01-16",
+        "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "permalink": "/articles/052",
+        "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "117",
+        "title": "我来给MiniMax道歉了",
+        "date": "2026-07-11",
+        "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "permalink": "/articles/117",
+        "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "116",
+        "title": "民办大模型MiniMax努力专升本",
+        "date": "2026-07-09",
+        "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "permalink": "/articles/116",
+        "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.044
+  },
+  "links": [
+    {
+      "source": "朱亦辉",
+      "target": "minimax",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "朱亦辉解释MiniMax M3核心科技是洗脑能力，强行对标Kimi",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "116"
+      ],
+      "evidences": [
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "朱亦辉解释MiniMax M3核心科技是洗脑能力，强行对标Kimi",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "朱亦辉",
+      "target": "minimax-m3",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "朱亦辉认为M3核心科技是叙事能力，而非真实技术水平",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "朱亦辉认为M3核心科技是叙事能力，而非真实技术水平",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "朱亦辉",
+      "target": "flova",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "朱亦辉在群里吹捧过Flova，称其为一句话生成产品领域的SOTA",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "052"
+      ],
+      "evidences": [
+        {
+          "article_id": "052",
+          "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+          "permalink": "/articles/052",
+          "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "date": "2026-01-16",
+          "label": "朱亦辉在群里吹捧过Flova，称其为一句话生成产品领域的SOTA",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,97 @@
+{
+  "node": {
+    "id": "商汤3d数字人",
+    "name": "商汤3D数字人",
+    "type": "product",
+    "description": "商汤科技开发的3D数字人产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "数字人"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "085",
+        "title": "谁是宇宙第一FA",
+        "date": "2026-04-27",
+        "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "permalink": "/articles/085",
+        "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0261
+  },
+  "links": [
+    {
+      "source": "vivix",
+      "target": "商汤3d数字人",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者体验后评价Vivix的产品与商汤3D数字人差不多",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "作者体验后评价Vivix的产品与商汤3D数字人差不多",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "商汤3d数字人",
+      "target": "vivix",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者体验后评价Vivix的产品与商汤3D数字人差不多",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "商汤科技",
+      "target": "商汤3d数字人",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "商汤开发的3D数字人项目",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "商汤开发的3D数字人项目",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

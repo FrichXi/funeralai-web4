@@ -1,0 +1,112 @@
+{
+  "node": {
+    "id": "谷歌翻译",
+    "name": "谷歌翻译",
+    "type": "product",
+    "description": "翻译工具",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [
+      "Google Translate"
+    ],
+    "tags": [
+      "翻译"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "091",
+        "title": "中亚世界没有豆包信仰",
+        "date": "2026-05-14",
+        "path": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+        "permalink": "/articles/091",
+        "markdown_link": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0371
+  },
+  "links": [
+    {
+      "source": "qwen",
+      "target": "谷歌翻译",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "千问在菜单翻译场景中也被用来替代谷歌翻译；但因豆包/千问不支持俄语同传，又与谷歌翻译形成互补对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "091"
+      ],
+      "evidences": [
+        {
+          "article_id": "091",
+          "title": "中亚世界没有豆包信仰",
+          "permalink": "/articles/091",
+          "markdown_link": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+          "path": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+          "date": "2026-05-14",
+          "label": "千问在菜单翻译场景中也被用来替代谷歌翻译；但因豆包/千问不支持俄语同传，又与谷歌翻译形成互补对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "谷歌翻译",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "千问在菜单翻译场景中也被用来替代谷歌翻译；但因豆包/千问不支持俄语同传，又与谷歌翻译形成互补对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "谷歌翻译",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为在旅游翻译场景中，由于存在上下文，豆包的体验远好于谷歌翻译",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "091"
+      ],
+      "evidences": [
+        {
+          "article_id": "091",
+          "title": "中亚世界没有豆包信仰",
+          "permalink": "/articles/091",
+          "markdown_link": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+          "path": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+          "date": "2026-05-14",
+          "label": "作者认为在旅游翻译场景中，由于存在上下文，豆包的体验远好于谷歌翻译",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包",
+      "target": "谷歌翻译",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为在旅游翻译场景中，由于存在上下文，豆包的体验远好于谷歌翻译",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

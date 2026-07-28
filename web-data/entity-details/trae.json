@@ -1,0 +1,250 @@
+{
+  "node": {
+    "id": "trae",
+    "name": "Trae",
+    "type": "product",
+    "description": "被称为国产之光的AI代码工具",
+    "mention_count": 8,
+    "article_count": 3,
+    "aliases": [
+      "Trae Work"
+    ],
+    "tags": [
+      "AI工具",
+      "AI编程",
+      "国产AI",
+      "开发工具",
+      "编程工具"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "111",
+        "title": "用豆包办公得坐小孩那桌",
+        "date": "2026-06-25",
+        "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+        "permalink": "/articles/111",
+        "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "103",
+        "title": "Kimi看天讨饭吃",
+        "date": "2026-06-10",
+        "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "permalink": "/articles/103",
+        "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "100",
+        "title": "网吧黑客松里有真黑客",
+        "date": "2026-06-07",
+        "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+        "permalink": "/articles/100",
+        "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 8,
+    "composite_weight": 0.0883
+  },
+  "links": [
+    {
+      "source": "trae",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为豆包的专业版在形态上看起来和Trae Work没有区别，疑似内部赛马",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "作者认为豆包的专业版在形态上看起来和Trae Work没有区别，疑似内部赛马",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包",
+      "target": "trae",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为豆包的专业版在形态上看起来和Trae Work没有区别，疑似内部赛马",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi-work",
+      "target": "trae",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "一众如Trae的编程工具跟风进行营销或开发",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "一众如Trae的编程工具跟风进行营销或开发",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "qoder",
+      "target": "trae",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者被共同作为“国产之光”的同类代码工具并列提及",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "100"
+      ],
+      "evidences": [
+        {
+          "article_id": "100",
+          "title": "网吧黑客松里有真黑客",
+          "permalink": "/articles/100",
+          "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "date": "2026-06-07",
+          "label": "两者被共同作为“国产之光”的同类代码工具并列提及",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "trae",
+      "target": "kimi-work",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "一众如Trae的编程工具跟风进行营销或开发",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "trae",
+      "target": "qoder",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者被共同作为“国产之光”的同类代码工具并列提及",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "字节跳动",
+      "target": "trae",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "字节大力投入Trae",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "103",
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "Trae是明确归属于字节跳动旗下的AI编程产品",
+          "weight": 1
+        },
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "字节大力投入Trae",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seed",
+      "target": "trae",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "作者在测试中将Doubao-Seed-2.1-pro模型接入了Trae中执行编程任务",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "作者在测试中将Doubao-Seed-2.1-pro模型接入了Trae中执行编程任务",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "claude",
+      "target": "trae",
+      "score": 0.5089,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "100",
+        "103",
+        "111"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

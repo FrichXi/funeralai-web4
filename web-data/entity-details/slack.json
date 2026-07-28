@@ -1,0 +1,69 @@
+{
+  "node": {
+    "id": "slack",
+    "name": "Slack",
+    "type": "product",
+    "description": "企业级通讯工具，被用作Slock的对标对象",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "089",
+        "title": "Slock说明AI群聊不成立",
+        "date": "2026-05-10",
+        "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+        "permalink": "/articles/089",
+        "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0201
+  },
+  "links": [
+    {
+      "source": "slack",
+      "target": "slock",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Slock号称是AI版的Slack",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "089"
+      ],
+      "evidences": [
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "date": "2026-05-10",
+          "label": "Slock号称是AI版的Slack",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "slock",
+      "target": "slack",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Slock号称是AI版的Slack",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

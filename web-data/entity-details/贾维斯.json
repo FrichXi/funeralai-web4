@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "贾维斯",
+    "name": "贾维斯",
+    "type": "product",
+    "description": "钢铁侠的AI助手，文中作为Agent OS终极形态的比喻对象",
+    "mention_count": 4,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Agent OS"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "030",
+        "title": "Agent OS的本地入口",
+        "date": "2025-10-20",
+        "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "permalink": "/articles/030",
+        "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "mention_count": 4
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.019
+  },
+  "links": [
+    {
+      "source": "贾维斯",
+      "target": "阶跃桌面伙伴",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "钟十六希望把阶跃桌面助手做成类似贾维斯一样的Agent OS形态",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "030"
+      ],
+      "evidences": [
+        {
+          "article_id": "030",
+          "title": "Agent OS的本地入口",
+          "permalink": "/articles/030",
+          "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "date": "2025-10-20",
+          "label": "钟十六希望把阶跃桌面助手做成类似贾维斯一样的Agent OS形态",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阶跃桌面伙伴",
+      "target": "贾维斯",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "钟十六希望把阶跃桌面助手做成类似贾维斯一样的Agent OS形态",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

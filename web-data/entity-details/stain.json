@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "stain",
+    "name": "Stain",
+    "type": "person",
+    "description": "Grimo 开发者",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI游戏引擎"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "096",
+        "title": "葬AI一周年，我不再用AI写作",
+        "date": "2026-05-27",
+        "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+        "permalink": "/articles/096",
+        "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0187
+  },
+  "links": [
+    {
+      "source": "stain",
+      "target": "grimo",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Stain开发/主导了Grimo",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "096"
+      ],
+      "evidences": [
+        {
+          "article_id": "096",
+          "title": "葬AI一周年，我不再用AI写作",
+          "permalink": "/articles/096",
+          "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "date": "2026-05-27",
+          "label": "Stain开发/主导了Grimo",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

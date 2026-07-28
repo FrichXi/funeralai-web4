@@ -1,0 +1,60 @@
+{
+  "node": {
+    "id": "滴滴打车",
+    "name": "滴滴打车",
+    "type": "product",
+    "description": "出行服务平台，光帆耳机集成了其打车功能",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "滴滴"
+    ],
+    "tags": [
+      "出行服务"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "097",
+        "title": "光帆耳机拒绝长发男",
+        "date": "2026-05-28",
+        "path": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+        "permalink": "/articles/097",
+        "markdown_link": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0143
+  },
+  "links": [
+    {
+      "source": "光帆耳机",
+      "target": "滴滴打车",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "光帆耳机集成了滴滴的打车服务作为其重点功能",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "097"
+      ],
+      "evidences": [
+        {
+          "article_id": "097",
+          "title": "光帆耳机拒绝长发男",
+          "permalink": "/articles/097",
+          "markdown_link": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+          "path": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+          "date": "2026-05-28",
+          "label": "光帆耳机集成了滴滴的打车服务作为其重点功能",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

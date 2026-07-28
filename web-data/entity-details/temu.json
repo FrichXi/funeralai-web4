@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "temu",
+    "name": "Temu",
+    "type": "company",
+    "description": "跨境电商平台，付铖曾在此销售3D打印模型",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "电商"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "066",
+        "title": "AI编程创造世界",
+        "date": "2026-02-24",
+        "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "permalink": "/articles/066",
+        "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0198
+  },
+  "links": [
+    {
+      "source": "mulerun",
+      "target": "temu",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将MuleRun上卖Agent的商业逻辑与在Temu卖3D模型进行了本质层面的类比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "066"
+      ],
+      "evidences": [
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "文中将MuleRun上卖Agent的商业逻辑与在Temu卖3D模型进行了本质层面的类比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "temu",
+      "target": "mulerun",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将MuleRun上卖Agent的商业逻辑与在Temu卖3D模型进行了本质层面的类比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,97 @@
+{
+  "node": {
+    "id": "sekai",
+    "name": "Sekai",
+    "type": "product",
+    "description": "小红书形态的双列图文AI社交产品",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI社交"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "081",
+        "title": "小登领导AI社交",
+        "date": "2026-04-15",
+        "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+        "permalink": "/articles/081",
+        "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0296
+  },
+  "links": [
+    {
+      "source": "elys",
+      "target": "sekai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同为AI社交产品，Julian将其产品机制和体验与Elys做对比探讨",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "081"
+      ],
+      "evidences": [
+        {
+          "article_id": "081",
+          "title": "小登领导AI社交",
+          "permalink": "/articles/081",
+          "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "date": "2026-04-15",
+          "label": "同为AI社交产品，Julian将其产品机制和体验与Elys做对比探讨",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "sekai",
+      "target": "elys",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同为AI社交产品，Julian将其产品机制和体验与Elys做对比探讨",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "julian",
+      "target": "sekai",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Julian上一段创业做了一个名叫Sekai的AI社交产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "081"
+      ],
+      "evidences": [
+        {
+          "article_id": "081",
+          "title": "小登领导AI社交",
+          "permalink": "/articles/081",
+          "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "date": "2026-04-15",
+          "label": "Julian上一段创业做了一个名叫Sekai的AI社交产品",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

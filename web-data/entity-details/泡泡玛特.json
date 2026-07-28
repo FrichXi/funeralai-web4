@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "泡泡玛特",
+    "name": "泡泡玛特",
+    "type": "company",
+    "description": "国内知名潮玩公司，被用于对比MiniMax的审美能力",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "审美",
+      "潮玩"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "004",
+        "title": "MiniMax的胖猫宇宙",
+        "date": "2025-06-23",
+        "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "permalink": "/articles/004",
+        "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0148
+  },
+  "links": [
+    {
+      "source": "minimax",
+      "target": "泡泡玛特",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将MiniMax在AI产品上的审美和受众把控力与潮玩公司泡泡玛特进行类比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "004"
+      ],
+      "evidences": [
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "date": "2025-06-23",
+          "label": "文章将MiniMax在AI产品上的审美和受众把控力与潮玩公司泡泡玛特进行类比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "泡泡玛特",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将MiniMax在AI产品上的审美和受众把控力与潮玩公司泡泡玛特进行类比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

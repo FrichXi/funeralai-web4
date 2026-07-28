@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "frame-io",
+    "name": "Frame.io",
+    "type": "product",
+    "description": "团队视频审片工具，可通过插件与Creative OS集成",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "协作工具",
+      "审片"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "124",
+        "title": "TapNow想把你困在系统里",
+        "date": "2026-07-26",
+        "path": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+        "permalink": "/articles/124",
+        "markdown_link": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0192
+  },
+  "links": [
+    {
+      "source": "creative-os",
+      "target": "frame-io",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Creative OS通过插件拓展功能连接Frame.io进行审片",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "124"
+      ],
+      "evidences": [
+        {
+          "article_id": "124",
+          "title": "TapNow想把你困在系统里",
+          "permalink": "/articles/124",
+          "markdown_link": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "path": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "date": "2026-07-26",
+          "label": "Creative OS通过插件拓展功能连接Frame.io进行审片",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

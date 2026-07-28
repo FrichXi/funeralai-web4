@@ -1,0 +1,130 @@
+{
+  "node": {
+    "id": "大冰",
+    "name": "大冰",
+    "type": "person",
+    "description": "知名人物，在文章标题和正文中被用作嘲讽Agnes及其团队的比喻对象",
+    "mention_count": 13,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "比喻对象"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "039",
+        "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+        "date": "2025-12-05",
+        "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+        "permalink": "/articles/039",
+        "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+        "mention_count": 7
+      },
+      {
+        "article_id": "047",
+        "title": "我被AI圈大冰投诉了（附真诚道歉信）",
+        "date": "2025-12-29",
+        "path": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+        "permalink": "/articles/047",
+        "markdown_link": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+        "mention_count": 6
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0471
+  },
+  "links": [
+    {
+      "source": "agnes",
+      "target": "大冰",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes公司因过度炒作被比喻为AI圈的大冰",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "039",
+        "047"
+      ],
+      "evidences": [
+        {
+          "article_id": "047",
+          "title": "我被AI圈大冰投诉了（附真诚道歉信）",
+          "permalink": "/articles/047",
+          "markdown_link": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "path": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "date": "2025-12-29",
+          "label": "文章标题及正文将Agnes及其团队比作AI圈大冰进行嘲讽",
+          "weight": 1
+        },
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "Agnes公司因过度炒作被比喻为AI圈的大冰",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "大冰",
+      "target": "agnes",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes公司因过度炒作被比喻为AI圈的大冰",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "大冰",
+      "target": "杨通",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "创始人杨通被调侃炒作到自己成为AI圈的大冰",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "039"
+      ],
+      "evidences": [
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "创始人杨通被调侃炒作到自己成为AI圈的大冰",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "杨通",
+      "target": "大冰",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "创始人杨通被调侃炒作到自己成为AI圈的大冰",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

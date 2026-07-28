@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "mova",
+    "name": "MOVA",
+    "type": "company",
+    "description": "开发了Pilot 70扫地机器人模组的公司",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "硬件厂商"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "061",
+        "title": "AI硬件炒作上天了",
+        "date": "2026-02-03",
+        "path": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+        "permalink": "/articles/061",
+        "markdown_link": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0115
+  },
+  "links": [
+    {
+      "source": "mova",
+      "target": "pilot-70",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MOVA开发了Pilot 70扫地机器人模组",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "061"
+      ],
+      "evidences": [
+        {
+          "article_id": "061",
+          "title": "AI硬件炒作上天了",
+          "permalink": "/articles/061",
+          "markdown_link": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+          "path": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+          "date": "2026-02-03",
+          "label": "MOVA开发了Pilot 70扫地机器人模组",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "奇迹暖暖",
+    "name": "奇迹暖暖",
+    "type": "product",
+    "description": "换装类游戏，《五星好市民》的换装玩法被比作该游戏",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "换装游戏"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "083",
+        "title": "估值20亿的AI游戏公司，做了款像素GTA",
+        "date": "2026-04-22",
+        "path": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+        "permalink": "/articles/083",
+        "markdown_link": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0196
+  },
+  "links": [
+    {
+      "source": "五星好市民",
+      "target": "奇迹暖暖",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "换装捏脸玩法被比作《奇迹暖暖》",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "083"
+      ],
+      "evidences": [
+        {
+          "article_id": "083",
+          "title": "估值20亿的AI游戏公司，做了款像素GTA",
+          "permalink": "/articles/083",
+          "markdown_link": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+          "path": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+          "date": "2026-04-22",
+          "label": "换装捏脸玩法被比作《奇迹暖暖》",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "奇迹暖暖",
+      "target": "五星好市民",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "换装捏脸玩法被比作《奇迹暖暖》",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "小鹏",
+    "name": "小鹏",
+    "type": "company",
+    "description": "拼命强调自己是AI公司的造车企业",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI公司",
+      "汽车"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "057",
+        "title": "AI四小虎进入狠活大赛",
+        "date": "2026-01-26",
+        "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "permalink": "/articles/057",
+        "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0176
+  },
+  "links": [
+    {
+      "source": "小鹏",
+      "target": "理想",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同样拼命强调自己是AI公司的造车同行",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "057"
+      ],
+      "evidences": [
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "同样拼命强调自己是AI公司的造车同行",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "理想",
+      "target": "小鹏",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同样拼命强调自己是AI公司的造车同行",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

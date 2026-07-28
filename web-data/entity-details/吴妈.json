@@ -1,0 +1,95 @@
+{
+  "node": {
+    "id": "吴妈",
+    "name": "吴妈",
+    "type": "person",
+    "description": "阿里Token Foundry事业部直接领导者，负责统筹大模型团队",
+    "mention_count": 10,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "大厂战投",
+      "模型负责人",
+      "高管"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "085",
+        "title": "谁是宇宙第一FA",
+        "date": "2026-04-27",
+        "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "permalink": "/articles/085",
+        "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "mention_count": 9
+      },
+      {
+        "article_id": "112",
+        "title": "老天保佑Qwen救救阿里巴巴",
+        "date": "2026-07-02",
+        "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+        "permalink": "/articles/112",
+        "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0448
+  },
+  "links": [
+    {
+      "source": "吴妈",
+      "target": "token事业群",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "吴妈直接领导阿里Token Foundry事业部",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "112"
+      ],
+      "evidences": [
+        {
+          "article_id": "112",
+          "title": "老天保佑Qwen救救阿里巴巴",
+          "permalink": "/articles/112",
+          "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "date": "2026-07-02",
+          "label": "吴妈直接领导阿里Token Foundry事业部",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "吴妈",
+      "target": "阿里巴巴",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "吴妈作为阿里高管的代称，代表阿里的战投资源",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "吴妈作为阿里高管的代称，代表阿里的战投资源",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

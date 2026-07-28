@@ -1,0 +1,244 @@
+{
+  "node": {
+    "id": "raft",
+    "name": "Raft",
+    "type": "product",
+    "description": "一款AI群聊产品，前身为Slock，主打通过Agent协作替代在线文档编辑",
+    "mention_count": 18,
+    "article_count": 1,
+    "aliases": [
+      "Slock"
+    ],
+    "tags": [
+      "AI群聊",
+      "Agent",
+      "团队协作"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "120",
+        "title": "Raft说明AI应用不会亡！",
+        "date": "2026-07-15",
+        "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+        "permalink": "/articles/120",
+        "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+        "mention_count": 18
+      }
+    ],
+    "degree": 10,
+    "composite_weight": 0.1188
+  },
+  "links": [
+    {
+      "source": "raft",
+      "target": "tutti",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Raft的“极致简单”与Tutti的“极致复杂”进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "120"
+      ],
+      "evidences": [
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "date": "2026-07-15",
+          "label": "文中将Raft的“极致简单”与Tutti的“极致复杂”进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "raft",
+      "target": "钉钉",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中指出Raft在相当程度上可以替代钉钉",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "120"
+      ],
+      "evidences": [
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "date": "2026-07-15",
+          "label": "文中指出Raft在相当程度上可以替代钉钉",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "raft",
+      "target": "飞书",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中指出Raft在相当程度上可以替代飞书",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "120"
+      ],
+      "evidences": [
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "date": "2026-07-15",
+          "label": "文中指出Raft在相当程度上可以替代飞书",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "tutti",
+      "target": "raft",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Raft的“极致简单”与Tutti的“极致复杂”进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "钉钉",
+      "target": "raft",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中指出Raft在相当程度上可以替代钉钉",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "飞书",
+      "target": "raft",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中指出Raft在相当程度上可以替代飞书",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "bloome",
+      "target": "raft",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为AI群聊产品，作者在文中进行了详细的功能与体验对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "120"
+      ],
+      "evidences": [
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "date": "2026-07-15",
+          "label": "两者均为AI群聊产品，作者在文中进行了详细的功能与体验对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "raft",
+      "target": "bloome",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为AI群聊产品，作者在文中进行了详细的功能与体验对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "codex",
+      "target": "raft",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文中提到Raft群聊里的Agent（如Opencode）可以连接电脑本地的Codex等Agent",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "120"
+      ],
+      "evidences": [
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "date": "2026-07-15",
+          "label": "文中提到Raft群聊里的Agent（如Opencode）可以连接电脑本地的Codex等Agent",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "raft",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "作者认为Raft解决了远程Agent和团队协作需求，体验美好",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "120"
+      ],
+      "evidences": [
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "date": "2026-07-15",
+          "label": "作者认为Raft解决了远程Agent和团队协作需求，体验美好",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

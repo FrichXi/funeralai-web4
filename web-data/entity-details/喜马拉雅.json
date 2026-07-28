@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "喜马拉雅",
+    "name": "喜马拉雅",
+    "type": "product",
+    "description": "知名音频分享与播客平台",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "内容平台",
+      "音频平台"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "014",
+        "title": "除了投资人，没人需要AI播客",
+        "date": "2025-08-07",
+        "path": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+        "permalink": "/articles/014",
+        "markdown_link": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.016
+  },
+  "links": [
+    {
+      "source": "喜马拉雅",
+      "target": "来福电台",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将生成AI虚构故事的来福电台评价为“低配版喜马拉雅”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "014"
+      ],
+      "evidences": [
+        {
+          "article_id": "014",
+          "title": "除了投资人，没人需要AI播客",
+          "permalink": "/articles/014",
+          "markdown_link": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "path": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "date": "2025-08-07",
+          "label": "文章将生成AI虚构故事的来福电台评价为“低配版喜马拉雅”",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "来福电台",
+      "target": "喜马拉雅",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将生成AI虚构故事的来福电台评价为“低配版喜马拉雅”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

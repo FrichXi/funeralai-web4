@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "蚂蚁阿福",
+    "name": "蚂蚁阿福",
+    "type": "product",
+    "description": "蚂蚁旗下健康/保险相关业务",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "055",
+        "title": "来认识下2025年最活跃的CVC",
+        "date": "2026-01-22",
+        "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "permalink": "/articles/055",
+        "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0176
+  },
+  "links": [
+    {
+      "source": "蚂蚁集团",
+      "target": "蚂蚁阿福",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "蚂蚁阿福属于蚂蚁旗下业务",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "蚂蚁阿福属于蚂蚁旗下业务",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "好大夫在线",
+      "target": "蚂蚁阿福",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "好大夫在线为蚂蚁阿福提供问诊数据",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "好大夫在线为蚂蚁阿福提供问诊数据",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

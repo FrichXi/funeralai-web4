@@ -1,0 +1,85 @@
+{
+  "node": {
+    "id": "glm-code",
+    "name": "GLM code",
+    "type": "product",
+    "description": "国产编程Agent产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "国产AI",
+      "编程Agent"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "066",
+        "title": "AI编程创造世界",
+        "date": "2026-02-24",
+        "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "permalink": "/articles/066",
+        "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0246
+  },
+  "links": [
+    {
+      "source": "claude",
+      "target": "glm-code",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "GLM code与Claude code被作为编程Agent进行比较，体验略逊",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "066"
+      ],
+      "evidences": [
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "GLM code与Claude code被作为编程Agent进行比较，体验略逊",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "glm-code",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "GLM code与Claude code被作为编程Agent进行比较，体验略逊",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "智谱ai",
+      "target": "glm-code",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "智谱AI开发GLM Code编程Agent",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

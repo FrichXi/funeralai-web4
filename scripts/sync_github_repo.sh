@@ -54,121 +54,16 @@ if [[ -z "$commit_message" ]]; then
   esac
 fi
 
-content_paths=(
-  "articles"
-  "data"
-  "web-data"
-  "site/public/llms.txt"
-  "README.md"
-  "CHANGELOG.md"
-  "pipeline.toml"
-  "requirements.txt"
-  "scripts/build_presentation.py"
-  "scripts/extract_gemini.py"
-  "scripts/pipeline_state.py"
-  "scripts/run_full_extraction.py"
-  "scripts/run_pipeline.py"
-)
-
-test_benchmark_paths=(
-  ".env.example"
-  ".gitignore"
-  ".github"
-  "AGENTS.md"
-  "README.md"
-  "CHANGELOG.md"
-  "docs"
-  "site/benchmark.local.example.json"
-  "site/package.json"
-  "site/package-lock.json"
-  "site/prebuild.sh"
-  "site/public/scoreboard-logo.png"
-  "site/scripts"
-  "site/src/app/(main)/test"
-  "site/src/app/globals.css"
-  "site/src/app/layout.tsx"
-  "site/src/components/layout/Navbar.tsx"
-  "site/src/components/layout/ThemeToggle.tsx"
-  "site/src/components/test"
-  "site/src/components/theme"
-  "scripts/check_no_secrets.py"
-  "scripts/deploy_site.sh"
-  "scripts/doctor_repo.sh"
-  "scripts/sync_github_repo.sh"
-)
-
-site_ui_paths=(
-  ".env.example"
-  ".gitignore"
-  "AGENTS.md"
-  "README.md"
-  "CHANGELOG.md"
-  "docs"
-  "site/package.json"
-  "site/package-lock.json"
-  "site/prebuild.sh"
-  "site/tailwind.config.ts"
-  "site/tsconfig.json"
-  "site/public"
-  "site/scripts"
-  "site/src"
-  "requirements.txt"
-  "scripts/check_no_secrets.py"
-  "scripts/deploy_site.sh"
-  "scripts/doctor_repo.sh"
-  "scripts/frontend_refactor_readiness.py"
-  "scripts/sync_github_repo.sh"
-  "tests"
-)
-
-allowed_paths=()
-case "$profile" in
-  content)
-    allowed_paths=("${content_paths[@]}")
-    ;;
-  test-benchmark)
-    allowed_paths=("${test_benchmark_paths[@]}")
-    ;;
-  site-ui)
-    allowed_paths=("${site_ui_paths[@]}")
-    ;;
-  release)
-    allowed_paths=("${content_paths[@]}" "${test_benchmark_paths[@]}" "${site_ui_paths[@]}")
-    ;;
-esac
-
 if [[ -z "$(git status --porcelain=v1)" ]]; then
   echo "Working tree is clean; nothing to push."
   exit 0
 fi
 
-unexpected_paths=()
-while IFS= read -r -d '' line; do
-  [[ -z "$line" ]] && continue
-  path="${line:3}"
-
-  allowed=false
-  for allowed_path in "${allowed_paths[@]}"; do
-    if [[ "$path" == "$allowed_path" || "$path" == "$allowed_path/"* ]]; then
-      allowed=true
-      break
-    fi
-  done
-
-  if [[ "$allowed" == false ]]; then
-    unexpected_paths+=("$path")
-  fi
-done < <(git status --porcelain=v1 -z)
-
-if (( ${#unexpected_paths[@]} > 0 )); then
-  printf 'Refusing to push because unexpected local changes are present outside the %s sync scope:\n' "$profile" >&2
-  printf '  %s\n' "${unexpected_paths[@]}" >&2
-  exit 2
-fi
+python3 scripts/repo_profiles.py check-dirty --profile "$profile"
 
 python3 scripts/check_no_secrets.py
 
-git add -- "${allowed_paths[@]}"
+python3 scripts/repo_profiles.py stage --profile "$profile"
 
 python3 scripts/check_no_secrets.py --staged
 

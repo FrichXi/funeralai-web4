@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "momenta",
+    "name": "Momenta",
+    "type": "company",
+    "description": "曹旭东创立的企业",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "自动驾驶"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "085",
+        "title": "谁是宇宙第一FA",
+        "date": "2026-04-27",
+        "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "permalink": "/articles/085",
+        "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0134
+  },
+  "links": [
+    {
+      "source": "曹旭东",
+      "target": "momenta",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "曹旭东创立了Momenta",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "曹旭东创立了Momenta",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

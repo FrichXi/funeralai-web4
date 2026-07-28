@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "discord",
+    "name": "Discord",
+    "type": "product",
+    "description": "聊天软件，可接入Openclaw",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "聊天软件"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "067",
+        "title": "OpenClaw不如狗一条",
+        "date": "2026-03-03",
+        "path": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+        "permalink": "/articles/067",
+        "markdown_link": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0121
+  },
+  "links": [
+    {
+      "source": "discord",
+      "target": "openclaw",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Openclaw可以接入Discord进行对话",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "067"
+      ],
+      "evidences": [
+        {
+          "article_id": "067",
+          "title": "OpenClaw不如狗一条",
+          "permalink": "/articles/067",
+          "markdown_link": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+          "path": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+          "date": "2026-03-03",
+          "label": "Openclaw可以接入Discord进行对话",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

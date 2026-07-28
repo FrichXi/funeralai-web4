@@ -1,0 +1,217 @@
+{
+  "node": {
+    "id": "nano-banana",
+    "name": "Nano Banana",
+    "type": "product",
+    "description": "Mulerun平台上的一个小工具Agent，可一键生成手办照片。",
+    "mention_count": 7,
+    "article_count": 5,
+    "aliases": [
+      "Nano banana"
+    ],
+    "tags": [
+      "AI Agent",
+      "中转站",
+      "图像生成",
+      "基础模型",
+      "多模态"
+    ],
+    "references": 5,
+    "source_article_count": 5,
+    "source_articles": [
+      {
+        "article_id": "059",
+        "title": "「Dokie不如ListenHub」",
+        "date": "2026-01-28",
+        "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "permalink": "/articles/059",
+        "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "052",
+        "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+        "date": "2026-01-16",
+        "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "permalink": "/articles/052",
+        "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "096",
+        "title": "葬AI一周年，我不再用AI写作",
+        "date": "2026-05-27",
+        "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+        "permalink": "/articles/096",
+        "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "038",
+        "title": "建议蚂蚁集团收购马卡龙",
+        "date": "2025-12-02",
+        "path": "articles/038_2025-12-02_葬爱咸鱼_建议蚂蚁集团收购马卡龙.md",
+        "permalink": "/articles/038",
+        "markdown_link": "articles/038_2025-12-02_葬爱咸鱼_建议蚂蚁集团收购马卡龙.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "018",
+        "title": "电骡快跑，Mulerun想做AI淘宝",
+        "date": "2025-09-02",
+        "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+        "permalink": "/articles/018",
+        "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 6,
+    "composite_weight": 0.0654
+  },
+  "links": [
+    {
+      "source": "lovart",
+      "target": "nano-banana",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将两者作为图片模型中转站的代表产品进行商业能力的对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "096"
+      ],
+      "evidences": [
+        {
+          "article_id": "096",
+          "title": "葬AI一周年，我不再用AI写作",
+          "permalink": "/articles/096",
+          "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "date": "2026-05-27",
+          "label": "文中将两者作为图片模型中转站的代表产品进行商业能力的对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "nano-banana",
+      "target": "lovart",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将两者作为图片模型中转站的代表产品进行商业能力的对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "flova",
+      "target": "nano-banana",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Flova的工作流中会连接并使用类似Nano Banana的生图能力",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "052"
+      ],
+      "evidences": [
+        {
+          "article_id": "052",
+          "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+          "permalink": "/articles/052",
+          "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "date": "2026-01-16",
+          "label": "Flova的工作流中会连接并使用类似Nano Banana的生图能力",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "listenhub",
+      "target": "nano-banana",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "ListenHub使用Nano banana来生成科普PPT视频",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "059"
+      ],
+      "evidences": [
+        {
+          "article_id": "059",
+          "title": "「Dokie不如ListenHub」",
+          "permalink": "/articles/059",
+          "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "date": "2026-01-28",
+          "label": "ListenHub使用Nano banana来生成科普PPT视频",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "mulerun",
+      "target": "nano-banana",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Nano Banana是Mulerun平台上的工具应用。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "018"
+      ],
+      "evidences": [
+        {
+          "article_id": "018",
+          "title": "电骡快跑，Mulerun想做AI淘宝",
+          "permalink": "/articles/018",
+          "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "date": "2025-09-02",
+          "label": "Nano Banana是Mulerun平台上的工具应用。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "nano-banana",
+      "target": "马卡龙",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "马卡龙上的部分Agent小程序（如照片转3D）严重依赖于Nano Banana模型的能力。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "038"
+      ],
+      "evidences": [
+        {
+          "article_id": "038",
+          "title": "建议蚂蚁集团收购马卡龙",
+          "permalink": "/articles/038",
+          "markdown_link": "articles/038_2025-12-02_葬爱咸鱼_建议蚂蚁集团收购马卡龙.md",
+          "path": "articles/038_2025-12-02_葬爱咸鱼_建议蚂蚁集团收购马卡龙.md",
+          "date": "2025-12-02",
+          "label": "马卡龙上的部分Agent小程序（如照片转3D）严重依赖于Nano Banana模型的能力。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

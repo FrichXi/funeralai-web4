@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "俞浩",
+    "name": "俞浩",
+    "type": "person",
+    "description": "宇树科技创始人，文中被作为玩家想在开放世界扮演的科技巨头比喻对象",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "科技创业者"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "083",
+        "title": "估值20亿的AI游戏公司，做了款像素GTA",
+        "date": "2026-04-22",
+        "path": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+        "permalink": "/articles/083",
+        "markdown_link": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0133
+  },
+  "links": [
+    {
+      "source": "俞浩",
+      "target": "宇树",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "结合文中的宇树机器狗和造机器人当俞浩的语境推断的关系",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "083"
+      ],
+      "evidences": [
+        {
+          "article_id": "083",
+          "title": "估值20亿的AI游戏公司，做了款像素GTA",
+          "permalink": "/articles/083",
+          "markdown_link": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+          "path": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+          "date": "2026-04-22",
+          "label": "结合文中的宇树机器狗和造机器人当俞浩的语境推断的关系",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

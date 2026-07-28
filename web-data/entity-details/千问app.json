@@ -1,0 +1,101 @@
+{
+  "node": {
+    "id": "千问app",
+    "name": "千问APP",
+    "type": "product",
+    "description": "阿里巴巴推出的C端AI应用，集成Agent能力与多模态功能",
+    "mention_count": 10,
+    "article_count": 1,
+    "aliases": [
+      "通义APP"
+    ],
+    "tags": [
+      "2C应用",
+      "Agent",
+      "Chatbot"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "112",
+        "title": "老天保佑Qwen救救阿里巴巴",
+        "date": "2026-07-02",
+        "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+        "permalink": "/articles/112",
+        "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+        "mention_count": 10
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0512
+  },
+  "links": [
+    {
+      "source": "千问app",
+      "target": "豆包",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "千问APP与豆包在C端AI助手市场直接竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "112"
+      ],
+      "evidences": [
+        {
+          "article_id": "112",
+          "title": "老天保佑Qwen救救阿里巴巴",
+          "permalink": "/articles/112",
+          "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "date": "2026-07-02",
+          "label": "千问APP与豆包在C端AI助手市场直接竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包",
+      "target": "千问app",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "千问APP与豆包在C端AI助手市场直接竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "千问app",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "阿里巴巴开发千问APP作为C端入口",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "112"
+      ],
+      "evidences": [
+        {
+          "article_id": "112",
+          "title": "老天保佑Qwen救救阿里巴巴",
+          "permalink": "/articles/112",
+          "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "date": "2026-07-02",
+          "label": "阿里巴巴开发千问APP作为C端入口",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,97 @@
+{
+  "node": {
+    "id": "ipod",
+    "name": "iPod",
+    "type": "product",
+    "description": "苹果公司开发的经典音乐播放器，被用作产品意义的类比",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "硬件播放器"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "043",
+        "title": "Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子",
+        "date": "2025-12-18",
+        "path": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+        "permalink": "/articles/043",
+        "markdown_link": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0233
+  },
+  "links": [
+    {
+      "source": "ipod",
+      "target": "looki",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "孙洋将Looki当前的Vlog宣发策略类比为苹果当年将iPhone解释为更好的iPod",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "043"
+      ],
+      "evidences": [
+        {
+          "article_id": "043",
+          "title": "Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子",
+          "permalink": "/articles/043",
+          "markdown_link": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+          "path": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+          "date": "2025-12-18",
+          "label": "孙洋将Looki当前的Vlog宣发策略类比为苹果当年将iPhone解释为更好的iPod",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "looki",
+      "target": "ipod",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "孙洋将Looki当前的Vlog宣发策略类比为苹果当年将iPhone解释为更好的iPod",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "苹果",
+      "target": "ipod",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "苹果公司在2007年之前开发了iPod",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "043"
+      ],
+      "evidences": [
+        {
+          "article_id": "043",
+          "title": "Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子",
+          "permalink": "/articles/043",
+          "markdown_link": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+          "path": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+          "date": "2025-12-18",
+          "label": "苹果公司在2007年之前开发了iPod",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

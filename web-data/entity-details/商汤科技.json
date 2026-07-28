@@ -1,0 +1,297 @@
+{
+  "node": {
+    "id": "商汤科技",
+    "name": "商汤科技",
+    "type": "company",
+    "description": "中国AI公司，文中用作Palantir的类比对象",
+    "mention_count": 11,
+    "article_count": 4,
+    "aliases": [
+      "商汤"
+    ],
+    "tags": [
+      "AI四小龙",
+      "AI大厂",
+      "AI安防",
+      "CV算法"
+    ],
+    "references": 4,
+    "source_article_count": 4,
+    "source_articles": [
+      {
+        "article_id": "085",
+        "title": "谁是宇宙第一FA",
+        "date": "2026-04-27",
+        "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "permalink": "/articles/085",
+        "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "035",
+        "title": "彼得蒂尔是中国的辱追梦男",
+        "date": "2025-11-18",
+        "path": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+        "permalink": "/articles/035",
+        "markdown_link": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "006",
+        "title": "智谱的存在主义危机",
+        "date": "2025-06-25",
+        "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+        "permalink": "/articles/006",
+        "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+        "mention_count": 5
+      },
+      {
+        "article_id": "031",
+        "title": "追忆AI四小龙，热潮是怎么完蛋的",
+        "date": "2025-10-27",
+        "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "permalink": "/articles/031",
+        "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 10,
+    "composite_weight": 0.0873
+  },
+  "links": [
+    {
+      "source": "palantir",
+      "target": "商汤科技",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Palantir比作“美国商汤”，并认为其远远不如商汤科技",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "035"
+      ],
+      "evidences": [
+        {
+          "article_id": "035",
+          "title": "彼得蒂尔是中国的辱追梦男",
+          "permalink": "/articles/035",
+          "markdown_link": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+          "path": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+          "date": "2025-11-18",
+          "label": "文中将Palantir比作“美国商汤”，并认为其远远不如商汤科技",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "商汤科技",
+      "target": "palantir",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Palantir比作“美国商汤”，并认为其远远不如商汤科技",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "商汤科技",
+      "target": "智谱ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "智谱的顶尖学术背景、高估值和商业化挑战与上一代商汤高度相似",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "006"
+      ],
+      "evidences": [
+        {
+          "article_id": "006",
+          "title": "智谱的存在主义危机",
+          "permalink": "/articles/006",
+          "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "date": "2025-06-25",
+          "label": "智谱的顶尖学术背景、高估值和商业化挑战与上一代商汤高度相似",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "智谱ai",
+      "target": "商汤科技",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "智谱的顶尖学术背景、高估值和商业化挑战与上一代商汤高度相似",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "商汤科技",
+      "target": "海康",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "商汤等AI企业在安防领域竞争不过海康这样的传统企业",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "006"
+      ],
+      "evidences": [
+        {
+          "article_id": "006",
+          "title": "智谱的存在主义危机",
+          "permalink": "/articles/006",
+          "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "date": "2025-06-25",
+          "label": "商汤等AI企业在安防领域竞争不过海康这样的传统企业",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "海康",
+      "target": "商汤科技",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "商汤等AI企业在安防领域竞争不过海康这样的传统企业",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "商汤科技",
+      "target": "商汤3d数字人",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "商汤开发的3D数字人项目",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "商汤开发的3D数字人项目",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "刘宇",
+      "target": "商汤科技",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "刘宇曾在商汤工作",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "刘宇曾在商汤工作",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "曹旭东",
+      "target": "商汤科技",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "曹旭东此前曾在商汤任职",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "曹旭东此前曾在商汤任职",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "闫俊杰",
+      "target": "商汤科技",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "闫俊杰此前曾在商汤任职",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "闫俊杰此前曾在商汤任职",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "vivix",
+      "target": "商汤科技",
+      "score": 0.4169,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "085"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

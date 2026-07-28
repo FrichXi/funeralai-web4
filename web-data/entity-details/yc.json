@@ -1,0 +1,253 @@
+{
+  "node": {
+    "id": "yc",
+    "name": "YC",
+    "type": "vc_firm",
+    "description": "知名投资机构，Garry Tan担任总裁，其招聘广告被植入到了gstack中。",
+    "mention_count": 9,
+    "article_count": 2,
+    "aliases": [
+      "Y Combinator"
+    ],
+    "tags": [
+      "招聘",
+      "早期投资",
+      "风投"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "074",
+        "title": "做个人吧，别做AI",
+        "date": "2026-03-22",
+        "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+        "permalink": "/articles/074",
+        "markdown_link": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+        "mention_count": 8
+      },
+      {
+        "article_id": "090",
+        "title": "Bloome重做元宝派",
+        "date": "2026-05-12",
+        "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "permalink": "/articles/090",
+        "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 9,
+    "composite_weight": 0.0828
+  },
+  "links": [
+    {
+      "source": "yc",
+      "target": "真格",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章调侃真格可能会学习YC的炒作模式。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "074"
+      ],
+      "evidences": [
+        {
+          "article_id": "074",
+          "title": "做个人吧，别做AI",
+          "permalink": "/articles/074",
+          "markdown_link": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "date": "2026-03-22",
+          "label": "文章调侃真格可能会学习YC的炒作模式。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "yc",
+      "target": "红杉资本",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章调侃红杉等中国VC可能会学习YC的“先进炒作成果”。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "074"
+      ],
+      "evidences": [
+        {
+          "article_id": "074",
+          "title": "做个人吧，别做AI",
+          "permalink": "/articles/074",
+          "markdown_link": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "date": "2026-03-22",
+          "label": "文章调侃红杉等中国VC可能会学习YC的“先进炒作成果”。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "yc",
+      "target": "锦秋基金",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章调侃锦秋可能会学习YC的炒作模式。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "074"
+      ],
+      "evidences": [
+        {
+          "article_id": "074",
+          "title": "做个人吧，别做AI",
+          "permalink": "/articles/074",
+          "markdown_link": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "date": "2026-03-22",
+          "label": "文章调侃锦秋可能会学习YC的炒作模式。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "真格",
+      "target": "yc",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章调侃真格可能会学习YC的炒作模式。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "红杉资本",
+      "target": "yc",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章调侃红杉等中国VC可能会学习YC的“先进炒作成果”。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "锦秋基金",
+      "target": "yc",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章调侃锦秋可能会学习YC的炒作模式。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "yc",
+      "target": "gstack",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "gstack在实际体验中充当了YC的招聘广告生成器和宣传工具。",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "074"
+      ],
+      "evidences": [
+        {
+          "article_id": "074",
+          "title": "做个人吧，别做AI",
+          "permalink": "/articles/074",
+          "markdown_link": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "date": "2026-03-22",
+          "label": "gstack在实际体验中充当了YC的招聘广告生成器和宣传工具。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "yc",
+      "target": "conductor",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "YC投资了Conductor",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "YC投资了Conductor",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "garry-tan",
+      "target": "yc",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "Garry Tan担任YC总裁。",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "074"
+      ],
+      "evidences": [
+        {
+          "article_id": "074",
+          "title": "做个人吧，别做AI",
+          "permalink": "/articles/074",
+          "markdown_link": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "date": "2026-03-22",
+          "label": "Garry Tan担任YC总裁。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "claude",
+      "target": "yc",
+      "score": 0.3903,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "074",
+        "090"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

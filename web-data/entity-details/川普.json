@@ -1,0 +1,135 @@
+{
+  "node": {
+    "id": "川普",
+    "name": "川普",
+    "type": "person",
+    "description": "在文中被用来衡量马斯克的舆论影响力和炒作能力的政治人物。",
+    "mention_count": 10,
+    "article_count": 3,
+    "aliases": [
+      "Trump",
+      "川子",
+      "特朗普"
+    ],
+    "tags": [
+      "意见领袖",
+      "比喻对象",
+      "股神",
+      "高权重节点"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "060",
+        "title": "Clawdbot是一场马斯克发动的中登炒作",
+        "date": "2026-01-30",
+        "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+        "permalink": "/articles/060",
+        "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "064",
+        "title": "Elys应该做成AI内涵段子",
+        "date": "2026-02-13",
+        "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "permalink": "/articles/064",
+        "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "mention_count": 6
+      },
+      {
+        "article_id": "028",
+        "title": "a16z是一家媒体公司",
+        "date": "2025-10-14",
+        "path": "articles/028_2025-10-14_葬爱咸鱼_a16z是一家媒体公司.md",
+        "permalink": "/articles/028",
+        "markdown_link": "articles/028_2025-10-14_葬爱咸鱼_a16z是一家媒体公司.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0485
+  },
+  "links": [
+    {
+      "source": "a16z",
+      "target": "川普",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将a16z比作现代版股神特朗普，认为两者都通过权力和影响力直接制造市场行情。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "028"
+      ],
+      "evidences": [
+        {
+          "article_id": "028",
+          "title": "a16z是一家媒体公司",
+          "permalink": "/articles/028",
+          "markdown_link": "articles/028_2025-10-14_葬爱咸鱼_a16z是一家媒体公司.md",
+          "path": "articles/028_2025-10-14_葬爱咸鱼_a16z是一家媒体公司.md",
+          "date": "2025-10-14",
+          "label": "文章将a16z比作现代版股神特朗普，认为两者都通过权力和影响力直接制造市场行情。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "川普",
+      "target": "a16z",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将a16z比作现代版股神特朗普，认为两者都通过权力和影响力直接制造市场行情。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "川普",
+      "target": "马斯克",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为很难分出马斯克和川普在舆论影响力和炒作能力上的高下。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "060"
+      ],
+      "evidences": [
+        {
+          "article_id": "060",
+          "title": "Clawdbot是一场马斯克发动的中登炒作",
+          "permalink": "/articles/060",
+          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "date": "2026-01-30",
+          "label": "作者认为很难分出马斯克和川普在舆论影响力和炒作能力上的高下。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "马斯克",
+      "target": "川普",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为很难分出马斯克和川普在舆论影响力和炒作能力上的高下。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

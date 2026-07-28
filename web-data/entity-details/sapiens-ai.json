@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "sapiens-ai",
+    "name": "Sapiens AI",
+    "type": "company",
+    "description": "开发Agnes的新加坡AI团队",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "Sapiens",
+      "新加坡Sapiens AI团队"
+    ],
+    "tags": [
+      "新加坡"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "047",
+        "title": "我被AI圈大冰投诉了（附真诚道歉信）",
+        "date": "2025-12-29",
+        "path": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+        "permalink": "/articles/047",
+        "markdown_link": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0108
+  },
+  "links": [
+    {
+      "source": "sapiens-ai",
+      "target": "agnes",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Agnes AI由新加坡Sapiens AI团队打造",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "047"
+      ],
+      "evidences": [
+        {
+          "article_id": "047",
+          "title": "我被AI圈大冰投诉了（附真诚道歉信）",
+          "permalink": "/articles/047",
+          "markdown_link": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "path": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "date": "2025-12-29",
+          "label": "Agnes AI由新加坡Sapiens AI团队打造",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

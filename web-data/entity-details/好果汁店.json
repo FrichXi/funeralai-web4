@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "好果汁店",
+    "name": "好果汁店",
+    "type": "company",
+    "description": "刀哥开设的实体店铺",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "实体店",
+      "餐饮"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "051",
+        "title": "狠狠办千问",
+        "date": "2026-01-15",
+        "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "permalink": "/articles/051",
+        "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0125
+  },
+  "links": [
+    {
+      "source": "刀哥",
+      "target": "好果汁店",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "刀哥开设并经营了这家好果汁店",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "051"
+      ],
+      "evidences": [
+        {
+          "article_id": "051",
+          "title": "狠狠办千问",
+          "permalink": "/articles/051",
+          "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "date": "2026-01-15",
+          "label": "刀哥开设并经营了这家好果汁店",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

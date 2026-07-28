@@ -1,0 +1,114 @@
+{
+  "node": {
+    "id": "gstack",
+    "name": "gstack",
+    "type": "product",
+    "description": "Garry Tan开源的AI软件工厂项目，被批评为缺乏实质功能的“YC广告生成器”。",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [
+      "AI软件工厂",
+      "YC广告生成器"
+    ],
+    "tags": [
+      "情感陪伴",
+      "提示词集合"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "074",
+        "title": "做个人吧，别做AI",
+        "date": "2026-03-22",
+        "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+        "permalink": "/articles/074",
+        "markdown_link": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0269
+  },
+  "links": [
+    {
+      "source": "yc",
+      "target": "gstack",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "gstack在实际体验中充当了YC的招聘广告生成器和宣传工具。",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "074"
+      ],
+      "evidences": [
+        {
+          "article_id": "074",
+          "title": "做个人吧，别做AI",
+          "permalink": "/articles/074",
+          "markdown_link": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "date": "2026-03-22",
+          "label": "gstack在实际体验中充当了YC的招聘广告生成器和宣传工具。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "gstack",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "gstack需要在Claude Code里安装后使用。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "074"
+      ],
+      "evidences": [
+        {
+          "article_id": "074",
+          "title": "做个人吧，别做AI",
+          "permalink": "/articles/074",
+          "markdown_link": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "date": "2026-03-22",
+          "label": "gstack需要在Claude Code里安装后使用。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "garry-tan",
+      "target": "gstack",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Garry Tan开源并大力宣传了gstack项目。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "074"
+      ],
+      "evidences": [
+        {
+          "article_id": "074",
+          "title": "做个人吧，别做AI",
+          "permalink": "/articles/074",
+          "markdown_link": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "date": "2026-03-22",
+          "label": "Garry Tan开源并大力宣传了gstack项目。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

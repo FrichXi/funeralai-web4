@@ -1,0 +1,660 @@
+{
+  "node": {
+    "id": "扣子",
+    "name": "扣子",
+    "type": "product",
+    "description": "支持创建Agent、定时任务、云电脑及内置邮箱的AI构建平台",
+    "mention_count": 68,
+    "article_count": 7,
+    "aliases": [
+      "Coze",
+      "Coze 2.5",
+      "coze"
+    ],
+    "tags": [
+      "AI平台",
+      "Agent",
+      "Agent Marketplace",
+      "Agent协作",
+      "Agent平台",
+      "Skill",
+      "To B",
+      "UGC",
+      "云电脑",
+      "低代码",
+      "低代码平台",
+      "定时任务",
+      "工作流"
+    ],
+    "references": 7,
+    "source_article_count": 7,
+    "source_articles": [
+      {
+        "article_id": "017",
+        "title": "字节用扣子证明，Agent只能被计划",
+        "date": "2025-08-29",
+        "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "permalink": "/articles/017",
+        "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "mention_count": 34
+      },
+      {
+        "article_id": "082",
+        "title": "Coze 2.5让Agent成群结队",
+        "date": "2026-04-20",
+        "path": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+        "permalink": "/articles/082",
+        "markdown_link": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+        "mention_count": 25
+      },
+      {
+        "article_id": "018",
+        "title": "电骡快跑，Mulerun想做AI淘宝",
+        "date": "2025-09-02",
+        "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+        "permalink": "/articles/018",
+        "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "071",
+        "title": "Mulerun借假修真Agent市场明牌竞争",
+        "date": "2026-03-16",
+        "path": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
+        "permalink": "/articles/071",
+        "markdown_link": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "102",
+        "title": "腾讯做了一堆情感陪伴Agent",
+        "date": "2026-06-09",
+        "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "permalink": "/articles/102",
+        "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "088",
+        "title": "读过豆包赚钱手册才敢自称懂AI",
+        "date": "2026-05-07",
+        "path": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+        "permalink": "/articles/088",
+        "markdown_link": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "022",
+        "title": "GenSpark重做百度",
+        "date": "2025-09-15",
+        "path": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+        "permalink": "/articles/022",
+        "markdown_link": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 21,
+    "composite_weight": 0.2397
+  },
+  "links": [
+    {
+      "source": "genspark",
+      "target": "扣子",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作为Agent平台系列的分析对象被放在一起对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "022"
+      ],
+      "evidences": [
+        {
+          "article_id": "022",
+          "title": "GenSpark重做百度",
+          "permalink": "/articles/022",
+          "markdown_link": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+          "path": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
+          "date": "2025-09-15",
+          "label": "作为Agent平台系列的分析对象被放在一起对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "marvis",
+      "target": "扣子",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章认为Marvis的出租功能可以和Coze无缝衔接协作主题",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "文章认为Marvis的出租功能可以和Coze无缝衔接协作主题",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "扣子",
+      "target": "genspark",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作为Agent平台系列的分析对象被放在一起对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "扣子",
+      "target": "marvis",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章认为Marvis的出租功能可以和Coze无缝衔接协作主题",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "claude",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Claude Code同样作为AI编程工具，取代了扣子原有的To C开发功能。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "017"
+      ],
+      "evidences": [
+        {
+          "article_id": "017",
+          "title": "字节用扣子证明，Agent只能被计划",
+          "permalink": "/articles/017",
+          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "date": "2025-08-29",
+          "label": "Claude Code同样作为AI编程工具，取代了扣子原有的To C开发功能。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cursor",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Cursor等AI编程工具的兴起，取代了扣子等低代码平台部分面向普通用户的开发功能。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "017"
+      ],
+      "evidences": [
+        {
+          "article_id": "017",
+          "title": "字节用扣子证明，Agent只能被计划",
+          "permalink": "/articles/017",
+          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "date": "2025-08-29",
+          "label": "Cursor等AI编程工具的兴起，取代了扣子等低代码平台部分面向普通用户的开发功能。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "dify",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "扣子与Dify在搭建工作流和给企业定制Agent的业务上存在直接竞争。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "017"
+      ],
+      "evidences": [
+        {
+          "article_id": "017",
+          "title": "字节用扣子证明，Agent只能被计划",
+          "permalink": "/articles/017",
+          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "date": "2025-08-29",
+          "label": "扣子与Dify在搭建工作流和给企业定制Agent的业务上存在直接竞争。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "manus",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同属AI平台赛道的竞争产品。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "018"
+      ],
+      "evidences": [
+        {
+          "article_id": "018",
+          "title": "电骡快跑，Mulerun想做AI淘宝",
+          "permalink": "/articles/018",
+          "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "date": "2025-09-02",
+          "label": "同属AI平台赛道的竞争产品。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "mulerun",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者同为AI Agent平台，属于竞争关系。",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "018",
+        "071"
+      ],
+      "evidences": [
+        {
+          "article_id": "071",
+          "title": "Mulerun借假修真Agent市场明牌竞争",
+          "permalink": "/articles/071",
+          "markdown_link": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
+          "path": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
+          "date": "2026-03-16",
+          "label": "MuleRun和Coze都在早期探索Agent Marketplace并进行明牌竞争",
+          "weight": 1
+        },
+        {
+          "article_id": "018",
+          "title": "电骡快跑，Mulerun想做AI淘宝",
+          "permalink": "/articles/018",
+          "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "date": "2025-09-02",
+          "label": "两者同为AI Agent平台，属于竞争关系。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "n8n",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "扣子与n8n在专业开发者选择上存在直接竞争，且n8n客单价更高。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "017"
+      ],
+      "evidences": [
+        {
+          "article_id": "017",
+          "title": "字节用扣子证明，Agent只能被计划",
+          "permalink": "/articles/017",
+          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "date": "2025-08-29",
+          "label": "扣子与n8n在专业开发者选择上存在直接竞争，且n8n客单价更高。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "扣子",
+      "target": "claude",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Claude Code同样作为AI编程工具，取代了扣子原有的To C开发功能。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "扣子",
+      "target": "cursor",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Cursor等AI编程工具的兴起，取代了扣子等低代码平台部分面向普通用户的开发功能。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "扣子",
+      "target": "dify",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "扣子与Dify在搭建工作流和给企业定制Agent的业务上存在直接竞争。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "扣子",
+      "target": "manus",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同属AI平台赛道的竞争产品。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "扣子",
+      "target": "mulerun",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者同为AI Agent平台，属于竞争关系。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "扣子",
+      "target": "n8n",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "扣子与n8n在专业开发者选择上存在直接竞争，且n8n客单价更高。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "字节跳动",
+      "target": "扣子",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "扣子是字节跳动为探索AI应用落地而开发的平台。",
+      "weight": 5,
+      "strength": 4,
+      "effective_weight": 25,
+      "article_count": 5,
+      "evidence_articles": [
+        "017",
+        "018",
+        "082",
+        "088",
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "结合行业常识推断Coze为字节旗下产品",
+          "weight": 1
+        },
+        {
+          "article_id": "088",
+          "title": "读过豆包赚钱手册才敢自称懂AI",
+          "permalink": "/articles/088",
+          "markdown_link": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+          "path": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+          "date": "2026-05-07",
+          "label": "文中将其归类为字节系产品",
+          "weight": 1
+        },
+        {
+          "article_id": "082",
+          "title": "Coze 2.5让Agent成群结队",
+          "permalink": "/articles/082",
+          "markdown_link": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+          "path": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+          "date": "2026-04-20",
+          "label": "文章提到扣子是字节生态的一部分（亲儿子）",
+          "weight": 1
+        },
+        {
+          "article_id": "018",
+          "title": "电骡快跑，Mulerun想做AI淘宝",
+          "permalink": "/articles/018",
+          "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "date": "2025-09-02",
+          "label": "扣子是字节跳动推出的产品。",
+          "weight": 1
+        },
+        {
+          "article_id": "017",
+          "title": "字节用扣子证明，Agent只能被计划",
+          "permalink": "/articles/017",
+          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "date": "2025-08-29",
+          "label": "扣子是字节跳动为探索AI应用落地而开发的平台。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "agent-world",
+      "target": "扣子",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Agent World是扣子提供的一个专属功能室",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "082"
+      ],
+      "evidences": [
+        {
+          "article_id": "082",
+          "title": "Coze 2.5让Agent成群结队",
+          "permalink": "/articles/082",
+          "markdown_link": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+          "path": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+          "date": "2026-04-20",
+          "label": "Agent World是扣子提供的一个专属功能室",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "coze-studio",
+      "target": "扣子",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Coze Studio是扣子（coze）的核心组件。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "017"
+      ],
+      "evidences": [
+        {
+          "article_id": "017",
+          "title": "字节用扣子证明，Agent只能被计划",
+          "permalink": "/articles/017",
+          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "date": "2025-08-29",
+          "label": "Coze Studio是扣子（coze）的核心组件。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "扣子",
+      "target": "葬cli",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "扣子的云电脑环境中安装并运行了葬CLI，同时Coze可直接调用葬CLI进行分析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "082"
+      ],
+      "evidences": [
+        {
+          "article_id": "082",
+          "title": "Coze 2.5让Agent成群结队",
+          "permalink": "/articles/082",
+          "markdown_link": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+          "path": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+          "date": "2026-04-20",
+          "label": "扣子的云电脑环境中安装并运行了葬CLI，同时Coze可直接调用葬CLI进行分析",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "扣子",
+      "target": "飞书",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "扣子和飞书打通，用户可直接在飞书聊天框指挥扣子操作飞书多维表格",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "082"
+      ],
+      "evidences": [
+        {
+          "article_id": "082",
+          "title": "Coze 2.5让Agent成群结队",
+          "permalink": "/articles/082",
+          "markdown_link": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+          "path": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+          "date": "2026-04-20",
+          "label": "扣子和飞书打通，用户可直接在飞书聊天框指挥扣子操作飞书多维表格",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "扣子",
+      "target": "腾讯",
+      "score": 0.4856,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "018",
+        "071",
+        "102"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "扣子",
+      "target": "阶跃桌面伙伴",
+      "score": 0.464,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "102"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "openclaw",
+      "target": "扣子",
+      "score": 0.4381,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "071",
+        "102"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "扣子",
+      "target": "火山引擎",
+      "score": 0.4378,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "017",
+        "071"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "扣子",
+      "target": "豆包",
+      "score": 0.417,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "071",
+        "088"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

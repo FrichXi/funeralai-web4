@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "agent-tank",
+    "name": "Agent Tank",
+    "type": "product",
+    "description": "需要用大模型训练坦克并进行对战的AI游戏/应用",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI游戏",
+      "Agent"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "100",
+        "title": "网吧黑客松里有真黑客",
+        "date": "2026-06-07",
+        "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+        "permalink": "/articles/100",
+        "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.017
+  },
+  "links": [
+    {
+      "source": "王登科",
+      "target": "agent-tank",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "文中提及“引入了王登科Agent Tank”，表明王登科是该产品的开发者或核心主导者",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "100"
+      ],
+      "evidences": [
+        {
+          "article_id": "100",
+          "title": "网吧黑客松里有真黑客",
+          "permalink": "/articles/100",
+          "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "date": "2026-06-07",
+          "label": "文中提及“引入了王登科Agent Tank”，表明王登科是该产品的开发者或核心主导者",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

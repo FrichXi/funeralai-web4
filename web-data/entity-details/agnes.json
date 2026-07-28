@@ -1,0 +1,623 @@
+{
+  "node": {
+    "id": "agnes",
+    "name": "Agnes",
+    "type": "product",
+    "description": "Agnes AI发布的主打\"平民agent\"的AI对话与生产工具应用，产品设计引发行业争议",
+    "mention_count": 36,
+    "article_count": 2,
+    "aliases": [
+      "Agnes AI"
+    ],
+    "tags": [
+      "AI Agent",
+      "AI公司",
+      "AI应用",
+      "Agent",
+      "东南亚",
+      "出海",
+      "抄袭争议",
+      "炒作争议"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "047",
+        "title": "我被AI圈大冰投诉了（附真诚道歉信）",
+        "date": "2025-12-29",
+        "path": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+        "permalink": "/articles/047",
+        "markdown_link": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+        "mention_count": 22
+      },
+      {
+        "article_id": "039",
+        "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+        "date": "2025-12-05",
+        "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+        "permalink": "/articles/039",
+        "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+        "mention_count": 14
+      }
+    ],
+    "degree": 25,
+    "composite_weight": 0.2081
+  },
+  "links": [
+    {
+      "source": "agnes",
+      "target": "deepseek",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes公司自诩为东南亚或新加坡的DeepSeek",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "039",
+        "047"
+      ],
+      "evidences": [
+        {
+          "article_id": "047",
+          "title": "我被AI圈大冰投诉了（附真诚道歉信）",
+          "permalink": "/articles/047",
+          "markdown_link": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "path": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "date": "2025-12-29",
+          "label": "Agnes自封为东南亚DeepSeek的种子选手",
+          "weight": 1
+        },
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "Agnes公司自诩为东南亚或新加坡的DeepSeek",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "agnes",
+      "target": "flowith-os",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者通过实际生成任务对比了Agnes与Flowith",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "039"
+      ],
+      "evidences": [
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "作者通过实际生成任务对比了Agnes与Flowith",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "agnes",
+      "target": "genspark",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes产品被指责像素级抄袭GenSpark",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "039",
+        "047"
+      ],
+      "evidences": [
+        {
+          "article_id": "047",
+          "title": "我被AI圈大冰投诉了（附真诚道歉信）",
+          "permalink": "/articles/047",
+          "markdown_link": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "path": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "date": "2025-12-29",
+          "label": "文章指出Agnes在产品思路上与Genspark极其类似，被称为丐版/贵族版Genspark",
+          "weight": 1
+        },
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "Agnes产品被指责像素级抄袭GenSpark",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "agnes",
+      "target": "instagram",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes标榜打破了Instagram的增长纪录",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "039"
+      ],
+      "evidences": [
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "Agnes标榜打破了Instagram的增长纪录",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "agnes",
+      "target": "lovart",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes通过宣称访问量接近Lovart来蹭热度",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "039",
+        "047"
+      ],
+      "evidences": [
+        {
+          "article_id": "047",
+          "title": "我被AI圈大冰投诉了（附真诚道歉信）",
+          "permalink": "/articles/047",
+          "markdown_link": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "path": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "date": "2025-12-29",
+          "label": "Agnes宣称其访问量接近Lovart",
+          "weight": 1
+        },
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "Agnes通过宣称访问量接近Lovart来蹭热度",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "agnes",
+      "target": "manus",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes声称其产品功能逼近或复制了Manus",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "039",
+        "047"
+      ],
+      "evidences": [
+        {
+          "article_id": "047",
+          "title": "我被AI圈大冰投诉了（附真诚道歉信）",
+          "permalink": "/articles/047",
+          "markdown_link": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "path": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "date": "2025-12-29",
+          "label": "Agnes宣称其数据表现逼近Manus",
+          "weight": 1
+        },
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "Agnes声称其产品功能逼近或复制了Manus",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "agnes",
+      "target": "office",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes宣传口号中声称要终结Office时代",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "039"
+      ],
+      "evidences": [
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "Agnes宣传口号中声称要终结Office时代",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "agnes",
+      "target": "snapchat",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes标榜打破了Snapchat的增长纪录",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "039"
+      ],
+      "evidences": [
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "Agnes标榜打破了Snapchat的增长纪录",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "agnes",
+      "target": "大冰",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes公司因过度炒作被比喻为AI圈的大冰",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "039",
+        "047"
+      ],
+      "evidences": [
+        {
+          "article_id": "047",
+          "title": "我被AI圈大冰投诉了（附真诚道歉信）",
+          "permalink": "/articles/047",
+          "markdown_link": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "path": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "date": "2025-12-29",
+          "label": "文章标题及正文将Agnes及其团队比作AI圈大冰进行嘲讽",
+          "weight": 1
+        },
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "Agnes公司因过度炒作被比喻为AI圈的大冰",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "agnes",
+      "target": "夸克",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Agnes的生成效果平平无奇，不如用夸克",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "039"
+      ],
+      "evidences": [
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "作者认为Agnes的生成效果平平无奇，不如用夸克",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "agnes",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes公司自诩为东南亚或新加坡的DeepSeek",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "flowith-os",
+      "target": "agnes",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者通过实际生成任务对比了Agnes与Flowith",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "genspark",
+      "target": "agnes",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes产品被指责像素级抄袭GenSpark",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "instagram",
+      "target": "agnes",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes标榜打破了Instagram的增长纪录",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "lovart",
+      "target": "agnes",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes通过宣称访问量接近Lovart来蹭热度",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "manus",
+      "target": "agnes",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes声称其产品功能逼近或复制了Manus",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "office",
+      "target": "agnes",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes宣传口号中声称要终结Office时代",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "snapchat",
+      "target": "agnes",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes标榜打破了Snapchat的增长纪录",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "大冰",
+      "target": "agnes",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes公司因过度炒作被比喻为AI圈的大冰",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "夸克",
+      "target": "agnes",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Agnes的生成效果平平无奇，不如用夸克",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "agnes",
+      "target": "genspark",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Agnes试图作为GenSpark的平替竞品",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "039",
+        "047"
+      ],
+      "evidences": [
+        {
+          "article_id": "047",
+          "title": "我被AI圈大冰投诉了（附真诚道歉信）",
+          "permalink": "/articles/047",
+          "markdown_link": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "path": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "date": "2025-12-29",
+          "label": "Agnes宣称在3个月内追平Genspark",
+          "weight": 1
+        },
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "Agnes试图作为GenSpark的平替竞品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "genspark",
+      "target": "agnes",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Agnes试图作为GenSpark的平替竞品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "sapiens-ai",
+      "target": "agnes",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Agnes AI由新加坡Sapiens AI团队打造",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "047"
+      ],
+      "evidences": [
+        {
+          "article_id": "047",
+          "title": "我被AI圈大冰投诉了（附真诚道歉信）",
+          "permalink": "/articles/047",
+          "markdown_link": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "path": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "date": "2025-12-29",
+          "label": "Agnes AI由新加坡Sapiens AI团队打造",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "开为科技",
+      "target": "agnes",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "开为科技团队借新加坡主体炒作并推出了Agnes产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "039"
+      ],
+      "evidences": [
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "开为科技团队借新加坡主体炒作并推出了Agnes产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "杨通",
+      "target": "agnes",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "杨通是Agnes公司的创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "039"
+      ],
+      "evidences": [
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "杨通是Agnes公司的创始人",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

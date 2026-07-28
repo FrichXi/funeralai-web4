@@ -1,0 +1,251 @@
+{
+  "node": {
+    "id": "chatpods",
+    "name": "ChatPods",
+    "type": "product",
+    "description": "一款集合播客并生成语音摘要的独立AI播客产品",
+    "mention_count": 6,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "AI播客",
+      "独立产品",
+      "语音摘要"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "059",
+        "title": "「Dokie不如ListenHub」",
+        "date": "2026-01-28",
+        "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "permalink": "/articles/059",
+        "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "014",
+        "title": "除了投资人，没人需要AI播客",
+        "date": "2025-08-07",
+        "path": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+        "permalink": "/articles/014",
+        "markdown_link": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 11,
+    "composite_weight": 0.0822
+  },
+  "links": [
+    {
+      "source": "chatpods",
+      "target": "listenhub",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将成功转型的ListenHub与凉透的ChatPods进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "059"
+      ],
+      "evidences": [
+        {
+          "article_id": "059",
+          "title": "「Dokie不如ListenHub」",
+          "permalink": "/articles/059",
+          "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "date": "2026-01-28",
+          "label": "文章将成功转型的ListenHub与凉透的ChatPods进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatpods",
+      "target": "小宇宙",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对ChatPods生成的摘要模式提出质疑，对比用户直接去小宇宙收听原播客的行为逻辑",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "014"
+      ],
+      "evidences": [
+        {
+          "article_id": "014",
+          "title": "除了投资人，没人需要AI播客",
+          "permalink": "/articles/014",
+          "markdown_link": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "path": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "date": "2025-08-07",
+          "label": "文章对ChatPods生成的摘要模式提出质疑，对比用户直接去小宇宙收听原播客的行为逻辑",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatpods",
+      "target": "猿辅导",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为ChatPods让人想到了猿辅导",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "059"
+      ],
+      "evidences": [
+        {
+          "article_id": "059",
+          "title": "「Dokie不如ListenHub」",
+          "permalink": "/articles/059",
+          "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "date": "2026-01-28",
+          "label": "作者认为ChatPods让人想到了猿辅导",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "listenhub",
+      "target": "chatpods",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将成功转型的ListenHub与凉透的ChatPods进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "小宇宙",
+      "target": "chatpods",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对ChatPods生成的摘要模式提出质疑，对比用户直接去小宇宙收听原播客的行为逻辑",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "猿辅导",
+      "target": "chatpods",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为ChatPods让人想到了猿辅导",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "chatpods",
+      "target": "微信读书",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章认为市面上的AI播客产品（如ChatPods）本质是语音摘要工具，实际竞争对手是微信读书的语音朗读功能",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "014"
+      ],
+      "evidences": [
+        {
+          "article_id": "014",
+          "title": "除了投资人，没人需要AI播客",
+          "permalink": "/articles/014",
+          "markdown_link": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "path": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "date": "2025-08-07",
+          "label": "文章认为市面上的AI播客产品（如ChatPods）本质是语音摘要工具，实际竞争对手是微信读书的语音朗读功能",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatpods",
+      "target": "来福电台",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "ChatPods和来福电台都是AI播客产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "微信读书",
+      "target": "chatpods",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章认为市面上的AI播客产品（如ChatPods）本质是语音摘要工具，实际竞争对手是微信读书的语音朗读功能",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "来福电台",
+      "target": "chatpods",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "ChatPods和来福电台都是AI播客产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "张月光",
+      "target": "chatpods",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "张月光曾开发并关闭了ChatPods",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "059"
+      ],
+      "evidences": [
+        {
+          "article_id": "059",
+          "title": "「Dokie不如ListenHub」",
+          "permalink": "/articles/059",
+          "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "date": "2026-01-28",
+          "label": "张月光曾开发并关闭了ChatPods",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

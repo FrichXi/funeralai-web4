@@ -1,0 +1,136 @@
+{
+  "node": {
+    "id": "claude客户端",
+    "name": "Claude客户端",
+    "type": "product",
+    "description": "Anthropic推出的Agent客户端",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "客户端"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "103",
+        "title": "Kimi看天讨饭吃",
+        "date": "2026-06-10",
+        "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "permalink": "/articles/103",
+        "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0424
+  },
+  "links": [
+    {
+      "source": "claude客户端",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "建议做Agent客户端时学习做得更好的Codex而不是Claude",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "建议做Agent客户端时学习做得更好的Codex而不是Claude",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude客户端",
+      "target": "kimi-work",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比两者UI设计，批评不要照着Claude客户端学",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "文章对比两者UI设计，批评不要照着Claude客户端学",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "claude客户端",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "建议做Agent客户端时学习做得更好的Codex而不是Claude",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi-work",
+      "target": "claude客户端",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比两者UI设计，批评不要照着Claude客户端学",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "anthropic",
+      "target": "claude客户端",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Anthropic开发了被广泛对照的Claude客户端",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "Anthropic开发了被广泛对照的Claude客户端",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

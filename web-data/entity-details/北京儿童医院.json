@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "北京儿童医院",
+    "name": "北京儿童医院",
+    "type": "company",
+    "description": "与百川智能合作落地AI初筛医疗模型的机构",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "医疗机构"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "007",
+        "title": "王小川造不出医生",
+        "date": "2025-06-26",
+        "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+        "permalink": "/articles/007",
+        "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0085
+  },
+  "links": [
+    {
+      "source": "北京儿童医院",
+      "target": "百川智能",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "百川智能与北京儿童医院合作，在地方落地AI医疗模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "007"
+      ],
+      "evidences": [
+        {
+          "article_id": "007",
+          "title": "王小川造不出医生",
+          "permalink": "/articles/007",
+          "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "date": "2025-06-26",
+          "label": "百川智能与北京儿童医院合作，在地方落地AI医疗模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

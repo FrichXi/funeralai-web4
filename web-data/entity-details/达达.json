@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "达达",
+    "name": "达达",
+    "type": "company",
+    "description": "被京东投资的即时零售及配送平台",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "055",
+        "title": "来认识下2025年最活跃的CVC",
+        "date": "2026-01-22",
+        "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "permalink": "/articles/055",
+        "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.019
+  },
+  "links": [
+    {
+      "source": "京东到家",
+      "target": "达达",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "京东将京东到家业务给了达达",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "京东将京东到家业务给了达达",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "京东",
+      "target": "达达",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "京东投资了达达",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "京东投资了达达",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "金山画王",
+    "name": "金山画王",
+    "type": "product",
+    "description": "历史软件，其仙女袋功能被作者用来讽刺灵光世界模型的纯特效本质",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "对比参照"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "121",
+        "title": "蚂蚁把世界模型作为一场儿戏",
+        "date": "2026-07-16",
+        "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+        "permalink": "/articles/121",
+        "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0277
+  },
+  "links": [
+    {
+      "source": "灵光",
+      "target": "金山画王",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将灵光的特效功能比作金山画王的仙女袋功能以示讽刺",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "121"
+      ],
+      "evidences": [
+        {
+          "article_id": "121",
+          "title": "蚂蚁把世界模型作为一场儿戏",
+          "permalink": "/articles/121",
+          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "date": "2026-07-16",
+          "label": "作者将灵光的特效功能比作金山画王的仙女袋功能以示讽刺",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "金山画王",
+      "target": "灵光",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将灵光的特效功能比作金山画王的仙女袋功能以示讽刺",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

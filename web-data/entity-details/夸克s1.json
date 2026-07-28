@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "夸克s1",
+    "name": "夸克S1",
+    "type": "product",
+    "description": "阿里夸克推出的AI智能眼镜产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "夸克智能眼镜"
+    ],
+    "tags": [
+      "AI硬件",
+      "智能眼镜"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "050",
+        "title": "Rokid是我的太阳（指物理温度）",
+        "date": "2026-01-08",
+        "path": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+        "permalink": "/articles/050",
+        "markdown_link": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.011
+  },
+  "links": [
+    {
+      "source": "阿里巴巴",
+      "target": "夸克s1",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "阿里夸克团队开发了夸克S1 AI眼镜",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "050"
+      ],
+      "evidences": [
+        {
+          "article_id": "050",
+          "title": "Rokid是我的太阳（指物理温度）",
+          "permalink": "/articles/050",
+          "markdown_link": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+          "path": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+          "date": "2026-01-08",
+          "label": "阿里夸克团队开发了夸克S1 AI眼镜",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

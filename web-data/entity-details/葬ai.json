@@ -1,0 +1,98 @@
+{
+  "node": {
+    "id": "葬ai",
+    "name": "葬AI",
+    "displayName": "葬AI",
+    "type": "company",
+    "description": "中文AI行业评论自媒体",
+    "aliases": [
+      "葬爱咸鱼科技有限公司"
+    ],
+    "tags": [],
+    "mention_count": 1,
+    "article_count": 1,
+    "source_article_count": 1,
+    "references": 1,
+    "degree": 4,
+    "composite_weight": 0.0282,
+    "source_articles": [
+      {
+        "article_id": "020",
+        "title": "半年来目睹之AI创业怪现状",
+        "date": "2025-09-08",
+        "path": "articles/020_2025-09-08_葬爱咸鱼_半年来目睹之AI创业怪现状.md",
+        "permalink": "/articles/020",
+        "markdown_link": "articles/020_2025-09-08_葬爱咸鱼_半年来目睹之AI创业怪现状.md",
+        "mention_count": 1
+      }
+    ]
+  },
+  "links": [
+    {
+      "source": "葬爱咸鱼",
+      "target": "葬ai",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "咸鱼在北京注册了葬爱咸鱼科技有限公司并担任实控人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "020"
+      ],
+      "evidences": [
+        {
+          "article_id": "020",
+          "title": "半年来目睹之AI创业怪现状",
+          "permalink": "/articles/020",
+          "markdown_link": "articles/020_2025-09-08_葬爱咸鱼_半年来目睹之AI创业怪现状.md",
+          "path": "articles/020_2025-09-08_葬爱咸鱼_半年来目睹之AI创业怪现状.md",
+          "date": "2025-09-08",
+          "label": "咸鱼在北京注册了葬爱咸鱼科技有限公司并担任实控人",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "沐秋",
+      "target": "葬ai",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "沐秋是葬AI的作者",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "葬ai",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "葬爱咸鱼是葬AI的创始人和作者",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "骡子马",
+      "target": "葬ai",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "骡子马是葬AI的作者",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

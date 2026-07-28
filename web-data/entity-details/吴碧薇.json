@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "吴碧薇",
+    "name": "吴碧薇",
+    "type": "person",
+    "description": "远识资本合伙人",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "FA合伙人"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "085",
+        "title": "谁是宇宙第一FA",
+        "date": "2026-04-27",
+        "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "permalink": "/articles/085",
+        "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0217
+  },
+  "links": [
+    {
+      "source": "吴碧薇",
+      "target": "陈冕",
+      "relation_type": "mentors",
+      "type": "mentors",
+      "label": "文章称吴碧薇是陈冕的“亲恩人”，存在提携/指导关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "文章称吴碧薇是陈冕的“亲恩人”，存在提携/指导关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "吴碧薇",
+      "target": "远识资本",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "吴碧薇是远识资本的合伙人",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "吴碧薇是远识资本的合伙人",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

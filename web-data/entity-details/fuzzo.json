@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "fuzzo",
+    "name": "fuzzo",
+    "type": "product",
+    "description": "一款AI玩具，被作者认为对话体验不如小智AI",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI玩具"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "072",
+        "title": "小智AI才是真正的具身智能",
+        "date": "2026-03-17",
+        "path": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+        "permalink": "/articles/072",
+        "markdown_link": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0187
+  },
+  "links": [
+    {
+      "source": "fuzzo",
+      "target": "小智ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将小智AI的对话体验与fuzzo进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "072"
+      ],
+      "evidences": [
+        {
+          "article_id": "072",
+          "title": "小智AI才是真正的具身智能",
+          "permalink": "/articles/072",
+          "markdown_link": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+          "path": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+          "date": "2026-03-17",
+          "label": "文章将小智AI的对话体验与fuzzo进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "小智ai",
+      "target": "fuzzo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将小智AI的对话体验与fuzzo进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

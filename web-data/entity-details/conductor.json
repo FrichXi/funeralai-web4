@@ -1,0 +1,149 @@
+{
+  "node": {
+    "id": "conductor",
+    "name": "Conductor",
+    "type": "product",
+    "description": "YC投资的本地终端会话管理套壳产品",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "会话管理"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "090",
+        "title": "Bloome重做元宝派",
+        "date": "2026-05-12",
+        "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "permalink": "/articles/090",
+        "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0413
+  },
+  "links": [
+    {
+      "source": "bloome",
+      "target": "conductor",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Bloome在界面上比同为会话管理器的Conductor好看",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "作者认为Bloome在界面上比同为会话管理器的Conductor好看",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "conductor",
+      "target": "bloome",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Bloome在界面上比同为会话管理器的Conductor好看",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "claude",
+      "target": "conductor",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Conductor可以方便地打开使用Claude code",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "Conductor可以方便地打开使用Claude code",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "conductor",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Conductor可以方便地打开使用Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "Conductor可以方便地打开使用Codex",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "yc",
+      "target": "conductor",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "YC投资了Conductor",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "YC投资了Conductor",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

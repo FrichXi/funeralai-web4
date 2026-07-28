@@ -1,0 +1,108 @@
+{
+  "node": {
+    "id": "tristan",
+    "name": "Tristan",
+    "type": "person",
+    "description": "自然选择创始人",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "064",
+        "title": "Elys应该做成AI内涵段子",
+        "date": "2026-02-13",
+        "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "permalink": "/articles/064",
+        "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0258
+  },
+  "links": [
+    {
+      "source": "clear",
+      "target": "tristan",
+      "relation_type": "co_founded",
+      "type": "co_founded",
+      "label": "两人同为自然选择的联合创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "064"
+      ],
+      "evidences": [
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "两人同为自然选择的联合创始人",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "tristan",
+      "target": "自然选择",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "Tristan是自然选择的创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "064"
+      ],
+      "evidences": [
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "Tristan是自然选择的创始人",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "tristan",
+      "target": "elys",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Tristan主导或参与开发了Elys",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "064"
+      ],
+      "evidences": [
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "Tristan主导或参与开发了Elys",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,95 @@
+{
+  "node": {
+    "id": "deepseek-tui",
+    "name": "Deepseek TUI",
+    "type": "product",
+    "description": "开源社区火热的Deepseek终端工具",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "103",
+        "title": "Kimi看天讨饭吃",
+        "date": "2026-06-10",
+        "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "permalink": "/articles/103",
+        "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0274
+  },
+  "links": [
+    {
+      "source": "deepseek-tui",
+      "target": "pi-coding-agent",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Deepseek TUI火了不久，现在流行的是Pi coding agent",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "Deepseek TUI火了不久，现在流行的是Pi coding agent",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "pi-coding-agent",
+      "target": "deepseek-tui",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Deepseek TUI火了不久，现在流行的是Pi coding agent",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "deepseek",
+      "target": "deepseek-tui",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "属于Deepseek生态的终端产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "属于Deepseek生态的终端产品",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

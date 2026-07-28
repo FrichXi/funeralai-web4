@@ -19,7 +19,7 @@
 
 | 层级 | 技术 | 版本 |
 |------|------|------|
-| 框架 | Next.js (App Router, 静态导出) | ^14.2 |
+| 框架 | Next.js (App Router, 静态导出) | 15.5.21 |
 | UI | React + TypeScript | ^18.3 / ^5.5 |
 | 样式 | Tailwind CSS | ^3.4 |
 | 图谱渲染 | Cytoscape + cytoscape-fcose | ^3.30 / ^2.2 |
@@ -38,6 +38,9 @@
 │   ├── frontend-layout-contracts.md   # 前端布局规则
 │   ├── frontend-refactor-checkpoint.md # 前端大重构前工作区基线
 │   ├── frontend-refactor-readiness.md # 文章排版/benchmark 改造前检查
+│   ├── engineering-reliability-plan.md # 工程可靠性实施计划
+│   ├── engineering-reliability-plan-audit.md # 可靠性计划独立审核
+│   ├── release-operations.md           # 发布、验收、回滚运行手册
 │   ├── kg-holistic-review-099-111.md  # 099-111 图谱整体复核记录
 │   ├── ui-design-system.md            # 8-bit 视觉系统说明
 │   └── data-formats.md               # 数据 JSON 格式定义
@@ -72,10 +75,17 @@
 │   ├── post_process.py                # 后处理执行引擎
 │   ├── build_presentation.py          # 前端数据生成 → web-data/
 │   ├── frontend_refactor_readiness.py # 前端重构前只读体检报告
+│   ├── release_guard.py                # 发布契约、本地/远程产物验证
+│   ├── rollback_pages.py               # Cloudflare production 回滚（默认 dry-run）
 │   ├── enrich_graph.py                # (legacy) 旧后处理脚本，待移除
 │   └── sync_github_repo.sh            # 将文章/图谱/公开统计安全提交并推送到 GitHub
 │
 └── site/                              # Next.js 前端项目
+    ├── functions/                     # Cloudflare Pages Functions（静态站动态 API）
+    │   └── api/test/votes.js          # /test 模型总榜投票收集 API
+    ├── migrations/                    # Cloudflare D1 schema migrations
+    │   └── 0001_benchmark_votes.sql   # benchmark 投票状态/事件表
+    ├── wrangler.toml                  # Cloudflare Pages Functions/D1 binding 配置
     ├── next.config.mjs                # { output: 'export', trailingSlash: true }
     ├── prebuild.sh                    # web-data/ → public/data/ 拷贝脚本
     ├── public/
@@ -103,14 +113,16 @@
         │       │   ├── layout.tsx     # 宽度包装 + Footer
         │       │   ├── page.tsx       # 文章列表 + CollectionPage JSON-LD
         │       │   └── [id]/page.tsx  # 文章详情（SSG）+ Article JSON-LD
-        │       ├── leaderboard/
-        │       │   └── page.tsx       # 排行榜 + ItemList JSON-LD
-        │       └── test/              # Web4 rebuild benchmark 展示页
+│       ├── leaderboard/
+│       │   └── page.tsx       # 排行榜 + ItemList JSON-LD
+│       └── test/              # Web4 benchmark 展示页
+│           └── archive/       # 历史 benchmark 榜单入口
         ├── components/
         │   ├── layout/                # Navbar, Footer, PageContainer, StatusScreen
         │   ├── graph/                 # GraphCanvas, GraphControls, GraphLegend, EntityDrawer
         │   ├── leaderboard/           # LeaderboardPageClient, LeaderboardTabs, LeaderboardSidebar
         │   ├── article/               # ArticleList, ArticleBody, EntityTag
+        │   ├── test/                  # /test 下载、方法论跳转、投票控件
         │   ├── theme/                 # ThemeProvider + celestial transition
         │   └── ui/                    # 通用 UI 原语（8bit 像素风 + shadcn 基础组件）
         ├── hooks/
@@ -156,6 +168,16 @@ articles/*.md
 | `/leaderboard` | SSG | leaderboards.json 构建时读取 | ItemList JSON-LD |
 | `/articles` | SSG | article-index.json 构建时读取 | CollectionPage JSON-LD |
 | `/articles/[id]` | SSG（generateStaticParams） | 各 article JSON 构建时读取 | Article JSON-LD |
+| `/test` | SSG + 客户端投票控件 | manifest.json 构建时读取；投票写入 D1 | noindex |
+| `/test/archive` | SSG | 历史 manifest 构建时读取 | noindex |
+
+### 动态 API
+
+站点主体仍是 `output: 'export'` 纯静态。少量动态能力通过 Cloudflare Pages Functions 提供：
+
+| API | 用途 | 存储 |
+|-----|------|------|
+| `/api/test/votes` | `/test` 模型总榜“偏低/偏高”反馈收集 | Cloudflare D1 `BENCHMARK_VOTES_DB` |
 
 ## SEO 与社交分享
 
@@ -248,10 +270,14 @@ acquires, co_founded, collaborates_with, compares_to, competes_with, criticizes,
 ```
 
 部署脚本定义见 `site/package.json`：
-- `scripts/deploy_site.sh --profile release`: 只允许从 `/Users/xixiangyu/Documents/葬AI Web4` 发布，先运行 `doctor_repo.sh`、`python3 -m scripts.run_pipeline build` 和 `python3 scripts/kg_review_gate.py`，再以 `STAGE_TEST=required` 构建并上传 Cloudflare Pages。
-- `npm run deploy`: 从 `site/` 目录委托给 `scripts/deploy_site.sh --profile release`。
-- `npm run deploy:raw`: 保留原始 wrangler 命令，仅用于非 production 的临时排障；不得从它发布正式域名。
-- **production 硬规则**: 不得从 `/Users/xixiangyu/Documents/cc写作/qwen/append-*`、detached HEAD、复制出来的 `web4-*` 目录或任何非 canonical root 执行 Cloudflare production 部署。也不得直接运行 `wrangler pages deploy ... --branch main` 绕过 `doctor_repo.sh`。正式发布只能在 `/Users/xixiangyu/Documents/葬AI Web4/site` 运行 `npm run deploy`，并确认 deploy summary 里 `main articles` 是当前线上应有数量。
+- `scripts/deploy_site.sh --profile release`: 只允许从 canonical root 发布；依次运行 doctor、数据管线、KG gate、测试、一次 production-mode 构建和 release contract 验证，然后先上传并核验 `release-candidate` preview，再把同一 `site/out` 上传 production。
+- `npm run deploy`: 从 `site/` 目录委托给上述两阶段发布；成功后还会核验唯一 production URL 和正式域名，并写入 ignored release receipt。
+- `npm run deploy:raw`: 只有显式设置 `ALLOW_RAW_PAGES_DEPLOY=1` 时才能发布到 `diagnostics-only` preview branch，不能发布 production。
+- `site/out/release-manifest.json` 是发布身份，包含文章/图谱/benchmark 计数、关键哈希、完整静态树摘要和 Git/runtime 身份。
+- 回滚使用 `python3 scripts/rollback_pages.py --deployment-id <id>` 先 dry-run，执行要求显式 API token 和 `--execute --confirm-project funeral-ai-web4`。详见 `docs/release-operations.md`。
+- Cloudflare Pages Functions 位于 `site/functions/`；从 `site/` 执行 `wrangler pages deploy out --project-name funeral-ai-web4` 时会随静态产物一起上传。
+- `/test` 投票需要 `site/wrangler.toml` 中的 D1 binding：`BENCHMARK_VOTES_DB` → D1 database `funeralai-web4-feedback`，以及 Pages production secret `BENCHMARK_VOTE_SALT`。首次启用或 schema 变化后，在 `site/` 下运行 `npx wrangler d1 migrations apply funeralai-web4-feedback --remote`。
+- **production 硬规则**: 不得从 `/Users/xixiangyu/Documents/cc写作/qwen/append-*`、detached HEAD、复制出来的 `web4-*` 目录或任何非 canonical root 执行 Cloudflare production 部署。也不得直接运行 `wrangler pages deploy ... --branch main` 绕过 `doctor_repo.sh`。正式发布只能在 `/Users/xixiangyu/Documents/葬AI Web4/site` 运行 `npm run deploy`（日常内容自动化用 `npm run deploy:content`），并确认 preview、唯一 production URL 与正式域名的 release ID 全部一致。
 - GitHub 同步：部署成功后，根据事务类型使用 `./scripts/sync_github_repo.sh --profile content|test-benchmark|site-ui|release "<commit message>"`。该脚本只允许提交 profile 范围内的文件；若工作区还有无关改动，会直接阻断，避免把本地实验性改动一起推上 GitHub。
 
 ### 工作事务 profile
@@ -261,7 +287,9 @@ acquires, co_founded, collaborates_with, compares_to, competes_with, criticizes,
 - `site-ui`: 前端 UI、主题、组件和站点脚本。
 - `release`: 明确需要合并多类改动的发布；使用前先跑 `doctor_repo.sh --profile release`。
 
-`site/public/data/` 和 `site/public/test/` 是生成物，不应进入 Git tracking。`/test` benchmark staging 依赖本机 ignored 配置 `site/benchmark.local.json`；普通 CI 构建使用 `STAGE_TEST=skip`，本机发布使用 `STAGE_TEST=required`。
+`site/public/data/`、`site/public/test/` 和 `site/public/release-manifest.json` 是生成物，不应进入 Git tracking。`/test` benchmark staging 依赖本机 ignored 配置 `site/benchmark.local.json`；普通 CI 构建使用确定性的 `STAGE_TEST=ci` 编译 fixture，本机正式发布使用 `STAGE_TEST=required`。
+
+Graph V2 榜单使用 `site/scripts/stage-graph-v2-benchmark.mjs` 生成候选目录：默认只构建并校验 `site/.stage-test-candidate-graph-v2`，传入 `--activate` 后才原子切换 `site/public/test`。每个正式任务同时发布路径兼容的 viewer 与保留完整目录、符号链接和文件内容的 `raw.tar.gz`，其源目录树和归档均记录 SHA-256；旧榜单 manifest 归档到 `site/public/test/archive/2026-06-24-web4-rebuild/`，原 `/test/r1`–`/test/r10` 站点链接保持不变。
 
 ### Cloudflare 认证与排障
 
@@ -275,11 +303,8 @@ acquires, co_founded, collaborates_with, compares_to, competes_with, criticizes,
   3. 直接使用 `cd site && npm run deploy`
 - 只有在本机 wrangler 登录态缺失或 refresh token 无法恢复时，才需要显式提供 `CLOUDFLARE_API_TOKEN`
 
-**方式二：推送自动部署（待配置）**
-在 Cloudflare Dashboard 的 funeral-ai-web4 项目中连接 GitHub 仓库后，每次 `git push origin main` 会自动触发构建部署。构建配置：
-- Build command: `cd site && npm install && npm run build`
-- Build output directory: `site/out`
-- Environment variable: `NODE_VERSION` = `20`
+**方式二：推送自动部署（暂不启用）**
+Graph V2 production staging 依赖本机 ignored 的完整 benchmark 目录；干净 Git clone 只有 `STAGE_TEST=ci` 编译 fixture，不能作为 production 数据。因此在 benchmark 产物迁移到可验证的制品仓库前，不得启用 Git push 自动 production 部署。GitHub Actions 固定 Node 22，只负责 CI 编译与契约验证。
 
 ### 安全头与缓存
 

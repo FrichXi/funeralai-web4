@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "脑放电波",
+    "name": "脑放电波",
+    "type": "company",
+    "description": "播客或自媒体机构，Nixon为其主播",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "播客"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "053",
+        "title": "第一届葬AI炒作大赛（北京线下活动）",
+        "date": "2026-01-19",
+        "path": "articles/053_2026-01-19_葬爱咸鱼_第一届葬AI炒作大赛（北京线下活动）.md",
+        "permalink": "/articles/053",
+        "markdown_link": "articles/053_2026-01-19_葬爱咸鱼_第一届葬AI炒作大赛（北京线下活动）.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0112
+  },
+  "links": [
+    {
+      "source": "nixon",
+      "target": "脑放电波",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "Nixon是脑放电波的主播",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "053"
+      ],
+      "evidences": [
+        {
+          "article_id": "053",
+          "title": "第一届葬AI炒作大赛（北京线下活动）",
+          "permalink": "/articles/053",
+          "markdown_link": "articles/053_2026-01-19_葬爱咸鱼_第一届葬AI炒作大赛（北京线下活动）.md",
+          "path": "articles/053_2026-01-19_葬爱咸鱼_第一届葬AI炒作大赛（北京线下活动）.md",
+          "date": "2026-01-19",
+          "label": "Nixon是脑放电波的主播",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

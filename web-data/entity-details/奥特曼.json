@@ -1,0 +1,60 @@
+{
+  "node": {
+    "id": "奥特曼",
+    "name": "奥特曼",
+    "type": "person",
+    "description": "被指望能够重置AI工具调用额度的人物（指代Sam Altman）",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "Sam Altman"
+    ],
+    "tags": [
+      "AI行业人物"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "100",
+        "title": "网吧黑客松里有真黑客",
+        "date": "2026-06-07",
+        "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+        "permalink": "/articles/100",
+        "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0146
+  },
+  "links": [
+    {
+      "source": "奥特曼",
+      "target": "codex",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "文中提到选手在Codex额度用光时等待“奥特曼”大发善心重置额度，暗示其对该工具及所属公司有核心控制权",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "100"
+      ],
+      "evidences": [
+        {
+          "article_id": "100",
+          "title": "网吧黑客松里有真黑客",
+          "permalink": "/articles/100",
+          "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "date": "2026-06-07",
+          "label": "文中提到选手在Codex额度用光时等待“奥特曼”大发善心重置额度，暗示其对该工具及所属公司有核心控制权",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

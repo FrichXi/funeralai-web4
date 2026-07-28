@@ -1,0 +1,100 @@
+{
+  "node": {
+    "id": "claude-fable-5",
+    "name": "Claude Fable 5",
+    "type": "product",
+    "description": "Anthropic旗舰模型，综合能力S级",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "Fable 5"
+    ],
+    "tags": [
+      "S级",
+      "大模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "122",
+        "title": "Kimi K3打响前端闪电战",
+        "date": "2026-07-22",
+        "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+        "permalink": "/articles/122",
+        "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0289
+  },
+  "links": [
+    {
+      "source": "claude-fable-5",
+      "target": "kimi-k3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "评测显示K3综合能力仅次于5.6 Sol和Fable 5",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "评测显示K3综合能力仅次于5.6 Sol和Fable 5",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "source": "kimi-k3",
+      "target": "claude-fable-5",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "评测显示K3综合能力仅次于5.6 Sol和Fable 5",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "anthropic",
+      "target": "claude-fable-5",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Anthropic开发了Claude Fable 5",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "Anthropic开发了Claude Fable 5",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

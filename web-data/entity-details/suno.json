@@ -1,0 +1,107 @@
+{
+  "node": {
+    "id": "suno",
+    "name": "Suno",
+    "type": "product",
+    "description": "AI音乐生成工具，被内嵌在Flova中",
+    "mention_count": 3,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "AI音乐",
+      "音频生成"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "012",
+        "title": "CrePal成为首个胖猫视频Agent",
+        "date": "2025-07-25",
+        "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+        "permalink": "/articles/012",
+        "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "052",
+        "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+        "date": "2026-01-16",
+        "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "permalink": "/articles/052",
+        "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0206
+  },
+  "links": [
+    {
+      "source": "crepal",
+      "target": "suno",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "CrePal的子Agent中集成了Suno音频生成模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "CrePal的子Agent中集成了Suno音频生成模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "flova",
+      "target": "suno",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Flova内嵌集成了Suno音乐模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "052"
+      ],
+      "evidences": [
+        {
+          "article_id": "052",
+          "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+          "permalink": "/articles/052",
+          "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "date": "2026-01-16",
+          "label": "Flova内嵌集成了Suno音乐模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "midjourney",
+      "target": "suno",
+      "score": 0.367,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "012",
+        "052"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

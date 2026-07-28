@@ -1,0 +1,184 @@
+{
+  "node": {
+    "id": "glm-5-2",
+    "name": "GLM-5.2",
+    "type": "product",
+    "description": "智谱的模型，在CEO-Bench评测中与MiniMax M3对比",
+    "mention_count": 11,
+    "article_count": 3,
+    "aliases": [
+      "GLM 5.2",
+      "GLM5.2"
+    ],
+    "tags": [
+      "LLM",
+      "大模型",
+      "纯文本"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "122",
+        "title": "Kimi K3打响前端闪电战",
+        "date": "2026-07-22",
+        "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+        "permalink": "/articles/122",
+        "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+        "mention_count": 9
+      },
+      {
+        "article_id": "117",
+        "title": "我来给MiniMax道歉了",
+        "date": "2026-07-11",
+        "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "permalink": "/articles/117",
+        "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "116",
+        "title": "民办大模型MiniMax努力专升本",
+        "date": "2026-07-09",
+        "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "permalink": "/articles/116",
+        "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0825
+  },
+  "links": [
+    {
+      "source": "glm-5-2",
+      "target": "minimax-m3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在CEO-Bench评测和网站重构任务中进行对比测试",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "116",
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "两者在CEO-Bench长程经营模拟评测中进行了直接对比",
+          "weight": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "在CEO-Bench评测和网站重构任务中进行对比测试",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax-m3",
+      "target": "glm-5-2",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在CEO-Bench评测和网站重构任务中进行对比测试",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "glm-5-2",
+      "target": "kimi-k3",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "K3显著超越GLM 5.2，两者争夺国产模型头部位置",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "K3显著超越GLM 5.2，两者争夺国产模型头部位置",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi-k3",
+      "target": "glm-5-2",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "K3显著超越GLM 5.2，两者争夺国产模型头部位置",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "智谱ai",
+      "target": "glm-5-2",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "智谱AI开发了GLM 5.2模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "智谱AI开发了GLM 5.2模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "glm-5-2",
+      "target": "minimax",
+      "score": 0.419,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "116",
+        "117",
+        "122"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

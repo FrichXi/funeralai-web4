@@ -1,0 +1,60 @@
+{
+  "node": {
+    "id": "飞猪",
+    "name": "飞猪",
+    "type": "product",
+    "description": "阿里生态下的旅游出行应用",
+    "mention_count": 4,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "买票",
+      "旅游",
+      "订酒店"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "051",
+        "title": "狠狠办千问",
+        "date": "2026-01-15",
+        "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "permalink": "/articles/051",
+        "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "mention_count": 4
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0151
+  },
+  "links": [
+    {
+      "source": "qwen",
+      "target": "飞猪",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "千问任务助手直接调用飞猪安排旅游行程",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "051"
+      ],
+      "evidences": [
+        {
+          "article_id": "051",
+          "title": "狠狠办千问",
+          "permalink": "/articles/051",
+          "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "date": "2026-01-15",
+          "label": "千问任务助手直接调用飞猪安排旅游行程",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

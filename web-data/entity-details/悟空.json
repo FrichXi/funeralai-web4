@@ -1,0 +1,86 @@
+{
+  "node": {
+    "id": "悟空",
+    "name": "悟空",
+    "type": "product",
+    "description": "钉钉内置的AI助理和需求分发路由器",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI助理",
+      "Agent",
+      "路由器"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "045",
+        "title": "无招把钉钉当玩具整",
+        "date": "2025-12-24",
+        "path": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+        "permalink": "/articles/045",
+        "markdown_link": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0195
+  },
+  "links": [
+    {
+      "source": "钉钉",
+      "target": "悟空",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "钉钉开发了内置的AI助理悟空",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "045"
+      ],
+      "evidences": [
+        {
+          "article_id": "045",
+          "title": "无招把钉钉当玩具整",
+          "permalink": "/articles/045",
+          "markdown_link": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "path": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "date": "2025-12-24",
+          "label": "钉钉开发了内置的AI助理悟空",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "悟空",
+      "target": "钉钉one",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "钉钉ONE作为超级入口，通过悟空作为路由器进行语音指令的拆解分配",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "045"
+      ],
+      "evidences": [
+        {
+          "article_id": "045",
+          "title": "无招把钉钉当玩具整",
+          "permalink": "/articles/045",
+          "markdown_link": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "path": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "date": "2025-12-24",
+          "label": "钉钉ONE作为超级入口，通过悟空作为路由器进行语音指令的拆解分配",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

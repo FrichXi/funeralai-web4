@@ -1,0 +1,197 @@
+{
+  "node": {
+    "id": "凯一",
+    "name": "凯一",
+    "type": "person",
+    "description": "在文中对Seed模型测试表现及能力倾向进行解释和辩护的人",
+    "mention_count": 3,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "测试者",
+      "知情人"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "110",
+        "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+        "date": "2026-06-24",
+        "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "permalink": "/articles/110",
+        "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "105",
+        "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+        "date": "2026-06-17",
+        "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "permalink": "/articles/105",
+        "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0516
+  },
+  "links": [
+    {
+      "source": "凯一",
+      "target": "codex",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "凯一认为GLM一眼超越了没能生成出画布页面的Codex",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "105"
+      ],
+      "evidences": [
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "凯一认为GLM一眼超越了没能生成出画布页面的Codex",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "凯一",
+      "target": "kimi",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "凯一因为不满意Kimi的生成表现，当即关掉了Kimi会员自动续费",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "105"
+      ],
+      "evidences": [
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "凯一因为不满意Kimi的生成表现，当即关掉了Kimi会员自动续费",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "凯一",
+      "target": "glm",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "凯一在复刻测试后大呼GLM无敌，赞扬其生成能力",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "105"
+      ],
+      "evidences": [
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "凯一在复刻测试后大呼GLM无敌，赞扬其生成能力",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "凯一",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "凯一了解字节内部测试数据并为Seed模型解释，推断为内部员工",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "凯一了解字节内部测试数据并为Seed模型解释，推断为内部员工",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "凯一",
+      "target": "seed",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "凯一为Seed模型的能力偏好（非Coding专精，擅长通用能力）提供官方视角的解释",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "凯一为Seed模型的能力偏好（非Coding专精，擅长通用能力）提供官方视角的解释",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "claude",
+      "target": "凯一",
+      "score": 0.4306,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "105",
+        "110"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "qwen",
+      "target": "凯一",
+      "score": 0.3617,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "105",
+        "110"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

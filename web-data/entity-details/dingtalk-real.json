@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "dingtalk-real",
+    "name": "DingTalk Real",
+    "type": "product",
+    "description": "钉钉推出的独立企业主机/企业级AI硬件，用于运行Agent和统一调度",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "企业主机",
+      "企业级AI硬件"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "045",
+        "title": "无招把钉钉当玩具整",
+        "date": "2025-12-24",
+        "path": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+        "permalink": "/articles/045",
+        "markdown_link": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0259
+  },
+  "links": [
+    {
+      "source": "钉钉",
+      "target": "dingtalk-real",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "钉钉研发了该款企业级AI硬件",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "045"
+      ],
+      "evidences": [
+        {
+          "article_id": "045",
+          "title": "无招把钉钉当玩具整",
+          "permalink": "/articles/045",
+          "markdown_link": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "path": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "date": "2025-12-24",
+          "label": "钉钉研发了该款企业级AI硬件",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "dingtalk-real",
+      "target": "钉钉agent-os",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "从钉钉Agent OS开发的Agent都跑在DingTalk Real这台企业主机上",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "045"
+      ],
+      "evidences": [
+        {
+          "article_id": "045",
+          "title": "无招把钉钉当玩具整",
+          "permalink": "/articles/045",
+          "markdown_link": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "path": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "date": "2025-12-24",
+          "label": "从钉钉Agent OS开发的Agent都跑在DingTalk Real这台企业主机上",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "无招",
+      "target": "dingtalk-real",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "无招推出了DingTalk Real并邀请共创",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "045"
+      ],
+      "evidences": [
+        {
+          "article_id": "045",
+          "title": "无招把钉钉当玩具整",
+          "permalink": "/articles/045",
+          "markdown_link": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "path": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "date": "2025-12-24",
+          "label": "无招推出了DingTalk Real并邀请共创",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

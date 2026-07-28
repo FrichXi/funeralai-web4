@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "豆包耳机",
+    "name": "豆包耳机",
+    "type": "product",
+    "description": "字节跳动旗下AI耳机产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI硬件",
+      "耳机"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "114",
+        "title": "硬件转转大会来了",
+        "date": "2026-07-05",
+        "path": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
+        "permalink": "/articles/114",
+        "markdown_link": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0156
+  },
+  "links": [
+    {
+      "source": "罗子马",
+      "target": "豆包耳机",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "罗子马因网络问题未能使用豆包耳机进行翻译，暗示其实用性差",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "114"
+      ],
+      "evidences": [
+        {
+          "article_id": "114",
+          "title": "硬件转转大会来了",
+          "permalink": "/articles/114",
+          "markdown_link": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
+          "path": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
+          "date": "2026-07-05",
+          "label": "罗子马因网络问题未能使用豆包耳机进行翻译，暗示其实用性差",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

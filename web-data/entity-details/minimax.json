@@ -1,0 +1,1554 @@
+{
+  "node": {
+    "id": "minimax",
+    "name": "MiniMax",
+    "type": "company",
+    "description": "国内头部大模型公司，开发了M3模型、海螺视频模型及Talkie/星野等C端产品",
+    "mention_count": 216,
+    "article_count": 22,
+    "aliases": [
+      "MinMax",
+      "Minimax"
+    ],
+    "tags": [
+      "AI公司",
+      "AI六小虎",
+      "AI四小虎",
+      "AI四小龙",
+      "AI大模型",
+      "AI视频",
+      "C端",
+      "C端应用",
+      "IPO",
+      "上市",
+      "上市公司",
+      "人工智能",
+      "付费墙",
+      "出海",
+      "多模态",
+      "大模型",
+      "大模型公司",
+      "情感陪伴",
+      "斩杀线",
+      "模型厂",
+      "模型层",
+      "视频生成模型"
+    ],
+    "references": 22,
+    "source_article_count": 22,
+    "source_articles": [
+      {
+        "article_id": "117",
+        "title": "我来给MiniMax道歉了",
+        "date": "2026-07-11",
+        "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "permalink": "/articles/117",
+        "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+        "mention_count": 71
+      },
+      {
+        "article_id": "116",
+        "title": "民办大模型MiniMax努力专升本",
+        "date": "2026-07-09",
+        "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "permalink": "/articles/116",
+        "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "mention_count": 45
+      },
+      {
+        "article_id": "004",
+        "title": "MiniMax的胖猫宇宙",
+        "date": "2025-06-23",
+        "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "permalink": "/articles/004",
+        "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "mention_count": 29
+      },
+      {
+        "article_id": "049",
+        "title": "建议六小虎合并，实现China AGI",
+        "date": "2026-01-05",
+        "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "permalink": "/articles/049",
+        "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "mention_count": 17
+      },
+      {
+        "article_id": "105",
+        "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+        "date": "2026-06-17",
+        "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "permalink": "/articles/105",
+        "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "mention_count": 9
+      },
+      {
+        "article_id": "110",
+        "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+        "date": "2026-06-24",
+        "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "permalink": "/articles/110",
+        "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "mention_count": 6
+      },
+      {
+        "article_id": "109",
+        "title": "智谱与Anthropic是母凭子贵",
+        "date": "2026-06-23",
+        "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "permalink": "/articles/109",
+        "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "mention_count": 6
+      },
+      {
+        "article_id": "122",
+        "title": "Kimi K3打响前端闪电战",
+        "date": "2026-07-22",
+        "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+        "permalink": "/articles/122",
+        "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+        "mention_count": 5
+      },
+      {
+        "article_id": "057",
+        "title": "AI四小虎进入狠活大赛",
+        "date": "2026-01-26",
+        "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "permalink": "/articles/057",
+        "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "mention_count": 5
+      },
+      {
+        "article_id": "012",
+        "title": "CrePal成为首个胖猫视频Agent",
+        "date": "2025-07-25",
+        "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+        "permalink": "/articles/012",
+        "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "119",
+        "title": "视频Agent进入大致敬时代",
+        "date": "2026-07-14",
+        "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+        "permalink": "/articles/119",
+        "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "103",
+        "title": "Kimi看天讨饭吃",
+        "date": "2026-06-10",
+        "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "permalink": "/articles/103",
+        "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "068",
+        "title": "云端OpenClaw更是路边一条",
+        "date": "2026-03-04",
+        "path": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+        "permalink": "/articles/068",
+        "markdown_link": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "060",
+        "title": "Clawdbot是一场马斯克发动的中登炒作",
+        "date": "2026-01-30",
+        "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+        "permalink": "/articles/060",
+        "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "055",
+        "title": "来认识下2025年最活跃的CVC",
+        "date": "2026-01-22",
+        "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "permalink": "/articles/055",
+        "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "023",
+        "title": "全球首个性压抑AI发布",
+        "date": "2025-09-17",
+        "path": "articles/023_2025-09-17_葬爱咸鱼_全球首个性压抑AI发布.md",
+        "permalink": "/articles/023",
+        "markdown_link": "articles/023_2025-09-17_葬爱咸鱼_全球首个性压抑AI发布.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "100",
+        "title": "网吧黑客松里有真黑客",
+        "date": "2026-06-07",
+        "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+        "permalink": "/articles/100",
+        "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "099",
+        "title": "马卡龙开创AI短剧Neo Lab",
+        "date": "2026-06-04",
+        "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "permalink": "/articles/099",
+        "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "089",
+        "title": "Slock说明AI群聊不成立",
+        "date": "2026-05-10",
+        "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+        "permalink": "/articles/089",
+        "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "085",
+        "title": "谁是宇宙第一FA",
+        "date": "2026-04-27",
+        "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "permalink": "/articles/085",
+        "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "044",
+        "title": "Plaud善打游击战",
+        "date": "2025-12-23",
+        "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+        "permalink": "/articles/044",
+        "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "016",
+        "title": "Manus依然是版本神",
+        "date": "2025-08-25",
+        "path": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
+        "permalink": "/articles/016",
+        "markdown_link": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 44,
+    "composite_weight": 0.6609
+  },
+  "links": [
+    {
+      "source": "kimi",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "市场认为MiniMax和Kimi是一个级别，形成强行双骄效果",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "116",
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "文中将MiniMax与Kimi并列为'强行双骄'及AI四小龙成员",
+          "weight": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "市场认为MiniMax和Kimi是一个级别，形成强行双骄效果",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "市场认为MiniMax和Kimi是一个级别，形成强行双骄效果",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "minimax",
+      "target": "plaud",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Plaud的营收与MiniMax和智谱的营收之和进行对比。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "044"
+      ],
+      "evidences": [
+        {
+          "article_id": "044",
+          "title": "Plaud善打游击战",
+          "permalink": "/articles/044",
+          "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "date": "2025-12-23",
+          "label": "文章将Plaud的营收与MiniMax和智谱的营收之和进行对比。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "tapnow",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "MiniMax Hub主打无限画布，TapNow含金量上升暗示对标或相似性",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "116"
+      ],
+      "evidences": [
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "MiniMax Hub主打无限画布，TapNow含金量上升暗示对标或相似性",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "vast",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章建议MiniMax参考VAST做3D/世界模型",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "116",
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "建议MiniMax参考VAST做3D大模型和世界模型",
+          "weight": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "文章建议MiniMax参考VAST做3D/世界模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "智谱ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者作为表现亮眼的模型厂被并列提及",
+      "weight": 3,
+      "strength": 2,
+      "effective_weight": 9,
+      "article_count": 3,
+      "evidence_articles": [
+        "089",
+        "099",
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "两者同属AI四小龙，且模型在评测中被直接对比",
+          "weight": 1
+        },
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "智谱与MiniMax作为国内模型层代表，被放在一起论述其在股市的狂飙表现",
+          "weight": 1
+        },
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "date": "2026-05-10",
+          "label": "两者作为表现亮眼的模型厂被并列提及",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "月之暗面",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Kimi与Minimax的上市和估值进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "文中将Kimi与Minimax的上市和估值进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "泡泡玛特",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将MiniMax在AI产品上的审美和受众把控力与潮玩公司泡泡玛特进行类比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "004"
+      ],
+      "evidences": [
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "date": "2025-06-23",
+          "label": "文章将MiniMax在AI产品上的审美和受众把控力与潮玩公司泡泡玛特进行类比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "阶跃星辰",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属AI四小龙，处于四进二竞争阶段",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "同属AI四小龙，处于四进二竞争阶段",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "plaud",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Plaud的营收与MiniMax和智谱的营收之和进行对比。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "tapnow",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "MiniMax Hub主打无限画布，TapNow含金量上升暗示对标或相似性",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "vast",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章建议MiniMax参考VAST做3D/世界模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "智谱ai",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者作为表现亮眼的模型厂被并列提及",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "月之暗面",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Kimi与Minimax的上市和估值进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "泡泡玛特",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将MiniMax在AI产品上的审美和受众把控力与潮玩公司泡泡玛特进行类比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属AI四小龙，处于四进二竞争阶段",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "deepseek",
+      "target": "minimax",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "DeepSeek新品发布对MiniMax等AI六小虎公司形成了强烈的竞争压力",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "004",
+        "105"
+      ],
+      "evidences": [
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "DeepSeek拉低了行业的存活价格线，而MiniMax公司正在逼近这条斩杀线",
+          "weight": 1
+        },
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "date": "2025-06-23",
+          "label": "DeepSeek新品发布对MiniMax等AI六小虎公司形成了强烈的竞争压力",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "minimax",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "MiniMax低迷的财务数据被认为砸了同行Kimi的估值盘",
+      "weight": 3,
+      "strength": 3,
+      "effective_weight": 12,
+      "article_count": 3,
+      "evidence_articles": [
+        "049",
+        "057",
+        "068"
+      ],
+      "evidences": [
+        {
+          "article_id": "068",
+          "title": "云端OpenClaw更是路边一条",
+          "permalink": "/articles/068",
+          "markdown_link": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+          "path": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+          "date": "2026-03-04",
+          "label": "Kimi与MiniMax作为大模型公司竞相PR收入与ARR",
+          "weight": 1
+        },
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "Kimi以大额融资回应MiniMax和智谱的上市",
+          "weight": 1
+        },
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "MiniMax低迷的财务数据被认为砸了同行Kimi的估值盘",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "deepseek",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "DeepSeek新品发布对MiniMax等AI六小虎公司形成了强烈的竞争压力",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "minimax",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "MiniMax低迷的财务数据被认为砸了同行Kimi的估值盘",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "minimax",
+      "target": "智谱ai",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为国内大模型领域的AI六小虎，存在行业竞争关系",
+      "weight": 6,
+      "strength": 3,
+      "effective_weight": 24,
+      "article_count": 6,
+      "evidence_articles": [
+        "004",
+        "049",
+        "057",
+        "100",
+        "109",
+        "116"
+      ],
+      "evidences": [
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "同属国内四小龙，进入四进二竞争阶段",
+          "weight": 1
+        },
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "date": "2026-06-23",
+          "label": "智谱与Minimax在AI模型商业化与能力上互为竞品并被市场对比",
+          "weight": 1
+        },
+        {
+          "article_id": "100",
+          "title": "网吧黑客松里有真黑客",
+          "permalink": "/articles/100",
+          "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "date": "2026-06-07",
+          "label": "作为同类国产AI网页端服务被并列提及",
+          "weight": 1
+        },
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "同属四小虎的主流上市竞争者",
+          "weight": 1
+        },
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "同为面临IPO及财报数据考验的大模型公司",
+          "weight": 1
+        },
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "date": "2025-06-23",
+          "label": "同为国内大模型领域的AI六小虎，存在行业竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "月之暗面",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "月之暗面和MiniMax都是国内AI大模型公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "minimax",
+      "target": "百川智能",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "MiniMax和百川智能都是国内AI大模型公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "minimax",
+      "target": "阶跃星辰",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为国内大模型领域的AI六小虎，存在行业竞争关系",
+      "weight": 3,
+      "strength": 3,
+      "effective_weight": 12,
+      "article_count": 3,
+      "evidence_articles": [
+        "004",
+        "057",
+        "116"
+      ],
+      "evidences": [
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "同属国内四小龙，进入四进二竞争阶段",
+          "weight": 1
+        },
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "同属AI四小虎的直接竞争对手",
+          "weight": 1
+        },
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "date": "2025-06-23",
+          "label": "同为国内大模型领域的AI六小虎，存在行业竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "智谱ai",
+      "target": "minimax",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为国内大模型领域的AI六小虎，存在行业竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "月之暗面",
+      "target": "minimax",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "月之暗面和MiniMax都是国内AI大模型公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "百川智能",
+      "target": "minimax",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "MiniMax和百川智能都是国内AI大模型公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "minimax",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为国内大模型领域的AI六小虎，存在行业竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "朱亦辉",
+      "target": "minimax",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "朱亦辉解释MiniMax M3核心科技是洗脑能力，强行对标Kimi",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "116"
+      ],
+      "evidences": [
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "朱亦辉解释MiniMax M3核心科技是洗脑能力，强行对标Kimi",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "m2",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax研发的文本模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "049"
+      ],
+      "evidences": [
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "MiniMax研发的文本模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "maxclaw",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax上线了MaxClaw云端龙虾产品",
+      "weight": 3,
+      "strength": 4,
+      "effective_weight": 15,
+      "article_count": 3,
+      "evidence_articles": [
+        "068",
+        "116",
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "MiniMax上线了MaxClaw云端龙虾产品",
+          "weight": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "MiniMax上线了MaxClaw云端龙虾产品",
+          "weight": 1
+        },
+        {
+          "article_id": "068",
+          "title": "云端OpenClaw更是路边一条",
+          "permalink": "/articles/068",
+          "markdown_link": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+          "path": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+          "date": "2026-03-04",
+          "label": "MiniMax公司开发了MaxClaw",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "maxhermes",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax推出了整合Hermes的MaxHermes产品",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "116",
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "MiniMax整合推出了MaxHermes产品",
+          "weight": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "MiniMax推出了整合Hermes的MaxHermes产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "minimax-agent",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax公司开发了MiniMax Agent",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "016"
+      ],
+      "evidences": [
+        {
+          "article_id": "016",
+          "title": "Manus依然是版本神",
+          "permalink": "/articles/016",
+          "markdown_link": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
+          "path": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
+          "date": "2025-08-25",
+          "label": "MiniMax公司开发了MiniMax Agent",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "minimax-hub",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax下场搞了自己的视频Agent MiniMax Hub",
+      "weight": 3,
+      "strength": 4,
+      "effective_weight": 15,
+      "article_count": 3,
+      "evidence_articles": [
+        "116",
+        "117",
+        "119"
+      ],
+      "evidences": [
+        {
+          "article_id": "119",
+          "title": "视频Agent进入大致敬时代",
+          "permalink": "/articles/119",
+          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "date": "2026-07-14",
+          "label": "MiniMax Hub是MiniMax推出的产品",
+          "weight": 1
+        },
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "MiniMax推出了视频Agent平台MiniMax Hub",
+          "weight": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "MiniMax下场搞了自己的视频Agent MiniMax Hub",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "minimax-m3",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax开发并发布了M3模型",
+      "weight": 3,
+      "strength": 4,
+      "effective_weight": 15,
+      "article_count": 3,
+      "evidence_articles": [
+        "116",
+        "117",
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "MiniMax开发了M3模型",
+          "weight": 1
+        },
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "MiniMax开发了M3大语言模型",
+          "weight": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "MiniMax开发并发布了M3模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "music-2-6",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax拥有音乐模型Music 2.6",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "116",
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "MiniMax开发了音乐模型Music 2.6",
+          "weight": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "MiniMax拥有音乐模型Music 2.6",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "talkie",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax拥有并持续运营C端产品Talkie/星野",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "MiniMax拥有并持续运营C端产品Talkie/星野",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "星野",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax开发了AI对话产品星野",
+      "weight": 3,
+      "strength": 4,
+      "effective_weight": 15,
+      "article_count": 3,
+      "evidence_articles": [
+        "004",
+        "049",
+        "116"
+      ],
+      "evidences": [
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "星野/Talkie是MiniMax的C端情感陪伴产品",
+          "weight": 1
+        },
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "MiniMax旗下的产品",
+          "weight": 1
+        },
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "date": "2025-06-23",
+          "label": "MiniMax开发了AI对话产品星野",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "海螺ai",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax是海螺AI的开发公司",
+      "weight": 4,
+      "strength": 4,
+      "effective_weight": 20,
+      "article_count": 4,
+      "evidence_articles": [
+        "004",
+        "012",
+        "116",
+        "117"
+      ],
+      "evidences": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "MiniMax开发了海螺视频模型",
+          "weight": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "海螺是MiniMax的视频模型产品",
+          "weight": 1
+        },
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "MiniMax研发了海螺AI",
+          "weight": 1
+        },
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "date": "2025-06-23",
+          "label": "MiniMax是海螺AI的开发公司",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "胖猫",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax创造出的C端产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "049"
+      ],
+      "evidences": [
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "MiniMax创造出的C端产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "闫俊杰",
+      "target": "minimax",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "闫俊杰创立了MiniMax",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "闫俊杰创立了MiniMax",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "阿里云",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "MiniMax购买了阿里云服务",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "MiniMax购买了阿里云服务",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "minimax",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "阿里投资了MiniMax，部分用算力抵扣",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "阿里投资了MiniMax，部分用算力抵扣",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "阿里巴巴",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "MiniMax向阿里云购买云计算服务，阿里部分投资额用算力抵扣",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "049"
+      ],
+      "evidences": [
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "MiniMax向阿里云购买云计算服务，阿里部分投资额用算力抵扣",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "minimax",
+      "target": "qwen",
+      "score": 0.7028,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 7 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "049",
+        "055",
+        "060",
+        "099",
+        "103"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "minimax",
+      "target": "杨植麟",
+      "score": 0.5974,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 6 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "004",
+        "049",
+        "085",
+        "103",
+        "109"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "anthropic",
+      "target": "minimax",
+      "score": 0.5781,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 6 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "060",
+        "099",
+        "103",
+        "105",
+        "109"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "libtv",
+      "target": "minimax",
+      "score": 0.5652,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "099",
+        "109",
+        "116",
+        "117",
+        "119"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "codex",
+      "target": "minimax",
+      "score": 0.4953,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "089",
+        "100",
+        "103",
+        "105",
+        "109"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

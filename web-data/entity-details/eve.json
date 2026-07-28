@@ -1,0 +1,302 @@
+{
+  "node": {
+    "id": "eve",
+    "name": "EVE",
+    "type": "product",
+    "description": "自然选择即将上线的面向女性的AI陪伴产品",
+    "mention_count": 29,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "AI陪伴",
+      "女性向",
+      "女性陪伴",
+      "游戏"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "094",
+        "title": "大部分男的聊天水平不如EVE",
+        "date": "2026-05-21",
+        "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+        "permalink": "/articles/094",
+        "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+        "mention_count": 27
+      },
+      {
+        "article_id": "064",
+        "title": "Elys应该做成AI内涵段子",
+        "date": "2026-02-13",
+        "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "permalink": "/articles/064",
+        "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 12,
+    "composite_weight": 0.143
+  },
+  "links": [
+    {
+      "source": "elys",
+      "target": "eve",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者对比了两款产品的推出顺序、交互场景，并探讨了两者的差异与联系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "094"
+      ],
+      "evidences": [
+        {
+          "article_id": "094",
+          "title": "大部分男的聊天水平不如EVE",
+          "permalink": "/articles/094",
+          "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "date": "2026-05-21",
+          "label": "作者对比了两款产品的推出顺序、交互场景，并探讨了两者的差异与联系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "eve",
+      "target": "elys",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者对比了两款产品的推出顺序、交互场景，并探讨了两者的差异与联系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "eve",
+      "target": "gemini",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比了EVE与Gemini在分析照片穿搭与细节上的能力，称赞EVE表现更优",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "094"
+      ],
+      "evidences": [
+        {
+          "article_id": "094",
+          "title": "大部分男的聊天水平不如EVE",
+          "permalink": "/articles/094",
+          "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "date": "2026-05-21",
+          "label": "文中对比了EVE与Gemini在分析照片穿搭与细节上的能力，称赞EVE表现更优",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "eve",
+      "target": "kimi-claw",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将EVE能通过链接提炼用户信息的能力与Kimi Claw无法读取小红书链接的缺陷进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "094"
+      ],
+      "evidences": [
+        {
+          "article_id": "094",
+          "title": "大部分男的聊天水平不如EVE",
+          "permalink": "/articles/094",
+          "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "date": "2026-05-21",
+          "label": "文中将EVE能通过链接提炼用户信息的能力与Kimi Claw无法读取小红书链接的缺陷进行了对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "eve",
+      "target": "tinder",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中认为如果将EVE和Elys结合起来，就相当于诞生了‘AI Tinder’",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "094"
+      ],
+      "evidences": [
+        {
+          "article_id": "094",
+          "title": "大部分男的聊天水平不如EVE",
+          "permalink": "/articles/094",
+          "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "date": "2026-05-21",
+          "label": "文中认为如果将EVE和Elys结合起来，就相当于诞生了‘AI Tinder’",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "eve",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比了EVE与豆包的下载量，并在后续对比了两者的图片解析能力",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "094"
+      ],
+      "evidences": [
+        {
+          "article_id": "094",
+          "title": "大部分男的聊天水平不如EVE",
+          "permalink": "/articles/094",
+          "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "date": "2026-05-21",
+          "label": "文中对比了EVE与豆包的下载量，并在后续对比了两者的图片解析能力",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gemini",
+      "target": "eve",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比了EVE与Gemini在分析照片穿搭与细节上的能力，称赞EVE表现更优",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi-claw",
+      "target": "eve",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将EVE能通过链接提炼用户信息的能力与Kimi Claw无法读取小红书链接的缺陷进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "tinder",
+      "target": "eve",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中认为如果将EVE和Elys结合起来，就相当于诞生了‘AI Tinder’",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "豆包",
+      "target": "eve",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比了EVE与豆包的下载量，并在后续对比了两者的图片解析能力",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "自然选择",
+      "target": "eve",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "自然选择开发了EVE",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "064",
+        "094"
+      ],
+      "evidences": [
+        {
+          "article_id": "094",
+          "title": "大部分男的聊天水平不如EVE",
+          "permalink": "/articles/094",
+          "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "date": "2026-05-21",
+          "label": "文中提到Elys是自然选择的产品，且指出EVE和Elys‘都是一家的’",
+          "weight": 1
+        },
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "自然选择开发了EVE",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "恺英网络",
+      "target": "eve",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "文中明确提到恺英网络是EVE的投资方",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "094"
+      ],
+      "evidences": [
+        {
+          "article_id": "094",
+          "title": "大部分男的聊天水平不如EVE",
+          "permalink": "/articles/094",
+          "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "date": "2026-05-21",
+          "label": "文中明确提到恺英网络是EVE的投资方",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

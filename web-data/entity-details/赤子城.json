@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "赤子城",
+    "name": "赤子城",
+    "type": "company",
+    "description": "拥有出海经验的内容、社交、娱乐公司，在内部孵化了Aippy。",
+    "mention_count": 6,
+    "article_count": 1,
+    "aliases": [
+      "B公司"
+    ],
+    "tags": [
+      "出海",
+      "社交娱乐"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "079",
+        "title": "电玩城复活在信息流",
+        "date": "2026-04-08",
+        "path": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+        "permalink": "/articles/079",
+        "markdown_link": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+        "mention_count": 6
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0222
+  },
+  "links": [
+    {
+      "source": "赤子城",
+      "target": "aippy",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Aippy是赤子城内部孵化的试验性产品。",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "079"
+      ],
+      "evidences": [
+        {
+          "article_id": "079",
+          "title": "电玩城复活在信息流",
+          "permalink": "/articles/079",
+          "markdown_link": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+          "path": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+          "date": "2026-04-08",
+          "label": "Aippy是赤子城内部孵化的试验性产品。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

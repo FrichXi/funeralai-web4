@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "吉利",
+    "name": "吉利",
+    "type": "company",
+    "description": "汽车制造公司，与阶跃星辰合作提供制造能力和渠道",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "汽车制造"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "057",
+        "title": "AI四小虎进入狠活大赛",
+        "date": "2026-01-26",
+        "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "permalink": "/articles/057",
+        "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0205
+  },
+  "links": [
+    {
+      "source": "千里科技",
+      "target": "吉利",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "吉利加千里合作造车和智驾系统",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "057"
+      ],
+      "evidences": [
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "吉利加千里合作造车和智驾系统",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "吉利",
+      "target": "阶跃星辰",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "阶跃深度服务吉利，并在智能汽车方案上绑定合作",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "057"
+      ],
+      "evidences": [
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "阶跃深度服务吉利，并在智能汽车方案上绑定合作",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

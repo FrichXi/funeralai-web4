@@ -1,0 +1,226 @@
+{
+  "node": {
+    "id": "gambo",
+    "name": "Gambo",
+    "type": "product",
+    "description": "一款能一键生成游戏的Coding Agent产品，致力于成为游戏社区",
+    "mention_count": 27,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "AI游戏引擎",
+      "UGC社区",
+      "Vibe Coding",
+      "代码生成"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "037",
+        "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
+        "date": "2025-11-27",
+        "path": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+        "permalink": "/articles/037",
+        "markdown_link": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+        "mention_count": 25
+      },
+      {
+        "article_id": "079",
+        "title": "电玩城复活在信息流",
+        "date": "2026-04-08",
+        "path": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+        "permalink": "/articles/079",
+        "markdown_link": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 8,
+    "composite_weight": 0.0897
+  },
+  "links": [
+    {
+      "source": "aippy",
+      "target": "gambo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Gambo的创始人和Aippy团队有着类似的“工具转UGC社区”产品逻辑。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "079"
+      ],
+      "evidences": [
+        {
+          "article_id": "079",
+          "title": "电玩城复活在信息流",
+          "permalink": "/articles/079",
+          "markdown_link": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+          "path": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+          "date": "2026-04-08",
+          "label": "Gambo的创始人和Aippy团队有着类似的“工具转UGC社区”产品逻辑。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gambo",
+      "target": "aippy",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Gambo的创始人和Aippy团队有着类似的“工具转UGC社区”产品逻辑。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "gambo",
+      "target": "rosebud",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Gambo被拿来与海外较火的AI引擎Rosebud进行生成动画能力的对比竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "037"
+      ],
+      "evidences": [
+        {
+          "article_id": "037",
+          "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
+          "permalink": "/articles/037",
+          "markdown_link": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "path": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "date": "2025-11-27",
+          "label": "Gambo被拿来与海外较火的AI引擎Rosebud进行生成动画能力的对比竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "rosebud",
+      "target": "gambo",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Gambo被拿来与海外较火的AI引擎Rosebud进行生成动画能力的对比竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "dora-ai",
+      "target": "gambo",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Gambo是Dora AI团队开发的产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "037"
+      ],
+      "evidences": [
+        {
+          "article_id": "037",
+          "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
+          "permalink": "/articles/037",
+          "markdown_link": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "path": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "date": "2025-11-27",
+          "label": "Gambo是Dora AI团队开发的产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gambo",
+      "target": "godot",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Gambo团队正在将底层框架升级为Godot",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "037"
+      ],
+      "evidences": [
+        {
+          "article_id": "037",
+          "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
+          "permalink": "/articles/037",
+          "markdown_link": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "path": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "date": "2025-11-27",
+          "label": "Gambo团队正在将底层框架升级为Godot",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gambo",
+      "target": "phaser",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Gambo早期基于phaser框架制作游戏",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "037"
+      ],
+      "evidences": [
+        {
+          "article_id": "037",
+          "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
+          "permalink": "/articles/037",
+          "markdown_link": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "path": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "date": "2025-11-27",
+          "label": "Gambo早期基于phaser框架制作游戏",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "周卓泉",
+      "target": "gambo",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "周卓泉带领团队研发了Gambo引擎",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "037"
+      ],
+      "evidences": [
+        {
+          "article_id": "037",
+          "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
+          "permalink": "/articles/037",
+          "markdown_link": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "path": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "date": "2025-11-27",
+          "label": "周卓泉带领团队研发了Gambo引擎",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

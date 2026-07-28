@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "qoder-work",
+    "name": "Qoder Work",
+    "type": "product",
+    "description": "阿里基于Qwen模型开发的生产力Agent工具",
+    "mention_count": 3,
+    "article_count": 2,
+    "aliases": [
+      "Qoder",
+      "Qoder work"
+    ],
+    "tags": [
+      "Agent",
+      "本地工具",
+      "生产力工具"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "112",
+        "title": "老天保佑Qwen救救阿里巴巴",
+        "date": "2026-07-02",
+        "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+        "permalink": "/articles/112",
+        "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "125",
+        "title": "建议百度文心一言申请非遗",
+        "date": "2026-07-28",
+        "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+        "permalink": "/articles/125",
+        "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0408
+  },
+  "links": [
+    {
+      "source": "qoder-work",
+      "target": "秒哒3-0",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中认为秒哒3.0不如Qoder Work",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "125"
+      ],
+      "evidences": [
+        {
+          "article_id": "125",
+          "title": "建议百度文心一言申请非遗",
+          "permalink": "/articles/125",
+          "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "date": "2026-07-28",
+          "label": "文中认为秒哒3.0不如Qoder Work",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "秒哒3-0",
+      "target": "qoder-work",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中认为秒哒3.0不如Qoder Work",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "qoder-work",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "阿里巴巴开发生产力Agent Qoder work",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "112"
+      ],
+      "evidences": [
+        {
+          "article_id": "112",
+          "title": "老天保佑Qwen救救阿里巴巴",
+          "permalink": "/articles/112",
+          "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "date": "2026-07-02",
+          "label": "阿里巴巴开发生产力Agent Qoder work",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

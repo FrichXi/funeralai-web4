@@ -1,0 +1,159 @@
+{
+  "node": {
+    "id": "梁圣",
+    "name": "梁圣",
+    "type": "person",
+    "description": "指代DeepSeek创始人梁文锋，在文中被用作极致性价比的比喻标杆",
+    "mention_count": 4,
+    "article_count": 2,
+    "aliases": [
+      "梁文锋"
+    ],
+    "tags": [
+      "行业标杆",
+      "降本增效"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "105",
+        "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+        "date": "2026-06-17",
+        "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "permalink": "/articles/105",
+        "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "110",
+        "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+        "date": "2026-06-24",
+        "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "permalink": "/articles/110",
+        "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.054
+  },
+  "links": [
+    {
+      "source": "kimi",
+      "target": "梁圣",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Kimi的性价比被用来与代表极致性价比的‘梁圣’进行对比，处于斩杀线以下",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "Kimi的性价比被用来与代表极致性价比的‘梁圣’进行对比，处于斩杀线以下",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seed",
+      "target": "梁圣",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Seed模型的性价比被用来与代表极致性价比的‘梁圣’进行对比，处于斩杀线以下",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "Seed模型的性价比被用来与代表极致性价比的‘梁圣’进行对比，处于斩杀线以下",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "梁圣",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Kimi的性价比被用来与代表极致性价比的‘梁圣’进行对比，处于斩杀线以下",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "梁圣",
+      "target": "seed",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Seed模型的性价比被用来与代表极致性价比的‘梁圣’进行对比，处于斩杀线以下",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "梁圣",
+      "target": "deepseek",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "梁圣是DeepSeek的老板/创始人（文中提及他自有办法解决剩余研发成本）",
+      "weight": 2,
+      "strength": 5,
+      "effective_weight": 12,
+      "article_count": 2,
+      "evidence_articles": [
+        "105",
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "梁圣（梁文锋）是DeepSeek的创始人，被代指DeepSeek的极致性价比",
+          "weight": 1
+        },
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "梁圣是DeepSeek的老板/创始人（文中提及他自有办法解决剩余研发成本）",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

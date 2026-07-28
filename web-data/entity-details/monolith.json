@@ -1,0 +1,46 @@
+{
+  "node": {
+    "id": "monolith",
+    "name": "Monolith",
+    "type": "company",
+    "description": "网吧黑客松场地赞助方，关注AI游戏创业的投资机构",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI游戏创业",
+      "赞助方"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "093",
+        "title": "在网吧办黑客松才是正经事",
+        "date": "2026-05-19",
+        "path": "articles/093_2026-05-19_沐秋_在网吧办黑客松才是正经事.md",
+        "permalink": "/articles/093",
+        "markdown_link": "articles/093_2026-05-19_沐秋_在网吧办黑客松才是正经事.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0184
+  },
+  "links": [
+    {
+      "source": "monolith",
+      "target": "tripo",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "Monolith与Tripo共同赞助第一届网吧黑客松",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

@@ -177,6 +177,26 @@ EDGE_TYPE_FIXES = [
         "new_source": "马卡龙", "new_target": "反诈助手",
         "new_type": "develops", "label": "马卡龙开发反诈助手",
     }),
+
+    # -- 4.6b Holistic review: articles 112-125 --
+    # Remove co-mentions, satire, benchmark participation, and product usage
+    # that were incorrectly promoted into durable graph relationships.
+    ("李飞飞", "杨立昆", "collaborates_with", {"delete": True}),
+    ("bodypark", "云望创新", "compares_to", {"delete": True}),
+    ("minimax", "陈冕", "compares_to", {"delete": True}),
+    ("kimi", "kimi-work", "develops", {"new_source": "月之暗面"}),
+    ("hermes-agent", "minimax", "partners_with", {"delete": True}),
+    ("016", "minimax-m3", "works_on", {"delete": True}),
+    ("陈冕", "tapnow", "works_on", {"delete": True}),
+    ("智谱ai", "杨植麟", "competes_with", {"delete": True}),
+    ("杨植麟", "kimi-k3", "develops", {"new_type": "works_on"}),
+    ("唐杰", "kimi-k3", "praises", {"delete": True}),
+    ("钟十六", "kimi-k3", "works_on", {"delete": True}),
+    ("唐圣", "杨植麟", "collaborates_with", {"delete": True}),
+    ("seulgi", "creative-os", "works_on", {"delete": True}),
+    ("二金", "creative-os", "works_on", {"delete": True}),
+    ("百度", "libtv", "invests_in", {"delete": True}),
+    ("葬爱咸鱼", "范志毅", "praises", {"delete": True}),
 ]
 
 # ── Additional edges to add after edge fixes (not in standard fix format) ──
@@ -313,6 +333,10 @@ MISSING_EDGES = [
     ("monolith", "tripo", "partners_with", "Monolith与Tripo共同赞助第一届网吧黑客松"),
     ("7verse", "科比", "related", "7verse使用科比社交内容生成互动数字人"),
     ("vivix", "科比", "related", "Vivix通过7verse探索科比互动数字人"),
+
+    # -- 5.12 Holistic review: articles 112-125 --
+    ("月之暗面", "kimi-k3", "develops", "月之暗面开发Kimi K3模型"),
+    ("蚂蚁集团", "灵波科技", "develops", "灵波科技是蚂蚁集团旗下公司"),
 ]
 
 # ── Alias cleanup ──

@@ -19,9 +19,8 @@ from __future__ import annotations
 import json
 import re
 import sys
-from datetime import date, datetime
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 # Allow importing sibling modules when run as script
@@ -30,8 +29,9 @@ if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
 from graph_utils import RELATION_STRENGTH, DEFAULT_RELATION_STRENGTH, MERGE_MAP, sanitize_id
+from graph_insights import build_graph_insights, build_graph_shell, sync_entity_details
 from overrides import COMPANY_SUBSIDIARIES, EXCLUDED_ARTICLES, LEADERBOARD_EXCLUDE, NODE_MERGES
-from pipeline_state import extracted_artifact_path, load_articles
+from pipeline_state import extracted_artifact_path, load_articles, load_manifest
 
 try:
     from sentencex import segment as sentencex_segment
@@ -42,10 +42,27 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 CORRECTED_PATH = PROJECT_ROOT / "data" / "graph" / "canonical_corrected.json"
 WEB_DATA_DIR = PROJECT_ROOT / "web-data"
 GRAPH_VIEW_PATH = WEB_DATA_DIR / "graph-view.json"
+GRAPH_INSIGHTS_PATH = WEB_DATA_DIR / "graph-insights.json"
+GRAPH_SHELL_PATH = WEB_DATA_DIR / "graph-shell.json"
 LEADERBOARD_PATH = WEB_DATA_DIR / "leaderboards.json"
 ARTICLE_INDEX_PATH = WEB_DATA_DIR / "article-index.json"
 ARTICLE_PAYLOAD_DIR = WEB_DATA_DIR / "articles"
+ENTITY_DETAILS_DIR = WEB_DATA_DIR / "entity-details"
 DISPLAY_REGISTRY_PATH = PROJECT_ROOT / "data" / "config" / "display_registry.json"
+
+
+def stable_presentation_timestamp(manifest: dict | None = None) -> str:
+    """Use the newest durable extraction timestamp instead of build wall time."""
+    manifest = manifest or load_manifest()
+    values = [
+        entry.get("extracted_at")
+        for entry in manifest.get("articles", {}).values()
+        if entry.get("status") == "ready" and entry.get("extracted_at")
+    ]
+    if not values:
+        return "1970-01-01T00:00:00Z"
+    parsed = [datetime.fromisoformat(value.replace("Z", "+00:00")) for value in values]
+    return max(parsed).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 # ── JSON helpers ──────────────────────────────────────────────────────
@@ -64,9 +81,16 @@ def save_json(path: Path, data: dict | list) -> None:
     print(f"  -> Saved: {path}")
 
 
+def save_compact_json(path: Path, data: dict | list) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+    print(f"  -> Saved: {path}")
+
+
 # ── Graph View ────────────────────────────────────────────────────────
 
-def build_graph_view(data: dict) -> dict:
+def build_graph_view(data: dict, generated_at: str | None = None) -> dict:
     """Build the graph-view.json for the frontend.
     Preserves all node and link fields from the corrected graph."""
     nodes = data.get("nodes", [])
@@ -100,9 +124,7 @@ def build_graph_view(data: dict) -> dict:
 
     # Update metadata
     metadata["source"] = "canonical_corrected"
-    metadata["generatedAt"] = datetime.now(timezone.utc).strftime(
-        "%Y-%m-%dT%H:%M:%SZ"
-    )
+    metadata["generatedAt"] = generated_at or stable_presentation_timestamp()
 
     return {
         "nodes": nodes,
@@ -271,7 +293,7 @@ def _consolidate_company_subsidiaries(
     return result
 
 
-def build_leaderboards(data: dict) -> dict:
+def build_leaderboards(data: dict, generated_at: str | None = None) -> dict:
     """Build the 4-category leaderboard from graph data.
 
     Each category uses per-category normalization: composite_weight is
@@ -371,9 +393,7 @@ def build_leaderboards(data: dict) -> dict:
             e["leaderboardSegments"] = node_segments[e["nodeId"]]
 
     leaderboards = {
-        "generatedAt": datetime.now(timezone.utc).strftime(
-            "%Y-%m-%dT%H:%M:%SZ"
-        ),
+        "generatedAt": generated_at or stable_presentation_timestamp(),
         "segments": segments,
     }
 
@@ -788,6 +808,7 @@ def build_article_index(
     *,
     is_partial: bool,
     missing_article_ids: list[str],
+    generated_at: str | None = None,
 ) -> dict:
     articles = [
         {
@@ -806,7 +827,7 @@ def build_article_index(
     ]
 
     return {
-        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "generatedAt": generated_at or stable_presentation_timestamp(),
         "count": len(articles),
         "isPartial": is_partial,
         "missingArticleIds": missing_article_ids,
@@ -893,6 +914,7 @@ def main() -> None:
     # Ensure output directory exists
     WEB_DATA_DIR.mkdir(parents=True, exist_ok=True)
     source_articles = load_articles()
+    generated_at = stable_presentation_timestamp()
     expected_article_ids = [
         article["id"]
         for article in source_articles
@@ -903,16 +925,31 @@ def main() -> None:
     print(f"\n{'=' * 70}")
     print("Generate graph-view.json")
     print("=" * 70)
-    graph_view = build_graph_view(data)
+    graph_view = build_graph_view(data, generated_at)
     save_json(GRAPH_VIEW_PATH, graph_view)
     print(f"  Nodes: {len(graph_view['nodes'])}")
     print(f"  Links: {len(graph_view['links'])}")
+
+    # 1b. Graph insights + shell/detail payloads
+    print(f"\n{'=' * 70}")
+    print("Generate graph insights and shell data")
+    print("=" * 70)
+    graph_insights = build_graph_insights(graph_view)
+    graph_shell = build_graph_shell(graph_view, graph_insights)
+    save_json(GRAPH_INSIGHTS_PATH, graph_insights)
+    save_compact_json(GRAPH_SHELL_PATH, graph_shell)
+    sync_entity_details(ENTITY_DETAILS_DIR, graph_view, graph_insights)
+    print(f"  Communities: {len(graph_insights['communities'])}")
+    print(f"  Suggested edges: {len(graph_insights['suggested_edges'])}")
+    print(f"  Bridge nodes: {len(graph_insights['bridge_nodes'])}")
+    print(f"  graph-shell.json: {len(graph_shell['nodes'])} nodes, "
+          f"{len(graph_shell['links'])} links")
 
     # 2. Leaderboards
     print(f"\n{'=' * 70}")
     print("Generate leaderboards.json")
     print("=" * 70)
-    leaderboards, node_segments = build_leaderboards(data)
+    leaderboards, node_segments = build_leaderboards(data, generated_at)
     save_json(LEADERBOARD_PATH, leaderboards)
     for seg_name, entries in leaderboards["segments"].items():
         print(f"  {seg_name}: {len(entries)} entries")
@@ -945,6 +982,7 @@ def main() -> None:
         article_payloads,
         is_partial=bool(graph_view["metadata"].get("isPartial")) or bool(combined_missing_ids),
         missing_article_ids=combined_missing_ids,
+        generated_at=generated_at,
     )
     save_json(ARTICLE_INDEX_PATH, article_index)
     print(f"  Articles: {article_index['count']}")
@@ -973,6 +1011,11 @@ def main() -> None:
     print("=" * 70)
     print(f"  graph-view.json:       {len(graph_view['nodes'])} nodes, "
           f"{len(graph_view['links'])} links")
+    print(f"  graph-shell.json:      {len(graph_shell['nodes'])} nodes, "
+          f"{len(graph_shell['links'])} links")
+    print(f"  graph-insights.json:   {len(graph_insights['communities'])} communities, "
+          f"{len(graph_insights['suggested_edges'])} suggested edges")
+    print(f"  entity-details/*.json: {len(graph_shell['nodes'])} files")
     print(f"  leaderboards.json:     "
           f"{sum(len(v) for v in leaderboards['segments'].values())} entries "
           f"across {len(leaderboards['segments'])} segments")

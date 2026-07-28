@@ -1,0 +1,148 @@
+{
+  "node": {
+    "id": "grimo",
+    "name": "Grimo",
+    "type": "product",
+    "description": "AI产品，主要价值曾是作为便宜使用Claude的中转站",
+    "mention_count": 15,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "AI创作",
+      "AI编辑器",
+      "中转站",
+      "编程Agent"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "002",
+        "title": "AI创作产品，还没找到自己的形态",
+        "date": "2025-06-13",
+        "path": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+        "permalink": "/articles/002",
+        "markdown_link": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+        "mention_count": 13
+      },
+      {
+        "article_id": "096",
+        "title": "葬AI一周年，我不再用AI写作",
+        "date": "2026-05-27",
+        "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+        "permalink": "/articles/096",
+        "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0509
+  },
+  "links": [
+    {
+      "source": "claude",
+      "target": "grimo",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Stain因为看到了Claude code的出现而关掉了Grimo，存在替代和竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "096"
+      ],
+      "evidences": [
+        {
+          "article_id": "096",
+          "title": "葬AI一周年，我不再用AI写作",
+          "permalink": "/articles/096",
+          "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "date": "2026-05-27",
+          "label": "Stain因为看到了Claude code的出现而关掉了Grimo，存在替代和竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "grimo",
+      "target": "claude",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Stain因为看到了Claude code的出现而关掉了Grimo，存在替代和竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "grimo",
+      "target": "youmind",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "二者均为当前处于探索阶段的 AI 创作产品，在 AI 辅助写作场景下存在竞品关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "002"
+      ],
+      "evidences": [
+        {
+          "article_id": "002",
+          "title": "AI创作产品，还没找到自己的形态",
+          "permalink": "/articles/002",
+          "markdown_link": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+          "path": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+          "date": "2025-06-13",
+          "label": "二者均为当前处于探索阶段的 AI 创作产品，在 AI 辅助写作场景下存在竞品关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "youmind",
+      "target": "grimo",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "二者均为当前处于探索阶段的 AI 创作产品，在 AI 辅助写作场景下存在竞品关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "stain",
+      "target": "grimo",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Stain开发/主导了Grimo",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "096"
+      ],
+      "evidences": [
+        {
+          "article_id": "096",
+          "title": "葬AI一周年，我不再用AI写作",
+          "permalink": "/articles/096",
+          "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "date": "2026-05-27",
+          "label": "Stain开发/主导了Grimo",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,56 @@
+{
+  "node": {
+    "id": "windows",
+    "name": "Windows",
+    "type": "product",
+    "description": "微软的操作系统，已支持本地调用Manus",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "030",
+        "title": "Agent OS的本地入口",
+        "date": "2025-10-20",
+        "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "permalink": "/articles/030",
+        "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0107
+  },
+  "links": [
+    {
+      "source": "manus",
+      "target": "windows",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Manus可直接在Windows本地环境调用",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "030"
+      ],
+      "evidences": [
+        {
+          "article_id": "030",
+          "title": "Agent OS的本地入口",
+          "permalink": "/articles/030",
+          "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "date": "2025-10-20",
+          "label": "Manus可直接在Windows本地环境调用",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,110 @@
+{
+  "node": {
+    "id": "sam-altman",
+    "name": "Sam Altman",
+    "type": "person",
+    "description": "海外知名AI行业领袖",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "行业人物"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "004",
+        "title": "MiniMax的胖猫宇宙",
+        "date": "2025-06-23",
+        "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "permalink": "/articles/004",
+        "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0338
+  },
+  "links": [
+    {
+      "source": "sam-altman",
+      "target": "杨植麟",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将海外AI领袖Sam Altman的产品思路与国内AI创始人（暗指杨圣等高学历人才）进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "004"
+      ],
+      "evidences": [
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "date": "2025-06-23",
+          "label": "文章将海外AI领袖Sam Altman的产品思路与国内AI创始人（暗指杨圣等高学历人才）进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "杨植麟",
+      "target": "sam-altman",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将海外AI领袖Sam Altman的产品思路与国内AI创始人（暗指杨圣等高学历人才）进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "sam-altman",
+      "target": "邪恶意大利人",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Anthropic与OpenAI竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "邪恶意大利人",
+      "target": "sam-altman",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Anthropic与OpenAI竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "sam-altman",
+      "target": "openai",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "Sam Altman创立OpenAI",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 5,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

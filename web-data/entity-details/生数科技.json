@@ -1,0 +1,152 @@
+{
+  "node": {
+    "id": "生数科技",
+    "name": "生数科技",
+    "type": "company",
+    "description": "一家清华系AI创业公司，主打AI视频和具身智能模型",
+    "mention_count": 7,
+    "article_count": 1,
+    "aliases": [
+      "生数"
+    ],
+    "tags": [
+      "AI视频",
+      "清华系"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "104",
+        "title": "生数鉴定为鸭腿吃多了",
+        "date": "2026-06-15",
+        "path": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+        "permalink": "/articles/104",
+        "markdown_link": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+        "mention_count": 7
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0546
+  },
+  "links": [
+    {
+      "source": "爱诗科技",
+      "target": "生数科技",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "生数科技与爱诗科技在视频生成能力及资本市场（如IPO上市）上存在直接竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "104"
+      ],
+      "evidences": [
+        {
+          "article_id": "104",
+          "title": "生数鉴定为鸭腿吃多了",
+          "permalink": "/articles/104",
+          "markdown_link": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "path": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "date": "2026-06-15",
+          "label": "生数科技与爱诗科技在视频生成能力及资本市场（如IPO上市）上存在直接竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "生数科技",
+      "target": "爱诗科技",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "生数科技与爱诗科技在视频生成能力及资本市场（如IPO上市）上存在直接竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "生数科技",
+      "target": "motubrain",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "生数科技开发了通用世界行动模型Motubrain",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "104"
+      ],
+      "evidences": [
+        {
+          "article_id": "104",
+          "title": "生数鉴定为鸭腿吃多了",
+          "permalink": "/articles/104",
+          "markdown_link": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "path": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "date": "2026-06-15",
+          "label": "生数科技开发了通用世界行动模型Motubrain",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "生数科技",
+      "target": "vidu",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "生数科技开发了视频模型产品Vidu",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "104"
+      ],
+      "evidences": [
+        {
+          "article_id": "104",
+          "title": "生数鉴定为鸭腿吃多了",
+          "permalink": "/articles/104",
+          "markdown_link": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "path": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "date": "2026-06-15",
+          "label": "生数科技开发了视频模型产品Vidu",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "生数科技",
+      "target": "viduclaw",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "生数科技在Vidu中推出了ViduClaw功能",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "104"
+      ],
+      "evidences": [
+        {
+          "article_id": "104",
+          "title": "生数鉴定为鸭腿吃多了",
+          "permalink": "/articles/104",
+          "markdown_link": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "path": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
+          "date": "2026-06-15",
+          "label": "生数科技在Vidu中推出了ViduClaw功能",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,107 @@
+{
+  "node": {
+    "id": "replit",
+    "name": "Replit",
+    "type": "product",
+    "description": "AI代码生成工具",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "054",
+        "title": "Atoms，平替Lovable的残酷物语",
+        "date": "2026-01-21",
+        "path": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+        "permalink": "/articles/054",
+        "markdown_link": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0239
+  },
+  "links": [
+    {
+      "source": "lovable",
+      "target": "replit",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者被共同归类对比为帮你写代码的工具",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "054"
+      ],
+      "evidences": [
+        {
+          "article_id": "054",
+          "title": "Atoms，平替Lovable的残酷物语",
+          "permalink": "/articles/054",
+          "markdown_link": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+          "path": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+          "date": "2026-01-21",
+          "label": "两者被共同归类对比为帮你写代码的工具",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "replit",
+      "target": "lovable",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者被共同归类对比为帮你写代码的工具",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "圆脸眼镜哥",
+      "target": "replit",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "评价Replit仅仅是帮忙写代码的工具",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "054"
+      ],
+      "evidences": [
+        {
+          "article_id": "054",
+          "title": "Atoms，平替Lovable的残酷物语",
+          "permalink": "/articles/054",
+          "markdown_link": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+          "path": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+          "date": "2026-01-21",
+          "label": "评价Replit仅仅是帮忙写代码的工具",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "atoms",
+      "target": "replit",
+      "score": 0.3594,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "054"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

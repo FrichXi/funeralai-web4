@@ -1,0 +1,156 @@
+{
+  "node": {
+    "id": "星野",
+    "name": "星野",
+    "type": "product",
+    "description": "一款AI陪伴聊天应用，被用作与《星眠》进行对比",
+    "mention_count": 13,
+    "article_count": 4,
+    "aliases": [
+      "Talkie",
+      "星野app"
+    ],
+    "tags": [
+      "AI对话",
+      "AI聊天",
+      "C端",
+      "C端应用",
+      "UGC社区",
+      "情感陪伴",
+      "抽象网红",
+      "智能体"
+    ],
+    "references": 4,
+    "source_article_count": 4,
+    "source_articles": [
+      {
+        "article_id": "004",
+        "title": "MiniMax的胖猫宇宙",
+        "date": "2025-06-23",
+        "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "permalink": "/articles/004",
+        "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+        "mention_count": 6
+      },
+      {
+        "article_id": "058",
+        "title": "张月光给乙女游戏加了个Chatbot",
+        "date": "2026-01-27",
+        "path": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+        "permalink": "/articles/058",
+        "markdown_link": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "116",
+        "title": "民办大模型MiniMax努力专升本",
+        "date": "2026-07-09",
+        "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "permalink": "/articles/116",
+        "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "049",
+        "title": "建议六小虎合并，实现China AGI",
+        "date": "2026-01-05",
+        "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "permalink": "/articles/049",
+        "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.05
+  },
+  "links": [
+    {
+      "source": "星眠",
+      "target": "星野",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为《星眠》的对话模式和系统是《星野》玩剩下的，且都不尽如人意",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "058"
+      ],
+      "evidences": [
+        {
+          "article_id": "058",
+          "title": "张月光给乙女游戏加了个Chatbot",
+          "permalink": "/articles/058",
+          "markdown_link": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+          "path": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+          "date": "2026-01-27",
+          "label": "作者认为《星眠》的对话模式和系统是《星野》玩剩下的，且都不尽如人意",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "星野",
+      "target": "星眠",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为《星眠》的对话模式和系统是《星野》玩剩下的，且都不尽如人意",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "minimax",
+      "target": "星野",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax开发了AI对话产品星野",
+      "weight": 3,
+      "strength": 4,
+      "effective_weight": 15,
+      "article_count": 3,
+      "evidence_articles": [
+        "004",
+        "049",
+        "116"
+      ],
+      "evidences": [
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "星野/Talkie是MiniMax的C端情感陪伴产品",
+          "weight": 1
+        },
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "MiniMax旗下的产品",
+          "weight": 1
+        },
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "date": "2025-06-23",
+          "label": "MiniMax开发了AI对话产品星野",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,186 @@
+{
+  "node": {
+    "id": "秒哒",
+    "name": "秒哒",
+    "type": "product",
+    "description": "百度推出的产品，主打一句话生成小程序",
+    "mention_count": 2,
+    "article_count": 2,
+    "aliases": [
+      "百度秒哒"
+    ],
+    "tags": [
+      "一句话生成小程序"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "101",
+        "title": "AI圈神童杀死神人",
+        "date": "2026-06-08",
+        "path": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+        "permalink": "/articles/101",
+        "markdown_link": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "099",
+        "title": "马卡龙开创AI短剧Neo Lab",
+        "date": "2026-06-04",
+        "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "permalink": "/articles/099",
+        "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 7,
+    "composite_weight": 0.0608
+  },
+  "links": [
+    {
+      "source": "灵光",
+      "target": "秒哒",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将两者并列，形容为大厂在黑客松上为了展示而使用的AI产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "101"
+      ],
+      "evidences": [
+        {
+          "article_id": "101",
+          "title": "AI圈神童杀死神人",
+          "permalink": "/articles/101",
+          "markdown_link": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "path": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "date": "2026-06-08",
+          "label": "文章将两者并列，形容为大厂在黑客松上为了展示而使用的AI产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "点点",
+      "target": "秒哒",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将两者并列，形容为大厂在黑客松上为了展示而使用的AI产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "101"
+      ],
+      "evidences": [
+        {
+          "article_id": "101",
+          "title": "AI圈神童杀死神人",
+          "permalink": "/articles/101",
+          "markdown_link": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "path": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "date": "2026-06-08",
+          "label": "文章将两者并列，形容为大厂在黑客松上为了展示而使用的AI产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "秒哒",
+      "target": "灵光",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将两者并列，形容为大厂在黑客松上为了展示而使用的AI产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "秒哒",
+      "target": "点点",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将两者并列，形容为大厂在黑客松上为了展示而使用的AI产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "秒哒",
+      "target": "马卡龙",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "百度秒哒被指仍在唠一句话生成小程序这套类似马卡龙的嗑",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "099"
+      ],
+      "evidences": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "百度秒哒被指仍在唠一句话生成小程序这套类似马卡龙的嗑",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "马卡龙",
+      "target": "秒哒",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "百度秒哒被指仍在唠一句话生成小程序这套类似马卡龙的嗑",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "百度",
+      "target": "秒哒",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "百度开发了秒哒产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "099"
+      ],
+      "evidences": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "百度开发了秒哒产品",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

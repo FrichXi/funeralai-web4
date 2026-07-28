@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "娄烨",
+    "name": "娄烨",
+    "type": "person",
+    "description": "知名电影导演，文中与王家卫一起被用来形容Medeo生成视频的晃动镜头和纯粹氛围感风格。",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "电影导演",
+      "风格比喻"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "046",
+        "title": "建议Medeo改名剪映（删减版）",
+        "date": "2025-12-26",
+        "path": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+        "permalink": "/articles/046",
+        "markdown_link": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0171
+  },
+  "links": [
+    {
+      "source": "medeo",
+      "target": "娄烨",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Medeo官方展示的晃动镜头案例视频比喻为娄烨的电影风格。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "046"
+      ],
+      "evidences": [
+        {
+          "article_id": "046",
+          "title": "建议Medeo改名剪映（删减版）",
+          "permalink": "/articles/046",
+          "markdown_link": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+          "path": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+          "date": "2025-12-26",
+          "label": "作者将Medeo官方展示的晃动镜头案例视频比喻为娄烨的电影风格。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "娄烨",
+      "target": "medeo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Medeo官方展示的晃动镜头案例视频比喻为娄烨的电影风格。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,304 @@
+{
+  "node": {
+    "id": "自然选择",
+    "name": "自然选择",
+    "type": "company",
+    "description": "开发了AI社交产品Elys和EVE的公司",
+    "mention_count": 8,
+    "article_count": 4,
+    "aliases": [
+      "自然选择团队"
+    ],
+    "tags": [
+      "AI社交",
+      "AI陪伴",
+      "游戏"
+    ],
+    "references": 4,
+    "source_article_count": 4,
+    "source_articles": [
+      {
+        "article_id": "081",
+        "title": "小登领导AI社交",
+        "date": "2026-04-15",
+        "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+        "permalink": "/articles/081",
+        "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "064",
+        "title": "Elys应该做成AI内涵段子",
+        "date": "2026-02-13",
+        "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "permalink": "/articles/064",
+        "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "094",
+        "title": "大部分男的聊天水平不如EVE",
+        "date": "2026-05-21",
+        "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+        "permalink": "/articles/094",
+        "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "055",
+        "title": "来认识下2025年最活跃的CVC",
+        "date": "2026-01-22",
+        "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "permalink": "/articles/055",
+        "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 8,
+    "composite_weight": 0.0822
+  },
+  "links": [
+    {
+      "source": "clear",
+      "target": "自然选择",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "Clear在Elys里的分身调侃自家公司是垃圾公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "064"
+      ],
+      "evidences": [
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "Clear在Elys里的分身调侃自家公司是垃圾公司",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "自然选择",
+      "target": "elys",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "自然选择开发了Elys",
+      "weight": 3,
+      "strength": 4,
+      "effective_weight": 15,
+      "article_count": 3,
+      "evidence_articles": [
+        "064",
+        "081",
+        "094"
+      ],
+      "evidences": [
+        {
+          "article_id": "094",
+          "title": "大部分男的聊天水平不如EVE",
+          "permalink": "/articles/094",
+          "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "date": "2026-05-21",
+          "label": "文中明确提到‘自然选择的另一款社交产品Elys’",
+          "weight": 1
+        },
+        {
+          "article_id": "081",
+          "title": "小登领导AI社交",
+          "permalink": "/articles/081",
+          "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "date": "2026-04-15",
+          "label": "自然选择团队是Elys的开发团队",
+          "weight": 1
+        },
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "自然选择开发了Elys",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "自然选择",
+      "target": "eve",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "自然选择开发了EVE",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "064",
+        "094"
+      ],
+      "evidences": [
+        {
+          "article_id": "094",
+          "title": "大部分男的聊天水平不如EVE",
+          "permalink": "/articles/094",
+          "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "date": "2026-05-21",
+          "label": "文中提到Elys是自然选择的产品，且指出EVE和Elys‘都是一家的’",
+          "weight": 1
+        },
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "自然选择开发了EVE",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "clear",
+      "target": "自然选择",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "Clear是自然选择的联合创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "064"
+      ],
+      "evidences": [
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "Clear是自然选择的联合创始人",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "tristan",
+      "target": "自然选择",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "Tristan是自然选择的创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "064"
+      ],
+      "evidences": [
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "Tristan是自然选择的创始人",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "恺英网络",
+      "target": "自然选择",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "基于恺英网络投资了EVE，可合理推断其投资了开发EVE的母公司自然选择",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "094"
+      ],
+      "evidences": [
+        {
+          "article_id": "094",
+          "title": "大部分男的聊天水平不如EVE",
+          "permalink": "/articles/094",
+          "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "date": "2026-05-21",
+          "label": "基于恺英网络投资了EVE，可合理推断其投资了开发EVE的母公司自然选择",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "自然选择",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "蚂蚁投资了自然选择",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "蚂蚁投资了自然选择",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "沐秋",
+      "target": "自然选择",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "沐秋很爱做游戏出身的自然选择团队",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "081"
+      ],
+      "evidences": [
+        {
+          "article_id": "081",
+          "title": "小登领导AI社交",
+          "permalink": "/articles/081",
+          "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "date": "2026-04-15",
+          "label": "沐秋很爱做游戏出身的自然选择团队",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

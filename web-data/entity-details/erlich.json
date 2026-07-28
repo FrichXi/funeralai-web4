@@ -1,0 +1,160 @@
+{
+  "node": {
+    "id": "erlich",
+    "name": "Erlich",
+    "type": "person",
+    "description": "AI开发者，开发了Claude code的套壳客户端Proma",
+    "mention_count": 8,
+    "article_count": 4,
+    "aliases": [],
+    "tags": [
+      "开发者",
+      "独立开发者"
+    ],
+    "references": 4,
+    "source_article_count": 4,
+    "source_articles": [
+      {
+        "article_id": "066",
+        "title": "AI编程创造世界",
+        "date": "2026-02-24",
+        "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "permalink": "/articles/066",
+        "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "096",
+        "title": "葬AI一周年，我不再用AI写作",
+        "date": "2026-05-27",
+        "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+        "permalink": "/articles/096",
+        "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "027",
+        "title": "AI写作指南3.0编程式写作",
+        "date": "2025-10-09",
+        "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "permalink": "/articles/027",
+        "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "103",
+        "title": "Kimi看天讨饭吃",
+        "date": "2026-06-10",
+        "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "permalink": "/articles/103",
+        "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0505
+  },
+  "links": [
+    {
+      "source": "erlich",
+      "target": "沐秋",
+      "relation_type": "collaborates_with",
+      "type": "collaborates_with",
+      "label": "沐秋曾找Erlich一起开发AI写作产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "096"
+      ],
+      "evidences": [
+        {
+          "article_id": "096",
+          "title": "葬AI一周年，我不再用AI写作",
+          "permalink": "/articles/096",
+          "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "date": "2026-05-27",
+          "label": "沐秋曾找Erlich一起开发AI写作产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "erlich",
+      "target": "claude",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Erlich开发了Claude Code的中转服务并撰写了入门教程",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "027"
+      ],
+      "evidences": [
+        {
+          "article_id": "027",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/027",
+          "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-09",
+          "label": "Erlich开发了Claude Code的中转服务并撰写了入门教程",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "erlich",
+      "target": "proma",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Erlich花费一天半时间制作了Proma",
+      "weight": 3,
+      "strength": 3,
+      "effective_weight": 12,
+      "article_count": 3,
+      "evidence_articles": [
+        "066",
+        "096",
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "Erlich在今年初做了一个Agent客户端Proma",
+          "weight": 1
+        },
+        {
+          "article_id": "096",
+          "title": "葬AI一周年，我不再用AI写作",
+          "permalink": "/articles/096",
+          "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "date": "2026-05-27",
+          "label": "Erlich开发了Proma",
+          "weight": 1
+        },
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "Erlich花费一天半时间制作了Proma",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

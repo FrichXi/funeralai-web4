@@ -1,0 +1,109 @@
+{
+  "node": {
+    "id": "滴滴",
+    "name": "滴滴",
+    "type": "company",
+    "description": "中国出行平台，Uber的竞争对手",
+    "mention_count": 5,
+    "article_count": 2,
+    "aliases": [
+      "DiDi"
+    ],
+    "tags": [
+      "出行",
+      "创新"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "035",
+        "title": "彼得蒂尔是中国的辱追梦男",
+        "date": "2025-11-18",
+        "path": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+        "permalink": "/articles/035",
+        "markdown_link": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "040",
+        "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+        "date": "2025-12-12",
+        "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "permalink": "/articles/040",
+        "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0302
+  },
+  "links": [
+    {
+      "source": "uber",
+      "target": "滴滴",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Uber当年在中国市场与滴滴激烈厮杀",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "035"
+      ],
+      "evidences": [
+        {
+          "article_id": "035",
+          "title": "彼得蒂尔是中国的辱追梦男",
+          "permalink": "/articles/035",
+          "markdown_link": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+          "path": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+          "date": "2025-11-18",
+          "label": "Uber当年在中国市场与滴滴激烈厮杀",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "滴滴",
+      "target": "uber",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Uber当年在中国市场与滴滴激烈厮杀",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "金沙江",
+      "target": "滴滴",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "金沙江重注滴滴",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "040"
+      ],
+      "evidences": [
+        {
+          "article_id": "040",
+          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+          "permalink": "/articles/040",
+          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "date": "2025-12-12",
+          "label": "金沙江重注滴滴",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

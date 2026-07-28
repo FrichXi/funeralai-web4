@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "黑鲨",
+    "name": "黑鲨",
+    "type": "company",
+    "description": "游戏手机公司，Yinsen曾在此任职",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "XR",
+      "智能硬件"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "070",
+        "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+        "date": "2026-03-13",
+        "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+        "permalink": "/articles/070",
+        "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.014
+  },
+  "links": [
+    {
+      "source": "yinsen",
+      "target": "黑鲨",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "Yinsen曾加入黑鲨任职",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "070"
+      ],
+      "evidences": [
+        {
+          "article_id": "070",
+          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+          "permalink": "/articles/070",
+          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "date": "2026-03-13",
+          "label": "Yinsen曾加入黑鲨任职",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

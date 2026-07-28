@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "rainfly",
+    "name": "RainFly",
+    "type": "person",
+    "description": "网吧黑客松MuleRun赛道获胜者，长亭科技前员工",
+    "mention_count": 4,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "开发者"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "115",
+        "title": "网吧黑客松为西湖醋鱼平反",
+        "date": "2026-07-08",
+        "path": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
+        "permalink": "/articles/115",
+        "markdown_link": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
+        "mention_count": 4
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0299
+  },
+  "links": [
+    {
+      "source": "rainfly",
+      "target": "陈宇森",
+      "relation_type": "collaborates_with",
+      "type": "collaborates_with",
+      "label": "文中明确两人为前同事关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "115"
+      ],
+      "evidences": [
+        {
+          "article_id": "115",
+          "title": "网吧黑客松为西湖醋鱼平反",
+          "permalink": "/articles/115",
+          "markdown_link": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
+          "path": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
+          "date": "2026-07-08",
+          "label": "文中明确两人为前同事关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "rainfly",
+      "target": "长亭科技",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "文中提到RainFly是长亭科技前员工",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "115"
+      ],
+      "evidences": [
+        {
+          "article_id": "115",
+          "title": "网吧黑客松为西湖醋鱼平反",
+          "permalink": "/articles/115",
+          "markdown_link": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
+          "path": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
+          "date": "2026-07-08",
+          "label": "文中提到RainFly是长亭科技前员工",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

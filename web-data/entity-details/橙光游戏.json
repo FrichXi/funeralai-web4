@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "橙光游戏",
+    "name": "橙光游戏",
+    "type": "product",
+    "description": "知名的文字游戏平台，被用来形容《星眠》的某些系统设定",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "文字游戏"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "058",
+        "title": "张月光给乙女游戏加了个Chatbot",
+        "date": "2026-01-27",
+        "path": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+        "permalink": "/articles/058",
+        "markdown_link": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0177
+  },
+  "links": [
+    {
+      "source": "星眠",
+      "target": "橙光游戏",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者吐槽《星眠》的表达方式如同复古的橙光游戏",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "058"
+      ],
+      "evidences": [
+        {
+          "article_id": "058",
+          "title": "张月光给乙女游戏加了个Chatbot",
+          "permalink": "/articles/058",
+          "markdown_link": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+          "path": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+          "date": "2026-01-27",
+          "label": "作者吐槽《星眠》的表达方式如同复古的橙光游戏",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "橙光游戏",
+      "target": "星眠",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者吐槽《星眠》的表达方式如同复古的橙光游戏",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,230 @@
+{
+  "node": {
+    "id": "lingbot-world-2-0",
+    "name": "LingBot-World 2.0",
+    "type": "product",
+    "description": "灵波科技的PC端世界模型，支持个性化定制角色动作但被质疑交互逻辑",
+    "mention_count": 6,
+    "article_count": 1,
+    "aliases": [
+      "World 2.0"
+    ],
+    "tags": [
+      "PC端应用",
+      "世界模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "121",
+        "title": "蚂蚁把世界模型作为一场儿戏",
+        "date": "2026-07-16",
+        "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+        "permalink": "/articles/121",
+        "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+        "mention_count": 6
+      }
+    ],
+    "degree": 9,
+    "composite_weight": 0.0801
+  },
+  "links": [
+    {
+      "source": "genie-3",
+      "target": "lingbot-world-2-0",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了两者在处理穿墙、穿模等物理交互问题上的不同表现",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "121"
+      ],
+      "evidences": [
+        {
+          "article_id": "121",
+          "title": "蚂蚁把世界模型作为一场儿戏",
+          "permalink": "/articles/121",
+          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "date": "2026-07-16",
+          "label": "文章对比了两者在处理穿墙、穿模等物理交互问题上的不同表现",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "lingbot-world-2-0",
+      "target": "genie-3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了两者在处理穿墙、穿模等物理交互问题上的不同表现",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "lingbot-world-2-0",
+      "target": "pixverse",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为开放世界生成模型，且都尝试了游戏化方向",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "121"
+      ],
+      "evidences": [
+        {
+          "article_id": "121",
+          "title": "蚂蚁把世界模型作为一场儿戏",
+          "permalink": "/articles/121",
+          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "date": "2026-07-16",
+          "label": "两者均为开放世界生成模型，且都尝试了游戏化方向",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "lingbot-world-2-0",
+      "target": "快乐生蚝",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为主打实时生成视频的世界模型，且在交互按钮设计上相似",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "121"
+      ],
+      "evidences": [
+        {
+          "article_id": "121",
+          "title": "蚂蚁把世界模型作为一场儿戏",
+          "permalink": "/articles/121",
+          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "date": "2026-07-16",
+          "label": "两者均为主打实时生成视频的世界模型，且在交互按钮设计上相似",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "pixverse",
+      "target": "lingbot-world-2-0",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为开放世界生成模型，且都尝试了游戏化方向",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "快乐生蚝",
+      "target": "lingbot-world-2-0",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为主打实时生成视频的世界模型，且在交互按钮设计上相似",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "骡子马",
+      "target": "lingbot-world-2-0",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "作者质疑LingBot-World 2.0的交互是鼠标宏化，且存在回避型人格缺陷",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "121"
+      ],
+      "evidences": [
+        {
+          "article_id": "121",
+          "title": "蚂蚁把世界模型作为一场儿戏",
+          "permalink": "/articles/121",
+          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "date": "2026-07-16",
+          "label": "作者质疑LingBot-World 2.0的交互是鼠标宏化，且存在回避型人格缺陷",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "灵波科技",
+      "target": "lingbot-world-2-0",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "灵波科技开发了LingBot-World 2.0世界模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "121"
+      ],
+      "evidences": [
+        {
+          "article_id": "121",
+          "title": "蚂蚁把世界模型作为一场儿戏",
+          "permalink": "/articles/121",
+          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "date": "2026-07-16",
+          "label": "灵波科技开发了LingBot-World 2.0世界模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "lingbot-world-2-0",
+      "target": "灵光",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "灵光App内部嵌入了世界模型功能（移动端版本）",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "121"
+      ],
+      "evidences": [
+        {
+          "article_id": "121",
+          "title": "蚂蚁把世界模型作为一场儿戏",
+          "permalink": "/articles/121",
+          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "date": "2026-07-16",
+          "label": "灵光App内部嵌入了世界模型功能（移动端版本）",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

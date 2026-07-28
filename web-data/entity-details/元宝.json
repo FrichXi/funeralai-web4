@@ -1,0 +1,147 @@
+{
+  "node": {
+    "id": "元宝",
+    "name": "元宝",
+    "type": "product",
+    "description": "大模型产品，在Elys中被cos",
+    "mention_count": 5,
+    "article_count": 2,
+    "aliases": [
+      "腾讯元宝"
+    ],
+    "tags": [
+      "AI应用"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "064",
+        "title": "Elys应该做成AI内涵段子",
+        "date": "2026-02-13",
+        "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "permalink": "/articles/064",
+        "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "111",
+        "title": "用豆包办公得坐小孩那桌",
+        "date": "2026-06-25",
+        "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+        "permalink": "/articles/111",
+        "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0504
+  },
+  "links": [
+    {
+      "source": "workbuddy",
+      "target": "元宝",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在办公场景下，腾讯开始用WorkBuddy平替/取代元宝的生态定位",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "在办公场景下，腾讯开始用WorkBuddy平替/取代元宝的生态定位",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "元宝",
+      "target": "workbuddy",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在办公场景下，腾讯开始用WorkBuddy平替/取代元宝的生态定位",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "elys",
+      "target": "元宝",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "作者认为Elys很适合被元宝团队抄袭竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "064"
+      ],
+      "evidences": [
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "作者认为Elys很适合被元宝团队抄袭竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "元宝",
+      "target": "elys",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "作者认为Elys很适合被元宝团队抄袭竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "腾讯",
+      "target": "元宝",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "腾讯旗下开发运营了元宝AI工具",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "腾讯旗下开发运营了元宝AI工具",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

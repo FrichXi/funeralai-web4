@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "小龙虾",
+    "name": "小龙虾",
+    "type": "product",
+    "description": "某AI工具的代称，文中提到在群组里共用以节省Token",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Agent"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "090",
+        "title": "Bloome重做元宝派",
+        "date": "2026-05-12",
+        "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "permalink": "/articles/090",
+        "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0159
+  },
+  "links": [
+    {
+      "source": "bloome",
+      "target": "小龙虾",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文中设想可以在Bloome群组里共用小龙虾工具",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "文中设想可以在Bloome群组里共用小龙虾工具",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

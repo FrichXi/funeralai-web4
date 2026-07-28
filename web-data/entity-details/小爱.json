@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "小爱",
+    "name": "小爱",
+    "type": "product",
+    "description": "智能音箱产品，被认为可能会被小智AI的开源大军颠覆",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "智能硬件"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "072",
+        "title": "小智AI才是真正的具身智能",
+        "date": "2026-03-17",
+        "path": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+        "permalink": "/articles/072",
+        "markdown_link": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0187
+  },
+  "links": [
+    {
+      "source": "小智ai",
+      "target": "小爱",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "小智AI开源生态产出的丰富变体被认为足以颠覆小爱等传统智能设备",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "072"
+      ],
+      "evidences": [
+        {
+          "article_id": "072",
+          "title": "小智AI才是真正的具身智能",
+          "permalink": "/articles/072",
+          "markdown_link": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+          "path": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+          "date": "2026-03-17",
+          "label": "小智AI开源生态产出的丰富变体被认为足以颠覆小爱等传统智能设备",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "小爱",
+      "target": "小智ai",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "小智AI开源生态产出的丰富变体被认为足以颠覆小爱等传统智能设备",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

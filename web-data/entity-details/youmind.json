@@ -1,0 +1,216 @@
+{
+  "node": {
+    "id": "youmind",
+    "name": "YouMind",
+    "type": "product",
+    "description": "一款强调阅读原始文本的AI创作和知识库产品",
+    "mention_count": 24,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI创作",
+      "AI搜索",
+      "知识库"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "002",
+        "title": "AI创作产品，还没找到自己的形态",
+        "date": "2025-06-13",
+        "path": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+        "permalink": "/articles/002",
+        "markdown_link": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+        "mention_count": 24
+      }
+    ],
+    "degree": 10,
+    "composite_weight": 0.0788
+  },
+  "links": [
+    {
+      "source": "chatgpt-deep-research",
+      "target": "youmind",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将 YouMind 的 Board 联网搜索及综述功能比作“去中心化的 ChatGPT Deep Research”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "002"
+      ],
+      "evidences": [
+        {
+          "article_id": "002",
+          "title": "AI创作产品，还没找到自己的形态",
+          "permalink": "/articles/002",
+          "markdown_link": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+          "path": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+          "date": "2025-06-13",
+          "label": "文中将 YouMind 的 Board 联网搜索及综述功能比作“去中心化的 ChatGPT Deep Research”",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "ima",
+      "target": "youmind",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将 YouMind 评价为“前进一步的腾讯ima知识库”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "002"
+      ],
+      "evidences": [
+        {
+          "article_id": "002",
+          "title": "AI创作产品，还没找到自己的形态",
+          "permalink": "/articles/002",
+          "markdown_link": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+          "path": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+          "date": "2025-06-13",
+          "label": "文中将 YouMind 评价为“前进一步的腾讯ima知识库”",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "youmind",
+      "target": "chatgpt-deep-research",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将 YouMind 的 Board 联网搜索及综述功能比作“去中心化的 ChatGPT Deep Research”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "youmind",
+      "target": "ima",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将 YouMind 评价为“前进一步的腾讯ima知识库”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "grimo",
+      "target": "youmind",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "二者均为当前处于探索阶段的 AI 创作产品，在 AI 辅助写作场景下存在竞品关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "002"
+      ],
+      "evidences": [
+        {
+          "article_id": "002",
+          "title": "AI创作产品，还没找到自己的形态",
+          "permalink": "/articles/002",
+          "markdown_link": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+          "path": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+          "date": "2025-06-13",
+          "label": "二者均为当前处于探索阶段的 AI 创作产品，在 AI 辅助写作场景下存在竞品关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "notebooklm",
+      "target": "youmind",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "YouMind和NotebookLM都是AI知识管理产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "youmind",
+      "target": "grimo",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "二者均为当前处于探索阶段的 AI 创作产品，在 AI 辅助写作场景下存在竞品关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "youmind",
+      "target": "notebooklm",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "YouMind和NotebookLM都是AI知识管理产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "玉伯",
+      "target": "youmind",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "玉伯创立YouMind",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 5,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "玉伯",
+      "target": "youmind",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "玉伯是 YouMind 的创始人，主导了该产品的理念与开发",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "002"
+      ],
+      "evidences": [
+        {
+          "article_id": "002",
+          "title": "AI创作产品，还没找到自己的形态",
+          "permalink": "/articles/002",
+          "markdown_link": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+          "path": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+          "date": "2025-06-13",
+          "label": "玉伯是 YouMind 的创始人，主导了该产品的理念与开发",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

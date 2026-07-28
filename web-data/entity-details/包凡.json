@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "包凡",
+    "name": "包凡",
+    "type": "person",
+    "description": "中国创投市场知名FA人物，作为远识资本的对比对象被提及",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "FA"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "085",
+        "title": "谁是宇宙第一FA",
+        "date": "2026-04-27",
+        "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "permalink": "/articles/085",
+        "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0197
+  },
+  "links": [
+    {
+      "source": "包凡",
+      "target": "远识资本",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章标题和正文对比两者，指出宇宙第一FA不是包凡而是远识",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "文章标题和正文对比两者，指出宇宙第一FA不是包凡而是远识",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "远识资本",
+      "target": "包凡",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章标题和正文对比两者，指出宇宙第一FA不是包凡而是远识",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

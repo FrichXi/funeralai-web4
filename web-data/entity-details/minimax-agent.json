@@ -1,0 +1,98 @@
+{
+  "node": {
+    "id": "minimax-agent",
+    "name": "MiniMax Agent",
+    "type": "product",
+    "description": "强化了vibe coding能力的Agent产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Agent",
+      "vibe coding"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "016",
+        "title": "Manus依然是版本神",
+        "date": "2025-08-25",
+        "path": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
+        "permalink": "/articles/016",
+        "markdown_link": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0217
+  },
+  "links": [
+    {
+      "source": "minimax-agent",
+      "target": "youware",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "MiniMax Agent强化编码能力后想抢YouWare的生意",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "016"
+      ],
+      "evidences": [
+        {
+          "article_id": "016",
+          "title": "Manus依然是版本神",
+          "permalink": "/articles/016",
+          "markdown_link": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
+          "path": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
+          "date": "2025-08-25",
+          "label": "MiniMax Agent强化编码能力后想抢YouWare的生意",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "youware",
+      "target": "minimax-agent",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "MiniMax Agent强化编码能力后想抢YouWare的生意",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "minimax",
+      "target": "minimax-agent",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax公司开发了MiniMax Agent",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "016"
+      ],
+      "evidences": [
+        {
+          "article_id": "016",
+          "title": "Manus依然是版本神",
+          "permalink": "/articles/016",
+          "markdown_link": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
+          "path": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
+          "date": "2025-08-25",
+          "label": "MiniMax公司开发了MiniMax Agent",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

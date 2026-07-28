@@ -1,0 +1,73 @@
+{
+  "node": {
+    "id": "葬ai基准测试",
+    "name": "葬AI基准测试",
+    "type": "product",
+    "description": "作者自研的基于完整静态网站重构的大模型能力评测基准",
+    "mention_count": 8,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Benchmark",
+      "知识图谱",
+      "静态网站重构"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "105",
+        "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+        "date": "2026-06-17",
+        "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "permalink": "/articles/105",
+        "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "mention_count": 8
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0382
+  },
+  "links": [
+    {
+      "source": "swe-bench",
+      "target": "葬ai基准测试",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者提到葬AI基准测试给真实工程仓库的思路和SWE-bench寻找真实Issue的思路一样",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "105"
+      ],
+      "evidences": [
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "作者提到葬AI基准测试给真实工程仓库的思路和SWE-bench寻找真实Issue的思路一样",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "葬ai基准测试",
+      "target": "swe-bench",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者提到葬AI基准测试给真实工程仓库的思路和SWE-bench寻找真实Issue的思路一样",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "happy-horse",
+    "name": "Happy Horse",
+    "type": "product",
+    "description": "阿里旗下的视频生成模型，被作者批评刷榜且效果不佳",
+    "mention_count": 5,
+    "article_count": 2,
+    "aliases": [
+      "Happy horse"
+    ],
+    "tags": [
+      "争议产品",
+      "视频模型",
+      "视频生成"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "112",
+        "title": "老天保佑Qwen救救阿里巴巴",
+        "date": "2026-07-02",
+        "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+        "permalink": "/articles/112",
+        "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "086",
+        "title": "世界模型是梦核军备竞赛",
+        "date": "2026-05-05",
+        "path": "articles/086_2026-05-05_骡子马_世界模型是梦核军备竞赛.md",
+        "permalink": "/articles/086",
+        "markdown_link": "articles/086_2026-05-05_骡子马_世界模型是梦核军备竞赛.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.03
+  },
+  "links": [
+    {
+      "source": "阿里巴巴",
+      "target": "happy-horse",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "阿里发布了视频模型Happy Horse",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "086",
+        "112"
+      ],
+      "evidences": [
+        {
+          "article_id": "112",
+          "title": "老天保佑Qwen救救阿里巴巴",
+          "permalink": "/articles/112",
+          "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "date": "2026-07-02",
+          "label": "阿里巴巴开发视频模型Happy horse",
+          "weight": 1
+        },
+        {
+          "article_id": "086",
+          "title": "世界模型是梦核军备竞赛",
+          "permalink": "/articles/086",
+          "markdown_link": "articles/086_2026-05-05_骡子马_世界模型是梦核军备竞赛.md",
+          "path": "articles/086_2026-05-05_骡子马_世界模型是梦核军备竞赛.md",
+          "date": "2026-05-05",
+          "label": "阿里发布了视频模型Happy Horse",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

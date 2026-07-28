@@ -1,0 +1,159 @@
+{
+  "node": {
+    "id": "英伟达",
+    "name": "英伟达",
+    "type": "company",
+    "description": "其Cosmos产品被提及作为物理AI的对标对象",
+    "mention_count": 6,
+    "article_count": 4,
+    "aliases": [
+      "NVIDIA",
+      "Nvidia"
+    ],
+    "tags": [
+      "世界模型",
+      "信仰股",
+      "物理AI",
+      "算力",
+      "脑机接口比喻",
+      "自动驾驶",
+      "高市值"
+    ],
+    "references": 4,
+    "source_article_count": 4,
+    "source_articles": [
+      {
+        "article_id": "074",
+        "title": "做个人吧，别做AI",
+        "date": "2026-03-22",
+        "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+        "permalink": "/articles/074",
+        "markdown_link": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "049",
+        "title": "建议六小虎合并，实现China AGI",
+        "date": "2026-01-05",
+        "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "permalink": "/articles/049",
+        "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "121",
+        "title": "蚂蚁把世界模型作为一场儿戏",
+        "date": "2026-07-16",
+        "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+        "permalink": "/articles/121",
+        "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "056",
+        "title": "PixVerse像做梦一样做世界模型",
+        "date": "2026-01-23",
+        "path": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+        "permalink": "/articles/056",
+        "markdown_link": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0537
+  },
+  "links": [
+    {
+      "source": "灵波科技",
+      "target": "英伟达",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "灵波的VLA/Vision/VA模型被指与英伟达Cosmos做的事情类似",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "121"
+      ],
+      "evidences": [
+        {
+          "article_id": "121",
+          "title": "蚂蚁把世界模型作为一场儿戏",
+          "permalink": "/articles/121",
+          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "date": "2026-07-16",
+          "label": "灵波的VLA/Vision/VA模型被指与英伟达Cosmos做的事情类似",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "英伟达",
+      "target": "灵波科技",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "灵波的VLA/Vision/VA模型被指与英伟达Cosmos做的事情类似",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "英伟达",
+      "target": "tosi",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "英伟达的世界模型属于toSi项目",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "056"
+      ],
+      "evidences": [
+        {
+          "article_id": "056",
+          "title": "PixVerse像做梦一样做世界模型",
+          "permalink": "/articles/056",
+          "markdown_link": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+          "path": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+          "date": "2026-01-23",
+          "label": "英伟达的世界模型属于toSi项目",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "黄仁勋",
+      "target": "英伟达",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "黄仁勋是英伟达的老板。",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "074"
+      ],
+      "evidences": [
+        {
+          "article_id": "074",
+          "title": "做个人吧，别做AI",
+          "permalink": "/articles/074",
+          "markdown_link": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+          "date": "2026-03-22",
+          "label": "黄仁勋是英伟达的老板。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

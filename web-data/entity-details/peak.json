@@ -1,0 +1,82 @@
+{
+  "node": {
+    "id": "peak",
+    "name": "Peak",
+    "type": "person",
+    "description": "Manus团队核心人员",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "048",
+        "title": "第一届Manus杯新加坡概念作文大赛",
+        "date": "2025-12-30",
+        "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+        "permalink": "/articles/048",
+        "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0235
+  },
+  "links": [
+    {
+      "source": "peak",
+      "target": "肖弘",
+      "relation_type": "co_founded",
+      "type": "co_founded",
+      "label": "两人共同作为Manus的核心人员被并列提及",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "048"
+      ],
+      "evidences": [
+        {
+          "article_id": "048",
+          "title": "第一届Manus杯新加坡概念作文大赛",
+          "permalink": "/articles/048",
+          "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+          "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+          "date": "2025-12-30",
+          "label": "两人共同作为Manus的核心人员被并列提及",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "peak",
+      "target": "manus",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "Peak在Manus工作",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "peak",
+      "target": "manus",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Peak参与Manus",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "红果",
+    "name": "红果",
+    "type": "product",
+    "description": "包含AI漫剧内容的产品平台，被用于与7verse的视觉小说效果对比",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI漫剧"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "087",
+        "title": "Vivix用13亿美金估值复活科比",
+        "date": "2026-05-06",
+        "path": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+        "permalink": "/articles/087",
+        "markdown_link": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.02
+  },
+  "links": [
+    {
+      "source": "7verse",
+      "target": "红果",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将7verse的游戏画面一致性与红果平台上的AI漫剧进行水平对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "087"
+      ],
+      "evidences": [
+        {
+          "article_id": "087",
+          "title": "Vivix用13亿美金估值复活科比",
+          "permalink": "/articles/087",
+          "markdown_link": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+          "path": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+          "date": "2026-05-06",
+          "label": "作者将7verse的游戏画面一致性与红果平台上的AI漫剧进行水平对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "红果",
+      "target": "7verse",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将7verse的游戏画面一致性与红果平台上的AI漫剧进行水平对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

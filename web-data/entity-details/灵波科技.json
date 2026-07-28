@@ -1,0 +1,150 @@
+{
+  "node": {
+    "id": "灵波科技",
+    "name": "灵波科技",
+    "type": "company",
+    "description": "蚂蚁旗下公司，开发了VLA、Vision、VA、Video及World系列模型",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI研发",
+      "世界模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "121",
+        "title": "蚂蚁把世界模型作为一场儿戏",
+        "date": "2026-07-16",
+        "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+        "permalink": "/articles/121",
+        "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 6,
+    "composite_weight": 0.0476
+  },
+  "links": [
+    {
+      "source": "灵波科技",
+      "target": "英伟达",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "灵波的VLA/Vision/VA模型被指与英伟达Cosmos做的事情类似",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "121"
+      ],
+      "evidences": [
+        {
+          "article_id": "121",
+          "title": "蚂蚁把世界模型作为一场儿戏",
+          "permalink": "/articles/121",
+          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "date": "2026-07-16",
+          "label": "灵波的VLA/Vision/VA模型被指与英伟达Cosmos做的事情类似",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "英伟达",
+      "target": "灵波科技",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "灵波的VLA/Vision/VA模型被指与英伟达Cosmos做的事情类似",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "sand-ai",
+      "target": "灵波科技",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "灵波的Video 1.0被指是Sand.ai视频生成模型的竞品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "121"
+      ],
+      "evidences": [
+        {
+          "article_id": "121",
+          "title": "蚂蚁把世界模型作为一场儿戏",
+          "permalink": "/articles/121",
+          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "date": "2026-07-16",
+          "label": "灵波的Video 1.0被指是Sand.ai视频生成模型的竞品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "灵波科技",
+      "target": "sand-ai",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "灵波的Video 1.0被指是Sand.ai视频生成模型的竞品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "灵波科技",
+      "target": "lingbot-world-2-0",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "灵波科技开发了LingBot-World 2.0世界模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "121"
+      ],
+      "evidences": [
+        {
+          "article_id": "121",
+          "title": "蚂蚁把世界模型作为一场儿戏",
+          "permalink": "/articles/121",
+          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "date": "2026-07-16",
+          "label": "灵波科技开发了LingBot-World 2.0世界模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "灵波科技",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "灵波科技是蚂蚁集团旗下公司",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

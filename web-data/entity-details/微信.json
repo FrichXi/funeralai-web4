@@ -1,0 +1,350 @@
+{
+  "node": {
+    "id": "微信",
+    "name": "微信",
+    "type": "product",
+    "description": "腾讯旗下的社交软件，文中作为评估抖音社交能力对比的基准。",
+    "mention_count": 26,
+    "article_count": 7,
+    "aliases": [],
+    "tags": [
+      "IM",
+      "前端All in One",
+      "社交",
+      "社交软件",
+      "通讯软件"
+    ],
+    "references": 7,
+    "source_article_count": 7,
+    "source_articles": [
+      {
+        "article_id": "064",
+        "title": "Elys应该做成AI内涵段子",
+        "date": "2026-02-13",
+        "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "permalink": "/articles/064",
+        "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "mention_count": 8
+      },
+      {
+        "article_id": "102",
+        "title": "腾讯做了一堆情感陪伴Agent",
+        "date": "2026-06-09",
+        "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "permalink": "/articles/102",
+        "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "mention_count": 7
+      },
+      {
+        "article_id": "097",
+        "title": "光帆耳机拒绝长发男",
+        "date": "2026-05-28",
+        "path": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+        "permalink": "/articles/097",
+        "markdown_link": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "067",
+        "title": "OpenClaw不如狗一条",
+        "date": "2026-03-03",
+        "path": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+        "permalink": "/articles/067",
+        "markdown_link": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "062",
+        "title": "Seedance 2.0让字节元神启动",
+        "date": "2026-02-10",
+        "path": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+        "permalink": "/articles/062",
+        "markdown_link": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "055",
+        "title": "来认识下2025年最活跃的CVC",
+        "date": "2026-01-22",
+        "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "permalink": "/articles/055",
+        "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "090",
+        "title": "Bloome重做元宝派",
+        "date": "2026-05-12",
+        "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "permalink": "/articles/090",
+        "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 10,
+    "composite_weight": 0.1442
+  },
+  "links": [
+    {
+      "source": "bloome",
+      "target": "微信",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Bloome的定位与微信进行对比辨析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "文中将Bloome的定位与微信进行对比辨析",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "genspark",
+      "target": "微信",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Genspark等产品试图学习微信的前端All in One模式",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "067"
+      ],
+      "evidences": [
+        {
+          "article_id": "067",
+          "title": "OpenClaw不如狗一条",
+          "permalink": "/articles/067",
+          "markdown_link": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+          "path": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+          "date": "2026-03-03",
+          "label": "Genspark等产品试图学习微信的前端All in One模式",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "微信",
+      "target": "bloome",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Bloome的定位与微信进行对比辨析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "微信",
+      "target": "genspark",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Genspark等产品试图学习微信的前端All in One模式",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "微信",
+      "target": "抖音",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者对比抖音和微信，指出抖音长期缺乏不可替代的微信式社交功能。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "062"
+      ],
+      "evidences": [
+        {
+          "article_id": "062",
+          "title": "Seedance 2.0让字节元神启动",
+          "permalink": "/articles/062",
+          "markdown_link": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+          "path": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
+          "date": "2026-02-10",
+          "label": "作者对比抖音和微信，指出抖音长期缺乏不可替代的微信式社交功能。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "抖音",
+      "target": "微信",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者对比抖音和微信，指出抖音长期缺乏不可替代的微信式社交功能。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "腾讯",
+      "target": "微信",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "腾讯拥有微信",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "055",
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "腾讯旗下的核心社交产品",
+          "weight": 1
+        },
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "腾讯拥有微信",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "qclaw",
+      "target": "微信",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "QClaw被爆炒的原因是能够连接微信并在手机端对话",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "QClaw被爆炒的原因是能够连接微信并在手机端对话",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "光帆耳机",
+      "target": "微信",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "光帆耳机支持接收微信消息并播报",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "097"
+      ],
+      "evidences": [
+        {
+          "article_id": "097",
+          "title": "光帆耳机拒绝长发男",
+          "permalink": "/articles/097",
+          "markdown_link": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+          "path": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+          "date": "2026-05-28",
+          "label": "光帆耳机支持接收微信消息并播报",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "张小龙",
+      "target": "微信",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "张小龙与微信高度绑定",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "064"
+      ],
+      "evidences": [
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "张小龙与微信高度绑定",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "微信",
+      "target": "飞书",
+      "score": 0.4661,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "067",
+        "090",
+        "097",
+        "102"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "字节跳动",
+      "target": "微信",
+      "score": 0.3643,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "062",
+        "064",
+        "102"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

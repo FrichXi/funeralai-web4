@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "微信读书",
+    "name": "微信读书",
+    "type": "product",
+    "description": "具备语音朗读功能的阅读应用",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "语音朗读",
+      "阅读应用"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "014",
+        "title": "除了投资人，没人需要AI播客",
+        "date": "2025-08-07",
+        "path": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+        "permalink": "/articles/014",
+        "markdown_link": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0279
+  },
+  "links": [
+    {
+      "source": "chatpods",
+      "target": "微信读书",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章认为市面上的AI播客产品（如ChatPods）本质是语音摘要工具，实际竞争对手是微信读书的语音朗读功能",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "014"
+      ],
+      "evidences": [
+        {
+          "article_id": "014",
+          "title": "除了投资人，没人需要AI播客",
+          "permalink": "/articles/014",
+          "markdown_link": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "path": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "date": "2025-08-07",
+          "label": "文章认为市面上的AI播客产品（如ChatPods）本质是语音摘要工具，实际竞争对手是微信读书的语音朗读功能",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "微信读书",
+      "target": "chatpods",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章认为市面上的AI播客产品（如ChatPods）本质是语音摘要工具，实际竞争对手是微信读书的语音朗读功能",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "微信读书",
+      "target": "来福电台",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章认为市面上的AI播客产品（如来福电台）本质是语音摘要工具，实际竞争对手是微信读书的语音朗读功能",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "014"
+      ],
+      "evidences": [
+        {
+          "article_id": "014",
+          "title": "除了投资人，没人需要AI播客",
+          "permalink": "/articles/014",
+          "markdown_link": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "path": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "date": "2025-08-07",
+          "label": "文章认为市面上的AI播客产品（如来福电台）本质是语音摘要工具，实际竞争对手是微信读书的语音朗读功能",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "来福电台",
+      "target": "微信读书",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章认为市面上的AI播客产品（如来福电台）本质是语音摘要工具，实际竞争对手是微信读书的语音朗读功能",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

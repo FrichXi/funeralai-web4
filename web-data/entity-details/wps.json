@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "wps",
+    "name": "WPS",
+    "type": "product",
+    "description": "办公软件",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "生产力工具"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "070",
+        "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+        "date": "2026-03-13",
+        "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+        "permalink": "/articles/070",
+        "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0186
+  },
+  "links": [
+    {
+      "source": "cherry-studio",
+      "target": "wps",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "投资人认为Cherry Studio是下一代飞书、下一代WPS",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "070"
+      ],
+      "evidences": [
+        {
+          "article_id": "070",
+          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+          "permalink": "/articles/070",
+          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "date": "2026-03-13",
+          "label": "投资人认为Cherry Studio是下一代飞书、下一代WPS",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "wps",
+      "target": "cherry-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "投资人认为Cherry Studio是下一代飞书、下一代WPS",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

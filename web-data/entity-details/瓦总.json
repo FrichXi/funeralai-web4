@@ -1,0 +1,69 @@
+{
+  "node": {
+    "id": "瓦总",
+    "name": "瓦总",
+    "type": "person",
+    "description": "即刻平台的相关高管或创始人",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "059",
+        "title": "「Dokie不如ListenHub」",
+        "date": "2026-01-28",
+        "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "permalink": "/articles/059",
+        "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0177
+  },
+  "links": [
+    {
+      "source": "瓦总",
+      "target": "即刻",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "瓦总 founder_of 即刻",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 5,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "瓦总",
+      "target": "即刻",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "瓦总是即刻公司的代表人物",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "059"
+      ],
+      "evidences": [
+        {
+          "article_id": "059",
+          "title": "「Dokie不如ListenHub」",
+          "permalink": "/articles/059",
+          "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "date": "2026-01-28",
+          "label": "瓦总是即刻公司的代表人物",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

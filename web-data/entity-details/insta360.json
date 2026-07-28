@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "insta360",
+    "name": "Insta360",
+    "type": "company",
+    "description": "知名运动相机公司，被提及硬件也会面临掉落问题",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "运动相机"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "043",
+        "title": "Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子",
+        "date": "2025-12-18",
+        "path": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+        "permalink": "/articles/043",
+        "markdown_link": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.017
+  },
+  "links": [
+    {
+      "source": "insta360",
+      "target": "looki",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "孙洋指出Insta360的相机也会存在类似Looki的掉落问题",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "043"
+      ],
+      "evidences": [
+        {
+          "article_id": "043",
+          "title": "Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子",
+          "permalink": "/articles/043",
+          "markdown_link": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+          "path": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+          "date": "2025-12-18",
+          "label": "孙洋指出Insta360的相机也会存在类似Looki的掉落问题",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "looki",
+      "target": "insta360",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "孙洋指出Insta360的相机也会存在类似Looki的掉落问题",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

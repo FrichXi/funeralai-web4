@@ -1,0 +1,98 @@
+{
+  "node": {
+    "id": "mimiclaw",
+    "name": "MimiClaw",
+    "type": "product",
+    "description": "能够运行在ESP32开发板上的开源Agent架构项目",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "开源项目",
+      "边缘计算"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "066",
+        "title": "AI编程创造世界",
+        "date": "2026-02-24",
+        "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "permalink": "/articles/066",
+        "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0261
+  },
+  "links": [
+    {
+      "source": "mimiclaw",
+      "target": "openclaw",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "MimiClaw被视作平替OpenClaw体验的产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "066"
+      ],
+      "evidences": [
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "MimiClaw被视作平替OpenClaw体验的产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "openclaw",
+      "target": "mimiclaw",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "MimiClaw被视作平替OpenClaw体验的产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "esp32",
+      "target": "mimiclaw",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "开发者把MimiClaw的Agent架构直接装到了ESP32开发板上",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "066"
+      ],
+      "evidences": [
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "开发者把MimiClaw的Agent架构直接装到了ESP32开发板上",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

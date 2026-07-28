@@ -1,0 +1,130 @@
+{
+  "node": {
+    "id": "星流",
+    "name": "星流",
+    "type": "product",
+    "description": "LibTV旗下产品，被称为中国版Lovart",
+    "mention_count": 3,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "073",
+        "title": "Lovart狂做TapNow",
+        "date": "2026-03-19",
+        "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+        "permalink": "/articles/073",
+        "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "106",
+        "title": "我来给LibTV道喜了",
+        "date": "2026-06-18",
+        "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+        "permalink": "/articles/106",
+        "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0418
+  },
+  "links": [
+    {
+      "source": "lovart",
+      "target": "星流",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "星流被称为中国版Lovart",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "106"
+      ],
+      "evidences": [
+        {
+          "article_id": "106",
+          "title": "我来给LibTV道喜了",
+          "permalink": "/articles/106",
+          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "date": "2026-06-18",
+          "label": "星流被称为中国版Lovart",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "星流",
+      "target": "lovart",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "星流被称为中国版Lovart",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "libtv",
+      "target": "星流",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "LibTV公司旗下拥有星流业务",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "106"
+      ],
+      "evidences": [
+        {
+          "article_id": "106",
+          "title": "我来给LibTV道喜了",
+          "permalink": "/articles/106",
+          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "date": "2026-06-18",
+          "label": "LibTV公司旗下拥有星流业务",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "lovart",
+      "target": "星流",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "星流是Lovart在国内开设的业务线/产品。",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "073"
+      ],
+      "evidences": [
+        {
+          "article_id": "073",
+          "title": "Lovart狂做TapNow",
+          "permalink": "/articles/073",
+          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "date": "2026-03-19",
+          "label": "星流是Lovart在国内开设的业务线/产品。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

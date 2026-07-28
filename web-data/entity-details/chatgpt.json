@@ -1,0 +1,913 @@
+{
+  "node": {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "type": "product",
+    "description": "OpenAI的通用大语言模型产品，被视为AI陪伴赛道的未来方向之一",
+    "mention_count": 52,
+    "article_count": 20,
+    "aliases": [],
+    "tags": [
+      "2C",
+      "3D伴游方向",
+      "AI医生",
+      "AI大模型",
+      "AI应用",
+      "AI热点",
+      "ChatBot",
+      "云端AI",
+      "全双工",
+      "大模型",
+      "大语言模型",
+      "对话体验",
+      "搜索",
+      "竞品",
+      "语音模式",
+      "超级APP",
+      "通用AI"
+    ],
+    "references": 20,
+    "source_article_count": 20,
+    "source_articles": [
+      {
+        "article_id": "048",
+        "title": "第一届Manus杯新加坡概念作文大赛",
+        "date": "2025-12-30",
+        "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+        "permalink": "/articles/048",
+        "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+        "mention_count": 8
+      },
+      {
+        "article_id": "034",
+        "title": "千问唤起世界人民的最中幻想",
+        "date": "2025-11-17",
+        "path": "articles/034_2025-11-17_葬爱咸鱼_千问唤起世界人民的最中幻想.md",
+        "permalink": "/articles/034",
+        "markdown_link": "articles/034_2025-11-17_葬爱咸鱼_千问唤起世界人民的最中幻想.md",
+        "mention_count": 7
+      },
+      {
+        "article_id": "091",
+        "title": "中亚世界没有豆包信仰",
+        "date": "2026-05-14",
+        "path": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+        "permalink": "/articles/091",
+        "markdown_link": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "030",
+        "title": "Agent OS的本地入口",
+        "date": "2025-10-20",
+        "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "permalink": "/articles/030",
+        "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "031",
+        "title": "追忆AI四小龙，热潮是怎么完蛋的",
+        "date": "2025-10-27",
+        "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "permalink": "/articles/031",
+        "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "113",
+        "title": "世界模型走了一些弯路",
+        "date": "2026-07-02",
+        "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+        "permalink": "/articles/113",
+        "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "105",
+        "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+        "date": "2026-06-17",
+        "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "permalink": "/articles/105",
+        "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "089",
+        "title": "Slock说明AI群聊不成立",
+        "date": "2026-05-10",
+        "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+        "permalink": "/articles/089",
+        "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "088",
+        "title": "读过豆包赚钱手册才敢自称懂AI",
+        "date": "2026-05-07",
+        "path": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+        "permalink": "/articles/088",
+        "markdown_link": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "070",
+        "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+        "date": "2026-03-13",
+        "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+        "permalink": "/articles/070",
+        "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "067",
+        "title": "OpenClaw不如狗一条",
+        "date": "2026-03-03",
+        "path": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+        "permalink": "/articles/067",
+        "markdown_link": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "058",
+        "title": "张月光给乙女游戏加了个Chatbot",
+        "date": "2026-01-27",
+        "path": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+        "permalink": "/articles/058",
+        "markdown_link": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "052",
+        "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+        "date": "2026-01-16",
+        "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "permalink": "/articles/052",
+        "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "040",
+        "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+        "date": "2025-12-12",
+        "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "permalink": "/articles/040",
+        "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "021",
+        "title": "Cherry Studio是一个伟大的AI工具",
+        "date": "2025-09-11",
+        "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+        "permalink": "/articles/021",
+        "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "007",
+        "title": "王小川造不出医生",
+        "date": "2025-06-26",
+        "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+        "permalink": "/articles/007",
+        "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "124",
+        "title": "TapNow想把你困在系统里",
+        "date": "2026-07-26",
+        "path": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+        "permalink": "/articles/124",
+        "markdown_link": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "017",
+        "title": "字节用扣子证明，Agent只能被计划",
+        "date": "2025-08-29",
+        "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "permalink": "/articles/017",
+        "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "009",
+        "title": "阶跃星辰没有新闻",
+        "date": "2025-06-28",
+        "path": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+        "permalink": "/articles/009",
+        "markdown_link": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "008",
+        "title": "前后不一李开复",
+        "date": "2025-06-27",
+        "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+        "permalink": "/articles/008",
+        "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 28,
+    "composite_weight": 0.325
+  },
+  "links": [
+    {
+      "source": "chatgpt",
+      "target": "chatgpt-deep-research",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Deep Research在能力上无法超越ChatGPT",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "030"
+      ],
+      "evidences": [
+        {
+          "article_id": "030",
+          "title": "Agent OS的本地入口",
+          "permalink": "/articles/030",
+          "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "date": "2025-10-20",
+          "label": "作者认为Deep Research在能力上无法超越ChatGPT",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "cherry-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了Cherry Studio与ChatGPT在对话分支功能上的体验和推出时间",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "021",
+        "040"
+      ],
+      "evidences": [
+        {
+          "article_id": "040",
+          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+          "permalink": "/articles/040",
+          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "date": "2025-12-12",
+          "label": "Cherry Studio的分支功能被拿来对比ChatGPT也拥有的功能",
+          "weight": 1
+        },
+        {
+          "article_id": "021",
+          "title": "Cherry Studio是一个伟大的AI工具",
+          "permalink": "/articles/021",
+          "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "date": "2025-09-11",
+          "label": "文章对比了Cherry Studio与ChatGPT在对话分支功能上的体验和推出时间",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Yinsen将初次使用Claude Code的震撼感与第一次用ChatGPT进行对比",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "070",
+        "105"
+      ],
+      "evidences": [
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "作者表示卷编程后，和Claude对话时常感觉是在用缺乏人味的ChatGPT",
+          "weight": 1
+        },
+        {
+          "article_id": "070",
+          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+          "permalink": "/articles/070",
+          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "date": "2026-03-13",
+          "label": "Yinsen将初次使用Claude Code的震撼感与第一次用ChatGPT进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "manus",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Manus大致相当于1%的ChatGPT",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "048"
+      ],
+      "evidences": [
+        {
+          "article_id": "048",
+          "title": "第一届Manus杯新加坡概念作文大赛",
+          "permalink": "/articles/048",
+          "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+          "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+          "date": "2025-12-30",
+          "label": "作者认为Manus大致相当于1%的ChatGPT",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章指出千问需要像ChatGPT那样的原生产品形态",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "034"
+      ],
+      "evidences": [
+        {
+          "article_id": "034",
+          "title": "千问唤起世界人民的最中幻想",
+          "permalink": "/articles/034",
+          "markdown_link": "articles/034_2025-11-17_葬爱咸鱼_千问唤起世界人民的最中幻想.md",
+          "path": "articles/034_2025-11-17_葬爱咸鱼_千问唤起世界人民的最中幻想.md",
+          "date": "2025-11-17",
+          "label": "文章指出千问需要像ChatGPT那样的原生产品形态",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "vidu-s1",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比Vidu S1与ChatGPT语音模式的延迟和双工体验",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "113"
+      ],
+      "evidences": [
+        {
+          "article_id": "113",
+          "title": "世界模型走了一些弯路",
+          "permalink": "/articles/113",
+          "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "date": "2026-07-02",
+          "label": "文中对比Vidu S1与ChatGPT语音模式的延迟和双工体验",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "夸克",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "夸克走的是类似ChatGPT的独立产品闭环道路",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "031"
+      ],
+      "evidences": [
+        {
+          "article_id": "031",
+          "title": "追忆AI四小龙，热潮是怎么完蛋的",
+          "permalink": "/articles/031",
+          "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "date": "2025-10-27",
+          "label": "夸克走的是类似ChatGPT的独立产品闭环道路",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "豆包走的是类似ChatGPT的独立产品闭环道路",
+      "weight": 3,
+      "strength": 2,
+      "effective_weight": 9,
+      "article_count": 3,
+      "evidence_articles": [
+        "031",
+        "058",
+        "091"
+      ],
+      "evidences": [
+        {
+          "article_id": "091",
+          "title": "中亚世界没有豆包信仰",
+          "permalink": "/articles/091",
+          "markdown_link": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+          "path": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+          "date": "2026-05-14",
+          "label": "大V比较了使用豆包的孩子与使用ChatGPT的孩子在未来可能存在的差距",
+          "weight": 1
+        },
+        {
+          "article_id": "058",
+          "title": "张月光给乙女游戏加了个Chatbot",
+          "permalink": "/articles/058",
+          "markdown_link": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+          "path": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+          "date": "2026-01-27",
+          "label": "作者认为3D版的豆包可能会成为中国版的3D ChatGPT，代表未来AI陪伴方向",
+          "weight": 1
+        },
+        {
+          "article_id": "031",
+          "title": "追忆AI四小龙，热潮是怎么完蛋的",
+          "permalink": "/articles/031",
+          "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "date": "2025-10-27",
+          "label": "豆包走的是类似ChatGPT的独立产品闭环道路",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt-deep-research",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Deep Research在能力上无法超越ChatGPT",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "cherry-studio",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了Cherry Studio与ChatGPT在对话分支功能上的体验和推出时间",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "claude",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Yinsen将初次使用Claude Code的震撼感与第一次用ChatGPT进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "manus",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Manus大致相当于1%的ChatGPT",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qwen",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章指出千问需要像ChatGPT那样的原生产品形态",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "vidu-s1",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比Vidu S1与ChatGPT语音模式的延迟和双工体验",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "夸克",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "夸克走的是类似ChatGPT的独立产品闭环道路",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "豆包",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "豆包走的是类似ChatGPT的独立产品闭环道路",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "chatgpt",
+      "target": "claude",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同属于用户会选择的顶级大模型竞品",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "009",
+        "089"
+      ],
+      "evidences": [
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "date": "2026-05-10",
+          "label": "Claude靠模型能力打穿编程场景，估值超过了ChatGPT",
+          "weight": 1
+        },
+        {
+          "article_id": "009",
+          "title": "阶跃星辰没有新闻",
+          "permalink": "/articles/009",
+          "markdown_link": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+          "path": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+          "date": "2025-06-28",
+          "label": "同属于用户会选择的顶级大模型竞品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "creative-os",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "创作者习惯使用ChatGPT进行剧本创作，而非Creative OS",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "124"
+      ],
+      "evidences": [
+        {
+          "article_id": "124",
+          "title": "TapNow想把你困在系统里",
+          "permalink": "/articles/124",
+          "markdown_link": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "path": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "date": "2026-07-26",
+          "label": "创作者习惯使用ChatGPT进行剧本创作，而非Creative OS",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "gemini",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同属于用户会选择的顶级大模型竞品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "009"
+      ],
+      "evidences": [
+        {
+          "article_id": "009",
+          "title": "阶跃星辰没有新闻",
+          "permalink": "/articles/009",
+          "markdown_link": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+          "path": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+          "date": "2025-06-28",
+          "label": "同属于用户会选择的顶级大模型竞品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "manus",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "作者认为通用Agent的需求被ChatGPT解决，暗示两者在满足用户通用需求上存在竞争关系。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "017"
+      ],
+      "evidences": [
+        {
+          "article_id": "017",
+          "title": "字节用扣子证明，Agent只能被计划",
+          "permalink": "/articles/017",
+          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "date": "2025-08-29",
+          "label": "作者认为通用Agent的需求被ChatGPT解决，暗示两者在满足用户通用需求上存在竞争关系。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "qwen",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章在烂字识图、医学建议、幽默理解、文章总结等多个场景下对千问和ChatGPT进行了深度测试与对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "034"
+      ],
+      "evidences": [
+        {
+          "article_id": "034",
+          "title": "千问唤起世界人民的最中幻想",
+          "permalink": "/articles/034",
+          "markdown_link": "articles/034_2025-11-17_葬爱咸鱼_千问唤起世界人民的最中幻想.md",
+          "path": "articles/034_2025-11-17_葬爱咸鱼_千问唤起世界人民的最中幻想.md",
+          "date": "2025-11-17",
+          "label": "文章在烂字识图、医学建议、幽默理解、文章总结等多个场景下对千问和ChatGPT进行了深度测试与对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "chatgpt",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同属于用户会选择的顶级大模型竞品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "creative-os",
+      "target": "chatgpt",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "创作者习惯使用ChatGPT进行剧本创作，而非Creative OS",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "gemini",
+      "target": "chatgpt",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同属于用户会选择的顶级大模型竞品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "manus",
+      "target": "chatgpt",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "作者认为通用Agent的需求被ChatGPT解决，暗示两者在满足用户通用需求上存在竞争关系。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qwen",
+      "target": "chatgpt",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章在烂字识图、医学建议、幽默理解、文章总结等多个场景下对千问和ChatGPT进行了深度测试与对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "openai",
+      "target": "chatgpt",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "文中提及美国先有了ChatGPT moment，OpenAI开创了潮流",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "008",
+        "031"
+      ],
+      "evidences": [
+        {
+          "article_id": "031",
+          "title": "追忆AI四小龙，热潮是怎么完蛋的",
+          "permalink": "/articles/031",
+          "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "date": "2025-10-27",
+          "label": "OpenAI是ChatGPT的开发公司",
+          "weight": 1
+        },
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "文中提及美国先有了ChatGPT moment，OpenAI开创了潮流",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "flova",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Flova作为一个画布软件，通过整合多种大模型替代了原先需单独打开ChatGPT写脚本的繁琐步骤",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "052"
+      ],
+      "evidences": [
+        {
+          "article_id": "052",
+          "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+          "permalink": "/articles/052",
+          "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "date": "2026-01-16",
+          "label": "Flova作为一个画布软件，通过整合多种大模型替代了原先需单独打开ChatGPT写脚本的繁琐步骤",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "chatgpt",
+      "target": "codex",
+      "score": 0.6615,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "088",
+        "089",
+        "105",
+        "124"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "chatgpt",
+      "target": "kimi",
+      "score": 0.6433,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "030",
+        "040",
+        "048",
+        "105"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "chatgpt",
+      "target": "飞书",
+      "score": 0.5942,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "067",
+        "070",
+        "088",
+        "124"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "chatgpt",
+      "target": "deepseek",
+      "score": 0.5445,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "008",
+        "070",
+        "088",
+        "105"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "chatgpt",
+      "target": "openclaw",
+      "score": 0.5412,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 5 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "067",
+        "070"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

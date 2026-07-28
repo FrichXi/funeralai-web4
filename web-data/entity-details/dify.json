@@ -1,0 +1,112 @@
+{
+  "node": {
+    "id": "dify",
+    "name": "Dify",
+    "type": "product",
+    "description": "开源的AI应用开发和工作流搭建平台，是扣子的主要竞品。",
+    "mention_count": 6,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "定制Agent",
+      "工作流",
+      "开源"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "017",
+        "title": "字节用扣子证明，Agent只能被计划",
+        "date": "2025-08-29",
+        "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "permalink": "/articles/017",
+        "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+        "mention_count": 6
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0321
+  },
+  "links": [
+    {
+      "source": "dify",
+      "target": "n8n",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Dify和n8n都是占据开源生态位的Agent工作流搭建竞品。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "017"
+      ],
+      "evidences": [
+        {
+          "article_id": "017",
+          "title": "字节用扣子证明，Agent只能被计划",
+          "permalink": "/articles/017",
+          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "date": "2025-08-29",
+          "label": "Dify和n8n都是占据开源生态位的Agent工作流搭建竞品。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "dify",
+      "target": "扣子",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "扣子与Dify在搭建工作流和给企业定制Agent的业务上存在直接竞争。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "017"
+      ],
+      "evidences": [
+        {
+          "article_id": "017",
+          "title": "字节用扣子证明，Agent只能被计划",
+          "permalink": "/articles/017",
+          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "date": "2025-08-29",
+          "label": "扣子与Dify在搭建工作流和给企业定制Agent的业务上存在直接竞争。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "n8n",
+      "target": "dify",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Dify和n8n都是占据开源生态位的Agent工作流搭建竞品。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "扣子",
+      "target": "dify",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "扣子与Dify在搭建工作流和给企业定制Agent的业务上存在直接竞争。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

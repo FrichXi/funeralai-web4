@@ -13,14 +13,14 @@ export interface GraphNode {
   id: string;
   name: string;
   type: NodeType;
-  description: string;
+  description?: string;
   mention_count: number;
   article_count: number;
   aliases: string[];
-  tags: string[];
-  references: number;
-  source_article_count: number;
-  source_articles: SourceArticle[];
+  tags?: string[];
+  references?: number;
+  source_article_count?: number;
+  source_articles?: SourceArticle[];
   degree: number;
   displayName?: string;
   visualMode?: string;
@@ -30,6 +30,11 @@ export interface GraphNode {
   composite_weight?: number;
   leaderboardSegments?: string[];
   hiddenFromLeaderboards?: boolean;
+  community_id?: string;
+  community_name?: string;
+  community_color?: string;
+  x?: number;
+  y?: number;
 }
 
 export interface NodeAsset {
@@ -42,14 +47,14 @@ export interface GraphLink {
   source: string;
   target: string;
   relation_type: RelationType;
-  type: string;
-  label: string;
+  type?: string;
+  label?: string;
   weight: number;
-  strength: number;
-  effective_weight: number;
-  article_count: number;
-  evidence_articles: string[];
-  evidences: Evidence[];
+  strength?: number;
+  effective_weight?: number;
+  article_count?: number;
+  evidence_articles?: string[];
+  evidences?: Evidence[];
 }
 
 export interface Evidence {
@@ -68,6 +73,39 @@ export interface GraphData {
   links: GraphLink[];
   metadata?: Record<string, unknown>;
 }
+
+export interface SuggestedEdge {
+  source: string;
+  target: string;
+  score: number;
+  suggested_relation_type: RelationType;
+  reason: string;
+  evidence_article_ids: string[];
+  status: 'suggested';
+}
+
+export interface GraphCommunity {
+  id: string;
+  name: string;
+  node_count: number;
+  link_count: number;
+  color: string;
+  top_nodes: Array<{
+    id: string;
+    name: string;
+    type: NodeType;
+    degree: number;
+    composite_weight?: number;
+  }>;
+}
+
+export interface EntityDetails {
+  node: GraphNode;
+  links: GraphLink[];
+  suggested_edges: SuggestedEdge[];
+}
+
+export type GraphColorMode = 'type' | 'community';
 
 // ── Relation types ──
 

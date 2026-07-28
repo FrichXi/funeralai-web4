@@ -1,0 +1,87 @@
+{
+  "node": {
+    "id": "无影agentbay",
+    "name": "无影AgentBay",
+    "type": "product",
+    "description": "阿里云提供的Agent服务底层支撑系统/平台",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "AgentBay"
+    ],
+    "tags": [
+      "云手机",
+      "底层调用"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "026",
+        "title": "吴妈讲好中国AI故事",
+        "date": "2025-09-25",
+        "path": "articles/026_2025-09-25_葬爱咸鱼_吴妈讲好中国AI故事.md",
+        "permalink": "/articles/026",
+        "markdown_link": "articles/026_2025-09-25_葬爱咸鱼_吴妈讲好中国AI故事.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0158
+  },
+  "links": [
+    {
+      "source": "阿里云",
+      "target": "无影agentbay",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "无影AgentBay是阿里云开发的产品或服务",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "026"
+      ],
+      "evidences": [
+        {
+          "article_id": "026",
+          "title": "吴妈讲好中国AI故事",
+          "permalink": "/articles/026",
+          "markdown_link": "articles/026_2025-09-25_葬爱咸鱼_吴妈讲好中国AI故事.md",
+          "path": "articles/026_2025-09-25_葬爱咸鱼_吴妈讲好中国AI故事.md",
+          "date": "2025-09-25",
+          "label": "无影AgentBay是阿里云开发的产品或服务",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "autoglm",
+      "target": "无影agentbay",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "AutoGLM底层调用了阿里云的无影AgentBay来实现操作",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "026"
+      ],
+      "evidences": [
+        {
+          "article_id": "026",
+          "title": "吴妈讲好中国AI故事",
+          "permalink": "/articles/026",
+          "markdown_link": "articles/026_2025-09-25_葬爱咸鱼_吴妈讲好中国AI故事.md",
+          "path": "articles/026_2025-09-25_葬爱咸鱼_吴妈讲好中国AI故事.md",
+          "date": "2025-09-25",
+          "label": "AutoGLM底层调用了阿里云的无影AgentBay来实现操作",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

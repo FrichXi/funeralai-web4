@@ -1,0 +1,137 @@
+{
+  "node": {
+    "id": "刀哥",
+    "name": "刀哥",
+    "type": "person",
+    "description": "后快手时代网红，被用来比喻阶跃星辰的顽强",
+    "mention_count": 6,
+    "article_count": 2,
+    "aliases": [
+      "刀割"
+    ],
+    "tags": [
+      "亚文化",
+      "比喻对象",
+      "狠活",
+      "网红"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "051",
+        "title": "狠狠办千问",
+        "date": "2026-01-15",
+        "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "permalink": "/articles/051",
+        "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "mention_count": 5
+      },
+      {
+        "article_id": "057",
+        "title": "AI四小虎进入狠活大赛",
+        "date": "2026-01-26",
+        "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "permalink": "/articles/057",
+        "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0405
+  },
+  "links": [
+    {
+      "source": "刀哥",
+      "target": "葬爱咸鱼",
+      "relation_type": "collaborates_with",
+      "type": "collaborates_with",
+      "label": "咸鱼去沈阳与狠活爱豆刀哥见面握手",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "051"
+      ],
+      "evidences": [
+        {
+          "article_id": "051",
+          "title": "狠狠办千问",
+          "permalink": "/articles/051",
+          "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "date": "2026-01-15",
+          "label": "咸鱼去沈阳与狠活爱豆刀哥见面握手",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "刀哥",
+      "target": "阶跃星辰",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "阶跃星辰的顽强状态被类比为刀割（刀哥）",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "057"
+      ],
+      "evidences": [
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "阶跃星辰的顽强状态被类比为刀割（刀哥）",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "刀哥",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "阶跃星辰的顽强状态被类比为刀割（刀哥）",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "刀哥",
+      "target": "好果汁店",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "刀哥开设并经营了这家好果汁店",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "051"
+      ],
+      "evidences": [
+        {
+          "article_id": "051",
+          "title": "狠狠办千问",
+          "permalink": "/articles/051",
+          "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "date": "2026-01-15",
+          "label": "刀哥开设并经营了这家好果汁店",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

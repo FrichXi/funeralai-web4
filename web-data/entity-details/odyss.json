@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "odyss",
+    "name": "Odyss",
+    "type": "company",
+    "description": "研发健康项链的AI硬件公司",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "健康项链"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "108",
+        "title": "深圳AI硬件特别正常",
+        "date": "2026-06-23",
+        "path": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+        "permalink": "/articles/108",
+        "markdown_link": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0201
+  },
+  "links": [
+    {
+      "source": "chris",
+      "target": "odyss",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "Chris创办了研发健康项链的Odyss公司",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "108"
+      ],
+      "evidences": [
+        {
+          "article_id": "108",
+          "title": "深圳AI硬件特别正常",
+          "permalink": "/articles/108",
+          "markdown_link": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+          "path": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+          "date": "2026-06-23",
+          "label": "Chris创办了研发健康项链的Odyss公司",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

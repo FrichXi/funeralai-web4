@@ -1,0 +1,68 @@
+{
+  "node": {
+    "id": "荣耀",
+    "name": "荣耀",
+    "type": "company",
+    "description": "手机厂商，发布了Robot Phone，与阶跃争夺AI手机市场",
+    "mention_count": 3,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "AI手机",
+      "手机"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "123",
+        "title": "阶跃软的不行来硬的",
+        "date": "2026-07-23",
+        "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+        "permalink": "/articles/123",
+        "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "057",
+        "title": "AI四小虎进入狠活大赛",
+        "date": "2026-01-26",
+        "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "permalink": "/articles/057",
+        "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.024
+  },
+  "links": [
+    {
+      "source": "荣耀",
+      "target": "阶跃星辰",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "阶跃在手机领域与荣耀达成合作",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "057"
+      ],
+      "evidences": [
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "阶跃在手机领域与荣耀达成合作",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

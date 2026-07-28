@@ -1,0 +1,99 @@
+{
+  "node": {
+    "id": "锤子手机",
+    "name": "锤子手机",
+    "type": "product",
+    "description": "智能手机品牌，文中被用作与Flowith进行类比的对象",
+    "mention_count": 7,
+    "article_count": 1,
+    "aliases": [
+      "锤子"
+    ],
+    "tags": [
+      "点子型产品"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "032",
+        "title": "Flowith是个锤子",
+        "date": "2025-10-31",
+        "path": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+        "permalink": "/articles/032",
+        "markdown_link": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+        "mention_count": 7
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0286
+  },
+  "links": [
+    {
+      "source": "flowith-os",
+      "target": "锤子手机",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章核心观点认为Flowith像锤子手机，空有点子设计但不好用",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "032"
+      ],
+      "evidences": [
+        {
+          "article_id": "032",
+          "title": "Flowith是个锤子",
+          "permalink": "/articles/032",
+          "markdown_link": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+          "path": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+          "date": "2025-10-31",
+          "label": "文章核心观点认为Flowith像锤子手机，空有点子设计但不好用",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "锤子手机",
+      "target": "flowith-os",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章核心观点认为Flowith像锤子手机，空有点子设计但不好用",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kaiyi",
+      "target": "锤子手机",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "孙先生曾是锤子手机的粉丝",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "032"
+      ],
+      "evidences": [
+        {
+          "article_id": "032",
+          "title": "Flowith是个锤子",
+          "permalink": "/articles/032",
+          "markdown_link": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+          "path": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+          "date": "2025-10-31",
+          "label": "孙先生曾是锤子手机的粉丝",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

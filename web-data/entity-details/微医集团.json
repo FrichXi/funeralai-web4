@@ -1,0 +1,74 @@
+{
+  "node": {
+    "id": "微医集团",
+    "name": "微医集团",
+    "type": "company",
+    "description": "互联网医疗的老大哥，主要为医保局做控费系统和医院信息化改造",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [
+      "微医"
+    ],
+    "tags": [
+      "AI医疗",
+      "互联网医疗"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "007",
+        "title": "王小川造不出医生",
+        "date": "2025-06-26",
+        "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+        "permalink": "/articles/007",
+        "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0155
+  },
+  "links": [
+    {
+      "source": "微医集团",
+      "target": "百川智能",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将百川智能向医院收费的商业模式与微医集团的困境作为参照对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "007"
+      ],
+      "evidences": [
+        {
+          "article_id": "007",
+          "title": "王小川造不出医生",
+          "permalink": "/articles/007",
+          "markdown_link": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+          "date": "2025-06-26",
+          "label": "文章将百川智能向医院收费的商业模式与微医集团的困境作为参照对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "百川智能",
+      "target": "微医集团",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将百川智能向医院收费的商业模式与微医集团的困境作为参照对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

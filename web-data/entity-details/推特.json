@@ -1,0 +1,62 @@
+{
+  "node": {
+    "id": "推特",
+    "name": "推特",
+    "type": "product",
+    "description": "马斯克控制的社交平台，其新推荐算法引发了全网炒作热潮。",
+    "mention_count": 11,
+    "article_count": 1,
+    "aliases": [
+      "Twitter",
+      "X"
+    ],
+    "tags": [
+      "推荐算法",
+      "社交媒体"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "060",
+        "title": "Clawdbot是一场马斯克发动的中登炒作",
+        "date": "2026-01-30",
+        "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+        "permalink": "/articles/060",
+        "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+        "mention_count": 11
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0256
+  },
+  "links": [
+    {
+      "source": "马斯克",
+      "target": "推特",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "马斯克绝对掌控推特，并且推特的新推荐算法导致了大量爆款涌现。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "060"
+      ],
+      "evidences": [
+        {
+          "article_id": "060",
+          "title": "Clawdbot是一场马斯克发动的中登炒作",
+          "permalink": "/articles/060",
+          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "date": "2026-01-30",
+          "label": "马斯克绝对掌控推特，并且推特的新推荐算法导致了大量爆款涌现。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

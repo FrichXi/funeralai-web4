@@ -1,0 +1,634 @@
+{
+  "node": {
+    "id": "openai",
+    "name": "OpenAI",
+    "type": "company",
+    "description": "美国AI公司，文中作为行业标杆与百度进行历史对比",
+    "mention_count": 23,
+    "article_count": 12,
+    "aliases": [
+      "O社"
+    ],
+    "tags": [
+      "AI机构",
+      "估值参考",
+      "大模型",
+      "平台型科技巨头",
+      "模型公司",
+      "模型厂",
+      "模型开发",
+      "版权合作",
+      "行业标杆"
+    ],
+    "references": 12,
+    "source_article_count": 12,
+    "source_articles": [
+      {
+        "article_id": "125",
+        "title": "建议百度文心一言申请非遗",
+        "date": "2026-07-28",
+        "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+        "permalink": "/articles/125",
+        "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "051",
+        "title": "狠狠办千问",
+        "date": "2026-01-15",
+        "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "permalink": "/articles/051",
+        "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "006",
+        "title": "智谱的存在主义危机",
+        "date": "2025-06-25",
+        "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+        "permalink": "/articles/006",
+        "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "109",
+        "title": "智谱与Anthropic是母凭子贵",
+        "date": "2026-06-23",
+        "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "permalink": "/articles/109",
+        "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "099",
+        "title": "马卡龙开创AI短剧Neo Lab",
+        "date": "2026-06-04",
+        "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "permalink": "/articles/099",
+        "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "048",
+        "title": "第一届Manus杯新加坡概念作文大赛",
+        "date": "2025-12-30",
+        "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+        "permalink": "/articles/048",
+        "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "037",
+        "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
+        "date": "2025-11-27",
+        "path": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+        "permalink": "/articles/037",
+        "markdown_link": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "031",
+        "title": "追忆AI四小龙，热潮是怎么完蛋的",
+        "date": "2025-10-27",
+        "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "permalink": "/articles/031",
+        "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "103",
+        "title": "Kimi看天讨饭吃",
+        "date": "2026-06-10",
+        "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "permalink": "/articles/103",
+        "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "041",
+        "title": "感谢OiiOii，没人因你而失业",
+        "date": "2025-12-15",
+        "path": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+        "permalink": "/articles/041",
+        "markdown_link": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "008",
+        "title": "前后不一李开复",
+        "date": "2025-06-27",
+        "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+        "permalink": "/articles/008",
+        "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "005",
+        "title": "Kimi没有梦想",
+        "date": "2025-06-24",
+        "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+        "permalink": "/articles/005",
+        "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 20,
+    "composite_weight": 0.2074
+  },
+  "links": [
+    {
+      "source": "anthropic",
+      "target": "openai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Anthropic和OpenAI作为海外模型大厂，被并列讨论其高估值对行业风口的影响",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "099",
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "A畜和O社对标应该都是1000亿美元",
+          "weight": 1
+        },
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "Anthropic和OpenAI作为海外模型大厂，被并列讨论其高估值对行业风口的影响",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "openai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将一流造福全民的DeepSeek与开创潮流的伟大企业OpenAI并列对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "008"
+      ],
+      "evidences": [
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "文中将一流造福全民的DeepSeek与开创潮流的伟大企业OpenAI并列对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "openai",
+      "target": "anthropic",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Anthropic和OpenAI作为海外模型大厂，被并列讨论其高估值对行业风口的影响",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "openai",
+      "target": "deepseek",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将一流造福全民的DeepSeek与开创潮流的伟大企业OpenAI并列对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "openai",
+      "target": "智谱ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "智谱一度被视为“中国版OpenAI”的最有力竞争者",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "006"
+      ],
+      "evidences": [
+        {
+          "article_id": "006",
+          "title": "智谱的存在主义危机",
+          "permalink": "/articles/006",
+          "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "date": "2025-06-25",
+          "label": "智谱一度被视为“中国版OpenAI”的最有力竞争者",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "openai",
+      "target": "百度",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "历史上百度曾被拿来与OpenAI对比，如今被反向对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "125"
+      ],
+      "evidences": [
+        {
+          "article_id": "125",
+          "title": "建议百度文心一言申请非遗",
+          "permalink": "/articles/125",
+          "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "date": "2026-07-28",
+          "label": "历史上百度曾被拿来与OpenAI对比，如今被反向对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "智谱ai",
+      "target": "openai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "智谱一度被视为“中国版OpenAI”的最有力竞争者",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "百度",
+      "target": "openai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "历史上百度曾被拿来与OpenAI对比，如今被反向对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "anthropic",
+      "target": "openai",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Anthropic和OpenAI都是美国顶级AI公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "openai",
+      "target": "anthropic",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Anthropic和OpenAI都是美国顶级AI公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "openai",
+      "target": "智谱ai",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "网络评论称智谱在模型能力上严重威胁OpenAI",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "109"
+      ],
+      "evidences": [
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "date": "2026-06-23",
+          "label": "网络评论称智谱在模型能力上严重威胁OpenAI",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "智谱ai",
+      "target": "openai",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "网络评论称智谱在模型能力上严重威胁OpenAI",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "openai",
+      "target": "chatgpt",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "文中提及美国先有了ChatGPT moment，OpenAI开创了潮流",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "008",
+        "031"
+      ],
+      "evidences": [
+        {
+          "article_id": "031",
+          "title": "追忆AI四小龙，热潮是怎么完蛋的",
+          "permalink": "/articles/031",
+          "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "date": "2025-10-27",
+          "label": "OpenAI是ChatGPT的开发公司",
+          "weight": 1
+        },
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "date": "2025-06-27",
+          "label": "文中提及美国先有了ChatGPT moment，OpenAI开创了潮流",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "openai",
+      "target": "codex",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Codex被指代为OpenAI的产品标杆",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "Codex被指代为OpenAI的产品标杆",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "openai",
+      "target": "openai-five",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "OpenAI在2019年训练出了OpenAI Five",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "037"
+      ],
+      "evidences": [
+        {
+          "article_id": "037",
+          "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
+          "permalink": "/articles/037",
+          "markdown_link": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "path": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "date": "2025-11-27",
+          "label": "OpenAI在2019年训练出了OpenAI Five",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "openai",
+      "target": "sora",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "OpenAI开发Sora",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "ilya-sutskever",
+      "target": "openai",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "Ilya Sutskever是OpenAI的联合创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "005"
+      ],
+      "evidences": [
+        {
+          "article_id": "005",
+          "title": "Kimi没有梦想",
+          "permalink": "/articles/005",
+          "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "date": "2025-06-24",
+          "label": "Ilya Sutskever是OpenAI的联合创始人",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "sam-altman",
+      "target": "openai",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "Sam Altman创立OpenAI",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 5,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "openai",
+      "target": "迪士尼",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "文中明确提到迪士尼与OpenAI签约，达成内容与AI视频生成的版权合作",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "041"
+      ],
+      "evidences": [
+        {
+          "article_id": "041",
+          "title": "感谢OiiOii，没人因你而失业",
+          "permalink": "/articles/041",
+          "markdown_link": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+          "path": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+          "date": "2025-12-15",
+          "label": "文中明确提到迪士尼与OpenAI签约，达成内容与AI视频生成的版权合作",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "openai-cto",
+      "target": "openai",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "OpenAI CTO曾任职于OpenAI",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "099"
+      ],
+      "evidences": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "OpenAI CTO曾任职于OpenAI",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "claude",
+      "target": "openai",
+      "score": 0.6224,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "031",
+        "099",
+        "103",
+        "109"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "kimi",
+      "target": "openai",
+      "score": 0.4904,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "005",
+        "048",
+        "099",
+        "109"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "openai",
+      "target": "qwen",
+      "score": 0.4062,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "051",
+        "099",
+        "103"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "minimax",
+      "target": "openai",
+      "score": 0.3747,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "099",
+        "103",
+        "109"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "openai",
+      "target": "字节跳动",
+      "score": 0.373,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "037",
+        "103",
+        "125"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

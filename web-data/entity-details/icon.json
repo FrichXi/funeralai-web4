@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "icon",
+    "name": "icon",
+    "type": "product",
+    "description": "被文章认为在弱信息行业（如电商广告视频生成）较有前途的AI产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI生成",
+      "弱信息场景"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "001",
+        "title": "炒作狗才做「一句话生成」AI",
+        "date": "2025-05-26",
+        "path": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
+        "permalink": "/articles/001",
+        "markdown_link": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0273
+  },
+  "links": [
+    {
+      "source": "icon",
+      "target": "listenhub",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章明确对比，认为icon比ListenHub更有前途",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "001"
+      ],
+      "evidences": [
+        {
+          "article_id": "001",
+          "title": "炒作狗才做「一句话生成」AI",
+          "permalink": "/articles/001",
+          "markdown_link": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
+          "path": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
+          "date": "2025-05-26",
+          "label": "文章明确对比，认为icon比ListenHub更有前途",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "icon",
+      "target": "medeo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章明确对比，认为icon比Medeo更有前途",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "001"
+      ],
+      "evidences": [
+        {
+          "article_id": "001",
+          "title": "炒作狗才做「一句话生成」AI",
+          "permalink": "/articles/001",
+          "markdown_link": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
+          "path": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
+          "date": "2025-05-26",
+          "label": "文章明确对比，认为icon比Medeo更有前途",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "listenhub",
+      "target": "icon",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章明确对比，认为icon比ListenHub更有前途",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "medeo",
+      "target": "icon",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章明确对比，认为icon比Medeo更有前途",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

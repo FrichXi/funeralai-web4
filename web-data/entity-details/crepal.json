@@ -1,0 +1,362 @@
+{
+  "node": {
+    "id": "crepal",
+    "name": "CrePal",
+    "type": "product",
+    "description": "全球首个胖猫视频Agent，主打一站式AI视频制作的工具平台",
+    "mention_count": 35,
+    "article_count": 2,
+    "aliases": [],
+    "tags": [
+      "AI视频制作",
+      "视频Agent"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "012",
+        "title": "CrePal成为首个胖猫视频Agent",
+        "date": "2025-07-25",
+        "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+        "permalink": "/articles/012",
+        "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+        "mention_count": 34
+      },
+      {
+        "article_id": "041",
+        "title": "感谢OiiOii，没人因你而失业",
+        "date": "2025-12-15",
+        "path": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+        "permalink": "/articles/041",
+        "markdown_link": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 12,
+    "composite_weight": 0.0991
+  },
+  "links": [
+    {
+      "source": "crepal",
+      "target": "oiioii",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为同类型的视频生成Agent工具，文中对它们进行了市场认可度的对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "041"
+      ],
+      "evidences": [
+        {
+          "article_id": "041",
+          "title": "感谢OiiOii，没人因你而失业",
+          "permalink": "/articles/041",
+          "markdown_link": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+          "path": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+          "date": "2025-12-15",
+          "label": "两者均为同类型的视频生成Agent工具，文中对它们进行了市场认可度的对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "oiioii",
+      "target": "crepal",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为同类型的视频生成Agent工具，文中对它们进行了市场认可度的对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "crepal",
+      "target": "google-imagen",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "CrePal的子Agent中集成了Google Imagen生成模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "CrePal的子Agent中集成了Google Imagen生成模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "crepal",
+      "target": "gpt-image",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "CrePal的子Agent中集成了GPT-Image生成模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "CrePal的子Agent中集成了GPT-Image生成模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "crepal",
+      "target": "midjourney",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "CrePal的子Agent中集成了Midjourney生成模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "CrePal的子Agent中集成了Midjourney生成模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "crepal",
+      "target": "pixverse",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "CrePal的子Agent中集成了Pixverse生成模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "CrePal的子Agent中集成了Pixverse生成模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "crepal",
+      "target": "suno",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "CrePal的子Agent中集成了Suno音频生成模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "CrePal的子Agent中集成了Suno音频生成模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "crepal",
+      "target": "veo",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "CrePal的子Agent中集成了Veo生成模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "CrePal的子Agent中集成了Veo生成模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "crepal",
+      "target": "即梦",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "CrePal的子Agent中集成了即梦生成模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "CrePal的子Agent中集成了即梦生成模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "crepal",
+      "target": "可灵",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "CrePal的子Agent中集成了可灵生成模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "CrePal的子Agent中集成了可灵生成模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "crepal",
+      "target": "海螺ai",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "CrePal的子Agent中集成了海螺生成模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "CrePal的子Agent中集成了海螺生成模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "jiaming",
+      "target": "crepal",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "jiaming开发了首个胖猫视频Agent CrePal",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "jiaming开发了首个胖猫视频Agent CrePal",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "crepal",
+      "target": "flova",
+      "score": 0.4713,
+      "suggested_relation_type": "compares_to",
+      "reason": "共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [],
+      "status": "suggested"
+    },
+    {
+      "source": "crepal",
+      "target": "谷歌",
+      "score": 0.3703,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "012"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

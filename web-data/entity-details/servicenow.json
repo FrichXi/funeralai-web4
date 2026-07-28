@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "servicenow",
+    "name": "ServiceNow",
+    "type": "company",
+    "description": "收购了Element AI的大型工作流平台",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "工作流平台"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "031",
+        "title": "追忆AI四小龙，热潮是怎么完蛋的",
+        "date": "2025-10-27",
+        "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "permalink": "/articles/031",
+        "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0108
+  },
+  "links": [
+    {
+      "source": "servicenow",
+      "target": "element-ai",
+      "relation_type": "acquires",
+      "type": "acquires",
+      "label": "ServiceNow折价并购了Element AI",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "031"
+      ],
+      "evidences": [
+        {
+          "article_id": "031",
+          "title": "追忆AI四小龙，热潮是怎么完蛋的",
+          "permalink": "/articles/031",
+          "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "date": "2025-10-27",
+          "label": "ServiceNow折价并购了Element AI",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,121 @@
+{
+  "node": {
+    "id": "咸鱼之王",
+    "name": "咸鱼之王",
+    "type": "product",
+    "description": "知名休闲游戏，被用来类比Aippy的游戏爽感。",
+    "mention_count": 2,
+    "article_count": 2,
+    "aliases": [
+      "《咸鱼之王》"
+    ],
+    "tags": [
+      "小游戏"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "079",
+        "title": "电玩城复活在信息流",
+        "date": "2026-04-08",
+        "path": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+        "permalink": "/articles/079",
+        "markdown_link": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "005",
+        "title": "Kimi没有梦想",
+        "date": "2025-06-24",
+        "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+        "permalink": "/articles/005",
+        "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0341
+  },
+  "links": [
+    {
+      "source": "aippy",
+      "target": "咸鱼之王",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Aippy被评价为不看广告就能体验到《咸鱼之王》的爽感。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "079"
+      ],
+      "evidences": [
+        {
+          "article_id": "079",
+          "title": "电玩城复活在信息流",
+          "permalink": "/articles/079",
+          "markdown_link": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+          "path": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+          "date": "2026-04-08",
+          "label": "Aippy被评价为不看广告就能体验到《咸鱼之王》的爽感。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "咸鱼之王",
+      "target": "aippy",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Aippy被评价为不看广告就能体验到《咸鱼之王》的爽感。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi",
+      "target": "咸鱼之王",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Kimi通过投流等方式与《咸鱼之王》争抢用户留存",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "005"
+      ],
+      "evidences": [
+        {
+          "article_id": "005",
+          "title": "Kimi没有梦想",
+          "permalink": "/articles/005",
+          "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "date": "2025-06-24",
+          "label": "Kimi通过投流等方式与《咸鱼之王》争抢用户留存",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "咸鱼之王",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Kimi通过投流等方式与《咸鱼之王》争抢用户留存",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

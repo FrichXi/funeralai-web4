@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "龙虾",
+    "name": "龙虾",
+    "type": "product",
+    "description": "一个AI Agent/连接器（MCP/Skill），可在飞书中调用LibTV生成视频。",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Agent",
+      "连接器"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "073",
+        "title": "Lovart狂做TapNow",
+        "date": "2026-03-19",
+        "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+        "permalink": "/articles/073",
+        "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0124
+  },
+  "links": [
+    {
+      "source": "libtv",
+      "target": "龙虾",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "龙虾作为连接器/Agent，可以调用LibTV来生成视频。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "073"
+      ],
+      "evidences": [
+        {
+          "article_id": "073",
+          "title": "Lovart狂做TapNow",
+          "permalink": "/articles/073",
+          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "date": "2026-03-19",
+          "label": "龙虾作为连接器/Agent，可以调用LibTV来生成视频。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

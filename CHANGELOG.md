@@ -5,6 +5,40 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
+
+- Added a versioned release contract with article/graph/benchmark invariants, key-file hashes, a full static-tree digest, Git/runtime identity, local verification, and retrying remote verification.
+- Added a two-phase Cloudflare Pages release flow that validates an immutable preview before promoting the same `site/out` tree to production, then verifies both the unique deployment URL and `funeralai.cc` and writes an ignored release receipt.
+- Added a dry-run-first Cloudflare Pages rollback CLI with post-rollback production-contract verification, a deterministic 160-entry CI benchmark fixture, release-guard/rollback tests, and the engineering reliability plan, audit, and operations runbook.
+
+### Changed
+
+- CI now uses Node 22, builds against the deterministic `STAGE_TEST=ci` fixture, and verifies the finalized static artifact contract.
+- Production releases now run repository hygiene, KG review, readiness checks, Python tests, frontend lint/tests, full Graph V2 staging, preview verification, and production verification as one fail-closed transaction.
+- Pinned the production framework to Next.js 15.5.21, PostCSS 8.5.24, and Wrangler 4.114.0; raw Pages deploys are restricted to a diagnostics-only preview branch.
+- Presentation timestamps now derive from the newest durable article extraction, and unchanged extraction manifests are no longer rewritten, making no-content pipeline builds byte-reproducible.
+- Graph shell preset coordinates now build spring-layout graphs in sorted node/edge order, removing cross-process hash-order drift while preserving the existing seeded layout algorithm.
+
+### Fixed
+
+- Repository hygiene now rejects source-tree backup copies and nested `node_modules` caches in addition to duplicate `site/public/test *` directories; existing copies/caches were moved to the ignored recovery area.
+- Vitest now writes its cache to `site/node_modules/.vite` instead of recreating `site/src/node_modules` after every test run.
+- Remote release verification now retries complete contract mismatches, including temporary old hashes during custom-domain propagation, instead of retrying only transport errors.
+- Rollback dry-runs can now validate a production target and its release manifest through the existing Wrangler login without write credentials; execution still requires an explicit Pages Write API token and project confirmation.
+
+- Holistic knowledge-graph review for articles 112-125, including corrections for benchmark-participant/product-user false positives and durable ownership edges for Kimi K3 and LingBot.
+- Article 125 imported from Substack: "建议百度文心一言申请非遗" (125). Incremental pipeline run completed successfully with 19 entities and 20 relationships extracted; post-review public stats are 125 articles / 699 entities / 1860 relationships.
+- Article 124 imported from Substack: "骡子马，TapNow想把你困在系统里" (124). Incremental pipeline run completed successfully with 12 entities and 13 relationships extracted; public stats updated to 124 articles / 694 entities / 1851 relationships.
+- Article 123 imported from Substack: "阶跃软的不行来硬的" (123). Incremental pipeline run completed successfully with 20 entities and 20 relationships extracted; public stats updated to 123 articles / 690 entities / 1837 relationships.
+- Article 122 imported from Substack: "Kimi K3打响前端闪电战" (122). Incremental pipeline run completed successfully with 17 entities and 13 relationships extracted; public stats updated to 122 articles / 681 entities / 1811 relationships.
+- `/test` Graph V2 first-official benchmark release: 16 models × 10 audited tasks, downloadable byte-preserving raw archives with SHA-256 manifests, path-compatible browser copies, and a versioned `/test/archive/` route for the previous 80-site leaderboard.
+- `site/scripts/stage-graph-v2-benchmark.mjs` builds and validates a complete candidate tree before an atomic `/test` activation, including model/round/slot identity checks and independent leaderboard re-aggregation.
+- Article 121 imported from Substack: "骡子马，蚂蚁把世界模型作为一场儿戏" (121). Incremental pipeline run completed successfully with 16 entities and 18 relationships extracted; public stats updated to 121 articles / 677 entities / 1797 relationships.
+- Article 120 imported from Substack: "Raft说明AI应用不会亡！" (120). Incremental pipeline run completed successfully with 10 entities and 13 relationships extracted; public stats updated to 120 articles / 670 entities / 1773 relationships.
+- Article 119 imported from Substack: "视频Agent进入大致敬时代" (119). Incremental pipeline run completed successfully with 11 entities and 12 relationships extracted; public stats updated to 119 articles / 667 entities / 1756 relationships.
+- Articles 116-118 imported from Substack: "民办大模型MiniMax努力专升本" (116), "我来给MiniMax道歉了" (117), and "第一届AI恐怖片黑客松开办" (118). Incremental pipeline run completed with 30/27, 22/18, and 2/1 entity/relationship counts; public stats updated to 118 articles / 667 entities / 1743 relationships.
+- Article 115 imported from Substack: "网吧黑客松为西湖醋鱼平反" (115). Incremental pipeline run completed successfully with 11 entities and 6 relationships extracted; public stats updated to 115 articles / 654 entities / 1705 relationships.
+- `/test` model leaderboard voting: viewers can mark a model as underrated or overrated with export-hidden 8-bit controls, backed by a Cloudflare Pages Function and D1 vote tables.
+- Knowledge graph insights pipeline: presentation builds now generate `graph-insights.json`, lightweight `graph-shell.json`, and per-entity lazy detail payloads with deterministic communities, bridge nodes, preset coordinates, and suggested non-fact associations.
 - Article readability pipeline: presentation builds now normalize soft-wrapped article Markdown for readable `body_markdown`, and article detail pages use a centered typography-first reading layout with graph context moved after the body.
 - Article 114 imported from Substack: "硬件转转大会来了" (114). Incremental pipeline run completed successfully with 11 entities and 7 relationships extracted; public stats updated to 114 articles / 649 entities / 1699 relationships.
 - Article 113 imported from Substack: "世界模型走了一些弯路" (113). Incremental pipeline run completed successfully with 22 entities and 18 relationships extracted; public stats updated to 113 articles / 644 entities / 1693 relationships.
@@ -21,6 +55,10 @@ All notable changes to this project will be documented in this file.
 - Article 105 imported from Substack: "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8" (105). Incremental pipeline run completed successfully with 16 entities and 15 relationships extracted; public stats updated to 105 articles / 609 entities / 1578 relationships.
 
 ### Changed
+- `/test/methodology/` 增加 Sol、Fable、Kimi K3 与 Qwen 3.8 的跨批四强分析，以巅峰一致性、单步效率、上限确定性和各自失败模式补充当前正式榜，并明确与榜单计分隔离。
+- `/test/methodology/` now analyzes only the Graph V2 first-official 16×10 release, with scorer 3.1 weights and penalties, score distributions, value-index boundaries, replacement audit, raw-artifact guarantees, and current limitations; the `/test` header now keeps only GitHub, 模型分析, and 旧榜单 actions.
+- `/test` now presents the public schema 1.3 “模型总榜” as S–E score bands without within-band ranking, keeps an explicitly ranked value table, and links each round to both a compatibility viewer and its untouched raw archive.
+- `/graph` now loads the lightweight shell payload by default, uses preset Cytoscape coordinates instead of rerunning force layout on every visit, and adds community/type coloring plus weak dashed suggested links for the selected node.
 - Knowledge graph now defaults to a connected-node view, with controls for connected/core/full topology modes to reduce isolated-node clutter while keeping the complete graph accessible.
 - Frontend dependencies now resolve with zero `npm audit` findings by upgrading Next.js to the patched 15.x line, refreshing frontend tooling, and overriding Next's nested PostCSS to the safe project version.
 - Article detail pages now place the knowledge graph summary in the former opening excerpt slot and omit the top excerpt panel.
@@ -33,6 +71,8 @@ All notable changes to this project will be documented in this file.
 - `/test` default ranking, value leaderboard, and round matrix now use the 2026-06-24 composite score: graph-weighted base score plus full graph-stability recheck. r6 Doubao is adjusted from 100 to 88.8 due to severe graph motion.
 
 ### Fixed
+- Production deploy preflight now rejects duplicate `site/public/test *` backup directories and static exports at or above 19,000 files, preventing Cloudflare Pages' 20,000-file cap from silently blocking article updates.
+- `/test` 模型总榜与性价比榜的下载图片改用接近网页桌面表格的宽幅布局，避免模型数量增加后继续导出过长的手机细条图。
 - CI frontend builds no longer render `/test` leaderboard PNGs when `STAGE_TEST=skip`; production rendering now scrolls each export target into view and waits for the logo image to load before screenshotting.
 - `/test` leaderboard image downloads now fetch a manifest-versioned, cache-busted PNG on every click, so exported images follow the current public ranking instead of an older cached file.
 - Substack importer now falls back to the local Chrome CDP proxy when direct requests are blocked by Cloudflare challenges.

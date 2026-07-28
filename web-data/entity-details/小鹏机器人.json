@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "小鹏机器人",
+    "name": "小鹏机器人",
+    "type": "product",
+    "description": "小鹏研发的机器人产品，文中被用来形容AI视频生成的人物动作僵硬。",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "机器人"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "095",
+        "title": "4K的可灵没能复兴残酷底层物语",
+        "date": "2026-05-24",
+        "path": "articles/095_2026-05-24_骡子马_4K的可灵没能复兴残酷底层物语.md",
+        "permalink": "/articles/095",
+        "markdown_link": "articles/095_2026-05-24_骡子马_4K的可灵没能复兴残酷底层物语.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0205
+  },
+  "links": [
+    {
+      "source": "可灵",
+      "target": "小鹏机器人",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将可灵生成视频中人物走路略显僵硬的效果，比作“小鹏机器人外面套了个人皮”。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "095"
+      ],
+      "evidences": [
+        {
+          "article_id": "095",
+          "title": "4K的可灵没能复兴残酷底层物语",
+          "permalink": "/articles/095",
+          "markdown_link": "articles/095_2026-05-24_骡子马_4K的可灵没能复兴残酷底层物语.md",
+          "path": "articles/095_2026-05-24_骡子马_4K的可灵没能复兴残酷底层物语.md",
+          "date": "2026-05-24",
+          "label": "文中将可灵生成视频中人物走路略显僵硬的效果，比作“小鹏机器人外面套了个人皮”。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "小鹏机器人",
+      "target": "可灵",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将可灵生成视频中人物走路略显僵硬的效果，比作“小鹏机器人外面套了个人皮”。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,137 @@
+{
+  "node": {
+    "id": "kimi-claw",
+    "name": "Kimi Claw",
+    "type": "product",
+    "description": "AI阅读与分析产品，文中被指出无法读取小红书链接，与EVE的理解能力形成对比",
+    "mention_count": 7,
+    "article_count": 2,
+    "aliases": [
+      "Kimi",
+      "Kimi claw",
+      "Kimiclaw"
+    ],
+    "tags": [
+      "AI工具",
+      "文本解析"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "068",
+        "title": "云端OpenClaw更是路边一条",
+        "date": "2026-03-04",
+        "path": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+        "permalink": "/articles/068",
+        "markdown_link": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+        "mention_count": 6
+      },
+      {
+        "article_id": "094",
+        "title": "大部分男的聊天水平不如EVE",
+        "date": "2026-05-21",
+        "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+        "permalink": "/articles/094",
+        "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0469
+  },
+  "links": [
+    {
+      "source": "eve",
+      "target": "kimi-claw",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将EVE能通过链接提炼用户信息的能力与Kimi Claw无法读取小红书链接的缺陷进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "094"
+      ],
+      "evidences": [
+        {
+          "article_id": "094",
+          "title": "大部分男的聊天水平不如EVE",
+          "permalink": "/articles/094",
+          "markdown_link": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+          "date": "2026-05-21",
+          "label": "文中将EVE能通过链接提炼用户信息的能力与Kimi Claw无法读取小红书链接的缺陷进行了对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi-claw",
+      "target": "eve",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将EVE能通过链接提炼用户信息的能力与Kimi Claw无法读取小红书链接的缺陷进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "月之暗面",
+      "target": "kimi-claw",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Kimi公司推出了199元的Kimi claw",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "068"
+      ],
+      "evidences": [
+        {
+          "article_id": "068",
+          "title": "云端OpenClaw更是路边一条",
+          "permalink": "/articles/068",
+          "markdown_link": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+          "path": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+          "date": "2026-03-04",
+          "label": "Kimi公司推出了199元的Kimi claw",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi-claw",
+      "target": "kimi-code",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "作者尝试让Kimi claw调用Kimi Code，但官方不支持",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "068"
+      ],
+      "evidences": [
+        {
+          "article_id": "068",
+          "title": "云端OpenClaw更是路边一条",
+          "permalink": "/articles/068",
+          "markdown_link": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+          "path": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+          "date": "2026-03-04",
+          "label": "作者尝试让Kimi claw调用Kimi Code，但官方不支持",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

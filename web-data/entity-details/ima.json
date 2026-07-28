@@ -1,0 +1,123 @@
+{
+  "node": {
+    "id": "ima",
+    "name": "Ima",
+    "type": "product",
+    "description": "腾讯旗下的知识库工具，具备语音摘要功能",
+    "mention_count": 4,
+    "article_count": 2,
+    "aliases": [
+      "ima",
+      "腾讯Ima",
+      "腾讯ima",
+      "腾讯ima知识库"
+    ],
+    "tags": [
+      "知识库",
+      "语音摘要"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "002",
+        "title": "AI创作产品，还没找到自己的形态",
+        "date": "2025-06-13",
+        "path": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+        "permalink": "/articles/002",
+        "markdown_link": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "014",
+        "title": "除了投资人，没人需要AI播客",
+        "date": "2025-08-07",
+        "path": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+        "permalink": "/articles/014",
+        "markdown_link": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0248
+  },
+  "links": [
+    {
+      "source": "ima",
+      "target": "youmind",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将 YouMind 评价为“前进一步的腾讯ima知识库”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "002"
+      ],
+      "evidences": [
+        {
+          "article_id": "002",
+          "title": "AI创作产品，还没找到自己的形态",
+          "permalink": "/articles/002",
+          "markdown_link": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+          "path": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+          "date": "2025-06-13",
+          "label": "文中将 YouMind 评价为“前进一步的腾讯ima知识库”",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "youmind",
+      "target": "ima",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将 YouMind 评价为“前进一步的腾讯ima知识库”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "腾讯",
+      "target": "ima",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "腾讯开发了 ima 知识库",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "002",
+        "014"
+      ],
+      "evidences": [
+        {
+          "article_id": "014",
+          "title": "除了投资人，没人需要AI播客",
+          "permalink": "/articles/014",
+          "markdown_link": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "path": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+          "date": "2025-08-07",
+          "label": "腾讯开发了Ima知识库工具",
+          "weight": 1
+        },
+        {
+          "article_id": "002",
+          "title": "AI创作产品，还没找到自己的形态",
+          "permalink": "/articles/002",
+          "markdown_link": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+          "path": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+          "date": "2025-06-13",
+          "label": "腾讯开发了 ima 知识库",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

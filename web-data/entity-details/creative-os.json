@@ -1,0 +1,281 @@
+{
+  "node": {
+    "id": "creative-os",
+    "name": "Creative OS",
+    "type": "product",
+    "description": "TapNow推出的AI视频创作系统版本，集成了剧本生成、分镜制作及Skill Creator等功能",
+    "mention_count": 16,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI视频工具",
+      "工作流",
+      "画布"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "124",
+        "title": "TapNow想把你困在系统里",
+        "date": "2026-07-26",
+        "path": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+        "permalink": "/articles/124",
+        "markdown_link": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+        "mention_count": 16
+      }
+    ],
+    "degree": 11,
+    "composite_weight": 0.1219
+  },
+  "links": [
+    {
+      "source": "codex",
+      "target": "creative-os",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "TapNow声称Creative OS是创作版的Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "124"
+      ],
+      "evidences": [
+        {
+          "article_id": "124",
+          "title": "TapNow想把你困在系统里",
+          "permalink": "/articles/124",
+          "markdown_link": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "path": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "date": "2026-07-26",
+          "label": "TapNow声称Creative OS是创作版的Codex",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "creative-os",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "TapNow声称Creative OS是创作版的Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "chatgpt",
+      "target": "creative-os",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "创作者习惯使用ChatGPT进行剧本创作，而非Creative OS",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "124"
+      ],
+      "evidences": [
+        {
+          "article_id": "124",
+          "title": "TapNow想把你困在系统里",
+          "permalink": "/articles/124",
+          "markdown_link": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "path": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "date": "2026-07-26",
+          "label": "创作者习惯使用ChatGPT进行剧本创作，而非Creative OS",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "creative-os",
+      "target": "chatgpt",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "创作者习惯使用ChatGPT进行剧本创作，而非Creative OS",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "creative-os",
+      "target": "gemini",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "创作者习惯使用Gemini进行剧本创作，而非Creative OS",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "124"
+      ],
+      "evidences": [
+        {
+          "article_id": "124",
+          "title": "TapNow想把你困在系统里",
+          "permalink": "/articles/124",
+          "markdown_link": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "path": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "date": "2026-07-26",
+          "label": "创作者习惯使用Gemini进行剧本创作，而非Creative OS",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gemini",
+      "target": "creative-os",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "创作者习惯使用Gemini进行剧本创作，而非Creative OS",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "骡子马",
+      "target": "creative-os",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "骡子马批评Creative OS的上下文压缩机制及插件功能设计",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "124"
+      ],
+      "evidences": [
+        {
+          "article_id": "124",
+          "title": "TapNow想把你困在系统里",
+          "permalink": "/articles/124",
+          "markdown_link": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "path": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "date": "2026-07-26",
+          "label": "骡子马批评Creative OS的上下文压缩机制及插件功能设计",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "tapnow",
+      "target": "creative-os",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "TapNow开发并推出了Creative OS创作系统",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "124"
+      ],
+      "evidences": [
+        {
+          "article_id": "124",
+          "title": "TapNow想把你困在系统里",
+          "permalink": "/articles/124",
+          "markdown_link": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "path": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "date": "2026-07-26",
+          "label": "TapNow开发并推出了Creative OS创作系统",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "creative-os",
+      "target": "frame-io",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Creative OS通过插件拓展功能连接Frame.io进行审片",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "124"
+      ],
+      "evidences": [
+        {
+          "article_id": "124",
+          "title": "TapNow想把你困在系统里",
+          "permalink": "/articles/124",
+          "markdown_link": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "path": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "date": "2026-07-26",
+          "label": "Creative OS通过插件拓展功能连接Frame.io进行审片",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "creative-os",
+      "target": "飞书",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Creative OS通过插件直接连接飞书分析文档和会议内容",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "124"
+      ],
+      "evidences": [
+        {
+          "article_id": "124",
+          "title": "TapNow想把你困在系统里",
+          "permalink": "/articles/124",
+          "markdown_link": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "path": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "date": "2026-07-26",
+          "label": "Creative OS通过插件直接连接飞书分析文档和会议内容",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "骡子马",
+      "target": "creative-os",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "骡子马认可Creative OS的Skill Creator功能及系统化工作流思路",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "124"
+      ],
+      "evidences": [
+        {
+          "article_id": "124",
+          "title": "TapNow想把你困在系统里",
+          "permalink": "/articles/124",
+          "markdown_link": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "path": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "date": "2026-07-26",
+          "label": "骡子马认可Creative OS的Skill Creator功能及系统化工作流思路",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,73 @@
+{
+  "node": {
+    "id": "evomap",
+    "name": "EvoMap",
+    "type": "product",
+    "description": "号称全球首个AI Agent自我进化与协作基础设施的项目",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Agent",
+      "Skill",
+      "自我进化"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "099",
+        "title": "马卡龙开创AI短剧Neo Lab",
+        "date": "2026-06-04",
+        "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "permalink": "/articles/099",
+        "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0232
+  },
+  "links": [
+    {
+      "source": "evomap",
+      "target": "mindverse",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "马卡龙（Mindverse）讲的Agent进化故事被指与EvoMap的故事雷同",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "099"
+      ],
+      "evidences": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "马卡龙（Mindverse）讲的Agent进化故事被指与EvoMap的故事雷同",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "mindverse",
+      "target": "evomap",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "马卡龙（Mindverse）讲的Agent进化故事被指与EvoMap的故事雷同",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

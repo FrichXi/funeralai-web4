@@ -1,0 +1,123 @@
+{
+  "node": {
+    "id": "大疆",
+    "name": "大疆",
+    "type": "company",
+    "description": "提供正经影像设备的知名科技巨头。",
+    "mention_count": 8,
+    "article_count": 2,
+    "aliases": [
+      "DJI"
+    ],
+    "tags": [
+      "影像设备",
+      "摄像头",
+      "无人机"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "043",
+        "title": "Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子",
+        "date": "2025-12-18",
+        "path": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+        "permalink": "/articles/043",
+        "markdown_link": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+        "mention_count": 7
+      },
+      {
+        "article_id": "042",
+        "title": "Looki开创AI胸载摄像头",
+        "date": "2025-12-16",
+        "path": "articles/042_2025-12-16_沐秋_Looki开创AI胸载摄像头.md",
+        "permalink": "/articles/042",
+        "markdown_link": "articles/042_2025-12-16_沐秋_Looki开创AI胸载摄像头.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0411
+  },
+  "links": [
+    {
+      "source": "looki",
+      "target": "大疆",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "孙洋将Looki面临的硬件掉落问题和网络喷子与大疆早期的情况进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "043"
+      ],
+      "evidences": [
+        {
+          "article_id": "043",
+          "title": "Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子",
+          "permalink": "/articles/043",
+          "markdown_link": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+          "path": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+          "date": "2025-12-18",
+          "label": "孙洋将Looki面临的硬件掉落问题和网络喷子与大疆早期的情况进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "大疆",
+      "target": "looki",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "孙洋将Looki面临的硬件掉落问题和网络喷子与大疆早期的情况进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "大疆",
+      "target": "影石",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "大疆和影石同为提供正经影像设备的竞品厂商，被并列作为Vlog用户的较优解决方案。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "042"
+      ],
+      "evidences": [
+        {
+          "article_id": "042",
+          "title": "Looki开创AI胸载摄像头",
+          "permalink": "/articles/042",
+          "markdown_link": "articles/042_2025-12-16_沐秋_Looki开创AI胸载摄像头.md",
+          "path": "articles/042_2025-12-16_沐秋_Looki开创AI胸载摄像头.md",
+          "date": "2025-12-16",
+          "label": "大疆和影石同为提供正经影像设备的竞品厂商，被并列作为Vlog用户的较优解决方案。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "影石",
+      "target": "大疆",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "大疆和影石同为提供正经影像设备的竞品厂商，被并列作为Vlog用户的较优解决方案。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "mistral-ai",
+    "name": "Mistral AI",
+    "type": "company",
+    "description": "欧洲知名大模型初创公司，估值达120亿欧元",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "欧洲大模型",
+      "高估值"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "049",
+        "title": "建议六小虎合并，实现China AGI",
+        "date": "2026-01-05",
+        "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "permalink": "/articles/049",
+        "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0173
+  },
+  "links": [
+    {
+      "source": "mistral-ai",
+      "target": "胖虎ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者以Mistral AI的估值对比设想中胖虎AI的估值潜力",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "049"
+      ],
+      "evidences": [
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "作者以Mistral AI的估值对比设想中胖虎AI的估值潜力",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "胖虎ai",
+      "target": "mistral-ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者以Mistral AI的估值对比设想中胖虎AI的估值潜力",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

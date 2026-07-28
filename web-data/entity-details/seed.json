@@ -1,0 +1,727 @@
+{
+  "node": {
+    "id": "seed",
+    "name": "Seed",
+    "type": "product",
+    "description": "字节跳动的基础大模型系列，文中评价其基模能力弱于产品表现",
+    "mention_count": 82,
+    "article_count": 4,
+    "aliases": [
+      "Doubao-Seed-2.0-pro",
+      "Doubao-Seed-2.1-pro",
+      "Seed 2.1",
+      "Seed 2.1 Pro",
+      "Seed 2.1 pro",
+      "Seed模型",
+      "Seed系列"
+    ],
+    "tags": [
+      "二流国模",
+      "基础模型",
+      "多模态大模型",
+      "大模型",
+      "编程能力",
+      "长程任务"
+    ],
+    "references": 4,
+    "source_article_count": 4,
+    "source_articles": [
+      {
+        "article_id": "110",
+        "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+        "date": "2026-06-24",
+        "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "permalink": "/articles/110",
+        "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "mention_count": 33
+      },
+      {
+        "article_id": "111",
+        "title": "用豆包办公得坐小孩那桌",
+        "date": "2026-06-25",
+        "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+        "permalink": "/articles/111",
+        "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+        "mention_count": 30
+      },
+      {
+        "article_id": "065",
+        "title": "豆包有Seed，火山有种",
+        "date": "2026-02-14",
+        "path": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+        "permalink": "/articles/065",
+        "markdown_link": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+        "mention_count": 13
+      },
+      {
+        "article_id": "112",
+        "title": "老天保佑Qwen救救阿里巴巴",
+        "date": "2026-07-02",
+        "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+        "permalink": "/articles/112",
+        "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+        "mention_count": 6
+      }
+    ],
+    "degree": 26,
+    "composite_weight": 0.3474
+  },
+  "links": [
+    {
+      "source": "claude",
+      "target": "seed",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Seed的性价比指数跌破了Claude（Opus）斩杀线",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "110",
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "作者在网页生成、视频剪辑、3D建模等多个任务中将Seed与Claude进行能力对比",
+          "weight": 1
+        },
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "Seed的性价比指数跌破了Claude（Opus）斩杀线",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gemini",
+      "target": "seed",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在开发世界杯足球游戏的测试中，Seed与Gemini的表现被拿来直接对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "在开发世界杯足球游戏的测试中，Seed与Gemini的表现被拿来直接对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gpt",
+      "target": "seed",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在开发世界杯足球游戏的测试中，Seed与GPT的生成效果被拿来直接对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "在开发世界杯足球游戏的测试中，Seed与GPT的生成效果被拿来直接对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "qwen",
+      "target": "seed",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中认为Qwen显著领先字节的Seed模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "112"
+      ],
+      "evidences": [
+        {
+          "article_id": "112",
+          "title": "老天保佑Qwen救救阿里巴巴",
+          "permalink": "/articles/112",
+          "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "date": "2026-07-02",
+          "label": "文中认为Qwen显著领先字节的Seed模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seed",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Seed的性价比指数跌破了Claude（Opus）斩杀线",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "seed",
+      "target": "gemini",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在开发世界杯足球游戏的测试中，Seed与Gemini的表现被拿来直接对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "seed",
+      "target": "gpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在开发世界杯足球游戏的测试中，Seed与GPT的生成效果被拿来直接对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "seed",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中认为Qwen显著领先字节的Seed模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "seed",
+      "target": "梁圣",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Seed模型的性价比被用来与代表极致性价比的‘梁圣’进行对比，处于斩杀线以下",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "Seed模型的性价比被用来与代表极致性价比的‘梁圣’进行对比，处于斩杀线以下",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "梁圣",
+      "target": "seed",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Seed模型的性价比被用来与代表极致性价比的‘梁圣’进行对比，处于斩杀线以下",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "glm",
+      "target": "seed",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者在编程基准测试中同台竞技且被多处对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "两者在编程基准测试中同台竞技且被多处对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "seed",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为参加基准测试的竞品模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "同为参加基准测试的竞品模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "qwen",
+      "target": "seed",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为参加基准测试的竞品模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "同为参加基准测试的竞品模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seed",
+      "target": "glm",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者在编程基准测试中同台竞技且被多处对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "seed",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为参加基准测试的竞品模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "seed",
+      "target": "qwen",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为参加基准测试的竞品模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "seed",
+      "target": "step",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为参加基准测试的竞品模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "同为参加基准测试的竞品模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "step",
+      "target": "seed",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为参加基准测试的竞品模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "seed",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "测试人员咸鱼批评Seed的编程能力较差，并吐槽其生成的3D打印模型有“喝了核废水的美感”",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "测试人员咸鱼批评Seed的编程能力较差，并吐槽其生成的3D打印模型有“喝了核废水的美感”",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "字节跳动",
+      "target": "seed",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "字节跳动开发了Seed基础模型",
+      "weight": 4,
+      "strength": 4,
+      "effective_weight": 20,
+      "article_count": 4,
+      "evidence_articles": [
+        "065",
+        "110",
+        "111",
+        "112"
+      ],
+      "evidences": [
+        {
+          "article_id": "112",
+          "title": "老天保佑Qwen救救阿里巴巴",
+          "permalink": "/articles/112",
+          "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "date": "2026-07-02",
+          "label": "字节跳动开发Seed基础模型",
+          "weight": 1
+        },
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "字节跳动发布并自研了Seed系列大模型",
+          "weight": 1
+        },
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "Seed是字节跳动（豆包团队）开发的大模型",
+          "weight": 1
+        },
+        {
+          "article_id": "065",
+          "title": "豆包有Seed，火山有种",
+          "permalink": "/articles/065",
+          "markdown_link": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+          "path": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+          "date": "2026-02-14",
+          "label": "字节跳动开发了Seed基础模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "blender",
+      "target": "seed",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "作者通过MCP协议将Doubao-Seed模型接入了Blender以进行3D建模",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "作者通过MCP协议将Doubao-Seed模型接入了Blender以进行3D建模",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seed",
+      "target": "trae",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "作者在测试中将Doubao-Seed-2.1-pro模型接入了Trae中执行编程任务",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "作者在测试中将Doubao-Seed-2.1-pro模型接入了Trae中执行编程任务",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seed",
+      "target": "火山引擎",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Seed模型通过火山引擎官网进行API调用",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "Seed模型通过火山引擎官网进行API调用",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seed",
+      "target": "豆包",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "豆包的产品力依赖于Seed系列模型的底层能力",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "065",
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "豆包App底层深度集成了Seed模型，且不仅是纯套壳，还配合研究了Seeduplex等全双工技术",
+          "weight": 1
+        },
+        {
+          "article_id": "065",
+          "title": "豆包有Seed，火山有种",
+          "permalink": "/articles/065",
+          "markdown_link": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+          "path": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+          "date": "2026-02-14",
+          "label": "豆包的产品力依赖于Seed系列模型的底层能力",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "凯一",
+      "target": "seed",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "凯一为Seed模型的能力偏好（非Coding专精，擅长通用能力）提供官方视角的解释",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "凯一为Seed模型的能力偏好（非Coding专精，擅长通用能力）提供官方视角的解释",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "吴永辉",
+      "target": "seed",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "吴永辉负责接管和调教Seed模型团队",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "065"
+      ],
+      "evidences": [
+        {
+          "article_id": "065",
+          "title": "豆包有Seed，火山有种",
+          "permalink": "/articles/065",
+          "markdown_link": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+          "path": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+          "date": "2026-02-14",
+          "label": "吴永辉负责接管和调教Seed模型团队",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "seed",
+      "target": "阶跃星辰",
+      "score": 0.4678,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "110"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "cherry-studio",
+      "target": "seed",
+      "score": 0.4285,
+      "suggested_relation_type": "compares_to",
+      "reason": "共享 6 个邻居",
+      "evidence_article_ids": [],
+      "status": "suggested"
+    },
+    {
+      "source": "codex",
+      "target": "seed",
+      "score": 0.4202,
+      "suggested_relation_type": "compares_to",
+      "reason": "共享 5 个邻居",
+      "evidence_article_ids": [],
+      "status": "suggested"
+    },
+    {
+      "source": "deepseek",
+      "target": "seed",
+      "score": 0.3946,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "110"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

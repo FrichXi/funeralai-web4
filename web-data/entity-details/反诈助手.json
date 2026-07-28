@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "反诈助手",
+    "name": "反诈助手",
+    "type": "product",
+    "description": "马卡龙平台内官方推荐的Agent，实际为纯文字网页。",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "Anti-Fraud Guide"
+    ],
+    "tags": [],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "015",
+        "title": "在马卡龙面前，孙宇晨和Web3都像是实体经济",
+        "date": "2025-08-18",
+        "path": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+        "permalink": "/articles/015",
+        "markdown_link": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.009
+  },
+  "links": [
+    {
+      "source": "马卡龙",
+      "target": "反诈助手",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "马卡龙开发反诈助手",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "015"
+      ],
+      "evidences": [
+        {
+          "article_id": "015",
+          "title": "在马卡龙面前，孙宇晨和Web3都像是实体经济",
+          "permalink": "/articles/015",
+          "markdown_link": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+          "path": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+          "date": "2025-08-18",
+          "label": "反诈助手是马卡龙平台内嵌生成的官方推荐Agent。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

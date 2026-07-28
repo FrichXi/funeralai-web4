@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "乐奇",
+    "name": "乐奇",
+    "type": "product",
+    "description": "Rokid眼镜内置的AI语音助手",
+    "mention_count": 9,
+    "article_count": 1,
+    "aliases": [
+      "AI助手aka乐奇"
+    ],
+    "tags": [
+      "AI Agent",
+      "AI语音助手"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "050",
+        "title": "Rokid是我的太阳（指物理温度）",
+        "date": "2026-01-08",
+        "path": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+        "permalink": "/articles/050",
+        "markdown_link": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+        "mention_count": 9
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0215
+  },
+  "links": [
+    {
+      "source": "rokid",
+      "target": "乐奇",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Rokid开发了名为乐奇的内置AI助手",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "050"
+      ],
+      "evidences": [
+        {
+          "article_id": "050",
+          "title": "Rokid是我的太阳（指物理温度）",
+          "permalink": "/articles/050",
+          "markdown_link": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+          "path": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+          "date": "2026-01-08",
+          "label": "Rokid开发了名为乐奇的内置AI助手",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

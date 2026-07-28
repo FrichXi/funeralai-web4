@@ -311,7 +311,6 @@ def load_manifest() -> dict:
 
 
 def save_manifest(manifest: dict) -> None:
-    manifest["updatedAt"] = utc_now()
     manifest["pipeline"] = {
         "extractor": EXTRACTOR_NAME,
         "model": MODEL_NAME,
@@ -319,6 +318,14 @@ def save_manifest(manifest: dict) -> None:
         "extractor_version": EXTRACTOR_VERSION,
         "graph_schema_version": GRAPH_SCHEMA_VERSION,
     }
+    existing = load_json_file(MANIFEST_FILE, {})
+    candidate_without_timestamp = {key: value for key, value in manifest.items() if key != "updatedAt"}
+    existing_without_timestamp = {key: value for key, value in existing.items() if key != "updatedAt"}
+    if existing and candidate_without_timestamp == existing_without_timestamp:
+        manifest["updatedAt"] = existing.get("updatedAt", manifest.get("updatedAt", utc_now()))
+        return
+
+    manifest["updatedAt"] = utc_now()
     save_json_file(MANIFEST_FILE, manifest)
 
 

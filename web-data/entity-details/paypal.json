@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "paypal",
+    "name": "PayPal",
+    "type": "company",
+    "description": "由彼得·蒂尔和马斯克共同缔造的支付公司",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "PayPal黑帮"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "035",
+        "title": "彼得蒂尔是中国的辱追梦男",
+        "date": "2025-11-18",
+        "path": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+        "permalink": "/articles/035",
+        "markdown_link": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0165
+  },
+  "links": [
+    {
+      "source": "彼得-蒂尔",
+      "target": "paypal",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "彼得·蒂尔和马斯克一手缔造了PayPal黑帮",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "035"
+      ],
+      "evidences": [
+        {
+          "article_id": "035",
+          "title": "彼得蒂尔是中国的辱追梦男",
+          "permalink": "/articles/035",
+          "markdown_link": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+          "path": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+          "date": "2025-11-18",
+          "label": "彼得·蒂尔和马斯克一手缔造了PayPal黑帮",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "马斯克",
+      "target": "paypal",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "马斯克和彼得·蒂尔一手缔造了PayPal",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "035"
+      ],
+      "evidences": [
+        {
+          "article_id": "035",
+          "title": "彼得蒂尔是中国的辱追梦男",
+          "permalink": "/articles/035",
+          "markdown_link": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+          "path": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+          "date": "2025-11-18",
+          "label": "马斯克和彼得·蒂尔一手缔造了PayPal",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

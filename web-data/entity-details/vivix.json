@@ -1,0 +1,468 @@
+{
+  "node": {
+    "id": "vivix",
+    "name": "Vivix",
+    "type": "company",
+    "description": "刘宇和张月光所在的AI公司，文章假设其如果转做算法实验室的处境",
+    "mention_count": 23,
+    "article_count": 6,
+    "aliases": [
+      "Vivix AI"
+    ],
+    "tags": [
+      "AI公司",
+      "世界模型",
+      "多模态模型",
+      "数字人",
+      "算法实验室",
+      "视频生成",
+      "高估值"
+    ],
+    "references": 6,
+    "source_article_count": 6,
+    "source_articles": [
+      {
+        "article_id": "087",
+        "title": "Vivix用13亿美金估值复活科比",
+        "date": "2026-05-06",
+        "path": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+        "permalink": "/articles/087",
+        "markdown_link": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+        "mention_count": 12
+      },
+      {
+        "article_id": "085",
+        "title": "谁是宇宙第一FA",
+        "date": "2026-04-27",
+        "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "permalink": "/articles/085",
+        "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+        "mention_count": 5
+      },
+      {
+        "article_id": "121",
+        "title": "蚂蚁把世界模型作为一场儿戏",
+        "date": "2026-07-16",
+        "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+        "permalink": "/articles/121",
+        "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "099",
+        "title": "马卡龙开创AI短剧Neo Lab",
+        "date": "2026-06-04",
+        "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "permalink": "/articles/099",
+        "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "064",
+        "title": "Elys应该做成AI内涵段子",
+        "date": "2026-02-13",
+        "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "permalink": "/articles/064",
+        "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "055",
+        "title": "来认识下2025年最活跃的CVC",
+        "date": "2026-01-22",
+        "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "permalink": "/articles/055",
+        "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 15,
+    "composite_weight": 0.1722
+  },
+  "links": [
+    {
+      "source": "vidu",
+      "target": "vivix",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者被归为同一类走刘氏视频生成路线的产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "121"
+      ],
+      "evidences": [
+        {
+          "article_id": "121",
+          "title": "蚂蚁把世界模型作为一场儿戏",
+          "permalink": "/articles/121",
+          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "date": "2026-07-16",
+          "label": "两者被归为同一类走刘氏视频生成路线的产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "vivix",
+      "target": "vidu",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者被归为同一类走刘氏视频生成路线的产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "vivix",
+      "target": "商汤3d数字人",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者体验后评价Vivix的产品与商汤3D数字人差不多",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "作者体验后评价Vivix的产品与商汤3D数字人差不多",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "商汤3d数字人",
+      "target": "vivix",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者体验后评价Vivix的产品与商汤3D数字人差不多",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "vivix",
+      "target": "7verse",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Vivix正式推出了首款产品7verse",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "087"
+      ],
+      "evidences": [
+        {
+          "article_id": "087",
+          "title": "Vivix用13亿美金估值复活科比",
+          "permalink": "/articles/087",
+          "markdown_link": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+          "path": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+          "date": "2026-05-06",
+          "label": "Vivix正式推出了首款产品7verse",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "刘宇",
+      "target": "vivix",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "文中提及刘宇的Vivix",
+      "weight": 4,
+      "strength": 5,
+      "effective_weight": 24,
+      "article_count": 4,
+      "evidence_articles": [
+        "064",
+        "085",
+        "087",
+        "099"
+      ],
+      "evidences": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "刘宇是Vivix的核心人物及创办者",
+          "weight": 1
+        },
+        {
+          "article_id": "087",
+          "title": "Vivix用13亿美金估值复活科比",
+          "permalink": "/articles/087",
+          "markdown_link": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+          "path": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+          "date": "2026-05-06",
+          "label": "文中期待刘宇再接再厉做出更好产品，合理推断为Vivix的创始人或核心高管",
+          "weight": 1
+        },
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "刘宇是Vivix的创始人",
+          "weight": 1
+        },
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "文中提及刘宇的Vivix",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "张月光",
+      "target": "vivix",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "张月光是Vivix的核心人物及创办者",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "099"
+      ],
+      "evidences": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "张月光是Vivix的核心人物及创办者",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "idg",
+      "target": "vivix",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "IDG投资Vivix",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "京东",
+      "target": "vivix",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "京东出手投资了Vivix AI",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "京东出手投资了Vivix AI",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "vivix",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "蚂蚁投资了Vivix AI",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "蚂蚁投资了Vivix AI",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "远识资本",
+      "target": "vivix",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "文章提到Vivix是远识资本的代表作，推断存在投资关系",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "087"
+      ],
+      "evidences": [
+        {
+          "article_id": "087",
+          "title": "Vivix用13亿美金估值复活科比",
+          "permalink": "/articles/087",
+          "markdown_link": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+          "path": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+          "date": "2026-05-06",
+          "label": "文章提到Vivix是远识资本的代表作，推断存在投资关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阿里战投",
+      "target": "vivix",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "该轮投资也可能为阿里战投",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "055"
+      ],
+      "evidences": [
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "date": "2026-01-22",
+          "label": "该轮投资也可能为阿里战投",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "vivix",
+      "target": "远识资本",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "远识资本作为推手参与炒热Vivix",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "远识资本作为推手参与炒热Vivix",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "vivix",
+      "target": "科比",
+      "relation_type": "related",
+      "type": "related",
+      "label": "Vivix通过7verse探索科比互动数字人",
+      "weight": 1,
+      "strength": 1,
+      "effective_weight": 1,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "伊唯舒",
+      "target": "vivix",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "伊唯舒接近加入Vivix",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "085"
+      ],
+      "evidences": [
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "伊唯舒接近加入Vivix",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "vivix",
+      "target": "商汤科技",
+      "score": 0.4169,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "085"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

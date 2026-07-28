@@ -1,0 +1,98 @@
+{
+  "node": {
+    "id": "快乐生蚝",
+    "name": "快乐生蚝",
+    "type": "product",
+    "description": "主打实时生成视频的世界模型产品，被评价在穿模处理上表现较好",
+    "mention_count": 5,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "世界模型",
+      "开放世界"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "121",
+        "title": "蚂蚁把世界模型作为一场儿戏",
+        "date": "2026-07-16",
+        "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+        "permalink": "/articles/121",
+        "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+        "mention_count": 5
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0395
+  },
+  "links": [
+    {
+      "source": "lingbot-world-2-0",
+      "target": "快乐生蚝",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为主打实时生成视频的世界模型，且在交互按钮设计上相似",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "121"
+      ],
+      "evidences": [
+        {
+          "article_id": "121",
+          "title": "蚂蚁把世界模型作为一场儿戏",
+          "permalink": "/articles/121",
+          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "date": "2026-07-16",
+          "label": "两者均为主打实时生成视频的世界模型，且在交互按钮设计上相似",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "快乐生蚝",
+      "target": "lingbot-world-2-0",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为主打实时生成视频的世界模型，且在交互按钮设计上相似",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "骡子马",
+      "target": "快乐生蚝",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "作者认为快乐生蚝在穿模处理和不穿墙方面表现领先",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "121"
+      ],
+      "evidences": [
+        {
+          "article_id": "121",
+          "title": "蚂蚁把世界模型作为一场儿戏",
+          "permalink": "/articles/121",
+          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "date": "2026-07-16",
+          "label": "作者认为快乐生蚝在穿模处理和不穿墙方面表现领先",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

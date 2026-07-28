@@ -1,0 +1,97 @@
+{
+  "node": {
+    "id": "step",
+    "name": "Step",
+    "type": "product",
+    "description": "阶跃公司开发的大模型，性价比表现优秀",
+    "mention_count": 6,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "大模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "110",
+        "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+        "date": "2026-06-24",
+        "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "permalink": "/articles/110",
+        "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+        "mention_count": 6
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0403
+  },
+  "links": [
+    {
+      "source": "seed",
+      "target": "step",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为参加基准测试的竞品模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "同为参加基准测试的竞品模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "step",
+      "target": "seed",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为参加基准测试的竞品模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "step",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "文中明确提到“阶跃的Step 3.7 Flash模型”",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "110"
+      ],
+      "evidences": [
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "date": "2026-06-24",
+          "label": "文中明确提到“阶跃的Step 3.7 Flash模型”",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

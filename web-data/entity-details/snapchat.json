@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "snapchat",
+    "name": "Snapchat",
+    "type": "product",
+    "description": "知名社交应用，被Agnes对标增长纪录",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "社交媒体"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "039",
+        "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+        "date": "2025-12-05",
+        "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+        "permalink": "/articles/039",
+        "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0179
+  },
+  "links": [
+    {
+      "source": "agnes",
+      "target": "snapchat",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes标榜打破了Snapchat的增长纪录",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "039"
+      ],
+      "evidences": [
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "date": "2025-12-05",
+          "label": "Agnes标榜打破了Snapchat的增长纪录",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "snapchat",
+      "target": "agnes",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Agnes标榜打破了Snapchat的增长纪录",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

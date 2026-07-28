@@ -1,0 +1,124 @@
+{
+  "node": {
+    "id": "旷视",
+    "name": "旷视",
+    "type": "company",
+    "description": "AI 1.0时代的计算机视觉(CV)公司，印奇关联公司",
+    "mention_count": 4,
+    "article_count": 2,
+    "aliases": [
+      "旷视科技"
+    ],
+    "tags": [
+      "AI 1.0",
+      "AI四小龙",
+      "CV",
+      "CV算法"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "031",
+        "title": "追忆AI四小龙，热潮是怎么完蛋的",
+        "date": "2025-10-27",
+        "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "permalink": "/articles/031",
+        "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "057",
+        "title": "AI四小虎进入狠活大赛",
+        "date": "2026-01-26",
+        "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "permalink": "/articles/057",
+        "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0295
+  },
+  "links": [
+    {
+      "source": "印奇",
+      "target": "旷视",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "印奇反思旷视经历指出不能闭环的辉煌都是暂时的",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "031"
+      ],
+      "evidences": [
+        {
+          "article_id": "031",
+          "title": "追忆AI四小龙，热潮是怎么完蛋的",
+          "permalink": "/articles/031",
+          "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "date": "2025-10-27",
+          "label": "印奇反思旷视经历指出不能闭环的辉煌都是暂时的",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "印奇",
+      "target": "旷视",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "印奇是旷视科技创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "031"
+      ],
+      "evidences": [
+        {
+          "article_id": "031",
+          "title": "追忆AI四小龙，热潮是怎么完蛋的",
+          "permalink": "/articles/031",
+          "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "date": "2025-10-27",
+          "label": "印奇是旷视科技创始人",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "印奇",
+      "target": "旷视",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "印奇在AI 1.0时代关联并领导过旷视的CV业务",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "057"
+      ],
+      "evidences": [
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "印奇在AI 1.0时代关联并领导过旷视的CV业务",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

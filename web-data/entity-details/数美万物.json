@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "数美万物",
+    "name": "数美万物",
+    "type": "company",
+    "description": "与钉钉AI印及Lovart串联合作，提供实体海报打印寄送服务的公司",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "后端印刷",
+      "实体寄送"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "045",
+        "title": "无招把钉钉当玩具整",
+        "date": "2025-12-24",
+        "path": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+        "permalink": "/articles/045",
+        "markdown_link": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0107
+  },
+  "links": [
+    {
+      "source": "数美万物",
+      "target": "钉钉",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "钉钉通过打印寄送服务串联对接了数美万物",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "045"
+      ],
+      "evidences": [
+        {
+          "article_id": "045",
+          "title": "无招把钉钉当玩具整",
+          "permalink": "/articles/045",
+          "markdown_link": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "path": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "date": "2025-12-24",
+          "label": "钉钉通过打印寄送服务串联对接了数美万物",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

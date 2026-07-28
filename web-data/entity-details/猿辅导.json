@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "猿辅导",
+    "name": "猿辅导",
+    "type": "company",
+    "description": "在线教育公司，被用来与ChatPods做类比",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "教育"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "059",
+        "title": "「Dokie不如ListenHub」",
+        "date": "2026-01-28",
+        "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "permalink": "/articles/059",
+        "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0177
+  },
+  "links": [
+    {
+      "source": "chatpods",
+      "target": "猿辅导",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为ChatPods让人想到了猿辅导",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "059"
+      ],
+      "evidences": [
+        {
+          "article_id": "059",
+          "title": "「Dokie不如ListenHub」",
+          "permalink": "/articles/059",
+          "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
+          "date": "2026-01-28",
+          "label": "作者认为ChatPods让人想到了猿辅导",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "猿辅导",
+      "target": "chatpods",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为ChatPods让人想到了猿辅导",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

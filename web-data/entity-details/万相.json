@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "万相",
+    "name": "万相",
+    "type": "product",
+    "description": "阿里云发布的视觉/视频生成类大模型产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "视觉理解",
+      "视频生成"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "026",
+        "title": "吴妈讲好中国AI故事",
+        "date": "2025-09-25",
+        "path": "articles/026_2025-09-25_葬爱咸鱼_吴妈讲好中国AI故事.md",
+        "permalink": "/articles/026",
+        "markdown_link": "articles/026_2025-09-25_葬爱咸鱼_吴妈讲好中国AI故事.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0094
+  },
+  "links": [
+    {
+      "source": "阿里云",
+      "target": "万相",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "阿里云开发并发布了万相模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "026"
+      ],
+      "evidences": [
+        {
+          "article_id": "026",
+          "title": "吴妈讲好中国AI故事",
+          "permalink": "/articles/026",
+          "markdown_link": "articles/026_2025-09-25_葬爱咸鱼_吴妈讲好中国AI故事.md",
+          "path": "articles/026_2025-09-25_葬爱咸鱼_吴妈讲好中国AI故事.md",
+          "date": "2025-09-25",
+          "label": "阿里云开发并发布了万相模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

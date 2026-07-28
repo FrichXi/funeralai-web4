@@ -1,0 +1,194 @@
+{
+  "node": {
+    "id": "veo",
+    "name": "Veo",
+    "type": "product",
+    "description": "Google开发的强力AI视频生成模型",
+    "mention_count": 6,
+    "article_count": 2,
+    "aliases": [
+      "Veo 3"
+    ],
+    "tags": [
+      "视频生成"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "012",
+        "title": "CrePal成为首个胖猫视频Agent",
+        "date": "2025-07-25",
+        "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+        "permalink": "/articles/012",
+        "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+        "mention_count": 5
+      },
+      {
+        "article_id": "056",
+        "title": "PixVerse像做梦一样做世界模型",
+        "date": "2026-01-23",
+        "path": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+        "permalink": "/articles/056",
+        "markdown_link": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0418
+  },
+  "links": [
+    {
+      "source": "pixverse",
+      "target": "veo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将PixVerse的近乎实时生成能力与Veo进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "056"
+      ],
+      "evidences": [
+        {
+          "article_id": "056",
+          "title": "PixVerse像做梦一样做世界模型",
+          "permalink": "/articles/056",
+          "markdown_link": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+          "path": "articles/056_2026-01-23_骡子马_PixVerse像做梦一样做世界模型.md",
+          "date": "2026-01-23",
+          "label": "文章将PixVerse的近乎实时生成能力与Veo进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "veo",
+      "target": "pixverse",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将PixVerse的近乎实时生成能力与Veo进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "谷歌",
+      "target": "veo",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Google开发了Veo模型（文中提及谷歌官方定价）",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "Google开发了Veo模型（文中提及谷歌官方定价）",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "crepal",
+      "target": "veo",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "CrePal的子Agent中集成了Veo生成模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "CrePal的子Agent中集成了Veo生成模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "jiaming",
+      "target": "veo",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "jiaming评价Veo很强，强于其他所有模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "012"
+      ],
+      "evidences": [
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "date": "2025-07-25",
+          "label": "jiaming评价Veo很强，强于其他所有模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "veo",
+      "target": "即梦",
+      "score": 0.3899,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "012"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "veo",
+      "target": "可灵",
+      "score": 0.3899,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "012"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "google-imagen",
+      "target": "veo",
+      "score": 0.3853,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "012"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

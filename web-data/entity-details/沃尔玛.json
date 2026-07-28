@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "沃尔玛",
+    "name": "沃尔玛",
+    "type": "company",
+    "description": "美国零售巨头，与谷歌有合作",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "Walmart"
+    ],
+    "tags": [
+      "商超",
+      "零售"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "051",
+        "title": "狠狠办千问",
+        "date": "2026-01-15",
+        "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "permalink": "/articles/051",
+        "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0111
+  },
+  "links": [
+    {
+      "source": "沃尔玛",
+      "target": "谷歌",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "谷歌与沃尔玛合作发展AI购物",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "051"
+      ],
+      "evidences": [
+        {
+          "article_id": "051",
+          "title": "狠狠办千问",
+          "permalink": "/articles/051",
+          "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "date": "2026-01-15",
+          "label": "谷歌与沃尔玛合作发展AI购物",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

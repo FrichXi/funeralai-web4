@@ -1,0 +1,575 @@
+{
+  "node": {
+    "id": "bloome",
+    "name": "Bloome",
+    "type": "product",
+    "description": "一款包含社交功能和兴趣小组的AI群聊产品，被作者认为功能过于复杂",
+    "mention_count": 35,
+    "article_count": 3,
+    "aliases": [],
+    "tags": [
+      "AI协作",
+      "AI群聊",
+      "Agent share",
+      "上下文管理",
+      "社交"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "090",
+        "title": "Bloome重做元宝派",
+        "date": "2026-05-12",
+        "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "permalink": "/articles/090",
+        "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "mention_count": 28
+      },
+      {
+        "article_id": "120",
+        "title": "Raft说明AI应用不会亡！",
+        "date": "2026-07-15",
+        "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+        "permalink": "/articles/120",
+        "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+        "mention_count": 6
+      },
+      {
+        "article_id": "089",
+        "title": "Slock说明AI群聊不成立",
+        "date": "2026-05-10",
+        "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+        "permalink": "/articles/089",
+        "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 24,
+    "composite_weight": 0.2406
+  },
+  "links": [
+    {
+      "source": "bloome",
+      "target": "c-ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Bloome的广场角色扮演Agent功能被描述为属于C.ai类",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "Bloome的广场角色扮演Agent功能被描述为属于C.ai类",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "bloome",
+      "target": "conductor",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Bloome在界面上比同为会话管理器的Conductor好看",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "作者认为Bloome在界面上比同为会话管理器的Conductor好看",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "bloome",
+      "target": "slock",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Bloome在易用性上与偏技术的竞品Slock进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "Bloome在易用性上与偏技术的竞品Slock进行了对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "bloome",
+      "target": "元宝派",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Bloome视为对元宝派模式的重做和改进",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "文章将Bloome视为对元宝派模式的重做和改进",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "bloome",
+      "target": "微信",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Bloome的定位与微信进行对比辨析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "文中将Bloome的定位与微信进行对比辨析",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "bloome",
+      "target": "知识星球",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Bloome内的Agent付费私聊模式被形容为神似知识星球",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "Bloome内的Agent付费私聊模式被形容为神似知识星球",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "bloome",
+      "target": "飞书",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Bloome的定位与飞书进行对比辨析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "文中将Bloome的定位与飞书进行对比辨析",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "c-ai",
+      "target": "bloome",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Bloome的广场角色扮演Agent功能被描述为属于C.ai类",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "conductor",
+      "target": "bloome",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Bloome在界面上比同为会话管理器的Conductor好看",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "slock",
+      "target": "bloome",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Bloome在易用性上与偏技术的竞品Slock进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "元宝派",
+      "target": "bloome",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Bloome视为对元宝派模式的重做和改进",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "微信",
+      "target": "bloome",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Bloome的定位与微信进行对比辨析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "知识星球",
+      "target": "bloome",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Bloome内的Agent付费私聊模式被形容为神似知识星球",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "飞书",
+      "target": "bloome",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Bloome的定位与飞书进行对比辨析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "bloome",
+      "target": "raft",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为AI群聊产品，作者在文中进行了详细的功能与体验对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "120"
+      ],
+      "evidences": [
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "date": "2026-07-15",
+          "label": "两者均为AI群聊产品，作者在文中进行了详细的功能与体验对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "bloome",
+      "target": "slock",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Bloome是与Slock同属于AI群聊思路的更易用的竞品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "089"
+      ],
+      "evidences": [
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "date": "2026-05-10",
+          "label": "Bloome是与Slock同属于AI群聊思路的更易用的竞品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "raft",
+      "target": "bloome",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为AI群聊产品，作者在文中进行了详细的功能与体验对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "slock",
+      "target": "bloome",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Bloome是与Slock同属于AI群聊思路的更易用的竞品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "bloome",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "作者批评Bloome功能太多导致心智混乱，想不起来用",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "120"
+      ],
+      "evidences": [
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "date": "2026-07-15",
+          "label": "作者批评Bloome功能太多导致心智混乱，想不起来用",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "youware",
+      "target": "bloome",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Bloome是Youware团队开发的新产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "Bloome是Youware团队开发的新产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "明超平",
+      "target": "bloome",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "文中明确提到“Bloome创始人小明”",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "120"
+      ],
+      "evidences": [
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "date": "2026-07-15",
+          "label": "文中明确提到“Bloome创始人小明”",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "bloome",
+      "target": "claude",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Bloome支持接入并调用本地的Claude code",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "Bloome支持接入并调用本地的Claude code",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "bloome",
+      "target": "小龙虾",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文中设想可以在Bloome群组里共用小龙虾工具",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "文中设想可以在Bloome群组里共用小龙虾工具",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "明超平",
+      "target": "bloome",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Bloome是明超平打造的产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "Bloome是明超平打造的产品",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "bloome",
+      "target": "codex",
+      "score": 0.6129,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "089",
+        "090",
+        "120"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

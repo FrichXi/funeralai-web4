@@ -1,0 +1,95 @@
+{
+  "node": {
+    "id": "dario",
+    "name": "Dario",
+    "type": "person",
+    "description": "Claude背后的关键人物（Anthropic CEO）",
+    "mention_count": 2,
+    "article_count": 2,
+    "aliases": [
+      "Dario Amodei"
+    ],
+    "tags": [
+      "CEO"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "103",
+        "title": "Kimi看天讨饭吃",
+        "date": "2026-06-10",
+        "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "permalink": "/articles/103",
+        "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "096",
+        "title": "葬AI一周年，我不再用AI写作",
+        "date": "2026-05-27",
+        "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+        "permalink": "/articles/096",
+        "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.029
+  },
+  "links": [
+    {
+      "source": "dario",
+      "target": "anthropic",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "Dario是Anthropic的老板",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "Dario是Anthropic的老板",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "dario",
+      "target": "claude",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Dario是管理/开发Claude的关键人物",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "096"
+      ],
+      "evidences": [
+        {
+          "article_id": "096",
+          "title": "葬AI一周年，我不再用AI写作",
+          "permalink": "/articles/096",
+          "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "date": "2026-05-27",
+          "label": "Dario是管理/开发Claude的关键人物",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

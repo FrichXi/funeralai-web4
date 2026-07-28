@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "deepseek-v4",
+    "name": "DeepSeek V4",
+    "type": "product",
+    "description": "DeepSeek的高难度任务推荐模型",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "LLM"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "116",
+        "title": "民办大模型MiniMax努力专升本",
+        "date": "2026-07-09",
+        "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "permalink": "/articles/116",
+        "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.022
+  },
+  "links": [
+    {
+      "source": "deepseek-v4",
+      "target": "minimax-m3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章建议在复杂任务中用DeepSeek V4替代MiniMax M3",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "116"
+      ],
+      "evidences": [
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "文章建议在复杂任务中用DeepSeek V4替代MiniMax M3",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax-m3",
+      "target": "deepseek-v4",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章建议在复杂任务中用DeepSeek V4替代MiniMax M3",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

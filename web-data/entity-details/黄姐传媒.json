@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "黄姐传媒",
+    "name": "黄姐传媒",
+    "type": "company",
+    "description": "黄女士创办的传媒机构",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "传媒"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "081",
+        "title": "小登领导AI社交",
+        "date": "2026-04-15",
+        "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+        "permalink": "/articles/081",
+        "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0131
+  },
+  "links": [
+    {
+      "source": "黄女士",
+      "target": "黄姐传媒",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "黄女士是黄姐传媒创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "081"
+      ],
+      "evidences": [
+        {
+          "article_id": "081",
+          "title": "小登领导AI社交",
+          "permalink": "/articles/081",
+          "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "date": "2026-04-15",
+          "label": "黄女士是黄姐传媒创始人",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

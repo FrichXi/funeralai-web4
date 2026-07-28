@@ -1,0 +1,328 @@
+{
+  "node": {
+    "id": "印奇",
+    "name": "印奇",
+    "type": "person",
+    "description": "阶跃星辰董事长，负责将大模型技术与具体商业场景连接",
+    "mention_count": 17,
+    "article_count": 3,
+    "aliases": [
+      "印奇仙人",
+      "印总"
+    ],
+    "tags": [
+      "AI终端",
+      "一把手",
+      "连接仙人"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "057",
+        "title": "AI四小虎进入狠活大赛",
+        "date": "2026-01-26",
+        "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "permalink": "/articles/057",
+        "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+        "mention_count": 8
+      },
+      {
+        "article_id": "031",
+        "title": "追忆AI四小龙，热潮是怎么完蛋的",
+        "date": "2025-10-27",
+        "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "permalink": "/articles/031",
+        "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+        "mention_count": 6
+      },
+      {
+        "article_id": "123",
+        "title": "阶跃软的不行来硬的",
+        "date": "2026-07-23",
+        "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+        "permalink": "/articles/123",
+        "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 12,
+    "composite_weight": 0.1147
+  },
+  "links": [
+    {
+      "source": "钟十六",
+      "target": "印奇",
+      "relation_type": "collaborates_with",
+      "type": "collaborates_with",
+      "label": "钟十六与印奇合作",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "印奇",
+      "target": "峰哥",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "印奇被形容为连接天才，就是AI界的峰哥",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "057"
+      ],
+      "evidences": [
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "印奇被形容为连接天才，就是AI界的峰哥",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "印奇",
+      "target": "马斯克",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为印奇发布STEPX时的风格像马斯克来中国",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "123"
+      ],
+      "evidences": [
+        {
+          "article_id": "123",
+          "title": "阶跃软的不行来硬的",
+          "permalink": "/articles/123",
+          "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "date": "2026-07-23",
+          "label": "作者认为印奇发布STEPX时的风格像马斯克来中国",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "峰哥",
+      "target": "印奇",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "印奇被形容为连接天才，就是AI界的峰哥",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "马斯克",
+      "target": "印奇",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为印奇发布STEPX时的风格像马斯克来中国",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "印奇",
+      "target": "旷视",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "印奇反思旷视经历指出不能闭环的辉煌都是暂时的",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "031"
+      ],
+      "evidences": [
+        {
+          "article_id": "031",
+          "title": "追忆AI四小龙，热潮是怎么完蛋的",
+          "permalink": "/articles/031",
+          "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "date": "2025-10-27",
+          "label": "印奇反思旷视经历指出不能闭环的辉煌都是暂时的",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "印奇",
+      "target": "千里科技",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "印奇创办了千里科技",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "031"
+      ],
+      "evidences": [
+        {
+          "article_id": "031",
+          "title": "追忆AI四小龙，热潮是怎么完蛋的",
+          "permalink": "/articles/031",
+          "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "date": "2025-10-27",
+          "label": "印奇创办了千里科技",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "印奇",
+      "target": "旷视",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "印奇是旷视科技创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "031"
+      ],
+      "evidences": [
+        {
+          "article_id": "031",
+          "title": "追忆AI四小龙，热潮是怎么完蛋的",
+          "permalink": "/articles/031",
+          "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "date": "2025-10-27",
+          "label": "印奇是旷视科技创始人",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "印奇",
+      "target": "阶跃星辰",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "印奇是阶跃星辰的创始人，主导公司战略",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "123"
+      ],
+      "evidences": [
+        {
+          "article_id": "123",
+          "title": "阶跃软的不行来硬的",
+          "permalink": "/articles/123",
+          "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "date": "2026-07-23",
+          "label": "印奇是阶跃星辰的创始人，主导公司战略",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "沐秋",
+      "target": "印奇",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "作者佩服印奇的硬件闭环布局能力，称其下棋没输过",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "123"
+      ],
+      "evidences": [
+        {
+          "article_id": "123",
+          "title": "阶跃软的不行来硬的",
+          "permalink": "/articles/123",
+          "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
+          "date": "2026-07-23",
+          "label": "作者佩服印奇的硬件闭环布局能力，称其下棋没输过",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "印奇",
+      "target": "旷视",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "印奇在AI 1.0时代关联并领导过旷视的CV业务",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "057"
+      ],
+      "evidences": [
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "印奇在AI 1.0时代关联并领导过旷视的CV业务",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "印奇",
+      "target": "阶跃星辰",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "印奇回归并出任阶跃星辰董事长",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "057"
+      ],
+      "evidences": [
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "date": "2026-01-26",
+          "label": "印奇回归并出任阶跃星辰董事长",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

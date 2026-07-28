@@ -1,0 +1,73 @@
+{
+  "node": {
+    "id": "阿尔法狗",
+    "name": "阿尔法狗",
+    "type": "product",
+    "description": "人工智能围棋程序，文中提及它与柯洁的人机大战作为比喻",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "AlphaGo"
+    ],
+    "tags": [
+      "人机大战"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "077",
+        "title": "OpenClaw气功纪录片今日上映",
+        "date": "2026-04-01",
+        "path": "articles/077_2026-04-01_骡子马_OpenClaw气功纪录片今日上映.md",
+        "permalink": "/articles/077",
+        "markdown_link": "articles/077_2026-04-01_骡子马_OpenClaw气功纪录片今日上映.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0191
+  },
+  "links": [
+    {
+      "source": "柯洁",
+      "target": "阿尔法狗",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章用柯洁路遇阿尔法狗的人机大战来比喻活动中的人机对决",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "077"
+      ],
+      "evidences": [
+        {
+          "article_id": "077",
+          "title": "OpenClaw气功纪录片今日上映",
+          "permalink": "/articles/077",
+          "markdown_link": "articles/077_2026-04-01_骡子马_OpenClaw气功纪录片今日上映.md",
+          "path": "articles/077_2026-04-01_骡子马_OpenClaw气功纪录片今日上映.md",
+          "date": "2026-04-01",
+          "label": "文章用柯洁路遇阿尔法狗的人机大战来比喻活动中的人机对决",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阿尔法狗",
+      "target": "柯洁",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章用柯洁路遇阿尔法狗的人机大战来比喻活动中的人机对决",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

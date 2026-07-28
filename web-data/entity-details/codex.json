@@ -1,0 +1,997 @@
+{
+  "node": {
+    "id": "codex",
+    "name": "Codex",
+    "type": "product",
+    "description": "AI编程/代理工具，文中作为本地Agent的代表被Raft和Tutti集成或模拟",
+    "mention_count": 43,
+    "article_count": 17,
+    "aliases": [
+      "Codex SDK",
+      "codex",
+      "骡子马"
+    ],
+    "tags": [
+      "AI Agent",
+      "AI创作",
+      "AI工具",
+      "AI编程",
+      "Agent",
+      "代码助手",
+      "代码模型",
+      "代码生成",
+      "代码辅助",
+      "客户端",
+      "对标产品",
+      "开发工具",
+      "校对",
+      "编程Agent"
+    ],
+    "references": 17,
+    "source_article_count": 17,
+    "source_articles": [
+      {
+        "article_id": "120",
+        "title": "Raft说明AI应用不会亡！",
+        "date": "2026-07-15",
+        "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+        "permalink": "/articles/120",
+        "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+        "mention_count": 6
+      },
+      {
+        "article_id": "089",
+        "title": "Slock说明AI群聊不成立",
+        "date": "2026-05-10",
+        "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+        "permalink": "/articles/089",
+        "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+        "mention_count": 6
+      },
+      {
+        "article_id": "109",
+        "title": "智谱与Anthropic是母凭子贵",
+        "date": "2026-06-23",
+        "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "permalink": "/articles/109",
+        "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+        "mention_count": 5
+      },
+      {
+        "article_id": "103",
+        "title": "Kimi看天讨饭吃",
+        "date": "2026-06-10",
+        "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "permalink": "/articles/103",
+        "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+        "mention_count": 5
+      },
+      {
+        "article_id": "100",
+        "title": "网吧黑客松里有真黑客",
+        "date": "2026-06-07",
+        "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+        "permalink": "/articles/100",
+        "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "124",
+        "title": "TapNow想把你困在系统里",
+        "date": "2026-07-26",
+        "path": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+        "permalink": "/articles/124",
+        "markdown_link": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "090",
+        "title": "Bloome重做元宝派",
+        "date": "2026-05-12",
+        "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "permalink": "/articles/090",
+        "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "076",
+        "title": "葬CLI如闪电般上线",
+        "date": "2026-03-26",
+        "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+        "permalink": "/articles/076",
+        "markdown_link": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "066",
+        "title": "AI编程创造世界",
+        "date": "2026-02-24",
+        "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "permalink": "/articles/066",
+        "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "118",
+        "title": "第一届AI恐怖片黑客松开办",
+        "date": "2026-07-12",
+        "path": "articles/118_2026-07-12_骡子马_第一届AI恐怖片黑客松开办.md",
+        "permalink": "/articles/118",
+        "markdown_link": "articles/118_2026-07-12_骡子马_第一届AI恐怖片黑客松开办.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "105",
+        "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+        "date": "2026-06-17",
+        "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "permalink": "/articles/105",
+        "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "102",
+        "title": "腾讯做了一堆情感陪伴Agent",
+        "date": "2026-06-09",
+        "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "permalink": "/articles/102",
+        "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "101",
+        "title": "AI圈神童杀死神人",
+        "date": "2026-06-08",
+        "path": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+        "permalink": "/articles/101",
+        "markdown_link": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "098",
+        "title": "HeyGen不是给人用的",
+        "date": "2026-06-01",
+        "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+        "permalink": "/articles/098",
+        "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "088",
+        "title": "读过豆包赚钱手册才敢自称懂AI",
+        "date": "2026-05-07",
+        "path": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+        "permalink": "/articles/088",
+        "markdown_link": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "029",
+        "title": "AI写作指南3.0编程式写作",
+        "date": "2025-10-16",
+        "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "permalink": "/articles/029",
+        "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "027",
+        "title": "AI写作指南3.0编程式写作",
+        "date": "2025-10-09",
+        "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "permalink": "/articles/027",
+        "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 33,
+    "composite_weight": 0.3991
+  },
+  "links": [
+    {
+      "source": "claude",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Codex比Claude code更快干脆",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "066",
+        "101"
+      ],
+      "evidences": [
+        {
+          "article_id": "101",
+          "title": "AI圈神童杀死神人",
+          "permalink": "/articles/101",
+          "markdown_link": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "path": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "date": "2026-06-08",
+          "label": "文章将两者并列为“AI抓周”的比喻对象，同属AI编程类生产力工具",
+          "weight": 1
+        },
+        {
+          "article_id": "066",
+          "title": "AI编程创造世界",
+          "permalink": "/articles/066",
+          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
+          "date": "2026-02-24",
+          "label": "作者认为Codex比Claude code更快干脆",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude客户端",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "建议做Agent客户端时学习做得更好的Codex而不是Claude",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "建议做Agent客户端时学习做得更好的Codex而不是Claude",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Codex比Claude code更快干脆",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "codex",
+      "target": "claude客户端",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "建议做Agent客户端时学习做得更好的Codex而不是Claude",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "codex",
+      "target": "creative-os",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "TapNow声称Creative OS是创作版的Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "124"
+      ],
+      "evidences": [
+        {
+          "article_id": "124",
+          "title": "TapNow想把你困在系统里",
+          "permalink": "/articles/124",
+          "markdown_link": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "path": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+          "date": "2026-07-26",
+          "label": "TapNow声称Creative OS是创作版的Codex",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "gemini",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将两者并列为“AI抓周”的比喻对象",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "101"
+      ],
+      "evidences": [
+        {
+          "article_id": "101",
+          "title": "AI圈神童杀死神人",
+          "permalink": "/articles/101",
+          "markdown_link": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "path": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "date": "2026-06-08",
+          "label": "文章将两者并列为“AI抓周”的比喻对象",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "glm",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "GLM在生成画布页面的能力上直接超越了没生成出来的Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "105"
+      ],
+      "evidences": [
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "GLM在生成画布页面的能力上直接超越了没生成出来的Codex",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "kimi-work",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Kimi work被称作Kimi自己的Codex客户端平替",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "Kimi work被称作Kimi自己的Codex客户端平替",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "marvis",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章指出在干活能力上大家都比不上Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "102"
+      ],
+      "evidences": [
+        {
+          "article_id": "102",
+          "title": "腾讯做了一堆情感陪伴Agent",
+          "permalink": "/articles/102",
+          "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "date": "2026-06-09",
+          "label": "文章指出在干活能力上大家都比不上Codex",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "tapnow",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章提到TapNow声称自己是「AI创作界的Codex」，将自身产品能力与Codex进行类比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "118"
+      ],
+      "evidences": [
+        {
+          "article_id": "118",
+          "title": "第一届AI恐怖片黑客松开办",
+          "permalink": "/articles/118",
+          "markdown_link": "articles/118_2026-07-12_骡子马_第一届AI恐怖片黑客松开办.md",
+          "path": "articles/118_2026-07-12_骡子马_第一届AI恐怖片黑客松开办.md",
+          "date": "2026-07-12",
+          "label": "文章提到TapNow声称自己是「AI创作界的Codex」，将自身产品能力与Codex进行类比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "creative-os",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "TapNow声称Creative OS是创作版的Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "gemini",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将两者并列为“AI抓周”的比喻对象",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "glm",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "GLM在生成画布页面的能力上直接超越了没生成出来的Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi-work",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Kimi work被称作Kimi自己的Codex客户端平替",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "marvis",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章指出在干活能力上大家都比不上Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "tapnow",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章提到TapNow声称自己是「AI创作界的Codex」，将自身产品能力与Codex进行类比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "claude",
+      "target": "codex",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为可用于写作和编程的Agent工具",
+      "weight": 4,
+      "strength": 3,
+      "effective_weight": 16,
+      "article_count": 4,
+      "evidence_articles": [
+        "027",
+        "029",
+        "089",
+        "100"
+      ],
+      "evidences": [
+        {
+          "article_id": "100",
+          "title": "网吧黑客松里有真黑客",
+          "permalink": "/articles/100",
+          "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "date": "2026-06-07",
+          "label": "两者均为黑客松中常用的AI代码生成工具，文中指出大部分人用Codex，而Claude Code表现不佳被边缘化",
+          "weight": 1
+        },
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "date": "2026-05-10",
+          "label": "文章提到Claude Code在快速被Codex反超",
+          "weight": 1
+        },
+        {
+          "article_id": "029",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/029",
+          "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-16",
+          "label": "两者均为同类的编程Agent工具",
+          "weight": 1
+        },
+        {
+          "article_id": "027",
+          "title": "AI写作指南3.0编程式写作",
+          "permalink": "/articles/027",
+          "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "date": "2025-10-09",
+          "label": "同为可用于写作和编程的Agent工具",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "claude",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为可用于写作和编程的Agent工具",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "codex",
+      "target": "cursor",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Codex和Cursor都是AI编程工具",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "codex",
+      "target": "glm",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在游戏代码编写和需求还原测试中，与Codex进行同台竞技对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "109"
+      ],
+      "evidences": [
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "date": "2026-06-23",
+          "label": "在游戏代码编写和需求还原测试中，与Codex进行同台竞技对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在游戏代码编写测试中与Codex进行了对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "109"
+      ],
+      "evidences": [
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "date": "2026-06-23",
+          "label": "在游戏代码编写测试中与Codex进行了对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cursor",
+      "target": "codex",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Codex和Cursor都是AI编程工具",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "glm",
+      "target": "codex",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在游戏代码编写和需求还原测试中，与Codex进行同台竞技对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi",
+      "target": "codex",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在游戏代码编写测试中与Codex进行了对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "凯一",
+      "target": "codex",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "凯一认为GLM一眼超越了没能生成出画布页面的Codex",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "105"
+      ],
+      "evidences": [
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "凯一认为GLM一眼超越了没能生成出画布页面的Codex",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "openai",
+      "target": "codex",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Codex被指代为OpenAI的产品标杆",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "103"
+      ],
+      "evidences": [
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "date": "2026-06-10",
+          "label": "Codex被指代为OpenAI的产品标杆",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "codex",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "在AI写作SOP流水线中，Claude起完标题后由Codex进行校对",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "088"
+      ],
+      "evidences": [
+        {
+          "article_id": "088",
+          "title": "读过豆包赚钱手册才敢自称懂AI",
+          "permalink": "/articles/088",
+          "markdown_link": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+          "path": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+          "date": "2026-05-07",
+          "label": "在AI写作SOP流水线中，Claude起完标题后由Codex进行校对",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "conductor",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Conductor可以方便地打开使用Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "090"
+      ],
+      "evidences": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "Conductor可以方便地打开使用Codex",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "hyperframes",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "使用HyperFrames必须具备并接入现成的AI agent，如Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "098"
+      ],
+      "evidences": [
+        {
+          "article_id": "098",
+          "title": "HeyGen不是给人用的",
+          "permalink": "/articles/098",
+          "markdown_link": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+          "date": "2026-06-01",
+          "label": "使用HyperFrames必须具备并接入现成的AI agent，如Codex",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "raft",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文中提到Raft群聊里的Agent（如Opencode）可以连接电脑本地的Codex等Agent",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "120"
+      ],
+      "evidences": [
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "date": "2026-07-15",
+          "label": "文中提到Raft群聊里的Agent（如Opencode）可以连接电脑本地的Codex等Agent",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "slock",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Slock群聊中可以接入用户本地的Codex作为Agent",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "089"
+      ],
+      "evidences": [
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "date": "2026-05-10",
+          "label": "Slock群聊中可以接入用户本地的Codex作为Agent",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "tutti",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文中提到Tutti在云端跑着Codex的镜像并实时同步上下文",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "120"
+      ],
+      "evidences": [
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "date": "2026-07-15",
+          "label": "文中提到Tutti在云端跑着Codex的镜像并实时同步上下文",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "奥特曼",
+      "target": "codex",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "文中提到选手在Codex额度用光时等待“奥特曼”大发善心重置额度，暗示其对该工具及所属公司有核心控制权",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "100"
+      ],
+      "evidences": [
+        {
+          "article_id": "100",
+          "title": "网吧黑客松里有真黑客",
+          "permalink": "/articles/100",
+          "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "date": "2026-06-07",
+          "label": "文中提到选手在Codex额度用光时等待“奥特曼”大发善心重置额度，暗示其对该工具及所属公司有核心控制权",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "codex",
+      "target": "qwen",
+      "score": 0.7176,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "027",
+        "029",
+        "066",
+        "076",
+        "103"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "anthropic",
+      "target": "codex",
+      "score": 0.6681,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "066",
+        "103",
+        "105",
+        "109"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "chatgpt",
+      "target": "codex",
+      "score": 0.6615,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "088",
+        "089",
+        "105",
+        "124"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "cherry-studio",
+      "target": "codex",
+      "score": 0.6517,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "027",
+        "029",
+        "066",
+        "076"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "bloome",
+      "target": "codex",
+      "score": 0.6129,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "089",
+        "090",
+        "120"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

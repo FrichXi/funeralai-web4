@@ -1,0 +1,123 @@
+{
+  "node": {
+    "id": "循环智能",
+    "name": "循环智能",
+    "type": "company",
+    "description": "杨圣的前公司，在香港对杨圣提起仲裁",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "仲裁"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "005",
+        "title": "Kimi没有梦想",
+        "date": "2025-06-24",
+        "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+        "permalink": "/articles/005",
+        "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0281
+  },
+  "links": [
+    {
+      "source": "kimi",
+      "target": "循环智能",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "评论将Kimi比作“大号版的循环智能”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "005"
+      ],
+      "evidences": [
+        {
+          "article_id": "005",
+          "title": "Kimi没有梦想",
+          "permalink": "/articles/005",
+          "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "date": "2025-06-24",
+          "label": "评论将Kimi比作“大号版的循环智能”",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "循环智能",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "评论将Kimi比作“大号版的循环智能”",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "循环智能",
+      "target": "杨植麟",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "循环智能在香港对杨圣提起仲裁，发生法律纠纷与指控",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "005"
+      ],
+      "evidences": [
+        {
+          "article_id": "005",
+          "title": "Kimi没有梦想",
+          "permalink": "/articles/005",
+          "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "date": "2025-06-24",
+          "label": "循环智能在香港对杨圣提起仲裁，发生法律纠纷与指控",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "杨植麟",
+      "target": "循环智能",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "循环智能是杨圣的前公司",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "005"
+      ],
+      "evidences": [
+        {
+          "article_id": "005",
+          "title": "Kimi没有梦想",
+          "permalink": "/articles/005",
+          "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "date": "2025-06-24",
+          "label": "循环智能是杨圣的前公司",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

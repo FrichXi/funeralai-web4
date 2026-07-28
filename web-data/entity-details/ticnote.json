@@ -1,0 +1,123 @@
+{
+  "node": {
+    "id": "ticnote",
+    "name": "TicNote",
+    "type": "product",
+    "description": "出门问问推出的录音卡片。",
+    "mention_count": 3,
+    "article_count": 2,
+    "aliases": [
+      "Ticnote",
+      "出门问问TicNote"
+    ],
+    "tags": [
+      "AI硬件",
+      "录音卡片"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "033",
+        "title": "搞AI硬件别装美国公司",
+        "date": "2025-11-14",
+        "path": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+        "permalink": "/articles/033",
+        "markdown_link": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "044",
+        "title": "Plaud善打游击战",
+        "date": "2025-12-23",
+        "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+        "permalink": "/articles/044",
+        "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0282
+  },
+  "links": [
+    {
+      "source": "note",
+      "target": "ticnote",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Plaud的Note与出门问问的TicNote同为录音卡片竞品。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "044"
+      ],
+      "evidences": [
+        {
+          "article_id": "044",
+          "title": "Plaud善打游击战",
+          "permalink": "/articles/044",
+          "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "date": "2025-12-23",
+          "label": "Plaud的Note与出门问问的TicNote同为录音卡片竞品。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "ticnote",
+      "target": "note",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Plaud的Note与出门问问的TicNote同为录音卡片竞品。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "出门问问",
+      "target": "ticnote",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "出门问问开发了TicNote录音卡片。",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "044"
+      ],
+      "evidences": [
+        {
+          "article_id": "044",
+          "title": "Plaud善打游击战",
+          "permalink": "/articles/044",
+          "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "date": "2025-12-23",
+          "label": "出门问问开发了TicNote录音卡片。",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "plaud",
+      "target": "ticnote",
+      "score": 0.5219,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "033",
+        "044"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

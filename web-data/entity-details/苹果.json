@@ -1,0 +1,223 @@
+{
+  "node": {
+    "id": "苹果",
+    "name": "苹果",
+    "type": "company",
+    "description": "科技公司，其封闭生态被用来类比Manus",
+    "mention_count": 6,
+    "article_count": 3,
+    "aliases": [
+      "Apple"
+    ],
+    "tags": [
+      "封闭系统",
+      "科技公司",
+      "科技巨头"
+    ],
+    "references": 3,
+    "source_article_count": 3,
+    "source_articles": [
+      {
+        "article_id": "097",
+        "title": "光帆耳机拒绝长发男",
+        "date": "2026-05-28",
+        "path": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+        "permalink": "/articles/097",
+        "markdown_link": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "067",
+        "title": "OpenClaw不如狗一条",
+        "date": "2026-03-03",
+        "path": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+        "permalink": "/articles/067",
+        "markdown_link": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "043",
+        "title": "Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子",
+        "date": "2025-12-18",
+        "path": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+        "permalink": "/articles/043",
+        "markdown_link": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 8,
+    "composite_weight": 0.0747
+  },
+  "links": [
+    {
+      "source": "manus",
+      "target": "苹果",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Manus被比喻为AI界的苹果，是一个流畅但昂贵的封闭系统",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "067"
+      ],
+      "evidences": [
+        {
+          "article_id": "067",
+          "title": "OpenClaw不如狗一条",
+          "permalink": "/articles/067",
+          "markdown_link": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+          "path": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
+          "date": "2026-03-03",
+          "label": "Manus被比喻为AI界的苹果，是一个流畅但昂贵的封闭系统",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "光帆耳机",
+      "target": "苹果",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "光帆耳机宣发声称在AI硬件产品上抢跑了苹果",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "097"
+      ],
+      "evidences": [
+        {
+          "article_id": "097",
+          "title": "光帆耳机拒绝长发男",
+          "permalink": "/articles/097",
+          "markdown_link": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+          "path": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+          "date": "2026-05-28",
+          "label": "光帆耳机宣发声称在AI硬件产品上抢跑了苹果",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "苹果",
+      "target": "manus",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Manus被比喻为AI界的苹果，是一个流畅但昂贵的封闭系统",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "苹果",
+      "target": "光帆耳机",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "光帆耳机宣发声称在AI硬件产品上抢跑了苹果",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "苹果",
+      "target": "airpods",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "AirPods是苹果公司开发的产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "097"
+      ],
+      "evidences": [
+        {
+          "article_id": "097",
+          "title": "光帆耳机拒绝长发男",
+          "permalink": "/articles/097",
+          "markdown_link": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+          "path": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+          "date": "2026-05-28",
+          "label": "AirPods是苹果公司开发的产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "苹果",
+      "target": "ipod",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "苹果公司在2007年之前开发了iPod",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "043"
+      ],
+      "evidences": [
+        {
+          "article_id": "043",
+          "title": "Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子",
+          "permalink": "/articles/043",
+          "markdown_link": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+          "path": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
+          "date": "2025-12-18",
+          "label": "苹果公司在2007年之前开发了iPod",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "苹果",
+      "target": "siri",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "苹果开发Siri",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "乔布斯",
+      "target": "苹果",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "乔布斯创立苹果",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 5,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "looki",
+      "target": "苹果",
+      "score": 0.4594,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "043",
+        "097"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

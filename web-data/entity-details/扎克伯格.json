@@ -1,0 +1,184 @@
+{
+  "node": {
+    "id": "扎克伯格",
+    "name": "扎克伯格",
+    "type": "person",
+    "description": "Facebook创始人，被36氪采访对标为陈总的比较对象。",
+    "mention_count": 7,
+    "article_count": 4,
+    "aliases": [
+      "Mark Zuckerberg",
+      "Zuckerberg",
+      "小扎",
+      "扎子",
+      "蜥蜴人",
+      "邪恶蜥蜴人"
+    ],
+    "tags": [
+      "CEO",
+      "科技人物"
+    ],
+    "references": 4,
+    "source_article_count": 4,
+    "source_articles": [
+      {
+        "article_id": "015",
+        "title": "在马卡龙面前，孙宇晨和Web3都像是实体经济",
+        "date": "2025-08-18",
+        "path": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+        "permalink": "/articles/015",
+        "markdown_link": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+        "mention_count": 3
+      },
+      {
+        "article_id": "036",
+        "title": "灵感式写作",
+        "date": "2025-11-19",
+        "path": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+        "permalink": "/articles/036",
+        "markdown_link": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "050",
+        "title": "Rokid是我的太阳（指物理温度）",
+        "date": "2026-01-08",
+        "path": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+        "permalink": "/articles/050",
+        "markdown_link": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "048",
+        "title": "第一届Manus杯新加坡概念作文大赛",
+        "date": "2025-12-30",
+        "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+        "permalink": "/articles/048",
+        "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0499
+  },
+  "links": [
+    {
+      "source": "彼得-蒂尔",
+      "target": "扎克伯格",
+      "relation_type": "collaborates_with",
+      "type": "collaborates_with",
+      "label": "两人之间存在邮件通信往来",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "036"
+      ],
+      "evidences": [
+        {
+          "article_id": "036",
+          "title": "灵感式写作",
+          "permalink": "/articles/036",
+          "markdown_link": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "path": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
+          "date": "2025-11-19",
+          "label": "两人之间存在邮件通信往来",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "扎克伯格",
+      "target": "锴杰",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "36氪在采访中将陈总与扎克伯格对标，称扎克伯格想做的Agent被陈总先做出来了。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "015"
+      ],
+      "evidences": [
+        {
+          "article_id": "015",
+          "title": "在马卡龙面前，孙宇晨和Web3都像是实体经济",
+          "permalink": "/articles/015",
+          "markdown_link": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+          "path": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+          "date": "2025-08-18",
+          "label": "36氪在采访中将陈总与扎克伯格对标，称扎克伯格想做的Agent被陈总先做出来了。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "锴杰",
+      "target": "扎克伯格",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "36氪在采访中将陈总与扎克伯格对标，称扎克伯格想做的Agent被陈总先做出来了。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "扎克伯格",
+      "target": "meta",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "扎克伯格是Meta的核心人物及掌控者",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "050"
+      ],
+      "evidences": [
+        {
+          "article_id": "050",
+          "title": "Rokid是我的太阳（指物理温度）",
+          "permalink": "/articles/050",
+          "markdown_link": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+          "path": "articles/050_2026-01-08_葬爱咸鱼_Rokid是我的太阳（指物理温度）.md",
+          "date": "2026-01-08",
+          "label": "扎克伯格是Meta的核心人物及掌控者",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "扎克伯格",
+      "target": "meta",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "扎克伯格作为Meta核心人物主导收购并产生焦虑",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "048"
+      ],
+      "evidences": [
+        {
+          "article_id": "048",
+          "title": "第一届Manus杯新加坡概念作文大赛",
+          "permalink": "/articles/048",
+          "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+          "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+          "date": "2025-12-30",
+          "label": "扎克伯格作为Meta核心人物主导收购并产生焦虑",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

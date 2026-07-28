@@ -1,0 +1,123 @@
+{
+  "node": {
+    "id": "second-me",
+    "name": "Second Me",
+    "type": "product",
+    "description": "一款AI分身帮你社交的产品",
+    "mention_count": 5,
+    "article_count": 2,
+    "aliases": [
+      "Second me"
+    ],
+    "tags": [
+      "AI分身",
+      "社交",
+      "社交产品"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "081",
+        "title": "小登领导AI社交",
+        "date": "2026-04-15",
+        "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+        "permalink": "/articles/081",
+        "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "064",
+        "title": "Elys应该做成AI内涵段子",
+        "date": "2026-02-13",
+        "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "permalink": "/articles/064",
+        "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0431
+  },
+  "links": [
+    {
+      "source": "elys",
+      "target": "second-me",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者第一反应将其视为做Second Me的同类尝试",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "064"
+      ],
+      "evidences": [
+        {
+          "article_id": "064",
+          "title": "Elys应该做成AI内涵段子",
+          "permalink": "/articles/064",
+          "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
+          "date": "2026-02-13",
+          "label": "作者第一反应将其视为做Second Me的同类尝试",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "second-me",
+      "target": "elys",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者第一反应将其视为做Second Me的同类尝试",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "elys",
+      "target": "second-me",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为AI分身社交产品，由于团队节点权重问题表现出截然不同的传播效果",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "081"
+      ],
+      "evidences": [
+        {
+          "article_id": "081",
+          "title": "小登领导AI社交",
+          "permalink": "/articles/081",
+          "markdown_link": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+          "date": "2026-04-15",
+          "label": "同为AI分身社交产品，由于团队节点权重问题表现出截然不同的传播效果",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "second-me",
+      "target": "elys",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为AI分身社交产品，由于团队节点权重问题表现出截然不同的传播效果",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

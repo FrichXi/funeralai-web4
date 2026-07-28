@@ -1,0 +1,110 @@
+{
+  "node": {
+    "id": "扫描全能王",
+    "name": "扫描全能王",
+    "type": "product",
+    "description": "知名实用小工具",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "实用工具"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "021",
+        "title": "Cherry Studio是一个伟大的AI工具",
+        "date": "2025-09-11",
+        "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+        "permalink": "/articles/021",
+        "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0283
+  },
+  "links": [
+    {
+      "source": "cherry-studio",
+      "target": "扫描全能王",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Cherry Studio比喻为扫描全能王一样简单且真正有用的工具",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "021"
+      ],
+      "evidences": [
+        {
+          "article_id": "021",
+          "title": "Cherry Studio是一个伟大的AI工具",
+          "permalink": "/articles/021",
+          "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "date": "2025-09-11",
+          "label": "文章将Cherry Studio比喻为扫描全能王一样简单且真正有用的工具",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "toki",
+      "target": "扫描全能王",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Toki比喻为扫描全能王一样不讲大故事但真正有用的工具",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "021"
+      ],
+      "evidences": [
+        {
+          "article_id": "021",
+          "title": "Cherry Studio是一个伟大的AI工具",
+          "permalink": "/articles/021",
+          "markdown_link": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+          "date": "2025-09-11",
+          "label": "文章将Toki比喻为扫描全能王一样不讲大故事但真正有用的工具",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "扫描全能王",
+      "target": "cherry-studio",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Cherry Studio比喻为扫描全能王一样简单且真正有用的工具",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "扫描全能王",
+      "target": "toki",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Toki比喻为扫描全能王一样不讲大故事但真正有用的工具",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

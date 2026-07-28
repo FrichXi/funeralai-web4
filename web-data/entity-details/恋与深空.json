@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "恋与深空",
+    "name": "恋与深空",
+    "type": "product",
+    "description": "成熟的3D非AI乙女游戏，被多次用于与《星眠》对比",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "IP塑造",
+      "乙女游戏"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "058",
+        "title": "张月光给乙女游戏加了个Chatbot",
+        "date": "2026-01-27",
+        "path": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+        "permalink": "/articles/058",
+        "markdown_link": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0205
+  },
+  "links": [
+    {
+      "source": "恋与深空",
+      "target": "星眠",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将AI乙游《星眠》与传统正经乙游《恋与深空》在IP塑造和角色扮演机制上进行了深度对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "058"
+      ],
+      "evidences": [
+        {
+          "article_id": "058",
+          "title": "张月光给乙女游戏加了个Chatbot",
+          "permalink": "/articles/058",
+          "markdown_link": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+          "path": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
+          "date": "2026-01-27",
+          "label": "作者将AI乙游《星眠》与传统正经乙游《恋与深空》在IP塑造和角色扮演机制上进行了深度对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "星眠",
+      "target": "恋与深空",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将AI乙游《星眠》与传统正经乙游《恋与深空》在IP塑造和角色扮演机制上进行了深度对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}
