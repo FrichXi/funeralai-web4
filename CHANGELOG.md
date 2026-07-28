@@ -24,6 +24,8 @@ All notable changes to this project will be documented in this file.
 - Vitest now writes its cache to `site/node_modules/.vite` instead of recreating `site/src/node_modules` after every test run.
 - Remote release verification now retries complete contract mismatches, including temporary old hashes during custom-domain propagation, instead of retrying only transport errors.
 - Rollback dry-runs can now validate a production target and its release manifest through the existing Wrangler login without write credentials; execution still requires an explicit Pages Write API token and project confirmation.
+- CI now declares NumPy explicitly for NetworkX layouts and generates the frontend lockfile with npm 10.9.4, matching the Node 22 clean-install environment.
+- Repository hygiene now rejects nested Git repositories; the stale `site/.git` metadata was moved intact to the ignored recovery area so Git commands inside `site/` resolve to the canonical root.
 
 - Holistic knowledge-graph review for articles 112-125, including corrections for benchmark-participant/product-user false positives and durable ownership edges for Kimi K3 and LingBot.
 - Article 125 imported from Substack: "建议百度文心一言申请非遗" (125). Incremental pipeline run completed successfully with 19 entities and 20 relationships extracted; post-review public stats are 125 articles / 699 entities / 1860 relationships.

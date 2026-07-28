@@ -129,6 +129,20 @@ if (( ${#nested_node_modules[@]} > 0 )); then
   fail "Tool caches are present inside the source tree: ${nested_node_modules[*]}"
 fi
 
+nested_git_dirs=()
+while IFS= read -r path; do
+  [[ -n "$path" ]] && nested_git_dirs+=("$path")
+done < <(
+  find . -mindepth 2 -type d -name .git \
+    -not -path './site/.stage-test-trash/*' \
+    -not -path '*/node_modules/*' \
+    -print 2>/dev/null
+)
+
+if (( ${#nested_git_dirs[@]} > 0 )); then
+  fail "Nested Git repositories would make repository state ambiguous: ${nested_git_dirs[*]}"
+fi
+
 if ! python3 -m py_compile scripts/release_guard.py; then
   fail "Release guard Python syntax check failed."
 fi
