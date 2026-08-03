@@ -3,22 +3,34 @@
     "id": "陈冕",
     "name": "陈冕",
     "type": "person",
-    "description": "LiblibAI创始人，被文中称为“冕神”，视频Agent行业的关键意见领袖",
-    "mention_count": 17,
-    "article_count": 9,
+    "description": "LibTV/Lovart创始人，被称为“冕神”，双子座，主张激进执行与长期主义",
+    "mention_count": 24,
+    "article_count": 10,
     "aliases": [
+      "Amian",
       "冕",
       "冕神"
     ],
     "tags": [
+      "AI应用",
+      "CEO",
       "KOL",
       "字节4-1",
       "行业KOL",
       "行业人物"
     ],
-    "references": 9,
-    "source_article_count": 9,
+    "references": 10,
+    "source_article_count": 10,
     "source_articles": [
+      {
+        "article_id": "126",
+        "title": "冕神语录",
+        "date": "2026-07-29",
+        "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "permalink": "/articles/126",
+        "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "mention_count": 7
+      },
       {
         "article_id": "119",
         "title": "视频Agent进入大致敬时代",
@@ -101,10 +113,49 @@
         "mention_count": 1
       }
     ],
-    "degree": 11,
-    "composite_weight": 0.154
+    "degree": 15,
+    "composite_weight": 0.2057
   },
   "links": [
+    {
+      "source": "张一鸣",
+      "target": "陈冕",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章作者将陈冕比作下一个张一鸣",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "文章作者将陈冕比作下一个张一鸣",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "陈冕",
+      "target": "张一鸣",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章作者将陈冕比作下一个张一鸣",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
     {
       "source": "陈冕",
       "target": "liblib",
@@ -137,14 +188,25 @@
       "relation_type": "founder_of",
       "type": "founder_of",
       "label": "陈冕创办了LibTV",
-      "weight": 1,
+      "weight": 2,
       "strength": 5,
-      "effective_weight": 6,
-      "article_count": 1,
+      "effective_weight": 12,
+      "article_count": 2,
       "evidence_articles": [
-        "106"
+        "106",
+        "126"
       ],
       "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "陈冕是LibTV的创始人兼CEO",
+          "weight": 1
+        },
         {
           "article_id": "106",
           "title": "我来给LibTV道喜了",
@@ -363,6 +425,32 @@
     },
     {
       "source": "陈冕",
+      "target": "manus",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "陈冕表达对Manus的敬意，认同其less structure more intelligence理念",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "陈冕表达对Manus的敬意，认同其less structure more intelligence理念",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "陈冕",
       "target": "lovart",
       "relation_type": "works_at",
       "type": "works_at",
@@ -393,17 +481,28 @@
       "relation_type": "works_at",
       "type": "works_at",
       "label": "文中提到“字节4-1做创业公司的思路”，暗指陈冕曾为字节跳动的高阶员工。",
-      "weight": 4,
+      "weight": 5,
       "strength": 4,
-      "effective_weight": 20,
-      "article_count": 4,
+      "effective_weight": 25,
+      "article_count": 5,
       "evidence_articles": [
         "073",
         "078",
         "106",
-        "119"
+        "119",
+        "126"
       ],
       "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "陈冕语录中提到“回字节打工吧”，暗示其可能有字节跳动工作背景或将其作为退路调侃",
+          "weight": 1
+        },
         {
           "article_id": "119",
           "title": "视频Agent进入大致敬时代",
@@ -445,23 +544,35 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "陈冕",
+      "target": "lovart",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "陈冕深度参与Lovart的产品决策与开发节奏把控",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "陈冕深度参与Lovart的产品决策与开发节奏把控",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
-    {
-      "source": "manus",
-      "target": "陈冕",
-      "score": 0.4812,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
-      "evidence_article_ids": [
-        "049",
-        "055",
-        "073",
-        "106"
-      ],
-      "status": "suggested"
-    },
     {
       "source": "阿里巴巴",
       "target": "陈冕",
@@ -476,9 +587,24 @@
       "status": "suggested"
     },
     {
+      "source": "tapnow",
+      "target": "陈冕",
+      "score": 0.4658,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 1 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "073",
+        "078",
+        "116",
+        "119",
+        "126"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "seedance",
       "target": "陈冕",
-      "score": 0.4073,
+      "score": 0.4063,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -486,20 +612,6 @@
         "106",
         "116",
         "117"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "tapnow",
-      "target": "陈冕",
-      "score": 0.3969,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 1 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "073",
-        "078",
-        "116",
-        "119"
       ],
       "status": "suggested"
     }

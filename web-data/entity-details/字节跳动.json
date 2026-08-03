@@ -4,8 +4,8 @@
     "name": "字节跳动",
     "type": "company",
     "description": "中国互联网科技公司，开发了抖音、即梦等产品，文中探讨了其通过AI视频模型实现社交的布局。",
-    "mention_count": 133,
-    "article_count": 30,
+    "mention_count": 135,
+    "article_count": 31,
     "aliases": [
       "ByteDance",
       "大厂",
@@ -31,6 +31,7 @@
       "基础设施",
       "大厂",
       "大模型",
+      "对标对象",
       "数字人",
       "模型层",
       "生态系统",
@@ -41,8 +42,8 @@
       "视频生成",
       "语音模型"
     ],
-    "references": 30,
-    "source_article_count": 30,
+    "references": 31,
+    "source_article_count": 31,
     "source_articles": [
       {
         "article_id": "040",
@@ -169,6 +170,15 @@
         "permalink": "/articles/078",
         "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "126",
+        "title": "冕神语录",
+        "date": "2026-07-29",
+        "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "permalink": "/articles/126",
+        "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "mention_count": 2
       },
       {
         "article_id": "110",
@@ -315,8 +325,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 51,
-    "composite_weight": 0.6871
+    "degree": 53,
+    "composite_weight": 0.7103
   },
   "links": [
     {
@@ -398,11 +408,50 @@
       ]
     },
     {
+      "source": "libtv",
+      "target": "字节跳动",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章作者将LibTV比作下一个字节跳动",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "文章作者将LibTV比作下一个字节跳动",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "字节跳动",
       "target": "atoms",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "Atoms宣称自己是帮助个体搭建AI版的字节跳动",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "字节跳动",
+      "target": "libtv",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章作者将LibTV比作下一个字节跳动",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -1913,17 +1962,28 @@
       "relation_type": "works_at",
       "type": "works_at",
       "label": "文中提到“字节4-1做创业公司的思路”，暗指陈冕曾为字节跳动的高阶员工。",
-      "weight": 4,
+      "weight": 5,
       "strength": 4,
-      "effective_weight": 20,
-      "article_count": 4,
+      "effective_weight": 25,
+      "article_count": 5,
       "evidence_articles": [
         "073",
         "078",
         "106",
-        "119"
+        "119",
+        "126"
       ],
       "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "陈冕语录中提到“回字节打工吧”，暗示其可能有字节跳动工作背景或将其作为退路调侃",
+          "weight": 1
+        },
         {
           "article_id": "119",
           "title": "视频Agent进入大致敬时代",
@@ -1971,7 +2031,7 @@
     {
       "source": "flova",
       "target": "字节跳动",
-      "score": 0.8721,
+      "score": 0.8711,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 6 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1985,9 +2045,9 @@
     {
       "source": "manus",
       "target": "字节跳动",
-      "score": 0.7531,
+      "score": 0.8287,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "017",
         "018",
@@ -2030,7 +2090,7 @@
     {
       "source": "oiioii",
       "target": "字节跳动",
-      "score": 0.6676,
+      "score": 0.6665,
       "suggested_relation_type": "related",
       "reason": "共同出现于 6 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [

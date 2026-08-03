@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-28T16:07:46Z",
+  "updatedAt": "2026-08-03T09:30:58Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -2501,6 +2501,46 @@
       "artifact_path": "data/extracted/125.json",
       "raw_path": "data/gemini_raw/125.json",
       "extracted_at": "2026-07-28T06:01:50Z",
+      "last_error": null,
+      "extractor": {
+        "name": "qwen-openai-compatible",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "126": {
+      "article_id": "126",
+      "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+      "title": "冕神语录",
+      "date": "2026-07-29",
+      "author": "葬爱咸鱼",
+      "content_hash": "53e732a422f055c9c7c4110b688ee71bc170f6b8a591a7769ddc2f9dd749b8f7",
+      "status": "ready",
+      "reason": "forced",
+      "artifact_path": "data/extracted/126.json",
+      "raw_path": "data/gemini_raw/126.json",
+      "extracted_at": "2026-08-03T09:30:58Z",
+      "last_error": null,
+      "extractor": {
+        "name": "qwen-openai-compatible",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "127": {
+      "article_id": "127",
+      "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+      "title": "MiniMax用H3窃取大结果",
+      "date": "2026-08-02",
+      "author": "骡子马",
+      "content_hash": "eb08666e019552e50da217a050381125f343e1e54df99b7c3e28a9c84ec10dcd",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/127.json",
+      "raw_path": "data/gemini_raw/127.json",
+      "extracted_at": "2026-08-03T09:28:52Z",
       "last_error": null,
       "extractor": {
         "name": "qwen-openai-compatible",

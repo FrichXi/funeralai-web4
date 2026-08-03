@@ -293,7 +293,258 @@
         }
       ],
       "degree": 66,
-      "composite_weight": 0.8945
+      "composite_weight": 0.8919
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内头部大模型公司，开发了M3模型、海螺视频模型及Talkie/星野等C端产品",
+      "mention_count": 243,
+      "article_count": 23,
+      "aliases": [
+        "MinMax",
+        "Minimax"
+      ],
+      "tags": [
+        "AI公司",
+        "AI六小虎",
+        "AI四小虎",
+        "AI四小龙",
+        "AI大模型",
+        "AI视频",
+        "C端",
+        "C端应用",
+        "IPO",
+        "上市",
+        "上市公司",
+        "世界模型",
+        "人工智能",
+        "付费墙",
+        "出海",
+        "多模态",
+        "大模型",
+        "大模型公司",
+        "开源",
+        "情感陪伴",
+        "斩杀线",
+        "模型厂",
+        "模型层",
+        "视频生成模型"
+      ],
+      "references": 23,
+      "source_article_count": 23,
+      "source_articles": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "date": "2026-07-11",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "mention_count": 71
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "date": "2026-07-09",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "mention_count": 45
+        },
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "date": "2025-06-23",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "mention_count": 29
+        },
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "date": "2026-08-02",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "mention_count": 27
+        },
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "date": "2026-01-05",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "mention_count": 17
+        },
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "date": "2026-06-17",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "mention_count": 9
+        },
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "date": "2026-06-24",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "mention_count": 6
+        },
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "date": "2026-06-23",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "mention_count": 6
+        },
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "date": "2026-07-22",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "mention_count": 5
+        },
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "date": "2026-01-26",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "mention_count": 5
+        },
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "date": "2025-07-25",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "mention_count": 4
+        },
+        {
+          "article_id": "119",
+          "title": "视频Agent进入大致敬时代",
+          "date": "2026-07-14",
+          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "permalink": "/articles/119",
+          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "date": "2026-06-10",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "068",
+          "title": "云端OpenClaw更是路边一条",
+          "date": "2026-03-04",
+          "path": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+          "permalink": "/articles/068",
+          "markdown_link": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "060",
+          "title": "Clawdbot是一场马斯克发动的中登炒作",
+          "date": "2026-01-30",
+          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "permalink": "/articles/060",
+          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "date": "2026-01-22",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "023",
+          "title": "全球首个性压抑AI发布",
+          "date": "2025-09-17",
+          "path": "articles/023_2025-09-17_葬爱咸鱼_全球首个性压抑AI发布.md",
+          "permalink": "/articles/023",
+          "markdown_link": "articles/023_2025-09-17_葬爱咸鱼_全球首个性压抑AI发布.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "100",
+          "title": "网吧黑客松里有真黑客",
+          "date": "2026-06-07",
+          "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "permalink": "/articles/100",
+          "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "date": "2026-06-04",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "date": "2026-05-10",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "date": "2026-04-27",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "044",
+          "title": "Plaud善打游击战",
+          "date": "2025-12-23",
+          "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "permalink": "/articles/044",
+          "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "016",
+          "title": "Manus依然是版本神",
+          "date": "2025-08-25",
+          "path": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
+          "permalink": "/articles/016",
+          "markdown_link": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
+          "mention_count": 1
+        }
+      ],
+      "degree": 45,
+      "composite_weight": 0.7445
     },
     {
       "id": "claude",
@@ -687,255 +938,15 @@
         }
       ],
       "degree": 79,
-      "composite_weight": 1.0
-    },
-    {
-      "id": "minimax",
-      "name": "MiniMax",
-      "type": "company",
-      "description": "国内头部大模型公司，开发了M3模型、海螺视频模型及Talkie/星野等C端产品",
-      "mention_count": 216,
-      "article_count": 22,
-      "aliases": [
-        "MinMax",
-        "Minimax"
-      ],
-      "tags": [
-        "AI公司",
-        "AI六小虎",
-        "AI四小虎",
-        "AI四小龙",
-        "AI大模型",
-        "AI视频",
-        "C端",
-        "C端应用",
-        "IPO",
-        "上市",
-        "上市公司",
-        "人工智能",
-        "付费墙",
-        "出海",
-        "多模态",
-        "大模型",
-        "大模型公司",
-        "情感陪伴",
-        "斩杀线",
-        "模型厂",
-        "模型层",
-        "视频生成模型"
-      ],
-      "references": 22,
-      "source_article_count": 22,
-      "source_articles": [
-        {
-          "article_id": "117",
-          "title": "我来给MiniMax道歉了",
-          "date": "2026-07-11",
-          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
-          "permalink": "/articles/117",
-          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
-          "mention_count": 71
-        },
-        {
-          "article_id": "116",
-          "title": "民办大模型MiniMax努力专升本",
-          "date": "2026-07-09",
-          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
-          "permalink": "/articles/116",
-          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
-          "mention_count": 45
-        },
-        {
-          "article_id": "004",
-          "title": "MiniMax的胖猫宇宙",
-          "date": "2025-06-23",
-          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
-          "permalink": "/articles/004",
-          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
-          "mention_count": 29
-        },
-        {
-          "article_id": "049",
-          "title": "建议六小虎合并，实现China AGI",
-          "date": "2026-01-05",
-          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "permalink": "/articles/049",
-          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "mention_count": 17
-        },
-        {
-          "article_id": "105",
-          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
-          "date": "2026-06-17",
-          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
-          "permalink": "/articles/105",
-          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
-          "mention_count": 9
-        },
-        {
-          "article_id": "110",
-          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
-          "date": "2026-06-24",
-          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
-          "permalink": "/articles/110",
-          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
-          "mention_count": 6
-        },
-        {
-          "article_id": "109",
-          "title": "智谱与Anthropic是母凭子贵",
-          "date": "2026-06-23",
-          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
-          "permalink": "/articles/109",
-          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
-          "mention_count": 6
-        },
-        {
-          "article_id": "122",
-          "title": "Kimi K3打响前端闪电战",
-          "date": "2026-07-22",
-          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
-          "permalink": "/articles/122",
-          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
-          "mention_count": 5
-        },
-        {
-          "article_id": "057",
-          "title": "AI四小虎进入狠活大赛",
-          "date": "2026-01-26",
-          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
-          "permalink": "/articles/057",
-          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
-          "mention_count": 5
-        },
-        {
-          "article_id": "012",
-          "title": "CrePal成为首个胖猫视频Agent",
-          "date": "2025-07-25",
-          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
-          "permalink": "/articles/012",
-          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
-          "mention_count": 4
-        },
-        {
-          "article_id": "119",
-          "title": "视频Agent进入大致敬时代",
-          "date": "2026-07-14",
-          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
-          "permalink": "/articles/119",
-          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "103",
-          "title": "Kimi看天讨饭吃",
-          "date": "2026-06-10",
-          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
-          "permalink": "/articles/103",
-          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "068",
-          "title": "云端OpenClaw更是路边一条",
-          "date": "2026-03-04",
-          "path": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
-          "permalink": "/articles/068",
-          "markdown_link": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "060",
-          "title": "Clawdbot是一场马斯克发动的中登炒作",
-          "date": "2026-01-30",
-          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
-          "permalink": "/articles/060",
-          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "055",
-          "title": "来认识下2025年最活跃的CVC",
-          "date": "2026-01-22",
-          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
-          "permalink": "/articles/055",
-          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "023",
-          "title": "全球首个性压抑AI发布",
-          "date": "2025-09-17",
-          "path": "articles/023_2025-09-17_葬爱咸鱼_全球首个性压抑AI发布.md",
-          "permalink": "/articles/023",
-          "markdown_link": "articles/023_2025-09-17_葬爱咸鱼_全球首个性压抑AI发布.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "100",
-          "title": "网吧黑客松里有真黑客",
-          "date": "2026-06-07",
-          "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
-          "permalink": "/articles/100",
-          "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "099",
-          "title": "马卡龙开创AI短剧Neo Lab",
-          "date": "2026-06-04",
-          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
-          "permalink": "/articles/099",
-          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "089",
-          "title": "Slock说明AI群聊不成立",
-          "date": "2026-05-10",
-          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
-          "permalink": "/articles/089",
-          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "085",
-          "title": "谁是宇宙第一FA",
-          "date": "2026-04-27",
-          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "permalink": "/articles/085",
-          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "044",
-          "title": "Plaud善打游击战",
-          "date": "2025-12-23",
-          "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
-          "permalink": "/articles/044",
-          "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "016",
-          "title": "Manus依然是版本神",
-          "date": "2025-08-25",
-          "path": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
-          "permalink": "/articles/016",
-          "markdown_link": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
-          "mention_count": 1
-        }
-      ],
-      "degree": 44,
-      "composite_weight": 0.6609
+      "composite_weight": 0.9972
     },
     {
       "id": "字节跳动",
       "name": "字节跳动",
       "type": "company",
       "description": "中国互联网科技公司，开发了抖音、即梦等产品，文中探讨了其通过AI视频模型实现社交的布局。",
-      "mention_count": 133,
-      "article_count": 30,
+      "mention_count": 135,
+      "article_count": 31,
       "aliases": [
         "ByteDance",
         "大厂",
@@ -961,6 +972,7 @@
         "基础设施",
         "大厂",
         "大模型",
+        "对标对象",
         "数字人",
         "模型层",
         "生态系统",
@@ -971,8 +983,8 @@
         "视频生成",
         "语音模型"
       ],
-      "references": 30,
-      "source_article_count": 30,
+      "references": 31,
+      "source_article_count": 31,
       "source_articles": [
         {
           "article_id": "040",
@@ -1099,6 +1111,15 @@
           "permalink": "/articles/078",
           "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
           "mention_count": 3
+        },
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "date": "2026-07-29",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "mention_count": 2
         },
         {
           "article_id": "110",
@@ -1245,8 +1266,8 @@
           "mention_count": 1
         }
       ],
-      "degree": 51,
-      "composite_weight": 0.6871
+      "degree": 53,
+      "composite_weight": 0.7103
     },
     {
       "id": "kimi",
@@ -1539,7 +1560,7 @@
         }
       ],
       "degree": 46,
-      "composite_weight": 0.6552
+      "composite_weight": 0.6531
     },
     {
       "id": "yinsen",
@@ -1575,7 +1596,7 @@
         }
       ],
       "degree": 13,
-      "composite_weight": 0.1364
+      "composite_weight": 0.1362
     },
     {
       "id": "智谱ai",
@@ -1800,147 +1821,15 @@
         }
       ],
       "degree": 50,
-      "composite_weight": 0.5995
-    },
-    {
-      "id": "马卡龙",
-      "name": "马卡龙",
-      "type": "product",
-      "description": "Mindverse的起家产品，曾定位为Personal agent，现转型为收集数据的Agent harness",
-      "mention_count": 108,
-      "article_count": 8,
-      "aliases": [
-        "3D版马卡龙",
-        "Macaron",
-        "马卡龙APP"
-      ],
-      "tags": [
-        "AI助手",
-        "AI应用",
-        "AI游戏",
-        "AI短剧",
-        "Agent商店",
-        "Personal Agent",
-        "Personal agent",
-        "Vibe Coding",
-        "合成叙事",
-        "后训练",
-        "基准测试",
-        "网络小说"
-      ],
-      "references": 8,
-      "source_article_count": 8,
-      "source_articles": [
-        {
-          "article_id": "099",
-          "title": "马卡龙开创AI短剧Neo Lab",
-          "date": "2026-06-04",
-          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
-          "permalink": "/articles/099",
-          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
-          "mention_count": 42
-        },
-        {
-          "article_id": "038",
-          "title": "建议蚂蚁集团收购马卡龙",
-          "date": "2025-12-02",
-          "path": "articles/038_2025-12-02_葬爱咸鱼_建议蚂蚁集团收购马卡龙.md",
-          "permalink": "/articles/038",
-          "markdown_link": "articles/038_2025-12-02_葬爱咸鱼_建议蚂蚁集团收购马卡龙.md",
-          "mention_count": 30
-        },
-        {
-          "article_id": "015",
-          "title": "在马卡龙面前，孙宇晨和Web3都像是实体经济",
-          "date": "2025-08-18",
-          "path": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
-          "permalink": "/articles/015",
-          "markdown_link": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
-          "mention_count": 22
-        },
-        {
-          "article_id": "113",
-          "title": "世界模型走了一些弯路",
-          "date": "2026-07-02",
-          "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
-          "permalink": "/articles/113",
-          "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
-          "mention_count": 6
-        },
-        {
-          "article_id": "055",
-          "title": "来认识下2025年最活跃的CVC",
-          "date": "2026-01-22",
-          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
-          "permalink": "/articles/055",
-          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "040",
-          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
-          "date": "2025-12-12",
-          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
-          "permalink": "/articles/040",
-          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "121",
-          "title": "蚂蚁把世界模型作为一场儿戏",
-          "date": "2026-07-16",
-          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
-          "permalink": "/articles/121",
-          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "060",
-          "title": "Clawdbot是一场马斯克发动的中登炒作",
-          "date": "2026-01-30",
-          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
-          "permalink": "/articles/060",
-          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
-          "mention_count": 1
-        }
-      ],
-      "degree": 27,
-      "composite_weight": 0.3351
-    },
-    {
-      "id": "杨洁",
-      "name": "杨洁",
-      "type": "person",
-      "description": "锦秋基金创始合伙人，前红杉、字节跳动员工",
-      "mention_count": 105,
-      "article_count": 1,
-      "aliases": [],
-      "tags": [
-        "创始合伙人"
-      ],
-      "references": 1,
-      "source_article_count": 1,
-      "source_articles": [
-        {
-          "article_id": "040",
-          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
-          "date": "2025-12-12",
-          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
-          "permalink": "/articles/040",
-          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
-          "mention_count": 105
-        }
-      ],
-      "degree": 10,
-      "composite_weight": 0.0958
+      "composite_weight": 0.5978
     },
     {
       "id": "manus",
       "name": "Manus",
       "type": "product",
-      "description": "通用Agent平台，被作者称为“版本神”，开创了左边大模型右边云电脑沙盒的产品形态",
-      "mention_count": 107,
-      "article_count": 26,
+      "description": "AI Agent产品，主张less structure more intelligence，对Lovart有启发作用",
+      "mention_count": 120,
+      "article_count": 27,
       "aliases": [
         "Manus (产品)",
         "Manus Agents",
@@ -1967,14 +1856,15 @@
         "新加坡公司",
         "本地Agent",
         "沙盒",
+        "竞品/对标",
         "类龙虾产品",
         "纯炒作",
         "通用Agent",
         "邮件交互",
         "高营收"
       ],
-      "references": 26,
-      "source_article_count": 26,
+      "references": 27,
+      "source_article_count": 27,
       "source_articles": [
         {
           "article_id": "016",
@@ -1984,6 +1874,15 @@
           "permalink": "/articles/016",
           "markdown_link": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
           "mention_count": 31
+        },
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "date": "2026-07-29",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "mention_count": 13
         },
         {
           "article_id": "067",
@@ -2211,8 +2110,140 @@
           "mention_count": 6
         }
       ],
-      "degree": 58,
-      "composite_weight": 0.564
+      "degree": 59,
+      "composite_weight": 0.6131
+    },
+    {
+      "id": "马卡龙",
+      "name": "马卡龙",
+      "type": "product",
+      "description": "Mindverse的起家产品，曾定位为Personal agent，现转型为收集数据的Agent harness",
+      "mention_count": 108,
+      "article_count": 8,
+      "aliases": [
+        "3D版马卡龙",
+        "Macaron",
+        "马卡龙APP"
+      ],
+      "tags": [
+        "AI助手",
+        "AI应用",
+        "AI游戏",
+        "AI短剧",
+        "Agent商店",
+        "Personal Agent",
+        "Personal agent",
+        "Vibe Coding",
+        "合成叙事",
+        "后训练",
+        "基准测试",
+        "网络小说"
+      ],
+      "references": 8,
+      "source_article_count": 8,
+      "source_articles": [
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "date": "2026-06-04",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "mention_count": 42
+        },
+        {
+          "article_id": "038",
+          "title": "建议蚂蚁集团收购马卡龙",
+          "date": "2025-12-02",
+          "path": "articles/038_2025-12-02_葬爱咸鱼_建议蚂蚁集团收购马卡龙.md",
+          "permalink": "/articles/038",
+          "markdown_link": "articles/038_2025-12-02_葬爱咸鱼_建议蚂蚁集团收购马卡龙.md",
+          "mention_count": 30
+        },
+        {
+          "article_id": "015",
+          "title": "在马卡龙面前，孙宇晨和Web3都像是实体经济",
+          "date": "2025-08-18",
+          "path": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+          "permalink": "/articles/015",
+          "markdown_link": "articles/015_2025-08-18_葬爱咸鱼_在马卡龙面前，孙宇晨和Web3都像是实体经济.md",
+          "mention_count": 22
+        },
+        {
+          "article_id": "113",
+          "title": "世界模型走了一些弯路",
+          "date": "2026-07-02",
+          "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "permalink": "/articles/113",
+          "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "mention_count": 6
+        },
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "date": "2026-01-22",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "040",
+          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+          "date": "2025-12-12",
+          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "permalink": "/articles/040",
+          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "121",
+          "title": "蚂蚁把世界模型作为一场儿戏",
+          "date": "2026-07-16",
+          "path": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "permalink": "/articles/121",
+          "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "060",
+          "title": "Clawdbot是一场马斯克发动的中登炒作",
+          "date": "2026-01-30",
+          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "permalink": "/articles/060",
+          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "mention_count": 1
+        }
+      ],
+      "degree": 27,
+      "composite_weight": 0.3343
+    },
+    {
+      "id": "杨洁",
+      "name": "杨洁",
+      "type": "person",
+      "description": "锦秋基金创始合伙人，前红杉、字节跳动员工",
+      "mention_count": 105,
+      "article_count": 1,
+      "aliases": [],
+      "tags": [
+        "创始合伙人"
+      ],
+      "references": 1,
+      "source_article_count": 1,
+      "source_articles": [
+        {
+          "article_id": "040",
+          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+          "date": "2025-12-12",
+          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "permalink": "/articles/040",
+          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "mention_count": 105
+        }
+      ],
+      "degree": 10,
+      "composite_weight": 0.0957
     },
     {
       "id": "qwen",
@@ -2439,7 +2470,7 @@
         }
       ],
       "degree": 51,
-      "composite_weight": 0.6268
+      "composite_weight": 0.6251
     },
     {
       "id": "cherry-studio",
@@ -2571,7 +2602,7 @@
         }
       ],
       "degree": 29,
-      "composite_weight": 0.2913
+      "composite_weight": 0.2906
     },
     {
       "id": "looki",
@@ -2683,7 +2714,7 @@
         }
       ],
       "degree": 21,
-      "composite_weight": 0.2631
+      "composite_weight": 0.2624
     },
     {
       "id": "seed",
@@ -2750,7 +2781,150 @@
         }
       ],
       "degree": 26,
-      "composite_weight": 0.3474
+      "composite_weight": 0.3467
+    },
+    {
+      "id": "libtv",
+      "name": "LibTV",
+      "type": "product",
+      "description": "AI短剧/视频平台，是Seedance的大客户，也是MiniMax复刻的对象",
+      "mention_count": 79,
+      "article_count": 12,
+      "aliases": [
+        "Liblib",
+        "Libtv",
+        "liblib.tv",
+        "爱冕TV"
+      ],
+      "tags": [
+        "AI应用",
+        "AI短剧",
+        "KA客户",
+        "TV形态",
+        "开源",
+        "短剧",
+        "致敬",
+        "被投企业",
+        "视频Agent",
+        "视频agent",
+        "视频平台",
+        "视频模型",
+        "视频生成"
+      ],
+      "references": 12,
+      "source_article_count": 12,
+      "source_articles": [
+        {
+          "article_id": "106",
+          "title": "我来给LibTV道喜了",
+          "date": "2026-06-18",
+          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "permalink": "/articles/106",
+          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "mention_count": 27
+        },
+        {
+          "article_id": "073",
+          "title": "Lovart狂做TapNow",
+          "date": "2026-03-19",
+          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "permalink": "/articles/073",
+          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "mention_count": 13
+        },
+        {
+          "article_id": "119",
+          "title": "视频Agent进入大致敬时代",
+          "date": "2026-07-14",
+          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "permalink": "/articles/119",
+          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "mention_count": 12
+        },
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "date": "2026-07-29",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "mention_count": 8
+        },
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "date": "2026-07-11",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "mention_count": 4
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "date": "2026-07-09",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "mention_count": 4
+        },
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "date": "2026-06-23",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "mention_count": 4
+        },
+        {
+          "article_id": "115",
+          "title": "网吧黑客松为西湖醋鱼平反",
+          "date": "2026-07-08",
+          "path": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
+          "permalink": "/articles/115",
+          "markdown_link": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "date": "2026-08-02",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "125",
+          "title": "建议百度文心一言申请非遗",
+          "date": "2026-07-28",
+          "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "permalink": "/articles/125",
+          "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "date": "2026-06-04",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "078",
+          "title": "Flova和TapNow背对背拥抱",
+          "date": "2026-04-07",
+          "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "permalink": "/articles/078",
+          "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "mention_count": 1
+        }
+      ],
+      "degree": 40,
+      "composite_weight": 0.5153
     },
     {
       "id": "openclaw",
@@ -2922,7 +3096,7 @@
         }
       ],
       "degree": 34,
-      "composite_weight": 0.44
+      "composite_weight": 0.4388
     },
     {
       "id": "百度",
@@ -3031,7 +3205,7 @@
         }
       ],
       "degree": 25,
-      "composite_weight": 0.3137
+      "composite_weight": 0.3129
     },
     {
       "id": "seedance",
@@ -3144,7 +3318,7 @@
         }
       ],
       "degree": 23,
-      "composite_weight": 0.3165
+      "composite_weight": 0.3156
     },
     {
       "id": "plaud",
@@ -3233,7 +3407,7 @@
         }
       ],
       "degree": 19,
-      "composite_weight": 0.1999
+      "composite_weight": 0.1995
     },
     {
       "id": "mulerun",
@@ -3350,129 +3524,7 @@
         }
       ],
       "degree": 33,
-      "composite_weight": 0.362
-    },
-    {
-      "id": "libtv",
-      "name": "LibTV",
-      "type": "product",
-      "description": "AI短剧/视频平台，是Seedance的大客户，也是MiniMax复刻的对象",
-      "mention_count": 70,
-      "article_count": 10,
-      "aliases": [
-        "Libtv",
-        "liblib.tv",
-        "爱冕TV"
-      ],
-      "tags": [
-        "AI应用",
-        "AI短剧",
-        "KA客户",
-        "TV形态",
-        "短剧",
-        "致敬",
-        "被投企业",
-        "视频Agent",
-        "视频agent",
-        "视频平台",
-        "视频生成"
-      ],
-      "references": 10,
-      "source_article_count": 10,
-      "source_articles": [
-        {
-          "article_id": "106",
-          "title": "我来给LibTV道喜了",
-          "date": "2026-06-18",
-          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
-          "permalink": "/articles/106",
-          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
-          "mention_count": 27
-        },
-        {
-          "article_id": "073",
-          "title": "Lovart狂做TapNow",
-          "date": "2026-03-19",
-          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
-          "permalink": "/articles/073",
-          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
-          "mention_count": 13
-        },
-        {
-          "article_id": "119",
-          "title": "视频Agent进入大致敬时代",
-          "date": "2026-07-14",
-          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
-          "permalink": "/articles/119",
-          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
-          "mention_count": 12
-        },
-        {
-          "article_id": "117",
-          "title": "我来给MiniMax道歉了",
-          "date": "2026-07-11",
-          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
-          "permalink": "/articles/117",
-          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
-          "mention_count": 4
-        },
-        {
-          "article_id": "116",
-          "title": "民办大模型MiniMax努力专升本",
-          "date": "2026-07-09",
-          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
-          "permalink": "/articles/116",
-          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
-          "mention_count": 4
-        },
-        {
-          "article_id": "109",
-          "title": "智谱与Anthropic是母凭子贵",
-          "date": "2026-06-23",
-          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
-          "permalink": "/articles/109",
-          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
-          "mention_count": 4
-        },
-        {
-          "article_id": "115",
-          "title": "网吧黑客松为西湖醋鱼平反",
-          "date": "2026-07-08",
-          "path": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
-          "permalink": "/articles/115",
-          "markdown_link": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "125",
-          "title": "建议百度文心一言申请非遗",
-          "date": "2026-07-28",
-          "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
-          "permalink": "/articles/125",
-          "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "099",
-          "title": "马卡龙开创AI短剧Neo Lab",
-          "date": "2026-06-04",
-          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
-          "permalink": "/articles/099",
-          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "078",
-          "title": "Flova和TapNow背对背拥抱",
-          "date": "2026-04-07",
-          "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
-          "permalink": "/articles/078",
-          "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
-          "mention_count": 1
-        }
-      ],
-      "degree": 35,
-      "composite_weight": 0.4448
+      "composite_weight": 0.3613
     },
     {
       "id": "扣子",
@@ -3569,7 +3621,7 @@
         }
       ],
       "degree": 21,
-      "composite_weight": 0.2397
+      "composite_weight": 0.2391
     },
     {
       "id": "a16z",
@@ -3637,7 +3689,7 @@
         }
       ],
       "degree": 17,
-      "composite_weight": 0.1593
+      "composite_weight": 0.159
     },
     {
       "id": "glm",
@@ -3714,7 +3766,7 @@
         }
       ],
       "degree": 18,
-      "composite_weight": 0.3002
+      "composite_weight": 0.2994
     },
     {
       "id": "elys",
@@ -3774,7 +3826,7 @@
         }
       ],
       "degree": 25,
-      "composite_weight": 0.2721
+      "composite_weight": 0.2716
     },
     {
       "id": "deepseek",
@@ -3975,7 +4027,182 @@
         }
       ],
       "degree": 26,
-      "composite_weight": 0.3548
+      "composite_weight": 0.3535
+    },
+    {
+      "id": "lovart",
+      "name": "Lovart",
+      "type": "product",
+      "description": "海报设计应用，钉钉的AI印被形容为再造了该产品，且钉钉为其提供了后端服务",
+      "mention_count": 61,
+      "article_count": 16,
+      "aliases": [],
+      "tags": [
+        "AI Agent",
+        "AIGC工具",
+        "AI公司",
+        "AI生图",
+        "AI生成",
+        "AI软件",
+        "AI项目",
+        "中转站",
+        "套壳",
+        "弱信息场景",
+        "视频Agent",
+        "视频生成",
+        "设计工具",
+        "设计应用"
+      ],
+      "references": 16,
+      "source_article_count": 16,
+      "source_articles": [
+        {
+          "article_id": "073",
+          "title": "Lovart狂做TapNow",
+          "date": "2026-03-19",
+          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "permalink": "/articles/073",
+          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "mention_count": 23
+        },
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "date": "2026-07-29",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "mention_count": 6
+        },
+        {
+          "article_id": "106",
+          "title": "我来给LibTV道喜了",
+          "date": "2026-06-18",
+          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "permalink": "/articles/106",
+          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "mention_count": 5
+        },
+        {
+          "article_id": "076",
+          "title": "葬CLI如闪电般上线",
+          "date": "2026-03-26",
+          "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+          "permalink": "/articles/076",
+          "markdown_link": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+          "mention_count": 4
+        },
+        {
+          "article_id": "033",
+          "title": "搞AI硬件别装美国公司",
+          "date": "2025-11-14",
+          "path": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+          "permalink": "/articles/033",
+          "markdown_link": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+          "mention_count": 4
+        },
+        {
+          "article_id": "047",
+          "title": "我被AI圈大冰投诉了（附真诚道歉信）",
+          "date": "2025-12-29",
+          "path": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "permalink": "/articles/047",
+          "markdown_link": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "115",
+          "title": "网吧黑客松为西湖醋鱼平反",
+          "date": "2026-07-08",
+          "path": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
+          "permalink": "/articles/115",
+          "markdown_link": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "date": "2026-04-27",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "date": "2026-01-22",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "045",
+          "title": "无招把钉钉当玩具整",
+          "date": "2025-12-24",
+          "path": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "permalink": "/articles/045",
+          "markdown_link": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "040",
+          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+          "date": "2025-12-12",
+          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "permalink": "/articles/040",
+          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "date": "2025-12-05",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "096",
+          "title": "葬AI一周年，我不再用AI写作",
+          "date": "2026-05-27",
+          "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "permalink": "/articles/096",
+          "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "date": "2026-01-05",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "038",
+          "title": "建议蚂蚁集团收购马卡龙",
+          "date": "2025-12-02",
+          "path": "articles/038_2025-12-02_葬爱咸鱼_建议蚂蚁集团收购马卡龙.md",
+          "permalink": "/articles/038",
+          "markdown_link": "articles/038_2025-12-02_葬爱咸鱼_建议蚂蚁集团收购马卡龙.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "001",
+          "title": "炒作狗才做「一句话生成」AI",
+          "date": "2025-05-26",
+          "path": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
+          "permalink": "/articles/001",
+          "markdown_link": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
+          "mention_count": 1
+        }
+      ],
+      "degree": 32,
+      "composite_weight": 0.3756
     },
     {
       "id": "阿里巴巴",
@@ -4150,96 +4377,21 @@
         }
       ],
       "degree": 37,
-      "composite_weight": 0.4442
-    },
-    {
-      "id": "剪映",
-      "name": "剪映",
-      "type": "product",
-      "description": "一款视频编辑软件，提供价格低廉的AI文字成片和非线性编辑功能，文章标题建议Medeo改名为该产品的删减版。",
-      "mention_count": 59,
-      "article_count": 6,
-      "aliases": [],
-      "tags": [
-        "AI工作流",
-        "AI文字成片",
-        "视频剪辑",
-        "视频工具",
-        "非线性编辑"
-      ],
-      "references": 6,
-      "source_article_count": 6,
-      "source_articles": [
-        {
-          "article_id": "063",
-          "title": "剪映炒Seedance 2.0，炒出一种推背感",
-          "date": "2026-02-12",
-          "path": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
-          "permalink": "/articles/063",
-          "markdown_link": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
-          "mention_count": 34
-        },
-        {
-          "article_id": "046",
-          "title": "建议Medeo改名剪映（删减版）",
-          "date": "2025-12-26",
-          "path": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
-          "permalink": "/articles/046",
-          "markdown_link": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
-          "mention_count": 12
-        },
-        {
-          "article_id": "052",
-          "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
-          "date": "2026-01-16",
-          "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
-          "permalink": "/articles/052",
-          "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
-          "mention_count": 9
-        },
-        {
-          "article_id": "078",
-          "title": "Flova和TapNow背对背拥抱",
-          "date": "2026-04-07",
-          "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
-          "permalink": "/articles/078",
-          "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "088",
-          "title": "读过豆包赚钱手册才敢自称懂AI",
-          "date": "2026-05-07",
-          "path": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
-          "permalink": "/articles/088",
-          "markdown_link": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "037",
-          "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
-          "date": "2025-11-27",
-          "path": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
-          "permalink": "/articles/037",
-          "markdown_link": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
-          "mention_count": 1
-        }
-      ],
-      "degree": 12,
-      "composite_weight": 0.1706
+      "composite_weight": 0.4429
     },
     {
       "id": "youware",
       "name": "YouWare",
       "type": "product",
       "description": "一家AI公司，其关于“创始人神性”的话题被性压抑AI作为集体社会性阳痿的展演进行了解构。",
-      "mention_count": 58,
-      "article_count": 12,
+      "mention_count": 59,
+      "article_count": 13,
       "aliases": [
         "Youware",
         "Youware团队"
       ],
       "tags": [
+        "AI公司",
         "AI创业",
         "AI应用",
         "AI建站",
@@ -4256,8 +4408,8 @@
         "神性",
         "编程工具"
       ],
-      "references": 12,
-      "source_article_count": 12,
+      "references": 13,
+      "source_article_count": 13,
       "source_articles": [
         {
           "article_id": "010",
@@ -4341,6 +4493,15 @@
           "mention_count": 2
         },
         {
+          "article_id": "126",
+          "title": "冕神语录",
+          "date": "2026-07-29",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "mention_count": 1
+        },
+        {
           "article_id": "032",
           "title": "Flowith是个锤子",
           "date": "2025-10-31",
@@ -4369,20 +4530,97 @@
         }
       ],
       "degree": 16,
-      "composite_weight": 0.2031
+      "composite_weight": 0.2126
+    },
+    {
+      "id": "剪映",
+      "name": "剪映",
+      "type": "product",
+      "description": "一款视频编辑软件，提供价格低廉的AI文字成片和非线性编辑功能，文章标题建议Medeo改名为该产品的删减版。",
+      "mention_count": 59,
+      "article_count": 6,
+      "aliases": [],
+      "tags": [
+        "AI工作流",
+        "AI文字成片",
+        "视频剪辑",
+        "视频工具",
+        "非线性编辑"
+      ],
+      "references": 6,
+      "source_article_count": 6,
+      "source_articles": [
+        {
+          "article_id": "063",
+          "title": "剪映炒Seedance 2.0，炒出一种推背感",
+          "date": "2026-02-12",
+          "path": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+          "permalink": "/articles/063",
+          "markdown_link": "articles/063_2026-02-12_骡子马_剪映炒Seedance 2.0，炒出一种推背感.md",
+          "mention_count": 34
+        },
+        {
+          "article_id": "046",
+          "title": "建议Medeo改名剪映（删减版）",
+          "date": "2025-12-26",
+          "path": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+          "permalink": "/articles/046",
+          "markdown_link": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+          "mention_count": 12
+        },
+        {
+          "article_id": "052",
+          "title": "剪映亲爹竟怀上AI剪映宝宝🫃",
+          "date": "2026-01-16",
+          "path": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "permalink": "/articles/052",
+          "markdown_link": "articles/052_2026-01-16_骡子马_剪映亲爹竟怀上AI剪映宝宝🫃.md",
+          "mention_count": 9
+        },
+        {
+          "article_id": "078",
+          "title": "Flova和TapNow背对背拥抱",
+          "date": "2026-04-07",
+          "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "permalink": "/articles/078",
+          "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "088",
+          "title": "读过豆包赚钱手册才敢自称懂AI",
+          "date": "2026-05-07",
+          "path": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+          "permalink": "/articles/088",
+          "markdown_link": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "037",
+          "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
+          "date": "2025-11-27",
+          "path": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "permalink": "/articles/037",
+          "markdown_link": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "mention_count": 1
+        }
+      ],
+      "degree": 12,
+      "composite_weight": 0.1701
     },
     {
       "id": "tapnow",
       "name": "TapNow",
       "type": "company",
       "description": "AI视频创作平台，推出了Creative OS系统，致力于构建AI视频创作生态",
-      "mention_count": 57,
-      "article_count": 7,
+      "mention_count": 58,
+      "article_count": 8,
       "aliases": [
         "Tapnow"
       ],
       "tags": [
         "AI创作工具",
+        "AI应用",
         "AI行业",
         "AI视频",
         "AI视频生成",
@@ -4393,8 +4631,8 @@
         "视频Agent",
         "视频工作流"
       ],
-      "references": 7,
-      "source_article_count": 7,
+      "references": 8,
+      "source_article_count": 8,
       "source_articles": [
         {
           "article_id": "073",
@@ -4442,6 +4680,15 @@
           "mention_count": 3
         },
         {
+          "article_id": "126",
+          "title": "冕神语录",
+          "date": "2026-07-29",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "mention_count": 1
+        },
+        {
           "article_id": "116",
           "title": "民办大模型MiniMax努力专升本",
           "date": "2026-07-09",
@@ -4460,172 +4707,8 @@
           "mention_count": 1
         }
       ],
-      "degree": 18,
-      "composite_weight": 0.2828
-    },
-    {
-      "id": "lovart",
-      "name": "Lovart",
-      "type": "product",
-      "description": "海报设计应用，钉钉的AI印被形容为再造了该产品，且钉钉为其提供了后端服务",
-      "mention_count": 55,
-      "article_count": 15,
-      "aliases": [],
-      "tags": [
-        "AI公司",
-        "AI生图",
-        "AI生成",
-        "AI软件",
-        "AI项目",
-        "中转站",
-        "套壳",
-        "弱信息场景",
-        "视频Agent",
-        "视频生成",
-        "设计工具",
-        "设计应用"
-      ],
-      "references": 15,
-      "source_article_count": 15,
-      "source_articles": [
-        {
-          "article_id": "073",
-          "title": "Lovart狂做TapNow",
-          "date": "2026-03-19",
-          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
-          "permalink": "/articles/073",
-          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
-          "mention_count": 23
-        },
-        {
-          "article_id": "106",
-          "title": "我来给LibTV道喜了",
-          "date": "2026-06-18",
-          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
-          "permalink": "/articles/106",
-          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
-          "mention_count": 5
-        },
-        {
-          "article_id": "076",
-          "title": "葬CLI如闪电般上线",
-          "date": "2026-03-26",
-          "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
-          "permalink": "/articles/076",
-          "markdown_link": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
-          "mention_count": 4
-        },
-        {
-          "article_id": "033",
-          "title": "搞AI硬件别装美国公司",
-          "date": "2025-11-14",
-          "path": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
-          "permalink": "/articles/033",
-          "markdown_link": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
-          "mention_count": 4
-        },
-        {
-          "article_id": "047",
-          "title": "我被AI圈大冰投诉了（附真诚道歉信）",
-          "date": "2025-12-29",
-          "path": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
-          "permalink": "/articles/047",
-          "markdown_link": "articles/047_2025-12-29_沐秋_我被AI圈大冰投诉了（附真诚道歉信）.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "115",
-          "title": "网吧黑客松为西湖醋鱼平反",
-          "date": "2026-07-08",
-          "path": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
-          "permalink": "/articles/115",
-          "markdown_link": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "085",
-          "title": "谁是宇宙第一FA",
-          "date": "2026-04-27",
-          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "permalink": "/articles/085",
-          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "055",
-          "title": "来认识下2025年最活跃的CVC",
-          "date": "2026-01-22",
-          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
-          "permalink": "/articles/055",
-          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "045",
-          "title": "无招把钉钉当玩具整",
-          "date": "2025-12-24",
-          "path": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
-          "permalink": "/articles/045",
-          "markdown_link": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "040",
-          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
-          "date": "2025-12-12",
-          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
-          "permalink": "/articles/040",
-          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "039",
-          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
-          "date": "2025-12-05",
-          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
-          "permalink": "/articles/039",
-          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "096",
-          "title": "葬AI一周年，我不再用AI写作",
-          "date": "2026-05-27",
-          "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
-          "permalink": "/articles/096",
-          "markdown_link": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "049",
-          "title": "建议六小虎合并，实现China AGI",
-          "date": "2026-01-05",
-          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "permalink": "/articles/049",
-          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "038",
-          "title": "建议蚂蚁集团收购马卡龙",
-          "date": "2025-12-02",
-          "path": "articles/038_2025-12-02_葬爱咸鱼_建议蚂蚁集团收购马卡龙.md",
-          "permalink": "/articles/038",
-          "markdown_link": "articles/038_2025-12-02_葬爱咸鱼_建议蚂蚁集团收购马卡龙.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "001",
-          "title": "炒作狗才做「一句话生成」AI",
-          "date": "2025-05-26",
-          "path": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
-          "permalink": "/articles/001",
-          "markdown_link": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
-          "mention_count": 1
-        }
-      ],
-      "degree": 31,
-      "composite_weight": 0.346
+      "degree": 19,
+      "composite_weight": 0.2983
     },
     {
       "id": "genspark",
@@ -4744,7 +4827,7 @@
         }
       ],
       "degree": 36,
-      "composite_weight": 0.3115
+      "composite_weight": 0.311
     },
     {
       "id": "chatgpt",
@@ -4958,7 +5041,7 @@
         }
       ],
       "degree": 28,
-      "composite_weight": 0.325
+      "composite_weight": 0.3239
     },
     {
       "id": "flova",
@@ -5019,7 +5102,7 @@
         }
       ],
       "degree": 22,
-      "composite_weight": 0.2273
+      "composite_weight": 0.2268
     },
     {
       "id": "飞书",
@@ -5157,7 +5240,7 @@
         }
       ],
       "degree": 19,
-      "composite_weight": 0.2762
+      "composite_weight": 0.2752
     },
     {
       "id": "腾讯",
@@ -5292,7 +5375,7 @@
         }
       ],
       "degree": 28,
-      "composite_weight": 0.3266
+      "composite_weight": 0.3257
     },
     {
       "id": "钉钉",
@@ -5392,7 +5475,7 @@
         }
       ],
       "degree": 24,
-      "composite_weight": 0.2593
+      "composite_weight": 0.2586
     },
     {
       "id": "抖音",
@@ -5479,7 +5562,7 @@
         }
       ],
       "degree": 9,
-      "composite_weight": 0.1574
+      "composite_weight": 0.1568
     },
     {
       "id": "codex",
@@ -5667,7 +5750,38 @@
         }
       ],
       "degree": 33,
-      "composite_weight": 0.3991
+      "composite_weight": 0.3977
+    },
+    {
+      "id": "h3",
+      "name": "H3",
+      "type": "product",
+      "description": "MiniMax发布的视频生成与编辑模型，主打实拍视频后期处理与AR增强现实感",
+      "mention_count": 42,
+      "article_count": 1,
+      "aliases": [
+        "MiniMax H3"
+      ],
+      "tags": [
+        "后期软件",
+        "开源",
+        "视频生成"
+      ],
+      "references": 1,
+      "source_article_count": 1,
+      "source_articles": [
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "date": "2026-08-02",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "mention_count": 42
+        }
+      ],
+      "degree": 6,
+      "composite_weight": 0.1174
     },
     {
       "id": "pixverse",
@@ -5748,7 +5862,7 @@
         }
       ],
       "degree": 22,
-      "composite_weight": 0.2414
+      "composite_weight": 0.2409
     },
     {
       "id": "阶跃星辰",
@@ -5897,7 +6011,7 @@
         }
       ],
       "degree": 51,
-      "composite_weight": 0.4734
+      "composite_weight": 0.4724
     },
     {
       "id": "可灵",
@@ -5976,7 +6090,7 @@
         }
       ],
       "degree": 19,
-      "composite_weight": 0.2261
+      "composite_weight": 0.2255
     },
     {
       "id": "myshell",
@@ -6049,7 +6163,7 @@
         }
       ],
       "degree": 9,
-      "composite_weight": 0.0924
+      "composite_weight": 0.0922
     },
     {
       "id": "灵光",
@@ -6117,7 +6231,7 @@
         }
       ],
       "degree": 18,
-      "composite_weight": 0.1996
+      "composite_weight": 0.1991
     },
     {
       "id": "agnes",
@@ -6162,7 +6276,7 @@
         }
       ],
       "degree": 25,
-      "composite_weight": 0.2081
+      "composite_weight": 0.2079
     },
     {
       "id": "atoms",
@@ -6191,7 +6305,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.0885
+      "composite_weight": 0.0884
     },
     {
       "id": "葬爱咸鱼",
@@ -6343,7 +6457,7 @@
         }
       ],
       "degree": 20,
-      "composite_weight": 0.2634
+      "composite_weight": 0.2623
     },
     {
       "id": "即梦",
@@ -6453,7 +6567,7 @@
         }
       ],
       "degree": 20,
-      "composite_weight": 0.2355
+      "composite_weight": 0.2348
     },
     {
       "id": "bloome",
@@ -6502,7 +6616,7 @@
         }
       ],
       "degree": 24,
-      "composite_weight": 0.2406
+      "composite_weight": 0.2401
     },
     {
       "id": "crepal",
@@ -6539,7 +6653,7 @@
         }
       ],
       "degree": 12,
-      "composite_weight": 0.0991
+      "composite_weight": 0.099
     },
     {
       "id": "杨植麟",
@@ -6648,7 +6762,7 @@
         }
       ],
       "degree": 19,
-      "composite_weight": 0.2298
+      "composite_weight": 0.2292
     },
     {
       "id": "彼得-蒂尔",
@@ -6691,7 +6805,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0737
+      "composite_weight": 0.0736
     },
     {
       "id": "oiioii",
@@ -6791,7 +6905,7 @@
         }
       ],
       "degree": 16,
-      "composite_weight": 0.1766
+      "composite_weight": 0.1761
     },
     {
       "id": "minimax-m3",
@@ -6841,7 +6955,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.1564
+      "composite_weight": 0.1559
     },
     {
       "id": "rokid",
@@ -6870,7 +6984,7 @@
         }
       ],
       "degree": 6,
-      "composite_weight": 0.074
+      "composite_weight": 0.0739
     },
     {
       "id": "anthropic",
@@ -7015,7 +7129,7 @@
         }
       ],
       "degree": 21,
-      "composite_weight": 0.2553
+      "composite_weight": 0.2544
     },
     {
       "id": "slock",
@@ -7054,7 +7168,7 @@
         }
       ],
       "degree": 10,
-      "composite_weight": 0.1369
+      "composite_weight": 0.1366
     },
     {
       "id": "沐秋",
@@ -7151,7 +7265,7 @@
         }
       ],
       "degree": 11,
-      "composite_weight": 0.1683
+      "composite_weight": 0.1676
     },
     {
       "id": "medeo",
@@ -7200,7 +7314,7 @@
         }
       ],
       "degree": 20,
-      "composite_weight": 0.1703
+      "composite_weight": 0.1701
     },
     {
       "id": "eve",
@@ -7239,7 +7353,91 @@
         }
       ],
       "degree": 12,
-      "composite_weight": 0.143
+      "composite_weight": 0.1427
+    },
+    {
+      "id": "明超平",
+      "name": "明超平",
+      "type": "person",
+      "description": "Youware创始人、产品经理，Bloome的打造者",
+      "mention_count": 28,
+      "article_count": 7,
+      "aliases": [
+        "小明",
+        "神父"
+      ],
+      "tags": [
+        "AI产品之神"
+      ],
+      "references": 7,
+      "source_article_count": 7,
+      "source_articles": [
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "date": "2026-05-12",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "mention_count": 8
+        },
+        {
+          "article_id": "010",
+          "title": "YouWare说明AI创始人需要神性",
+          "date": "2025-07-08",
+          "path": "articles/010_2025-07-08_葬爱咸鱼_YouWare说明AI创始人需要神性.md",
+          "permalink": "/articles/010",
+          "markdown_link": "articles/010_2025-07-08_葬爱咸鱼_YouWare说明AI创始人需要神性.md",
+          "mention_count": 8
+        },
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "date": "2026-04-27",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "mention_count": 6
+        },
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "date": "2026-07-29",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "054",
+          "title": "Atoms，平替Lovable的残酷物语",
+          "date": "2026-01-21",
+          "path": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+          "permalink": "/articles/054",
+          "markdown_link": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "120",
+          "title": "Raft说明AI应用不会亡！",
+          "date": "2026-07-15",
+          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "permalink": "/articles/120",
+          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "032",
+          "title": "Flowith是个锤子",
+          "date": "2025-10-31",
+          "path": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+          "permalink": "/articles/032",
+          "markdown_link": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+          "mention_count": 1
+        }
+      ],
+      "degree": 16,
+      "composite_weight": 0.1793
     },
     {
       "id": "马斯克",
@@ -7319,7 +7517,7 @@
         }
       ],
       "degree": 15,
-      "composite_weight": 0.1686
+      "composite_weight": 0.1681
     },
     {
       "id": "论论",
@@ -7351,7 +7549,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0429
+      "composite_weight": 0.0428
     },
     {
       "id": "小智ai",
@@ -7413,7 +7611,7 @@
         }
       ],
       "degree": 19,
-      "composite_weight": 0.1886
+      "composite_weight": 0.1882
     },
     {
       "id": "gambo",
@@ -7452,7 +7650,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.0897
+      "composite_weight": 0.0896
     },
     {
       "id": "vidu",
@@ -7490,7 +7688,7 @@
         }
       ],
       "degree": 13,
-      "composite_weight": 0.1582
+      "composite_weight": 0.1578
     },
     {
       "id": "aippy",
@@ -7521,7 +7719,7 @@
         }
       ],
       "degree": 19,
-      "composite_weight": 0.1712
+      "composite_weight": 0.171
     },
     {
       "id": "微信",
@@ -7606,42 +7804,48 @@
         }
       ],
       "degree": 10,
-      "composite_weight": 0.1442
+      "composite_weight": 0.1437
     },
     {
-      "id": "明超平",
-      "name": "明超平",
+      "id": "陈冕",
+      "name": "陈冕",
       "type": "person",
-      "description": "Youware创始人、产品经理，Bloome的打造者",
-      "mention_count": 26,
-      "article_count": 6,
+      "description": "LibTV/Lovart创始人，被称为“冕神”，双子座，主张激进执行与长期主义",
+      "mention_count": 24,
+      "article_count": 10,
       "aliases": [
-        "小明",
-        "神父"
+        "Amian",
+        "冕",
+        "冕神"
       ],
       "tags": [
-        "AI产品之神"
+        "AI应用",
+        "CEO",
+        "KOL",
+        "字节4-1",
+        "行业KOL",
+        "行业人物"
       ],
-      "references": 6,
-      "source_article_count": 6,
+      "references": 10,
+      "source_article_count": 10,
       "source_articles": [
         {
-          "article_id": "090",
-          "title": "Bloome重做元宝派",
-          "date": "2026-05-12",
-          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
-          "permalink": "/articles/090",
-          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
-          "mention_count": 8
+          "article_id": "126",
+          "title": "冕神语录",
+          "date": "2026-07-29",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "mention_count": 7
         },
         {
-          "article_id": "010",
-          "title": "YouWare说明AI创始人需要神性",
-          "date": "2025-07-08",
-          "path": "articles/010_2025-07-08_葬爱咸鱼_YouWare说明AI创始人需要神性.md",
-          "permalink": "/articles/010",
-          "markdown_link": "articles/010_2025-07-08_葬爱咸鱼_YouWare说明AI创始人需要神性.md",
-          "mention_count": 8
+          "article_id": "119",
+          "title": "视频Agent进入大致敬时代",
+          "date": "2026-07-14",
+          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "permalink": "/articles/119",
+          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "mention_count": 3
         },
         {
           "article_id": "085",
@@ -7650,38 +7854,74 @@
           "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
           "permalink": "/articles/085",
           "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "mention_count": 6
+          "mention_count": 3
         },
         {
-          "article_id": "054",
-          "title": "Atoms，平替Lovable的残酷物语",
-          "date": "2026-01-21",
-          "path": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
-          "permalink": "/articles/054",
-          "markdown_link": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
+          "article_id": "073",
+          "title": "Lovart狂做TapNow",
+          "date": "2026-03-19",
+          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "permalink": "/articles/073",
+          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "date": "2026-07-11",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
           "mention_count": 2
         },
         {
-          "article_id": "120",
-          "title": "Raft说明AI应用不会亡！",
-          "date": "2026-07-15",
-          "path": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
-          "permalink": "/articles/120",
-          "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "date": "2026-07-09",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "106",
+          "title": "我来给LibTV道喜了",
+          "date": "2026-06-18",
+          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "permalink": "/articles/106",
+          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
           "mention_count": 1
         },
         {
-          "article_id": "032",
-          "title": "Flowith是个锤子",
-          "date": "2025-10-31",
-          "path": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
-          "permalink": "/articles/032",
-          "markdown_link": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+          "article_id": "078",
+          "title": "Flova和TapNow背对背拥抱",
+          "date": "2026-04-07",
+          "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "permalink": "/articles/078",
+          "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "date": "2026-01-22",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "date": "2026-01-05",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
           "mention_count": 1
         }
       ],
       "degree": 15,
-      "composite_weight": 0.1605
+      "composite_weight": 0.2057
     },
     {
       "id": "张月光",
@@ -7758,7 +7998,7 @@
         }
       ],
       "degree": 12,
-      "composite_weight": 0.1421
+      "composite_weight": 0.1416
     },
     {
       "id": "淘宝",
@@ -7799,7 +8039,7 @@
         }
       ],
       "degree": 7,
-      "composite_weight": 0.0701
+      "composite_weight": 0.0699
     },
     {
       "id": "youmind",
@@ -7964,7 +8204,7 @@
         }
       ],
       "degree": 20,
-      "composite_weight": 0.2074
+      "composite_weight": 0.2067
     },
     {
       "id": "gemini",
@@ -8101,7 +8341,7 @@
         }
       ],
       "degree": 26,
-      "composite_weight": 0.2406
+      "composite_weight": 0.24
     },
     {
       "id": "lovable",
@@ -8128,7 +8368,7 @@
         }
       ],
       "degree": 7,
-      "composite_weight": 0.0781
+      "composite_weight": 0.0779
     },
     {
       "id": "孙宇晨",
@@ -8209,7 +8449,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.0849
+      "composite_weight": 0.0847
     },
     {
       "id": "vivix",
@@ -8289,7 +8529,7 @@
         }
       ],
       "degree": 15,
-      "composite_weight": 0.1722
+      "composite_weight": 0.1717
     },
     {
       "id": "head-ai",
@@ -8338,7 +8578,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0419
+      "composite_weight": 0.0417
     },
     {
       "id": "光帆耳机",
@@ -8386,7 +8626,7 @@
         }
       ],
       "degree": 15,
-      "composite_weight": 0.1624
+      "composite_weight": 0.1621
     },
     {
       "id": "flowith-os",
@@ -8428,7 +8668,7 @@
         }
       ],
       "degree": 20,
-      "composite_weight": 0.1543
+      "composite_weight": 0.1542
     },
     {
       "id": "happy-oyster",
@@ -8455,7 +8695,7 @@
         }
       ],
       "degree": 7,
-      "composite_weight": 0.0927
+      "composite_weight": 0.0925
     },
     {
       "id": "孙洋",
@@ -8482,7 +8722,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0537
+      "composite_weight": 0.0536
     },
     {
       "id": "海螺ai",
@@ -8553,7 +8793,7 @@
         }
       ],
       "degree": 16,
-      "composite_weight": 0.1517
+      "composite_weight": 0.1514
     },
     {
       "id": "无招",
@@ -8592,7 +8832,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0567
+      "composite_weight": 0.0565
     },
     {
       "id": "葬cli",
@@ -8633,7 +8873,7 @@
         }
       ],
       "degree": 6,
-      "composite_weight": 0.0833
+      "composite_weight": 0.0831
     },
     {
       "id": "文心一言",
@@ -8663,7 +8903,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.1146
+      "composite_weight": 0.1144
     },
     {
       "id": "heygen",
@@ -8691,7 +8931,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0808
+      "composite_weight": 0.0805
     },
     {
       "id": "周卓泉",
@@ -8719,7 +8959,7 @@
         }
       ],
       "degree": 7,
-      "composite_weight": 0.0683
+      "composite_weight": 0.0682
     },
     {
       "id": "toki",
@@ -8768,7 +9008,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0421
+      "composite_weight": 0.042
     },
     {
       "id": "蚂蚁集团",
@@ -8884,7 +9124,7 @@
         }
       ],
       "degree": 33,
-      "composite_weight": 0.2955
+      "composite_weight": 0.2949
     },
     {
       "id": "7verse",
@@ -8925,7 +9165,7 @@
         }
       ],
       "degree": 11,
-      "composite_weight": 0.1191
+      "composite_weight": 0.1188
     },
     {
       "id": "raft",
@@ -8956,112 +9196,7 @@
         }
       ],
       "degree": 10,
-      "composite_weight": 0.1188
-    },
-    {
-      "id": "陈冕",
-      "name": "陈冕",
-      "type": "person",
-      "description": "LiblibAI创始人，被文中称为“冕神”，视频Agent行业的关键意见领袖",
-      "mention_count": 17,
-      "article_count": 9,
-      "aliases": [
-        "冕",
-        "冕神"
-      ],
-      "tags": [
-        "KOL",
-        "字节4-1",
-        "行业KOL",
-        "行业人物"
-      ],
-      "references": 9,
-      "source_article_count": 9,
-      "source_articles": [
-        {
-          "article_id": "119",
-          "title": "视频Agent进入大致敬时代",
-          "date": "2026-07-14",
-          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
-          "permalink": "/articles/119",
-          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "085",
-          "title": "谁是宇宙第一FA",
-          "date": "2026-04-27",
-          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "permalink": "/articles/085",
-          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "073",
-          "title": "Lovart狂做TapNow",
-          "date": "2026-03-19",
-          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
-          "permalink": "/articles/073",
-          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "117",
-          "title": "我来给MiniMax道歉了",
-          "date": "2026-07-11",
-          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
-          "permalink": "/articles/117",
-          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "116",
-          "title": "民办大模型MiniMax努力专升本",
-          "date": "2026-07-09",
-          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
-          "permalink": "/articles/116",
-          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "106",
-          "title": "我来给LibTV道喜了",
-          "date": "2026-06-18",
-          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
-          "permalink": "/articles/106",
-          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "078",
-          "title": "Flova和TapNow背对背拥抱",
-          "date": "2026-04-07",
-          "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
-          "permalink": "/articles/078",
-          "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "055",
-          "title": "来认识下2025年最活跃的CVC",
-          "date": "2026-01-22",
-          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
-          "permalink": "/articles/055",
-          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "049",
-          "title": "建议六小虎合并，实现China AGI",
-          "date": "2026-01-05",
-          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "permalink": "/articles/049",
-          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "mention_count": 1
-        }
-      ],
-      "degree": 11,
-      "composite_weight": 0.154
+      "composite_weight": 0.1185
     },
     {
       "id": "火山引擎",
@@ -9149,7 +9284,7 @@
         }
       ],
       "degree": 13,
-      "composite_weight": 0.1416
+      "composite_weight": 0.1412
     },
     {
       "id": "印奇",
@@ -9199,7 +9334,7 @@
         }
       ],
       "degree": 12,
-      "composite_weight": 0.1147
+      "composite_weight": 0.1144
     },
     {
       "id": "星眠",
@@ -9228,7 +9363,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.0782
+      "composite_weight": 0.078
     },
     {
       "id": "阿里云",
@@ -9337,7 +9472,7 @@
         }
       ],
       "degree": 19,
-      "composite_weight": 0.1675
+      "composite_weight": 0.1671
     },
     {
       "id": "王小川",
@@ -9404,7 +9539,7 @@
         }
       ],
       "degree": 9,
-      "composite_weight": 0.0798
+      "composite_weight": 0.0797
     },
     {
       "id": "tripo",
@@ -9466,7 +9601,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0767
+      "composite_weight": 0.0763
     },
     {
       "id": "dokie",
@@ -9502,7 +9637,7 @@
         }
       ],
       "degree": 11,
-      "composite_weight": 0.1019
+      "composite_weight": 0.1018
     },
     {
       "id": "creative-os",
@@ -9531,7 +9666,7 @@
         }
       ],
       "degree": 11,
-      "composite_weight": 0.1219
+      "composite_weight": 0.1216
     },
     {
       "id": "grimo",
@@ -9570,7 +9705,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0509
+      "composite_weight": 0.0508
     },
     {
       "id": "moya",
@@ -9621,7 +9756,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0676
+      "composite_weight": 0.0673
     },
     {
       "id": "hyperframes",
@@ -9649,7 +9784,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0694
+      "composite_weight": 0.0692
     },
     {
       "id": "刘宇",
@@ -9723,7 +9858,73 @@
         }
       ],
       "degree": 13,
-      "composite_weight": 0.1317
+      "composite_weight": 0.1313
+    },
+    {
+      "id": "峰哥",
+      "name": "峰哥",
+      "type": "person",
+      "description": "互联网知名人物，在文中被作为“性压抑”特质的比喻和对比对象",
+      "mention_count": 13,
+      "article_count": 5,
+      "aliases": [],
+      "tags": [
+        "性压抑",
+        "标杆人物",
+        "比喻对象",
+        "测试案例"
+      ],
+      "references": 5,
+      "source_article_count": 5,
+      "source_articles": [
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "date": "2026-08-02",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "mention_count": 4
+        },
+        {
+          "article_id": "025",
+          "title": "论论才是全球首个性压抑AI",
+          "date": "2025-09-23",
+          "path": "articles/025_2025-09-23_葬爱咸鱼_论论才是全球首个性压抑AI.md",
+          "permalink": "/articles/025",
+          "markdown_link": "articles/025_2025-09-23_葬爱咸鱼_论论才是全球首个性压抑AI.md",
+          "mention_count": 4
+        },
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "date": "2026-01-26",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "106",
+          "title": "我来给LibTV道喜了",
+          "date": "2026-06-18",
+          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "permalink": "/articles/106",
+          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "041",
+          "title": "感谢OiiOii，没人因你而失业",
+          "date": "2025-12-15",
+          "path": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+          "permalink": "/articles/041",
+          "markdown_link": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+          "mention_count": 1
+        }
+      ],
+      "degree": 9,
+      "composite_weight": 0.102
     },
     {
       "id": "星野",
@@ -9787,7 +9988,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.05
+      "composite_weight": 0.0498
     },
     {
       "id": "李开复",
@@ -9838,7 +10039,7 @@
         }
       ],
       "degree": 6,
-      "composite_weight": 0.0531
+      "composite_weight": 0.053
     },
     {
       "id": "大冰",
@@ -9874,7 +10075,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0471
+      "composite_weight": 0.0469
     },
     {
       "id": "gta",
@@ -9904,7 +10105,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.043
+      "composite_weight": 0.0429
     },
     {
       "id": "mainecoon",
@@ -9936,7 +10137,7 @@
         }
       ],
       "degree": 11,
-      "composite_weight": 0.1096
+      "composite_weight": 0.1094
     },
     {
       "id": "sora",
@@ -9995,7 +10196,7 @@
         }
       ],
       "degree": 11,
-      "composite_weight": 0.1056
+      "composite_weight": 0.1053
     },
     {
       "id": "即刻",
@@ -10050,7 +10251,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0609
+      "composite_weight": 0.0607
     },
     {
       "id": "郭列",
@@ -10097,7 +10298,7 @@
         }
       ],
       "degree": 7,
-      "composite_weight": 0.0718
+      "composite_weight": 0.0716
     },
     {
       "id": "genie",
@@ -10136,7 +10337,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0644
+      "composite_weight": 0.0642
     },
     {
       "id": "uber",
@@ -10174,7 +10375,7 @@
         }
       ],
       "degree": 6,
-      "composite_weight": 0.0564
+      "composite_weight": 0.0563
     },
     {
       "id": "扣子空间",
@@ -10213,7 +10414,7 @@
         }
       ],
       "degree": 9,
-      "composite_weight": 0.0704
+      "composite_weight": 0.0703
     },
     {
       "id": "锦秋基金",
@@ -10273,7 +10474,7 @@
         }
       ],
       "degree": 16,
-      "composite_weight": 0.1359
+      "composite_weight": 0.1357
     },
     {
       "id": "阶跃桌面伙伴",
@@ -10395,7 +10596,7 @@
         }
       ],
       "degree": 23,
-      "composite_weight": 0.2086
+      "composite_weight": 0.2081
     },
     {
       "id": "夸克",
@@ -10463,7 +10664,7 @@
         }
       ],
       "degree": 9,
-      "composite_weight": 0.0801
+      "composite_weight": 0.0799
     },
     {
       "id": "骡子马",
@@ -10531,7 +10732,7 @@
         }
       ],
       "degree": 14,
-      "composite_weight": 0.1348
+      "composite_weight": 0.1344
     },
     {
       "id": "快手",
@@ -10587,7 +10788,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0716
+      "composite_weight": 0.0713
     },
     {
       "id": "glm-5-2",
@@ -10637,7 +10838,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0825
+      "composite_weight": 0.0822
     },
     {
       "id": "百川智能",
@@ -10687,7 +10888,7 @@
         }
       ],
       "degree": 16,
-      "composite_weight": 0.1156
+      "composite_weight": 0.1155
     },
     {
       "id": "五星好市民",
@@ -10718,7 +10919,7 @@
         }
       ],
       "degree": 9,
-      "composite_weight": 0.0834
+      "composite_weight": 0.0833
     },
     {
       "id": "推特",
@@ -10749,7 +10950,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0256
+      "composite_weight": 0.0255
     },
     {
       "id": "科比",
@@ -10776,7 +10977,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0406
+      "composite_weight": 0.0405
     },
     {
       "id": "listenhub",
@@ -10824,7 +11025,7 @@
         }
       ],
       "degree": 13,
-      "composite_weight": 0.1017
+      "composite_weight": 0.1016
     },
     {
       "id": "maxclaw",
@@ -10875,7 +11076,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0463
+      "composite_weight": 0.0461
     },
     {
       "id": "小红书",
@@ -10923,7 +11124,7 @@
         }
       ],
       "degree": 6,
-      "composite_weight": 0.0655
+      "composite_weight": 0.0653
     },
     {
       "id": "零一万物",
@@ -10973,7 +11174,7 @@
         }
       ],
       "degree": 12,
-      "composite_weight": 0.0869
+      "composite_weight": 0.0868
     },
     {
       "id": "4399",
@@ -11013,7 +11214,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.07
+      "composite_weight": 0.0698
     },
     {
       "id": "hermes-agent",
@@ -11054,7 +11255,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0527
+      "composite_weight": 0.0524
     },
     {
       "id": "idg",
@@ -11103,7 +11304,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.0771
+      "composite_weight": 0.077
     },
     {
       "id": "吴妈",
@@ -11141,7 +11342,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0448
+      "composite_weight": 0.0446
     },
     {
       "id": "虾哥",
@@ -11178,7 +11379,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0341
+      "composite_weight": 0.0339
     },
     {
       "id": "mindverse",
@@ -11210,7 +11411,7 @@
         }
       ],
       "degree": 6,
-      "composite_weight": 0.0669
+      "composite_weight": 0.0668
     },
     {
       "id": "千问app",
@@ -11241,7 +11442,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0512
+      "composite_weight": 0.0511
     },
     {
       "id": "cursor",
@@ -11320,7 +11521,7 @@
         }
       ],
       "degree": 11,
-      "composite_weight": 0.0921
+      "composite_weight": 0.0919
     },
     {
       "id": "opencode",
@@ -11389,7 +11590,7 @@
         }
       ],
       "degree": 6,
-      "composite_weight": 0.086
+      "composite_weight": 0.0856
     },
     {
       "id": "谷歌",
@@ -11502,63 +11703,7 @@
         }
       ],
       "degree": 16,
-      "composite_weight": 0.1556
-    },
-    {
-      "id": "峰哥",
-      "name": "峰哥",
-      "type": "person",
-      "description": "互联网知名人物，在文中被作为“性压抑”特质的比喻和对比对象",
-      "mention_count": 9,
-      "article_count": 4,
-      "aliases": [],
-      "tags": [
-        "性压抑",
-        "标杆人物",
-        "比喻对象"
-      ],
-      "references": 4,
-      "source_article_count": 4,
-      "source_articles": [
-        {
-          "article_id": "025",
-          "title": "论论才是全球首个性压抑AI",
-          "date": "2025-09-23",
-          "path": "articles/025_2025-09-23_葬爱咸鱼_论论才是全球首个性压抑AI.md",
-          "permalink": "/articles/025",
-          "markdown_link": "articles/025_2025-09-23_葬爱咸鱼_论论才是全球首个性压抑AI.md",
-          "mention_count": 4
-        },
-        {
-          "article_id": "057",
-          "title": "AI四小虎进入狠活大赛",
-          "date": "2026-01-26",
-          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
-          "permalink": "/articles/057",
-          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "106",
-          "title": "我来给LibTV道喜了",
-          "date": "2026-06-18",
-          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
-          "permalink": "/articles/106",
-          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "041",
-          "title": "感谢OiiOii，没人因你而失业",
-          "date": "2025-12-15",
-          "path": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
-          "permalink": "/articles/041",
-          "markdown_link": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
-          "mention_count": 1
-        }
-      ],
-      "degree": 9,
-      "composite_weight": 0.0833
+      "composite_weight": 0.1552
     },
     {
       "id": "红杉资本",
@@ -11626,7 +11771,7 @@
         }
       ],
       "degree": 14,
-      "composite_weight": 0.1283
+      "composite_weight": 0.128
     },
     {
       "id": "minimax-hub",
@@ -11674,7 +11819,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0697
+      "composite_weight": 0.0694
     },
     {
       "id": "拓竹",
@@ -11723,7 +11868,7 @@
         }
       ],
       "degree": 9,
-      "composite_weight": 0.0886
+      "composite_weight": 0.0884
     },
     {
       "id": "月之暗面",
@@ -11773,7 +11918,7 @@
         }
       ],
       "degree": 29,
-      "composite_weight": 0.2122
+      "composite_weight": 0.212
     },
     {
       "id": "腾讯云",
@@ -11819,7 +11964,7 @@
         }
       ],
       "degree": 6,
-      "composite_weight": 0.0707
+      "composite_weight": 0.0705
     },
     {
       "id": "yc",
@@ -11859,7 +12004,7 @@
         }
       ],
       "degree": 9,
-      "composite_weight": 0.0828
+      "composite_weight": 0.0826
     },
     {
       "id": "元宝派",
@@ -11897,7 +12042,7 @@
         }
       ],
       "degree": 7,
-      "composite_weight": 0.0718
+      "composite_weight": 0.0717
     },
     {
       "id": "胖猫",
@@ -11936,7 +12081,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.039
+      "composite_weight": 0.0389
     },
     {
       "id": "looki-l1",
@@ -11997,7 +12142,7 @@
         }
       ],
       "degree": 7,
-      "composite_weight": 0.0755
+      "composite_weight": 0.0753
     },
     {
       "id": "乐奇",
@@ -12027,7 +12172,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0215
+      "composite_weight": 0.0214
     },
     {
       "id": "erlich",
@@ -12082,7 +12227,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0505
+      "composite_weight": 0.0502
     },
     {
       "id": "proma",
@@ -12141,7 +12286,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.0838
+      "composite_weight": 0.0835
     },
     {
       "id": "自然选择",
@@ -12199,7 +12344,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.0822
+      "composite_weight": 0.082
     },
     {
       "id": "trae",
@@ -12250,7 +12395,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.0883
+      "composite_weight": 0.088
     },
     {
       "id": "workbuddy",
@@ -12299,7 +12444,7 @@
         }
       ],
       "degree": 11,
-      "composite_weight": 0.1087
+      "composite_weight": 0.1084
     },
     {
       "id": "高瓴",
@@ -12347,7 +12492,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0497
+      "composite_weight": 0.0495
     },
     {
       "id": "rezona",
@@ -12385,7 +12530,7 @@
         }
       ],
       "degree": 9,
-      "composite_weight": 0.0824
+      "composite_weight": 0.0823
     },
     {
       "id": "大疆",
@@ -12425,7 +12570,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0411
+      "composite_weight": 0.041
     },
     {
       "id": "kimi-k3",
@@ -12456,7 +12601,7 @@
         }
       ],
       "degree": 7,
-      "composite_weight": 0.0736
+      "composite_weight": 0.0734
     },
     {
       "id": "marvis",
@@ -12485,7 +12630,7 @@
         }
       ],
       "degree": 14,
-      "composite_weight": 0.1134
+      "composite_weight": 0.1133
     },
     {
       "id": "qclaw",
@@ -12514,7 +12659,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.0754
+      "composite_weight": 0.0753
     },
     {
       "id": "viduclaw",
@@ -12541,7 +12686,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0444
+      "composite_weight": 0.0442
     },
     {
       "id": "六小虎",
@@ -12569,7 +12714,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.0137
+      "composite_weight": 0.0136
     },
     {
       "id": "内涵段子",
@@ -12596,7 +12741,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0349
+      "composite_weight": 0.0348
     },
     {
       "id": "葬ai基准测试",
@@ -12625,7 +12770,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0382
+      "composite_weight": 0.0381
     },
     {
       "id": "nano-banana",
@@ -12694,7 +12839,7 @@
         }
       ],
       "degree": 6,
-      "composite_weight": 0.0654
+      "composite_weight": 0.0652
     },
     {
       "id": "扎克伯格",
@@ -12756,7 +12901,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0499
+      "composite_weight": 0.0498
     },
     {
       "id": "芙崽",
@@ -12803,7 +12948,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.038
+      "composite_weight": 0.0379
     },
     {
       "id": "许高",
@@ -12848,7 +12993,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0362
+      "composite_weight": 0.036
     },
     {
       "id": "clubhouse",
@@ -12884,7 +13029,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0339
+      "composite_weight": 0.0337
     },
     {
       "id": "julian",
@@ -12920,7 +13065,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0348
+      "composite_weight": 0.0347
     },
     {
       "id": "kimi-claw",
@@ -12961,7 +13106,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0469
+      "composite_weight": 0.0468
     },
     {
       "id": "odyssey",
@@ -13001,7 +13146,48 @@
         }
       ],
       "degree": 6,
-      "composite_weight": 0.0578
+      "composite_weight": 0.0577
+    },
+    {
+      "id": "昆汀",
+      "name": "昆汀",
+      "type": "person",
+      "description": "西方知名电影导演，文章在测试Medeo时输入了其名字以期生成带有其风格特点的短片，被用作风格比喻对象。",
+      "mention_count": 7,
+      "article_count": 2,
+      "aliases": [
+        "Quentin Tarantino",
+        "昆汀·塔伦蒂诺"
+      ],
+      "tags": [
+        "电影导演",
+        "风格提示词",
+        "风格模仿"
+      ],
+      "references": 2,
+      "source_article_count": 2,
+      "source_articles": [
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "date": "2026-08-02",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "mention_count": 5
+        },
+        {
+          "article_id": "046",
+          "title": "建议Medeo改名剪映（删减版）",
+          "date": "2025-12-26",
+          "path": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+          "permalink": "/articles/046",
+          "markdown_link": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
+          "mention_count": 2
+        }
+      ],
+      "degree": 2,
+      "composite_weight": 0.04
     },
     {
       "id": "it-s-time-to-build",
@@ -13028,7 +13214,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.009
+      "composite_weight": 0.0089
     },
     {
       "id": "pin",
@@ -13085,7 +13271,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0334
+      "composite_weight": 0.0333
     },
     {
       "id": "京东",
@@ -13171,7 +13357,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0546
+      "composite_weight": 0.0545
     },
     {
       "id": "神奇百货",
@@ -13198,7 +13384,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0126
+      "composite_weight": 0.0125
     },
     {
       "id": "锤子手机",
@@ -13227,7 +13413,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0286
+      "composite_weight": 0.0285
     },
     {
       "id": "小米",
@@ -13293,7 +13479,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.089
+      "composite_weight": 0.0887
     },
     {
       "id": "qoder",
@@ -13350,7 +13536,66 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0597
+      "composite_weight": 0.0594
+    },
+    {
+      "id": "张一鸣",
+      "name": "张一鸣",
+      "type": "person",
+      "description": "字节跳动创始人，文中作为思考AI战略的代入角色。",
+      "mention_count": 6,
+      "article_count": 4,
+      "aliases": [
+        "一鸣"
+      ],
+      "tags": [
+        "企业家",
+        "大厂创始人",
+        "对标对象",
+        "老板视角"
+      ],
+      "references": 4,
+      "source_article_count": 4,
+      "source_articles": [
+        {
+          "article_id": "040",
+          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+          "date": "2025-12-12",
+          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "permalink": "/articles/040",
+          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "date": "2026-07-29",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "date": "2026-04-27",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "017",
+          "title": "字节用扣子证明，Agent只能被计划",
+          "date": "2025-08-29",
+          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "permalink": "/articles/017",
+          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
+          "mention_count": 1
+        }
+      ],
+      "degree": 7,
+      "composite_weight": 0.0706
     },
     {
       "id": "英伟达",
@@ -13413,7 +13658,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0537
+      "composite_weight": 0.0534
     },
     {
       "id": "kimi-code",
@@ -13463,7 +13708,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.0767
+      "composite_weight": 0.0765
     },
     {
       "id": "liblib",
@@ -13511,7 +13756,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0548
+      "composite_weight": 0.0545
     },
     {
       "id": "王登科",
@@ -13556,7 +13801,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.05
+      "composite_weight": 0.0498
     },
     {
       "id": "苹果",
@@ -13605,7 +13850,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.0747
+      "composite_weight": 0.0746
     },
     {
       "id": "aws",
@@ -13641,7 +13886,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0424
+      "composite_weight": 0.0423
     },
     {
       "id": "chatpods",
@@ -13679,7 +13924,7 @@
         }
       ],
       "degree": 11,
-      "composite_weight": 0.0822
+      "composite_weight": 0.0821
     },
     {
       "id": "veo",
@@ -13717,7 +13962,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0418
+      "composite_weight": 0.0417
     },
     {
       "id": "刀哥",
@@ -13758,7 +14003,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0405
+      "composite_weight": 0.0404
     },
     {
       "id": "讯飞",
@@ -13799,7 +14044,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0307
+      "composite_weight": 0.0306
     },
     {
       "id": "锴杰",
@@ -13848,7 +14093,7 @@
       ],
       "displayName": "陈锴杰",
       "degree": 6,
-      "composite_weight": 0.0541
+      "composite_weight": 0.054
     },
     {
       "id": "黄仁勋",
@@ -13888,7 +14133,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0394
+      "composite_weight": 0.0392
     },
     {
       "id": "dify",
@@ -13917,7 +14162,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0321
+      "composite_weight": 0.032
     },
     {
       "id": "lingbot-world-2-0",
@@ -13947,7 +14192,7 @@
         }
       ],
       "degree": 9,
-      "composite_weight": 0.0801
+      "composite_weight": 0.08
     },
     {
       "id": "step",
@@ -13974,7 +14219,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0403
+      "composite_weight": 0.0402
     },
     {
       "id": "jiaming",
@@ -14063,7 +14308,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0222
+      "composite_weight": 0.0221
     },
     {
       "id": "转转",
@@ -14091,7 +14336,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.04
+      "composite_weight": 0.0399
     },
     {
       "id": "唐杰",
@@ -14148,7 +14393,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0605
+      "composite_weight": 0.0602
     },
     {
       "id": "openrouter",
@@ -14195,7 +14440,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0491
+      "composite_weight": 0.0488
     },
     {
       "id": "spacex",
@@ -14242,7 +14487,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0233
+      "composite_weight": 0.0231
     },
     {
       "id": "vast",
@@ -14288,55 +14533,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0519
-    },
-    {
-      "id": "张一鸣",
-      "name": "张一鸣",
-      "type": "person",
-      "description": "字节跳动创始人，文中作为思考AI战略的代入角色。",
-      "mention_count": 5,
-      "article_count": 3,
-      "aliases": [
-        "一鸣"
-      ],
-      "tags": [
-        "大厂创始人",
-        "老板视角"
-      ],
-      "references": 3,
-      "source_article_count": 3,
-      "source_articles": [
-        {
-          "article_id": "040",
-          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
-          "date": "2025-12-12",
-          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
-          "permalink": "/articles/040",
-          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "085",
-          "title": "谁是宇宙第一FA",
-          "date": "2026-04-27",
-          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "permalink": "/articles/085",
-          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "017",
-          "title": "字节用扣子证明，Agent只能被计划",
-          "date": "2025-08-29",
-          "path": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
-          "permalink": "/articles/017",
-          "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
-          "mention_count": 1
-        }
-      ],
-      "degree": 5,
-      "composite_weight": 0.0481
+      "composite_weight": 0.0516
     },
     {
       "id": "016",
@@ -14373,7 +14570,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0331
+      "composite_weight": 0.0329
     },
     {
       "id": "esp32",
@@ -14411,7 +14608,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0353
+      "composite_weight": 0.0352
     },
     {
       "id": "happy-horse",
@@ -14451,7 +14648,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.03
+      "composite_weight": 0.0298
     },
     {
       "id": "robin",
@@ -14490,7 +14687,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0426
+      "composite_weight": 0.0424
     },
     {
       "id": "second-me",
@@ -14530,7 +14727,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0431
+      "composite_weight": 0.043
     },
     {
       "id": "元宝",
@@ -14568,7 +14765,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0504
+      "composite_weight": 0.0502
     },
     {
       "id": "滴滴",
@@ -14645,7 +14842,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0266
+      "composite_weight": 0.0265
     },
     {
       "id": "远识资本",
@@ -14684,7 +14881,7 @@
         }
       ],
       "degree": 13,
-      "composite_weight": 0.1027
+      "composite_weight": 0.1025
     },
     {
       "id": "chatbox",
@@ -14712,7 +14909,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0253
+      "composite_weight": 0.0252
     },
     {
       "id": "clear",
@@ -14739,7 +14936,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0367
+      "composite_weight": 0.0366
     },
     {
       "id": "higgsfield",
@@ -14767,7 +14964,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0425
+      "composite_weight": 0.0424
     },
     {
       "id": "remotion",
@@ -14795,7 +14992,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0299
+      "composite_weight": 0.0298
     },
     {
       "id": "n8n",
@@ -14824,7 +15021,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0313
+      "composite_weight": 0.0312
     },
     {
       "id": "伊唯舒",
@@ -14849,7 +15046,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0404
+      "composite_weight": 0.0403
     },
     {
       "id": "快乐生蚝",
@@ -14877,7 +15074,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0395
+      "composite_weight": 0.0393
     },
     {
       "id": "千里科技",
@@ -14947,7 +15144,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.0813
+      "composite_weight": 0.081
     },
     {
       "id": "midjourney",
@@ -14994,7 +15191,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0426
+      "composite_weight": 0.0425
     },
     {
       "id": "notebooklm",
@@ -15045,7 +15242,7 @@
         }
       ],
       "degree": 7,
-      "composite_weight": 0.056
+      "composite_weight": 0.0559
     },
     {
       "id": "ofo",
@@ -15093,7 +15290,7 @@
         }
       ],
       "degree": 6,
-      "composite_weight": 0.0506
+      "composite_weight": 0.0505
     },
     {
       "id": "朱亦辉",
@@ -15139,7 +15336,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.044
+      "composite_weight": 0.0438
     },
     {
       "id": "李飞飞",
@@ -15189,7 +15386,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0551
+      "composite_weight": 0.0549
     },
     {
       "id": "美团",
@@ -15236,7 +15433,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0362
+      "composite_weight": 0.0361
     },
     {
       "id": "gemini-cli",
@@ -15356,7 +15553,7 @@
         }
       ],
       "degree": 7,
-      "composite_weight": 0.0668
+      "composite_weight": 0.0666
     },
     {
       "id": "meta",
@@ -15393,7 +15590,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0433
+      "composite_weight": 0.0432
     },
     {
       "id": "nixon",
@@ -15430,7 +15627,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0245
+      "composite_weight": 0.0244
     },
     {
       "id": "palantir",
@@ -15508,7 +15705,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0292
+      "composite_weight": 0.029
     },
     {
       "id": "乐鑫",
@@ -15548,7 +15745,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0214
+      "composite_weight": 0.0212
     },
     {
       "id": "商汤科技",
@@ -15607,7 +15804,7 @@
         }
       ],
       "degree": 10,
-      "composite_weight": 0.0873
+      "composite_weight": 0.0871
     },
     {
       "id": "好大夫在线",
@@ -15646,7 +15843,7 @@
         }
       ],
       "degree": 6,
-      "composite_weight": 0.0471
+      "composite_weight": 0.047
     },
     {
       "id": "无影云电脑",
@@ -15684,7 +15881,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0222
+      "composite_weight": 0.0221
     },
     {
       "id": "旷视",
@@ -15725,7 +15922,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0295
+      "composite_weight": 0.0294
     },
     {
       "id": "梁圣",
@@ -15764,7 +15961,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.054
+      "composite_weight": 0.0538
     },
     {
       "id": "豆包手机",
@@ -15802,7 +15999,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0364
+      "composite_weight": 0.0363
     },
     {
       "id": "造次",
@@ -15838,7 +16035,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0308
+      "composite_weight": 0.0307
     },
     {
       "id": "airpods",
@@ -15865,7 +16062,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0337
+      "composite_weight": 0.0336
     },
     {
       "id": "b站直播",
@@ -15894,7 +16091,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.0172
+      "composite_weight": 0.0171
     },
     {
       "id": "canva",
@@ -15921,7 +16118,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0239
+      "composite_weight": 0.0238
     },
     {
       "id": "garry-tan",
@@ -15980,7 +16177,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0289
+      "composite_weight": 0.0288
     },
     {
       "id": "rainfly",
@@ -16007,7 +16204,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0299
+      "composite_weight": 0.0298
     },
     {
       "id": "somnia-lab",
@@ -16035,7 +16232,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.0142
+      "composite_weight": 0.0141
     },
     {
       "id": "the-little-tech-agenda",
@@ -16062,7 +16259,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.0062
+      "composite_weight": 0.0061
     },
     {
       "id": "why-ai-will-save-the-world",
@@ -16119,6 +16316,33 @@
       "composite_weight": 0.0533
     },
     {
+      "id": "孙笑川",
+      "name": "孙笑川",
+      "type": "person",
+      "description": "文中用作H3音频编辑与方言转换测试案例的人物对象",
+      "mention_count": 4,
+      "article_count": 1,
+      "aliases": [],
+      "tags": [
+        "测试案例"
+      ],
+      "references": 1,
+      "source_article_count": 1,
+      "source_articles": [
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "date": "2026-08-02",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "mention_count": 4
+        }
+      ],
+      "degree": 0,
+      "composite_weight": 0.0188
+    },
+    {
       "id": "宰治",
       "name": "宰治",
       "type": "person",
@@ -16143,7 +16367,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.0172
+      "composite_weight": 0.0171
     },
     {
       "id": "开为科技",
@@ -16198,7 +16422,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.0099
+      "composite_weight": 0.0098
     },
     {
       "id": "自变量",
@@ -16228,7 +16452,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.0142
+      "composite_weight": 0.0141
     },
     {
       "id": "葬ai-web4",
@@ -16256,7 +16480,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0179
+      "composite_weight": 0.0178
     },
     {
       "id": "贾维斯",
@@ -16283,7 +16507,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.019
+      "composite_weight": 0.0189
     },
     {
       "id": "飞猪",
@@ -16417,7 +16641,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0392
+      "composite_weight": 0.0391
     },
     {
       "id": "autoglm",
@@ -16454,7 +16678,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0255
+      "composite_weight": 0.0254
     },
     {
       "id": "faceu",
@@ -16490,7 +16714,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0289
+      "composite_weight": 0.0288
     },
     {
       "id": "qoder-work",
@@ -16531,7 +16755,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0408
+      "composite_weight": 0.0406
     },
     {
       "id": "suno",
@@ -16568,7 +16792,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0206
+      "composite_weight": 0.0205
     },
     {
       "id": "ticnote",
@@ -16608,7 +16832,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0282
+      "composite_weight": 0.0281
     },
     {
       "id": "kaiyi",
@@ -16669,7 +16893,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0545
+      "composite_weight": 0.0543
     },
     {
       "id": "凯一",
@@ -16706,7 +16930,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0516
+      "composite_weight": 0.0514
     },
     {
       "id": "宇树科技",
@@ -16743,7 +16967,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.034
+      "composite_weight": 0.0339
     },
     {
       "id": "星流",
@@ -16777,7 +17001,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0418
+      "composite_weight": 0.0416
     },
     {
       "id": "景鲲",
@@ -16850,7 +17074,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.0593
+      "composite_weight": 0.0592
     },
     {
       "id": "荣耀",
@@ -16887,7 +17111,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.024
+      "composite_weight": 0.0239
     },
     {
       "id": "郑潜",
@@ -16923,7 +17147,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0332
+      "composite_weight": 0.033
     },
     {
       "id": "amoo",
@@ -16950,7 +17174,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0345
+      "composite_weight": 0.0343
     },
     {
       "id": "dingtalk-real",
@@ -16978,7 +17202,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0259
+      "composite_weight": 0.0258
     },
     {
       "id": "lineargame",
@@ -17005,7 +17229,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0237
+      "composite_weight": 0.0236
     },
     {
       "id": "looi",
@@ -17033,7 +17257,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0264
+      "composite_weight": 0.0263
     },
     {
       "id": "m5stack",
@@ -17061,7 +17285,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0183
+      "composite_weight": 0.0182
     },
     {
       "id": "moltbook",
@@ -17089,7 +17313,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.009
+      "composite_weight": 0.0089
     },
     {
       "id": "monolith",
@@ -17117,7 +17341,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0184
+      "composite_weight": 0.0183
     },
     {
       "id": "note",
@@ -17175,7 +17399,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0201
+      "composite_weight": 0.02
     },
     {
       "id": "openmanus",
@@ -17229,7 +17453,35 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0218
+      "composite_weight": 0.0217
+    },
+    {
+      "id": "seedance-2-0",
+      "name": "Seedance 2.0",
+      "type": "product",
+      "description": "文中作为H3主要对标对象的视频生成模型，被视为SOTA基准",
+      "mention_count": 3,
+      "article_count": 1,
+      "aliases": [],
+      "tags": [
+        "SOTA",
+        "视频生成"
+      ],
+      "references": 1,
+      "source_article_count": 1,
+      "source_articles": [
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "date": "2026-08-02",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "mention_count": 3
+        }
+      ],
+      "degree": 2,
+      "composite_weight": 0.0286
     },
     {
       "id": "sekai",
@@ -17256,7 +17508,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0296
+      "composite_weight": 0.0295
     },
     {
       "id": "seulgi",
@@ -17284,7 +17536,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.0156
+      "composite_weight": 0.0155
     },
     {
       "id": "stain",
@@ -17339,7 +17591,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0408
+      "composite_weight": 0.0407
     },
     {
       "id": "talkie",
@@ -17369,7 +17621,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0211
+      "composite_weight": 0.021
     },
     {
       "id": "ebay",
@@ -17396,7 +17648,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0298
+      "composite_weight": 0.0297
     },
     {
       "id": "二金",
@@ -17424,7 +17676,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.0156
+      "composite_weight": 0.0155
     },
     {
       "id": "付铖",
@@ -17477,7 +17729,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.0059
+      "composite_weight": 0.0058
     },
     {
       "id": "吉利",
@@ -17504,7 +17756,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0205
+      "composite_weight": 0.0204
     },
     {
       "id": "妙鸭相机",
@@ -17554,7 +17806,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0348
+      "composite_weight": 0.0347
     },
     {
       "id": "小宇宙",
@@ -17581,7 +17833,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0167
+      "composite_weight": 0.0166
     },
     {
       "id": "恋与深空",
@@ -17609,7 +17861,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0205
+      "composite_weight": 0.0204
     },
     {
       "id": "悟空",
@@ -17663,7 +17915,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0332
+      "composite_weight": 0.0331
     },
     {
       "id": "王凯歆",
@@ -17691,7 +17943,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.01
+      "composite_weight": 0.0099
     },
     {
       "id": "王谦",
@@ -17744,7 +17996,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0202
+      "composite_weight": 0.0201
     },
     {
       "id": "船岛",
@@ -17773,7 +18025,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0202
+      "composite_weight": 0.0201
     },
     {
       "id": "谷歌翻译",
@@ -17802,7 +18054,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0371
+      "composite_weight": 0.037
     },
     {
       "id": "金山画王",
@@ -17829,7 +18081,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0277
+      "composite_weight": 0.0276
     },
     {
       "id": "钉钉one",
@@ -17906,7 +18158,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0336
+      "composite_weight": 0.0334
     },
     {
       "id": "陪我",
@@ -17972,7 +18224,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0296
+      "composite_weight": 0.0295
     },
     {
       "id": "dario",
@@ -18010,7 +18262,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.029
+      "composite_weight": 0.0289
     },
     {
       "id": "gamma",
@@ -18085,7 +18337,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0393
+      "composite_weight": 0.0392
     },
     {
       "id": "maxhermes",
@@ -18124,7 +18376,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0252
+      "composite_weight": 0.025
     },
     {
       "id": "music-2-6",
@@ -18161,7 +18413,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0252
+      "composite_weight": 0.025
     },
     {
       "id": "oppo",
@@ -18236,7 +18488,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0294
+      "composite_weight": 0.0293
     },
     {
       "id": "tinder",
@@ -18274,7 +18526,7 @@
         }
       ],
       "degree": 6,
-      "composite_weight": 0.0497
+      "composite_weight": 0.0496
     },
     {
       "id": "冒泡鸭",
@@ -18310,7 +18562,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.012
+      "composite_weight": 0.0119
     },
     {
       "id": "咸鱼之王",
@@ -18348,7 +18600,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0341
+      "composite_weight": 0.034
     },
     {
       "id": "大众点评",
@@ -18385,7 +18637,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0307
+      "composite_weight": 0.0306
     },
     {
       "id": "小云雀",
@@ -18419,7 +18671,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0233
+      "composite_weight": 0.0232
     },
     {
       "id": "小爱同学",
@@ -18456,7 +18708,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0497
+      "composite_weight": 0.0496
     },
     {
       "id": "张予彤",
@@ -18492,7 +18744,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0433
+      "composite_weight": 0.0432
     },
     {
       "id": "杨立昆",
@@ -18532,7 +18784,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0291
+      "composite_weight": 0.0289
     },
     {
       "id": "爱诗科技",
@@ -18571,7 +18823,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0498
+      "composite_weight": 0.0496
     },
     {
       "id": "王兴",
@@ -18647,7 +18899,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0427
+      "composite_weight": 0.0426
     },
     {
       "id": "秒哒",
@@ -18685,7 +18937,7 @@
         }
       ],
       "degree": 7,
-      "composite_weight": 0.0608
+      "composite_weight": 0.0607
     },
     {
       "id": "美团龙珠",
@@ -18721,7 +18973,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0279
+      "composite_weight": 0.0278
     },
     {
       "id": "闫俊杰",
@@ -18755,7 +19007,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0433
+      "composite_weight": 0.0432
     },
     {
       "id": "闹闹",
@@ -18791,7 +19043,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0361
+      "composite_weight": 0.036
     },
     {
       "id": "骆轶航",
@@ -18858,7 +19110,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.0113
+      "composite_weight": 0.0112
     },
     {
       "id": "agent-tank",
@@ -18886,7 +19138,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.017
+      "composite_weight": 0.0169
     },
     {
       "id": "alexandr-wang",
@@ -18916,7 +19168,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0121
+      "composite_weight": 0.012
     },
     {
       "id": "austin",
@@ -18943,7 +19195,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0126
+      "composite_weight": 0.0125
     },
     {
       "id": "autoglm沉思",
@@ -18997,7 +19249,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0424
+      "composite_weight": 0.0423
     },
     {
       "id": "cluely",
@@ -19051,7 +19303,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0413
+      "composite_weight": 0.0412
     },
     {
       "id": "deepwisdom",
@@ -19104,7 +19356,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0241
+      "composite_weight": 0.024
     },
     {
       "id": "ernie-5-1",
@@ -19133,7 +19385,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.019
+      "composite_weight": 0.0189
     },
     {
       "id": "evomap",
@@ -19162,7 +19414,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0232
+      "composite_weight": 0.0231
     },
     {
       "id": "fellou",
@@ -19215,7 +19467,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0192
+      "composite_weight": 0.0191
     },
     {
       "id": "gpt",
@@ -19298,7 +19550,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.025
+      "composite_weight": 0.0249
     },
     {
       "id": "godot",
@@ -19410,7 +19662,7 @@
         }
       ],
       "degree": 8,
-      "composite_weight": 0.0545
+      "composite_weight": 0.0544
     },
     {
       "id": "instagram",
@@ -19466,7 +19718,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0137
+      "composite_weight": 0.0136
     },
     {
       "id": "kimi-webbridge",
@@ -19493,7 +19745,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0171
+      "composite_weight": 0.017
     },
     {
       "id": "longcat-2-0",
@@ -19520,7 +19772,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.0126
+      "composite_weight": 0.0125
     },
     {
       "id": "loopit",
@@ -19548,7 +19800,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0338
+      "composite_weight": 0.0337
     },
     {
       "id": "mgx",
@@ -19626,7 +19878,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0216
+      "composite_weight": 0.0215
     },
     {
       "id": "mimiclaw",
@@ -19682,7 +19934,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0349
+      "composite_weight": 0.0348
     },
     {
       "id": "note-pro",
@@ -19738,7 +19990,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0179
+      "composite_weight": 0.0178
     },
     {
       "id": "opensea",
@@ -19793,7 +20045,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0361
+      "composite_weight": 0.036
     },
     {
       "id": "qq",
@@ -19820,7 +20072,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0234
+      "composite_weight": 0.0233
     },
     {
       "id": "rockflow",
@@ -19845,7 +20097,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0253
+      "composite_weight": 0.0252
     },
     {
       "id": "swe-bench",
@@ -19874,7 +20126,34 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0237
+      "composite_weight": 0.0236
+    },
+    {
+      "id": "seedance-2-5",
+      "name": "Seedance 2.5",
+      "type": "product",
+      "description": "在H3发布后紧接着上线的视频模型版本，是H3的直接竞争对手",
+      "mention_count": 2,
+      "article_count": 1,
+      "aliases": [],
+      "tags": [
+        "视频生成"
+      ],
+      "references": 1,
+      "source_article_count": 1,
+      "source_articles": [
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "date": "2026-08-02",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "mention_count": 2
+        }
+      ],
+      "degree": 2,
+      "composite_weight": 0.0257
     },
     {
       "id": "servicenow",
@@ -19956,7 +20235,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0259
+      "composite_weight": 0.0258
     },
     {
       "id": "snapchat",
@@ -19983,7 +20262,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0179
+      "composite_weight": 0.0178
     },
     {
       "id": "spotify",
@@ -20038,7 +20317,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0198
+      "composite_weight": 0.0197
     },
     {
       "id": "the-techno-optimist-manifesto",
@@ -20066,7 +20345,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.0043
+      "composite_weight": 0.0042
     },
     {
       "id": "tristan",
@@ -20119,7 +20398,7 @@
         }
       ],
       "degree": 6,
-      "composite_weight": 0.0497
+      "composite_weight": 0.0496
     },
     {
       "id": "whoop手环",
@@ -20149,7 +20428,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.024
+      "composite_weight": 0.0239
     },
     {
       "id": "wild-hornets",
@@ -20227,7 +20506,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0236
+      "composite_weight": 0.0235
     },
     {
       "id": "gstack",
@@ -20258,7 +20537,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0269
+      "composite_weight": 0.0268
     },
     {
       "id": "iaorta",
@@ -20286,7 +20565,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0172
+      "composite_weight": 0.0171
     },
     {
       "id": "onlyfans",
@@ -20313,7 +20592,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0221
+      "composite_weight": 0.022
     },
     {
       "id": "phaser",
@@ -20425,7 +20704,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.014
+      "composite_weight": 0.0139
     },
     {
       "id": "出门问问",
@@ -20477,7 +20756,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0121
+      "composite_weight": 0.012
     },
     {
       "id": "创想三维",
@@ -20504,7 +20783,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0198
+      "composite_weight": 0.0197
     },
     {
       "id": "吴碧薇",
@@ -20559,7 +20838,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0279
+      "composite_weight": 0.0278
     },
     {
       "id": "喜马拉雅",
@@ -20587,7 +20866,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.016
+      "composite_weight": 0.0159
     },
     {
       "id": "大华",
@@ -20643,7 +20922,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0125
+      "composite_weight": 0.0124
     },
     {
       "id": "安卓",
@@ -20670,7 +20949,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.02
+      "composite_weight": 0.0199
     },
     {
       "id": "小龙虾",
@@ -20722,7 +21001,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0126
+      "composite_weight": 0.0125
     },
     {
       "id": "影目",
@@ -20751,7 +21030,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.006
+      "composite_weight": 0.0059
     },
     {
       "id": "影石",
@@ -20835,7 +21114,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0155
+      "composite_weight": 0.0154
     },
     {
       "id": "恺英网络",
@@ -20863,7 +21142,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0226
+      "composite_weight": 0.0225
     },
     {
       "id": "文心5-1",
@@ -20892,38 +21171,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0193
-    },
-    {
-      "id": "昆汀",
-      "name": "昆汀",
-      "type": "person",
-      "description": "西方知名电影导演，文章在测试Medeo时输入了其名字以期生成带有其风格特点的短片，被用作风格比喻对象。",
-      "mention_count": 2,
-      "article_count": 1,
-      "aliases": [
-        "Quentin Tarantino",
-        "昆汀·塔伦蒂诺"
-      ],
-      "tags": [
-        "电影导演",
-        "风格提示词"
-      ],
-      "references": 1,
-      "source_article_count": 1,
-      "source_articles": [
-        {
-          "article_id": "046",
-          "title": "建议Medeo改名剪映（删减版）",
-          "date": "2025-12-26",
-          "path": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
-          "permalink": "/articles/046",
-          "markdown_link": "articles/046_2025-12-26_葬爱咸鱼_建议Medeo改名剪映（删减版）.md",
-          "mention_count": 2
-        }
-      ],
-      "degree": 2,
-      "composite_weight": 0.0183
+      "composite_weight": 0.0192
     },
     {
       "id": "杨通",
@@ -21032,7 +21280,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.019
+      "composite_weight": 0.0189
     },
     {
       "id": "独响",
@@ -21087,7 +21335,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0307
+      "composite_weight": 0.0306
     },
     {
       "id": "玉伯",
@@ -21139,7 +21387,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.0069
+      "composite_weight": 0.0068
     },
     {
       "id": "王者荣耀",
@@ -21166,7 +21414,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0234
+      "composite_weight": 0.0233
     },
     {
       "id": "硅基流动",
@@ -21193,7 +21441,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.014
+      "composite_weight": 0.0139
     },
     {
       "id": "联影",
@@ -21246,7 +21494,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.0054
+      "composite_weight": 0.0053
     },
     {
       "id": "讯飞录音笔",
@@ -21298,7 +21546,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.019
+      "composite_weight": 0.0189
     },
     {
       "id": "邪恶意大利人",
@@ -21407,7 +21655,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.031
+      "composite_weight": 0.0309
     },
     {
       "id": "面壁智能",
@@ -21461,7 +21709,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.003
+      "composite_weight": 0.0029
     },
     {
       "id": "黑鲨",
@@ -21489,7 +21737,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.014
+      "composite_weight": 0.0139
     },
     {
       "id": "齐俊元",
@@ -21573,7 +21821,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0149
+      "composite_weight": 0.0148
     },
     {
       "id": "ai-studio",
@@ -21655,7 +21903,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0234
+      "composite_weight": 0.0233
     },
     {
       "id": "ai数字前台",
@@ -21712,7 +21960,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0171
+      "composite_weight": 0.017
     },
     {
       "id": "aws云电脑",
@@ -21739,7 +21987,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0092
+      "composite_weight": 0.0091
     },
     {
       "id": "adobe",
@@ -21821,7 +22069,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0188
+      "composite_weight": 0.0187
     },
     {
       "id": "antigravity",
@@ -21848,7 +22096,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0241
+      "composite_weight": 0.024
     },
     {
       "id": "appagent",
@@ -21875,7 +22123,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0147
+      "composite_weight": 0.0146
     },
     {
       "id": "atmos",
@@ -21925,7 +22173,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0152
+      "composite_weight": 0.0151
     },
     {
       "id": "benchmark",
@@ -21950,7 +22198,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0169
+      "composite_weight": 0.0168
     },
     {
       "id": "blender",
@@ -22005,7 +22253,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0156
+      "composite_weight": 0.0155
     },
     {
       "id": "c-ai",
@@ -22034,7 +22282,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0202
+      "composite_weight": 0.0201
     },
     {
       "id": "character-ai",
@@ -22062,7 +22310,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0097
+      "composite_weight": 0.0096
     },
     {
       "id": "chatgpt-deep-research",
@@ -22126,7 +22374,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0152
+      "composite_weight": 0.0151
     },
     {
       "id": "chris-dixon",
@@ -22153,7 +22401,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0097
+      "composite_weight": 0.0096
     },
     {
       "id": "chrome",
@@ -22208,7 +22456,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0289
+      "composite_weight": 0.0288
     },
     {
       "id": "coladapic",
@@ -22236,7 +22484,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0114
+      "composite_weight": 0.0113
     },
     {
       "id": "computer-agent",
@@ -22263,7 +22511,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0147
+      "composite_weight": 0.0146
     },
     {
       "id": "connie-chan",
@@ -22290,7 +22538,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0097
+      "composite_weight": 0.0096
     },
     {
       "id": "coze-studio",
@@ -22318,7 +22566,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0155
+      "composite_weight": 0.0154
     },
     {
       "id": "cyberbrick",
@@ -22374,7 +22622,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0097
+      "composite_weight": 0.0096
     },
     {
       "id": "deepseek-r1",
@@ -22401,7 +22649,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0291
+      "composite_weight": 0.029
     },
     {
       "id": "deepseek-v4",
@@ -22453,7 +22701,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0147
+      "composite_weight": 0.0146
     },
     {
       "id": "deepseek-tui",
@@ -22478,7 +22726,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0274
+      "composite_weight": 0.0273
     },
     {
       "id": "discord",
@@ -22505,7 +22753,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0121
+      "composite_weight": 0.012
     },
     {
       "id": "doordash",
@@ -22530,7 +22778,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0165
+      "composite_weight": 0.0164
     },
     {
       "id": "element-ai",
@@ -22584,7 +22832,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0218
+      "composite_weight": 0.0217
     },
     {
       "id": "glm-code",
@@ -22612,7 +22860,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0246
+      "composite_weight": 0.0245
     },
     {
       "id": "gpt-thinking",
@@ -22637,7 +22885,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0172
+      "composite_weight": 0.0171
     },
     {
       "id": "general-browser-operator",
@@ -22721,7 +22969,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0152
+      "composite_weight": 0.0151
     },
     {
       "id": "imx681",
@@ -22751,7 +22999,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.011
+      "composite_weight": 0.0109
     },
     {
       "id": "ilya-sutskever",
@@ -22808,7 +23056,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.017
+      "composite_weight": 0.0169
     },
     {
       "id": "jd万斯",
@@ -22835,7 +23083,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0102
+      "composite_weight": 0.0101
     },
     {
       "id": "justin",
@@ -22860,7 +23108,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0126
+      "composite_weight": 0.0125
     },
     {
       "id": "karpo",
@@ -22914,7 +23162,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0097
+      "composite_weight": 0.0096
     },
     {
       "id": "kimi-agent",
@@ -22941,7 +23189,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0147
+      "composite_weight": 0.0146
     },
     {
       "id": "kling-avatar",
@@ -22968,7 +23216,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0155
+      "composite_weight": 0.0154
     },
     {
       "id": "lpm-1-0",
@@ -22996,7 +23244,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0155
+      "composite_weight": 0.0154
     },
     {
       "id": "m2",
@@ -23052,7 +23300,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0278
+      "composite_weight": 0.0277
     },
     {
       "id": "mova",
@@ -23079,7 +23327,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0115
+      "composite_weight": 0.0114
     },
     {
       "id": "macaron-v1-preview",
@@ -23107,7 +23355,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0218
+      "composite_weight": 0.0217
     },
     {
       "id": "makerworld",
@@ -23161,7 +23409,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0147
+      "composite_weight": 0.0146
     },
     {
       "id": "marble",
@@ -23245,7 +23493,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0173
+      "composite_weight": 0.0172
     },
     {
       "id": "momenta",
@@ -23272,7 +23520,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0134
+      "composite_weight": 0.0133
     },
     {
       "id": "monica",
@@ -23327,7 +23575,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0149
+      "composite_weight": 0.0148
     },
     {
       "id": "mureka",
@@ -23381,7 +23629,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0281
+      "composite_weight": 0.028
     },
     {
       "id": "omnihuman",
@@ -23409,7 +23657,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0281
+      "composite_weight": 0.028
     },
     {
       "id": "open-code",
@@ -23434,7 +23682,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0206
+      "composite_weight": 0.0205
     },
     {
       "id": "openai-cto",
@@ -23462,7 +23710,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0209
+      "composite_weight": 0.0208
     },
     {
       "id": "openai-five",
@@ -23544,7 +23792,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0114
+      "composite_weight": 0.0113
     },
     {
       "id": "pr",
@@ -23600,7 +23848,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0165
+      "composite_weight": 0.0164
     },
     {
       "id": "peak",
@@ -23625,7 +23873,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0235
+      "composite_weight": 0.0234
     },
     {
       "id": "photoshop",
@@ -23682,7 +23930,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0115
+      "composite_weight": 0.0114
     },
     {
       "id": "pony-alpha",
@@ -23709,7 +23957,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0152
+      "composite_weight": 0.0151
     },
     {
       "id": "qq农场",
@@ -23764,7 +24012,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0246
+      "composite_weight": 0.0245
     },
     {
       "id": "readever",
@@ -23791,7 +24039,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0112
+      "composite_weight": 0.0111
     },
     {
       "id": "replit",
@@ -23816,7 +24064,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0239
+      "composite_weight": 0.0238
     },
     {
       "id": "robot-phone",
@@ -23843,7 +24091,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0226
+      "composite_weight": 0.0225
     },
     {
       "id": "roelof-botha",
@@ -23868,7 +24116,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0102
+      "composite_weight": 0.0101
     },
     {
       "id": "rokid创始人",
@@ -23897,7 +24145,7 @@
       ],
       "displayName": "祝铭明",
       "degree": 1,
-      "composite_weight": 0.011
+      "composite_weight": 0.0109
     },
     {
       "id": "roles",
@@ -23924,7 +24172,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0231
+      "composite_weight": 0.023
     },
     {
       "id": "rosebud",
@@ -24008,7 +24256,7 @@
         }
       ],
       "degree": 6,
-      "composite_weight": 0.0479
+      "composite_weight": 0.0478
     },
     {
       "id": "sam-altman",
@@ -24062,7 +24310,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0223
+      "composite_weight": 0.0222
     },
     {
       "id": "sapiens-ai",
@@ -24144,7 +24392,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0201
+      "composite_weight": 0.02
     },
     {
       "id": "sriram-krishnan",
@@ -24172,7 +24420,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0097
+      "composite_weight": 0.0096
     },
     {
       "id": "tv-show",
@@ -24199,7 +24447,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0251
+      "composite_weight": 0.025
     },
     {
       "id": "taptv",
@@ -24226,7 +24474,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0251
+      "composite_weight": 0.025
     },
     {
       "id": "telegram",
@@ -24253,7 +24501,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0121
+      "composite_weight": 0.012
     },
     {
       "id": "thinking-machines",
@@ -24281,7 +24529,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0272
+      "composite_weight": 0.0271
     },
     {
       "id": "token事业群",
@@ -24311,7 +24559,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0218
+      "composite_weight": 0.0217
     },
     {
       "id": "travis-kalanick",
@@ -24347,7 +24595,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0151
+      "composite_weight": 0.015
     },
     {
       "id": "typeless",
@@ -24372,7 +24620,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0176
+      "composite_weight": 0.0175
     },
     {
       "id": "uber-eats",
@@ -24397,7 +24645,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0102
+      "composite_weight": 0.0101
     },
     {
       "id": "vam-1-0",
@@ -24424,7 +24672,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0155
+      "composite_weight": 0.0154
     },
     {
       "id": "vm0",
@@ -24452,7 +24700,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0201
+      "composite_weight": 0.02
     },
     {
       "id": "wps",
@@ -24504,7 +24752,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0169
+      "composite_weight": 0.0168
     },
     {
       "id": "z-code",
@@ -24531,7 +24779,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0152
+      "composite_weight": 0.0151
     },
     {
       "id": "fuzzo",
@@ -24585,7 +24833,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0233
+      "composite_weight": 0.0232
     },
     {
       "id": "icon",
@@ -24613,7 +24861,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0273
+      "composite_weight": 0.0272
     },
     {
       "id": "pollo-ai",
@@ -24668,7 +24916,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0113
+      "composite_weight": 0.0112
     },
     {
       "id": "暴打老板",
@@ -24722,7 +24970,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0157
+      "composite_weight": 0.0156
     },
     {
       "id": "万相",
@@ -24777,7 +25025,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0196
+      "composite_weight": 0.0195
     },
     {
       "id": "中关村科学城",
@@ -24885,7 +25133,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0149
+      "composite_weight": 0.0148
     },
     {
       "id": "予彤",
@@ -24912,7 +25160,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0211
+      "composite_weight": 0.021
     },
     {
       "id": "云从科技",
@@ -24939,7 +25187,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0149
+      "composite_weight": 0.0148
     },
     {
       "id": "云望创新",
@@ -24967,7 +25215,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0156
+      "composite_weight": 0.0155
     },
     {
       "id": "五源",
@@ -24997,7 +25245,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0232
+      "composite_weight": 0.0231
     },
     {
       "id": "京东到家",
@@ -25022,7 +25270,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0176
+      "composite_weight": 0.0175
     },
     {
       "id": "今日头条",
@@ -25099,7 +25347,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0133
+      "composite_weight": 0.0132
     },
     {
       "id": "写作蛙",
@@ -25124,7 +25372,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0152
+      "composite_weight": 0.0151
     },
     {
       "id": "刘芹",
@@ -25149,7 +25397,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0169
+      "composite_weight": 0.0168
     },
     {
       "id": "包凡",
@@ -25258,7 +25506,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0162
+      "composite_weight": 0.0161
     },
     {
       "id": "反诈助手",
@@ -25312,7 +25560,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0307
+      "composite_weight": 0.0306
     },
     {
       "id": "哈啰",
@@ -25364,7 +25612,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.0099
+      "composite_weight": 0.0098
     },
     {
       "id": "商汤3d数字人",
@@ -25391,7 +25639,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0261
+      "composite_weight": 0.026
     },
     {
       "id": "大象",
@@ -25418,7 +25666,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0152
+      "composite_weight": 0.0151
     },
     {
       "id": "天宇",
@@ -25443,7 +25691,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0232
+      "composite_weight": 0.0231
     },
     {
       "id": "天猫精灵",
@@ -25499,7 +25747,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.021
+      "composite_weight": 0.0209
     },
     {
       "id": "夸克s1",
@@ -25529,7 +25777,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.011
+      "composite_weight": 0.0109
     },
     {
       "id": "奇迹暖暖",
@@ -25556,7 +25804,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0196
+      "composite_weight": 0.0195
     },
     {
       "id": "奥比中光",
@@ -25581,7 +25829,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0176
+      "composite_weight": 0.0175
     },
     {
       "id": "奥特曼",
@@ -25610,7 +25858,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0146
+      "composite_weight": 0.0145
     },
     {
       "id": "姚明",
@@ -25665,7 +25913,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0171
+      "composite_weight": 0.017
     },
     {
       "id": "孩子王",
@@ -25720,7 +25968,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0133
+      "composite_weight": 0.0132
     },
     {
       "id": "富途牛牛",
@@ -25745,7 +25993,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0176
+      "composite_weight": 0.0175
     },
     {
       "id": "小度",
@@ -25854,7 +26102,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0205
+      "composite_weight": 0.0204
     },
     {
       "id": "川普",
@@ -25906,7 +26154,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0485
+      "composite_weight": 0.0483
     },
     {
       "id": "巨人",
@@ -25935,7 +26183,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0196
+      "composite_weight": 0.0195
     },
     {
       "id": "应用宝",
@@ -25962,7 +26210,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0147
+      "composite_weight": 0.0146
     },
     {
       "id": "张宇诺",
@@ -26014,7 +26262,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0117
+      "composite_weight": 0.0116
     },
     {
       "id": "张楠",
@@ -26066,7 +26314,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0319
+      "composite_weight": 0.0318
     },
     {
       "id": "微信读书",
@@ -26121,7 +26369,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0149
+      "composite_weight": 0.0148
     },
     {
       "id": "我的世界",
@@ -26150,7 +26398,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0196
+      "composite_weight": 0.0195
     },
     {
       "id": "戴宗宏",
@@ -26202,7 +26450,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0283
+      "composite_weight": 0.0282
     },
     {
       "id": "抖音极速版",
@@ -26255,7 +26503,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0176
+      "composite_weight": 0.0175
     },
     {
       "id": "摩拜",
@@ -26280,7 +26528,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0176
+      "composite_weight": 0.0175
     },
     {
       "id": "数美万物",
@@ -26338,7 +26586,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0158
+      "composite_weight": 0.0157
     },
     {
       "id": "时光校园",
@@ -26393,7 +26641,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0092
+      "composite_weight": 0.0091
     },
     {
       "id": "晓超",
@@ -26418,7 +26666,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0232
+      "composite_weight": 0.0231
     },
     {
       "id": "智能派",
@@ -26470,7 +26718,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0152
+      "composite_weight": 0.0151
     },
     {
       "id": "曹旭东",
@@ -26495,7 +26743,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0324
+      "composite_weight": 0.0323
     },
     {
       "id": "曾哥",
@@ -26520,7 +26768,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0159
+      "composite_weight": 0.0158
     },
     {
       "id": "有道龙虾",
@@ -26547,7 +26795,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0157
+      "composite_weight": 0.0156
     },
     {
       "id": "朱啸虎",
@@ -26600,7 +26848,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0155
+      "composite_weight": 0.0154
     },
     {
       "id": "柯洁",
@@ -26625,7 +26873,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0191
+      "composite_weight": 0.019
     },
     {
       "id": "橙光游戏",
@@ -26652,7 +26900,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0177
+      "composite_weight": 0.0176
     },
     {
       "id": "沃尔玛",
@@ -26763,7 +27011,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0223
+      "composite_weight": 0.0222
     },
     {
       "id": "浙大一院",
@@ -26790,7 +27038,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0162
+      "composite_weight": 0.0161
     },
     {
       "id": "海康",
@@ -26874,7 +27122,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0143
+      "composite_weight": 0.0142
     },
     {
       "id": "灵波科技",
@@ -26902,7 +27150,7 @@
         }
       ],
       "degree": 6,
-      "composite_weight": 0.0476
+      "composite_weight": 0.0475
     },
     {
       "id": "点点",
@@ -26979,7 +27227,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0098
+      "composite_weight": 0.0097
     },
     {
       "id": "猿辅导",
@@ -27006,7 +27254,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0177
+      "composite_weight": 0.0176
     },
     {
       "id": "王学智",
@@ -27033,7 +27281,7 @@
         }
       ],
       "degree": 4,
-      "composite_weight": 0.0319
+      "composite_weight": 0.0318
     },
     {
       "id": "王家卫",
@@ -27061,7 +27309,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0171
+      "composite_weight": 0.017
     },
     {
       "id": "王者荣耀世界",
@@ -27115,7 +27363,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0196
+      "composite_weight": 0.0195
     },
     {
       "id": "理想",
@@ -27168,7 +27416,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0177
+      "composite_weight": 0.0176
     },
     {
       "id": "电脑管家",
@@ -27197,7 +27445,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0147
+      "composite_weight": 0.0146
     },
     {
       "id": "百胜中国",
@@ -27249,7 +27497,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0219
+      "composite_weight": 0.0218
     },
     {
       "id": "知识星球",
@@ -27276,7 +27524,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0202
+      "composite_weight": 0.0201
     },
     {
       "id": "砸盘两兄弟",
@@ -27305,7 +27553,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0172
+      "composite_weight": 0.0171
     },
     {
       "id": "硅星人",
@@ -27332,7 +27580,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0112
+      "composite_weight": 0.0111
     },
     {
       "id": "福棠-百川",
@@ -27420,7 +27668,7 @@
         }
       ],
       "degree": 5,
-      "composite_weight": 0.0417
+      "composite_weight": 0.0416
     },
     {
       "id": "索尼",
@@ -27449,7 +27697,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.011
+      "composite_weight": 0.0109
     },
     {
       "id": "红果",
@@ -27476,7 +27724,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.02
+      "composite_weight": 0.0199
     },
     {
       "id": "纵维立方",
@@ -27612,7 +27860,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0156
+      "composite_weight": 0.0155
     },
     {
       "id": "肖灏东",
@@ -27637,7 +27885,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0134
+      "composite_weight": 0.0133
     },
     {
       "id": "胖虎ai",
@@ -27692,7 +27940,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0112
+      "composite_weight": 0.0111
     },
     {
       "id": "脸萌科技",
@@ -27801,7 +28049,7 @@
         }
       ],
       "degree": 0,
-      "composite_weight": 0.0101
+      "composite_weight": 0.01
     },
     {
       "id": "蔡浩宇",
@@ -27829,7 +28077,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0155
+      "composite_weight": 0.0154
     },
     {
       "id": "虎牙",
@@ -27857,7 +28105,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0155
+      "composite_weight": 0.0154
     },
     {
       "id": "虾评",
@@ -27911,7 +28159,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0272
+      "composite_weight": 0.0271
     },
     {
       "id": "蚂蚁阿福",
@@ -27936,7 +28184,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0176
+      "composite_weight": 0.0175
     },
     {
       "id": "行程小助手",
@@ -28015,7 +28263,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0157
+      "composite_weight": 0.0156
     },
     {
       "id": "论论创始人",
@@ -28124,7 +28372,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0156
+      "composite_weight": 0.0155
     },
     {
       "id": "贠烨祎",
@@ -28176,7 +28424,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0162
+      "composite_weight": 0.0161
     },
     {
       "id": "迪士尼",
@@ -28204,7 +28452,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0106
+      "composite_weight": 0.0105
     },
     {
       "id": "造梦次元",
@@ -28231,7 +28479,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0169
+      "composite_weight": 0.0168
     },
     {
       "id": "醒图",
@@ -28285,7 +28533,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0232
+      "composite_weight": 0.0231
     },
     {
       "id": "钉钉a1",
@@ -28339,7 +28587,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0352
+      "composite_weight": 0.0351
     },
     {
       "id": "钉钉agent-os",
@@ -28369,7 +28617,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0171
+      "composite_weight": 0.017
     },
     {
       "id": "长亭科技",
@@ -28396,7 +28644,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.022
+      "composite_weight": 0.0219
     },
     {
       "id": "闲鱼",
@@ -28423,7 +28671,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0188
+      "composite_weight": 0.0187
     },
     {
       "id": "阶跃ai桌面伙伴",
@@ -28450,7 +28698,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0162
+      "composite_weight": 0.0161
     },
     {
       "id": "阿尔法狗",
@@ -28479,7 +28727,7 @@
         }
       ],
       "degree": 2,
-      "composite_weight": 0.0191
+      "composite_weight": 0.019
     },
     {
       "id": "阿彪老哥",
@@ -28583,7 +28831,7 @@
         }
       ],
       "degree": 3,
-      "composite_weight": 0.0232
+      "composite_weight": 0.0231
     },
     {
       "id": "黄女士",
@@ -28608,7 +28856,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0131
+      "composite_weight": 0.013
     },
     {
       "id": "黄姐传媒",
@@ -28635,7 +28883,7 @@
         }
       ],
       "degree": 1,
-      "composite_weight": 0.0131
+      "composite_weight": 0.013
     },
     {
       "id": "龙虾",
@@ -29409,6 +29657,76 @@
       ]
     },
     {
+      "source": "陈冕",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "文中提到“字节4-1做创业公司的思路”，暗指陈冕曾为字节跳动的高阶员工。",
+      "weight": 5,
+      "strength": 4,
+      "effective_weight": 25,
+      "article_count": 5,
+      "evidence_articles": [
+        "073",
+        "078",
+        "106",
+        "119",
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "陈冕语录中提到“回字节打工吧”，暗示其可能有字节跳动工作背景或将其作为退路调侃",
+          "weight": 1
+        },
+        {
+          "article_id": "119",
+          "title": "视频Agent进入大致敬时代",
+          "permalink": "/articles/119",
+          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "date": "2026-07-14",
+          "label": "文中提到陈冕是“出走字节”创业",
+          "weight": 1
+        },
+        {
+          "article_id": "106",
+          "title": "我来给LibTV道喜了",
+          "permalink": "/articles/106",
+          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "date": "2026-06-18",
+          "label": "陈冕曾作为字节跳动4-1级别员工在字节任职",
+          "weight": 1
+        },
+        {
+          "article_id": "078",
+          "title": "Flova和TapNow背对背拥抱",
+          "permalink": "/articles/078",
+          "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "date": "2026-04-07",
+          "label": "提及曾在字节跳动有一定级别",
+          "weight": 1
+        },
+        {
+          "article_id": "073",
+          "title": "Lovart狂做TapNow",
+          "permalink": "/articles/073",
+          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "date": "2026-03-19",
+          "label": "文中提到“字节4-1做创业公司的思路”，暗指陈冕曾为字节跳动的高阶员工。",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "claude",
       "target": "codex",
       "relation_type": "competes_with",
@@ -29876,65 +30194,6 @@
           "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
           "date": "2026-01-22",
           "label": "百度投资了明星创业者张月光",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "source": "陈冕",
-      "target": "字节跳动",
-      "relation_type": "works_at",
-      "type": "works_at",
-      "label": "文中提到“字节4-1做创业公司的思路”，暗指陈冕曾为字节跳动的高阶员工。",
-      "weight": 4,
-      "strength": 4,
-      "effective_weight": 20,
-      "article_count": 4,
-      "evidence_articles": [
-        "073",
-        "078",
-        "106",
-        "119"
-      ],
-      "evidences": [
-        {
-          "article_id": "119",
-          "title": "视频Agent进入大致敬时代",
-          "permalink": "/articles/119",
-          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
-          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
-          "date": "2026-07-14",
-          "label": "文中提到陈冕是“出走字节”创业",
-          "weight": 1
-        },
-        {
-          "article_id": "106",
-          "title": "我来给LibTV道喜了",
-          "permalink": "/articles/106",
-          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
-          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
-          "date": "2026-06-18",
-          "label": "陈冕曾作为字节跳动4-1级别员工在字节任职",
-          "weight": 1
-        },
-        {
-          "article_id": "078",
-          "title": "Flova和TapNow背对背拥抱",
-          "permalink": "/articles/078",
-          "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
-          "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
-          "date": "2026-04-07",
-          "label": "提及曾在字节跳动有一定级别",
-          "weight": 1
-        },
-        {
-          "article_id": "073",
-          "title": "Lovart狂做TapNow",
-          "permalink": "/articles/073",
-          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
-          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
-          "date": "2026-03-19",
-          "label": "文中提到“字节4-1做创业公司的思路”，暗指陈冕曾为字节跳动的高阶员工。",
           "weight": 1
         }
       ]
@@ -30607,6 +30866,54 @@
           "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
           "date": "2026-02-13",
           "label": "自然选择开发了Elys",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "明超平",
+      "target": "youware",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "明超平是Youware的创始人",
+      "weight": 3,
+      "strength": 5,
+      "effective_weight": 18,
+      "article_count": 3,
+      "evidence_articles": [
+        "085",
+        "090",
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "明超平是Youware的创始人",
+          "weight": 1
+        },
+        {
+          "article_id": "090",
+          "title": "Bloome重做元宝派",
+          "permalink": "/articles/090",
+          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+          "date": "2026-05-12",
+          "label": "明超平是Youware的创始人",
+          "weight": 1
+        },
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "明超平创立了Youware",
           "weight": 1
         }
       ]
@@ -31777,6 +32084,43 @@
       ]
     },
     {
+      "source": "lovart",
+      "target": "manus",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者调侃Lovart的陈冕是否眼红Manus的高营收",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "049",
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "Lovart的replay功能受Manus启发，且上线节奏受Manus爆火影响",
+          "weight": 1
+        },
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "date": "2026-01-05",
+          "label": "作者调侃Lovart的陈冕是否眼红Manus的高营收",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "manus",
       "target": "扣子空间",
       "relation_type": "compares_to",
@@ -32591,6 +32935,43 @@
       ]
     },
     {
+      "source": "libtv",
+      "target": "lovart",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "LibTV公司旗下拥有Lovart业务",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "106",
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "LibTV开发了AI产品Lovart",
+          "weight": 1
+        },
+        {
+          "article_id": "106",
+          "title": "我来给LibTV道喜了",
+          "permalink": "/articles/106",
+          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "date": "2026-06-18",
+          "label": "LibTV公司旗下拥有Lovart业务",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "minimax",
       "target": "maxhermes",
       "relation_type": "develops",
@@ -33331,43 +33712,6 @@
       ]
     },
     {
-      "source": "明超平",
-      "target": "youware",
-      "relation_type": "founder_of",
-      "type": "founder_of",
-      "label": "明超平创立了Youware",
-      "weight": 2,
-      "strength": 5,
-      "effective_weight": 12,
-      "article_count": 2,
-      "evidence_articles": [
-        "085",
-        "090"
-      ],
-      "evidences": [
-        {
-          "article_id": "090",
-          "title": "Bloome重做元宝派",
-          "permalink": "/articles/090",
-          "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
-          "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
-          "date": "2026-05-12",
-          "label": "明超平是Youware的创始人",
-          "weight": 1
-        },
-        {
-          "article_id": "085",
-          "title": "谁是宇宙第一FA",
-          "permalink": "/articles/085",
-          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "date": "2026-04-27",
-          "label": "明超平创立了Youware",
-          "weight": 1
-        }
-      ]
-    },
-    {
       "source": "梁圣",
       "target": "deepseek",
       "relation_type": "founder_of",
@@ -33400,6 +33744,43 @@
           "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
           "date": "2026-06-17",
           "label": "梁圣是DeepSeek的老板/创始人（文中提及他自有办法解决剩余研发成本）",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "陈冕",
+      "target": "libtv",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "陈冕创办了LibTV",
+      "weight": 2,
+      "strength": 5,
+      "effective_weight": 12,
+      "article_count": 2,
+      "evidence_articles": [
+        "106",
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "陈冕是LibTV的创始人兼CEO",
+          "weight": 1
+        },
+        {
+          "article_id": "106",
+          "title": "我来给LibTV道喜了",
+          "permalink": "/articles/106",
+          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "date": "2026-06-18",
+          "label": "陈冕创办了LibTV",
           "weight": 1
         }
       ]
@@ -37526,6 +37907,32 @@
       ]
     },
     {
+      "source": "h3",
+      "target": "seedance-2-0",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将H3与Seedance 2.0进行详细对比，指出H3价格低但效果有差距",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "127"
+      ],
+      "evidences": [
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "date": "2026-08-02",
+          "label": "文章将H3与Seedance 2.0进行详细对比，指出H3价格低但效果有差距",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "hao123",
       "target": "monica",
       "relation_type": "compares_to",
@@ -37995,6 +38402,32 @@
     },
     {
       "source": "libtv",
+      "target": "字节跳动",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章作者将LibTV比作下一个字节跳动",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "文章作者将LibTV比作下一个字节跳动",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "libtv",
       "target": "转转",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -38171,32 +38604,6 @@
           "path": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
           "date": "2026-01-21",
           "label": "YouWare同样演变成Lovable的平替工具",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "source": "lovart",
-      "target": "manus",
-      "relation_type": "compares_to",
-      "type": "compares_to",
-      "label": "作者调侃Lovart的陈冕是否眼红Manus的高营收",
-      "weight": 1,
-      "strength": 2,
-      "effective_weight": 3,
-      "article_count": 1,
-      "evidence_articles": [
-        "049"
-      ],
-      "evidences": [
-        {
-          "article_id": "049",
-          "title": "建议六小虎合并，实现China AGI",
-          "permalink": "/articles/049",
-          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "date": "2026-01-05",
-          "label": "作者调侃Lovart的陈冕是否眼红Manus的高营收",
           "weight": 1
         }
       ]
@@ -41426,6 +41833,32 @@
       ]
     },
     {
+      "source": "张一鸣",
+      "target": "陈冕",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章作者将陈冕比作下一个张一鸣",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "文章作者将陈冕比作下一个张一鸣",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "张月光",
       "target": "景鲲",
       "relation_type": "compares_to",
@@ -43605,6 +44038,32 @@
           "path": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
           "date": "2025-06-13",
           "label": "二者均为当前处于探索阶段的 AI 创作产品，在 AI 辅助写作场景下存在竞品关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "h3",
+      "target": "seedance-2-5",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "H3与Seedance 2.5存在直接市场竞争关系，且发布时间接近",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "127"
+      ],
+      "evidences": [
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "date": "2026-08-02",
+          "label": "H3与Seedance 2.5存在直接市场竞争关系，且发布时间接近",
           "weight": 1
         }
       ]
@@ -47251,32 +47710,6 @@
     },
     {
       "source": "libtv",
-      "target": "lovart",
-      "relation_type": "develops",
-      "type": "develops",
-      "label": "LibTV公司旗下拥有Lovart业务",
-      "weight": 1,
-      "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
-      "evidence_articles": [
-        "106"
-      ],
-      "evidences": [
-        {
-          "article_id": "106",
-          "title": "我来给LibTV道喜了",
-          "permalink": "/articles/106",
-          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
-          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
-          "date": "2026-06-18",
-          "label": "LibTV公司旗下拥有Lovart业务",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "source": "libtv",
       "target": "星流",
       "relation_type": "develops",
       "type": "develops",
@@ -47479,6 +47912,32 @@
           "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
           "date": "2026-06-04",
           "label": "马卡龙是Mindverse（原马卡龙团队）开发的起家产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "h3",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax开发并发布了视频模型H3",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "127"
+      ],
+      "evidences": [
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "date": "2026-08-02",
+          "label": "MiniMax开发并发布了视频模型H3",
           "weight": 1
         }
       ]
@@ -52034,32 +52493,6 @@
       ]
     },
     {
-      "source": "陈冕",
-      "target": "libtv",
-      "relation_type": "founder_of",
-      "type": "founder_of",
-      "label": "陈冕创办了LibTV",
-      "weight": 1,
-      "strength": 5,
-      "effective_weight": 6,
-      "article_count": 1,
-      "evidence_articles": [
-        "106"
-      ],
-      "evidences": [
-        {
-          "article_id": "106",
-          "title": "我来给LibTV道喜了",
-          "permalink": "/articles/106",
-          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
-          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
-          "date": "2026-06-18",
-          "label": "陈冕创办了LibTV",
-          "weight": 1
-        }
-      ]
-    },
-    {
       "source": "陈宇森",
       "target": "mulerun",
       "relation_type": "founder_of",
@@ -53854,6 +54287,32 @@
       ]
     },
     {
+      "source": "h3",
+      "target": "libtv",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文中提到H3相当于给LibTV接腿，两者结合可抗击Seedance 2.5",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "127"
+      ],
+      "evidences": [
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "date": "2026-08-02",
+          "label": "文中提到H3相当于给LibTV接腿，两者结合可抗击Seedance 2.5",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "kimi-claw",
       "target": "kimi-code",
       "relation_type": "integrates_with",
@@ -55149,6 +55608,32 @@
           "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
           "date": "2026-03-26",
           "label": "Justin赞助了葬AI Web4项目200元",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "libtv",
+      "target": "tapnow",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "陈冕表示想投一点TapNow以鼓励创新，但对方未理会",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "陈冕表示想投一点TapNow以鼓励创新，但对方未理会",
           "weight": 1
         }
       ]
@@ -57546,6 +58031,32 @@
       ]
     },
     {
+      "source": "明超平",
+      "target": "libtv",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "明超平发视频号夸赞LibTV投流水平高",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "明超平发视频号夸赞LibTV投流水平高",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "朱亦辉",
       "target": "flova",
       "relation_type": "praises",
@@ -57905,6 +58416,32 @@
           "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
           "date": "2026-06-18",
           "label": "咸鱼称陈冕为冕圣千古",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "陈冕",
+      "target": "manus",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "陈冕表达对Manus的敬意，认同其less structure more intelligence理念",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "陈冕表达对Manus的敬意，认同其less structure more intelligence理念",
           "weight": 1
         }
       ]
@@ -60895,6 +61432,32 @@
           "path": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
           "date": "2025-12-15",
           "label": "文中提到对OiiOii的锐评应让“闹闹闻过则喜”，暗示其深度参与或主导该产品的开发",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "陈冕",
+      "target": "lovart",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "陈冕深度参与Lovart的产品决策与开发节奏把控",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "陈冕深度参与Lovart的产品决策与开发节奏把控",
           "weight": 1
         }
       ]
@@ -65082,6 +65645,19 @@
       "evidences": []
     },
     {
+      "source": "seedance-2-5",
+      "target": "h3",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "H3与Seedance 2.5存在直接市场竞争关系，且发布时间接近",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "higgsfield",
       "target": "heygen",
       "relation_type": "competes_with",
@@ -66993,6 +67569,19 @@
       "evidences": []
     },
     {
+      "source": "manus",
+      "target": "lovart",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者调侃Lovart的陈冕是否眼红Manus的高营收",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "扣子空间",
       "target": "manus",
       "relation_type": "compares_to",
@@ -68579,6 +69168,19 @@
       "evidences": []
     },
     {
+      "source": "seedance-2-0",
+      "target": "h3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将H3与Seedance 2.0进行详细对比，指出H3价格低但效果有差距",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "monica",
       "target": "hao123",
       "relation_type": "compares_to",
@@ -68813,6 +69415,19 @@
       "evidences": []
     },
     {
+      "source": "字节跳动",
+      "target": "libtv",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章作者将LibTV比作下一个字节跳动",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "转转",
       "target": "libtv",
       "relation_type": "compares_to",
@@ -68896,19 +69511,6 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "YouWare同样演变成Lovable的平替工具",
-      "weight": 1,
-      "strength": 2,
-      "effective_weight": 2,
-      "article_count": 0,
-      "evidence_articles": [],
-      "evidences": []
-    },
-    {
-      "source": "manus",
-      "target": "lovart",
-      "relation_type": "compares_to",
-      "type": "compares_to",
-      "label": "作者调侃Lovart的陈冕是否眼红Manus的高营收",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -70516,6 +71118,19 @@
       "evidences": []
     },
     {
+      "source": "陈冕",
+      "target": "张一鸣",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章作者将陈冕比作下一个张一鸣",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "景鲲",
       "target": "张月光",
       "relation_type": "compares_to",
@@ -71247,8 +71862,8 @@
   "metadata": {
     "source": "canonical-full-derived",
     "layer": "canonical",
-    "articleCount": 125,
-    "includedArticleCount": 125,
+    "articleCount": 127,
+    "includedArticleCount": 127,
     "missingArticleIds": [],
     "isPartial": false,
     "graphSchemaVersion": "2026-03-15-vc-firm-v3",
@@ -71259,9 +71874,9 @@
     ],
     "pruning": {
       "rule": "mention_count >= 1; weak related edges removed; isolated mentioned entities retained",
-      "weakEdgesPruned": 36,
+      "weakEdgesPruned": 40,
       "removedNodeCount": 0,
-      "orphanedNodeCount": 29
+      "orphanedNodeCount": 30
     },
     "weighting": {
       "node": "mention_count",
@@ -71274,7 +71889,7 @@
         "tier5_catchall": 1
       }
     },
-    "baseNodeCount": 733,
-    "baseLinkCount": 1336
+    "baseNodeCount": 737,
+    "baseLinkCount": 1350
   }
 }

@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "seedance-2-5",
+    "name": "Seedance 2.5",
+    "type": "product",
+    "description": "在H3发布后紧接着上线的视频模型版本，是H3的直接竞争对手",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "视频生成"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "127",
+        "title": "MiniMax用H3窃取大结果",
+        "date": "2026-08-02",
+        "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+        "permalink": "/articles/127",
+        "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0257
+  },
+  "links": [
+    {
+      "source": "h3",
+      "target": "seedance-2-5",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "H3与Seedance 2.5存在直接市场竞争关系，且发布时间接近",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "127"
+      ],
+      "evidences": [
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "date": "2026-08-02",
+          "label": "H3与Seedance 2.5存在直接市场竞争关系，且发布时间接近",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seedance-2-5",
+      "target": "h3",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "H3与Seedance 2.5存在直接市场竞争关系，且发布时间接近",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

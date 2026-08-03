@@ -106,7 +106,7 @@
       }
     ],
     "degree": 25,
-    "composite_weight": 0.3137
+    "composite_weight": 0.3129
   },
   "links": [
     {
@@ -728,23 +728,11 @@
   ],
   "suggested_edges": [
     {
-      "source": "百度",
-      "target": "蚂蚁集团",
-      "score": 0.4837,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "055",
-        "099"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "manus",
       "target": "百度",
-      "score": 0.4812,
+      "score": 0.5568,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "017",
         "022",
@@ -754,14 +742,14 @@
       "status": "suggested"
     },
     {
-      "source": "libtv",
-      "target": "百度",
-      "score": 0.413,
-      "suggested_relation_type": "related",
+      "source": "百度",
+      "target": "蚂蚁集团",
+      "score": 0.4798,
+      "suggested_relation_type": "compares_to",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
-        "099",
-        "125"
+        "055",
+        "099"
       ],
       "status": "suggested"
     },
@@ -775,6 +763,18 @@
         "022",
         "055",
         "059"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "libtv",
+      "target": "百度",
+      "score": 0.4091,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "099",
+        "125"
       ],
       "status": "suggested"
     },

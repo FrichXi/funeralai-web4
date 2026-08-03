@@ -4,13 +4,14 @@
     "name": "TapNow",
     "type": "company",
     "description": "AI视频创作平台，推出了Creative OS系统，致力于构建AI视频创作生态",
-    "mention_count": 57,
-    "article_count": 7,
+    "mention_count": 58,
+    "article_count": 8,
     "aliases": [
       "Tapnow"
     ],
     "tags": [
       "AI创作工具",
+      "AI应用",
       "AI行业",
       "AI视频",
       "AI视频生成",
@@ -21,8 +22,8 @@
       "视频Agent",
       "视频工作流"
     ],
-    "references": 7,
-    "source_article_count": 7,
+    "references": 8,
+    "source_article_count": 8,
     "source_articles": [
       {
         "article_id": "073",
@@ -70,6 +71,15 @@
         "mention_count": 3
       },
       {
+        "article_id": "126",
+        "title": "冕神语录",
+        "date": "2026-07-29",
+        "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "permalink": "/articles/126",
+        "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "116",
         "title": "民办大模型MiniMax努力专升本",
         "date": "2026-07-09",
@@ -88,8 +98,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 18,
-    "composite_weight": 0.2828
+    "degree": 19,
+    "composite_weight": 0.2983
   },
   "links": [
     {
@@ -416,6 +426,32 @@
       ]
     },
     {
+      "source": "libtv",
+      "target": "tapnow",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "陈冕表示想投一点TapNow以鼓励创新，但对方未理会",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "陈冕表示想投一点TapNow以鼓励创新，但对方未理会",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "tapnow",
       "target": "骡子马",
       "relation_type": "partners_with",
@@ -472,21 +508,36 @@
     {
       "source": "tapnow",
       "target": "陈冕",
-      "score": 0.3969,
+      "score": 0.4658,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 1 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 1 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "073",
         "078",
         "116",
-        "119"
+        "119",
+        "126"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "tapnow",
+      "target": "字节跳动",
+      "score": 0.3758,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 1 个邻居",
+      "evidence_article_ids": [
+        "073",
+        "078",
+        "119",
+        "126"
       ],
       "status": "suggested"
     },
     {
       "source": "tapnow",
       "target": "tv-show",
-      "score": 0.3743,
+      "score": 0.3732,
       "suggested_relation_type": "related",
       "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [

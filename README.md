@@ -4,9 +4,9 @@
 
 # 葬AI Knowledge Graph / 葬AI 知识图谱
 
-An open-source pipeline that turns a collection of Chinese AI industry commentary articles into an interactive knowledge graph. 125 articles are processed by Qwen 3.7 Max to extract entities and relationships, then aggregated into a browsable graph with leaderboards. **699 entities, 1860 relationships** — the most comprehensive Chinese AI industry knowledge graph.
+An open-source pipeline that turns a collection of Chinese AI industry commentary articles into an interactive knowledge graph. 127 articles are processed by Qwen 3.7 Max to extract entities and relationships, then aggregated into a browsable graph with leaderboards. **703 entities, 1874 relationships** — the most comprehensive Chinese AI industry knowledge graph.
 
-一个开源的知识图谱管线：将中文 AI 行业评论文章集合转化为可交互的知识图谱可视化站点。125 篇文章经 Qwen 3.7 Max 提取实体与关系，聚合为包含排行榜的可浏览图谱。**699 个实体、1860 条关系** — 最全面的中文 AI 行业知识图谱。
+一个开源的知识图谱管线：将中文 AI 行业评论文章集合转化为可交互的知识图谱可视化站点。127 篇文章经 Qwen 3.7 Max 提取实体与关系，聚合为包含排行榜的可浏览图谱。**703 个实体、1874 条关系** — 最全面的中文 AI 行业知识图谱。
 
 **Live site / 在线站点**: [funeralai.cc](https://funeralai.cc)
 
@@ -100,7 +100,7 @@ npm run build      # Static export to site/out/
 ## Project Structure / 项目结构
 
 ```
-├── articles/              # Source markdown articles (001-125)
+├── articles/              # Source markdown articles (001-127)
 ├── scripts/               # Python pipeline
 │   ├── run_pipeline.py    # Unified CLI entry point
 │   ├── extract_gemini.py  # Qwen 3.7 Max extraction

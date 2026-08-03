@@ -4,17 +4,19 @@
     "name": "张一鸣",
     "type": "person",
     "description": "字节跳动创始人，文中作为思考AI战略的代入角色。",
-    "mention_count": 5,
-    "article_count": 3,
+    "mention_count": 6,
+    "article_count": 4,
     "aliases": [
       "一鸣"
     ],
     "tags": [
+      "企业家",
       "大厂创始人",
+      "对标对象",
       "老板视角"
     ],
-    "references": 3,
-    "source_article_count": 3,
+    "references": 4,
+    "source_article_count": 4,
     "source_articles": [
       {
         "article_id": "040",
@@ -24,6 +26,15 @@
         "permalink": "/articles/040",
         "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "126",
+        "title": "冕神语录",
+        "date": "2026-07-29",
+        "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "permalink": "/articles/126",
+        "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "mention_count": 1
       },
       {
         "article_id": "085",
@@ -44,8 +55,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 5,
-    "composite_weight": 0.0481
+    "degree": 7,
+    "composite_weight": 0.0706
   },
   "links": [
     {
@@ -101,6 +112,32 @@
       ]
     },
     {
+      "source": "张一鸣",
+      "target": "陈冕",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章作者将陈冕比作下一个张一鸣",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "文章作者将陈冕比作下一个张一鸣",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "明超平",
       "target": "张一鸣",
       "relation_type": "compares_to",
@@ -119,6 +156,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文章将张一鸣与王兴作为具有战略高度的老板角色进行并列比喻（“人人成王兴，大伙都一鸣”）。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "陈冕",
+      "target": "张一鸣",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章作者将陈冕比作下一个张一鸣",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,

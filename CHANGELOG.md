@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
+- Article 127 imported from Substack: "MiniMax用H3窃取大结果" (127). Incremental pipeline run completed successfully with 8 entities and 7 relationships extracted; public stats updated to 127 articles / 703 entities / 1874 relationships.
 - Added a versioned release contract with article/graph/benchmark invariants, key-file hashes, a full static-tree digest, Git/runtime identity, local verification, and retrying remote verification.
 - Added a two-phase Cloudflare Pages release flow that validates an immutable preview before promoting the same `site/out` tree to production, then verifies both the unique deployment URL and `funeralai.cc` and writes an ignored release receipt.
 - Added a dry-run-first Cloudflare Pages rollback CLI with post-rollback production-contract verification, a deterministic 160-entry CI benchmark fixture, release-guard/rollback tests, and the engineering reliability plan, audit, and operations runbook.
@@ -20,6 +21,7 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
+- Re-extracted article 126 ("冕神语录") after a prior `parse_failed` state blocked the presentation build; it now contributes 9 entities and 12 relationships, restoring full-corpus graph metadata for all 127 articles.
 - Repository hygiene now rejects source-tree backup copies and nested `node_modules` caches in addition to duplicate `site/public/test *` directories; existing copies/caches were moved to the ignored recovery area.
 - Vitest now writes its cache to `site/node_modules/.vite` instead of recreating `site/src/node_modules` after every test run.
 - Remote release verification now retries complete contract mismatches, including temporary old hashes during custom-domain propagation, instead of retrying only transport errors.

@@ -4,13 +4,14 @@
     "name": "YouWare",
     "type": "product",
     "description": "一家AI公司，其关于“创始人神性”的话题被性压抑AI作为集体社会性阳痿的展演进行了解构。",
-    "mention_count": 58,
-    "article_count": 12,
+    "mention_count": 59,
+    "article_count": 13,
     "aliases": [
       "Youware",
       "Youware团队"
     ],
     "tags": [
+      "AI公司",
       "AI创业",
       "AI应用",
       "AI建站",
@@ -27,8 +28,8 @@
       "神性",
       "编程工具"
     ],
-    "references": 12,
-    "source_article_count": 12,
+    "references": 13,
+    "source_article_count": 13,
     "source_articles": [
       {
         "article_id": "010",
@@ -112,6 +113,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "126",
+        "title": "冕神语录",
+        "date": "2026-07-29",
+        "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "permalink": "/articles/126",
+        "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "032",
         "title": "Flowith是个锤子",
         "date": "2025-10-31",
@@ -140,7 +150,7 @@
       }
     ],
     "degree": 16,
-    "composite_weight": 0.2031
+    "composite_weight": 0.2126
   },
   "links": [
     {
@@ -408,16 +418,27 @@
       "target": "youware",
       "relation_type": "founder_of",
       "type": "founder_of",
-      "label": "明超平创立了Youware",
-      "weight": 2,
+      "label": "明超平是Youware的创始人",
+      "weight": 3,
       "strength": 5,
-      "effective_weight": 12,
-      "article_count": 2,
+      "effective_weight": 18,
+      "article_count": 3,
       "evidence_articles": [
         "085",
-        "090"
+        "090",
+        "126"
       ],
       "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "明超平是Youware的创始人",
+          "weight": 1
+        },
         {
           "article_id": "090",
           "title": "Bloome重做元宝派",
@@ -512,7 +533,7 @@
       "target": "youware",
       "score": 0.4574,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 5 篇文章；共享 1 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 1 个邻居",
       "evidence_article_ids": [
         "016",
         "018",
@@ -538,11 +559,25 @@
     {
       "source": "youware",
       "target": "圆脸眼镜哥",
-      "score": 0.4191,
+      "score": 0.4166,
       "suggested_relation_type": "related",
       "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "054"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "youware",
+      "target": "字节跳动",
+      "score": 0.3826,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 1 个邻居",
+      "evidence_article_ids": [
+        "018",
+        "054",
+        "085",
+        "126"
       ],
       "status": "suggested"
     }

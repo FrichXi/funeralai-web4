@@ -4,8 +4,8 @@
     "name": "明超平",
     "type": "person",
     "description": "Youware创始人、产品经理，Bloome的打造者",
-    "mention_count": 26,
-    "article_count": 6,
+    "mention_count": 28,
+    "article_count": 7,
     "aliases": [
       "小明",
       "神父"
@@ -13,8 +13,8 @@
     "tags": [
       "AI产品之神"
     ],
-    "references": 6,
-    "source_article_count": 6,
+    "references": 7,
+    "source_article_count": 7,
     "source_articles": [
       {
         "article_id": "090",
@@ -44,6 +44,15 @@
         "mention_count": 6
       },
       {
+        "article_id": "126",
+        "title": "冕神语录",
+        "date": "2026-07-29",
+        "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "permalink": "/articles/126",
+        "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "mention_count": 2
+      },
+      {
         "article_id": "054",
         "title": "Atoms，平替Lovable的残酷物语",
         "date": "2026-01-21",
@@ -71,8 +80,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 15,
-    "composite_weight": 0.1605
+    "degree": 16,
+    "composite_weight": 0.1793
   },
   "links": [
     {
@@ -312,16 +321,27 @@
       "target": "youware",
       "relation_type": "founder_of",
       "type": "founder_of",
-      "label": "明超平创立了Youware",
-      "weight": 2,
+      "label": "明超平是Youware的创始人",
+      "weight": 3,
       "strength": 5,
-      "effective_weight": 12,
-      "article_count": 2,
+      "effective_weight": 18,
+      "article_count": 3,
       "evidence_articles": [
         "085",
-        "090"
+        "090",
+        "126"
       ],
       "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "明超平是Youware的创始人",
+          "weight": 1
+        },
         {
           "article_id": "090",
           "title": "Bloome重做元宝派",
@@ -340,6 +360,32 @@
           "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
           "date": "2026-04-27",
           "label": "明超平创立了Youware",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "明超平",
+      "target": "libtv",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "明超平发视频号夸赞LibTV投流水平高",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "明超平发视频号夸赞LibTV投流水平高",
           "weight": 1
         }
       ]
@@ -434,5 +480,30 @@
       ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "字节跳动",
+      "target": "明超平",
+      "score": 0.3904,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "054",
+        "085",
+        "126"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "flowith-os",
+      "target": "明超平",
+      "score": 0.3869,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "032"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

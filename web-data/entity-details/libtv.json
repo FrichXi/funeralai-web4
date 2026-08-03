@@ -4,9 +4,10 @@
     "name": "LibTV",
     "type": "product",
     "description": "AI短剧/视频平台，是Seedance的大客户，也是MiniMax复刻的对象",
-    "mention_count": 70,
-    "article_count": 10,
+    "mention_count": 79,
+    "article_count": 12,
     "aliases": [
+      "Liblib",
       "Libtv",
       "liblib.tv",
       "爱冕TV"
@@ -16,16 +17,18 @@
       "AI短剧",
       "KA客户",
       "TV形态",
+      "开源",
       "短剧",
       "致敬",
       "被投企业",
       "视频Agent",
       "视频agent",
       "视频平台",
+      "视频模型",
       "视频生成"
     ],
-    "references": 10,
-    "source_article_count": 10,
+    "references": 12,
+    "source_article_count": 12,
     "source_articles": [
       {
         "article_id": "106",
@@ -53,6 +56,15 @@
         "permalink": "/articles/119",
         "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
         "mention_count": 12
+      },
+      {
+        "article_id": "126",
+        "title": "冕神语录",
+        "date": "2026-07-29",
+        "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "permalink": "/articles/126",
+        "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "mention_count": 8
       },
       {
         "article_id": "117",
@@ -91,6 +103,15 @@
         "mention_count": 3
       },
       {
+        "article_id": "127",
+        "title": "MiniMax用H3窃取大结果",
+        "date": "2026-08-02",
+        "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+        "permalink": "/articles/127",
+        "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "125",
         "title": "建议百度文心一言申请非遗",
         "date": "2026-07-28",
@@ -118,8 +139,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 35,
-    "composite_weight": 0.4448
+    "degree": 40,
+    "composite_weight": 0.5153
   },
   "links": [
     {
@@ -291,6 +312,32 @@
     },
     {
       "source": "libtv",
+      "target": "字节跳动",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章作者将LibTV比作下一个字节跳动",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "文章作者将LibTV比作下一个字节跳动",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "libtv",
       "target": "转转",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -347,6 +394,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文章核心论点，指出LibTV在UI设计、交互、分镜解析等大量功能上像素级模仿（抄袭/致敬）TapNow。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "字节跳动",
+      "target": "libtv",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章作者将LibTV比作下一个字节跳动",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -581,14 +641,25 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "LibTV公司旗下拥有Lovart业务",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "106"
+        "106",
+        "126"
       ],
       "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "LibTV开发了AI产品Lovart",
+          "weight": 1
+        },
         {
           "article_id": "106",
           "title": "我来给LibTV道喜了",
@@ -685,14 +756,25 @@
       "relation_type": "founder_of",
       "type": "founder_of",
       "label": "陈冕创办了LibTV",
-      "weight": 1,
+      "weight": 2,
       "strength": 5,
-      "effective_weight": 6,
-      "article_count": 1,
+      "effective_weight": 12,
+      "article_count": 2,
       "evidence_articles": [
-        "106"
+        "106",
+        "126"
       ],
       "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "陈冕是LibTV的创始人兼CEO",
+          "weight": 1
+        },
         {
           "article_id": "106",
           "title": "我来给LibTV道喜了",
@@ -727,6 +809,32 @@
           "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
           "date": "2026-06-23",
           "label": "文末评价利用GLM结合LibTV这种Agent应用有极强的生产力",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "h3",
+      "target": "libtv",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文中提到H3相当于给LibTV接腿，两者结合可抗击Seedance 2.5",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "127"
+      ],
+      "evidences": [
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "date": "2026-08-02",
+          "label": "文中提到H3相当于给LibTV接腿，两者结合可抗击Seedance 2.5",
           "weight": 1
         }
       ]
@@ -858,6 +966,32 @@
       ]
     },
     {
+      "source": "libtv",
+      "target": "tapnow",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "陈冕表示想投一点TapNow以鼓励创新，但对方未理会",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "陈冕表示想投一点TapNow以鼓励创新，但对方未理会",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "腾讯",
       "target": "libtv",
       "relation_type": "invests_in",
@@ -934,21 +1068,74 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "明超平",
+      "target": "libtv",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "明超平发视频号夸赞LibTV投流水平高",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "明超平发视频号夸赞LibTV投流水平高",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "libtv",
       "target": "minimax",
-      "score": 0.5652,
+      "score": 0.6797,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "099",
         "109",
         "116",
         "117",
         "119"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "libtv",
+      "target": "manus",
+      "score": 0.5168,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "073",
+        "106",
+        "126"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "kimi",
+      "target": "libtv",
+      "score": 0.4747,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "099",
+        "109",
+        "116",
+        "117"
       ],
       "status": "suggested"
     },
@@ -974,32 +1161,6 @@
       "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "073"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "libtv",
-      "target": "百度",
-      "score": 0.413,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "099",
-        "125"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "kimi",
-      "target": "libtv",
-      "score": 0.3952,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 1 个邻居",
-      "evidence_article_ids": [
-        "099",
-        "109",
-        "116",
-        "117"
       ],
       "status": "suggested"
     }

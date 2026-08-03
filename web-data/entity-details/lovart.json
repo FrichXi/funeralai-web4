@@ -4,10 +4,12 @@
     "name": "Lovart",
     "type": "product",
     "description": "海报设计应用，钉钉的AI印被形容为再造了该产品，且钉钉为其提供了后端服务",
-    "mention_count": 55,
-    "article_count": 15,
+    "mention_count": 61,
+    "article_count": 16,
     "aliases": [],
     "tags": [
+      "AI Agent",
+      "AIGC工具",
       "AI公司",
       "AI生图",
       "AI生成",
@@ -21,8 +23,8 @@
       "设计工具",
       "设计应用"
     ],
-    "references": 15,
-    "source_article_count": 15,
+    "references": 16,
+    "source_article_count": 16,
     "source_articles": [
       {
         "article_id": "073",
@@ -32,6 +34,15 @@
         "permalink": "/articles/073",
         "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
         "mention_count": 23
+      },
+      {
+        "article_id": "126",
+        "title": "冕神语录",
+        "date": "2026-07-29",
+        "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "permalink": "/articles/126",
+        "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "mention_count": 6
       },
       {
         "article_id": "106",
@@ -160,8 +171,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 31,
-    "composite_weight": 0.346
+    "degree": 32,
+    "composite_weight": 0.3756
   },
   "links": [
     {
@@ -337,14 +348,25 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "作者调侃Lovart的陈冕是否眼红Manus的高营收",
-      "weight": 1,
+      "weight": 2,
       "strength": 2,
-      "effective_weight": 3,
-      "article_count": 1,
+      "effective_weight": 6,
+      "article_count": 2,
       "evidence_articles": [
-        "049"
+        "049",
+        "126"
       ],
       "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "Lovart的replay功能受Manus启发，且上线节奏受Manus爆火影响",
+          "weight": 1
+        },
         {
           "article_id": "049",
           "title": "建议六小虎合并，实现China AGI",
@@ -532,14 +554,25 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "LibTV公司旗下拥有Lovart业务",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "106"
+        "106",
+        "126"
       ],
       "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "LibTV开发了AI产品Lovart",
+          "weight": 1
+        },
         {
           "article_id": "106",
           "title": "我来给LibTV道喜了",
@@ -885,27 +918,54 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "陈冕",
+      "target": "lovart",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "陈冕深度参与Lovart的产品决策与开发节奏把控",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "陈冕深度参与Lovart的产品决策与开发节奏把控",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "lovart",
       "target": "字节跳动",
-      "score": 0.5602,
+      "score": 0.6252,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "040",
         "073",
         "085",
-        "106"
+        "106",
+        "126"
       ],
       "status": "suggested"
     },
     {
       "source": "genspark",
       "target": "lovart",
-      "score": 0.5124,
+      "score": 0.5121,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
@@ -932,7 +992,7 @@
     {
       "source": "claude",
       "target": "lovart",
-      "score": 0.4434,
+      "score": 0.4431,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 1 个邻居",
       "evidence_article_ids": [

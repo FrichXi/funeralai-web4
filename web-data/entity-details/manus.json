@@ -3,9 +3,9 @@
     "id": "manus",
     "name": "Manus",
     "type": "product",
-    "description": "通用Agent平台，被作者称为“版本神”，开创了左边大模型右边云电脑沙盒的产品形态",
-    "mention_count": 107,
-    "article_count": 26,
+    "description": "AI Agent产品，主张less structure more intelligence，对Lovart有启发作用",
+    "mention_count": 120,
+    "article_count": 27,
     "aliases": [
       "Manus (产品)",
       "Manus Agents",
@@ -32,14 +32,15 @@
       "新加坡公司",
       "本地Agent",
       "沙盒",
+      "竞品/对标",
       "类龙虾产品",
       "纯炒作",
       "通用Agent",
       "邮件交互",
       "高营收"
     ],
-    "references": 26,
-    "source_article_count": 26,
+    "references": 27,
+    "source_article_count": 27,
     "source_articles": [
       {
         "article_id": "016",
@@ -49,6 +50,15 @@
         "permalink": "/articles/016",
         "markdown_link": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
         "mention_count": 31
+      },
+      {
+        "article_id": "126",
+        "title": "冕神语录",
+        "date": "2026-07-29",
+        "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "permalink": "/articles/126",
+        "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+        "mention_count": 13
       },
       {
         "article_id": "067",
@@ -276,8 +286,8 @@
         "mention_count": 6
       }
     ],
-    "degree": 58,
-    "composite_weight": 0.564
+    "degree": 59,
+    "composite_weight": 0.6131
   },
   "links": [
     {
@@ -542,14 +552,25 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "作者调侃Lovart的陈冕是否眼红Manus的高营收",
-      "weight": 1,
+      "weight": 2,
       "strength": 2,
-      "effective_weight": 3,
-      "article_count": 1,
+      "effective_weight": 6,
+      "article_count": 2,
       "evidence_articles": [
-        "049"
+        "049",
+        "126"
       ],
       "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "Lovart的replay功能受Manus启发，且上线节奏受Manus爆火影响",
+          "weight": 1
+        },
         {
           "article_id": "049",
           "title": "建议六小虎合并，实现China AGI",
@@ -1404,6 +1425,32 @@
       ]
     },
     {
+      "source": "陈冕",
+      "target": "manus",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "陈冕表达对Manus的敬意，认同其less structure more intelligence理念",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "126"
+      ],
+      "evidences": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "date": "2026-07-29",
+          "label": "陈冕表达对Manus的敬意，认同其less structure more intelligence理念",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "kaiyi",
       "target": "manus",
       "relation_type": "works_at",
@@ -1499,9 +1546,9 @@
     {
       "source": "manus",
       "target": "字节跳动",
-      "score": 0.7531,
+      "score": 0.8287,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "017",
         "018",

@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "seedance-2-0",
+    "name": "Seedance 2.0",
+    "type": "product",
+    "description": "文中作为H3主要对标对象的视频生成模型，被视为SOTA基准",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "SOTA",
+      "视频生成"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "127",
+        "title": "MiniMax用H3窃取大结果",
+        "date": "2026-08-02",
+        "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+        "permalink": "/articles/127",
+        "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0286
+  },
+  "links": [
+    {
+      "source": "h3",
+      "target": "seedance-2-0",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将H3与Seedance 2.0进行详细对比，指出H3价格低但效果有差距",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "127"
+      ],
+      "evidences": [
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "date": "2026-08-02",
+          "label": "文章将H3与Seedance 2.0进行详细对比，指出H3价格低但效果有差距",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seedance-2-0",
+      "target": "h3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将H3与Seedance 2.0进行详细对比，指出H3价格低但效果有差距",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

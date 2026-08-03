@@ -4,8 +4,8 @@
     "name": "MiniMax",
     "type": "company",
     "description": "国内头部大模型公司，开发了M3模型、海螺视频模型及Talkie/星野等C端产品",
-    "mention_count": 216,
-    "article_count": 22,
+    "mention_count": 243,
+    "article_count": 23,
     "aliases": [
       "MinMax",
       "Minimax"
@@ -22,20 +22,22 @@
       "IPO",
       "上市",
       "上市公司",
+      "世界模型",
       "人工智能",
       "付费墙",
       "出海",
       "多模态",
       "大模型",
       "大模型公司",
+      "开源",
       "情感陪伴",
       "斩杀线",
       "模型厂",
       "模型层",
       "视频生成模型"
     ],
-    "references": 22,
-    "source_article_count": 22,
+    "references": 23,
+    "source_article_count": 23,
     "source_articles": [
       {
         "article_id": "117",
@@ -63,6 +65,15 @@
         "permalink": "/articles/004",
         "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
         "mention_count": 29
+      },
+      {
+        "article_id": "127",
+        "title": "MiniMax用H3窃取大结果",
+        "date": "2026-08-02",
+        "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+        "permalink": "/articles/127",
+        "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+        "mention_count": 27
       },
       {
         "article_id": "049",
@@ -236,8 +247,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 44,
-    "composite_weight": 0.6609
+    "degree": 45,
+    "composite_weight": 0.7445
   },
   "links": [
     {
@@ -942,6 +953,32 @@
     },
     {
       "source": "minimax",
+      "target": "h3",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax开发并发布了视频模型H3",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "127"
+      ],
+      "evidences": [
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "date": "2026-08-02",
+          "label": "MiniMax开发并发布了视频模型H3",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
       "target": "m2",
       "relation_type": "develops",
       "type": "develops",
@@ -1491,6 +1528,21 @@
       "status": "suggested"
     },
     {
+      "source": "libtv",
+      "target": "minimax",
+      "score": 0.6797,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 6 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "099",
+        "109",
+        "116",
+        "117",
+        "119"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "minimax",
       "target": "杨植麟",
       "score": 0.5974,
@@ -1517,21 +1569,6 @@
         "103",
         "105",
         "109"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "libtv",
-      "target": "minimax",
-      "score": 0.5652,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
-      "evidence_article_ids": [
-        "099",
-        "109",
-        "116",
-        "117",
-        "119"
       ],
       "status": "suggested"
     },
