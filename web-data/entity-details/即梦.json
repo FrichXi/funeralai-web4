@@ -4,8 +4,8 @@
     "name": "即梦",
     "type": "product",
     "description": "字节旗下的AI创作应用，内置了AI形象定制和视频合拍功能。",
-    "mention_count": 35,
-    "article_count": 9,
+    "mention_count": 41,
+    "article_count": 10,
     "aliases": [
       "Jimeng"
     ],
@@ -14,6 +14,7 @@
       "AI创作",
       "AI工具",
       "AI应用",
+      "C端产品",
       "图片生成",
       "字节系",
       "视频大模型",
@@ -21,8 +22,8 @@
       "视频生成",
       "音色模拟"
     ],
-    "references": 9,
-    "source_article_count": 9,
+    "references": 10,
+    "source_article_count": 10,
     "source_articles": [
       {
         "article_id": "095",
@@ -41,6 +42,15 @@
         "permalink": "/articles/104",
         "markdown_link": "articles/104_2026-06-15_骡子马_生数鉴定为鸭腿吃多了.md",
         "mention_count": 7
+      },
+      {
+        "article_id": "132",
+        "title": "Seedance 2.5自绝于网民",
+        "date": "2026-08-12",
+        "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "permalink": "/articles/132",
+        "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "mention_count": 6
       },
       {
         "article_id": "062",
@@ -106,8 +116,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 20,
-    "composite_weight": 0.2348
+    "degree": 21,
+    "composite_weight": 0.2521
   },
   "links": [
     {
@@ -415,18 +425,29 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节跳动开发并运营了即梦应用。",
-      "weight": 5,
+      "weight": 6,
       "strength": 4,
-      "effective_weight": 25,
-      "article_count": 5,
+      "effective_weight": 30,
+      "article_count": 6,
       "evidence_articles": [
         "062",
         "078",
         "088",
         "104",
-        "119"
+        "119",
+        "132"
       ],
       "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "字节跳动开发了即梦App",
+          "weight": 1
+        },
         {
           "article_id": "119",
           "title": "视频Agent进入大致敬时代",
@@ -511,15 +532,26 @@
       "relation_type": "integrates_with",
       "type": "integrates_with",
       "label": "即梦应用底层接入了Seedance模型来提供视频和图片复刻能力。",
-      "weight": 2,
+      "weight": 3,
       "strength": 2,
-      "effective_weight": 6,
-      "article_count": 2,
+      "effective_weight": 9,
+      "article_count": 3,
       "evidence_articles": [
         "062",
-        "063"
+        "063",
+        "132"
       ],
       "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "即梦App集成了Seedance模型作为核心生成引擎",
+          "weight": 1
+        },
         {
           "article_id": "063",
           "title": "剪映炒Seedance 2.0，炒出一种推背感",
@@ -593,13 +625,53 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "陈冕",
+      "target": "即梦",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "文中提及陈冕曾被关联于即梦的管理工作（建议其回归）",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "132"
+      ],
+      "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "文中提及陈冕曾被关联于即梦的管理工作（建议其回归）",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
+      "source": "剪映",
+      "target": "即梦",
+      "score": 0.5619,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "063",
+        "078",
+        "088",
+        "132"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "sora",
       "target": "即梦",
-      "score": 0.5338,
+      "score": 0.5312,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -612,7 +684,7 @@
     {
       "source": "oiioii",
       "target": "即梦",
-      "score": 0.4332,
+      "score": 0.4333,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -623,41 +695,28 @@
       "status": "suggested"
     },
     {
-      "source": "剪映",
-      "target": "即梦",
-      "score": 0.422,
+      "source": "即梦",
+      "target": "小云雀",
+      "score": 0.4191,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
+        "062",
         "063",
-        "078",
-        "088"
+        "132"
       ],
       "status": "suggested"
     },
     {
       "source": "即梦",
       "target": "抖音",
-      "score": 0.422,
+      "score": 0.4191,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "062",
         "063",
         "088"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "即梦",
-      "target": "快手",
-      "score": 0.4025,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "062",
-        "095",
-        "104"
       ],
       "status": "suggested"
     }

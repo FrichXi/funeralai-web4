@@ -35,6 +35,7 @@
       "description": "国内头部大模型公司，GLM模型开发商，被视为阿里在AI领域的强劲对手",
       "mention_count": 14,
       "aliases": [
+        "Zhipu",
         "智谱",
         "智谱清言"
       ],
@@ -82,12 +83,14 @@
       ]
     },
     {
-      "id": "胖猫",
-      "name": "胖猫",
+      "id": "minimax-h3",
+      "name": "MiniMax H3",
       "type": "product",
-      "description": "网络事件人物，被大模型视觉识别混淆",
+      "description": "MiniMax推出的视频生成模型，在meme bench中排名第一，指令遵循能力强",
       "mention_count": 6,
       "aliases": [
+        "H3",
+        "胖猫",
         "胖猫AI"
       ],
       "tags": [
@@ -512,6 +515,15 @@
     },
     {
       "source_id": "minimax",
+      "target_id": "minimax-h3",
+      "source": "MiniMax",
+      "target": "MiniMax H3",
+      "relation_type": "develops",
+      "label": "MiniMax创造出的C端产品",
+      "weight": 1
+    },
+    {
+      "source_id": "minimax",
       "target_id": "星野",
       "source": "MiniMax",
       "target": "星野",
@@ -526,15 +538,6 @@
       "target": "海螺AI",
       "relation_type": "develops",
       "label": "MiniMax研发的视频模型",
-      "weight": 1
-    },
-    {
-      "source_id": "minimax",
-      "target_id": "胖猫",
-      "source": "MiniMax",
-      "target": "胖猫",
-      "relation_type": "develops",
-      "label": "MiniMax创造出的C端产品",
       "weight": 1
     },
     {

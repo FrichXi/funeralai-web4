@@ -1,6 +1,6 @@
 # 发布与回滚运行手册
 
-> 适用环境：canonical root `/Users/xixiangyu/Documents/葬AI Web4`  
+> 人工发布环境：canonical root `/Users/xixiangyu/Documents/葬AI Web4`
 > 正式域名：`https://funeralai.cc`  
 > Cloudflare Pages project：`funeral-ai-web4`
 
@@ -14,6 +14,16 @@ npm run deploy
 该命令不是单纯上传。它依次执行：仓库卫生检查、数据重建、KG gate、Python/前端测试、一次 production-mode 构建、release contract、本地验证、preview 上传与验收、同产物 production 上传、唯一 production URL 验收、正式域名验收和 receipt 写入。
 
 不得用 `deploy:raw` 发布 production。该命令只允许显式设置 `ALLOW_RAW_PAGES_DEPLOY=1`，并固定发布到 `diagnostics-only` preview branch。
+
+工作日内容自动化是唯一受控例外。它必须使用 Codex 的 worktree execution environment，并同时满足：
+
+- worktree 与 canonical root 共用同一个 git common dir；
+- 显式设置 `WEB4_AUTOMATION_WORKTREE=1`；
+- profile 固定为 `content`；
+- 开始构建和部署前 `HEAD` 精确等于最新 `origin/main`；
+- `ZANGAI_ARTICLES_SOURCE_DIR` 指向本机文章库，`TEST_BENCHMARK_CONFIG` 指向 canonical root 的 ignored benchmark 配置。
+
+该模式存在的目的，是让内容更新不受 canonical 工作区中未提交的 benchmark/UI 改动影响。普通副本、append 目录及 benchmark/UI/release profile 均不能借此获得 production 权限。
 
 ## 2. 成功证据
 
@@ -32,6 +42,8 @@ npm run deploy
 ### doctor 失败
 
 不构建、不部署。按输出处理重复 `public/test *`、源码副本、嵌套 `node_modules`、错误工作树或 secret。备份材料移入 `site/.stage-test-trash/`，不要放在 `site/public/` 或 `site/src/`。
+
+若内容自动化报告 worktree 不受信，检查任务是否使用 worktree execution environment、`WEB4_AUTOMATION_WORKTREE=1` 是否存在、git common dir 是否指向 canonical repo，以及 `HEAD` 是否已 fast-forward 到 `origin/main`。不得把 profile 改成 `release` 绕过校验。
 
 ### KG gate 失败
 
@@ -103,6 +115,8 @@ python3 scripts/release_guard.py verify-remote \
 3. `https://funeralai.cc/release-manifest.json` 的最新文章 ID/日期。
 
 三者不一致时，报告必须包含失败阶段（import / extract / KG gate / build / preview / production verify）、release ID（若已生成）和下一条安全命令。不能只说“没有更新”。
+
+自动化不得再以 canonical 工作树存在 benchmark/UI 改动为由跳过 Substack 检查。隔离 worktree 自身若出现 content 之外的改动，仍必须 fail closed。
 
 ## 6. GitHub 同步
 

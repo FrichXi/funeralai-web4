@@ -47,14 +47,24 @@ esac
 repo_root="$(git rev-parse --show-toplevel)"
 cd "$repo_root"
 
+trusted_automation_worktree=false
+if [[ "$ci_mode" == false && "$repo_root" != "$CANONICAL_ROOT" ]]; then
+  if python3 scripts/worktree_policy.py \
+    --repo-root "$repo_root" \
+    --profile "$profile" \
+    --canonical-root "$CANONICAL_ROOT" >/dev/null; then
+    trusted_automation_worktree=true
+  fi
+fi
+
 failures=()
 
 fail() {
   failures+=("$1")
 }
 
-if [[ "$ci_mode" == false && "$repo_root" != "$CANONICAL_ROOT" ]]; then
-  fail "Repository root is '$repo_root'; deployable root must be '$CANONICAL_ROOT'."
+if [[ "$ci_mode" == false && "$repo_root" != "$CANONICAL_ROOT" && "$trusted_automation_worktree" == false ]]; then
+  fail "Repository root is '$repo_root'; deployable root must be '$CANONICAL_ROOT' or a trusted content-automation worktree."
 fi
 
 if [[ "$ci_mode" == false && "$repo_root" == *"/append-"* ]]; then
@@ -71,9 +81,18 @@ echo "  profile: $profile"
 echo "  branch:  ${branch:-detached}"
 echo "  head:    $head"
 echo "  upstream:${upstream:+ $upstream}"
+echo "  mode:    $([[ "$trusted_automation_worktree" == true ]] && echo content-automation-worktree || echo standard)"
 
-if [[ -n "$branch" && "$branch" != "main" ]]; then
+if [[ -n "$branch" && "$branch" != "main" && "$trusted_automation_worktree" == false ]]; then
   fail "Current branch is '$branch'; expected 'main'."
+fi
+
+if [[ "$trusted_automation_worktree" == true ]]; then
+  origin_main="$(git rev-parse origin/main 2>/dev/null || true)"
+  current_head="$(git rev-parse HEAD)"
+  if [[ -z "$origin_main" || "$current_head" != "$origin_main" ]]; then
+    fail "Content automation worktree HEAD must exactly match origin/main before build or deploy."
+  fi
 fi
 
 if ! python3 scripts/repo_profiles.py check-dirty --profile "$profile"; then

@@ -211,7 +211,7 @@
       }
     ],
     "degree": 28,
-    "composite_weight": 0.3239
+    "composite_weight": 0.3085
   },
   "links": [
     {
@@ -844,7 +844,7 @@
     {
       "source": "chatgpt",
       "target": "kimi",
-      "score": 0.6933,
+      "score": 0.6931,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -858,7 +858,7 @@
     {
       "source": "chatgpt",
       "target": "codex",
-      "score": 0.6615,
+      "score": 0.6617,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -871,8 +871,22 @@
     },
     {
       "source": "chatgpt",
+      "target": "deepseek",
+      "score": 0.5941,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "008",
+        "070",
+        "088",
+        "105"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "chatgpt",
       "target": "飞书",
-      "score": 0.5939,
+      "score": 0.5936,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -885,27 +899,16 @@
     },
     {
       "source": "chatgpt",
-      "target": "deepseek",
-      "score": 0.5445,
+      "target": "智谱ai",
+      "score": 0.4946,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
-        "008",
+        "009",
         "070",
-        "088",
-        "105"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "chatgpt",
-      "target": "openclaw",
-      "score": 0.5409,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 5 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "067",
-        "070"
+        "089",
+        "105",
+        "113"
       ],
       "status": "suggested"
     }

@@ -3,19 +3,41 @@
     "id": "小米",
     "name": "小米",
     "type": "company",
-    "description": "科技公司，文中提及阶跃学到了其精髓",
-    "mention_count": 6,
-    "article_count": 5,
-    "aliases": [],
+    "description": "科技公司，旗下MiMo模型在评测中表现不佳",
+    "mention_count": 14,
+    "article_count": 7,
+    "aliases": [
+      "Xiaomi"
+    ],
     "tags": [
+      "大模型",
       "手机",
       "汽车",
       "消费电子",
+      "硬件厂商",
       "科技公司"
     ],
-    "references": 5,
-    "source_article_count": 5,
+    "references": 7,
+    "source_article_count": 7,
     "source_articles": [
+      {
+        "article_id": "131",
+        "title": "大模型能干，懂模帝会飞",
+        "date": "2026-08-10",
+        "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "permalink": "/articles/131",
+        "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "mention_count": 6
+      },
+      {
+        "article_id": "128",
+        "title": "美团大模型跟外卖一样纯出来送",
+        "date": "2026-08-04",
+        "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "permalink": "/articles/128",
+        "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "mention_count": 2
+      },
       {
         "article_id": "109",
         "title": "智谱与Anthropic是母凭子贵",
@@ -62,8 +84,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 8,
-    "composite_weight": 0.0887
+    "degree": 11,
+    "composite_weight": 0.1382
   },
   "links": [
     {
@@ -107,6 +129,32 @@
     },
     {
       "source": "小米",
+      "target": "智谱ai",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为大模型公司，在榜单和应用层面竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "131"
+      ],
+      "evidences": [
+        {
+          "article_id": "131",
+          "title": "大模型能干，懂模帝会飞",
+          "permalink": "/articles/131",
+          "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "date": "2026-08-10",
+          "label": "同为大模型公司，在榜单和应用层面竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "小米",
       "target": "阶跃星辰",
       "relation_type": "competes_with",
       "type": "competes_with",
@@ -132,6 +180,19 @@
       ]
     },
     {
+      "source": "智谱ai",
+      "target": "小米",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为大模型公司，在榜单和应用层面竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "阶跃星辰",
       "target": "小米",
       "relation_type": "competes_with",
@@ -143,6 +204,32 @@
       "article_count": 0,
       "evidence_articles": [],
       "evidences": []
+    },
+    {
+      "source": "沐秋",
+      "target": "小米",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "沐秋批评小米MiMo模型表现比文心一言还差，建议避雷",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "131"
+      ],
+      "evidences": [
+        {
+          "article_id": "131",
+          "title": "大模型能干，懂模帝会飞",
+          "permalink": "/articles/131",
+          "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "date": "2026-08-10",
+          "label": "沐秋批评小米MiMo模型表现比文心一言还差，建议避雷",
+          "weight": 1
+        }
+      ]
     },
     {
       "source": "小米",
@@ -251,13 +338,54 @@
   ],
   "suggested_edges": [
     {
+      "source": "minimax",
+      "target": "小米",
+      "score": 0.4864,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "057",
+        "109",
+        "128",
+        "131"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "小米",
+      "target": "豆包",
+      "score": 0.4129,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 1 个邻居",
+      "evidence_article_ids": [
+        "040",
+        "057",
+        "097",
+        "123",
+        "128"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "刘芹",
       "target": "小米",
-      "score": 0.3915,
+      "score": 0.3917,
       "suggested_relation_type": "related",
       "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "040"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "deepseek",
+      "target": "小米",
+      "score": 0.3705,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "109",
+        "131"
       ],
       "status": "suggested"
     }

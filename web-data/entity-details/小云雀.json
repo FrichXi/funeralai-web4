@@ -4,13 +4,24 @@
     "name": "小云雀",
     "type": "product",
     "description": "字节旗下的AI工具，允许用户直接复制粘贴抖音爆款链接作为生成素材。",
-    "mention_count": 2,
-    "article_count": 2,
+    "mention_count": 4,
+    "article_count": 3,
     "aliases": [],
-    "tags": [],
-    "references": 2,
-    "source_article_count": 2,
+    "tags": [
+      "AI应用"
+    ],
+    "references": 3,
+    "source_article_count": 3,
     "source_articles": [
+      {
+        "article_id": "132",
+        "title": "Seedance 2.5自绝于网民",
+        "date": "2026-08-12",
+        "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "permalink": "/articles/132",
+        "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "mention_count": 2
+      },
       {
         "article_id": "063",
         "title": "剪映炒Seedance 2.0，炒出一种推背感",
@@ -31,7 +42,7 @@
       }
     ],
     "degree": 2,
-    "composite_weight": 0.0232
+    "composite_weight": 0.0343
   },
   "links": [
     {
@@ -40,14 +51,25 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节跳动开发了小云雀工具。",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "062"
+        "062",
+        "132"
       ],
       "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "字节跳动开发了小云雀",
+          "weight": 1
+        },
         {
           "article_id": "062",
           "title": "Seedance 2.0让字节元神启动",
@@ -87,5 +109,19 @@
       ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "即梦",
+      "target": "小云雀",
+      "score": 0.4191,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "062",
+        "063",
+        "132"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

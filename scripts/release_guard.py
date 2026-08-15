@@ -28,11 +28,28 @@ MANIFEST_NAME = "release-manifest.json"
 SCHEMA_VERSION = "funeralai-release/v1"
 DEFAULT_FILE_LIMIT = 19_000
 CLI_MODES = ("required", "ci", "skip", "auto")
-REQUIRED_ROUTES = ("/", "/articles/", "/graph/", "/leaderboard/", "/test/")
+REQUIRED_ROUTES = (
+    "/",
+    "/articles/",
+    "/graph/",
+    "/leaderboard/",
+    "/test/",
+    "/test/methodology/",
+    "/test/multimodal-model-analysis/",
+)
 KEY_ASSETS = (
     "data/article-index.json",
     "data/graph-view.json",
     "data/leaderboards.json",
+)
+BENCHMARK_KEY_ASSETS = (
+    "test/manifest.json",
+    "test/current-release.json",
+    "images/test/web4-graph-v2-leaderboard-20260815-v3/model-leaderboard.png",
+    "images/test/web4-graph-v2-leaderboard-20260815-v3/value-leaderboard.png",
+    "images/test/multimodal-20260804/qwen38-formal-vs-preview-3d-four-view.png",
+    "images/test/multimodal-20260804/six-models-3d-four-view-grid.png",
+    "images/test/multimodal-20260804/four-models-mg-representative-frames.png",
 )
 
 
@@ -235,19 +252,46 @@ def _url_to_path(root: Path, url_path: str) -> Path:
 
 
 def validate_benchmark(test_root: Path, mode: str) -> dict[str, Any] | None:
-    manifest_path = test_root / "manifest.json"
     if mode == "skip":
         return None
 
+    current_path = test_root / "current-release.json"
+    current = load_json(current_path)
+    rows = current.get("rows")
+    _require(isinstance(rows, list) and len(rows) == 19, "current benchmark must contain 19 models")
+    model_ids = [row.get("model_id") for row in rows]
+    _require(all(model_ids), "current benchmark model_id is missing")
+    _require(len(model_ids) == len(set(model_ids)), "current benchmark contains duplicate model_id values")
+    for row in rows:
+        scores = row.get("scores")
+        _require(isinstance(scores, list) and len(scores) == 10, f"benchmark row must contain 10 scores: {row.get('model')}")
+    _require(current.get("releaseId") == "web4-graph-v2-leaderboard-20260815-v3", "unexpected current benchmark releaseId")
+
+    doubao = next((row for row in rows if row.get("model_id") == "volcengine-ark/doubao-seed-evolving"), None)
+    _require(doubao is not None, "current benchmark is missing Doubao Seed Evolving")
+    _require(doubao.get("score_mean") == 28.7, "Doubao frozen mean mismatch")
+    _require(doubao.get("api_calls_10_tasks") == 179, "Doubao frozen call count mismatch")
+    _require(doubao.get("cost_cny_10_tasks") == 13.178, "Doubao frozen cost mismatch")
+
+    assets = current.get("assets") or {}
+    for path_key, hash_key in (
+        ("modelLeaderboardImage", "modelLeaderboardSha256"),
+        ("valueLeaderboardImage", "valueLeaderboardSha256"),
+    ):
+        asset_path = _url_to_path(test_root.parent, str(assets.get(path_key, "")))
+        _require(asset_path.is_file(), f"benchmark release image is missing: {asset_path}")
+        _require(sha256_file(asset_path) == assets.get(hash_key), f"benchmark release image hash mismatch: {asset_path}")
+
+    manifest_path = test_root / "manifest.json"
     manifest = load_json(manifest_path)
     entries = manifest.get("entries")
-    expected = manifest.get("expectedEntries")
-    _require(isinstance(entries, list) and entries, "benchmark entries must be a non-empty list")
-    _require(expected == len(entries), f"benchmark entries mismatch: {len(entries)}/{expected}")
+    artifact_expected = manifest.get("expectedEntries")
+    _require(isinstance(entries, list) and entries, "raw benchmark entries must be a non-empty list")
+    _require(artifact_expected == len(entries), f"raw benchmark entries mismatch: {len(entries)}/{artifact_expected}")
     entry_ids = [entry.get("id") or f"{entry.get('round')}:{entry.get('modelId') or entry.get('model')}" for entry in entries]
-    _require(len(entry_ids) == len(set(entry_ids)), "benchmark contains duplicate entries")
-    _require(bool(manifest.get("releaseId")), "benchmark releaseId is missing")
-    _require(bool(manifest.get("scoreStandard")), "benchmark scoreStandard is missing")
+    _require(len(entry_ids) == len(set(entry_ids)), "raw benchmark contains duplicate entries")
+    _require(bool(manifest.get("releaseId")), "raw benchmark releaseId is missing")
+    _require(bool(manifest.get("scoreStandard")), "raw benchmark scoreStandard is missing")
 
     if mode == "required":
         for entry in entries:
@@ -258,10 +302,16 @@ def validate_benchmark(test_root: Path, mode: str) -> dict[str, Any] | None:
         _require(archive_manifest.is_file(), "legacy benchmark archive manifest is missing")
 
     return {
-        "releaseId": manifest.get("releaseId"),
-        "scoreStandard": manifest.get("scoreStandard"),
-        "expectedEntries": expected,
-        "actualEntries": len(entries),
+        "releaseId": current.get("releaseId"),
+        "scoreStandard": current.get("scoreFormula"),
+        "modelCount": len(rows),
+        "roundsPerModel": 10,
+        "expectedEntries": len(rows) * 10,
+        "actualEntries": sum(len(row["scores"]) for row in rows),
+        "modelIds": model_ids,
+        "selectionSha256": sha256_file(current_path),
+        "rawArtifactReleaseId": manifest.get("releaseId"),
+        "rawArtifactEntries": len(entries),
         "stageMode": mode,
     }
 
@@ -269,7 +319,7 @@ def validate_benchmark(test_root: Path, mode: str) -> dict[str, Any] | None:
 def key_hashes(root: Path, include_benchmark: bool) -> dict[str, str]:
     names = list(KEY_ASSETS)
     if include_benchmark:
-        names.append("test/manifest.json")
+        names.extend(BENCHMARK_KEY_ASSETS)
     return {name: sha256_file(root / name) for name in names}
 
 
@@ -353,7 +403,7 @@ def verify_local(out_root: Path, mode: str, file_limit: int) -> dict[str, Any]:
     )
 
     for route in REQUIRED_ROUTES:
-        if route == "/test/" and mode == "skip":
+        if route.startswith("/test/") and mode == "skip":
             continue
         route_path = out_root / (route.lstrip("/") or "index.html")
         if route.endswith("/") and route != "/":
@@ -420,7 +470,7 @@ def _verify_remote_once(base_url: str, expected: dict[str, Any]) -> dict[str, An
     latest_id = str(expected["content"]["latestArticleId"])
     routes = [*REQUIRED_ROUTES, f"/articles/{latest_id}/"]
     if expected.get("stageMode") == "skip":
-        routes.remove("/test/")
+        routes = [route for route in routes if not route.startswith("/test/")]
     for route in routes:
         _request_bytes(_remote_url(base_url, route, release_id), 1, 0)
 

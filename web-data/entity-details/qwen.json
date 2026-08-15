@@ -4,8 +4,8 @@
     "name": "Qwen",
     "type": "product",
     "description": "阿里巴巴开发的大语言模型系列，文中提及Qwen 3.7 Max",
-    "mention_count": 178,
-    "article_count": 19,
+    "mention_count": 187,
+    "article_count": 20,
     "aliases": [
       "Qwen 3",
       "Qwen 3.7",
@@ -38,6 +38,7 @@
       "大模型",
       "大模型API",
       "大模型OS",
+      "大模型厂商",
       "大语言模型",
       "工程稳定",
       "开源",
@@ -48,8 +49,8 @@
       "语音输入",
       "长程任务"
     ],
-    "references": 19,
-    "source_article_count": 19,
+    "references": 20,
+    "source_article_count": 20,
     "source_articles": [
       {
         "article_id": "112",
@@ -68,6 +69,15 @@
         "permalink": "/articles/105",
         "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
         "mention_count": 16
+      },
+      {
+        "article_id": "133",
+        "title": "速来网吧线下真实所有大模型",
+        "date": "2026-08-14",
+        "path": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+        "permalink": "/articles/133",
+        "markdown_link": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+        "mention_count": 9
       },
       {
         "article_id": "091",
@@ -224,7 +234,7 @@
       }
     ],
     "degree": 51,
-    "composite_weight": 0.6251
+    "composite_weight": 0.6222
   },
   "links": [
     {
@@ -1340,7 +1350,7 @@
     {
       "source": "qwen",
       "target": "智谱ai",
-      "score": 0.7814,
+      "score": 0.7802,
       "suggested_relation_type": "related",
       "reason": "共同出现于 6 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
@@ -1355,7 +1365,7 @@
     {
       "source": "codex",
       "target": "qwen",
-      "score": 0.7176,
+      "score": 0.7178,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1370,7 +1380,7 @@
     {
       "source": "minimax",
       "target": "qwen",
-      "score": 0.7028,
+      "score": 0.7015,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1385,7 +1395,7 @@
     {
       "source": "manus",
       "target": "qwen",
-      "score": 0.6516,
+      "score": 0.6518,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1400,7 +1410,7 @@
     {
       "source": "qwen",
       "target": "字节跳动",
-      "score": 0.6124,
+      "score": 0.6115,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [

@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "happy-horse-1-1",
+    "name": "Happy Horse 1.1",
+    "type": "product",
+    "description": "二线视频模型，在激烈动作场景下流畅度不如H3",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "视频模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "130",
+        "title": "致视频模型：群众不喜闻乐见，你算老几",
+        "date": "2026-08-07",
+        "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+        "permalink": "/articles/130",
+        "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.022
+  },
+  "links": [
+    {
+      "source": "happy-horse-1-1",
+      "target": "minimax-h3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在激烈动作场景测试中，H3的画面流畅度显著优于Happy Horse 1.1",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "130"
+      ],
+      "evidences": [
+        {
+          "article_id": "130",
+          "title": "致视频模型：群众不喜闻乐见，你算老几",
+          "permalink": "/articles/130",
+          "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "date": "2026-08-07",
+          "label": "在激烈动作场景测试中，H3的画面流畅度显著优于Happy Horse 1.1",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax-h3",
+      "target": "happy-horse-1-1",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在激烈动作场景测试中，H3的画面流畅度显著优于Happy Horse 1.1",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

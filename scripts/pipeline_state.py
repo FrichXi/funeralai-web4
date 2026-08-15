@@ -161,7 +161,11 @@ def ensure_article_mirror() -> Path:
 def load_json_file(path: Path, default):
     if not path.exists():
         return default
-    return json.loads(path.read_text(encoding="utf-8"))
+    # Read the small generated artifacts as bytes first. On macOS file-provider
+    # volumes, TextIOWrapper.read() can block on ordinary JSON files while a
+    # concurrent pipeline is walking the artifact directory; bytes reads are
+    # immediate and JSON decoding remains deterministic.
+    return json.loads(path.read_bytes())
 
 
 def save_json_file(path: Path, payload) -> None:

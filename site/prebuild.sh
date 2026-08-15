@@ -70,6 +70,17 @@ case "$STAGE_TEST_MODE" in
     ;;
 esac
 
+# Publish the human-facing leaderboard release lock separately from the frozen
+# raw-artifact manifest. The current /test tables, analysis pages and download
+# images all bind to this JSON releaseId.
+CURRENT_BENCHMARK_SOURCE="$SCRIPT_DIR/src/data/web4-benchmark-current.json"
+if [ ! -f "$CURRENT_BENCHMARK_SOURCE" ]; then
+  echo "ERROR: Missing current benchmark release lock: $CURRENT_BENCHMARK_SOURCE" >&2
+  exit 1
+fi
+mkdir -p "$SCRIPT_DIR/public/test"
+cp "$CURRENT_BENCHMARK_SOURCE" "$SCRIPT_DIR/public/test/current-release.json"
+
 RELEASE_GUARD_MODE="$STAGE_TEST_MODE"
 if [ "$RELEASE_GUARD_MODE" = "auto" ]; then
   RELEASE_GUARD_MODE="required"

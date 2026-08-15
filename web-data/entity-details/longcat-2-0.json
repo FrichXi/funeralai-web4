@@ -3,16 +3,29 @@
     "id": "longcat-2-0",
     "name": "LongCat 2.0",
     "type": "product",
-    "description": "国产大模型之一",
-    "mention_count": 2,
-    "article_count": 1,
-    "aliases": [],
+    "description": "美团发布的大模型产品",
+    "mention_count": 8,
+    "article_count": 2,
+    "aliases": [
+      "Owl Alpha",
+      "长猫"
+    ],
     "tags": [
+      "国产芯片",
       "大模型"
     ],
-    "references": 1,
-    "source_article_count": 1,
+    "references": 2,
+    "source_article_count": 2,
     "source_articles": [
+      {
+        "article_id": "128",
+        "title": "美团大模型跟外卖一样纯出来送",
+        "date": "2026-08-04",
+        "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "permalink": "/articles/128",
+        "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "mention_count": 6
+      },
       {
         "article_id": "122",
         "title": "Kimi K3打响前端闪电战",
@@ -23,9 +36,101 @@
         "mention_count": 2
       }
     ],
-    "degree": 0,
-    "composite_weight": 0.0125
+    "degree": 4,
+    "composite_weight": 0.0586
   },
-  "links": [],
+  "links": [
+    {
+      "source": "longcat-2-0",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "隐含对比，文中提到二线模型（含LongCat）不如一线，且小美希望达到豆包速度",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "隐含对比，文中提到二线模型（含LongCat）不如一线，且小美希望达到豆包速度",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包",
+      "target": "longcat-2-0",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "隐含对比，文中提到二线模型（含LongCat）不如一线，且小美希望达到豆包速度",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "美团",
+      "target": "longcat-2-0",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "美团开发并发布LongCat 2.0大模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "美团开发并发布LongCat 2.0大模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "longcat-2-0",
+      "target": "openrouter",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "LongCat 2.0预览版以Owl Alpha名义接入OpenRouter平台",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "LongCat 2.0预览版以Owl Alpha名义接入OpenRouter平台",
+          "weight": 1
+        }
+      ]
+    }
+  ],
   "suggested_edges": []
 }

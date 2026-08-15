@@ -4,8 +4,8 @@
     "name": "豆包",
     "type": "product",
     "description": "抖音旗下/字节系的AI大模型产品，也是《豆包AI赚钱手册》的核心探讨对象",
-    "mention_count": 267,
-    "article_count": 27,
+    "mention_count": 269,
+    "article_count": 28,
     "aliases": [
       "Doubao",
       "糖包",
@@ -44,8 +44,8 @@
       "语音模式",
       "超级APP"
     ],
-    "references": 27,
-    "source_article_count": 27,
+    "references": 28,
+    "source_article_count": 28,
     "source_articles": [
       {
         "article_id": "065",
@@ -154,6 +154,15 @@
         "permalink": "/articles/064",
         "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "128",
+        "title": "美团大模型跟外卖一样纯出来送",
+        "date": "2026-08-04",
+        "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "permalink": "/articles/128",
+        "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "mention_count": 2
       },
       {
         "article_id": "108",
@@ -291,8 +300,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 66,
-    "composite_weight": 0.8919
+    "degree": 70,
+    "composite_weight": 0.8761
   },
   "links": [
     {
@@ -506,6 +515,32 @@
           "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
           "date": "2026-06-24",
           "label": "Grok表现更差，被戏称为“北美二豆包”",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "longcat-2-0",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "隐含对比，文中提到二线模型（含LongCat）不如一线，且小美希望达到豆包速度",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "隐含对比，文中提到二线模型（含LongCat）不如一线，且小美希望达到豆包速度",
           "weight": 1
         }
       ]
@@ -745,6 +780,32 @@
       ]
     },
     {
+      "source": "美团小美",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将美团小美与豆包在功能和响应速度上进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "文章将美团小美与豆包在功能和响应速度上进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "谷歌翻译",
       "target": "豆包",
       "relation_type": "compares_to",
@@ -863,6 +924,19 @@
     },
     {
       "source": "豆包",
+      "target": "longcat-2-0",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "隐含对比，文中提到二线模型（含LongCat）不如一线，且小美希望达到豆包速度",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "豆包",
       "target": "notebooklm",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -971,6 +1045,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文章对比了两者生成的胖猫视频，认为豆包缺乏海螺AI特有的神态",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "豆包",
+      "target": "美团小美",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将美团小美与豆包在功能和响应速度上进行对比",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -1745,7 +1832,7 @@
       "target": "阿里巴巴",
       "score": 0.8085,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "034",
         "065",
@@ -1758,9 +1845,9 @@
     {
       "source": "智谱ai",
       "target": "豆包",
-      "score": 0.6786,
+      "score": 0.6776,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "004",
         "057",
@@ -1773,7 +1860,7 @@
     {
       "source": "manus",
       "target": "豆包",
-      "score": 0.5946,
+      "score": 0.5948,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1786,7 +1873,7 @@
     {
       "source": "火山引擎",
       "target": "豆包",
-      "score": 0.5939,
+      "score": 0.5937,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1801,7 +1888,7 @@
     {
       "source": "葬爱咸鱼",
       "target": "豆包",
-      "score": 0.5843,
+      "score": 0.5846,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 5 个邻居",
       "evidence_article_ids": [

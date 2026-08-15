@@ -4,8 +4,8 @@
     "name": "MiniMax",
     "type": "company",
     "description": "国内头部大模型公司，开发了M3模型、海螺视频模型及Talkie/星野等C端产品",
-    "mention_count": 243,
-    "article_count": 23,
+    "mention_count": 259,
+    "article_count": 27,
     "aliases": [
       "MinMax",
       "Minimax"
@@ -17,6 +17,7 @@
       "AI四小龙",
       "AI大模型",
       "AI视频",
+      "AI视频生成",
       "C端",
       "C端应用",
       "IPO",
@@ -29,6 +30,7 @@
       "多模态",
       "大模型",
       "大模型公司",
+      "大模型厂商",
       "开源",
       "情感陪伴",
       "斩杀线",
@@ -36,8 +38,8 @@
       "模型层",
       "视频生成模型"
     ],
-    "references": 23,
-    "source_article_count": 23,
+    "references": 27,
+    "source_article_count": 27,
     "source_articles": [
       {
         "article_id": "117",
@@ -112,6 +114,15 @@
         "mention_count": 6
       },
       {
+        "article_id": "132",
+        "title": "Seedance 2.5自绝于网民",
+        "date": "2026-08-12",
+        "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "permalink": "/articles/132",
+        "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "mention_count": 5
+      },
+      {
         "article_id": "122",
         "title": "Kimi K3打响前端闪电战",
         "date": "2026-07-22",
@@ -130,6 +141,24 @@
         "mention_count": 5
       },
       {
+        "article_id": "130",
+        "title": "致视频模型：群众不喜闻乐见，你算老几",
+        "date": "2026-08-07",
+        "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+        "permalink": "/articles/130",
+        "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "128",
+        "title": "美团大模型跟外卖一样纯出来送",
+        "date": "2026-08-04",
+        "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "permalink": "/articles/128",
+        "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "mention_count": 4
+      },
+      {
         "article_id": "012",
         "title": "CrePal成为首个胖猫视频Agent",
         "date": "2025-07-25",
@@ -137,6 +166,15 @@
         "permalink": "/articles/012",
         "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
         "mention_count": 4
+      },
+      {
+        "article_id": "131",
+        "title": "大模型能干，懂模帝会飞",
+        "date": "2026-08-10",
+        "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "permalink": "/articles/131",
+        "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "mention_count": 3
       },
       {
         "article_id": "119",
@@ -247,8 +285,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 45,
-    "composite_weight": 0.7445
+    "degree": 48,
+    "composite_weight": 0.7808
   },
   "links": [
     {
@@ -492,6 +530,32 @@
     },
     {
       "source": "minimax",
+      "target": "美团",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将美团与MiniMax对比，认为两者'既要又要还要但都不突出'",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "文章将美团与MiniMax对比，认为两者'既要又要还要但都不突出'",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
       "target": "阶跃星辰",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -587,6 +651,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文章将MiniMax在AI产品上的审美和受众把控力与潮玩公司泡泡玛特进行类比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "美团",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将美团与MiniMax对比，认为两者'既要又要还要但都不突出'",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -1116,6 +1193,43 @@
     },
     {
       "source": "minimax",
+      "target": "minimax-h3",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax H3是MiniMax公司的视频模型",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "130",
+        "132"
+      ],
+      "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "MiniMax开发了H3视频模型",
+          "weight": 1
+        },
+        {
+          "article_id": "130",
+          "title": "致视频模型：群众不喜闻乐见，你算老几",
+          "permalink": "/articles/130",
+          "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "date": "2026-08-07",
+          "label": "MiniMax H3是MiniMax公司的视频模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
       "target": "minimax-hub",
       "relation_type": "develops",
       "type": "develops",
@@ -1515,7 +1629,7 @@
     {
       "source": "minimax",
       "target": "qwen",
-      "score": 0.7028,
+      "score": 0.7015,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1530,9 +1644,9 @@
     {
       "source": "libtv",
       "target": "minimax",
-      "score": 0.6797,
+      "score": 0.68,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "099",
         "109",
@@ -1545,7 +1659,7 @@
     {
       "source": "minimax",
       "target": "杨植麟",
-      "score": 0.5974,
+      "score": 0.597,
       "suggested_relation_type": "related",
       "reason": "共同出现于 6 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1558,29 +1672,28 @@
       "status": "suggested"
     },
     {
+      "source": "minimax",
+      "target": "seedance",
+      "score": 0.5906,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "099",
+        "116",
+        "117",
+        "132"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "anthropic",
       "target": "minimax",
-      "score": 0.5781,
+      "score": 0.5776,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 6 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "060",
         "099",
-        "103",
-        "105",
-        "109"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "codex",
-      "target": "minimax",
-      "score": 0.4953,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
-      "evidence_article_ids": [
-        "089",
-        "100",
         "103",
         "105",
         "109"

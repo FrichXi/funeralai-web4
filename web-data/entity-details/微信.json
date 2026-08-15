@@ -82,7 +82,7 @@
       }
     ],
     "degree": 10,
-    "composite_weight": 0.1437
+    "composite_weight": 0.135
   },
   "links": [
     {
@@ -322,26 +322,13 @@
     {
       "source": "微信",
       "target": "飞书",
-      "score": 0.4661,
+      "score": 0.4662,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "067",
         "090",
         "097",
-        "102"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "字节跳动",
-      "target": "微信",
-      "score": 0.3643,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
-      "evidence_article_ids": [
-        "062",
-        "064",
         "102"
       ],
       "status": "suggested"

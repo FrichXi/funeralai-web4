@@ -77,6 +77,7 @@
 │   ├── frontend_refactor_readiness.py # 前端重构前只读体检报告
 │   ├── release_guard.py                # 发布契约、本地/远程产物验证
 │   ├── rollback_pages.py               # Cloudflare production 回滚（默认 dry-run）
+│   ├── worktree_policy.py              # 内容自动化 worktree 的受信边界校验
 │   ├── enrich_graph.py                # (legacy) 旧后处理脚本，待移除
 │   └── sync_github_repo.sh            # 将文章/图谱/公开统计安全提交并推送到 GitHub
 │
@@ -116,6 +117,8 @@
 │       ├── leaderboard/
 │       │   └── page.tsx       # 排行榜 + ItemList JSON-LD
 │       └── test/              # Web4 benchmark 展示页
+│           ├── methodology/   # 当前 16 模型逐项证据分析与口径
+│           ├── multimodal-model-analysis/ # 3D / MG 单轮多模态分析
 │           └── archive/       # 历史 benchmark 榜单入口
         ├── components/
         │   ├── layout/                # Navbar, Footer, PageContainer, StatusScreen
@@ -125,6 +128,9 @@
         │   ├── test/                  # /test 下载、方法论跳转、投票控件
         │   ├── theme/                 # ThemeProvider + celestial transition
         │   └── ui/                    # 通用 UI 原语（8bit 像素风 + shadcn 基础组件）
+        ├── data/
+        │   ├── web4-benchmark-current.json # /test 当前 16 模型总榜（分数、耗时、调用数、成本）
+        │   └── web4-benchmark-analysis.ts  # 16 模型有效 attempt 与 scorer/产物证据卡
         ├── hooks/
         │   ├── useGraphData.ts        # 图谱数据加载（fetch + error/retry）
         │   └── useGraphInteraction.ts # 图谱交互逻辑（选中/高亮/过滤/tooltip）
@@ -168,7 +174,9 @@ articles/*.md
 | `/leaderboard` | SSG | leaderboards.json 构建时读取 | ItemList JSON-LD |
 | `/articles` | SSG | article-index.json 构建时读取 | CollectionPage JSON-LD |
 | `/articles/[id]` | SSG（generateStaticParams） | 各 article JSON 构建时读取 | Article JSON-LD |
-| `/test` | SSG + 客户端投票控件 | manifest.json 构建时读取；投票写入 D1 | noindex |
+| `/test` | SSG + 客户端投票控件 | 当前总榜读取 `src/data/web4-benchmark-current.json`；产物/性价比读取 manifest.json；投票写入 D1 | noindex |
+| `/test/methodology` | SSG | 当前 16 模型 JSON + 逐模型 evidence card | noindex |
+| `/test/multimodal-model-analysis` | SSG | 2026-08-04 多模态简报与站内图片 | noindex |
 | `/test/archive` | SSG | 历史 manifest 构建时读取 | noindex |
 
 ### 动态 API
@@ -270,14 +278,15 @@ acquires, co_founded, collaborates_with, compares_to, competes_with, criticizes,
 ```
 
 部署脚本定义见 `site/package.json`：
-- `scripts/deploy_site.sh --profile release`: 只允许从 canonical root 发布；依次运行 doctor、数据管线、KG gate、测试、一次 production-mode 构建和 release contract 验证，然后先上传并核验 `release-candidate` preview，再把同一 `site/out` 上传 production。
+- `scripts/deploy_site.sh --profile release`: 人工综合发布只允许从 canonical root；依次运行 doctor、数据管线、KG gate、测试、一次 production-mode 构建和 release contract 验证，然后先上传并核验 `release-candidate` preview，再把同一 `site/out` 上传 production。
 - `npm run deploy`: 从 `site/` 目录委托给上述两阶段发布；成功后还会核验唯一 production URL 和正式域名，并写入 ignored release receipt。
 - `npm run deploy:raw`: 只有显式设置 `ALLOW_RAW_PAGES_DEPLOY=1` 时才能发布到 `diagnostics-only` preview branch，不能发布 production。
 - `site/out/release-manifest.json` 是发布身份，包含文章/图谱/benchmark 计数、关键哈希、完整静态树摘要和 Git/runtime 身份。
 - 回滚使用 `python3 scripts/rollback_pages.py --deployment-id <id>` 先 dry-run，执行要求显式 API token 和 `--execute --confirm-project funeral-ai-web4`。详见 `docs/release-operations.md`。
 - Cloudflare Pages Functions 位于 `site/functions/`；从 `site/` 执行 `wrangler pages deploy out --project-name funeral-ai-web4` 时会随静态产物一起上传。
 - `/test` 投票需要 `site/wrangler.toml` 中的 D1 binding：`BENCHMARK_VOTES_DB` → D1 database `funeralai-web4-feedback`，以及 Pages production secret `BENCHMARK_VOTE_SALT`。首次启用或 schema 变化后，在 `site/` 下运行 `npx wrangler d1 migrations apply funeralai-web4-feedback --remote`。
-- **production 硬规则**: 不得从 `/Users/xixiangyu/Documents/cc写作/qwen/append-*`、detached HEAD、复制出来的 `web4-*` 目录或任何非 canonical root 执行 Cloudflare production 部署。也不得直接运行 `wrangler pages deploy ... --branch main` 绕过 `doctor_repo.sh`。正式发布只能在 `/Users/xixiangyu/Documents/葬AI Web4/site` 运行 `npm run deploy`（日常内容自动化用 `npm run deploy:content`），并确认 preview、唯一 production URL 与正式域名的 release ID 全部一致。
+- **production 硬规则**: 不得从 `/Users/xixiangyu/Documents/cc写作/qwen/append-*`、复制出来的 `web4-*` 目录或任意普通 worktree 执行 Cloudflare production 部署。也不得直接运行 `wrangler pages deploy ... --branch main` 绕过 `doctor_repo.sh`。人工正式发布只能在 `/Users/xixiangyu/Documents/葬AI Web4/site` 运行 `npm run deploy`。唯一例外是工作日内容自动化：Codex 必须创建与 canonical repo 共用 git common dir 的隔离 worktree，显式设置 `WEB4_AUTOMATION_WORKTREE=1`，使用 `content` profile，且 `HEAD` 必须精确等于 `origin/main`；该例外不适用于 benchmark、UI 或 `release` profile。
+- **内容自动化隔离**: 定时任务使用 Codex worktree execution environment，不在 canonical 工作树运行。启动后先 `git fetch origin main` 并 fast-forward 到 `origin/main`，通过 `ZANGAI_ARTICLES_SOURCE_DIR` 和 `TEST_BENCHMARK_CONFIG` 读取本机 ignored 配置，再执行 import、增量管线、KG gate、`npm run deploy:content` 和 content-only GitHub sync。canonical 工作区里的排行榜/UI 未提交改动不得成为内容停更原因。
 - GitHub 同步：部署成功后，根据事务类型使用 `./scripts/sync_github_repo.sh --profile content|test-benchmark|site-ui|release "<commit message>"`。该脚本只允许提交 profile 范围内的文件；若工作区还有无关改动，会直接阻断，避免把本地实验性改动一起推上 GitHub。
 
 ### 工作事务 profile

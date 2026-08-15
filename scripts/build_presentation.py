@@ -70,8 +70,7 @@ def stable_presentation_timestamp(manifest: dict | None = None) -> str:
 def load_json(path: Path) -> dict | list | None:
     if not path.exists():
         return None
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+    return json.loads(path.read_bytes())
 
 
 def save_json(path: Path, data: dict | list) -> None:

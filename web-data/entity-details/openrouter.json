@@ -4,17 +4,28 @@
     "name": "OpenRouter",
     "type": "company",
     "description": "AI模型路由平台，Hermes Agent有机会取代其生态位",
-    "mention_count": 5,
-    "article_count": 3,
+    "mention_count": 11,
+    "article_count": 4,
     "aliases": [],
     "tags": [
       "AI基础设施",
       "API聚合",
-      "基础设施"
+      "基础设施",
+      "榜单",
+      "模型平台"
     ],
-    "references": 3,
-    "source_article_count": 3,
+    "references": 4,
+    "source_article_count": 4,
     "source_articles": [
+      {
+        "article_id": "128",
+        "title": "美团大模型跟外卖一样纯出来送",
+        "date": "2026-08-04",
+        "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "permalink": "/articles/128",
+        "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "mention_count": 6
+      },
       {
         "article_id": "117",
         "title": "我来给MiniMax道歉了",
@@ -43,8 +54,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 3,
-    "composite_weight": 0.0488
+    "degree": 4,
+    "composite_weight": 0.0742
   },
   "links": [
     {
@@ -96,6 +107,32 @@
       "article_count": 0,
       "evidence_articles": [],
       "evidences": []
+    },
+    {
+      "source": "longcat-2-0",
+      "target": "openrouter",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "LongCat 2.0预览版以Owl Alpha名义接入OpenRouter平台",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "LongCat 2.0预览版以Owl Alpha名义接入OpenRouter平台",
+          "weight": 1
+        }
+      ]
     },
     {
       "source": "yinsen",

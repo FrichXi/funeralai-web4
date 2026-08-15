@@ -4,9 +4,10 @@
     "name": "智谱AI",
     "type": "company",
     "description": "国内头部大模型公司，GLM模型开发商，被视为阿里在AI领域的强劲对手",
-    "mention_count": 121,
-    "article_count": 20,
+    "mention_count": 126,
+    "article_count": 22,
     "aliases": [
+      "Zhipu",
       "智谱",
       "智谱清言"
     ],
@@ -25,6 +26,7 @@
       "ToB",
       "to G",
       "上市",
+      "上市公司",
       "内测接口",
       "基础模型",
       "大模型",
@@ -37,8 +39,8 @@
       "独角兽",
       "编程场景"
     ],
-    "references": 20,
-    "source_article_count": 20,
+    "references": 22,
+    "source_article_count": 22,
     "source_articles": [
       {
         "article_id": "006",
@@ -95,6 +97,15 @@
         "mention_count": 6
       },
       {
+        "article_id": "131",
+        "title": "大模型能干，懂模帝会飞",
+        "date": "2026-08-10",
+        "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "permalink": "/articles/131",
+        "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "mention_count": 4
+      },
+      {
         "article_id": "122",
         "title": "Kimi K3打响前端闪电战",
         "date": "2026-07-22",
@@ -138,6 +149,15 @@
         "permalink": "/articles/009",
         "markdown_link": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
         "mention_count": 2
+      },
+      {
+        "article_id": "128",
+        "title": "美团大模型跟外卖一样纯出来送",
+        "date": "2026-08-04",
+        "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "permalink": "/articles/128",
+        "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "mention_count": 1
       },
       {
         "article_id": "113",
@@ -221,8 +241,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 50,
-    "composite_weight": 0.5978
+    "degree": 53,
+    "composite_weight": 0.6125
   },
   "links": [
     {
@@ -782,6 +802,32 @@
       ]
     },
     {
+      "source": "小米",
+      "target": "智谱ai",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为大模型公司，在榜单和应用层面竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "131"
+      ],
+      "evidences": [
+        {
+          "article_id": "131",
+          "title": "大模型能干，懂模帝会飞",
+          "permalink": "/articles/131",
+          "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "date": "2026-08-10",
+          "label": "同为大模型公司，在榜单和应用层面竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "智谱ai",
       "target": "anthropic",
       "relation_type": "competes_with",
@@ -852,6 +898,19 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "字节跳动与智谱作为不同路线的模型厂商对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "智谱ai",
+      "target": "小米",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为大模型公司，在榜单和应用层面竞争",
       "weight": 1,
       "strength": 3,
       "effective_weight": 3,
@@ -1392,6 +1451,32 @@
       ]
     },
     {
+      "source": "美团龙珠",
+      "target": "智谱ai",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "美团龙珠投资了智谱AI",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "美团龙珠投资了智谱AI",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "中金",
       "target": "智谱ai",
       "relation_type": "partners_with",
@@ -1448,7 +1533,7 @@
     {
       "source": "claude",
       "target": "智谱ai",
-      "score": 0.9053,
+      "score": 0.9049,
       "suggested_relation_type": "related",
       "reason": "共同出现于 10 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
@@ -1463,7 +1548,7 @@
     {
       "source": "qwen",
       "target": "智谱ai",
-      "score": 0.7814,
+      "score": 0.7802,
       "suggested_relation_type": "related",
       "reason": "共同出现于 6 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
@@ -1478,7 +1563,7 @@
     {
       "source": "智谱ai",
       "target": "杨植麟",
-      "score": 0.7332,
+      "score": 0.7328,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1493,9 +1578,9 @@
     {
       "source": "智谱ai",
       "target": "豆包",
-      "score": 0.6786,
+      "score": 0.6776,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "004",
         "057",
@@ -1508,7 +1593,7 @@
     {
       "source": "codex",
       "target": "智谱ai",
-      "score": 0.5766,
+      "score": 0.5768,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [

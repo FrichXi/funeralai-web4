@@ -4,8 +4,8 @@
     "name": "字节跳动",
     "type": "company",
     "description": "中国互联网科技公司，开发了抖音、即梦等产品，文中探讨了其通过AI视频模型实现社交的布局。",
-    "mention_count": 135,
-    "article_count": 31,
+    "mention_count": 141,
+    "article_count": 33,
     "aliases": [
       "ByteDance",
       "大厂",
@@ -15,13 +15,15 @@
       "字节系",
       "宇宙厂",
       "火山",
-      "老东家"
+      "老东家",
+      "自绝跳动"
     ],
     "tags": [
       "AI公司",
       "AI应用",
       "AI战略",
       "AI社交",
+      "AI视频生成",
       "LP",
       "云计算",
       "互联网公司",
@@ -31,6 +33,7 @@
       "基础设施",
       "大厂",
       "大模型",
+      "大模型厂商",
       "对标对象",
       "数字人",
       "模型层",
@@ -42,8 +45,8 @@
       "视频生成",
       "语音模型"
     ],
-    "references": 31,
-    "source_article_count": 31,
+    "references": 33,
+    "source_article_count": 33,
     "source_articles": [
       {
         "article_id": "040",
@@ -127,6 +130,15 @@
         "mention_count": 6
       },
       {
+        "article_id": "132",
+        "title": "Seedance 2.5自绝于网民",
+        "date": "2026-08-12",
+        "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "permalink": "/articles/132",
+        "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "mention_count": 5
+      },
+      {
         "article_id": "085",
         "title": "谁是宇宙第一FA",
         "date": "2026-04-27",
@@ -206,6 +218,15 @@
         "permalink": "/articles/018",
         "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
         "mention_count": 2
+      },
+      {
+        "article_id": "130",
+        "title": "致视频模型：群众不喜闻乐见，你算老几",
+        "date": "2026-08-07",
+        "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+        "permalink": "/articles/130",
+        "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+        "mention_count": 1
       },
       {
         "article_id": "113",
@@ -325,8 +346,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 53,
-    "composite_weight": 0.7103
+    "degree": 55,
+    "composite_weight": 0.712
   },
   "links": [
     {
@@ -845,18 +866,29 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节跳动研发了Seedance视频生成大模型。",
-      "weight": 5,
+      "weight": 6,
       "strength": 4,
-      "effective_weight": 25,
-      "article_count": 5,
+      "effective_weight": 30,
+      "article_count": 6,
       "evidence_articles": [
         "062",
         "063",
         "065",
         "078",
-        "106"
+        "106",
+        "132"
       ],
       "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "字节跳动开发了Seedance视频生成模型",
+          "weight": 1
+        },
         {
           "article_id": "106",
           "title": "我来给LibTV道喜了",
@@ -905,6 +937,58 @@
           "path": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
           "date": "2026-02-10",
           "label": "字节跳动研发了Seedance视频生成大模型。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "字节跳动",
+      "target": "seedance-2-0",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Seedance 2.0是字节跳动的视频模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "130"
+      ],
+      "evidences": [
+        {
+          "article_id": "130",
+          "title": "致视频模型：群众不喜闻乐见，你算老几",
+          "permalink": "/articles/130",
+          "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "date": "2026-08-07",
+          "label": "Seedance 2.0是字节跳动的视频模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "字节跳动",
+      "target": "seedance-2-5",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Seedance 2.5是字节跳动的视频模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "130"
+      ],
+      "evidences": [
+        {
+          "article_id": "130",
+          "title": "致视频模型：群众不喜闻乐见，你算老几",
+          "permalink": "/articles/130",
+          "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "date": "2026-08-07",
+          "label": "Seedance 2.5是字节跳动的视频模型",
           "weight": 1
         }
       ]
@@ -1030,17 +1114,28 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "文中通过提及带着产品去找'字节老板们'并直接对标剪映，间接反映了字节跳动对剪映的开发和拥有关系。",
-      "weight": 4,
+      "weight": 5,
       "strength": 4,
-      "effective_weight": 20,
-      "article_count": 4,
+      "effective_weight": 25,
+      "article_count": 5,
       "evidence_articles": [
         "046",
         "063",
         "078",
-        "088"
+        "088",
+        "132"
       ],
       "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "字节跳动开发了剪映",
+          "weight": 1
+        },
         {
           "article_id": "088",
           "title": "读过豆包赚钱手册才敢自称懂AI",
@@ -1089,18 +1184,29 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节跳动开发并运营了即梦应用。",
-      "weight": 5,
+      "weight": 6,
       "strength": 4,
-      "effective_weight": 25,
-      "article_count": 5,
+      "effective_weight": 30,
+      "article_count": 6,
       "evidence_articles": [
         "062",
         "078",
         "088",
         "104",
-        "119"
+        "119",
+        "132"
       ],
       "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "字节跳动开发了即梦App",
+          "weight": 1
+        },
         {
           "article_id": "119",
           "title": "视频Agent进入大致敬时代",
@@ -1159,14 +1265,25 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节跳动开发了小云雀工具。",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "062"
+        "062",
+        "132"
       ],
       "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "字节跳动开发了小云雀",
+          "weight": 1
+        },
         {
           "article_id": "062",
           "title": "Seedance 2.0让字节元神启动",
@@ -2031,7 +2148,7 @@
     {
       "source": "flova",
       "target": "字节跳动",
-      "score": 0.8711,
+      "score": 0.8656,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 6 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -2045,7 +2162,7 @@
     {
       "source": "manus",
       "target": "字节跳动",
-      "score": 0.8287,
+      "score": 0.8263,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
@@ -2060,7 +2177,7 @@
     {
       "source": "claude",
       "target": "字节跳动",
-      "score": 0.7166,
+      "score": 0.7164,
       "suggested_relation_type": "related",
       "reason": "共同出现于 8 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -2075,7 +2192,7 @@
     {
       "source": "kimi",
       "target": "字节跳动",
-      "score": 0.7133,
+      "score": 0.7118,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -2090,7 +2207,7 @@
     {
       "source": "oiioii",
       "target": "字节跳动",
-      "score": 0.6665,
+      "score": 0.6667,
       "suggested_relation_type": "related",
       "reason": "共同出现于 6 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [

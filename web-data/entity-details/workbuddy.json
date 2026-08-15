@@ -4,18 +4,20 @@
     "name": "WorkBuddy",
     "type": "product",
     "description": "本地Agent工具，文中用于对比贬低秒哒3.0",
-    "mention_count": 8,
-    "article_count": 3,
+    "mention_count": 11,
+    "article_count": 5,
     "aliases": [],
     "tags": [
       "AI办公",
+      "AI工具",
       "Agent",
       "本地工具",
       "生产力工具",
+      "编程工具",
       "腾讯云团队"
     ],
-    "references": 3,
-    "source_article_count": 3,
+    "references": 5,
+    "source_article_count": 5,
     "source_articles": [
       {
         "article_id": "102",
@@ -25,6 +27,24 @@
         "permalink": "/articles/102",
         "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
         "mention_count": 6
+      },
+      {
+        "article_id": "131",
+        "title": "大模型能干，懂模帝会飞",
+        "date": "2026-08-10",
+        "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "permalink": "/articles/131",
+        "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "128",
+        "title": "美团大模型跟外卖一样纯出来送",
+        "date": "2026-08-04",
+        "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "permalink": "/articles/128",
+        "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "mention_count": 1
       },
       {
         "article_id": "125",
@@ -45,8 +65,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 11,
-    "composite_weight": 0.1084
+    "degree": 13,
+    "composite_weight": 0.1384
   },
   "links": [
     {
@@ -167,6 +187,32 @@
       "evidences": []
     },
     {
+      "source": "catpaw",
+      "target": "workbuddy",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章指出CatPaw在竞争中不如WorkBuddy",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "文章指出CatPaw在竞争中不如WorkBuddy",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "marvis",
       "target": "workbuddy",
       "relation_type": "competes_with",
@@ -217,6 +263,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "workbuddy",
+      "target": "catpaw",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章指出CatPaw在竞争中不如WorkBuddy",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
     },
     {
       "source": "workbuddy",

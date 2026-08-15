@@ -3,18 +3,19 @@
     "id": "qoder",
     "name": "Qoder",
     "type": "product",
-    "description": "被称为国产之光的AI代码工具",
-    "mention_count": 6,
-    "article_count": 4,
+    "description": "文中建议用于构建bench场景的主力Harness工具",
+    "mention_count": 9,
+    "article_count": 7,
     "aliases": [],
     "tags": [
       "AI工具",
       "国产AI",
+      "开发工具",
       "编程Agent",
       "编程工具"
     ],
-    "references": 4,
-    "source_article_count": 4,
+    "references": 7,
+    "source_article_count": 7,
     "source_articles": [
       {
         "article_id": "103",
@@ -35,6 +36,33 @@
         "mention_count": 2
       },
       {
+        "article_id": "133",
+        "title": "速来网吧线下真实所有大模型",
+        "date": "2026-08-14",
+        "path": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+        "permalink": "/articles/133",
+        "markdown_link": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "129",
+        "title": "Qwen 3.8升级纯血力工模型",
+        "date": "2026-08-05",
+        "path": "articles/129_2026-08-05_葬爱咸鱼_Qwen 3.8升级纯血力工模型.md",
+        "permalink": "/articles/129",
+        "markdown_link": "articles/129_2026-08-05_葬爱咸鱼_Qwen 3.8升级纯血力工模型.md",
+        "mention_count": 1
+      },
+      {
+        "article_id": "128",
+        "title": "美团大模型跟外卖一样纯出来送",
+        "date": "2026-08-04",
+        "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "permalink": "/articles/128",
+        "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "029",
         "title": "AI写作指南3.0编程式写作",
         "date": "2025-10-16",
@@ -53,10 +81,36 @@
         "mention_count": 1
       }
     ],
-    "degree": 5,
-    "composite_weight": 0.0594
+    "degree": 8,
+    "composite_weight": 0.1038
   },
   "links": [
+    {
+      "source": "catpaw",
+      "target": "qoder",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章指出CatPaw在竞争中不如Qoder",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "文章指出CatPaw在竞争中不如Qoder",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "claude",
       "target": "qoder",
@@ -93,6 +147,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "qoder",
+      "target": "catpaw",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章指出CatPaw在竞争中不如Qoder",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
     },
     {
       "source": "qoder",
@@ -152,14 +219,25 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "阿里重点押注Qoder",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "103"
+        "103",
+        "129"
       ],
       "evidences": [
+        {
+          "article_id": "129",
+          "title": "Qwen 3.8升级纯血力工模型",
+          "permalink": "/articles/129",
+          "markdown_link": "articles/129_2026-08-05_葬爱咸鱼_Qwen 3.8升级纯血力工模型.md",
+          "path": "articles/129_2026-08-05_葬爱咸鱼_Qwen 3.8升级纯血力工模型.md",
+          "date": "2026-08-05",
+          "label": "Qoder是阿里旗下的编程产品",
+          "weight": 1
+        },
         {
           "article_id": "103",
           "title": "Kimi看天讨饭吃",
@@ -171,45 +249,85 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "qoder",
+      "target": "懂模帝",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "建议使用Qoder作为构建懂模帝bench的Harness工具",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "133"
+      ],
+      "evidences": [
+        {
+          "article_id": "133",
+          "title": "速来网吧线下真实所有大模型",
+          "permalink": "/articles/133",
+          "markdown_link": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+          "path": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+          "date": "2026-08-14",
+          "label": "建议使用Qoder作为构建懂模帝bench的Harness工具",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
-      "source": "codex",
+      "source": "kimi",
       "target": "qoder",
-      "score": 0.421,
+      "score": 0.4339,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 1 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "027",
         "029",
         "100",
-        "103"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "kimi",
-      "target": "qoder",
-      "score": 0.4144,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "027",
-        "029",
-        "100"
+        "133"
       ],
       "status": "suggested"
     },
     {
       "source": "qoder",
       "target": "qwen",
-      "score": 0.4144,
+      "score": 0.4339,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "027",
         "029",
+        "103",
+        "133"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "qoder",
+      "target": "千问办公",
+      "score": 0.3855,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "129",
+        "133"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "codex",
+      "target": "qoder",
+      "score": 0.371,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 1 个邻居",
+      "evidence_article_ids": [
+        "027",
+        "029",
+        "100",
         "103"
       ],
       "status": "suggested"

@@ -4,8 +4,8 @@
     "name": "Seedance",
     "type": "product",
     "description": "字节推出的AI视频生成大模型，支持参考图片、视频和音频生成并复刻内容。",
-    "mention_count": 76,
-    "article_count": 9,
+    "mention_count": 120,
+    "article_count": 10,
     "aliases": [
       "Seedance 2.0",
       "Seedance 35折",
@@ -17,16 +17,27 @@
       "AI视频",
       "AI视频生成",
       "API",
+      "世界模型",
       "大参考时代",
       "大模型",
       "底层模型",
+      "文生视频",
       "视频大模型",
       "视频模型",
       "视频生成"
     ],
-    "references": 9,
-    "source_article_count": 9,
+    "references": 10,
+    "source_article_count": 10,
     "source_articles": [
+      {
+        "article_id": "132",
+        "title": "Seedance 2.5自绝于网民",
+        "date": "2026-08-12",
+        "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "permalink": "/articles/132",
+        "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "mention_count": 44
+      },
       {
         "article_id": "062",
         "title": "Seedance 2.0让字节元神启动",
@@ -109,8 +120,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 23,
-    "composite_weight": 0.3156
+    "degree": 30,
+    "composite_weight": 0.4139
   },
   "links": [
     {
@@ -140,6 +151,32 @@
       ]
     },
     {
+      "source": "kling",
+      "target": "seedance",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了Seedance 2.5与Kling 3.0 Omini的视频生成成本",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "132"
+      ],
+      "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "文章对比了Seedance 2.5与Kling 3.0 Omini的视频生成成本",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "mainecoon",
       "target": "seedance",
       "relation_type": "compares_to",
@@ -161,6 +198,32 @@
           "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
           "date": "2026-07-02",
           "label": "文中对比了MaineCoon Instant Video与Seedance mini的速度和功能",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax-h3",
+      "target": "seedance",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章详细对比了Seedance 2.5与MiniMax H3在价格、提示词遵循度及适用人群上的差异",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "132"
+      ],
+      "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "文章详细对比了Seedance 2.5与MiniMax H3在价格、提示词遵循度及适用人群上的差异",
           "weight": 1
         }
       ]
@@ -206,10 +269,36 @@
     },
     {
       "source": "seedance",
+      "target": "kling",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了Seedance 2.5与Kling 3.0 Omini的视频生成成本",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "seedance",
       "target": "mainecoon",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文中对比了MaineCoon Instant Video与Seedance mini的速度和功能",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "seedance",
+      "target": "minimax-h3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章详细对比了Seedance 2.5与MiniMax H3在价格、提示词遵循度及适用人群上的差异",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -276,6 +365,45 @@
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "libtv",
+      "target": "seedance",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "LibTV在超长视频生成和支付灵活性上与Seedance形成竞争/对标关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "132"
+      ],
+      "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "LibTV在超长视频生成和支付灵活性上与Seedance形成竞争/对标关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seedance",
+      "target": "libtv",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "LibTV在超长视频生成和支付灵活性上与Seedance形成竞争/对标关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
       "article_count": 0,
       "evidence_articles": [],
       "evidences": []
@@ -385,23 +513,60 @@
       "evidences": []
     },
     {
+      "source": "骡子马",
+      "target": "seedance",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "作者批评Seedance 2.5定价过高、对提示词要求苛刻、内容审查过严以及产品化倒退",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "132"
+      ],
+      "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "作者批评Seedance 2.5定价过高、对提示词要求苛刻、内容审查过严以及产品化倒退",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "字节跳动",
       "target": "seedance",
       "relation_type": "develops",
       "type": "develops",
       "label": "字节跳动研发了Seedance视频生成大模型。",
-      "weight": 5,
+      "weight": 6,
       "strength": 4,
-      "effective_weight": 25,
-      "article_count": 5,
+      "effective_weight": 30,
+      "article_count": 6,
       "evidence_articles": [
         "062",
         "063",
         "065",
         "078",
-        "106"
+        "106",
+        "132"
       ],
       "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "字节跳动开发了Seedance视频生成模型",
+          "weight": 1
+        },
         {
           "article_id": "106",
           "title": "我来给LibTV道喜了",
@@ -597,15 +762,26 @@
       "relation_type": "integrates_with",
       "type": "integrates_with",
       "label": "即梦应用底层接入了Seedance模型来提供视频和图片复刻能力。",
-      "weight": 2,
+      "weight": 3,
       "strength": 2,
-      "effective_weight": 6,
-      "article_count": 2,
+      "effective_weight": 9,
+      "article_count": 3,
       "evidence_articles": [
         "062",
-        "063"
+        "063",
+        "132"
       ],
       "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "即梦App集成了Seedance模型作为核心生成引擎",
+          "weight": 1
+        },
         {
           "article_id": "063",
           "title": "剪映炒Seedance 2.0，炒出一种推背感",
@@ -709,9 +885,38 @@
   ],
   "suggested_edges": [
     {
+      "source": "seedance",
+      "target": "陈冕",
+      "score": 0.6355,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "078",
+        "106",
+        "116",
+        "117",
+        "132"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "minimax",
+      "target": "seedance",
+      "score": 0.5906,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "099",
+        "116",
+        "117",
+        "132"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "oiioii",
       "target": "seedance",
-      "score": 0.5281,
+      "score": 0.5283,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -724,7 +929,7 @@
     {
       "source": "pixverse",
       "target": "seedance",
-      "score": 0.5089,
+      "score": 0.5071,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -735,40 +940,12 @@
     {
       "source": "seedance",
       "target": "豆包",
-      "score": 0.455,
+      "score": 0.4548,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "065",
         "113"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "minimax",
-      "target": "seedance",
-      "score": 0.431,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
-      "evidence_article_ids": [
-        "099",
-        "116",
-        "117"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "seedance",
-      "target": "智谱ai",
-      "score": 0.4104,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 1 个邻居",
-      "evidence_article_ids": [
-        "065",
-        "099",
-        "113",
-        "116",
-        "117"
       ],
       "status": "suggested"
     }

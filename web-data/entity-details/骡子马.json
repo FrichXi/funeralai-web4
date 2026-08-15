@@ -4,19 +4,21 @@
     "name": "骡子马",
     "type": "person",
     "description": "被用作比喻对象的AI行业人物，MuleRun（骡子）名称的调侃来源",
-    "mention_count": 11,
-    "article_count": 5,
+    "mention_count": 12,
+    "article_count": 6,
     "aliases": [],
     "tags": [
       "GDC炒作",
       "KOL",
+      "博主",
       "核心用户",
       "活动组织者",
       "行业评论",
+      "评测",
       "评测人"
     ],
-    "references": 5,
-    "source_article_count": 5,
+    "references": 6,
+    "source_article_count": 6,
     "source_articles": [
       {
         "article_id": "043",
@@ -35,6 +37,15 @@
         "permalink": "/articles/071",
         "markdown_link": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "132",
+        "title": "Seedance 2.5自绝于网民",
+        "date": "2026-08-12",
+        "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "permalink": "/articles/132",
+        "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "mention_count": 1
       },
       {
         "article_id": "124",
@@ -64,8 +75,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 14,
-    "composite_weight": 0.1344
+    "degree": 16,
+    "composite_weight": 0.1519
   },
   "links": [
     {
@@ -239,6 +250,32 @@
     },
     {
       "source": "骡子马",
+      "target": "seedance",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "作者批评Seedance 2.5定价过高、对提示词要求苛刻、内容审查过严以及产品化倒退",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "132"
+      ],
+      "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "作者批评Seedance 2.5定价过高、对提示词要求苛刻、内容审查过严以及产品化倒退",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "骡子马",
       "target": "孙洋",
       "relation_type": "criticizes",
       "type": "criticizes",
@@ -363,6 +400,32 @@
           "path": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
           "date": "2026-07-26",
           "label": "骡子马认可Creative OS的Skill Creator功能及系统化工作流思路",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "骡子马",
+      "target": "minimax-h3",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "作者赞扬MiniMax H3在模型产品化上多做了一步，适合老百姓整活和影视后期",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "132"
+      ],
+      "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "作者赞扬MiniMax H3在模型产品化上多做了一步，适合老百姓整活和影视后期",
           "weight": 1
         }
       ]

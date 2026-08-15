@@ -64,7 +64,7 @@
       }
     ],
     "degree": 26,
-    "composite_weight": 0.3467
+    "composite_weight": 0.3256
   },
   "links": [
     {
@@ -684,9 +684,27 @@
   ],
   "suggested_edges": [
     {
+      "source": "cherry-studio",
+      "target": "seed",
+      "score": 0.4782,
+      "suggested_relation_type": "compares_to",
+      "reason": "共享 6 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [],
+      "status": "suggested"
+    },
+    {
+      "source": "codex",
+      "target": "seed",
+      "score": 0.4705,
+      "suggested_relation_type": "compares_to",
+      "reason": "共享 5 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [],
+      "status": "suggested"
+    },
+    {
       "source": "seed",
       "target": "阶跃星辰",
-      "score": 0.4678,
+      "score": 0.4676,
       "suggested_relation_type": "related",
       "reason": "共同出现于 1 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -695,29 +713,11 @@
       "status": "suggested"
     },
     {
-      "source": "cherry-studio",
-      "target": "seed",
-      "score": 0.4285,
-      "suggested_relation_type": "compares_to",
-      "reason": "共享 6 个邻居",
-      "evidence_article_ids": [],
-      "status": "suggested"
-    },
-    {
-      "source": "codex",
-      "target": "seed",
-      "score": 0.4202,
-      "suggested_relation_type": "compares_to",
-      "reason": "共享 5 个邻居",
-      "evidence_article_ids": [],
-      "status": "suggested"
-    },
-    {
       "source": "deepseek",
       "target": "seed",
-      "score": 0.3946,
+      "score": 0.4444,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 1 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "110"
       ],

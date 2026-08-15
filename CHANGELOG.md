@@ -6,6 +6,11 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
+- Added a narrowly scoped, repository-linked worktree policy for weekday content automation so benchmark/UI edits in the canonical checkout cannot block Substack ingestion; untrusted copies and non-content profiles remain unable to deploy production.
+- Articles 129-133 imported from Substack: "Qwen 3.8升级纯血力工模型" (129), "致视频模型：群众不喜闻乐见，你算老几" (130), "大模型能干，懂模帝会飞" (131), "Seedance 2.5自绝于网民" (132), and "速来网吧线下真实所有大模型" (133). Incremental extraction completed with 9/2, 8/8, 12/7, 12/14, and 12/7 entity/relationship counts; public stats updated to 133 articles / 721 entities / 1929 relationships.
+- Added `/test/multimodal-model-analysis/` with the verified 2026-08-04 single-run 3D/MG evidence report, three publication images, and explicit limits against architecture inference.
+- Added 16 model-specific Web4 evidence cards covering 10-round distributions, scorer/artifact findings, efficiency, fit, risk, and sample boundaries.
+- Article 128 imported from Substack: "美团大模型跟外卖一样纯出来送" (128). Incremental pipeline run completed successfully with 14 entities and 11 relationships extracted; public stats updated to 128 articles / 706 entities / 1891 relationships.
 - Article 127 imported from Substack: "MiniMax用H3窃取大结果" (127). Incremental pipeline run completed successfully with 8 entities and 7 relationships extracted; public stats updated to 127 articles / 703 entities / 1874 relationships.
 - Added a versioned release contract with article/graph/benchmark invariants, key-file hashes, a full static-tree digest, Git/runtime identity, local verification, and retrying remote verification.
 - Added a two-phase Cloudflare Pages release flow that validates an immutable preview before promoting the same `site/out` tree to production, then verifies both the unique deployment URL and `funeralai.cc` and writes an ignored release receipt.
@@ -13,6 +18,8 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
+- JSON artifact loading now uses byte reads throughout the graph/presentation pipeline, avoiding intermittent TextIOWrapper stalls observed while incrementally rebuilding the 133-article corpus on macOS file-provider volumes.
+- `/test`、性价比榜与 `/test/methodology/` 统一到 `web4-graph-v2-leaderboard-20260804-v2` 的 16 模型 × 10 轮发布包；排除 Hunyuan/MiniMax，LongCat 调整为 D 档，豆包锁定为 28.70 分、179 次调用、¥13.178。
 - CI now uses Node 22, builds against the deterministic `STAGE_TEST=ci` fixture, and verifies the finalized static artifact contract.
 - Production releases now run repository hygiene, KG review, readiness checks, Python tests, frontend lint/tests, full Graph V2 staging, preview verification, and production verification as one fail-closed transaction.
 - Pinned the production framework to Next.js 15.5.21, PostCSS 8.5.24, and Wrangler 4.114.0; raw Pages deploys are restricted to a diagnostics-only preview branch.

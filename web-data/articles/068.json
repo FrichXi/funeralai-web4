@@ -140,6 +140,20 @@
       ]
     },
     {
+      "id": "minimax-h3",
+      "name": "MiniMax H3",
+      "type": "product",
+      "description": "MiniMax推出的视频生成模型，在meme bench中排名第一，指令遵循能力强",
+      "mention_count": 3,
+      "aliases": [
+        "H3",
+        "胖猫"
+      ],
+      "tags": [
+        "网络人物"
+      ]
+    },
+    {
       "id": "qq小冰",
       "name": "QQ小冰",
       "type": "product",
@@ -150,19 +164,6 @@
       ],
       "tags": [
         "聊天机器人"
-      ]
-    },
-    {
-      "id": "胖猫",
-      "name": "胖猫",
-      "type": "product",
-      "description": "网络事件人物，被大模型视觉识别混淆",
-      "mention_count": 3,
-      "aliases": [
-        "胖猫AI"
-      ],
-      "tags": [
-        "网络人物"
       ]
     },
     {
@@ -277,9 +278,9 @@
     },
     {
       "source_id": "科比-布莱恩特",
-      "target_id": "胖猫",
+      "target_id": "minimax-h3",
       "source": "科比·布莱恩特",
-      "target": "胖猫",
+      "target": "MiniMax H3",
       "relation_type": "compares_to",
       "label": "Kimi API产生视觉幻觉，将胖猫照片识别为科比",
       "weight": 1

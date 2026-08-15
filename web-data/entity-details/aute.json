@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "aute",
+    "name": "Aute",
+    "type": "company",
+    "description": "开发ego浏览器的公司，与葬AI合作推出Ego Bench",
+    "mention_count": 4,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Agent基础设施",
+      "浏览器"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "131",
+        "title": "大模型能干，懂模帝会飞",
+        "date": "2026-08-10",
+        "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "permalink": "/articles/131",
+        "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "mention_count": 4
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0237
+  },
+  "links": [
+    {
+      "source": "aute",
+      "target": "ego-lite",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Aute开发了ego (lite)浏览器",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "131"
+      ],
+      "evidences": [
+        {
+          "article_id": "131",
+          "title": "大模型能干，懂模帝会飞",
+          "permalink": "/articles/131",
+          "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "date": "2026-08-10",
+          "label": "Aute开发了ego (lite)浏览器",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

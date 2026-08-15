@@ -4,8 +4,8 @@
     "name": "沐秋",
     "type": "person",
     "description": "评论K3宣传片软蒸馏Fable 5的行业人士",
-    "mention_count": 29,
-    "article_count": 8,
+    "mention_count": 30,
+    "article_count": 9,
     "aliases": [],
     "tags": [
       "AI硬件",
@@ -17,8 +17,8 @@
       "评测人",
       "评论员"
     ],
-    "references": 8,
-    "source_article_count": 8,
+    "references": 9,
+    "source_article_count": 9,
     "source_articles": [
       {
         "article_id": "043",
@@ -57,6 +57,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "131",
+        "title": "大模型能干，懂模帝会飞",
+        "date": "2026-08-10",
+        "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "permalink": "/articles/131",
+        "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "124",
         "title": "TapNow想把你困在系统里",
         "date": "2026-07-26",
@@ -93,8 +102,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 11,
-    "composite_weight": 0.1676
+    "degree": 13,
+    "composite_weight": 0.1794
   },
   "links": [
     {
@@ -266,6 +275,32 @@
     },
     {
       "source": "沐秋",
+      "target": "小米",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "沐秋批评小米MiMo模型表现比文心一言还差，建议避雷",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "131"
+      ],
+      "evidences": [
+        {
+          "article_id": "131",
+          "title": "大模型能干，懂模帝会飞",
+          "permalink": "/articles/131",
+          "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "date": "2026-08-10",
+          "label": "沐秋批评小米MiMo模型表现比文心一言还差，建议避雷",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "沐秋",
       "target": "阶跃星辰",
       "relation_type": "criticizes",
       "type": "criticizes",
@@ -286,6 +321,32 @@
           "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
           "date": "2026-07-23",
           "label": "作者批评阶跃模型能力处于第二梯队，且Amoo Logo涉嫌抄袭",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "沐秋",
+      "target": "deepseek",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "沐秋赞扬DeepSeek V4 Flash性价比超高，是国模第一",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "131"
+      ],
+      "evidences": [
+        {
+          "article_id": "131",
+          "title": "大模型能干，懂模帝会飞",
+          "permalink": "/articles/131",
+          "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "date": "2026-08-10",
+          "label": "沐秋赞扬DeepSeek V4 Flash性价比超高，是国模第一",
           "weight": 1
         }
       ]

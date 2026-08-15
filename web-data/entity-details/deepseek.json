@@ -4,8 +4,8 @@
     "name": "DeepSeek",
     "type": "company",
     "description": "AI大模型公司，其爆火为Cherry Studio带来大量流量",
-    "mention_count": 62,
-    "article_count": 18,
+    "mention_count": 71,
+    "article_count": 20,
     "aliases": [
       "DS",
       "DS V4 pro",
@@ -31,8 +31,8 @@
       "被蹭热度",
       "降本增效"
     ],
-    "references": 18,
-    "source_article_count": 18,
+    "references": 20,
+    "source_article_count": 20,
     "source_articles": [
       {
         "article_id": "039",
@@ -42,6 +42,15 @@
         "permalink": "/articles/039",
         "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
         "mention_count": 11
+      },
+      {
+        "article_id": "131",
+        "title": "大模型能干，懂模帝会飞",
+        "date": "2026-08-10",
+        "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "permalink": "/articles/131",
+        "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "mention_count": 7
       },
       {
         "article_id": "105",
@@ -114,6 +123,15 @@
         "permalink": "/articles/103",
         "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "133",
+        "title": "速来网吧线下真实所有大模型",
+        "date": "2026-08-14",
+        "path": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+        "permalink": "/articles/133",
+        "markdown_link": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+        "mention_count": 2
       },
       {
         "article_id": "122",
@@ -197,8 +215,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 26,
-    "composite_weight": 0.3535
+    "degree": 28,
+    "composite_weight": 0.3834
   },
   "links": [
     {
@@ -751,15 +769,67 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "沐秋",
+      "target": "deepseek",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "沐秋赞扬DeepSeek V4 Flash性价比超高，是国模第一",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "131"
+      ],
+      "evidences": [
+        {
+          "article_id": "131",
+          "title": "大模型能干，懂模帝会飞",
+          "permalink": "/articles/131",
+          "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "date": "2026-08-10",
+          "label": "沐秋赞扬DeepSeek V4 Flash性价比超高，是国模第一",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "梁圣",
+      "target": "deepseek",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "文中将梁圣与DeepSeek强关联，指代其商业化行为",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "133"
+      ],
+      "evidences": [
+        {
+          "article_id": "133",
+          "title": "速来网吧线下真实所有大模型",
+          "permalink": "/articles/133",
+          "markdown_link": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+          "path": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+          "date": "2026-08-14",
+          "label": "文中将梁圣与DeepSeek强关联，指代其商业化行为",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "deepseek",
       "target": "kimi",
-      "score": 0.851,
+      "score": 0.8994,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 8 篇文章；共享 8 个邻居",
+      "reason": "共同出现于 9 篇文章；共享 8 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "004",
         "049",
@@ -772,9 +842,9 @@
     {
       "source": "anthropic",
       "target": "deepseek",
-      "score": 0.6488,
+      "score": 0.6983,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "070",
         "099",
@@ -785,9 +855,23 @@
       "status": "suggested"
     },
     {
+      "source": "chatgpt",
+      "target": "deepseek",
+      "score": 0.5941,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "008",
+        "070",
+        "088",
+        "105"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "deepseek",
       "target": "阿里巴巴",
-      "score": 0.574,
+      "score": 0.5727,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
@@ -800,31 +884,16 @@
       "status": "suggested"
     },
     {
-      "source": "chatgpt",
-      "target": "deepseek",
-      "score": 0.5445,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "008",
-        "070",
-        "088",
-        "105"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "deepseek",
-      "target": "字节跳动",
-      "score": 0.5067,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
+      "target": "glm",
+      "score": 0.5199,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
-        "070",
-        "088",
-        "103",
-        "110",
-        "125"
+        "049",
+        "105",
+        "109",
+        "110"
       ],
       "status": "suggested"
     }

@@ -4,16 +4,26 @@
     "name": "Seedance 2.0",
     "type": "product",
     "description": "文中作为H3主要对标对象的视频生成模型，被视为SOTA基准",
-    "mention_count": 3,
-    "article_count": 1,
+    "mention_count": 15,
+    "article_count": 2,
     "aliases": [],
     "tags": [
       "SOTA",
+      "视频模型",
       "视频生成"
     ],
-    "references": 1,
-    "source_article_count": 1,
+    "references": 2,
+    "source_article_count": 2,
     "source_articles": [
+      {
+        "article_id": "130",
+        "title": "致视频模型：群众不喜闻乐见，你算老几",
+        "date": "2026-08-07",
+        "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+        "permalink": "/articles/130",
+        "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+        "mention_count": 12
+      },
       {
         "article_id": "127",
         "title": "MiniMax用H3窃取大结果",
@@ -24,8 +34,8 @@
         "mention_count": 3
       }
     ],
-    "degree": 2,
-    "composite_weight": 0.0286
+    "degree": 7,
+    "composite_weight": 0.0964
   },
   "links": [
     {
@@ -55,6 +65,32 @@
       ]
     },
     {
+      "source": "minimax-h3",
+      "target": "seedance-2-0",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "meme bench测试显示H3与Seedance 2.0得分接近，且H3被视为升级版Seedance 2.0",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "130"
+      ],
+      "evidences": [
+        {
+          "article_id": "130",
+          "title": "致视频模型：群众不喜闻乐见，你算老几",
+          "permalink": "/articles/130",
+          "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "date": "2026-08-07",
+          "label": "meme bench测试显示H3与Seedance 2.0得分接近，且H3被视为升级版Seedance 2.0",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "seedance-2-0",
       "target": "h3",
       "relation_type": "compares_to",
@@ -66,7 +102,98 @@
       "article_count": 0,
       "evidence_articles": [],
       "evidences": []
+    },
+    {
+      "source": "seedance-2-0",
+      "target": "minimax-h3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "meme bench测试显示H3与Seedance 2.0得分接近，且H3被视为升级版Seedance 2.0",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "seedance-2-0",
+      "target": "seedance-2-5",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了两者在指令遵循、复杂动作及电影质感方面的差异",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "130"
+      ],
+      "evidences": [
+        {
+          "article_id": "130",
+          "title": "致视频模型：群众不喜闻乐见，你算老几",
+          "permalink": "/articles/130",
+          "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "date": "2026-08-07",
+          "label": "文章对比了两者在指令遵循、复杂动作及电影质感方面的差异",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seedance-2-5",
+      "target": "seedance-2-0",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了两者在指令遵循、复杂动作及电影质感方面的差异",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "字节跳动",
+      "target": "seedance-2-0",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Seedance 2.0是字节跳动的视频模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "130"
+      ],
+      "evidences": [
+        {
+          "article_id": "130",
+          "title": "致视频模型：群众不喜闻乐见，你算老几",
+          "permalink": "/articles/130",
+          "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "date": "2026-08-07",
+          "label": "Seedance 2.0是字节跳动的视频模型",
+          "weight": 1
+        }
+      ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "minimax",
+      "target": "seedance-2-0",
+      "score": 0.394,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "127",
+        "130"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

@@ -61,6 +61,19 @@ fi
 
 python3 scripts/repo_profiles.py check-dirty --profile "$profile"
 
+trusted_automation_worktree=false
+if python3 scripts/worktree_policy.py \
+  --repo-root "$repo_root" \
+  --profile "$profile" >/dev/null; then
+  trusted_automation_worktree=true
+fi
+
+branch="$(git branch --show-current || true)"
+if [[ "$trusted_automation_worktree" == false && "$branch" != "main" ]]; then
+  echo "GitHub sync requires main unless this is a trusted content-automation worktree." >&2
+  exit 1
+fi
+
 python3 scripts/check_no_secrets.py
 
 python3 scripts/repo_profiles.py stage --profile "$profile"
@@ -73,4 +86,8 @@ if git diff --cached --quiet; then
 fi
 
 git commit -m "$commit_message"
-git push origin main
+if [[ "$trusted_automation_worktree" == true ]]; then
+  git push origin HEAD:main
+else
+  git push origin main
+fi

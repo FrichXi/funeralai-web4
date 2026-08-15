@@ -1,0 +1,110 @@
+{
+  "node": {
+    "id": "美团小美",
+    "name": "美团小美",
+    "type": "product",
+    "description": "美团推出的生活方式AI Agent应用",
+    "mention_count": 3,
+    "article_count": 2,
+    "aliases": [
+      "小美"
+    ],
+    "tags": [
+      "AI应用",
+      "Agent",
+      "生活服务"
+    ],
+    "references": 2,
+    "source_article_count": 2,
+    "source_articles": [
+      {
+        "article_id": "131",
+        "title": "大模型能干，懂模帝会飞",
+        "date": "2026-08-10",
+        "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "permalink": "/articles/131",
+        "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "128",
+        "title": "美团大模型跟外卖一样纯出来送",
+        "date": "2026-08-04",
+        "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "permalink": "/articles/128",
+        "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0403
+  },
+  "links": [
+    {
+      "source": "美团小美",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将美团小美与豆包在功能和响应速度上进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "文章将美团小美与豆包在功能和响应速度上进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包",
+      "target": "美团小美",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将美团小美与豆包在功能和响应速度上进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "美团",
+      "target": "美团小美",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "美团开发生活方式Agent应用美团小美",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "美团开发生活方式Agent应用美团小美",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

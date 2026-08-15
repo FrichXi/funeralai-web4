@@ -4,8 +4,8 @@
     "name": "阿里巴巴",
     "type": "company",
     "description": "开发了Happy Horse视频模型和Happy Oyster世界模型",
-    "mention_count": 79,
-    "article_count": 16,
+    "mention_count": 86,
+    "article_count": 18,
     "aliases": [
       "阿里"
     ],
@@ -14,17 +14,20 @@
       "云市场",
       "云服务提供商",
       "云栖大会",
+      "云计算",
       "互联网大厂",
       "大厂",
+      "大模型",
       "大模型公司",
       "市值",
+      "物理AI",
       "电商",
       "科技公司",
       "组织战略",
       "阿里味"
     ],
-    "references": 16,
-    "source_article_count": 16,
+    "references": 18,
+    "source_article_count": 18,
     "source_articles": [
       {
         "article_id": "112",
@@ -43,6 +46,15 @@
         "permalink": "/articles/055",
         "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
         "mention_count": 7
+      },
+      {
+        "article_id": "128",
+        "title": "美团大模型跟外卖一样纯出来送",
+        "date": "2026-08-04",
+        "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "permalink": "/articles/128",
+        "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "mention_count": 5
       },
       {
         "article_id": "125",
@@ -70,6 +82,15 @@
         "permalink": "/articles/071",
         "markdown_link": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "129",
+        "title": "Qwen 3.8升级纯血力工模型",
+        "date": "2026-08-05",
+        "path": "articles/129_2026-08-05_葬爱咸鱼_Qwen 3.8升级纯血力工模型.md",
+        "permalink": "/articles/129",
+        "markdown_link": "articles/129_2026-08-05_葬爱咸鱼_Qwen 3.8升级纯血力工模型.md",
+        "mention_count": 2
       },
       {
         "article_id": "122",
@@ -171,8 +192,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 37,
-    "composite_weight": 0.4429
+    "degree": 40,
+    "composite_weight": 0.4705
   },
   "links": [
     {
@@ -312,6 +333,32 @@
           "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
           "date": "2026-07-28",
           "label": "在大模型和AI应用赛道存在竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "美团",
+      "target": "阿里巴巴",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章建议美团与阿里争夺'物理AI第一'",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "文章建议美团与阿里争夺'物理AI第一'",
           "weight": 1
         }
       ]
@@ -457,6 +504,19 @@
     },
     {
       "source": "阿里巴巴",
+      "target": "美团",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章建议美团与阿里争夺'物理AI第一'",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阿里巴巴",
       "target": "腾讯",
       "relation_type": "competes_with",
       "type": "competes_with",
@@ -576,14 +636,25 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "阿里重点押注Qoder",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "103"
+        "103",
+        "129"
       ],
       "evidences": [
+        {
+          "article_id": "129",
+          "title": "Qwen 3.8升级纯血力工模型",
+          "permalink": "/articles/129",
+          "markdown_link": "articles/129_2026-08-05_葬爱咸鱼_Qwen 3.8升级纯血力工模型.md",
+          "path": "articles/129_2026-08-05_葬爱咸鱼_Qwen 3.8升级纯血力工模型.md",
+          "date": "2026-08-05",
+          "label": "Qoder是阿里旗下的编程产品",
+          "weight": 1
+        },
         {
           "article_id": "103",
           "title": "Kimi看天讨饭吃",
@@ -742,6 +813,32 @@
           "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
           "date": "2026-07-02",
           "label": "阿里巴巴开发千问APP作为C端入口",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "千问办公",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "千问办公是阿里旗下的办公产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "129"
+      ],
+      "evidences": [
+        {
+          "article_id": "129",
+          "title": "Qwen 3.8升级纯血力工模型",
+          "permalink": "/articles/129",
+          "markdown_link": "articles/129_2026-08-05_葬爱咸鱼_Qwen 3.8升级纯血力工模型.md",
+          "path": "articles/129_2026-08-05_葬爱咸鱼_Qwen 3.8升级纯血力工模型.md",
+          "date": "2026-08-05",
+          "label": "千问办公是阿里旗下的办公产品",
           "weight": 1
         }
       ]
@@ -1087,7 +1184,7 @@
       "target": "阿里巴巴",
       "score": 0.8085,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "034",
         "065",
@@ -1100,7 +1197,7 @@
     {
       "source": "claude",
       "target": "阿里巴巴",
-      "score": 0.7343,
+      "score": 0.7015,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1114,7 +1211,7 @@
     {
       "source": "deepseek",
       "target": "阿里巴巴",
-      "score": 0.574,
+      "score": 0.5727,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
@@ -1129,7 +1226,7 @@
     {
       "source": "lovart",
       "target": "阿里巴巴",
-      "score": 0.4761,
+      "score": 0.4763,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1142,7 +1239,7 @@
     {
       "source": "阿里巴巴",
       "target": "陈冕",
-      "score": 0.4684,
+      "score": 0.4682,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [

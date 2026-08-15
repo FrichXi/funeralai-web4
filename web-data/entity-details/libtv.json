@@ -4,8 +4,8 @@
     "name": "LibTV",
     "type": "product",
     "description": "AI短剧/视频平台，是Seedance的大客户，也是MiniMax复刻的对象",
-    "mention_count": 79,
-    "article_count": 12,
+    "mention_count": 81,
+    "article_count": 13,
     "aliases": [
       "Liblib",
       "Libtv",
@@ -15,6 +15,7 @@
     "tags": [
       "AI应用",
       "AI短剧",
+      "AI视频平台",
       "KA客户",
       "TV形态",
       "开源",
@@ -25,10 +26,11 @@
       "视频agent",
       "视频平台",
       "视频模型",
-      "视频生成"
+      "视频生成",
+      "超长视频"
     ],
-    "references": 12,
-    "source_article_count": 12,
+    "references": 13,
+    "source_article_count": 13,
     "source_articles": [
       {
         "article_id": "106",
@@ -103,6 +105,15 @@
         "mention_count": 3
       },
       {
+        "article_id": "132",
+        "title": "Seedance 2.5自绝于网民",
+        "date": "2026-08-12",
+        "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "permalink": "/articles/132",
+        "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "mention_count": 2
+      },
+      {
         "article_id": "127",
         "title": "MiniMax用H3窃取大结果",
         "date": "2026-08-02",
@@ -139,8 +150,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 40,
-    "composite_weight": 0.5153
+    "degree": 42,
+    "composite_weight": 0.5111
   },
   "links": [
     {
@@ -481,6 +492,32 @@
     },
     {
       "source": "libtv",
+      "target": "seedance",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "LibTV在超长视频生成和支付灵活性上与Seedance形成竞争/对标关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "132"
+      ],
+      "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "LibTV在超长视频生成和支付灵活性上与Seedance形成竞争/对标关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "libtv",
       "target": "tapnow",
       "relation_type": "competes_with",
       "type": "competes_with",
@@ -550,6 +587,19 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "同为竞争首批接入底层模型的视频agent赛道产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "seedance",
+      "target": "libtv",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "LibTV在超长视频生成和支付灵活性上与Seedance形成竞争/对标关系",
       "weight": 1,
       "strength": 3,
       "effective_weight": 3,
@@ -1100,9 +1150,9 @@
     {
       "source": "libtv",
       "target": "minimax",
-      "score": 0.6797,
+      "score": 0.68,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "099",
         "109",
@@ -1115,7 +1165,7 @@
     {
       "source": "libtv",
       "target": "manus",
-      "score": 0.5168,
+      "score": 0.5142,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1128,7 +1178,7 @@
     {
       "source": "kimi",
       "target": "libtv",
-      "score": 0.4747,
+      "score": 0.4748,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -1141,8 +1191,20 @@
     },
     {
       "source": "libtv",
+      "target": "剪映",
+      "score": 0.4416,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "078",
+        "132"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "libtv",
       "target": "智谱ai",
-      "score": 0.4257,
+      "score": 0.4254,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -1150,17 +1212,6 @@
         "109",
         "116",
         "117"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "libtv",
-      "target": "taptv",
-      "score": 0.4169,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "073"
       ],
       "status": "suggested"
     }

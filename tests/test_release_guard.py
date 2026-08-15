@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import shutil
 import threading
 from functools import partial
@@ -70,6 +71,47 @@ def make_static_routes(root: Path) -> None:
         path.write_text("ok", encoding="utf-8")
 
 
+def make_current_benchmark(root: Path) -> None:
+    model_image = root.parent / "images" / "model.png"
+    value_image = root.parent / "images" / "value.png"
+    model_image.parent.mkdir(parents=True, exist_ok=True)
+    model_image.write_bytes(b"model leaderboard")
+    value_image.write_bytes(b"value leaderboard")
+
+    rows = [
+        {
+            "model_id": f"model-{index}",
+            "model": f"Model {index}",
+            "scores": [index] * 10,
+        }
+        for index in range(18)
+    ]
+    rows.append(
+        {
+            "model_id": "volcengine-ark/doubao-seed-evolving",
+            "model": "Doubao Seed Evolving",
+            "scores": [28.7] * 10,
+            "score_mean": 28.7,
+            "api_calls_10_tasks": 179,
+            "cost_cny_10_tasks": 13.178,
+        }
+    )
+    write_json(
+        root / "current-release.json",
+        {
+            "releaseId": "web4-graph-v2-leaderboard-20260815-v3",
+            "scoreFormula": "test formula",
+            "rows": rows,
+            "assets": {
+                "modelLeaderboardImage": "/images/model.png",
+                "modelLeaderboardSha256": hashlib.sha256(model_image.read_bytes()).hexdigest(),
+                "valueLeaderboardImage": "/images/value.png",
+                "valueLeaderboardSha256": hashlib.sha256(value_image.read_bytes()).hexdigest(),
+            },
+        },
+    )
+
+
 def test_validate_site_data_accepts_consistent_graph_and_articles(tmp_path: Path) -> None:
     make_data(tmp_path)
 
@@ -98,6 +140,7 @@ def test_validate_site_data_rejects_duplicate_articles_and_dangling_links(tmp_pa
 
 
 def test_validate_benchmark_rejects_entry_count_mismatch(tmp_path: Path) -> None:
+    make_current_benchmark(tmp_path)
     write_json(
         tmp_path / "manifest.json",
         {

@@ -106,14 +106,12 @@
       ]
     },
     {
-      "id": "真格",
-      "name": "真格",
+      "id": "真格基金",
+      "name": "真格基金",
       "type": "vc_firm",
-      "description": "中国知名早期投资机构，被预测是否会效仿YC进行技术产品炒作。",
+      "description": "硬件转转大会联合主办方，投资了BodyPark和云望创新等项目",
       "mention_count": 1,
-      "aliases": [
-        "真格基金"
-      ],
+      "aliases": [],
       "tags": [
         "AI硬件"
       ]
@@ -215,18 +213,18 @@
       "weight": 1
     },
     {
-      "source_id": "真格",
+      "source_id": "真格基金",
       "target_id": "bodypark",
-      "source": "真格",
+      "source": "真格基金",
       "target": "BodyPark",
       "relation_type": "invests_in",
       "label": "真格基金投资了BodyPark项目",
       "weight": 1
     },
     {
-      "source_id": "真格",
+      "source_id": "真格基金",
       "target_id": "云望创新",
-      "source": "真格",
+      "source": "真格基金",
       "target": "云望创新",
       "relation_type": "invests_in",
       "label": "真格基金投资了云望创新项目",

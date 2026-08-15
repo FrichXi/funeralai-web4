@@ -4,8 +4,8 @@
     "name": "Kimi",
     "type": "product",
     "description": "具有长上下文能力的大语言模型，文中被用作Claude Code的后端调用模型",
-    "mention_count": 138,
-    "article_count": 26,
+    "mention_count": 140,
+    "article_count": 27,
     "aliases": [
       "K2",
       "K2.7 Code",
@@ -36,6 +36,7 @@
       "国产模型",
       "大模型",
       "大模型公司",
+      "大模型厂商",
       "大语言模型",
       "平替",
       "开源/闭源模型",
@@ -51,8 +52,8 @@
       "长文本处理",
       "高估值"
     ],
-    "references": 26,
-    "source_article_count": 26,
+    "references": 27,
+    "source_article_count": 27,
     "source_articles": [
       {
         "article_id": "122",
@@ -161,6 +162,15 @@
         "permalink": "/articles/004",
         "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "133",
+        "title": "速来网吧线下真实所有大模型",
+        "date": "2026-08-14",
+        "path": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+        "permalink": "/articles/133",
+        "markdown_link": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+        "mention_count": 2
       },
       {
         "article_id": "112",
@@ -290,7 +300,7 @@
       }
     ],
     "degree": 46,
-    "composite_weight": 0.6531
+    "composite_weight": 0.6253
   },
   "links": [
     {
@@ -1333,9 +1343,9 @@
     {
       "source": "deepseek",
       "target": "kimi",
-      "score": 0.851,
+      "score": 0.8994,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 8 篇文章；共享 8 个邻居",
+      "reason": "共同出现于 9 篇文章；共享 8 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "004",
         "049",
@@ -1348,7 +1358,7 @@
     {
       "source": "kimi",
       "target": "字节跳动",
-      "score": 0.7133,
+      "score": 0.7118,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1363,7 +1373,7 @@
     {
       "source": "chatgpt",
       "target": "kimi",
-      "score": 0.6933,
+      "score": 0.6931,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1376,22 +1386,8 @@
     },
     {
       "source": "kimi",
-      "target": "阶跃桌面伙伴",
-      "score": 0.5464,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "027",
-        "029",
-        "030",
-        "057"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "kimi",
       "target": "openai",
-      "score": 0.5404,
+      "score": 0.5398,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1399,6 +1395,20 @@
         "048",
         "099",
         "109"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "kimi",
+      "target": "阿里云",
+      "score": 0.535,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "049",
+        "055",
+        "057",
+        "065"
       ],
       "status": "suggested"
     }

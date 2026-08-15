@@ -4,18 +4,19 @@
     "name": "钟十六",
     "type": "person",
     "description": "阶跃桌面助手开发者，致力于将其打造成Agent OS入口",
-    "mention_count": 5,
-    "article_count": 3,
+    "mention_count": 8,
+    "article_count": 5,
     "aliases": [
       "钟哥",
       "钟经纬"
     ],
     "tags": [
+      "合作者",
       "开发者",
       "评测者"
     ],
-    "references": 3,
-    "source_article_count": 3,
+    "references": 5,
+    "source_article_count": 5,
     "source_articles": [
       {
         "article_id": "030",
@@ -25,6 +26,24 @@
         "permalink": "/articles/030",
         "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "131",
+        "title": "大模型能干，懂模帝会飞",
+        "date": "2026-08-10",
+        "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "permalink": "/articles/131",
+        "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+        "mention_count": 2
+      },
+      {
+        "article_id": "133",
+        "title": "速来网吧线下真实所有大模型",
+        "date": "2026-08-14",
+        "path": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+        "permalink": "/articles/133",
+        "markdown_link": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+        "mention_count": 1
       },
       {
         "article_id": "122",
@@ -45,10 +64,36 @@
         "mention_count": 1
       }
     ],
-    "degree": 2,
-    "composite_weight": 0.0334
+    "degree": 4,
+    "composite_weight": 0.0657
   },
   "links": [
+    {
+      "source": "正阳",
+      "target": "钟十六",
+      "relation_type": "collaborates_with",
+      "type": "collaborates_with",
+      "label": "两人共同推出懂模帝产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "133"
+      ],
+      "evidences": [
+        {
+          "article_id": "133",
+          "title": "速来网吧线下真实所有大模型",
+          "permalink": "/articles/133",
+          "markdown_link": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+          "path": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+          "date": "2026-08-14",
+          "label": "两人共同推出懂模帝产品",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "钟十六",
       "target": "印奇",
@@ -84,6 +129,43 @@
           "path": "articles/067_2026-03-03_葬爱咸鱼_OpenClaw不如狗一条.md",
           "date": "2026-03-03",
           "label": "钟经纬主导并上线了阶跃桌面伙伴产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "钟十六",
+      "target": "懂模帝",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "钟经纬参与懂模帝开发并提供评测解读帮助",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "131",
+        "133"
+      ],
+      "evidences": [
+        {
+          "article_id": "133",
+          "title": "速来网吧线下真实所有大模型",
+          "permalink": "/articles/133",
+          "markdown_link": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+          "path": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+          "date": "2026-08-14",
+          "label": "钟经纬参与推出了懂模帝产品",
+          "weight": 1
+        },
+        {
+          "article_id": "131",
+          "title": "大模型能干，懂模帝会飞",
+          "permalink": "/articles/131",
+          "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "date": "2026-08-10",
+          "label": "钟经纬参与懂模帝开发并提供评测解读帮助",
           "weight": 1
         }
       ]

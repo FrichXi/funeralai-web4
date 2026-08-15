@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "grok-imagine-1-5",
+    "name": "Grok Imagine 1.5",
+    "type": "product",
+    "description": "视频生成模型，在人体接龙等创意场景中表现优于Seedance 2.5",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "视频模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "130",
+        "title": "致视频模型：群众不喜闻乐见，你算老几",
+        "date": "2026-08-07",
+        "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+        "permalink": "/articles/130",
+        "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.022
+  },
+  "links": [
+    {
+      "source": "grok-imagine-1-5",
+      "target": "seedance-2-5",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在人体接龙等创意场景中，Seedance 2.5的表现不如Grok Imagine 1.5",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "130"
+      ],
+      "evidences": [
+        {
+          "article_id": "130",
+          "title": "致视频模型：群众不喜闻乐见，你算老几",
+          "permalink": "/articles/130",
+          "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "date": "2026-08-07",
+          "label": "在人体接龙等创意场景中，Seedance 2.5的表现不如Grok Imagine 1.5",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seedance-2-5",
+      "target": "grok-imagine-1-5",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在人体接龙等创意场景中，Seedance 2.5的表现不如Grok Imagine 1.5",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

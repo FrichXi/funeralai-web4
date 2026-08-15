@@ -25,6 +25,7 @@ CONTENT_PATHS = (
     "scripts/pipeline_state.py",
     "scripts/run_full_extraction.py",
     "scripts/run_pipeline.py",
+    "scripts/worktree_policy.py",
 )
 
 TEST_BENCHMARK_PATHS = (
@@ -39,9 +40,11 @@ TEST_BENCHMARK_PATHS = (
     "site/package.json",
     "site/package-lock.json",
     "site/prebuild.sh",
+    "site/public/images/test",
     "site/public/scoreboard-logo.png",
     "site/scripts",
     "site/src/app/(main)/test",
+    "site/src/data",
     "site/src/app/globals.css",
     "site/src/app/layout.tsx",
     "site/src/components/layout/Navbar.tsx",
@@ -55,6 +58,8 @@ TEST_BENCHMARK_PATHS = (
     "scripts/repo_profiles.py",
     "scripts/rollback_pages.py",
     "scripts/sync_github_repo.sh",
+    "scripts/worktree_policy.py",
+    "tests/test_release_guard.py",
 )
 
 SITE_UI_PATHS = (
@@ -86,6 +91,7 @@ SITE_UI_PATHS = (
     "scripts/repo_profiles.py",
     "scripts/rollback_pages.py",
     "scripts/sync_github_repo.sh",
+    "scripts/worktree_policy.py",
     "tests",
 )
 

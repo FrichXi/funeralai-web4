@@ -4,15 +4,26 @@
     "name": "美团龙珠",
     "type": "company",
     "description": "投资机构，参与了Rezona第二轮融资",
-    "mention_count": 2,
-    "article_count": 2,
+    "mention_count": 3,
+    "article_count": 3,
     "aliases": [],
     "tags": [
+      "AI投资",
+      "CVC",
       "财务投资"
     ],
-    "references": 2,
-    "source_article_count": 2,
+    "references": 3,
+    "source_article_count": 3,
     "source_articles": [
+      {
+        "article_id": "128",
+        "title": "美团大模型跟外卖一样纯出来送",
+        "date": "2026-08-04",
+        "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "permalink": "/articles/128",
+        "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "mention_count": 1
+      },
       {
         "article_id": "099",
         "title": "马卡龙开创AI短剧Neo Lab",
@@ -32,8 +43,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 2,
-    "composite_weight": 0.0278
+    "degree": 3,
+    "composite_weight": 0.0419
   },
   "links": [
     {
@@ -87,7 +98,47 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "美团龙珠",
+      "target": "智谱ai",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "美团龙珠投资了智谱AI",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "美团龙珠投资了智谱AI",
+          "weight": 1
+        }
+      ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "minimax",
+      "target": "美团龙珠",
+      "score": 0.3694,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "085",
+        "099",
+        "128"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

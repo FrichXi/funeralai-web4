@@ -3,16 +3,26 @@
     "id": "seedance-2-5",
     "name": "Seedance 2.5",
     "type": "product",
-    "description": "在H3发布后紧接着上线的视频模型版本，是H3的直接竞争对手",
-    "mention_count": 2,
-    "article_count": 1,
+    "description": "字节跳动推出的视频生成模型，主打电影质感但复杂动作连贯性倒退",
+    "mention_count": 20,
+    "article_count": 2,
     "aliases": [],
     "tags": [
+      "视频模型",
       "视频生成"
     ],
-    "references": 1,
-    "source_article_count": 1,
+    "references": 2,
+    "source_article_count": 2,
     "source_articles": [
+      {
+        "article_id": "130",
+        "title": "致视频模型：群众不喜闻乐见，你算老几",
+        "date": "2026-08-07",
+        "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+        "permalink": "/articles/130",
+        "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+        "mention_count": 18
+      },
       {
         "article_id": "127",
         "title": "MiniMax用H3窃取大结果",
@@ -23,10 +33,88 @@
         "mention_count": 2
       }
     ],
-    "degree": 2,
-    "composite_weight": 0.0257
+    "degree": 9,
+    "composite_weight": 0.1221
   },
   "links": [
+    {
+      "source": "grok-imagine-1-5",
+      "target": "seedance-2-5",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在人体接龙等创意场景中，Seedance 2.5的表现不如Grok Imagine 1.5",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "130"
+      ],
+      "evidences": [
+        {
+          "article_id": "130",
+          "title": "致视频模型：群众不喜闻乐见，你算老几",
+          "permalink": "/articles/130",
+          "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "date": "2026-08-07",
+          "label": "在人体接龙等创意场景中，Seedance 2.5的表现不如Grok Imagine 1.5",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seedance-2-0",
+      "target": "seedance-2-5",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了两者在指令遵循、复杂动作及电影质感方面的差异",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "130"
+      ],
+      "evidences": [
+        {
+          "article_id": "130",
+          "title": "致视频模型：群众不喜闻乐见，你算老几",
+          "permalink": "/articles/130",
+          "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "date": "2026-08-07",
+          "label": "文章对比了两者在指令遵循、复杂动作及电影质感方面的差异",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seedance-2-5",
+      "target": "grok-imagine-1-5",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在人体接龙等创意场景中，Seedance 2.5的表现不如Grok Imagine 1.5",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "seedance-2-5",
+      "target": "seedance-2-0",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了两者在指令遵循、复杂动作及电影质感方面的差异",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
     {
       "source": "h3",
       "target": "seedance-2-5",
@@ -54,6 +142,32 @@
       ]
     },
     {
+      "source": "minimax-h3",
+      "target": "seedance-2-5",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在meme bench盲测中，H3对Seedance 2.5保持了55%的胜率并领先排名",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "130"
+      ],
+      "evidences": [
+        {
+          "article_id": "130",
+          "title": "致视频模型：群众不喜闻乐见，你算老几",
+          "permalink": "/articles/130",
+          "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "date": "2026-08-07",
+          "label": "在meme bench盲测中，H3对Seedance 2.5保持了55%的胜率并领先排名",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "seedance-2-5",
       "target": "h3",
       "relation_type": "competes_with",
@@ -65,7 +179,59 @@
       "article_count": 0,
       "evidence_articles": [],
       "evidences": []
+    },
+    {
+      "source": "seedance-2-5",
+      "target": "minimax-h3",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在meme bench盲测中，H3对Seedance 2.5保持了55%的胜率并领先排名",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "字节跳动",
+      "target": "seedance-2-5",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Seedance 2.5是字节跳动的视频模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "130"
+      ],
+      "evidences": [
+        {
+          "article_id": "130",
+          "title": "致视频模型：群众不喜闻乐见，你算老几",
+          "permalink": "/articles/130",
+          "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "date": "2026-08-07",
+          "label": "Seedance 2.5是字节跳动的视频模型",
+          "weight": 1
+        }
+      ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "minimax",
+      "target": "seedance-2-5",
+      "score": 0.394,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "127",
+        "130"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

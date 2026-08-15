@@ -4,18 +4,20 @@
     "name": "剪映",
     "type": "product",
     "description": "一款视频编辑软件，提供价格低廉的AI文字成片和非线性编辑功能，文章标题建议Medeo改名为该产品的删减版。",
-    "mention_count": 59,
-    "article_count": 6,
+    "mention_count": 62,
+    "article_count": 7,
     "aliases": [],
     "tags": [
       "AI工作流",
       "AI文字成片",
+      "生产力工具",
       "视频剪辑",
       "视频工具",
+      "视频编辑",
       "非线性编辑"
     ],
-    "references": 6,
-    "source_article_count": 6,
+    "references": 7,
+    "source_article_count": 7,
     "source_articles": [
       {
         "article_id": "063",
@@ -45,6 +47,15 @@
         "mention_count": 9
       },
       {
+        "article_id": "132",
+        "title": "Seedance 2.5自绝于网民",
+        "date": "2026-08-12",
+        "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "permalink": "/articles/132",
+        "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "mention_count": 3
+      },
+      {
         "article_id": "078",
         "title": "Flova和TapNow背对背拥抱",
         "date": "2026-04-07",
@@ -72,8 +83,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 12,
-    "composite_weight": 0.1701
+    "degree": 13,
+    "composite_weight": 0.1807
   },
   "links": [
     {
@@ -210,17 +221,28 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "文中通过提及带着产品去找'字节老板们'并直接对标剪映，间接反映了字节跳动对剪映的开发和拥有关系。",
-      "weight": 4,
+      "weight": 5,
       "strength": 4,
-      "effective_weight": 20,
-      "article_count": 4,
+      "effective_weight": 25,
+      "article_count": 5,
       "evidence_articles": [
         "046",
         "063",
         "078",
-        "088"
+        "088",
+        "132"
       ],
       "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "字节跳动开发了剪映",
+          "weight": 1
+        },
         {
           "article_id": "088",
           "title": "读过豆包赚钱手册才敢自称懂AI",
@@ -392,13 +414,53 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "陈冕",
+      "target": "剪映",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "文中提及陈冕曾被关联于剪映的管理工作（建议其回归）",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "132"
+      ],
+      "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "文中提及陈冕曾被关联于剪映的管理工作（建议其回归）",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "剪映",
+      "target": "即梦",
+      "score": 0.5619,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "063",
+        "078",
+        "088",
+        "132"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "剪映",
       "target": "郭列",
-      "score": 0.4795,
+      "score": 0.4793,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -411,7 +473,7 @@
     {
       "source": "oiioii",
       "target": "剪映",
-      "score": 0.4449,
+      "score": 0.445,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -422,15 +484,14 @@
       "status": "suggested"
     },
     {
-      "source": "剪映",
-      "target": "即梦",
-      "score": 0.422,
+      "source": "libtv",
+      "target": "剪映",
+      "score": 0.4416,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
-        "063",
         "078",
-        "088"
+        "132"
       ],
       "status": "suggested"
     }

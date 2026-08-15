@@ -87,6 +87,7 @@
       "description": "国内头部大模型公司，GLM模型开发商，被视为阿里在AI领域的强劲对手",
       "mention_count": 4,
       "aliases": [
+        "Zhipu",
         "智谱",
         "智谱清言"
       ],
@@ -95,13 +96,13 @@
       ]
     },
     {
-      "id": "kimi-k3",
-      "name": "Kimi K3",
+      "id": "k3",
+      "name": "K3",
       "type": "product",
-      "description": "月之暗面发布的大模型，前端代码生成与视觉理解能力突出",
+      "description": "Kimi推出的模型，前端生成能力强，被称为“集美模型”，是Qwen的主要竞品",
       "mention_count": 3,
       "aliases": [
-        "K3"
+        "Kimi K3"
       ],
       "tags": [
         "大模型",
@@ -157,9 +158,12 @@
       "id": "longcat-2-0",
       "name": "LongCat 2.0",
       "type": "product",
-      "description": "国产大模型之一",
+      "description": "美团发布的大模型产品",
       "mention_count": 2,
-      "aliases": [],
+      "aliases": [
+        "Owl Alpha",
+        "长猫"
+      ],
       "tags": [
         "大模型"
       ]
@@ -276,18 +280,18 @@
   "relationships": [
     {
       "source_id": "claude-fable-5",
-      "target_id": "kimi-k3",
+      "target_id": "k3",
       "source": "Claude Fable 5",
-      "target": "Kimi K3",
+      "target": "K3",
       "relation_type": "compares_to",
       "label": "评测显示K3综合能力仅次于5.6 Sol和Fable 5",
       "weight": 2
     },
     {
       "source_id": "glm",
-      "target_id": "kimi-k3",
+      "target_id": "k3",
       "source": "GLM",
-      "target": "Kimi K3",
+      "target": "K3",
       "relation_type": "competes_with",
       "label": "K3显著超越GLM 5.2，两者争夺国产模型头部位置",
       "weight": 1
@@ -303,9 +307,9 @@
     },
     {
       "source_id": "claude",
-      "target_id": "kimi-k3",
+      "target_id": "k3",
       "source": "Claude",
-      "target": "Kimi K3",
+      "target": "K3",
       "relation_type": "criticizes",
       "label": "沐秋批评K3宣传片软蒸馏Fable 5",
       "weight": 1
@@ -339,9 +343,9 @@
     },
     {
       "source_id": "杨植麟",
-      "target_id": "kimi-k3",
+      "target_id": "k3",
       "source": "杨植麟",
-      "target": "Kimi K3",
+      "target": "K3",
       "relation_type": "develops",
       "label": "Kimi开发了K3模型",
       "weight": 1
@@ -375,18 +379,18 @@
     },
     {
       "source_id": "唐杰",
-      "target_id": "kimi-k3",
+      "target_id": "k3",
       "source": "唐杰",
-      "target": "Kimi K3",
+      "target": "K3",
       "relation_type": "praises",
       "label": "文中提到杨植麟的美国导师点赞K3（注：非唐杰本人，但易混淆，此处仅作实体关联记录，实际为误读）",
       "weight": 1
     },
     {
       "source_id": "钟十六",
-      "target_id": "kimi-k3",
+      "target_id": "k3",
       "source": "钟十六",
-      "target": "Kimi K3",
+      "target": "K3",
       "relation_type": "works_on",
       "label": "钟经纬作为外援参与了K3的Bench测试",
       "weight": 1

@@ -3,18 +3,33 @@
     "id": "美团",
     "name": "美团",
     "type": "company",
-    "description": "互联网巨头，推出了“觅游”龙虾社交产品",
-    "mention_count": 4,
-    "article_count": 3,
-    "aliases": [],
+    "description": "中国科技巨头，业务涵盖外卖、AI大模型及投资等",
+    "mention_count": 27,
+    "article_count": 4,
+    "aliases": [
+      "Meituan",
+      "团子"
+    ],
     "tags": [
       "互联网公司",
       "互联网大厂",
-      "团购"
+      "团购",
+      "大模型",
+      "物理AI",
+      "生活方式Agent"
     ],
-    "references": 3,
-    "source_article_count": 3,
+    "references": 4,
+    "source_article_count": 4,
     "source_articles": [
+      {
+        "article_id": "128",
+        "title": "美团大模型跟外卖一样纯出来送",
+        "date": "2026-08-04",
+        "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "permalink": "/articles/128",
+        "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+        "mention_count": 23
+      },
       {
         "article_id": "018",
         "title": "电骡快跑，Mulerun想做AI淘宝",
@@ -43,10 +58,166 @@
         "mention_count": 1
       }
     ],
-    "degree": 3,
-    "composite_weight": 0.0361
+    "degree": 10,
+    "composite_weight": 0.1442
   },
   "links": [
+    {
+      "source": "minimax",
+      "target": "美团",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将美团与MiniMax对比，认为两者'既要又要还要但都不突出'",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "文章将美团与MiniMax对比，认为两者'既要又要还要但都不突出'",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "美团",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将美团与MiniMax对比，认为两者'既要又要还要但都不突出'",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "美团",
+      "target": "阿里巴巴",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章建议美团与阿里争夺'物理AI第一'",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "文章建议美团与阿里争夺'物理AI第一'",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "美团",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文章建议美团与阿里争夺'物理AI第一'",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "美团",
+      "target": "catpaw",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "美团推出编程工具CatPaw",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "美团推出编程工具CatPaw",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "美团",
+      "target": "longcat-2-0",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "美团开发并发布LongCat 2.0大模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "美团开发并发布LongCat 2.0大模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "美团",
+      "target": "美团小美",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "美团开发生活方式Agent应用美团小美",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "128"
+      ],
+      "evidences": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "date": "2026-08-04",
+          "label": "美团开发生活方式Agent应用美团小美",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "美团",
       "target": "觅游",
@@ -126,5 +297,18 @@
       ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "美团",
+      "target": "豆包",
+      "score": 0.4635,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "040",
+        "128"
+      ],
+      "status": "suggested"
+    }
+  ]
 }
