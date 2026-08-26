@@ -84,7 +84,7 @@
       }
     ],
     "degree": 13,
-    "composite_weight": 0.1807
+    "composite_weight": 0.1754
   },
   "links": [
     {
@@ -446,7 +446,7 @@
     {
       "source": "剪映",
       "target": "即梦",
-      "score": 0.5619,
+      "score": 0.5586,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -458,24 +458,11 @@
       "status": "suggested"
     },
     {
-      "source": "剪映",
-      "target": "郭列",
-      "score": 0.4793,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "037",
-        "052",
-        "078"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "oiioii",
       "target": "剪映",
-      "score": 0.445,
+      "score": 0.4635,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "046",
         "052",
@@ -486,12 +473,25 @@
     {
       "source": "libtv",
       "target": "剪映",
-      "score": 0.4416,
+      "score": 0.4371,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "078",
         "132"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "剪映",
+      "target": "郭列",
+      "score": 0.4272,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "037",
+        "052",
+        "078"
       ],
       "status": "suggested"
     }

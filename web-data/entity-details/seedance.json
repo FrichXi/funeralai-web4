@@ -4,8 +4,8 @@
     "name": "Seedance",
     "type": "product",
     "description": "字节推出的AI视频生成大模型，支持参考图片、视频和音频生成并复刻内容。",
-    "mention_count": 120,
-    "article_count": 10,
+    "mention_count": 122,
+    "article_count": 11,
     "aliases": [
       "Seedance 2.0",
       "Seedance 35折",
@@ -26,8 +26,8 @@
       "视频模型",
       "视频生成"
     ],
-    "references": 10,
-    "source_article_count": 10,
+    "references": 11,
+    "source_article_count": 11,
     "source_articles": [
       {
         "article_id": "132",
@@ -102,6 +102,15 @@
         "mention_count": 3
       },
       {
+        "article_id": "136",
+        "title": "AI应用骗钱，哦不融资指南",
+        "date": "2026-08-23",
+        "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "permalink": "/articles/136",
+        "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "mention_count": 2
+      },
+      {
         "article_id": "113",
         "title": "世界模型走了一些弯路",
         "date": "2026-07-02",
@@ -121,7 +130,7 @@
       }
     ],
     "degree": 30,
-    "composite_weight": 0.4139
+    "composite_weight": 0.4136
   },
   "links": [
     {
@@ -651,16 +660,27 @@
       "relation_type": "integrates_with",
       "type": "integrates_with",
       "label": "Libtv接入了Seedance大模型",
-      "weight": 3,
+      "weight": 4,
       "strength": 2,
-      "effective_weight": 9,
-      "article_count": 3,
+      "effective_weight": 12,
+      "article_count": 4,
       "evidence_articles": [
         "078",
         "099",
-        "106"
+        "106",
+        "136"
       ],
       "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "LibTV前端可能调用Seedance模型，但存在上下文对齐问题",
+          "weight": 1
+        },
         {
           "article_id": "106",
           "title": "我来给LibTV道喜了",
@@ -887,9 +907,9 @@
     {
       "source": "seedance",
       "target": "陈冕",
-      "score": 0.6355,
+      "score": 0.7011,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "078",
         "106",
@@ -902,7 +922,7 @@
     {
       "source": "minimax",
       "target": "seedance",
-      "score": 0.5906,
+      "score": 0.5884,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
@@ -916,20 +936,21 @@
     {
       "source": "oiioii",
       "target": "seedance",
-      "score": 0.5283,
+      "score": 0.5447,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "062",
         "065",
-        "078"
+        "078",
+        "136"
       ],
       "status": "suggested"
     },
     {
       "source": "pixverse",
       "target": "seedance",
-      "score": 0.5071,
+      "score": 0.5047,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -939,13 +960,16 @@
     },
     {
       "source": "seedance",
-      "target": "豆包",
-      "score": 0.4548,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "target": "智谱ai",
+      "score": 0.4835,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "065",
-        "113"
+        "099",
+        "113",
+        "116",
+        "117"
       ],
       "status": "suggested"
     }

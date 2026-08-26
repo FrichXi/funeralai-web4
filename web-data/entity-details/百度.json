@@ -4,8 +4,8 @@
     "name": "百度",
     "type": "company",
     "description": "BAT之一，好大夫在线的前股东，曾雪中送炭投资多位AI创业者",
-    "mention_count": 77,
-    "article_count": 9,
+    "mention_count": 78,
+    "article_count": 10,
     "aliases": [
       "Baidu",
       "百度战投"
@@ -20,8 +20,8 @@
       "搜索引擎",
       "落后版本"
     ],
-    "references": 9,
-    "source_article_count": 9,
+    "references": 10,
+    "source_article_count": 10,
     "source_articles": [
       {
         "article_id": "125",
@@ -69,6 +69,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "136",
+        "title": "AI应用骗钱，哦不融资指南",
+        "date": "2026-08-23",
+        "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "permalink": "/articles/136",
+        "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "122",
         "title": "Kimi K3打响前端闪电战",
         "date": "2026-07-22",
@@ -105,8 +114,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 25,
-    "composite_weight": 0.2956
+    "degree": 26,
+    "composite_weight": 0.3039
   },
   "links": [
     {
@@ -378,6 +387,32 @@
           "path": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
           "date": "2026-01-28",
           "label": "百度自己开发的AI PPT产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "百度",
+      "target": "库库ai",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "百度开发了库库AI",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "百度开发了库库AI",
           "weight": 1
         }
       ]
@@ -730,9 +765,9 @@
     {
       "source": "manus",
       "target": "百度",
-      "score": 0.5542,
+      "score": 0.6005,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "017",
         "022",
@@ -742,9 +777,22 @@
       "status": "suggested"
     },
     {
+      "source": "libtv",
+      "target": "百度",
+      "score": 0.4725,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "099",
+        "125",
+        "136"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "百度",
       "target": "蚂蚁集团",
-      "score": 0.4766,
+      "score": 0.4725,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -756,9 +804,9 @@
     {
       "source": "genspark",
       "target": "百度",
-      "score": 0.4108,
+      "score": 0.4594,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "022",
         "055",
@@ -767,26 +815,16 @@
       "status": "suggested"
     },
     {
-      "source": "libtv",
+      "source": "deepseek",
       "target": "百度",
-      "score": 0.4061,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "099",
-        "125"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "智谱ai",
-      "target": "百度",
-      "score": 0.3686,
+      "score": 0.3852,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 1 个邻居",
       "evidence_article_ids": [
         "099",
-        "122"
+        "122",
+        "125",
+        "136"
       ],
       "status": "suggested"
     }

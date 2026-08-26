@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "混元3",
+    "name": "混元3",
+    "type": "product",
+    "description": "腾讯的模型，文中提及在白送Token赛道竞争",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "国产大模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "138",
+        "title": "开源模型就是统一战线",
+        "date": "2026-08-26",
+        "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "permalink": "/articles/138",
+        "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0222
+  },
+  "links": [
+    {
+      "source": "longcat",
+      "target": "混元3",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "LongCat在白送Token赛道竞争不过混元3",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "138"
+      ],
+      "evidences": [
+        {
+          "article_id": "138",
+          "title": "开源模型就是统一战线",
+          "permalink": "/articles/138",
+          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "date": "2026-08-26",
+          "label": "LongCat在白送Token赛道竞争不过混元3",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "混元3",
+      "target": "longcat",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "LongCat在白送Token赛道竞争不过混元3",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

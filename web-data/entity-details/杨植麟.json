@@ -4,8 +4,8 @@
     "name": "杨植麟",
     "type": "person",
     "description": "文中提及的行业人物，与唐圣共同验证了模型公司的2B路径",
-    "mention_count": 34,
-    "article_count": 9,
+    "mention_count": 35,
+    "article_count": 10,
     "aliases": [
       "Kimi",
       "杨圣"
@@ -20,8 +20,8 @@
       "神级创始人",
       "行业人物"
     ],
-    "references": 9,
-    "source_article_count": 9,
+    "references": 10,
+    "source_article_count": 10,
     "source_articles": [
       {
         "article_id": "122",
@@ -69,6 +69,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "134",
+        "title": "Kimi熹妃回宫",
+        "date": "2026-08-17",
+        "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+        "permalink": "/articles/134",
+        "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "123",
         "title": "阶跃软的不行来硬的",
         "date": "2026-07-23",
@@ -105,8 +114,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 19,
-    "composite_weight": 0.2173
+    "degree": 20,
+    "composite_weight": 0.2277
   },
   "links": [
     {
@@ -356,6 +365,32 @@
     },
     {
       "source": "杨植麟",
+      "target": "kimi",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "文中称Kimi为杨圣的公司，且提到“Kimi这家神奇的公司”时隐含创始关系",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "134"
+      ],
+      "evidences": [
+        {
+          "article_id": "134",
+          "title": "Kimi熹妃回宫",
+          "permalink": "/articles/134",
+          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "date": "2026-08-17",
+          "label": "文中称Kimi为杨圣的公司，且提到“Kimi这家神奇的公司”时隐含创始关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "杨植麟",
       "target": "月之暗面",
       "relation_type": "founder_of",
       "type": "founder_of",
@@ -589,9 +624,9 @@
     {
       "source": "智谱ai",
       "target": "杨植麟",
-      "score": 0.7328,
+      "score": 0.729,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "004",
         "049",
@@ -604,9 +639,9 @@
     {
       "source": "minimax",
       "target": "杨植麟",
-      "score": 0.597,
+      "score": 0.5942,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 7 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "004",
         "049",
@@ -619,9 +654,9 @@
     {
       "source": "deepseek",
       "target": "杨植麟",
-      "score": 0.4182,
+      "score": 0.5316,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 1 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "004",
         "049",
@@ -632,28 +667,29 @@
       "status": "suggested"
     },
     {
+      "source": "杨植麟",
+      "target": "阶跃星辰",
+      "score": 0.4638,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 1 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "004",
+        "049",
+        "109",
+        "123",
+        "134"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "李开复",
       "target": "杨植麟",
-      "score": 0.4167,
+      "score": 0.4154,
       "suggested_relation_type": "related",
       "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "004",
         "049"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "anthropic",
-      "target": "杨植麟",
-      "score": 0.4141,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
-      "evidence_article_ids": [
-        "103",
-        "109",
-        "122",
-        "123"
       ],
       "status": "suggested"
     }

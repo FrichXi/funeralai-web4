@@ -1,0 +1,109 @@
+{
+  "node": {
+    "id": "mind-lab",
+    "name": "Mind lab",
+    "type": "company",
+    "description": "陈锴杰成立的Research机构",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Research"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "136",
+        "title": "AI应用骗钱，哦不融资指南",
+        "date": "2026-08-23",
+        "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "permalink": "/articles/136",
+        "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0285
+  },
+  "links": [
+    {
+      "source": "mind-lab",
+      "target": "neo-lab",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "外界认为Mind lab蹭Neo lab来顶估值，Austin也认同这种对标关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "外界认为Mind lab蹭Neo lab来顶估值，Austin也认同这种对标关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "neo-lab",
+      "target": "mind-lab",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "外界认为Mind lab蹭Neo lab来顶估值，Austin也认同这种对标关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "陈锴杰",
+      "target": "mind-lab",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "陈锴杰成立了Mind lab",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "陈锴杰成立了Mind lab",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "austin",
+      "target": "mind-lab",
+      "score": 0.4407,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "136"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

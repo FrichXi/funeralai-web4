@@ -6,6 +6,8 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
+- Articles 134-138 imported or mirrored into the repo corpus, with article 138 newly imported from Substack: "葬爱咸鱼：开源模型就是统一战线" (138). Articles 134-137 were backfilled from the local source corpus and extracted in this worktree with 14/13, 4/2, 28/25, and 10/9 entity/relationship counts; article 138 extracted with 16 entities and 11 relationships. Public stats are now 138 articles / 739 entities / 2009 relationships.
+- Holistic KG review for articles 126-138 concluded that the new high co-mention candidates are benchmark/comparison, satire, or financing-context mentions rather than durable graph facts; `last_holistic_review_article` now advances to 138 with no new overrides required.
 - Added a narrowly scoped, repository-linked worktree policy for weekday content automation so benchmark/UI edits in the canonical checkout cannot block Substack ingestion; untrusted copies and non-content profiles remain unable to deploy production.
 - Articles 129-133 imported from Substack: "Qwen 3.8升级纯血力工模型" (129), "致视频模型：群众不喜闻乐见，你算老几" (130), "大模型能干，懂模帝会飞" (131), "Seedance 2.5自绝于网民" (132), and "速来网吧线下真实所有大模型" (133). Incremental extraction completed with 9/2, 8/8, 12/7, 12/14, and 12/7 entity/relationship counts; public stats updated to 133 articles / 721 entities / 1929 relationships.
 - Added `/test/multimodal-model-analysis/` with the verified 2026-08-04 single-run 3D/MG evidence report, three publication images, and explicit limits against architecture inference.

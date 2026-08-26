@@ -4,8 +4,8 @@
     "name": "DeepSeek",
     "type": "company",
     "description": "AI大模型公司，其爆火为Cherry Studio带来大量流量",
-    "mention_count": 71,
-    "article_count": 20,
+    "mention_count": 92,
+    "article_count": 24,
     "aliases": [
       "DS",
       "DS V4 pro",
@@ -26,14 +26,25 @@
       "开源",
       "开源模型",
       "推理模型",
+      "本分",
       "本地化部署",
       "行业标杆",
       "被蹭热度",
-      "降本增效"
+      "降本增效",
+      "高性价比"
     ],
-    "references": 20,
-    "source_article_count": 20,
+    "references": 24,
+    "source_article_count": 24,
     "source_articles": [
+      {
+        "article_id": "134",
+        "title": "Kimi熹妃回宫",
+        "date": "2026-08-17",
+        "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+        "permalink": "/articles/134",
+        "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+        "mention_count": 11
+      },
       {
         "article_id": "039",
         "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
@@ -80,6 +91,24 @@
         "mention_count": 7
       },
       {
+        "article_id": "137",
+        "title": "匿名打榜的都是二流模型",
+        "date": "2026-08-25",
+        "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+        "permalink": "/articles/137",
+        "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+        "mention_count": 4
+      },
+      {
+        "article_id": "135",
+        "title": "大模型是残酷的制造业",
+        "date": "2026-08-18",
+        "path": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+        "permalink": "/articles/135",
+        "markdown_link": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+        "mention_count": 4
+      },
+      {
         "article_id": "070",
         "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
         "date": "2026-03-13",
@@ -123,6 +152,15 @@
         "permalink": "/articles/103",
         "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "136",
+        "title": "AI应用骗钱，哦不融资指南",
+        "date": "2026-08-23",
+        "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "permalink": "/articles/136",
+        "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "mention_count": 2
       },
       {
         "article_id": "133",
@@ -215,8 +253,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 28,
-    "composite_weight": 0.3834
+    "degree": 42,
+    "composite_weight": 0.5422
   },
   "links": [
     {
@@ -296,6 +334,32 @@
       ]
     },
     {
+      "source": "deepseek",
+      "target": "智谱ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将智谱AI的炒作行为与DeepSeek的本分作风进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "137"
+      ],
+      "evidences": [
+        {
+          "article_id": "137",
+          "title": "匿名打榜的都是二流模型",
+          "permalink": "/articles/137",
+          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "date": "2026-08-25",
+          "label": "文章将智谱AI的炒作行为与DeepSeek的本分作风进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "openai",
       "target": "deepseek",
       "relation_type": "compares_to",
@@ -307,6 +371,110 @@
       "article_count": 0,
       "evidence_articles": [],
       "evidences": []
+    },
+    {
+      "source": "智谱ai",
+      "target": "deepseek",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将智谱AI的炒作行为与DeepSeek的本分作风进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "anthropic",
+      "target": "deepseek",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Deepseek作为开源模型厂与Anthropic竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Deepseek作为开源模型厂与Anthropic竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "anthropic",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Deepseek作为开源模型厂与Anthropic竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "deepseek",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中指出DeepSeek是Kimi在国内的最强竞争对手之一",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "134"
+      ],
+      "evidences": [
+        {
+          "article_id": "134",
+          "title": "Kimi熹妃回宫",
+          "permalink": "/articles/134",
+          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "date": "2026-08-17",
+          "label": "文中指出DeepSeek是Kimi在国内的最强竞争对手之一",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "meta",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Deepseek作为开源模型厂与Meta竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Deepseek作为开源模型厂与Meta竞争",
+          "weight": 1
+        }
+      ]
     },
     {
       "source": "deepseek",
@@ -347,6 +515,32 @@
     },
     {
       "source": "deepseek",
+      "target": "openai",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Deepseek作为开源模型厂与OpenAI竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Deepseek作为开源模型厂与OpenAI竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
       "target": "qwen",
       "relation_type": "competes_with",
       "type": "competes_with",
@@ -377,14 +571,25 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "DeepSeek在G端市场提供了更具性价比的替代方案，取代了智谱的生态位",
-      "weight": 1,
+      "weight": 2,
       "strength": 3,
-      "effective_weight": 4,
-      "article_count": 1,
+      "effective_weight": 8,
+      "article_count": 2,
       "evidence_articles": [
-        "006"
+        "006",
+        "135"
       ],
       "evidences": [
+        {
+          "article_id": "135",
+          "title": "大模型是残酷的制造业",
+          "permalink": "/articles/135",
+          "markdown_link": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+          "path": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+          "date": "2026-08-18",
+          "label": "文中指出两者在大模型水平上相近，竞争此起彼伏，DeepSeek V4 Flash达到GLM 5.2相近水平",
+          "weight": 1
+        },
         {
           "article_id": "006",
           "title": "智谱的存在主义危机",
@@ -425,6 +630,32 @@
     },
     {
       "source": "deepseek",
+      "target": "谷歌",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Deepseek作为开源模型厂与Google竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Deepseek作为开源模型厂与Google竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
       "target": "豆包",
       "relation_type": "competes_with",
       "type": "competes_with",
@@ -450,11 +681,50 @@
       "evidences": []
     },
     {
+      "source": "kimi",
+      "target": "deepseek",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中指出DeepSeek是Kimi在国内的最强竞争对手之一",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "meta",
+      "target": "deepseek",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Deepseek作为开源模型厂与Meta竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "minimax",
       "target": "deepseek",
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "DeepSeek新品发布对MiniMax等AI六小虎公司形成了强烈的竞争压力",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "openai",
+      "target": "deepseek",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Deepseek作为开源模型厂与OpenAI竞争",
       "weight": 1,
       "strength": 3,
       "effective_weight": 3,
@@ -507,6 +777,19 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "DeepSeek和百川智能都是国内AI大模型公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "谷歌",
+      "target": "deepseek",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Deepseek作为开源模型厂与Google竞争",
       "weight": 1,
       "strength": 3,
       "effective_weight": 3,
@@ -614,6 +897,32 @@
           "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
           "date": "2026-06-10",
           "label": "属于Deepseek生态的终端产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "deepseek-v4-pro",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "DeepSeek开发了V4 Pro正式版模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "134"
+      ],
+      "evidences": [
+        {
+          "article_id": "134",
+          "title": "Kimi熹妃回宫",
+          "permalink": "/articles/134",
+          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "date": "2026-08-17",
+          "label": "DeepSeek开发了V4 Pro正式版模型",
           "weight": 1
         }
       ]
@@ -771,19 +1080,56 @@
       ]
     },
     {
-      "source": "沐秋",
+      "source": "austin",
       "target": "deepseek",
       "relation_type": "praises",
       "type": "praises",
-      "label": "沐秋赞扬DeepSeek V4 Flash性价比超高，是国模第一",
+      "label": "Austin称赞Deepseek坚持开源很伟大",
       "weight": 1,
       "strength": 3,
       "effective_weight": 4,
       "article_count": 1,
       "evidence_articles": [
-        "131"
+        "136"
       ],
       "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Austin称赞Deepseek坚持开源很伟大",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "沐秋",
+      "target": "deepseek",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "沐秋赞扬DeepSeek V4 Flash性价比超高，是国模第一",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "131",
+        "137"
+      ],
+      "evidences": [
+        {
+          "article_id": "137",
+          "title": "匿名打榜的都是二流模型",
+          "permalink": "/articles/137",
+          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "date": "2026-08-25",
+          "label": "作者赞扬DeepSeek作风本分，不参与匿名炒作",
+          "weight": 1
+        },
         {
           "article_id": "131",
           "title": "大模型能干，懂模帝会飞",
@@ -826,54 +1172,10 @@
   "suggested_edges": [
     {
       "source": "deepseek",
-      "target": "kimi",
-      "score": 0.8994,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 9 篇文章；共享 8 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "004",
-        "049",
-        "099",
-        "105",
-        "109"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "anthropic",
-      "target": "deepseek",
-      "score": 0.6983,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "070",
-        "099",
-        "103",
-        "105",
-        "109"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "chatgpt",
-      "target": "deepseek",
-      "score": 0.5941,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "008",
-        "070",
-        "088",
-        "105"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "deepseek",
       "target": "阿里巴巴",
-      "score": 0.5727,
+      "score": 0.7051,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "049",
         "103",
@@ -884,11 +1186,56 @@
       "status": "suggested"
     },
     {
+      "source": "chatgpt",
+      "target": "deepseek",
+      "score": 0.6126,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "008",
+        "070",
+        "088",
+        "105",
+        "136"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "codex",
+      "target": "deepseek",
+      "score": 0.5497,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "088",
+        "103",
+        "105",
+        "109",
+        "136"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "deepseek",
+      "target": "杨植麟",
+      "score": 0.5316,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "004",
+        "049",
+        "103",
+        "109",
+        "122"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "deepseek",
       "target": "glm",
-      "score": 0.5199,
+      "score": 0.5311,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "049",
         "105",

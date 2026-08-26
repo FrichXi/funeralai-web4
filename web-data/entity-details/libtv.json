@@ -4,8 +4,8 @@
     "name": "LibTV",
     "type": "product",
     "description": "AI短剧/视频平台，是Seedance的大客户，也是MiniMax复刻的对象",
-    "mention_count": 81,
-    "article_count": 13,
+    "mention_count": 91,
+    "article_count": 14,
     "aliases": [
       "Liblib",
       "Libtv",
@@ -16,6 +16,7 @@
       "AI应用",
       "AI短剧",
       "AI视频平台",
+      "Agentic Generation",
       "KA客户",
       "TV形态",
       "开源",
@@ -29,8 +30,8 @@
       "视频生成",
       "超长视频"
     ],
-    "references": 13,
-    "source_article_count": 13,
+    "references": 14,
+    "source_article_count": 14,
     "source_articles": [
       {
         "article_id": "106",
@@ -58,6 +59,15 @@
         "permalink": "/articles/119",
         "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
         "mention_count": 12
+      },
+      {
+        "article_id": "136",
+        "title": "AI应用骗钱，哦不融资指南",
+        "date": "2026-08-23",
+        "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "permalink": "/articles/136",
+        "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "mention_count": 10
       },
       {
         "article_id": "126",
@@ -150,8 +160,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 42,
-    "composite_weight": 0.5111
+    "degree": 46,
+    "composite_weight": 0.5559
   },
   "links": [
     {
@@ -286,6 +296,32 @@
     },
     {
       "source": "libtv",
+      "target": "renoise",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Renoise是LibTV的山寨版本",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Renoise是LibTV的山寨版本",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "libtv",
       "target": "tapnow",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -392,6 +428,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "OiiOii升级到2.0后朝着TV形态看齐，致敬LibTV",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "renoise",
+      "target": "libtv",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Renoise是LibTV的山寨版本",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -838,6 +887,32 @@
       ]
     },
     {
+      "source": "chatgpt",
+      "target": "libtv",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "LibTV前端可能调用GPT模型，但存在上下文对齐问题",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "LibTV前端可能调用GPT模型，但存在上下文对齐问题",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "glm",
       "target": "libtv",
       "relation_type": "integrates_with",
@@ -895,16 +970,27 @@
       "relation_type": "integrates_with",
       "type": "integrates_with",
       "label": "Libtv接入了Seedance大模型",
-      "weight": 3,
+      "weight": 4,
       "strength": 2,
-      "effective_weight": 9,
-      "article_count": 3,
+      "effective_weight": 12,
+      "article_count": 4,
       "evidence_articles": [
         "078",
         "099",
-        "106"
+        "106",
+        "136"
       ],
       "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "LibTV前端可能调用Seedance模型，但存在上下文对齐问题",
+          "weight": 1
+        },
         {
           "article_id": "106",
           "title": "我来给LibTV道喜了",
@@ -1120,6 +1206,32 @@
       ]
     },
     {
+      "source": "austin",
+      "target": "libtv",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "Austin认为LibTV一定会成为马卡龙pro max，是唯一例外的好产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Austin认为LibTV一定会成为马卡龙pro max，是唯一例外的好产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "明超平",
       "target": "libtv",
       "relation_type": "praises",
@@ -1150,7 +1262,7 @@
     {
       "source": "libtv",
       "target": "minimax",
-      "score": 0.68,
+      "score": 0.6776,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
@@ -1165,9 +1277,9 @@
     {
       "source": "libtv",
       "target": "manus",
-      "score": 0.5142,
+      "score": 0.5828,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "073",
         "106",
@@ -1176,9 +1288,22 @@
       "status": "suggested"
     },
     {
+      "source": "libtv",
+      "target": "百度",
+      "score": 0.4725,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "099",
+        "125",
+        "136"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "kimi",
       "target": "libtv",
-      "score": 0.4748,
+      "score": 0.4717,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -1192,26 +1317,12 @@
     {
       "source": "libtv",
       "target": "剪映",
-      "score": 0.4416,
+      "score": 0.4371,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "078",
         "132"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "libtv",
-      "target": "智谱ai",
-      "score": 0.4254,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
-      "evidence_article_ids": [
-        "099",
-        "109",
-        "116",
-        "117"
       ],
       "status": "suggested"
     }

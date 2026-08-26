@@ -4,8 +4,8 @@
     "name": "明超平",
     "type": "person",
     "description": "Youware创始人、产品经理，Bloome的打造者",
-    "mention_count": 28,
-    "article_count": 7,
+    "mention_count": 29,
+    "article_count": 8,
     "aliases": [
       "小明",
       "神父"
@@ -13,8 +13,8 @@
     "tags": [
       "AI产品之神"
     ],
-    "references": 7,
-    "source_article_count": 7,
+    "references": 8,
+    "source_article_count": 8,
     "source_articles": [
       {
         "article_id": "090",
@@ -62,6 +62,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "136",
+        "title": "AI应用骗钱，哦不融资指南",
+        "date": "2026-08-23",
+        "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "permalink": "/articles/136",
+        "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "120",
         "title": "Raft说明AI应用不会亡！",
         "date": "2026-07-15",
@@ -80,8 +89,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 16,
-    "composite_weight": 0.1709
+    "degree": 17,
+    "composite_weight": 0.183
   },
   "links": [
     {
@@ -478,19 +487,59 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "明超平",
+      "target": "renoise",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "明超平制作了Renoise",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "明超平制作了Renoise",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "字节跳动",
       "target": "明超平",
-      "score": 0.3905,
+      "score": 0.458,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "054",
         "085",
-        "126"
+        "126",
+        "136"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "明超平",
+      "target": "陈冕",
+      "score": 0.418,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "085",
+        "126",
+        "136"
       ],
       "status": "suggested"
     }

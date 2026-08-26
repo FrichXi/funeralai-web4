@@ -3,9 +3,9 @@
     "id": "智谱ai",
     "name": "智谱AI",
     "type": "company",
-    "description": "国内头部大模型公司，GLM模型开发商，被视为阿里在AI领域的强劲对手",
-    "mention_count": 126,
-    "article_count": 22,
+    "description": "被文章推测为“牛来大模型”背后厂商，多次采用匿名打榜营销策略的中国AI公司",
+    "mention_count": 140,
+    "article_count": 25,
     "aliases": [
       "Zhipu",
       "智谱",
@@ -28,6 +28,8 @@
       "上市",
       "上市公司",
       "内测接口",
+      "匿名打榜",
+      "后训练",
       "基础模型",
       "大模型",
       "大模型公司",
@@ -39,8 +41,8 @@
       "独角兽",
       "编程场景"
     ],
-    "references": 22,
-    "source_article_count": 22,
+    "references": 25,
+    "source_article_count": 25,
     "source_articles": [
       {
         "article_id": "006",
@@ -79,6 +81,15 @@
         "mention_count": 8
       },
       {
+        "article_id": "137",
+        "title": "匿名打榜的都是二流模型",
+        "date": "2026-08-25",
+        "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+        "permalink": "/articles/137",
+        "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+        "mention_count": 7
+      },
+      {
         "article_id": "105",
         "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
         "date": "2026-06-17",
@@ -95,6 +106,15 @@
         "permalink": "/articles/103",
         "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
         "mention_count": 6
+      },
+      {
+        "article_id": "135",
+        "title": "大模型是残酷的制造业",
+        "date": "2026-08-18",
+        "path": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+        "permalink": "/articles/135",
+        "markdown_link": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+        "mention_count": 4
       },
       {
         "article_id": "131",
@@ -122,6 +142,15 @@
         "permalink": "/articles/057",
         "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
         "mention_count": 4
+      },
+      {
+        "article_id": "134",
+        "title": "Kimi熹妃回宫",
+        "date": "2026-08-17",
+        "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+        "permalink": "/articles/134",
+        "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+        "mention_count": 3
       },
       {
         "article_id": "117",
@@ -241,8 +270,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 53,
-    "composite_weight": 0.6125
+    "degree": 67,
+    "composite_weight": 0.7427
   },
   "links": [
     {
@@ -272,21 +301,58 @@
       ]
     },
     {
+      "source": "deepseek",
+      "target": "智谱ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将智谱AI的炒作行为与DeepSeek的本分作风进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "137"
+      ],
+      "evidences": [
+        {
+          "article_id": "137",
+          "title": "匿名打榜的都是二流模型",
+          "permalink": "/articles/137",
+          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "date": "2026-08-25",
+          "label": "文章将智谱AI的炒作行为与DeepSeek的本分作风进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "minimax",
       "target": "智谱ai",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "两者作为表现亮眼的模型厂被并列提及",
-      "weight": 3,
+      "weight": 4,
       "strength": 2,
-      "effective_weight": 9,
-      "article_count": 3,
+      "effective_weight": 12,
+      "article_count": 4,
       "evidence_articles": [
         "089",
         "099",
-        "117"
+        "117",
+        "134"
       ],
       "evidences": [
+        {
+          "article_id": "134",
+          "title": "Kimi熹妃回宫",
+          "permalink": "/articles/134",
+          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "date": "2026-08-17",
+          "label": "文中将智谱、MiniMax、阶跃并列为需要憋大招证明自己的“三小龙”",
+          "weight": 1
+        },
         {
           "article_id": "117",
           "title": "我来给MiniMax道歉了",
@@ -398,11 +464,50 @@
       ]
     },
     {
+      "source": "小米",
+      "target": "智谱ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属被列举的采用匿名打榜策略的厂商",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "137"
+      ],
+      "evidences": [
+        {
+          "article_id": "137",
+          "title": "匿名打榜的都是二流模型",
+          "permalink": "/articles/137",
+          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "date": "2026-08-25",
+          "label": "同属被列举的采用匿名打榜策略的厂商",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "智谱ai",
       "target": "anthropic",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文章调侃因为Anthropic给智谱带来了巨大流量收益，智谱仿佛成了Anthropic的“母公司”（母凭子贵）",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "智谱ai",
+      "target": "deepseek",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将智谱AI的炒作行为与DeepSeek的本分作风进行对比",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -464,6 +569,19 @@
     },
     {
       "source": "智谱ai",
+      "target": "小米",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属被列举的采用匿名打榜策略的厂商",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "智谱ai",
       "target": "月之暗面",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -484,6 +602,32 @@
           "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
           "date": "2026-06-10",
           "label": "文中将Kimi与智谱的上市和估值走势进行多次对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "智谱ai",
+      "target": "美团",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属被列举的采用匿名打榜策略的厂商",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "137"
+      ],
+      "evidences": [
+        {
+          "article_id": "137",
+          "title": "匿名打榜的都是二流模型",
+          "permalink": "/articles/137",
+          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "date": "2026-08-25",
+          "label": "同属被列举的采用匿名打榜策略的厂商",
           "weight": 1
         }
       ]
@@ -516,6 +660,32 @@
     },
     {
       "source": "智谱ai",
+      "target": "阿里巴巴",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属被列举的采用匿名打榜策略的厂商",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "137"
+      ],
+      "evidences": [
+        {
+          "article_id": "137",
+          "title": "匿名打榜的都是二流模型",
+          "permalink": "/articles/137",
+          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "date": "2026-08-25",
+          "label": "同属被列举的采用匿名打榜策略的厂商",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "智谱ai",
       "target": "零一万物",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -541,11 +711,50 @@
       ]
     },
     {
+      "source": "智谱ai",
+      "target": "马斯克",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者用马斯克能否玩明白作为判断大模型是否为制造业的硬指标，隐含将大模型行业与马斯克涉足的制造业进行类比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "135"
+      ],
+      "evidences": [
+        {
+          "article_id": "135",
+          "title": "大模型是残酷的制造业",
+          "permalink": "/articles/135",
+          "markdown_link": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+          "path": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+          "date": "2026-08-18",
+          "label": "作者用马斯克能否玩明白作为判断大模型是否为制造业的硬指标，隐含将大模型行业与马斯克涉足的制造业进行类比",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "月之暗面",
       "target": "智谱ai",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文中将Kimi与智谱的上市和估值走势进行多次对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "美团",
+      "target": "智谱ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属被列举的采用匿名打榜策略的厂商",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -567,11 +776,37 @@
       "evidences": []
     },
     {
+      "source": "阿里巴巴",
+      "target": "智谱ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属被列举的采用匿名打榜策略的厂商",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "零一万物",
       "target": "智谱ai",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文章对比智谱死磕大模型与零一万物转型做应用的不同路径",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "马斯克",
+      "target": "智谱ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者用马斯克能否玩明白作为判断大模型是否为制造业的硬指标，隐含将大模型行业与马斯克涉足的制造业进行类比",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -611,14 +846,25 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "DeepSeek在G端市场提供了更具性价比的替代方案，取代了智谱的生态位",
-      "weight": 1,
+      "weight": 2,
       "strength": 3,
-      "effective_weight": 4,
-      "article_count": 1,
+      "effective_weight": 8,
+      "article_count": 2,
       "evidence_articles": [
-        "006"
+        "006",
+        "135"
       ],
       "evidences": [
+        {
+          "article_id": "135",
+          "title": "大模型是残酷的制造业",
+          "permalink": "/articles/135",
+          "markdown_link": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+          "path": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+          "date": "2026-08-18",
+          "label": "文中指出两者在大模型水平上相近，竞争此起彼伏，DeepSeek V4 Flash达到GLM 5.2相近水平",
+          "weight": 1
+        },
         {
           "article_id": "006",
           "title": "智谱的存在主义危机",
@@ -1045,6 +1291,32 @@
       "evidences": []
     },
     {
+      "source": "沐秋",
+      "target": "智谱ai",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "作者严厉批评智谱AI反复使用匿名打榜的营销套路",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "137"
+      ],
+      "evidences": [
+        {
+          "article_id": "137",
+          "title": "匿名打榜的都是二流模型",
+          "permalink": "/articles/137",
+          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "date": "2026-08-25",
+          "label": "作者严厉批评智谱AI反复使用匿名打榜的营销套路",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "智谱ai",
       "target": "autoclaw",
       "relation_type": "develops",
@@ -1194,6 +1466,32 @@
     },
     {
       "source": "智谱ai",
+      "target": "glm-5",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "文章明确指出GLM-5是智谱AI推出的产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "137"
+      ],
+      "evidences": [
+        {
+          "article_id": "137",
+          "title": "匿名打榜的都是二流模型",
+          "permalink": "/articles/137",
+          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "date": "2026-08-25",
+          "label": "文章明确指出GLM-5是智谱AI推出的产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "智谱ai",
       "target": "glm-5-1",
       "relation_type": "develops",
       "type": "develops",
@@ -1240,6 +1538,32 @@
           "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
           "date": "2026-07-22",
           "label": "智谱AI开发了GLM 5.2模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "智谱ai",
+      "target": "glm-5-3",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "智谱开发并更新了GLM 5.3模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "134"
+      ],
+      "evidences": [
+        {
+          "article_id": "134",
+          "title": "Kimi熹妃回宫",
+          "permalink": "/articles/134",
+          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "date": "2026-08-17",
+          "label": "智谱开发并更新了GLM 5.3模型",
           "weight": 1
         }
       ]
@@ -1357,6 +1681,32 @@
           "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
           "date": "2026-06-23",
           "label": "智谱研发的生成产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "智谱ai",
+      "target": "牛来大模型",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "文章推测牛来大模型由智谱AI开发并发布",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "137"
+      ],
+      "evidences": [
+        {
+          "article_id": "137",
+          "title": "匿名打榜的都是二流模型",
+          "permalink": "/articles/137",
+          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "date": "2026-08-25",
+          "label": "文章推测牛来大模型由智谱AI开发并发布",
           "weight": 1
         }
       ]
@@ -1533,7 +1883,7 @@
     {
       "source": "claude",
       "target": "智谱ai",
-      "score": 0.9049,
+      "score": 0.8922,
       "suggested_relation_type": "related",
       "reason": "共同出现于 10 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
@@ -1548,9 +1898,9 @@
     {
       "source": "qwen",
       "target": "智谱ai",
-      "score": 0.7802,
+      "score": 0.7721,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 6 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "026",
         "049",
@@ -1563,9 +1913,9 @@
     {
       "source": "智谱ai",
       "target": "杨植麟",
-      "score": 0.7328,
+      "score": 0.729,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "004",
         "049",
@@ -1578,7 +1928,7 @@
     {
       "source": "智谱ai",
       "target": "豆包",
-      "score": 0.6776,
+      "score": 0.6702,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1593,7 +1943,7 @@
     {
       "source": "codex",
       "target": "智谱ai",
-      "score": 0.5768,
+      "score": 0.5737,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [

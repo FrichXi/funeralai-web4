@@ -1,0 +1,98 @@
+{
+  "node": {
+    "id": "陈锴杰",
+    "name": "陈锴杰",
+    "type": "person",
+    "description": "Mind lab创始人，被称为“马卡龙之神”",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "马卡龙之神"
+    ],
+    "tags": [
+      "Research"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "136",
+        "title": "AI应用骗钱，哦不融资指南",
+        "date": "2026-08-23",
+        "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "permalink": "/articles/136",
+        "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0221
+  },
+  "links": [
+    {
+      "source": "陈锴杰",
+      "target": "mind-lab",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "陈锴杰成立了Mind lab",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "陈锴杰成立了Mind lab",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "austin",
+      "target": "陈锴杰",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "Austin表示“理解马卡龙，成为马卡龙”，认可陈锴杰的路径",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Austin表示“理解马卡龙，成为马卡龙”，认可陈锴杰的路径",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "neo-lab",
+      "target": "陈锴杰",
+      "score": 0.3849,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "136"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

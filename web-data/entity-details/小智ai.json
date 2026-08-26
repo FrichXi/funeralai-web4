@@ -4,8 +4,8 @@
     "name": "小智AI",
     "type": "product",
     "description": "停留在Chatbot阶段的代表性AI硬件产品，被M5Stack套壳",
-    "mention_count": 27,
-    "article_count": 4,
+    "mention_count": 28,
+    "article_count": 5,
     "aliases": [
       "小智"
     ],
@@ -15,11 +15,12 @@
       "Chatbot",
       "具身智能",
       "开发板",
+      "开源应用",
       "开源方案",
       "开源生态"
     ],
-    "references": 4,
-    "source_article_count": 4,
+    "references": 5,
+    "source_article_count": 5,
     "source_articles": [
       {
         "article_id": "072",
@@ -56,10 +57,19 @@
         "permalink": "/articles/066",
         "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
         "mention_count": 2
+      },
+      {
+        "article_id": "138",
+        "title": "开源模型就是统一战线",
+        "date": "2026-08-26",
+        "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "permalink": "/articles/138",
+        "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "mention_count": 1
       }
     ],
     "degree": 19,
-    "composite_weight": 0.1807
+    "composite_weight": 0.187
   },
   "links": [
     {
@@ -456,14 +466,25 @@
       "relation_type": "works_on",
       "type": "works_on",
       "label": "虾哥是小智AI的开发者，并在GitHub上将其开源",
-      "weight": 1,
+      "weight": 2,
       "strength": 3,
-      "effective_weight": 4,
-      "article_count": 1,
+      "effective_weight": 8,
+      "article_count": 2,
       "evidence_articles": [
-        "072"
+        "072",
+        "138"
       ],
       "evidences": [
+        {
+          "article_id": "138",
+          "title": "开源模型就是统一战线",
+          "permalink": "/articles/138",
+          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "date": "2026-08-26",
+          "label": "虾哥开发了小智AI硬件及其开源聊天机器人方案",
+          "weight": 1
+        },
         {
           "article_id": "072",
           "title": "小智AI才是真正的具身智能",
@@ -481,7 +502,7 @@
     {
       "source": "小智ai",
       "target": "拓竹",
-      "score": 0.4476,
+      "score": 0.4459,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 1 个邻居；处于同一讨论社区",
       "evidence_article_ids": [

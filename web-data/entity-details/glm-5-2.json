@@ -4,19 +4,21 @@
     "name": "GLM-5.2",
     "type": "product",
     "description": "智谱的模型，在CEO-Bench评测中与MiniMax M3对比",
-    "mention_count": 11,
-    "article_count": 3,
+    "mention_count": 14,
+    "article_count": 4,
     "aliases": [
       "GLM 5.2",
       "GLM5.2"
     ],
     "tags": [
       "LLM",
+      "国产大模型",
       "大模型",
+      "开源模型",
       "纯文本"
     ],
-    "references": 3,
-    "source_article_count": 3,
+    "references": 4,
+    "source_article_count": 4,
     "source_articles": [
       {
         "article_id": "122",
@@ -26,6 +28,15 @@
         "permalink": "/articles/122",
         "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
         "mention_count": 9
+      },
+      {
+        "article_id": "138",
+        "title": "开源模型就是统一战线",
+        "date": "2026-08-26",
+        "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "permalink": "/articles/138",
+        "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "mention_count": 3
       },
       {
         "article_id": "117",
@@ -46,10 +57,36 @@
         "mention_count": 1
       }
     ],
-    "degree": 5,
-    "composite_weight": 0.0767
+    "degree": 7,
+    "composite_weight": 0.1018
   },
   "links": [
+    {
+      "source": "glm-5-2",
+      "target": "k3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比GLM 5.2与K3的性能水平及智能密度",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "138"
+      ],
+      "evidences": [
+        {
+          "article_id": "138",
+          "title": "开源模型就是统一战线",
+          "permalink": "/articles/138",
+          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "date": "2026-08-26",
+          "label": "文中对比GLM 5.2与K3的性能水平及智能密度",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "glm-5-2",
       "target": "minimax-m3",
@@ -86,6 +123,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "k3",
+      "target": "glm-5-2",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比GLM 5.2与K3的性能水平及智能密度",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
     },
     {
       "source": "minimax-m3",
@@ -169,8 +219,22 @@
   "suggested_edges": [
     {
       "source": "glm-5-2",
+      "target": "kimi",
+      "score": 0.5973,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "116",
+        "117",
+        "122",
+        "138"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "glm-5-2",
       "target": "minimax",
-      "score": 0.4184,
+      "score": 0.4158,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [

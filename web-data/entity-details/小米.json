@@ -3,13 +3,14 @@
     "id": "小米",
     "name": "小米",
     "type": "company",
-    "description": "科技公司，旗下MiMo模型在评测中表现不佳",
-    "mention_count": 14,
-    "article_count": 7,
+    "description": "曾推出匿名模型Hunter Alpha参与打榜的科技公司",
+    "mention_count": 15,
+    "article_count": 8,
     "aliases": [
       "Xiaomi"
     ],
     "tags": [
+      "匿名打榜",
       "大模型",
       "手机",
       "汽车",
@@ -17,8 +18,8 @@
       "硬件厂商",
       "科技公司"
     ],
-    "references": 7,
-    "source_article_count": 7,
+    "references": 8,
+    "source_article_count": 8,
     "source_articles": [
       {
         "article_id": "131",
@@ -46,6 +47,15 @@
         "permalink": "/articles/109",
         "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
         "mention_count": 2
+      },
+      {
+        "article_id": "137",
+        "title": "匿名打榜的都是二流模型",
+        "date": "2026-08-25",
+        "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+        "permalink": "/articles/137",
+        "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+        "mention_count": 1
       },
       {
         "article_id": "123",
@@ -84,10 +94,36 @@
         "mention_count": 1
       }
     ],
-    "degree": 11,
-    "composite_weight": 0.1382
+    "degree": 13,
+    "composite_weight": 0.1569
   },
   "links": [
+    {
+      "source": "小米",
+      "target": "智谱ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属被列举的采用匿名打榜策略的厂商",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "137"
+      ],
+      "evidences": [
+        {
+          "article_id": "137",
+          "title": "匿名打榜的都是二流模型",
+          "permalink": "/articles/137",
+          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "date": "2026-08-25",
+          "label": "同属被列举的采用匿名打榜策略的厂商",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "小米",
       "target": "阶跃星辰",
@@ -113,6 +149,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "智谱ai",
+      "target": "小米",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属被列举的采用匿名打榜策略的厂商",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
     },
     {
       "source": "阶跃星辰",
@@ -338,9 +387,22 @@
   ],
   "suggested_edges": [
     {
-      "source": "minimax",
+      "source": "deepseek",
       "target": "小米",
       "score": 0.4864,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "109",
+        "131",
+        "137"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "minimax",
+      "target": "小米",
+      "score": 0.4841,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -354,7 +416,7 @@
     {
       "source": "小米",
       "target": "豆包",
-      "score": 0.4129,
+      "score": 0.4125,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 1 个邻居",
       "evidence_article_ids": [
@@ -369,7 +431,7 @@
     {
       "source": "刘芹",
       "target": "小米",
-      "score": 0.3917,
+      "score": 0.3896,
       "suggested_relation_type": "related",
       "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -378,14 +440,15 @@
       "status": "suggested"
     },
     {
-      "source": "deepseek",
+      "source": "kimi",
       "target": "小米",
-      "score": 0.3705,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居",
+      "score": 0.3841,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
-        "109",
-        "131"
+        "040",
+        "057",
+        "109"
       ],
       "status": "suggested"
     }

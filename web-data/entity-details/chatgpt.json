@@ -4,8 +4,8 @@
     "name": "ChatGPT",
     "type": "product",
     "description": "OpenAI的通用大语言模型产品，被视为AI陪伴赛道的未来方向之一",
-    "mention_count": 52,
-    "article_count": 20,
+    "mention_count": 55,
+    "article_count": 21,
     "aliases": [],
     "tags": [
       "2C",
@@ -26,8 +26,8 @@
       "超级APP",
       "通用AI"
     ],
-    "references": 20,
-    "source_article_count": 20,
+    "references": 21,
+    "source_article_count": 21,
     "source_articles": [
       {
         "article_id": "048",
@@ -64,6 +64,15 @@
         "permalink": "/articles/030",
         "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
         "mention_count": 4
+      },
+      {
+        "article_id": "136",
+        "title": "AI应用骗钱，哦不融资指南",
+        "date": "2026-08-23",
+        "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "permalink": "/articles/136",
+        "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "mention_count": 3
       },
       {
         "article_id": "031",
@@ -210,8 +219,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 28,
-    "composite_weight": 0.3085
+    "degree": 31,
+    "composite_weight": 0.3353
   },
   "links": [
     {
@@ -310,6 +319,32 @@
           "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
           "date": "2026-03-13",
           "label": "Yinsen将初次使用Claude Code的震撼感与第一次用ChatGPT进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比了Codex月活与ChatGPT付费用户的差距",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "文中对比了Codex月活与ChatGPT付费用户的差距",
           "weight": 1
         }
       ]
@@ -498,6 +533,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "Yinsen将初次使用Claude Code的震撼感与第一次用ChatGPT进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "codex",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比了Codex月活与ChatGPT付费用户的差距",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -838,15 +886,41 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "libtv",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "LibTV前端可能调用GPT模型，但存在上下文对齐问题",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "LibTV前端可能调用GPT模型，但存在上下文对齐问题",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "chatgpt",
       "target": "kimi",
-      "score": 0.6931,
+      "score": 0.709,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 5 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 4 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "030",
         "040",
@@ -857,36 +931,23 @@
     },
     {
       "source": "chatgpt",
-      "target": "codex",
-      "score": 0.6617,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "088",
-        "089",
-        "105",
-        "124"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "chatgpt",
       "target": "deepseek",
-      "score": 0.5941,
+      "score": 0.6126,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "008",
         "070",
         "088",
-        "105"
+        "105",
+        "136"
       ],
       "status": "suggested"
     },
     {
       "source": "chatgpt",
       "target": "飞书",
-      "score": 0.5936,
+      "score": 0.5919,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -899,16 +960,28 @@
     },
     {
       "source": "chatgpt",
-      "target": "智谱ai",
-      "score": 0.4946,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
+      "target": "openclaw",
+      "score": 0.5388,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
-        "009",
+        "067",
+        "070"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "anthropic",
+      "target": "chatgpt",
+      "score": 0.5358,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "031",
+        "040",
         "070",
-        "089",
         "105",
-        "113"
+        "136"
       ],
       "status": "suggested"
     }

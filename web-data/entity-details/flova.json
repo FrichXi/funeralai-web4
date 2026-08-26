@@ -4,21 +4,22 @@
     "name": "Flova",
     "type": "product",
     "description": "集成了多模态大模型能力的AI视频生成工具，被作者比喻为“AI剪映宝宝”",
-    "mention_count": 51,
-    "article_count": 4,
+    "mention_count": 52,
+    "article_count": 5,
     "aliases": [
       "AI剪映宝宝"
     ],
     "tags": [
       "AI产品",
       "AI视频生成",
+      "Video Agent",
       "画布软件",
       "自然语言剪辑",
       "视频Agent",
       "视频agent"
     ],
-    "references": 4,
-    "source_article_count": 4,
+    "references": 5,
+    "source_article_count": 5,
     "source_articles": [
       {
         "article_id": "052",
@@ -48,6 +49,15 @@
         "mention_count": 3
       },
       {
+        "article_id": "136",
+        "title": "AI应用骗钱，哦不融资指南",
+        "date": "2026-08-23",
+        "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "permalink": "/articles/136",
+        "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "065",
         "title": "豆包有Seed，火山有种",
         "date": "2026-02-14",
@@ -57,8 +67,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 22,
-    "composite_weight": 0.2169
+    "degree": 24,
+    "composite_weight": 0.2347
   },
   "links": [
     {
@@ -240,6 +250,32 @@
       ]
     },
     {
+      "source": "flova",
+      "target": "陈冕",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "陈冕靠规模压倒了Flova",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "陈冕靠规模压倒了Flova",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "medeo",
       "target": "flova",
       "relation_type": "competes_with",
@@ -258,6 +294,19 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "Flova与OiiOii是竞品关系，且测试结果认为Flova表现更好",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "陈冕",
+      "target": "flova",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "陈冕靠规模压倒了Flova",
       "weight": 1,
       "strength": 3,
       "effective_weight": 3,
@@ -582,23 +631,33 @@
     {
       "source": "flova",
       "target": "字节跳动",
-      "score": 0.8656,
+      "score": 0.9093,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 6 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 7 个邻居",
       "evidence_article_ids": [
         "052",
         "065",
         "078",
-        "119"
+        "119",
+        "136"
       ],
       "status": "suggested"
     },
     {
       "source": "crepal",
       "target": "flova",
-      "score": 0.4716,
+      "score": 0.4144,
       "suggested_relation_type": "compares_to",
-      "reason": "共享 3 个邻居；处于同一讨论社区",
+      "reason": "共享 3 个邻居",
+      "evidence_article_ids": [],
+      "status": "suggested"
+    },
+    {
+      "source": "flova",
+      "target": "lovart",
+      "score": 0.4011,
+      "suggested_relation_type": "compares_to",
+      "reason": "共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [],
       "status": "suggested"
     }

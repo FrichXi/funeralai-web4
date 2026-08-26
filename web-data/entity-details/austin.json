@@ -3,16 +3,27 @@
     "id": "austin",
     "name": "Austin",
     "type": "person",
-    "description": "Taku创始人，自称做真正的AI OS",
-    "mention_count": 2,
-    "article_count": 1,
+    "description": "Taku和Neo lab创始人，前Sapient联合创始人",
+    "mention_count": 5,
+    "article_count": 2,
     "aliases": [],
     "tags": [
-      "AI OS"
+      "AI OS",
+      "AI应用",
+      "连续创业者"
     ],
-    "references": 1,
-    "source_article_count": 1,
+    "references": 2,
+    "source_article_count": 2,
     "source_articles": [
+      {
+        "article_id": "136",
+        "title": "AI应用骗钱，哦不融资指南",
+        "date": "2026-08-23",
+        "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "permalink": "/articles/136",
+        "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "mention_count": 3
+      },
       {
         "article_id": "053",
         "title": "第一届葬AI炒作大赛（北京线下活动）",
@@ -23,24 +34,191 @@
         "mention_count": 2
       }
     ],
-    "degree": 1,
-    "composite_weight": 0.0119
+    "degree": 10,
+    "composite_weight": 0.0832
   },
   "links": [
+    {
+      "source": "austin",
+      "target": "sapient",
+      "relation_type": "co_founded",
+      "type": "co_founded",
+      "label": "Austin是Sapient的联合创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Austin是Sapient的联合创始人",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "austin",
+      "target": "qwen-work",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "Austin批评此类Work产品让大家越用越累",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Austin批评此类Work产品让大家越用越累",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "austin",
+      "target": "trae-work",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "Austin批评此类Work产品让大家越用越累",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Austin批评此类Work产品让大家越用越累",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "austin",
+      "target": "库库ai",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "Austin批评此类Work产品让大家越用越累",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Austin批评此类Work产品让大家越用越累",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "austin",
+      "target": "豆包企业版",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "Austin批评此类Work产品让大家越用越累",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Austin批评此类Work产品让大家越用越累",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "austin",
+      "target": "neo-lab",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "Austin在23-24年创立了Neo lab",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Austin在23-24年创立了Neo lab",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "austin",
       "target": "taku",
       "relation_type": "founder_of",
       "type": "founder_of",
       "label": "Austin是Taku的创始人",
-      "weight": 1,
+      "weight": 2,
       "strength": 5,
-      "effective_weight": 6,
-      "article_count": 1,
+      "effective_weight": 12,
+      "article_count": 2,
       "evidence_articles": [
-        "053"
+        "053",
+        "136"
       ],
       "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Austin是Taku的创始人",
+          "weight": 1
+        },
         {
           "article_id": "053",
           "title": "第一届葬AI炒作大赛（北京线下活动）",
@@ -52,7 +230,97 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "austin",
+      "target": "deepseek",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "Austin称赞Deepseek坚持开源很伟大",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Austin称赞Deepseek坚持开源很伟大",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "austin",
+      "target": "libtv",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "Austin认为LibTV一定会成为马卡龙pro max，是唯一例外的好产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Austin认为LibTV一定会成为马卡龙pro max，是唯一例外的好产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "austin",
+      "target": "陈锴杰",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "Austin表示“理解马卡龙，成为马卡龙”，认可陈锴杰的路径",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Austin表示“理解马卡龙，成为马卡龙”，认可陈锴杰的路径",
+          "weight": 1
+        }
+      ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "austin",
+      "target": "mind-lab",
+      "score": 0.4407,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "136"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

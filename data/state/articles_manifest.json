@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-15T14:48:12Z",
+  "updatedAt": "2026-08-26T06:07:00Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -2661,6 +2661,106 @@
       "artifact_path": "data/extracted/133.json",
       "raw_path": "data/gemini_raw/133.json",
       "extracted_at": "2026-08-15T14:48:12Z",
+      "last_error": null,
+      "extractor": {
+        "name": "qwen-openai-compatible",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "134": {
+      "article_id": "134",
+      "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+      "title": "Kimi熹妃回宫",
+      "date": "2026-08-17",
+      "author": "葬爱咸鱼",
+      "content_hash": "85bdff4331581bef05decf2e391c04a9b3bdcbb711b47c92a7e389bd2123cc41",
+      "status": "ready",
+      "reason": "forced",
+      "artifact_path": "data/extracted/134.json",
+      "raw_path": "data/gemini_raw/134.json",
+      "extracted_at": "2026-08-26T06:07:00Z",
+      "last_error": null,
+      "extractor": {
+        "name": "qwen-openai-compatible",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "135": {
+      "article_id": "135",
+      "path": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+      "title": "大模型是残酷的制造业",
+      "date": "2026-08-18",
+      "author": "葬爱咸鱼",
+      "content_hash": "145ff338b9d0b30736075bf195acab9a6c6a269e22b8e54386141bd1a5a004e4",
+      "status": "ready",
+      "reason": "forced",
+      "artifact_path": "data/extracted/135.json",
+      "raw_path": "data/gemini_raw/135.json",
+      "extracted_at": "2026-08-26T06:07:00Z",
+      "last_error": null,
+      "extractor": {
+        "name": "qwen-openai-compatible",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "136": {
+      "article_id": "136",
+      "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+      "title": "AI应用骗钱，哦不融资指南",
+      "date": "2026-08-23",
+      "author": "葬爱咸鱼",
+      "content_hash": "2c77ee1b7f063e233e2b6966624151e0c4fac13156712430fc4db5324f857f29",
+      "status": "ready",
+      "reason": "forced",
+      "artifact_path": "data/extracted/136.json",
+      "raw_path": "data/gemini_raw/136.json",
+      "extracted_at": "2026-08-26T06:07:00Z",
+      "last_error": null,
+      "extractor": {
+        "name": "qwen-openai-compatible",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "137": {
+      "article_id": "137",
+      "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+      "title": "匿名打榜的都是二流模型",
+      "date": "2026-08-25",
+      "author": "沐秋",
+      "content_hash": "7fecd35d9db275ade0e873e72c6f0063f94f86d6be2c4b0c00b62c92d67556c6",
+      "status": "ready",
+      "reason": "forced",
+      "artifact_path": "data/extracted/137.json",
+      "raw_path": "data/gemini_raw/137.json",
+      "extracted_at": "2026-08-26T06:07:00Z",
+      "last_error": null,
+      "extractor": {
+        "name": "qwen-openai-compatible",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "138": {
+      "article_id": "138",
+      "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+      "title": "开源模型就是统一战线",
+      "date": "2026-08-26",
+      "author": "葬爱咸鱼",
+      "content_hash": "718964d701186841abdd919ac9d5ea2d73bc09fd80bb1807edae3e57b63e206f",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/138.json",
+      "raw_path": "data/gemini_raw/138.json",
+      "extracted_at": "2026-08-26T06:04:10Z",
       "last_error": null,
       "extractor": {
         "name": "qwen-openai-compatible",

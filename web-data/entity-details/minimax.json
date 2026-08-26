@@ -4,8 +4,8 @@
     "name": "MiniMax",
     "type": "company",
     "description": "国内头部大模型公司，开发了M3模型、海螺视频模型及Talkie/星野等C端产品",
-    "mention_count": 259,
-    "article_count": 27,
+    "mention_count": 267,
+    "article_count": 29,
     "aliases": [
       "MinMax",
       "Minimax"
@@ -36,10 +36,11 @@
       "斩杀线",
       "模型厂",
       "模型层",
+      "视频生成",
       "视频生成模型"
     ],
-    "references": 27,
-    "source_article_count": 27,
+    "references": 29,
+    "source_article_count": 29,
     "source_articles": [
       {
         "article_id": "117",
@@ -114,6 +115,15 @@
         "mention_count": 6
       },
       {
+        "article_id": "135",
+        "title": "大模型是残酷的制造业",
+        "date": "2026-08-18",
+        "path": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+        "permalink": "/articles/135",
+        "markdown_link": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+        "mention_count": 5
+      },
+      {
         "article_id": "132",
         "title": "Seedance 2.5自绝于网民",
         "date": "2026-08-12",
@@ -166,6 +176,15 @@
         "permalink": "/articles/012",
         "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
         "mention_count": 4
+      },
+      {
+        "article_id": "134",
+        "title": "Kimi熹妃回宫",
+        "date": "2026-08-17",
+        "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+        "permalink": "/articles/134",
+        "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+        "mention_count": 3
       },
       {
         "article_id": "131",
@@ -286,7 +305,7 @@
       }
     ],
     "degree": 48,
-    "composite_weight": 0.7808
+    "composite_weight": 0.7884
   },
   "links": [
     {
@@ -434,16 +453,27 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "两者作为表现亮眼的模型厂被并列提及",
-      "weight": 3,
+      "weight": 4,
       "strength": 2,
-      "effective_weight": 9,
-      "article_count": 3,
+      "effective_weight": 12,
+      "article_count": 4,
       "evidence_articles": [
         "089",
         "099",
-        "117"
+        "117",
+        "134"
       ],
       "evidences": [
+        {
+          "article_id": "134",
+          "title": "Kimi熹妃回宫",
+          "permalink": "/articles/134",
+          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "date": "2026-08-17",
+          "label": "文中将智谱、MiniMax、阶跃并列为需要憋大招证明自己的“三小龙”",
+          "weight": 1
+        },
         {
           "article_id": "117",
           "title": "我来给MiniMax道歉了",
@@ -1629,9 +1659,9 @@
     {
       "source": "minimax",
       "target": "qwen",
-      "score": 0.7015,
+      "score": 0.694,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 7 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 8 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "049",
         "055",
@@ -1644,7 +1674,7 @@
     {
       "source": "libtv",
       "target": "minimax",
-      "score": 0.68,
+      "score": 0.6776,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
@@ -1657,11 +1687,26 @@
       "status": "suggested"
     },
     {
+      "source": "anthropic",
+      "target": "minimax",
+      "score": 0.6387,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "060",
+        "099",
+        "103",
+        "105",
+        "109"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "minimax",
       "target": "杨植麟",
-      "score": 0.597,
+      "score": 0.5942,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 7 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "004",
         "049",
@@ -1674,7 +1719,7 @@
     {
       "source": "minimax",
       "target": "seedance",
-      "score": 0.5906,
+      "score": 0.5884,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
@@ -1682,21 +1727,6 @@
         "116",
         "117",
         "132"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "anthropic",
-      "target": "minimax",
-      "score": 0.5776,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 6 篇文章；共享 3 个邻居",
-      "evidence_article_ids": [
-        "060",
-        "099",
-        "103",
-        "105",
-        "109"
       ],
       "status": "suggested"
     }

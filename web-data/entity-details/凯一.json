@@ -34,7 +34,7 @@
       }
     ],
     "degree": 5,
-    "composite_weight": 0.0494
+    "composite_weight": 0.0485
   },
   "links": [
     {
@@ -172,21 +172,9 @@
     {
       "source": "claude",
       "target": "凯一",
-      "score": 0.4808,
+      "score": 0.4266,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "105",
-        "110"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "qwen",
-      "target": "凯一",
-      "score": 0.4118,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "105",
         "110"

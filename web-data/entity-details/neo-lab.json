@@ -1,0 +1,149 @@
+{
+  "node": {
+    "id": "neo-lab",
+    "name": "Neo lab",
+    "type": "company",
+    "description": "Austin在23-24年创立的强化学习研究团队/公司",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Research",
+      "强化学习"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "136",
+        "title": "AI应用骗钱，哦不融资指南",
+        "date": "2026-08-23",
+        "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "permalink": "/articles/136",
+        "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0463
+  },
+  "links": [
+    {
+      "source": "mind-lab",
+      "target": "neo-lab",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "外界认为Mind lab蹭Neo lab来顶估值，Austin也认同这种对标关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "外界认为Mind lab蹭Neo lab来顶估值，Austin也认同这种对标关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "neo-lab",
+      "target": "mind-lab",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "外界认为Mind lab蹭Neo lab来顶估值，Austin也认同这种对标关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "neo-lab",
+      "target": "taku",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Austin提出Product companies are the new Neo labs，将Taku这类产品公司与Neo lab进行概念对标",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Austin提出Product companies are the new Neo labs，将Taku这类产品公司与Neo lab进行概念对标",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "taku",
+      "target": "neo-lab",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Austin提出Product companies are the new Neo labs，将Taku这类产品公司与Neo lab进行概念对标",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "austin",
+      "target": "neo-lab",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "Austin在23-24年创立了Neo lab",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Austin在23-24年创立了Neo lab",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": [
+    {
+      "source": "neo-lab",
+      "target": "陈锴杰",
+      "score": 0.3849,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "136"
+      ],
+      "status": "suggested"
+    }
+  ]
+}

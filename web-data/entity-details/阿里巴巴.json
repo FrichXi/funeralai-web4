@@ -4,9 +4,10 @@
     "name": "阿里巴巴",
     "type": "company",
     "description": "开发了Happy Horse视频模型和Happy Oyster世界模型",
-    "mention_count": 86,
-    "article_count": 18,
+    "mention_count": 91,
+    "article_count": 20,
     "aliases": [
+      "老辈子阿里",
       "阿里"
     ],
     "tags": [
@@ -16,18 +17,23 @@
       "云栖大会",
       "云计算",
       "互联网大厂",
+      "匿名打榜",
+      "国产大模型",
       "大厂",
       "大模型",
       "大模型公司",
       "市值",
+      "开源模型",
       "物理AI",
       "电商",
       "科技公司",
+      "算力国产化",
       "组织战略",
+      "视频生成",
       "阿里味"
     ],
-    "references": 18,
-    "source_article_count": 18,
+    "references": 20,
+    "source_article_count": 20,
     "source_articles": [
       {
         "article_id": "112",
@@ -55,6 +61,15 @@
         "permalink": "/articles/128",
         "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
         "mention_count": 5
+      },
+      {
+        "article_id": "138",
+        "title": "开源模型就是统一战线",
+        "date": "2026-08-26",
+        "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "permalink": "/articles/138",
+        "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "mention_count": 4
       },
       {
         "article_id": "125",
@@ -109,6 +124,15 @@
         "permalink": "/articles/086",
         "markdown_link": "articles/086_2026-05-05_骡子马_世界模型是梦核军备竞赛.md",
         "mention_count": 2
+      },
+      {
+        "article_id": "137",
+        "title": "匿名打榜的都是二流模型",
+        "date": "2026-08-25",
+        "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+        "permalink": "/articles/137",
+        "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+        "mention_count": 1
       },
       {
         "article_id": "105",
@@ -192,10 +216,49 @@
         "mention_count": 1
       }
     ],
-    "degree": 40,
-    "composite_weight": 0.4705
+    "degree": 42,
+    "composite_weight": 0.4985
   },
   "links": [
+    {
+      "source": "智谱ai",
+      "target": "阿里巴巴",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属被列举的采用匿名打榜策略的厂商",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "137"
+      ],
+      "evidences": [
+        {
+          "article_id": "137",
+          "title": "匿名打榜的都是二流模型",
+          "permalink": "/articles/137",
+          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "date": "2026-08-25",
+          "label": "同属被列举的采用匿名打榜策略的厂商",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "智谱ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属被列举的采用匿名打榜策略的厂商",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
     {
       "source": "aws",
       "target": "阿里巴巴",
@@ -1182,7 +1245,7 @@
     {
       "source": "豆包",
       "target": "阿里巴巴",
-      "score": 0.8085,
+      "score": 0.8036,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1195,9 +1258,24 @@
       "status": "suggested"
     },
     {
+      "source": "deepseek",
+      "target": "阿里巴巴",
+      "score": 0.7051,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 6 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "049",
+        "103",
+        "105",
+        "122",
+        "125"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "claude",
       "target": "阿里巴巴",
-      "score": 0.7015,
+      "score": 0.6967,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1209,24 +1287,9 @@
       "status": "suggested"
     },
     {
-      "source": "deepseek",
-      "target": "阿里巴巴",
-      "score": 0.5727,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
-      "evidence_article_ids": [
-        "049",
-        "103",
-        "105",
-        "122",
-        "125"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "lovart",
       "target": "阿里巴巴",
-      "score": 0.4763,
+      "score": 0.4741,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1239,7 +1302,7 @@
     {
       "source": "阿里巴巴",
       "target": "陈冕",
-      "score": 0.4682,
+      "score": 0.4661,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [

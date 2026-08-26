@@ -3,9 +3,9 @@
     "id": "kimi-k3",
     "name": "Kimi K3",
     "type": "product",
-    "description": "月之暗面发布的大模型，前端代码生成与视觉理解能力突出",
-    "mention_count": 9,
-    "article_count": 2,
+    "description": "Kimi推出的新一代模型，前端生成能力强，开启国产模型新赛季",
+    "mention_count": 10,
+    "article_count": 3,
     "aliases": [
       "K3"
     ],
@@ -16,8 +16,8 @@
       "文本生成",
       "网页游戏"
     ],
-    "references": 2,
-    "source_article_count": 2,
+    "references": 3,
+    "source_article_count": 3,
     "source_articles": [
       {
         "article_id": "122",
@@ -29,6 +29,15 @@
         "mention_count": 8
       },
       {
+        "article_id": "134",
+        "title": "Kimi熹妃回宫",
+        "date": "2026-08-17",
+        "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+        "permalink": "/articles/134",
+        "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "132",
         "title": "Seedance 2.5自绝于网民",
         "date": "2026-08-12",
@@ -38,8 +47,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 9,
-    "composite_weight": 0.0924
+    "degree": 16,
+    "composite_weight": 0.144
   },
   "links": [
     {
@@ -69,11 +78,89 @@
       ]
     },
     {
+      "source": "fable-5",
+      "target": "kimi-k3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中提到K3在跑分上逼近Fable 5，将国产模型切换到挑战第一叙事",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "134"
+      ],
+      "evidences": [
+        {
+          "article_id": "134",
+          "title": "Kimi熹妃回宫",
+          "permalink": "/articles/134",
+          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "date": "2026-08-17",
+          "label": "文中提到K3在跑分上逼近Fable 5，将国产模型切换到挑战第一叙事",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "grok-4-6",
+      "target": "kimi-k3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中提到Grok bot神似Kimi，且作者认为Kimi就是理想中的Grok",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "134"
+      ],
+      "evidences": [
+        {
+          "article_id": "134",
+          "title": "Kimi熹妃回宫",
+          "permalink": "/articles/134",
+          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "date": "2026-08-17",
+          "label": "文中提到Grok bot神似Kimi，且作者认为Kimi就是理想中的Grok",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "kimi-k3",
       "target": "claude-fable-5",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "评测显示K3综合能力仅次于5.6 Sol和Fable 5",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi-k3",
+      "target": "fable-5",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中提到K3在跑分上逼近Fable 5，将国产模型切换到挑战第一叙事",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi-k3",
+      "target": "grok-4-6",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中提到Grok bot神似Kimi，且作者认为Kimi就是理想中的Grok",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -147,11 +234,50 @@
       ]
     },
     {
+      "source": "grok-4-6",
+      "target": "kimi-k3",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中指出Grok 4.6和K3处于同一水平，且即将发布的4.7将与K3进入同一赛季竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "134"
+      ],
+      "evidences": [
+        {
+          "article_id": "134",
+          "title": "Kimi熹妃回宫",
+          "permalink": "/articles/134",
+          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "date": "2026-08-17",
+          "label": "文中指出Grok 4.6和K3处于同一水平，且即将发布的4.7将与K3进入同一赛季竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "kimi-k3",
       "target": "glm-5-2",
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "K3显著超越GLM 5.2，两者争夺国产模型头部位置",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi-k3",
+      "target": "grok-4-6",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中指出Grok 4.6和K3处于同一水平，且即将发布的4.7将与K3进入同一赛季竞争",
       "weight": 1,
       "strength": 3,
       "effective_weight": 3,
@@ -181,6 +307,32 @@
           "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
           "date": "2026-07-22",
           "label": "沐秋批评K3宣传片软蒸馏Fable 5",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "kimi-k3",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Kimi开发了K3模型并借此开启新赛季",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "134"
+      ],
+      "evidences": [
+        {
+          "article_id": "134",
+          "title": "Kimi熹妃回宫",
+          "permalink": "/articles/134",
+          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "date": "2026-08-17",
+          "label": "Kimi开发了K3模型并借此开启新赛季",
           "weight": 1
         }
       ]
@@ -225,5 +377,63 @@
       ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "kimi-k3",
+      "target": "智谱ai",
+      "score": 0.5078,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "122",
+        "134"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "anthropic",
+      "target": "kimi-k3",
+      "score": 0.5013,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "122"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "k3",
+      "target": "kimi-k3",
+      "score": 0.4852,
+      "suggested_relation_type": "compares_to",
+      "reason": "共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [],
+      "status": "suggested"
+    },
+    {
+      "source": "kimi-k3",
+      "target": "minimax",
+      "score": 0.4805,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "122",
+        "132",
+        "134"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "deepseek",
+      "target": "kimi-k3",
+      "score": 0.394,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "122",
+        "134"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

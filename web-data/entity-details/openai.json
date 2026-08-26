@@ -3,9 +3,9 @@
     "id": "openai",
     "name": "OpenAI",
     "type": "company",
-    "description": "美国AI公司，文中作为行业标杆与百度进行历史对比",
-    "mention_count": 23,
-    "article_count": 12,
+    "description": "美国AI公司，GPT系列模型开发者，文中提及即将发布GPT 6",
+    "mention_count": 26,
+    "article_count": 14,
     "aliases": [
       "O社"
     ],
@@ -18,10 +18,12 @@
       "模型厂",
       "模型开发",
       "版权合作",
-      "行业标杆"
+      "美国AI",
+      "行业标杆",
+      "闭源模型"
     ],
-    "references": 12,
-    "source_article_count": 12,
+    "references": 14,
+    "source_article_count": 14,
     "source_articles": [
       {
         "article_id": "125",
@@ -49,6 +51,15 @@
         "permalink": "/articles/006",
         "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "138",
+        "title": "开源模型就是统一战线",
+        "date": "2026-08-26",
+        "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "permalink": "/articles/138",
+        "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "mention_count": 2
       },
       {
         "article_id": "109",
@@ -96,6 +107,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "136",
+        "title": "AI应用骗钱，哦不融资指南",
+        "date": "2026-08-23",
+        "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "permalink": "/articles/136",
+        "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "103",
         "title": "Kimi看天讨饭吃",
         "date": "2026-06-10",
@@ -132,8 +152,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 20,
-    "composite_weight": 0.1985
+    "degree": 22,
+    "composite_weight": 0.2291
   },
   "links": [
     {
@@ -317,11 +337,50 @@
       "evidences": []
     },
     {
+      "source": "deepseek",
+      "target": "openai",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Deepseek作为开源模型厂与OpenAI竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Deepseek作为开源模型厂与OpenAI竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "openai",
       "target": "anthropic",
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "Anthropic和OpenAI都是美国顶级AI公司",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "openai",
+      "target": "deepseek",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Deepseek作为开源模型厂与OpenAI竞争",
       "weight": 1,
       "strength": 3,
       "effective_weight": 3,
@@ -564,11 +623,26 @@
   ],
   "suggested_edges": [
     {
+      "source": "kimi",
+      "target": "openai",
+      "score": 0.6685,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "005",
+        "048",
+        "099",
+        "109",
+        "138"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "claude",
       "target": "openai",
-      "score": 0.6217,
+      "score": 0.5593,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "031",
         "099",
@@ -578,55 +652,43 @@
       "status": "suggested"
     },
     {
-      "source": "kimi",
-      "target": "openai",
-      "score": 0.5398,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "source": "openai",
+      "target": "字节跳动",
+      "score": 0.4393,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
-        "005",
-        "048",
-        "099",
-        "109"
+        "037",
+        "103",
+        "125",
+        "136"
       ],
       "status": "suggested"
     },
     {
       "source": "openai",
-      "target": "qwen",
-      "score": 0.4054,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "target": "阿里巴巴",
+      "score": 0.4393,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
-        "051",
-        "099",
-        "103"
+        "005",
+        "103",
+        "125",
+        "138"
       ],
       "status": "suggested"
     },
     {
       "source": "minimax",
       "target": "openai",
-      "score": 0.3732,
+      "score": 0.417,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "099",
         "103",
         "109"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "openai",
-      "target": "字节跳动",
-      "score": 0.3724,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
-      "evidence_article_ids": [
-        "037",
-        "103",
-        "125"
       ],
       "status": "suggested"
     }

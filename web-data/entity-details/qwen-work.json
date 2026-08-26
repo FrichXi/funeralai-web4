@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "qwen-work",
+    "name": "Qwen Work",
+    "type": "product",
+    "description": "阿里通义旗下的Work类产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI办公"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "136",
+        "title": "AI应用骗钱，哦不融资指南",
+        "date": "2026-08-23",
+        "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "permalink": "/articles/136",
+        "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0158
+  },
+  "links": [
+    {
+      "source": "austin",
+      "target": "qwen-work",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "Austin批评此类Work产品让大家越用越累",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Austin批评此类Work产品让大家越用越累",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

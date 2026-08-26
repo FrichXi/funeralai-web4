@@ -1,0 +1,100 @@
+{
+  "node": {
+    "id": "longcat",
+    "name": "LongCat",
+    "type": "product",
+    "description": "美团开发的国产模型，首个在国产芯片完成训推全流程",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "长猫"
+    ],
+    "tags": [
+      "国产大模型",
+      "算力国产化"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "138",
+        "title": "开源模型就是统一战线",
+        "date": "2026-08-26",
+        "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "permalink": "/articles/138",
+        "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0286
+  },
+  "links": [
+    {
+      "source": "longcat",
+      "target": "混元3",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "LongCat在白送Token赛道竞争不过混元3",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "138"
+      ],
+      "evidences": [
+        {
+          "article_id": "138",
+          "title": "开源模型就是统一战线",
+          "permalink": "/articles/138",
+          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "date": "2026-08-26",
+          "label": "LongCat在白送Token赛道竞争不过混元3",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "混元3",
+      "target": "longcat",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "LongCat在白送Token赛道竞争不过混元3",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "美团",
+      "target": "longcat",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "美团开发了LongCat模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "138"
+      ],
+      "evidences": [
+        {
+          "article_id": "138",
+          "title": "开源模型就是统一战线",
+          "permalink": "/articles/138",
+          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "date": "2026-08-26",
+          "label": "美团开发了LongCat模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

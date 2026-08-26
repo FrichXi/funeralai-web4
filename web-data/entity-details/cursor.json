@@ -4,21 +4,23 @@
     "name": "Cursor",
     "type": "product",
     "description": "AI代码编辑器，集成了Claude Code且可被阶跃桌面助手访问",
-    "mention_count": 9,
-    "article_count": 6,
+    "mention_count": 10,
+    "article_count": 7,
     "aliases": [
       "cursor"
     ],
     "tags": [
       "AI代码",
+      "AI工具",
       "AI编程",
       "IDE",
       "MCP",
       "Vibe Coding",
+      "数据来源",
       "编辑器"
     ],
-    "references": 6,
-    "source_article_count": 6,
+    "references": 7,
+    "source_article_count": 7,
     "source_articles": [
       {
         "article_id": "030",
@@ -37,6 +39,15 @@
         "permalink": "/articles/054",
         "markdown_link": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
         "mention_count": 2
+      },
+      {
+        "article_id": "138",
+        "title": "开源模型就是统一战线",
+        "date": "2026-08-26",
+        "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "permalink": "/articles/138",
+        "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "mention_count": 1
       },
       {
         "article_id": "022",
@@ -75,8 +86,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 11,
-    "composite_weight": 0.0897
+    "degree": 12,
+    "composite_weight": 0.1046
   },
   "links": [
     {
@@ -250,6 +261,32 @@
     },
     {
       "source": "cursor",
+      "target": "grok-4-6",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Grok使用Cursor的数据进行训练",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "138"
+      ],
+      "evidences": [
+        {
+          "article_id": "138",
+          "title": "开源模型就是统一战线",
+          "permalink": "/articles/138",
+          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "date": "2026-08-26",
+          "label": "Grok使用Cursor的数据进行训练",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "cursor",
       "target": "海螺ai",
       "relation_type": "integrates_with",
       "type": "integrates_with",
@@ -305,7 +342,7 @@
     {
       "source": "cursor",
       "target": "manus",
-      "score": 0.6605,
+      "score": 0.6588,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -318,9 +355,22 @@
       "status": "suggested"
     },
     {
+      "source": "chatgpt",
+      "target": "cursor",
+      "score": 0.487,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "017",
+        "021",
+        "030"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "cursor",
       "target": "mulerun",
-      "score": 0.4595,
+      "score": 0.4582,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
@@ -331,39 +381,27 @@
       "status": "suggested"
     },
     {
-      "source": "chatgpt",
-      "target": "cursor",
-      "score": 0.4199,
+      "source": "cursor",
+      "target": "kimi",
+      "score": 0.437,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
-        "017",
-        "021",
-        "030"
+        "004",
+        "030",
+        "138"
       ],
       "status": "suggested"
     },
     {
       "source": "cursor",
       "target": "gemini",
-      "score": 0.4189,
+      "score": 0.417,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "004",
         "021"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "cursor",
-      "target": "kimi",
-      "score": 0.4189,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "004",
-        "030"
       ],
       "status": "suggested"
     }

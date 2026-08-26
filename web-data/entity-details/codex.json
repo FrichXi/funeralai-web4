@@ -4,8 +4,8 @@
     "name": "Codex",
     "type": "product",
     "description": "AI编程/代理工具，文中作为本地Agent的代表被Raft和Tutti集成或模拟",
-    "mention_count": 43,
-    "article_count": 17,
+    "mention_count": 45,
+    "article_count": 18,
     "aliases": [
       "Codex SDK",
       "codex",
@@ -27,8 +27,8 @@
       "校对",
       "编程Agent"
     ],
-    "references": 17,
-    "source_article_count": 17,
+    "references": 18,
+    "source_article_count": 18,
     "source_articles": [
       {
         "article_id": "120",
@@ -83,6 +83,15 @@
         "permalink": "/articles/124",
         "markdown_link": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "136",
+        "title": "AI应用骗钱，哦不融资指南",
+        "date": "2026-08-23",
+        "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "permalink": "/articles/136",
+        "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "mention_count": 2
       },
       {
         "article_id": "090",
@@ -184,10 +193,36 @@
         "mention_count": 1
       }
     ],
-    "degree": 33,
-    "composite_weight": 0.3778
+    "degree": 35,
+    "composite_weight": 0.3937
   },
   "links": [
+    {
+      "source": "chatgpt",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比了Codex月活与ChatGPT付费用户的差距",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "文中对比了Codex月活与ChatGPT付费用户的差距",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "claude",
       "target": "codex",
@@ -250,6 +285,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "codex",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比了Codex月活与ChatGPT付费用户的差距",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
     },
     {
       "source": "codex",
@@ -926,9 +974,9 @@
     {
       "source": "codex",
       "target": "qwen",
-      "score": 0.7178,
+      "score": 0.7868,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 6 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "027",
         "029",
@@ -941,37 +989,24 @@
     {
       "source": "anthropic",
       "target": "codex",
-      "score": 0.6684,
+      "score": 0.7345,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "066",
         "103",
         "105",
-        "109"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "chatgpt",
-      "target": "codex",
-      "score": 0.6617,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "088",
-        "089",
-        "105",
-        "124"
+        "109",
+        "136"
       ],
       "status": "suggested"
     },
     {
       "source": "cherry-studio",
       "target": "codex",
-      "score": 0.6519,
+      "score": 0.7168,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 4 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "027",
         "029",
@@ -983,13 +1018,27 @@
     {
       "source": "bloome",
       "target": "codex",
-      "score": 0.6132,
+      "score": 0.6107,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "089",
         "090",
         "120"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "codex",
+      "target": "阶跃桌面伙伴",
+      "score": 0.587,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "027",
+        "029",
+        "066",
+        "102"
       ],
       "status": "suggested"
     }

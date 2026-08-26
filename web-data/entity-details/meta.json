@@ -4,15 +4,15 @@
     "name": "Meta",
     "type": "company",
     "description": "国际科技巨头，开发了相对封闭生态的智能眼镜/头显设备",
-    "mention_count": 4,
-    "article_count": 2,
+    "mention_count": 5,
+    "article_count": 3,
     "aliases": [],
     "tags": [
       "封闭生态",
       "科技巨头"
     ],
-    "references": 2,
-    "source_article_count": 2,
+    "references": 3,
+    "source_article_count": 3,
     "source_articles": [
       {
         "article_id": "048",
@@ -24,6 +24,15 @@
         "mention_count": 3
       },
       {
+        "article_id": "136",
+        "title": "AI应用骗钱，哦不融资指南",
+        "date": "2026-08-23",
+        "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "permalink": "/articles/136",
+        "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "050",
         "title": "Rokid是我的太阳（指物理温度）",
         "date": "2026-01-08",
@@ -33,8 +42,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 5,
-    "composite_weight": 0.042
+    "degree": 7,
+    "composite_weight": 0.0636
   },
   "links": [
     {
@@ -72,6 +81,45 @@
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "deepseek",
+      "target": "meta",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Deepseek作为开源模型厂与Meta竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Deepseek作为开源模型厂与Meta竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "meta",
+      "target": "deepseek",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Deepseek作为开源模型厂与Meta竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
       "article_count": 0,
       "evidence_articles": [],
       "evidences": []

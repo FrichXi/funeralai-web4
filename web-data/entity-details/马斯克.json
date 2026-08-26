@@ -3,23 +3,26 @@
     "id": "马斯克",
     "name": "马斯克",
     "type": "person",
-    "description": "知名科技企业家，对SpaceX的商业航天进展负责，且旗下拥有Grok模型",
-    "mention_count": 28,
-    "article_count": 6,
+    "description": "特斯拉/SpaceX/Grok负责人，被用作判断行业是否属于制造业的标杆人物",
+    "mention_count": 31,
+    "article_count": 8,
     "aliases": [
       "Elon Musk",
       "Musk",
       "马圣"
     ],
     "tags": [
+      "CEO",
       "KOL",
       "企业家",
+      "制造业思维",
+      "制造业标杆",
       "推特控制人",
       "科技企业家",
       "科技领袖"
     ],
-    "references": 6,
-    "source_article_count": 6,
+    "references": 8,
+    "source_article_count": 8,
     "source_articles": [
       {
         "article_id": "060",
@@ -49,6 +52,15 @@
         "mention_count": 6
       },
       {
+        "article_id": "134",
+        "title": "Kimi熹妃回宫",
+        "date": "2026-08-17",
+        "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+        "permalink": "/articles/134",
+        "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+        "mention_count": 2
+      },
+      {
         "article_id": "123",
         "title": "阶跃软的不行来硬的",
         "date": "2026-07-23",
@@ -67,6 +79,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "135",
+        "title": "大模型是残酷的制造业",
+        "date": "2026-08-18",
+        "path": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+        "permalink": "/articles/135",
+        "markdown_link": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "065",
         "title": "豆包有Seed，火山有种",
         "date": "2026-02-14",
@@ -76,8 +97,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 15,
-    "composite_weight": 0.1601
+    "degree": 18,
+    "composite_weight": 0.1967
   },
   "links": [
     {
@@ -159,6 +180,32 @@
       ]
     },
     {
+      "source": "智谱ai",
+      "target": "马斯克",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者用马斯克能否玩明白作为判断大模型是否为制造业的硬指标，隐含将大模型行业与马斯克涉足的制造业进行类比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "135"
+      ],
+      "evidences": [
+        {
+          "article_id": "135",
+          "title": "大模型是残酷的制造业",
+          "permalink": "/articles/135",
+          "markdown_link": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+          "path": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+          "date": "2026-08-18",
+          "label": "作者用马斯克能否玩明白作为判断大模型是否为制造业的硬指标，隐含将大模型行业与马斯克涉足的制造业进行类比",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "马斯克",
       "target": "印奇",
       "relation_type": "compares_to",
@@ -177,6 +224,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "作者认为很难分出马斯克和川普在舆论影响力和炒作能力上的高下。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "马斯克",
+      "target": "智谱ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者用马斯克能否玩明白作为判断大模型是否为制造业的硬指标，隐含将大模型行业与马斯克涉足的制造业进行类比",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -338,6 +398,32 @@
     },
     {
       "source": "马斯克",
+      "target": "kimi",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "文中引用马斯克观点或行为暗示对Kimi的喜爱（Grok bot神似Kimi），作者也建议马圣买Kimi",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "134"
+      ],
+      "evidences": [
+        {
+          "article_id": "134",
+          "title": "Kimi熹妃回宫",
+          "permalink": "/articles/134",
+          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "date": "2026-08-17",
+          "label": "文中引用马斯克观点或行为暗示对Kimi的喜爱（Grok bot神似Kimi），作者也建议马圣买Kimi",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "马斯克",
       "target": "seedance",
       "relation_type": "praises",
       "type": "praises",
@@ -441,5 +527,30 @@
       ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "阶跃星辰",
+      "target": "马斯克",
+      "score": 0.5401,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "123",
+        "134"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "anthropic",
+      "target": "马斯克",
+      "score": 0.4002,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "060",
+        "123"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

@@ -33,7 +33,7 @@
       }
     ],
     "degree": 4,
-    "composite_weight": 0.035
+    "composite_weight": 0.0345
   },
   "links": [
     {
@@ -128,5 +128,17 @@
       ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "闹闹",
+      "target": "陈冕",
+      "score": 0.3965,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "078"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

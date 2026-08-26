@@ -3,9 +3,9 @@
     "id": "英伟达",
     "name": "英伟达",
     "type": "company",
-    "description": "其Cosmos产品被提及作为物理AI的对标对象",
-    "mention_count": 6,
-    "article_count": 4,
+    "description": "GPU芯片厂商，文中提及支持开源模型及算力限制问题",
+    "mention_count": 9,
+    "article_count": 5,
     "aliases": [
       "NVIDIA",
       "Nvidia"
@@ -17,11 +17,21 @@
       "算力",
       "脑机接口比喻",
       "自动驾驶",
+      "芯片",
       "高市值"
     ],
-    "references": 4,
-    "source_article_count": 4,
+    "references": 5,
+    "source_article_count": 5,
     "source_articles": [
+      {
+        "article_id": "138",
+        "title": "开源模型就是统一战线",
+        "date": "2026-08-26",
+        "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "permalink": "/articles/138",
+        "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "mention_count": 3
+      },
       {
         "article_id": "074",
         "title": "做个人吧，别做AI",
@@ -59,8 +69,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 4,
-    "composite_weight": 0.0506
+    "degree": 5,
+    "composite_weight": 0.0705
   },
   "links": [
     {
@@ -150,6 +160,32 @@
           "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
           "date": "2026-03-22",
           "label": "黄仁勋是英伟达的老板。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "英伟达",
+      "target": "k3",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "包括英伟达在内的270多家公司发公开信支持开源模型（K3为代表）",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "138"
+      ],
+      "evidences": [
+        {
+          "article_id": "138",
+          "title": "开源模型就是统一战线",
+          "permalink": "/articles/138",
+          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "date": "2026-08-26",
+          "label": "包括英伟达在内的270多家公司发公开信支持开源模型（K3为代表）",
           "weight": 1
         }
       ]

@@ -3,9 +3,9 @@
     "id": "美团",
     "name": "美团",
     "type": "company",
-    "description": "中国科技巨头，业务涵盖外卖、AI大模型及投资等",
-    "mention_count": 27,
-    "article_count": 4,
+    "description": "LongCat模型开发公司，首个在国产芯片完成训推全流程",
+    "mention_count": 30,
+    "article_count": 6,
     "aliases": [
       "Meituan",
       "团子"
@@ -13,13 +13,16 @@
     "tags": [
       "互联网公司",
       "互联网大厂",
+      "匿名打榜",
       "团购",
+      "国产大模型",
       "大模型",
       "物理AI",
-      "生活方式Agent"
+      "生活方式Agent",
+      "算力国产化"
     ],
-    "references": 4,
-    "source_article_count": 4,
+    "references": 6,
+    "source_article_count": 6,
     "source_articles": [
       {
         "article_id": "128",
@@ -31,6 +34,15 @@
         "mention_count": 23
       },
       {
+        "article_id": "138",
+        "title": "开源模型就是统一战线",
+        "date": "2026-08-26",
+        "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "permalink": "/articles/138",
+        "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "mention_count": 2
+      },
+      {
         "article_id": "018",
         "title": "电骡快跑，Mulerun想做AI淘宝",
         "date": "2025-09-02",
@@ -38,6 +50,15 @@
         "permalink": "/articles/018",
         "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
         "mention_count": 2
+      },
+      {
+        "article_id": "137",
+        "title": "匿名打榜的都是二流模型",
+        "date": "2026-08-25",
+        "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+        "permalink": "/articles/137",
+        "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+        "mention_count": 1
       },
       {
         "article_id": "116",
@@ -58,8 +79,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 10,
-    "composite_weight": 0.1442
+    "degree": 13,
+    "composite_weight": 0.1805
   },
   "links": [
     {
@@ -89,11 +110,50 @@
       ]
     },
     {
+      "source": "智谱ai",
+      "target": "美团",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属被列举的采用匿名打榜策略的厂商",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "137"
+      ],
+      "evidences": [
+        {
+          "article_id": "137",
+          "title": "匿名打榜的都是二流模型",
+          "permalink": "/articles/137",
+          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "date": "2026-08-25",
+          "label": "同属被列举的采用匿名打榜策略的厂商",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "美团",
       "target": "minimax",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文章将美团与MiniMax对比，认为两者'既要又要还要但都不突出'",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "美团",
+      "target": "智谱ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属被列举的采用匿名打榜策略的厂商",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -162,6 +222,32 @@
           "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
           "date": "2026-08-04",
           "label": "美团推出编程工具CatPaw",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "美团",
+      "target": "longcat",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "美团开发了LongCat模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "138"
+      ],
+      "evidences": [
+        {
+          "article_id": "138",
+          "title": "开源模型就是统一战线",
+          "permalink": "/articles/138",
+          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "date": "2026-08-26",
+          "label": "美团开发了LongCat模型",
           "weight": 1
         }
       ]
@@ -301,12 +387,25 @@
     {
       "source": "美团",
       "target": "豆包",
-      "score": 0.4635,
+      "score": 0.4607,
       "suggested_relation_type": "related",
       "reason": "共同出现于 2 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "040",
         "128"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "kimi",
+      "target": "美团",
+      "score": 0.4475,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "040",
+        "116",
+        "138"
       ],
       "status": "suggested"
     }

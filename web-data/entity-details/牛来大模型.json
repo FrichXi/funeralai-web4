@@ -1,0 +1,100 @@
+{
+  "node": {
+    "id": "牛来大模型",
+    "name": "牛来大模型",
+    "type": "product",
+    "description": "近期引发市场猜测的匿名大模型，被作者推测属于智谱AI",
+    "mention_count": 6,
+    "article_count": 1,
+    "aliases": [
+      "牛来"
+    ],
+    "tags": [
+      "匿名模型",
+      "炒作"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "137",
+        "title": "匿名打榜的都是二流模型",
+        "date": "2026-08-25",
+        "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+        "permalink": "/articles/137",
+        "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+        "mention_count": 6
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0416
+  },
+  "links": [
+    {
+      "source": "fable",
+      "target": "牛来大模型",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中提到牛来大模型在部分测试中被拿来与Fable对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "137"
+      ],
+      "evidences": [
+        {
+          "article_id": "137",
+          "title": "匿名打榜的都是二流模型",
+          "permalink": "/articles/137",
+          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "date": "2026-08-25",
+          "label": "文中提到牛来大模型在部分测试中被拿来与Fable对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "牛来大模型",
+      "target": "fable",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中提到牛来大模型在部分测试中被拿来与Fable对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "智谱ai",
+      "target": "牛来大模型",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "文章推测牛来大模型由智谱AI开发并发布",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "137"
+      ],
+      "evidences": [
+        {
+          "article_id": "137",
+          "title": "匿名打榜的都是二流模型",
+          "permalink": "/articles/137",
+          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "date": "2026-08-25",
+          "label": "文章推测牛来大模型由智谱AI开发并发布",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

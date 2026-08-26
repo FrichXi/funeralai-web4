@@ -4,8 +4,8 @@
     "name": "Anthropic",
     "type": "company",
     "description": "Claude及Claude Code背后的AI开发公司",
-    "mention_count": 30,
-    "article_count": 13,
+    "mention_count": 33,
+    "article_count": 15,
     "aliases": [
       "A畜"
     ],
@@ -18,10 +18,12 @@
       "大模型公司",
       "大模型厂商",
       "模型公司",
-      "模型厂"
+      "模型厂",
+      "美国AI",
+      "闭源模型"
     ],
-    "references": 13,
-    "source_article_count": 13,
+    "references": 15,
+    "source_article_count": 15,
     "source_articles": [
       {
         "article_id": "109",
@@ -40,6 +42,15 @@
         "permalink": "/articles/031",
         "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "138",
+        "title": "开源模型就是统一战线",
+        "date": "2026-08-26",
+        "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "permalink": "/articles/138",
+        "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+        "mention_count": 2
       },
       {
         "article_id": "123",
@@ -67,6 +78,15 @@
         "permalink": "/articles/040",
         "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
         "mention_count": 2
+      },
+      {
+        "article_id": "136",
+        "title": "AI应用骗钱，哦不融资指南",
+        "date": "2026-08-23",
+        "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "permalink": "/articles/136",
+        "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "mention_count": 1
       },
       {
         "article_id": "122",
@@ -141,8 +161,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 21,
-    "composite_weight": 0.2416
+    "degree": 24,
+    "composite_weight": 0.2767
   },
   "links": [
     {
@@ -314,6 +334,32 @@
     },
     {
       "source": "anthropic",
+      "target": "deepseek",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Deepseek作为开源模型厂与Anthropic竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "136"
+      ],
+      "evidences": [
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "date": "2026-08-23",
+          "label": "Deepseek作为开源模型厂与Anthropic竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "anthropic",
       "target": "openai",
       "relation_type": "competes_with",
       "type": "competes_with",
@@ -376,6 +422,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "deepseek",
+      "target": "anthropic",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Deepseek作为开源模型厂与Anthropic竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
     },
     {
       "source": "openai",
@@ -609,6 +668,32 @@
       ]
     },
     {
+      "source": "anthropic",
+      "target": "fable-5",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Anthropic发布了强大的Fable 5模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "138"
+      ],
+      "evidences": [
+        {
+          "article_id": "138",
+          "title": "开源模型就是统一战线",
+          "permalink": "/articles/138",
+          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "date": "2026-08-26",
+          "label": "Anthropic发布了强大的Fable 5模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "邪恶意大利人",
       "target": "anthropic",
       "relation_type": "founder_of",
@@ -677,37 +762,23 @@
   "suggested_edges": [
     {
       "source": "anthropic",
-      "target": "deepseek",
-      "score": 0.6983,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "070",
-        "099",
-        "103",
-        "105",
-        "109"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "anthropic",
       "target": "codex",
-      "score": 0.6684,
+      "score": 0.7345,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "066",
         "103",
         "105",
-        "109"
+        "109",
+        "136"
       ],
       "status": "suggested"
     },
     {
       "source": "anthropic",
       "target": "cherry-studio",
-      "score": 0.6678,
+      "score": 0.663,
       "suggested_relation_type": "related",
       "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -722,9 +793,9 @@
     {
       "source": "anthropic",
       "target": "minimax",
-      "score": 0.5776,
+      "score": 0.6387,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 6 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "060",
         "099",
@@ -737,15 +808,27 @@
     {
       "source": "anthropic",
       "target": "qwen",
-      "score": 0.5269,
+      "score": 0.59,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "060",
         "066",
         "099",
         "103",
         "105"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "anthropic",
+      "target": "阶跃星辰",
+      "score": 0.5468,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "109",
+        "123"
       ],
       "status": "suggested"
     }

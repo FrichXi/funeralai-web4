@@ -301,7 +301,7 @@
       }
     ],
     "degree": 70,
-    "composite_weight": 0.8761
+    "composite_weight": 0.8525
   },
   "links": [
     {
@@ -1830,7 +1830,7 @@
     {
       "source": "豆包",
       "target": "阿里巴巴",
-      "score": 0.8085,
+      "score": 0.8036,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1845,7 +1845,7 @@
     {
       "source": "智谱ai",
       "target": "豆包",
-      "score": 0.6776,
+      "score": 0.6702,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1858,22 +1858,9 @@
       "status": "suggested"
     },
     {
-      "source": "manus",
-      "target": "豆包",
-      "score": 0.5948,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
-      "evidence_article_ids": [
-        "004",
-        "040",
-        "057"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "火山引擎",
       "target": "豆包",
-      "score": 0.5937,
+      "score": 0.5926,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1886,15 +1873,29 @@
       "status": "suggested"
     },
     {
-      "source": "葬爱咸鱼",
+      "source": "manus",
       "target": "豆包",
-      "score": 0.5846,
-      "suggested_relation_type": "related",
+      "score": 0.5899,
+      "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
-        "064",
-        "111",
-        "125"
+        "004",
+        "040",
+        "057"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "谷歌",
+      "target": "豆包",
+      "score": 0.5845,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "014",
+        "065",
+        "071",
+        "086"
       ],
       "status": "suggested"
     }

@@ -1,0 +1,605 @@
+{
+  "id": "136",
+  "title": "AI应用骗钱，哦不融资指南",
+  "date": "2026-08-23",
+  "author": "葬爱咸鱼",
+  "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+  "permalink": "/articles/136",
+  "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+  "raw_markdown": "# AI应用骗钱，哦不融资指南\n\n2026年8月23日 葬爱咸鱼 葬AI\n\n---\n\n有印象的朋友或许还记得Austin，当时他的产品Taku发宣传片，还只能邀请码阶段就说Taku「不是AgentOS，就是一个OS」。\n\n气势拉满，结果后来没声了。\n\n更早之前，Austin在一家名为Sapient、号称在做大模型的公司当联创。他在没有人投大模型的2024年，活生生带着一个00后小天才3个月把公司干到2亿美金估值。\n\n真乃神人也。\n\n不过当时融完资以后，我再也没听说Sapient的任何故事了，都不知道这公司还活着不？投资方祥峰还有日本住友感觉纯当冤大头了。当然骗外国人的钱我完全没意见。\n\n鉴于他过往战绩可查，我认为Taku这次肯定骗不到钱了。\n\n结果最近哥们跟我说他还活着，还融到钱了，Taku 2.0都要发了，于是我们赶紧约他讲讲「骗钱心得」，以及他对当下AI应用的看法。\n\n以下是Austin写的：\n\n咸鱼一直问我，我到底是怎么一直能在市场很差的情况下骗到钱的。\n\n23年-24年在大家都不看大模型了，我硬是搞了个Neo lab出来，26年大家都觉得AI应用傻福了，我还是骗到钱了。\n\n其实两次都不容易，基本上都是在聊了无数机构，拿到无数个No之后才看到了一点点光。\n\n当时23-24年，我们和投资人讲强化学习，所有人都把我们当傻逼看。“好好的一群年轻人，不去研究Prompt engineering和Workflow这么火爆的事情，怎么跑去文艺复兴强化学习了？”\n\n投资人不懂，就只能说服懂的大佬加入，投资人看到大佬，自然也就信了。 你需要忽悠到好的Researcher。\n\n当时融资最大的变数就是我从Deepmind这些地方薅来了几个强化学习领域核心的researcher，投资人一看他们的citation。直言Wow，这个技术路径竟然如此合理。\n\n这里其实有个很反直觉的事情。大家的共识是顶级AI人才很难挖，但是其实并没有那么难，很多前沿实验室的人都很想创业。只不过他们大多数不想跟登味很重的人创业，做登味很重的Research，或者单纯的蒸馏。\n\n所以骗到了钱，2200多万美金，在24年资本的寒冬，用模型团队的故事。当然后来我走了。\n\n到24年底，我想在这个基础上做一个好产品，当时还没有Claude code，也没有Code，我们内部叫这个项目Terminal coding agent。其实就是CLI coding agent，也是后来我做Taku的起点。\n\n但是问题还是一样的，Taku在融资的时候，甚至有机构直接质疑「CLI是什么，不做Web产品不是开历史的倒车吗？」\n\n其实咸鱼也吐槽过我，说这是他第一次见到一个不能直接甩一个网页就试用的产品，感觉我是卖假酒的。\n\n转折来自今年年初，我要给我们团队找一个CTO，就拉了几个之前想拉进我前司的Researcher们。\n\n他们立刻就对Taku的形态产生了很浓厚的兴趣。因为大家觉得，这天生是个完美的Agentic Playground/Sandbox。 你可以在这里面做很多Agentic 任务的训练，测试和数据采集。\n\n作为一个不设限的灵活沙盒，它甚至可以去跑合成数据。\n\n于是我又忽悠到了好的Researcher，还是他们自己找上门的。\n\n这里就要提马卡龙了。我已经完成了「质疑马卡龙，理解马卡龙，成为马卡龙」的三步走进化。\n\n马卡龙之神——陈锴杰之前有一个采访稿说做马卡龙的过程中，有了新的见解，所以成立了Mind lab开始做Research。很多人说这就是蹭一下Neo lab来顶估值。\n\n但是经过了这一年多的产品打磨和思考，我发现马卡龙是对的，确实得蹭Neo lab。\n\nProduct companies are the new Neo labs。\n\n说回AI应用。AI应用现在融资这么冷是有原因的，几乎没有Founder在真的去思考人要什么，Founder们自己作为一个AI卷王在过度脑补自己想要的产品，幻想全世界都和自己一样是个卷王。（或者干脆直接抄爆款，做大复刻）\n\n但我觉得AI应用死没死并不重要，主要的问题在于现在市面上没有人在冒险，没有人在尝试没人做过的东西。每一个新品类的流程大多分两种：\n\n第一种：字节高P出来创业，做了一个产品形态，可能是一个Video Agent，融到了高瓴或者红杉的钱，然后马上就有另一群人出来，大家都是前剪映产品负责人，抖音第一位运营。\n\n大家都做一样的事情，毕竟抄作业是最简单，做不会出错的方式。 这些团队可以说「我比xxx叼，我要做更好的xxx。」\n\n但问题来了，所有人的用户都一样，痛点都一样，这些产品经理可能之前都一个组的，同一个师傅教的，破不了招啊。 你有创新，其他人抄也非常快。最后理所应当陈冕靠简单粗暴的规模压倒了OiiOii、Flova等一众对手；\n\n第二种：美国有个xx公司火了，马上就会冒出一群大厂高P。我们以更高的效率，更低的成本，去做全球化，去抢这个新蓝海，比如AI Teams。\n\nViktor刚一火，国内就冒出来了一堆AI teams，甚至之前很多“神一样的创业者”都纷纷pivot，All in AI Teams。 谁不想有一群赛博老奴，帮你把脏活累活都干了，帮你拉齐团队需求呢。饼肯定是香的。\n\n如果你去体验一下Viktor，或者任何海外爆火的产品。你都会觉得，我艹，这么垃圾的产品，怎么有这么多用户，为什么老外就是付钱？\n\n然后自然而然的想到，「我上我也行，老子字节3-2，产品力拉爆他们」。 然后陷入一个，产品确实比海外竞品好，但还是没人用的怪圈里。\n\n有一个大家不愿意承认的事，中国团队那就是创业达利特。根本混不进去那个产品驱动增长的婆罗门圈子。 对比那些硅谷婆罗门，振臂一呼就有一堆YC校友，大厂同胞，和藤校校友和邪教一样来帮你刷ARR。\n\n更别说在官网贴一个 Backed By A16Z，这样买方可以随时给老板甩锅，“这是个A16Z投的项目啊，我也没想到会出问题啊，A16Z傻逼”。 中国达利特们，没法让史密斯专员们爽，更没办法让他们没有任何风险的爽。\n\n绝大部分时间，产品力和技术不重要，重要的只有规模和渠道。冕神是真的领先版本。\n\n模型也不重要。\n\n现在的主流叙事是，模型终会吞噬一切，所有的应用能力都会被模型内化，模型即一切。 前半段没错，后半段没对。\n\n模型能力当然会不断提升，会有越来越多之前需要堆叠Skill，上Harness，甚至叠人力的任务能被base model直接做完。\n\nDeepseek很伟大是因为他们坚持开源。但对模型，没有人忠诚。\n\n模型厂的KPI（除了刷榜）是有更多人用这个模型，也没多少人会直连API。\n\n对开源模型会更难，云厂商，token 工厂，私有化部署还会分走更大一杯羹。开源模型厂好像就是没有解法。\n\n开源模型厂更不太可能做好产品，因为他们的竞争对手是OpenAI，Anthropic，Google，和Meta的模型+全世界的产品创业者的创意+加美国VC的大撒币。 这也是一种孤勇吧。所以Deepseek确实不应该做产品，这些开源模型厂都不应该做产品。\n\n用户对LibTV忠诚肯定远高于模型，大概率高于其他Video agent，因为用户留存了数据。他们怎么组织自己的想法，怎么编排，怎么修改，怎么骂模型是个傻逼。这些数据模型厂根本没有。\n\n负责编排的Agent 跑的是一个模型，生成的是另一个，模型厂根本对不齐上下文。 Seedance看不到我在LibTV前端骂GPT没有理解我的意思，GPT也看不到Seedance做了什么。\n\n但LibTV都能看到。\n\nLibTV还有巨量的资金，在激进的补贴用户使用产品，产出数据，而且LibTV这一大类的产品本身对于很多创作者是刚需，这个循环飞轮就很完美。所以LibTV一定会成为马卡龙 pro max 2TB。\n\n期待一波日冕大模型，一个真正的端到端的Agentic Generation Mode。\n\n再说各家Work类的产品，什么Qwen Work、Trae Work、豆包企业版，连快入土了的百度都来蹭一脚，做了个库库AI。。。\n\n这些产品的问题是让大家越用越累，感觉大家都忘记了，我们对AI的幻想是让AI帮我们偷懒。其实最赚钱最好的的产品其实都占着人类的七宗罪中的嫉妒，怠惰，暴食和色欲。\n\n我最近一直很喜欢提一个有趣的数据，就是Codex/ChatGPT Work现在不断在重制，相当于白给你钱，在百亿补贴。即使这样，Codex月活1000万，对比ChatGPT付费用户6000万人，中间还有5000万人的Gap，是大撒币都没转化过来的。 这些人永远不可能是卷王，你想赚他们的钱，就得把结果塞到他们嘴里，赚懒人偷懒的钱。\n\n这不也是大家对AI的初心吗，帮你把工作做了。\n\n只不过这波AI产品大家似乎都变成了「你用我的AI工具就能赚到钱」、「你可以效率更高指挥1000个AI牛马｜。 总之，大家体验了产品，发现没有赚到钱，就卸载吃灰了。\n\n赚钱是TMD很累的，赚钱是TMD很难的。\n\n当然有一个例外，就还是LibTV。因为短剧确实是相对能赚到钱（当然很多还是和色欲有关）。\n\n所以就来了一个抽象的情况，就是所有AI应用公司排队抄LibTV，甚至明超平也做了一个山寨LibTV（Renoise），那月光TV还会远吗？\n\n我干脆给大家指一条未来的明路吧：\n\n做战略上的马卡龙，做战术上的LibTV——做一个能留住用户的好产品，这个产品整合了多个工作类别和步骤，扩展到足够大的用户规模，然后训练模型。\n\n但是这条路很难，非常难。\n\n你需要忽悠到好的 Researcher，做个好产品，还得骗到钱。从前创业，你做一个就够了。\n\n所以回答咸鱼的问题，在逆境中骗到钱的方式很简单，搞点文艺复兴，玩点非主流，开些历史倒车，然后找到足够能说服投资人的大佬/中佬/小佬。\n\n当然还有一个杀手锏。。。。 就是撸网贷，我前司和Taku融到钱之前，我其实都撸了网贷来做Demo和开发。\n\n相信一件事，敢撸网贷才能走出来。\n\nPS：Taku 2.0 Beta最近上线了，这是一个专门抄大佬作业的平台。你看到的大佬们的复杂 set up，到你手上就是一个简单的 Taku app。不用配环境，不用读 .md，打开就能用。\n\n（本文封面由ChatGPT生成，纯人工写作）\n",
+  "body_markdown": "# AI应用骗钱，哦不融资指南\n\n2026年8月23日 葬爱咸鱼 葬AI\n\n---\n\n有印象的朋友或许还记得Austin，当时他的产品Taku发宣传片，还只能邀请码阶段就说Taku「不是AgentOS，就是一个OS」。\n\n气势拉满，结果后来没声了。\n\n更早之前，Austin在一家名为Sapient、号称在做大模型的公司当联创。他在没有人投大模型的2024年，活生生带着一个00后小天才3个月把公司干到2亿美金估值。\n\n真乃神人也。\n\n不过当时融完资以后，我再也没听说Sapient的任何故事了，都不知道这公司还活着不？投资方祥峰还有日本住友感觉纯当冤大头了。当然骗外国人的钱我完全没意见。\n\n鉴于他过往战绩可查，我认为Taku这次肯定骗不到钱了。\n\n结果最近哥们跟我说他还活着，还融到钱了，Taku 2.0都要发了，于是我们赶紧约他讲讲「骗钱心得」，以及他对当下AI应用的看法。\n\n以下是Austin写的：\n\n咸鱼一直问我，我到底是怎么一直能在市场很差的情况下骗到钱的。\n\n23年-24年在大家都不看大模型了，我硬是搞了个Neo lab出来，26年大家都觉得AI应用傻福了，我还是骗到钱了。\n\n其实两次都不容易，基本上都是在聊了无数机构，拿到无数个No之后才看到了一点点光。\n\n当时23-24年，我们和投资人讲强化学习，所有人都把我们当傻逼看。“好好的一群年轻人，不去研究Prompt engineering和Workflow这么火爆的事情，怎么跑去文艺复兴强化学习了？”\n\n投资人不懂，就只能说服懂的大佬加入，投资人看到大佬，自然也就信了。 你需要忽悠到好的Researcher。\n\n当时融资最大的变数就是我从Deepmind这些地方薅来了几个强化学习领域核心的researcher，投资人一看他们的citation。直言Wow，这个技术路径竟然如此合理。\n\n这里其实有个很反直觉的事情。大家的共识是顶级AI人才很难挖，但是其实并没有那么难，很多前沿实验室的人都很想创业。只不过他们大多数不想跟登味很重的人创业，做登味很重的Research，或者单纯的蒸馏。\n\n所以骗到了钱，2200多万美金，在24年资本的寒冬，用模型团队的故事。当然后来我走了。\n\n到24年底，我想在这个基础上做一个好产品，当时还没有Claude code，也没有Code，我们内部叫这个项目Terminal coding agent。其实就是CLI coding agent，也是后来我做Taku的起点。\n\n但是问题还是一样的，Taku在融资的时候，甚至有机构直接质疑「CLI是什么，不做Web产品不是开历史的倒车吗？」\n\n其实咸鱼也吐槽过我，说这是他第一次见到一个不能直接甩一个网页就试用的产品，感觉我是卖假酒的。\n\n转折来自今年年初，我要给我们团队找一个CTO，就拉了几个之前想拉进我前司的Researcher们。\n\n他们立刻就对Taku的形态产生了很浓厚的兴趣。因为大家觉得，这天生是个完美的Agentic Playground/Sandbox。 你可以在这里面做很多Agentic 任务的训练，测试和数据采集。\n\n作为一个不设限的灵活沙盒，它甚至可以去跑合成数据。\n\n于是我又忽悠到了好的Researcher，还是他们自己找上门的。\n\n这里就要提马卡龙了。我已经完成了「质疑马卡龙，理解马卡龙，成为马卡龙」的三步走进化。\n\n马卡龙之神——陈锴杰之前有一个采访稿说做马卡龙的过程中，有了新的见解，所以成立了Mind lab开始做Research。很多人说这就是蹭一下Neo lab来顶估值。\n\n但是经过了这一年多的产品打磨和思考，我发现马卡龙是对的，确实得蹭Neo lab。\n\nProduct companies are the new Neo labs。\n\n说回AI应用。AI应用现在融资这么冷是有原因的，几乎没有Founder在真的去思考人要什么，Founder们自己作为一个AI卷王在过度脑补自己想要的产品，幻想全世界都和自己一样是个卷王。（或者干脆直接抄爆款，做大复刻）\n\n但我觉得AI应用死没死并不重要，主要的问题在于现在市面上没有人在冒险，没有人在尝试没人做过的东西。每一个新品类的流程大多分两种：\n\n第一种：字节高P出来创业，做了一个产品形态，可能是一个Video Agent，融到了高瓴或者红杉的钱，然后马上就有另一群人出来，大家都是前剪映产品负责人，抖音第一位运营。\n\n大家都做一样的事情，毕竟抄作业是最简单，做不会出错的方式。 这些团队可以说「我比xxx叼，我要做更好的xxx。」\n\n但问题来了，所有人的用户都一样，痛点都一样，这些产品经理可能之前都一个组的，同一个师傅教的，破不了招啊。 你有创新，其他人抄也非常快。最后理所应当陈冕靠简单粗暴的规模压倒了OiiOii、Flova等一众对手；\n\n第二种：美国有个xx公司火了，马上就会冒出一群大厂高P。我们以更高的效率，更低的成本，去做全球化，去抢这个新蓝海，比如AI Teams。\n\nViktor刚一火，国内就冒出来了一堆AI teams，甚至之前很多“神一样的创业者”都纷纷pivot，All in AI Teams。 谁不想有一群赛博老奴，帮你把脏活累活都干了，帮你拉齐团队需求呢。饼肯定是香的。\n\n如果你去体验一下Viktor，或者任何海外爆火的产品。你都会觉得，我艹，这么垃圾的产品，怎么有这么多用户，为什么老外就是付钱？\n\n然后自然而然的想到，「我上我也行，老子字节3-2，产品力拉爆他们」。 然后陷入一个，产品确实比海外竞品好，但还是没人用的怪圈里。\n\n有一个大家不愿意承认的事，中国团队那就是创业达利特。根本混不进去那个产品驱动增长的婆罗门圈子。 对比那些硅谷婆罗门，振臂一呼就有一堆YC校友，大厂同胞，和藤校校友和邪教一样来帮你刷ARR。\n\n更别说在官网贴一个 Backed By A16Z，这样买方可以随时给老板甩锅，“这是个A16Z投的项目啊，我也没想到会出问题啊，A16Z傻逼”。 中国达利特们，没法让史密斯专员们爽，更没办法让他们没有任何风险的爽。\n\n绝大部分时间，产品力和技术不重要，重要的只有规模和渠道。冕神是真的领先版本。\n\n模型也不重要。\n\n现在的主流叙事是，模型终会吞噬一切，所有的应用能力都会被模型内化，模型即一切。 前半段没错，后半段没对。\n\n模型能力当然会不断提升，会有越来越多之前需要堆叠Skill，上Harness，甚至叠人力的任务能被base model直接做完。\n\nDeepseek很伟大是因为他们坚持开源。但对模型，没有人忠诚。\n\n模型厂的KPI（除了刷榜）是有更多人用这个模型，也没多少人会直连API。\n\n对开源模型会更难，云厂商，token 工厂，私有化部署还会分走更大一杯羹。开源模型厂好像就是没有解法。\n\n开源模型厂更不太可能做好产品，因为他们的竞争对手是OpenAI，Anthropic，Google，和Meta的模型+全世界的产品创业者的创意+加美国VC的大撒币。 这也是一种孤勇吧。所以Deepseek确实不应该做产品，这些开源模型厂都不应该做产品。\n\n用户对LibTV忠诚肯定远高于模型，大概率高于其他Video agent，因为用户留存了数据。他们怎么组织自己的想法，怎么编排，怎么修改，怎么骂模型是个傻逼。这些数据模型厂根本没有。\n\n负责编排的Agent 跑的是一个模型，生成的是另一个，模型厂根本对不齐上下文。 Seedance看不到我在LibTV前端骂GPT没有理解我的意思，GPT也看不到Seedance做了什么。\n\n但LibTV都能看到。\n\nLibTV还有巨量的资金，在激进的补贴用户使用产品，产出数据，而且LibTV这一大类的产品本身对于很多创作者是刚需，这个循环飞轮就很完美。所以LibTV一定会成为马卡龙 pro max 2TB。\n\n期待一波日冕大模型，一个真正的端到端的Agentic Generation Mode。\n\n再说各家Work类的产品，什么Qwen Work、Trae Work、豆包企业版，连快入土了的百度都来蹭一脚，做了个库库AI。。。\n\n这些产品的问题是让大家越用越累，感觉大家都忘记了，我们对AI的幻想是让AI帮我们偷懒。其实最赚钱最好的的产品其实都占着人类的七宗罪中的嫉妒，怠惰，暴食和色欲。\n\n我最近一直很喜欢提一个有趣的数据，就是Codex/ChatGPT Work现在不断在重制，相当于白给你钱，在百亿补贴。即使这样，Codex月活1000万，对比ChatGPT付费用户6000万人，中间还有5000万人的Gap，是大撒币都没转化过来的。 这些人永远不可能是卷王，你想赚他们的钱，就得把结果塞到他们嘴里，赚懒人偷懒的钱。\n\n这不也是大家对AI的初心吗，帮你把工作做了。\n\n只不过这波AI产品大家似乎都变成了「你用我的AI工具就能赚到钱」、「你可以效率更高指挥1000个AI牛马｜。 总之，大家体验了产品，发现没有赚到钱，就卸载吃灰了。\n\n赚钱是TMD很累的，赚钱是TMD很难的。\n\n当然有一个例外，就还是LibTV。因为短剧确实是相对能赚到钱（当然很多还是和色欲有关）。\n\n所以就来了一个抽象的情况，就是所有AI应用公司排队抄LibTV，甚至明超平也做了一个山寨LibTV（Renoise），那月光TV还会远吗？\n\n我干脆给大家指一条未来的明路吧：\n\n做战略上的马卡龙，做战术上的LibTV——做一个能留住用户的好产品，这个产品整合了多个工作类别和步骤，扩展到足够大的用户规模，然后训练模型。\n\n但是这条路很难，非常难。\n\n你需要忽悠到好的 Researcher，做个好产品，还得骗到钱。从前创业，你做一个就够了。\n\n所以回答咸鱼的问题，在逆境中骗到钱的方式很简单，搞点文艺复兴，玩点非主流，开些历史倒车，然后找到足够能说服投资人的大佬/中佬/小佬。\n\n当然还有一个杀手锏。。。。 就是撸网贷，我前司和Taku融到钱之前，我其实都撸了网贷来做Demo和开发。\n\n相信一件事，敢撸网贷才能走出来。\n\nPS：Taku 2.0 Beta最近上线了，这是一个专门抄大佬作业的平台。你看到的大佬们的复杂 set up，到你手上就是一个简单的 Taku app。不用配环境，不用读 .md，打开就能用。\n\n（本文封面由ChatGPT生成，纯人工写作）",
+  "excerpt": "# AI应用骗钱，哦不融资指南 2026年8月23日 葬爱咸鱼 葬AI --- 有印象的朋友或许还记得Austin，当时他的产品Taku发宣传片，还只能邀请码阶段就说Taku「不是AgentOS，就是一个OS」。 气势拉满，结果后来没声了。 更早之前，Austin在一家名为Sapient、号称在做大模型的公司当联创。他在没有人投大模型的2024年，活生生带着一个00后小天才3个月把公司干到2亿美金估值。 真乃神人也。 不过当时融完...",
+  "entity_count": 28,
+  "relationship_count": 25,
+  "entities": [
+    {
+      "id": "libtv",
+      "name": "LibTV",
+      "type": "product",
+      "description": "AI短剧/视频平台，是Seedance的大客户，也是MiniMax复刻的对象",
+      "mention_count": 10,
+      "aliases": [
+        "Liblib",
+        "Libtv",
+        "liblib.tv",
+        "爱冕TV"
+      ],
+      "tags": [
+        "短剧",
+        "Agentic Generation"
+      ]
+    },
+    {
+      "id": "taku",
+      "name": "Taku",
+      "type": "product",
+      "description": "Austin开发的CLI coding agent/OS产品",
+      "mention_count": 10,
+      "aliases": [
+        "Taku 2.0"
+      ],
+      "tags": [
+        "AgentOS",
+        "Coding Agent"
+      ]
+    },
+    {
+      "id": "austin",
+      "name": "Austin",
+      "type": "person",
+      "description": "Taku和Neo lab创始人，前Sapient联合创始人",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "连续创业者",
+        "AI应用"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "OpenAI的通用大语言模型产品，被视为AI陪伴赛道的未来方向之一",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "mindverse",
+      "name": "Mindverse",
+      "type": "company",
+      "description": "原马卡龙团队转型后的公司，自称为Agent模型实验室",
+      "mention_count": 3,
+      "aliases": [
+        "Agent模型实验室",
+        "Neo Lab"
+      ],
+      "tags": [
+        "强化学习",
+        "Research"
+      ]
+    },
+    {
+      "id": "a16z",
+      "name": "a16z",
+      "type": "vc_firm",
+      "description": "一家顶级的风险投资机构，本质上通过内容制造叙事并作为媒体公司运营进行投资盈利。",
+      "mention_count": 3,
+      "aliases": [
+        "A16Z",
+        "Andreessen Horowitz"
+      ],
+      "tags": []
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "AI编程/代理工具，文中作为本地Agent的代表被Raft和Tutti集成或模拟",
+      "mention_count": 2,
+      "aliases": [
+        "Codex SDK",
+        "codex",
+        "骡子马"
+      ],
+      "tags": [
+        "代码生成"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "AI大模型公司，其爆火为Cherry Studio带来大量流量",
+      "mention_count": 2,
+      "aliases": [
+        "DS",
+        "DS V4 pro",
+        "DeepSeek-V4",
+        "Deepseek",
+        "Deepseek V4",
+        "深度求索"
+      ],
+      "tags": [
+        "开源模型"
+      ]
+    },
+    {
+      "id": "sapient",
+      "name": "Sapient",
+      "type": "company",
+      "description": "Austin曾联合创立的大模型公司",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "seedance",
+      "name": "Seedance",
+      "type": "product",
+      "description": "字节推出的AI视频生成大模型，支持参考图片、视频和音频生成并复刻内容。",
+      "mention_count": 2,
+      "aliases": [
+        "Seedance 2.0",
+        "Seedance 35折",
+        "Seedance API",
+        "Seedance2.0"
+      ],
+      "tags": [
+        "视频生成"
+      ]
+    },
+    {
+      "id": "viktor",
+      "name": "Viktor",
+      "type": "product",
+      "description": "海外爆火的AI Teams类产品",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI Teams"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "中国互联网科技公司，开发了抖音、即梦等产品，文中探讨了其通过AI视频模型实现社交的布局。",
+      "mention_count": 2,
+      "aliases": [
+        "ByteDance",
+        "大厂",
+        "头条",
+        "字节",
+        "字节家族",
+        "字节系",
+        "宇宙厂",
+        "火山",
+        "老东家",
+        "自绝跳动"
+      ],
+      "tags": []
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "type": "company",
+      "description": "Claude及Claude Code背后的AI开发公司",
+      "mention_count": 1,
+      "aliases": [
+        "A畜"
+      ],
+      "tags": []
+    },
+    {
+      "id": "flova",
+      "name": "Flova",
+      "type": "product",
+      "description": "集成了多模态大模型能力的AI视频生成工具，被作者比喻为“AI剪映宝宝”",
+      "mention_count": 1,
+      "aliases": [
+        "AI剪映宝宝"
+      ],
+      "tags": [
+        "Video Agent"
+      ]
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "type": "company",
+      "description": "国际科技巨头，开发了相对封闭生态的智能眼镜/头显设备",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "mind-lab",
+      "name": "Mind lab",
+      "type": "company",
+      "description": "陈锴杰成立的Research机构",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "Research"
+      ]
+    },
+    {
+      "id": "oiioii",
+      "name": "OiiOii",
+      "type": "product",
+      "description": "一款被作者提及并与Medeo在动画短片生成能力上进行对比的AI产品。",
+      "mention_count": 1,
+      "aliases": [
+        "Oii",
+        "Oii TV"
+      ],
+      "tags": [
+        "Video Agent"
+      ]
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "type": "company",
+      "description": "美国AI公司，GPT系列模型开发者，文中提及即将发布GPT 6",
+      "mention_count": 1,
+      "aliases": [
+        "O社"
+      ],
+      "tags": []
+    },
+    {
+      "id": "qwen-work",
+      "name": "Qwen Work",
+      "type": "product",
+      "description": "阿里通义旗下的Work类产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI办公"
+      ]
+    },
+    {
+      "id": "renoise",
+      "name": "Renoise",
+      "type": "product",
+      "description": "明超平开发的山寨LibTV产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "短剧"
+      ]
+    },
+    {
+      "id": "trae",
+      "name": "Trae",
+      "type": "product",
+      "description": "被称为国产之光的AI代码工具",
+      "mention_count": 1,
+      "aliases": [
+        "Trae Work"
+      ],
+      "tags": [
+        "AI办公"
+      ]
+    },
+    {
+      "id": "库库ai",
+      "name": "库库AI",
+      "type": "product",
+      "description": "百度推出的AI产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI办公"
+      ]
+    },
+    {
+      "id": "明超平",
+      "name": "明超平",
+      "type": "person",
+      "description": "Youware创始人、产品经理，Bloome的打造者",
+      "mention_count": 1,
+      "aliases": [
+        "小明",
+        "神父"
+      ],
+      "tags": []
+    },
+    {
+      "id": "百度",
+      "name": "百度",
+      "type": "company",
+      "description": "BAT之一，好大夫在线的前股东，曾雪中送炭投资多位AI创业者",
+      "mention_count": 1,
+      "aliases": [
+        "Baidu",
+        "百度战投"
+      ],
+      "tags": []
+    },
+    {
+      "id": "谷歌",
+      "name": "谷歌",
+      "type": "company",
+      "description": "开发了Antigravity等AI功能的科技巨头。",
+      "mention_count": 1,
+      "aliases": [
+        "Google",
+        "google"
+      ],
+      "tags": []
+    },
+    {
+      "id": "豆包企业版",
+      "name": "豆包企业版",
+      "type": "product",
+      "description": "字节旗下的企业级AI产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI办公"
+      ]
+    },
+    {
+      "id": "陈冕",
+      "name": "陈冕",
+      "type": "person",
+      "description": "LibTV/Lovart创始人，被称为“冕神”，双子座，主张激进执行与长期主义",
+      "mention_count": 1,
+      "aliases": [
+        "Amian",
+        "冕",
+        "冕神"
+      ],
+      "tags": []
+    },
+    {
+      "id": "锴杰",
+      "name": "陈锴杰",
+      "type": "person",
+      "description": "马卡龙的核心人物/创始人，被评价为具有创新能力和韧性。",
+      "mention_count": 1,
+      "aliases": [
+        "这个中国年轻人",
+        "锴杰",
+        "陈总",
+        "马卡龙之神",
+        "马卡龙创始人"
+      ],
+      "tags": [
+        "Research"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "austin",
+      "target_id": "sapient",
+      "source": "Austin",
+      "target": "Sapient",
+      "relation_type": "co_founded",
+      "label": "Austin是Sapient的联合创始人",
+      "weight": 1
+    },
+    {
+      "source_id": "chatgpt",
+      "target_id": "codex",
+      "source": "ChatGPT",
+      "target": "Codex",
+      "relation_type": "compares_to",
+      "label": "文中对比了Codex月活与ChatGPT付费用户的差距",
+      "weight": 1
+    },
+    {
+      "source_id": "libtv",
+      "target_id": "renoise",
+      "source": "LibTV",
+      "target": "Renoise",
+      "relation_type": "compares_to",
+      "label": "Renoise是LibTV的山寨版本",
+      "weight": 1
+    },
+    {
+      "source_id": "mind-lab",
+      "target_id": "neo-lab",
+      "source": "Mind lab",
+      "target": "Neo lab",
+      "relation_type": "compares_to",
+      "label": "外界认为Mind lab蹭Neo lab来顶估值，Austin也认同这种对标关系",
+      "weight": 1
+    },
+    {
+      "source_id": "neo-lab",
+      "target_id": "taku",
+      "source": "Neo lab",
+      "target": "Taku",
+      "relation_type": "compares_to",
+      "label": "Austin提出Product companies are the new Neo labs，将Taku这类产品公司与Neo lab进行概念对标",
+      "weight": 1
+    },
+    {
+      "source_id": "anthropic",
+      "target_id": "deepseek",
+      "source": "Anthropic",
+      "target": "DeepSeek",
+      "relation_type": "competes_with",
+      "label": "Deepseek作为开源模型厂与Anthropic竞争",
+      "weight": 1
+    },
+    {
+      "source_id": "deepseek",
+      "target_id": "meta",
+      "source": "DeepSeek",
+      "target": "Meta",
+      "relation_type": "competes_with",
+      "label": "Deepseek作为开源模型厂与Meta竞争",
+      "weight": 1
+    },
+    {
+      "source_id": "deepseek",
+      "target_id": "openai",
+      "source": "DeepSeek",
+      "target": "OpenAI",
+      "relation_type": "competes_with",
+      "label": "Deepseek作为开源模型厂与OpenAI竞争",
+      "weight": 1
+    },
+    {
+      "source_id": "deepseek",
+      "target_id": "谷歌",
+      "source": "DeepSeek",
+      "target": "谷歌",
+      "relation_type": "competes_with",
+      "label": "Deepseek作为开源模型厂与Google竞争",
+      "weight": 1
+    },
+    {
+      "source_id": "flova",
+      "target_id": "陈冕",
+      "source": "Flova",
+      "target": "陈冕",
+      "relation_type": "competes_with",
+      "label": "陈冕靠规模压倒了Flova",
+      "weight": 1
+    },
+    {
+      "source_id": "oiioii",
+      "target_id": "陈冕",
+      "source": "OiiOii",
+      "target": "陈冕",
+      "relation_type": "competes_with",
+      "label": "陈冕靠规模压倒了OiiOii",
+      "weight": 1
+    },
+    {
+      "source_id": "austin",
+      "target_id": "qwen-work",
+      "source": "Austin",
+      "target": "Qwen Work",
+      "relation_type": "criticizes",
+      "label": "Austin批评此类Work产品让大家越用越累",
+      "weight": 1
+    },
+    {
+      "source_id": "austin",
+      "target_id": "trae",
+      "source": "Austin",
+      "target": "Trae",
+      "relation_type": "criticizes",
+      "label": "Austin批评此类Work产品让大家越用越累",
+      "weight": 1
+    },
+    {
+      "source_id": "austin",
+      "target_id": "库库ai",
+      "source": "Austin",
+      "target": "库库AI",
+      "relation_type": "criticizes",
+      "label": "Austin批评此类Work产品让大家越用越累",
+      "weight": 1
+    },
+    {
+      "source_id": "austin",
+      "target_id": "豆包企业版",
+      "source": "Austin",
+      "target": "豆包企业版",
+      "relation_type": "criticizes",
+      "label": "Austin批评此类Work产品让大家越用越累",
+      "weight": 1
+    },
+    {
+      "source_id": "百度",
+      "target_id": "库库ai",
+      "source": "百度",
+      "target": "库库AI",
+      "relation_type": "develops",
+      "label": "百度开发了库库AI",
+      "weight": 1
+    },
+    {
+      "source_id": "austin",
+      "target_id": "neo-lab",
+      "source": "Austin",
+      "target": "Neo lab",
+      "relation_type": "founder_of",
+      "label": "Austin在23-24年创立了Neo lab",
+      "weight": 1
+    },
+    {
+      "source_id": "austin",
+      "target_id": "taku",
+      "source": "Austin",
+      "target": "Taku",
+      "relation_type": "founder_of",
+      "label": "Austin是Taku的创始人",
+      "weight": 1
+    },
+    {
+      "source_id": "锴杰",
+      "target_id": "mind-lab",
+      "source": "陈锴杰",
+      "target": "Mind lab",
+      "relation_type": "founder_of",
+      "label": "陈锴杰成立了Mind lab",
+      "weight": 1
+    },
+    {
+      "source_id": "chatgpt",
+      "target_id": "libtv",
+      "source": "ChatGPT",
+      "target": "LibTV",
+      "relation_type": "integrates_with",
+      "label": "LibTV前端可能调用GPT模型，但存在上下文对齐问题",
+      "weight": 1
+    },
+    {
+      "source_id": "libtv",
+      "target_id": "seedance",
+      "source": "LibTV",
+      "target": "Seedance",
+      "relation_type": "integrates_with",
+      "label": "LibTV前端可能调用Seedance模型，但存在上下文对齐问题",
+      "weight": 1
+    },
+    {
+      "source_id": "austin",
+      "target_id": "deepseek",
+      "source": "Austin",
+      "target": "DeepSeek",
+      "relation_type": "praises",
+      "label": "Austin称赞Deepseek坚持开源很伟大",
+      "weight": 1
+    },
+    {
+      "source_id": "austin",
+      "target_id": "libtv",
+      "source": "Austin",
+      "target": "LibTV",
+      "relation_type": "praises",
+      "label": "Austin认为LibTV一定会成为马卡龙pro max，是唯一例外的好产品",
+      "weight": 1
+    },
+    {
+      "source_id": "austin",
+      "target_id": "锴杰",
+      "source": "Austin",
+      "target": "陈锴杰",
+      "relation_type": "praises",
+      "label": "Austin表示“理解马卡龙，成为马卡龙”，认可陈锴杰的路径",
+      "weight": 1
+    },
+    {
+      "source_id": "明超平",
+      "target_id": "renoise",
+      "source": "明超平",
+      "target": "Renoise",
+      "relation_type": "works_on",
+      "label": "明超平制作了Renoise",
+      "weight": 1
+    }
+  ]
+}

@@ -114,7 +114,7 @@
       }
     ],
     "degree": 33,
-    "composite_weight": 0.344
+    "composite_weight": 0.3365
   },
   "links": [
     {
@@ -835,7 +835,7 @@
     {
       "source": "claude",
       "target": "mulerun",
-      "score": 0.5899,
+      "score": 0.5882,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -849,7 +849,7 @@
     {
       "source": "mulerun",
       "target": "qwen",
-      "score": 0.4781,
+      "score": 0.4762,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -861,7 +861,7 @@
     {
       "source": "cursor",
       "target": "mulerun",
-      "score": 0.4595,
+      "score": 0.4582,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
@@ -874,7 +874,7 @@
     {
       "source": "mulerun",
       "target": "腾讯",
-      "score": 0.4517,
+      "score": 0.4489,
       "suggested_relation_type": "related",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -884,13 +884,14 @@
       "status": "suggested"
     },
     {
-      "source": "mulerun",
-      "target": "蚂蚁集团",
-      "score": 0.3742,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 1 篇文章；共享 4 个邻居",
+      "source": "chatgpt",
+      "target": "mulerun",
+      "score": 0.399,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
-        "018"
+        "017",
+        "030"
       ],
       "status": "suggested"
     }

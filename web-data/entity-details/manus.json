@@ -287,7 +287,7 @@
       }
     ],
     "degree": 59,
-    "composite_weight": 0.5872
+    "composite_weight": 0.5758
   },
   "links": [
     {
@@ -1546,7 +1546,7 @@
     {
       "source": "manus",
       "target": "字节跳动",
-      "score": 0.8263,
+      "score": 0.8211,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
@@ -1561,7 +1561,7 @@
     {
       "source": "cursor",
       "target": "manus",
-      "score": 0.6605,
+      "score": 0.6588,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1576,7 +1576,7 @@
     {
       "source": "manus",
       "target": "qwen",
-      "score": 0.6518,
+      "score": 0.6474,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1591,7 +1591,7 @@
     {
       "source": "manus",
       "target": "夸克",
-      "score": 0.6477,
+      "score": 0.6432,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1604,14 +1604,15 @@
     },
     {
       "source": "manus",
-      "target": "豆包",
-      "score": 0.5948,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
+      "target": "百度",
+      "score": 0.6005,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
-        "004",
-        "040",
-        "057"
+        "017",
+        "022",
+        "055",
+        "059"
       ],
       "status": "suggested"
     }

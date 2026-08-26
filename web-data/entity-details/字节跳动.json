@@ -4,8 +4,8 @@
     "name": "字节跳动",
     "type": "company",
     "description": "中国互联网科技公司，开发了抖音、即梦等产品，文中探讨了其通过AI视频模型实现社交的布局。",
-    "mention_count": 141,
-    "article_count": 33,
+    "mention_count": 143,
+    "article_count": 34,
     "aliases": [
       "ByteDance",
       "大厂",
@@ -45,8 +45,8 @@
       "视频生成",
       "语音模型"
     ],
-    "references": 33,
-    "source_article_count": 33,
+    "references": 34,
+    "source_article_count": 34,
     "source_articles": [
       {
         "article_id": "040",
@@ -182,6 +182,15 @@
         "permalink": "/articles/078",
         "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "136",
+        "title": "AI应用骗钱，哦不融资指南",
+        "date": "2026-08-23",
+        "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "permalink": "/articles/136",
+        "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+        "mention_count": 2
       },
       {
         "article_id": "126",
@@ -347,7 +356,7 @@
       }
     ],
     "degree": 55,
-    "composite_weight": 0.712
+    "composite_weight": 0.7047
   },
   "links": [
     {
@@ -2148,21 +2157,22 @@
     {
       "source": "flova",
       "target": "字节跳动",
-      "score": 0.8656,
+      "score": 0.9093,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 6 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 7 个邻居",
       "evidence_article_ids": [
         "052",
         "065",
         "078",
-        "119"
+        "119",
+        "136"
       ],
       "status": "suggested"
     },
     {
       "source": "manus",
       "target": "字节跳动",
-      "score": 0.8263,
+      "score": 0.8211,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
@@ -2177,7 +2187,7 @@
     {
       "source": "claude",
       "target": "字节跳动",
-      "score": 0.7164,
+      "score": 0.7141,
       "suggested_relation_type": "related",
       "reason": "共同出现于 8 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -2192,7 +2202,7 @@
     {
       "source": "kimi",
       "target": "字节跳动",
-      "score": 0.7118,
+      "score": 0.708,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -2207,9 +2217,9 @@
     {
       "source": "oiioii",
       "target": "字节跳动",
-      "score": 0.6667,
+      "score": 0.6839,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 7 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "046",
         "052",
