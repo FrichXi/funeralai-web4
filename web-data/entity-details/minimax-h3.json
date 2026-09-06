@@ -4,19 +4,22 @@
     "name": "MiniMax H3",
     "type": "product",
     "description": "MiniMax推出的视频生成模型，在meme bench中排名第一，指令遵循能力强",
-    "mention_count": 9,
-    "article_count": 2,
+    "mention_count": 57,
+    "article_count": 4,
     "aliases": [
       "H3",
       "胖猫"
     ],
     "tags": [
+      "后期软件",
+      "开源",
       "文生视频",
       "视频模型",
+      "视频生成",
       "高性价比"
     ],
-    "references": 2,
-    "source_article_count": 2,
+    "references": 4,
+    "source_article_count": 4,
     "source_articles": [
       {
         "article_id": "132",
@@ -35,10 +38,28 @@
         "permalink": "/articles/130",
         "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
         "mention_count": 4
+      },
+      {
+        "article_id": "127",
+        "title": "MiniMax用H3窃取大结果",
+        "date": "2026-08-02",
+        "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+        "permalink": "/articles/127",
+        "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+        "mention_count": 42
+      },
+      {
+        "article_id": "141",
+        "title": "再爱MiniMax一次",
+        "date": "2026-09-01",
+        "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "permalink": "/articles/141",
+        "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "mention_count": 6
       }
     ],
-    "degree": 12,
-    "composite_weight": 0.1112
+    "degree": 16,
+    "composite_weight": 0.2035
   },
   "links": [
     {
@@ -68,7 +89,7 @@
       ]
     },
     {
-      "source": "kimi-k3",
+      "source": "kimi",
       "target": "minimax-h3",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -108,7 +129,7 @@
     },
     {
       "source": "minimax-h3",
-      "target": "kimi-k3",
+      "target": "kimi",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文章将MiniMax H3的产品化策略（多做一步）与Kimi K3进行类比",
@@ -199,6 +220,32 @@
     },
     {
       "source": "minimax-h3",
+      "target": "seedance",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中明确指出H3是Seedance之外唯一能打的模型，且能和Seedance对打",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中明确指出H3是Seedance之外唯一能打的模型，且能和Seedance对打",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax-h3",
       "target": "seedance-2-5",
       "relation_type": "competes_with",
       "type": "competes_with",
@@ -224,11 +271,63 @@
       ]
     },
     {
+      "source": "minimax-h3",
+      "target": "可灵",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中提到H3超越了半年没更新版本的可灵",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中提到H3超越了半年没更新版本的可灵",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "seedance",
+      "target": "minimax-h3",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中明确指出H3是Seedance之外唯一能打的模型，且能和Seedance对打",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "seedance-2-5",
       "target": "minimax-h3",
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "在meme bench盲测中，H3对Seedance 2.5保持了55%的胜率并领先排名",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "可灵",
+      "target": "minimax-h3",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中提到H3超越了半年没更新版本的可灵",
       "weight": 1,
       "strength": 3,
       "effective_weight": 3,
@@ -304,7 +403,7 @@
     {
       "source": "minimax-h3",
       "target": "字节跳动",
-      "score": 0.4243,
+      "score": 0.457,
       "suggested_relation_type": "related",
       "reason": "共同出现于 2 篇文章；共享 3 个邻居",
       "evidence_article_ids": [

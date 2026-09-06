@@ -356,7 +356,7 @@
       }
     ],
     "degree": 55,
-    "composite_weight": 0.7047
+    "composite_weight": 0.648
   },
   "links": [
     {
@@ -2157,9 +2157,9 @@
     {
       "source": "flova",
       "target": "字节跳动",
-      "score": 0.9093,
+      "score": 0.9594,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 7 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 7 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "052",
         "065",
@@ -2172,7 +2172,7 @@
     {
       "source": "manus",
       "target": "字节跳动",
-      "score": 0.8211,
+      "score": 0.8209,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
@@ -2185,9 +2185,24 @@
       "status": "suggested"
     },
     {
+      "source": "oiioii",
+      "target": "字节跳动",
+      "score": 0.7341,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 7 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "046",
+        "052",
+        "062",
+        "065",
+        "078"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "claude",
       "target": "字节跳动",
-      "score": 0.7141,
+      "score": 0.714,
       "suggested_relation_type": "related",
       "reason": "共同出现于 8 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -2202,30 +2217,15 @@
     {
       "source": "kimi",
       "target": "字节跳动",
-      "score": 0.708,
+      "score": 0.7076,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "040",
         "065",
         "085",
         "110",
         "112"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "oiioii",
-      "target": "字节跳动",
-      "score": 0.6839,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 7 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "046",
-        "052",
-        "062",
-        "065",
-        "078"
       ],
       "status": "suggested"
     }

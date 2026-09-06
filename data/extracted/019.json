@@ -1,0 +1,147 @@
+{
+  "article": {
+    "id": "019",
+    "title": "我研发出了主体思想AI",
+    "path": "articles/019_2025-09-04_葬爱咸鱼_我研发出了主体思想AI.md",
+    "date": "2025-09-04",
+    "author": "葬爱咸鱼",
+    "content_hash": "633c0d92ee7e03da80a44750be0692812174915ebbfecfb2744758d260f33593"
+  },
+  "entities": [
+    {
+      "id": "manus",
+      "name": "Manus",
+      "type": "product",
+      "description": "一家位于新加坡的AI公司，近期披露了九千万美元的年化营收。",
+      "mention_count": 7,
+      "aliases": [],
+      "tags": [
+        "AI初创",
+        "新加坡公司"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "type": "product",
+      "description": "人工智能大模型，被作者用于生成特定文风的提示词。",
+      "mention_count": 3,
+      "aliases": [
+        "Gemini 2.5 Pro"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "k2",
+      "name": "K2",
+      "type": "product",
+      "description": "国产大模型，在特定文风提示词测试中表现出更好的格式跟随能力。",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "国产模型"
+      ]
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "国产大模型，被用于测试提示词的通用性。",
+      "mention_count": 2,
+      "aliases": [
+        "Qwen 3",
+        "通义",
+        "通义千问"
+      ],
+      "tags": [
+        "大模型",
+        "国产模型"
+      ]
+    },
+    {
+      "id": "讯飞",
+      "name": "讯飞",
+      "type": "company",
+      "description": "提供语音或文本识别翻译服务的科技公司，支持朝鲜语识别。",
+      "mention_count": 2,
+      "aliases": [
+        "科大讯飞"
+      ],
+      "tags": [
+        "语音识别",
+        "人工智能"
+      ]
+    },
+    {
+      "id": "肖弘",
+      "name": "肖弘",
+      "type": "person",
+      "description": "Manus公司的创始人。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Gemini",
+      "target": "K2",
+      "relation_type": "compares_to",
+      "label": "为了测试在Gemini上生成的提示词的通用性，作者将其跨模型在K2上进行了对比验证。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Gemini",
+      "target": "Qwen",
+      "relation_type": "compares_to",
+      "label": "为了测试在Gemini上生成的提示词的通用性，作者将其跨模型在Qwen上进行了对比验证。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "K2",
+      "target": "Qwen",
+      "relation_type": "compares_to",
+      "label": "文中将K2和Qwen在执行主体文风提示词的效果进行了直接对比，指出K2加粗人名的表现更到位。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "肖弘",
+      "target": "Manus",
+      "relation_type": "founder_of",
+      "label": "明确提到肖弘是Manus的创始人。",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "肖弘",
+      "target": "Manus",
+      "relation_type": "works_at",
+      "label": "作为创始人，肖弘在Manus公司任职并发表指示。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 6,
+    "relationship_count": 5,
+    "pruned_entities": [
+      {
+        "name": "马卡龙",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

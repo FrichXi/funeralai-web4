@@ -20,6 +20,8 @@
 import argparse
 import asyncio
 import os
+import re
+from dataclasses import dataclass, field
 import sys
 import time
 from pathlib import Path
@@ -30,6 +32,7 @@ except ModuleNotFoundError:
     load_dotenv = None
 
 from graph_builder import build_graph_bundle_from_manifest, export_graphs, normalize_article_extraction
+from overrides import EXCLUDED_ARTICLES
 from pipeline_state import (
     EXTRACTOR_VERSION,
     MODEL_NAME,
@@ -43,7 +46,6 @@ from pipeline_state import (
     mark_article_failed,
     mark_article_pending,
     mark_article_ready,
-    raw_debug_path,
     raw_result_path,
     save_json_file,
     save_manifest,
@@ -191,79 +193,97 @@ EXTRACTION_PROMPT = """【项目目标】
 """
 
 
-def _dashscope_api_key() -> str | None:
-    return os.environ.get("DASHSCOPE_API_KEY")
+@dataclass(frozen=True)
+class Provider:
+    name: str
+    model: str
+    base_url: str
+    api_key: str = field(repr=False)
 
 
-def _dashscope_base_url() -> str:
-    return os.environ.get("DASHSCOPE_BASE_URL", "https://dashscope.aliyuncs.com/compatible-mode/v1").rstrip("/")
+def configured_providers() -> list[Provider]:
+    """Use existing global env settings; a missing key simply skips that provider."""
+    specs = [
+        ("dashscope", ("DASHSCOPE",), "https://dashscope.aliyuncs.com/compatible-mode/v1", MODEL_NAME),
+        ("glm", ("ZHIPUAI", "ZHIPU", "GLM"), "https://open.bigmodel.cn/api/paas/v4", "glm-5.2"),
+        ("kimi", ("MOONSHOT", "KIMI"), "https://api.moonshot.cn/v1", "kimi-k2.6"),
+        ("minimax", ("MINIMAX",), "https://api.minimaxi.com/v1", "MiniMax-M3"),
+    ]
+    providers = []
+    for name, prefixes, default_url, default_model in specs:
+        prefix = next((p for p in prefixes if os.environ.get(p + "_API_KEY")), None)
+        if prefix:
+            providers.append(Provider(
+                name=name,
+                model=MODEL_NAME if name == "dashscope" else os.environ.get(prefix + "_MODEL", default_model),
+                base_url=os.environ.get(prefix + "_BASE_URL", default_url).rstrip("/"),
+                api_key=os.environ[prefix + "_API_KEY"],
+            ))
+    return providers
 
 
-async def call_model(prompt: str, system_prompt: str | None = None, max_retries: int = 6):
+_unavailable_providers: set[str] = set()
+
+
+async def call_model(prompt: str, system_prompt: str | None = None, max_retries: int = 2):
     import httpx
 
-    proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
-
-    messages = []
-    if system_prompt:
-        messages.append({"role": "system", "content": system_prompt})
+    messages = ([{"role": "system", "content": system_prompt}] if system_prompt else [])
     messages.append({"role": "user", "content": prompt})
-
-    body = {
-        "model": MODEL_NAME,
-        "messages": messages,
-        "response_format": {"type": "json_object"},
-        "max_completion_tokens": 65536,
-        # Extraction wants deterministic JSON, not exposed chain-of-thought.
-        "enable_thinking": False,
-    }
-
-    headers = {
-        "Authorization": f"Bearer {_dashscope_api_key()}",
-        "Content-Type": "application/json",
-    }
-    url = f"{_dashscope_base_url()}/chat/completions"
-
-    for attempt in range(max_retries):
-        try:
-            async with httpx.AsyncClient(timeout=120, proxy=proxy) as client:
-                resp = await client.post(url, json=body, headers=headers)
-
-                if resp.status_code == 429:
-                    wait = min(2 ** attempt * 3, 60)
-                    print(f"      429 rate limit, wait {wait}s...", flush=True)
-                    await asyncio.sleep(wait)
-                    continue
-
-                if resp.status_code == 400:
-                    err = resp.text[:200]
-                    print(f"      400 error: {err}", flush=True)
-                    if "location" in err.lower():
-                        await asyncio.sleep(5)
-                        continue
-                    return None
-
-                resp.raise_for_status()
-                data = resp.json()
-                choices = data.get("choices") or []
-                if not choices:
-                    return None
-                return choices[0].get("message", {}).get("content")
-
-        except Exception as exc:
-            if attempt < max_retries - 1:
-                await asyncio.sleep(2 ** attempt)
+    failures = []
+    # All four configured public APIs are reachable directly; desktop proxy state
+    # must not be a hidden dependency of unattended extraction.
+    async with httpx.AsyncClient(timeout=httpx.Timeout(90, connect=15), trust_env=False) as client:
+        for provider in configured_providers():
+            if provider.name in _unavailable_providers:
                 continue
-            print(f"      Error after {max_retries} attempts: {exc}", flush=True)
-            return None
-
-    return None
+            body = {"model": provider.model, "messages": messages, "max_tokens": 16384}
+            if provider.name == "dashscope":
+                body.update(enable_thinking=False, response_format={"type": "json_object"})
+            elif provider.name in {"glm", "kimi"}:
+                body.update(thinking={"type": "disabled"}, response_format={"type": "json_object"})
+            for attempt in range(max_retries):
+                try:
+                    response = await client.post(
+                        provider.base_url + "/chat/completions", json=body,
+                        headers={"Authorization": f"Bearer {provider.api_key}"},
+                    )
+                    if response.status_code >= 400:
+                        try:
+                            error = response.json().get("error", {})
+                            code = error.get("code") or error.get("type") or "request_failed"
+                        except (ValueError, AttributeError):
+                            code = "request_failed"
+                        message = f"{provider.name}/{provider.model}: HTTP {response.status_code} ({code})"
+                        print("      " + message, flush=True)
+                        failures.append(message)
+                        if str(code) in {"1113", "Arrearage", "insufficient_quota", "insufficient_balance"} or response.status_code not in {408, 429, 500, 502, 503, 504}:
+                            _unavailable_providers.add(provider.name)
+                            break
+                        if attempt + 1 < max_retries:
+                            await asyncio.sleep(2 ** attempt)
+                        continue
+                    data = response.json()
+                    choice = (data.get("choices") or [{}])[0]
+                    raw_text = (choice.get("message") or {}).get("content") or ""
+                    parsed = parse_json_response(raw_text)
+                    if choice.get("finish_reason") == "length" or not isinstance(parsed, dict) or not isinstance(parsed.get("entities"), list) or not isinstance(parsed.get("relationships"), list):
+                        raise ValueError("incomplete extraction JSON")
+                    print(f"      Extracted via {provider.name}/{provider.model}", flush=True)
+                    return parsed, raw_text, provider
+                except (httpx.HTTPError, ValueError) as error:
+                    message = f"{provider.name}/{provider.model}: {type(error).__name__}"
+                    failures.append(message)
+                    print("      " + message, flush=True)
+                    if attempt + 1 < max_retries:
+                        await asyncio.sleep(2 ** attempt)
+    raise RuntimeError("All configured extraction providers failed: " + ("; ".join(failures) or "no available API keys/providers"))
 
 
 def parse_json_response(text: str | None):
     if not text:
         return None
-    candidate = text
+    candidate = re.sub(r"<think>.*?</think>", "", text, flags=re.S).strip()
     if "```json" in candidate:
         candidate = candidate.split("```json", 1)[1]
     if "```" in candidate:
@@ -289,25 +309,21 @@ async def extract_one(article: dict, semaphore: asyncio.Semaphore):
     async with semaphore:
         print(f"  [{article['id']}] {article['title'][:30]}...", flush=True)
         prompt = EXTRACTION_PROMPT + article["prompt_text"]
-        raw_text = await call_model(prompt, system_prompt=SYSTEM_PROMPT)
-        parsed = parse_json_response(raw_text)
-
-        if not parsed:
-            if raw_text:
-                raw_debug_path(article["id"]).write_text(raw_text, encoding="utf-8")
-            return None, "parse_failed"
+        parsed, raw_text, provider = await call_model(prompt, system_prompt=SYSTEM_PROMPT)
 
         raw_payload = {
             **parsed,
             "_article_id": article["id"],
             "_article_title": article["title"],
-            "_model": MODEL_NAME,
+            "_model": provider.model,
+            "_provider": provider.name,
             "_prompt_version": PROMPT_VERSION,
             "_extractor_version": EXTRACTOR_VERSION,
         }
         save_json_file(raw_result_path(article["id"]), raw_payload)
 
         artifact = normalize_article_extraction(article, parsed)
+        artifact["metadata"].update(model=provider.model, provider=provider.name)
         save_json_file(extracted_artifact_path(article["id"]), artifact)
         return artifact, None
 
@@ -324,9 +340,10 @@ def select_articles(all_articles: list[dict], article_ids: list[str] | None, lim
 
 async def main_async(args):
     ensure_pipeline_dirs()
+    _unavailable_providers.clear()
 
     all_articles = load_articles()
-    selected_articles = select_articles(all_articles, args.articles, args.limit)
+    selected_articles = [a for a in select_articles(all_articles, args.articles, args.limit) if a["id"] not in EXCLUDED_ARTICLES]
     if not selected_articles:
         print("No matching articles found.")
         return 1
@@ -342,7 +359,6 @@ async def main_async(args):
             mark_article_pending(manifest, article, reason)
             targets.append((article, reason))
         else:
-            mark_article_ready(manifest, article, "up_to_date")
             skipped.append(article["id"])
 
     save_manifest(manifest)
@@ -357,11 +373,17 @@ async def main_async(args):
     success_count = 0
 
     if targets:
-        tasks = [extract_one(article, semaphore) for article, _reason in targets]
-        results = await asyncio.gather(*tasks)
-        for (article, reason), (artifact, error_reason) in zip(targets, results, strict=False):
+        async def extract_and_save(article, reason):
+            nonlocal success_count
+            try:
+                artifact, error_reason = await extract_one(article, semaphore)
+            except Exception as error:
+                artifact, error_reason = None, str(error)
             if artifact:
                 mark_article_ready(manifest, article, reason)
+                manifest["articles"][article["id"]]["extractor"].update(
+                    name=artifact["metadata"]["provider"], model=artifact["metadata"]["model"],
+                )
                 success_count += 1
                 print(
                     f"  [{article['id']}] OK: {len(artifact['entities'])} entities, {len(artifact['relationships'])} rels",
@@ -370,6 +392,9 @@ async def main_async(args):
             else:
                 mark_article_failed(manifest, article, error_reason or reason, error_reason)
                 print(f"  [{article['id']}] FAILED: {error_reason}", flush=True)
+            save_manifest(manifest)
+
+        await asyncio.gather(*(extract_and_save(article, reason) for article, reason in targets))
 
     elapsed = time.time() - started
     save_manifest(manifest)
@@ -386,7 +411,7 @@ async def main_async(args):
         print(f"Missing articles: {summary['missing_count']}")
         if summary["missing_article_ids"]:
             print("First missing IDs:", ", ".join(summary["missing_article_ids"][:10]))
-        return 0
+        return 1
 
     export_graphs(full_graph, canonical_graph)
     print(
@@ -397,7 +422,7 @@ async def main_async(args):
 
     if canonical_graph["metadata"].get("isPartial"):
         print("Exported partial graph because --allow-partial-export was enabled.")
-    return 0
+    return 1 if success_count < len(targets) else 0
 
 
 def main():
@@ -409,10 +434,8 @@ def main():
     parser.add_argument("--allow-partial-export", action="store_true", help="Allow graph export even if some articles are still pending")
     args = parser.parse_args()
 
-    if not _dashscope_api_key():
-        print("ERROR: Set DASHSCOPE_API_KEY in ~/.env or .env")
-        sys.exit(1)
-    print(f"Using extractor={MODEL_NAME} via {_dashscope_base_url()}")
+    load_project_env(PROJECT_ROOT / ".env")
+    print("Extraction fallback: " + " → ".join(f"{p.name}/{p.model}" for p in configured_providers()))
 
     sys.exit(asyncio.run(main_async(args)))
 

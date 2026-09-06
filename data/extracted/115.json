@@ -1,0 +1,198 @@
+{
+  "article": {
+    "id": "115",
+    "title": "网吧黑客松为西湖醋鱼平反",
+    "path": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
+    "date": "2026-07-08",
+    "author": "葬爱咸鱼",
+    "content_hash": "fbf166e787dc3a0057d89538ebeb6cd682f632e91598f9b65b89c5f5d5faa5b1"
+  },
+  "entities": [
+    {
+      "id": "mulerun",
+      "name": "MuleRun",
+      "type": "product",
+      "description": "AI创作工具，支持视频生成、美术图生成及游戏Demo制作",
+      "mention_count": 17,
+      "aliases": [],
+      "tags": [
+        "视频生成",
+        "游戏开发"
+      ]
+    },
+    {
+      "id": "tripo",
+      "name": "Tripo",
+      "type": "company",
+      "description": "AI 3D模型生成公司，黑客松赞助方",
+      "mention_count": 7,
+      "aliases": [],
+      "tags": [
+        "3D生成"
+      ]
+    },
+    {
+      "id": "b站直播",
+      "name": "B站直播",
+      "type": "company",
+      "description": "直播平台，黑客松赞助方",
+      "mention_count": 4,
+      "aliases": [
+        "哔哩哔哩"
+      ],
+      "tags": [
+        "直播平台"
+      ]
+    },
+    {
+      "id": "rainfly",
+      "name": "RainFly",
+      "type": "person",
+      "description": "网吧黑客松MuleRun赛道获胜者，长亭科技前员工",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "开发者"
+      ]
+    },
+    {
+      "id": "宰治",
+      "name": "宰治",
+      "type": "person",
+      "description": "黑客松参赛者，制作了弹幕转盘机并进行直播",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "开发者"
+      ]
+    },
+    {
+      "id": "沐秋",
+      "name": "沐秋",
+      "type": "person",
+      "description": "葬AI成员，黑客松组织者之一",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "组织者"
+      ]
+    },
+    {
+      "id": "libtv",
+      "name": "LibTV",
+      "type": "product",
+      "description": "被MuleRun对标或比较的视频/内容生成类产品",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "视频生成"
+      ]
+    },
+    {
+      "id": "lovart",
+      "name": "Lovart",
+      "type": "company",
+      "description": "AI相关公司，文中提及有选手差点加入该公司",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "moya",
+      "name": "Moya",
+      "type": "product",
+      "description": "抱抱机器人硬件产品",
+      "mention_count": 2,
+      "aliases": [
+        "大白"
+      ],
+      "tags": [
+        "机器人",
+        "硬件"
+      ]
+    },
+    {
+      "id": "陈宇森",
+      "name": "陈宇森",
+      "type": "person",
+      "description": "MuleRun创始人，长亭科技创始人",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "长亭科技",
+      "name": "长亭科技",
+      "type": "company",
+      "description": "陈宇森创立的网络安全公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "网络安全"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "RainFly",
+      "target": "陈宇森",
+      "relation_type": "collaborates_with",
+      "label": "文中明确两人为前同事关系",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "LibTV",
+      "target": "MuleRun",
+      "relation_type": "compares_to",
+      "label": "文中提到MuleRun团队询问是否也能挑战LibTV，暗示竞品或对标的比较关系",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "陈宇森",
+      "target": "MuleRun",
+      "relation_type": "founder_of",
+      "label": "文中明确提到'MuleRun创始人陈宇森'",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "陈宇森",
+      "target": "长亭科技",
+      "relation_type": "founder_of",
+      "label": "文中明确提到'长亭科技（陈宇森创立的公司）'",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "B站直播",
+      "target": "宰治",
+      "relation_type": "related",
+      "label": "宰治参加B站直播大赛并获得赞助奖品",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "high"
+    },
+    {
+      "source": "RainFly",
+      "target": "长亭科技",
+      "relation_type": "works_at",
+      "label": "文中提到RainFly是长亭科技前员工",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 11,
+    "relationship_count": 6,
+    "pruned_entities": []
+  }
+}

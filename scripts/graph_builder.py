@@ -27,7 +27,7 @@ from graph_utils import (
     relation_strength,
     sanitize_id,
 )
-from overrides import EXCLUDED_ARTICLES
+from overrides import ARTICLE_ENTITY_EXCLUSIONS, EXCLUDED_ARTICLES
 from pipeline_state import (
     CANONICAL_FULL_GRAPH_FILE,
     CANONICAL_GRAPH_FILE,
@@ -157,6 +157,8 @@ def normalize_article_extraction(article: dict, raw_result: dict) -> dict:
 
     for raw_entity in raw_result.get("entities", []):
         raw_name = str(raw_entity.get("name", "")).strip()
+        if raw_name in ARTICLE_ENTITY_EXCLUSIONS.get(article["id"], set()):
+            continue
         normalized = normalize_entity(raw_name, raw_entity.get("type"), raw_entity.get("description"))
         if not normalized:
             continue
@@ -173,7 +175,8 @@ def normalize_article_extraction(article: dict, raw_result: dict) -> dict:
         record["descriptions"].append(str(raw_entity.get("description", "")))
         record["mention_count"] = max(
             record["mention_count"],
-            count_mentions_in_text(article["text"], entity_variants(canonical_name)),
+            count_mentions_in_text(article["text"], [*entity_variants(canonical_name), raw_name,
+                                                    *(str(a) for a in raw_entity.get("aliases", []))]),
         )
         if raw_name and raw_name != canonical_name:
             record["aliases"].add(raw_name)
@@ -572,7 +575,7 @@ def build_graph_bundle_from_manifest(manifest: dict, allow_partial: bool = False
         "included_ready_count": len(included_ready_ids),
         "included_missing_count": len(included_missing_ids),
     }
-    if missing_ids and not allow_partial:
+    if included_missing_ids and not allow_partial:
         return None, None, summary
 
     artifacts = load_article_artifacts(included_ready_ids)

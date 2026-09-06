@@ -1,0 +1,368 @@
+{
+  "article": {
+    "id": "106",
+    "title": "我来给LibTV道喜了",
+    "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+    "date": "2026-06-18",
+    "author": "沐秋",
+    "content_hash": "d995f4657239c33dd60a7e9798862b5cd72fcb1f7bb75d61e7c1db9b738a5e74"
+  },
+  "entities": [
+    {
+      "id": "libtv",
+      "name": "LibTV",
+      "type": "company",
+      "description": "陈冕创办的AI视频公司及同名产品，估值和融资额高",
+      "mention_count": 22,
+      "aliases": [
+        "爱冕TV"
+      ],
+      "tags": [
+        "视频Agent",
+        "AI短剧"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "提供模型与投流生态的大型科技公司，陈冕前东家",
+      "mention_count": 13,
+      "aliases": [
+        "字节",
+        "老东家"
+      ],
+      "tags": [
+        "模型层",
+        "生态闭环"
+      ]
+    },
+    {
+      "id": "lovart",
+      "name": "Lovart",
+      "type": "product",
+      "description": "LibTV旗下的现金奶牛业务之一，被比作转转",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "视频Agent"
+      ]
+    },
+    {
+      "id": "seedance",
+      "name": "Seedance",
+      "type": "product",
+      "description": "字节跳动旗下的视频模型/工具",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "视频模型"
+      ]
+    },
+    {
+      "id": "火山引擎",
+      "name": "火山引擎",
+      "type": "product",
+      "description": "字节跳动旗下的云服务/大客户消耗平台",
+      "mention_count": 3,
+      "aliases": [
+        "火山"
+      ],
+      "tags": [
+        "KA"
+      ]
+    },
+    {
+      "id": "腾讯",
+      "name": "腾讯",
+      "type": "company",
+      "description": "LibTV的投资方之一",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "资方"
+      ]
+    },
+    {
+      "id": "蚂蚁",
+      "name": "蚂蚁",
+      "type": "company",
+      "description": "LibTV的投资方之一",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "资方"
+      ]
+    },
+    {
+      "id": "liblib",
+      "name": "Liblib",
+      "type": "product",
+      "description": "LibTV最早的业务产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "白月光"
+      ]
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "type": "product",
+      "description": "受行业期待的AI应用",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "峰哥",
+      "name": "峰哥",
+      "type": "person",
+      "description": "受邀为陈冕录制道喜视频的行业人物",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "星流",
+      "name": "星流",
+      "type": "product",
+      "description": "LibTV旗下产品，被称为中国版Lovart",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "葬爱咸鱼",
+      "name": "葬爱咸鱼",
+      "type": "person",
+      "description": "AI行业评论人士/圈内人",
+      "mention_count": 1,
+      "aliases": [
+        "咸鱼"
+      ],
+      "tags": []
+    },
+    {
+      "id": "造次",
+      "name": "造次",
+      "type": "product",
+      "description": "LibTV旗下已折戟的短视频产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "中国版Sora"
+      ]
+    },
+    {
+      "id": "陈冕",
+      "name": "陈冕",
+      "type": "person",
+      "description": "LibTV创始人，前字节跳动员工",
+      "mention_count": 1,
+      "aliases": [
+        "冕"
+      ],
+      "tags": [
+        "字节4-1"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Lovart",
+      "target": "星流",
+      "relation_type": "compares_to",
+      "label": "星流被称为中国版Lovart",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "LibTV",
+      "target": "Liblib",
+      "relation_type": "develops",
+      "label": "LibTV公司旗下拥有Liblib业务",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "LibTV",
+      "target": "Lovart",
+      "relation_type": "develops",
+      "label": "LibTV公司旗下拥有Lovart业务",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "LibTV",
+      "target": "星流",
+      "relation_type": "develops",
+      "label": "LibTV公司旗下拥有星流业务",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "LibTV",
+      "target": "造次",
+      "relation_type": "develops",
+      "label": "LibTV公司旗下曾拥有造次业务",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "Seedance",
+      "relation_type": "develops",
+      "label": "字节跳动开发或拥有Seedance模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "火山引擎",
+      "relation_type": "develops",
+      "label": "字节跳动拥有火山引擎平台",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "陈冕",
+      "target": "LibTV",
+      "relation_type": "founder_of",
+      "label": "陈冕创办了LibTV",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "LibTV",
+      "target": "Seedance",
+      "relation_type": "integrates_with",
+      "label": "LibTV接入并大量消耗Seedance模型资源",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "LibTV",
+      "target": "火山引擎",
+      "relation_type": "integrates_with",
+      "label": "LibTV是火山引擎上的超大KA客户",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "腾讯",
+      "target": "LibTV",
+      "relation_type": "invests_in",
+      "label": "腾讯投资了LibTV",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "腾讯",
+      "target": "陈冕",
+      "relation_type": "invests_in",
+      "label": "腾讯投资了陈冕的项目",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "蚂蚁",
+      "target": "LibTV",
+      "relation_type": "invests_in",
+      "label": "蚂蚁投资了LibTV",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "蚂蚁",
+      "target": "陈冕",
+      "relation_type": "invests_in",
+      "label": "蚂蚁投资了陈冕的项目",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "LibTV",
+      "target": "字节跳动",
+      "relation_type": "partners_with",
+      "label": "LibTV与字节跳动组成了一个完美的生态闭环合作关系",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "峰哥",
+      "target": "陈冕",
+      "relation_type": "praises",
+      "label": "峰哥录制视频为陈冕道喜",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "Manus",
+      "relation_type": "praises",
+      "label": "咸鱼和创业者都期盼Manus上市，具有赞扬/期待意味",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "陈冕",
+      "relation_type": "praises",
+      "label": "咸鱼称陈冕为冕圣千古",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "陈冕",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "label": "陈冕曾作为字节跳动4-1级别员工在字节任职",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 14,
+    "relationship_count": 19,
+    "pruned_entities": [
+      {
+        "name": "Claude",
+        "reason": "low-signal"
+      },
+      {
+        "name": "张月光",
+        "reason": "low-signal"
+      },
+      {
+        "name": "锦秋基金",
+        "reason": "low-signal"
+      },
+      {
+        "name": "阿里巴巴",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

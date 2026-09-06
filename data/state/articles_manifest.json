@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-26T06:07:00Z",
+  "updatedAt": "2026-09-06T09:12:19Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -2764,6 +2764,106 @@
       "last_error": null,
       "extractor": {
         "name": "qwen-openai-compatible",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "139": {
+      "article_id": "139",
+      "path": "articles/139_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+      "title": "一场黑客松斩杀了整个网吧",
+      "date": "2026-08-27",
+      "author": "沐秋",
+      "content_hash": "a5fbfabc36165b64fe8db4e9ed41efa98fc2ecf095b7a037fba311172dc69789",
+      "status": "pending",
+      "reason": "new_article",
+      "artifact_path": null,
+      "raw_path": null,
+      "extracted_at": null,
+      "last_error": null,
+      "extractor": {
+        "name": "qwen-openai-compatible",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "140": {
+      "article_id": "140",
+      "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+      "title": "一场黑客松斩杀了整个网吧",
+      "date": "2026-08-27",
+      "author": "沐秋",
+      "content_hash": "bf2739ddf96661d2fdf7f7d88165fb6d82047dae79d9828bc8a435c7d93dc623",
+      "status": "ready",
+      "reason": "forced",
+      "artifact_path": "data/extracted/140.json",
+      "raw_path": "data/gemini_raw/140.json",
+      "extracted_at": "2026-09-06T09:12:19Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "141": {
+      "article_id": "141",
+      "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+      "title": "再爱MiniMax一次",
+      "date": "2026-09-01",
+      "author": "葬爱咸鱼",
+      "content_hash": "cd8cbad4f5b093b6049fbb807b7a5a64fdbc26202807ad51781297547d78330a",
+      "status": "ready",
+      "reason": "forced",
+      "artifact_path": "data/extracted/141.json",
+      "raw_path": "data/gemini_raw/141.json",
+      "extracted_at": "2026-09-06T09:12:12Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "142": {
+      "article_id": "142",
+      "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+      "title": "大模型拿大结果指南",
+      "date": "2026-09-01",
+      "author": "葬爱咸鱼",
+      "content_hash": "1c0dd3cc5cf138ba852eb0ed35ed25776b2499760d3dcf24854229321f309578",
+      "status": "ready",
+      "reason": "forced",
+      "artifact_path": "data/extracted/142.json",
+      "raw_path": "data/gemini_raw/142.json",
+      "extracted_at": "2026-09-06T09:12:12Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "143": {
+      "article_id": "143",
+      "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+      "title": "Manus团队测模型一点微小的经验",
+      "date": "2026-09-04",
+      "author": "葬爱咸鱼",
+      "content_hash": "4bb12520658cbacec75605fd43515fac81633452b3a9eb5a24812da184e1c5b8",
+      "status": "ready",
+      "reason": "forced",
+      "artifact_path": "data/extracted/143.json",
+      "raw_path": "data/gemini_raw/143.json",
+      "extracted_at": "2026-09-06T09:12:14Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
         "model": "qwen3.7-max",
         "prompt_version": "2026-03-15-vc-firm-relationship-v7",
         "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"

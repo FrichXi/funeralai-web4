@@ -1,0 +1,483 @@
+{
+  "article": {
+    "id": "113",
+    "title": "世界模型走了一些弯路",
+    "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+    "date": "2026-07-02",
+    "author": "骡子马",
+    "content_hash": "a6afa1b2799b9566da0d3ccf2f895a1321c98f531aefb2507a485b1f63b789b7"
+  },
+  "entities": [
+    {
+      "id": "mainecoon",
+      "name": "MaineCoon",
+      "type": "product",
+      "description": "猫薄荷开发的流式音视频社交模型/世界模型",
+      "mention_count": 13,
+      "aliases": [
+        "缅因猫"
+      ],
+      "tags": [
+        "世界模型",
+        "流式视频生成",
+        "Instant Video",
+        "Chat Mode"
+      ]
+    },
+    {
+      "id": "马卡龙",
+      "name": "马卡龙",
+      "type": "company",
+      "description": "AI应用转模型公司，开发了Macaron-V1-Preview",
+      "mention_count": 6,
+      "aliases": [
+        "Macaron"
+      ],
+      "tags": [
+        "后训练",
+        "基准测试"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "OpenAI的对话产品，文中作为语音交互体验的对标",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "全双工",
+        "语音模式"
+      ]
+    },
+    {
+      "id": "vidu-s1",
+      "name": "Vidu S1",
+      "type": "product",
+      "description": "生数科技的实时交互模型/虚拟陪伴产品",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "实时交互",
+        "虚拟陪伴"
+      ]
+    },
+    {
+      "id": "猫薄荷",
+      "name": "猫薄荷",
+      "type": "company",
+      "description": "00后创业团队，开发了MaineCoon社交世界模型",
+      "mention_count": 2,
+      "aliases": [
+        "Catnip"
+      ],
+      "tags": [
+        "世界模型",
+        "社交大模型"
+      ]
+    },
+    {
+      "id": "7verse",
+      "name": "7verse",
+      "type": "product",
+      "description": "AI视频生成产品，文中作为对比对象",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "视频生成"
+      ]
+    },
+    {
+      "id": "glm-5-1",
+      "name": "GLM 5.1",
+      "type": "product",
+      "description": "智谱AI的大模型版本，Macaron-V1-Preview的基底",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "基座模型"
+      ]
+    },
+    {
+      "id": "kling-avatar",
+      "name": "Kling-Avatar",
+      "type": "product",
+      "description": "快手的数字人产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "数字人"
+      ]
+    },
+    {
+      "id": "lpm-1-0",
+      "name": "LPM 1.0",
+      "type": "product",
+      "description": "蔡浩宇团队开发的全双工无限流数字人模型",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "全双工",
+        "数字人"
+      ]
+    },
+    {
+      "id": "macaron-v1-preview",
+      "name": "Macaron-V1-Preview",
+      "type": "product",
+      "description": "马卡龙开发的模型，实为GLM 5.1后训练加Lora",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "后训练",
+        "Lora"
+      ]
+    },
+    {
+      "id": "omnihuman",
+      "name": "OmniHuman",
+      "type": "product",
+      "description": "字节跳动的数字人/语音模型产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "数字人",
+        "2.5D建模"
+      ]
+    },
+    {
+      "id": "pixverse",
+      "name": "Pixverse",
+      "type": "product",
+      "description": "AI视频生成产品，文中作为对比对象",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "视频生成"
+      ]
+    },
+    {
+      "id": "seedance",
+      "name": "Seedance",
+      "type": "product",
+      "description": "视频生成模型，文中提及出了mini版本",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "视频生成"
+      ]
+    },
+    {
+      "id": "vam-1-0",
+      "name": "VAM 1.0",
+      "type": "product",
+      "description": "虎牙开发的数字人模型",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "数字人"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "OmniHuman和豆包的母公司",
+      "mention_count": 1,
+      "aliases": [
+        "字节"
+      ],
+      "tags": [
+        "数字人",
+        "语音模型"
+      ]
+    },
+    {
+      "id": "快手",
+      "name": "快手",
+      "type": "company",
+      "description": "Kling-Avatar的开发公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "数字人"
+      ]
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "GLM基座模型开发商，被指为马卡龙提供贴牌代工",
+      "mention_count": 1,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "大模型",
+        "GLM"
+      ]
+    },
+    {
+      "id": "李飞飞",
+      "name": "李飞飞",
+      "type": "person",
+      "description": "AI领域知名学者，文中提及作为硅谷懂行老登代表",
+      "mention_count": 1,
+      "aliases": [
+        "Fei-Fei Li"
+      ],
+      "tags": [
+        "世界模型",
+        "学术圈"
+      ]
+    },
+    {
+      "id": "杨立昆",
+      "name": "杨立昆",
+      "type": "person",
+      "description": "AI领域知名学者，文中提及作为硅谷懂行老登代表",
+      "mention_count": 1,
+      "aliases": [
+        "Yann LeCun"
+      ],
+      "tags": [
+        "世界模型",
+        "学术圈"
+      ]
+    },
+    {
+      "id": "蔡浩宇",
+      "name": "蔡浩宇",
+      "type": "person",
+      "description": "米哈游创始人，其团队开发了LPM 1.0",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "全双工",
+        "数字人"
+      ]
+    },
+    {
+      "id": "虎牙",
+      "name": "虎牙",
+      "type": "company",
+      "description": "直播平台，近期推出了VAM 1.0数字人模型",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "数字人",
+        "直播"
+      ]
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "字节跳动的AI助手，文中赞扬其全双工语音体验",
+      "mention_count": 1,
+      "aliases": [
+        "豆姐"
+      ],
+      "tags": [
+        "全双工",
+        "语音交互"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "李飞飞",
+      "target": "杨立昆",
+      "relation_type": "collaborates_with",
+      "label": "文中将两人并列为硅谷懂行的老登，共同推动世界模型概念（非直接合作，属同类人物并列）",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "low"
+    },
+    {
+      "source": "7verse",
+      "target": "MaineCoon",
+      "relation_type": "compares_to",
+      "label": "文中将MaineCoon的流式生成使用方法与7verse进行对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "ChatGPT",
+      "target": "Vidu S1",
+      "relation_type": "compares_to",
+      "label": "文中对比Vidu S1与ChatGPT语音模式的延迟和双工体验",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "MaineCoon",
+      "target": "OmniHuman",
+      "relation_type": "compares_to",
+      "label": "文中建议世界模型公司参考OmniHuman等2.5D建模+语音对口型路线",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "MaineCoon",
+      "target": "Pixverse",
+      "relation_type": "compares_to",
+      "label": "文中将MaineCoon的流式生成使用方法与Pixverse进行对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "MaineCoon",
+      "target": "Seedance",
+      "relation_type": "compares_to",
+      "label": "文中对比了MaineCoon Instant Video与Seedance mini的速度和功能",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Vidu S1",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "label": "文中对比Vidu S1与豆包语音通话的低延迟全双工体验",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "猫薄荷",
+      "target": "马卡龙",
+      "relation_type": "compares_to",
+      "label": "文中指出马卡龙和猫薄荷都存在自造基准测试、自封第一的行为",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "MaineCoon",
+      "target": "Vidu S1",
+      "relation_type": "competes_with",
+      "label": "两者均为实时视频生成/虚拟陪伴赛道的竞品，且都被批评延迟高、半双工",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "OmniHuman",
+      "relation_type": "develops",
+      "label": "字节跳动开发OmniHuman数字人产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "豆包",
+      "relation_type": "develops",
+      "label": "字节跳动开发豆包AI助手",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "快手",
+      "target": "Kling-Avatar",
+      "relation_type": "develops",
+      "label": "快手开发Kling-Avatar数字人产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "GLM 5.1",
+      "relation_type": "develops",
+      "label": "GLM 5.1是智谱AI的基座模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "猫薄荷",
+      "target": "MaineCoon",
+      "relation_type": "develops",
+      "label": "猫薄荷团队开发了MaineCoon社交世界模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "虎牙",
+      "target": "VAM 1.0",
+      "relation_type": "develops",
+      "label": "虎牙开发VAM 1.0数字人模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "马卡龙",
+      "target": "Macaron-V1-Preview",
+      "relation_type": "develops",
+      "label": "马卡龙开发了Macaron-V1-Preview模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "GLM 5.1",
+      "target": "Macaron-V1-Preview",
+      "relation_type": "integrates_with",
+      "label": "Macaron-V1-Preview是基于GLM 5.1进行后训练和Lora微调的",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "蔡浩宇",
+      "target": "LPM 1.0",
+      "relation_type": "works_on",
+      "label": "蔡浩宇团队开发了LPM 1.0模型",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 22,
+    "relationship_count": 18,
+    "pruned_entities": [
+      {
+        "name": "Grok",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Motus",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Vivix",
+        "reason": "low-signal"
+      },
+      {
+        "name": "快乐生蚝",
+        "reason": "low-signal"
+      },
+      {
+        "name": "爱诗科技",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "生数科技",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

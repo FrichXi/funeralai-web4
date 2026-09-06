@@ -68,7 +68,7 @@
       }
     ],
     "degree": 16,
-    "composite_weight": 0.1436
+    "composite_weight": 0.1325
   },
   "links": [
     {
@@ -456,6 +456,20 @@
   ],
   "suggested_edges": [
     {
+      "source": "海螺ai",
+      "target": "阶跃星辰",
+      "score": 0.4552,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "004",
+        "049",
+        "116",
+        "117"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "kimi",
       "target": "海螺ai",
       "score": 0.4352,
@@ -470,27 +484,16 @@
       "status": "suggested"
     },
     {
-      "source": "海螺ai",
-      "target": "阶跃星辰",
-      "score": 0.4052,
+      "source": "智谱ai",
+      "target": "海螺ai",
+      "score": 0.3935,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 1 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "004",
         "049",
         "116",
         "117"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "pixverse",
-      "target": "海螺ai",
-      "score": 0.3854,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "012"
       ],
       "status": "suggested"
     }

@@ -1,0 +1,203 @@
+{
+  "article": {
+    "id": "033",
+    "title": "搞AI硬件别装美国公司",
+    "path": "articles/033_2025-11-14_沐秋_搞AI硬件别装美国公司.md",
+    "date": "2025-11-14",
+    "author": "沐秋",
+    "content_hash": "73c515c257b82c796f253e7aef4c237674a430f65feb19773dd68b2526af624a"
+  },
+  "entities": [
+    {
+      "id": "plaud",
+      "name": "Plaud",
+      "type": "product",
+      "description": "主打海外市场的AI硬件录音卡公司，近期宣布进入中国内地市场",
+      "mention_count": 10,
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "出海"
+      ]
+    },
+    {
+      "id": "钉钉",
+      "name": "钉钉",
+      "type": "company",
+      "description": "国内企业级办公应用公司，推出AI实体按键产品",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "办公生态"
+      ]
+    },
+    {
+      "id": "lovart",
+      "name": "Lovart",
+      "type": "company",
+      "description": "对外包装为美国公司的AI软件公司",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "AI软件"
+      ]
+    },
+    {
+      "id": "华强北录音卡",
+      "name": "华强北录音卡",
+      "type": "product",
+      "description": "深圳华强北制造的模仿Plaud的白牌录音硬件",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "山寨"
+      ]
+    },
+    {
+      "id": "ticnote",
+      "name": "Ticnote",
+      "type": "product",
+      "description": "出门问问推出的录音卡片",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI硬件"
+      ]
+    },
+    {
+      "id": "许高",
+      "name": "许高",
+      "type": "person",
+      "description": "Plaud公司的核心高管或创始人",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "飞书",
+      "name": "飞书",
+      "type": "company",
+      "description": "国内企业级办公应用公司",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "办公生态"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "国外AI大模型产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "type": "product",
+      "description": "需要依赖国外大模型的AI应用/产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "id": "钉钉a1",
+      "name": "钉钉A1",
+      "type": "product",
+      "description": "钉钉推出的语音备忘录实体按键卡片",
+      "mention_count": 1,
+      "aliases": [
+        "钉钉录音卡片"
+      ],
+      "tags": [
+        "AI硬件",
+        "软硬结合"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "钉钉",
+      "target": "飞书",
+      "relation_type": "competes_with",
+      "label": "两者在国内办公生态及潜在AI硬件生态中存在竞争与对比关系",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "钉钉",
+      "target": "钉钉A1",
+      "relation_type": "develops",
+      "label": "钉钉开发了包含实体按键的A1录音硬件",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Manus",
+      "relation_type": "integrates_with",
+      "label": "Manus刚需并依赖调用Claude等国外大模型",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "许高",
+      "target": "Plaud",
+      "relation_type": "works_at",
+      "label": "许高作为Plaud代表接受采访，说明其业务战略",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 10,
+    "relationship_count": 4,
+    "pruned_entities": [
+      {
+        "name": "GenSpark",
+        "reason": "low-signal"
+      },
+      {
+        "name": "HeyGen",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Looki",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Nana Banana",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Opusclip",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Plaud录音卡",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "liblib",
+        "reason": "low-signal"
+      },
+      {
+        "name": "出门问问",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

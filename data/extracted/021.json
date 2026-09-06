@@ -1,0 +1,177 @@
+{
+  "article": {
+    "id": "021",
+    "title": "Cherry Studio是一个伟大的AI工具",
+    "path": "articles/021_2025-09-11_葬爱咸鱼_Cherry Studio是一个伟大的AI工具.md",
+    "date": "2025-09-11",
+    "author": "葬爱咸鱼",
+    "content_hash": "225389b9746f13c57676b37bd4c3ef3c38e35f61bb2b8ab6d796e3958763bdf1"
+  },
+  "entities": [
+    {
+      "id": "toki",
+      "name": "Toki",
+      "type": "product",
+      "description": "AI日程管理工具，支持截图与语音识别设置提醒",
+      "mention_count": 13,
+      "aliases": [
+        "Dola"
+      ],
+      "tags": [
+        "日程管理",
+        "效率工具"
+      ]
+    },
+    {
+      "id": "cherry-studio",
+      "name": "Cherry Studio",
+      "type": "product",
+      "description": "调取大模型API的第三方开源会话管理工具，支持对话分支功能",
+      "mention_count": 11,
+      "aliases": [],
+      "tags": [
+        "ChatBot",
+        "会话管理",
+        "自然语言IDE"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "知名大模型对话网页端",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "ChatBot"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "type": "product",
+      "description": "知名大模型对话网页端",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "ChatBot"
+      ]
+    },
+    {
+      "id": "ai-studio",
+      "name": "AI Studio",
+      "type": "product",
+      "description": "Google推出的纯开发者大模型对话网站",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "开发者平台"
+      ]
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "type": "product",
+      "description": "知名AI编程工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "IDE"
+      ]
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "type": "company",
+      "description": "科技公司，推出了AI Studio",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大厂"
+      ]
+    },
+    {
+      "id": "扫描全能王",
+      "name": "扫描全能王",
+      "type": "product",
+      "description": "知名实用小工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "实用工具"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "AI Studio",
+      "target": "Cherry Studio",
+      "relation_type": "compares_to",
+      "label": "文章对比了Cherry Studio和Google AI Studio在分支功能、前端UI及加载速度上的差异",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "ChatGPT",
+      "target": "Cherry Studio",
+      "relation_type": "compares_to",
+      "label": "文章对比了Cherry Studio与ChatGPT在对话分支功能上的体验和推出时间",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Cherry Studio",
+      "target": "Cursor",
+      "relation_type": "compares_to",
+      "label": "作者将Cherry Studio比作自然语言领域的IDE，即写作版的Cursor",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Cherry Studio",
+      "target": "Gemini",
+      "relation_type": "compares_to",
+      "label": "文章指出早期Gemini网页端没有Cherry Studio那样的分支功能",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Cherry Studio",
+      "target": "扫描全能王",
+      "relation_type": "compares_to",
+      "label": "文章将Cherry Studio比喻为扫描全能王一样简单且真正有用的工具",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Toki",
+      "target": "扫描全能王",
+      "relation_type": "compares_to",
+      "label": "文章将Toki比喻为扫描全能王一样不讲大故事但真正有用的工具",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Google",
+      "target": "AI Studio",
+      "relation_type": "develops",
+      "label": "Google推出了AI Studio网站",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 8,
+    "relationship_count": 7,
+    "pruned_entities": []
+  }
+}

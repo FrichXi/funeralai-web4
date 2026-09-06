@@ -1,0 +1,74 @@
+{
+  "node": {
+    "id": "小米mimo",
+    "name": "小米MiMo",
+    "type": "product",
+    "description": "小米旗下模型，文中作为二线模型的代表被提及",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "MiMo"
+    ],
+    "tags": [
+      "二线模型",
+      "大模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "140",
+        "title": "一场黑客松斩杀了整个网吧",
+        "date": "2026-08-27",
+        "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+        "permalink": "/articles/140",
+        "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.021
+  },
+  "links": [
+    {
+      "source": "qwen",
+      "target": "小米mimo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将小米MiMo作为二线模型与Qwen等顶尖模型进行档次对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "140"
+      ],
+      "evidences": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "文中将小米MiMo作为二线模型与Qwen等顶尖模型进行档次对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "小米mimo",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将小米MiMo作为二线模型与Qwen等顶尖模型进行档次对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

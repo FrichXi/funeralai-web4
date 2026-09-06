@@ -1,0 +1,329 @@
+{
+  "article": {
+    "id": "051",
+    "title": "狠狠办千问",
+    "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+    "date": "2026-01-15",
+    "author": "骡子马",
+    "content_hash": "6a508e1d678a2d0f9e3eeaeade5718d4810cfc5ed9a02de07b22bcb292118f1f"
+  },
+  "entities": [
+    {
+      "id": "千问",
+      "name": "千问",
+      "type": "product",
+      "description": "具备Agent任务执行能力的AI助手，打通了阿里系生态",
+      "mention_count": 33,
+      "aliases": [
+        "Qwen",
+        "任务助手",
+        "千问APP",
+        "千问任务助理"
+      ],
+      "tags": [
+        "Agent",
+        "任务助手",
+        "大模型"
+      ]
+    },
+    {
+      "id": "刀哥",
+      "name": "刀哥",
+      "type": "person",
+      "description": "东北亚文化/狠活网红，经营好果汁店",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "网红",
+        "狠活",
+        "亚文化"
+      ]
+    },
+    {
+      "id": "飞猪",
+      "name": "飞猪",
+      "type": "product",
+      "description": "阿里生态下的旅游出行应用",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "旅游",
+        "买票",
+        "订酒店"
+      ]
+    },
+    {
+      "id": "高德",
+      "name": "高德",
+      "type": "product",
+      "description": "阿里生态下的地图导航应用",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "地图",
+        "出行",
+        "导航"
+      ]
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "type": "company",
+      "description": "美国AI模型公司，文中被调侃为“美国小千问”",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "模型厂"
+      ]
+    },
+    {
+      "id": "好果汁店",
+      "name": "好果汁店",
+      "type": "company",
+      "description": "刀哥开设的实体店铺",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "实体店",
+        "餐饮"
+      ]
+    },
+    {
+      "id": "支付宝",
+      "name": "支付宝",
+      "type": "product",
+      "description": "阿里生态下的支付应用",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "支付",
+        "金融"
+      ]
+    },
+    {
+      "id": "淘宝",
+      "name": "淘宝",
+      "type": "product",
+      "description": "阿里生态下的电商购物平台",
+      "mention_count": 2,
+      "aliases": [
+        "淘宝主站",
+        "淘宝闪购"
+      ],
+      "tags": [
+        "电商",
+        "购物"
+      ]
+    },
+    {
+      "id": "葬爱咸鱼",
+      "name": "葬爱咸鱼",
+      "type": "person",
+      "description": "作者的朋友/同事，因看好千问等AI产品表现购入了阿里股票",
+      "mention_count": 2,
+      "aliases": [
+        "咸鱼"
+      ],
+      "tags": [
+        "投资者",
+        "体验者"
+      ]
+    },
+    {
+      "id": "虎哥",
+      "name": "虎哥",
+      "type": "person",
+      "description": "东北亚文化代表人物之一",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "网红",
+        "狠活"
+      ]
+    },
+    {
+      "id": "谷歌",
+      "name": "谷歌",
+      "type": "company",
+      "description": "美国科技公司，正推进与沃尔玛合作的AI购物",
+      "mention_count": 2,
+      "aliases": [
+        "Google"
+      ],
+      "tags": [
+        "科技巨头"
+      ]
+    },
+    {
+      "id": "抖音极速版",
+      "name": "抖音极速版",
+      "type": "product",
+      "description": "字节跳动旗下短视频应用，文中提及在豆包手机上刷该应用的相关体验",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "短视频",
+        "网赚"
+      ]
+    },
+    {
+      "id": "沃尔玛",
+      "name": "沃尔玛",
+      "type": "company",
+      "description": "美国零售巨头，与谷歌有合作",
+      "mention_count": 1,
+      "aliases": [
+        "Walmart"
+      ],
+      "tags": [
+        "零售",
+        "商超"
+      ]
+    },
+    {
+      "id": "豆包手机",
+      "name": "豆包手机",
+      "type": "product",
+      "description": "具备AI功能的手机产品，文中作为被围剿和体验不佳的反面案例",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "智能手机"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刀哥",
+      "target": "葬爱咸鱼",
+      "relation_type": "collaborates_with",
+      "label": "咸鱼去沈阳与狠活爱豆刀哥见面握手",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "千问",
+      "target": "豆包手机",
+      "relation_type": "competes_with",
+      "label": "文章将千问的高效办事能力与豆包手机的表现不佳进行对比",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "刀哥",
+      "target": "好果汁店",
+      "relation_type": "founder_of",
+      "label": "刀哥开设并经营了这家好果汁店",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "千问",
+      "target": "支付宝",
+      "relation_type": "integrates_with",
+      "label": "千问将支付宝付费场景无缝融入旅行和购物计划",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "千问",
+      "target": "淘宝",
+      "relation_type": "integrates_with",
+      "label": "千问接入了淘宝闪购和淘宝主站，实现AI一站式购物",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "千问",
+      "target": "飞猪",
+      "relation_type": "integrates_with",
+      "label": "千问任务助手直接调用飞猪安排旅游行程",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "千问",
+      "target": "高德",
+      "relation_type": "integrates_with",
+      "label": "千问任务助手直接调用高德进行路线规划和导航",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "抖音极速版",
+      "target": "豆包手机",
+      "relation_type": "integrates_with",
+      "label": "豆包手机内部搭载或联动抖音极速版",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "沃尔玛",
+      "target": "谷歌",
+      "relation_type": "partners_with",
+      "label": "谷歌与沃尔玛合作发展AI购物",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "千问",
+      "relation_type": "praises",
+      "label": "咸鱼对千问等中国AI产品表现满意并因此产生投资行为",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "刀哥",
+      "target": "虎哥",
+      "relation_type": "related",
+      "label": "同为东北隐秘角落的狠活亚文化代表人物",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "medium"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 14,
+    "relationship_count": 11,
+    "pruned_entities": [
+      {
+        "name": "亚马逊",
+        "reason": "low-signal"
+      },
+      {
+        "name": "做了么",
+        "reason": "low-signal"
+      },
+      {
+        "name": "冬泳怪鸽",
+        "reason": "low-signal"
+      },
+      {
+        "name": "死了么",
+        "reason": "low-signal"
+      },
+      {
+        "name": "特朗普",
+        "reason": "low-signal"
+      },
+      {
+        "name": "阿里巴巴",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

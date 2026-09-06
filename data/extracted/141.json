@@ -1,0 +1,279 @@
+{
+  "article": {
+    "id": "141",
+    "title": "再爱MiniMax一次",
+    "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+    "date": "2026-09-01",
+    "author": "葬爱咸鱼",
+    "content_hash": "cd8cbad4f5b093b6049fbb807b7a5a64fdbc26202807ad51781297547d78330a"
+  },
+  "entities": [
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "独立大模型公司，拥有文本模型M3和视频模型H3，8月ARR达8亿美金",
+      "mention_count": 19,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "视频生成"
+      ]
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "国内头部大模型公司，被文中视为MiniMax的对标对象和旧赛季强者",
+      "mention_count": 7,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "大模型",
+        "GLM"
+      ]
+    },
+    {
+      "id": "h3",
+      "name": "H3",
+      "type": "product",
+      "description": "MiniMax开发的视频生成模型，8月发布，是公司营收关键",
+      "mention_count": 6,
+      "aliases": [],
+      "tags": [
+        "视频生成",
+        "开源"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "月之暗面旗下智能助手产品，文中指代其背后的模型能力",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "AI应用",
+        "长文本"
+      ]
+    },
+    {
+      "id": "m3",
+      "name": "M3",
+      "type": "product",
+      "description": "MiniMax的文本模型，文中提到其版本更新滞后",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "文本模型",
+        "大语言模型"
+      ]
+    },
+    {
+      "id": "闫俊杰",
+      "name": "闫俊杰",
+      "type": "person",
+      "description": "MiniMax创始人，被称为“俊杰老师”、“剑眉星目闫俊杰”、“胖猫”",
+      "mention_count": 3,
+      "aliases": [
+        "俊杰老师",
+        "剑眉星目闫俊杰",
+        "胖猫"
+      ],
+      "tags": [
+        "CEO"
+      ]
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "阿里云通义千问模型，文中提及率先交卷摸高赛段及Flash版本",
+      "mention_count": 2,
+      "aliases": [
+        "通义千问"
+      ],
+      "tags": [
+        "大模型",
+        "Flash"
+      ]
+    },
+    {
+      "id": "seedance",
+      "name": "Seedance",
+      "type": "product",
+      "description": "视频生成模型，文中作为H3的主要竞品和对打对象",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "视频生成",
+        "多模态"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "AI公司，文中提及旗下V4 Flash模型在智能白菜化赛段交卷",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "量化"
+      ]
+    },
+    {
+      "id": "libtv",
+      "name": "LibTV",
+      "type": "product",
+      "description": "视频Agent产品，文中提到其有望基于H3实现模型自研",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "视频Agent",
+        "AI应用"
+      ]
+    },
+    {
+      "id": "可灵",
+      "name": "可灵",
+      "type": "product",
+      "description": "快手旗下视频生成模型，文中提到其半年未更新版本被H3超越",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "视频生成"
+      ]
+    },
+    {
+      "id": "陈冕",
+      "name": "陈冕",
+      "type": "person",
+      "description": "LibTV相关负责人，文中期待其宣布实现模型自研",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "视频Agent"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "DeepSeek",
+      "target": "MiniMax",
+      "relation_type": "compares_to",
+      "label": "同属国内大模型竞赛阵营，在Flash模型和小参数模型赛道存在竞争关系",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "low"
+    },
+    {
+      "source": "Kimi",
+      "target": "MiniMax",
+      "relation_type": "compares_to",
+      "label": "文中在讨论模型厂竞赛版本时，将MiniMax与Kimi置于同一竞争维度进行比较",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "MiniMax",
+      "target": "Qwen",
+      "relation_type": "compares_to",
+      "label": "同属国内大模型竞赛阵营，在摸高和Flash赛道存在竞争关系",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "low"
+    },
+    {
+      "source": "MiniMax",
+      "target": "智谱AI",
+      "relation_type": "compares_to",
+      "label": "文中将MiniMax与智谱AI进行全方位对标，讨论两者水平差距及待遇标准互换",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "闫俊杰",
+      "relation_type": "compares_to",
+      "label": "闫俊杰喊话暗示MiniMax和智谱一个水平，只是阶段性落后",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "H3",
+      "target": "Seedance",
+      "relation_type": "competes_with",
+      "label": "文中明确指出H3是Seedance之外唯一能打的模型，且能和Seedance对打",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "H3",
+      "target": "可灵",
+      "relation_type": "competes_with",
+      "label": "文中提到H3超越了半年没更新版本的可灵",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "H3",
+      "relation_type": "develops",
+      "label": "H3是MiniMax开发的视频模型，8月发布并贡献主要收入",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "M3",
+      "relation_type": "develops",
+      "label": "M3是MiniMax的文本模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "闫俊杰",
+      "target": "MiniMax",
+      "relation_type": "founder_of",
+      "label": "文中多次以“俊杰老师”指代MiniMax负责人并引用其言论，确认为创始人关系",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "H3",
+      "target": "LibTV",
+      "relation_type": "integrates_with",
+      "label": "文中提到利好视频Agent公司（如LibTV）后训练H3，打破闭源垄断",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "陈冕",
+      "target": "LibTV",
+      "relation_type": "works_on",
+      "label": "文中提到“等着陈冕宣布LibTV实现模型自研”，推断陈冕负责LibTV产品研发",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 12,
+    "relationship_count": 12,
+    "pruned_entities": [],
+    "provider": "dashscope"
+  }
+}

@@ -4,9 +4,14 @@
     "name": "ChatGPT",
     "type": "product",
     "description": "OpenAI的通用大语言模型产品，被视为AI陪伴赛道的未来方向之一",
-    "mention_count": 55,
-    "article_count": 21,
-    "aliases": [],
+    "mention_count": 75,
+    "article_count": 24,
+    "aliases": [
+      "GPT",
+      "GPT 5.6 luna",
+      "GPT-5.5",
+      "GPT-5.6"
+    ],
     "tags": [
       "2C",
       "3D伴游方向",
@@ -15,19 +20,21 @@
       "AI应用",
       "AI热点",
       "ChatBot",
+      "LLM",
       "云端AI",
       "全双工",
       "大模型",
       "大语言模型",
       "对话体验",
       "搜索",
+      "文本生成",
       "竞品",
       "语音模式",
       "超级APP",
       "通用AI"
     ],
-    "references": 21,
-    "source_article_count": 21,
+    "references": 24,
+    "source_article_count": 24,
     "source_articles": [
       {
         "article_id": "048",
@@ -217,10 +224,37 @@
         "permalink": "/articles/008",
         "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
         "mention_count": 1
+      },
+      {
+        "article_id": "143",
+        "title": "Manus团队测模型一点微小的经验",
+        "date": "2026-09-04",
+        "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+        "permalink": "/articles/143",
+        "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+        "mention_count": 12
+      },
+      {
+        "article_id": "142",
+        "title": "大模型拿大结果指南",
+        "date": "2026-09-01",
+        "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+        "permalink": "/articles/142",
+        "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+        "mention_count": 6
+      },
+      {
+        "article_id": "111",
+        "title": "用豆包办公得坐小孩那桌",
+        "date": "2026-06-25",
+        "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+        "permalink": "/articles/111",
+        "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+        "mention_count": 2
       }
     ],
-    "degree": 31,
-    "composite_weight": 0.3353
+    "degree": 39,
+    "composite_weight": 0.4223
   },
   "links": [
     {
@@ -351,6 +385,58 @@
     },
     {
       "source": "chatgpt",
+      "target": "deepseek",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在吸盘搬运误差恢复及切割稳定性方面进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "chatgpt",
+      "target": "gemini",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率测试中将 GPT 5.6 与 Gemini-3.7-flash 进行了横向对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "chatgpt",
+      "target": "grok",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率测试中将 GPT 5.6 与 Grok-4.6 进行了横向对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中在隐喻率测试中将 GPT 5.6 与 Grok-4.6 进行了横向对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
       "target": "manus",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -380,23 +466,49 @@
       "target": "qwen",
       "relation_type": "compares_to",
       "type": "compares_to",
-      "label": "文章指出千问需要像ChatGPT那样的原生产品形态",
+      "label": "在物理切割、吸盘搬运及无人机巡航等任务中进行性能对比",
       "weight": 1,
       "strength": 2,
       "effective_weight": 3,
       "article_count": 1,
       "evidence_articles": [
-        "034"
+        "142"
       ],
       "evidences": [
         {
-          "article_id": "034",
-          "title": "千问唤起世界人民的最中幻想",
-          "permalink": "/articles/034",
-          "markdown_link": "articles/034_2025-11-17_葬爱咸鱼_千问唤起世界人民的最中幻想.md",
-          "path": "articles/034_2025-11-17_葬爱咸鱼_千问唤起世界人民的最中幻想.md",
-          "date": "2025-11-17",
-          "label": "文章指出千问需要像ChatGPT那样的原生产品形态",
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在物理切割、吸盘搬运及无人机巡航等任务中进行性能对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "seed",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在开发世界杯足球游戏的测试中，Seed与GPT的生成效果被拿来直接对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "111"
+      ],
+      "evidences": [
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "date": "2026-06-25",
+          "label": "在开发世界杯足球游戏的测试中，Seed与GPT的生成效果被拿来直接对比",
           "weight": 1
         }
       ]
@@ -532,7 +644,44 @@
       "target": "chatgpt",
       "relation_type": "compares_to",
       "type": "compares_to",
-      "label": "Yinsen将初次使用Claude Code的震撼感与第一次用ChatGPT进行对比",
+      "label": "在代码实验报告质量与物理任务静默修复能力之间进行权衡对比",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "142",
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中详细对比了两者在信息量、文章详实度、隐喻率及笔记写作行为上的差异",
+          "weight": 1
+        },
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在代码实验报告质量与物理任务静默修复能力之间进行权衡对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比了Codex月活与ChatGPT付费用户的差距",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -541,11 +690,63 @@
       "evidences": []
     },
     {
-      "source": "codex",
+      "source": "deepseek",
       "target": "chatgpt",
       "relation_type": "compares_to",
       "type": "compares_to",
-      "label": "文中对比了Codex月活与ChatGPT付费用户的差距",
+      "label": "在吸盘搬运误差恢复及切割稳定性方面进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "142"
+      ],
+      "evidences": [
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在吸盘搬运误差恢复及切割稳定性方面进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gemini",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率测试中将 GPT 5.6 与 Gemini-3.7-flash 进行了横向对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中在隐喻率测试中将 GPT 5.6 与 Gemini-3.7-flash 进行了横向对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "grok",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率测试中将 GPT 5.6 与 Grok-4.6 进行了横向对比",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -571,7 +772,20 @@
       "target": "chatgpt",
       "relation_type": "compares_to",
       "type": "compares_to",
-      "label": "文章指出千问需要像ChatGPT那样的原生产品形态",
+      "label": "在物理切割、吸盘搬运及无人机巡航等任务中进行性能对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "seed",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在开发世界杯足球游戏的测试中，Seed与GPT的生成效果被拿来直接对比",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -918,27 +1132,28 @@
     {
       "source": "chatgpt",
       "target": "kimi",
-      "score": 0.709,
+      "score": 0.8778,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 6 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 8 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "030",
         "040",
         "048",
-        "105"
+        "105",
+        "142"
       ],
       "status": "suggested"
     },
     {
-      "source": "chatgpt",
-      "target": "deepseek",
-      "score": 0.6126,
+      "source": "anthropic",
+      "target": "chatgpt",
+      "score": 0.5987,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
-        "008",
+        "031",
+        "040",
         "070",
-        "088",
         "105",
         "136"
       ],
@@ -947,7 +1162,7 @@
     {
       "source": "chatgpt",
       "target": "飞书",
-      "score": 0.5919,
+      "score": 0.5913,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -960,28 +1175,31 @@
     },
     {
       "source": "chatgpt",
-      "target": "openclaw",
-      "score": 0.5388,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 5 个邻居；处于同一讨论社区",
+      "target": "智谱ai",
+      "score": 0.5567,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
-        "067",
-        "070"
+        "009",
+        "070",
+        "089",
+        "105",
+        "113"
       ],
       "status": "suggested"
     },
     {
-      "source": "anthropic",
-      "target": "chatgpt",
-      "score": 0.5358,
+      "source": "chatgpt",
+      "target": "字节跳动",
+      "score": 0.5465,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 8 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
-        "031",
+        "017",
         "040",
+        "052",
         "070",
-        "105",
-        "136"
+        "088"
       ],
       "status": "suggested"
     }

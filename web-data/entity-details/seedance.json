@@ -4,8 +4,8 @@
     "name": "Seedance",
     "type": "product",
     "description": "字节推出的AI视频生成大模型，支持参考图片、视频和音频生成并复刻内容。",
-    "mention_count": 122,
-    "article_count": 11,
+    "mention_count": 124,
+    "article_count": 12,
     "aliases": [
       "Seedance 2.0",
       "Seedance 35折",
@@ -18,6 +18,7 @@
       "AI视频生成",
       "API",
       "世界模型",
+      "多模态",
       "大参考时代",
       "大模型",
       "底层模型",
@@ -26,8 +27,8 @@
       "视频模型",
       "视频生成"
     ],
-    "references": 11,
-    "source_article_count": 11,
+    "references": 12,
+    "source_article_count": 12,
     "source_articles": [
       {
         "article_id": "132",
@@ -102,6 +103,15 @@
         "mention_count": 3
       },
       {
+        "article_id": "141",
+        "title": "再爱MiniMax一次",
+        "date": "2026-09-01",
+        "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "permalink": "/articles/141",
+        "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "mention_count": 2
+      },
+      {
         "article_id": "136",
         "title": "AI应用骗钱，哦不融资指南",
         "date": "2026-08-23",
@@ -129,8 +139,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 30,
-    "composite_weight": 0.4136
+    "degree": 32,
+    "composite_weight": 0.3973
   },
   "links": [
     {
@@ -405,11 +415,50 @@
       ]
     },
     {
+      "source": "minimax-h3",
+      "target": "seedance",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中明确指出H3是Seedance之外唯一能打的模型，且能和Seedance对打",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中明确指出H3是Seedance之外唯一能打的模型，且能和Seedance对打",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "seedance",
       "target": "libtv",
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "LibTV在超长视频生成和支付灵活性上与Seedance形成竞争/对标关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "seedance",
+      "target": "minimax-h3",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中明确指出H3是Seedance之外唯一能打的模型，且能和Seedance对打",
       "weight": 1,
       "strength": 3,
       "effective_weight": 3,
@@ -907,9 +956,9 @@
     {
       "source": "seedance",
       "target": "陈冕",
-      "score": 0.7011,
+      "score": 0.7514,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "078",
         "106",
@@ -922,23 +971,24 @@
     {
       "source": "minimax",
       "target": "seedance",
-      "score": 0.5884,
+      "score": 0.6542,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "099",
         "116",
         "117",
-        "132"
+        "132",
+        "141"
       ],
       "status": "suggested"
     },
     {
       "source": "oiioii",
       "target": "seedance",
-      "score": 0.5447,
+      "score": 0.595,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "062",
         "065",
@@ -948,28 +998,28 @@
       "status": "suggested"
     },
     {
-      "source": "pixverse",
+      "source": "kimi",
       "target": "seedance",
-      "score": 0.5047,
+      "score": 0.5384,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
-        "113"
+        "065",
+        "099",
+        "116",
+        "117",
+        "132"
       ],
       "status": "suggested"
     },
     {
-      "source": "seedance",
-      "target": "智谱ai",
-      "score": 0.4835,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
+      "source": "pixverse",
+      "target": "seedance",
+      "score": 0.502,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
-        "065",
-        "099",
-        "113",
-        "116",
-        "117"
+        "113"
       ],
       "status": "suggested"
     }

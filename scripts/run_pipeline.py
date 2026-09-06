@@ -2,8 +2,9 @@
 run_pipeline.py -- Unified CLI entry point for the 葬AI knowledge graph pipeline.
 
 Wraps existing scripts into a single command:
-    python -m scripts.run_pipeline              # Full pipeline
-    python -m scripts.run_pipeline extract      # Qwen extraction only
+    python -m scripts.run_pipeline update       # Import, resume, deploy, sync
+    python -m scripts.run_pipeline              # Extract and build data
+    python -m scripts.run_pipeline extract      # Provider-failover extraction only
     python -m scripts.run_pipeline build        # Post-process + presentation
     python -m scripts.run_pipeline present      # Regenerate frontend data only
     python -m scripts.run_pipeline --articles 069 070  # Specific articles
@@ -14,6 +15,8 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import fcntl
+import json
 import os
 import subprocess
 import sys
@@ -29,21 +32,17 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 
 
 def run_extract(args: argparse.Namespace) -> int:
-    """Run Qwen extraction via extract_gemini.py."""
+    """Run Provider-failover extraction via extract_gemini.py."""
     from extract_gemini import load_project_env, main_async
 
     load_project_env(PROJECT_ROOT / ".env")
-
-    if not os.environ.get("DASHSCOPE_API_KEY"):
-        print("ERROR: Set DASHSCOPE_API_KEY in ~/.env or .env")
-        return 1
 
     extract_args = SimpleNamespace(
         limit=args.limit,
         workers=args.workers,
         articles=args.articles,
         force=args.force,
-        allow_partial_export=True,
+        allow_partial_export=False,
     )
     return asyncio.run(main_async(extract_args))
 
@@ -78,7 +77,7 @@ def run_build_presentation() -> int:
 def run_full(args: argparse.Namespace) -> int:
     """Run the full pipeline: extract → post-process → presentation."""
     print("=" * 70)
-    print("STAGE 1/3: Qwen Extraction")
+    print("STAGE 1/3: Incremental extraction")
     print("=" * 70)
     rc = run_extract(args)
     if rc != 0:
@@ -134,6 +133,86 @@ def run_present(args: argparse.Namespace) -> int:
     return run_build_presentation()
 
 
+def pending_articles() -> list[dict]:
+    from overrides import EXCLUDED_ARTICLES
+    from pipeline_state import extraction_decision, load_articles, load_manifest
+
+    manifest = load_manifest()
+    return [a for a in load_articles() if a["id"] not in EXCLUDED_ARTICLES
+            and extraction_decision(a, manifest["articles"].get(a["id"]))[0]]
+
+
+def publication_needed(remote: dict, data_root: Path) -> bool:
+    from release_guard import KEY_ASSETS, sha256_file
+
+    return any(remote.get("hashes", {}).get(key) != sha256_file(data_root / key.removeprefix("data/"))
+               for key in KEY_ASSETS)
+
+
+def run_update(args: argparse.Namespace) -> int:
+    """Resume from source, extraction, published data and Git, never import count."""
+    common = subprocess.check_output(["git", "rev-parse", "--path-format=absolute", "--git-common-dir"], text=True).strip()
+    # Lock the shared Git directory so separate worktrees cannot publish over one another.
+    descriptor = os.open(common, os.O_RDONLY)
+    try:
+        fcntl.flock(descriptor, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        os.close(descriptor)
+        print("Another content update is running; this run has nothing to do.")
+        return 0
+    try:
+        canonical = Path(common).parent
+        os.environ.setdefault("WEB4_AUTOMATION_WORKTREE", "1")
+        os.environ.setdefault("TEST_BENCHMARK_DIR", str(canonical / "site/public/test"))
+        if (canonical / "pipeline.local.toml").exists():
+            from pipeline_state import _load_toml_file
+            source = _load_toml_file(canonical / "pipeline.local.toml").get("articles", {}).get("source_dir")
+            if source:
+                os.environ.setdefault("ZANGAI_ARTICLES_SOURCE_DIR", source)
+                import pipeline_state
+                pipeline_state.ARTICLE_SOURCE_DIR = Path(os.environ["ZANGAI_ARTICLES_SOURCE_DIR"]).expanduser()
+
+        subprocess.run([sys.executable, "-m", "scripts.import_substack_articles"], cwd=PROJECT_ROOT, check=True)
+        from pipeline_state import load_manifest
+        pending = pending_articles()
+        if pending:
+            if run_extract(args):
+                return 1
+
+        # Rebuild after a previous extraction succeeded but presentation/deployment failed.
+        from build_presentation import stable_presentation_timestamp
+        from release_guard import _request_bytes, load_json, validate_site_data
+        index_path = PROJECT_ROOT / "web-data/article-index.json"
+        if pending or not index_path.exists() or load_json(index_path).get("generatedAt") != stable_presentation_timestamp(load_manifest()):
+            if run_build(args):
+                return 1
+            index = load_json(index_path)
+            latest = max(index["articles"], key=lambda a: int(a["id"]))
+            changelog = PROJECT_ROOT / "CHANGELOG.md"
+            text = changelog.read_text(encoding="utf-8")
+            entry = f"- Content update through {latest['id']}: {index['count']} articles; latest: {latest['title']}."
+            if entry not in text:
+                changelog.write_text(text.replace("## [Unreleased]", "## [Unreleased]\n\n" + entry, 1), encoding="utf-8")
+        validate_site_data(PROJECT_ROOT / "web-data")
+        remote = json.loads(_request_bytes("https://funeralai.cc/release-manifest.json", 3, 2)[0])
+        if publication_needed(remote, PROJECT_ROOT / "web-data"):
+            if not (PROJECT_ROOT / "site/node_modules/.bin/next").exists():
+                subprocess.run(["npm", "ci", "--no-audit", "--no-fund"], cwd=PROJECT_ROOT / "site", check=True, timeout=600)
+            subprocess.run(["bash", "scripts/deploy_site.sh", "--profile", "content"], cwd=PROJECT_ROOT, check=True)
+        else:
+            print("Source, local data and production match; no deployment needed.")
+        return 0
+    finally:
+        # Persist progress even if extraction/build/deployment failed. A fresh
+        # scheduled worktree can resume from Git instead of losing completed work.
+        try:
+            sync = subprocess.run(["bash", "scripts/sync_github_repo.sh", "--profile", "content"], cwd=PROJECT_ROOT)
+            if sync.returncode and sys.exc_info()[0] is None:
+                raise RuntimeError("GitHub sync failed; local progress is preserved. Rerun update.")
+        finally:
+            os.close(descriptor)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         prog="python -m scripts.run_pipeline",
@@ -143,7 +222,7 @@ def main() -> int:
         "command",
         nargs="?",
         default="full",
-        choices=["full", "extract", "build", "present"],
+        choices=["full", "extract", "build", "present", "update"],
         help="Pipeline stage to run (default: full)",
     )
     parser.add_argument("--articles", nargs="+", help="Specific article IDs (e.g. 069 070)")
@@ -158,6 +237,7 @@ def main() -> int:
         "extract": run_extract,
         "build": run_build,
         "present": run_present,
+        "update": run_update,
     }
 
     handler = dispatch[args.command]

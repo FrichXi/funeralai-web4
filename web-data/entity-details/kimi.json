@@ -4,26 +4,30 @@
     "name": "Kimi",
     "type": "product",
     "description": "具有长上下文能力的大语言模型，文中被用作Claude Code的后端调用模型",
-    "mention_count": 166,
-    "article_count": 29,
+    "mention_count": 216,
+    "article_count": 34,
     "aliases": [
       "K2",
       "K2.7 Code",
       "K2.7-code",
+      "K3",
       "Kimi 2.7 code",
       "Kimi Code",
       "Kimi K2",
       "Kimi K2.7-code",
+      "Kimi K3",
       "Kimi work",
       "Moonshot AI",
       "k2"
     ],
     "tags": [
+      "2T参数",
       "AI产品",
       "AI助手",
       "AI四小虎",
       "AI四小龙",
       "AI工具",
+      "AI应用",
       "AI生成",
       "Agent",
       "Coding",
@@ -32,31 +36,39 @@
       "Long Context",
       "ToC",
       "产出不稳定",
+      "前端优化",
+      "前端生成",
       "后端模型",
       "国产大模型",
       "国产模型",
+      "多模态",
       "大模型",
       "大模型公司",
       "大模型厂商",
       "大语言模型",
+      "工具调用",
       "平替",
+      "开源",
       "开源/闭源模型",
       "开源模型",
       "御三家",
       "思维链",
       "投流",
       "数据飞轮",
+      "文本生成",
       "新赛季开创者",
       "最会做产品",
       "本地Agent",
       "社区",
       "竞品",
       "缓存命中成本高",
+      "网页游戏",
+      "长文本",
       "长文本处理",
       "高估值"
     ],
-    "references": 29,
-    "source_article_count": 29,
+    "references": 34,
+    "source_article_count": 34,
     "source_articles": [
       {
         "article_id": "134",
@@ -113,6 +125,15 @@
         "mention_count": 13
       },
       {
+        "article_id": "140",
+        "title": "一场黑客松斩杀了整个网吧",
+        "date": "2026-08-27",
+        "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+        "permalink": "/articles/140",
+        "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+        "mention_count": 9
+      },
+      {
         "article_id": "049",
         "title": "建议六小虎合并，实现China AGI",
         "date": "2026-01-05",
@@ -147,6 +168,15 @@
         "permalink": "/articles/116",
         "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
         "mention_count": 4
+      },
+      {
+        "article_id": "141",
+        "title": "再爱MiniMax一次",
+        "date": "2026-09-01",
+        "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "permalink": "/articles/141",
+        "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "mention_count": 3
       },
       {
         "article_id": "099",
@@ -302,6 +332,33 @@
         "mention_count": 1
       },
       {
+        "article_id": "129",
+        "title": "Qwen 3.8升级纯血力工模型",
+        "date": "2026-08-05",
+        "path": "articles/129_2026-08-05_葬爱咸鱼_Qwen 3.8升级纯血力工模型.md",
+        "permalink": "/articles/129",
+        "markdown_link": "articles/129_2026-08-05_葬爱咸鱼_Qwen 3.8升级纯血力工模型.md",
+        "mention_count": 12
+      },
+      {
+        "article_id": "142",
+        "title": "大模型拿大结果指南",
+        "date": "2026-09-01",
+        "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+        "permalink": "/articles/142",
+        "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+        "mention_count": 7
+      },
+      {
+        "article_id": "132",
+        "title": "Seedance 2.5自绝于网民",
+        "date": "2026-08-12",
+        "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "permalink": "/articles/132",
+        "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "019",
         "title": "我研发出了主体思想AI",
         "date": "2025-09-04",
@@ -320,8 +377,8 @@
         "mention_count": 2
       }
     ],
-    "degree": 52,
-    "composite_weight": 0.7249
+    "degree": 72,
+    "composite_weight": 0.8787
   },
   "links": [
     {
@@ -388,6 +445,58 @@
       ]
     },
     {
+      "source": "claude-fable-5",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "评测显示K3综合能力仅次于5.6 Sol和Fable 5",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "评测显示K3综合能力仅次于5.6 Sol和Fable 5",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "source": "fable-5",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "K3等国产模型跑分逼近Fable 5，但仍落后一代",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "138"
+      ],
+      "evidences": [
+        {
+          "article_id": "138",
+          "title": "开源模型就是统一战线",
+          "permalink": "/articles/138",
+          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "date": "2026-08-26",
+          "label": "K3等国产模型跑分逼近Fable 5，但仍落后一代",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "gemini",
       "target": "kimi",
       "relation_type": "compares_to",
@@ -409,6 +518,58 @@
           "path": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
           "date": "2025-09-22",
           "label": "作者对比了在AI写作场景下Gemini生成长文的流畅性与Kimi在性价比及部分环节幻觉率上的差异",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "glm-5-2",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比GLM 5.2与K3的性能水平及智能密度",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "138"
+      ],
+      "evidences": [
+        {
+          "article_id": "138",
+          "title": "开源模型就是统一战线",
+          "permalink": "/articles/138",
+          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "date": "2026-08-26",
+          "label": "文中对比GLM 5.2与K3的性能水平及智能密度",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "grok-4-6",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Grok 4.6性能和K3一个水平，速度更快价格更便宜",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "138"
+      ],
+      "evidences": [
+        {
+          "article_id": "138",
+          "title": "开源模型就是统一战线",
+          "permalink": "/articles/138",
+          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "date": "2026-08-26",
+          "label": "Grok 4.6性能和K3一个水平，速度更快价格更便宜",
           "weight": 1
         }
       ]
@@ -441,6 +602,32 @@
     },
     {
       "source": "kimi",
+      "target": "claude-fable-5",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "评测显示K3综合能力仅次于5.6 Sol和Fable 5",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi",
+      "target": "fable-5",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "K3等国产模型跑分逼近Fable 5，但仍落后一代",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi",
       "target": "gemini",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -454,19 +641,82 @@
     },
     {
       "source": "kimi",
+      "target": "glm-5-2",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比GLM 5.2与K3的性能水平及智能密度",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi",
+      "target": "grok-4-6",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Grok 4.6性能和K3一个水平，速度更快价格更便宜",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi",
+      "target": "longcat",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将美团长猫作为二线模型与Kimi等顶尖模型进行档次对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "140"
+      ],
+      "evidences": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "文中将美团长猫作为二线模型与Kimi等顶尖模型进行档次对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
       "target": "minimax",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "市场认为MiniMax和Kimi是一个级别，形成强行双骄效果",
-      "weight": 2,
+      "weight": 3,
       "strength": 2,
-      "effective_weight": 6,
-      "article_count": 2,
+      "effective_weight": 9,
+      "article_count": 3,
       "evidence_articles": [
         "116",
-        "117"
+        "117",
+        "141"
       ],
       "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中在讨论模型厂竞赛版本时，将MiniMax与Kimi置于同一竞争维度进行比较",
+          "weight": 1
+        },
         {
           "article_id": "117",
           "title": "我来给MiniMax道歉了",
@@ -485,6 +735,32 @@
           "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
           "date": "2026-07-09",
           "label": "市场认为MiniMax和Kimi是一个级别，形成强行双骄效果",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "minimax-h3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将MiniMax H3的产品化策略（多做一步）与Kimi K3进行类比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "132"
+      ],
+      "evidences": [
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "date": "2026-08-12",
+          "label": "文章将MiniMax H3的产品化策略（多做一步）与Kimi K3进行类比",
           "weight": 1
         }
       ]
@@ -521,14 +797,25 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "Qwen的低API请求数和低成本与产生大量请求的Kimi形成鲜明对比",
-      "weight": 1,
+      "weight": 2,
       "strength": 2,
-      "effective_weight": 3,
-      "article_count": 1,
+      "effective_weight": 6,
+      "article_count": 2,
       "evidence_articles": [
-        "105"
+        "105",
+        "140"
       ],
       "evidences": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "两者均为本次黑客松选定的顶尖模型，且在多个Bench中被横向测评",
+          "weight": 1
+        },
         {
           "article_id": "105",
           "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
@@ -620,11 +907,37 @@
       ]
     },
     {
+      "source": "longcat",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将美团长猫作为二线模型与Kimi等顶尖模型进行档次对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "minimax",
       "target": "kimi",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "市场认为MiniMax和Kimi是一个级别，形成强行双骄效果",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "minimax-h3",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将MiniMax H3的产品化策略（多做一步）与Kimi K3进行类比",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -802,6 +1115,58 @@
       ]
     },
     {
+      "source": "glm-5-2",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "K3显著超越GLM 5.2，两者争夺国产模型头部位置",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "K3显著超越GLM 5.2，两者争夺国产模型头部位置",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "grok-4-6",
+      "target": "kimi",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中指出Grok 4.6和K3处于同一水平，且即将发布的4.7将与K3进入同一赛季竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "134"
+      ],
+      "evidences": [
+        {
+          "article_id": "134",
+          "title": "Kimi熹妃回宫",
+          "permalink": "/articles/134",
+          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "date": "2026-08-17",
+          "label": "文中指出Grok 4.6和K3处于同一水平，且即将发布的4.7将与K3进入同一赛季竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "kimi",
       "target": "claude",
       "relation_type": "competes_with",
@@ -846,6 +1211,32 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "GLM5.2在编程能力评估中被视作专门狙击Kimi的产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi",
+      "target": "glm-5-2",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "K3显著超越GLM 5.2，两者争夺国产模型头部位置",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kimi",
+      "target": "grok-4-6",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中指出Grok 4.6和K3处于同一水平，且即将发布的4.7将与K3进入同一赛季竞争",
       "weight": 1,
       "strength": 3,
       "effective_weight": 3,
@@ -1173,53 +1564,27 @@
       ]
     },
     {
-      "source": "kimi",
-      "target": "k3",
-      "relation_type": "develops",
-      "type": "develops",
-      "label": "Kimi（月之暗面）开发了K3模型",
+      "source": "沐秋",
+      "target": "kimi",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "沐秋批评K3宣传片软蒸馏Fable 5",
       "weight": 1,
-      "strength": 4,
-      "effective_weight": 5,
+      "strength": 3,
+      "effective_weight": 4,
       "article_count": 1,
       "evidence_articles": [
-        "138"
+        "122"
       ],
       "evidences": [
         {
-          "article_id": "138",
-          "title": "开源模型就是统一战线",
-          "permalink": "/articles/138",
-          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
-          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
-          "date": "2026-08-26",
-          "label": "Kimi（月之暗面）开发了K3模型",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "source": "kimi",
-      "target": "kimi-k3",
-      "relation_type": "develops",
-      "type": "develops",
-      "label": "Kimi开发了K3模型并借此开启新赛季",
-      "weight": 1,
-      "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
-      "evidence_articles": [
-        "134"
-      ],
-      "evidences": [
-        {
-          "article_id": "134",
-          "title": "Kimi熹妃回宫",
-          "permalink": "/articles/134",
-          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
-          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
-          "date": "2026-08-17",
-          "label": "Kimi开发了K3模型并借此开启新赛季",
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "沐秋批评K3宣传片软蒸馏Fable 5",
           "weight": 1
         }
       ]
@@ -1257,6 +1622,32 @@
           "path": "articles/010_2025-07-08_葬爱咸鱼_YouWare说明AI创始人需要神性.md",
           "date": "2025-07-08",
           "label": "月之暗面是Kimi的开发公司",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "杨植麟",
+      "target": "kimi",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Kimi开发了K3模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "Kimi开发了K3模型",
           "weight": 1
         }
       ]
@@ -1414,6 +1805,84 @@
       ]
     },
     {
+      "source": "唐杰",
+      "target": "kimi",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "文中提到杨植麟的美国导师点赞K3（注：非唐杰本人，但易混淆，此处仅作实体关联记录，实际为误读）",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "文中提到杨植麟的美国导师点赞K3（注：非唐杰本人，但易混淆，此处仅作实体关联记录，实际为误读）",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "微软",
+      "target": "kimi",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "微软签署公开信支持开源模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "138"
+      ],
+      "evidences": [
+        {
+          "article_id": "138",
+          "title": "开源模型就是统一战线",
+          "permalink": "/articles/138",
+          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "date": "2026-08-26",
+          "label": "微软签署公开信支持开源模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "英伟达",
+      "target": "kimi",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "包括英伟达在内的270多家公司发公开信支持开源模型（K3为代表）",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "138"
+      ],
+      "evidences": [
+        {
+          "article_id": "138",
+          "title": "开源模型就是统一战线",
+          "permalink": "/articles/138",
+          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "date": "2026-08-26",
+          "label": "包括英伟达在内的270多家公司发公开信支持开源模型（K3为代表）",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "马斯克",
       "target": "kimi",
       "relation_type": "praises",
@@ -1501,29 +1970,56 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "钟十六",
+      "target": "kimi",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "钟经纬作为外援参与了K3的Bench测试",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "钟经纬作为外援参与了K3的Bench测试",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "chatgpt",
       "target": "kimi",
-      "score": 0.709,
+      "score": 0.8778,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 6 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 8 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "030",
         "040",
         "048",
-        "105"
+        "105",
+        "142"
       ],
       "status": "suggested"
     },
     {
       "source": "kimi",
       "target": "字节跳动",
-      "score": 0.708,
+      "score": 0.7076,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "040",
         "065",
@@ -1536,7 +2032,7 @@
     {
       "source": "kimi",
       "target": "openai",
-      "score": 0.6685,
+      "score": 0.6673,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1549,30 +2045,29 @@
       "status": "suggested"
     },
     {
-      "source": "glm-5-2",
+      "source": "cursor",
       "target": "kimi",
-      "score": 0.5973,
+      "score": 0.6215,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
-        "116",
-        "117",
-        "122",
+        "004",
+        "030",
         "138"
       ],
       "status": "suggested"
     },
     {
       "source": "kimi",
-      "target": "阿里云",
-      "score": 0.5336,
+      "target": "美团",
+      "score": 0.602,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
-        "049",
-        "055",
-        "057",
-        "065"
+        "040",
+        "116",
+        "138",
+        "140"
       ],
       "status": "suggested"
     }

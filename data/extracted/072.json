@@ -1,0 +1,279 @@
+{
+  "article": {
+    "id": "072",
+    "title": "小智AI才是真正的具身智能",
+    "path": "articles/072_2026-03-17_沐秋_小智AI才是真正的具身智能.md",
+    "date": "2026-03-17",
+    "author": "沐秋",
+    "content_hash": "cb8a6fb53d7483d85d9fca4494ca78af98cee9b058fc392cb43251d41b68c6ae"
+  },
+  "entities": [
+    {
+      "id": "小智ai",
+      "name": "小智AI",
+      "type": "product",
+      "description": "开源的内置大模型与小型显示屏的AI陪伴硬件",
+      "mention_count": 16,
+      "aliases": [],
+      "tags": [
+        "具身智能",
+        "开源生态",
+        "AI玩具"
+      ]
+    },
+    {
+      "id": "虾哥",
+      "name": "虾哥",
+      "type": "person",
+      "description": "深圳电子开发者，小智AI的创造者与开源者",
+      "mention_count": 8,
+      "aliases": [],
+      "tags": [
+        "小智之父",
+        "电子佬"
+      ]
+    },
+    {
+      "id": "乐鑫",
+      "name": "乐鑫",
+      "type": "company",
+      "description": "主打便宜可靠、简单易用的国产芯片公司",
+      "mention_count": 3,
+      "aliases": [
+        "乐鑫芯片"
+      ],
+      "tags": [
+        "国产芯片"
+      ]
+    },
+    {
+      "id": "esp32",
+      "name": "ESP32",
+      "type": "product",
+      "description": "乐鑫推出的对小白友好的低成本芯片，被小智AI首发采用",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "芯片"
+      ]
+    },
+    {
+      "id": "makerworld",
+      "name": "MakerWorld",
+      "type": "product",
+      "description": "拓竹旗下的产品线，其开发者生态被用来类比小智AI的开源生态",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "开发者生态"
+      ]
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "type": "product",
+      "description": "可被小智AI控制的外部硬件设备",
+      "mention_count": 1,
+      "aliases": [
+        "Openclaw"
+      ],
+      "tags": []
+    },
+    {
+      "id": "fuzzo",
+      "name": "fuzzo",
+      "type": "product",
+      "description": "一款AI玩具，被作者认为对话体验不如小智AI",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI玩具"
+      ]
+    },
+    {
+      "id": "天猫精灵",
+      "name": "天猫精灵",
+      "type": "product",
+      "description": "智能音箱产品，被认为可能会被小智AI颠覆",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "智能硬件"
+      ]
+    },
+    {
+      "id": "小度",
+      "name": "小度",
+      "type": "product",
+      "description": "智能音箱产品，被认为可能会被小智AI颠覆",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "智能硬件"
+      ]
+    },
+    {
+      "id": "小爱",
+      "name": "小爱",
+      "type": "product",
+      "description": "智能音箱产品，被认为可能会被小智AI的开源大军颠覆",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "智能硬件"
+      ]
+    },
+    {
+      "id": "拓竹",
+      "name": "拓竹",
+      "type": "company",
+      "description": "拥有MakerWorld产品线的硬件公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "通义千问",
+      "name": "通义千问",
+      "type": "product",
+      "description": "开源大语言模型，小智AI主要调用的底层模型",
+      "mention_count": 1,
+      "aliases": [
+        "Qwen"
+      ],
+      "tags": [
+        "大模型",
+        "开源"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "MakerWorld",
+      "target": "小智AI",
+      "relation_type": "compares_to",
+      "label": "文章将小智AI的开发者生态模式类比为拓竹的MakerWorld",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "fuzzo",
+      "target": "小智AI",
+      "relation_type": "compares_to",
+      "label": "文章将小智AI的对话体验与fuzzo进行对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "天猫精灵",
+      "target": "小智AI",
+      "relation_type": "competes_with",
+      "label": "小智AI被视为天猫精灵等传统智能设备的强力竞品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "小度",
+      "target": "小智AI",
+      "relation_type": "competes_with",
+      "label": "小智AI被视为小度等传统智能设备的强力竞品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "小智AI",
+      "target": "小爱",
+      "relation_type": "competes_with",
+      "label": "小智AI开源生态产出的丰富变体被认为足以颠覆小爱等传统智能设备",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "乐鑫",
+      "target": "ESP32",
+      "relation_type": "develops",
+      "label": "乐鑫是ESP32芯片的研发公司",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "拓竹",
+      "target": "MakerWorld",
+      "relation_type": "develops",
+      "label": "拓竹拥有MakerWorld产品线",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "ESP32",
+      "target": "小智AI",
+      "relation_type": "integrates_with",
+      "label": "小智AI硬件方案中使用了乐鑫的ESP32芯片",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "OpenClaw",
+      "target": "小智AI",
+      "relation_type": "integrates_with",
+      "label": "开发者让小智AI接入并控制Openclaw硬件",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "小智AI",
+      "target": "通义千问",
+      "relation_type": "integrates_with",
+      "label": "小智AI主要调用的底层大模型是Qwen（通义千问）",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "虾哥",
+      "target": "小智AI",
+      "relation_type": "works_on",
+      "label": "虾哥是小智AI的开发者，并在GitHub上将其开源",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 12,
+    "relationship_count": 11,
+    "pruned_entities": [
+      {
+        "name": "OdyssLife",
+        "reason": "low-signal"
+      },
+      {
+        "name": "乐鑫AI陪伴宠物",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "光帆科技",
+        "reason": "low-signal"
+      },
+      {
+        "name": "光帆科技AI耳机",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "飞书录音豆",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

@@ -3,9 +3,9 @@
     "id": "openai",
     "name": "OpenAI",
     "type": "company",
-    "description": "美国AI公司，GPT系列模型开发者，文中提及即将发布GPT 6",
-    "mention_count": 26,
-    "article_count": 14,
+    "description": "AI 公司，文中提及其 DeepResearch 产品作为行业对标对象",
+    "mention_count": 27,
+    "article_count": 15,
     "aliases": [
       "O社"
     ],
@@ -22,8 +22,8 @@
       "行业标杆",
       "闭源模型"
     ],
-    "references": 14,
-    "source_article_count": 14,
+    "references": 15,
+    "source_article_count": 15,
     "source_articles": [
       {
         "article_id": "125",
@@ -107,6 +107,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "143",
+        "title": "Manus团队测模型一点微小的经验",
+        "date": "2026-09-04",
+        "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+        "permalink": "/articles/143",
+        "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "136",
         "title": "AI应用骗钱，哦不融资指南",
         "date": "2026-08-23",
@@ -152,8 +161,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 22,
-    "composite_weight": 0.2291
+    "degree": 23,
+    "composite_weight": 0.2289
   },
   "links": [
     {
@@ -466,6 +475,32 @@
     },
     {
       "source": "openai",
+      "target": "chatgpt-deep-research",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "文中提到“OpenAI 的 DeepResearch”，表明归属关系",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中提到“OpenAI 的 DeepResearch”，表明归属关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "openai",
       "target": "codex",
       "relation_type": "develops",
       "type": "develops",
@@ -623,9 +658,24 @@
   ],
   "suggested_edges": [
     {
+      "source": "claude",
+      "target": "openai",
+      "score": 0.6753,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "031",
+        "099",
+        "103",
+        "109",
+        "143"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "kimi",
       "target": "openai",
-      "score": 0.6685,
+      "score": 0.6673,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -638,23 +688,9 @@
       "status": "suggested"
     },
     {
-      "source": "claude",
-      "target": "openai",
-      "score": 0.5593,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "031",
-        "099",
-        "103",
-        "109"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "openai",
       "target": "字节跳动",
-      "score": 0.4393,
+      "score": 0.4391,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -668,7 +704,7 @@
     {
       "source": "openai",
       "target": "阿里巴巴",
-      "score": 0.4393,
+      "score": 0.4391,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -680,15 +716,15 @@
       "status": "suggested"
     },
     {
-      "source": "minimax",
-      "target": "openai",
-      "score": 0.417,
-      "suggested_relation_type": "compares_to",
+      "source": "openai",
+      "target": "qwen",
+      "score": 0.3939,
+      "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
+        "051",
         "099",
-        "103",
-        "109"
+        "103"
       ],
       "status": "suggested"
     }

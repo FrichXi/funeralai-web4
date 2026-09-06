@@ -1,0 +1,192 @@
+{
+  "article": {
+    "id": "038",
+    "title": "建议蚂蚁集团收购马卡龙",
+    "path": "articles/038_2025-12-02_葬爱咸鱼_建议蚂蚁集团收购马卡龙.md",
+    "date": "2025-12-02",
+    "author": "葬爱咸鱼",
+    "content_hash": "fe26cbc3a23cfb590724a55f68b3e2338d2a96f2221398496167af7fc8872d74"
+  },
+  "entities": [
+    {
+      "id": "马卡龙",
+      "name": "马卡龙",
+      "type": "product",
+      "description": "一款支持普通用户手搓AI应用的平台/产品，具备较好的设计审美。",
+      "mention_count": 25,
+      "aliases": [],
+      "tags": [
+        "Agent商店",
+        "Vibe Coding",
+        "AI应用"
+      ]
+    },
+    {
+      "id": "灵光",
+      "name": "灵光",
+      "type": "product",
+      "description": "蚂蚁集团开发的AI应用，主打排版能力和生成前端界面的闪应用。",
+      "mention_count": 20,
+      "aliases": [
+        "灵光APP"
+      ],
+      "tags": [
+        "ChatBot",
+        "闪应用"
+      ]
+    },
+    {
+      "id": "蚂蚁集团",
+      "name": "蚂蚁集团",
+      "type": "company",
+      "description": "中国互联网巨头，开发了AI应用灵光。",
+      "mention_count": 6,
+      "aliases": [
+        "蚂蚁"
+      ],
+      "tags": [
+        "大厂",
+        "互联网巨头"
+      ]
+    },
+    {
+      "id": "锴杰",
+      "name": "锴杰",
+      "type": "person",
+      "description": "马卡龙的核心人物/创始人，被评价为具有创新能力和韧性。",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "AI产品，文中作为灵光的潜在竞对被提及。",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "大模型应用"
+      ]
+    },
+    {
+      "id": "豆包手机",
+      "name": "豆包手机",
+      "type": "product",
+      "description": "由豆包相关的团队推出的AI硬件/手机产品。",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "Agent手机"
+      ]
+    },
+    {
+      "id": "lovart",
+      "name": "Lovart",
+      "type": "company",
+      "description": "一家估值达到五六亿美金的AI相关公司，获投资。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI公司"
+      ]
+    },
+    {
+      "id": "nano-banana",
+      "name": "Nano Banana",
+      "type": "product",
+      "description": "一种具有强大能力的AI大模型，被马卡龙等应用所依赖。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "基础模型"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "灵光",
+      "target": "马卡龙",
+      "relation_type": "compares_to",
+      "label": "文章明确将灵光类比为“低配版马卡龙”、“老登版马卡龙”、“神似马卡龙的应用”。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "灵光",
+      "target": "豆包",
+      "relation_type": "competes_with",
+      "label": "文章提及蚂蚁集团可能试图用灵光去打（竞争）豆包。",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "灵光",
+      "target": "马卡龙",
+      "relation_type": "competes_with",
+      "label": "两款应用在功能逻辑和目标群体上有直接对标和竞争关系。",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "灵光",
+      "relation_type": "develops",
+      "label": "蚂蚁集团调动了200多人的AGI探索小组开发了灵光APP。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Nano Banana",
+      "target": "马卡龙",
+      "relation_type": "integrates_with",
+      "label": "马卡龙上的部分Agent小程序（如照片转3D）严重依赖于Nano Banana模型的能力。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "Lovart",
+      "relation_type": "invests_in",
+      "label": "文中提到投资Lovart的五六亿美金估值，暗示蚂蚁集团参与或考虑了该项投资。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    },
+    {
+      "source": "锴杰",
+      "target": "马卡龙",
+      "relation_type": "works_on",
+      "label": "锴杰负责马卡龙APP的开发、bug修复与迭代。",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 8,
+    "relationship_count": 7,
+    "pruned_entities": [
+      {
+        "name": "杨泽昊",
+        "reason": "low-signal"
+      },
+      {
+        "name": "杨泽昊的Agent手机",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "马卡龙(公司)",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

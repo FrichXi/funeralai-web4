@@ -3,19 +3,31 @@
     "id": "grok",
     "name": "Grok",
     "type": "product",
-    "description": "xAI开发的大型语言模型，被戏称为北美二豆包",
-    "mention_count": 2,
-    "article_count": 2,
+    "description": "xAI 的模型系列，文中提及 Grok-4.6 偏好商业和竞争分析类隐喻",
+    "mention_count": 3,
+    "article_count": 3,
     "aliases": [
+      "Grok-4.6",
       "北美二豆包"
     ],
     "tags": [
       "AI应用",
-      "大模型"
+      "LLM",
+      "大模型",
+      "文本生成"
     ],
-    "references": 2,
-    "source_article_count": 2,
+    "references": 3,
+    "source_article_count": 3,
     "source_articles": [
+      {
+        "article_id": "143",
+        "title": "Manus团队测模型一点微小的经验",
+        "date": "2026-09-04",
+        "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+        "permalink": "/articles/143",
+        "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+        "mention_count": 1
+      },
       {
         "article_id": "110",
         "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
@@ -35,10 +47,127 @@
         "mention_count": 1
       }
     ],
-    "degree": 4,
-    "composite_weight": 0.0372
+    "degree": 10,
+    "composite_weight": 0.0797
   },
   "links": [
+    {
+      "source": "chatgpt",
+      "target": "grok",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率测试中将 GPT 5.6 与 Grok-4.6 进行了横向对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中在隐喻率测试中将 GPT 5.6 与 Grok-4.6 进行了横向对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "grok",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gemini",
+      "target": "grok",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "grok",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率测试中将 GPT 5.6 与 Grok-4.6 进行了横向对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "grok",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "grok",
+      "target": "gemini",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
     {
       "source": "grok",
       "target": "豆包",
@@ -118,5 +247,28 @@
       ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "grok",
+      "target": "kimi",
+      "score": 0.4195,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "110"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "grok",
+      "target": "qwen",
+      "score": 0.4152,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "110"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

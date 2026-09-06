@@ -1,0 +1,133 @@
+{
+  "article": {
+    "id": "135",
+    "title": "大模型是残酷的制造业",
+    "path": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+    "date": "2026-08-18",
+    "author": "葬爱咸鱼",
+    "content_hash": "145ff338b9d0b30736075bf195acab9a6c6a269e22b8e54386141bd1a5a004e4"
+  },
+  "entities": [
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "大模型公司，开发了H3视频模型，行事风格独特",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "视频生成"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "大模型公司，开发了V4 Flash等高性价比模型",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "开源"
+      ]
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "大模型公司，开发了GLM系列模型，被文中称为后训练之王",
+      "mention_count": 4,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "大模型",
+        "后训练"
+      ]
+    },
+    {
+      "id": "马斯克",
+      "name": "马斯克",
+      "type": "person",
+      "description": "特斯拉/SpaceX/Grok负责人，被用作判断行业是否属于制造业的标杆人物",
+      "mention_count": 1,
+      "aliases": [
+        "Elon Musk",
+        "马圣"
+      ],
+      "tags": [
+        "企业家",
+        "制造业标杆"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "智谱AI",
+      "target": "马斯克",
+      "relation_type": "compares_to",
+      "label": "作者用马斯克能否玩明白作为判断大模型是否为制造业的硬指标，隐含将大模型行业与马斯克涉足的制造业进行类比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "智谱AI",
+      "relation_type": "competes_with",
+      "label": "文中指出两者在大模型水平上相近，竞争此起彼伏，DeepSeek V4 Flash达到GLM 5.2相近水平",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 4,
+    "relationship_count": 2,
+    "pruned_entities": [
+      {
+        "name": "Anthropic",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "Cursor",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Dario Amodei",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "俞浩",
+        "reason": "low-signal"
+      },
+      {
+        "name": "字节跳动",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "月之暗面",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "杨植麟",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "梁文锋",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "阿里云",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "雷军",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

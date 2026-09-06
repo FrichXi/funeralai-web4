@@ -4,8 +4,8 @@
     "name": "MiniMax",
     "type": "company",
     "description": "国内头部大模型公司，开发了M3模型、海螺视频模型及Talkie/星野等C端产品",
-    "mention_count": 267,
-    "article_count": 29,
+    "mention_count": 291,
+    "article_count": 30,
     "aliases": [
       "MinMax",
       "Minimax"
@@ -39,8 +39,8 @@
       "视频生成",
       "视频生成模型"
     ],
-    "references": 29,
-    "source_article_count": 29,
+    "references": 30,
+    "source_article_count": 30,
     "source_articles": [
       {
         "article_id": "117",
@@ -77,6 +77,15 @@
         "permalink": "/articles/127",
         "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
         "mention_count": 27
+      },
+      {
+        "article_id": "141",
+        "title": "再爱MiniMax一次",
+        "date": "2026-09-01",
+        "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "permalink": "/articles/141",
+        "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "mention_count": 24
       },
       {
         "article_id": "049",
@@ -304,25 +313,62 @@
         "mention_count": 1
       }
     ],
-    "degree": 48,
-    "composite_weight": 0.7884
+    "degree": 51,
+    "composite_weight": 0.7917
   },
   "links": [
+    {
+      "source": "deepseek",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属国内大模型竞赛阵营，在Flash模型和小参数模型赛道存在竞争关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "同属国内大模型竞赛阵营，在Flash模型和小参数模型赛道存在竞争关系",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "kimi",
       "target": "minimax",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "市场认为MiniMax和Kimi是一个级别，形成强行双骄效果",
-      "weight": 2,
+      "weight": 3,
       "strength": 2,
-      "effective_weight": 6,
-      "article_count": 2,
+      "effective_weight": 9,
+      "article_count": 3,
       "evidence_articles": [
         "116",
-        "117"
+        "117",
+        "141"
       ],
       "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中在讨论模型厂竞赛版本时，将MiniMax与Kimi置于同一竞争维度进行比较",
+          "weight": 1
+        },
         {
           "article_id": "117",
           "title": "我来给MiniMax道歉了",
@@ -344,6 +390,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "minimax",
+      "target": "deepseek",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属国内大模型竞赛阵营，在Flash模型和小参数模型赛道存在竞争关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
     },
     {
       "source": "minimax",
@@ -380,6 +439,32 @@
           "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
           "date": "2025-12-23",
           "label": "文章将Plaud的营收与MiniMax和智谱的营收之和进行对比。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属国内大模型竞赛阵营，在摸高和Flash赛道存在竞争关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "同属国内大模型竞赛阵营，在摸高和Flash赛道存在竞争关系",
           "weight": 1
         }
       ]
@@ -453,17 +538,28 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "两者作为表现亮眼的模型厂被并列提及",
-      "weight": 4,
+      "weight": 5,
       "strength": 2,
-      "effective_weight": 12,
-      "article_count": 4,
+      "effective_weight": 15,
+      "article_count": 5,
       "evidence_articles": [
         "089",
         "099",
         "117",
-        "134"
+        "134",
+        "141"
       ],
       "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中将MiniMax与智谱AI进行全方位对标，讨论两者水平差距及待遇标准互换",
+          "weight": 1
+        },
         {
           "article_id": "134",
           "title": "Kimi熹妃回宫",
@@ -616,6 +712,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文章将Plaud的营收与MiniMax和智谱的营收之和进行对比。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qwen",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属国内大模型竞赛阵营，在摸高和Flash赛道存在竞争关系",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -1054,32 +1163,6 @@
           "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
           "date": "2026-07-09",
           "label": "朱亦辉解释MiniMax M3核心科技是洗脑能力，强行对标Kimi",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "source": "minimax",
-      "target": "h3",
-      "relation_type": "develops",
-      "type": "develops",
-      "label": "MiniMax开发并发布了视频模型H3",
-      "weight": 1,
-      "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
-      "evidence_articles": [
-        "127"
-      ],
-      "evidences": [
-        {
-          "article_id": "127",
-          "title": "MiniMax用H3窃取大结果",
-          "permalink": "/articles/127",
-          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
-          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
-          "date": "2026-08-02",
-          "label": "MiniMax开发并发布了视频模型H3",
           "weight": 1
         }
       ]
@@ -1556,14 +1639,25 @@
       "relation_type": "founder_of",
       "type": "founder_of",
       "label": "闫俊杰创立了MiniMax",
-      "weight": 1,
+      "weight": 2,
       "strength": 5,
-      "effective_weight": 6,
-      "article_count": 1,
+      "effective_weight": 12,
+      "article_count": 2,
       "evidence_articles": [
-        "085"
+        "085",
+        "141"
       ],
       "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中多次以“俊杰老师”指代MiniMax负责人并引用其言论，确认为创始人关系",
+          "weight": 1
+        },
         {
           "article_id": "085",
           "title": "谁是宇宙第一FA",
@@ -1658,38 +1752,23 @@
   "suggested_edges": [
     {
       "source": "minimax",
-      "target": "qwen",
-      "score": 0.694,
+      "target": "seedance",
+      "score": 0.6542,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 8 篇文章；共享 5 个邻居",
-      "evidence_article_ids": [
-        "049",
-        "055",
-        "060",
-        "099",
-        "103"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "libtv",
-      "target": "minimax",
-      "score": 0.6776,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 7 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "099",
-        "109",
         "116",
         "117",
-        "119"
+        "132",
+        "141"
       ],
       "status": "suggested"
     },
     {
       "source": "anthropic",
       "target": "minimax",
-      "score": 0.6387,
+      "score": 0.6357,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 6 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1703,8 +1782,22 @@
     },
     {
       "source": "minimax",
+      "target": "豆包",
+      "score": 0.6173,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "004",
+        "057",
+        "110",
+        "128"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "minimax",
       "target": "杨植麟",
-      "score": 0.5942,
+      "score": 0.5923,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1718,15 +1811,16 @@
     },
     {
       "source": "minimax",
-      "target": "seedance",
-      "score": 0.5884,
+      "target": "可灵",
+      "score": 0.5694,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
-        "099",
+        "004",
+        "012",
         "116",
         "117",
-        "132"
+        "141"
       ],
       "status": "suggested"
     }

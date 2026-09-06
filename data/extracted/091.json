@@ -1,0 +1,203 @@
+{
+  "article": {
+    "id": "091",
+    "title": "中亚世界没有豆包信仰",
+    "path": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+    "date": "2026-05-14",
+    "author": "沐秋",
+    "content_hash": "205af93075079ebc5d9cb35e0d32703cd19fa9506ffd66cdbeacd01cc2dfcf7b"
+  },
+  "entities": [
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "国产AI大模型应用",
+      "mention_count": 22,
+      "aliases": [],
+      "tags": [
+        "AI大模型",
+        "出海",
+        "免费AI",
+        "图像识别"
+      ]
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "国产AI大模型应用",
+      "mention_count": 9,
+      "aliases": [
+        "千问",
+        "通义千问"
+      ],
+      "tags": [
+        "AI大模型",
+        "免费AI",
+        "图像识别"
+      ]
+    },
+    {
+      "id": "looki",
+      "name": "Looki",
+      "type": "product",
+      "description": "带有摄像头的可穿戴AI硬件设备",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "可穿戴设备",
+        "AI Vlog"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "海外AI大模型应用",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "AI大模型"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "海外AI大模型应用",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "AI大模型"
+      ]
+    },
+    {
+      "id": "谷歌翻译",
+      "name": "谷歌翻译",
+      "type": "product",
+      "description": "翻译工具",
+      "mention_count": 3,
+      "aliases": [
+        "Google Translate"
+      ],
+      "tags": [
+        "翻译"
+      ]
+    },
+    {
+      "id": "大众点评",
+      "name": "大众点评",
+      "type": "product",
+      "description": "本地生活消费指南平台",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "生活服务",
+        "避雷"
+      ]
+    },
+    {
+      "id": "小红书",
+      "name": "小红书",
+      "type": "product",
+      "description": "生活方式内容社区",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "内容社区",
+        "避雷"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ChatGPT",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "label": "大V比较了使用豆包的孩子与使用ChatGPT的孩子在未来可能存在的差距",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "label": "大V比较了使用豆包的孩子与使用Claude的孩子在未来可能存在的差距",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Qwen",
+      "target": "谷歌翻译",
+      "relation_type": "compares_to",
+      "label": "千问在菜单翻译场景中也被用来替代谷歌翻译；但因豆包/千问不支持俄语同传，又与谷歌翻译形成互补对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Qwen",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "label": "文章在旅游翻译、探展图像识别、模型幻觉等多个场景中并列对比使用了豆包与千问",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "大众点评",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "label": "在旅游景点排雷方面，作者认为豆包的表现不如大众点评，大众点评才是平替/更好的选择",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "小红书",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "label": "在旅游景点排雷方面，作者认为豆包不如小红书有效",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "谷歌翻译",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "label": "作者认为在旅游翻译场景中，由于存在上下文，豆包的体验远好于谷歌翻译",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 8,
+    "relationship_count": 7,
+    "pruned_entities": [
+      {
+        "name": "Amen Ring",
+        "reason": "low-signal"
+      },
+      {
+        "name": "DeepSeek",
+        "reason": "low-signal"
+      },
+      {
+        "name": "孙宇晨",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "谷歌地图",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

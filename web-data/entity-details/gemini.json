@@ -3,26 +3,29 @@
     "id": "gemini",
     "name": "Gemini",
     "type": "product",
-    "description": "Google推出的AI对话模型，创作者用于剧本创作的常用工具",
-    "mention_count": 22,
-    "article_count": 12,
+    "description": "Google 的模型系列，文中提及 Gemini-3.7-flash 偏好使用宏大词汇隐喻",
+    "mention_count": 23,
+    "article_count": 13,
     "aliases": [
       "Gemini 2.5 Pro",
       "Gemini 3.5 Flash",
+      "Gemini-3.7-flash",
       "北美大豆包"
     ],
     "tags": [
       "AI视觉",
       "ChatBot",
+      "LLM",
       "多模态",
       "大模型",
       "大语言模型",
+      "文本生成",
       "竞品",
       "超长上下文",
       "长文写作"
     ],
-    "references": 12,
-    "source_article_count": 12,
+    "references": 13,
+    "source_article_count": 13,
     "source_articles": [
       {
         "article_id": "029",
@@ -79,6 +82,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "143",
+        "title": "Manus团队测模型一点微小的经验",
+        "date": "2026-09-04",
+        "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+        "permalink": "/articles/143",
+        "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "124",
         "title": "TapNow想把你困在系统里",
         "date": "2026-07-26",
@@ -133,10 +145,23 @@
         "mention_count": 1
       }
     ],
-    "degree": 26,
-    "composite_weight": 0.2289
+    "degree": 30,
+    "composite_weight": 0.2466
   },
   "links": [
+    {
+      "source": "chatgpt",
+      "target": "gemini",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率测试中将 GPT 5.6 与 Gemini-3.7-flash 进行了横向对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
     {
       "source": "cherry-studio",
       "target": "gemini",
@@ -169,15 +194,26 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "作者对比了使用传统对话式模型（如Gemini）与使用项目管理式Agent（Claude Code）在版本管理和写作效率上的区别",
-      "weight": 2,
+      "weight": 3,
       "strength": 2,
-      "effective_weight": 6,
-      "article_count": 2,
+      "effective_weight": 9,
+      "article_count": 3,
       "evidence_articles": [
         "024",
-        "101"
+        "101",
+        "143"
       ],
       "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+          "weight": 1
+        },
         {
           "article_id": "101",
           "title": "AI圈神童杀死神人",
@@ -254,6 +290,32 @@
     },
     {
       "source": "gemini",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率测试中将 GPT 5.6 与 Gemini-3.7-flash 进行了横向对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中在隐喻率测试中将 GPT 5.6 与 Gemini-3.7-flash 进行了横向对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gemini",
       "target": "cherry-studio",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -303,6 +365,32 @@
       "article_count": 0,
       "evidence_articles": [],
       "evidences": []
+    },
+    {
+      "source": "gemini",
+      "target": "grok",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+          "weight": 1
+        }
+      ]
     },
     {
       "source": "gemini",
@@ -418,6 +506,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "grok",
+      "target": "gemini",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
     },
     {
       "source": "kimi",
@@ -680,9 +781,21 @@
   ],
   "suggested_edges": [
     {
+      "source": "deepseek",
+      "target": "gemini",
+      "score": 0.5782,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 6 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "004",
+        "110"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "gemini",
       "target": "glm",
-      "score": 0.4776,
+      "score": 0.4739,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 1 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -691,21 +804,9 @@
       "status": "suggested"
     },
     {
-      "source": "deepseek",
-      "target": "gemini",
-      "score": 0.4625,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 5 个邻居",
-      "evidence_article_ids": [
-        "004",
-        "110"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "cursor",
       "target": "gemini",
-      "score": 0.417,
+      "score": 0.4168,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -717,7 +818,7 @@
     {
       "source": "gemini",
       "target": "字节跳动",
-      "score": 0.412,
+      "score": 0.4119,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -731,7 +832,7 @@
     {
       "source": "gemini",
       "target": "阶跃星辰",
-      "score": 0.4056,
+      "score": 0.403,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [

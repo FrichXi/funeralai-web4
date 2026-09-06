@@ -1,6 +1,322 @@
 {
   "nodes": [
     {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内头部大模型公司，开发了M3模型、海螺视频模型及Talkie/星野等C端产品",
+      "mention_count": 291,
+      "article_count": 30,
+      "aliases": [
+        "MinMax",
+        "Minimax",
+        "胖猫 (文中特定语境代称)"
+      ],
+      "tags": [
+        "AI公司",
+        "AI六小虎",
+        "AI四小虎",
+        "AI四小龙",
+        "AI大模型",
+        "AI视频",
+        "AI视频生成",
+        "C端",
+        "C端应用",
+        "IPO",
+        "上市",
+        "上市公司",
+        "世界模型",
+        "人工智能",
+        "付费墙",
+        "出海",
+        "多模态",
+        "大模型",
+        "大模型公司",
+        "大模型厂商",
+        "开源",
+        "情感陪伴",
+        "斩杀线",
+        "模型厂",
+        "模型层",
+        "视频生成",
+        "视频生成模型"
+      ],
+      "references": 30,
+      "source_article_count": 30,
+      "source_articles": [
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "date": "2026-07-11",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "mention_count": 71
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "date": "2026-07-09",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "mention_count": 45
+        },
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "date": "2025-06-23",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "mention_count": 29
+        },
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "date": "2026-08-02",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "mention_count": 27
+        },
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "date": "2026-09-01",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "mention_count": 24
+        },
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "date": "2026-01-05",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "mention_count": 17
+        },
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "date": "2026-06-17",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "mention_count": 9
+        },
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "date": "2026-06-24",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "mention_count": 6
+        },
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "date": "2026-06-23",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "mention_count": 6
+        },
+        {
+          "article_id": "135",
+          "title": "大模型是残酷的制造业",
+          "date": "2026-08-18",
+          "path": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+          "permalink": "/articles/135",
+          "markdown_link": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+          "mention_count": 5
+        },
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "date": "2026-08-12",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "mention_count": 5
+        },
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "date": "2026-07-22",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "mention_count": 5
+        },
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "date": "2026-01-26",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "mention_count": 5
+        },
+        {
+          "article_id": "130",
+          "title": "致视频模型：群众不喜闻乐见，你算老几",
+          "date": "2026-08-07",
+          "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "permalink": "/articles/130",
+          "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+          "mention_count": 4
+        },
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "date": "2026-08-04",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "mention_count": 4
+        },
+        {
+          "article_id": "012",
+          "title": "CrePal成为首个胖猫视频Agent",
+          "date": "2025-07-25",
+          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "permalink": "/articles/012",
+          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+          "mention_count": 4
+        },
+        {
+          "article_id": "134",
+          "title": "Kimi熹妃回宫",
+          "date": "2026-08-17",
+          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "permalink": "/articles/134",
+          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "131",
+          "title": "大模型能干，懂模帝会飞",
+          "date": "2026-08-10",
+          "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "permalink": "/articles/131",
+          "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "119",
+          "title": "视频Agent进入大致敬时代",
+          "date": "2026-07-14",
+          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "permalink": "/articles/119",
+          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "date": "2026-06-10",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "068",
+          "title": "云端OpenClaw更是路边一条",
+          "date": "2026-03-04",
+          "path": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+          "permalink": "/articles/068",
+          "markdown_link": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "060",
+          "title": "Clawdbot是一场马斯克发动的中登炒作",
+          "date": "2026-01-30",
+          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "permalink": "/articles/060",
+          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "date": "2026-01-22",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "023",
+          "title": "全球首个性压抑AI发布",
+          "date": "2025-09-17",
+          "path": "articles/023_2025-09-17_葬爱咸鱼_全球首个性压抑AI发布.md",
+          "permalink": "/articles/023",
+          "markdown_link": "articles/023_2025-09-17_葬爱咸鱼_全球首个性压抑AI发布.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "100",
+          "title": "网吧黑客松里有真黑客",
+          "date": "2026-06-07",
+          "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "permalink": "/articles/100",
+          "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "date": "2026-06-04",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "date": "2026-05-10",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "date": "2026-04-27",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "044",
+          "title": "Plaud善打游击战",
+          "date": "2025-12-23",
+          "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "permalink": "/articles/044",
+          "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "016",
+          "title": "Manus依然是版本神",
+          "date": "2025-08-25",
+          "path": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
+          "permalink": "/articles/016",
+          "markdown_link": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
+          "mention_count": 1
+        }
+      ]
+    },
+    {
       "id": "豆包",
       "name": "豆包",
       "type": "product",
@@ -303,333 +619,30 @@
       ]
     },
     {
-      "id": "minimax",
-      "name": "MiniMax",
-      "type": "company",
-      "description": "国内头部大模型公司，开发了M3模型、海螺视频模型及Talkie/星野等C端产品",
-      "mention_count": 267,
-      "article_count": 29,
-      "aliases": [
-        "MinMax",
-        "Minimax",
-        "胖猫 (文中特定语境代称)"
-      ],
-      "tags": [
-        "AI公司",
-        "AI六小虎",
-        "AI四小虎",
-        "AI四小龙",
-        "AI大模型",
-        "AI视频",
-        "AI视频生成",
-        "C端",
-        "C端应用",
-        "IPO",
-        "上市",
-        "上市公司",
-        "世界模型",
-        "人工智能",
-        "付费墙",
-        "出海",
-        "多模态",
-        "大模型",
-        "大模型公司",
-        "大模型厂商",
-        "开源",
-        "情感陪伴",
-        "斩杀线",
-        "模型厂",
-        "模型层",
-        "视频生成",
-        "视频生成模型"
-      ],
-      "references": 29,
-      "source_article_count": 29,
-      "source_articles": [
-        {
-          "article_id": "117",
-          "title": "我来给MiniMax道歉了",
-          "date": "2026-07-11",
-          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
-          "permalink": "/articles/117",
-          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
-          "mention_count": 71
-        },
-        {
-          "article_id": "116",
-          "title": "民办大模型MiniMax努力专升本",
-          "date": "2026-07-09",
-          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
-          "permalink": "/articles/116",
-          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
-          "mention_count": 45
-        },
-        {
-          "article_id": "004",
-          "title": "MiniMax的胖猫宇宙",
-          "date": "2025-06-23",
-          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
-          "permalink": "/articles/004",
-          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
-          "mention_count": 29
-        },
-        {
-          "article_id": "127",
-          "title": "MiniMax用H3窃取大结果",
-          "date": "2026-08-02",
-          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
-          "permalink": "/articles/127",
-          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
-          "mention_count": 27
-        },
-        {
-          "article_id": "049",
-          "title": "建议六小虎合并，实现China AGI",
-          "date": "2026-01-05",
-          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "permalink": "/articles/049",
-          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "mention_count": 17
-        },
-        {
-          "article_id": "105",
-          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
-          "date": "2026-06-17",
-          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
-          "permalink": "/articles/105",
-          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
-          "mention_count": 9
-        },
-        {
-          "article_id": "110",
-          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
-          "date": "2026-06-24",
-          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
-          "permalink": "/articles/110",
-          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
-          "mention_count": 6
-        },
-        {
-          "article_id": "109",
-          "title": "智谱与Anthropic是母凭子贵",
-          "date": "2026-06-23",
-          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
-          "permalink": "/articles/109",
-          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
-          "mention_count": 6
-        },
-        {
-          "article_id": "135",
-          "title": "大模型是残酷的制造业",
-          "date": "2026-08-18",
-          "path": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
-          "permalink": "/articles/135",
-          "markdown_link": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
-          "mention_count": 5
-        },
-        {
-          "article_id": "132",
-          "title": "Seedance 2.5自绝于网民",
-          "date": "2026-08-12",
-          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
-          "permalink": "/articles/132",
-          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
-          "mention_count": 5
-        },
-        {
-          "article_id": "122",
-          "title": "Kimi K3打响前端闪电战",
-          "date": "2026-07-22",
-          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
-          "permalink": "/articles/122",
-          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
-          "mention_count": 5
-        },
-        {
-          "article_id": "057",
-          "title": "AI四小虎进入狠活大赛",
-          "date": "2026-01-26",
-          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
-          "permalink": "/articles/057",
-          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
-          "mention_count": 5
-        },
-        {
-          "article_id": "130",
-          "title": "致视频模型：群众不喜闻乐见，你算老几",
-          "date": "2026-08-07",
-          "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
-          "permalink": "/articles/130",
-          "markdown_link": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
-          "mention_count": 4
-        },
-        {
-          "article_id": "128",
-          "title": "美团大模型跟外卖一样纯出来送",
-          "date": "2026-08-04",
-          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
-          "permalink": "/articles/128",
-          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
-          "mention_count": 4
-        },
-        {
-          "article_id": "012",
-          "title": "CrePal成为首个胖猫视频Agent",
-          "date": "2025-07-25",
-          "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
-          "permalink": "/articles/012",
-          "markdown_link": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
-          "mention_count": 4
-        },
-        {
-          "article_id": "134",
-          "title": "Kimi熹妃回宫",
-          "date": "2026-08-17",
-          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
-          "permalink": "/articles/134",
-          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "131",
-          "title": "大模型能干，懂模帝会飞",
-          "date": "2026-08-10",
-          "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
-          "permalink": "/articles/131",
-          "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "119",
-          "title": "视频Agent进入大致敬时代",
-          "date": "2026-07-14",
-          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
-          "permalink": "/articles/119",
-          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "103",
-          "title": "Kimi看天讨饭吃",
-          "date": "2026-06-10",
-          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
-          "permalink": "/articles/103",
-          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "068",
-          "title": "云端OpenClaw更是路边一条",
-          "date": "2026-03-04",
-          "path": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
-          "permalink": "/articles/068",
-          "markdown_link": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "060",
-          "title": "Clawdbot是一场马斯克发动的中登炒作",
-          "date": "2026-01-30",
-          "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
-          "permalink": "/articles/060",
-          "markdown_link": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "055",
-          "title": "来认识下2025年最活跃的CVC",
-          "date": "2026-01-22",
-          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
-          "permalink": "/articles/055",
-          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "023",
-          "title": "全球首个性压抑AI发布",
-          "date": "2025-09-17",
-          "path": "articles/023_2025-09-17_葬爱咸鱼_全球首个性压抑AI发布.md",
-          "permalink": "/articles/023",
-          "markdown_link": "articles/023_2025-09-17_葬爱咸鱼_全球首个性压抑AI发布.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "100",
-          "title": "网吧黑客松里有真黑客",
-          "date": "2026-06-07",
-          "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
-          "permalink": "/articles/100",
-          "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "099",
-          "title": "马卡龙开创AI短剧Neo Lab",
-          "date": "2026-06-04",
-          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
-          "permalink": "/articles/099",
-          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "089",
-          "title": "Slock说明AI群聊不成立",
-          "date": "2026-05-10",
-          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
-          "permalink": "/articles/089",
-          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "085",
-          "title": "谁是宇宙第一FA",
-          "date": "2026-04-27",
-          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "permalink": "/articles/085",
-          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "044",
-          "title": "Plaud善打游击战",
-          "date": "2025-12-23",
-          "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
-          "permalink": "/articles/044",
-          "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "016",
-          "title": "Manus依然是版本神",
-          "date": "2025-08-25",
-          "path": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
-          "permalink": "/articles/016",
-          "markdown_link": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
-          "mention_count": 1
-        }
-      ]
-    },
-    {
       "id": "claude",
       "name": "Claude",
       "type": "product",
-      "description": "由Anthropic开发的AI编程工具，被广泛用作套壳应用的底层引擎",
-      "mention_count": 220,
-      "article_count": 36,
+      "description": "Anthropic 的模型系列，文中评测显示其信息量高于 GPT，且 Fable-5 版本隐喻率最高",
+      "mention_count": 236,
+      "article_count": 38,
       "aliases": [
         "CC",
         "CC SDK",
         "Claude 3.5 Sonnet",
         "Claude Code",
+        "Claude Fable-5",
         "Claude Opus 4.5",
         "Claude Opus 4.8",
         "Claude Sonnet 3.5",
         "Claude Sonnet 4.0",
         "Claude code",
         "Claude code SDK",
+        "Fable",
         "Opus",
         "Opus 4.6",
         "Opus 4.8",
+        "Opus 5.0",
+        "Opus-5",
         "cc",
         "沐秋"
       ],
@@ -644,6 +657,7 @@
         "Agent引擎",
         "A畜",
         "Coding Agent",
+        "LLM",
         "SDK",
         "Vibe Coding",
         "上下文工程",
@@ -651,6 +665,7 @@
         "云端Agent",
         "人味",
         "代码生成",
+        "代码质量",
         "写作能力",
         "境外势力",
         "大模型",
@@ -658,6 +673,7 @@
         "底层模型",
         "开发工具",
         "性价比标杆",
+        "文本生成",
         "本地环境",
         "本地环境AI",
         "标杆模型",
@@ -672,8 +688,8 @@
         "通用引擎",
         "闭源模型"
       ],
-      "references": 36,
-      "source_article_count": 36,
+      "references": 38,
+      "source_article_count": 38,
       "source_articles": [
         {
           "article_id": "024",
@@ -728,6 +744,15 @@
           "permalink": "/articles/109",
           "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
           "mention_count": 13
+        },
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "date": "2026-09-04",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "mention_count": 12
         },
         {
           "article_id": "096",
@@ -800,6 +825,15 @@
           "permalink": "/articles/090",
           "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
           "mention_count": 5
+        },
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "date": "2026-09-01",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "mention_count": 4
         },
         {
           "article_id": "089",
@@ -1006,12 +1040,13 @@
       "name": "Kimi",
       "type": "product",
       "description": "具有长上下文能力的大语言模型，文中被用作Claude Code的后端调用模型",
-      "mention_count": 161,
-      "article_count": 27,
+      "mention_count": 173,
+      "article_count": 29,
       "aliases": [
         "K2",
         "K2.7 Code",
         "K2.7-code",
+        "K3",
         "Kimi 2.7 code",
         "Kimi Code",
         "Kimi K2",
@@ -1026,6 +1061,7 @@
         "AI四小虎",
         "AI四小龙",
         "AI工具",
+        "AI应用",
         "AI生成",
         "Agent",
         "Coding",
@@ -1040,6 +1076,7 @@
         "大模型公司",
         "大模型厂商",
         "大语言模型",
+        "工具调用",
         "平替",
         "开源/闭源模型",
         "开源模型",
@@ -1053,11 +1090,12 @@
         "社区",
         "竞品",
         "缓存命中成本高",
+        "长文本",
         "长文本处理",
         "高估值"
       ],
-      "references": 27,
-      "source_article_count": 27,
+      "references": 29,
+      "source_article_count": 29,
       "source_articles": [
         {
           "article_id": "134",
@@ -1114,6 +1152,15 @@
           "mention_count": 13
         },
         {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "date": "2026-08-27",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "mention_count": 9
+        },
+        {
           "article_id": "049",
           "title": "建议六小虎合并，实现China AGI",
           "date": "2026-01-05",
@@ -1148,6 +1195,15 @@
           "permalink": "/articles/116",
           "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
           "mention_count": 4
+        },
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "date": "2026-09-01",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "mention_count": 3
         },
         {
           "article_id": "099",
@@ -1300,6 +1356,287 @@
           "path": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
           "permalink": "/articles/024",
           "markdown_link": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+          "mention_count": 1
+        }
+      ]
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "被文章推测为“牛来大模型”背后厂商，多次采用匿名打榜营销策略的中国AI公司",
+      "mention_count": 147,
+      "article_count": 26,
+      "aliases": [
+        "Zhipu",
+        "智谱",
+        "智谱清言"
+      ],
+      "tags": [
+        "AI公司",
+        "AI六小虎",
+        "AI四小虎",
+        "AI四小龙",
+        "Agent",
+        "Coding",
+        "GLM",
+        "G端市场",
+        "IPO",
+        "To B",
+        "To G",
+        "ToB",
+        "to G",
+        "上市",
+        "上市公司",
+        "内测接口",
+        "匿名打榜",
+        "后训练",
+        "基础模型",
+        "大模型",
+        "大模型公司",
+        "大模型厂商",
+        "模型厂",
+        "模型厂商",
+        "模型层",
+        "清华系",
+        "独角兽",
+        "编程场景"
+      ],
+      "references": 26,
+      "source_article_count": 26,
+      "source_articles": [
+        {
+          "article_id": "006",
+          "title": "智谱的存在主义危机",
+          "date": "2025-06-25",
+          "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "permalink": "/articles/006",
+          "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "mention_count": 33
+        },
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "date": "2026-06-23",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "mention_count": 31
+        },
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "date": "2026-01-05",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "mention_count": 14
+        },
+        {
+          "article_id": "112",
+          "title": "老天保佑Qwen救救阿里巴巴",
+          "date": "2026-07-02",
+          "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "permalink": "/articles/112",
+          "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+          "mention_count": 8
+        },
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "date": "2026-09-01",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "mention_count": 7
+        },
+        {
+          "article_id": "137",
+          "title": "匿名打榜的都是二流模型",
+          "date": "2026-08-25",
+          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "permalink": "/articles/137",
+          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "mention_count": 7
+        },
+        {
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "date": "2026-06-17",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "mention_count": 6
+        },
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "date": "2026-06-10",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "mention_count": 6
+        },
+        {
+          "article_id": "135",
+          "title": "大模型是残酷的制造业",
+          "date": "2026-08-18",
+          "path": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+          "permalink": "/articles/135",
+          "markdown_link": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
+          "mention_count": 4
+        },
+        {
+          "article_id": "131",
+          "title": "大模型能干，懂模帝会飞",
+          "date": "2026-08-10",
+          "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "permalink": "/articles/131",
+          "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+          "mention_count": 4
+        },
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "date": "2026-07-22",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "mention_count": 4
+        },
+        {
+          "article_id": "057",
+          "title": "AI四小虎进入狠活大赛",
+          "date": "2026-01-26",
+          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "permalink": "/articles/057",
+          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
+          "mention_count": 4
+        },
+        {
+          "article_id": "134",
+          "title": "Kimi熹妃回宫",
+          "date": "2026-08-17",
+          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "permalink": "/articles/134",
+          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "date": "2026-07-11",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "date": "2026-07-09",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "009",
+          "title": "阶跃星辰没有新闻",
+          "date": "2025-06-28",
+          "path": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+          "permalink": "/articles/009",
+          "markdown_link": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "date": "2026-08-04",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "113",
+          "title": "世界模型走了一些弯路",
+          "date": "2026-07-02",
+          "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "permalink": "/articles/113",
+          "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "100",
+          "title": "网吧黑客松里有真黑客",
+          "date": "2026-06-07",
+          "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "permalink": "/articles/100",
+          "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "date": "2026-06-04",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "date": "2026-05-10",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "070",
+          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
+          "date": "2026-03-13",
+          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "permalink": "/articles/070",
+          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "065",
+          "title": "豆包有Seed，火山有种",
+          "date": "2026-02-14",
+          "path": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+          "permalink": "/articles/065",
+          "markdown_link": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "044",
+          "title": "Plaud善打游击战",
+          "date": "2025-12-23",
+          "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "permalink": "/articles/044",
+          "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "026",
+          "title": "吴妈讲好中国AI故事",
+          "date": "2025-09-25",
+          "path": "articles/026_2025-09-25_葬爱咸鱼_吴妈讲好中国AI故事.md",
+          "permalink": "/articles/026",
+          "markdown_link": "articles/026_2025-09-25_葬爱咸鱼_吴妈讲好中国AI故事.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "004",
+          "title": "MiniMax的胖猫宇宙",
+          "date": "2025-06-23",
+          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "permalink": "/articles/004",
+          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
           "mention_count": 1
         }
       ]
@@ -1662,77 +1999,48 @@
       ]
     },
     {
-      "id": "智谱ai",
-      "name": "智谱AI",
-      "type": "company",
-      "description": "被文章推测为“牛来大模型”背后厂商，多次采用匿名打榜营销策略的中国AI公司",
-      "mention_count": 140,
-      "article_count": 25,
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "通义千问大模型系列，文中提及Qwen3.8-Max等版本，在嵌入式驱动、物理模拟及无人机飞控等Bench中表现突出",
+      "mention_count": 129,
+      "article_count": 17,
       "aliases": [
-        "Zhipu",
-        "智谱",
-        "智谱清言"
+        "Qwen 3",
+        "Qwen 3.7",
+        "Qwen 3.7 Max",
+        "Qwen 3.7 plus",
+        "Qwen image",
+        "Qwen3.5-7B",
+        "Qwen3.8-Max",
+        "千问",
+        "通义",
+        "通义千问",
+        "阿里通义"
       ],
       "tags": [
-        "AI公司",
-        "AI六小虎",
-        "AI四小虎",
-        "AI四小龙",
-        "Agent",
-        "Coding",
-        "GLM",
-        "G端市场",
-        "IPO",
-        "To B",
-        "To G",
-        "ToB",
-        "to G",
-        "上市",
-        "上市公司",
-        "内测接口",
-        "匿名打榜",
-        "后训练",
-        "基础模型",
+        "AI大模型",
+        "Agent能力",
+        "Flash",
+        "免费AI",
+        "国产模型",
+        "图像模型",
+        "图像识别",
         "大模型",
-        "大模型公司",
         "大模型厂商",
-        "模型厂",
-        "模型厂商",
-        "模型层",
-        "清华系",
-        "独角兽",
-        "编程场景"
+        "工程稳定",
+        "工程能力",
+        "开源",
+        "开源中小尺寸模型",
+        "开源模型",
+        "成本低",
+        "物理模拟",
+        "编程",
+        "长程任务"
       ],
-      "references": 25,
-      "source_article_count": 25,
+      "references": 17,
+      "source_article_count": 17,
       "source_articles": [
-        {
-          "article_id": "006",
-          "title": "智谱的存在主义危机",
-          "date": "2025-06-25",
-          "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
-          "permalink": "/articles/006",
-          "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
-          "mention_count": 33
-        },
-        {
-          "article_id": "109",
-          "title": "智谱与Anthropic是母凭子贵",
-          "date": "2026-06-23",
-          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
-          "permalink": "/articles/109",
-          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
-          "mention_count": 31
-        },
-        {
-          "article_id": "049",
-          "title": "建议六小虎合并，实现China AGI",
-          "date": "2026-01-05",
-          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "permalink": "/articles/049",
-          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "mention_count": 14
-        },
         {
           "article_id": "112",
           "title": "老天保佑Qwen救救阿里巴巴",
@@ -1740,16 +2048,7 @@
           "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
           "permalink": "/articles/112",
           "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
-          "mention_count": 8
-        },
-        {
-          "article_id": "137",
-          "title": "匿名打榜的都是二流模型",
-          "date": "2026-08-25",
-          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
-          "permalink": "/articles/137",
-          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
-          "mention_count": 7
+          "mention_count": 45
         },
         {
           "article_id": "105",
@@ -1758,52 +2057,25 @@
           "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
           "permalink": "/articles/105",
           "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
-          "mention_count": 6
+          "mention_count": 16
         },
         {
-          "article_id": "103",
-          "title": "Kimi看天讨饭吃",
-          "date": "2026-06-10",
-          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
-          "permalink": "/articles/103",
-          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
-          "mention_count": 6
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "date": "2026-09-01",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "mention_count": 12
         },
         {
-          "article_id": "135",
-          "title": "大模型是残酷的制造业",
-          "date": "2026-08-18",
-          "path": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
-          "permalink": "/articles/135",
-          "markdown_link": "articles/135_2026-08-18_葬爱咸鱼_大模型是残酷的制造业.md",
-          "mention_count": 4
-        },
-        {
-          "article_id": "131",
-          "title": "大模型能干，懂模帝会飞",
-          "date": "2026-08-10",
-          "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
-          "permalink": "/articles/131",
-          "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
-          "mention_count": 4
-        },
-        {
-          "article_id": "122",
-          "title": "Kimi K3打响前端闪电战",
-          "date": "2026-07-22",
-          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
-          "permalink": "/articles/122",
-          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
-          "mention_count": 4
-        },
-        {
-          "article_id": "057",
-          "title": "AI四小虎进入狠活大赛",
-          "date": "2026-01-26",
-          "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
-          "permalink": "/articles/057",
-          "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
-          "mention_count": 4
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "date": "2026-08-27",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "mention_count": 9
         },
         {
           "article_id": "134",
@@ -1812,61 +2084,34 @@
           "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
           "permalink": "/articles/134",
           "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
-          "mention_count": 3
+          "mention_count": 9
         },
         {
-          "article_id": "117",
-          "title": "我来给MiniMax道歉了",
-          "date": "2026-07-11",
-          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
-          "permalink": "/articles/117",
-          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
-          "mention_count": 2
+          "article_id": "133",
+          "title": "速来网吧线下真实所有大模型",
+          "date": "2026-08-14",
+          "path": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+          "permalink": "/articles/133",
+          "markdown_link": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+          "mention_count": 9
         },
         {
-          "article_id": "116",
-          "title": "民办大模型MiniMax努力专升本",
-          "date": "2026-07-09",
-          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
-          "permalink": "/articles/116",
-          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
-          "mention_count": 2
+          "article_id": "091",
+          "title": "中亚世界没有豆包信仰",
+          "date": "2026-05-14",
+          "path": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+          "permalink": "/articles/091",
+          "markdown_link": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
+          "mention_count": 9
         },
         {
-          "article_id": "009",
-          "title": "阶跃星辰没有新闻",
-          "date": "2025-06-28",
-          "path": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
-          "permalink": "/articles/009",
-          "markdown_link": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "128",
-          "title": "美团大模型跟外卖一样纯出来送",
-          "date": "2026-08-04",
-          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
-          "permalink": "/articles/128",
-          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "113",
-          "title": "世界模型走了一些弯路",
-          "date": "2026-07-02",
-          "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
-          "permalink": "/articles/113",
-          "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "100",
-          "title": "网吧黑客松里有真黑客",
-          "date": "2026-06-07",
-          "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
-          "permalink": "/articles/100",
-          "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
-          "mention_count": 1
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "date": "2026-06-10",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "mention_count": 4
         },
         {
           "article_id": "099",
@@ -1875,60 +2120,78 @@
           "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
           "permalink": "/articles/099",
           "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "mention_count": 4
+        },
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "date": "2026-06-24",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "date": "2026-09-01",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "019",
+          "title": "我研发出了主体思想AI",
+          "date": "2025-09-04",
+          "path": "articles/019_2025-09-04_葬爱咸鱼_我研发出了主体思想AI.md",
+          "permalink": "/articles/019",
+          "markdown_link": "articles/019_2025-09-04_葬爱咸鱼_我研发出了主体思想AI.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "076",
+          "title": "葬CLI如闪电般上线",
+          "date": "2026-03-26",
+          "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+          "permalink": "/articles/076",
+          "markdown_link": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
           "mention_count": 1
         },
         {
-          "article_id": "089",
-          "title": "Slock说明AI群聊不成立",
-          "date": "2026-05-10",
-          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
-          "permalink": "/articles/089",
-          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "date": "2026-01-22",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
           "mention_count": 1
         },
         {
-          "article_id": "070",
-          "title": "一个山东套壳AI如何上桌对话Cherry Studio创始人",
-          "date": "2026-03-13",
-          "path": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
-          "permalink": "/articles/070",
-          "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "date": "2026-01-05",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
           "mention_count": 1
         },
         {
-          "article_id": "065",
-          "title": "豆包有Seed，火山有种",
-          "date": "2026-02-14",
-          "path": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
-          "permalink": "/articles/065",
-          "markdown_link": "articles/065_2026-02-14_沐秋_豆包有Seed，火山有种.md",
+          "article_id": "029",
+          "title": "AI写作指南3.0编程式写作",
+          "date": "2025-10-16",
+          "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "permalink": "/articles/029",
+          "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
           "mention_count": 1
         },
         {
-          "article_id": "044",
-          "title": "Plaud善打游击战",
-          "date": "2025-12-23",
-          "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
-          "permalink": "/articles/044",
-          "markdown_link": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "026",
-          "title": "吴妈讲好中国AI故事",
-          "date": "2025-09-25",
-          "path": "articles/026_2025-09-25_葬爱咸鱼_吴妈讲好中国AI故事.md",
-          "permalink": "/articles/026",
-          "markdown_link": "articles/026_2025-09-25_葬爱咸鱼_吴妈讲好中国AI故事.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "004",
-          "title": "MiniMax的胖猫宇宙",
-          "date": "2025-06-23",
-          "path": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
-          "permalink": "/articles/004",
-          "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
+          "article_id": "027",
+          "title": "AI写作指南3.0编程式写作",
+          "date": "2025-10-09",
+          "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
+          "permalink": "/articles/027",
+          "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
           "mention_count": 1
         }
       ]
@@ -1972,8 +2235,8 @@
       "name": "Seedance",
       "type": "product",
       "description": "字节推出的AI视频生成大模型，支持参考图片、视频和音频生成并复刻内容。",
-      "mention_count": 122,
-      "article_count": 11,
+      "mention_count": 124,
+      "article_count": 12,
       "aliases": [
         "Seedance 2.0",
         "Seedance 35折",
@@ -1986,6 +2249,7 @@
         "AI视频生成",
         "API",
         "世界模型",
+        "多模态",
         "大参考时代",
         "大模型",
         "底层模型",
@@ -1994,8 +2258,8 @@
         "视频模型",
         "视频生成"
       ],
-      "references": 11,
-      "source_article_count": 11,
+      "references": 12,
+      "source_article_count": 12,
       "source_articles": [
         {
           "article_id": "132",
@@ -2070,6 +2334,15 @@
           "mention_count": 3
         },
         {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "date": "2026-09-01",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "mention_count": 2
+        },
+        {
           "article_id": "136",
           "title": "AI应用骗钱，哦不融资指南",
           "date": "2026-08-23",
@@ -2103,10 +2376,11 @@
       "name": "Manus",
       "type": "product",
       "description": "AI Agent产品，主张less structure more intelligence，对Lovart有启发作用",
-      "mention_count": 113,
-      "article_count": 26,
+      "mention_count": 122,
+      "article_count": 27,
       "aliases": [
         "Manus Agents",
+        "Manus团队",
         "Man君",
         "新加坡家人们"
       ],
@@ -2127,6 +2401,7 @@
         "封闭系统",
         "新加坡公司",
         "本地Agent",
+        "模型评测",
         "沙盒",
         "竞品/对标",
         "纯炒作",
@@ -2134,8 +2409,8 @@
         "邮件交互",
         "高营收"
       ],
-      "references": 26,
-      "source_article_count": 26,
+      "references": 27,
+      "source_article_count": 27,
       "source_articles": [
         {
           "article_id": "016",
@@ -2154,6 +2429,15 @@
           "permalink": "/articles/126",
           "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
           "mention_count": 13
+        },
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "date": "2026-09-04",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "mention_count": 9
         },
         {
           "article_id": "067",
@@ -2477,171 +2761,6 @@
       ]
     },
     {
-      "id": "qwen",
-      "name": "Qwen",
-      "type": "product",
-      "description": "阿里旗下大模型团队，发布了Qwen 3.8 Max，多模态能力较弱",
-      "mention_count": 106,
-      "article_count": 14,
-      "aliases": [
-        "Qwen 3",
-        "Qwen 3.7",
-        "Qwen 3.7 Max",
-        "Qwen 3.7 plus",
-        "Qwen image",
-        "千问",
-        "通义",
-        "通义千问",
-        "阿里通义"
-      ],
-      "tags": [
-        "AI大模型",
-        "免费AI",
-        "国产模型",
-        "图像模型",
-        "图像识别",
-        "大模型",
-        "大模型厂商",
-        "工程稳定",
-        "开源",
-        "开源中小尺寸模型",
-        "开源模型",
-        "成本低",
-        "编程",
-        "长程任务"
-      ],
-      "references": 14,
-      "source_article_count": 14,
-      "source_articles": [
-        {
-          "article_id": "112",
-          "title": "老天保佑Qwen救救阿里巴巴",
-          "date": "2026-07-02",
-          "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
-          "permalink": "/articles/112",
-          "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
-          "mention_count": 45
-        },
-        {
-          "article_id": "105",
-          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
-          "date": "2026-06-17",
-          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
-          "permalink": "/articles/105",
-          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
-          "mention_count": 16
-        },
-        {
-          "article_id": "134",
-          "title": "Kimi熹妃回宫",
-          "date": "2026-08-17",
-          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
-          "permalink": "/articles/134",
-          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
-          "mention_count": 9
-        },
-        {
-          "article_id": "133",
-          "title": "速来网吧线下真实所有大模型",
-          "date": "2026-08-14",
-          "path": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
-          "permalink": "/articles/133",
-          "markdown_link": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
-          "mention_count": 9
-        },
-        {
-          "article_id": "091",
-          "title": "中亚世界没有豆包信仰",
-          "date": "2026-05-14",
-          "path": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
-          "permalink": "/articles/091",
-          "markdown_link": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
-          "mention_count": 9
-        },
-        {
-          "article_id": "103",
-          "title": "Kimi看天讨饭吃",
-          "date": "2026-06-10",
-          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
-          "permalink": "/articles/103",
-          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
-          "mention_count": 4
-        },
-        {
-          "article_id": "099",
-          "title": "马卡龙开创AI短剧Neo Lab",
-          "date": "2026-06-04",
-          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
-          "permalink": "/articles/099",
-          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
-          "mention_count": 4
-        },
-        {
-          "article_id": "110",
-          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
-          "date": "2026-06-24",
-          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
-          "permalink": "/articles/110",
-          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "019",
-          "title": "我研发出了主体思想AI",
-          "date": "2025-09-04",
-          "path": "articles/019_2025-09-04_葬爱咸鱼_我研发出了主体思想AI.md",
-          "permalink": "/articles/019",
-          "markdown_link": "articles/019_2025-09-04_葬爱咸鱼_我研发出了主体思想AI.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "076",
-          "title": "葬CLI如闪电般上线",
-          "date": "2026-03-26",
-          "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
-          "permalink": "/articles/076",
-          "markdown_link": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "055",
-          "title": "来认识下2025年最活跃的CVC",
-          "date": "2026-01-22",
-          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
-          "permalink": "/articles/055",
-          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "049",
-          "title": "建议六小虎合并，实现China AGI",
-          "date": "2026-01-05",
-          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "permalink": "/articles/049",
-          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "029",
-          "title": "AI写作指南3.0编程式写作",
-          "date": "2025-10-16",
-          "path": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
-          "permalink": "/articles/029",
-          "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "027",
-          "title": "AI写作指南3.0编程式写作",
-          "date": "2025-10-09",
-          "path": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
-          "permalink": "/articles/027",
-          "markdown_link": "articles/027_2025-10-09_葬爱咸鱼_AI写作指南3.0编程式写作.md",
-          "mention_count": 1
-        }
-      ]
-    },
-    {
       "id": "杨洁",
       "name": "杨洁",
       "type": "person",
@@ -2670,12 +2789,13 @@
       "id": "deepseek",
       "name": "DeepSeek",
       "type": "company",
-      "description": "AI大模型公司，其爆火为Cherry Studio带来大量流量",
-      "mention_count": 92,
-      "article_count": 24,
+      "description": "深度求索大模型，在简单任务表现良好但在复杂状态机闭环及德州扑克策略上存在短板",
+      "mention_count": 100,
+      "article_count": 27,
       "aliases": [
         "DS",
         "DS V4 pro",
+        "DeepSeek V4 Pro",
         "DeepSeek-V4",
         "Deepseek",
         "Deepseek V4",
@@ -2693,15 +2813,18 @@
         "开源",
         "开源模型",
         "推理模型",
+        "插件兼容",
         "本分",
         "本地化部署",
         "行业标杆",
         "被蹭热度",
+        "量化",
+        "量化模型",
         "降本增效",
         "高性价比"
       ],
-      "references": 24,
-      "source_article_count": 24,
+      "references": 27,
+      "source_article_count": 27,
       "source_articles": [
         {
           "article_id": "134",
@@ -2756,6 +2879,15 @@
           "permalink": "/articles/006",
           "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
           "mention_count": 7
+        },
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "date": "2026-09-01",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "mention_count": 5
         },
         {
           "article_id": "137",
@@ -2821,6 +2953,15 @@
           "mention_count": 3
         },
         {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "date": "2026-08-27",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "mention_count": 2
+        },
+        {
           "article_id": "136",
           "title": "AI应用骗钱，哦不融资指南",
           "date": "2026-08-23",
@@ -2884,6 +3025,15 @@
           "mention_count": 2
         },
         {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "date": "2026-09-01",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "mention_count": 1
+        },
+        {
           "article_id": "099",
           "title": "马卡龙开创AI短剧Neo Lab",
           "date": "2026-06-04",
@@ -2926,8 +3076,8 @@
       "name": "LibTV",
       "type": "product",
       "description": "AI短剧/视频平台，是Seedance的大客户，也是MiniMax复刻的对象",
-      "mention_count": 91,
-      "article_count": 14,
+      "mention_count": 92,
+      "article_count": 15,
       "aliases": [
         "Liblib",
         "Libtv",
@@ -2952,8 +3102,8 @@
         "视频生成",
         "超长视频"
       ],
-      "references": 14,
-      "source_article_count": 14,
+      "references": 15,
+      "source_article_count": 15,
       "source_articles": [
         {
           "article_id": "106",
@@ -3044,6 +3194,15 @@
           "permalink": "/articles/132",
           "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
           "mention_count": 2
+        },
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "date": "2026-09-01",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "mention_count": 1
         },
         {
           "article_id": "127",
@@ -5699,6 +5858,44 @@
       ]
     },
     {
+      "id": "h3",
+      "name": "H3",
+      "type": "product",
+      "description": "MiniMax发布的视频生成与编辑模型，主打实拍视频后期处理与AR增强现实感",
+      "mention_count": 48,
+      "article_count": 2,
+      "aliases": [
+        "MiniMax H3"
+      ],
+      "tags": [
+        "后期软件",
+        "开源",
+        "视频生成"
+      ],
+      "references": 2,
+      "source_article_count": 2,
+      "source_articles": [
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "date": "2026-08-02",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "mention_count": 42
+        },
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "date": "2026-09-01",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "mention_count": 6
+        }
+      ]
+    },
+    {
       "id": "codex",
       "name": "Codex",
       "type": "product",
@@ -6106,35 +6303,6 @@
       ]
     },
     {
-      "id": "h3",
-      "name": "H3",
-      "type": "product",
-      "description": "MiniMax发布的视频生成与编辑模型，主打实拍视频后期处理与AR增强现实感",
-      "mention_count": 42,
-      "article_count": 1,
-      "aliases": [
-        "MiniMax H3"
-      ],
-      "tags": [
-        "后期软件",
-        "开源",
-        "视频生成"
-      ],
-      "references": 1,
-      "source_article_count": 1,
-      "source_articles": [
-        {
-          "article_id": "127",
-          "title": "MiniMax用H3窃取大结果",
-          "date": "2026-08-02",
-          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
-          "permalink": "/articles/127",
-          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
-          "mention_count": 42
-        }
-      ]
-    },
-    {
       "id": "即梦",
       "name": "即梦",
       "type": "product",
@@ -6332,47 +6500,12 @@
       ]
     },
     {
-      "id": "flowith",
-      "name": "Flowith",
-      "type": "product",
-      "description": "被作者用来与Agnes进行对比的AI产品",
-      "mention_count": 39,
-      "article_count": 2,
-      "aliases": [],
-      "tags": [
-        "AI创业",
-        "AI应用"
-      ],
-      "references": 2,
-      "source_article_count": 2,
-      "source_articles": [
-        {
-          "article_id": "032",
-          "title": "Flowith是个锤子",
-          "date": "2025-10-31",
-          "path": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
-          "permalink": "/articles/032",
-          "markdown_link": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
-          "mention_count": 38
-        },
-        {
-          "article_id": "039",
-          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
-          "date": "2025-12-05",
-          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
-          "permalink": "/articles/039",
-          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
-          "mention_count": 1
-        }
-      ]
-    },
-    {
       "id": "可灵",
       "name": "可灵",
       "type": "product",
-      "description": "主打物理模拟、电影质感和原生4K生成的AI视频大模型。",
-      "mention_count": 38,
-      "article_count": 6,
+      "description": "快手旗下视频生成模型，文中提到其半年未更新版本被H3超越",
+      "mention_count": 39,
+      "article_count": 7,
       "aliases": [
         "Kling"
       ],
@@ -6384,8 +6517,8 @@
         "视频模型",
         "视频生成"
       ],
-      "references": 6,
-      "source_article_count": 6,
+      "references": 7,
+      "source_article_count": 7,
       "source_articles": [
         {
           "article_id": "095",
@@ -6440,6 +6573,50 @@
           "permalink": "/articles/004",
           "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
           "mention_count": 2
+        },
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "date": "2026-09-01",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "mention_count": 1
+        }
+      ]
+    },
+    {
+      "id": "flowith",
+      "name": "Flowith",
+      "type": "product",
+      "description": "被作者用来与Agnes进行对比的AI产品",
+      "mention_count": 39,
+      "article_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI创业",
+        "AI应用"
+      ],
+      "references": 2,
+      "source_article_count": 2,
+      "source_articles": [
+        {
+          "article_id": "032",
+          "title": "Flowith是个锤子",
+          "date": "2025-10-31",
+          "path": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+          "permalink": "/articles/032",
+          "markdown_link": "articles/032_2025-10-31_葬爱咸鱼_Flowith是个锤子.md",
+          "mention_count": 38
+        },
+        {
+          "article_id": "039",
+          "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+          "date": "2025-12-05",
+          "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "permalink": "/articles/039",
+          "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+          "mention_count": 1
         }
       ]
     },
@@ -7311,6 +7488,98 @@
       ]
     },
     {
+      "id": "美团",
+      "name": "美团",
+      "type": "company",
+      "description": "互联网平台公司，旗下龙猫团队参与评测，且被用作外卖比价场景",
+      "mention_count": 33,
+      "article_count": 7,
+      "aliases": [
+        "Meituan",
+        "团子"
+      ],
+      "tags": [
+        "AI评测",
+        "互联网公司",
+        "互联网大厂",
+        "互联网平台",
+        "匿名打榜",
+        "团购",
+        "国产大模型",
+        "大模型",
+        "物理AI",
+        "生活方式Agent",
+        "算力国产化"
+      ],
+      "references": 7,
+      "source_article_count": 7,
+      "source_articles": [
+        {
+          "article_id": "128",
+          "title": "美团大模型跟外卖一样纯出来送",
+          "date": "2026-08-04",
+          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "permalink": "/articles/128",
+          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+          "mention_count": 23
+        },
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "date": "2026-08-27",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "138",
+          "title": "开源模型就是统一战线",
+          "date": "2026-08-26",
+          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "permalink": "/articles/138",
+          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "018",
+          "title": "电骡快跑，Mulerun想做AI淘宝",
+          "date": "2025-09-02",
+          "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "permalink": "/articles/018",
+          "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "137",
+          "title": "匿名打榜的都是二流模型",
+          "date": "2026-08-25",
+          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "permalink": "/articles/137",
+          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "date": "2026-07-09",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "040",
+          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
+          "date": "2025-12-12",
+          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "permalink": "/articles/040",
+          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
+          "mention_count": 1
+        }
+      ]
+    },
+    {
       "id": "minimax-m3",
       "name": "MiniMax M3",
       "type": "product",
@@ -7628,87 +7897,6 @@
       ]
     },
     {
-      "id": "美团",
-      "name": "美团",
-      "type": "company",
-      "description": "LongCat模型开发公司，首个在国产芯片完成训推全流程",
-      "mention_count": 30,
-      "article_count": 6,
-      "aliases": [
-        "Meituan",
-        "团子"
-      ],
-      "tags": [
-        "互联网公司",
-        "互联网大厂",
-        "匿名打榜",
-        "团购",
-        "国产大模型",
-        "大模型",
-        "物理AI",
-        "生活方式Agent",
-        "算力国产化"
-      ],
-      "references": 6,
-      "source_article_count": 6,
-      "source_articles": [
-        {
-          "article_id": "128",
-          "title": "美团大模型跟外卖一样纯出来送",
-          "date": "2026-08-04",
-          "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
-          "permalink": "/articles/128",
-          "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
-          "mention_count": 23
-        },
-        {
-          "article_id": "138",
-          "title": "开源模型就是统一战线",
-          "date": "2026-08-26",
-          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
-          "permalink": "/articles/138",
-          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "018",
-          "title": "电骡快跑，Mulerun想做AI淘宝",
-          "date": "2025-09-02",
-          "path": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
-          "permalink": "/articles/018",
-          "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "137",
-          "title": "匿名打榜的都是二流模型",
-          "date": "2026-08-25",
-          "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
-          "permalink": "/articles/137",
-          "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "116",
-          "title": "民办大模型MiniMax努力专升本",
-          "date": "2026-07-09",
-          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
-          "permalink": "/articles/116",
-          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "040",
-          "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
-          "date": "2025-12-12",
-          "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
-          "permalink": "/articles/040",
-          "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
-          "mention_count": 1
-        }
-      ]
-    },
-    {
       "id": "slock",
       "name": "Slock",
       "type": "product",
@@ -7991,6 +8179,57 @@
       ]
     },
     {
+      "id": "k3",
+      "name": "K3",
+      "type": "product",
+      "description": "文中参与评测的模型之一，综合智力较强，在多模态经营模拟和材质抓取任务中表现优异",
+      "mention_count": 28,
+      "article_count": 3,
+      "aliases": [
+        "Kimi K3"
+      ],
+      "tags": [
+        "2T参数",
+        "前端优化",
+        "国产大模型",
+        "多模态",
+        "大模型",
+        "开源",
+        "开源模型"
+      ],
+      "references": 3,
+      "source_article_count": 3,
+      "source_articles": [
+        {
+          "article_id": "129",
+          "title": "Qwen 3.8升级纯血力工模型",
+          "date": "2026-08-05",
+          "path": "articles/129_2026-08-05_葬爱咸鱼_Qwen 3.8升级纯血力工模型.md",
+          "permalink": "/articles/129",
+          "markdown_link": "articles/129_2026-08-05_葬爱咸鱼_Qwen 3.8升级纯血力工模型.md",
+          "mention_count": 12
+        },
+        {
+          "article_id": "138",
+          "title": "开源模型就是统一战线",
+          "date": "2026-08-26",
+          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "permalink": "/articles/138",
+          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "mention_count": 9
+        },
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "date": "2026-09-01",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "mention_count": 7
+        }
+      ]
+    },
+    {
       "id": "论论",
       "name": "论论",
       "type": "product",
@@ -8017,6 +8256,314 @@
           "permalink": "/articles/025",
           "markdown_link": "articles/025_2025-09-23_葬爱咸鱼_论论才是全球首个性压抑AI.md",
           "mention_count": 28
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "type": "company",
+      "description": "AI 公司，文中提及其 DeepResearch 产品作为行业对标对象",
+      "mention_count": 27,
+      "article_count": 15,
+      "aliases": [
+        "O社"
+      ],
+      "tags": [
+        "AI机构",
+        "估值参考",
+        "大模型",
+        "平台型科技巨头",
+        "模型公司",
+        "模型厂",
+        "模型开发",
+        "版权合作",
+        "美国AI",
+        "行业标杆",
+        "闭源模型"
+      ],
+      "references": 15,
+      "source_article_count": 15,
+      "source_articles": [
+        {
+          "article_id": "125",
+          "title": "建议百度文心一言申请非遗",
+          "date": "2026-07-28",
+          "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "permalink": "/articles/125",
+          "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "051",
+          "title": "狠狠办千问",
+          "date": "2026-01-15",
+          "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "permalink": "/articles/051",
+          "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "006",
+          "title": "智谱的存在主义危机",
+          "date": "2025-06-25",
+          "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "permalink": "/articles/006",
+          "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "138",
+          "title": "开源模型就是统一战线",
+          "date": "2026-08-26",
+          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "permalink": "/articles/138",
+          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "109",
+          "title": "智谱与Anthropic是母凭子贵",
+          "date": "2026-06-23",
+          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "permalink": "/articles/109",
+          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "date": "2026-06-04",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "048",
+          "title": "第一届Manus杯新加坡概念作文大赛",
+          "date": "2025-12-30",
+          "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+          "permalink": "/articles/048",
+          "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "037",
+          "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
+          "date": "2025-11-27",
+          "path": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "permalink": "/articles/037",
+          "markdown_link": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "031",
+          "title": "追忆AI四小龙，热潮是怎么完蛋的",
+          "date": "2025-10-27",
+          "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "permalink": "/articles/031",
+          "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "date": "2026-09-04",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "date": "2026-08-23",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "103",
+          "title": "Kimi看天讨饭吃",
+          "date": "2026-06-10",
+          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "permalink": "/articles/103",
+          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "041",
+          "title": "感谢OiiOii，没人因你而失业",
+          "date": "2025-12-15",
+          "path": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+          "permalink": "/articles/041",
+          "markdown_link": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "008",
+          "title": "前后不一李开复",
+          "date": "2025-06-27",
+          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "permalink": "/articles/008",
+          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "005",
+          "title": "Kimi没有梦想",
+          "date": "2025-06-24",
+          "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "permalink": "/articles/005",
+          "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
+          "mention_count": 1
+        }
+      ]
+    },
+    {
+      "id": "陈冕",
+      "name": "陈冕",
+      "type": "person",
+      "description": "LibTV/Lovart创始人，被称为“冕神”，双子座，主张激进执行与长期主义",
+      "mention_count": 27,
+      "article_count": 13,
+      "aliases": [
+        "Amian",
+        "冕",
+        "冕神"
+      ],
+      "tags": [
+        "AI应用",
+        "CEO",
+        "KOL",
+        "产品负责人",
+        "字节4-1",
+        "行业KOL",
+        "行业人物",
+        "视频Agent",
+        "高管"
+      ],
+      "references": 13,
+      "source_article_count": 13,
+      "source_articles": [
+        {
+          "article_id": "126",
+          "title": "冕神语录",
+          "date": "2026-07-29",
+          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "permalink": "/articles/126",
+          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+          "mention_count": 7
+        },
+        {
+          "article_id": "119",
+          "title": "视频Agent进入大致敬时代",
+          "date": "2026-07-14",
+          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "permalink": "/articles/119",
+          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "date": "2026-04-27",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "073",
+          "title": "Lovart狂做TapNow",
+          "date": "2026-03-19",
+          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "permalink": "/articles/073",
+          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "date": "2026-07-11",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "date": "2026-07-09",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "mention_count": 2
+        },
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "date": "2026-09-01",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "136",
+          "title": "AI应用骗钱，哦不融资指南",
+          "date": "2026-08-23",
+          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "permalink": "/articles/136",
+          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "132",
+          "title": "Seedance 2.5自绝于网民",
+          "date": "2026-08-12",
+          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "permalink": "/articles/132",
+          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "106",
+          "title": "我来给LibTV道喜了",
+          "date": "2026-06-18",
+          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "permalink": "/articles/106",
+          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "078",
+          "title": "Flova和TapNow背对背拥抱",
+          "date": "2026-04-07",
+          "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "permalink": "/articles/078",
+          "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "055",
+          "title": "来认识下2025年最活跃的CVC",
+          "date": "2026-01-22",
+          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "permalink": "/articles/055",
+          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "date": "2026-01-05",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "mention_count": 1
         }
       ]
     },
@@ -8119,295 +8666,6 @@
           "permalink": "/articles/079",
           "markdown_link": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
           "mention_count": 27
-        }
-      ]
-    },
-    {
-      "id": "openai",
-      "name": "OpenAI",
-      "type": "company",
-      "description": "美国AI公司，GPT系列模型开发者，文中提及即将发布GPT 6",
-      "mention_count": 26,
-      "article_count": 14,
-      "aliases": [
-        "O社"
-      ],
-      "tags": [
-        "AI机构",
-        "估值参考",
-        "大模型",
-        "平台型科技巨头",
-        "模型公司",
-        "模型厂",
-        "模型开发",
-        "版权合作",
-        "美国AI",
-        "行业标杆",
-        "闭源模型"
-      ],
-      "references": 14,
-      "source_article_count": 14,
-      "source_articles": [
-        {
-          "article_id": "125",
-          "title": "建议百度文心一言申请非遗",
-          "date": "2026-07-28",
-          "path": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
-          "permalink": "/articles/125",
-          "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "051",
-          "title": "狠狠办千问",
-          "date": "2026-01-15",
-          "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
-          "permalink": "/articles/051",
-          "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "006",
-          "title": "智谱的存在主义危机",
-          "date": "2025-06-25",
-          "path": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
-          "permalink": "/articles/006",
-          "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "138",
-          "title": "开源模型就是统一战线",
-          "date": "2026-08-26",
-          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
-          "permalink": "/articles/138",
-          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "109",
-          "title": "智谱与Anthropic是母凭子贵",
-          "date": "2026-06-23",
-          "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
-          "permalink": "/articles/109",
-          "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "099",
-          "title": "马卡龙开创AI短剧Neo Lab",
-          "date": "2026-06-04",
-          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
-          "permalink": "/articles/099",
-          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "048",
-          "title": "第一届Manus杯新加坡概念作文大赛",
-          "date": "2025-12-30",
-          "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
-          "permalink": "/articles/048",
-          "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "037",
-          "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
-          "date": "2025-11-27",
-          "path": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
-          "permalink": "/articles/037",
-          "markdown_link": "articles/037_2025-11-27_沐秋_Gambo说自己要做最好的游戏引擎，也要做社区Sketch.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "031",
-          "title": "追忆AI四小龙，热潮是怎么完蛋的",
-          "date": "2025-10-27",
-          "path": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
-          "permalink": "/articles/031",
-          "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "136",
-          "title": "AI应用骗钱，哦不融资指南",
-          "date": "2026-08-23",
-          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
-          "permalink": "/articles/136",
-          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "103",
-          "title": "Kimi看天讨饭吃",
-          "date": "2026-06-10",
-          "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
-          "permalink": "/articles/103",
-          "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "041",
-          "title": "感谢OiiOii，没人因你而失业",
-          "date": "2025-12-15",
-          "path": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
-          "permalink": "/articles/041",
-          "markdown_link": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "008",
-          "title": "前后不一李开复",
-          "date": "2025-06-27",
-          "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
-          "permalink": "/articles/008",
-          "markdown_link": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "005",
-          "title": "Kimi没有梦想",
-          "date": "2025-06-24",
-          "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
-          "permalink": "/articles/005",
-          "markdown_link": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
-          "mention_count": 1
-        }
-      ]
-    },
-    {
-      "id": "陈冕",
-      "name": "陈冕",
-      "type": "person",
-      "description": "LibTV/Lovart创始人，被称为“冕神”，双子座，主张激进执行与长期主义",
-      "mention_count": 26,
-      "article_count": 12,
-      "aliases": [
-        "Amian",
-        "冕",
-        "冕神"
-      ],
-      "tags": [
-        "AI应用",
-        "CEO",
-        "KOL",
-        "产品负责人",
-        "字节4-1",
-        "行业KOL",
-        "行业人物",
-        "高管"
-      ],
-      "references": 12,
-      "source_article_count": 12,
-      "source_articles": [
-        {
-          "article_id": "126",
-          "title": "冕神语录",
-          "date": "2026-07-29",
-          "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
-          "permalink": "/articles/126",
-          "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
-          "mention_count": 7
-        },
-        {
-          "article_id": "119",
-          "title": "视频Agent进入大致敬时代",
-          "date": "2026-07-14",
-          "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
-          "permalink": "/articles/119",
-          "markdown_link": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "085",
-          "title": "谁是宇宙第一FA",
-          "date": "2026-04-27",
-          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "permalink": "/articles/085",
-          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "073",
-          "title": "Lovart狂做TapNow",
-          "date": "2026-03-19",
-          "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
-          "permalink": "/articles/073",
-          "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
-          "mention_count": 3
-        },
-        {
-          "article_id": "117",
-          "title": "我来给MiniMax道歉了",
-          "date": "2026-07-11",
-          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
-          "permalink": "/articles/117",
-          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "116",
-          "title": "民办大模型MiniMax努力专升本",
-          "date": "2026-07-09",
-          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
-          "permalink": "/articles/116",
-          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
-          "mention_count": 2
-        },
-        {
-          "article_id": "136",
-          "title": "AI应用骗钱，哦不融资指南",
-          "date": "2026-08-23",
-          "path": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
-          "permalink": "/articles/136",
-          "markdown_link": "articles/136_2026-08-23_葬爱咸鱼_AI应用骗钱，哦不融资指南.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "132",
-          "title": "Seedance 2.5自绝于网民",
-          "date": "2026-08-12",
-          "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
-          "permalink": "/articles/132",
-          "markdown_link": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "106",
-          "title": "我来给LibTV道喜了",
-          "date": "2026-06-18",
-          "path": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
-          "permalink": "/articles/106",
-          "markdown_link": "articles/106_2026-06-18_沐秋_我来给LibTV道喜了.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "078",
-          "title": "Flova和TapNow背对背拥抱",
-          "date": "2026-04-07",
-          "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
-          "permalink": "/articles/078",
-          "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "055",
-          "title": "来认识下2025年最活跃的CVC",
-          "date": "2026-01-22",
-          "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
-          "permalink": "/articles/055",
-          "markdown_link": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "049",
-          "title": "建议六小虎合并，实现China AGI",
-          "date": "2026-01-05",
-          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "permalink": "/articles/049",
-          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "mention_count": 1
         }
       ]
     },
@@ -8639,26 +8897,29 @@
       "id": "gemini",
       "name": "Gemini",
       "type": "product",
-      "description": "Google推出的AI对话模型，创作者用于剧本创作的常用工具",
-      "mention_count": 22,
-      "article_count": 12,
+      "description": "Google 的模型系列，文中提及 Gemini-3.7-flash 偏好使用宏大词汇隐喻",
+      "mention_count": 23,
+      "article_count": 13,
       "aliases": [
         "Gemini 2.5 Pro",
         "Gemini 3.5 Flash",
+        "Gemini-3.7-flash",
         "北美大豆包"
       ],
       "tags": [
         "AI视觉",
         "ChatBot",
+        "LLM",
         "多模态",
         "大模型",
         "大语言模型",
+        "文本生成",
         "竞品",
         "超长上下文",
         "长文写作"
       ],
-      "references": 12,
-      "source_article_count": 12,
+      "references": 13,
+      "source_article_count": 13,
       "source_articles": [
         {
           "article_id": "029",
@@ -8713,6 +8974,15 @@
           "permalink": "/articles/004",
           "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
           "mention_count": 2
+        },
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "date": "2026-09-04",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "mention_count": 1
         },
         {
           "article_id": "124",
@@ -9035,46 +9305,6 @@
       ]
     },
     {
-      "id": "k3",
-      "name": "K3",
-      "type": "product",
-      "description": "Kimi推出的模型，前端生成能力强，被称为“集美模型”，是Qwen的主要竞品",
-      "mention_count": 21,
-      "article_count": 2,
-      "aliases": [
-        "Kimi K3"
-      ],
-      "tags": [
-        "2T参数",
-        "前端优化",
-        "国产大模型",
-        "开源",
-        "开源模型"
-      ],
-      "references": 2,
-      "source_article_count": 2,
-      "source_articles": [
-        {
-          "article_id": "129",
-          "title": "Qwen 3.8升级纯血力工模型",
-          "date": "2026-08-05",
-          "path": "articles/129_2026-08-05_葬爱咸鱼_Qwen 3.8升级纯血力工模型.md",
-          "permalink": "/articles/129",
-          "markdown_link": "articles/129_2026-08-05_葬爱咸鱼_Qwen 3.8升级纯血力工模型.md",
-          "mention_count": 12
-        },
-        {
-          "article_id": "138",
-          "title": "开源模型就是统一战线",
-          "date": "2026-08-26",
-          "path": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
-          "permalink": "/articles/138",
-          "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
-          "mention_count": 9
-        }
-      ]
-    },
-    {
       "id": "flowith-os",
       "name": "Flowith OS",
       "type": "product",
@@ -9208,6 +9438,55 @@
           "permalink": "/articles/116",
           "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
           "mention_count": 4
+        }
+      ]
+    },
+    {
+      "id": "gpt",
+      "name": "GPT",
+      "type": "product",
+      "description": "OpenAI 的旗舰模型系列，文中评测显示其信息量低于 Claude 但详实度更高",
+      "mention_count": 20,
+      "article_count": 3,
+      "aliases": [
+        "GPT 5.6 luna",
+        "GPT-5.5",
+        "GPT-5.6"
+      ],
+      "tags": [
+        "LLM",
+        "大模型",
+        "文本生成"
+      ],
+      "references": 3,
+      "source_article_count": 3,
+      "source_articles": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "date": "2026-09-04",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "mention_count": 12
+        },
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "date": "2026-09-01",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "mention_count": 6
+        },
+        {
+          "article_id": "111",
+          "title": "用豆包办公得坐小孩那桌",
+          "date": "2026-06-25",
+          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "permalink": "/articles/111",
+          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+          "mention_count": 2
         }
       ]
     },
@@ -14979,6 +15258,41 @@
       ]
     },
     {
+      "id": "rainfly",
+      "name": "RainFly",
+      "type": "person",
+      "description": "黑客松Mac mini大奖得主，开发了外卖大王比价Benchmark",
+      "mention_count": 6,
+      "article_count": 2,
+      "aliases": [],
+      "tags": [
+        "开发者",
+        "获奖者"
+      ],
+      "references": 2,
+      "source_article_count": 2,
+      "source_articles": [
+        {
+          "article_id": "115",
+          "title": "网吧黑客松为西湖醋鱼平反",
+          "date": "2026-07-08",
+          "path": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
+          "permalink": "/articles/115",
+          "markdown_link": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
+          "mention_count": 4
+        },
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "date": "2026-08-27",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "mention_count": 2
+        }
+      ]
+    },
+    {
       "id": "veo",
       "name": "Veo",
       "type": "product",
@@ -15719,6 +16033,53 @@
           "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
           "permalink": "/articles/110",
           "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "mention_count": 1
+        }
+      ]
+    },
+    {
+      "id": "闫俊杰",
+      "name": "闫俊杰",
+      "type": "person",
+      "description": "MiniMax创始人，被称为“俊杰老师”、“剑眉星目闫俊杰”、“胖猫”",
+      "mention_count": 5,
+      "article_count": 3,
+      "aliases": [
+        "俊杰老师",
+        "剑眉星目闫俊杰",
+        "胖猫"
+      ],
+      "tags": [
+        "CEO"
+      ],
+      "references": 3,
+      "source_article_count": 3,
+      "source_articles": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "date": "2026-09-01",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "mention_count": 3
+        },
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "date": "2026-04-27",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "049",
+          "title": "建议六小虎合并，实现China AGI",
+          "date": "2026-01-05",
+          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
+          "permalink": "/articles/049",
+          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
           "mention_count": 1
         }
       ]
@@ -17404,31 +17765,6 @@
       ]
     },
     {
-      "id": "rainfly",
-      "name": "RainFly",
-      "type": "person",
-      "description": "网吧黑客松MuleRun赛道获胜者，长亭科技前员工",
-      "mention_count": 4,
-      "article_count": 1,
-      "aliases": [],
-      "tags": [
-        "开发者"
-      ],
-      "references": 1,
-      "source_article_count": 1,
-      "source_articles": [
-        {
-          "article_id": "115",
-          "title": "网吧黑客松为西湖醋鱼平反",
-          "date": "2026-07-08",
-          "path": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
-          "permalink": "/articles/115",
-          "markdown_link": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
-          "mention_count": 4
-        }
-      ]
-    },
-    {
       "id": "somnia-lab",
       "name": "Somnia Lab",
       "type": "company",
@@ -17685,6 +18021,35 @@
       ]
     },
     {
+      "id": "胡迪hoodie",
+      "name": "胡迪Hoodie",
+      "type": "person",
+      "description": "Manus 团队成员，负责评测相关工作，提出了隐喻率等衡量指标",
+      "mention_count": 4,
+      "article_count": 1,
+      "aliases": [
+        "Hoodie",
+        "胡迪"
+      ],
+      "tags": [
+        "Research Bench",
+        "模型评测"
+      ],
+      "references": 1,
+      "source_article_count": 1,
+      "source_articles": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "date": "2026-09-04",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "mention_count": 4
+        }
+      ]
+    },
+    {
       "id": "自变量",
       "name": "自变量",
       "type": "company",
@@ -17839,6 +18204,55 @@
           "permalink": "/articles/051",
           "markdown_link": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
           "mention_count": 4
+        }
+      ]
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "type": "product",
+      "description": "xAI 的模型系列，文中提及 Grok-4.6 偏好商业和竞争分析类隐喻",
+      "mention_count": 3,
+      "article_count": 3,
+      "aliases": [
+        "Grok-4.6",
+        "北美二豆包"
+      ],
+      "tags": [
+        "AI应用",
+        "LLM",
+        "大模型",
+        "文本生成"
+      ],
+      "references": 3,
+      "source_article_count": 3,
+      "source_articles": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "date": "2026-09-04",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "110",
+          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
+          "date": "2026-06-24",
+          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "permalink": "/articles/110",
+          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
+          "mention_count": 1
+        },
+        {
+          "article_id": "061",
+          "title": "AI硬件炒作上天了",
+          "date": "2026-02-03",
+          "path": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+          "permalink": "/articles/061",
+          "markdown_link": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
+          "mention_count": 1
         }
       ]
     },
@@ -18606,6 +19020,32 @@
       ]
     },
     {
+      "id": "m3",
+      "name": "M3",
+      "type": "product",
+      "description": "MiniMax的文本模型，文中提到其版本更新滞后",
+      "mention_count": 3,
+      "article_count": 1,
+      "aliases": [],
+      "tags": [
+        "大语言模型",
+        "文本模型"
+      ],
+      "references": 1,
+      "source_article_count": 1,
+      "source_articles": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "date": "2026-09-01",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "mention_count": 3
+        }
+      ]
+    },
+    {
       "id": "m5stack",
       "name": "M5Stack",
       "type": "company",
@@ -18939,6 +19379,32 @@
           "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
           "permalink": "/articles/117",
           "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "mention_count": 3
+        }
+      ]
+    },
+    {
+      "id": "vivian",
+      "name": "Vivian",
+      "type": "person",
+      "description": "美团龙猫团队成员，模型评测专家，获得Qwen选择奖",
+      "mention_count": 3,
+      "article_count": 1,
+      "aliases": [],
+      "tags": [
+        "模型评测",
+        "获奖者"
+      ],
+      "references": 1,
+      "source_article_count": 1,
+      "source_articles": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "date": "2026-08-27",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
           "mention_count": 3
         }
       ]
@@ -19556,43 +20022,6 @@
           "path": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
           "permalink": "/articles/022",
           "markdown_link": "articles/022_2025-09-15_葬爱咸鱼_GenSpark重做百度.md",
-          "mention_count": 1
-        }
-      ]
-    },
-    {
-      "id": "grok",
-      "name": "Grok",
-      "type": "product",
-      "description": "xAI开发的大型语言模型，被戏称为北美二豆包",
-      "mention_count": 2,
-      "article_count": 2,
-      "aliases": [
-        "北美二豆包"
-      ],
-      "tags": [
-        "AI应用",
-        "大模型"
-      ],
-      "references": 2,
-      "source_article_count": 2,
-      "source_articles": [
-        {
-          "article_id": "110",
-          "title": "葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力",
-          "date": "2026-06-24",
-          "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
-          "permalink": "/articles/110",
-          "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "061",
-          "title": "AI硬件炒作上天了",
-          "date": "2026-02-03",
-          "path": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
-          "permalink": "/articles/061",
-          "markdown_link": "articles/061_2026-02-03_骡子马_AI硬件炒作上天了.md",
           "mention_count": 1
         }
       ]
@@ -20239,38 +20668,6 @@
       ]
     },
     {
-      "id": "闫俊杰",
-      "name": "闫俊杰",
-      "type": "person",
-      "description": "被提议出任假想合并公司“胖虎AI”的CEO",
-      "mention_count": 2,
-      "article_count": 2,
-      "aliases": [],
-      "tags": [],
-      "references": 2,
-      "source_article_count": 2,
-      "source_articles": [
-        {
-          "article_id": "085",
-          "title": "谁是宇宙第一FA",
-          "date": "2026-04-27",
-          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "permalink": "/articles/085",
-          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "mention_count": 1
-        },
-        {
-          "article_id": "049",
-          "title": "建议六小虎合并，实现China AGI",
-          "date": "2026-01-05",
-          "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "permalink": "/articles/049",
-          "markdown_link": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
-          "mention_count": 1
-        }
-      ]
-    },
-    {
       "id": "闹闹",
       "name": "闹闹",
       "type": "person",
@@ -20760,33 +21157,6 @@
       ]
     },
     {
-      "id": "gpt",
-      "name": "GPT",
-      "type": "product",
-      "description": "OpenAI开发的大模型系列",
-      "mention_count": 2,
-      "article_count": 1,
-      "aliases": [
-        "GPT-5.5"
-      ],
-      "tags": [
-        "大模型"
-      ],
-      "references": 1,
-      "source_article_count": 1,
-      "source_articles": [
-        {
-          "article_id": "111",
-          "title": "用豆包办公得坐小孩那桌",
-          "date": "2026-06-25",
-          "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
-          "permalink": "/articles/111",
-          "markdown_link": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
-          "mention_count": 2
-        }
-      ]
-    },
-    {
       "id": "gpt-image",
       "name": "GPT-Image",
       "type": "product",
@@ -21163,6 +21533,33 @@
           "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
           "permalink": "/articles/089",
           "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "mention_count": 2
+        }
+      ]
+    },
+    {
+      "id": "nemovideo",
+      "name": "NemoVideo",
+      "type": "company",
+      "description": "AI剪辑Agent公司，贡献了视频剪辑Bench并利用结果迭代产品",
+      "mention_count": 2,
+      "article_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI应用",
+        "Agent",
+        "视频剪辑"
+      ],
+      "references": 1,
+      "source_article_count": 1,
+      "source_articles": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "date": "2026-08-27",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
           "mention_count": 2
         }
       ]
@@ -21950,6 +22347,32 @@
           "path": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
           "permalink": "/articles/102",
           "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
+          "mention_count": 2
+        }
+      ]
+    },
+    {
+      "id": "仙五",
+      "name": "仙五",
+      "type": "person",
+      "description": "嵌入式软件从业者，嵌入式底层驱动开发能力Bench的作者",
+      "mention_count": 2,
+      "article_count": 1,
+      "aliases": [],
+      "tags": [
+        "Bench作者",
+        "嵌入式开发"
+      ],
+      "references": 1,
+      "source_article_count": 1,
+      "source_articles": [
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "date": "2026-09-01",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
           "mention_count": 2
         }
       ]
@@ -23818,6 +24241,32 @@
           "path": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
           "permalink": "/articles/030",
           "markdown_link": "articles/030_2025-10-20_葬爱咸鱼_Agent OS的本地入口.md",
+          "mention_count": 1
+        }
+      ]
+    },
+    {
+      "id": "deepresearch",
+      "name": "DeepResearch",
+      "type": "product",
+      "description": "OpenAI 旗下的深度研究产品，被文中作为 AI research 产品的优化对标案例",
+      "mention_count": 1,
+      "article_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI Research",
+        "Agent"
+      ],
+      "references": 1,
+      "source_article_count": 1,
+      "source_articles": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "date": "2026-09-04",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
           "mention_count": 1
         }
       ]
@@ -27235,6 +27684,34 @@
       ]
     },
     {
+      "id": "小米mimo",
+      "name": "小米MiMo",
+      "type": "product",
+      "description": "小米旗下模型，文中作为二线模型的代表被提及",
+      "mention_count": 1,
+      "article_count": 1,
+      "aliases": [
+        "MiMo"
+      ],
+      "tags": [
+        "二线模型",
+        "大模型"
+      ],
+      "references": 1,
+      "source_article_count": 1,
+      "source_articles": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "date": "2026-08-27",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "mention_count": 1
+        }
+      ]
+    },
+    {
       "id": "小鹏",
       "name": "小鹏",
       "type": "company",
@@ -28939,6 +29416,32 @@
           "path": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
           "permalink": "/articles/114",
           "markdown_link": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
+          "mention_count": 1
+        }
+      ]
+    },
+    {
+      "id": "美团长猫",
+      "name": "美团长猫",
+      "type": "product",
+      "description": "美团旗下模型，文中作为二线模型的代表被提及",
+      "mention_count": 1,
+      "article_count": 1,
+      "aliases": [],
+      "tags": [
+        "二线模型",
+        "大模型"
+      ],
+      "references": 1,
+      "source_article_count": 1,
+      "source_articles": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "date": "2026-08-27",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
           "mention_count": 1
         }
       ]
@@ -30693,6 +31196,76 @@
       ]
     },
     {
+      "source": "minimax",
+      "target": "智谱ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者作为表现亮眼的模型厂被并列提及",
+      "weight": 5,
+      "strength": 2,
+      "effective_weight": 15,
+      "article_count": 5,
+      "evidence_articles": [
+        "089",
+        "099",
+        "117",
+        "134",
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中将MiniMax与智谱AI进行全方位对标，讨论两者水平差距及待遇标准互换",
+          "weight": 1
+        },
+        {
+          "article_id": "134",
+          "title": "Kimi熹妃回宫",
+          "permalink": "/articles/134",
+          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+          "date": "2026-08-17",
+          "label": "文中将智谱、MiniMax、阶跃并列为需要憋大招证明自己的“三小龙”",
+          "weight": 1
+        },
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "两者同属AI四小龙，且模型在评测中被直接对比",
+          "weight": 1
+        },
+        {
+          "article_id": "099",
+          "title": "马卡龙开创AI短剧Neo Lab",
+          "permalink": "/articles/099",
+          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+          "date": "2026-06-04",
+          "label": "智谱与MiniMax作为国内模型层代表，被放在一起论述其在股市的狂飙表现",
+          "weight": 1
+        },
+        {
+          "article_id": "089",
+          "title": "Slock说明AI群聊不成立",
+          "permalink": "/articles/089",
+          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+          "date": "2026-05-10",
+          "label": "两者作为表现亮眼的模型厂被并列提及",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "字节跳动",
       "target": "剪映",
       "relation_type": "develops",
@@ -30968,65 +31541,6 @@
           "path": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
           "date": "2026-03-19",
           "label": "文中提到“字节4-1做创业公司的思路”，暗指陈冕曾为字节跳动的高阶员工。",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "source": "minimax",
-      "target": "智谱ai",
-      "relation_type": "compares_to",
-      "type": "compares_to",
-      "label": "两者作为表现亮眼的模型厂被并列提及",
-      "weight": 4,
-      "strength": 2,
-      "effective_weight": 12,
-      "article_count": 4,
-      "evidence_articles": [
-        "089",
-        "099",
-        "117",
-        "134"
-      ],
-      "evidences": [
-        {
-          "article_id": "134",
-          "title": "Kimi熹妃回宫",
-          "permalink": "/articles/134",
-          "markdown_link": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
-          "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
-          "date": "2026-08-17",
-          "label": "文中将智谱、MiniMax、阶跃并列为需要憋大招证明自己的“三小龙”",
-          "weight": 1
-        },
-        {
-          "article_id": "117",
-          "title": "我来给MiniMax道歉了",
-          "permalink": "/articles/117",
-          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
-          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
-          "date": "2026-07-11",
-          "label": "两者同属AI四小龙，且模型在评测中被直接对比",
-          "weight": 1
-        },
-        {
-          "article_id": "099",
-          "title": "马卡龙开创AI短剧Neo Lab",
-          "permalink": "/articles/099",
-          "markdown_link": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
-          "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
-          "date": "2026-06-04",
-          "label": "智谱与MiniMax作为国内模型层代表，被放在一起论述其在股市的狂飙表现",
-          "weight": 1
-        },
-        {
-          "article_id": "089",
-          "title": "Slock说明AI群聊不成立",
-          "permalink": "/articles/089",
-          "markdown_link": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
-          "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
-          "date": "2026-05-10",
-          "label": "两者作为表现亮眼的模型厂被并列提及",
           "weight": 1
         }
       ]
@@ -31553,6 +32067,54 @@
     },
     {
       "source": "claude",
+      "target": "gemini",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者对比了使用传统对话式模型（如Gemini）与使用项目管理式Agent（Claude Code）在版本管理和写作效率上的区别",
+      "weight": 3,
+      "strength": 2,
+      "effective_weight": 9,
+      "article_count": 3,
+      "evidence_articles": [
+        "024",
+        "101",
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+          "weight": 1
+        },
+        {
+          "article_id": "101",
+          "title": "AI圈神童杀死神人",
+          "permalink": "/articles/101",
+          "markdown_link": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "path": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+          "date": "2026-06-08",
+          "label": "文章将两者并列为“AI抓周”的比喻对象",
+          "weight": 1
+        },
+        {
+          "article_id": "024",
+          "title": "像编程一样写作",
+          "permalink": "/articles/024",
+          "markdown_link": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+          "path": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
+          "date": "2025-09-22",
+          "label": "作者对比了使用传统对话式模型（如Gemini）与使用项目管理式Agent（Claude Code）在版本管理和写作效率上的区别",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
       "target": "glm",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -31643,6 +32205,54 @@
           "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
           "date": "2026-02-13",
           "label": "Elys被形容为光屁股版的即刻，且用户群重合度高",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "市场认为MiniMax和Kimi是一个级别，形成强行双骄效果",
+      "weight": 3,
+      "strength": 2,
+      "effective_weight": 9,
+      "article_count": 3,
+      "evidence_articles": [
+        "116",
+        "117",
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中在讨论模型厂竞赛版本时，将MiniMax与Kimi置于同一竞争维度进行比较",
+          "weight": 1
+        },
+        {
+          "article_id": "117",
+          "title": "我来给MiniMax道歉了",
+          "permalink": "/articles/117",
+          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
+          "date": "2026-07-11",
+          "label": "文中将MiniMax与Kimi并列为'强行双骄'及AI四小龙成员",
+          "weight": 1
+        },
+        {
+          "article_id": "116",
+          "title": "民办大模型MiniMax努力专升本",
+          "permalink": "/articles/116",
+          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+          "date": "2026-07-09",
+          "label": "市场认为MiniMax和Kimi是一个级别，形成强行双骄效果",
           "weight": 1
         }
       ]
@@ -32835,37 +33445,37 @@
     },
     {
       "source": "claude",
-      "target": "gemini",
+      "target": "gpt",
       "relation_type": "compares_to",
       "type": "compares_to",
-      "label": "作者对比了使用传统对话式模型（如Gemini）与使用项目管理式Agent（Claude Code）在版本管理和写作效率上的区别",
+      "label": "在代码实验报告质量与物理任务静默修复能力之间进行权衡对比",
       "weight": 2,
       "strength": 2,
       "effective_weight": 6,
       "article_count": 2,
       "evidence_articles": [
-        "024",
-        "101"
+        "142",
+        "143"
       ],
       "evidences": [
         {
-          "article_id": "101",
-          "title": "AI圈神童杀死神人",
-          "permalink": "/articles/101",
-          "markdown_link": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
-          "path": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
-          "date": "2026-06-08",
-          "label": "文章将两者并列为“AI抓周”的比喻对象",
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中详细对比了两者在信息量、文章详实度、隐喻率及笔记写作行为上的差异",
           "weight": 1
         },
         {
-          "article_id": "024",
-          "title": "像编程一样写作",
-          "permalink": "/articles/024",
-          "markdown_link": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
-          "path": "articles/024_2025-09-22_葬爱咸鱼_像编程一样写作.md",
-          "date": "2025-09-22",
-          "label": "作者对比了使用传统对话式模型（如Gemini）与使用项目管理式Agent（Claude Code）在版本管理和写作效率上的区别",
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在代码实验报告质量与物理任务静默修复能力之间进行权衡对比",
           "weight": 1
         }
       ]
@@ -33040,6 +33650,43 @@
           "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
           "date": "2026-01-30",
           "label": "Proma的稳定性被认为优于体验糟糕的Cowork。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者均为本次黑客松选定的五大顶尖评测模型之一",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "140",
+        "142"
+      ],
+      "evidences": [
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在嵌入式驱动、物理理解及德州扑克等多个Bench中被直接对比性能差异",
+          "weight": 1
+        },
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "两者均为本次黑客松选定的五大顶尖评测模型之一",
           "weight": 1
         }
       ]
@@ -33231,37 +33878,37 @@
     },
     {
       "source": "kimi",
-      "target": "minimax",
+      "target": "qwen",
       "relation_type": "compares_to",
       "type": "compares_to",
-      "label": "市场认为MiniMax和Kimi是一个级别，形成强行双骄效果",
+      "label": "Qwen的低API请求数和低成本与产生大量请求的Kimi形成鲜明对比",
       "weight": 2,
       "strength": 2,
       "effective_weight": 6,
       "article_count": 2,
       "evidence_articles": [
-        "116",
-        "117"
+        "105",
+        "140"
       ],
       "evidences": [
         {
-          "article_id": "117",
-          "title": "我来给MiniMax道歉了",
-          "permalink": "/articles/117",
-          "markdown_link": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
-          "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
-          "date": "2026-07-11",
-          "label": "文中将MiniMax与Kimi并列为'强行双骄'及AI四小龙成员",
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "两者均为本次黑客松选定的顶尖模型，且在多个Bench中被横向测评",
           "weight": 1
         },
         {
-          "article_id": "116",
-          "title": "民办大模型MiniMax努力专升本",
-          "permalink": "/articles/116",
-          "markdown_link": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
-          "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
-          "date": "2026-07-09",
-          "label": "市场认为MiniMax和Kimi是一个级别，形成强行双骄效果",
+          "article_id": "105",
+          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+          "permalink": "/articles/105",
+          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+          "date": "2026-06-17",
+          "label": "Qwen的低API请求数和低成本与产生大量请求的Kimi形成鲜明对比",
           "weight": 1
         }
       ]
@@ -34304,6 +34951,43 @@
     },
     {
       "source": "minimax",
+      "target": "h3",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax开发并发布了视频模型H3",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "127",
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "H3是MiniMax开发的视频模型，8月发布并贡献主要收入",
+          "weight": 1
+        },
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "date": "2026-08-02",
+          "label": "MiniMax开发并发布了视频模型H3",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
       "target": "maxhermes",
       "relation_type": "develops",
       "type": "develops",
@@ -35265,6 +35949,43 @@
       ]
     },
     {
+      "source": "闫俊杰",
+      "target": "minimax",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "闫俊杰创立了MiniMax",
+      "weight": 2,
+      "strength": 5,
+      "effective_weight": 12,
+      "article_count": 2,
+      "evidence_articles": [
+        "085",
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中多次以“俊杰老师”指代MiniMax负责人并引用其言论，确认为创始人关系",
+          "weight": 1
+        },
+        {
+          "article_id": "085",
+          "title": "谁是宇宙第一FA",
+          "permalink": "/articles/085",
+          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
+          "date": "2026-04-27",
+          "label": "闫俊杰创立了MiniMax",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "陈冕",
       "target": "libtv",
       "relation_type": "founder_of",
@@ -35445,6 +36166,43 @@
           "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
           "date": "2026-02-24",
           "label": "小智AI的硬件底层基于ESP32开发板",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "h3",
+      "target": "libtv",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文中提到H3相当于给LibTV接腿，两者结合可抗击Seedance 2.5",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "127",
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中提到利好视频Agent公司（如LibTV）后训练H3，打破闭源垄断",
+          "weight": 1
+        },
+        {
+          "article_id": "127",
+          "title": "MiniMax用H3窃取大结果",
+          "permalink": "/articles/127",
+          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+          "date": "2026-08-02",
+          "label": "文中提到H3相当于给LibTV接腿，两者结合可抗击Seedance 2.5",
           "weight": 1
         }
       ]
@@ -38461,6 +39219,32 @@
     },
     {
       "source": "claude",
+      "target": "deepseek",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在复杂DMA场景及物理流体能力等方面进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "142"
+      ],
+      "evidences": [
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在复杂DMA场景及物理流体能力等方面进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
       "target": "gemini-cli",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -38507,6 +39291,58 @@
           "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
           "date": "2026-02-24",
           "label": "GLM code与Claude code被作为编程Agent进行比较，体验略逊",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "grok",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "k3",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在德州扑克牌理判断及物理材质抓取任务中表现各异，互为参照",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "142"
+      ],
+      "evidences": [
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在德州扑克牌理判断及物理材质抓取任务中表现各异，互为参照",
           "weight": 1
         }
       ]
@@ -38611,6 +39447,32 @@
           "path": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
           "date": "2026-03-16",
           "label": "文章将经不住推敲的龙虾框架与Claude code SDK对比，认为正经做产品应选后者",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在代码质量、系统级Agent能力及物理场景稳定性方面进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "142"
+      ],
+      "evidences": [
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在代码质量、系统级Agent能力及物理场景稳定性方面进行对比",
           "weight": 1
         }
       ]
@@ -38975,6 +39837,84 @@
           "path": "articles/118_2026-07-12_骡子马_第一届AI恐怖片黑客松开办.md",
           "date": "2026-07-12",
           "label": "文章提到TapNow声称自己是「AI创作界的Codex」，将自身产品能力与Codex进行类比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepresearch",
+      "target": "manus",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中提到不少 AI research 产品都优化得像 OpenAI 的 DeepResearch 一样，Manus 也在做同类 Research Bench 工作",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中提到不少 AI research 产品都优化得像 OpenAI 的 DeepResearch 一样，Manus 也在做同类 Research Bench 工作",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "gpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在吸盘搬运误差恢复及切割稳定性方面进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "142"
+      ],
+      "evidences": [
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在吸盘搬运误差恢复及切割稳定性方面进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属国内大模型竞赛阵营，在Flash模型和小参数模型赛道存在竞争关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "同属国内大模型竞赛阵营，在Flash模型和小参数模型赛道存在竞争关系",
           "weight": 1
         }
       ]
@@ -39813,6 +40753,58 @@
     },
     {
       "source": "gemini",
+      "target": "gpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率测试中将 GPT 5.6 与 Gemini-3.7-flash 进行了横向对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中在隐喻率测试中将 GPT 5.6 与 Gemini-3.7-flash 进行了横向对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gemini",
+      "target": "grok",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gemini",
       "target": "k2",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -40249,6 +41241,58 @@
           "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
           "date": "2026-08-17",
           "label": "文中对比了两者API价格和任务耗时，Grok 4.6更具性价比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gpt",
+      "target": "grok",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率测试中将 GPT 5.6 与 Grok-4.6 进行了横向对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中在隐喻率测试中将 GPT 5.6 与 Grok-4.6 进行了横向对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "gpt",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在物理切割、吸盘搬运及无人机巡航等任务中进行性能对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "142"
+      ],
+      "evidences": [
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在物理切割、吸盘搬运及无人机巡航等任务中进行性能对比",
           "weight": 1
         }
       ]
@@ -40852,6 +41896,32 @@
       ]
     },
     {
+      "source": "k3",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在物理直觉、布料覆盖及综合智力方面进行对比，Qwen工程强而K3综合智力优",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "142"
+      ],
+      "evidences": [
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在物理直觉、布料覆盖及综合智力方面进行对比，Qwen工程强而K3综合智力优",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "kimi",
       "target": "ofo",
       "relation_type": "compares_to",
@@ -40873,32 +41943,6 @@
           "path": "articles/005_2025-06-24_葬爱咸鱼_Kimi没有梦想.md",
           "date": "2025-06-24",
           "label": "Kimi不计成本的投流打法被类比为当年的ofo单车投放",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "source": "kimi",
-      "target": "qwen",
-      "relation_type": "compares_to",
-      "type": "compares_to",
-      "label": "Qwen的低API请求数和低成本与产生大量请求的Kimi形成鲜明对比",
-      "weight": 1,
-      "strength": 2,
-      "effective_weight": 3,
-      "article_count": 1,
-      "evidence_articles": [
-        "105"
-      ],
-      "evidences": [
-        {
-          "article_id": "105",
-          "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
-          "permalink": "/articles/105",
-          "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
-          "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
-          "date": "2026-06-17",
-          "label": "Qwen的低API请求数和低成本与产生大量请求的Kimi形成鲜明对比",
           "weight": 1
         }
       ]
@@ -40977,6 +42021,32 @@
           "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
           "date": "2025-12-30",
           "label": "作者锐评Kimi显著好于砸盘两兄弟",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
+      "target": "美团长猫",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将美团长猫作为二线模型与Kimi等顶尖模型进行档次对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "140"
+      ],
+      "evidences": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "文中将美团长猫作为二线模型与Kimi等顶尖模型进行档次对比",
           "weight": 1
         }
       ]
@@ -42017,6 +43087,32 @@
           "path": "articles/044_2025-12-23_葬爱咸鱼_Plaud善打游击战.md",
           "date": "2025-12-23",
           "label": "文章将Plaud的营收与MiniMax和智谱的营收之和进行对比。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属国内大模型竞赛阵营，在摸高和Flash赛道存在竞争关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "同属国内大模型竞赛阵营，在摸高和Flash赛道存在竞争关系",
           "weight": 1
         }
       ]
@@ -43083,6 +44179,32 @@
           "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
           "date": "2026-07-02",
           "label": "文中认为Qwen显著领先字节的Seed模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "qwen",
+      "target": "小米mimo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将小米MiMo作为二线模型与Qwen等顶尖模型进行档次对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "140"
+      ],
+      "evidences": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "文中将小米MiMo作为二线模型与Qwen等顶尖模型进行档次对比",
           "weight": 1
         }
       ]
@@ -45345,6 +46467,32 @@
           "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
           "date": "2026-08-25",
           "label": "同属被列举的采用匿名打榜策略的厂商",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "智谱ai",
+      "target": "闫俊杰",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "闫俊杰喊话暗示MiniMax和智谱一个水平，只是阶段性落后",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "闫俊杰喊话暗示MiniMax和智谱一个水平，只是阶段性落后",
           "weight": 1
         }
       ]
@@ -47691,6 +48839,32 @@
     },
     {
       "source": "h3",
+      "target": "seedance",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中明确指出H3是Seedance之外唯一能打的模型，且能和Seedance对打",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中明确指出H3是Seedance之外唯一能打的模型，且能和Seedance对打",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "h3",
       "target": "seedance-2-5",
       "relation_type": "competes_with",
       "type": "competes_with",
@@ -47711,6 +48885,32 @@
           "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
           "date": "2026-08-02",
           "label": "H3与Seedance 2.5存在直接市场竞争关系，且发布时间接近",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "h3",
+      "target": "可灵",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中提到H3超越了半年没更新版本的可灵",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中提到H3超越了半年没更新版本的可灵",
           "weight": 1
         }
       ]
@@ -52527,32 +53727,6 @@
     },
     {
       "source": "minimax",
-      "target": "h3",
-      "relation_type": "develops",
-      "type": "develops",
-      "label": "MiniMax开发并发布了视频模型H3",
-      "weight": 1,
-      "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
-      "evidence_articles": [
-        "127"
-      ],
-      "evidences": [
-        {
-          "article_id": "127",
-          "title": "MiniMax用H3窃取大结果",
-          "permalink": "/articles/127",
-          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
-          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
-          "date": "2026-08-02",
-          "label": "MiniMax开发并发布了视频模型H3",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "source": "minimax",
       "target": "m2",
       "relation_type": "develops",
       "type": "develops",
@@ -52573,6 +53747,32 @@
           "path": "articles/049_2026-01-05_葬爱咸鱼_建议六小虎合并，实现China AGI.md",
           "date": "2026-01-05",
           "label": "MiniMax研发的文本模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "m3",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "M3是MiniMax的文本模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "M3是MiniMax的文本模型",
           "weight": 1
         }
       ]
@@ -52755,6 +53955,32 @@
           "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
           "date": "2026-06-10",
           "label": "Codex被指代为OpenAI的产品标杆",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "openai",
+      "target": "deepresearch",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "文中提到“OpenAI 的 DeepResearch”，表明归属关系",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中提到“OpenAI 的 DeepResearch”，表明归属关系",
           "weight": 1
         }
       ]
@@ -57778,32 +59004,6 @@
       ]
     },
     {
-      "source": "闫俊杰",
-      "target": "minimax",
-      "relation_type": "founder_of",
-      "type": "founder_of",
-      "label": "闫俊杰创立了MiniMax",
-      "weight": 1,
-      "strength": 5,
-      "effective_weight": 6,
-      "article_count": 1,
-      "evidence_articles": [
-        "085"
-      ],
-      "evidences": [
-        {
-          "article_id": "085",
-          "title": "谁是宇宙第一FA",
-          "permalink": "/articles/085",
-          "markdown_link": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
-          "date": "2026-04-27",
-          "label": "闫俊杰创立了MiniMax",
-          "weight": 1
-        }
-      ]
-    },
-    {
       "source": "陈冕",
       "target": "liblib",
       "relation_type": "founder_of",
@@ -59827,32 +61027,6 @@
           "path": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
           "date": "2026-07-02",
           "label": "Macaron-V1-Preview是基于GLM 5.1进行后训练和Lora微调的",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "source": "h3",
-      "target": "libtv",
-      "relation_type": "integrates_with",
-      "type": "integrates_with",
-      "label": "文中提到H3相当于给LibTV接腿，两者结合可抗击Seedance 2.5",
-      "weight": 1,
-      "strength": 2,
-      "effective_weight": 3,
-      "article_count": 1,
-      "evidence_articles": [
-        "127"
-      ],
-      "evidences": [
-        {
-          "article_id": "127",
-          "title": "MiniMax用H3窃取大结果",
-          "permalink": "/articles/127",
-          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
-          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
-          "date": "2026-08-02",
-          "label": "文中提到H3相当于给LibTV接腿，两者结合可抗击Seedance 2.5",
           "weight": 1
         }
       ]
@@ -65786,6 +66960,32 @@
       ]
     },
     {
+      "source": "vivian",
+      "target": "美团",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "Vivian是美团龙猫团队的成员，日常工作为模型评测",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "140"
+      ],
+      "evidences": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "Vivian是美团龙猫团队的成员，日常工作为模型评测",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "wels",
       "target": "head-ai",
       "relation_type": "works_at",
@@ -67112,6 +68312,32 @@
       ]
     },
     {
+      "source": "胡迪hoodie",
+      "target": "manus",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "文中明确提到“哥们在Manus 团队做评测相关的工作”",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中明确提到“哥们在Manus 团队做评测相关的工作”",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "许高",
       "target": "plaud",
       "relation_type": "works_at",
@@ -67679,6 +68905,32 @@
           "path": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
           "date": "2026-02-13",
           "label": "Tristan主导或参与开发了Elys",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "vivian",
+      "target": "deepseek",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Vivian的评测集包含了DeepSeek harness多个插件兼容性的测试题目",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "140"
+      ],
+      "evidences": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "Vivian的评测集包含了DeepSeek harness多个插件兼容性的测试题目",
           "weight": 1
         }
       ]
@@ -68464,6 +69716,58 @@
       ]
     },
     {
+      "source": "胡迪hoodie",
+      "target": "claude",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "胡迪在 Manus 做评测工作，分析了 Claude 的信息记录方式和隐喻特征，属于针对特定产品的评测研究",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "胡迪在 Manus 做评测工作，分析了 Claude 的信息记录方式和隐喻特征，属于针对特定产品的评测研究",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "胡迪hoodie",
+      "target": "gpt",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "胡迪在 Manus 做评测工作，通过 Prompt 规范了 GPT 写笔记的方式以提升信息量，属于针对特定产品的调优/研究工作",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "胡迪在 Manus 做评测工作，通过 Prompt 规范了 GPT 写笔记的方式以提升信息量，属于针对特定产品的调优/研究工作",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "蔡浩宇",
       "target": "lpm-1-0",
       "relation_type": "works_on",
@@ -68803,6 +70107,32 @@
     },
     {
       "source": "陈冕",
+      "target": "libtv",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "文中提到“等着陈冕宣布LibTV实现模型自研”，推断陈冕负责LibTV产品研发",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中提到“等着陈冕宣布LibTV实现模型自研”，推断陈冕负责LibTV产品研发",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "陈冕",
       "target": "lovart",
       "relation_type": "works_on",
       "type": "works_on",
@@ -68987,8 +70317,8 @@
   "metadata": {
     "source": "canonical-full-derived",
     "layer": "canonical",
-    "articleCount": 138,
-    "includedArticleCount": 138,
+    "articleCount": 142,
+    "includedArticleCount": 142,
     "missingArticleIds": [],
     "isPartial": false,
     "graphSchemaVersion": "2026-03-15-vc-firm-v3",
@@ -68999,9 +70329,9 @@
     ],
     "pruning": {
       "rule": "mention_count >= 1; weak related edges removed; isolated mentioned entities retained",
-      "weakEdgesPruned": 41,
+      "weakEdgesPruned": 42,
       "removedNodeCount": 0,
-      "orphanedNodeCount": 35
+      "orphanedNodeCount": 37
     },
     "weighting": {
       "node": "mention_count",
@@ -69014,7 +70344,7 @@
         "tier5_catchall": 1
       }
     },
-    "baseNodeCount": 773,
-    "baseLinkCount": 1444
+    "baseNodeCount": 781,
+    "baseLinkCount": 1473
   }
 }

@@ -1,0 +1,177 @@
+{
+  "article": {
+    "id": "098",
+    "title": "HeyGen不是给人用的",
+    "path": "articles/098_2026-06-01_骡子马_HeyGen不是给人用的.md",
+    "date": "2026-06-01",
+    "author": "骡子马",
+    "content_hash": "034065cad5f231f40aa62ee2ffe2634db798e4f0387f96e542740f043a6b9f11"
+  },
+  "entities": [
+    {
+      "id": "heygen",
+      "name": "HeyGen",
+      "type": "company",
+      "description": "一家主打数字人和AI视频业务的公司，开发了HyperFrames",
+      "mention_count": 14,
+      "aliases": [],
+      "tags": [
+        "数字人",
+        "AI视频"
+      ]
+    },
+    {
+      "id": "hyperframes",
+      "name": "HyperFrames",
+      "type": "product",
+      "description": "HeyGen推出的开源视频产品，主打通过写代码和结合AI Agent生成视频",
+      "mention_count": 14,
+      "aliases": [],
+      "tags": [
+        "Vibe Motion",
+        "开源视频"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "现成的AI Agent产品，作者在测试HyperFrames时使用",
+      "mention_count": 6,
+      "aliases": [
+        "Claude Code"
+      ],
+      "tags": [
+        "AI Agent",
+        "大语言模型"
+      ]
+    },
+    {
+      "id": "higgsfield",
+      "name": "Higgsfield",
+      "type": "company",
+      "description": "海外著名AI视频独角兽公司",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "AI视频",
+        "独角兽"
+      ]
+    },
+    {
+      "id": "remotion",
+      "name": "Remotion",
+      "type": "product",
+      "description": "2021年出现的基于React框架的开源项目，通过写代码实现动效视频",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "开源项目",
+        "Vibe Motion"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "现成的AI Agent产品，可用于驱动HyperFrames",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI Agent"
+      ]
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "type": "product",
+      "description": "AI行业知名实体，被作者用作比喻HeyGen的参照对象",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI Agent"
+      ]
+    },
+    {
+      "id": "tapnow",
+      "name": "TapNow",
+      "type": "company",
+      "description": "Higgsfield被比作美国的TapNow，作为对比参照公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "HeyGen",
+      "target": "Manus",
+      "relation_type": "compares_to",
+      "label": "文章明确表示HeyGen公司是平行时空的Manus（视频agent版）",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Higgsfield",
+      "target": "TapNow",
+      "relation_type": "compares_to",
+      "label": "文章将海外著名AI视频独角兽Higgsfield比作美国的TapNow",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "HyperFrames",
+      "target": "Remotion",
+      "relation_type": "compares_to",
+      "label": "作者将相同需求发送给HyperFrames与Remotion进行成品效果对比测试",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "HeyGen",
+      "target": "Higgsfield",
+      "relation_type": "competes_with",
+      "label": "HeyGen看到Higgsfield推出Vibe Motion商业化产品后赶紧跟上，表现出业务竞争与追赶关系",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "HeyGen",
+      "target": "HyperFrames",
+      "relation_type": "develops",
+      "label": "HeyGen研究并推出了所谓靠写代码就能做出视频的开源视频产品HyperFrames",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "HyperFrames",
+      "relation_type": "integrates_with",
+      "label": "使用HyperFrames必须具备并接入现成的AI agent，如Claude Code",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Codex",
+      "target": "HyperFrames",
+      "relation_type": "integrates_with",
+      "label": "使用HyperFrames必须具备并接入现成的AI agent，如Codex",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 8,
+    "relationship_count": 7,
+    "pruned_entities": []
+  }
+}

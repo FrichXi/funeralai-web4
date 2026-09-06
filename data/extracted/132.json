@@ -1,0 +1,310 @@
+{
+  "article": {
+    "id": "132",
+    "title": "Seedance 2.5自绝于网民",
+    "path": "articles/132_2026-08-12_骡子马_Seedance 2.5自绝于网民.md",
+    "date": "2026-08-12",
+    "author": "骡子马",
+    "content_hash": "313c852b6b9072b1b7d9b0a32047342465d365dee52e50d9aa535a7ff470453a"
+  },
+  "entities": [
+    {
+      "id": "seedance",
+      "name": "Seedance",
+      "type": "product",
+      "description": "字节跳动旗下的AI视频生成模型系列",
+      "mention_count": 39,
+      "aliases": [],
+      "tags": [
+        "文生视频",
+        "世界模型"
+      ]
+    },
+    {
+      "id": "即梦",
+      "name": "即梦",
+      "type": "product",
+      "description": "字节跳动旗下集成Seedance模型的AI创作App",
+      "mention_count": 6,
+      "aliases": [
+        "Jimeng"
+      ],
+      "tags": [
+        "AI应用",
+        "C端产品"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "开发H3视频模型的公司，与字节跳动在视频生成领域竞争",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "AI视频生成",
+        "大模型"
+      ]
+    },
+    {
+      "id": "minimax-h3",
+      "name": "MiniMax H3",
+      "type": "product",
+      "description": "MiniMax推出的视频生成模型，主打影视后期与整活场景",
+      "mention_count": 5,
+      "aliases": [
+        "H3"
+      ],
+      "tags": [
+        "文生视频",
+        "高性价比"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "Seedance、即梦、剪映等产品的母公司",
+      "mention_count": 5,
+      "aliases": [
+        "自绝跳动"
+      ],
+      "tags": [
+        "AI视频生成",
+        "大模型"
+      ]
+    },
+    {
+      "id": "剪映",
+      "name": "剪映",
+      "type": "product",
+      "description": "字节跳动旗下的视频编辑工具",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "视频编辑",
+        "生产力工具"
+      ]
+    },
+    {
+      "id": "libtv",
+      "name": "LibTV",
+      "type": "product",
+      "description": "支持超长视频生成且支持花呗支付的竞品平台",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI视频平台",
+        "超长视频"
+      ]
+    },
+    {
+      "id": "小云雀",
+      "name": "小云雀",
+      "type": "product",
+      "description": "字节跳动旗下的AI产品，文中建议与即梦合并入剪映",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "id": "kimi-k3",
+      "name": "Kimi K3",
+      "type": "product",
+      "description": "文本模型，文中作为模型产品化策略的对比案例",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "文本生成",
+        "网页游戏"
+      ]
+    },
+    {
+      "id": "kling",
+      "name": "Kling",
+      "type": "product",
+      "description": "快手推出的AI视频生成模型",
+      "mention_count": 1,
+      "aliases": [
+        "可灵"
+      ],
+      "tags": [
+        "文生视频"
+      ]
+    },
+    {
+      "id": "陈冕",
+      "name": "陈冕",
+      "type": "person",
+      "description": "文中提及的关键人物，被建议回来管理剪映、即梦和小云雀",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "高管",
+        "产品负责人"
+      ]
+    },
+    {
+      "id": "骡子马",
+      "name": "骡子马",
+      "type": "person",
+      "description": "文章作者，AI行业评论人",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "博主",
+        "评测"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Kimi K3",
+      "target": "MiniMax H3",
+      "relation_type": "compares_to",
+      "label": "文章将MiniMax H3的产品化策略（多做一步）与Kimi K3进行类比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Kling",
+      "target": "Seedance",
+      "relation_type": "compares_to",
+      "label": "文章对比了Seedance 2.5与Kling 3.0 Omini的视频生成成本",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax H3",
+      "target": "Seedance",
+      "relation_type": "compares_to",
+      "label": "文章详细对比了Seedance 2.5与MiniMax H3在价格、提示词遵循度及适用人群上的差异",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "LibTV",
+      "target": "Seedance",
+      "relation_type": "competes_with",
+      "label": "LibTV在超长视频生成和支付灵活性上与Seedance形成竞争/对标关系",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "骡子马",
+      "target": "Seedance",
+      "relation_type": "criticizes",
+      "label": "作者批评Seedance 2.5定价过高、对提示词要求苛刻、内容审查过严以及产品化倒退",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "MiniMax H3",
+      "relation_type": "develops",
+      "label": "MiniMax开发了H3视频模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "Seedance",
+      "relation_type": "develops",
+      "label": "字节跳动开发了Seedance视频生成模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "剪映",
+      "relation_type": "develops",
+      "label": "字节跳动开发了剪映",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "即梦",
+      "relation_type": "develops",
+      "label": "字节跳动开发了即梦App",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "小云雀",
+      "relation_type": "develops",
+      "label": "字节跳动开发了小云雀",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Seedance",
+      "target": "即梦",
+      "relation_type": "integrates_with",
+      "label": "即梦App集成了Seedance模型作为核心生成引擎",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "骡子马",
+      "target": "MiniMax H3",
+      "relation_type": "praises",
+      "label": "作者赞扬MiniMax H3在模型产品化上多做了一步，适合老百姓整活和影视后期",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "陈冕",
+      "target": "剪映",
+      "relation_type": "works_on",
+      "label": "文中提及陈冕曾被关联于剪映的管理工作（建议其回归）",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "陈冕",
+      "target": "即梦",
+      "relation_type": "works_on",
+      "label": "文中提及陈冕曾被关联于即梦的管理工作（建议其回归）",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 12,
+    "relationship_count": 14,
+    "pruned_entities": [
+      {
+        "name": "快手",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "沐秋",
+        "reason": "low-signal"
+      },
+      {
+        "name": "红果短剧",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

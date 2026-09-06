@@ -1,0 +1,232 @@
+{
+  "article": {
+    "id": "137",
+    "title": "匿名打榜的都是二流模型",
+    "path": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
+    "date": "2026-08-25",
+    "author": "沐秋",
+    "content_hash": "7fecd35d9db275ade0e873e72c6f0063f94f86d6be2c4b0c00b62c92d67556c6"
+  },
+  "entities": [
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "被文章推测为“牛来大模型”背后厂商，多次采用匿名打榜营销策略的中国AI公司",
+      "mention_count": 7,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "大模型",
+        "匿名打榜"
+      ]
+    },
+    {
+      "id": "牛来大模型",
+      "name": "牛来大模型",
+      "type": "product",
+      "description": "近期引发市场猜测的匿名大模型，被作者推测属于智谱AI",
+      "mention_count": 6,
+      "aliases": [
+        "牛来"
+      ],
+      "tags": [
+        "匿名模型",
+        "炒作"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "文中作为正面案例提及，被认为作风本分、不搞匿名炒作的AI公司",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "本分"
+      ]
+    },
+    {
+      "id": "阶跃星辰",
+      "name": "阶跃星辰",
+      "type": "company",
+      "description": "文中提及的另一家被评价为相对本分的AI模型公司",
+      "mention_count": 4,
+      "aliases": [
+        "阶跃"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "fable",
+      "name": "Fable",
+      "type": "product",
+      "description": "文中提到的基准测试中表现强劲、被匿名模型对标的大模型",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "SOTA"
+      ]
+    },
+    {
+      "id": "glm-5",
+      "name": "GLM-5",
+      "type": "product",
+      "description": "智谱AI此前通过匿名方式（Pony Alpha）发布并炒作的大模型",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "小米",
+      "name": "小米",
+      "type": "company",
+      "description": "曾推出匿名模型Hunter Alpha参与打榜的科技公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "匿名打榜"
+      ]
+    },
+    {
+      "id": "沐秋",
+      "name": "沐秋",
+      "type": "person",
+      "description": "本文作者，对匿名打榜行为持强烈批评态度的行业评论人",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI评论"
+      ]
+    },
+    {
+      "id": "美团",
+      "name": "美团",
+      "type": "company",
+      "description": "曾推出匿名模型Owl Alpha参与打榜的互联网公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "匿名打榜"
+      ]
+    },
+    {
+      "id": "阿里巴巴",
+      "name": "阿里巴巴",
+      "type": "company",
+      "description": "曾推出匿名视频模型Happy Horse的公司",
+      "mention_count": 1,
+      "aliases": [
+        "阿里"
+      ],
+      "tags": [
+        "视频生成",
+        "匿名打榜"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "DeepSeek",
+      "target": "智谱AI",
+      "relation_type": "compares_to",
+      "label": "文章将智谱AI的炒作行为与DeepSeek的本分作风进行对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Fable",
+      "target": "牛来大模型",
+      "relation_type": "compares_to",
+      "label": "文中提到牛来大模型在部分测试中被拿来与Fable对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "小米",
+      "target": "智谱AI",
+      "relation_type": "compares_to",
+      "label": "同属被列举的采用匿名打榜策略的厂商",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "美团",
+      "relation_type": "compares_to",
+      "label": "同属被列举的采用匿名打榜策略的厂商",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "阿里巴巴",
+      "relation_type": "compares_to",
+      "label": "同属被列举的采用匿名打榜策略的厂商",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "沐秋",
+      "target": "智谱AI",
+      "relation_type": "criticizes",
+      "label": "作者严厉批评智谱AI反复使用匿名打榜的营销套路",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "GLM-5",
+      "relation_type": "develops",
+      "label": "文章明确指出GLM-5是智谱AI推出的产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "牛来大模型",
+      "relation_type": "develops",
+      "label": "文章推测牛来大模型由智谱AI开发并发布",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    },
+    {
+      "source": "沐秋",
+      "target": "DeepSeek",
+      "relation_type": "praises",
+      "label": "作者赞扬DeepSeek作风本分，不参与匿名炒作",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 10,
+    "relationship_count": 9,
+    "pruned_entities": [
+      {
+        "name": "蚂蚁集团",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

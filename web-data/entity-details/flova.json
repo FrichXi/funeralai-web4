@@ -68,7 +68,7 @@
       }
     ],
     "degree": 24,
-    "composite_weight": 0.2347
+    "composite_weight": 0.2147
   },
   "links": [
     {
@@ -631,9 +631,9 @@
     {
       "source": "flova",
       "target": "字节跳动",
-      "score": 0.9093,
+      "score": 0.9594,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 7 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 7 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "052",
         "065",
@@ -644,9 +644,21 @@
       "status": "suggested"
     },
     {
+      "source": "flova",
+      "target": "即梦",
+      "score": 0.4233,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "078",
+        "119"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "crepal",
       "target": "flova",
-      "score": 0.4144,
+      "score": 0.4143,
       "suggested_relation_type": "compares_to",
       "reason": "共享 3 个邻居",
       "evidence_article_ids": [],
@@ -655,7 +667,7 @@
     {
       "source": "flova",
       "target": "lovart",
-      "score": 0.4011,
+      "score": 0.4014,
       "suggested_relation_type": "compares_to",
       "reason": "共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [],

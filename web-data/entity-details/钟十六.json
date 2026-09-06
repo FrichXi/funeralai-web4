@@ -64,8 +64,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 4,
-    "composite_weight": 0.0637
+    "degree": 5,
+    "composite_weight": 0.0657
   },
   "links": [
     {
@@ -135,6 +135,32 @@
     },
     {
       "source": "钟十六",
+      "target": "kimi",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "钟经纬作为外援参与了K3的Bench测试",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "钟经纬作为外援参与了K3的Bench测试",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "钟十六",
       "target": "懂模帝",
       "relation_type": "works_on",
       "type": "works_on",
@@ -171,5 +197,18 @@
       ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "沐秋",
+      "target": "钟十六",
+      "score": 0.3826,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "122",
+        "131"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

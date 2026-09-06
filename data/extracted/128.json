@@ -1,0 +1,312 @@
+{
+  "article": {
+    "id": "128",
+    "title": "美团大模型跟外卖一样纯出来送",
+    "path": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
+    "date": "2026-08-04",
+    "author": "葬爱咸鱼",
+    "content_hash": "b378e06fcc53d102c4ec90fb3838603c90e08fd4ba0dbd4ef8be5a5cfacf3ef2"
+  },
+  "entities": [
+    {
+      "id": "美团",
+      "name": "美团",
+      "type": "company",
+      "description": "中国科技巨头，业务涵盖外卖、AI大模型及投资等",
+      "mention_count": 18,
+      "aliases": [
+        "Meituan",
+        "团子"
+      ],
+      "tags": [
+        "大模型",
+        "物理AI",
+        "生活方式Agent"
+      ]
+    },
+    {
+      "id": "longcat-2-0",
+      "name": "LongCat 2.0",
+      "type": "product",
+      "description": "美团发布的大模型产品",
+      "mention_count": 6,
+      "aliases": [
+        "Owl Alpha",
+        "长猫"
+      ],
+      "tags": [
+        "大模型",
+        "国产芯片"
+      ]
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "type": "product",
+      "description": "大模型API聚合平台，LongCat 2.0曾在此刷榜",
+      "mention_count": 6,
+      "aliases": [],
+      "tags": [
+        "模型平台",
+        "榜单"
+      ]
+    },
+    {
+      "id": "阿里巴巴",
+      "name": "阿里巴巴",
+      "type": "company",
+      "description": "科技巨头，文中作为大模型竞争和物理AI的对标对象",
+      "mention_count": 5,
+      "aliases": [
+        "阿里"
+      ],
+      "tags": [
+        "大模型",
+        "物理AI"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内大模型独角兽，文中与美团进行对比",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "姚顺雨",
+      "name": "姚顺雨",
+      "type": "person",
+      "description": "AI行业关键人物，文中建议美团挖角的对象",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI人才"
+      ]
+    },
+    {
+      "id": "小米",
+      "name": "小米",
+      "type": "company",
+      "description": "科技公司，文中提及具备二线模型研发能力",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "字节跳动旗下AI应用，文中作为美团小美的速度和功能对标",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI应用",
+        "Agent"
+      ]
+    },
+    {
+      "id": "catpaw",
+      "name": "CatPaw",
+      "type": "product",
+      "description": "美团推出的编程工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "编程工具",
+        "NoCode"
+      ]
+    },
+    {
+      "id": "qoder",
+      "name": "Qoder",
+      "type": "product",
+      "description": "编程工具，文中提及优于美团CatPaw",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "编程工具"
+      ]
+    },
+    {
+      "id": "workbuddy",
+      "name": "WorkBuddy",
+      "type": "product",
+      "description": "编程/办公工具，文中提及优于美团CatPaw",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "编程工具"
+      ]
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "国内头部大模型公司，美团龙珠被投企业",
+      "mention_count": 1,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "美团小美",
+      "name": "美团小美",
+      "type": "product",
+      "description": "美团推出的生活方式AI Agent应用",
+      "mention_count": 1,
+      "aliases": [
+        "小美"
+      ],
+      "tags": [
+        "Agent",
+        "生活服务"
+      ]
+    },
+    {
+      "id": "美团龙珠",
+      "name": "美团龙珠",
+      "type": "company",
+      "description": "美团旗下的产业投资机构",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "CVC",
+        "AI投资"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "LongCat 2.0",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "label": "隐含对比，文中提到二线模型（含LongCat）不如一线，且小美希望达到豆包速度",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "low"
+    },
+    {
+      "source": "MiniMax",
+      "target": "美团",
+      "relation_type": "compares_to",
+      "label": "文章将美团与MiniMax对比，认为两者'既要又要还要但都不突出'",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "美团小美",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "label": "文章将美团小美与豆包在功能和响应速度上进行对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "CatPaw",
+      "target": "Qoder",
+      "relation_type": "competes_with",
+      "label": "文章指出CatPaw在竞争中不如Qoder",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "CatPaw",
+      "target": "WorkBuddy",
+      "relation_type": "competes_with",
+      "label": "文章指出CatPaw在竞争中不如WorkBuddy",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "美团",
+      "target": "阿里巴巴",
+      "relation_type": "competes_with",
+      "label": "文章建议美团与阿里争夺'物理AI第一'",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "美团",
+      "target": "CatPaw",
+      "relation_type": "develops",
+      "label": "美团推出编程工具CatPaw",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "美团",
+      "target": "LongCat 2.0",
+      "relation_type": "develops",
+      "label": "美团开发并发布LongCat 2.0大模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "美团",
+      "target": "美团小美",
+      "relation_type": "develops",
+      "label": "美团开发生活方式Agent应用美团小美",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "LongCat 2.0",
+      "target": "OpenRouter",
+      "relation_type": "integrates_with",
+      "label": "LongCat 2.0预览版以Owl Alpha名义接入OpenRouter平台",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "美团龙珠",
+      "target": "智谱AI",
+      "relation_type": "invests_in",
+      "label": "美团龙珠投资了智谱AI",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 14,
+    "relationship_count": 11,
+    "pruned_entities": [
+      {
+        "name": "月之暗面",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "王兴",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "百度",
+        "reason": "low-signal"
+      },
+      {
+        "name": "腾讯",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "article": {
+    "id": "105",
+    "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
+    "path": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
+    "date": "2026-06-17",
+    "author": "葬爱咸鱼",
+    "content_hash": "ecd577946b21cc3dd810b6fe23b39b21fb2f18c0de8f8eaa440b1b76233fc76e"
+  },
+  "entities": [
+    {
+      "id": "glm",
+      "name": "GLM",
+      "type": "product",
+      "description": "智谱开发的大模型系列，在评测中得分第一",
+      "mention_count": 17,
+      "aliases": [
+        "GLM 5.2"
+      ],
+      "tags": [
+        "编程能力强",
+        "视觉复刻",
+        "产出稳定"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "国内知名的大模型产品，被指API调用成本极高",
+      "mention_count": 16,
+      "aliases": [
+        "K2.7-code",
+        "Kimi K2.7-code"
+      ],
+      "tags": [
+        "最会做产品",
+        "缓存命中成本高",
+        "产出不稳定"
+      ]
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "阿里开发的大模型系列，被评为全场工程能力最稳定的模型",
+      "mention_count": 16,
+      "aliases": [
+        "Qwen 3.7",
+        "Qwen 3.7 Max"
+      ],
+      "tags": [
+        "工程稳定",
+        "成本低",
+        "开源中小尺寸模型"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "作为对照组测试的境外大模型系列",
+      "mention_count": 12,
+      "aliases": [
+        "Claude Opus 4.8",
+        "Claude Sonnet 3.5",
+        "Claude Sonnet 4.0",
+        "Opus 4.6",
+        "Opus 4.8"
+      ],
+      "tags": [
+        "境外势力",
+        "人味",
+        "写作能力",
+        "A畜"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内大模型厂商之一，面临行业价格战压力",
+      "mention_count": 9,
+      "aliases": [],
+      "tags": [
+        "模型厂",
+        "斩杀线"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "以成本极低著称的大模型公司",
+      "mention_count": 7,
+      "aliases": [
+        "DS"
+      ],
+      "tags": [
+        "只收电费",
+        "降本增效"
+      ]
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "GLM大模型系列的开发公司",
+      "mention_count": 6,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "模型厂",
+        "内测接口"
+      ]
+    },
+    {
+      "id": "梁圣",
+      "name": "梁圣",
+      "type": "person",
+      "description": "DeepSeek的核心决策者（梁文锋），以控制极低研发成本著称",
+      "mention_count": 3,
+      "aliases": [
+        "梁文锋"
+      ],
+      "tags": [
+        "降本增效"
+      ]
+    },
+    {
+      "id": "葬ai基准测试",
+      "name": "葬AI基准测试",
+      "type": "product",
+      "description": "作者自研的基于完整静态网站重构的大模型能力评测基准",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "Benchmark",
+        "知识图谱",
+        "静态网站重构"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "知名AI大模型产品，被用来类比缺乏个性的对话体验",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "对话体验"
+      ]
+    },
+    {
+      "id": "opencode",
+      "name": "Opencode",
+      "type": "product",
+      "description": "用于与大模型多轮交互、执行工程任务的日常工作平台",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "独立会话",
+        "多轮交互"
+      ]
+    },
+    {
+      "id": "swe-bench",
+      "name": "SWE-bench",
+      "type": "product",
+      "description": "主流的大模型编程基准测试工具，导致了模型刷榜同质化",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "刷榜",
+        "基准测试",
+        "同质化"
+      ]
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "type": "company",
+      "description": "Claude大模型系列的开发公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "Anthropic报告",
+        "大中转站"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "被拿来作为前端复刻能力对比的编程大模型",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "代码模型"
+      ]
+    },
+    {
+      "id": "凯一",
+      "name": "凯一",
+      "type": "person",
+      "description": "作者的朋友，独立测试并对比了多个模型的代码复刻能力",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "测试者"
+      ]
+    },
+    {
+      "id": "阿里巴巴",
+      "name": "阿里巴巴",
+      "type": "company",
+      "description": "Qwen大模型系列的开发公司",
+      "mention_count": 1,
+      "aliases": [
+        "阿里"
+      ],
+      "tags": [
+        "组织战略",
+        "阿里味"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ChatGPT",
+      "target": "Claude",
+      "relation_type": "compares_to",
+      "label": "作者表示卷编程后，和Claude对话时常感觉是在用缺乏人味的ChatGPT",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "GLM",
+      "relation_type": "compares_to",
+      "label": "作者指出GLM 5.2得分第一，在表现上略微超越了Claude Opus 4.8",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Codex",
+      "target": "GLM",
+      "relation_type": "compares_to",
+      "label": "GLM在生成画布页面的能力上直接超越了没生成出来的Codex",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "GLM",
+      "target": "Qwen",
+      "relation_type": "compares_to",
+      "label": "Qwen 3.7 Max的体感与得分前两名的GLM和Claude相差不大",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi",
+      "target": "Qwen",
+      "relation_type": "compares_to",
+      "label": "Qwen的低API请求数和低成本与产生大量请求的Kimi形成鲜明对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "SWE-bench",
+      "target": "葬AI基准测试",
+      "relation_type": "compares_to",
+      "label": "作者提到葬AI基准测试给真实工程仓库的思路和SWE-bench寻找真实Issue的思路一样",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "MiniMax",
+      "relation_type": "competes_with",
+      "label": "DeepSeek拉低了行业的存活价格线，而MiniMax公司正在逼近这条斩杀线",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "智谱AI",
+      "target": "阿里巴巴",
+      "relation_type": "competes_with",
+      "label": "二者均处在高度内卷、互相刷榜竞争国产第一的大模型公司赛道中",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "凯一",
+      "target": "Codex",
+      "relation_type": "criticizes",
+      "label": "凯一认为GLM一眼超越了没能生成出画布页面的Codex",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "凯一",
+      "target": "Kimi",
+      "relation_type": "criticizes",
+      "label": "凯一因为不满意Kimi的生成表现，当即关掉了Kimi会员自动续费",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Anthropic",
+      "target": "Claude",
+      "relation_type": "develops",
+      "label": "Claude由Anthropic开发（文中提及这是荣登Anthropic报告的模型）",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "GLM",
+      "relation_type": "develops",
+      "label": "GLM系列模型由智谱公司开发（文中提及智谱家人提供的内测接口）",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "Qwen",
+      "relation_type": "develops",
+      "label": "Qwen由阿里开发（文中提到为了避免纯纯阿里味而写Qwen测试）",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    },
+    {
+      "source": "梁圣",
+      "target": "DeepSeek",
+      "relation_type": "founder_of",
+      "label": "梁圣是DeepSeek的老板/创始人（文中提及他自有办法解决剩余研发成本）",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "medium"
+    },
+    {
+      "source": "凯一",
+      "target": "GLM",
+      "relation_type": "praises",
+      "label": "凯一在复刻测试后大呼GLM无敌，赞扬其生成能力",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 16,
+    "relationship_count": 15,
+    "pruned_entities": [
+      {
+        "name": "DeepSeek大模型",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "MiniMax大模型",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

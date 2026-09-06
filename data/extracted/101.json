@@ -1,0 +1,153 @@
+{
+  "article": {
+    "id": "101",
+    "title": "AI圈神童杀死神人",
+    "path": "articles/101_2026-06-08_骡子马_AI圈神童杀死神人.md",
+    "date": "2026-06-08",
+    "author": "骡子马",
+    "content_hash": "359d16b77ca237405765efe00d7cadfea223dc9f343fcad1f74aa4adf09ea818"
+  },
+  "entities": [
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "AI编程和代码助手应用",
+      "mention_count": 3,
+      "aliases": [
+        "Claude Code"
+      ],
+      "tags": [
+        "AI编程"
+      ]
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "AI对话与生成助手",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI生成"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "type": "product",
+      "description": "AI模型与应用产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "codex",
+      "name": "codex",
+      "type": "product",
+      "description": "AI代码生成工具",
+      "mention_count": 1,
+      "aliases": [
+        "Codex"
+      ],
+      "tags": [
+        "AI编程"
+      ]
+    },
+    {
+      "id": "灵光",
+      "name": "灵光",
+      "type": "product",
+      "description": "AI产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "点点",
+      "name": "点点",
+      "type": "product",
+      "description": "AI产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "秒哒",
+      "name": "秒哒",
+      "type": "product",
+      "description": "AI产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Claude",
+      "target": "Gemini",
+      "relation_type": "compares_to",
+      "label": "文章将两者并列为“AI抓周”的比喻对象",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "label": "文章将两者并列为“AI抓周”的比喻对象，同属AI编程类生产力工具",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Gemini",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "label": "文章将两者并列为“AI抓周”的比喻对象",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "灵光",
+      "target": "点点",
+      "relation_type": "compares_to",
+      "label": "文章将两者并列，形容为大厂在黑客松上为了展示而使用的AI产品",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "灵光",
+      "target": "秒哒",
+      "relation_type": "compares_to",
+      "label": "文章将两者并列，形容为大厂在黑客松上为了展示而使用的AI产品",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "点点",
+      "target": "秒哒",
+      "relation_type": "compares_to",
+      "label": "文章将两者并列，形容为大厂在黑客松上为了展示而使用的AI产品",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 7,
+    "relationship_count": 6,
+    "pruned_entities": [
+      {
+        "name": "Suno",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

@@ -54,11 +54,6 @@ if [[ -z "$commit_message" ]]; then
   esac
 fi
 
-if [[ -z "$(git status --porcelain=v1)" ]]; then
-  echo "Working tree is clean; nothing to push."
-  exit 0
-fi
-
 python3 scripts/repo_profiles.py check-dirty --profile "$profile"
 
 trusted_automation_worktree=false
@@ -82,10 +77,11 @@ python3 scripts/check_no_secrets.py --staged
 
 if git diff --cached --quiet; then
   echo "No syncable changes staged; nothing to commit."
-  exit 0
+else
+  git commit -m "$commit_message"
 fi
 
-git commit -m "$commit_message"
+# A previous push can fail after commit; retry it even with a clean worktree.
 if [[ "$trusted_automation_worktree" == true ]]; then
   git push origin HEAD:main
 else

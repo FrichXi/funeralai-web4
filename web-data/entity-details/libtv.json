@@ -4,8 +4,8 @@
     "name": "LibTV",
     "type": "product",
     "description": "AI短剧/视频平台，是Seedance的大客户，也是MiniMax复刻的对象",
-    "mention_count": 91,
-    "article_count": 14,
+    "mention_count": 92,
+    "article_count": 15,
     "aliases": [
       "Liblib",
       "Libtv",
@@ -30,8 +30,8 @@
       "视频生成",
       "超长视频"
     ],
-    "references": 14,
-    "source_article_count": 14,
+    "references": 15,
+    "source_article_count": 15,
     "source_articles": [
       {
         "article_id": "106",
@@ -124,6 +124,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "141",
+        "title": "再爱MiniMax一次",
+        "date": "2026-09-01",
+        "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "permalink": "/articles/141",
+        "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "127",
         "title": "MiniMax用H3窃取大结果",
         "date": "2026-08-02",
@@ -161,7 +170,7 @@
       }
     ],
     "degree": 46,
-    "composite_weight": 0.5559
+    "composite_weight": 0.5159
   },
   "links": [
     {
@@ -939,32 +948,6 @@
       ]
     },
     {
-      "source": "h3",
-      "target": "libtv",
-      "relation_type": "integrates_with",
-      "type": "integrates_with",
-      "label": "文中提到H3相当于给LibTV接腿，两者结合可抗击Seedance 2.5",
-      "weight": 1,
-      "strength": 2,
-      "effective_weight": 3,
-      "article_count": 1,
-      "evidence_articles": [
-        "127"
-      ],
-      "evidences": [
-        {
-          "article_id": "127",
-          "title": "MiniMax用H3窃取大结果",
-          "permalink": "/articles/127",
-          "markdown_link": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
-          "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
-          "date": "2026-08-02",
-          "label": "文中提到H3相当于给LibTV接腿，两者结合可抗击Seedance 2.5",
-          "weight": 1
-        }
-      ]
-    },
-    {
       "source": "libtv",
       "target": "seedance",
       "relation_type": "integrates_with",
@@ -1256,28 +1239,39 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "陈冕",
+      "target": "libtv",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "文中提到“等着陈冕宣布LibTV实现模型自研”，推断陈冕负责LibTV产品研发",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中提到“等着陈冕宣布LibTV实现模型自研”，推断陈冕负责LibTV产品研发",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "libtv",
-      "target": "minimax",
-      "score": 0.6776,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 7 篇文章；共享 3 个邻居",
-      "evidence_article_ids": [
-        "099",
-        "109",
-        "116",
-        "117",
-        "119"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "libtv",
       "target": "manus",
-      "score": 0.5828,
+      "score": 0.5797,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1289,40 +1283,61 @@
     },
     {
       "source": "libtv",
-      "target": "百度",
-      "score": 0.4725,
+      "target": "minimax",
+      "score": 0.5638,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 8 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "099",
-        "125",
-        "136"
+        "109",
+        "116",
+        "117",
+        "119"
       ],
       "status": "suggested"
     },
     {
       "source": "kimi",
       "target": "libtv",
-      "score": 0.4717,
+      "score": 0.5416,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "099",
         "109",
         "116",
-        "117"
+        "117",
+        "132"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "deepseek",
+      "target": "libtv",
+      "score": 0.4983,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "099",
+        "109",
+        "117",
+        "125",
+        "136"
       ],
       "status": "suggested"
     },
     {
       "source": "libtv",
-      "target": "剪映",
-      "score": 0.4371,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "target": "智谱ai",
+      "score": 0.4945,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
-        "078",
-        "132"
+        "099",
+        "109",
+        "116",
+        "117",
+        "141"
       ],
       "status": "suggested"
     }

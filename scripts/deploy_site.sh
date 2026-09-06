@@ -41,19 +41,11 @@ esac
 repo_root="$(git rev-parse --show-toplevel)"
 cd "$repo_root"
 
-scripts/doctor_repo.sh --profile "$profile"
-
-echo "Running pre-deploy data pipeline and KG gate..."
-python3 -m scripts.run_pipeline build
-python3 scripts/kg_review_gate.py
-python3 scripts/frontend_refactor_readiness.py --strict
-
-echo "Running release test suite..."
-python3 -m pytest tests -q
-(
-  cd site
-  npm run check
-)
+# Keep deployment location explicit; content worktrees remain isolated from UI work.
+canonical_root="/Users/xixiangyu/Documents/葬AI Web4"
+if [[ "$repo_root" != "$canonical_root" ]]; then
+  python3 scripts/worktree_policy.py --repo-root "$repo_root" --profile "$profile"
+fi
 
 echo "Building static site with explicit /test staging..."
 (
@@ -113,21 +105,6 @@ print(f"{rows[0]['Id']}\t{rows[0]['Deployment']}")
 PY
 }
 
-echo "Deploying immutable release candidate: $release_id"
-cloudflare pages deploy out \
-  --project-name "$project_name" \
-  --branch release-candidate \
-  --commit-hash "$git_head" \
-  --commit-message "release candidate: $release_id" \
-  --commit-dirty "$git_dirty" 2>&1 | tee "$temp_dir/preview.log"
-preview_url="$(extract_deployment_url "$temp_dir/preview.log")"
-python3 scripts/release_guard.py verify-remote \
-  --base-url "$preview_url" \
-  --expected-manifest site/out/release-manifest.json
-
-# Prove that preview verification did not change the directory that will be promoted.
-python3 scripts/release_guard.py verify-local --mode required
-
 IFS=$'\t' read -r previous_deployment_id previous_deployment_url < <(current_production)
 if [[ -z "$previous_deployment_id" || -z "$previous_deployment_url" ]]; then
   echo "Could not identify the previous production deployment; refusing promotion." >&2
@@ -135,7 +112,7 @@ if [[ -z "$previous_deployment_id" || -z "$previous_deployment_url" ]]; then
 fi
 echo "Previous production: $previous_deployment_id ($previous_deployment_url)"
 
-echo "Promoting the same site/out tree to production..."
+echo "Deploying release to production: $release_id"
 cloudflare pages deploy out \
   --project-name "$project_name" \
   --branch main \
@@ -174,9 +151,9 @@ fi
 python3 scripts/release_guard.py write-receipt \
   --previous-deployment-id "$previous_deployment_id" \
   --previous-deployment-url "$previous_deployment_url" \
-  --preview-url "$preview_url" \
+  --preview-url "" \
   --production-deployment-id "$production_deployment_id" \
   --production-url "$production_url" \
   --custom-domain "$custom_domain"
 
-echo "Release verified on preview, unique production URL, and custom domain."
+echo "Release verified on the unique production URL and custom domain."

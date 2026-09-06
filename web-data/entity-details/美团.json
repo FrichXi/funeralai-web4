@@ -3,16 +3,18 @@
     "id": "美团",
     "name": "美团",
     "type": "company",
-    "description": "LongCat模型开发公司，首个在国产芯片完成训推全流程",
-    "mention_count": 30,
-    "article_count": 6,
+    "description": "互联网平台公司，旗下龙猫团队参与评测，且被用作外卖比价场景",
+    "mention_count": 33,
+    "article_count": 7,
     "aliases": [
       "Meituan",
       "团子"
     ],
     "tags": [
+      "AI评测",
       "互联网公司",
       "互联网大厂",
+      "互联网平台",
       "匿名打榜",
       "团购",
       "国产大模型",
@@ -21,8 +23,8 @@
       "生活方式Agent",
       "算力国产化"
     ],
-    "references": 6,
-    "source_article_count": 6,
+    "references": 7,
+    "source_article_count": 7,
     "source_articles": [
       {
         "article_id": "128",
@@ -32,6 +34,15 @@
         "permalink": "/articles/128",
         "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
         "mention_count": 23
+      },
+      {
+        "article_id": "140",
+        "title": "一场黑客松斩杀了整个网吧",
+        "date": "2026-08-27",
+        "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+        "permalink": "/articles/140",
+        "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+        "mention_count": 3
       },
       {
         "article_id": "138",
@@ -79,8 +90,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 13,
-    "composite_weight": 0.1805
+    "degree": 14,
+    "composite_weight": 0.1837
   },
   "links": [
     {
@@ -381,31 +392,70 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "vivian",
+      "target": "美团",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "Vivian是美团龙猫团队的成员，日常工作为模型评测",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "140"
+      ],
+      "evidences": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "Vivian是美团龙猫团队的成员，日常工作为模型评测",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
+      "source": "kimi",
+      "target": "美团",
+      "score": 0.602,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "040",
+        "116",
+        "138",
+        "140"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "deepseek",
+      "target": "美团",
+      "score": 0.4805,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "137",
+        "140"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "美团",
       "target": "豆包",
-      "score": 0.4607,
+      "score": 0.4606,
       "suggested_relation_type": "related",
       "reason": "共同出现于 2 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "040",
         "128"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "kimi",
-      "target": "美团",
-      "score": 0.4475,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "040",
-        "116",
-        "138"
       ],
       "status": "suggested"
     }

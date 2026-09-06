@@ -1,0 +1,513 @@
+{
+  "article": {
+    "id": "099",
+    "title": "马卡龙开创AI短剧Neo Lab",
+    "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
+    "date": "2026-06-04",
+    "author": "葬爱咸鱼",
+    "content_hash": "09e766b15329fefc26165d964499bb79c17a354bd8b4c784ef307aed5f4cff2c"
+  },
+  "entities": [
+    {
+      "id": "马卡龙",
+      "name": "马卡龙",
+      "type": "product",
+      "description": "Mindverse的起家产品，曾定位为Personal agent，现转型为收集数据的Agent harness",
+      "mention_count": 37,
+      "aliases": [
+        "Macaron",
+        "马卡龙APP"
+      ],
+      "tags": [
+        "AI短剧",
+        "网络小说",
+        "Personal agent"
+      ]
+    },
+    {
+      "id": "mindverse",
+      "name": "Mindverse",
+      "type": "company",
+      "description": "原马卡龙团队转型后的公司，自称为Agent模型实验室",
+      "mention_count": 5,
+      "aliases": [
+        "Agent模型实验室",
+        "Neo Lab"
+      ],
+      "tags": [
+        "Agent",
+        "LoRA持续学习",
+        "Frontier lab"
+      ]
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "开源大模型，被作者用于生成图片和日常任务",
+      "mention_count": 4,
+      "aliases": [
+        "Qwen 3.7 plus",
+        "Qwen image"
+      ],
+      "tags": [
+        "开源模型",
+        "图像模型"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "Claude相关的产品生态套件，被类比为Agent harness",
+      "mention_count": 3,
+      "aliases": [
+        "Claude code"
+      ],
+      "tags": [
+        "闭源模型",
+        "Agent harness"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "大模型产品，近期估值大涨",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "开源/闭源模型"
+      ]
+    },
+    {
+      "id": "evomap",
+      "name": "EvoMap",
+      "type": "product",
+      "description": "号称全球首个AI Agent自我进化与协作基础设施的项目",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "自我进化",
+        "Skill",
+        "Agent"
+      ]
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "type": "company",
+      "description": "知名大模型公司",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "模型公司"
+      ]
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "type": "company",
+      "description": "知名大模型公司，近期估值表现优异",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "模型公司"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "开源大模型，被作者用于日常任务",
+      "mention_count": 1,
+      "aliases": [
+        "DS",
+        "DS V4 pro",
+        "Deepseek"
+      ],
+      "tags": [
+        "开源模型"
+      ]
+    },
+    {
+      "id": "libtv",
+      "name": "LibTV",
+      "type": "product",
+      "description": "AI短剧产品，作者建议马卡龙与其合作",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI短剧"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内大模型公司，近期在股市表现强劲",
+      "mention_count": 1,
+      "aliases": [
+        "Minimax"
+      ],
+      "tags": [
+        "模型层"
+      ]
+    },
+    {
+      "id": "openai-cto",
+      "name": "OpenAI CTO",
+      "type": "person",
+      "description": "OpenAI前高管，离职后创办了Thinking Machines",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "内斗失败",
+        "老科学家"
+      ]
+    },
+    {
+      "id": "opencode",
+      "name": "Opencode",
+      "type": "product",
+      "description": "被作者用来接入Deepseek和Qwen执行日常任务的工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI编程",
+        "自动化"
+      ]
+    },
+    {
+      "id": "seedance",
+      "name": "Seedance",
+      "type": "product",
+      "description": "提供一键生成AI短剧API的产品",
+      "mention_count": 1,
+      "aliases": [
+        "Seedance API"
+      ],
+      "tags": [
+        "API",
+        "AI短剧"
+      ]
+    },
+    {
+      "id": "thinking-machines",
+      "name": "Thinking Machines",
+      "type": "company",
+      "description": "由前OpenAI CTO创办的Neo lab，估值极高",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "Neo lab",
+        "算法实验室"
+      ]
+    },
+    {
+      "id": "vivix",
+      "name": "Vivix",
+      "type": "company",
+      "description": "刘宇和张月光所在的AI公司，文章假设其如果转做算法实验室的处境",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI公司",
+        "算法实验室"
+      ]
+    },
+    {
+      "id": "刘宇",
+      "name": "刘宇",
+      "type": "person",
+      "description": "Vivix的核心人物/创始人",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "张月光",
+      "name": "张月光",
+      "type": "person",
+      "description": "Vivix的核心人物/创始人",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "国内大模型公司，近期在股市表现强劲",
+      "mention_count": 1,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "模型层"
+      ]
+    },
+    {
+      "id": "百度",
+      "name": "百度",
+      "type": "company",
+      "description": "推出秒哒产品的大厂",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大厂"
+      ]
+    },
+    {
+      "id": "秒哒",
+      "name": "秒哒",
+      "type": "product",
+      "description": "百度推出的产品，主打一句话生成小程序",
+      "mention_count": 1,
+      "aliases": [
+        "百度秒哒"
+      ],
+      "tags": [
+        "一句话生成小程序"
+      ]
+    },
+    {
+      "id": "美团龙珠",
+      "name": "美团龙珠",
+      "type": "company",
+      "description": "美团的财务投资机构，高位投资了Kimi",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "财务投资"
+      ]
+    },
+    {
+      "id": "蚂蚁灵光",
+      "name": "蚂蚁灵光",
+      "type": "product",
+      "description": "蚂蚁集团推出的产品，与马卡龙思路一致",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "模仿产品"
+      ]
+    },
+    {
+      "id": "蚂蚁集团",
+      "name": "蚂蚁集团",
+      "type": "company",
+      "description": "参与了马卡龙上一轮融资的大厂",
+      "mention_count": 1,
+      "aliases": [
+        "蚂蚁"
+      ],
+      "tags": [
+        "大厂",
+        "资方"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "刘宇",
+      "target": "张月光",
+      "relation_type": "co_founded",
+      "label": "刘宇和张月光作为核心组合共同负责Vivix项目",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "Anthropic",
+      "target": "OpenAI",
+      "relation_type": "compares_to",
+      "label": "Anthropic和OpenAI作为海外模型大厂，被并列讨论其高估值对行业风口的影响",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "EvoMap",
+      "target": "Mindverse",
+      "relation_type": "compares_to",
+      "label": "马卡龙（Mindverse）讲的Agent进化故事被指与EvoMap的故事雷同",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Mindverse",
+      "target": "Thinking Machines",
+      "relation_type": "compares_to",
+      "label": "作者将Thinking Machines 500亿美元的估值与Mindverse 2亿美元的估值进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "智谱AI",
+      "relation_type": "compares_to",
+      "label": "智谱与MiniMax作为国内模型层代表，被放在一起论述其在股市的狂飙表现",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "秒哒",
+      "target": "马卡龙",
+      "relation_type": "compares_to",
+      "label": "百度秒哒被指仍在唠一句话生成小程序这套类似马卡龙的嗑",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "蚂蚁灵光",
+      "target": "马卡龙",
+      "relation_type": "compares_to",
+      "label": "蚂蚁灵光与马卡龙被指思路完全一样，属于模仿产品",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Mindverse",
+      "target": "马卡龙",
+      "relation_type": "develops",
+      "label": "马卡龙是Mindverse（原马卡龙团队）开发的起家产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "百度",
+      "target": "秒哒",
+      "relation_type": "develops",
+      "label": "百度开发了秒哒产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "蚂蚁灵光",
+      "relation_type": "develops",
+      "label": "蚂蚁集团开发了蚂蚁灵光产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    },
+    {
+      "source": "OpenAI CTO",
+      "target": "Thinking Machines",
+      "relation_type": "founder_of",
+      "label": "内斗失败的OpenAI CTO创办了Thinking Machines",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "刘宇",
+      "target": "Vivix",
+      "relation_type": "founder_of",
+      "label": "刘宇是Vivix的核心人物及创办者",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "张月光",
+      "target": "Vivix",
+      "relation_type": "founder_of",
+      "label": "张月光是Vivix的核心人物及创办者",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "Opencode",
+      "relation_type": "integrates_with",
+      "label": "作者使用Opencode接入了Deepseek模型来完成日常任务",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "LibTV",
+      "target": "Seedance",
+      "relation_type": "integrates_with",
+      "label": "文中建议LibTV通过接入Seedance API来实现一键生成AI短剧",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Opencode",
+      "target": "Qwen",
+      "relation_type": "integrates_with",
+      "label": "作者使用Opencode接入了Qwen模型来完成日常任务",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "美团龙珠",
+      "target": "Kimi",
+      "relation_type": "invests_in",
+      "label": "美团龙珠高位接盘投资了Kimi",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "Mindverse",
+      "relation_type": "invests_in",
+      "label": "蚂蚁集团在上一轮融资中投资了马卡龙（Mindverse）",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "OpenAI CTO",
+      "target": "OpenAI",
+      "relation_type": "works_at",
+      "label": "OpenAI CTO曾任职于OpenAI",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 24,
+    "relationship_count": 19,
+    "pruned_entities": [
+      {
+        "name": "GPT",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Manus",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Mindverse (陶芳波创立)",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "郭列",
+        "reason": "low-signal"
+      },
+      {
+        "name": "陶芳波",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

@@ -3,12 +3,13 @@
     "id": "deepseek",
     "name": "DeepSeek",
     "type": "company",
-    "description": "AI大模型公司，其爆火为Cherry Studio带来大量流量",
-    "mention_count": 92,
-    "article_count": 24,
+    "description": "深度求索大模型，在简单任务表现良好但在复杂状态机闭环及德州扑克策略上存在短板",
+    "mention_count": 100,
+    "article_count": 27,
     "aliases": [
       "DS",
       "DS V4 pro",
+      "DeepSeek V4 Pro",
       "DeepSeek-V4",
       "Deepseek",
       "Deepseek V4",
@@ -26,15 +27,18 @@
       "开源",
       "开源模型",
       "推理模型",
+      "插件兼容",
       "本分",
       "本地化部署",
       "行业标杆",
       "被蹭热度",
+      "量化",
+      "量化模型",
       "降本增效",
       "高性价比"
     ],
-    "references": 24,
-    "source_article_count": 24,
+    "references": 27,
+    "source_article_count": 27,
     "source_articles": [
       {
         "article_id": "134",
@@ -89,6 +93,15 @@
         "permalink": "/articles/006",
         "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
         "mention_count": 7
+      },
+      {
+        "article_id": "142",
+        "title": "大模型拿大结果指南",
+        "date": "2026-09-01",
+        "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+        "permalink": "/articles/142",
+        "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+        "mention_count": 5
       },
       {
         "article_id": "137",
@@ -154,6 +167,15 @@
         "mention_count": 3
       },
       {
+        "article_id": "140",
+        "title": "一场黑客松斩杀了整个网吧",
+        "date": "2026-08-27",
+        "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+        "permalink": "/articles/140",
+        "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+        "mention_count": 2
+      },
+      {
         "article_id": "136",
         "title": "AI应用骗钱，哦不融资指南",
         "date": "2026-08-23",
@@ -217,6 +239,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "141",
+        "title": "再爱MiniMax一次",
+        "date": "2026-09-01",
+        "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "permalink": "/articles/141",
+        "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "099",
         "title": "马卡龙开创AI短剧Neo Lab",
         "date": "2026-06-04",
@@ -253,8 +284,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 42,
-    "composite_weight": 0.5422
+    "degree": 51,
+    "composite_weight": 0.5902
   },
   "links": [
     {
@@ -295,6 +326,45 @@
       ]
     },
     {
+      "source": "chatgpt",
+      "target": "deepseek",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在吸盘搬运误差恢复及切割稳定性方面进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "claude",
+      "target": "deepseek",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在复杂DMA场景及物理流体能力等方面进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "142"
+      ],
+      "evidences": [
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在复杂DMA场景及物理流体能力等方面进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "deepseek",
       "target": "agnes",
       "relation_type": "compares_to",
@@ -306,6 +376,71 @@
       "article_count": 0,
       "evidence_articles": [],
       "evidences": []
+    },
+    {
+      "source": "deepseek",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在吸盘搬运误差恢复及切割稳定性方面进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "142"
+      ],
+      "evidences": [
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在吸盘搬运误差恢复及切割稳定性方面进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在复杂DMA场景及物理流体能力等方面进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "deepseek",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属国内大模型竞赛阵营，在Flash模型和小参数模型赛道存在竞争关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "同属国内大模型竞赛阵营，在Flash模型和小参数模型赛道存在竞争关系",
+          "weight": 1
+        }
+      ]
     },
     {
       "source": "deepseek",
@@ -329,6 +464,43 @@
           "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
           "date": "2025-06-27",
           "label": "文中将一流造福全民的DeepSeek与开创潮流的伟大企业OpenAI并列对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者均为本次黑客松选定的五大顶尖评测模型之一",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "140",
+        "142"
+      ],
+      "evidences": [
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在嵌入式驱动、物理理解及德州扑克等多个Bench中被直接对比性能差异",
+          "weight": 1
+        },
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "两者均为本次黑客松选定的五大顶尖评测模型之一",
           "weight": 1
         }
       ]
@@ -360,11 +532,37 @@
       ]
     },
     {
+      "source": "minimax",
+      "target": "deepseek",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属国内大模型竞赛阵营，在Flash模型和小参数模型赛道存在竞争关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "openai",
       "target": "deepseek",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文中将一流造福全民的DeepSeek与开创潮流的伟大企业OpenAI并列对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qwen",
+      "target": "deepseek",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者均为本次黑客松选定的五大顶尖评测模型之一",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -1167,13 +1365,39 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "vivian",
+      "target": "deepseek",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Vivian的评测集包含了DeepSeek harness多个插件兼容性的测试题目",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "140"
+      ],
+      "evidences": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "Vivian的评测集包含了DeepSeek harness多个插件兼容性的测试题目",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "deepseek",
       "target": "阿里巴巴",
-      "score": 0.7051,
+      "score": 0.7014,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 6 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1186,26 +1410,11 @@
       "status": "suggested"
     },
     {
-      "source": "chatgpt",
-      "target": "deepseek",
-      "score": 0.6126,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "008",
-        "070",
-        "088",
-        "105",
-        "136"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "codex",
       "target": "deepseek",
-      "score": 0.5497,
+      "score": 0.6647,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "088",
         "103",
@@ -1217,29 +1426,37 @@
     },
     {
       "source": "deepseek",
-      "target": "杨植麟",
-      "score": 0.5316,
+      "target": "gemini",
+      "score": 0.5782,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 2 篇文章；共享 6 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "004",
-        "049",
-        "103",
-        "109",
-        "122"
+        "110"
       ],
       "status": "suggested"
     },
     {
       "source": "deepseek",
       "target": "glm",
-      "score": 0.5311,
+      "score": 0.5772,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "049",
         "105",
         "109",
+        "110"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "deepseek",
+      "target": "seed",
+      "score": 0.5217,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 6 个邻居",
+      "evidence_article_ids": [
         "110"
       ],
       "status": "suggested"

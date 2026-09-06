@@ -1,0 +1,339 @@
+{
+  "article": {
+    "id": "134",
+    "title": "Kimi熹妃回宫",
+    "path": "articles/134_2026-08-17_葬爱咸鱼_Kimi熹妃回宫.md",
+    "date": "2026-08-17",
+    "author": "葬爱咸鱼",
+    "content_hash": "85bdff4331581bef05decf2e391c04a9b3bdcbb711b47c92a7e389bd2123cc41"
+  },
+  "entities": [
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "国内大模型公司，被文中称为版本之子，推出了K3模型",
+      "mention_count": 19,
+      "aliases": [
+        "月之暗面"
+      ],
+      "tags": [
+        "大模型",
+        "新赛季开创者"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "国内大模型公司，正在训练几T参数模型，V4 Pro表现神鬼莫测",
+      "mention_count": 11,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "高性价比"
+      ]
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "company",
+      "description": "阿里旗下大模型团队，发布了Qwen 3.8 Max，多模态能力较弱",
+      "mention_count": 9,
+      "aliases": [
+        "通义千问"
+      ],
+      "tags": [
+        "大模型",
+        "开源"
+      ]
+    },
+    {
+      "id": "glm-5-3",
+      "name": "GLM 5.3",
+      "type": "product",
+      "description": "智谱发布的模型版本，延续良好势头但缺乏开创性，API较贵且慢",
+      "mention_count": 7,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "后训练"
+      ]
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "type": "product",
+      "description": "DeepSeek发布的1.6T参数模型，实际表现与官方bench偏差较大",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "fable",
+      "name": "Fable",
+      "type": "company",
+      "description": "大模型厂商，其Fable 5和5.6 Sol目前占据排行榜榜首",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "榜单第一"
+      ]
+    },
+    {
+      "id": "grok-4-6",
+      "name": "Grok 4.6",
+      "type": "product",
+      "description": "xAI发布的2T参数模型，性价比高，速度快得分高",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "fable-5",
+      "name": "Fable 5",
+      "type": "product",
+      "description": "Fable公司的模型，目前排行榜榜首，传闻近10T参数",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "SOTA"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内大模型公司，三小龙之一，正在加紧训练几T参数模型",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "国内大模型公司，旧赛季版本之王，依靠GLM系列模型续命",
+      "mention_count": 3,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "大模型",
+        "后训练"
+      ]
+    },
+    {
+      "id": "阶跃星辰",
+      "name": "阶跃星辰",
+      "type": "company",
+      "description": "国内大模型公司，三小龙之一，Logo设计被指学习Claude",
+      "mention_count": 2,
+      "aliases": [
+        "阶跃"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "马斯克",
+      "name": "马斯克",
+      "type": "person",
+      "description": "xAI负责人，文中被称为“马圣”，被批评微操管理但赞扬了Grok的性价比",
+      "mention_count": 2,
+      "aliases": [
+        "Elon Musk",
+        "马圣"
+      ],
+      "tags": [
+        "CEO",
+        "制造业思维"
+      ]
+    },
+    {
+      "id": "kimi-k3",
+      "name": "Kimi K3",
+      "type": "product",
+      "description": "Kimi推出的新一代模型，前端生成能力强，开启国产模型新赛季",
+      "mention_count": 1,
+      "aliases": [
+        "K3"
+      ],
+      "tags": [
+        "大模型",
+        "前端生成"
+      ]
+    },
+    {
+      "id": "杨植麟",
+      "name": "杨植麟",
+      "type": "person",
+      "description": "Kimi创始人，文中被称为“杨圣”",
+      "mention_count": 1,
+      "aliases": [
+        "杨圣"
+      ],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "DeepSeek V4 Pro",
+      "target": "GLM 5.3",
+      "relation_type": "compares_to",
+      "label": "文中对比了任务执行耗时，DeepSeek V4 Pro比GLM 5.3快",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Fable 5",
+      "target": "Kimi K3",
+      "relation_type": "compares_to",
+      "label": "文中提到K3在跑分上逼近Fable 5，将国产模型切换到挑战第一叙事",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "GLM 5.3",
+      "target": "Grok 4.6",
+      "relation_type": "compares_to",
+      "label": "文中对比了两者API价格和任务耗时，Grok 4.6更具性价比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Grok 4.6",
+      "target": "Kimi K3",
+      "relation_type": "compares_to",
+      "label": "文中提到Grok bot神似Kimi，且作者认为Kimi就是理想中的Grok",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "智谱AI",
+      "relation_type": "compares_to",
+      "label": "文中将智谱、MiniMax、阶跃并列为需要憋大招证明自己的“三小龙”",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "Kimi",
+      "relation_type": "competes_with",
+      "label": "文中指出DeepSeek是Kimi在国内的最强竞争对手之一",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Grok 4.6",
+      "target": "Kimi K3",
+      "relation_type": "competes_with",
+      "label": "文中指出Grok 4.6和K3处于同一水平，且即将发布的4.7将与K3进入同一赛季竞争",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "DeepSeek V4 Pro",
+      "relation_type": "develops",
+      "label": "DeepSeek开发了V4 Pro正式版模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Fable",
+      "target": "Fable 5",
+      "relation_type": "develops",
+      "label": "Fable公司开发了Fable 5模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi",
+      "target": "Kimi K3",
+      "relation_type": "develops",
+      "label": "Kimi开发了K3模型并借此开启新赛季",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "GLM 5.3",
+      "relation_type": "develops",
+      "label": "智谱开发并更新了GLM 5.3模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "杨植麟",
+      "target": "Kimi",
+      "relation_type": "founder_of",
+      "label": "文中称Kimi为杨圣的公司，且提到“Kimi这家神奇的公司”时隐含创始关系",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "马斯克",
+      "target": "Kimi",
+      "relation_type": "praises",
+      "label": "文中引用马斯克观点或行为暗示对Kimi的喜爱（Grok bot神似Kimi），作者也建议马圣买Kimi",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 14,
+    "relationship_count": 13,
+    "pruned_entities": [
+      {
+        "name": "Anthropic",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "Cursor",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Meta",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "OpenAI",
+        "reason": "low-signal"
+      },
+      {
+        "name": "xAI",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "扎克伯格",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

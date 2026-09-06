@@ -1,0 +1,245 @@
+{
+  "article": {
+    "id": "126",
+    "title": "冕神语录",
+    "path": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
+    "date": "2026-07-29",
+    "author": "葬爱咸鱼",
+    "content_hash": "53e732a422f055c9c7c4110b688ee71bc170f6b8a591a7769ddc2f9dd749b8f7"
+  },
+  "entities": [
+    {
+      "id": "manus",
+      "name": "Manus",
+      "type": "product",
+      "description": "AI Agent产品，主张less structure more intelligence，对Lovart有启发作用",
+      "mention_count": 13,
+      "aliases": [],
+      "tags": [
+        "AI Agent",
+        "竞品/对标"
+      ]
+    },
+    {
+      "id": "libtv",
+      "name": "LibTV",
+      "type": "company",
+      "description": "陈冕创立的公司，旗下拥有Lovart等产品，被比作下一个字节跳动",
+      "mention_count": 8,
+      "aliases": [
+        "Liblib"
+      ],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "id": "lovart",
+      "name": "Lovart",
+      "type": "product",
+      "description": "LibTV旗下的AI产品，节点式交互，受Manus启发并快速迭代",
+      "mention_count": 6,
+      "aliases": [],
+      "tags": [
+        "AI Agent",
+        "AIGC工具"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "互联网巨头，文中作为LibTV的对标公司",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "互联网大厂",
+        "对标对象"
+      ]
+    },
+    {
+      "id": "明超平",
+      "name": "明超平",
+      "type": "person",
+      "description": "Youware创始人，曾公开称赞LibTV投流水平高",
+      "mention_count": 2,
+      "aliases": [
+        "小明"
+      ],
+      "tags": []
+    },
+    {
+      "id": "陈冕",
+      "name": "陈冕",
+      "type": "person",
+      "description": "LibTV/Lovart创始人，被称为“冕神”，双子座，主张激进执行与长期主义",
+      "mention_count": 2,
+      "aliases": [
+        "Amian",
+        "冕神"
+      ],
+      "tags": [
+        "CEO",
+        "AI应用"
+      ]
+    },
+    {
+      "id": "tapnow",
+      "name": "TapNow",
+      "type": "company",
+      "description": "LibTV曾尝试交流或投资但未获回应的同行公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "id": "youware",
+      "name": "YouWare",
+      "type": "product",
+      "description": "明超平创立的公司",
+      "mention_count": 1,
+      "aliases": [
+        "Youware"
+      ],
+      "tags": [
+        "AI公司"
+      ]
+    },
+    {
+      "id": "张一鸣",
+      "name": "张一鸣",
+      "type": "person",
+      "description": "字节跳动创始人，文中作为陈冕的对标人物",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "企业家",
+        "对标对象"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "LibTV",
+      "target": "字节跳动",
+      "relation_type": "compares_to",
+      "label": "文章作者将LibTV比作下一个字节跳动",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Lovart",
+      "target": "Manus",
+      "relation_type": "compares_to",
+      "label": "Lovart的replay功能受Manus启发，且上线节奏受Manus爆火影响",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "张一鸣",
+      "target": "陈冕",
+      "relation_type": "compares_to",
+      "label": "文章作者将陈冕比作下一个张一鸣",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "LibTV",
+      "target": "Lovart",
+      "relation_type": "develops",
+      "label": "LibTV开发了AI产品Lovart",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "明超平",
+      "target": "YouWare",
+      "relation_type": "founder_of",
+      "label": "明超平是Youware的创始人",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "陈冕",
+      "target": "LibTV",
+      "relation_type": "founder_of",
+      "label": "陈冕是LibTV的创始人兼CEO",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "LibTV",
+      "target": "TapNow",
+      "relation_type": "invests_in",
+      "label": "陈冕表示想投一点TapNow以鼓励创新，但对方未理会",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    },
+    {
+      "source": "明超平",
+      "target": "LibTV",
+      "relation_type": "praises",
+      "label": "明超平发视频号夸赞LibTV投流水平高",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "陈冕",
+      "target": "Manus",
+      "relation_type": "praises",
+      "label": "陈冕表达对Manus的敬意，认同其less structure more intelligence理念",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "明超平",
+      "target": "陈冕",
+      "relation_type": "related",
+      "label": "陈冕感谢明超平的支持但澄清并未大量投流",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "high"
+    },
+    {
+      "source": "陈冕",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "label": "陈冕语录中提到“回字节打工吧”，暗示其可能有字节跳动工作背景或将其作为退路调侃",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "low"
+    },
+    {
+      "source": "陈冕",
+      "target": "Lovart",
+      "relation_type": "works_on",
+      "label": "陈冕深度参与Lovart的产品决策与开发节奏把控",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 9,
+    "relationship_count": 12,
+    "pruned_entities": [
+      {
+        "name": "DeepSeek",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

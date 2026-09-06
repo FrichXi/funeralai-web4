@@ -1,0 +1,290 @@
+{
+  "article": {
+    "id": "124",
+    "title": "TapNow想把你困在系统里",
+    "path": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
+    "date": "2026-07-26",
+    "author": "骡子马",
+    "content_hash": "8dbc3a6d5fe6e165b7cd692631dbaf2893338b64b89680d1f3ef7408888d3def"
+  },
+  "entities": [
+    {
+      "id": "creative-os",
+      "name": "Creative OS",
+      "type": "product",
+      "description": "TapNow推出的AI视频创作系统版本，集成了剧本生成、分镜制作及Skill Creator等功能",
+      "mention_count": 16,
+      "aliases": [],
+      "tags": [
+        "AI视频工具",
+        "工作流",
+        "画布"
+      ]
+    },
+    {
+      "id": "tapnow",
+      "name": "TapNow",
+      "type": "company",
+      "description": "AI视频创作平台，推出了Creative OS系统，致力于构建AI视频创作生态",
+      "mention_count": 12,
+      "aliases": [],
+      "tags": [
+        "AI视频",
+        "创作系统",
+        "Agent"
+      ]
+    },
+    {
+      "id": "飞书",
+      "name": "飞书",
+      "type": "product",
+      "description": "办公协作平台，支持通过插件将文档和会议内容导入Creative OS",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "办公软件",
+        "数据源"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "被TapNow作为对标对象的创作版产品，文中提及已消失",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "对标产品",
+        "AI创作"
+      ]
+    },
+    {
+      "id": "seulgi",
+      "name": "Seulgi",
+      "type": "person",
+      "description": "电影学研究生、AI工作室导演，恐怖片黑客松个人赛第一名获得者",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "创作者",
+        "导演"
+      ]
+    },
+    {
+      "id": "二金",
+      "name": "二金",
+      "type": "person",
+      "description": "AI艺术创作者，恐怖片黑客松参赛者，作品《山野之家》作者",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "创作者",
+        "黑客松选手"
+      ]
+    },
+    {
+      "id": "葬爱咸鱼",
+      "name": "葬爱咸鱼",
+      "type": "person",
+      "description": "文章作者的合作伙伴，参与恐怖短片制作与审片",
+      "mention_count": 3,
+      "aliases": [
+        "咸鱼"
+      ],
+      "tags": [
+        "创作者",
+        "协作者"
+      ]
+    },
+    {
+      "id": "frame-io",
+      "name": "Frame.io",
+      "type": "product",
+      "description": "团队视频审片工具，可通过插件与Creative OS集成",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "协作工具",
+        "审片"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "OpenAI推出的AI对话模型，创作者用于剧本创作的常用工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大语言模型",
+        "竞品"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "type": "product",
+      "description": "Google推出的AI对话模型，创作者用于剧本创作的常用工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大语言模型",
+        "竞品"
+      ]
+    },
+    {
+      "id": "沐秋",
+      "name": "沐秋",
+      "type": "person",
+      "description": "参与恐怖短片素材审片的协作者",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "协作者"
+      ]
+    },
+    {
+      "id": "骡子马",
+      "name": "骡子马",
+      "type": "person",
+      "description": "文章作者，葬AI主理人，TapNow恐怖片黑客松联合举办者",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "KOL",
+        "活动组织者"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "沐秋",
+      "target": "葬爱咸鱼",
+      "relation_type": "collaborates_with",
+      "label": "沐秋与咸鱼共同在Frame.io上审片",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "骡子马",
+      "relation_type": "collaborates_with",
+      "label": "咸鱼与骡子马共同讨论剧情结构并合作制作视频",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Codex",
+      "target": "Creative OS",
+      "relation_type": "compares_to",
+      "label": "TapNow声称Creative OS是创作版的Codex",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "ChatGPT",
+      "target": "Creative OS",
+      "relation_type": "competes_with",
+      "label": "创作者习惯使用ChatGPT进行剧本创作，而非Creative OS",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Creative OS",
+      "target": "Gemini",
+      "relation_type": "competes_with",
+      "label": "创作者习惯使用Gemini进行剧本创作，而非Creative OS",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "骡子马",
+      "target": "Creative OS",
+      "relation_type": "criticizes",
+      "label": "骡子马批评Creative OS的上下文压缩机制及插件功能设计",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "TapNow",
+      "target": "Creative OS",
+      "relation_type": "develops",
+      "label": "TapNow开发并推出了Creative OS创作系统",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Creative OS",
+      "target": "Frame.io",
+      "relation_type": "integrates_with",
+      "label": "Creative OS通过插件拓展功能连接Frame.io进行审片",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Creative OS",
+      "target": "飞书",
+      "relation_type": "integrates_with",
+      "label": "Creative OS通过插件直接连接飞书分析文档和会议内容",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "TapNow",
+      "target": "骡子马",
+      "relation_type": "partners_with",
+      "label": "骡子马（葬AI）与TapNow联合举办了恐怖片黑客松",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "骡子马",
+      "target": "Creative OS",
+      "relation_type": "praises",
+      "label": "骡子马认可Creative OS的Skill Creator功能及系统化工作流思路",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Seulgi",
+      "target": "Creative OS",
+      "relation_type": "works_on",
+      "label": "Seulgi使用Creative OS完成了获奖作品《轮回》的创作",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "二金",
+      "target": "Creative OS",
+      "relation_type": "works_on",
+      "label": "二金使用Creative OS完成了作品《山野之家》的创作",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 12,
+    "relationship_count": 13,
+    "pruned_entities": [
+      {
+        "name": "Seedance",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

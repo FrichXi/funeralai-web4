@@ -1,0 +1,227 @@
+{
+  "article": {
+    "id": "097",
+    "title": "光帆耳机拒绝长发男",
+    "path": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
+    "date": "2026-05-28",
+    "author": "沐秋",
+    "content_hash": "d93cd8a0334db535241f2a1415acc105fcc32e504e313a42b1907dc9ca87ca98"
+  },
+  "entities": [
+    {
+      "id": "光帆耳机",
+      "name": "光帆耳机",
+      "type": "product",
+      "description": "首款带摄像头、由原生AI OS驱动的耳机",
+      "mention_count": 14,
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "AI耳机"
+      ]
+    },
+    {
+      "id": "airpods",
+      "name": "AirPods",
+      "type": "product",
+      "description": "苹果公司推出的无线耳机，光帆耳机的直接竞争产品",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "无线耳机"
+      ]
+    },
+    {
+      "id": "looki",
+      "name": "Looki",
+      "type": "product",
+      "description": "开创了AI胸载摄像头品类的AI硬件",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "胸载摄像头"
+      ]
+    },
+    {
+      "id": "微信",
+      "name": "微信",
+      "type": "product",
+      "description": "通讯软件，光帆耳机支持接收其消息",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "通讯软件"
+      ]
+    },
+    {
+      "id": "苹果",
+      "name": "苹果",
+      "type": "company",
+      "description": "知名科技公司，被光帆耳机宣发作为对标对象",
+      "mention_count": 3,
+      "aliases": [
+        "Apple"
+      ],
+      "tags": [
+        "科技公司"
+      ]
+    },
+    {
+      "id": "飞书",
+      "name": "飞书",
+      "type": "product",
+      "description": "办公软件，光帆耳机支持接收并回复其消息",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "办公软件"
+      ]
+    },
+    {
+      "id": "小爱同学",
+      "name": "小爱同学",
+      "type": "product",
+      "description": "小米推出的智能语音助手",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "语音助手"
+      ]
+    },
+    {
+      "id": "小米",
+      "name": "小米",
+      "type": "company",
+      "description": "小爱同学的开发公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "科技公司"
+      ]
+    },
+    {
+      "id": "滴滴打车",
+      "name": "滴滴打车",
+      "type": "product",
+      "description": "出行服务平台，光帆耳机集成了其打车功能",
+      "mention_count": 1,
+      "aliases": [
+        "滴滴"
+      ],
+      "tags": [
+        "出行服务"
+      ]
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "AI大模型产品，文章中用于对比智能程度",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Looki",
+      "target": "光帆耳机",
+      "relation_type": "compares_to",
+      "label": "两者都被认为是AI眼镜的变种路线产品",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "光帆耳机",
+      "target": "小爱同学",
+      "relation_type": "compares_to",
+      "label": "作者认为光帆耳机听歌等基础能力还不如小爱同学",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "光帆耳机",
+      "target": "苹果",
+      "relation_type": "compares_to",
+      "label": "光帆耳机宣发声称在AI硬件产品上抢跑了苹果",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "光帆耳机",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "label": "作者认为光帆耳机的智能程度远不如豆包",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "AirPods",
+      "target": "光帆耳机",
+      "relation_type": "competes_with",
+      "label": "光帆耳机直接和AirPods竞争",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "小米",
+      "target": "小爱同学",
+      "relation_type": "develops",
+      "label": "小米是小爱同学的开发公司",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "苹果",
+      "target": "AirPods",
+      "relation_type": "develops",
+      "label": "AirPods是苹果公司开发的产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "光帆耳机",
+      "target": "微信",
+      "relation_type": "integrates_with",
+      "label": "光帆耳机支持接收微信消息并播报",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "光帆耳机",
+      "target": "滴滴打车",
+      "relation_type": "integrates_with",
+      "label": "光帆耳机集成了滴滴的打车服务作为其重点功能",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "光帆耳机",
+      "target": "飞书",
+      "relation_type": "integrates_with",
+      "label": "光帆耳机支持接收并回复飞书消息",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 10,
+    "relationship_count": 10,
+    "pruned_entities": []
+  }
+}

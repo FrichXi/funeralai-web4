@@ -1,0 +1,178 @@
+{
+  "article": {
+    "id": "129",
+    "title": "Qwen 3.8升级纯血力工模型",
+    "path": "articles/129_2026-08-05_葬爱咸鱼_Qwen 3.8升级纯血力工模型.md",
+    "date": "2026-08-05",
+    "author": "葬爱咸鱼",
+    "content_hash": "bff46eb6c436f8713c35256b8f4c5430ebdf1d27ff4ebae75ef1d56a7615f1d6"
+  },
+  "entities": [
+    {
+      "id": "k3",
+      "name": "K3",
+      "type": "product",
+      "description": "Kimi推出的模型，前端生成能力强，被称为“集美模型”，是Qwen的主要竞品",
+      "mention_count": 12,
+      "aliases": [
+        "Kimi K3"
+      ],
+      "tags": [
+        "开源",
+        "前端优化",
+        "2T参数"
+      ]
+    },
+    {
+      "id": "良子",
+      "name": "良子",
+      "type": "person",
+      "description": "文中用于测试多模态生成能力的关键人物/网红",
+      "mention_count": 8,
+      "aliases": [
+        "良弟"
+      ],
+      "tags": [
+        "测试对象",
+        "网红"
+      ]
+    },
+    {
+      "id": "峰哥",
+      "name": "峰哥",
+      "type": "person",
+      "description": "文中用于测试MD动画生成能力的关键人物/网红",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "测试对象",
+        "网红"
+      ]
+    },
+    {
+      "id": "ego-lite",
+      "name": "ego (lite)",
+      "type": "product",
+      "description": "AI浏览器产品，与葬AI合作进行了浏览器专项基准测试",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "AI浏览器",
+        "Agent"
+      ]
+    },
+    {
+      "id": "fable-5",
+      "name": "Fable 5",
+      "type": "product",
+      "description": "高性能大模型，在浏览器基准测试中排名第二梯队",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "闭源"
+      ]
+    },
+    {
+      "id": "seed-evolving",
+      "name": "Seed Evolving",
+      "type": "product",
+      "description": "字节跳动旗下的视频/多模态生成模型，在多模态测试中表现不稳定",
+      "mention_count": 2,
+      "aliases": [
+        "豆姐"
+      ],
+      "tags": [
+        "字节跳动",
+        "多模态"
+      ]
+    },
+    {
+      "id": "阿里巴巴",
+      "name": "阿里巴巴",
+      "type": "company",
+      "description": "Qwen系列模型的母公司，旗下拥有Qoder、千问办公等产品",
+      "mention_count": 2,
+      "aliases": [
+        "阿里"
+      ],
+      "tags": [
+        "大厂",
+        "云计算"
+      ]
+    },
+    {
+      "id": "qoder",
+      "name": "Qoder",
+      "type": "product",
+      "description": "阿里旗下的编程辅助产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "编程工具"
+      ]
+    },
+    {
+      "id": "千问办公",
+      "name": "千问办公",
+      "type": "product",
+      "description": "阿里旗下的办公AI产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "办公Agent"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "阿里巴巴",
+      "target": "Qoder",
+      "relation_type": "develops",
+      "label": "Qoder是阿里旗下的编程产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "千问办公",
+      "relation_type": "develops",
+      "label": "千问办公是阿里旗下的办公产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 9,
+    "relationship_count": 2,
+    "pruned_entities": [
+      {
+        "name": "DeepSeek V4 Flash",
+        "reason": "low-signal"
+      },
+      {
+        "name": "GLM 5.2",
+        "reason": "low-signal"
+      },
+      {
+        "name": "MiniMax M3",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Raft",
+        "reason": "low-signal"
+      },
+      {
+        "name": "混元Hy3",
+        "reason": "low-signal"
+      },
+      {
+        "name": "郭老师",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

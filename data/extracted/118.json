@@ -1,0 +1,55 @@
+{
+  "article": {
+    "id": "118",
+    "title": "第一届AI恐怖片黑客松开办",
+    "path": "articles/118_2026-07-12_骡子马_第一届AI恐怖片黑客松开办.md",
+    "date": "2026-07-12",
+    "author": "骡子马",
+    "content_hash": "38dd475321e767eab94ec5b04c3a6f60c5fbd834f9ebe45da03b95a2b532d34d"
+  },
+  "entities": [
+    {
+      "id": "tapnow",
+      "name": "TapNow",
+      "type": "product",
+      "description": "AI视频创作工具，本次黑客松赞助商及官方指定工具，声称进化为操作系统",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "AI视频生成",
+        "AI创作工具",
+        "世界模型"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "OpenAI的代码生成模型，文中被用作TapNow产品定位的对标对象",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "代码生成",
+        "对标产品"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Codex",
+      "target": "TapNow",
+      "relation_type": "compares_to",
+      "label": "文章提到TapNow声称自己是「AI创作界的Codex」，将自身产品能力与Codex进行类比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 2,
+    "relationship_count": 1,
+    "pruned_entities": []
+  }
+}

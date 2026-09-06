@@ -4,17 +4,20 @@
     "name": "LongCat",
     "type": "product",
     "description": "美团开发的国产模型，首个在国产芯片完成训推全流程",
-    "mention_count": 1,
-    "article_count": 1,
+    "mention_count": 2,
+    "article_count": 2,
     "aliases": [
+      "美团长猫",
       "长猫"
     ],
     "tags": [
+      "二线模型",
       "国产大模型",
+      "大模型",
       "算力国产化"
     ],
-    "references": 1,
-    "source_article_count": 1,
+    "references": 2,
+    "source_article_count": 2,
     "source_articles": [
       {
         "article_id": "138",
@@ -24,12 +27,60 @@
         "permalink": "/articles/138",
         "markdown_link": "articles/138_2026-08-26_葬爱咸鱼_开源模型就是统一战线.md",
         "mention_count": 1
+      },
+      {
+        "article_id": "140",
+        "title": "一场黑客松斩杀了整个网吧",
+        "date": "2026-08-27",
+        "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+        "permalink": "/articles/140",
+        "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+        "mention_count": 1
       }
     ],
-    "degree": 3,
-    "composite_weight": 0.0286
+    "degree": 5,
+    "composite_weight": 0.0478
   },
   "links": [
+    {
+      "source": "kimi",
+      "target": "longcat",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将美团长猫作为二线模型与Kimi等顶尖模型进行档次对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "140"
+      ],
+      "evidences": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "文中将美团长猫作为二线模型与Kimi等顶尖模型进行档次对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "longcat",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将美团长猫作为二线模型与Kimi等顶尖模型进行档次对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
     {
       "source": "longcat",
       "target": "混元3",

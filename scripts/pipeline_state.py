@@ -18,6 +18,7 @@ import json
 import os
 import re
 import shutil
+import tempfile
 import warnings
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -170,7 +171,10 @@ def load_json_file(path: Path, default):
 
 def save_json_file(path: Path, payload) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=path.parent, delete=False) as handle:
+        json.dump(payload, handle, ensure_ascii=False, indent=2)
+        temporary = Path(handle.name)
+    os.replace(temporary, path)
 
 
 def should_drop_credit_line(line: str) -> bool:
@@ -179,7 +183,7 @@ def should_drop_credit_line(line: str) -> bool:
         return False
 
     lower = stripped.lower()
-    if "本文配图由" in stripped or "配图由" in stripped:
+    if "本文配图由" in stripped or "配图由" in stripped or "本文封面由" in stripped:
         return True
     if "辅助写作" in stripped and any(token in lower for token in ("chatgpt", "gpt", "claude", "gemini", "qwen", "deepseek", "kimi", "grimo")):
         return True
@@ -190,7 +194,9 @@ def extract_article_body(raw_text: str) -> str:
     lines = raw_text.splitlines()
     separators = [index for index, line in enumerate(lines) if line.strip() == "---"]
 
-    if len(separators) >= 2 and separators[0] < separators[-1]:
+    if lines and lines[0].startswith("# ") and separators and separators[0] < 12:
+        body_lines = lines[separators[0] + 1:]
+    elif len(separators) >= 2 and separators[0] < separators[-1]:
         body_lines = lines[separators[0] + 1:separators[-1]]
     else:
         body_lines = lines
@@ -362,7 +368,12 @@ def sync_manifest(manifest: dict, articles: list[dict]) -> dict:
     synced = {}
 
     for article in articles:
-        synced[article["id"]] = build_manifest_entry(article, manifest.get("articles", {}).get(article["id"]))
+        existing = manifest.get("articles", {}).get(article["id"])
+        entry = build_manifest_entry(article, existing)
+        if existing:
+            # Compare the last extracted content with today's source before updating it.
+            entry["content_hash"] = existing.get("content_hash")
+        synced[article["id"]] = entry
 
     for article_id, entry in manifest.get("articles", {}).items():
         if article_id in current_ids:
@@ -387,13 +398,8 @@ def extraction_decision(article: dict, manifest_entry: dict | None, force: bool 
     if manifest_entry.get("content_hash") != article["content_hash"]:
         return True, "content_changed"
 
-    extractor = manifest_entry.get("extractor", {})
-    if extractor.get("model") != MODEL_NAME:
-        return True, "model_changed"
-    if extractor.get("prompt_version") != PROMPT_VERSION:
-        return True, "prompt_changed"
-    if extractor.get("extractor_version") != EXTRACTOR_VERSION:
-        return True, "extractor_changed"
+    # Historical extractions remain valid when the default provider changes.
+    # Use --force for a deliberate migration, never surprise-reprocess the corpus.
     if not artifact_path.exists():
         return True, "missing_artifact"
     if manifest_entry.get("status") != "ready":

@@ -1,10 +1,10 @@
 # 葬AI 知识图谱分析站点
 
-> Last verified: 2026-07-01
+> Last verified: 2026-09-06
 
 ## 项目概述
 
-为中文 AI 行业评论媒体"葬AI"搭建公开知识图谱分析站点。当前文章语料经 Qwen 3.7 Max 提取实体与关系，聚合为知识图谱（具体文章数、节点数、边数量见 `web-data/graph-view.json` 与 `web-data/article-index.json`）。纯静态部署，无后端。
+为中文 AI 行业评论媒体"葬AI"搭建公开知识图谱分析站点。当前文章语料增量提取实体与关系，API 按 DashScope → GLM → Kimi → MiniMax 自动切换，聚合为知识图谱（具体文章数、节点数、边数量见 `web-data/graph-view.json` 与 `web-data/article-index.json`）。纯静态部署，无后端。
 
 ## 品牌风格
 
@@ -19,7 +19,7 @@
 
 | 层级 | 技术 | 版本 |
 |------|------|------|
-| 框架 | Next.js (App Router, 静态导出) | 15.5.21 |
+| 框架 | Next.js (App Router, 静态导出) | 15.5.25 |
 | UI | React + TypeScript | ^18.3 / ^5.5 |
 | 样式 | Tailwind CSS | ^3.4 |
 | 图谱渲染 | Cytoscape + cytoscape-fcose | ^3.30 / ^2.2 |
@@ -45,9 +45,9 @@
 │   ├── ui-design-system.md            # 8-bit 视觉系统说明
 │   └── data-formats.md               # 数据 JSON 格式定义
 │
-├── articles/                          # 原始 Markdown 文章（001-111）
+├── articles/                          # 原始 Markdown 文章
 ├── data/
-│   ├── extracted/{id}.json            # 提取结果（每篇文章，当前默认 Qwen 3.7 Max）
+│   ├── extracted/{id}.json            # 纳入 Git 的标准化提取结果，记录实际供应商/模型
 │   ├── graph/
 │   │   ├── canonical.json             # 聚合后原始图谱
 │   │   ├── canonical_corrected.json   # 后处理修正后图谱
@@ -61,16 +61,16 @@
 │   ├── graph-view.json                # 主图谱数据（nodes + links）
 │   ├── article-index.json             # 文章索引（含 count 包装）
 │   ├── leaderboards.json              # 4 个分类排行榜
-│   └── articles/{id}.json             # 单篇文章详情（001-111，含 body_markdown）
+│   └── articles/{id}.json             # 单篇文章详情（含 body_markdown）
 │
 ├── scripts/                           # 提取 + 后处理 + 构建管线（Python）
-│   ├── extract_gemini.py              # Qwen 3.7 Max 提取（DashScope OpenAI-compatible）
+│   ├── extract_gemini.py              # 增量提取及供应商自动切换
 │   ├── graph_builder.py               # 图谱聚合（多篇 → 单图）
 │   ├── graph_utils.py                 # 实体类型/合并/关系配置
 │   ├── pipeline_state.py              # 版本管理 + manifest
 │   ├── build_graph.py                 # 聚合入口
 │   ├── run_full_extraction.py         # 全量提取 runner
-│   ├── run_pipeline.py                # 端到端管线 runner
+│   ├── run_pipeline.py                # update：导入、续跑提取、构建、按需发布、同步 Git
 │   ├── overrides.py                   # 声明式后处理规则（纯数据）
 │   ├── post_process.py                # 后处理执行引擎
 │   ├── build_presentation.py          # 前端数据生成 → web-data/
@@ -78,7 +78,6 @@
 │   ├── release_guard.py                # 发布契约、本地/远程产物验证
 │   ├── rollback_pages.py               # Cloudflare production 回滚（默认 dry-run）
 │   ├── worktree_policy.py              # 内容自动化 worktree 的受信边界校验
-│   ├── enrich_graph.py                # (legacy) 旧后处理脚本，待移除
 │   └── sync_github_repo.sh            # 将文章/图谱/公开统计安全提交并推送到 GitHub
 │
 └── site/                              # Next.js 前端项目
@@ -117,7 +116,7 @@
 │       ├── leaderboard/
 │       │   └── page.tsx       # 排行榜 + ItemList JSON-LD
 │       └── test/              # Web4 benchmark 展示页
-│           ├── methodology/   # 当前 16 模型逐项证据分析与口径
+│           ├── methodology/   # 当前模型逐项证据分析与口径
 │           ├── multimodal-model-analysis/ # 3D / MG 单轮多模态分析
 │           └── archive/       # 历史 benchmark 榜单入口
         ├── components/
@@ -129,8 +128,8 @@
         │   ├── theme/                 # ThemeProvider + celestial transition
         │   └── ui/                    # 通用 UI 原语（8bit 像素风 + shadcn 基础组件）
         ├── data/
-        │   ├── web4-benchmark-current.json # /test 当前 16 模型总榜（分数、耗时、调用数、成本）
-        │   └── web4-benchmark-analysis.ts  # 16 模型有效 attempt 与 scorer/产物证据卡
+        │   ├── web4-benchmark-current.json # /test 当前模型总榜（分数、耗时、调用数、成本）
+        │   └── web4-benchmark-analysis.ts  # 当前模型有效 attempt 与 scorer/产物证据卡
         ├── hooks/
         │   ├── useGraphData.ts        # 图谱数据加载（fetch + error/retry）
         │   └── useGraphInteraction.ts # 图谱交互逻辑（选中/高亮/过滤/tooltip）
@@ -147,7 +146,7 @@
 
 ```
 articles/*.md
-  → extract_gemini.py → data/extracted/{id}.json     （Qwen 3.7 Max 提取）
+  → extract_gemini.py → data/extracted/{id}.json     （记录实际供应商/模型）
   → build_graph.py    → data/graph/canonical.json     （聚合）
   → post_process.py   → data/graph/canonical_corrected.json  （后处理修正）
   → build_presentation.py → web-data/*.json           （前端数据）
@@ -175,7 +174,7 @@ articles/*.md
 | `/articles` | SSG | article-index.json 构建时读取 | CollectionPage JSON-LD |
 | `/articles/[id]` | SSG（generateStaticParams） | 各 article JSON 构建时读取 | Article JSON-LD |
 | `/test` | SSG + 客户端投票控件 | 当前总榜读取 `src/data/web4-benchmark-current.json`；产物/性价比读取 manifest.json；投票写入 D1 | noindex |
-| `/test/methodology` | SSG | 当前 16 模型 JSON + 逐模型 evidence card | noindex |
+| `/test/methodology` | SSG | 当前模型 JSON + 逐模型 evidence card | noindex |
 | `/test/multimodal-model-analysis` | SSG | 2026-08-04 多模态简报与站内图片 | noindex |
 | `/test/archive` | SSG | 历史 manifest 构建时读取 | noindex |
 
@@ -269,51 +268,20 @@ acquires, co_founded, collaborates_with, compares_to, competes_with, criticizes,
 - prebuild 脚本: `web-data/` → `site/public/data/`
 - `next build` → 纯静态 `out/`
 
-### 部署方式
+### 更新与部署
 
-**方式一：CLI 部署（当前使用）**
-```bash
-./scripts/doctor_repo.sh --profile release            # 发布前仓库体检
-./scripts/deploy_site.sh --profile release            # 构建、检查并部署
-```
+详细命令、故障定位、回滚和维护说明统一放在 `docs/release-operations.md`。
 
-部署脚本定义见 `site/package.json`：
-- `scripts/deploy_site.sh --profile release`: 人工综合发布只允许从 canonical root；依次运行 doctor、数据管线、KG gate、测试、一次 production-mode 构建和 release contract 验证，然后先上传并核验 `release-candidate` preview，再把同一 `site/out` 上传 production。
-- `npm run deploy`: 从 `site/` 目录委托给上述两阶段发布；成功后还会核验唯一 production URL 和正式域名，并写入 ignored release receipt。
-- `npm run deploy:raw`: 只有显式设置 `ALLOW_RAW_PAGES_DEPLOY=1` 时才能发布到 `diagnostics-only` preview branch，不能发布 production。
-- `site/out/release-manifest.json` 是发布身份，包含文章/图谱/benchmark 计数、关键哈希、完整静态树摘要和 Git/runtime 身份。
-- 回滚使用 `python3 scripts/rollback_pages.py --deployment-id <id>` 先 dry-run，执行要求显式 API token 和 `--execute --confirm-project funeral-ai-web4`。详见 `docs/release-operations.md`。
-- Cloudflare Pages Functions 位于 `site/functions/`；从 `site/` 执行 `wrangler pages deploy out --project-name funeral-ai-web4` 时会随静态产物一起上传。
-- `/test` 投票需要 `site/wrangler.toml` 中的 D1 binding：`BENCHMARK_VOTES_DB` → D1 database `funeralai-web4-feedback`，以及 Pages production secret `BENCHMARK_VOTE_SALT`。首次启用或 schema 变化后，在 `site/` 下运行 `npx wrangler d1 migrations apply funeralai-web4-feedback --remote`。
-- **production 硬规则**: 不得从 `/Users/xixiangyu/Documents/cc写作/qwen/append-*`、复制出来的 `web4-*` 目录或任意普通 worktree 执行 Cloudflare production 部署。也不得直接运行 `wrangler pages deploy ... --branch main` 绕过 `doctor_repo.sh`。人工正式发布只能在 `/Users/xixiangyu/Documents/葬AI Web4/site` 运行 `npm run deploy`。唯一例外是工作日内容自动化：Codex 必须创建与 canonical repo 共用 git common dir 的隔离 worktree，显式设置 `WEB4_AUTOMATION_WORKTREE=1`，使用 `content` profile，且 `HEAD` 必须精确等于 `origin/main`；该例外不适用于 benchmark、UI 或 `release` profile。
-- **内容自动化隔离**: 定时任务使用 Codex worktree execution environment，不在 canonical 工作树运行。启动后先 `git fetch origin main` 并 fast-forward 到 `origin/main`，通过 `ZANGAI_ARTICLES_SOURCE_DIR` 和 `TEST_BENCHMARK_CONFIG` 读取本机 ignored 配置，再执行 import、增量管线、KG gate、`npm run deploy:content` 和 content-only GitHub sync。canonical 工作区里的排行榜/UI 未提交改动不得成为内容停更原因。
-- GitHub 同步：部署成功后，根据事务类型使用 `./scripts/sync_github_repo.sh --profile content|test-benchmark|site-ui|release "<commit message>"`。该脚本只允许提交 profile 范围内的文件；若工作区还有无关改动，会直接阻断，避免把本地实验性改动一起推上 GitHub。
-
-### 工作事务 profile
-
-- `content`: 文章、`data/`、`web-data/`、公开统计文档。
-- `test-benchmark`: `/test` 页面、benchmark staging 脚本、榜单图、评分说明。
-- `site-ui`: 前端 UI、主题、组件和站点脚本。
-- `release`: 明确需要合并多类改动的发布；使用前先跑 `doctor_repo.sh --profile release`。
-
-`site/public/data/`、`site/public/test/` 和 `site/public/release-manifest.json` 是生成物，不应进入 Git tracking。`/test` benchmark staging 依赖本机 ignored 配置 `site/benchmark.local.json`；普通 CI 构建使用确定性的 `STAGE_TEST=ci` 编译 fixture，本机正式发布使用 `STAGE_TEST=required`。
-
-Graph V2 榜单使用 `site/scripts/stage-graph-v2-benchmark.mjs` 生成候选目录：默认只构建并校验 `site/.stage-test-candidate-graph-v2`，传入 `--activate` 后才原子切换 `site/public/test`。每个正式任务同时发布路径兼容的 viewer 与保留完整目录、符号链接和文件内容的 `raw.tar.gz`，其源目录树和归档均记录 SHA-256；旧榜单 manifest 归档到 `site/public/test/archive/2026-06-24-web4-rebuild/`，原 `/test/r1`–`/test/r10` 站点链接保持不变。
-
-### Cloudflare 认证与排障
-
-- 仓库内的 `.env`、`.env.example`、`pipeline.toml`、`pipeline.local.toml` **不保存** `CLOUDFLARE_API_TOKEN`
-- 这台 macOS 机器上的 wrangler 登录态在 `~/Library/Preferences/.wrangler/config/default.toml`
-- 该文件包含 wrangler 的 `oauth_token` / `refresh_token` / `expiration_time`，不要把值写回仓库
-- 当前环境里，本机代理变量会导致 wrangler 刷新 Cloudflare token 时访问 `https://dash.cloudflare.com/oauth2/token` 出现 TLS `ECONNRESET`
-- 如果 wrangler 报 `CLOUDFLARE_API_TOKEN` 缺失，优先检查：
-  1. `~/Library/Preferences/.wrangler/config/default.toml` 是否存在
-  2. 是否误走了代理环境
-  3. 直接使用 `cd site && npm run deploy`
-- 只有在本机 wrangler 登录态缺失或 refresh token 无法恢复时，才需要显式提供 `CLOUDFLARE_API_TOKEN`
-
-**方式二：推送自动部署（暂不启用）**
-Graph V2 production staging 依赖本机 ignored 的完整 benchmark 目录；干净 Git clone 只有 `STAGE_TEST=ci` 编译 fixture，不能作为 production 数据。因此在 benchmark 产物迁移到可验证的制品仓库前，不得启用 Git push 自动 production 部署。GitHub Actions 固定 Node 22，只负责 CI 编译与契约验证。
+- 日常内容：`git fetch origin main`、`git merge --ff-only origin/main`，然后 `python3 -m scripts.run_pipeline update`。任务使用与 canonical repo 共用 git common dir 的隔离 worktree；不能因“没有新导入”跳过未完成提取/发布/推送。
+- 人工正式发布：在 `/Users/xixiangyu/Documents/葬AI Web4/site` 运行 `npm run deploy`。先生成好需要发布的 `web-data/`；发布只构建一次、校验实际产物、上传一次并检查线上结果。不再重复执行 doctor、KG review、readiness、全套测试或 preview 上传。
+- 内容 worktree 发布使用 `WEB4_AUTOMATION_WORKTREE=1` 和 `content` profile；普通副本和 append 目录不能部署 production。共享 git 目录上的进程锁避免两个内容任务同时发布。
+- `TEST_BENCHMARK_DIR` 指向 canonical `site/public/test` 已发布资源，供 worktree 复用；内容更新不依赖旧 benchmark 原始目录和 Chrome。更换 benchmark 时才显式运行 staging。下载图片复用当前榜单 JSON 中绑定的版本化 PNG。
+- `site/public/data/`、`site/public/test/`、`site/public/release-manifest.json` 与 `site/out/` 是 ignored 生成物；`data/extracted/*.json` 是必须纳入 Git 的构图输入。
+- GitHub Actions 使用 Node 22，只执行检查、测试和 `STAGE_TEST=ci` 的构建，不自动发布 production。正式构建使用 `STAGE_TEST=required`。
+- GitHub 同步使用 `scripts/sync_github_repo.sh --profile content|test-benchmark|site-ui|release`；推送失败后，即使工作树干净也重试推送。已存在的无关本地文件不要混入提交。
+- Cloudflare 凭据保留在 Wrangler 本机配置，不复制进仓库。发布脚本去掉代理变量以避免 OAuth 刷新时 TLS 失败。
+- `/api/test/votes` 使用 `site/functions` 与 D1 binding；schema 变化时才执行 D1 migrations。无需为内容更新改数据库。
+- 复核工具作为按需诊断使用；不得把复核日期、目录命名、文档手动统计或无关 UI 工作重新变成文章停更条件。
 
 ### 安全头与缓存
 
@@ -343,14 +311,14 @@ Graph V2 production staging 依赖本机 ignored 的完整 benchmark 目录；�
 
 ### 全链路命令
 ```bash
-python3 scripts/run_full_extraction.py --force   # 提取 + 聚合 → canonical.json
+python3 -m scripts.run_pipeline                # 增量提取 + 聚合 + 展示数据
 python3 scripts/post_process.py                  # 后处理 → canonical_corrected.json
 python3 scripts/build_presentation.py            # 生成前端数据 → web-data/
 cd site && npm run build                         # 构建前端
 ```
 
 ### 提取模型与密钥
-默认提取模型由 `pipeline.toml` 控制，当前为 `qwen3.7-max`。
+主模型由 `pipeline.toml` 控制，当前为 `qwen3.7-max`，失败时按下述供应商顺序切换。
 提取脚本优先读取 `~/.env` 中的 `DASHSCOPE_API_KEY` / `DASHSCOPE_BASE_URL`，再允许仓库内 `.env` 覆盖。
 
 ### 后处理规则
@@ -365,15 +333,12 @@ cd site && npm run build                         # 构建前端
 - COMPANY_SUBSIDIARIES: 公司排行榜子公司合并规则（仅排行榜，不影响图谱）
 - EXCLUDED_ARTICLES: 排除的文章ID集合（聚合和文章索引均跳过）
 
-### 上线前图谱复核 gate
+### 提取可靠性与图谱复核
 
-`scripts/kg_review_gate.py` 是上线前自动检查：
-- 读取 `pipeline.toml` 的 `[kg_review]`，用 `last_holistic_review_article` 判断整体复核覆盖到哪一篇
-- 如果新文章数超过 `max_unreviewed_articles`，阻断部署，要求先整体审视实体关系并更新 `overrides.py`
-- 检查 `data/extracted/*.json` 里的实体是否都进入 `web-data/articles/*.json` 和 `web-data/graph-view.json`
-- 对未复核的新文章列出高提及但无边的实体对、孤立实体，作为人工补关系候选
-
-确认候选关系后，把确定事实写进 `overrides.py`，重新运行 `python3 -m scripts.run_pipeline build`，再把 `pipeline.toml` 的 `last_holistic_review_article` 更新到最新文章 ID。
+- 全局 `~/.env` 提供 `DASHSCOPE_*`、`ZHIPUAI_*`、`MOONSHOT_*` / `KIMI_*`、`MINIMAX_*`，仓库 `.env` 可覆盖。密钥不入 Git。
+- 默认 Qwen 模型来自 `pipeline.toml`；备用供应商模型/URL 来自全局环境。欠费、鉴权/模型不可用立即切换；超时/限流/服务异常最多两次尝试后切换。
+- 失败返回非零退出码，退出前同步已有进度到 Git；每篇成功后原子保存结果和状态，后续任务仅补缺失或内容改变的文章。模型默认值变更不触发历史全量重提取，显式 `--force` 才重跑。
+- `scripts/kg_review_gate.py` 是可选诊断：实体丢失仍报告为错误，复核日期过旧仅提示。确定的领域事实继续集中维护在 `scripts/overrides.py`。
 
 ### 排序公式（composite_weight）
 

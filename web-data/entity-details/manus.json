@@ -4,12 +4,13 @@
     "name": "Manus",
     "type": "product",
     "description": "AI Agent产品，主张less structure more intelligence，对Lovart有启发作用",
-    "mention_count": 120,
-    "article_count": 27,
+    "mention_count": 129,
+    "article_count": 28,
     "aliases": [
       "Manus (产品)",
       "Manus Agents",
       "Manus产品",
+      "Manus团队",
       "Man君",
       "新加坡家人们"
     ],
@@ -31,6 +32,7 @@
       "封闭系统",
       "新加坡公司",
       "本地Agent",
+      "模型评测",
       "沙盒",
       "竞品/对标",
       "类龙虾产品",
@@ -39,8 +41,8 @@
       "邮件交互",
       "高营收"
     ],
-    "references": 27,
-    "source_article_count": 27,
+    "references": 28,
+    "source_article_count": 28,
     "source_articles": [
       {
         "article_id": "016",
@@ -59,6 +61,15 @@
         "permalink": "/articles/126",
         "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
         "mention_count": 13
+      },
+      {
+        "article_id": "143",
+        "title": "Manus团队测模型一点微小的经验",
+        "date": "2026-09-04",
+        "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+        "permalink": "/articles/143",
+        "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+        "mention_count": 9
       },
       {
         "article_id": "067",
@@ -286,8 +297,8 @@
         "mention_count": 6
       }
     ],
-    "degree": 59,
-    "composite_weight": 0.5758
+    "degree": 62,
+    "composite_weight": 0.5759
   },
   "links": [
     {
@@ -349,6 +360,32 @@
           "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
           "date": "2025-12-30",
           "label": "作者认为Manus大致相当于1%的ChatGPT",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt-deep-research",
+      "target": "manus",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中提到不少 AI research 产品都优化得像 OpenAI 的 DeepResearch 一样，Manus 也在做同类 Research Bench 工作",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中提到不少 AI research 产品都优化得像 OpenAI 的 DeepResearch 一样，Manus 也在做同类 Research Bench 工作",
           "weight": 1
         }
       ]
@@ -602,6 +639,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "作者认为Manus大致相当于1%的ChatGPT",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "manus",
+      "target": "chatgpt-deep-research",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中提到不少 AI research 产品都优化得像 OpenAI 的 DeepResearch 一样，Manus 也在做同类 Research Bench 工作",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -1540,13 +1590,39 @@
       "article_count": 0,
       "evidence_articles": [],
       "evidences": []
+    },
+    {
+      "source": "胡迪hoodie",
+      "target": "manus",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "文中明确提到“哥们在Manus 团队做评测相关的工作”",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中明确提到“哥们在Manus 团队做评测相关的工作”",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "manus",
       "target": "字节跳动",
-      "score": 0.8211,
+      "score": 0.8209,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
@@ -1561,7 +1637,7 @@
     {
       "source": "cursor",
       "target": "manus",
-      "score": 0.6588,
+      "score": 0.6586,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1576,7 +1652,7 @@
     {
       "source": "manus",
       "target": "qwen",
-      "score": 0.6474,
+      "score": 0.6441,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1591,7 +1667,7 @@
     {
       "source": "manus",
       "target": "夸克",
-      "score": 0.6432,
+      "score": 0.6401,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1604,15 +1680,14 @@
     },
     {
       "source": "manus",
-      "target": "百度",
-      "score": 0.6005,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "target": "豆包",
+      "score": 0.5866,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
-        "017",
-        "022",
-        "055",
-        "059"
+        "004",
+        "040",
+        "057"
       ],
       "status": "suggested"
     }

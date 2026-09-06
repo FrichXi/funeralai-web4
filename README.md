@@ -4,9 +4,9 @@
 
 # 葬AI Knowledge Graph / 葬AI 知识图谱
 
-An open-source pipeline that turns a collection of Chinese AI industry commentary articles into an interactive knowledge graph. 138 articles are processed by Qwen 3.7 Max to extract entities and relationships, then aggregated into a browsable graph with leaderboards. **739 entities, 2009 relationships** — the most comprehensive Chinese AI industry knowledge graph.
+An open-source pipeline that turns a collection of Chinese AI industry commentary articles into an interactive knowledge graph. Articles are incrementally extracted with automatic DashScope → GLM → Kimi → MiniMax failover, then aggregated into a browsable graph. Current counts live in [`web-data/article-index.json`](web-data/article-index.json) and [`web-data/graph-view.json`](web-data/graph-view.json).
 
-一个开源的知识图谱管线：将中文 AI 行业评论文章集合转化为可交互的知识图谱可视化站点。138 篇文章经 Qwen 3.7 Max 提取实体与关系，聚合为包含排行榜的可浏览图谱。**739 个实体、2009 条关系** — 最全面的中文 AI 行业知识图谱。
+一个开源的知识图谱管线：将中文 AI 行业评论文章集合转化为可交互的知识图谱可视化站点。文章增量提取支持 DashScope → GLM → Kimi → MiniMax 自动切换。实时规模以 [`article-index.json`](web-data/article-index.json) 和 [`graph-view.json`](web-data/graph-view.json) 为准。
 
 **Live site / 在线站点**: [funeralai.cc](https://funeralai.cc)
 
@@ -18,7 +18,7 @@ An open-source pipeline that turns a collection of Chinese AI industry commentar
 articles/*.md                    # Source articles (markdown)
         │
         ▼
-scripts/extract_gemini.py        # Qwen 3.7 Max entity/relationship extraction
+scripts/extract_gemini.py        # Entity/relationship extraction with provider failover
         │
         ▼
 data/extracted/{id}.json         # Per-article extraction artifacts
@@ -68,14 +68,14 @@ cp .env.example .env
 python -m scripts.run_pipeline
 
 # Or run individual steps:
-python -m scripts.run_pipeline extract     # Qwen extraction only
+python -m scripts.run_pipeline extract     # Incremental extraction only
 python -m scripts.run_pipeline build       # Post-process + generate frontend data
 python -m scripts.run_pipeline present     # Regenerate frontend JSON only
 
 # Process specific articles:
 python -m scripts.run_pipeline --articles 069 070
 
-# Pre-deploy graph review gate:
+# Optional graph diagnostics:
 python scripts/kg_review_gate.py
 ```
 
@@ -100,22 +100,22 @@ npm run build      # Static export to site/out/
 ## Project Structure / 项目结构
 
 ```
-├── articles/              # Source markdown articles (001-138)
+├── articles/              # Source markdown articles
 ├── scripts/               # Python pipeline
 │   ├── run_pipeline.py    # Unified CLI entry point
-│   ├── extract_gemini.py  # Qwen 3.7 Max extraction
+│   ├── extract_gemini.py  # Extraction with provider failover
 │   ├── graph_builder.py   # Graph aggregation
 │   ├── graph_utils.py     # Entity normalization, merge maps, blacklists
 │   ├── pipeline_state.py  # Manifest management, config loading
 │   ├── overrides.py       # Declarative post-processing rules
 │   ├── post_process.py    # Apply overrides to graph
-│   ├── kg_review_gate.py  # Pre-deploy entity/relationship review gate
+│   ├── kg_review_gate.py  # Optional entity/relationship diagnostics
 │   ├── release_guard.py   # Release identity + local/remote verification
 │   ├── rollback_pages.py  # Dry-run-first Cloudflare rollback
 │   └── build_presentation.py  # Generate frontend data
 ├── data/
 │   ├── config/            # display_registry.json, schema config
-│   ├── extracted/         # Per-article extraction artifacts (generated)
+│   ├── extracted/         # Versioned per-article extraction inputs
 │   └── graph/             # Canonical graphs (generated)
 ├── web-data/              # Frontend-ready JSON (generated)
 ├── site/                  # Next.js 15 frontend
@@ -128,46 +128,36 @@ npm run build      # Static export to site/out/
 
 Pipeline settings are in `pipeline.toml`. Fork users can adjust model, prompt version, concurrency, etc. without editing Python source code. On this machine the extractor loads `~/.env` first, then allows repo-local `.env` values to override it.
 
-The `[kg_review]` section records the last holistic relationship review coverage. `site/npm run deploy` rebuilds the graph, runs all review/test gates, builds once, verifies an immutable preview, then promotes the same `site/out` tree and verifies production. If new articles accumulate past `max_unreviewed_articles` or extracted entities disappear from frontend data, deployment fails before production until `overrides.py` and `last_holistic_review_article` are updated.
+The `[kg_review]` section records optional review coverage. Review age does not stop publication. Existing extraction results remain valid when the default model changes; use `--force` only for a deliberate re-extraction.
 
-## Article Source / 文章源
-
-The canonical live source for 葬AI articles is Substack: `https://funeralai.substack.com/`.
-This repository mirrors the configured local article corpus into `articles/` before pipeline runs; on this machine the local corpus is configured in `pipeline.local.toml` as `/Users/xixiangyu/Documents/咸鱼写作文本/葬AI`.
-
-To import new Substack posts into the configured corpus and refresh the repo mirror:
+## Updating articles / 内容更新
 
 ```bash
-python -m scripts.import_substack_articles
+git fetch origin main
+git merge --ff-only origin/main
+python3 -m scripts.run_pipeline update
 ```
 
-To push a completed content/data refresh to GitHub without accidentally mixing unrelated local edits:
+The update command imports Substack posts, resumes missing/changed extractions, rebuilds data when necessary, compares it with production, deploys only when different, and retries GitHub synchronization even after a previous push failure. It never treats “zero new imports” as evidence that publication is complete.
+
+Keys and provider URLs/models are loaded from `~/.env`, with optional repo-local `.env` overrides. Fallback order is DashScope → GLM → Kimi → MiniMax. Permanent provider errors switch immediately; transient errors receive bounded retries. Each artifact records the actual provider/model. Normalized `data/extracted/*.json` files are committed so new worktrees can rebuild without rerunning historical API calls. Raw API responses and credentials stay ignored.
+
+The local article source is configured by `pipeline.local.toml` or `ZANGAI_ARTICLES_SOURCE_DIR`; the default in a clean clone is `articles/`. The importer preserves existing source files and uses Ego Lite if direct Substack access fails. Historical draft 139 is retained but excluded because 140 is the published version of the same article.
+
+## Deployment / 发布
+
+For an intentional combined release, from the canonical repository:
 
 ```bash
-./scripts/sync_github_repo.sh --profile content "content: sync articles 106"
+cd site
+npm run deploy
 ```
 
-The helper only stages paths allowed by the selected profile. Use `content` for article/data refreshes, `test-benchmark` for `/test` benchmark work, `site-ui` for frontend/theme changes, and `release` only for intentionally combined releases. If other local files are dirty, it exits with a blocker instead of pushing a mixed commit.
+Publication builds once, checks the exported files, uploads once to Cloudflare Pages, then verifies the unique deployment URL and `funeralai.cc`. Tests belong in CI and development; doctor, KG review and refactor-readiness tools are optional diagnostics, not repeated deployment prerequisites.
 
-## Repository Hygiene
+Scheduled content updates use a linked worktree and the `content` profile. They reuse the canonical `site/public/test` bundle through `TEST_BENCHMARK_DIR`; they do not rebuild benchmark source material or run a browser to regenerate unchanged leaderboard pictures. Code, graph and article changes remain separate from generated `site/public/data`, `site/public/test` and `site/out`.
 
-This repo is deployed only from `/Users/xixiangyu/Documents/葬AI Web4` on the local machine. Before release-sensitive work, run:
-
-```bash
-./scripts/doctor_repo.sh --profile release
-```
-
-Deploy through the guarded two-phase wrapper:
-
-```bash
-./scripts/deploy_site.sh --profile release
-```
-
-Weekday content automation runs in a repository-linked Codex worktree rather than the shared canonical checkout. The trusted exception is restricted to the `content` profile, requires `WEB4_AUTOMATION_WORKTREE=1`, and verifies that the worktree is linked to this repository and starts exactly from `origin/main`. Benchmark or UI edits in the canonical checkout therefore cannot silently stop article ingestion.
-
-`site/public/data/`, `site/public/test/`, and `site/public/release-manifest.json` are generated build artifacts and must stay untracked. Production uses `STAGE_TEST=required`; clean GitHub CI uses a deterministic `STAGE_TEST=ci` compile fixture and can never be promoted as production benchmark data.
-
-Every release carries `/release-manifest.json` with article/graph/benchmark counts, key-file hashes, a full static-tree digest, and Git/runtime identity. The deploy wrapper verifies this contract on preview, the unique production URL, and `funeralai.cc`, then stores the previous production deployment in an ignored receipt. See [`docs/engineering-reliability-plan.md`](docs/engineering-reliability-plan.md), its [audit](docs/engineering-reliability-plan-audit.md), and the [release/rollback runbook](docs/release-operations.md).
+The release manifest and ignored receipt retain the deployed content hashes and previous production ID. Recovery commands and incident details live in the [release runbook](docs/release-operations.md). GitHub Actions checks the code; it does not deploy the local-only benchmark bundle.
 
 ## Frontend Maintainability
 

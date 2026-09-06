@@ -1,0 +1,232 @@
+{
+  "article": {
+    "id": "143",
+    "title": "Manus团队测模型一点微小的经验",
+    "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+    "date": "2026-09-04",
+    "author": "葬爱咸鱼",
+    "content_hash": "4bb12520658cbacec75605fd43515fac81633452b3a9eb5a24812da184e1c5b8"
+  },
+  "entities": [
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "Anthropic 的模型系列，文中评测显示其信息量高于 GPT，且 Fable-5 版本隐喻率最高",
+      "mention_count": 12,
+      "aliases": [
+        "Claude Fable-5",
+        "Fable",
+        "Opus-5"
+      ],
+      "tags": [
+        "LLM",
+        "文本生成"
+      ]
+    },
+    {
+      "id": "gpt",
+      "name": "GPT",
+      "type": "product",
+      "description": "OpenAI 的旗舰模型系列，文中评测显示其信息量低于 Claude 但详实度更高",
+      "mention_count": 12,
+      "aliases": [
+        "GPT 5.6 luna",
+        "GPT-5.6"
+      ],
+      "tags": [
+        "LLM",
+        "文本生成"
+      ]
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "type": "product",
+      "description": "AI Agent 产品团队，文中提及了其 Research Bench 评测工作及团队成员胡迪Hoodie",
+      "mention_count": 4,
+      "aliases": [
+        "Manus团队"
+      ],
+      "tags": [
+        "AI Agent",
+        "模型评测"
+      ]
+    },
+    {
+      "id": "胡迪hoodie",
+      "name": "胡迪Hoodie",
+      "type": "person",
+      "description": "Manus 团队成员，负责评测相关工作，提出了隐喻率等衡量指标",
+      "mention_count": 4,
+      "aliases": [
+        "Hoodie",
+        "胡迪"
+      ],
+      "tags": [
+        "模型评测",
+        "Research Bench"
+      ]
+    },
+    {
+      "id": "deepresearch",
+      "name": "DeepResearch",
+      "type": "product",
+      "description": "OpenAI 旗下的深度研究产品，被文中作为 AI research 产品的优化对标案例",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI Research",
+        "Agent"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "type": "product",
+      "description": "Google 的模型系列，文中提及 Gemini-3.7-flash 偏好使用宏大词汇隐喻",
+      "mention_count": 1,
+      "aliases": [
+        "Gemini-3.7-flash"
+      ],
+      "tags": [
+        "LLM",
+        "文本生成"
+      ]
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "type": "product",
+      "description": "xAI 的模型系列，文中提及 Grok-4.6 偏好商业和竞争分析类隐喻",
+      "mention_count": 1,
+      "aliases": [
+        "Grok-4.6"
+      ],
+      "tags": [
+        "LLM",
+        "文本生成"
+      ]
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "type": "company",
+      "description": "AI 公司，文中提及其 DeepResearch 产品作为行业对标对象",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Claude",
+      "target": "GPT",
+      "relation_type": "compares_to",
+      "label": "文中详细对比了两者在信息量、文章详实度、隐喻率及笔记写作行为上的差异",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Gemini",
+      "relation_type": "compares_to",
+      "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Grok",
+      "relation_type": "compares_to",
+      "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "DeepResearch",
+      "target": "Manus",
+      "relation_type": "compares_to",
+      "label": "文中提到不少 AI research 产品都优化得像 OpenAI 的 DeepResearch 一样，Manus 也在做同类 Research Bench 工作",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "GPT",
+      "target": "Gemini",
+      "relation_type": "compares_to",
+      "label": "文中在隐喻率测试中将 GPT 5.6 与 Gemini-3.7-flash 进行了横向对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "GPT",
+      "target": "Grok",
+      "relation_type": "compares_to",
+      "label": "文中在隐喻率测试中将 GPT 5.6 与 Grok-4.6 进行了横向对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Gemini",
+      "target": "Grok",
+      "relation_type": "compares_to",
+      "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "OpenAI",
+      "target": "DeepResearch",
+      "relation_type": "develops",
+      "label": "文中提到“OpenAI 的 DeepResearch”，表明归属关系",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "胡迪Hoodie",
+      "target": "Manus",
+      "relation_type": "works_at",
+      "label": "文中明确提到“哥们在Manus 团队做评测相关的工作”",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "胡迪Hoodie",
+      "target": "Claude",
+      "relation_type": "works_on",
+      "label": "胡迪在 Manus 做评测工作，分析了 Claude 的信息记录方式和隐喻特征，属于针对特定产品的评测研究",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "胡迪Hoodie",
+      "target": "GPT",
+      "relation_type": "works_on",
+      "label": "胡迪在 Manus 做评测工作，通过 Prompt 规范了 GPT 写笔记的方式以提升信息量，属于针对特定产品的调优/研究工作",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 8,
+    "relationship_count": 11,
+    "pruned_entities": [],
+    "provider": "dashscope"
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "article": {
+    "id": "088",
+    "title": "读过豆包赚钱手册才敢自称懂AI",
+    "path": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
+    "date": "2026-05-07",
+    "author": "沐秋",
+    "content_hash": "7cba1e0733b13f3b8023a885fcd2f448304658884254c5dc83e4daeb452e2883"
+  },
+  "entities": [
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "抖音旗下/字节系的AI大模型产品，也是《豆包AI赚钱手册》的核心探讨对象",
+      "mention_count": 36,
+      "aliases": [],
+      "tags": [
+        "AI工具",
+        "大模型"
+      ]
+    },
+    {
+      "id": "抖音",
+      "name": "抖音",
+      "type": "product",
+      "description": "短视频平台，其海量数据和爆款语料被用于训练豆包",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "短视频平台",
+        "数据源"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "2022年火爆的标志性AI产品，也用于生成本文封面",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "AI热点"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "知名AI大模型，在文中AI写作SOP中负责写正文",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "AI写作"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "知名AI大模型，在文中AI写作SOP中负责起标题",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "AI写作"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "AI模型工具，在文中AI写作SOP中被用于出版社校对",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI工具",
+        "校对"
+      ]
+    },
+    {
+      "id": "剪映",
+      "name": "剪映",
+      "type": "product",
+      "description": "字节系视频产品，与豆包等一同被归为字节系工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "视频工具"
+      ]
+    },
+    {
+      "id": "即梦",
+      "name": "即梦",
+      "type": "product",
+      "description": "字节系AI产品，与豆包等一同出现在实操指南书籍中",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI工具"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "拥有豆包、即梦、剪映等系列产品的科技公司",
+      "mention_count": 1,
+      "aliases": [
+        "字节系"
+      ],
+      "tags": [
+        "大厂",
+        "互联网公司"
+      ]
+    },
+    {
+      "id": "扣子",
+      "name": "扣子",
+      "type": "product",
+      "description": "字节系AI应用开发平台",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI平台"
+      ]
+    },
+    {
+      "id": "飞书",
+      "name": "飞书",
+      "type": "product",
+      "description": "字节系办公协作产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "办公软件"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "字节跳动",
+      "target": "剪映",
+      "relation_type": "develops",
+      "label": "文中将其归类为字节系产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "即梦",
+      "relation_type": "develops",
+      "label": "文中将其归类为用户可以通过书名接触到的字节系产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "扣子",
+      "relation_type": "develops",
+      "label": "文中将其归类为字节系产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "抖音",
+      "relation_type": "develops",
+      "label": "豆包是抖音旗下的产品，抖音为字节跳动体系内的核心平台",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "豆包",
+      "relation_type": "develops",
+      "label": "文中明确指出豆包是抖音旗下/字节系的产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "飞书",
+      "relation_type": "develops",
+      "label": "文中将其归类为字节系产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Codex",
+      "relation_type": "integrates_with",
+      "label": "在AI写作SOP流水线中，Claude起完标题后由Codex进行校对",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "DeepSeek",
+      "relation_type": "integrates_with",
+      "label": "在AI写作SOP流水线中，DeepSeek写正文与Claude起标题环节相接",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "豆包",
+      "relation_type": "integrates_with",
+      "label": "在作者描述的AI写作SOP流水线中，豆包写大纲，DeepSeek配合写正文",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "抖音",
+      "target": "豆包",
+      "relation_type": "integrates_with",
+      "label": "豆包深度学习了抖音上数以亿计的爆款产品数据和热梗",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 11,
+    "relationship_count": 10,
+    "pruned_entities": [
+      {
+        "name": "Manus",
+        "reason": "low-signal"
+      },
+      {
+        "name": "罗子马",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

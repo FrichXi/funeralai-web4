@@ -1,0 +1,130 @@
+{
+  "article": {
+    "id": "095",
+    "title": "4K的可灵没能复兴残酷底层物语",
+    "path": "articles/095_2026-05-24_骡子马_4K的可灵没能复兴残酷底层物语.md",
+    "date": "2026-05-24",
+    "author": "骡子马",
+    "content_hash": "6143dbcd9390bf5f29ec57f2a8bf7b53d98c7a016aeebac88082362a1a1cc8b1"
+  },
+  "entities": [
+    {
+      "id": "可灵",
+      "name": "可灵",
+      "type": "product",
+      "description": "主打物理模拟、电影质感和原生4K生成的AI视频大模型。",
+      "mention_count": 19,
+      "aliases": [
+        "Kling"
+      ],
+      "tags": [
+        "视频大模型",
+        "原生4K",
+        "物理模拟"
+      ]
+    },
+    {
+      "id": "即梦",
+      "name": "即梦",
+      "type": "product",
+      "description": "具有社交属性的AI视频生成模型，在测试中被用作对标产品。",
+      "mention_count": 10,
+      "aliases": [
+        "Jimeng"
+      ],
+      "tags": [
+        "视频大模型",
+        "音色模拟"
+      ]
+    },
+    {
+      "id": "快手",
+      "name": "快手",
+      "type": "company",
+      "description": "国内短视频平台，为可灵模型提供站内视频训练资源及场景生态。",
+      "mention_count": 8,
+      "aliases": [],
+      "tags": [
+        "短视频平台"
+      ]
+    },
+    {
+      "id": "马斯克",
+      "name": "马斯克",
+      "type": "person",
+      "description": "知名外资企业家，在文中被用作AI视频模型生成能力测试的提示词对象。",
+      "mention_count": 8,
+      "aliases": [
+        "Elon Musk"
+      ],
+      "tags": [
+        "企业家"
+      ]
+    },
+    {
+      "id": "小鹏机器人",
+      "name": "小鹏机器人",
+      "type": "product",
+      "description": "小鹏研发的机器人产品，文中被用来形容AI视频生成的人物动作僵硬。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "机器人"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "即梦",
+      "target": "可灵",
+      "relation_type": "compares_to",
+      "label": "作者在多个视频生成案例中，将可灵的生成效果（如音色、动作流畅度、指令遵循）与即梦进行了直接横向对比。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "可灵",
+      "target": "小鹏机器人",
+      "relation_type": "compares_to",
+      "label": "文中将可灵生成视频中人物走路略显僵硬的效果，比作“小鹏机器人外面套了个人皮”。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "即梦",
+      "target": "可灵",
+      "relation_type": "competes_with",
+      "label": "文中提到可灵在产品定位上与即梦不同（“我不像即梦一样做社交”），两者在AI视频生成领域存在竞争关系。",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "快手",
+      "target": "可灵",
+      "relation_type": "develops",
+      "label": "文章指出可灵使用快手得天独厚的站内资源进行训练，且从语境中体现出可灵隶属于快手。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "即梦",
+      "target": "马斯克",
+      "relation_type": "related",
+      "label": "即梦模型在提示词中识别出马斯克后，触发了安全限制并直接拒绝生成该视频。",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 5,
+    "relationship_count": 5,
+    "pruned_entities": []
+  }
+}

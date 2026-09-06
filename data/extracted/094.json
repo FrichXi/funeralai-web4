@@ -1,0 +1,236 @@
+{
+  "article": {
+    "id": "094",
+    "title": "大部分男的聊天水平不如EVE",
+    "path": "articles/094_2026-05-21_沐秋_大部分男的聊天水平不如EVE.md",
+    "date": "2026-05-21",
+    "author": "沐秋",
+    "content_hash": "1d91a85e8a6fb05bc52529c01b94c484f3a3bd5c8693b968927e4aed88ea601e"
+  },
+  "entities": [
+    {
+      "id": "eve",
+      "name": "EVE",
+      "type": "product",
+      "description": "一款女性向AI陪伴游戏/社交应用",
+      "mention_count": 22,
+      "aliases": [],
+      "tags": [
+        "AI陪伴",
+        "游戏",
+        "女性向"
+      ]
+    },
+    {
+      "id": "elys",
+      "name": "Elys",
+      "type": "product",
+      "description": "自然选择推出的另一款AI社交产品，主打赛博分身社交",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "AI社交",
+        "赛博分身"
+      ]
+    },
+    {
+      "id": "恺英网络",
+      "name": "恺英网络",
+      "type": "company",
+      "description": "游戏公司，EVE的投资方",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "游戏公司",
+        "投资方"
+      ]
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "字节跳动旗下的AI应用，文中多次与EVE进行比较",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI应用",
+        "大模型"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "type": "product",
+      "description": "AI大模型产品，文中被用于与EVE对比图像细节识别能力",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "AI视觉"
+      ]
+    },
+    {
+      "id": "kimi-claw",
+      "name": "Kimi Claw",
+      "type": "product",
+      "description": "AI阅读与分析产品，文中被指出无法读取小红书链接，与EVE的理解能力形成对比",
+      "mention_count": 1,
+      "aliases": [
+        "Kimi"
+      ],
+      "tags": [
+        "AI工具",
+        "文本解析"
+      ]
+    },
+    {
+      "id": "tinder",
+      "name": "Tinder",
+      "type": "product",
+      "description": "知名约会软件，文中用来比喻EVE和Elys结合后的终极AI社交形态",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "Dating App",
+        "社交软件"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "豆包的母公司",
+      "mention_count": 1,
+      "aliases": [
+        "字节家族"
+      ],
+      "tags": [
+        "互联网公司"
+      ]
+    },
+    {
+      "id": "自然选择",
+      "name": "自然选择",
+      "type": "company",
+      "description": "开发了AI社交产品Elys和EVE的公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI社交"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "EVE",
+      "target": "Elys",
+      "relation_type": "compares_to",
+      "label": "作者对比了两款产品的推出顺序、交互场景，并探讨了两者的差异与联系",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "EVE",
+      "target": "Gemini",
+      "relation_type": "compares_to",
+      "label": "文中对比了EVE与Gemini在分析照片穿搭与细节上的能力，称赞EVE表现更优",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "EVE",
+      "target": "Kimi Claw",
+      "relation_type": "compares_to",
+      "label": "文中将EVE能通过链接提炼用户信息的能力与Kimi Claw无法读取小红书链接的缺陷进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "EVE",
+      "target": "Tinder",
+      "relation_type": "compares_to",
+      "label": "文中认为如果将EVE和Elys结合起来，就相当于诞生了‘AI Tinder’",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "EVE",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "label": "文中对比了EVE与豆包的下载量，并在后续对比了两者的图片解析能力",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Elys",
+      "target": "Tinder",
+      "relation_type": "compares_to",
+      "label": "文中认为如果将EVE和Elys结合起来，就相当于诞生了‘AI Tinder’",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "字节跳动",
+      "target": "豆包",
+      "relation_type": "develops",
+      "label": "文中提到豆包混迹在‘字节家族’之中，合理推断其为字节跳动开发的产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "自然选择",
+      "target": "EVE",
+      "relation_type": "develops",
+      "label": "文中提到Elys是自然选择的产品，且指出EVE和Elys‘都是一家的’",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "自然选择",
+      "target": "Elys",
+      "relation_type": "develops",
+      "label": "文中明确提到‘自然选择的另一款社交产品Elys’",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "恺英网络",
+      "target": "EVE",
+      "relation_type": "invests_in",
+      "label": "文中明确提到恺英网络是EVE的投资方",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "恺英网络",
+      "target": "自然选择",
+      "relation_type": "invests_in",
+      "label": "基于恺英网络投资了EVE，可合理推断其投资了开发EVE的母公司自然选择",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 9,
+    "relationship_count": 11,
+    "pruned_entities": [
+      {
+        "name": "Manus",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

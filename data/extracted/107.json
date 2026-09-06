@@ -1,0 +1,107 @@
+{
+  "article": {
+    "id": "107",
+    "title": "网吧黑客松将于杭州风光大办",
+    "path": "articles/107_2026-06-22_葬爱咸鱼_网吧黑客松将于杭州风光大办.md",
+    "date": "2026-06-22",
+    "author": "葬爱咸鱼",
+    "content_hash": "4a9902dd080727d4537f2cde6db5784b8c6fbeaaf162964dc10627be66b9fd4c"
+  },
+  "entities": [
+    {
+      "id": "mulerun",
+      "name": "MuleRun",
+      "type": "product",
+      "description": "一款Agent产品，本次网吧黑客松的联合主办方及主要赞助方",
+      "mention_count": 6,
+      "aliases": [
+        "骡子快跑"
+      ],
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "id": "tripo",
+      "name": "Tripo",
+      "type": "product",
+      "description": "提供3D模型的AI产品，网吧黑客松的赞助方之一",
+      "mention_count": 3,
+      "aliases": [
+        "Tripo AI"
+      ],
+      "tags": [
+        "3D模型"
+      ]
+    },
+    {
+      "id": "405游局",
+      "name": "405游局",
+      "type": "company",
+      "description": "游戏社群，网吧黑客松的联合招募方，并在China Joy期间开设AI游戏展区",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "游戏社群"
+      ]
+    },
+    {
+      "id": "vast",
+      "name": "VAST",
+      "type": "company",
+      "description": "Tripo AI 背后的研发公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "VAST",
+      "target": "Tripo",
+      "relation_type": "develops",
+      "label": "文章在文末鸣谢中以“Tripo AI (VAST)”的形式表明了VAST是Tripo的母公司/开发公司",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "405游局",
+      "target": "MuleRun",
+      "relation_type": "related",
+      "label": "MuleRun作为联合主办方，与游戏社群405游局（联合招募方）共同合作推进网吧黑客松活动",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "high"
+    },
+    {
+      "source": "MuleRun",
+      "target": "Tripo",
+      "relation_type": "related",
+      "label": "同为网吧黑客松的赞助方，并在活动中共同举办 AI 游戏 WorkShop",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "medium"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 4,
+    "relationship_count": 3,
+    "pruned_entities": [
+      {
+        "name": "Kotoko AI",
+        "reason": "low-signal"
+      },
+      {
+        "name": "王登科",
+        "reason": "low-signal"
+      },
+      {
+        "name": "青椒模拟器",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "article": {
+    "id": "008",
+    "title": "前后不一李开复",
+    "path": "articles/008_2025-06-27_葬爱咸鱼_前后不一李开复.md",
+    "date": "2025-06-27",
+    "author": "葬爱咸鱼",
+    "content_hash": "73b5d04ffab560269c1894a17a46794f70d7d27db81f3d4f4ce247bf369aba2f"
+  },
+  "entities": [
+    {
+      "id": "零一万物",
+      "name": "零一万物",
+      "type": "company",
+      "description": "国内AI初创公司，曾立志成为AGI时代的微软，后转向ToB业务",
+      "mention_count": 8,
+      "aliases": [
+        "零一"
+      ],
+      "tags": [
+        "AI六小虎",
+        "大模型初创",
+        "ToB转型"
+      ]
+    },
+    {
+      "id": "李开复",
+      "name": "李开复",
+      "type": "person",
+      "description": "零一万物创始人，被称为创业教父，文中指出其战略方向前后不一",
+      "mention_count": 6,
+      "aliases": [
+        "开复老师",
+        "教父"
+      ],
+      "tags": [
+        "创业教父",
+        "前后不一",
+        "AI战略"
+      ]
+    },
+    {
+      "id": "阿里通义",
+      "name": "阿里通义",
+      "type": "company",
+      "description": "阿里巴巴旗下AI业务团队，接收了零一万物的预训练团队骨干",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "产业大模型联合实验室"
+      ]
+    },
+    {
+      "id": "ai-2-0数字人",
+      "name": "AI 2.0数字人",
+      "type": "product",
+      "description": "零一万物高调发布的面向ToB市场的解决方案",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "ToB业务",
+        "解决方案"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "OpenAI开发的知名AI应用，代表了海外成熟的市场教育",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "被评价为造福全民的一流AI企业",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "type": "company",
+      "description": "开创AI潮流的伟大企业，开发了ChatGPT",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "乔布斯",
+      "name": "乔布斯",
+      "type": "person",
+      "description": "苹果公司创始人，被李开复引用名言以谈及创业初心",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "孩子王",
+      "name": "孩子王",
+      "type": "company",
+      "description": "零一万物ToB数字人解决方案的签约企业客户",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "微软",
+      "name": "微软",
+      "type": "company",
+      "description": "全球科技巨头，零一万物早期立志对标的企业",
+      "mention_count": 1,
+      "aliases": [
+        "Microsoft"
+      ],
+      "tags": []
+    },
+    {
+      "id": "戴宗宏",
+      "name": "戴宗宏",
+      "type": "person",
+      "description": "百川智能或零一万物出走的联合创始人之一",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "百川智能",
+      "name": "百川智能",
+      "type": "company",
+      "description": "国内AI初创公司，文中提到其与零一万物有多位联创出走",
+      "mention_count": 1,
+      "aliases": [
+        "百川"
+      ],
+      "tags": []
+    },
+    {
+      "id": "百胜中国",
+      "name": "百胜中国",
+      "type": "company",
+      "description": "零一万物ToB数字人解决方案的签约企业客户",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "谷雪梅",
+      "name": "谷雪梅",
+      "type": "person",
+      "description": "百川智能或零一万物出走的联合创始人之一",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "阶跃星辰",
+      "name": "阶跃星辰",
+      "type": "company",
+      "description": "国内AI初创公司，与零一万物同为前代版本神“AI六小虎”之一",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI六小虎"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "戴宗宏",
+      "target": "谷雪梅",
+      "relation_type": "co_founded",
+      "label": "同为AI大模型公司（百川/零一）出走的联合创始人",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "medium"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "OpenAI",
+      "relation_type": "compares_to",
+      "label": "文中将一流造福全民的DeepSeek与开创潮流的伟大企业OpenAI并列对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "微软",
+      "target": "零一万物",
+      "relation_type": "compares_to",
+      "label": "零一万物曾立志将自身打造为“AGI时代的微软”",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "零一万物",
+      "relation_type": "competes_with",
+      "label": "两者同属上一代AI大模型领域的“AI六小虎”，存在行业竞对关系",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "OpenAI",
+      "target": "ChatGPT",
+      "relation_type": "develops",
+      "label": "文中提及美国先有了ChatGPT moment，OpenAI开创了潮流",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "零一万物",
+      "target": "AI 2.0数字人",
+      "relation_type": "develops",
+      "label": "零一万物发布了面向ToB市场的AI 2.0数字人解决方案",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "戴宗宏",
+      "target": "零一万物",
+      "relation_type": "founder_of",
+      "label": "作为百川或零一万物的出走联合创始人被提及",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "medium"
+    },
+    {
+      "source": "李开复",
+      "target": "零一万物",
+      "relation_type": "founder_of",
+      "label": "李开复为零一万物设定目标并作为核心决策人主导公司战略",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "谷雪梅",
+      "target": "百川智能",
+      "relation_type": "founder_of",
+      "label": "作为百川或零一万物的出走联合创始人被提及",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "medium"
+    },
+    {
+      "source": "孩子王",
+      "target": "零一万物",
+      "relation_type": "partners_with",
+      "label": "零一万物在ToB业务上与孩子王签约合作",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "百胜中国",
+      "target": "零一万物",
+      "relation_type": "partners_with",
+      "label": "零一万物在ToB业务上与百胜中国签约合作",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "李开复",
+      "target": "乔布斯",
+      "relation_type": "praises",
+      "label": "李开复引用乔布斯关于“串联这些点”的话来阐述自己的创业初心",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "阿里通义",
+      "target": "零一万物",
+      "relation_type": "related",
+      "label": "零一万物核心预训练技术骨干并入阿里通义",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "high"
+    },
+    {
+      "source": "李开复",
+      "target": "AI 2.0数字人",
+      "relation_type": "works_on",
+      "label": "李开复主导了公司向ToB业务转型，并确认为公司带来七成以上收入",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 15,
+    "relationship_count": 14,
+    "pruned_entities": [
+      {
+        "name": "曹大鹏",
+        "reason": "low-signal"
+      },
+      {
+        "name": "李先刚",
+        "reason": "low-signal"
+      },
+      {
+        "name": "潘欣",
+        "reason": "low-signal"
+      },
+      {
+        "name": "阿里智能云",
+        "reason": "low-signal"
+      },
+      {
+        "name": "黄文灏",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

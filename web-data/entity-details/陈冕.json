@@ -4,8 +4,8 @@
     "name": "陈冕",
     "type": "person",
     "description": "LibTV/Lovart创始人，被称为“冕神”，双子座，主张激进执行与长期主义",
-    "mention_count": 26,
-    "article_count": 12,
+    "mention_count": 27,
+    "article_count": 13,
     "aliases": [
       "Amian",
       "冕",
@@ -19,10 +19,11 @@
       "字节4-1",
       "行业KOL",
       "行业人物",
+      "视频Agent",
       "高管"
     ],
-    "references": 12,
-    "source_article_count": 12,
+    "references": 13,
+    "source_article_count": 13,
     "source_articles": [
       {
         "article_id": "126",
@@ -79,6 +80,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "141",
+        "title": "再爱MiniMax一次",
+        "date": "2026-09-01",
+        "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "permalink": "/articles/141",
+        "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "136",
         "title": "AI应用骗钱，哦不融资指南",
         "date": "2026-08-23",
@@ -133,8 +143,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 21,
-    "composite_weight": 0.2454
+    "degree": 22,
+    "composite_weight": 0.2432
   },
   "links": [
     {
@@ -645,6 +655,32 @@
     },
     {
       "source": "陈冕",
+      "target": "libtv",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "文中提到“等着陈冕宣布LibTV实现模型自研”，推断陈冕负责LibTV产品研发",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中提到“等着陈冕宣布LibTV实现模型自研”，推断陈冕负责LibTV产品研发",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "陈冕",
       "target": "lovart",
       "relation_type": "works_on",
       "type": "works_on",
@@ -726,9 +762,9 @@
     {
       "source": "seedance",
       "target": "陈冕",
-      "score": 0.7011,
+      "score": 0.7514,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "078",
         "106",
@@ -741,7 +777,7 @@
     {
       "source": "tapnow",
       "target": "陈冕",
-      "score": 0.5327,
+      "score": 0.5331,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -756,7 +792,7 @@
     {
       "source": "阿里巴巴",
       "target": "陈冕",
-      "score": 0.4661,
+      "score": 0.466,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -769,24 +805,13 @@
     {
       "source": "明超平",
       "target": "陈冕",
-      "score": 0.418,
+      "score": 0.4183,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "085",
         "126",
         "136"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "闹闹",
-      "target": "陈冕",
-      "score": 0.3965,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "078"
       ],
       "status": "suggested"
     }

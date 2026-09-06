@@ -1,0 +1,198 @@
+{
+  "article": {
+    "id": "087",
+    "title": "Vivix用13亿美金估值复活科比",
+    "path": "articles/087_2026-05-06_骡子马_Vivix用13亿美金估值复活科比.md",
+    "date": "2026-05-06",
+    "author": "骡子马",
+    "content_hash": "98359751f67148646ffec3b7c45977d19ce4c0f7af7fe2d72664cc3f0572fa4b"
+  },
+  "entities": [
+    {
+      "id": "7verse",
+      "name": "7verse",
+      "type": "product",
+      "description": "Vivix推出的首款实时数字人互动产品",
+      "mention_count": 17,
+      "aliases": [
+        "7verse.ai"
+      ],
+      "tags": [
+        "数字人",
+        "AI直播",
+        "AI短剧"
+      ]
+    },
+    {
+      "id": "vivix",
+      "name": "Vivix",
+      "type": "company",
+      "description": "估值13.2亿美金的多模态模型公司",
+      "mention_count": 7,
+      "aliases": [],
+      "tags": [
+        "多模态模型",
+        "世界模型"
+      ]
+    },
+    {
+      "id": "科比",
+      "name": "科比",
+      "type": "person",
+      "description": "著名篮球运动员，在文章中被用作数字人复活的测试对象",
+      "mention_count": 6,
+      "aliases": [],
+      "tags": [
+        "赛博永生"
+      ]
+    },
+    {
+      "id": "onlyfans",
+      "name": "onlyfans",
+      "type": "product",
+      "description": "内容订阅平台，文中建议7verse可以重做其AI化版本",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "创作者经济"
+      ]
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "AI对话助手，文中被用来与7verse进行聊天测试及情绪对比",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "刘宇",
+      "name": "刘宇",
+      "type": "person",
+      "description": "Vivix公司的核心人物/负责人",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "红果",
+      "name": "红果",
+      "type": "product",
+      "description": "包含AI漫剧内容的产品平台，被用于与7verse的视觉小说效果对比",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI漫剧"
+      ]
+    },
+    {
+      "id": "远识资本",
+      "name": "远识资本",
+      "type": "company",
+      "description": "文章中提到的投资机构，Vivix是其代表作",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "7verse",
+      "target": "onlyfans",
+      "relation_type": "compares_to",
+      "label": "作者建议7verse往NSFW方向努力，将onlyfans的模式用AI重做一遍",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "7verse",
+      "target": "红果",
+      "relation_type": "compares_to",
+      "label": "作者将7verse的游戏画面一致性与红果平台上的AI漫剧进行水平对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "7verse",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "label": "作者让7verse的AI与豆包全自动化聊天，并对比了双方的情绪起伏表现",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Vivix",
+      "target": "7verse",
+      "relation_type": "develops",
+      "label": "Vivix正式推出了首款产品7verse",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "刘宇",
+      "target": "Vivix",
+      "relation_type": "founder_of",
+      "label": "文中期待刘宇再接再厉做出更好产品，合理推断为Vivix的创始人或核心高管",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "medium"
+    },
+    {
+      "source": "远识资本",
+      "target": "Vivix",
+      "relation_type": "invests_in",
+      "label": "文章提到Vivix是远识资本的代表作，推断存在投资关系",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "远识资本",
+      "target": "刘宇",
+      "relation_type": "invests_in",
+      "label": "远识资本投资了刘宇主导的Vivix项目",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    },
+    {
+      "source": "7verse",
+      "target": "科比",
+      "relation_type": "related",
+      "label": "作者在7verse中导入科比的社交链接尝试生成其互动数字人",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "high"
+    },
+    {
+      "source": "Vivix",
+      "target": "科比",
+      "relation_type": "related",
+      "label": "文章标题明确指出Vivix试图用数字人技术复活科比",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "high"
+    },
+    {
+      "source": "刘宇",
+      "target": "7verse",
+      "relation_type": "works_on",
+      "label": "刘宇作为Vivix核心人物参与主导7verse的开发与迭代",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 8,
+    "relationship_count": 10,
+    "pruned_entities": []
+  }
+}

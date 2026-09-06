@@ -1,0 +1,177 @@
+{
+  "article": {
+    "id": "007",
+    "title": "王小川造不出医生",
+    "path": "articles/007_2025-06-26_葬爱咸鱼_王小川造不出医生.md",
+    "date": "2025-06-26",
+    "author": "葬爱咸鱼",
+    "content_hash": "cc8259304f8e97225eba356590d3ee8b9c44d174c3851d07f68356ee4fea090a"
+  },
+  "entities": [
+    {
+      "id": "百川智能",
+      "name": "百川智能",
+      "type": "company",
+      "description": "一家拿VC融资的AI公司，正尝试研发AI辅助诊断医疗大模型",
+      "mention_count": 9,
+      "aliases": [],
+      "tags": [
+        "AI六小虎",
+        "AI医疗",
+        "辅助诊断"
+      ]
+    },
+    {
+      "id": "王小川",
+      "name": "王小川",
+      "type": "person",
+      "description": "百川智能掌舵人，提出用AI大模型造出专家级别的医生",
+      "mention_count": 7,
+      "aliases": [],
+      "tags": [
+        "AI医疗",
+        "辅助诊断"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "AI大模型，能够处理简单疾病但不能承担医疗责任",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "AI医生"
+      ]
+    },
+    {
+      "id": "好大夫在线",
+      "name": "好大夫在线",
+      "type": "company",
+      "description": "开创互联网+分级诊疗体系的在线问诊平台",
+      "mention_count": 2,
+      "aliases": [
+        "好大夫"
+      ],
+      "tags": [
+        "在线问诊",
+        "分级诊疗"
+      ]
+    },
+    {
+      "id": "微医集团",
+      "name": "微医集团",
+      "type": "company",
+      "description": "互联网医疗的老大哥，主要为医保局做控费系统和医院信息化改造",
+      "mention_count": 2,
+      "aliases": [
+        "微医"
+      ],
+      "tags": [
+        "互联网医疗",
+        "AI医疗"
+      ]
+    },
+    {
+      "id": "北京儿童医院",
+      "name": "北京儿童医院",
+      "type": "company",
+      "description": "与百川智能合作落地AI初筛医疗模型的机构",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "医疗机构"
+      ]
+    },
+    {
+      "id": "支付宝",
+      "name": "支付宝",
+      "type": "company",
+      "description": "收购了在线医疗平台好大夫在线的公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "福棠-百川",
+      "name": "福棠·百川",
+      "type": "product",
+      "description": "百川智能研发的AI模型，主要做AI初筛与远程复核",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI模型",
+        "初筛"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "支付宝",
+      "target": "好大夫在线",
+      "relation_type": "acquires",
+      "label": "好大夫在线因无法独立盈利而卖身给支付宝",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "好大夫在线",
+      "target": "百川智能",
+      "relation_type": "compares_to",
+      "label": "文章以好大夫在线难以兼顾社会价值与商业成功的经历，类比百川智能将面临的挑战",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "微医集团",
+      "target": "百川智能",
+      "relation_type": "compares_to",
+      "label": "文章将百川智能向医院收费的商业模式与微医集团的困境作为参照对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "百川智能",
+      "target": "福棠·百川",
+      "relation_type": "develops",
+      "label": "百川智能研发了「福棠·百川」AI模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "王小川",
+      "target": "百川智能",
+      "relation_type": "founder_of",
+      "label": "王小川是百川智能的掌舵人，主导公司的AI医疗业务方向",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "北京儿童医院",
+      "target": "百川智能",
+      "relation_type": "partners_with",
+      "label": "百川智能与北京儿童医院合作，在地方落地AI医疗模型",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 8,
+    "relationship_count": 6,
+    "pruned_entities": [
+      {
+        "name": "零一万物",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

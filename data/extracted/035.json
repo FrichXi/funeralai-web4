@@ -1,0 +1,323 @@
+{
+  "article": {
+    "id": "035",
+    "title": "彼得蒂尔是中国的辱追梦男",
+    "path": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
+    "date": "2025-11-18",
+    "author": "葬爱咸鱼",
+    "content_hash": "7ae707f82b00602f86ca8ee970e039f54b844e93407880c0ac82a2c7b1327d47"
+  },
+  "entities": [
+    {
+      "id": "彼得-蒂尔",
+      "name": "彼得·蒂尔",
+      "type": "person",
+      "description": "PayPal和Palantir创办者",
+      "mention_count": 20,
+      "aliases": [
+        "Peter Thiel",
+        "蒂尔"
+      ],
+      "tags": [
+        "硅谷右翼",
+        "暗黑启蒙",
+        "有效加速主义",
+        "科技红脖"
+      ]
+    },
+    {
+      "id": "uber",
+      "name": "Uber",
+      "type": "company",
+      "description": "美国网约车与外卖巨头",
+      "mention_count": 9,
+      "aliases": [],
+      "tags": [
+        "出行",
+        "超限战"
+      ]
+    },
+    {
+      "id": "马斯克",
+      "name": "马斯克",
+      "type": "person",
+      "description": "特斯拉与SpaceX创办者，PayPal联合创办者",
+      "mention_count": 6,
+      "aliases": [
+        "Elon Musk"
+      ],
+      "tags": []
+    },
+    {
+      "id": "滴滴",
+      "name": "滴滴",
+      "type": "company",
+      "description": "中国出行平台，Uber的竞争对手",
+      "mention_count": 4,
+      "aliases": [
+        "DiDi"
+      ],
+      "tags": [
+        "出行",
+        "创新"
+      ]
+    },
+    {
+      "id": "palantir",
+      "name": "Palantir",
+      "type": "company",
+      "description": "军事AI公司",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "知识图谱",
+        "CV算法",
+        "军事AI"
+      ]
+    },
+    {
+      "id": "doordash",
+      "name": "DoorDash",
+      "type": "company",
+      "description": "在线外卖平台",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "jd万斯",
+      "name": "JD万斯",
+      "type": "person",
+      "description": "美国副总统",
+      "mention_count": 1,
+      "aliases": [
+        "JD Vance"
+      ],
+      "tags": []
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "type": "company",
+      "description": "由彼得·蒂尔和马斯克共同缔造的支付公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "PayPal黑帮"
+      ]
+    },
+    {
+      "id": "roelof-botha",
+      "name": "Roelof Botha",
+      "type": "person",
+      "description": "曾任红杉资本话事人",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "spacex",
+      "name": "SpaceX",
+      "type": "company",
+      "description": "马斯克创办的商业航天公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "商业航天",
+        "殖民火星"
+      ]
+    },
+    {
+      "id": "travis-kalanick",
+      "name": "Travis Kalanick",
+      "type": "person",
+      "description": "Uber创始人",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "uber-eats",
+      "name": "Uber Eats",
+      "type": "product",
+      "description": "Uber旗下的在线外卖服务",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "商汤科技",
+      "name": "商汤科技",
+      "type": "company",
+      "description": "中国AI公司，文中用作Palantir的类比对象",
+      "mention_count": 1,
+      "aliases": [
+        "商汤"
+      ],
+      "tags": []
+    },
+    {
+      "id": "特斯拉",
+      "name": "特斯拉",
+      "type": "company",
+      "description": "马斯克创办的电动汽车公司",
+      "mention_count": 1,
+      "aliases": [
+        "Tesla"
+      ],
+      "tags": [
+        "电动汽车"
+      ]
+    },
+    {
+      "id": "红杉资本",
+      "name": "红杉资本",
+      "type": "company",
+      "description": "知名投资机构",
+      "mention_count": 1,
+      "aliases": [
+        "Sequoia Capital"
+      ],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "彼得·蒂尔",
+      "target": "马斯克",
+      "relation_type": "collaborates_with",
+      "label": "两人是好兄弟，共同缔造了PayPal",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Palantir",
+      "target": "商汤科技",
+      "relation_type": "compares_to",
+      "label": "文中将Palantir比作“美国商汤”，并认为其远远不如商汤科技",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "DoorDash",
+      "target": "Uber",
+      "relation_type": "competes_with",
+      "label": "DoorDash和Uber Eats均为美国在线外卖平台",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Uber",
+      "target": "滴滴",
+      "relation_type": "competes_with",
+      "label": "Uber当年在中国市场与滴滴激烈厮杀",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Uber",
+      "target": "Uber Eats",
+      "relation_type": "develops",
+      "label": "Uber推出了Uber Eats",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Travis Kalanick",
+      "target": "Uber",
+      "relation_type": "founder_of",
+      "label": "Travis Kalanick是Uber创始人",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "彼得·蒂尔",
+      "target": "Palantir",
+      "relation_type": "founder_of",
+      "label": "他创办了Palantir这家军事AI公司",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "彼得·蒂尔",
+      "target": "PayPal",
+      "relation_type": "founder_of",
+      "label": "彼得·蒂尔和马斯克一手缔造了PayPal黑帮",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "马斯克",
+      "target": "PayPal",
+      "relation_type": "founder_of",
+      "label": "马斯克和彼得·蒂尔一手缔造了PayPal",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "马斯克",
+      "target": "SpaceX",
+      "relation_type": "founder_of",
+      "label": "马斯克创造了商业航天公司",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "马斯克",
+      "target": "特斯拉",
+      "relation_type": "founder_of",
+      "label": "马斯克创造了全球最有名的电动汽车公司",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "彼得·蒂尔",
+      "target": "JD万斯",
+      "relation_type": "mentors",
+      "label": "文中称JD万斯是彼得·蒂尔的小弟",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Roelof Botha",
+      "target": "红杉资本",
+      "relation_type": "works_at",
+      "label": "曾是红杉资本的话事人",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 15,
+    "relationship_count": 13,
+    "pruned_entities": [
+      {
+        "name": "David Sacks",
+        "reason": "low-signal"
+      },
+      {
+        "name": "OpenAI",
+        "reason": "low-signal"
+      },
+      {
+        "name": "英伟达",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

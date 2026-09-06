@@ -1,0 +1,225 @@
+{
+  "article": {
+    "id": "100",
+    "title": "网吧黑客松里有真黑客",
+    "path": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
+    "date": "2026-06-07",
+    "author": "沐秋",
+    "content_hash": "b78632ecedb3a2f1a86179566072c14670f562a8e882d18cb009736c3665e542"
+  },
+  "entities": [
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "黑客松中选手广泛使用的AI代码生成工具",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "AI工具",
+        "代码生成"
+      ]
+    },
+    {
+      "id": "tripo",
+      "name": "Tripo",
+      "type": "product",
+      "description": "用于生成3D素材的AI工具，在黑客松中被大量使用",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "AI工具",
+        "3D生成"
+      ]
+    },
+    {
+      "id": "agent-tank",
+      "name": "Agent Tank",
+      "type": "product",
+      "description": "需要用大模型训练坦克并进行对战的AI游戏/应用",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI游戏",
+        "Agent"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "AI代码生成工具，在黑客松中与Codex竞争使用率",
+      "mention_count": 2,
+      "aliases": [
+        "Claude Code"
+      ],
+      "tags": [
+        "AI工具",
+        "代码生成"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "国产AI网页端产品",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI工具"
+      ]
+    },
+    {
+      "id": "qoder",
+      "name": "Qoder",
+      "type": "product",
+      "description": "被称为国产之光的AI代码工具",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI工具",
+        "国产AI"
+      ]
+    },
+    {
+      "id": "trae",
+      "name": "Trae",
+      "type": "product",
+      "description": "被称为国产之光的AI代码工具",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI工具",
+        "国产AI"
+      ]
+    },
+    {
+      "id": "葬爱咸鱼",
+      "name": "葬爱咸鱼",
+      "type": "person",
+      "description": "网吧黑客松活动的组织者或工作人员",
+      "mention_count": 2,
+      "aliases": [
+        "咸鱼"
+      ],
+      "tags": [
+        "黑客松"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内AI公司，提供AI大模型网页端服务",
+      "mention_count": 1,
+      "aliases": [
+        "Minimax"
+      ],
+      "tags": [
+        "AI公司",
+        "大模型"
+      ]
+    },
+    {
+      "id": "奥特曼",
+      "name": "奥特曼",
+      "type": "person",
+      "description": "被指望能够重置AI工具调用额度的人物（指代Sam Altman）",
+      "mention_count": 1,
+      "aliases": [
+        "Sam Altman"
+      ],
+      "tags": [
+        "AI行业人物"
+      ]
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "国内AI公司，提供AI大模型网页端服务",
+      "mention_count": 1,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "AI公司",
+        "大模型"
+      ]
+    },
+    {
+      "id": "王登科",
+      "name": "王登科",
+      "type": "person",
+      "description": "Agent Tank的开发者或关联人物",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI开发者"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Claude",
+      "target": "Codex",
+      "relation_type": "competes_with",
+      "label": "两者均为黑客松中常用的AI代码生成工具，文中指出大部分人用Codex，而Claude Code表现不佳被边缘化",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "智谱AI",
+      "relation_type": "competes_with",
+      "label": "作为同类国产AI网页端服务被并列提及",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Qoder",
+      "target": "Trae",
+      "relation_type": "competes_with",
+      "label": "两者被共同作为“国产之光”的同类代码工具并列提及",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "奥特曼",
+      "target": "Codex",
+      "relation_type": "works_on",
+      "label": "文中提到选手在Codex额度用光时等待“奥特曼”大发善心重置额度，暗示其对该工具及所属公司有核心控制权",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "王登科",
+      "target": "Agent Tank",
+      "relation_type": "works_on",
+      "label": "文中提及“引入了王登科Agent Tank”，表明王登科是该产品的开发者或核心主导者",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 12,
+    "relationship_count": 5,
+    "pruned_entities": [
+      {
+        "name": "Wanaka",
+        "reason": "low-signal"
+      },
+      {
+        "name": "元宝",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

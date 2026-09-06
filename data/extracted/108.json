@@ -1,0 +1,240 @@
+{
+  "article": {
+    "id": "108",
+    "title": "深圳AI硬件特别正常",
+    "path": "articles/108_2026-06-23_葬爱咸鱼_深圳AI硬件特别正常.md",
+    "date": "2026-06-23",
+    "author": "葬爱咸鱼",
+    "content_hash": "092bf52648d4ac7dcb77ba5e729008e080d965d6d1a17951bf349665f4b193f5"
+  },
+  "entities": [
+    {
+      "id": "moya",
+      "name": "Moya",
+      "type": "product",
+      "description": "提供拥抱与萌蠢对话功能的软体大白机器人",
+      "mention_count": 10,
+      "aliases": [],
+      "tags": [
+        "拥抱机器人",
+        "情感陪伴",
+        "AI硬件"
+      ]
+    },
+    {
+      "id": "nuna",
+      "name": "Nuna",
+      "type": "product",
+      "description": "配备毫米波雷达、结合心率和情绪进行录音总结的吊坠项链",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "吊坠项链",
+        "录音总结",
+        "健康监测"
+      ]
+    },
+    {
+      "id": "looi",
+      "name": "Looi",
+      "type": "product",
+      "description": "不带屏幕、需要放置手机作为屏幕的桌面机器人",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "桌面机器人",
+        "手机支架"
+      ]
+    },
+    {
+      "id": "odyss",
+      "name": "Odyss",
+      "type": "company",
+      "description": "研发健康项链的AI硬件公司",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "健康项链"
+      ]
+    },
+    {
+      "id": "拓竹",
+      "name": "拓竹",
+      "type": "company",
+      "description": "科技硬件公司，其产品常被视为不俗气的送礼选择",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "科技礼品"
+      ]
+    },
+    {
+      "id": "plaud",
+      "name": "Plaud",
+      "type": "product",
+      "description": "以录音总结为核心场景的AI硬件代表",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "录音总结"
+      ]
+    },
+    {
+      "id": "whoop手环",
+      "name": "Whoop手环",
+      "type": "product",
+      "description": "无屏幕纯黑设计、主打测心率和健康陪伴的手环产品",
+      "mention_count": 2,
+      "aliases": [
+        "Whoop"
+      ],
+      "tags": [
+        "健康手环",
+        "订阅制"
+      ]
+    },
+    {
+      "id": "小智ai",
+      "name": "小智AI",
+      "type": "product",
+      "description": "停留在Chatbot阶段的代表性AI硬件产品，被M5Stack套壳",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "Chatbot"
+      ]
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "被认为是目前有价值的Chatbot形态AI应用",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "Chatbot",
+        "AI应用"
+      ]
+    },
+    {
+      "id": "郑潜",
+      "name": "郑潜",
+      "type": "person",
+      "description": "Moya机器人的创始人",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "chris",
+      "name": "Chris",
+      "type": "person",
+      "description": "做健康项链的Odyss公司创始人",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "m5stack桌面机器人",
+      "name": "M5Stack桌面机器人",
+      "type": "product",
+      "description": "套壳小智AI的桌面机器人",
+      "mention_count": 1,
+      "aliases": [
+        "M5Stack"
+      ],
+      "tags": [
+        "桌面机器人"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Looi",
+      "target": "M5Stack桌面机器人",
+      "relation_type": "compares_to",
+      "label": "作者将M5Stack桌面机器人的功能丰富度与Looi进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Nuna",
+      "target": "Whoop手环",
+      "relation_type": "compares_to",
+      "label": "作者将Nuna与Whoop手环的市场定位和性价比进行了比喻性对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Chris",
+      "target": "Odyss",
+      "relation_type": "founder_of",
+      "label": "Chris创办了研发健康项链的Odyss公司",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "M5Stack桌面机器人",
+      "target": "小智AI",
+      "relation_type": "integrates_with",
+      "label": "M5Stack桌面机器人在本质上套壳并集成了小智AI的功能",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "郑潜",
+      "target": "Moya",
+      "relation_type": "works_on",
+      "label": "郑潜是Moya机器人的创始人，负责主导该产品的研发",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 12,
+    "relationship_count": 5,
+    "pruned_entities": [
+      {
+        "name": "Bloome",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Cherry Studio",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Manus",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Slock",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Somina lab",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Toki",
+        "reason": "low-signal"
+      },
+      {
+        "name": "YouWare",
+        "reason": "low-signal"
+      },
+      {
+        "name": "马卡龙",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

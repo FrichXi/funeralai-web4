@@ -4,8 +4,8 @@
     "name": "智谱AI",
     "type": "company",
     "description": "被文章推测为“牛来大模型”背后厂商，多次采用匿名打榜营销策略的中国AI公司",
-    "mention_count": 140,
-    "article_count": 25,
+    "mention_count": 147,
+    "article_count": 26,
     "aliases": [
       "Zhipu",
       "智谱",
@@ -41,8 +41,8 @@
       "独角兽",
       "编程场景"
     ],
-    "references": 25,
-    "source_article_count": 25,
+    "references": 26,
+    "source_article_count": 26,
     "source_articles": [
       {
         "article_id": "006",
@@ -79,6 +79,15 @@
         "permalink": "/articles/112",
         "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
         "mention_count": 8
+      },
+      {
+        "article_id": "141",
+        "title": "再爱MiniMax一次",
+        "date": "2026-09-01",
+        "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "permalink": "/articles/141",
+        "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "mention_count": 7
       },
       {
         "article_id": "137",
@@ -270,8 +279,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 67,
-    "composite_weight": 0.7427
+    "degree": 69,
+    "composite_weight": 0.7158
   },
   "links": [
     {
@@ -332,17 +341,28 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "两者作为表现亮眼的模型厂被并列提及",
-      "weight": 4,
+      "weight": 5,
       "strength": 2,
-      "effective_weight": 12,
-      "article_count": 4,
+      "effective_weight": 15,
+      "article_count": 5,
       "evidence_articles": [
         "089",
         "099",
         "117",
-        "134"
+        "134",
+        "141"
       ],
       "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中将MiniMax与智谱AI进行全方位对标，讨论两者水平差距及待遇标准互换",
+          "weight": 1
+        },
         {
           "article_id": "134",
           "title": "Kimi熹妃回宫",
@@ -634,6 +654,32 @@
     },
     {
       "source": "智谱ai",
+      "target": "闫俊杰",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "闫俊杰喊话暗示MiniMax和智谱一个水平，只是阶段性落后",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "闫俊杰喊话暗示MiniMax和智谱一个水平，只是阶段性落后",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "智谱ai",
       "target": "阶跃星辰",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -755,6 +801,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "同属被列举的采用匿名打榜策略的厂商",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "闫俊杰",
+      "target": "智谱ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "闫俊杰喊话暗示MiniMax和智谱一个水平，只是阶段性落后",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -1883,7 +1942,7 @@
     {
       "source": "claude",
       "target": "智谱ai",
-      "score": 0.8922,
+      "score": 0.8885,
       "suggested_relation_type": "related",
       "reason": "共同出现于 10 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
@@ -1898,9 +1957,9 @@
     {
       "source": "qwen",
       "target": "智谱ai",
-      "score": 0.7721,
+      "score": 0.7903,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 7 篇文章；共享 6 个邻居",
+      "reason": "共同出现于 8 篇文章；共享 7 个邻居",
       "evidence_article_ids": [
         "026",
         "049",
@@ -1913,7 +1972,7 @@
     {
       "source": "智谱ai",
       "target": "杨植麟",
-      "score": 0.729,
+      "score": 0.7061,
       "suggested_relation_type": "related",
       "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1928,7 +1987,7 @@
     {
       "source": "智谱ai",
       "target": "豆包",
-      "score": 0.6702,
+      "score": 0.6667,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1943,7 +2002,7 @@
     {
       "source": "codex",
       "target": "智谱ai",
-      "score": 0.5737,
+      "score": 0.5696,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [

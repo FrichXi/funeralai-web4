@@ -1,0 +1,249 @@
+{
+  "article": {
+    "id": "014",
+    "title": "除了投资人，没人需要AI播客",
+    "path": "articles/014_2025-08-07_葬爱咸鱼_除了投资人，没人需要AI播客.md",
+    "date": "2025-08-07",
+    "author": "葬爱咸鱼",
+    "content_hash": "cce8692605779651f53cde27127b190b92d6e7f57243eb2bb86ade55dbdf1297"
+  },
+  "entities": [
+    {
+      "id": "来福电台",
+      "name": "来福电台",
+      "type": "product",
+      "description": "一款内容由AI生成的播客应用，包含系统推荐单集和用户定制功能",
+      "mention_count": 7,
+      "aliases": [],
+      "tags": [
+        "AI播客",
+        "音频生成",
+        "数据飞轮"
+      ]
+    },
+    {
+      "id": "小宇宙",
+      "name": "小宇宙",
+      "type": "product",
+      "description": "国内流行的播客收听平台",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "播客平台"
+      ]
+    },
+    {
+      "id": "chatpods",
+      "name": "ChatPods",
+      "type": "product",
+      "description": "一款集合播客并生成语音摘要的独立AI播客产品",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI播客",
+        "语音摘要",
+        "独立产品"
+      ]
+    },
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "type": "product",
+      "description": "定位为“音频概览”的AI知识库及语音摘要工具",
+      "mention_count": 2,
+      "aliases": [
+        "Audio Overviews"
+      ],
+      "tags": [
+        "知识库",
+        "语音摘要",
+        "音频概览"
+      ]
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "type": "company",
+      "description": "海外知名流媒体及播客平台",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "播客平台",
+        "海外市场"
+      ]
+    },
+    {
+      "id": "喜马拉雅",
+      "name": "喜马拉雅",
+      "type": "product",
+      "description": "知名音频分享与播客平台",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "音频平台",
+        "内容平台"
+      ]
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "具备语音模式的大语言模型应用",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "语音模式"
+      ]
+    },
+    {
+      "id": "ima",
+      "name": "Ima",
+      "type": "product",
+      "description": "腾讯旗下的知识库工具，具备语音摘要功能",
+      "mention_count": 1,
+      "aliases": [
+        "腾讯Ima"
+      ],
+      "tags": [
+        "知识库",
+        "语音摘要"
+      ]
+    },
+    {
+      "id": "listenhub",
+      "name": "ListenHub",
+      "type": "product",
+      "description": "一款具有语音生成能力的应用或工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "语音生成"
+      ]
+    },
+    {
+      "id": "微信读书",
+      "name": "微信读书",
+      "type": "product",
+      "description": "具备语音朗读功能的阅读应用",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "阅读应用",
+        "语音朗读"
+      ]
+    },
+    {
+      "id": "腾讯",
+      "name": "腾讯",
+      "type": "company",
+      "description": "Ima知识库工具的开发公司",
+      "mention_count": 1,
+      "aliases": [
+        "Tencent"
+      ],
+      "tags": [
+        "科技大厂"
+      ]
+    },
+    {
+      "id": "谷歌",
+      "name": "谷歌",
+      "type": "company",
+      "description": "NotebookLM的开发公司",
+      "mention_count": 1,
+      "aliases": [
+        "Google"
+      ],
+      "tags": [
+        "科技巨头"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ChatPods",
+      "target": "小宇宙",
+      "relation_type": "compares_to",
+      "label": "文章对ChatPods生成的摘要模式提出质疑，对比用户直接去小宇宙收听原播客的行为逻辑",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "ListenHub",
+      "target": "来福电台",
+      "relation_type": "compares_to",
+      "label": "文章评价来福电台的语音效果不如ListenHub",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "喜马拉雅",
+      "target": "来福电台",
+      "relation_type": "compares_to",
+      "label": "文章将生成AI虚构故事的来福电台评价为“低配版喜马拉雅”",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "来福电台",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "label": "文章对比了两者的语音效果，认为来福电台的机械语音比不上豆包",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "ChatPods",
+      "target": "微信读书",
+      "relation_type": "competes_with",
+      "label": "文章认为市面上的AI播客产品（如ChatPods）本质是语音摘要工具，实际竞争对手是微信读书的语音朗读功能",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "微信读书",
+      "target": "来福电台",
+      "relation_type": "competes_with",
+      "label": "文章认为市面上的AI播客产品（如来福电台）本质是语音摘要工具，实际竞争对手是微信读书的语音朗读功能",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "腾讯",
+      "target": "Ima",
+      "relation_type": "develops",
+      "label": "腾讯开发了Ima知识库工具",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "谷歌",
+      "target": "NotebookLM",
+      "relation_type": "develops",
+      "label": "谷歌开发并推出了NotebookLM工具",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 12,
+    "relationship_count": 8,
+    "pruned_entities": [
+      {
+        "name": "ChatGPT",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

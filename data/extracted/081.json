@@ -1,0 +1,246 @@
+{
+  "article": {
+    "id": "081",
+    "title": "小登领导AI社交",
+    "path": "articles/081_2026-04-15_葬爱咸鱼_小登领导AI社交.md",
+    "date": "2026-04-15",
+    "author": "葬爱咸鱼",
+    "content_hash": "88c94954cdc0dd6c29432b07c9a006262dd43a71841570e0c6507869d20b2986"
+  },
+  "entities": [
+    {
+      "id": "elys",
+      "name": "Elys",
+      "type": "product",
+      "description": "核心形态为朋友圈的AI分身社交产品",
+      "mention_count": 32,
+      "aliases": [],
+      "tags": [
+        "AI社交",
+        "AI分身"
+      ]
+    },
+    {
+      "id": "clubhouse",
+      "name": "Clubhouse",
+      "type": "product",
+      "description": "知名语音社交产品",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "语音社交"
+      ]
+    },
+    {
+      "id": "julian",
+      "name": "Julian",
+      "type": "person",
+      "description": "AI社交产品Sekai的开发者",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "second-me",
+      "name": "Second me",
+      "type": "product",
+      "description": "一款AI分身帮你社交的产品",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "AI分身",
+        "社交"
+      ]
+    },
+    {
+      "id": "sekai",
+      "name": "Sekai",
+      "type": "product",
+      "description": "小红书形态的双列图文AI社交产品",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "AI社交"
+      ]
+    },
+    {
+      "id": "即刻",
+      "name": "即刻",
+      "type": "product",
+      "description": "内容社交产品，Elys种子用户和其高度重合",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "社交"
+      ]
+    },
+    {
+      "id": "自然选择",
+      "name": "自然选择",
+      "type": "company",
+      "description": "Elys的开发团队，游戏出身",
+      "mention_count": 3,
+      "aliases": [
+        "自然选择团队"
+      ],
+      "tags": [
+        "游戏"
+      ]
+    },
+    {
+      "id": "沐秋",
+      "name": "沐秋",
+      "type": "person",
+      "description": "Elys的用户，将Elys推荐给了作者",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "type": "product",
+      "description": "被币圈与Elys并称为Web4两大产品",
+      "mention_count": 1,
+      "aliases": [
+        "Openclaw"
+      ],
+      "tags": [
+        "Web4"
+      ]
+    },
+    {
+      "id": "黄女士",
+      "name": "黄女士",
+      "type": "person",
+      "description": "黄姐传媒创始人",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "黄姐传媒",
+      "name": "黄姐传媒",
+      "type": "company",
+      "description": "黄女士创办的传媒机构",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "传媒"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Clubhouse",
+      "target": "Elys",
+      "relation_type": "compares_to",
+      "label": "文章认为Elys和Clubhouse是非常像的产品",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Elys",
+      "target": "OpenClaw",
+      "relation_type": "compares_to",
+      "label": "币圈将Elys和Openclaw并称为Web4两大产品",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Elys",
+      "target": "Sekai",
+      "relation_type": "compares_to",
+      "label": "同为AI社交产品，Julian将其产品机制和体验与Elys做对比探讨",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Elys",
+      "target": "即刻",
+      "relation_type": "compares_to",
+      "label": "文章指出Elys的本质是光屁股版的即刻",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Elys",
+      "target": "Second me",
+      "relation_type": "competes_with",
+      "label": "同为AI分身社交产品，由于团队节点权重问题表现出截然不同的传播效果",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "自然选择",
+      "target": "Elys",
+      "relation_type": "develops",
+      "label": "自然选择团队是Elys的开发团队",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "黄女士",
+      "target": "黄姐传媒",
+      "relation_type": "founder_of",
+      "label": "黄女士是黄姐传媒创始人",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "沐秋",
+      "target": "Elys",
+      "relation_type": "praises",
+      "label": "沐秋向周围人推荐了Elys",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "沐秋",
+      "target": "自然选择",
+      "relation_type": "praises",
+      "label": "沐秋很爱做游戏出身的自然选择团队",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Julian",
+      "target": "即刻",
+      "relation_type": "related",
+      "label": "Julian曾是一天能发100条即刻的重度用户",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "low"
+    },
+    {
+      "source": "Julian",
+      "target": "Sekai",
+      "relation_type": "works_on",
+      "label": "Julian上一段创业做了一个名叫Sekai的AI社交产品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 11,
+    "relationship_count": 11,
+    "pruned_entities": [
+      {
+        "name": "马斯克",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

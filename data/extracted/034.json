@@ -1,0 +1,111 @@
+{
+  "article": {
+    "id": "034",
+    "title": "千问唤起世界人民的最中幻想",
+    "path": "articles/034_2025-11-17_葬爱咸鱼_千问唤起世界人民的最中幻想.md",
+    "date": "2025-11-17",
+    "author": "葬爱咸鱼",
+    "content_hash": "199551a8a6024a1eecc6b719f5c634bcbbdee7a903b7362e684def192e21367a"
+  },
+  "entities": [
+    {
+      "id": "千问",
+      "name": "千问",
+      "type": "product",
+      "description": "阿里巴巴出品的AI原生大模型应用产品",
+      "mention_count": 40,
+      "aliases": [
+        "Qwen",
+        "千问APP"
+      ],
+      "tags": [
+        "大模型",
+        "原生应用",
+        "AI助手"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "知名的海外AI大模型原生产品，被用作千问的对标和测评对比对象",
+      "mention_count": 7,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "AI应用"
+      ]
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "国产AI大模型应用，文中作为千问的竞品参与了能力对比",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "AI助手"
+      ]
+    },
+    {
+      "id": "阿里巴巴",
+      "name": "阿里巴巴",
+      "type": "company",
+      "description": "推出千问APP的科技公司",
+      "mention_count": 1,
+      "aliases": [
+        "阿里"
+      ],
+      "tags": [
+        "大厂",
+        "科技公司"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ChatGPT",
+      "target": "千问",
+      "relation_type": "compares_to",
+      "label": "文章指出千问需要像ChatGPT那样的原生产品形态",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "ChatGPT",
+      "target": "千问",
+      "relation_type": "competes_with",
+      "label": "文章在烂字识图、医学建议、幽默理解、文章总结等多个场景下对千问和ChatGPT进行了深度测试与对比",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "千问",
+      "target": "豆包",
+      "relation_type": "competes_with",
+      "label": "文章在寻求医学建议场景中将千问与豆包的能力进行了横向测试对比",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "千问",
+      "relation_type": "develops",
+      "label": "阿里巴巴出品并推出了千问APP",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 4,
+    "relationship_count": 4,
+    "pruned_entities": []
+  }
+}

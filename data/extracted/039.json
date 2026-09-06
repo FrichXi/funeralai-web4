@@ -1,0 +1,377 @@
+{
+  "article": {
+    "id": "039",
+    "title": "Agnes只会抄和炒的公司，把自己蹭成AI圈大冰",
+    "path": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
+    "date": "2025-12-05",
+    "author": "葬爱咸鱼",
+    "content_hash": "b0e99e16aec79ee428b3cdd98d781b9951d0de85b38650fc0b44fde299ed749e"
+  },
+  "entities": [
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "知名AI公司，被Agnes频繁蹭热度对标",
+      "mention_count": 11,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "被蹭热度"
+      ]
+    },
+    {
+      "id": "agnes",
+      "name": "Agnes",
+      "type": "company",
+      "description": "Agnes公司推出的AI应用平台",
+      "mention_count": 9,
+      "aliases": [
+        "Agnes AI"
+      ],
+      "tags": [
+        "AI公司",
+        "出海",
+        "炒作争议",
+        "AI Agent",
+        "抄袭争议"
+      ]
+    },
+    {
+      "id": "genspark",
+      "name": "GenSpark",
+      "type": "product",
+      "description": "AI产品，被指遭Agnes像素级抄袭",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "AI搜索",
+        "被抄袭对象"
+      ]
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "type": "product",
+      "description": "知名AI智能体产品，被Agnes声称超越或复制",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "AI Agent"
+      ]
+    },
+    {
+      "id": "开为科技",
+      "name": "开为科技",
+      "type": "company",
+      "description": "由杨通创办的原零售SaaS公司，后转型AI领域",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "SaaS转型",
+        "营销解决"
+      ]
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "type": "product",
+      "description": "知名社交应用，被Agnes对标增长纪录",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "社交媒体"
+      ]
+    },
+    {
+      "id": "lovart",
+      "name": "Lovart",
+      "type": "product",
+      "description": "设计类头部AI应用，被Agnes对标访问量",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "设计应用"
+      ]
+    },
+    {
+      "id": "office",
+      "name": "Office",
+      "type": "product",
+      "description": "知名办公软件，Agnes声称要终结其时代",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "办公软件"
+      ]
+    },
+    {
+      "id": "snapchat",
+      "name": "Snapchat",
+      "type": "product",
+      "description": "知名社交应用，被Agnes对标增长纪录",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "社交媒体"
+      ]
+    },
+    {
+      "id": "刘宇",
+      "name": "刘宇",
+      "type": "person",
+      "description": "拥有高估值多模态AI项目的行业人物，被预判将成Agnes蹭热度目标",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "多模态AI"
+      ]
+    },
+    {
+      "id": "大冰",
+      "name": "大冰",
+      "type": "person",
+      "description": "知名人物，被用作比喻Agnes和杨通的炒作行为",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "比喻对象"
+      ]
+    },
+    {
+      "id": "杨通",
+      "name": "杨通",
+      "type": "person",
+      "description": "开为科技与Agnes的创始人",
+      "mention_count": 2,
+      "aliases": [
+        "Bruce Yang"
+      ],
+      "tags": [
+        "连续创业者"
+      ]
+    },
+    {
+      "id": "flowith",
+      "name": "Flowith",
+      "type": "product",
+      "description": "被作者用来与Agnes进行对比的AI产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "id": "roles",
+      "name": "Roles",
+      "type": "product",
+      "description": "开为科技早前发布的AI产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "id": "夸克",
+      "name": "夸克",
+      "type": "product",
+      "description": "被作者用来与Agnes进行生成效果对比的产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "景鲲",
+      "name": "景鲲",
+      "type": "person",
+      "description": "GenSpark相关核心人物",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "行业人物"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Agnes",
+      "target": "DeepSeek",
+      "relation_type": "compares_to",
+      "label": "Agnes公司自诩为东南亚或新加坡的DeepSeek",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "Flowith",
+      "relation_type": "compares_to",
+      "label": "作者通过实际生成任务对比了Agnes与Flowith",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "GenSpark",
+      "relation_type": "compares_to",
+      "label": "Agnes产品被指责像素级抄袭GenSpark",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "Instagram",
+      "relation_type": "compares_to",
+      "label": "Agnes标榜打破了Instagram的增长纪录",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Agnes",
+      "target": "Lovart",
+      "relation_type": "compares_to",
+      "label": "Agnes通过宣称访问量接近Lovart来蹭热度",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "Manus",
+      "relation_type": "compares_to",
+      "label": "Agnes声称其产品功能逼近或复制了Manus",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "Office",
+      "relation_type": "compares_to",
+      "label": "Agnes宣传口号中声称要终结Office时代",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Agnes",
+      "target": "Snapchat",
+      "relation_type": "compares_to",
+      "label": "Agnes标榜打破了Snapchat的增长纪录",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Agnes",
+      "target": "大冰",
+      "relation_type": "compares_to",
+      "label": "Agnes公司因过度炒作被比喻为AI圈的大冰",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "夸克",
+      "relation_type": "compares_to",
+      "label": "作者认为Agnes的生成效果平平无奇，不如用夸克",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Manus",
+      "target": "Roles",
+      "relation_type": "compares_to",
+      "label": "开为科技发文宣称Roles上个月就实现了Manus的功能",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "刘宇",
+      "target": "杨通",
+      "relation_type": "compares_to",
+      "label": "作者预判杨通接下来会去虚空蹭刘宇及其多模态AI项目的热度",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "大冰",
+      "target": "杨通",
+      "relation_type": "compares_to",
+      "label": "创始人杨通被调侃炒作到自己成为AI圈的大冰",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Agnes",
+      "target": "GenSpark",
+      "relation_type": "competes_with",
+      "label": "Agnes试图作为GenSpark的平替竞品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "开为科技",
+      "target": "Agnes",
+      "relation_type": "develops",
+      "label": "开为科技团队借新加坡主体炒作并推出了Agnes产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    },
+    {
+      "source": "开为科技",
+      "target": "Roles",
+      "relation_type": "develops",
+      "label": "开为科技发布了Roles产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "杨通",
+      "target": "Agnes",
+      "relation_type": "founder_of",
+      "label": "杨通是Agnes公司的创始人",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "杨通",
+      "target": "开为科技",
+      "relation_type": "founder_of",
+      "label": "杨通于2019年创办了开为科技",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "景鲲",
+      "target": "GenSpark",
+      "relation_type": "works_on",
+      "label": "景鲲是GenSpark的核心相关人物",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 16,
+    "relationship_count": 19,
+    "pruned_entities": []
+  }
+}

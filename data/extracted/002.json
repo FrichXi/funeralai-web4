@@ -1,0 +1,141 @@
+{
+  "article": {
+    "id": "002",
+    "title": "AI创作产品，还没找到自己的形态",
+    "path": "articles/002_2025-06-13_葬爱咸鱼_AI创作产品，还没找到自己的形态.md",
+    "date": "2025-06-13",
+    "author": "葬爱咸鱼",
+    "content_hash": "80073aaf582049329e0c80ef29d279a4b7ad36610aedebba7192f9e151b9c301"
+  },
+  "entities": [
+    {
+      "id": "youmind",
+      "name": "YouMind",
+      "type": "product",
+      "description": "一款强调阅读原始文本的AI创作和知识库产品",
+      "mention_count": 24,
+      "aliases": [],
+      "tags": [
+        "AI创作",
+        "知识库",
+        "AI搜索"
+      ]
+    },
+    {
+      "id": "grimo",
+      "name": "Grimo",
+      "type": "product",
+      "description": "一款定位为“AI加编辑器”的AI写作与创作产品",
+      "mention_count": 13,
+      "aliases": [],
+      "tags": [
+        "AI创作",
+        "AI编辑器"
+      ]
+    },
+    {
+      "id": "ima",
+      "name": "ima",
+      "type": "product",
+      "description": "腾讯推出的知识库产品",
+      "mention_count": 3,
+      "aliases": [
+        "腾讯ima",
+        "腾讯ima知识库"
+      ],
+      "tags": [
+        "知识库"
+      ]
+    },
+    {
+      "id": "玉伯",
+      "name": "玉伯",
+      "type": "person",
+      "description": "YouMind 创始人，提出“稿生万物”、“创作伴侣”等产品理念",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "腾讯",
+      "name": "腾讯",
+      "type": "company",
+      "description": "ima 知识库的开发公司",
+      "mention_count": 2,
+      "aliases": [
+        "Tencent"
+      ],
+      "tags": [
+        "科技公司"
+      ]
+    },
+    {
+      "id": "chatgpt-deep-research",
+      "name": "ChatGPT Deep Research",
+      "type": "product",
+      "description": "一种能够自动联网搜索并生成综述报告的AI深度研究工具，被用作与YouMind作对比",
+      "mention_count": 1,
+      "aliases": [
+        "Deep Research"
+      ],
+      "tags": [
+        "AI报告",
+        "深度研究"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ChatGPT Deep Research",
+      "target": "YouMind",
+      "relation_type": "compares_to",
+      "label": "文中将 YouMind 的 Board 联网搜索及综述功能比作“去中心化的 ChatGPT Deep Research”",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "YouMind",
+      "target": "ima",
+      "relation_type": "compares_to",
+      "label": "文中将 YouMind 评价为“前进一步的腾讯ima知识库”",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Grimo",
+      "target": "YouMind",
+      "relation_type": "competes_with",
+      "label": "二者均为当前处于探索阶段的 AI 创作产品，在 AI 辅助写作场景下存在竞品关系",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "腾讯",
+      "target": "ima",
+      "relation_type": "develops",
+      "label": "腾讯开发了 ima 知识库",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "玉伯",
+      "target": "YouMind",
+      "relation_type": "works_on",
+      "label": "玉伯是 YouMind 的创始人，主导了该产品的理念与开发",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 6,
+    "relationship_count": 5,
+    "pruned_entities": []
+  }
+}

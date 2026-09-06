@@ -1,0 +1,109 @@
+{
+  "article": {
+    "id": "013",
+    "title": "MyShell说明AI创业真是发币",
+    "path": "articles/013_2025-08-01_葬爱咸鱼_MyShell说明AI创业真是发币.md",
+    "date": "2025-08-01",
+    "author": "葬爱咸鱼",
+    "content_hash": "6a58e95e9ebf95b3dc03b8860ff56923f1124d7cd9f6b6033de35ea80cc4da60"
+  },
+  "entities": [
+    {
+      "id": "myshell",
+      "name": "MyShell",
+      "type": "product",
+      "description": "专业的Web3团队，开发并运营AI+Web3产品的公司",
+      "mention_count": 23,
+      "aliases": [
+        "MyShell团队"
+      ],
+      "tags": [
+        "Web3",
+        "AI公司",
+        "代币运营"
+      ]
+    },
+    {
+      "id": "youware",
+      "name": "YouWare",
+      "type": "product",
+      "description": "主打Vibe Coding和前端小玩具的AI社区产品",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "Vibe Coding",
+        "内容社区",
+        "AI应用"
+      ]
+    },
+    {
+      "id": "shellagent",
+      "name": "ShellAgent",
+      "type": "product",
+      "description": "MyShell推出的通过文字输入生成Agent的AI功能",
+      "mention_count": 2,
+      "aliases": [
+        "Agent"
+      ],
+      "tags": [
+        "Agent生成",
+        "AI开发工具"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "MyShell",
+      "target": "ShellAgent",
+      "relation_type": "develops",
+      "label": "MyShell主推并开发了ShellAgent功能",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 3,
+    "relationship_count": 1,
+    "pruned_entities": [
+      {
+        "name": "Cluely",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Headai",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Labubu Maker",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Lucky Kisses",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Manus",
+        "reason": "low-signal"
+      },
+      {
+        "name": "MiniMax",
+        "reason": "low-signal"
+      },
+      {
+        "name": "MyShell平台",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "妙鸭相机",
+        "reason": "low-signal"
+      },
+      {
+        "name": "币安",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

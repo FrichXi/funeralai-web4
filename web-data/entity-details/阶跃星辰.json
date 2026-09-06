@@ -164,7 +164,7 @@
       }
     ],
     "degree": 51,
-    "composite_weight": 0.4781
+    "composite_weight": 0.4404
   },
   "links": [
     {
@@ -1332,7 +1332,7 @@
     {
       "source": "claude",
       "target": "阶跃星辰",
-      "score": 0.6163,
+      "score": 0.6127,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1345,23 +1345,11 @@
       "status": "suggested"
     },
     {
-      "source": "anthropic",
-      "target": "阶跃星辰",
-      "score": 0.5468,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "109",
-        "123"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "qwen",
       "target": "阶跃星辰",
-      "score": 0.5463,
+      "score": 0.6062,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "029",
         "049",
@@ -1371,9 +1359,21 @@
       "status": "suggested"
     },
     {
+      "source": "anthropic",
+      "target": "阶跃星辰",
+      "score": 0.543,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "109",
+        "123"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "阶跃星辰",
       "target": "马斯克",
-      "score": 0.5401,
+      "score": 0.5371,
       "suggested_relation_type": "related",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1385,7 +1385,7 @@
     {
       "source": "杨植麟",
       "target": "阶跃星辰",
-      "score": 0.4638,
+      "score": 0.4613,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 1 个邻居；处于同一讨论社区",
       "evidence_article_ids": [

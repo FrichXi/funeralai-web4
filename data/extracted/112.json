@@ -1,0 +1,382 @@
+{
+  "article": {
+    "id": "112",
+    "title": "老天保佑Qwen救救阿里巴巴",
+    "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
+    "date": "2026-07-02",
+    "author": "葬爱咸鱼",
+    "content_hash": "276db85b111eb7e1c5ba2da70bad8f860421b6d79ae0f75543e566e180b95904"
+  },
+  "entities": [
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "阿里巴巴开发的大语言模型系列，文中提及Qwen 3.7 Max",
+      "mention_count": 40,
+      "aliases": [
+        "Qwen 3.7 Max",
+        "通义千问"
+      ],
+      "tags": [
+        "大模型",
+        "编程",
+        "长程任务"
+      ]
+    },
+    {
+      "id": "阿里巴巴",
+      "name": "阿里巴巴",
+      "type": "company",
+      "description": "中国科技巨头，正在整合AI业务并推出Qwen系列模型",
+      "mention_count": 29,
+      "aliases": [
+        "阿里"
+      ],
+      "tags": [
+        "大厂",
+        "AI整合",
+        "电商"
+      ]
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "字节跳动推出的C端AI助手，在多模态交互方面领先",
+      "mention_count": 15,
+      "aliases": [
+        "豆包APP"
+      ],
+      "tags": [
+        "Chatbot",
+        "多模态",
+        "语音交互"
+      ]
+    },
+    {
+      "id": "glm",
+      "name": "GLM",
+      "type": "product",
+      "description": "智谱AI开发的大语言模型，文中提及GLM 5.2版本",
+      "mention_count": 14,
+      "aliases": [
+        "GLM 5.2"
+      ],
+      "tags": [
+        "大模型",
+        "国模第一",
+        "编程"
+      ]
+    },
+    {
+      "id": "千问app",
+      "name": "千问APP",
+      "type": "product",
+      "description": "阿里巴巴推出的C端AI应用，集成Agent能力与多模态功能",
+      "mention_count": 10,
+      "aliases": [
+        "通义APP"
+      ],
+      "tags": [
+        "Chatbot",
+        "Agent",
+        "2C应用"
+      ]
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "国内头部大模型公司，GLM模型开发商，被视为阿里在AI领域的强劲对手",
+      "mention_count": 8,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "大模型",
+        "独角兽",
+        "编程场景"
+      ]
+    },
+    {
+      "id": "seed",
+      "name": "Seed",
+      "type": "product",
+      "description": "字节跳动的基础大模型系列，文中评价其基模能力弱于产品表现",
+      "mention_count": 6,
+      "aliases": [
+        "Seed 2.1 Pro"
+      ],
+      "tags": [
+        "基础模型",
+        "二流国模"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "拥有豆包APP和Seed模型系列的科技巨头，阿里在AI应用层的主要竞争对手",
+      "mention_count": 6,
+      "aliases": [
+        "字节"
+      ],
+      "tags": [
+        "大厂",
+        "AI应用",
+        "视频生成"
+      ]
+    },
+    {
+      "id": "钉钉",
+      "name": "钉钉",
+      "type": "product",
+      "description": "阿里的企业协作平台，近期合并了悟空Agent产品",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "B端应用",
+        "Agent载体"
+      ]
+    },
+    {
+      "id": "happy-horse",
+      "name": "Happy horse",
+      "type": "product",
+      "description": "阿里旗下的视频生成模型，被作者批评刷榜且效果不佳",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "视频生成",
+        "争议产品"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "月之暗面开发的AI产品，文中提及其Kimi work抄袭对象错误",
+      "mention_count": 2,
+      "aliases": [
+        "Kimi work"
+      ],
+      "tags": [
+        "Agent",
+        "竞品"
+      ]
+    },
+    {
+      "id": "qoder-work",
+      "name": "Qoder work",
+      "type": "product",
+      "description": "阿里基于Qwen模型开发的生产力Agent工具",
+      "mention_count": 2,
+      "aliases": [
+        "Qoder"
+      ],
+      "tags": [
+        "Agent",
+        "生产力工具"
+      ]
+    },
+    {
+      "id": "token事业群",
+      "name": "Token事业群",
+      "type": "company",
+      "description": "阿里巴巴新成立的AI业务统筹组织，合并了原阿里云、淘天等AI业务",
+      "mention_count": 1,
+      "aliases": [
+        "ATH"
+      ],
+      "tags": [
+        "组织架构",
+        "AI整合"
+      ]
+    },
+    {
+      "id": "吴妈",
+      "name": "吴妈",
+      "type": "person",
+      "description": "阿里Token Foundry事业部直接领导者，负责统筹大模型团队",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "高管",
+        "模型负责人"
+      ]
+    },
+    {
+      "id": "唐杰",
+      "name": "唐杰",
+      "type": "person",
+      "description": "智谱AI创始人/CEO，强调AI时代技术快速进步的重要性",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "行业观点"
+      ]
+    },
+    {
+      "id": "林俊旸",
+      "name": "林俊旸",
+      "type": "person",
+      "description": "原阿里AI业务负责人，其出走催化了阿里Token事业群的成立",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "高管",
+        "组织变动"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Qwen",
+      "target": "Seed",
+      "relation_type": "compares_to",
+      "label": "文中认为Qwen显著领先字节的Seed模型",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "GLM",
+      "target": "Qwen",
+      "relation_type": "competes_with",
+      "label": "Qwen与GLM争夺国模第一的位置，能力接近",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "千问APP",
+      "target": "豆包",
+      "relation_type": "competes_with",
+      "label": "千问APP与豆包在C端AI助手市场直接竞争",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "Seed",
+      "relation_type": "develops",
+      "label": "字节跳动开发Seed基础模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "豆包",
+      "relation_type": "develops",
+      "label": "字节跳动开发豆包APP",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "GLM",
+      "relation_type": "develops",
+      "label": "智谱AI开发GLM系列模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "Happy horse",
+      "relation_type": "develops",
+      "label": "阿里巴巴开发视频模型Happy horse",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "Qoder work",
+      "relation_type": "develops",
+      "label": "阿里巴巴开发生产力Agent Qoder work",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "Qwen",
+      "relation_type": "develops",
+      "label": "阿里巴巴开发Qwen系列大模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "Token事业群",
+      "relation_type": "develops",
+      "label": "阿里巴巴成立Token事业群(ATH)统筹AI业务",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "千问APP",
+      "relation_type": "develops",
+      "label": "阿里巴巴开发千问APP作为C端入口",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "钉钉",
+      "relation_type": "develops",
+      "label": "钉钉是阿里巴巴旗下的企业协作产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "唐杰",
+      "target": "智谱AI",
+      "relation_type": "founder_of",
+      "label": "唐杰是智谱AI的老板/创始人",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "吴妈",
+      "target": "Token事业群",
+      "relation_type": "works_at",
+      "label": "吴妈直接领导阿里Token Foundry事业部",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "林俊旸",
+      "target": "阿里巴巴",
+      "relation_type": "works_at",
+      "label": "林俊旸原任职于阿里巴巴，其出走引发组织变革",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 16,
+    "relationship_count": 15,
+    "pruned_entities": [
+      {
+        "name": "MiniMax",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

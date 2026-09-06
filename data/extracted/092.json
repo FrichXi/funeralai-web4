@@ -1,0 +1,159 @@
+{
+  "article": {
+    "id": "092",
+    "title": "深圳AI硬件十分疯狂",
+    "path": "articles/092_2026-05-18_葬爱咸鱼_深圳AI硬件十分疯狂.md",
+    "date": "2026-05-18",
+    "author": "葬爱咸鱼",
+    "content_hash": "fb923c9e0cd28ac301695acd99cb4d8fef2cb4e2a27297a0a2e8f482fa09bc6b"
+  },
+  "entities": [
+    {
+      "id": "somnia-lab",
+      "name": "Somnia Lab",
+      "type": "company",
+      "description": "研发硅胶实体与APP遥控性爱机器人的深圳创业公司",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "性爱机器人",
+        "硬件"
+      ]
+    },
+    {
+      "id": "自变量",
+      "name": "自变量",
+      "type": "company",
+      "description": "提供上门机器人保洁服务的具身智能公司",
+      "mention_count": 4,
+      "aliases": [
+        "自变量机器人"
+      ],
+      "tags": [
+        "具身智能",
+        "机器人"
+      ]
+    },
+    {
+      "id": "m5stack",
+      "name": "M5Stack",
+      "type": "company",
+      "description": "受电子爱好者欢迎的开发板品牌/硬件公司",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "开发板",
+        "硬件生态"
+      ]
+    },
+    {
+      "id": "youware",
+      "name": "YouWare",
+      "type": "product",
+      "description": "一家位于深圳的AI硬件创业公司",
+      "mention_count": 3,
+      "aliases": [
+        "Youware"
+      ],
+      "tags": [
+        "AI硬件"
+      ]
+    },
+    {
+      "id": "小智ai",
+      "name": "小智AI",
+      "type": "product",
+      "description": "出货量极大的开源AI硬件/开发板方案",
+      "mention_count": 2,
+      "aliases": [
+        "小智"
+      ],
+      "tags": [
+        "AI硬件",
+        "开源方案",
+        "开发板"
+      ]
+    },
+    {
+      "id": "虾哥",
+      "name": "虾哥",
+      "type": "person",
+      "description": "深圳电子佬精神代表，办公室摆满小智AI硬件",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "电子佬"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "大语言模型产品（文中提及用于写同人文）",
+      "mention_count": 1,
+      "aliases": [
+        "Deepseek",
+        "Deepseek V4"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "opencode",
+      "name": "Opencode",
+      "type": "product",
+      "description": "并发运行子代理的代码工具/平台",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI工具",
+        "代理"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "DeepSeek",
+      "target": "Opencode",
+      "relation_type": "integrates_with",
+      "label": "作者使用Opencode结合Deepseek并发运行子代理",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "小智AI",
+      "target": "虾哥",
+      "relation_type": "related",
+      "label": "虾哥办公室有一整个书架的小智AI设备",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "medium"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 8,
+    "relationship_count": 2,
+    "pruned_entities": [
+      {
+        "name": "M5Stack桌面机器人",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "Somnia Lab创始人",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "尧舜禹",
+        "reason": "low-signal"
+      },
+      {
+        "name": "自变量保洁机器人",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

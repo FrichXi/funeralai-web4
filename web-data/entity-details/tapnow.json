@@ -99,7 +99,7 @@
       }
     ],
     "degree": 19,
-    "composite_weight": 0.2699
+    "composite_weight": 0.2448
   },
   "links": [
     {
@@ -508,7 +508,7 @@
     {
       "source": "tapnow",
       "target": "陈冕",
-      "score": 0.5327,
+      "score": 0.5331,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -517,6 +517,32 @@
         "116",
         "119",
         "126"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "tapnow",
+      "target": "字节跳动",
+      "score": 0.4246,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 1 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "073",
+        "078",
+        "119",
+        "126"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "seedance",
+      "target": "tapnow",
+      "score": 0.3954,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "078",
+        "116"
       ],
       "status": "suggested"
     }

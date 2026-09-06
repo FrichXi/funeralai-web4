@@ -1,136 +1,96 @@
-# 发布与回滚运行手册
+# 更新、发布与恢复
 
-> 人工发布环境：canonical root `/Users/xixiangyu/Documents/葬AI Web4`
-> 正式域名：`https://funeralai.cc`  
-> Cloudflare Pages project：`funeral-ai-web4`
+唯一正式站点为 `https://funeralai.cc`，Cloudflare Pages 项目为 `funeral-ai-web4`。
+canonical 仓库为 `/Users/xixiangyu/Documents/葬AI Web4`。
 
-## 1. 唯一正式发布命令
+## 日常更新
+
+定时任务在与 canonical 共用 Git 的隔离 worktree 执行：
+
+```bash
+git fetch origin main
+git merge --ff-only origin/main
+python3 -m scripts.run_pipeline update
+```
+
+`update` 负责导入、增量提取、恢复未完成构建、比较线上内容、按需发布和 GitHub 同步。它不根据导入数量提前退出。新的 worktree 使用 Git 内已保存的提取结果，读取 canonical 的 `pipeline.local.toml` 定位本机文章库，并通过 `TEST_BENCHMARK_DIR` 复用已发布的 benchmark 目录。
+
+多个内容更新共用一个进程锁；锁在进程退出后自动释放。退出前（包括失败）会尝试把已完成进度同步到 Git；失败后直接重跑相同命令，成功的文章不会重复调用模型。推送失败后的本地提交也会在下次同步时继续推送。
+
+## 模型故障切换
+
+按 DashScope → GLM → Kimi → MiniMax 顺序使用 `~/.env` 中的现有密钥，仓库 `.env` 可覆盖；密钥不复制进代码或 Git。
+
+| 供应商 | 密钥 | URL / 模型 |
+|---|---|---|
+| DashScope | `DASHSCOPE_API_KEY` | URL 来自 `DASHSCOPE_BASE_URL`；主模型来自 `pipeline.toml` |
+| GLM | `ZHIPUAI_API_KEY`，兼容 `ZHIPU_API_KEY` / `GLM_API_KEY` | 对应前缀的 `_BASE_URL` / `_MODEL` |
+| Kimi | `MOONSHOT_API_KEY`，兼容 `KIMI_API_KEY` | 对应前缀的 `_BASE_URL` / `_MODEL` |
+| MiniMax | `MINIMAX_API_KEY` | `MINIMAX_BASE_URL` / `MINIMAX_MODEL` |
+
+没有配置密钥的供应商自动跳过。欠费、鉴权失败、模型不可用立即切换，本次运行后续文章跳过已经确认不可用的供应商。超时、限流、服务错误、JSON 不完整最多尝试两次再切换。API 请求使用直连，避免桌面代理污染国内 API 路径。所有供应商失败时保留原结果、返回真实错误，下次自动补做。
+
+`data/extracted/*.json` 是版本化构图输入，每篇记录真实供应商和模型。原始响应、API 密钥仍不进入 Git。默认模型改变不会重提取历史文章；需要主动迁移才使用 `--force`。
+
+## 人工综合发布
+
+修改数据后先运行 `python3 -m scripts.run_pipeline`，仅改图谱规则时运行 `python3 -m scripts.run_pipeline build`。随后：
 
 ```bash
 cd "/Users/xixiangyu/Documents/葬AI Web4/site"
 npm run deploy
 ```
 
-该命令不是单纯上传。它依次执行：仓库卫生检查、数据重建、KG gate、Python/前端测试、一次 production-mode 构建、release contract、本地验证、preview 上传与验收、同产物 production 上传、唯一 production URL 验收、正式域名验收和 receipt 写入。
+发布流程只有一次构建、实际产物校验、一次 production 上传、线上核对和 receipt。测试在开发及 CI 执行，不在每次发布时重复运行。`doctor_repo.sh`、`kg_review_gate.py` 和 `frontend_refactor_readiness.py` 保留为按需诊断；复核日期不作为发文条件。
 
-不得用 `deploy:raw` 发布 production。该命令只允许显式设置 `ALLOW_RAW_PAGES_DEPLOY=1`，并固定发布到 `diagnostics-only` preview branch。
+人工 production 仍从 canonical 执行；内容 worktree 使用 `WEB4_AUTOMATION_WORKTREE=1`、`content` profile。append 目录、普通副本不能发布 production。
 
-工作日内容自动化是唯一受控例外。它必须使用 Codex 的 worktree execution environment，并同时满足：
+`site/public/test` 是已发布 benchmark bundle；内容更新只复制它，不读取正在修改的原始测评目录。榜单下载图片直接复用当前榜单 JSON 已绑定哈希的版本化 PNG。`npm run stage:test` 仅在有意更换 benchmark 时使用。
 
-- worktree 与 canonical root 共用同一个 git common dir；
-- 显式设置 `WEB4_AUTOMATION_WORKTREE=1`；
-- profile 固定为 `content`；
-- 开始构建和部署前 `HEAD` 精确等于最新 `origin/main`；
-- `ZANGAI_ARTICLES_SOURCE_DIR` 指向本机文章库，`TEST_BENCHMARK_CONFIG` 指向 canonical root 的 ignored benchmark 配置。
+GitHub Actions 在干净环境运行测试和 `STAGE_TEST=ci` 编译。正式构建使用 `STAGE_TEST=required`，仍需完整 benchmark bundle，故 Git push 不触发 production 自动部署。
 
-该模式存在的目的，是让内容更新不受 canonical 工作区中未提交的 benchmark/UI 改动影响。普通副本、append 目录及 benchmark/UI/release profile 均不能借此获得 production 权限。
+## 成功与恢复
 
-## 2. 成功证据
+`site/out/release-manifest.json` 记录本次文章/图谱/benchmark、关键哈希、静态树与运行时身份。脚本核对唯一 production URL 和正式域名，成功后写入 ignored `site/.release-receipts/release-*.json`，包括上一 production 的 ID。只有线上内容一致才报告发布完成。
 
-成功发布必须同时留下：
-
-- `site/out/release-manifest.json`：本次产物身份；
-- preview 唯一 URL；
-- production 唯一 URL；
-- `site/.release-receipts/release-*.json`：上一版本、本版本、正式域名与验证结果；
-- 正式域名 `/release-manifest.json` 与本地 release ID 一致。
-
-只有 Wrangler 显示 “Deployment complete” 不算完成。
-
-## 3. 常见失败与安全处置
-
-### doctor 失败
-
-不构建、不部署。按输出处理重复 `public/test *`、源码副本、嵌套 `node_modules`、错误工作树或 secret。备份材料移入 `site/.stage-test-trash/`，不要放在 `site/public/` 或 `site/src/`。
-
-若内容自动化报告 worktree 不受信，检查任务是否使用 worktree execution environment、`WEB4_AUTOMATION_WORKTREE=1` 是否存在、git common dir 是否指向 canonical repo，以及 `HEAD` 是否已 fast-forward 到 `origin/main`。不得把 profile 改成 `release` 绕过校验。
-
-### KG gate 失败
-
-不绕过。复核新文章实体关系，更新 `scripts/overrides.py` 和整体复核记录，再推进 `pipeline.toml` 的 `last_holistic_review_article`。
-
-### 文件预算失败
-
-查看 release guard 输出的 `totalFiles`。19,000 是上传前安全上限，Cloudflare 平台上限为 20,000。优先检查重复 benchmark、归档副本和意外生成目录；不要提高阈值掩盖问题。
-
-### preview 验收失败
-
-production 尚未改变。查看具体的 release ID、哈希、路由或只读 API 错误，修复后从头构建；不得直接跳过 preview。
-
-### production 验收失败
-
-立即停止所有写操作。脚本会打印 `previous_deployment_id`。先执行回滚 dry-run：
-
-```bash
-python3 scripts/rollback_pages.py --deployment-id "<previous_deployment_id>"
-```
-
-dry-run 使用本机 Wrangler 登录态只读查询 production deployment，并读取该版本的 `release-manifest.json`；它不会修改 production，也不会读取或输出 Wrangler 私有 token。确认输出的 project、environment、release ID 和 deployment URL 后，再显式提供 Pages Write API 凭据执行：
-
-```bash
-export CLOUDFLARE_ACCOUNT_ID="<Cloudflare account id>"
-export CLOUDFLARE_API_TOKEN="<Pages Write token>"
-python3 scripts/rollback_pages.py \
-  --deployment-id "<previous_deployment_id>" \
-  --execute \
-  --confirm-project funeral-ai-web4
-```
-
-回滚 API 返回后，工具会用目标 release manifest 对 `https://funeralai.cc` 做完整、有界重试的远程验收。只有正式域名收敛到目标文章、图谱、benchmark、路由和只读 Functions 契约后，receipt 才会标记 `verified: true`。
-
-如果本机没有显式 API token，进入 Cloudflare Dashboard → Pages → `funeral-ai-web4` → Deployments，在上一条成功 production deployment 的菜单中选择官方 **Rollback to this deployment**。不得让脚本读取 Wrangler 私有 OAuth token。
-
-## 4. 手工验证命令
-
-验证当前本地产物：
+检查本地或线上：
 
 ```bash
 python3 scripts/release_guard.py verify-local --mode required
+python3 scripts/release_guard.py verify-remote --base-url https://funeralai.cc
 ```
 
-验证指定部署：
+失败时根据具体阶段处理：抓取失败可重跑并由 Ego Lite 回退；提取失败自动切换供应商；构建失败修复报告中的产物问题；推送失败重跑 `scripts/sync_github_repo.sh --profile content`。不要手动把失败状态改成成功。
+
+需要回滚时，使用 receipt 的上一 production ID，先检查目标：
 
 ```bash
-python3 scripts/release_guard.py verify-remote \
-  --base-url "https://<deployment>.funeral-ai-web4.pages.dev" \
-  --expected-manifest site/out/release-manifest.json
+python3 scripts/rollback_pages.py --deployment-id "<previous-id>"
 ```
 
-验证正式域名：
+执行要求已有 Pages Write token：
 
 ```bash
-python3 scripts/release_guard.py verify-remote \
-  --base-url "https://funeralai.cc" \
-  --expected-manifest site/out/release-manifest.json
+python3 scripts/rollback_pages.py --deployment-id "<previous-id>" --execute --confirm-project funeral-ai-web4
 ```
 
-远程验证会检查 release ID、关键 JSON 哈希、文章/图谱/benchmark 计数、关键路由和投票 API 的只读 GET，不会写投票。
+脚本从环境读取 `CLOUDFLARE_ACCOUNT_ID` / `CLOUDFLARE_API_TOKEN`，或在 Cloudflare Dashboard 选择该版本的 Rollback。回滚后也会检查正式域名。
 
-## 5. 内容停更日常检查
+## 2026-09-06 停更修复记录
 
-每个工作日自动化结束后核对三个时间点：
+线上停在 2026-08-26 的文章 138；GitHub 最后一次 CI 成功，本机 canonical 比 origin/main 落后一次内容提交。9 月 4 日任务在 Substack 请求读取阶段发生 TimeoutError。
 
-1. Substack feed 最新文章日期。
-2. `web-data/article-index.json` 最新文章 ID/日期。
-3. `https://funeralai.cc/release-manifest.json` 的最新文章 ID/日期。
+本次修复的根因包括：
 
-三者不一致时，报告必须包含失败阶段（import / extract / KG gate / build / preview / production verify）、release ID（若已生成）和下一条安全命令。不能只说“没有更新”。
+- 抓取未捕获读取超时，且依赖已经过时的 Chrome 3456 代理；改为有界 HTTP 重试及 Ego Lite 回退。
+- 导入成功后提取/发布失败，下一次因“没有新文章”提前退出；改为检查源文件、提取状态和线上哈希。
+- 提取结果被 Git 忽略，新的 worktree 无法完整构图；恢复并纳入 Git，不再靠复制历史临时目录。
+- 状态同步先覆盖旧内容哈希，使正文更新被误判为未变；保留旧哈希直到实际提取成功。
+- 默认模型改变会重跑历史语料，提取失败仍可能返回 0；改为只补新增/变更、逐篇保存、失败如实退出。
+- 国内模型 API 受代理路径及账户状态影响；改为直连和四供应商自动切换，实测 Kimi、MiniMax 可用，GLM 返回余额不足 1113。
+- 内容发布重复依赖审查、preview 上传、原始 benchmark 目录及 Chrome 图片渲染；改为复用已发布资源，只检查一次实际产物、上传一次。
+- 推送失败后的干净工作树被当作“无需推送”；改为继续推送已有提交。
+- 本机 139/140 是同文不同版本，保留原稿、仅发布 140；修正排除文章仍阻断构图的问题。
+- 文章摘要混入标题、日期与 Markdown 分隔线；清理展示摘要，保留原始正文。
 
-自动化不得再以 canonical 工作树存在 benchmark/UI 改动为由跳过 Substack 检查。隔离 worktree 自身若出现 content 之外的改动，仍必须 fail closed。
-
-## 6. GitHub 同步
-
-生产发布与 GitHub 同步是两个事务。发布成功后，先检查工作区事务边界，再按 profile 执行：
-
-```bash
-./scripts/sync_github_repo.sh --profile content "content: sync latest articles"
-```
-
-可靠性、UI、benchmark 和内容混在一起时使用 `release` 前必须人工复核 staged diff。同步失败不应触发重新发布，也不得用 `git add -A` 绕过 profile。
-
-## 7. 依赖维护
-
-- CI 固定 Node 22；本地支持 Node 20–25。
-- Next.js 固定 Maintenance LTS patch，Wrangler 固定验证过的版本。
-- 每月至少运行一次 `npm audit --omit=dev`，只在独立维护窗口处理跨 Next/Tailwind 大版本升级。
-- 当前站点是静态导出并关闭 Next Image optimizer，不能据此忽略公告，但可以把仅影响服务器运行时的修复放入独立、完整回归的升级事务。
+删除已由 overrides/post_process 取代的 enrich_graph.py，并把旧 CLAUDE.md 改为引用 AGENTS.md，避免维护两套冲突说明。历史方案和 release receipt 保留为历史记录。

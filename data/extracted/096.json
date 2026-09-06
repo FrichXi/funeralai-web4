@@ -1,0 +1,214 @@
+{
+  "article": {
+    "id": "096",
+    "title": "葬AI一周年，我不再用AI写作",
+    "path": "articles/096_2026-05-27_葬爱咸鱼_葬AI一周年，我不再用AI写作.md",
+    "date": "2026-05-27",
+    "author": "葬爱咸鱼",
+    "content_hash": "a7c6af63c44eb12542eb8c6af282f9a5853afe30a754c72725e49f17cef84abd"
+  },
+  "entities": [
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "AI编程助手/Agent",
+      "mention_count": 12,
+      "aliases": [
+        "Claude code"
+      ],
+      "tags": []
+    },
+    {
+      "id": "stain",
+      "name": "Stain",
+      "type": "person",
+      "description": "Grimo 开发者",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "AI游戏引擎"
+      ]
+    },
+    {
+      "id": "erlich",
+      "name": "Erlich",
+      "type": "person",
+      "description": "Proma 开发者，曾受邀与作者一起开发AI产品",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "grimo",
+      "name": "Grimo",
+      "type": "product",
+      "description": "AI产品，主要价值曾是作为便宜使用Claude的中转站",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "中转站",
+        "编程Agent"
+      ]
+    },
+    {
+      "id": "沐秋",
+      "name": "沐秋",
+      "type": "person",
+      "description": "AI内容创作者，与作者共同尝试产品化",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "dario",
+      "name": "Dario",
+      "type": "person",
+      "description": "Claude背后的关键人物（Anthropic CEO）",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "lovart",
+      "name": "Lovart",
+      "type": "product",
+      "description": "图片模型中转站产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "中转站"
+      ]
+    },
+    {
+      "id": "nano-banana",
+      "name": "Nano banana",
+      "type": "product",
+      "description": "图片模型相关产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "中转站"
+      ]
+    },
+    {
+      "id": "open-code",
+      "name": "Open code",
+      "type": "product",
+      "description": "AI工具应用，文中接入了Qwen模型",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "proma",
+      "name": "Proma",
+      "type": "product",
+      "description": "AI Agent 产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "套壳Agent"
+      ]
+    },
+    {
+      "id": "骡子马",
+      "name": "骡子马",
+      "type": "person",
+      "description": "AI内容创作者，与作者及沐秋理念相似",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Erlich",
+      "target": "沐秋",
+      "relation_type": "collaborates_with",
+      "label": "沐秋曾找Erlich一起开发AI写作产品",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "沐秋",
+      "target": "骡子马",
+      "relation_type": "collaborates_with",
+      "label": "两者在写作理念和实践上有共识的同行",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Claude",
+      "target": "Open code",
+      "relation_type": "compares_to",
+      "label": "文中详细对比了两者在整理学习笔记时的表现和信息取舍能力",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Lovart",
+      "target": "Nano banana",
+      "relation_type": "compares_to",
+      "label": "文中将两者作为图片模型中转站的代表产品进行商业能力的对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Grimo",
+      "relation_type": "competes_with",
+      "label": "Stain因为看到了Claude code的出现而关掉了Grimo，存在替代和竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Dario",
+      "target": "Claude",
+      "relation_type": "works_on",
+      "label": "Dario是管理/开发Claude的关键人物",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Erlich",
+      "target": "Proma",
+      "relation_type": "works_on",
+      "label": "Erlich开发了Proma",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Stain",
+      "target": "Grimo",
+      "relation_type": "works_on",
+      "label": "Stain开发/主导了Grimo",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 11,
+    "relationship_count": 8,
+    "pruned_entities": [
+      {
+        "name": "ChatGPT",
+        "reason": "low-signal"
+      },
+      {
+        "name": "LibTV",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

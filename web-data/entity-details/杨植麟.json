@@ -115,7 +115,7 @@
       }
     ],
     "degree": 20,
-    "composite_weight": 0.2277
+    "composite_weight": 0.2094
   },
   "links": [
     {
@@ -366,6 +366,32 @@
     {
       "source": "杨植麟",
       "target": "kimi",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Kimi开发了K3模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "Kimi开发了K3模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "杨植麟",
+      "target": "kimi",
       "relation_type": "founder_of",
       "type": "founder_of",
       "label": "文中称Kimi为杨圣的公司，且提到“Kimi这家神奇的公司”时隐含创始关系",
@@ -592,39 +618,13 @@
           "weight": 1
         }
       ]
-    },
-    {
-      "source": "杨植麟",
-      "target": "kimi-k3",
-      "relation_type": "works_on",
-      "type": "works_on",
-      "label": "Kimi开发了K3模型",
-      "weight": 1,
-      "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
-      "evidence_articles": [
-        "122"
-      ],
-      "evidences": [
-        {
-          "article_id": "122",
-          "title": "Kimi K3打响前端闪电战",
-          "permalink": "/articles/122",
-          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
-          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
-          "date": "2026-07-22",
-          "label": "Kimi开发了K3模型",
-          "weight": 1
-        }
-      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "智谱ai",
       "target": "杨植麟",
-      "score": 0.729,
+      "score": 0.7061,
       "suggested_relation_type": "related",
       "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -639,7 +639,7 @@
     {
       "source": "minimax",
       "target": "杨植麟",
-      "score": 0.5942,
+      "score": 0.5923,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -654,9 +654,9 @@
     {
       "source": "deepseek",
       "target": "杨植麟",
-      "score": 0.5316,
+      "score": 0.4798,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "004",
         "049",
@@ -669,7 +669,7 @@
     {
       "source": "杨植麟",
       "target": "阶跃星辰",
-      "score": 0.4638,
+      "score": 0.4613,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 1 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -684,7 +684,7 @@
     {
       "source": "李开复",
       "target": "杨植麟",
-      "score": 0.4154,
+      "score": 0.4153,
       "suggested_relation_type": "related",
       "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [

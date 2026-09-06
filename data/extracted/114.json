@@ -1,0 +1,231 @@
+{
+  "article": {
+    "id": "114",
+    "title": "硬件转转大会来了",
+    "path": "articles/114_2026-07-05_沐秋_硬件转转大会来了.md",
+    "date": "2026-07-05",
+    "author": "沐秋",
+    "content_hash": "fd87952160050e3b13d7bdbaede802601f13244974367702ca1d0c013c751056"
+  },
+  "entities": [
+    {
+      "id": "moya",
+      "name": "Moya",
+      "type": "product",
+      "description": "郑潜创立的陪伴型AI机器人",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "机器人"
+      ]
+    },
+    {
+      "id": "bodypark",
+      "name": "BodyPark",
+      "type": "product",
+      "description": "真格基金投资的口袋AI私教机",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "健身"
+      ]
+    },
+    {
+      "id": "looki",
+      "name": "Looki",
+      "type": "product",
+      "description": "被极客公园报道的AI硬件产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI硬件"
+      ]
+    },
+    {
+      "id": "云望创新",
+      "name": "云望创新",
+      "type": "company",
+      "description": "真格基金投资的自动泡沫轴项目所属公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "健身"
+      ]
+    },
+    {
+      "id": "光帆耳机",
+      "name": "光帆耳机",
+      "type": "product",
+      "description": "塑料质感、拍照延迟高的AI耳机",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "耳机"
+      ]
+    },
+    {
+      "id": "沐秋",
+      "name": "沐秋",
+      "type": "person",
+      "description": "葬AI成员，硬件转转大会组织者之一",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "测评"
+      ]
+    },
+    {
+      "id": "真格基金",
+      "name": "真格基金",
+      "type": "vc_firm",
+      "description": "硬件转转大会联合主办方，投资了BodyPark和云望创新等项目",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI硬件"
+      ]
+    },
+    {
+      "id": "罗子马",
+      "name": "罗子马",
+      "type": "person",
+      "description": "豆包耳机用户，曾尝试在GDC使用该产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI硬件用户"
+      ]
+    },
+    {
+      "id": "葬爱咸鱼",
+      "name": "葬爱咸鱼",
+      "type": "person",
+      "description": "葬AI成员，与沐秋共同采访AI硬件创始人",
+      "mention_count": 1,
+      "aliases": [
+        "咸鱼"
+      ],
+      "tags": [
+        "AI硬件",
+        "测评"
+      ]
+    },
+    {
+      "id": "豆包耳机",
+      "name": "豆包耳机",
+      "type": "product",
+      "description": "字节跳动旗下AI耳机产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI硬件",
+        "耳机"
+      ]
+    },
+    {
+      "id": "郑潜",
+      "name": "郑潜",
+      "type": "person",
+      "description": "Moya机器人创始人",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI硬件"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "沐秋",
+      "target": "葬爱咸鱼",
+      "relation_type": "collaborates_with",
+      "label": "两人共同采访AI硬件创始人并筹办活动",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "BodyPark",
+      "target": "云望创新",
+      "relation_type": "compares_to",
+      "label": "两者均为真格基金投资的AI硬件项目，将在同一活动中接受测评",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Looki",
+      "target": "光帆耳机",
+      "relation_type": "compares_to",
+      "label": "文中将Looki与光帆耳机等一同列为可能被废弃的AI硬件进行对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "罗子马",
+      "target": "豆包耳机",
+      "relation_type": "criticizes",
+      "label": "罗子马因网络问题未能使用豆包耳机进行翻译，暗示其实用性差",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "郑潜",
+      "target": "Moya",
+      "relation_type": "founder_of",
+      "label": "郑潜是Moya机器人的创始人",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "真格基金",
+      "target": "BodyPark",
+      "relation_type": "invests_in",
+      "label": "真格基金投资了BodyPark项目",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "真格基金",
+      "target": "云望创新",
+      "relation_type": "invests_in",
+      "label": "真格基金投资了云望创新项目",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 11,
+    "relationship_count": 7,
+    "pruned_entities": [
+      {
+        "name": "Google Cloud",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Odyss",
+        "reason": "low-signal"
+      },
+      {
+        "name": "christophwu",
+        "reason": "low-signal"
+      },
+      {
+        "name": "拓竹打印机",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

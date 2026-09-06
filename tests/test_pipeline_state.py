@@ -17,6 +17,7 @@ from pipeline_state import (
     load_articles,
     save_manifest,
     sha256_text,
+    sync_manifest,
 )
 
 
@@ -50,6 +51,10 @@ class TestArticleFilenameRegex:
 
 
 class TestExtractArticleBody:
+    def test_imported_header_and_credit_are_not_body(self):
+        raw = "# 标题\n\n2026年9月4日 作者 葬AI\n\n---\n\n正文。\n\n（本文封面由ChatGPT生成）"
+        assert extract_article_body(raw) == "正文。"
+
     def test_with_frontmatter(self):
         raw = "---\ntitle: Test\n---\nBody content\n---\n"
         # The function extracts between first and last ---
@@ -79,6 +84,20 @@ class TestExtractArticleBody:
 
 
 class TestExtractionDecision:
+    def test_sync_preserves_previous_hash_until_extraction(self, tmp_path):
+        article = {"id": "001", "path": "articles/001.md", "title": "one", "content_hash": "changed"}
+        manifest = {"articles": {"001": {"status": "ready", "content_hash": "original"}}}
+        entry = sync_manifest(manifest, [article])["articles"]["001"]
+        assert extraction_decision(article, entry) == (True, "content_changed")
+
+    def test_switching_default_model_does_not_reextract_history(self, tmp_path):
+        artifact = tmp_path / "001.json"
+        artifact.write_text("{}")
+        article = {"id": "001", "content_hash": "unchanged"}
+        entry = {"status": "ready", "content_hash": "unchanged", "extractor": {"model": "old-model"}}
+        with patch("pipeline_state.extracted_artifact_path", return_value=artifact):
+            assert extraction_decision(article, entry) == (False, "up_to_date")
+
     def test_new_article(self):
         article = {"id": "001", "content_hash": "abc123"}
         should, reason = extraction_decision(article, None)

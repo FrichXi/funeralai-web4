@@ -447,7 +447,10 @@ def _compact_text(text: str) -> str:
 
 
 def build_excerpt(markdown: str, max_len: int = 220) -> str:
-    compact = _compact_text(markdown)
+    lines = markdown.splitlines()
+    # Imported metadata belongs in the title/date controls, not the preview.
+    lines = [line for line in lines if not re.match(r"^# |^\d{4}年\d{1,2}月\d{1,2}日.*葬AI|^---$", line.strip())]
+    compact = _compact_text("\n".join(lines))
     if len(compact) <= max_len:
         return compact
     return compact[: max_len - 3].rstrip() + "..."
@@ -985,6 +988,12 @@ def main() -> None:
     )
     save_json(ARTICLE_INDEX_PATH, article_index)
     print(f"  Articles: {article_index['count']}")
+    llms_path = PROJECT_ROOT / "site/public/llms.txt"
+    if llms_path.exists():
+        text = llms_path.read_text(encoding="utf-8")
+        text = re.sub(r"\d+ articles, \d+ entities, \d+ relationships",
+                      f"{article_index['count']} articles, {len(graph_view['nodes'])} entities, {len(graph_view['links'])} relationships", text)
+        llms_path.write_text(text, encoding="utf-8")
 
     # 5. Validation
     print(f"\n{'=' * 70}")

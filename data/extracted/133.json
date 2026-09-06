@@ -1,0 +1,236 @@
+{
+  "article": {
+    "id": "133",
+    "title": "速来网吧线下真实所有大模型",
+    "path": "articles/133_2026-08-14_沐秋_速来网吧线下真实所有大模型.md",
+    "date": "2026-08-14",
+    "author": "沐秋",
+    "content_hash": "40567430e4f8430928568701f2dcfaf190d864e2f3b4f70ec76f72474e576873"
+  },
+  "entities": [
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "company",
+      "description": "通义千问团队/品牌，本次黑客松联合举办方及赞助商",
+      "mention_count": 9,
+      "aliases": [
+        "千问",
+        "通义千问"
+      ],
+      "tags": [
+        "大模型厂商"
+      ]
+    },
+    {
+      "id": "懂模帝",
+      "name": "懂模帝",
+      "type": "product",
+      "description": "由葬AI等人推出的大模型Benchmark评测产品",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "Benchmark",
+        "评测工具"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "大模型公司，文中提及梁圣为其关联人物且Token涨价",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "大模型厂商"
+      ]
+    },
+    {
+      "id": "evolvent-ai",
+      "name": "Evolvent AI",
+      "type": "company",
+      "description": "专业构建bench的数据公司，在活动现场提供指导",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "数据服务",
+        "Benchmark"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "月之暗面旗下AI助手品牌，本次活动赞助支持方",
+      "mention_count": 2,
+      "aliases": [
+        "月之暗面"
+      ],
+      "tags": [
+        "大模型厂商"
+      ]
+    },
+    {
+      "id": "大疆",
+      "name": "大疆",
+      "type": "company",
+      "description": "无人机制造商，作为活动奖品提供方被提及",
+      "mention_count": 2,
+      "aliases": [
+        "DJI"
+      ],
+      "tags": [
+        "硬件厂商"
+      ]
+    },
+    {
+      "id": "真格基金",
+      "name": "真格基金",
+      "type": "vc_firm",
+      "description": "投资机构，为参赛选手提供奖品支持",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "VC"
+      ]
+    },
+    {
+      "id": "qoder",
+      "name": "Qoder",
+      "type": "product",
+      "description": "文中建议用于构建bench场景的主力Harness工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "开发工具"
+      ]
+    },
+    {
+      "id": "千问办公",
+      "name": "千问办公",
+      "type": "product",
+      "description": "文中建议用于构建bench场景的主力Harness工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "办公工具"
+      ]
+    },
+    {
+      "id": "梁圣",
+      "name": "梁圣",
+      "type": "person",
+      "description": "DeepSeek关联人物，文中提及化身牢梁开始收割",
+      "mention_count": 1,
+      "aliases": [
+        "牢梁"
+      ],
+      "tags": [
+        "行业人物"
+      ]
+    },
+    {
+      "id": "正阳",
+      "name": "正阳",
+      "type": "person",
+      "description": "葬AI的朋友，懂模帝产品的联合推出者",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "开发者"
+      ]
+    },
+    {
+      "id": "钟经纬",
+      "name": "钟经纬",
+      "type": "person",
+      "description": "葬AI的朋友，懂模帝产品的联合推出者",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "开发者"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "正阳",
+      "target": "钟经纬",
+      "relation_type": "collaborates_with",
+      "label": "两人共同推出懂模帝产品",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Qoder",
+      "target": "懂模帝",
+      "relation_type": "integrates_with",
+      "label": "建议使用Qoder作为构建懂模帝bench的Harness工具",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "千问办公",
+      "target": "懂模帝",
+      "relation_type": "integrates_with",
+      "label": "建议使用千问办公作为构建懂模帝bench的Harness工具",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Qwen",
+      "target": "懂模帝",
+      "relation_type": "related",
+      "label": "Qwen赞助活动并设立Qwen选择奖以收录优质bench",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "high"
+    },
+    {
+      "source": "梁圣",
+      "target": "DeepSeek",
+      "relation_type": "works_at",
+      "label": "文中将梁圣与DeepSeek强关联，指代其商业化行为",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    },
+    {
+      "source": "正阳",
+      "target": "懂模帝",
+      "relation_type": "works_on",
+      "label": "正阳参与推出了懂模帝产品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "钟经纬",
+      "target": "懂模帝",
+      "relation_type": "works_on",
+      "label": "钟经纬参与推出了懂模帝产品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 12,
+    "relationship_count": 7,
+    "pruned_entities": [
+      {
+        "name": "影石",
+        "reason": "low-signal"
+      },
+      {
+        "name": "拓竹",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

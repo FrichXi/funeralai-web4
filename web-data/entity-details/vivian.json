@@ -1,0 +1,85 @@
+{
+  "node": {
+    "id": "vivian",
+    "name": "Vivian",
+    "type": "person",
+    "description": "美团龙猫团队成员，模型评测专家，获得Qwen选择奖",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "模型评测",
+      "获奖者"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "140",
+        "title": "一场黑客松斩杀了整个网吧",
+        "date": "2026-08-27",
+        "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+        "permalink": "/articles/140",
+        "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0254
+  },
+  "links": [
+    {
+      "source": "vivian",
+      "target": "美团",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "Vivian是美团龙猫团队的成员，日常工作为模型评测",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "140"
+      ],
+      "evidences": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "Vivian是美团龙猫团队的成员，日常工作为模型评测",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "vivian",
+      "target": "deepseek",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "Vivian的评测集包含了DeepSeek harness多个插件兼容性的测试题目",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "140"
+      ],
+      "evidences": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "Vivian的评测集包含了DeepSeek harness多个插件兼容性的测试题目",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

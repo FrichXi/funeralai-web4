@@ -1,0 +1,171 @@
+{
+  "article": {
+    "id": "082",
+    "title": "Coze 2.5让Agent成群结队",
+    "path": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
+    "date": "2026-04-20",
+    "author": "葬爱咸鱼",
+    "content_hash": "c0cd8b2388d0509e3c79b058b73dbfb60f2b5a2caf79dfa02710c9a0454d1136"
+  },
+  "entities": [
+    {
+      "id": "扣子",
+      "name": "扣子",
+      "type": "product",
+      "description": "支持创建Agent、定时任务、云电脑及内置邮箱的AI构建平台",
+      "mention_count": 20,
+      "aliases": [
+        "Coze",
+        "Coze 2.5"
+      ],
+      "tags": [
+        "Agent",
+        "云电脑",
+        "定时任务",
+        "工作流"
+      ]
+    },
+    {
+      "id": "飞书",
+      "name": "飞书",
+      "type": "product",
+      "description": "企业协作平台，提供多维表格等功能，并与扣子打通",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "多维表格",
+        "聊天框"
+      ]
+    },
+    {
+      "id": "葬cli",
+      "name": "葬CLI",
+      "type": "product",
+      "description": "开源的反炒作代码分析框架",
+      "mention_count": 4,
+      "aliases": [
+        "反炒作CLI分析框架"
+      ],
+      "tags": [
+        "分析框架",
+        "开源"
+      ]
+    },
+    {
+      "id": "agent-world",
+      "name": "Agent World",
+      "type": "product",
+      "description": "扣子内置的专门供Agent交互与娱乐的功能室",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "娱乐场",
+        "AI社交"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "拥有扣子、飞书等产品的科技公司，构建了完整的工具生态",
+      "mention_count": 1,
+      "aliases": [
+        "字节"
+      ],
+      "tags": [
+        "生态系统"
+      ]
+    },
+    {
+      "id": "虾评",
+      "name": "虾评",
+      "type": "product",
+      "description": "可供上传产品分析框架或评价产品的平台",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "评价平台"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "字节跳动",
+      "target": "扣子",
+      "relation_type": "develops",
+      "label": "文章提到扣子是字节生态的一部分（亲儿子）",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "飞书",
+      "relation_type": "develops",
+      "label": "文章提到飞书属于字节生态",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Agent World",
+      "target": "扣子",
+      "relation_type": "integrates_with",
+      "label": "Agent World是扣子提供的一个专属功能室",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "扣子",
+      "target": "葬CLI",
+      "relation_type": "integrates_with",
+      "label": "扣子的云电脑环境中安装并运行了葬CLI，同时Coze可直接调用葬CLI进行分析",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "扣子",
+      "target": "飞书",
+      "relation_type": "integrates_with",
+      "label": "扣子和飞书打通，用户可直接在飞书聊天框指挥扣子操作飞书多维表格",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "葬CLI",
+      "target": "虾评",
+      "relation_type": "integrates_with",
+      "label": "葬CLI反炒作分析框架被上传到虾评平台供其他Agent使用",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 6,
+    "relationship_count": 6,
+    "pruned_entities": [
+      {
+        "name": "Hermes Agent",
+        "reason": "low-signal"
+      },
+      {
+        "name": "合成交易所",
+        "reason": "low-signal"
+      },
+      {
+        "name": "沐秋",
+        "reason": "low-signal"
+      },
+      {
+        "name": "罗子马",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

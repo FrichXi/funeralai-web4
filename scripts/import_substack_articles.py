@@ -12,7 +12,10 @@ from __future__ import annotations
 import argparse
 import json
 import re
-import shutil
+import fcntl
+import os
+import subprocess
+import unicodedata
 import sys
 import time
 import urllib.error
@@ -23,13 +26,13 @@ from datetime import datetime, timezone
 from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import quote, urlsplit, urlunsplit
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
 
-from pipeline_state import ARTICLE_SOURCE_DIR, ARTICLES_DIR, _PIPELINE_CONFIG
+from pipeline_state import ARTICLE_SOURCE_DIR, ARTICLES_DIR, _PIPELINE_CONFIG, ensure_article_mirror
 
 CONTENT_NS = "{http://purl.org/rss/1.0/modules/content/}encoded"
 FILENAME_RE = re.compile(r"^(?P<id>\d{3})_(?P<date>\d{4}-\d{2}-\d{2})_(?P<author>[^_]+)_(?P<title>.+)\.md$")
@@ -188,97 +191,67 @@ class SimpleHtmlToMarkdown(HTMLParser):
         return "\n".join(lines).strip()
 
 
+_ego_task_id: int | None = None
+
+
+def ego_script(script: str) -> str:
+    result = subprocess.run(
+        ["bash", "-c", "ego-browser nodejs <<'EGO_IMPORT'\n" + script + "\nEGO_IMPORT"],
+        capture_output=True, text=True, timeout=90, check=True,
+    )
+    return result.stdout
+
+
 def fetch_text(url: str) -> str:
+    """Bounded HTTP retries, then the supported Ego Lite session for challenges."""
+    global _ego_task_id
     request = urllib.request.Request(url, headers=REQUEST_HEADERS)
-    try:
-        with urllib.request.urlopen(request, timeout=30) as response:
-            charset = response.headers.get_content_charset() or "utf-8"
-            return response.read().decode(charset)
-    except (urllib.error.HTTPError, urllib.error.URLError) as error:
-        if isinstance(error, urllib.error.HTTPError) and error.code not in {403, 503}:
-            raise
-        return fetch_text_via_cdp(url, error)
-
-
-def fetch_text_via_cdp(url: str, original_error: Exception) -> str:
-    """Fallback for Substack Cloudflare challenges when CDP proxy is available."""
-    proxy_base = "http://localhost:3456"
-    target_url_parts = urlsplit(url)
-
-    for target_id in list_cdp_targets_for_host(proxy_base, target_url_parts.netloc):
-        text = cdp_fetch_text(proxy_base, target_id, url)
-        if text:
-            return text
-
-    for attempt in range(3):
-        target_id = ""
+    last_error = None
+    for attempt in range(2):
         try:
-            new_url = f"{proxy_base}/new?url={quote(url, safe='')}"
-            with urllib.request.urlopen(new_url, timeout=30) as response:
-                payload = json.loads(response.read().decode("utf-8"))
-            target_id = str(payload["targetId"])
-
-            text = cdp_fetch_text(proxy_base, target_id, url)
-            if text:
-                return text
-        except Exception:
-            pass
-        finally:
-            if target_id:
-                try:
-                    urllib.request.urlopen(
-                        f"{proxy_base}/close?target={quote(target_id, safe='')}",
-                        timeout=5,
-                    ).read()
-                except Exception:
-                    pass
-        if attempt < 2:
-            time.sleep(1)
-    raise original_error
-
-
-def list_cdp_targets_for_host(proxy_base: str, host: str) -> list[str]:
-    try:
-        with urllib.request.urlopen(f"{proxy_base}/targets", timeout=5) as response:
-            targets = json.loads(response.read().decode("utf-8"))
-    except Exception:
-        return []
-
-    target_ids: list[str] = []
-    for target in targets:
-        target_url = str(target.get("url") or "")
-        if target.get("type") != "page":
-            continue
-        if urlsplit(target_url).netloc == host:
-            target_ids.append(str(target.get("targetId")))
-    return [target_id for target_id in target_ids if target_id]
-
-
-def cdp_fetch_text(proxy_base: str, target_id: str, url: str) -> str | None:
+            with urllib.request.urlopen(request, timeout=15) as response:
+                return response.read().decode(response.headers.get_content_charset() or "utf-8")
+        except (OSError, urllib.error.URLError) as error:
+            last_error = error
+            if isinstance(error, urllib.error.HTTPError):
+                if error.code not in {403, 408, 429, 500, 502, 503, 504}:
+                    raise
+                if error.code == 403:
+                    break
+            if attempt == 0:
+                time.sleep(1)
+    print(f"HTTP fetch failed; trying Ego Lite: {url} ({last_error})", file=sys.stderr)
+    task = json.dumps(_ego_task_id or f"葬AI文章导入-{os.getpid()}")
     script = (
-        "(async()=>{"
-        f"const r=await fetch({json.dumps(url)});"
-        "const text=await r.text();"
-        "return {status:r.status, contentType:r.headers.get('content-type'), text};"
-        "})()"
-    )
-    eval_request = urllib.request.Request(
-        f"{proxy_base}/eval?target={quote(target_id, safe='')}",
-        data=script.encode("utf-8"),
-        headers={"Content-Type": "text/plain"},
-        method="POST",
+        f"const task = await useOrCreateTaskSpace({task});\n"
+        "cliLog('EGO_TASK:' + task.id);\n"
+        f"await openOrReuseTab({json.dumps(_PIPELINE_CONFIG['article_source']['base_url'])}, {{wait:true, timeout:20}});\n"
+        f"const text = await browserFetch({json.dumps(url)});\n"
+        "cliLog('EGO_BODY:' + JSON.stringify(text));"
     )
     try:
-        with urllib.request.urlopen(eval_request, timeout=60) as response:
-            result = json.loads(response.read().decode("utf-8"))
-    except Exception:
-        return None
+        output = ego_script(script)
+        for line in output.splitlines():
+            if line.startswith("EGO_TASK:"):
+                _ego_task_id = int(line.removeprefix("EGO_TASK:"))
+            if line.startswith("EGO_BODY:"):
+                body = json.loads(line.removeprefix("EGO_BODY:"))
+                if isinstance(body, str) and body and "Just a moment..." not in body[:1000]:
+                    return body
+        raise ValueError("Ego Lite did not return a usable response")
+    except (OSError, subprocess.SubprocessError, ValueError) as error:
+        raise RuntimeError(f"Could not fetch {url}: HTTP {last_error}; Ego Lite {error}") from error
 
-    value = result.get("value") or {}
-    status = int(value.get("status") or 0)
-    if status >= 400 or not value.get("text"):
-        return None
-    return str(value["text"])
+
+def close_ego_task() -> None:
+    global _ego_task_id
+    if _ego_task_id is not None:
+        ego_script(f"cliLog(await completeTaskSpace({_ego_task_id}, {{keep:false}}));")
+        _ego_task_id = None
+
+
+def title_key(title: str) -> str:
+    return re.sub(r"\s+", "", unicodedata.normalize("NFKC", title))
 
 
 def normalize_url(url: str) -> str:
@@ -379,7 +352,13 @@ def archive_to_post(post: dict, feed_content: dict[str, str]) -> SubstackPost:
     url = normalize_url(str(post.get("canonical_url") or ""))
     body = feed_content.get(url) or feed_content.get(f"title:{title}") or ""
     if not body:
-        raise ValueError(f"Missing feed body for {title}: {url}")
+        # RSS has a short window. Recover older posts from their public post API.
+        parts = urlsplit(url)
+        post_url = urlunsplit((parts.scheme, parts.netloc, "/api/v1/posts/" + parts.path.rsplit("/", 1)[-1], "", ""))
+        payload = json.loads(fetch_text(post_url))
+        body = html_to_markdown(payload.get("body_html") or "")
+        if not body:
+            raise ValueError(f"Missing public article body for {title}: {url}")
     return SubstackPost(
         title=title,
         author=archive_author(post),
@@ -453,30 +432,46 @@ def import_posts(
         raise ValueError("pipeline.toml must define [article_source].archive_api_url and feed_url")
 
     existing = parse_existing_articles(source_dir)
-    existing_by_title = {article.title: article for article in existing}
+    existing_by_title = {title_key(article.title): article for article in existing}
     max_id = max((article.article_id for article in existing), default=0)
 
-    archive_posts = parse_archive_posts(str(archive_url))
-    feed_content = parse_feed_posts(str(feed_url))
-
     new_archive_posts: list[dict] = []
-    for post in archive_posts:
-        title = str(post.get("title") or "").strip()
-        if not title:
-            continue
-        existing_article = existing_by_title.get(title)
-        if existing_article:
-            if sync_authors:
-                rewrite_author(existing_article, archive_author(post), dry_run=dry_run)
+    seen = set(existing_by_title)
+    offset = 0
+    while True:
+        parts = urlsplit(str(archive_url))
+        query = dict(parse_qsl(parts.query))
+        query.update(offset=str(offset), limit="20")
+        posts = parse_archive_posts(urlunsplit((*parts[:3], urlencode(query), parts.fragment)))
+        if not posts:
             break
-        new_archive_posts.append(post)
+        reached_existing = False
+        for post in posts:
+            title = str(post.get("title") or "").strip()
+            key = title_key(title)
+            if not key:
+                continue
+            existing_article = existing_by_title.get(key)
+            if existing_article:
+                reached_existing = True
+                # Author correction is opt-in; never rename the user's corpus by default.
+                if sync_authors:
+                    rewrite_author(existing_article, archive_author(post), dry_run=dry_run)
+            elif key not in seen:
+                new_archive_posts.append(post)
+            seen.add(key)
+        if reached_existing or len(posts) < 20:
+            break
+        offset += len(posts)
 
+    new_archive_posts.sort(key=lambda post: post["post_date"])
     if limit is not None:
         new_archive_posts = new_archive_posts[:limit]
+    feed_content = parse_feed_posts(str(feed_url)) if new_archive_posts else {}
 
     imported: list[Path] = []
     next_id = max_id + 1
-    for post in reversed(new_archive_posts):
+    for post in new_archive_posts:
         substack_post = archive_to_post(post, feed_content)
         filename, content = render_article(next_id, substack_post)
         output_path = source_dir / filename
@@ -495,30 +490,14 @@ def import_posts(
 
 
 def mirror_source_to_repo(source_dir: Path) -> None:
-    ARTICLES_DIR.mkdir(parents=True, exist_ok=True)
-    if source_dir.resolve() == ARTICLES_DIR.resolve():
-        return
-
-    source_files = {
-        path.name: path
-        for path in source_dir.glob("*.md")
-        if path.is_file()
-    }
-    mirrored_files = {
-        path.name: path
-        for path in ARTICLES_DIR.glob("*.md")
-        if path.is_file()
-    }
-
-    for filename, mirrored_path in mirrored_files.items():
-        if filename not in source_files:
-            mirrored_path.unlink()
-
-    for filename, source_path in source_files.items():
-        destination = ARTICLES_DIR / filename
-        if destination.exists() and source_path.read_bytes() == destination.read_bytes():
-            continue
-        shutil.copy2(source_path, destination)
+    # One implementation owns corpus mirroring.
+    import pipeline_state
+    previous = pipeline_state.ARTICLE_SOURCE_DIR
+    try:
+        pipeline_state.ARTICLE_SOURCE_DIR = source_dir
+        ensure_article_mirror()
+    finally:
+        pipeline_state.ARTICLE_SOURCE_DIR = previous
 
 
 def main() -> int:
@@ -531,19 +510,26 @@ def main() -> int:
     )
     parser.add_argument("--dry-run", action="store_true", help="Print planned changes without writing files.")
     parser.add_argument("--limit", type=int, help="Maximum number of newest posts to import.")
+    parser.add_argument("--sync-authors", action="store_true", help="Opt in to correcting existing author filenames.")
     parser.add_argument("--no-sync-authors", action="store_true", help="Do not update authors for existing posts.")
     parser.add_argument("--no-mirror", action="store_true", help="Do not refresh repo articles/ from source_dir after import.")
     args = parser.parse_args()
 
-    imported = import_posts(
-        source_dir=args.source_dir.expanduser(),
-        dry_run=args.dry_run,
-        limit=args.limit,
-        sync_authors=not args.no_sync_authors,
-    )
-
-    if not args.dry_run and not args.no_mirror:
-        mirror_source_to_repo(args.source_dir.expanduser())
+    # Lock the corpus directory itself: no persistent lock files, no duplicate IDs
+    # when a manual run and the scheduled run overlap.
+    source_dir = args.source_dir.expanduser()
+    descriptor = os.open(source_dir, os.O_RDONLY)
+    try:
+        fcntl.flock(descriptor, fcntl.LOCK_EX)
+        imported = import_posts(
+            source_dir=source_dir, dry_run=args.dry_run, limit=args.limit,
+            sync_authors=args.sync_authors and not args.no_sync_authors,
+        )
+        if not args.dry_run and not args.no_mirror:
+            mirror_source_to_repo(source_dir)
+    finally:
+        os.close(descriptor)
+        close_ego_task()
 
     print(f"Imported: {len(imported)}")
     return 0

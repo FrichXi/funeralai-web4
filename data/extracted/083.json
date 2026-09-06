@@ -1,0 +1,253 @@
+{
+  "article": {
+    "id": "083",
+    "title": "估值20亿的AI游戏公司，做了款像素GTA",
+    "path": "articles/083_2026-04-22_沐秋_估值20亿的AI游戏公司，做了款像素GTA.md",
+    "date": "2026-04-22",
+    "author": "沐秋",
+    "content_hash": "eaa6dc2970a6a0ab6d2be95b6969cafcebf9cb88fcbaf45db9e7818b2685a3ec"
+  },
+  "entities": [
+    {
+      "id": "gta",
+      "name": "GTA",
+      "type": "product",
+      "description": "经典开放世界游戏，《五星好市民》被大量指代和对比为它的像素版",
+      "mention_count": 8,
+      "aliases": [
+        "侠盗猎车手"
+      ],
+      "tags": [
+        "开放世界",
+        "游戏"
+      ]
+    },
+    {
+      "id": "五星好市民",
+      "name": "五星好市民",
+      "type": "product",
+      "description": "MiAO开发的开放世界多人玩法体素游戏",
+      "mention_count": 6,
+      "aliases": [
+        "像素GTA"
+      ],
+      "tags": [
+        "AI游戏",
+        "开放世界",
+        "沙盒"
+      ]
+    },
+    {
+      "id": "miao",
+      "name": "MiAO",
+      "type": "company",
+      "description": "估值20亿的AI游戏公司，开发了《五星好市民》",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI游戏",
+        "开发商"
+      ]
+    },
+    {
+      "id": "吴萌",
+      "name": "吴萌",
+      "type": "person",
+      "description": "MiAO创始人，前巨人CEO，《球球大作战》制作人",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "制作人",
+        "CEO"
+      ]
+    },
+    {
+      "id": "三角洲",
+      "name": "三角洲",
+      "type": "product",
+      "description": "射击游戏，《五星好市民》的搜打撤玩法被作者比作为丐版三角洲",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "射击游戏"
+      ]
+    },
+    {
+      "id": "俞浩",
+      "name": "俞浩",
+      "type": "person",
+      "description": "宇树科技创始人，文中被作为玩家想在开放世界扮演的科技巨头比喻对象",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "科技创业者"
+      ]
+    },
+    {
+      "id": "奇迹暖暖",
+      "name": "奇迹暖暖",
+      "type": "product",
+      "description": "换装类游戏，《五星好市民》的换装玩法被比作该游戏",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "换装游戏"
+      ]
+    },
+    {
+      "id": "宇树",
+      "name": "宇树",
+      "type": "company",
+      "description": "研发机器狗的科技公司",
+      "mention_count": 1,
+      "aliases": [
+        "Unitree",
+        "宇树科技"
+      ],
+      "tags": [
+        "机器人"
+      ]
+    },
+    {
+      "id": "巨人",
+      "name": "巨人",
+      "type": "company",
+      "description": "知名游戏公司，吴萌曾任其CEO",
+      "mention_count": 1,
+      "aliases": [
+        "巨人网络"
+      ],
+      "tags": [
+        "游戏公司"
+      ]
+    },
+    {
+      "id": "我的世界",
+      "name": "我的世界",
+      "type": "product",
+      "description": "沙盒游戏代表作，《五星好市民》官方产品定位与其类似",
+      "mention_count": 1,
+      "aliases": [
+        "Minecraft"
+      ],
+      "tags": [
+        "沙盒游戏"
+      ]
+    },
+    {
+      "id": "球球大作战",
+      "name": "球球大作战",
+      "type": "product",
+      "description": "吴萌曾担任制作人的知名游戏产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "游戏"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "GTA",
+      "target": "五星好市民",
+      "relation_type": "compares_to",
+      "label": "被称为像素版GTA，被指抄袭/神似GTA",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "三角洲",
+      "target": "五星好市民",
+      "relation_type": "compares_to",
+      "label": "部分玩法被比喻为“人机丐版三角洲”",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "五星好市民",
+      "target": "奇迹暖暖",
+      "relation_type": "compares_to",
+      "label": "换装捏脸玩法被比作《奇迹暖暖》",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "五星好市民",
+      "target": "我的世界",
+      "relation_type": "compares_to",
+      "label": "官方描述产品定位类似《我的世界》",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "MiAO",
+      "target": "五星好市民",
+      "relation_type": "develops",
+      "label": "MiAO在测并认领的新游戏产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "巨人",
+      "target": "球球大作战",
+      "relation_type": "develops",
+      "label": "巨人网络旗下开发的游戏产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    },
+    {
+      "source": "俞浩",
+      "target": "宇树",
+      "relation_type": "founder_of",
+      "label": "结合文中的宇树机器狗和造机器人当俞浩的语境推断的关系",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "medium"
+    },
+    {
+      "source": "吴萌",
+      "target": "MiAO",
+      "relation_type": "founder_of",
+      "label": "吴萌成立了新公司MiAO",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "吴萌",
+      "target": "巨人",
+      "relation_type": "works_at",
+      "label": "吴萌是前巨人CEO",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "吴萌",
+      "target": "球球大作战",
+      "relation_type": "works_on",
+      "label": "吴萌是《球球大作战》的制作人",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 11,
+    "relationship_count": 10,
+    "pruned_entities": [
+      {
+        "name": "Claude",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

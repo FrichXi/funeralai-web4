@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Fixed — 2026-09-06
+- Recovered updates through article 143 (2026-09-04); retained draft 139 and published its updated version 140 once. Current data: 142 articles, 740 entities, 2035 relationships.
+- Content updates now resume extraction, publication and Git push after interrupted runs; normalized extraction inputs are versioned, source hashes remain comparable, successful per-article results save atomically, and provider changes no longer trigger historical re-extraction.
+- Added bounded DashScope → GLM → Kimi → MiniMax failover from existing global environment credentials, with accurate per-article provider/model provenance and direct API connections.
+- Substack import now catches read timeouts, retries, uses Ego Lite instead of the obsolete Chrome proxy, pages the archive, recovers bodies beyond the RSS window, and serializes corpus writes.
+- Removed repeated deployment review/test gates, preview upload and browser-based leaderboard rendering; content worktrees reuse the published benchmark bundle, and frozen image downloads remain unchanged.
+- Updated Next.js to 15.5.25 and Wrangler to 4.129.0, refreshed compatible dependency patches, removed unused shadcn/tw-animate-css and Playwright dependencies, and consolidated CI into one install/test/build job.
+- Removed the unused legacy enrichment script and duplicate CLAUDE instructions; publication stats are generated in llms.txt and referenced from README. Corrected article excerpts and alias counting.
+
+
 ### Added
 
 - Articles 134-138 imported or mirrored into the repo corpus, with article 138 newly imported from Substack: "葬爱咸鱼：开源模型就是统一战线" (138). Articles 134-137 were backfilled from the local source corpus and extracted in this worktree with 14/13, 4/2, 28/25, and 10/9 entity/relationship counts; article 138 extracted with 16 entities and 11 relationships. Public stats are now 138 articles / 739 entities / 2009 relationships.

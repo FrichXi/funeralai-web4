@@ -1,0 +1,230 @@
+{
+  "article": {
+    "id": "079",
+    "title": "电玩城复活在信息流",
+    "path": "articles/079_2026-04-08_沐秋_电玩城复活在信息流.md",
+    "date": "2026-04-08",
+    "author": "沐秋",
+    "content_hash": "c06f5a7142fda484c65fff1ca5875b73b743c22ac8c4ac1bf8777fd8ee3c27e1"
+  },
+  "entities": [
+    {
+      "id": "aippy",
+      "name": "Aippy",
+      "type": "product",
+      "description": "赤子城内部孵化的AI互动娱乐平台/AI小游戏信息流产品。",
+      "mention_count": 27,
+      "aliases": [
+        "A产品"
+      ],
+      "tags": [
+        "AI小游戏",
+        "UGC社区",
+        "feed流"
+      ]
+    },
+    {
+      "id": "赤子城",
+      "name": "赤子城",
+      "type": "company",
+      "description": "拥有出海经验的内容、社交、娱乐公司，在内部孵化了Aippy。",
+      "mention_count": 6,
+      "aliases": [
+        "B公司"
+      ],
+      "tags": [
+        "出海",
+        "社交娱乐"
+      ]
+    },
+    {
+      "id": "4399",
+      "name": "4399",
+      "type": "company",
+      "description": "国内经典的小游戏平台，常被AI游戏产品用作对标对象。",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "小游戏平台"
+      ]
+    },
+    {
+      "id": "gambo",
+      "name": "Gambo",
+      "type": "company",
+      "description": "具有类似“工具转UGC社区”逻辑的公司/产品。",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "UGC社区"
+      ]
+    },
+    {
+      "id": "loopit",
+      "name": "Loopit",
+      "type": "product",
+      "description": "Aippy之后的AI内容/小游戏同类产品。",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI工具",
+        "UGC"
+      ]
+    },
+    {
+      "id": "rezona",
+      "name": "Rezona",
+      "type": "product",
+      "description": "Aippy之后的AI内容/小游戏同类产品。",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI工具",
+        "UGC"
+      ]
+    },
+    {
+      "id": "qq农场",
+      "name": "QQ农场",
+      "type": "product",
+      "description": "经典养成游戏，Aippy中的一款养鸡游戏被作者称为简易版QQ农场。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "养成游戏"
+      ]
+    },
+    {
+      "id": "咸鱼之王",
+      "name": "《咸鱼之王》",
+      "type": "product",
+      "description": "知名休闲游戏，被用来类比Aippy的游戏爽感。",
+      "mention_count": 1,
+      "aliases": [
+        "咸鱼之王"
+      ],
+      "tags": [
+        "小游戏"
+      ]
+    },
+    {
+      "id": "暴打老板",
+      "name": "《暴打老板》",
+      "type": "product",
+      "description": "经典解压游戏，Aippy上的火柴人游戏被指有改造成该游戏的潜质。",
+      "mention_count": 1,
+      "aliases": [
+        "暴打老板"
+      ],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "4399",
+      "target": "Aippy",
+      "relation_type": "compares_to",
+      "label": "大部分AI游戏同类产品自称AI版4399，文章将其与4399的模式进行对比讨论。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Aippy",
+      "target": "Gambo",
+      "relation_type": "compares_to",
+      "label": "Gambo的创始人和Aippy团队有着类似的“工具转UGC社区”产品逻辑。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Aippy",
+      "target": "Loopit",
+      "relation_type": "compares_to",
+      "label": "Loopit发布的产品形态被指与Aippy非常像。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Aippy",
+      "target": "QQ农场",
+      "relation_type": "compares_to",
+      "label": "Aippy中的养鸡下蛋游戏被作者比作简易版QQ农场。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Aippy",
+      "target": "Rezona",
+      "relation_type": "compares_to",
+      "label": "Rezona发布的产品形态被指与Aippy非常像。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Aippy",
+      "target": "《咸鱼之王》",
+      "relation_type": "compares_to",
+      "label": "Aippy被评价为不看广告就能体验到《咸鱼之王》的爽感。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Aippy",
+      "target": "《暴打老板》",
+      "relation_type": "compares_to",
+      "label": "Aippy上的打火柴人游戏被认为有改造成《暴打老板》的潜质。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Aippy",
+      "target": "Loopit",
+      "relation_type": "competes_with",
+      "label": "Loopit是Aippy在同赛道的后来者和竞品。",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Aippy",
+      "target": "Rezona",
+      "relation_type": "competes_with",
+      "label": "Rezona是Aippy在同赛道的后来者和竞品。",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "赤子城",
+      "target": "Aippy",
+      "relation_type": "develops",
+      "label": "Aippy是赤子城内部孵化的试验性产品。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 9,
+    "relationship_count": 10,
+    "pruned_entities": [
+      {
+        "name": "《死神vs火影》",
+        "reason": "low-signal"
+      },
+      {
+        "name": "《造梦西游》",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

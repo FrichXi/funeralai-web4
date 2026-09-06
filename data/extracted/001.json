@@ -1,0 +1,108 @@
+{
+  "article": {
+    "id": "001",
+    "title": "炒作狗才做「一句话生成」AI",
+    "path": "articles/001_2025-05-26_葬爱咸鱼_炒作狗才做「一句话生成」AI.md",
+    "date": "2025-05-26",
+    "author": "葬爱咸鱼",
+    "content_hash": "7290cb94963106a14863bd1bdd9e09b8c5316c7c3cf550f2595a31a471681459"
+  },
+  "entities": [
+    {
+      "id": "listenhub",
+      "name": "ListenHub",
+      "type": "product",
+      "description": "在文中作为对比对象，被认为前途不如icon和Lovart的AI产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI生成"
+      ]
+    },
+    {
+      "id": "lovart",
+      "name": "Lovart",
+      "type": "product",
+      "description": "被文章认为在弱信息行业较有前途的AI产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI生成",
+        "弱信息场景"
+      ]
+    },
+    {
+      "id": "medeo",
+      "name": "Medeo",
+      "type": "product",
+      "description": "在文中作为对比对象，被认为前途不如icon和Lovart的AI产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI生成"
+      ]
+    },
+    {
+      "id": "icon",
+      "name": "icon",
+      "type": "product",
+      "description": "被文章认为在弱信息行业（如电商广告视频生成）较有前途的AI产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI生成",
+        "弱信息场景"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ListenHub",
+      "target": "Lovart",
+      "relation_type": "compares_to",
+      "label": "文章明确对比，认为Lovart比ListenHub更有前途",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "ListenHub",
+      "target": "icon",
+      "relation_type": "compares_to",
+      "label": "文章明确对比，认为icon比ListenHub更有前途",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Lovart",
+      "target": "Medeo",
+      "relation_type": "compares_to",
+      "label": "文章明确对比，认为Lovart比Medeo更有前途",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Medeo",
+      "target": "icon",
+      "relation_type": "compares_to",
+      "label": "文章明确对比，认为icon比Medeo更有前途",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 4,
+    "relationship_count": 4,
+    "pruned_entities": [
+      {
+        "name": "DeepResearch",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

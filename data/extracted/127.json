@@ -1,0 +1,182 @@
+{
+  "article": {
+    "id": "127",
+    "title": "MiniMax用H3窃取大结果",
+    "path": "articles/127_2026-08-02_骡子马_MiniMax用H3窃取大结果.md",
+    "date": "2026-08-02",
+    "author": "骡子马",
+    "content_hash": "eb08666e019552e50da217a050381125f343e1e54df99b7c3e28a9c84ec10dcd"
+  },
+  "entities": [
+    {
+      "id": "h3",
+      "name": "H3",
+      "type": "product",
+      "description": "MiniMax发布的视频生成与编辑模型，主打实拍视频后期处理与AR增强现实感",
+      "mention_count": 37,
+      "aliases": [
+        "MiniMax H3"
+      ],
+      "tags": [
+        "视频生成",
+        "后期软件",
+        "开源"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "AI视频模型H3的开发公司，被评论为采取差异化后期工具路线",
+      "mention_count": 22,
+      "aliases": [],
+      "tags": [
+        "AI视频",
+        "世界模型",
+        "开源"
+      ]
+    },
+    {
+      "id": "昆汀",
+      "name": "昆汀",
+      "type": "person",
+      "description": "著名导演，文中用于测试H3对特定导演风格的理解与模仿能力",
+      "mention_count": 5,
+      "aliases": [
+        "Quentin Tarantino"
+      ],
+      "tags": [
+        "风格模仿"
+      ]
+    },
+    {
+      "id": "孙笑川",
+      "name": "孙笑川",
+      "type": "person",
+      "description": "文中用作H3音频编辑与方言转换测试案例的人物对象",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "测试案例"
+      ]
+    },
+    {
+      "id": "峰哥",
+      "name": "峰哥",
+      "type": "person",
+      "description": "文中用作H3生成效果测试案例的人物对象（买科技股道歉视频）",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "测试案例"
+      ]
+    },
+    {
+      "id": "seedance-2-0",
+      "name": "Seedance 2.0",
+      "type": "product",
+      "description": "文中作为H3主要对标对象的视频生成模型，被视为SOTA基准",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "视频生成",
+        "SOTA"
+      ]
+    },
+    {
+      "id": "seedance-2-5",
+      "name": "Seedance 2.5",
+      "type": "product",
+      "description": "在H3发布后紧接着上线的视频模型版本，是H3的直接竞争对手",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "视频生成"
+      ]
+    },
+    {
+      "id": "libtv",
+      "name": "LibTV",
+      "type": "product",
+      "description": "文中提到的开源项目，H3与其结合可无缝衔接后训练视频模型",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "开源",
+        "视频模型"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "H3",
+      "target": "Seedance 2.0",
+      "relation_type": "compares_to",
+      "label": "文章将H3与Seedance 2.0进行详细对比，指出H3价格低但效果有差距",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "H3",
+      "target": "Seedance 2.5",
+      "relation_type": "competes_with",
+      "label": "H3与Seedance 2.5存在直接市场竞争关系，且发布时间接近",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "H3",
+      "relation_type": "develops",
+      "label": "MiniMax开发并发布了视频模型H3",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "H3",
+      "target": "LibTV",
+      "relation_type": "integrates_with",
+      "label": "文中提到H3相当于给LibTV接腿，两者结合可抗击Seedance 2.5",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "H3",
+      "target": "孙笑川",
+      "relation_type": "related",
+      "label": "H3对孙笑川的视频素材进行了方言转换和字幕包装测试",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "high"
+    },
+    {
+      "source": "H3",
+      "target": "峰哥",
+      "relation_type": "related",
+      "label": "H3生成了以峰哥为主角的测试视频，用于展示人脸生成效果的不足",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "high"
+    },
+    {
+      "source": "H3",
+      "target": "昆汀",
+      "relation_type": "related",
+      "label": "H3成功模仿了昆汀的导演风格生成茅台广告，展示了风格理解能力",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 8,
+    "relationship_count": 7,
+    "pruned_entities": []
+  }
+}

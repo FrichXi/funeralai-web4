@@ -1,0 +1,129 @@
+{
+  "article": {
+    "id": "041",
+    "title": "感谢OiiOii，没人因你而失业",
+    "path": "articles/041_2025-12-15_葬爱咸鱼_感谢OiiOii，没人因你而失业.md",
+    "date": "2025-12-15",
+    "author": "葬爱咸鱼",
+    "content_hash": "d066280713521b6ced6da19874057374273402276b251bf8b860ecb8bed6115d"
+  },
+  "entities": [
+    {
+      "id": "oiioii",
+      "name": "OiiOii",
+      "type": "product",
+      "description": "自称全球首个动画创作Agent的AI视频生成工具",
+      "mention_count": 19,
+      "aliases": [
+        "Oii"
+      ],
+      "tags": [
+        "动画Agent",
+        "视频生成",
+        "Agent"
+      ]
+    },
+    {
+      "id": "crepal",
+      "name": "CrePal",
+      "type": "product",
+      "description": "一款AI视频Agent工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "视频Agent"
+      ]
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "type": "company",
+      "description": "知名AI大模型研发公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "模型开发",
+        "版权合作"
+      ]
+    },
+    {
+      "id": "峰哥",
+      "name": "峰哥",
+      "type": "person",
+      "description": "被用作产品能力/连接性方面比喻与指导标杆的行业人物",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "标杆人物"
+      ]
+    },
+    {
+      "id": "迪士尼",
+      "name": "迪士尼",
+      "type": "company",
+      "description": "知名内容与影视IP公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "内容版权",
+        "IP"
+      ]
+    },
+    {
+      "id": "闹闹",
+      "name": "闹闹",
+      "type": "person",
+      "description": "OiiOii的相关负责人或核心主创成员",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "产品负责人"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "峰哥",
+      "target": "闹闹",
+      "relation_type": "compares_to",
+      "label": "文中吐槽OiiOii连接性不行时，调侃其产品经理（指向闹闹等主创）应该去拜一拜峰哥学习",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "CrePal",
+      "target": "OiiOii",
+      "relation_type": "competes_with",
+      "label": "两者均为同类型的视频生成Agent工具，文中对它们进行了市场认可度的对比",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "OpenAI",
+      "target": "迪士尼",
+      "relation_type": "partners_with",
+      "label": "文中明确提到迪士尼与OpenAI签约，达成内容与AI视频生成的版权合作",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "闹闹",
+      "target": "OiiOii",
+      "relation_type": "works_on",
+      "label": "文中提到对OiiOii的锐评应让“闹闹闻过则喜”，暗示其深度参与或主导该产品的开发",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 6,
+    "relationship_count": 4,
+    "pruned_entities": []
+  }
+}

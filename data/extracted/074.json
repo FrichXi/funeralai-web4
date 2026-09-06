@@ -1,0 +1,235 @@
+{
+  "article": {
+    "id": "074",
+    "title": "做个人吧，别做AI",
+    "path": "articles/074_2026-03-22_葬爱咸鱼_做个人吧，别做AI.md",
+    "date": "2026-03-22",
+    "author": "葬爱咸鱼",
+    "content_hash": "16af04c1624ecc311fef6b1e5c1d9eb7e9691002a05cc9c8fa6313a4f67156de"
+  },
+  "entities": [
+    {
+      "id": "yc",
+      "name": "YC",
+      "type": "company",
+      "description": "知名投资机构，Garry Tan担任总裁，其招聘广告被植入到了gstack中。",
+      "mention_count": 8,
+      "aliases": [
+        "Y Combinator"
+      ],
+      "tags": [
+        "风投",
+        "招聘"
+      ]
+    },
+    {
+      "id": "黄仁勋",
+      "name": "黄仁勋",
+      "type": "person",
+      "description": "英伟达CEO，被指在炒作AI工程师的Token消耗量。",
+      "mention_count": 5,
+      "aliases": [
+        "台湾老登"
+      ],
+      "tags": [
+        "Token消耗焦虑",
+        "AI炒作"
+      ]
+    },
+    {
+      "id": "garry-tan",
+      "name": "Garry Tan",
+      "type": "person",
+      "description": "YC总裁，开源了AI软件工厂gstack并进行高调宣传。",
+      "mention_count": 4,
+      "aliases": [
+        "猕猴桃先生"
+      ],
+      "tags": [
+        "向上管理",
+        "AI炒作"
+      ]
+    },
+    {
+      "id": "gstack",
+      "name": "gstack",
+      "type": "product",
+      "description": "Garry Tan开源的AI软件工厂项目，被批评为缺乏实质功能的“YC广告生成器”。",
+      "mention_count": 2,
+      "aliases": [
+        "AI软件工厂",
+        "YC广告生成器"
+      ],
+      "tags": [
+        "情感陪伴",
+        "提示词集合"
+      ]
+    },
+    {
+      "id": "英伟达",
+      "name": "英伟达",
+      "type": "company",
+      "description": "全球知名的AI芯片公司，黄仁勋为其老板。",
+      "mention_count": 2,
+      "aliases": [
+        "Nvidia"
+      ],
+      "tags": [
+        "算力",
+        "脑机接口比喻"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "一款AI编程工具，gstack可以安装并在其中运行。",
+      "mention_count": 1,
+      "aliases": [
+        "Claude Code"
+      ],
+      "tags": [
+        "开发工具",
+        "环境"
+      ]
+    },
+    {
+      "id": "真格",
+      "name": "真格",
+      "type": "company",
+      "description": "中国知名早期投资机构，被预测是否会效仿YC进行技术产品炒作。",
+      "mention_count": 1,
+      "aliases": [
+        "真格基金"
+      ],
+      "tags": [
+        "中国VC"
+      ]
+    },
+    {
+      "id": "红杉资本",
+      "name": "红杉资本",
+      "type": "vc_firm",
+      "description": "中国知名投资机构，被调侃是否会学习YC的炒作模式。",
+      "mention_count": 1,
+      "aliases": [
+        "红杉"
+      ],
+      "tags": [
+        "中国VC"
+      ]
+    },
+    {
+      "id": "锦秋",
+      "name": "锦秋",
+      "type": "company",
+      "description": "中国投资机构，被调侃是否会发布中国版VC CLI工具。",
+      "mention_count": 1,
+      "aliases": [
+        "锦秋基金"
+      ],
+      "tags": [
+        "中国VC"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "YC",
+      "target": "真格",
+      "relation_type": "compares_to",
+      "label": "文章调侃真格可能会学习YC的炒作模式。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "YC",
+      "target": "红杉资本",
+      "relation_type": "compares_to",
+      "label": "文章调侃红杉等中国VC可能会学习YC的“先进炒作成果”。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "YC",
+      "target": "锦秋",
+      "relation_type": "compares_to",
+      "label": "文章调侃锦秋可能会学习YC的炒作模式。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "真格",
+      "target": "红杉资本",
+      "relation_type": "competes_with",
+      "label": "红杉、锦秋和真格作为中国本土VC，在文章中被并列视为潜在的技术炒作竞争者。",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "low"
+    },
+    {
+      "source": "YC",
+      "target": "gstack",
+      "relation_type": "develops",
+      "label": "gstack在实际体验中充当了YC的招聘广告生成器和宣传工具。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    },
+    {
+      "source": "黄仁勋",
+      "target": "英伟达",
+      "relation_type": "founder_of",
+      "label": "黄仁勋是英伟达的老板。",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "gstack",
+      "relation_type": "integrates_with",
+      "label": "gstack需要在Claude Code里安装后使用。",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Garry Tan",
+      "target": "YC",
+      "relation_type": "works_at",
+      "label": "Garry Tan担任YC总裁。",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Garry Tan",
+      "target": "gstack",
+      "relation_type": "works_on",
+      "label": "Garry Tan开源并大力宣传了gstack项目。",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 9,
+    "relationship_count": 9,
+    "pruned_entities": [
+      {
+        "name": "特斯拉",
+        "reason": "low-signal"
+      },
+      {
+        "name": "马斯克",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

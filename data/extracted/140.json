@@ -1,0 +1,219 @@
+{
+  "article": {
+    "id": "140",
+    "title": "一场黑客松斩杀了整个网吧",
+    "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+    "date": "2026-08-27",
+    "author": "沐秋",
+    "content_hash": "bf2739ddf96661d2fdf7f7d88165fb6d82047dae79d9828bc8a435c7d93dc623"
+  },
+  "entities": [
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "月之暗面旗下大模型，在长程任务和代码生成维度表现优异",
+      "mention_count": 9,
+      "aliases": [
+        "K3"
+      ],
+      "tags": [
+        "大模型",
+        "长文本",
+        "工具调用"
+      ]
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "通义千问大模型系列，为黑客松提供Token赞助并被多位选手部署测试",
+      "mention_count": 9,
+      "aliases": [
+        "Qwen3.5-7B",
+        "Qwen3.8-Max",
+        "通义千问"
+      ],
+      "tags": [
+        "大模型",
+        "开源",
+        "Agent能力"
+      ]
+    },
+    {
+      "id": "vivian",
+      "name": "Vivian",
+      "type": "person",
+      "description": "美团龙猫团队成员，模型评测专家，获得Qwen选择奖",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "模型评测",
+        "获奖者"
+      ]
+    },
+    {
+      "id": "美团",
+      "name": "美团",
+      "type": "company",
+      "description": "互联网平台公司，旗下龙猫团队参与评测，且被用作外卖比价场景",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "互联网平台",
+        "AI评测"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "深度求索大模型，文中提及V4 Pro版本及插件兼容性测试",
+      "mention_count": 2,
+      "aliases": [
+        "DeepSeek V4 Pro"
+      ],
+      "tags": [
+        "大模型",
+        "插件兼容"
+      ]
+    },
+    {
+      "id": "nemovideo",
+      "name": "NemoVideo",
+      "type": "company",
+      "description": "AI剪辑Agent公司，贡献了视频剪辑Bench并利用结果迭代产品",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI应用",
+        "视频剪辑",
+        "Agent"
+      ]
+    },
+    {
+      "id": "rainfly",
+      "name": "RainFly",
+      "type": "person",
+      "description": "黑客松Mac mini大奖得主，开发了外卖大王比价Benchmark",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "开发者",
+        "获奖者"
+      ]
+    },
+    {
+      "id": "小米mimo",
+      "name": "小米MiMo",
+      "type": "product",
+      "description": "小米旗下模型，文中作为二线模型的代表被提及",
+      "mention_count": 1,
+      "aliases": [
+        "MiMo"
+      ],
+      "tags": [
+        "大模型",
+        "二线模型"
+      ]
+    },
+    {
+      "id": "美团长猫",
+      "name": "美团长猫",
+      "type": "product",
+      "description": "美团旗下模型，文中作为二线模型的代表被提及",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "二线模型"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "DeepSeek",
+      "target": "Qwen",
+      "relation_type": "compares_to",
+      "label": "两者均为本次黑客松选定的五大顶尖评测模型之一",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi",
+      "target": "Qwen",
+      "relation_type": "compares_to",
+      "label": "两者均为本次黑客松选定的顶尖模型，且在多个Bench中被横向测评",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi",
+      "target": "美团长猫",
+      "relation_type": "compares_to",
+      "label": "文中将美团长猫作为二线模型与Kimi等顶尖模型进行档次对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Qwen",
+      "target": "小米MiMo",
+      "relation_type": "compares_to",
+      "label": "文中将小米MiMo作为二线模型与Qwen等顶尖模型进行档次对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "RainFly",
+      "target": "美团",
+      "relation_type": "related",
+      "label": "RainFly开发了针对美团App环境的外卖比价Benchmark",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "high"
+    },
+    {
+      "source": "Vivian",
+      "target": "美团",
+      "relation_type": "works_at",
+      "label": "Vivian是美团龙猫团队的成员，日常工作为模型评测",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Vivian",
+      "target": "DeepSeek",
+      "relation_type": "works_on",
+      "label": "Vivian的评测集包含了DeepSeek harness多个插件兼容性的测试题目",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 9,
+    "relationship_count": 7,
+    "pruned_entities": [
+      {
+        "name": "冬云",
+        "reason": "low-signal"
+      },
+      {
+        "name": "张振尧",
+        "reason": "low-signal"
+      },
+      {
+        "name": "电子羊",
+        "reason": "low-signal"
+      }
+    ],
+    "provider": "dashscope"
+  }
+}

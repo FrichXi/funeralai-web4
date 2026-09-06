@@ -3,9 +3,9 @@
     "id": "可灵",
     "name": "可灵",
     "type": "product",
-    "description": "主打物理模拟、电影质感和原生4K生成的AI视频大模型。",
-    "mention_count": 38,
-    "article_count": 6,
+    "description": "快手旗下视频生成模型，文中提到其半年未更新版本被H3超越",
+    "mention_count": 39,
+    "article_count": 7,
     "aliases": [
       "Kling"
     ],
@@ -17,8 +17,8 @@
       "视频模型",
       "视频生成"
     ],
-    "references": 6,
-    "source_article_count": 6,
+    "references": 7,
+    "source_article_count": 7,
     "source_articles": [
       {
         "article_id": "095",
@@ -73,10 +73,19 @@
         "permalink": "/articles/004",
         "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
         "mention_count": 2
+      },
+      {
+        "article_id": "141",
+        "title": "再爱MiniMax一次",
+        "date": "2026-09-01",
+        "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "permalink": "/articles/141",
+        "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "mention_count": 1
       }
     ],
-    "degree": 19,
-    "composite_weight": 0.2087
+    "degree": 21,
+    "composite_weight": 0.2114
   },
   "links": [
     {
@@ -236,6 +245,32 @@
       "evidences": []
     },
     {
+      "source": "minimax-h3",
+      "target": "可灵",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中提到H3超越了半年没更新版本的可灵",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "文中提到H3超越了半年没更新版本的可灵",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "seedance",
       "target": "可灵",
       "relation_type": "competes_with",
@@ -299,6 +334,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "可灵",
+      "target": "minimax-h3",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中提到H3超越了半年没更新版本的可灵",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
     },
     {
       "source": "可灵",
@@ -481,35 +529,55 @@
   ],
   "suggested_edges": [
     {
-      "source": "可灵",
-      "target": "字节跳动",
-      "score": 0.4003,
+      "source": "minimax",
+      "target": "可灵",
+      "score": 0.5694,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
-        "104"
+        "004",
+        "012",
+        "116",
+        "117",
+        "141"
       ],
       "status": "suggested"
     },
     {
-      "source": "sora",
+      "source": "kimi",
       "target": "可灵",
-      "score": 0.3897,
+      "score": 0.3947,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 4 篇文章；共享 1 个邻居",
       "evidence_article_ids": [
-        "104"
+        "004",
+        "116",
+        "117",
+        "141"
       ],
       "status": "suggested"
     },
     {
       "source": "veo",
       "target": "可灵",
-      "score": 0.3886,
+      "score": 0.3885,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "012"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "libtv",
+      "target": "可灵",
+      "score": 0.3854,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "116",
+        "117",
+        "141"
       ],
       "status": "suggested"
     }

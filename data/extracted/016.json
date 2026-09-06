@@ -1,0 +1,212 @@
+{
+  "article": {
+    "id": "016",
+    "title": "Manus依然是版本神",
+    "path": "articles/016_2025-08-25_葬爱咸鱼_Manus依然是版本神.md",
+    "date": "2025-08-25",
+    "author": "葬爱咸鱼",
+    "content_hash": "ef982d2833c3211fcf2e764fbfd5394a3738c66177e6951166e00cb6e54409e4"
+  },
+  "entities": [
+    {
+      "id": "manus",
+      "name": "Manus",
+      "type": "product",
+      "description": "通用Agent平台，被作者称为“版本神”，开创了左边大模型右边云电脑沙盒的产品形态",
+      "mention_count": 26,
+      "aliases": [],
+      "tags": [
+        "通用Agent",
+        "沙盒",
+        "任务调度"
+      ]
+    },
+    {
+      "id": "genspark",
+      "name": "Genspark",
+      "type": "product",
+      "description": "本来做AI搜索的产品，通过学习/抄袭Manus获得了较高ARR",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "AI搜索",
+        "Agent"
+      ]
+    },
+    {
+      "id": "扣子空间",
+      "name": "扣子空间",
+      "type": "product",
+      "description": "通用Agent产品，具备逼真的AI播客音色",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "Agent",
+        "AI播客"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "开发了MiniMax Agent的AI公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI公司"
+      ]
+    },
+    {
+      "id": "minimax-agent",
+      "name": "MiniMax Agent",
+      "type": "product",
+      "description": "强化了vibe coding能力的Agent产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "vibe coding",
+        "Agent"
+      ]
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "type": "product",
+      "description": "在线办公平台，面临通用Agent产品的替代竞争",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "办公平台"
+      ]
+    },
+    {
+      "id": "youware",
+      "name": "YouWare",
+      "type": "product",
+      "description": "被MiniMax Agent竞争、抢夺生意的目标产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "编程工具"
+      ]
+    },
+    {
+      "id": "飞书",
+      "name": "飞书",
+      "type": "product",
+      "description": "在线办公平台，面临通用Agent产品的替代竞争",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "办公平台"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Genspark",
+      "target": "Manus",
+      "relation_type": "compares_to",
+      "label": "文章明确指出Genspark在“学”和“紧贴着抄”Manus",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Manus",
+      "target": "扣子空间",
+      "relation_type": "compares_to",
+      "label": "文章明确指出扣子空间在学Manus，未做出颠覆形态的创新",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Genspark",
+      "target": "Manus",
+      "relation_type": "competes_with",
+      "label": "Genspark作为同类通用Agent与Manus存在竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Manus",
+      "target": "Notion",
+      "relation_type": "competes_with",
+      "label": "独立Agent产品有望取代并竞争在线办公平台",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Manus",
+      "target": "飞书",
+      "relation_type": "competes_with",
+      "label": "独立Agent产品有望取代并竞争在线办公平台",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax Agent",
+      "target": "YouWare",
+      "relation_type": "competes_with",
+      "label": "MiniMax Agent强化编码能力后想抢YouWare的生意",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Notion",
+      "target": "扣子空间",
+      "relation_type": "competes_with",
+      "label": "独立Agent产品有望取代并竞争在线办公平台",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "扣子空间",
+      "target": "飞书",
+      "relation_type": "competes_with",
+      "label": "独立Agent产品有望取代并竞争在线办公平台",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "MiniMax Agent",
+      "relation_type": "develops",
+      "label": "MiniMax公司开发了MiniMax Agent",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 8,
+    "relationship_count": 9,
+    "pruned_entities": [
+      {
+        "name": "Genspark创始人",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "MuleRun",
+        "reason": "low-signal"
+      },
+      {
+        "name": "张一鸣",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "王兴",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

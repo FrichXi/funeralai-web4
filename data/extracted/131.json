@@ -1,0 +1,248 @@
+{
+  "article": {
+    "id": "131",
+    "title": "大模型能干，懂模帝会飞",
+    "path": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
+    "date": "2026-08-10",
+    "author": "沐秋",
+    "content_hash": "97f643949d6c61ab8b540af36cf979aa6308dc65ec0858d0b6914a29719757fb"
+  },
+  "entities": [
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "大模型公司，旗下V4 Flash模型在评测中性价比最高",
+      "mention_count": 7,
+      "aliases": [
+        "深度求索"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "小米",
+      "name": "小米",
+      "type": "company",
+      "description": "科技公司，旗下MiMo模型在评测中表现不佳",
+      "mention_count": 6,
+      "aliases": [
+        "Xiaomi"
+      ],
+      "tags": [
+        "大模型",
+        "硬件厂商"
+      ]
+    },
+    {
+      "id": "懂模帝",
+      "name": "懂模帝",
+      "type": "product",
+      "description": "收录应用公司在真实场景下对各类模型评测的产品/平台",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "评测平台",
+        "Agent"
+      ]
+    },
+    {
+      "id": "aute",
+      "name": "Aute",
+      "type": "company",
+      "description": "开发ego浏览器的公司，与葬AI合作推出Ego Bench",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "浏览器",
+        "Agent基础设施"
+      ]
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "大模型公司，文中提及上市及新模型发布动态",
+      "mention_count": 4,
+      "aliases": [
+        "Zhipu",
+        "智谱"
+      ],
+      "tags": [
+        "大模型",
+        "上市公司"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "大模型公司，文中提及上市砸盘及M3模型表现",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "上市公司"
+      ]
+    },
+    {
+      "id": "workbuddy",
+      "name": "WorkBuddy",
+      "type": "product",
+      "description": "文中提及的AI工具，建议与ego浏览器搭配使用",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI工具"
+      ]
+    },
+    {
+      "id": "美团小美",
+      "name": "美团小美",
+      "type": "product",
+      "description": "美团的AI助手，文中作为对比基准提及",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI应用",
+        "生活服务"
+      ]
+    },
+    {
+      "id": "钟经纬",
+      "name": "钟经纬",
+      "type": "person",
+      "description": "葬AI的朋友，参与懂模帝产品开发与评测解读",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "合作者"
+      ]
+    },
+    {
+      "id": "ego-lite",
+      "name": "ego (lite)",
+      "type": "product",
+      "description": "Aute开发的专为人类和Agent共同使用的浏览器产品",
+      "mention_count": 1,
+      "aliases": [
+        "Ego",
+        "ego lite"
+      ],
+      "tags": [
+        "浏览器",
+        "Agent工具"
+      ]
+    },
+    {
+      "id": "正阳",
+      "name": "正阳",
+      "type": "person",
+      "description": "葬AI的朋友，参与懂模帝产品开发",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "合作者"
+      ]
+    },
+    {
+      "id": "沐秋",
+      "name": "沐秋",
+      "type": "person",
+      "description": "葬AI成员，文章作者及懂模帝项目参与者",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "小米",
+      "target": "智谱AI",
+      "relation_type": "competes_with",
+      "label": "同为大模型公司，在榜单和应用层面竞争",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "沐秋",
+      "target": "小米",
+      "relation_type": "criticizes",
+      "label": "沐秋批评小米MiMo模型表现比文心一言还差，建议避雷",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Aute",
+      "target": "ego (lite)",
+      "relation_type": "develops",
+      "label": "Aute开发了ego (lite)浏览器",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "ego (lite)",
+      "target": "懂模帝",
+      "relation_type": "integrates_with",
+      "label": "懂模帝的Ego Bench基于ego浏览器进行评测",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "沐秋",
+      "target": "DeepSeek",
+      "relation_type": "praises",
+      "label": "沐秋赞扬DeepSeek V4 Flash性价比超高，是国模第一",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "正阳",
+      "target": "懂模帝",
+      "relation_type": "works_on",
+      "label": "正阳参与懂模帝产品开发",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "钟经纬",
+      "target": "懂模帝",
+      "relation_type": "works_on",
+      "label": "钟经纬参与懂模帝开发并提供评测解读帮助",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 12,
+    "relationship_count": 7,
+    "pruned_entities": [
+      {
+        "name": "Neo Lab",
+        "reason": "low-signal"
+      },
+      {
+        "name": "一鸣",
+        "reason": "low-signal"
+      },
+      {
+        "name": "梁圣",
+        "reason": "low-signal"
+      },
+      {
+        "name": "雷军",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

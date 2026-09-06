@@ -1,0 +1,103 @@
+{
+  "article": {
+    "id": "042",
+    "title": "Looki开创AI胸载摄像头",
+    "path": "articles/042_2025-12-16_沐秋_Looki开创AI胸载摄像头.md",
+    "date": "2025-12-16",
+    "author": "沐秋",
+    "content_hash": "9bbd787462540db04dc660b1f75f5777246b00023de9c0115cdad838815ac17c"
+  },
+  "entities": [
+    {
+      "id": "looki",
+      "name": "Looki",
+      "type": "product",
+      "description": "一家研发AI硬件的初创公司，开创了AI胸载摄像头赛道。",
+      "mention_count": 36,
+      "aliases": [
+        "Looki公司"
+      ],
+      "tags": [
+        "硬件公司",
+        "AI硬件"
+      ]
+    },
+    {
+      "id": "looki-l1",
+      "name": "Looki L1",
+      "type": "product",
+      "description": "Looki推出的AI胸载摄像头，主打记录生活、Vlog生成与第二大脑问答功能。",
+      "mention_count": 4,
+      "aliases": [
+        "Looki"
+      ],
+      "tags": [
+        "AI硬件",
+        "胸载摄像头",
+        "Vlog设备",
+        "第二大脑"
+      ]
+    },
+    {
+      "id": "plaud",
+      "name": "Plaud",
+      "type": "product",
+      "description": "2023年开始研发录音卡片的AI硬件公司。",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "硬件公司",
+        "AI硬件"
+      ]
+    },
+    {
+      "id": "影石",
+      "name": "影石",
+      "type": "company",
+      "description": "提供全景及运动影像设备的科技公司。",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "影像设备"
+      ]
+    },
+    {
+      "id": "大疆",
+      "name": "大疆",
+      "type": "company",
+      "description": "提供正经影像设备的知名科技巨头。",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "影像设备"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "大疆",
+      "target": "影石",
+      "relation_type": "competes_with",
+      "label": "大疆和影石同为提供正经影像设备的竞品厂商，被并列作为Vlog用户的较优解决方案。",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 5,
+    "relationship_count": 1,
+    "pruned_entities": [
+      {
+        "name": "AI Vlog",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Plaud录音卡",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

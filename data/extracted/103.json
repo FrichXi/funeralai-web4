@@ -1,0 +1,608 @@
+{
+  "article": {
+    "id": "103",
+    "title": "Kimi看天讨饭吃",
+    "path": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
+    "date": "2026-06-10",
+    "author": "葬爱咸鱼",
+    "content_hash": "d4a490c72da4a47f678726d302de4f40cd486f72b79cfb1197f85460ee48fd9f"
+  },
+  "entities": [
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "Anthropic推出的编程产品",
+      "mention_count": 9,
+      "aliases": [
+        "Claude code"
+      ],
+      "tags": [
+        "编程产品"
+      ]
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "国内上市的大模型公司",
+      "mention_count": 6,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "OpenAI推出的编程客户端工具",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "客户端"
+      ]
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "阿里系的大模型及相关产品应用",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "杨植麟",
+      "name": "杨植麟",
+      "type": "person",
+      "description": "月之暗面创始人",
+      "mention_count": 4,
+      "aliases": [
+        "杨圣"
+      ],
+      "tags": []
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "国内大模型公司",
+      "mention_count": 3,
+      "aliases": [
+        "DS",
+        "Deepseek"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "kimi-code",
+      "name": "Kimi code",
+      "type": "product",
+      "description": "月之暗面推出的第三方编程CLI工具",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "编程CLI"
+      ]
+    },
+    {
+      "id": "kimi-work",
+      "name": "Kimi work",
+      "type": "product",
+      "description": "月之暗面的Codex客户端，本地Agent产品",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "id": "opencode",
+      "name": "Opencode",
+      "type": "product",
+      "description": "第三方编程CLI生态位的应用",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "编程CLI"
+      ]
+    },
+    {
+      "id": "trae",
+      "name": "Trae",
+      "type": "product",
+      "description": "字节跳动投入研发的编程工具",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "编程工具"
+      ]
+    },
+    {
+      "id": "claude客户端",
+      "name": "Claude客户端",
+      "type": "product",
+      "description": "Anthropic推出的Agent客户端",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "客户端"
+      ]
+    },
+    {
+      "id": "kimi-webbridge",
+      "name": "Kimi webbridge",
+      "type": "product",
+      "description": "月之暗面推出的允许本地Agent调用浏览器的插件",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "插件"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内上市的大模型公司",
+      "mention_count": 2,
+      "aliases": [
+        "Minimax"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "pi-coding-agent",
+      "name": "Pi coding agent",
+      "type": "product",
+      "description": "流行的编程Agent工具",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "id": "qoder",
+      "name": "Qoder",
+      "type": "product",
+      "description": "阿里巴巴重点押注的编程工具",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "编程工具"
+      ]
+    },
+    {
+      "id": "月之暗面",
+      "name": "月之暗面",
+      "type": "company",
+      "description": "国内知名大模型公司，研发了Kimi系列产品",
+      "mention_count": 2,
+      "aliases": [
+        "Kimi"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "type": "company",
+      "description": "海外万亿美元AI公司",
+      "mention_count": 1,
+      "aliases": [
+        "A畜"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "dario",
+      "name": "Dario",
+      "type": "person",
+      "description": "Anthropic公司的老板",
+      "mention_count": 1,
+      "aliases": [
+        "Dario Amodei"
+      ],
+      "tags": [
+        "CEO"
+      ]
+    },
+    {
+      "id": "deepseek-gui",
+      "name": "Deepseek GUI",
+      "type": "product",
+      "description": "Deepseek推出的图形界面产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "deepseek-tui",
+      "name": "Deepseek TUI",
+      "type": "product",
+      "description": "开源社区火热的Deepseek终端工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "erlich",
+      "name": "Erlich",
+      "type": "person",
+      "description": "Proma客户端的独立开发者",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "独立开发者"
+      ]
+    },
+    {
+      "id": "kimi-agent",
+      "name": "Kimi agent",
+      "type": "product",
+      "description": "月之暗面的Agent集群服务",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "id": "manner",
+      "name": "Manner",
+      "type": "company",
+      "description": "与Kimi联名的咖啡品牌",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "消费品牌"
+      ]
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "type": "company",
+      "description": "海外万亿美元AI公司",
+      "mention_count": 1,
+      "aliases": [
+        "O社"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "proma",
+      "name": "Proma",
+      "type": "product",
+      "description": "独立开发者打造的Agent客户端原型",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "予彤",
+      "name": "予彤",
+      "type": "person",
+      "description": "月之暗面关键行业人物",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "高管"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "国内互联网大厂",
+      "mention_count": 1,
+      "aliases": [
+        "字节"
+      ],
+      "tags": [
+        "大厂"
+      ]
+    },
+    {
+      "id": "阿里巴巴",
+      "name": "阿里巴巴",
+      "type": "company",
+      "description": "国内互联网大厂",
+      "mention_count": 1,
+      "aliases": [
+        "阿里"
+      ],
+      "tags": [
+        "大厂"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "予彤",
+      "target": "杨植麟",
+      "relation_type": "collaborates_with",
+      "label": "两人共同合作让月之暗面再次伟大",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Anthropic",
+      "target": "OpenAI",
+      "relation_type": "compares_to",
+      "label": "A畜和O社对标应该都是1000亿美元",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude客户端",
+      "target": "Codex",
+      "relation_type": "compares_to",
+      "label": "建议做Agent客户端时学习做得更好的Codex而不是Claude",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude客户端",
+      "target": "Kimi work",
+      "relation_type": "compares_to",
+      "label": "文章对比两者UI设计，批评不要照着Claude客户端学",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Codex",
+      "target": "Kimi work",
+      "relation_type": "compares_to",
+      "label": "Kimi work被称作Kimi自己的Codex客户端平替",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Deepseek TUI",
+      "target": "Pi coding agent",
+      "relation_type": "compares_to",
+      "label": "Deepseek TUI火了不久，现在流行的是Pi coding agent",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "月之暗面",
+      "relation_type": "compares_to",
+      "label": "文中将Kimi与Minimax的上市和估值进行对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "月之暗面",
+      "relation_type": "compares_to",
+      "label": "文中将Kimi与智谱的上市和估值走势进行多次对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi code",
+      "target": "Opencode",
+      "relation_type": "competes_with",
+      "label": "在第三方编程CLI生态位上存在竞争和对比",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi code",
+      "target": "Pi coding agent",
+      "relation_type": "competes_with",
+      "label": "在第三方编程CLI生态位上存在竞争",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Kimi work",
+      "target": "Trae",
+      "relation_type": "competes_with",
+      "label": "一众如Trae的编程工具跟风进行营销或开发",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Anthropic",
+      "target": "Claude",
+      "relation_type": "develops",
+      "label": "Claude code是Anthropic主打的编程应用",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Anthropic",
+      "target": "Claude客户端",
+      "relation_type": "develops",
+      "label": "Anthropic开发了被广泛对照的Claude客户端",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "Deepseek GUI",
+      "relation_type": "develops",
+      "label": "Deepseek公司推出了Deepseek GUI",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "Deepseek TUI",
+      "relation_type": "develops",
+      "label": "属于Deepseek生态的终端产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    },
+    {
+      "source": "OpenAI",
+      "target": "Codex",
+      "relation_type": "develops",
+      "label": "Codex被指代为OpenAI的产品标杆",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "Trae",
+      "relation_type": "develops",
+      "label": "字节大力投入Trae",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "月之暗面",
+      "target": "Kimi agent",
+      "relation_type": "develops",
+      "label": "Kimi开发了Kimi agent服务",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "月之暗面",
+      "target": "Kimi code",
+      "relation_type": "develops",
+      "label": "Kimi研发了Kimi code产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "月之暗面",
+      "target": "Kimi webbridge",
+      "relation_type": "develops",
+      "label": "Kimi发布了Kimi webbridge插件",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "月之暗面",
+      "target": "Kimi work",
+      "relation_type": "develops",
+      "label": "Kimi研发了Kimi work本地Agent产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "Qoder",
+      "relation_type": "develops",
+      "label": "阿里重点押注Qoder",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "Qwen",
+      "relation_type": "develops",
+      "label": "文中提到Qwen是大模型系列产品归属方为阿里",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "杨植麟",
+      "target": "月之暗面",
+      "relation_type": "founder_of",
+      "label": "杨圣让月之暗面再次伟大，指代其创始人身份",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "Opencode",
+      "target": "Qwen",
+      "relation_type": "integrates_with",
+      "label": "用户日常任务用Opencode接入Qwen大模型产品",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Manner",
+      "target": "月之暗面",
+      "relation_type": "partners_with",
+      "label": "Kimi率先与Manner联名打开思路",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Dario",
+      "target": "Anthropic",
+      "relation_type": "works_at",
+      "label": "Dario是Anthropic的老板",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "予彤",
+      "target": "月之暗面",
+      "relation_type": "works_at",
+      "label": "予彤是让月之暗面再次伟大的关键人物",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Erlich",
+      "target": "Proma",
+      "relation_type": "works_on",
+      "label": "Erlich在今年初做了一个Agent客户端Proma",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 28,
+    "relationship_count": 29,
+    "pruned_entities": [
+      {
+        "name": "SpaceX",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

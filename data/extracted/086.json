@@ -1,0 +1,333 @@
+{
+  "article": {
+    "id": "086",
+    "title": "世界模型是梦核军备竞赛",
+    "path": "articles/086_2026-05-05_骡子马_世界模型是梦核军备竞赛.md",
+    "date": "2026-05-05",
+    "author": "骡子马",
+    "content_hash": "9ffbcfb6af68c7835300c4eff4376b3d0e28d928f097da967f2489d4e769048a"
+  },
+  "entities": [
+    {
+      "id": "happy-oyster",
+      "name": "Happy Oyster",
+      "type": "product",
+      "description": "阿里巴巴开启内测的世界模型",
+      "mention_count": 21,
+      "aliases": [],
+      "tags": [
+        "世界模型"
+      ]
+    },
+    {
+      "id": "genie",
+      "name": "Genie",
+      "type": "product",
+      "description": "Google发布的世界模型，文章中与Happy Oyster深度对比",
+      "mention_count": 11,
+      "aliases": [],
+      "tags": [
+        "世界模型"
+      ]
+    },
+    {
+      "id": "pixverse",
+      "name": "Pixverse",
+      "type": "product",
+      "description": "走实时生成短片路线的AI视频生成模型",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "视频模型"
+      ]
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "字节跳动旗下的AI产品，其照片被用于生成测试",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "虚拟角色"
+      ]
+    },
+    {
+      "id": "happy-horse",
+      "name": "Happy Horse",
+      "type": "product",
+      "description": "阿里巴巴发布的视频模型",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "视频模型"
+      ]
+    },
+    {
+      "id": "odyssey",
+      "name": "Odyssey",
+      "type": "product",
+      "description": "文章提到与Pixverse存在类似通病的模型",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "视频模型"
+      ]
+    },
+    {
+      "id": "李飞飞",
+      "name": "李飞飞",
+      "type": "person",
+      "description": "发布了世界模型的美国AI行业人物",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI学者"
+      ]
+    },
+    {
+      "id": "阿里巴巴",
+      "name": "阿里巴巴",
+      "type": "company",
+      "description": "开发了Happy Horse视频模型和Happy Oyster世界模型",
+      "mention_count": 2,
+      "aliases": [
+        "阿里"
+      ],
+      "tags": [
+        "大厂"
+      ]
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "type": "company",
+      "description": "Genie世界模型的开发公司",
+      "mention_count": 1,
+      "aliases": [
+        "谷歌"
+      ],
+      "tags": [
+        "大厂"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "文章推测正在研发世界模型的大厂",
+      "mention_count": 1,
+      "aliases": [
+        "字节"
+      ],
+      "tags": [
+        "大厂"
+      ]
+    },
+    {
+      "id": "杨立昆",
+      "name": "杨立昆",
+      "type": "person",
+      "description": "被期待发布重大AI突破的行业关键人物",
+      "mention_count": 1,
+      "aliases": [
+        "Yann LeCun"
+      ],
+      "tags": [
+        "AI学者"
+      ]
+    },
+    {
+      "id": "灵光",
+      "name": "灵光",
+      "type": "company",
+      "description": "发布了装在手机里的世界模型的公司或机构",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "王者荣耀世界",
+      "name": "王者荣耀世界",
+      "type": "product",
+      "description": "腾讯旗下的游戏产品，文章中与混元模型热度进行对比",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "游戏"
+      ]
+    },
+    {
+      "id": "腾讯",
+      "name": "腾讯",
+      "type": "company",
+      "description": "发布并开源了混元3D世界模型的科技大厂",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大厂"
+      ]
+    },
+    {
+      "id": "黄仁勋",
+      "name": "黄仁勋",
+      "type": "person",
+      "description": "发布了世界模型的美国科技行业领军人物",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI大佬"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Genie",
+      "target": "Happy Oyster",
+      "relation_type": "compares_to",
+      "label": "全篇将Happy Oyster的Wandering模式与Genie进行功能和表现的对比测试",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Happy Oyster",
+      "target": "Odyssey",
+      "relation_type": "compares_to",
+      "label": "文章将其与Odyssey一起归为有连贯性通病的此类模型",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Happy Oyster",
+      "target": "Pixverse",
+      "relation_type": "compares_to",
+      "label": "Happy Oyster的导演模式和Pixverse路线差不多",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Odyssey",
+      "target": "Pixverse",
+      "relation_type": "compares_to",
+      "label": "两者被并列作为有相同通病的模型代表",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "李飞飞",
+      "target": "黄仁勋",
+      "relation_type": "compares_to",
+      "label": "两人被并列提名为同期发布各自新一代世界模型的代表人物",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Google",
+      "target": "阿里巴巴",
+      "relation_type": "competes_with",
+      "label": "两家公司分别开发了形成竞品关系的Happy Oyster和Genie世界模型",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "字节跳动",
+      "target": "阿里巴巴",
+      "relation_type": "competes_with",
+      "label": "字节跳动被推测正在研发同类世界模型以跟进风潮",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "low"
+    },
+    {
+      "source": "李飞飞",
+      "target": "杨立昆",
+      "relation_type": "competes_with",
+      "label": "被放在一起比较，看在AI浪潮中谁能真憋出大招突破",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "灵光",
+      "target": "阿里巴巴",
+      "relation_type": "competes_with",
+      "label": "灵光也跟进发布了世界模型，加入大厂军备竞赛",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "low"
+    },
+    {
+      "source": "腾讯",
+      "target": "阿里巴巴",
+      "relation_type": "competes_with",
+      "label": "同期相继发布和内测世界模型产品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Google",
+      "target": "Genie",
+      "relation_type": "develops",
+      "label": "Genie是Google推出的世界模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "豆包",
+      "relation_type": "develops",
+      "label": "豆包是字节跳动开发的产品（常识补全产品归属）",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    },
+    {
+      "source": "腾讯",
+      "target": "王者荣耀世界",
+      "relation_type": "develops",
+      "label": "王者荣耀世界是腾讯旗下的游戏产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "medium"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "Happy Horse",
+      "relation_type": "develops",
+      "label": "阿里发布了视频模型Happy Horse",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "Happy Oyster",
+      "relation_type": "develops",
+      "label": "阿里开启了世界模型Happy Oyster的内测",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 15,
+    "relationship_count": 15,
+    "pruned_entities": [
+      {
+        "name": "混元3D世界模型",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

@@ -58,12 +58,12 @@
       }
     ],
     "degree": 7,
-    "composite_weight": 0.1018
+    "composite_weight": 0.0936
   },
   "links": [
     {
       "source": "glm-5-2",
-      "target": "k3",
+      "target": "kimi",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文中对比GLM 5.2与K3的性能水平及智能密度",
@@ -125,7 +125,7 @@
       ]
     },
     {
-      "source": "k3",
+      "source": "kimi",
       "target": "glm-5-2",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -152,7 +152,7 @@
     },
     {
       "source": "glm-5-2",
-      "target": "kimi-k3",
+      "target": "kimi",
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "K3显著超越GLM 5.2，两者争夺国产模型头部位置",
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "source": "kimi-k3",
+      "source": "kimi",
       "target": "glm-5-2",
       "relation_type": "competes_with",
       "type": "competes_with",
@@ -219,24 +219,10 @@
   "suggested_edges": [
     {
       "source": "glm-5-2",
-      "target": "kimi",
-      "score": 0.5973,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "116",
-        "117",
-        "122",
-        "138"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "glm-5-2",
       "target": "minimax",
-      "score": 0.4158,
+      "score": 0.4268,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "116",
         "117",

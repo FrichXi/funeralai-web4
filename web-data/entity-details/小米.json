@@ -95,7 +95,7 @@
       }
     ],
     "degree": 13,
-    "composite_weight": 0.1569
+    "composite_weight": 0.146
   },
   "links": [
     {
@@ -387,22 +387,9 @@
   ],
   "suggested_edges": [
     {
-      "source": "deepseek",
-      "target": "小米",
-      "score": 0.4864,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "109",
-        "131",
-        "137"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "minimax",
       "target": "小米",
-      "score": 0.4841,
+      "score": 0.4838,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -410,6 +397,19 @@
         "109",
         "128",
         "131"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "deepseek",
+      "target": "小米",
+      "score": 0.4361,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "109",
+        "131",
+        "137"
       ],
       "status": "suggested"
     },
@@ -429,26 +429,26 @@
       "status": "suggested"
     },
     {
-      "source": "刘芹",
-      "target": "小米",
-      "score": 0.3896,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "040"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "kimi",
       "target": "小米",
-      "score": 0.3841,
+      "score": 0.4061,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "040",
         "057",
         "109"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "刘芹",
+      "target": "小米",
+      "score": 0.3895,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "040"
       ],
       "status": "suggested"
     }

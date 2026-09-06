@@ -1,0 +1,248 @@
+{
+  "article": {
+    "id": "076",
+    "title": "葬CLI如闪电般上线",
+    "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
+    "date": "2026-03-26",
+    "author": "葬爱咸鱼",
+    "content_hash": "00bc76ae65eeb8689551cb2f933bc25f82cbb0e1507ddd6513d000deca3e45e1"
+  },
+  "entities": [
+    {
+      "id": "葬cli",
+      "name": "葬CLI",
+      "type": "product",
+      "description": "全球首个反炒作CLI工具，用于评估分析产品事实与宣传的差距",
+      "mention_count": 11,
+      "aliases": [],
+      "tags": [
+        "反炒作",
+        "CLI"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "使用过程与葬CLI一模一样的编程工具",
+      "mention_count": 4,
+      "aliases": [
+        "CC",
+        "Claude code"
+      ],
+      "tags": []
+    },
+    {
+      "id": "lovart",
+      "name": "Lovart",
+      "type": "product",
+      "description": "被文章提及的一个产品节点，在知识图谱中与多个实体有关联",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "葬ai-web4",
+      "name": "葬AI Web4",
+      "type": "product",
+      "description": "作者开发的知识图谱网站小程序",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "知识图谱",
+        "Web4"
+      ]
+    },
+    {
+      "id": "looki",
+      "name": "Looki",
+      "type": "product",
+      "description": "一款带摄像头和麦克风、主打主动感知与自动记录的可穿戴AI硬件",
+      "mention_count": 3,
+      "aliases": [
+        "Looki L1"
+      ],
+      "tags": [
+        "可穿戴AI硬件"
+      ]
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "type": "product",
+      "description": "被Looki体验报告用作对比基准的产品",
+      "mention_count": 3,
+      "aliases": [
+        "Openclaw"
+      ],
+      "tags": []
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "被作者用于审核计划和debug以开发葬CLI的工具",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "type": "product",
+      "description": "被指为新加坡企业的产品，在产品排行榜位居第二",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "opencode",
+      "name": "Opencode",
+      "type": "product",
+      "description": "被葬CLI抄袭CLI外壳的开源产品",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "yinsen",
+      "name": "Yinsen",
+      "type": "person",
+      "description": "Cherry studio的创始人，在创始人榜单名列第一",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "cherry-studio",
+      "name": "Cherry Studio",
+      "type": "company",
+      "description": "在产品排行榜高达第三名，被经常用作说明套壳伟大的案例",
+      "mention_count": 1,
+      "aliases": [
+        "Cherry studio",
+        "🍒"
+      ],
+      "tags": []
+    },
+    {
+      "id": "justin",
+      "name": "Justin",
+      "type": "person",
+      "description": "葬AI Web4的首位金主赞助者",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "被提及的知名AI大模型产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Cherry Studio",
+      "target": "Qwen",
+      "relation_type": "compares_to",
+      "label": "Cherry studio在排行榜中位列Qwen之前",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Manus",
+      "relation_type": "compares_to",
+      "label": "Manus在排行榜中仅次于Claude",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "葬CLI",
+      "relation_type": "compares_to",
+      "label": "葬CLI的使用过程和Claude code一模一样",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Looki",
+      "target": "OpenClaw",
+      "relation_type": "compares_to",
+      "label": "Looki的文章中拿OpenClaw作对比基准，且试图超越其炒作",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Opencode",
+      "target": "葬CLI",
+      "relation_type": "compares_to",
+      "label": "葬CLI抄了Opencode的CLI壳子",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Yinsen",
+      "target": "Cherry Studio",
+      "relation_type": "founder_of",
+      "label": "Yinsen是Cherry studio的创始人",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "Justin",
+      "target": "葬AI Web4",
+      "relation_type": "invests_in",
+      "label": "Justin赞助了葬AI Web4项目200元",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 13,
+    "relationship_count": 7,
+    "pruned_entities": [
+      {
+        "name": "LibTV",
+        "reason": "low-signal"
+      },
+      {
+        "name": "葬AI分析Skill",
+        "reason": "low-signal"
+      },
+      {
+        "name": "蚂蚁集团",
+        "reason": "low-signal"
+      },
+      {
+        "name": "转转",
+        "reason": "low-signal"
+      },
+      {
+        "name": "陈冕",
+        "reason": "low-signal"
+      },
+      {
+        "name": "骡子马",
+        "reason": "low-signal"
+      },
+      {
+        "name": "龙虾",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

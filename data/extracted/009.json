@@ -1,0 +1,209 @@
+{
+  "article": {
+    "id": "009",
+    "title": "阶跃星辰没有新闻",
+    "path": "articles/009_2025-06-28_葬爱咸鱼_阶跃星辰没有新闻.md",
+    "date": "2025-06-28",
+    "author": "葬爱咸鱼",
+    "content_hash": "9d13616cffadde0c406a113b8c1e536d3406430cc1dbd7a3f6a16faf1270db1b"
+  },
+  "entities": [
+    {
+      "id": "阶跃星辰",
+      "name": "阶跃星辰",
+      "type": "company",
+      "description": "国内大模型公司，被称为“AI六小虎”之一",
+      "mention_count": 4,
+      "aliases": [
+        "阶跃"
+      ],
+      "tags": [
+        "AI六小虎",
+        "大模型"
+      ]
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "北京的AI公司，被作为阶跃星辰的对标对象",
+      "mention_count": 2,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "面壁智能",
+      "name": "面壁智能",
+      "type": "company",
+      "description": "一家AI公司，文章质疑为何其未被选入AI六小虎名单",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "用户首选的顶级大模型产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "用户首选的顶级大模型产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "type": "product",
+      "description": "用户首选的顶级大模型产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "云从科技",
+      "name": "云从科技",
+      "type": "company",
+      "description": "上一代AI四小龙之一，被用来比喻阶跃星辰逐渐被遗忘的处境",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI四小龙"
+      ]
+    },
+    {
+      "id": "冒泡鸭",
+      "name": "冒泡鸭",
+      "type": "product",
+      "description": "阶跃星辰旗下的一款AI应用，现已关停",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "id": "零一万物",
+      "name": "零一万物",
+      "type": "company",
+      "description": "AI六小虎公司之一，被文章评价为已彻底出局",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI六小虎"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "云从科技",
+      "target": "阶跃星辰",
+      "relation_type": "compares_to",
+      "label": "文章将阶跃星辰被遗忘的处境比作上一代AI四小龙中的云从科技",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "阶跃星辰",
+      "relation_type": "compares_to",
+      "label": "文章将阶跃星辰形容为“上海小智谱”，作为北京智谱的对标",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "ChatGPT",
+      "target": "Claude",
+      "relation_type": "competes_with",
+      "label": "同属于用户会选择的顶级大模型竞品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "ChatGPT",
+      "target": "Gemini",
+      "relation_type": "competes_with",
+      "label": "同属于用户会选择的顶级大模型竞品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "零一万物",
+      "relation_type": "competes_with",
+      "label": "同为被列入AI六小虎名单的行业竞争对手",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "low"
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "面壁智能",
+      "relation_type": "competes_with",
+      "label": "文章对比两家公司，质疑为何六小虎名单选择了阶跃星辰而非面壁智能",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "冒泡鸭",
+      "relation_type": "develops",
+      "label": "阶跃星辰开发并关停了旗下应用冒泡鸭",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-11-relationship-recall-v6",
+    "entity_count": 9,
+    "relationship_count": 7,
+    "pruned_entities": [
+      {
+        "name": "DeepSeek",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Qwen",
+        "reason": "low-signal"
+      },
+      {
+        "name": "商汤",
+        "reason": "low-signal"
+      },
+      {
+        "name": "旷视",
+        "reason": "low-signal"
+      },
+      {
+        "name": "狸谱",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

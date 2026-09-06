@@ -1,0 +1,319 @@
+{
+  "article": {
+    "id": "111",
+    "title": "用豆包办公得坐小孩那桌",
+    "path": "articles/111_2026-06-25_骡子马_用豆包办公得坐小孩那桌.md",
+    "date": "2026-06-25",
+    "author": "骡子马",
+    "content_hash": "04fad5b5ff5c753951e6d52ba1662d1bca5c3d5c7b02a8a1a4295b11cbf2cb02"
+  },
+  "entities": [
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "字节跳动推出的人工智能助手及应用，近期重点向办公场景发力",
+      "mention_count": 54,
+      "aliases": [
+        "豆包App",
+        "豆包专业版",
+        "豆姐"
+      ],
+      "tags": [
+        "AI助手",
+        "办公工具",
+        "全双工技术"
+      ]
+    },
+    {
+      "id": "seed",
+      "name": "Seed",
+      "type": "product",
+      "description": "字节跳动自研的底层AI大模型系列，支撑豆包等应用",
+      "mention_count": 30,
+      "aliases": [
+        "Doubao-Seed-2.0-pro",
+        "Doubao-Seed-2.1-pro",
+        "Seed 2.1",
+        "Seed 2.1 pro"
+      ],
+      "tags": [
+        "大模型",
+        "多模态大模型"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "中国知名科技大厂，开发了豆包、Seed模型及Trae等AI产品",
+      "mention_count": 6,
+      "aliases": [
+        "字节"
+      ],
+      "tags": [
+        "大厂",
+        "AI公司"
+      ]
+    },
+    {
+      "id": "trae",
+      "name": "Trae",
+      "type": "product",
+      "description": "字节跳动旗下的AI编程产品",
+      "mention_count": 3,
+      "aliases": [
+        "Trae Work"
+      ],
+      "tags": [
+        "AI编程",
+        "开发工具"
+      ]
+    },
+    {
+      "id": "葬爱咸鱼",
+      "name": "葬爱咸鱼",
+      "type": "person",
+      "description": "参与测试大模型能力的测评人员/作者同事",
+      "mention_count": 3,
+      "aliases": [
+        "咸鱼"
+      ],
+      "tags": [
+        "AI测评"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "Anthropic开发的大语言模型，常被用作AI能力对比的标杆",
+      "mention_count": 2,
+      "aliases": [
+        "Opus 4.8"
+      ],
+      "tags": [
+        "大模型",
+        "标杆模型"
+      ]
+    },
+    {
+      "id": "gpt",
+      "name": "GPT",
+      "type": "product",
+      "description": "OpenAI开发的大模型系列",
+      "mention_count": 2,
+      "aliases": [
+        "GPT-5.5"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "type": "product",
+      "description": "Google开发的大模型",
+      "mention_count": 2,
+      "aliases": [
+        "Gemini 3.5 Flash"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "腾讯",
+      "name": "腾讯",
+      "type": "company",
+      "description": "中国知名科技大厂，旗下有元宝、WorkBuddy等AI应用",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "大厂",
+        "AI公司"
+      ]
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "type": "product",
+      "description": "开源3D建模软件，文中通过MCP协议接入了AI模型进行操作",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "3D建模"
+      ]
+    },
+    {
+      "id": "workbuddy",
+      "name": "WorkBuddy",
+      "type": "product",
+      "description": "腾讯近期主推的办公场景AI助手应用",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI办公",
+        "生产力工具"
+      ]
+    },
+    {
+      "id": "元宝",
+      "name": "元宝",
+      "type": "product",
+      "description": "腾讯旗下的AI应用助手",
+      "mention_count": 1,
+      "aliases": [
+        "腾讯元宝"
+      ],
+      "tags": [
+        "AI应用"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Claude",
+      "target": "Seed",
+      "relation_type": "compares_to",
+      "label": "作者在网页生成、视频剪辑、3D建模等多个任务中将Seed与Claude进行能力对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "GPT",
+      "target": "Seed",
+      "relation_type": "compares_to",
+      "label": "在开发世界杯足球游戏的测试中，Seed与GPT的生成效果被拿来直接对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Gemini",
+      "target": "Seed",
+      "relation_type": "compares_to",
+      "label": "在开发世界杯足球游戏的测试中，Seed与Gemini的表现被拿来直接对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Trae",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "label": "作者认为豆包的专业版在形态上看起来和Trae Work没有区别，疑似内部赛马",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "WorkBuddy",
+      "target": "元宝",
+      "relation_type": "compares_to",
+      "label": "在办公场景下，腾讯开始用WorkBuddy平替/取代元宝的生态定位",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "Seed",
+      "relation_type": "criticizes",
+      "label": "测试人员咸鱼批评Seed的编程能力较差，并吐槽其生成的3D打印模型有“喝了核废水的美感”",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "Seed",
+      "relation_type": "develops",
+      "label": "字节跳动发布并自研了Seed系列大模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "Trae",
+      "relation_type": "develops",
+      "label": "Trae是明确归属于字节跳动旗下的AI编程产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "豆包",
+      "relation_type": "develops",
+      "label": "字节跳动开发了豆包AI助手",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "腾讯",
+      "target": "WorkBuddy",
+      "relation_type": "develops",
+      "label": "腾讯面向工作场景开发推出了WorkBuddy",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "腾讯",
+      "target": "元宝",
+      "relation_type": "develops",
+      "label": "腾讯旗下开发运营了元宝AI工具",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Blender",
+      "target": "Claude",
+      "relation_type": "integrates_with",
+      "label": "作者通过MCP协议将Claude(Opus 4.8)接入Blender进行对比测试",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Blender",
+      "target": "Seed",
+      "relation_type": "integrates_with",
+      "label": "作者通过MCP协议将Doubao-Seed模型接入了Blender以进行3D建模",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Seed",
+      "target": "Trae",
+      "relation_type": "integrates_with",
+      "label": "作者在测试中将Doubao-Seed-2.1-pro模型接入了Trae中执行编程任务",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Seed",
+      "target": "豆包",
+      "relation_type": "integrates_with",
+      "label": "豆包App底层深度集成了Seed模型，且不仅是纯套壳，还配合研究了Seeduplex等全双工技术",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 12,
+    "relationship_count": 15,
+    "pruned_entities": []
+  }
+}

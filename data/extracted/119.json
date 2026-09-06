@@ -1,0 +1,267 @@
+{
+  "article": {
+    "id": "119",
+    "title": "视频Agent进入大致敬时代",
+    "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
+    "date": "2026-07-14",
+    "author": "沐秋",
+    "content_hash": "cd57ac67220e7d86bc190463c144c208c04d00c8a47c5a999f1a3d94759c5ae2"
+  },
+  "entities": [
+    {
+      "id": "libtv",
+      "name": "LibTV",
+      "type": "product",
+      "description": "视频Agent产品，近期发布新版本并引领了TV形态潮流",
+      "mention_count": 12,
+      "aliases": [],
+      "tags": [
+        "视频Agent",
+        "TV形态"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "Seedance模型及即梦产品的母公司，视频Agent行业的核心上游",
+      "mention_count": 6,
+      "aliases": [
+        "大厂",
+        "火山"
+      ],
+      "tags": [
+        "大模型",
+        "基础设施"
+      ]
+    },
+    {
+      "id": "即梦",
+      "name": "即梦",
+      "type": "product",
+      "description": "字节跳动旗下的AI视频生成工具",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "视频生成",
+        "字节系"
+      ]
+    },
+    {
+      "id": "flova",
+      "name": "Flova",
+      "type": "product",
+      "description": "视频Agent产品，已将域名更换为.tv后缀",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "视频Agent"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "MiniMax Hub的开发公司",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "minimax-hub",
+      "name": "MiniMax Hub",
+      "type": "product",
+      "description": "MiniMax推出的视频Agent平台，主打无限画布和Agent功能",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "视频Agent",
+        "海螺视频"
+      ]
+    },
+    {
+      "id": "tapnow",
+      "name": "TapNow",
+      "type": "product",
+      "description": "由陈冕推出的视频Agent产品，被视为TV形态的先行验证者",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "视频Agent",
+        "无限画布"
+      ]
+    },
+    {
+      "id": "陈冕",
+      "name": "陈冕",
+      "type": "person",
+      "description": "LiblibAI创始人，被文中称为“冕神”，视频Agent行业的关键意见领袖",
+      "mention_count": 3,
+      "aliases": [
+        "冕神"
+      ],
+      "tags": [
+        "KOL"
+      ]
+    },
+    {
+      "id": "liblib",
+      "name": "Liblib",
+      "type": "company",
+      "description": "陈冕创立的公司，LibTV的所属主体",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "创作者社区"
+      ]
+    },
+    {
+      "id": "oiioii",
+      "name": "OiiOii",
+      "type": "product",
+      "description": "视频Agent产品，升级至2.0版本并向TV形态看齐",
+      "mention_count": 1,
+      "aliases": [
+        "Oii TV"
+      ],
+      "tags": [
+        "视频Agent"
+      ]
+    },
+    {
+      "id": "爱诗科技",
+      "name": "爱诗科技",
+      "type": "company",
+      "description": "视频Agent厂商，推出了“爱诗范”功能",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "视频Agent"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Flova",
+      "target": "LibTV",
+      "relation_type": "compares_to",
+      "label": "Flova更换域名为.tv，跟随LibTV引领的TV形态潮流",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "LibTV",
+      "target": "OiiOii",
+      "relation_type": "compares_to",
+      "label": "OiiOii升级到2.0后朝着TV形态看齐，致敬LibTV",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "LibTV",
+      "target": "TapNow",
+      "relation_type": "compares_to",
+      "label": "文中将LibTV比作盗火者普罗米修斯，将TapNow比作太阳神阿波罗/火焰发明者，强调形态传承",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "爱诗科技",
+      "relation_type": "compares_to",
+      "label": "文中称爱诗科技的“爱诗范”是对“字节范”的拙劣模仿",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "LibTV",
+      "target": "MiniMax Hub",
+      "relation_type": "competes_with",
+      "label": "同属视频Agent赛道，MiniMax Hub新加入战局与LibTV竞争",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "LibTV",
+      "target": "即梦",
+      "relation_type": "competes_with",
+      "label": "文中对比两者接入Seedance模型的速度与价格，存在直接业务竞争",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Liblib",
+      "target": "LibTV",
+      "relation_type": "develops",
+      "label": "LibTV是Liblib旗下的视频Agent产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "MiniMax Hub",
+      "relation_type": "develops",
+      "label": "MiniMax Hub是MiniMax推出的产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "即梦",
+      "relation_type": "develops",
+      "label": "即梦是字节跳动旗下的视频生成工具",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "陈冕",
+      "target": "Liblib",
+      "relation_type": "founder_of",
+      "label": "文中明确提到“Liblib的冕神”、“孤身创业的冕神”",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "陈冕",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "label": "文中提到陈冕是“出走字节”创业",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "陈冕",
+      "target": "TapNow",
+      "relation_type": "works_on",
+      "label": "文中提到“冕神狂做TapNow”，表明其主导开发该产品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 11,
+    "relationship_count": 12,
+    "pruned_entities": [
+      {
+        "name": "Higgsisfield",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "article": {
+    "id": "078",
+    "title": "Flova和TapNow背对背拥抱",
+    "path": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
+    "date": "2026-04-07",
+    "author": "骡子马",
+    "content_hash": "c92dff8166eff48855a3828a73085286b2e1fa0e5b9c834e1cfbbba81c688bd7"
+  },
+  "entities": [
+    {
+      "id": "flova",
+      "name": "Flova",
+      "type": "company",
+      "description": "被指接入了字节跳动视频大模型的视频生成AI公司",
+      "mention_count": 9,
+      "aliases": [],
+      "tags": [
+        "视频agent",
+        "AI视频生成"
+      ]
+    },
+    {
+      "id": "seedance",
+      "name": "Seedance",
+      "type": "product",
+      "description": "字节跳动提供的视频生成大模型",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "视频大模型",
+        "底层模型"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "科技大厂，提供Seedance视频大模型，拥有剪映、即梦等产品",
+      "mention_count": 3,
+      "aliases": [
+        "字节"
+      ],
+      "tags": [
+        "大厂",
+        "视频大模型"
+      ]
+    },
+    {
+      "id": "剪映",
+      "name": "剪映",
+      "type": "product",
+      "description": "字节跳动旗下的视频剪辑工具",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "视频工具"
+      ]
+    },
+    {
+      "id": "libtv",
+      "name": "LibTV",
+      "type": "company",
+      "description": "接入Seedance大模型的视频agent公司/应用",
+      "mention_count": 1,
+      "aliases": [
+        "Libtv"
+      ],
+      "tags": [
+        "视频agent"
+      ]
+    },
+    {
+      "id": "oiioii",
+      "name": "OiiOii",
+      "type": "company",
+      "description": "放弃Sora API转投其他模型的视频agent公司/应用",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "视频agent"
+      ]
+    },
+    {
+      "id": "tapnow",
+      "name": "TapNow",
+      "type": "company",
+      "description": "文章标题提及与Flova相关的实体",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI行业"
+      ]
+    },
+    {
+      "id": "即梦",
+      "name": "即梦",
+      "type": "product",
+      "description": "字节跳动旗下的AI产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "id": "张逍然",
+      "name": "张逍然",
+      "type": "person",
+      "description": "原剪映产品负责人，现已加入Flova",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "产品负责人"
+      ]
+    },
+    {
+      "id": "王学智",
+      "name": "王学智",
+      "type": "person",
+      "description": "原剪映技术负责人，现已加入Flova",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "技术负责人"
+      ]
+    },
+    {
+      "id": "郭列",
+      "name": "郭列",
+      "type": "person",
+      "description": "曾在字节跳动任职的人物",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "闹闹",
+      "name": "闹闹",
+      "type": "person",
+      "description": "曾在字节跳动任职的人物",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "陈冕",
+      "name": "陈冕",
+      "type": "person",
+      "description": "曾在字节跳动任职的人物",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "张逍然",
+      "target": "王学智",
+      "relation_type": "collaborates_with",
+      "label": "两人同为原剪映高管，并一同加入Flova",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Flova",
+      "target": "剪映",
+      "relation_type": "compares_to",
+      "label": "Flova被形容为怀了个“剪映宝宝雏形”",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "LibTV",
+      "target": "OiiOii",
+      "relation_type": "competes_with",
+      "label": "同为竞争首批接入底层模型的视频agent赛道产品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "字节跳动",
+      "target": "Seedance",
+      "relation_type": "develops",
+      "label": "文中指明接入Seedance是当上“字节中介”",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "剪映",
+      "relation_type": "develops",
+      "label": "剪映是字节跳动旗下产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "即梦",
+      "relation_type": "develops",
+      "label": "即梦是字节跳动旗下产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Flova",
+      "target": "Seedance",
+      "relation_type": "integrates_with",
+      "label": "Flova被指集成了Seedance的参考功能",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "LibTV",
+      "target": "Seedance",
+      "relation_type": "integrates_with",
+      "label": "Libtv接入了Seedance大模型",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Flova",
+      "target": "TapNow",
+      "relation_type": "related",
+      "label": "文章标题将两者并列相提并论（背对背拥抱）",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "medium"
+    },
+    {
+      "source": "张逍然",
+      "target": "Flova",
+      "relation_type": "works_at",
+      "label": "离开字节跳动后加入Flova",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "张逍然",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "label": "曾任职于字节跳动（剪映母公司）",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "王学智",
+      "target": "Flova",
+      "relation_type": "works_at",
+      "label": "离开字节跳动后加入Flova",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "王学智",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "label": "曾任职于字节跳动（剪映母公司）",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "郭列",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "label": "提及曾在字节跳动有一定级别",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "闹闹",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "label": "提及曾在字节跳动有一定级别",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "陈冕",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "label": "提及曾在字节跳动有一定级别",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "张逍然",
+      "target": "剪映",
+      "relation_type": "works_on",
+      "label": "曾担任剪映产品负责人",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "王学智",
+      "target": "剪映",
+      "relation_type": "works_on",
+      "label": "曾担任剪映技术负责人",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 13,
+    "relationship_count": 18,
+    "pruned_entities": [
+      {
+        "name": "Sora",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

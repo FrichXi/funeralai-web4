@@ -87,7 +87,7 @@
       }
     ],
     "degree": 12,
-    "composite_weight": 0.1046
+    "composite_weight": 0.0977
   },
   "links": [
     {
@@ -342,7 +342,7 @@
     {
       "source": "cursor",
       "target": "manus",
-      "score": 0.6588,
+      "score": 0.6586,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -355,9 +355,22 @@
       "status": "suggested"
     },
     {
+      "source": "cursor",
+      "target": "kimi",
+      "score": 0.6215,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "004",
+        "030",
+        "138"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "chatgpt",
       "target": "cursor",
-      "score": 0.487,
+      "score": 0.4868,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -370,7 +383,7 @@
     {
       "source": "cursor",
       "target": "mulerun",
-      "score": 0.4582,
+      "score": 0.4581,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
@@ -382,21 +395,8 @@
     },
     {
       "source": "cursor",
-      "target": "kimi",
-      "score": 0.437,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
-      "evidence_article_ids": [
-        "004",
-        "030",
-        "138"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "cursor",
       "target": "gemini",
-      "score": 0.417,
+      "score": 0.4168,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [

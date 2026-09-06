@@ -53,8 +53,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 4,
-    "composite_weight": 0.0551
+    "degree": 5,
+    "composite_weight": 0.0577
   },
   "links": [
     {
@@ -122,6 +122,32 @@
     },
     {
       "source": "唐杰",
+      "target": "kimi",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "文中提到杨植麟的美国导师点赞K3（注：非唐杰本人，但易混淆，此处仅作实体关联记录，实际为误读）",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "122"
+      ],
+      "evidences": [
+        {
+          "article_id": "122",
+          "title": "Kimi K3打响前端闪电战",
+          "permalink": "/articles/122",
+          "markdown_link": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "path": "articles/122_2026-07-22_葬爱咸鱼_Kimi K3打响前端闪电战.md",
+          "date": "2026-07-22",
+          "label": "文中提到杨植麟的美国导师点赞K3（注：非唐杰本人，但易混淆，此处仅作实体关联记录，实际为误读）",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "唐杰",
       "target": "智谱ai",
       "relation_type": "works_at",
       "type": "works_at",
@@ -175,15 +201,27 @@
   ],
   "suggested_edges": [
     {
-      "source": "kimi",
-      "target": "唐杰",
-      "score": 0.4667,
+      "source": "唐杰",
+      "target": "阿里巴巴",
+      "score": 0.4095,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "049",
+        "112",
+        "122"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "minimax",
+      "target": "唐杰",
+      "score": 0.3826,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "049",
         "109",
-        "112",
         "122"
       ],
       "status": "suggested"

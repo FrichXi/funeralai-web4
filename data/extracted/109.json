@@ -1,0 +1,508 @@
+{
+  "article": {
+    "id": "109",
+    "title": "智谱与Anthropic是母凭子贵",
+    "path": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
+    "date": "2026-06-23",
+    "author": "沐秋",
+    "content_hash": "92e7dee80cc25238f5a5343c1e19c190e9c9d21ef25013fdba6d300f2c40e62d"
+  },
+  "entities": [
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "国内AI大模型公司，以基础模型研究和Coding能力见长",
+      "mention_count": 26,
+      "aliases": [
+        "智谱",
+        "智谱清言"
+      ],
+      "tags": [
+        "To B",
+        "To G",
+        "基础模型",
+        "Coding"
+      ]
+    },
+    {
+      "id": "glm",
+      "name": "GLM",
+      "type": "product",
+      "description": "智谱开发的基础大模型及编程模型系列",
+      "mention_count": 20,
+      "aliases": [
+        "GLM-5",
+        "GLM-5.2",
+        "GLM5.2"
+      ],
+      "tags": [
+        "Coding",
+        "基础模型"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "国内大模型及编程工具产品",
+      "mention_count": 16,
+      "aliases": [
+        "K2.7 Code",
+        "Kimi 2.7 code",
+        "Kimi Code"
+      ],
+      "tags": [
+        "C端",
+        "Coding"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "Anthropic推出的AI编程工具产品",
+      "mention_count": 13,
+      "aliases": [
+        "Claude Code",
+        "Claude Opus 4.5"
+      ],
+      "tags": [
+        "Coding Agent"
+      ]
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "type": "company",
+      "description": "开发Claude模型的海外前沿AI公司",
+      "mention_count": 8,
+      "aliases": [],
+      "tags": [
+        "前沿模型"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内AI大模型公司，侧重多模态和C端产品",
+      "mention_count": 6,
+      "aliases": [
+        "Minimax"
+      ],
+      "tags": [
+        "多模态",
+        "C端"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "AI代码生成与编程辅助工具",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "代码辅助"
+      ]
+    },
+    {
+      "id": "libtv",
+      "name": "LibTV",
+      "type": "product",
+      "description": "一句话生成短剧的视频Agent产品",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "视频Agent",
+        "短剧"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "国产大模型产品",
+      "mention_count": 2,
+      "aliases": [
+        "DeepSeek-V4"
+      ],
+      "tags": []
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "type": "company",
+      "description": "海外头部AI公司",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "小米",
+      "name": "小米",
+      "type": "company",
+      "description": "科技公司，推出了匿名测试模型",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "蚂蚁",
+      "name": "蚂蚁",
+      "type": "company",
+      "description": "科技公司，推出了匿名测试模型",
+      "mention_count": 2,
+      "aliases": [
+        "蚂蚁集团"
+      ],
+      "tags": []
+    },
+    {
+      "id": "阶跃星辰",
+      "name": "阶跃星辰",
+      "type": "company",
+      "description": "国内AI大模型公司",
+      "mention_count": 2,
+      "aliases": [
+        "阶跃"
+      ],
+      "tags": []
+    },
+    {
+      "id": "autoclaw",
+      "name": "AutoClaw",
+      "type": "product",
+      "description": "智谱推出的多模态或AI产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "autoglm",
+      "name": "AutoGLM",
+      "type": "product",
+      "description": "智谱推出的多模态或AI产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "hunter-alpha",
+      "name": "Hunter Alpha",
+      "type": "product",
+      "description": "小米推出的匿名测试模型",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "匿名模型"
+      ]
+    },
+    {
+      "id": "pony-alpha",
+      "name": "Pony Alpha",
+      "type": "product",
+      "description": "智谱在OpenRouter上用于匿名打榜测试的模型别名",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "匿名模型"
+      ]
+    },
+    {
+      "id": "z-code",
+      "name": "Z Code",
+      "type": "product",
+      "description": "智谱自有的编程客户端",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "客户端"
+      ]
+    },
+    {
+      "id": "写作蛙",
+      "name": "写作蛙",
+      "type": "product",
+      "description": "智谱推出的AI写作辅助工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "唐杰",
+      "name": "唐杰",
+      "type": "person",
+      "description": "智谱内部发布内部信的高管/核心人物",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "大象",
+      "name": "大象",
+      "type": "product",
+      "description": "蚂蚁推出的匿名测试模型",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "匿名模型"
+      ]
+    },
+    {
+      "id": "智谱清影",
+      "name": "智谱清影",
+      "type": "product",
+      "description": "智谱推出的AI视频生成等多模态产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "杨植麟",
+      "name": "杨植麟",
+      "type": "person",
+      "description": "与Kimi模型研发或产品紧密相关的人物",
+      "mention_count": 1,
+      "aliases": [
+        "杨圣"
+      ],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Anthropic",
+      "target": "Claude",
+      "relation_type": "develops",
+      "label": "Anthropic研发了Claude大模型",
+      "weight": 2,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Anthropic",
+      "target": "智谱AI",
+      "relation_type": "compares_to",
+      "label": "文章调侃因为Anthropic给智谱带来了巨大流量收益，智谱仿佛成了Anthropic的“母公司”（母凭子贵）",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "GLM",
+      "relation_type": "compares_to",
+      "label": "GLM-5在匿名打榜时展现出接近Claude的编程能力",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Anthropic",
+      "target": "智谱AI",
+      "relation_type": "competes_with",
+      "label": "智谱在编码等能力上与Anthropic竞争，并试图吃下其退出国内带来的流量",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Codex",
+      "target": "GLM",
+      "relation_type": "competes_with",
+      "label": "在游戏代码编写和需求还原测试中，与Codex进行同台竞技对比",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Codex",
+      "target": "Kimi",
+      "relation_type": "competes_with",
+      "label": "在游戏代码编写测试中与Codex进行了对比",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "GLM",
+      "target": "Kimi",
+      "relation_type": "competes_with",
+      "label": "GLM5.2在编程能力评估中被视作专门狙击Kimi的产品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "智谱AI",
+      "relation_type": "competes_with",
+      "label": "智谱与Minimax在AI模型商业化与能力上互为竞品并被市场对比",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "OpenAI",
+      "target": "智谱AI",
+      "relation_type": "competes_with",
+      "label": "网络评论称智谱在模型能力上严重威胁OpenAI",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "智谱AI",
+      "target": "阶跃星辰",
+      "relation_type": "competes_with",
+      "label": "智谱与阶跃等国内公司同为大模型竞争对手",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "小米",
+      "target": "Hunter Alpha",
+      "relation_type": "develops",
+      "label": "小米上线了名为Hunter Alpha的匿名模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "AutoClaw",
+      "relation_type": "develops",
+      "label": "智谱研发的产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "AutoGLM",
+      "relation_type": "develops",
+      "label": "智谱研发的C端/多模态产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "GLM",
+      "relation_type": "develops",
+      "label": "智谱研发了GLM模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "Pony Alpha",
+      "relation_type": "develops",
+      "label": "智谱在OpenRouter上以Pony Alpha之名发布匿名模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "Z Code",
+      "relation_type": "develops",
+      "label": "智谱开发的编程客户端",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "写作蛙",
+      "relation_type": "develops",
+      "label": "智谱研发的写作产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "智谱AI",
+      "target": "智谱清影",
+      "relation_type": "develops",
+      "label": "智谱研发的生成产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "蚂蚁",
+      "target": "大象",
+      "relation_type": "develops",
+      "label": "蚂蚁上线了名为大象的匿名模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "GLM",
+      "relation_type": "integrates_with",
+      "label": "大量博主推荐及官方支持将Claude Code工具结合GLM API作为特色配置方案",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "GLM",
+      "target": "LibTV",
+      "relation_type": "integrates_with",
+      "label": "文末评价利用GLM结合LibTV这种Agent应用有极强的生产力",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "GLM",
+      "target": "Pony Alpha",
+      "relation_type": "related",
+      "label": "Pony Alpha是GLM-5在海外评测平台上用于匿名测试的马甲名称",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "high"
+    },
+    {
+      "source": "唐杰",
+      "target": "智谱AI",
+      "relation_type": "works_at",
+      "label": "唐杰在智谱发内部信决定公司战略方向",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "杨植麟",
+      "target": "Kimi",
+      "relation_type": "works_on",
+      "label": "杨圣被指与Kimi模型版本共存亡",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 23,
+    "relationship_count": 24,
+    "pruned_entities": [
+      {
+        "name": "Grok",
+        "reason": "low-signal"
+      },
+      {
+        "name": "TapNow",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

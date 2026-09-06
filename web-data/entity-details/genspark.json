@@ -116,7 +116,7 @@
       }
     ],
     "degree": 36,
-    "composite_weight": 0.2979
+    "composite_weight": 0.2748
   },
   "links": [
     {
@@ -894,7 +894,7 @@
     {
       "source": "genspark",
       "target": "lovart",
-      "score": 0.5111,
+      "score": 0.5105,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
@@ -908,7 +908,7 @@
     {
       "source": "genspark",
       "target": "阶跃桌面伙伴",
-      "score": 0.4623,
+      "score": 0.4617,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -920,7 +920,7 @@
     {
       "source": "claude",
       "target": "genspark",
-      "score": 0.4612,
+      "score": 0.4606,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
@@ -932,27 +932,27 @@
     },
     {
       "source": "genspark",
-      "target": "百度",
-      "score": 0.4594,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "022",
-        "055",
-        "059"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "genspark",
       "target": "youware",
-      "score": 0.4307,
+      "score": 0.4306,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "016",
         "022",
         "032"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "genspark",
+      "target": "百度",
+      "score": 0.4093,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "022",
+        "055",
+        "059"
       ],
       "status": "suggested"
     }

@@ -1,0 +1,196 @@
+{
+  "article": {
+    "id": "130",
+    "title": "致视频模型：群众不喜闻乐见，你算老几",
+    "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
+    "date": "2026-08-07",
+    "author": "葬爱咸鱼",
+    "content_hash": "b35963e5e48fb46a84cd2fb688caa82b472f18d49d745716c021b9e8be849050"
+  },
+  "entities": [
+    {
+      "id": "seedance-2-5",
+      "name": "Seedance 2.5",
+      "type": "product",
+      "description": "字节跳动推出的视频生成模型，主打电影质感但复杂动作连贯性倒退",
+      "mention_count": 18,
+      "aliases": [],
+      "tags": [
+        "视频模型"
+      ]
+    },
+    {
+      "id": "seedance-2-0",
+      "name": "Seedance 2.0",
+      "type": "product",
+      "description": "字节跳动推出的视频生成模型，在复杂场景和指令遵循上表现优异",
+      "mention_count": 12,
+      "aliases": [],
+      "tags": [
+        "视频模型"
+      ]
+    },
+    {
+      "id": "meme-bench",
+      "name": "meme bench",
+      "type": "product",
+      "description": "由葬AI开发的短视频生成盲测评测工具",
+      "mention_count": 10,
+      "aliases": [],
+      "tags": [
+        "Benchmark",
+        "视频模型评测"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "H3视频模型的开发商",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "大模型厂商"
+      ]
+    },
+    {
+      "id": "minimax-h3",
+      "name": "MiniMax H3",
+      "type": "product",
+      "description": "MiniMax推出的视频生成模型，在meme bench中排名第一，指令遵循能力强",
+      "mention_count": 4,
+      "aliases": [
+        "H3",
+        "胖猫"
+      ],
+      "tags": [
+        "视频模型"
+      ]
+    },
+    {
+      "id": "grok-imagine-1-5",
+      "name": "Grok Imagine 1.5",
+      "type": "product",
+      "description": "视频生成模型，在人体接龙等创意场景中表现优于Seedance 2.5",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "视频模型"
+      ]
+    },
+    {
+      "id": "happy-horse-1-1",
+      "name": "Happy Horse 1.1",
+      "type": "product",
+      "description": "二线视频模型，在激烈动作场景下流畅度不如H3",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "视频模型"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "Seedance系列视频模型的开发商",
+      "mention_count": 1,
+      "aliases": [
+        "字节"
+      ],
+      "tags": [
+        "大模型厂商"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Grok Imagine 1.5",
+      "target": "Seedance 2.5",
+      "relation_type": "compares_to",
+      "label": "在人体接龙等创意场景中，Seedance 2.5的表现不如Grok Imagine 1.5",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Happy Horse 1.1",
+      "target": "MiniMax H3",
+      "relation_type": "compares_to",
+      "label": "在激烈动作场景测试中，H3的画面流畅度显著优于Happy Horse 1.1",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax H3",
+      "target": "Seedance 2.0",
+      "relation_type": "compares_to",
+      "label": "meme bench测试显示H3与Seedance 2.0得分接近，且H3被视为升级版Seedance 2.0",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Seedance 2.0",
+      "target": "Seedance 2.5",
+      "relation_type": "compares_to",
+      "label": "文章对比了两者在指令遵循、复杂动作及电影质感方面的差异",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax H3",
+      "target": "Seedance 2.5",
+      "relation_type": "competes_with",
+      "label": "在meme bench盲测中，H3对Seedance 2.5保持了55%的胜率并领先排名",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "MiniMax H3",
+      "relation_type": "develops",
+      "label": "MiniMax H3是MiniMax公司的视频模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "Seedance 2.0",
+      "relation_type": "develops",
+      "label": "Seedance 2.0是字节跳动的视频模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "Seedance 2.5",
+      "relation_type": "develops",
+      "label": "Seedance 2.5是字节跳动的视频模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 8,
+    "relationship_count": 8,
+    "pruned_entities": [
+      {
+        "name": "Vivix",
+        "reason": "low-signal"
+      },
+      {
+        "name": "沐秋",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

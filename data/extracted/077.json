@@ -1,0 +1,86 @@
+{
+  "article": {
+    "id": "077",
+    "title": "OpenClaw气功纪录片今日上映",
+    "path": "articles/077_2026-04-01_骡子马_OpenClaw气功纪录片今日上映.md",
+    "date": "2026-04-01",
+    "author": "骡子马",
+    "content_hash": "ffd4c3b69dfa752d5983752b5b6cfe697c0c771e33eb8ea409e1148c315429a8"
+  },
+  "entities": [
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "type": "product",
+      "description": "文章恶搞发布的高科技硬件，需戴在头上进行脑电波沟通",
+      "mention_count": 1,
+      "aliases": [
+        "铝锅claw"
+      ],
+      "tags": [
+        "恶搞硬件"
+      ]
+    },
+    {
+      "id": "柯洁",
+      "name": "柯洁",
+      "type": "person",
+      "description": "围棋手，文中提及他与阿尔法狗的人机大战作为比喻",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "阿尔法狗",
+      "name": "阿尔法狗",
+      "type": "product",
+      "description": "人工智能围棋程序，文中提及它与柯洁的人机大战作为比喻",
+      "mention_count": 1,
+      "aliases": [
+        "AlphaGo"
+      ],
+      "tags": [
+        "人机大战"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "柯洁",
+      "target": "阿尔法狗",
+      "relation_type": "competes_with",
+      "label": "文章用柯洁路遇阿尔法狗的人机大战来比喻活动中的人机对决",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 3,
+    "relationship_count": 1,
+    "pruned_entities": [
+      {
+        "name": "动察Beating",
+        "reason": "low-signal"
+      },
+      {
+        "name": "孙宇晨",
+        "reason": "low-signal"
+      },
+      {
+        "name": "山姆·奥特曼",
+        "reason": "low-signal"
+      },
+      {
+        "name": "豆包",
+        "reason": "low-signal"
+      },
+      {
+        "name": "骆铁航",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "article": {
+    "id": "093",
+    "title": "在网吧办黑客松才是正经事",
+    "path": "articles/093_2026-05-19_沐秋_在网吧办黑客松才是正经事.md",
+    "date": "2026-05-19",
+    "author": "沐秋",
+    "content_hash": "936dbab6358502f3bd2a294ff687df88c7cf20ea5725d351b8f8e96d2466a83a"
+  },
+  "entities": [
+    {
+      "id": "monolith",
+      "name": "Monolith",
+      "type": "company",
+      "description": "网吧黑客松场地赞助方，关注AI游戏创业的投资机构",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "赞助方",
+        "AI游戏创业"
+      ]
+    },
+    {
+      "id": "tripo",
+      "name": "Tripo",
+      "type": "company",
+      "description": "AI公司，网吧黑客松赞助方，主要业务涉及3D模型",
+      "mention_count": 2,
+      "aliases": [
+        "Tirpo"
+      ],
+      "tags": [
+        "AI公司",
+        "赞助方",
+        "3D游戏"
+      ]
+    },
+    {
+      "id": "王登科",
+      "name": "王登科",
+      "type": "person",
+      "description": "疯狂创业者，在活动中提议并举办吃泡面大赛",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Monolith",
+      "target": "Tripo",
+      "relation_type": "related",
+      "label": "共同作为网吧黑客松场地的赞助方",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 3,
+    "relationship_count": 1,
+    "pruned_entities": [
+      {
+        "name": "405游局",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Tripo 3D模型",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "Wanaka",
+        "reason": "low-signal"
+      },
+      {
+        "name": "幕间",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

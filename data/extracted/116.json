@@ -1,0 +1,655 @@
+{
+  "article": {
+    "id": "116",
+    "title": "民办大模型MiniMax努力专升本",
+    "path": "articles/116_2026-07-09_沐秋_民办大模型MiniMax努力专升本.md",
+    "date": "2026-07-09",
+    "author": "沐秋",
+    "content_hash": "6f39005bbc6ab1a20738fa3f11a0cb720247adfeb84d21c52f9394bc79ba07bc"
+  },
+  "entities": [
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内大模型创业公司，被称为“民办大模型”，旗下有海螺、星野等产品",
+      "mention_count": 40,
+      "aliases": [
+        "Minimax"
+      ],
+      "tags": [
+        "大模型",
+        "AI视频",
+        "情感陪伴"
+      ]
+    },
+    {
+      "id": "minimax-m3",
+      "name": "MiniMax M3",
+      "type": "product",
+      "description": "MiniMax发布的大语言模型，被评价为工程能力不足但多模态尚可",
+      "mention_count": 13,
+      "aliases": [
+        "M3"
+      ],
+      "tags": [
+        "LLM",
+        "多模态"
+      ]
+    },
+    {
+      "id": "hermes-agent",
+      "name": "Hermes Agent",
+      "type": "product",
+      "description": "币圈背景的Agent产品，与MiniMax深度绑定炒作",
+      "mention_count": 5,
+      "aliases": [
+        "Hermes"
+      ],
+      "tags": [
+        "AI Agent",
+        "Web3"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "国内头部大模型公司，常被与MiniMax并称为第一梯队",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "本地Agent"
+      ]
+    },
+    {
+      "id": "libtv",
+      "name": "LibTV",
+      "type": "company",
+      "description": "AI短剧/视频平台，是Seedance的大客户，也是MiniMax复刻的对象",
+      "mention_count": 4,
+      "aliases": [
+        "liblib.tv"
+      ],
+      "tags": [
+        "AI应用",
+        "短剧"
+      ]
+    },
+    {
+      "id": "maxclaw",
+      "name": "MaxClaw",
+      "type": "product",
+      "description": "MiniMax推出的云端龙虾产品，被指体验不如Chatbot",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "AI Agent",
+        "炒作"
+      ]
+    },
+    {
+      "id": "seedance",
+      "name": "Seedance",
+      "type": "product",
+      "description": "字节跳动旗下的AI视频生成模型，MiniMax Hub首选接入",
+      "mention_count": 4,
+      "aliases": [
+        "Seedance 35折",
+        "Seedance2.0"
+      ],
+      "tags": [
+        "AI视频"
+      ]
+    },
+    {
+      "id": "海螺ai",
+      "name": "海螺AI",
+      "type": "product",
+      "description": "MiniMax旗下的AI视频生成模型/产品",
+      "mention_count": 4,
+      "aliases": [
+        "海螺"
+      ],
+      "tags": [
+        "AI视频"
+      ]
+    },
+    {
+      "id": "016",
+      "name": "016",
+      "type": "person",
+      "description": "葬AI的朋友，共同完成了MiniMax M3的实测",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "测评博主"
+      ]
+    },
+    {
+      "id": "minimax-hub",
+      "name": "MiniMax Hub",
+      "type": "product",
+      "description": "MiniMax推出的视频Agent产品，主打无限画布",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "AI视频",
+        "Agent"
+      ]
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "type": "company",
+      "description": "AI模型路由平台，Hermes Agent有机会取代其生态位",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI基础设施"
+      ]
+    },
+    {
+      "id": "vast",
+      "name": "VAST",
+      "type": "company",
+      "description": "3D大模型/世界模型公司，被建议MiniMax参考",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "3D生成",
+        "世界模型"
+      ]
+    },
+    {
+      "id": "可灵",
+      "name": "可灵",
+      "type": "product",
+      "description": "快手旗下的AI视频生成模型，曾是海螺的竞品",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI视频"
+      ]
+    },
+    {
+      "id": "星野",
+      "name": "星野",
+      "type": "product",
+      "description": "MiniMax旗下的C端情感陪伴产品",
+      "mention_count": 2,
+      "aliases": [
+        "Talkie"
+      ],
+      "tags": [
+        "情感陪伴",
+        "C端"
+      ]
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "国内大模型公司，To B业务表现强劲",
+      "mention_count": 2,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "大模型",
+        "ToB"
+      ]
+    },
+    {
+      "id": "陈冕",
+      "name": "陈冕",
+      "type": "person",
+      "description": "文中提到的行业人物（冕神），与Seedance定价策略相关",
+      "mention_count": 2,
+      "aliases": [
+        "冕神"
+      ],
+      "tags": [
+        "行业KOL"
+      ]
+    },
+    {
+      "id": "deepseek-v4",
+      "name": "DeepSeek V4",
+      "type": "product",
+      "description": "DeepSeek的高难度任务推荐模型",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "LLM"
+      ]
+    },
+    {
+      "id": "glm-5-2",
+      "name": "GLM-5.2",
+      "type": "product",
+      "description": "智谱的模型，在CEO-Bench评测中与MiniMax M3对比",
+      "mention_count": 1,
+      "aliases": [
+        "GLM5.2"
+      ],
+      "tags": [
+        "LLM"
+      ]
+    },
+    {
+      "id": "kimi-work",
+      "name": "Kimi Work",
+      "type": "product",
+      "description": "Kimi推出的本地Agent产品，能发挥模型优势",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI Agent",
+        "办公"
+      ]
+    },
+    {
+      "id": "maxhermes",
+      "name": "MaxHermes",
+      "type": "product",
+      "description": "MiniMax整合Hermes后推出的付费产品",
+      "mention_count": 1,
+      "aliases": [
+        "Max Hermes"
+      ],
+      "tags": [
+        "AI Agent"
+      ]
+    },
+    {
+      "id": "music-2-6",
+      "name": "Music 2.6",
+      "type": "product",
+      "description": "MiniMax开发的音乐生成模型",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI音乐"
+      ]
+    },
+    {
+      "id": "tapnow",
+      "name": "TapNow",
+      "type": "company",
+      "description": "AI视频互动产品团队，被MiniMax Hub作为对标或参考对象",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI视频"
+      ]
+    },
+    {
+      "id": "丁磊",
+      "name": "丁磊",
+      "type": "person",
+      "description": "网易创始人，文中提及裁掉外包",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "企业家"
+      ]
+    },
+    {
+      "id": "有道龙虾",
+      "name": "有道龙虾",
+      "type": "product",
+      "description": "网易有道推出的龙虾类产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "id": "朱亦辉",
+      "name": "朱亦辉",
+      "type": "person",
+      "description": "葬AI的朋友，解释了MiniMax M3的市场认知问题",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "行业人士"
+      ]
+    },
+    {
+      "id": "网易",
+      "name": "网易",
+      "type": "company",
+      "description": "互联网巨头，旗下有道推出了龙虾产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "互联网大厂"
+      ]
+    },
+    {
+      "id": "美团",
+      "name": "美团",
+      "type": "company",
+      "description": "互联网巨头，推出了“觅游”龙虾社交产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "互联网大厂"
+      ]
+    },
+    {
+      "id": "葬爱咸鱼",
+      "name": "葬爱咸鱼",
+      "type": "person",
+      "description": "评论者，评价了MiniMax复刻LibTV的效果",
+      "mention_count": 1,
+      "aliases": [
+        "咸鱼"
+      ],
+      "tags": [
+        "评论员"
+      ]
+    },
+    {
+      "id": "觅游",
+      "name": "觅游",
+      "type": "product",
+      "description": "美团推出的龙虾社交产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "社交应用"
+      ]
+    },
+    {
+      "id": "阶跃星辰",
+      "name": "阶跃星辰",
+      "type": "company",
+      "description": "国内大模型公司，实际走向To G路线",
+      "mention_count": 1,
+      "aliases": [
+        "阶跃"
+      ],
+      "tags": [
+        "大模型",
+        "ToG"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "DeepSeek V4",
+      "target": "MiniMax M3",
+      "relation_type": "compares_to",
+      "label": "文章建议在复杂任务中用DeepSeek V4替代MiniMax M3",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "GLM-5.2",
+      "target": "MiniMax M3",
+      "relation_type": "compares_to",
+      "label": "在CEO-Bench评测和网站重构任务中进行对比测试",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi",
+      "target": "MiniMax",
+      "relation_type": "compares_to",
+      "label": "市场认为MiniMax和Kimi是一个级别，形成强行双骄效果",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "TapNow",
+      "relation_type": "compares_to",
+      "label": "MiniMax Hub主打无限画布，TapNow含金量上升暗示对标或相似性",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "MiniMax",
+      "target": "VAST",
+      "relation_type": "compares_to",
+      "label": "文章建议MiniMax参考VAST做3D/世界模型",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "MiniMax",
+      "target": "陈冕",
+      "relation_type": "compares_to",
+      "label": "MiniMax的35折定价策略被形容为“质疑陈冕、理解陈冕、超越冕神”",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "可灵",
+      "target": "海螺AI",
+      "relation_type": "compares_to",
+      "label": "一年前海螺和可灵处于同一梯队，现在差距拉大",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Hermes Agent",
+      "target": "OpenRouter",
+      "relation_type": "competes_with",
+      "label": "文章认为Hermes Agent有机会取代OpenRouter的生态位",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "MiniMax",
+      "target": "智谱AI",
+      "relation_type": "competes_with",
+      "label": "同属国内四小龙，进入四进二竞争阶段",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "阶跃星辰",
+      "relation_type": "competes_with",
+      "label": "同属国内四小龙，进入四进二竞争阶段",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Seedance",
+      "target": "海螺AI",
+      "relation_type": "competes_with",
+      "label": "MiniMax Hub中Seedance优先级高于自家海螺2.3",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "016",
+      "target": "MiniMax M3",
+      "relation_type": "criticizes",
+      "label": "016通过CEO-Bench测试揭示MiniMax M3商业经营逻辑缺陷",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "朱亦辉",
+      "target": "MiniMax",
+      "relation_type": "criticizes",
+      "label": "朱亦辉解释MiniMax M3核心科技是洗脑能力，强行对标Kimi",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Kimi",
+      "target": "Kimi Work",
+      "relation_type": "develops",
+      "label": "Kimi推出了本地Agent产品Kimi Work",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "MaxClaw",
+      "relation_type": "develops",
+      "label": "MiniMax上线了MaxClaw云端龙虾产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "MaxHermes",
+      "relation_type": "develops",
+      "label": "MiniMax推出了整合Hermes的MaxHermes产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "MiniMax Hub",
+      "relation_type": "develops",
+      "label": "MiniMax下场搞了自己的视频Agent MiniMax Hub",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "MiniMax M3",
+      "relation_type": "develops",
+      "label": "MiniMax开发并发布了M3模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "Music 2.6",
+      "relation_type": "develops",
+      "label": "MiniMax拥有音乐模型Music 2.6",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "星野",
+      "relation_type": "develops",
+      "label": "星野/Talkie是MiniMax的C端情感陪伴产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "海螺AI",
+      "relation_type": "develops",
+      "label": "海螺是MiniMax的视频模型产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "网易",
+      "target": "有道龙虾",
+      "relation_type": "develops",
+      "label": "网易有道更新了龙虾产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "美团",
+      "target": "觅游",
+      "relation_type": "develops",
+      "label": "美团推出了觅游龙虾社交产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "丁磊",
+      "target": "网易",
+      "relation_type": "founder_of",
+      "label": "文中提到“被丁磊裁掉的外包”，隐含丁磊为网易决策者/创始人",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax Hub",
+      "target": "Seedance",
+      "relation_type": "integrates_with",
+      "label": "MiniMax Hub首选接入Seedance模型，并提供35折优惠",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Hermes Agent",
+      "target": "MiniMax",
+      "relation_type": "partners_with",
+      "label": "MiniMax早期绑定Hermes Agent进行炒作，Hermes官方账号提及使用MiniMax模型",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "MiniMax M3",
+      "relation_type": "praises",
+      "label": "咸鱼评价MiniMax M3复刻LibTV前端视觉效果逼真",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 30,
+    "relationship_count": 27,
+    "pruned_entities": [
+      {
+        "name": "360",
+        "reason": "low-signal"
+      },
+      {
+        "name": "MiMo-V2-Pro",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Vidu Claw",
+        "reason": "low-signal"
+      },
+      {
+        "name": "字节跳动",
+        "reason": "not-in-body"
+      },
+      {
+        "name": "生数科技",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

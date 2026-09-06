@@ -1,0 +1,55 @@
+{
+  "article": {
+    "id": "084",
+    "title": "我们宣布AI算命输给了人类",
+    "path": "articles/084_2026-04-23_骡子马_我们宣布AI算命输给了人类.md",
+    "date": "2026-04-23",
+    "author": "骡子马",
+    "content_hash": "931f413955f7ba46c74a11efbf8ff520f75fff7bb0fb101cb5f074a847244153"
+  },
+  "entities": [
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "中国科技公司，AI产品豆包的母公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "字节跳动旗下的AI软件",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI软件"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "字节跳动",
+      "target": "豆包",
+      "relation_type": "develops",
+      "label": "文章明确提到豆包是字节跳动旗下的AI软件",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 2,
+    "relationship_count": 1,
+    "pruned_entities": [
+      {
+        "name": "张一鸣",
+        "reason": "not-in-body"
+      }
+    ]
+  }
+}

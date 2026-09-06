@@ -1,0 +1,245 @@
+{
+  "article": {
+    "id": "089",
+    "title": "Slock说明AI群聊不成立",
+    "path": "articles/089_2026-05-10_葬爱咸鱼_Slock说明AI群聊不成立.md",
+    "date": "2026-05-10",
+    "author": "葬爱咸鱼",
+    "content_hash": "29742abf535b14edc7c141cbcb5f5558479ccfd7a25548e23b44ed774be41a2b"
+  },
+  "entities": [
+    {
+      "id": "slock",
+      "name": "Slock",
+      "type": "product",
+      "description": "一个号称AI版Slack的多Agent协作AI群聊产品",
+      "mention_count": 20,
+      "aliases": [],
+      "tags": [
+        "AI群聊",
+        "多Agent协作"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "用于编程场景的AI Agent产品",
+      "mention_count": 6,
+      "aliases": [
+        "骡子马"
+      ],
+      "tags": [
+        "编程Agent"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "在编程场景表现突出，估值超过ChatGPT的AI大模型及产品",
+      "mention_count": 4,
+      "aliases": [
+        "Claude Code",
+        "cc",
+        "沐秋"
+      ],
+      "tags": [
+        "编程",
+        "编程Agent"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "知名AI聊天产品，在文中与Claude进行估值和能力对比",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "moxt",
+      "name": "Moxt",
+      "type": "product",
+      "description": "做AI员工、共用云端空间思路的AI产品",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI员工",
+        "Workspace"
+      ]
+    },
+    {
+      "id": "bloome",
+      "name": "Bloome",
+      "type": "product",
+      "description": "即将发布的、更易用的本地Agent AI群聊竞品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI群聊"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内AI大模型公司，近期股价表现受瞩目",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "模型厂"
+      ]
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "type": "product",
+      "description": "企业级通讯工具，被用作Slock的对标对象",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "vm0",
+      "name": "VM0",
+      "type": "product",
+      "description": "做AI员工、共用云端空间思路的AI产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI员工",
+        "Workspace"
+      ]
+    },
+    {
+      "id": "智谱ai",
+      "name": "智谱AI",
+      "type": "company",
+      "description": "国内AI大模型公司，近期股价表现受瞩目",
+      "mention_count": 1,
+      "aliases": [
+        "智谱"
+      ],
+      "tags": [
+        "模型厂"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "MiniMax",
+      "target": "智谱AI",
+      "relation_type": "compares_to",
+      "label": "两者作为表现亮眼的模型厂被并列提及",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Moxt",
+      "target": "VM0",
+      "relation_type": "compares_to",
+      "label": "同属于采用AI员工+共用云端空间思路的典型产品",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Slack",
+      "target": "Slock",
+      "relation_type": "compares_to",
+      "label": "Slock号称是AI版的Slack",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Bloome",
+      "target": "Slock",
+      "relation_type": "competes_with",
+      "label": "Bloome是与Slock同属于AI群聊思路的更易用的竞品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "ChatGPT",
+      "target": "Claude",
+      "relation_type": "competes_with",
+      "label": "Claude靠模型能力打穿编程场景，估值超过了ChatGPT",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Codex",
+      "relation_type": "competes_with",
+      "label": "文章提到Claude Code在快速被Codex反超",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Moxt",
+      "target": "Slock",
+      "relation_type": "competes_with",
+      "label": "解决团队上下文整合问题的两种不同产品思路（云端封装 vs 本地群聊）",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Claude",
+      "target": "Slock",
+      "relation_type": "integrates_with",
+      "label": "Slock群聊中可以接入用户本地的Claude Code作为Agent",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Codex",
+      "target": "Slock",
+      "relation_type": "integrates_with",
+      "label": "Slock群聊中可以接入用户本地的Codex作为Agent",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 10,
+    "relationship_count": 9,
+    "pruned_entities": [
+      {
+        "name": "DeepSeek",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Kimi",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Opencode",
+        "reason": "low-signal"
+      },
+      {
+        "name": "YouWare",
+        "reason": "low-signal"
+      },
+      {
+        "name": "凯一",
+        "reason": "low-signal"
+      },
+      {
+        "name": "郭沫君",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

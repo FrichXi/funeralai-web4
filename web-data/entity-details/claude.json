@@ -3,23 +3,27 @@
     "id": "claude",
     "name": "Claude",
     "type": "product",
-    "description": "由Anthropic开发的AI编程工具，被广泛用作套壳应用的底层引擎",
-    "mention_count": 220,
-    "article_count": 36,
+    "description": "Anthropic 的模型系列，文中评测显示其信息量高于 GPT，且 Fable-5 版本隐喻率最高",
+    "mention_count": 236,
+    "article_count": 38,
     "aliases": [
       "CC",
       "CC SDK",
       "Claude 3.5 Sonnet",
       "Claude Code",
+      "Claude Fable-5",
       "Claude Opus 4.5",
       "Claude Opus 4.8",
       "Claude Sonnet 3.5",
       "Claude Sonnet 4.0",
       "Claude code",
       "Claude code SDK",
+      "Fable",
       "Opus",
       "Opus 4.6",
       "Opus 4.8",
+      "Opus 5.0",
+      "Opus-5",
       "cc",
       "沐秋"
     ],
@@ -34,6 +38,7 @@
       "Agent引擎",
       "A畜",
       "Coding Agent",
+      "LLM",
       "SDK",
       "Vibe Coding",
       "上下文工程",
@@ -41,6 +46,7 @@
       "云端Agent",
       "人味",
       "代码生成",
+      "代码质量",
       "写作能力",
       "境外势力",
       "大模型",
@@ -48,6 +54,7 @@
       "底层模型",
       "开发工具",
       "性价比标杆",
+      "文本生成",
       "本地环境",
       "本地环境AI",
       "标杆模型",
@@ -62,8 +69,8 @@
       "通用引擎",
       "闭源模型"
     ],
-    "references": 36,
-    "source_article_count": 36,
+    "references": 38,
+    "source_article_count": 38,
     "source_articles": [
       {
         "article_id": "024",
@@ -118,6 +125,15 @@
         "permalink": "/articles/109",
         "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
         "mention_count": 13
+      },
+      {
+        "article_id": "143",
+        "title": "Manus团队测模型一点微小的经验",
+        "date": "2026-09-04",
+        "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+        "permalink": "/articles/143",
+        "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+        "mention_count": 12
       },
       {
         "article_id": "096",
@@ -190,6 +206,15 @@
         "permalink": "/articles/090",
         "markdown_link": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
         "mention_count": 5
+      },
+      {
+        "article_id": "142",
+        "title": "大模型拿大结果指南",
+        "date": "2026-09-01",
+        "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+        "permalink": "/articles/142",
+        "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+        "mention_count": 4
       },
       {
         "article_id": "089",
@@ -390,8 +415,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 79,
-    "composite_weight": 0.9181
+    "degree": 85,
+    "composite_weight": 0.924
   },
   "links": [
     {
@@ -475,13 +500,37 @@
       "target": "chatgpt",
       "relation_type": "compares_to",
       "type": "compares_to",
-      "label": "Yinsen将初次使用Claude Code的震撼感与第一次用ChatGPT进行对比",
-      "weight": 1,
+      "label": "在代码实验报告质量与物理任务静默修复能力之间进行权衡对比",
+      "weight": 2,
       "strength": 2,
-      "effective_weight": 2,
-      "article_count": 0,
-      "evidence_articles": [],
-      "evidences": []
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "142",
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中详细对比了两者在信息量、文章详实度、隐喻率及笔记写作行为上的差异",
+          "weight": 1
+        },
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在代码实验报告质量与物理任务静默修复能力之间进行权衡对比",
+          "weight": 1
+        }
+      ]
     },
     {
       "source": "claude",
@@ -522,19 +571,56 @@
     },
     {
       "source": "claude",
+      "target": "deepseek",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在复杂DMA场景及物理流体能力等方面进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "142"
+      ],
+      "evidences": [
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在复杂DMA场景及物理流体能力等方面进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
       "target": "gemini",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "作者对比了使用传统对话式模型（如Gemini）与使用项目管理式Agent（Claude Code）在版本管理和写作效率上的区别",
-      "weight": 2,
+      "weight": 3,
       "strength": 2,
-      "effective_weight": 6,
-      "article_count": 2,
+      "effective_weight": 9,
+      "article_count": 3,
       "evidence_articles": [
         "024",
-        "101"
+        "101",
+        "143"
       ],
       "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+          "weight": 1
+        },
         {
           "article_id": "101",
           "title": "AI圈神童杀死神人",
@@ -653,6 +739,32 @@
           "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
           "date": "2026-02-24",
           "label": "GLM code与Claude code被作为编程Agent进行比较，体验略逊",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "grok",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "143"
+      ],
+      "evidences": [
+        {
+          "article_id": "143",
+          "title": "Manus团队测模型一点微小的经验",
+          "permalink": "/articles/143",
+          "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
+          "date": "2026-09-04",
+          "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
           "weight": 1
         }
       ]
@@ -794,6 +906,32 @@
           "path": "articles/071_2026-03-16_葬爱咸鱼_Mulerun借假修真Agent市场明牌竞争.md",
           "date": "2026-03-16",
           "label": "文章将经不住推敲的龙虾框架与Claude code SDK对比，认为正经做产品应选后者",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在代码质量、系统级Agent能力及物理场景稳定性方面进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "142"
+      ],
+      "evidences": [
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在代码质量、系统级Agent能力及物理场景稳定性方面进行对比",
           "weight": 1
         }
       ]
@@ -979,6 +1117,19 @@
       "evidences": []
     },
     {
+      "source": "deepseek",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在复杂DMA场景及物理流体能力等方面进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "gemini",
       "target": "claude",
       "relation_type": "compares_to",
@@ -1023,6 +1174,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "GLM code与Claude code被作为编程Agent进行比较，体验略逊",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "grok",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -1088,6 +1252,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文章将经不住推敲的龙虾框架与Claude code SDK对比，认为正经做产品应选后者",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qwen",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在代码质量、系统级Agent能力及物理场景稳定性方面进行对比",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -2419,7 +2596,7 @@
     {
       "source": "claude",
       "target": "智谱ai",
-      "score": 0.8922,
+      "score": 0.8885,
       "suggested_relation_type": "related",
       "reason": "共同出现于 10 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
@@ -2434,7 +2611,7 @@
     {
       "source": "claude",
       "target": "飞书",
-      "score": 0.787,
+      "score": 0.7863,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
@@ -2449,7 +2626,7 @@
     {
       "source": "claude",
       "target": "字节跳动",
-      "score": 0.7141,
+      "score": 0.714,
       "suggested_relation_type": "related",
       "reason": "共同出现于 8 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -2464,7 +2641,7 @@
     {
       "source": "claude",
       "target": "opencode",
-      "score": 0.7063,
+      "score": 0.7044,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -2478,7 +2655,7 @@
     {
       "source": "claude",
       "target": "阿里巴巴",
-      "score": 0.6967,
+      "score": 0.6932,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [

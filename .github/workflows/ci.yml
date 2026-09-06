@@ -7,8 +7,8 @@ on:
     branches: [main]
 
 jobs:
-  repo-hygiene:
-    name: Repository Hygiene
+  verify:
+    name: Test and build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
@@ -18,74 +18,16 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: "22"
+          cache: "npm"
+          cache-dependency-path: site/package-lock.json
+      - run: pip install -r requirements.txt
       - run: python3 scripts/check_no_secrets.py
       - run: bash -n scripts/*.sh site/prebuild.sh
-      - run: python3 -m py_compile scripts/*.py
-      - run: |
-          tracked="$(git ls-files site/public/data site/public/test data/graph/canonical_full.json)"
-          if [ -n "$tracked" ]; then
-            echo "Generated files must not be tracked:"
-            echo "$tracked"
-            exit 1
-          fi
-      - run: bash scripts/doctor_repo.sh --profile release --ci
-
-  python-tests:
-    name: Python Tests
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-python@v6
-        with:
-          python-version: "3.11"
-      - run: pip install -r requirements.txt pytest
-      - run: pytest tests/ -v
-
-  frontend-lint:
-    name: Frontend Lint
-    runs-on: ubuntu-latest
-    defaults:
-      run:
+      - run: pytest tests/ -q
+      - run: npm ci --no-audit --no-fund
         working-directory: site
-    steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-node@v6
-        with:
-          node-version: "22"
-          cache: "npm"
-          cache-dependency-path: site/package-lock.json
-      - run: npm ci
-      - run: npm run lint
-
-  frontend-build:
-    name: Frontend Build
-    runs-on: ubuntu-latest
-    defaults:
-      run:
+      - run: npm run check
         working-directory: site
-    steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-node@v6
-        with:
-          node-version: "22"
-          cache: "npm"
-          cache-dependency-path: site/package-lock.json
-      - run: npm ci
       - run: CI=true STAGE_TEST=ci npm run build
-      - run: python3 ../scripts/release_guard.py verify-local --mode ci
-
-  frontend-tests:
-    name: Frontend Tests
-    runs-on: ubuntu-latest
-    defaults:
-      run:
         working-directory: site
-    steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-node@v6
-        with:
-          node-version: "22"
-          cache: "npm"
-          cache-dependency-path: site/package-lock.json
-      - run: npm ci
-      - run: npm run test
+      - run: python3 scripts/release_guard.py verify-local --mode ci

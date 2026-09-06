@@ -1,0 +1,384 @@
+{
+  "article": {
+    "id": "090",
+    "title": "Bloome重做元宝派",
+    "path": "articles/090_2026-05-12_葬爱咸鱼_Bloome重做元宝派.md",
+    "date": "2026-05-12",
+    "author": "葬爱咸鱼",
+    "content_hash": "fc06dfa5a3aeee4a547612e3d48890caf8d8c5e0ae3997a8d3dbcdcd61948e6d"
+  },
+  "entities": [
+    {
+      "id": "bloome",
+      "name": "Bloome",
+      "type": "product",
+      "description": "一款AI协作与上下文管理产品，主打Agent share",
+      "mention_count": 23,
+      "aliases": [],
+      "tags": [
+        "AI协作",
+        "Agent share",
+        "上下文管理"
+      ]
+    },
+    {
+      "id": "明超平",
+      "name": "明超平",
+      "type": "person",
+      "description": "Youware创始人、产品经理，Bloome的打造者",
+      "mention_count": 8,
+      "aliases": [
+        "小明",
+        "神父"
+      ],
+      "tags": []
+    },
+    {
+      "id": "youware",
+      "name": "YouWare",
+      "type": "product",
+      "description": "明超平创办的公司或团队，开发了Bloome",
+      "mention_count": 6,
+      "aliases": [
+        "Youware",
+        "Youware团队"
+      ],
+      "tags": [
+        "AI创业"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "一种AI Agent工具，可在本地终端或Bloome中调用",
+      "mention_count": 5,
+      "aliases": [
+        "Claude code"
+      ],
+      "tags": [
+        "Agent",
+        "本地环境"
+      ]
+    },
+    {
+      "id": "slock",
+      "name": "Slock",
+      "type": "product",
+      "description": "偏技术的AI协作产品，是Bloome的竞品",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "AI协作",
+        "上下文管理"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "AI代码生成工具，可在Conductor中调用",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "代码助手"
+      ]
+    },
+    {
+      "id": "conductor",
+      "name": "Conductor",
+      "type": "product",
+      "description": "YC投资的本地终端会话管理套壳产品",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "会话管理"
+      ]
+    },
+    {
+      "id": "元宝派",
+      "name": "元宝派",
+      "type": "product",
+      "description": "一款被指缺乏上下文管理能力的早期AI群聊产品",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI群聊",
+        "反例"
+      ]
+    },
+    {
+      "id": "小龙虾",
+      "name": "小龙虾",
+      "type": "product",
+      "description": "某AI工具的代称，文中提到在群组里共用以节省Token",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "id": "c-ai",
+      "name": "C.ai",
+      "type": "product",
+      "description": "主打AI角色扮演的产品，文中用于形容Bloome的广场功能",
+      "mention_count": 1,
+      "aliases": [
+        "Character.ai"
+      ],
+      "tags": [
+        "角色扮演"
+      ]
+    },
+    {
+      "id": "dokie",
+      "name": "Dokie",
+      "type": "product",
+      "description": "张月光开发的产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "qq小冰",
+      "name": "QQ小冰",
+      "type": "product",
+      "description": "早期的AI聊天机器人，文中用于形容元宝派的古早体验",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "聊天机器人"
+      ]
+    },
+    {
+      "id": "yc",
+      "name": "YC",
+      "type": "company",
+      "description": "知名创业孵化器与投资机构，投资了Conductor",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "早期投资"
+      ]
+    },
+    {
+      "id": "张月光",
+      "name": "张月光",
+      "type": "person",
+      "description": "AI行业从业者，Dokie的打造者",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "微信",
+      "name": "微信",
+      "type": "product",
+      "description": "知名社交应用，文中用作对比",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "社交",
+        "IM"
+      ]
+    },
+    {
+      "id": "知识星球",
+      "name": "知识星球",
+      "type": "product",
+      "description": "社群付费产品，文中用于比喻Agent收费模式",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "付费社群"
+      ]
+    },
+    {
+      "id": "飞书",
+      "name": "飞书",
+      "type": "product",
+      "description": "知名企业协作应用，文中用作对比",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "办公协作"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Bloome",
+      "target": "C.ai",
+      "relation_type": "compares_to",
+      "label": "Bloome的广场角色扮演Agent功能被描述为属于C.ai类",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Bloome",
+      "target": "Conductor",
+      "relation_type": "compares_to",
+      "label": "作者认为Bloome在界面上比同为会话管理器的Conductor好看",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Bloome",
+      "target": "Slock",
+      "relation_type": "compares_to",
+      "label": "Bloome在易用性上与偏技术的竞品Slock进行了对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Bloome",
+      "target": "元宝派",
+      "relation_type": "compares_to",
+      "label": "文章将Bloome视为对元宝派模式的重做和改进",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Bloome",
+      "target": "微信",
+      "relation_type": "compares_to",
+      "label": "文中将Bloome的定位与微信进行对比辨析",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "low"
+    },
+    {
+      "source": "Bloome",
+      "target": "知识星球",
+      "relation_type": "compares_to",
+      "label": "Bloome内的Agent付费私聊模式被形容为神似知识星球",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Bloome",
+      "target": "飞书",
+      "relation_type": "compares_to",
+      "label": "文中将Bloome的定位与飞书进行对比辨析",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "low"
+    },
+    {
+      "source": "QQ小冰",
+      "target": "元宝派",
+      "relation_type": "compares_to",
+      "label": "元宝派被批评体验古早，如同QQ小冰",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "YouWare",
+      "target": "Bloome",
+      "relation_type": "develops",
+      "label": "Bloome是Youware团队开发的新产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "明超平",
+      "target": "YouWare",
+      "relation_type": "founder_of",
+      "label": "明超平是Youware的创始人",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "Bloome",
+      "target": "Claude",
+      "relation_type": "integrates_with",
+      "label": "Bloome支持接入并调用本地的Claude code",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Bloome",
+      "target": "小龙虾",
+      "relation_type": "integrates_with",
+      "label": "文中设想可以在Bloome群组里共用小龙虾工具",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "low"
+    },
+    {
+      "source": "Claude",
+      "target": "Conductor",
+      "relation_type": "integrates_with",
+      "label": "Conductor可以方便地打开使用Claude code",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Codex",
+      "target": "Conductor",
+      "relation_type": "integrates_with",
+      "label": "Conductor可以方便地打开使用Codex",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "YC",
+      "target": "Conductor",
+      "relation_type": "invests_in",
+      "label": "YC投资了Conductor",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "张月光",
+      "target": "Dokie",
+      "relation_type": "works_on",
+      "label": "文中提及Dokie是张月光的产品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "明超平",
+      "target": "Bloome",
+      "relation_type": "works_on",
+      "label": "Bloome是明超平打造的产品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 17,
+    "relationship_count": 17,
+    "pruned_entities": [
+      {
+        "name": "张一鸣",
+        "reason": "low-signal"
+      },
+      {
+        "name": "张小龙",
+        "reason": "low-signal"
+      },
+      {
+        "name": "段永平",
+        "reason": "low-signal"
+      }
+    ]
+  }
+}

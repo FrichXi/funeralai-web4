@@ -113,7 +113,7 @@
       }
     ],
     "degree": 14,
-    "composite_weight": 0.1903
+    "composite_weight": 0.1768
   },
   "links": [
     {
@@ -207,7 +207,7 @@
     },
     {
       "source": "沐秋",
-      "target": "kimi-k3",
+      "target": "kimi",
       "relation_type": "criticizes",
       "type": "criticizes",
       "label": "沐秋批评K3宣传片软蒸馏Fable 5",
@@ -490,5 +490,30 @@
       "evidences": []
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "minimax",
+      "target": "沐秋",
+      "score": 0.3897,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "122",
+        "131"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "沐秋",
+      "target": "钟十六",
+      "score": 0.3826,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "122",
+        "131"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

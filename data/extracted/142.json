@@ -1,0 +1,180 @@
+{
+  "article": {
+    "id": "142",
+    "title": "大模型拿大结果指南",
+    "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+    "date": "2026-09-01",
+    "author": "葬爱咸鱼",
+    "content_hash": "1c0dd3cc5cf138ba852eb0ed35ed25776b2499760d3dcf24854229321f309578"
+  },
+  "entities": [
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "通义千问大模型系列，文中提及Qwen3.8-Max等版本，在嵌入式驱动、物理模拟及无人机飞控等Bench中表现突出",
+      "mention_count": 12,
+      "aliases": [
+        "Qwen3.8-Max",
+        "通义千问"
+      ],
+      "tags": [
+        "大模型",
+        "工程能力",
+        "物理模拟"
+      ]
+    },
+    {
+      "id": "k3",
+      "name": "K3",
+      "type": "product",
+      "description": "文中参与评测的模型之一，综合智力较强，在多模态经营模拟和材质抓取任务中表现优异",
+      "mention_count": 7,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "多模态"
+      ]
+    },
+    {
+      "id": "gpt",
+      "name": "GPT",
+      "type": "product",
+      "description": "OpenAI开发的大模型系列，在吸盘搬运等物理任务中表现稳定，但整体测试量较少",
+      "mention_count": 6,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "description": "深度求索大模型，在简单任务表现良好但在复杂状态机闭环及德州扑克策略上存在短板",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "量化模型"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "Anthropic开发的大模型，文中提及Opus 5.0版本，代码质量高但在隐藏压力场景稳定性不足",
+      "mention_count": 4,
+      "aliases": [
+        "Opus 5.0"
+      ],
+      "tags": [
+        "大模型",
+        "代码质量"
+      ]
+    },
+    {
+      "id": "仙五",
+      "name": "仙五",
+      "type": "person",
+      "description": "嵌入式软件从业者，嵌入式底层驱动开发能力Bench的作者",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "Bench作者",
+        "嵌入式开发"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Claude",
+      "target": "DeepSeek",
+      "relation_type": "compares_to",
+      "label": "在复杂DMA场景及物理流体能力等方面进行对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "GPT",
+      "relation_type": "compares_to",
+      "label": "在代码实验报告质量与物理任务静默修复能力之间进行权衡对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "K3",
+      "relation_type": "compares_to",
+      "label": "在德州扑克牌理判断及物理材质抓取任务中表现各异，互为参照",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Claude",
+      "target": "Qwen",
+      "relation_type": "compares_to",
+      "label": "在代码质量、系统级Agent能力及物理场景稳定性方面进行对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "GPT",
+      "relation_type": "compares_to",
+      "label": "在吸盘搬运误差恢复及切割稳定性方面进行对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "DeepSeek",
+      "target": "Qwen",
+      "relation_type": "compares_to",
+      "label": "在嵌入式驱动、物理理解及德州扑克等多个Bench中被直接对比性能差异",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "GPT",
+      "target": "Qwen",
+      "relation_type": "compares_to",
+      "label": "在物理切割、吸盘搬运及无人机巡航等任务中进行性能对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "K3",
+      "target": "Qwen",
+      "relation_type": "compares_to",
+      "label": "在物理直觉、布料覆盖及综合智力方面进行对比，Qwen工程强而K3综合智力优",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 6,
+    "relationship_count": 8,
+    "pruned_entities": [
+      {
+        "name": "张振尧",
+        "reason": "low-signal"
+      },
+      {
+        "name": "沐秋",
+        "reason": "low-signal"
+      }
+    ],
+    "provider": "dashscope"
+  }
+}

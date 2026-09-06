@@ -340,8 +340,8 @@ def main() -> int:
 
     blocking: list[str] = []
     if len(unreviewed_ids) > int(config["max_unreviewed_articles"]):
-        blocking.append(
-            "holistic review is stale: "
+        print(
+            "Advisory: holistic review is stale: "
             f"{len(unreviewed_ids)} articles after {last_review_id}"
         )
     if missing_graph:

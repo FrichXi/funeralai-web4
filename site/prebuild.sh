@@ -49,12 +49,16 @@ STAGE_TEST_MODE="${STAGE_TEST:-skip}"
 
 case "$STAGE_TEST_MODE" in
   required|auto)
-    if node -e 'const fs=require("fs");const p=process.argv[1];try{const m=JSON.parse(fs.readFileSync(p,"utf8"));process.exit(m.releaseId==="web4-graph-v2-first-official"?0:1)}catch{process.exit(1)}' "$SCRIPT_DIR/public/test/manifest.json"; then
-      echo "Verifying frozen Graph V2 /test release (STAGE_TEST=$STAGE_TEST_MODE) ..."
-      node "$SCRIPT_DIR/scripts/stage-graph-v2-benchmark.mjs" --verify-current
-    else
-      echo "Staging legacy isolated /test module (STAGE_TEST=$STAGE_TEST_MODE) ..."
-      STAGE_TEST="$STAGE_TEST_MODE" node "$SCRIPT_DIR/scripts/stage-test-sites.mjs"
+    # Reuse the published bundle in isolated worktrees; raw benchmark sources
+    # and browser rendering are only needed when deliberately updating /test.
+    if [ -n "${TEST_BENCHMARK_DIR:-}" ] && [ "$TEST_BENCHMARK_DIR" != "$SCRIPT_DIR/public/test" ]; then
+      rm -rf "$SCRIPT_DIR/public/test"
+      mkdir -p "$SCRIPT_DIR/public/test"
+      cp -R "$TEST_BENCHMARK_DIR/." "$SCRIPT_DIR/public/test/"
+    fi
+    if [ ! -f "$SCRIPT_DIR/public/test/manifest.json" ]; then
+      echo "Missing published /test bundle. Set TEST_BENCHMARK_DIR or run npm run stage:test." >&2
+      exit 1
     fi
     ;;
   ci)

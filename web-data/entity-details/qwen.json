@@ -3,9 +3,9 @@
     "id": "qwen",
     "name": "Qwen",
     "type": "product",
-    "description": "阿里旗下大模型团队，发布了Qwen 3.8 Max，多模态能力较弱",
-    "mention_count": 196,
-    "article_count": 21,
+    "description": "通义千问大模型系列，文中提及Qwen3.8-Max等版本，在嵌入式驱动、物理模拟及无人机飞控等Bench中表现突出",
+    "mention_count": 219,
+    "article_count": 24,
     "aliases": [
       "Qwen 3",
       "Qwen 3.7",
@@ -13,6 +13,8 @@
       "Qwen 3.7 plus",
       "Qwen image",
       "Qwen-Max",
+      "Qwen3.5-7B",
+      "Qwen3.8-Max",
       "任务助手",
       "千问",
       "千问APP",
@@ -28,7 +30,9 @@
       "AI大模型",
       "AI应用",
       "Agent",
+      "Agent能力",
       "ChatBot",
+      "Flash",
       "任务助手",
       "免费AI",
       "原生应用",
@@ -41,16 +45,18 @@
       "大模型厂商",
       "大语言模型",
       "工程稳定",
+      "工程能力",
       "开源",
       "开源中小尺寸模型",
       "开源模型",
       "成本低",
+      "物理模拟",
       "编程",
       "语音输入",
       "长程任务"
     ],
-    "references": 21,
-    "source_article_count": 21,
+    "references": 24,
+    "source_article_count": 24,
     "source_articles": [
       {
         "article_id": "112",
@@ -69,6 +75,24 @@
         "permalink": "/articles/105",
         "markdown_link": "articles/105_2026-06-17_葬爱咸鱼_葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8.md",
         "mention_count": 16
+      },
+      {
+        "article_id": "142",
+        "title": "大模型拿大结果指南",
+        "date": "2026-09-01",
+        "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+        "permalink": "/articles/142",
+        "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+        "mention_count": 12
+      },
+      {
+        "article_id": "140",
+        "title": "一场黑客松斩杀了整个网吧",
+        "date": "2026-08-27",
+        "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+        "permalink": "/articles/140",
+        "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+        "mention_count": 9
       },
       {
         "article_id": "134",
@@ -123,6 +147,15 @@
         "permalink": "/articles/110",
         "markdown_link": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "141",
+        "title": "再爱MiniMax一次",
+        "date": "2026-09-01",
+        "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "permalink": "/articles/141",
+        "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+        "mention_count": 2
       },
       {
         "article_id": "019",
@@ -242,8 +275,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 51,
-    "composite_weight": 0.6353
+    "degree": 59,
+    "composite_weight": 0.6966
   },
   "links": [
     {
@@ -251,23 +284,23 @@
       "target": "qwen",
       "relation_type": "compares_to",
       "type": "compares_to",
-      "label": "文章指出千问需要像ChatGPT那样的原生产品形态",
+      "label": "在物理切割、吸盘搬运及无人机巡航等任务中进行性能对比",
       "weight": 1,
       "strength": 2,
       "effective_weight": 3,
       "article_count": 1,
       "evidence_articles": [
-        "034"
+        "142"
       ],
       "evidences": [
         {
-          "article_id": "034",
-          "title": "千问唤起世界人民的最中幻想",
-          "permalink": "/articles/034",
-          "markdown_link": "articles/034_2025-11-17_葬爱咸鱼_千问唤起世界人民的最中幻想.md",
-          "path": "articles/034_2025-11-17_葬爱咸鱼_千问唤起世界人民的最中幻想.md",
-          "date": "2025-11-17",
-          "label": "文章指出千问需要像ChatGPT那样的原生产品形态",
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在物理切割、吸盘搬运及无人机巡航等任务中进行性能对比",
           "weight": 1
         }
       ]
@@ -294,6 +327,69 @@
           "path": "articles/076_2026-03-26_葬爱咸鱼_葬CLI如闪电般上线.md",
           "date": "2026-03-26",
           "label": "Cherry studio在排行榜中位列Qwen之前",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在代码质量、系统级Agent能力及物理场景稳定性方面进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "142"
+      ],
+      "evidences": [
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在代码质量、系统级Agent能力及物理场景稳定性方面进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "deepseek",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者均为本次黑客松选定的五大顶尖评测模型之一",
+      "weight": 2,
+      "strength": 2,
+      "effective_weight": 6,
+      "article_count": 2,
+      "evidence_articles": [
+        "140",
+        "142"
+      ],
+      "evidences": [
+        {
+          "article_id": "142",
+          "title": "大模型拿大结果指南",
+          "permalink": "/articles/142",
+          "markdown_link": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "path": "articles/142_2026-09-01_葬爱咸鱼_大模型拿大结果指南.md",
+          "date": "2026-09-01",
+          "label": "在嵌入式驱动、物理理解及德州扑克等多个Bench中被直接对比性能差异",
+          "weight": 1
+        },
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "两者均为本次黑客松选定的五大顶尖评测模型之一",
           "weight": 1
         }
       ]
@@ -356,14 +452,25 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "Qwen的低API请求数和低成本与产生大量请求的Kimi形成鲜明对比",
-      "weight": 1,
+      "weight": 2,
       "strength": 2,
-      "effective_weight": 3,
-      "article_count": 1,
+      "effective_weight": 6,
+      "article_count": 2,
       "evidence_articles": [
-        "105"
+        "105",
+        "140"
       ],
       "evidences": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "两者均为本次黑客松选定的顶尖模型，且在多个Bench中被横向测评",
+          "weight": 1
+        },
         {
           "article_id": "105",
           "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
@@ -377,11 +484,37 @@
       ]
     },
     {
+      "source": "minimax",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属国内大模型竞赛阵营，在摸高和Flash赛道存在竞争关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "141"
+      ],
+      "evidences": [
+        {
+          "article_id": "141",
+          "title": "再爱MiniMax一次",
+          "permalink": "/articles/141",
+          "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "path": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
+          "date": "2026-09-01",
+          "label": "同属国内大模型竞赛阵营，在摸高和Flash赛道存在竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "qwen",
       "target": "chatgpt",
       "relation_type": "compares_to",
       "type": "compares_to",
-      "label": "文章指出千问需要像ChatGPT那样的原生产品形态",
+      "label": "在物理切割、吸盘搬运及无人机巡航等任务中进行性能对比",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -395,6 +528,32 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "Cherry studio在排行榜中位列Qwen之前",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qwen",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在代码质量、系统级Agent能力及物理场景稳定性方面进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qwen",
+      "target": "deepseek",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者均为本次黑客松选定的五大顶尖评测模型之一",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -443,6 +602,19 @@
     },
     {
       "source": "qwen",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "同属国内大模型竞赛阵营，在摸高和Flash赛道存在竞争关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qwen",
       "target": "seed",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -463,6 +635,32 @@
           "path": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
           "date": "2026-07-02",
           "label": "文中认为Qwen显著领先字节的Seed模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "qwen",
+      "target": "小米mimo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将小米MiMo作为二线模型与Qwen等顶尖模型进行档次对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "140"
+      ],
+      "evidences": [
+        {
+          "article_id": "140",
+          "title": "一场黑客松斩杀了整个网吧",
+          "permalink": "/articles/140",
+          "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "path": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
+          "date": "2026-08-27",
+          "label": "文中将小米MiMo作为二线模型与Qwen等顶尖模型进行档次对比",
           "weight": 1
         }
       ]
@@ -551,6 +749,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文中认为Qwen显著领先字节的Seed模型",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "小米mimo",
+      "target": "qwen",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将小米MiMo作为二线模型与Qwen等顶尖模型进行档次对比",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -1357,9 +1568,24 @@
   ],
   "suggested_edges": [
     {
+      "source": "qwen",
+      "target": "智谱ai",
+      "score": 0.7903,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 8 篇文章；共享 7 个邻居",
+      "evidence_article_ids": [
+        "026",
+        "049",
+        "099",
+        "103",
+        "105"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "codex",
       "target": "qwen",
-      "score": 0.7868,
+      "score": 0.7794,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 6 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1372,39 +1598,9 @@
       "status": "suggested"
     },
     {
-      "source": "qwen",
-      "target": "智谱ai",
-      "score": 0.7721,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 7 篇文章；共享 6 个邻居",
-      "evidence_article_ids": [
-        "026",
-        "049",
-        "099",
-        "103",
-        "105"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "minimax",
-      "target": "qwen",
-      "score": 0.694,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 8 篇文章；共享 5 个邻居",
-      "evidence_article_ids": [
-        "049",
-        "055",
-        "060",
-        "099",
-        "103"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "manus",
       "target": "qwen",
-      "score": 0.6474,
+      "score": 0.6441,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1419,7 +1615,7 @@
     {
       "source": "qwen",
       "target": "字节跳动",
-      "score": 0.6093,
+      "score": 0.6092,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1427,6 +1623,20 @@
         "103",
         "110",
         "112"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "qwen",
+      "target": "阶跃星辰",
+      "score": 0.6062,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "029",
+        "049",
+        "110",
+        "134"
       ],
       "status": "suggested"
     }

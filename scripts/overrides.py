@@ -6,12 +6,22 @@ This is a PURE DATA file -- no logic, just declarations.
 """
 
 # ── Excluded articles (skipped during aggregation & article index) ──
-EXCLUDED_ARTICLES = set()  # 葬AI-only corpus: include all source articles
+# 139 is an earlier local draft of 140; keep both source files, publish only 140.
+EXCLUDED_ARTICLES = {"139"}
+
+# SD3 is a test case, not Stable Diffusion; the hackathon is an event, not a product.
+ARTICLE_ENTITY_EXCLUSIONS = {"142": {"SD3", "懂模帝Bench黑客松"}}
 
 # ── Node merges (post-extraction, for cases MERGE_MAP can't handle) ──
 # Format: {"keep": canonical_id, "remove": [alias_ids],
 #          "new_name": optional, "add_aliases": optional, "new_type": optional}
 NODE_MERGES = [
+    {"keep": "kimi", "remove": ["k3", "kimi-k3"], "add_aliases": ["K3", "Kimi K3"]},
+    {"keep": "minimax-m3", "remove": ["m3"], "add_aliases": ["M3"]},
+    {"keep": "minimax-h3", "remove": ["h3"], "add_aliases": ["H3"]},
+    {"keep": "chatgpt", "remove": ["gpt"], "add_aliases": ["GPT"]},
+    {"keep": "longcat", "remove": ["美团长猫"], "add_aliases": ["美团长猫"]},
+    {"keep": "chatgpt-deep-research", "remove": ["deepresearch"], "add_aliases": ["DeepResearch"]},
     # -- 1a. New merges (4 groups) --
     {"keep": "looki", "remove": ["looki公司"]},
     {"keep": "manus", "remove": ["manus-产品"]},
@@ -124,6 +134,12 @@ TYPE_CORRECTIONS = {
 # Section 4.5: develops source-is-product fixes
 # Section 4.6: Other edge fixes
 EDGE_TYPE_FIXES = [
+    # Speculation about future LibTV integration is not an implemented integration.
+    ("minimax-h3", "libtv", "integrates_with", {"delete": True}),
+    # Evaluating third-party models does not make Hoodie their developer.
+    ("胡迪hoodie", "claude", "works_on", {"delete": True}),
+    ("胡迪hoodie", "chatgpt", "works_on", {"delete": True}),
+    ("胡迪hoodie", "manus", "works_at", {"new_type": "works_on"}),
     # -- 4.1 works_on -> founder_of --
     ("明超平", "youware", "works_on", {"new_type": "founder_of"}),
     ("景鲲", "genspark", "works_on", {"new_type": "founder_of"}),

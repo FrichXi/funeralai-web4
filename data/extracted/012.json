@@ -1,0 +1,378 @@
+{
+  "article": {
+    "id": "012",
+    "title": "CrePal成为首个胖猫视频Agent",
+    "path": "articles/012_2025-07-25_葬爱咸鱼_CrePal成为首个胖猫视频Agent.md",
+    "date": "2025-07-25",
+    "author": "葬爱咸鱼",
+    "content_hash": "bb62813c4f5fd4df2e81ca0e9702e7180f2e2fdb4661ce8220365556316f95cb"
+  },
+  "entities": [
+    {
+      "id": "crepal",
+      "name": "CrePal",
+      "type": "product",
+      "description": "全球首个胖猫视频Agent，主打一站式AI视频制作的工具平台",
+      "mention_count": 29,
+      "aliases": [],
+      "tags": [
+        "视频Agent",
+        "AI视频制作"
+      ]
+    },
+    {
+      "id": "jiaming",
+      "name": "jiaming",
+      "type": "person",
+      "description": "独立开发者，CrePal的开发者",
+      "mention_count": 6,
+      "aliases": [
+        "jiamingjiaming"
+      ],
+      "tags": [
+        "开发者"
+      ]
+    },
+    {
+      "id": "海螺ai",
+      "name": "海螺AI",
+      "type": "product",
+      "description": "MiniMax开发的AI产品，支持语音和视频生成",
+      "mention_count": 6,
+      "aliases": [
+        "海螺"
+      ],
+      "tags": [
+        "视频生成",
+        "语音生成"
+      ]
+    },
+    {
+      "id": "veo",
+      "name": "Veo",
+      "type": "product",
+      "description": "Google开发的强力AI视频生成模型",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "视频生成"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "国内AI公司，海螺AI的母公司，制作了官方胖猫视频",
+      "mention_count": 4,
+      "aliases": [
+        "MinMax"
+      ],
+      "tags": [
+        "人工智能",
+        "大模型"
+      ]
+    },
+    {
+      "id": "可灵",
+      "name": "可灵",
+      "type": "product",
+      "description": "AI视频生成模型",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "视频生成"
+      ]
+    },
+    {
+      "id": "gpt-image",
+      "name": "GPT-Image",
+      "type": "product",
+      "description": "支持基于多图参考进行生成的AI做图模型",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "图片生成"
+      ]
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "type": "company",
+      "description": "国际科技巨头，Google Imagen和Veo大模型的开发公司",
+      "mention_count": 2,
+      "aliases": [
+        "谷歌"
+      ],
+      "tags": [
+        "科技巨头"
+      ]
+    },
+    {
+      "id": "google-imagen",
+      "name": "Google Imagen",
+      "type": "product",
+      "description": "Google开发的AI图片生成模型",
+      "mention_count": 2,
+      "aliases": [
+        "Imagen"
+      ],
+      "tags": [
+        "图片生成"
+      ]
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "type": "product",
+      "description": "AI图片生成模型",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "图片生成",
+        "写实类"
+      ]
+    },
+    {
+      "id": "pixverse",
+      "name": "Pixverse",
+      "type": "product",
+      "description": "AI视频生成模型",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "视频生成"
+      ]
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "type": "product",
+      "description": "AI音频与配乐生成模型",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "音频生成",
+        "AI音乐"
+      ]
+    },
+    {
+      "id": "即梦",
+      "name": "即梦",
+      "type": "product",
+      "description": "支持风格化内容理解的AI图片与视频生成模型",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "图片生成",
+        "视频生成"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Pixverse",
+      "target": "可灵",
+      "relation_type": "compares_to",
+      "label": "文中明确评价Pixverse是可灵（2.1）的平替",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "jiaming",
+      "target": "即梦",
+      "relation_type": "criticizes",
+      "label": "jiaming指出即梦的问题是容易出物理性bug",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Google",
+      "target": "Google Imagen",
+      "relation_type": "develops",
+      "label": "Google开发了Imagen大模型（通过名称明确推断）",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Google",
+      "target": "Veo",
+      "relation_type": "develops",
+      "label": "Google开发了Veo模型（文中提及谷歌官方定价）",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "MiniMax",
+      "target": "海螺AI",
+      "relation_type": "develops",
+      "label": "MiniMax研发了海螺AI",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "CrePal",
+      "target": "GPT-Image",
+      "relation_type": "integrates_with",
+      "label": "CrePal的子Agent中集成了GPT-Image生成模型",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "CrePal",
+      "target": "Google Imagen",
+      "relation_type": "integrates_with",
+      "label": "CrePal的子Agent中集成了Google Imagen生成模型",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "CrePal",
+      "target": "Midjourney",
+      "relation_type": "integrates_with",
+      "label": "CrePal的子Agent中集成了Midjourney生成模型",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "CrePal",
+      "target": "Pixverse",
+      "relation_type": "integrates_with",
+      "label": "CrePal的子Agent中集成了Pixverse生成模型",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "CrePal",
+      "target": "Suno",
+      "relation_type": "integrates_with",
+      "label": "CrePal的子Agent中集成了Suno音频生成模型",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "CrePal",
+      "target": "Veo",
+      "relation_type": "integrates_with",
+      "label": "CrePal的子Agent中集成了Veo生成模型",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "CrePal",
+      "target": "即梦",
+      "relation_type": "integrates_with",
+      "label": "CrePal的子Agent中集成了即梦生成模型",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "CrePal",
+      "target": "可灵",
+      "relation_type": "integrates_with",
+      "label": "CrePal的子Agent中集成了可灵生成模型",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "CrePal",
+      "target": "海螺AI",
+      "relation_type": "integrates_with",
+      "label": "CrePal的子Agent中集成了海螺生成模型",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "jiaming",
+      "target": "GPT-Image",
+      "relation_type": "praises",
+      "label": "jiaming评价其为目前最好的多图参考融合模型",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "jiaming",
+      "target": "Google Imagen",
+      "relation_type": "praises",
+      "label": "jiaming评价其性价比高，做场景图效果不错",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "jiaming",
+      "target": "Midjourney",
+      "relation_type": "praises",
+      "label": "jiaming评价Midjourney在写实细节把控和人脸保持上非常好",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "jiaming",
+      "target": "Veo",
+      "relation_type": "praises",
+      "label": "jiaming评价Veo很强，强于其他所有模型",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "jiaming",
+      "target": "即梦",
+      "relation_type": "praises",
+      "label": "jiaming评价即梦便宜、快，且风格化保持较好",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "jiaming",
+      "target": "可灵",
+      "relation_type": "praises",
+      "label": "jiaming评价可灵稳定性好、瑕疵率低",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "jiaming",
+      "target": "海螺AI",
+      "relation_type": "praises",
+      "label": "jiaming评价海螺做运动类镜头符合物理规律，稳定性强",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "jiaming",
+      "target": "CrePal",
+      "relation_type": "works_on",
+      "label": "jiaming开发了首个胖猫视频Agent CrePal",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 13,
+    "relationship_count": 22,
+    "pruned_entities": []
+  }
+}
