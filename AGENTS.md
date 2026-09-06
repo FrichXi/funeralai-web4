@@ -288,7 +288,7 @@ acquires, co_founded, collaborates_with, compares_to, competes_with, criticizes,
 `site/public/_headers` 由 Cloudflare Pages 自动读取，包含：
 - **安全头**: `X-Content-Type-Options`, `X-Frame-Options`, `Referrer-Policy`, `Permissions-Policy`
 - **长期缓存**: `logo.png`, `og-image.png`, 字体, `_next/static/*`（1 年 immutable）
-- **短期缓存**: `data/*`（1 小时客户端，1 天 CDN）
+- **数据缓存**: `data/*` 每次请求重新验证，避免发布后继续使用旧图谱和文章数据。
 
 ## 前端布局契约
 

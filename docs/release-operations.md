@@ -49,6 +49,8 @@ npm run deploy
 
 GitHub Actions 在干净环境运行测试和 `STAGE_TEST=ci` 编译。正式构建使用 `STAGE_TEST=required`，仍需完整 benchmark bundle，故 Git push 不触发 production 自动部署。
 
+依赖锁文件使用 `packageManager` 声明的 npm 10.9.4 更新（`npx npm@10.9.4 install`），与 Node 22 CI 保持一致。`/data/*` 每次请求重新验证缓存，避免新页面读取旧图谱。
+
 ## 成功与恢复
 
 `site/out/release-manifest.json` 记录本次文章/图谱/benchmark、关键哈希、静态树与运行时身份。脚本核对唯一 production URL 和正式域名，成功后写入 ignored `site/.release-receipts/release-*.json`，包括上一 production 的 ID。只有线上内容一致才报告发布完成。

@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 - Substack import now catches read timeouts, retries, uses Ego Lite instead of the obsolete Chrome proxy, pages the archive, recovers bodies beyond the RSS window, and serializes corpus writes.
 - Removed repeated deployment review/test gates, preview upload and browser-based leaderboard rendering; content worktrees reuse the published benchmark bundle, and frozen image downloads remain unchanged.
 - Updated Next.js to 15.5.25 and Wrangler to 4.129.0, refreshed compatible dependency patches, removed unused shadcn/tw-animate-css and Playwright dependencies, and consolidated CI into one install/test/build job.
+- Regenerated the dependency lock with npm 10.9.4 to include missing optional platform dependencies in clean CI installs; data responses now revalidate instead of remaining fresh for an hour in browsers and a day at the CDN.
 - Removed the unused legacy enrichment script and duplicate CLAUDE instructions; publication stats are generated in llms.txt and referenced from README. Corrected article excerpts and alias counting.
 
 
