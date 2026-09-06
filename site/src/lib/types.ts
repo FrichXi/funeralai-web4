@@ -84,28 +84,11 @@ export interface SuggestedEdge {
   status: 'suggested';
 }
 
-export interface GraphCommunity {
-  id: string;
-  name: string;
-  node_count: number;
-  link_count: number;
-  color: string;
-  top_nodes: Array<{
-    id: string;
-    name: string;
-    type: NodeType;
-    degree: number;
-    composite_weight?: number;
-  }>;
-}
-
 export interface EntityDetails {
   node: GraphNode;
   links: GraphLink[];
   suggested_edges: SuggestedEdge[];
 }
-
-export type GraphColorMode = 'type' | 'community';
 
 // ── Relation types ──
 
@@ -250,22 +233,4 @@ export interface SponsorLeaderboardEntry {
   trailingLabel?: string;
   trailingLabelVariant?: SponsorTrailingVariant;
   isLegacyPatron: boolean;
-}
-
-// ── Display Registry ──
-
-export interface DisplayRegistry {
-  version: number;
-  updatedAt: string;
-  defaults: { leaderboardSize: number };
-  presentation: Record<string, unknown>;
-  nodes: DisplayNodeConfig[];
-}
-
-export interface DisplayNodeConfig {
-  nodeId?: string;
-  sizeBoost?: number;
-  visualMode?: string;
-  featured?: boolean;
-  asset?: NodeAsset;
 }

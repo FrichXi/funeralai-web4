@@ -1,6 +1,6 @@
 # 8-Bit 暗色像素风 UI 设计规范
 
-> 源自葬AI Web4 项目。复制本文件到新项目的 `CLAUDE.md` 或 docs/ 中即可复用。
+> 葬AI Web4 的视觉规范。当前依赖与版本统一以 `site/package.json` 为准。
 > 复用时把"品牌色"替换为你自己的主色即可，其余体系自洽。
 
 ---
@@ -9,35 +9,15 @@
 
 | 层级 | 技术 | 版本 |
 |------|------|------|
-| 框架 | Next.js (App Router, 静态导出) | ^14.2 |
+| 框架 | Next.js (App Router, 静态导出) | 见 package.json |
 | UI | React + TypeScript | ^18.3 / ^5.5 |
 | 样式 | Tailwind CSS + tailwindcss-animate | ^3.4 |
-| 组件基础 | shadcn/ui（自定义主题） + @radix-ui | latest |
+| 组件基础 | Base UI + 像素风包装组件 | 见 package.json |
 | 类名工具 | class-variance-authority + clsx + tailwind-merge | — |
 | 图标 | lucide-react | ^0.577 |
 | 字体 | Fusion Pixel 12px（像素字体）+ GeistMono（代码字体） | — |
 
-### 核心依赖（package.json 需安装）
-
-```json
-{
-  "@base-ui/react": "^1.3.0",
-  "@radix-ui/react-dialog": "^1.1.14",
-  "@radix-ui/react-progress": "^1.1.7",
-  "@radix-ui/react-scroll-area": "^1.2.9",
-  "@radix-ui/react-separator": "^1.1.7",
-  "@radix-ui/react-tabs": "^1.1.12",
-  "@radix-ui/react-tooltip": "^1.2.7",
-  "class-variance-authority": "^0.7.1",
-  "clsx": "^2.1.1",
-  "cmdk": "^1.1.1",
-  "lucide-react": "^0.577.0",
-  "shadcn": "^4.0.6",
-  "tailwind-merge": "^3.5.0",
-  "tailwindcss-animate": "^1.0.7",
-  "tw-animate-css": "^1.4.0"
-}
-```
+只保留页面实际使用的组件；新增功能需要时再添加对应组件和依赖，避免预装整套 UI 模板。依赖列表不在本文重复维护。
 
 ### 通用工具函数 `lib/utils.ts`
 

@@ -22,9 +22,9 @@
 | 框架 | Next.js (App Router, 静态导出) | 15.5.25 |
 | UI | React + TypeScript | ^18.3 / ^5.5 |
 | 样式 | Tailwind CSS | ^3.4 |
-| 图谱渲染 | Cytoscape + cytoscape-fcose | ^3.30 / ^2.2 |
+| 图谱渲染 | Cytoscape（预计算坐标） | ^3.33 |
 | Markdown | react-markdown + remark-gfm | ^9.0 / ^4.0 |
-| 提取 | Python 3 + Gemini API | — |
+| 提取 | Python 3 + 多供应商 OpenAI-compatible API | — |
 | 部署 | Cloudflare Pages（纯静态） | — |
 | 数据库 | **无**（纯 JSON 文件，无数据库） | — |
 
@@ -58,7 +58,9 @@
 │       └── articles_manifest.json     # 文章提取状态追踪
 │
 ├── web-data/                          # 前端数据（由 build_presentation.py 生成）
-│   ├── graph-view.json                # 主图谱数据（nodes + links）
+│   ├── graph-view.json                # 完整图谱与证据（构建、数据下载）
+│   ├── graph-shell.json               # 轻量首屏图谱，含预计算坐标
+│   ├── entity-details/{id}.json       # 点击实体后按需读取的详情
 │   ├── article-index.json             # 文章索引（含 count 包装）
 │   ├── leaderboards.json              # 4 个分类排行榜
 │   └── articles/{id}.json             # 单篇文章详情（含 body_markdown）
@@ -67,6 +69,7 @@
 │   ├── extract_gemini.py              # 增量提取及供应商自动切换
 │   ├── graph_builder.py               # 图谱聚合（多篇 → 单图）
 │   ├── graph_utils.py                 # 实体类型/合并/关系配置
+│   ├── graph_insights.py              # 构建时计算坐标、轻量图谱与实体详情
 │   ├── pipeline_state.py              # 版本管理 + manifest
 │   ├── build_graph.py                 # 聚合入口
 │   ├── run_full_extraction.py         # 全量提取 runner
@@ -131,7 +134,7 @@
         │   ├── web4-benchmark-current.json # /test 当前模型总榜（分数、耗时、调用数、成本）
         │   └── web4-benchmark-analysis.ts  # 当前模型有效 attempt 与 scorer/产物证据卡
         ├── hooks/
-        │   ├── useGraphData.ts        # 图谱数据加载（fetch + error/retry）
+        │   ├── useGraphData.ts        # 轻量图谱加载（超时、取消、重试）
         │   └── useGraphInteraction.ts # 图谱交互逻辑（选中/高亮/过滤/tooltip）
         └── lib/
             ├── types.ts               # 全部 TS 类型定义
@@ -169,7 +172,7 @@ articles/*.md
 | 路由 | 渲染 | 数据加载 | SEO |
 |------|------|----------|-----|
 | `/` | SSG | 无数据依赖 | 继承根 metadata |
-| `/graph` | SSG shell + CSR canvas | graph-view.json 客户端 fetch | Dataset JSON-LD |
+| `/graph` | SSG shell + CSR canvas | graph-shell.json 预加载；实体详情按需 fetch | Dataset JSON-LD |
 | `/leaderboard` | SSG | leaderboards.json 构建时读取 | ItemList JSON-LD |
 | `/articles` | SSG | article-index.json 构建时读取 | CollectionPage JSON-LD |
 | `/articles/[id]` | SSG（generateStaticParams） | 各 article JSON 构建时读取 | Article JSON-LD |
@@ -235,9 +238,10 @@ articles/*.md
 ## 图谱实现要点
 
 ### Cytoscape 配置（`graph-config.ts`）
-- **布局**: `fcose`（快速力导向），参数见 `FCOSE_LAYOUT_OPTIONS`
+- **布局**: `preset`，直接使用 `graph-shell.json` 的 `x/y`；坐标由 `graph_insights.py` 在构建时生成，浏览器不运行力导向迭代。
 - **节点大小**: `nodeSize()` — 基于 `composite_weight` 线性映射到 [20, 80]
-- **缩放标签**: `ZOOM_THRESHOLDS` 控制不同缩放级别的标签显示策略
+- **缩放标签**: `ZOOM_THRESHOLDS` 控制三个档位，只在跨档时批量更新。筛选和高亮使用 `cy.batch()`；移动视口时暂隐连线，画布像素比上限 1.5。
+- **详情**: `useEntityDetails.ts` 在选中实体时读取对应 JSON；关闭或切换实体会取消请求，失败可重试。浏览器 HTTP 缓存负责重新验证，不保留无限期的内存详情缓存。
 - **动态导入**: `dynamic(() => import('./GraphCanvas'), { ssr: false })`
 
 ### 交互（`useGraphInteraction.ts`）

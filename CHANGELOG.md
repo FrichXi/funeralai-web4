@@ -5,6 +5,9 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Fixed — 2026-09-06
+- Graph startup now preloads the existing lightweight shell and renders precomputed coordinates; entity details load on selection with cancellation, timeout and retry. Removed browser-side force layout and its dependency.
+- Zoom labels update only when crossing one of three tiers; filtering/highlighting batch style changes, viewport movement skips edge rendering, and canvas resolution is capped for high-density screens. Deep links can reveal filtered nodes.
+- Removed 15 unreachable UI/graph components, obsolete layout types, 7 unused direct dependencies and the unconsumed legacy graph.json snapshot. Current visual dependencies and deployment checks now reference their authoritative sources instead of duplicating stale instructions.
 - Recovered updates through article 143 (2026-09-04); retained draft 139 and published its updated version 140 once. Current data: 142 articles, 740 entities, 2035 relationships.
 - Content updates now resume extraction, publication and Git push after interrupted runs; normalized extraction inputs are versioned, source hashes remain comparable, successful per-article results save atomically, and provider changes no longer trigger historical re-extraction.
 - Added bounded DashScope → GLM → Kimi → MiniMax failover from existing global environment credentials, with accurate per-article provider/model provenance and direct API connections.

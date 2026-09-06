@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import type { Core } from 'cytoscape';
+import { useEntityDetails } from '@/hooks/useEntityDetails';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
@@ -24,8 +25,7 @@ function useIsMobile(breakpoint = 640) {
 }
 
 interface EntityDrawerProps {
-  node: GraphNode | null;
-  links: GraphLink[];
+  node: GraphNode;
   cy: Core | null;
   onClose: () => void;
   onNavigateToNode: (nodeId: string) => void;
@@ -144,30 +144,19 @@ function DrawerContent({
   );
 }
 
-export function EntityDrawer({ node, links, cy, onClose, onNavigateToNode }: EntityDrawerProps) {
+export function EntityDrawer({ node: shellNode, cy, onClose, onNavigateToNode }: EntityDrawerProps) {
+  const { details, loading, error, retry } = useEntityDetails(shellNode.id);
+  const node = details?.node ?? shellNode;
   const isMobile = useIsMobile();
   const [expanded, setExpanded] = useState(false);
-  const prevNodeId = useRef<string | null>(null);
-
-  // Reset to collapsed when switching nodes
-  useEffect(() => {
-    if (node && node.id !== prevNodeId.current) {
-      setExpanded(false);
-      prevNodeId.current = node.id;
-    }
-  }, [node]);
-
-  if (!node) return null;
-
-  // Get connected links
-  const connectedLinks = links.filter(
-    (l) => l.source === node.id || l.target === node.id
-  );
-
-  // Get source articles from node data
-  const sourceArticles = Array.isArray(node.source_articles)
-    ? node.source_articles
-    : [];
+  const connectedLinks = details?.links ?? [];
+  const sourceArticles = node.source_articles;
+  const detailStatus = error ? (
+    <div className="p-4 text-xs text-destructive" role="alert">
+      加载实体详情失败：{error}
+      <button onClick={retry} className="ml-2 underline">重试</button>
+    </div>
+  ) : loading ? <p className="p-4 text-xs text-muted-foreground" role="status">加载实体详情...</p> : null;
 
   // Resolve neighbor names from cy
   const getNodeName = (id: string): string => {
@@ -206,6 +195,7 @@ export function EntityDrawer({ node, links, cy, onClose, onNavigateToNode }: Ent
           </div>
           <button
             onClick={onClose}
+            aria-label="关闭实体详情"
             className="shrink-0 p-1 text-muted-foreground hover:text-foreground transition-colors"
           >
             <X className="size-4" />
@@ -214,6 +204,7 @@ export function EntityDrawer({ node, links, cy, onClose, onNavigateToNode }: Ent
 
         {/* Content */}
         <ScrollArea className="flex-1 overflow-auto">
+          {detailStatus}
           <DrawerContent
             node={node}
             connectedLinks={connectedLinks}
@@ -266,6 +257,7 @@ export function EntityDrawer({ node, links, cy, onClose, onNavigateToNode }: Ent
         </div>
         <button
           onClick={onClose}
+            aria-label="关闭实体详情"
           className="shrink-0 p-1 text-muted-foreground hover:text-foreground transition-colors"
         >
           <X className="size-4" />
@@ -274,6 +266,7 @@ export function EntityDrawer({ node, links, cy, onClose, onNavigateToNode }: Ent
 
       {/* Scrollable content */}
       <div className="flex-1 overflow-y-auto">
+        {detailStatus}
         {!expanded ? (
           /* Collapsed: show only description peek */
           <div className="px-4 pb-4">

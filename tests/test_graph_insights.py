@@ -130,3 +130,5 @@ def test_shell_payload_stays_lightweight():
     assert b"evidences" not in raw
     assert len(raw) < 500_000
     assert len(compressed) < 120_000
+    assert shell["nodes"][0]["description"] == "A desc"
+    assert shell["nodes"][0]["displayName"] == "A"

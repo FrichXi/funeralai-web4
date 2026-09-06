@@ -106,9 +106,4 @@ Do not hide page-level layout behavior inside a primitive default.
 
 ## Validation
 
-- `bash scripts/doctor_repo.sh --profile site-ui --ci`
-- `python3 scripts/frontend_refactor_readiness.py`
-- `pytest tests/ -q`
-- `npm run build`
-- `npm run test`
-- manual check of `/`, `/leaderboard`, `/articles`, `/articles/001`, `/graph`, `/graph?focus=<known-node-id>`, `/test`, and `/test/methodology`
+Run frontend lint/tests with `cd site && npm run check` and verify the static build. Run relevant Python tests when changing the data generator. Check affected routes in Ego Lite, including desktop/mobile layouts and failure/retry behavior. Deployment commands and artifact verification are maintained in `docs/release-operations.md`; do not add duplicate release gates here.

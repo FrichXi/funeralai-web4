@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react';
 import type { EntityDetails } from '@/lib/types';
 
-const detailCache = new Map<string, EntityDetails>();
-
 interface UseEntityDetailsReturn {
   details: EntityDetails | null;
   loading: boolean;
@@ -24,41 +22,35 @@ export function useEntityDetails(nodeId: string | null | undefined): UseEntityDe
       return;
     }
 
-    const cached = detailCache.get(nodeId);
-    if (cached) {
-      setDetails(cached);
-      setLoading(false);
-      setError(null);
-      return;
-    }
-
-    let cancelled = false;
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(new Error('请求超时，请重试')), 20000);
     setDetails(null);
     setLoading(true);
     setError(null);
 
-    fetch(`/data/entity-details/${encodeURIComponent(nodeId)}.json`)
+    fetch(`/data/entity-details/${encodeURIComponent(nodeId)}.json`, { signal: controller.signal })
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json();
       })
       .then((data: EntityDetails) => {
-        detailCache.set(nodeId, data);
-        if (!cancelled) {
+        if (data.node?.id !== nodeId || !Array.isArray(data.links)) throw new Error('实体详情无效，请重试');
+        if (!controller.signal.aborted) {
           setDetails(data);
           setLoading(false);
         }
       })
       .catch((err) => {
-        console.error('Failed to load entity detail:', err);
-        if (!cancelled) {
+        if (err.name !== 'AbortError') {
           setError(err instanceof Error ? err.message : '加载实体详情失败');
           setLoading(false);
         }
-      });
+      })
+      .finally(() => clearTimeout(timeout));
 
     return () => {
-      cancelled = true;
+      clearTimeout(timeout);
+      controller.abort();
     };
   }, [nodeId, retryCount]);
 

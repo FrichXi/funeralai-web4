@@ -3,24 +3,20 @@
 import { useEffect, useRef, useCallback, useMemo, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import cytoscape from 'cytoscape';
-import fcose from 'cytoscape-fcose';
 import type { Core, NodeSingular, EventObject } from 'cytoscape';
 import { Spinner } from '@/components/ui/8bit/spinner';
 import { useGraphData } from '@/hooks/useGraphData';
 import { useGraphInteraction } from '@/hooks/useGraphInteraction';
-import { buildStylesheet, buildElements, FCOSE_LAYOUT_OPTIONS } from '@/lib/graph-config';
+import { buildStylesheet, buildElements, applyVisibilityFilters, updateLabelVisibility, nodeIsVisible } from '@/lib/graph-config';
 import { GraphControls } from './GraphControls';
 import { GraphLegend } from './GraphLegend';
 import { EntityDrawer } from './EntityDrawer';
 
 interface GraphCanvasProps {
-  focusNodeId?: string | null;
+  focusNode?: { id: string } | null;
 }
 
-// Register fcose layout once
-cytoscape.use(fcose);
-
-export default function GraphCanvas({ focusNodeId }: GraphCanvasProps) {
+export default function GraphCanvas({ focusNode }: GraphCanvasProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const cyRef = useRef<Core | null>(null);
   const [cyInstance, setCyInstance] = useState<Core | null>(null);
@@ -32,8 +28,6 @@ export default function GraphCanvas({ focusNodeId }: GraphCanvasProps) {
     selectedNode,
     typeFilters,
     tooltip,
-    updateLabelVisibility,
-    applyVisibilityFilters,
     clearHighlight,
     handleSelectNode,
     handleToggleType,
@@ -41,57 +35,26 @@ export default function GraphCanvas({ focusNodeId }: GraphCanvasProps) {
     showTooltip,
     hideTooltip,
     topologyMode,
-  } = useGraphInteraction(cyRef);
+  } = useGraphInteraction(cyRef, cyInstance);
 
   const graphStats = useMemo(() => {
-    if (!graphData) {
-      return null;
-    }
-
-    const degree = new Map<string, number>();
-    graphData.nodes.forEach((node) => degree.set(node.id, 0));
-    graphData.links.forEach((link) => {
-      degree.set(link.source, (degree.get(link.source) ?? 0) + 1);
-      degree.set(link.target, (degree.get(link.target) ?? 0) + 1);
-    });
-
-    const isolated = graphData.nodes.filter((node) => (degree.get(node.id) ?? 0) === 0).length;
-    const leaf = graphData.nodes.filter((node) => (degree.get(node.id) ?? 0) === 1).length;
-    const visibleNodeIds = new Set(
-      graphData.nodes
-        .filter((node) => {
-          if (typeFilters[node.type] === false) return false;
-
-          const nodeDegree = degree.get(node.id) ?? 0;
-          if (topologyMode === 'core') return nodeDegree >= 2;
-          if (topologyMode === 'connected') return nodeDegree >= 1;
-          return true;
-        })
-        .map((node) => node.id)
-    );
-
+    if (!cyInstance) return null;
+    const nodes = cyInstance.nodes();
     return {
-      totalNodes: graphData.nodes.length,
-      visibleNodes: visibleNodeIds.size,
-      isolated,
-      leaf,
-      totalLinks: graphData.links.length,
+      totalNodes: nodes.length,
+      visibleNodes: nodes.filter((node) => nodeIsVisible(node.data('type'), node.degree(false), typeFilters, topologyMode)).length,
+      isolated: nodes.filter((node) => node.degree(false) === 0).length,
+      leaf: nodes.filter((node) => node.degree(false) === 1).length,
     };
-  }, [graphData, topologyMode, typeFilters]);
+  }, [cyInstance, topologyMode, typeFilters]);
 
-  // ── Stable ref for handleSelectNode ──
-  const handleSelectNodeRef = useRef(handleSelectNode);
-  useEffect(() => { handleSelectNodeRef.current = handleSelectNode; }, [handleSelectNode]);
-
-  // ── Layout running state (local to init effect) ──
-  const layoutRunningRef = useRef(false);
-
-  // ── Respond to focusNodeId prop changes ──
+  const urlFocus = searchParams.get('focus');
   useEffect(() => {
-    if (focusNodeId && cyRef.current && !dataLoading) {
-      handleSelectNodeRef.current(focusNodeId);
-    }
-  }, [focusNodeId, dataLoading]);
+    if (urlFocus && cyInstance) handleSelectNode(urlFocus);
+  }, [urlFocus, cyInstance, handleSelectNode]);
+  useEffect(() => {
+    if (focusNode && cyInstance) handleSelectNode(focusNode.id);
+  }, [focusNode, cyInstance, handleSelectNode]);
 
   // ── Initialize Cytoscape when data + container ready ──
   useEffect(() => {
@@ -106,36 +69,24 @@ export default function GraphCanvas({ focusNodeId }: GraphCanvasProps) {
       minZoom: 0.05,
       maxZoom: 4,
       wheelSensitivity: 0.3,
-      pixelRatio: 'auto',
+      pixelRatio: Math.min(window.devicePixelRatio || 1, 1.5),
+      hideEdgesOnViewport: true,
+      layout: { name: 'preset', fit: false },
     });
 
     cyRef.current = cy;
     setCyInstance(cy);
-    layoutRunningRef.current = true;
-
-    const layout = cy.layout(FCOSE_LAYOUT_OPTIONS);
-    applyVisibilityFilters(cy, typeFilters, topologyMode);
-
-    layout.on('layoutstop', () => {
-      layoutRunningRef.current = false;
-
-      updateLabelVisibility(cy);
-      applyVisibilityFilters(cy, typeFilters, topologyMode);
-
-      const focusId = searchParams.get('focus');
-      if (focusId) {
-        setTimeout(() => handleSelectNodeRef.current(focusId), 300);
-      }
-    });
-
-    layout.run();
+    applyVisibilityFilters(cy, {}, 'connected');
+    cy.fit(cy.elements().not('.filtered-out'), 40);
+    updateLabelVisibility(cy);
 
     // ── Events ──
     cy.on('zoom', () => updateLabelVisibility(cy));
+    cy.on('pan zoom grab', hideTooltip);
 
     cy.on('tap', 'node', (e: EventObject) => {
       const node = e.target as NodeSingular;
-      handleSelectNodeRef.current(node.id());
+      handleSelectNode(node.id());
     });
 
     cy.on('tap', (e: EventObject) => {
@@ -166,19 +117,13 @@ export default function GraphCanvas({ focusNodeId }: GraphCanvasProps) {
       cyRef.current = null;
       setCyInstance(null);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [graphData]);
+  }, [graphData, clearHighlight, showTooltip, hideTooltip, handleSelectNode]);
 
   // ── Drawer close ──
   const handleCloseDrawer = useCallback(() => {
     const cy = cyRef.current;
     if (cy) clearHighlight(cy);
   }, [clearHighlight]);
-
-  // ── Navigate to node from drawer ──
-  const handleNavigateToNode = useCallback((nodeId: string) => {
-    handleSelectNode(nodeId);
-  }, [handleSelectNode]);
 
   // ── Error state ──
   if (error) {
@@ -255,11 +200,11 @@ export default function GraphCanvas({ focusNodeId }: GraphCanvasProps) {
       {/* Entity Drawer */}
       {selectedNode && graphData && (
         <EntityDrawer
+          key={selectedNode.id}
           node={selectedNode}
-          links={graphData.links}
           cy={cyRef.current}
           onClose={handleCloseDrawer}
-          onNavigateToNode={handleNavigateToNode}
+          onNavigateToNode={handleSelectNode}
         />
       )}
     </div>

@@ -96,3 +96,11 @@ python3 scripts/rollback_pages.py --deployment-id "<previous-id>" --execute --co
 - 文章摘要混入标题、日期与 Markdown 分隔线；清理展示摘要，保留原始正文。
 
 删除已由 overrides/post_process 取代的 enrich_graph.py，并把旧 CLAUDE.md 改为引用 AGENTS.md，避免维护两套冲突说明。历史方案和 release receipt 保留为历史记录。
+
+## 图谱性能维护（2026-09-06）
+
+首屏预加载 `graph-shell.json`（约 449 KB），直接显示构建时生成的坐标；完整 `graph-view.json`（约 2.63 MB）保留给构建和数据使用，实体详情在点击后单独请求。原有每次访问执行 5,000 次布局迭代的代码和 fcose 依赖已删除。坐标生成沿用现有 NetworkX 管线，并调整断开分组的位置，避免外围小分组挤缩主体。
+
+缩放标签只在三个档位之间切换时批量更新；筛选和高亮同样批量提交样式。高像素密度屏幕最多使用 1.5 倍画布分辨率，移动视口期间省略连线绘制。不要重新引入每帧遍历全部节点、浏览器力导向计算或无限期缓存详情。
+
+精简删除了 15 个无页面引用的 UI/图谱组件、旧布局声明、7 个直接依赖和未被消费的 `web-data/graph.json`；保留完整文章、标准化提取输入和历史 benchmark 原始产物。依赖只保留在 `site/package.json` / 锁文件中维护，不从旧设计文档重新安装模板组件。

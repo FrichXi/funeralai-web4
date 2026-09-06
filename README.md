@@ -47,14 +47,14 @@ site/                            # Next.js 15 static site (Cytoscape graph + lea
 ### Setup
 
 ```bash
-git clone https://github.com/FrichXi/funeral-ai-web4.git
-cd funeral-ai-web4
+git clone https://github.com/FrichXi/funeralai-web4.git
+cd funeralai-web4
 
 # Python dependencies
 pip install -r requirements.txt
 
 # Frontend dependencies
-cd site && npm install && cd ..
+cd site && npm ci && cd ..
 
 # Configure API key
 cp .env.example .env

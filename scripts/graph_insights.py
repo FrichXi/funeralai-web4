@@ -379,6 +379,31 @@ def _layout_positions(
                 "y": round(float(center_y + y), 3),
             }
 
+    # Pack disconnected components around the main network. Otherwise tiny
+    # peripheral components consume the viewport and compress the main graph.
+    components = sorted(nx.connected_components(graph), key=lambda ids: (-len(ids), min(ids)))
+    radii = [max(60.0, math.sqrt(len(ids)) * 75.0) for ids in components]
+    if not components:
+        return positions
+    ring = max(radii[0] + 2 * max(radii[1:], default=0) + 100,
+               sum(2 * radius + 80 for radius in radii[1:]) / (2 * math.pi))
+    angle = 0.0
+    for index, (node_ids, radius) in enumerate(zip(components, radii)):
+        xs = [positions[node_id]["x"] for node_id in node_ids]
+        ys = [positions[node_id]["y"] for node_id in node_ids]
+        cx, cy = (min(xs) + max(xs)) / 2, (min(ys) + max(ys)) / 2
+        extent = max(math.hypot(positions[node_id]["x"] - cx, positions[node_id]["y"] - cy)
+                     for node_id in node_ids)
+        scale = radius / extent if extent else 1.0
+        offset_x, offset_y = (0.0, 0.0) if index == 0 else (ring * math.cos(angle), ring * math.sin(angle))
+        for node_id in node_ids:
+            pos = positions[node_id]
+            positions[node_id] = {
+                "x": round((pos["x"] - cx) * scale + offset_x, 3),
+                "y": round((pos["y"] - cy) * scale + offset_y, 3),
+            }
+        if index:
+            angle += (radius + (radii[index + 1] if index + 1 < len(radii) else radius) + 80) / ring
     return positions
 
 
@@ -423,6 +448,7 @@ def build_graph_shell(
             "id": node["id"],
             "name": node.get("name", node["id"]),
             "type": node.get("type", "product"),
+            **{key: node[key] for key in ("displayName", "description", "featured") if node.get(key)},
             "mention_count": node.get("mention_count", 0),
             "article_count": node.get("article_count", 0),
             "aliases": node.get("aliases", []),
@@ -446,7 +472,7 @@ def build_graph_shell(
 
     metadata = dict(graph_view.get("metadata", {}))
     metadata["source"] = "graph-shell"
-    metadata["layout"] = "preset-v1"
+    metadata["layout"] = "preset-v2"
     metadata["insightsVersion"] = insights.get("version", 1)
     metadata["communities"] = communities
 

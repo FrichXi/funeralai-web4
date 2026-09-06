@@ -5,7 +5,7 @@ import type { Core } from 'cytoscape';
 import { Network, Search, X } from 'lucide-react';
 import { Input } from '@/components/ui/8bit/input';
 import { NODE_COLORS, NODE_TYPE_LABELS } from '@/lib/constants';
-import type { GraphTopologyMode } from '@/hooks/useGraphInteraction';
+import type { GraphTopologyMode } from '@/lib/graph-config';
 
 interface GraphControlsProps {
   cy: Core | null;
@@ -19,7 +19,6 @@ interface GraphControlsProps {
     visibleNodes: number;
     isolated: number;
     leaf: number;
-    totalLinks: number;
   } | null;
 }
 

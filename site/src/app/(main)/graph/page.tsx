@@ -13,6 +13,7 @@ export default function GraphPage() {
 
   return (
     <>
+      <link rel="preload" href="/data/graph-shell.json" as="fetch" crossOrigin="anonymous" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

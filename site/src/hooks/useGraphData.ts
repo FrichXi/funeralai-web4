@@ -15,31 +15,37 @@ export function useGraphData(): UseGraphDataReturn {
   const [retryCount, setRetryCount] = useState(0);
 
   useEffect(() => {
-    let cancelled = false;
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(new Error('请求超时，请重试')), 20000);
     setLoading(true);
     setError(null);
 
-    fetch('/data/graph-view.json')
+    fetch('/data/graph-shell.json', { signal: controller.signal })
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json();
       })
       .then((data: GraphData) => {
-        if (!cancelled) {
+        if (!Array.isArray(data.nodes) || !Array.isArray(data.links) ||
+            data.nodes.some((node) => !Number.isFinite(node.x) || !Number.isFinite(node.y))) {
+          throw new Error('图谱数据无效，请重试');
+        }
+        if (!controller.signal.aborted) {
           setGraphData(data);
           setLoading(false);
         }
       })
       .catch((err) => {
-        console.error('Failed to load graph data:', err);
-        if (!cancelled) {
+        if (err.name !== 'AbortError') {
           setError(err instanceof Error ? err.message : '加载图谱数据失败');
           setLoading(false);
         }
-      });
+      })
+      .finally(() => clearTimeout(timeout));
 
     return () => {
-      cancelled = true;
+      clearTimeout(timeout);
+      controller.abort();
     };
   }, [retryCount]);
 

@@ -1,4 +1,4 @@
-import type { StylesheetCSS } from 'cytoscape';
+import type { Core, StylesheetCSS } from 'cytoscape';
 import type { GraphData, GraphNode, RelationType } from './types';
 import { NODE_COLORS, RELATION_STYLES } from './constants';
 
@@ -13,26 +13,36 @@ export const ZOOM_THRESHOLDS = {
   HIGH_MENTION_MIN: 5,
 };
 
-// Tuning params — adjust after data changes; these are starting points
-// ── fcose layout options ──
-export const FCOSE_LAYOUT_OPTIONS = {
-  name: 'fcose',
-  quality: 'default',
-  randomize: true,
-  animate: true,
-  animationDuration: 1000,
-  nodeSeparation: 180,
-  idealEdgeLength: (edge: { data: (key: string) => number }) =>
-    180 + (1 / ((edge.data('weight') as number) || 1)) * 80,
-  nodeRepulsion: (node: { data: (key: string) => number }) => {
-    const degree = node.data('degree') || 0;
-    return degree > 15 ? 25000 : degree > 8 ? 15000 : 10000;
-  },
-  gravity: 0.15,
-  gravityRange: 5.0,
-  numIter: 5000,
-  nodeDimensionsIncludeLabels: true,
-} as unknown as cytoscape.LayoutOptions;
+export type GraphTopologyMode = 'connected' | 'core' | 'all';
+
+export function nodeIsVisible(type: string, degree: number, filters: Record<string, boolean>, mode: GraphTopologyMode) {
+  return filters[type] !== false && degree >= (mode === 'core' ? 2 : mode === 'connected' ? 1 : 0);
+}
+
+export function applyVisibilityFilters(cy: Core, filters: Record<string, boolean>, mode: GraphTopologyMode) {
+  cy.batch(() => {
+    cy.nodes().forEach((node) => {
+      node.toggleClass('filtered-out', !nodeIsVisible(node.data('type'), node.degree(false), filters, mode));
+    });
+    cy.edges().forEach((edge) => {
+      edge.toggleClass('filtered-out', edge.source().hasClass('filtered-out') || edge.target().hasClass('filtered-out'));
+    });
+  });
+}
+
+export function updateLabelVisibility(cy: Core) {
+  const zoom = cy.zoom();
+  const tier = zoom < ZOOM_THRESHOLDS.SHOW_HIGH_DEGREE_LABELS ? 0 : zoom < ZOOM_THRESHOLDS.SHOW_ALL_LABELS ? 1 : 2;
+  if (cy.scratch('_labelTier') === tier) return;
+  cy.scratch('_labelTier', tier);
+  cy.batch(() => {
+    cy.nodes().forEach((node) => {
+      node.toggleClass('show-label', tier === 2 || (tier === 0
+        ? node.data('degree') > ZOOM_THRESHOLDS.HIGH_DEGREE_MIN
+        : node.data('mention_count') > ZOOM_THRESHOLDS.HIGH_MENTION_MIN));
+    });
+  });
+}
 
 // ── Pure functions ──
 
@@ -126,7 +136,7 @@ export function buildStylesheet(): StylesheetCSS[] {
       },
     },
     {
-      selector: 'node.filtered-out',
+      selector: '.filtered-out',
       style: { display: 'none' },
     },
 
@@ -171,6 +181,7 @@ export function buildStylesheet(): StylesheetCSS[] {
 
 export function buildElements(data: GraphData) {
   const nodes = data.nodes.map((n) => ({
+    position: { x: n.x ?? 0, y: n.y ?? 0 },
     data: {
       id: n.id,
       label: n.displayName || n.name,
