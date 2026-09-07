@@ -4,19 +4,21 @@
     "name": "阿里巴巴",
     "type": "company",
     "description": "开发了Happy Horse视频模型和Happy Oyster世界模型",
-    "mention_count": 91,
-    "article_count": 20,
+    "mention_count": 108,
+    "article_count": 21,
     "aliases": [
       "老辈子阿里",
       "阿里"
     ],
     "tags": [
       "AI整合",
+      "Agent",
       "云市场",
       "云服务提供商",
       "云栖大会",
       "云计算",
       "互联网大厂",
+      "办公",
       "匿名打榜",
       "国产大模型",
       "大厂",
@@ -32,8 +34,8 @@
       "视频生成",
       "阿里味"
     ],
-    "references": 20,
-    "source_article_count": 20,
+    "references": 21,
+    "source_article_count": 21,
     "source_articles": [
       {
         "article_id": "112",
@@ -43,6 +45,15 @@
         "permalink": "/articles/112",
         "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
         "mention_count": 34
+      },
+      {
+        "article_id": "144",
+        "title": "客观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-06",
+        "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/144",
+        "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 17
       },
       {
         "article_id": "055",
@@ -217,7 +228,7 @@
       }
     ],
     "degree": 42,
-    "composite_weight": 0.4576
+    "composite_weight": 0.4997
   },
   "links": [
     {
@@ -291,15 +302,26 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "两家公司被对比谁是中国最伟大的AI公司",
-      "weight": 2,
+      "weight": 3,
       "strength": 3,
-      "effective_weight": 8,
-      "article_count": 2,
+      "effective_weight": 12,
+      "article_count": 3,
       "evidence_articles": [
         "065",
-        "086"
+        "086",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "在Agent大战中争夺AI入口和市场身位",
+          "weight": 1
+        },
         {
           "article_id": "086",
           "title": "世界模型是梦核军备竞赛",
@@ -432,16 +454,27 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "阿里、腾讯、谷歌、AWS在云端Agent市场展开百厂大战全线突围",
-      "weight": 3,
+      "weight": 4,
       "strength": 3,
-      "effective_weight": 12,
-      "article_count": 3,
+      "effective_weight": 16,
+      "article_count": 4,
       "evidence_articles": [
         "071",
         "086",
-        "102"
+        "102",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "在Agent大战中争夺AI入口和市场身位",
+          "weight": 1
+        },
         {
           "article_id": "102",
           "title": "腾讯做了一堆情感陪伴Agent",
@@ -699,15 +732,26 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "阿里重点押注Qoder",
-      "weight": 2,
+      "weight": 3,
       "strength": 4,
-      "effective_weight": 10,
-      "article_count": 2,
+      "effective_weight": 15,
+      "article_count": 3,
       "evidence_articles": [
         "103",
-        "129"
+        "129",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "阿里巴巴开发Qoder，目前与千问办公并行发展",
+          "weight": 1
+        },
         {
           "article_id": "129",
           "title": "Qwen 3.8升级纯血力工模型",
@@ -886,14 +930,25 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "千问办公是阿里旗下的办公产品",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "129"
+        "129",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "阿里巴巴开发千问办公作为Agent主力产品",
+          "weight": 1
+        },
         {
           "article_id": "129",
           "title": "Qwen 3.8升级纯血力工模型",
@@ -1245,7 +1300,7 @@
     {
       "source": "豆包",
       "target": "阿里巴巴",
-      "score": 0.8001,
+      "score": 0.7998,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1275,7 +1330,7 @@
     {
       "source": "claude",
       "target": "阿里巴巴",
-      "score": 0.6932,
+      "score": 0.6855,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1287,22 +1342,23 @@
       "status": "suggested"
     },
     {
-      "source": "lovart",
+      "source": "workbuddy",
       "target": "阿里巴巴",
-      "score": 0.474,
+      "score": 0.4961,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
-        "049",
-        "055",
-        "085"
+        "102",
+        "125",
+        "128",
+        "144"
       ],
       "status": "suggested"
     },
     {
-      "source": "阿里巴巴",
-      "target": "陈冕",
-      "score": 0.466,
+      "source": "lovart",
+      "target": "阿里巴巴",
+      "score": 0.4736,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [

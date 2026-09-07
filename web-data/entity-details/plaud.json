@@ -4,8 +4,8 @@
     "name": "Plaud",
     "type": "product",
     "description": "主打海外市场的AI硬件录音卡公司，近期宣布进入中国内地市场",
-    "mention_count": 76,
-    "article_count": 7,
+    "mention_count": 78,
+    "article_count": 8,
     "aliases": [
       "Plaud录音卡片"
     ],
@@ -18,8 +18,8 @@
       "硬件公司",
       "语音输入"
     ],
-    "references": 7,
-    "source_article_count": 7,
+    "references": 8,
+    "source_article_count": 8,
     "source_articles": [
       {
         "article_id": "044",
@@ -47,6 +47,15 @@
         "permalink": "/articles/042",
         "markdown_link": "articles/042_2025-12-16_沐秋_Looki开创AI胸载摄像头.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "144",
+        "title": "客观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-06",
+        "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/144",
+        "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 2
       },
       {
         "article_id": "108",
@@ -85,10 +94,36 @@
         "mention_count": 1
       }
     ],
-    "degree": 19,
-    "composite_weight": 0.1712
+    "degree": 20,
+    "composite_weight": 0.1877
   },
   "links": [
+    {
+      "source": "腾讯",
+      "target": "plaud",
+      "relation_type": "acquires",
+      "type": "acquires",
+      "label": "作者脑洞设想：腾讯收购Plaud",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "作者脑洞设想：腾讯收购Plaud",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "minimax",
       "target": "plaud",
@@ -525,6 +560,17 @@
         "033",
         "044",
         "045"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "plaud",
+      "target": "阿里巴巴",
+      "score": 0.3909,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "144"
       ],
       "status": "suggested"
     }

@@ -4,19 +4,31 @@
     "name": "Qoder",
     "type": "product",
     "description": "文中建议用于构建bench场景的主力Harness工具",
-    "mention_count": 9,
-    "article_count": 7,
-    "aliases": [],
+    "mention_count": 17,
+    "article_count": 8,
+    "aliases": [
+      "QoderWork"
+    ],
     "tags": [
       "AI工具",
+      "Agent",
       "国产AI",
       "开发工具",
       "编程Agent",
       "编程工具"
     ],
-    "references": 7,
-    "source_article_count": 7,
+    "references": 8,
+    "source_article_count": 8,
     "source_articles": [
+      {
+        "article_id": "144",
+        "title": "客观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-06",
+        "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/144",
+        "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 8
+      },
       {
         "article_id": "103",
         "title": "Kimi看天讨饭吃",
@@ -81,8 +93,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 8,
-    "composite_weight": 0.0949
+    "degree": 10,
+    "composite_weight": 0.1306
   },
   "links": [
     {
@@ -201,6 +213,32 @@
       ]
     },
     {
+      "source": "qoder",
+      "target": "千问办公",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "阿里内部两款Agent产品功能重叠，存在内部竞争与分流",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "阿里内部两款Agent产品功能重叠，存在内部竞争与分流",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "trae",
       "target": "qoder",
       "relation_type": "competes_with",
@@ -214,20 +252,44 @@
       "evidences": []
     },
     {
+      "source": "千问办公",
+      "target": "qoder",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "阿里内部两款Agent产品功能重叠，存在内部竞争与分流",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "阿里巴巴",
       "target": "qoder",
       "relation_type": "develops",
       "type": "develops",
       "label": "阿里重点押注Qoder",
-      "weight": 2,
+      "weight": 3,
       "strength": 4,
-      "effective_weight": 10,
-      "article_count": 2,
+      "effective_weight": 15,
+      "article_count": 3,
       "evidence_articles": [
         "103",
-        "129"
+        "129",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "阿里巴巴开发Qoder，目前与千问办公并行发展",
+          "weight": 1
+        },
         {
           "article_id": "129",
           "title": "Qwen 3.8升级纯血力工模型",
@@ -295,6 +357,18 @@
     },
     {
       "source": "qoder",
+      "target": "workbuddy",
+      "score": 0.4567,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "128",
+        "144"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "qoder",
       "target": "qwen",
       "score": 0.433,
       "suggested_relation_type": "compares_to",
@@ -303,18 +377,6 @@
         "027",
         "029",
         "103",
-        "133"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "qoder",
-      "target": "千问办公",
-      "score": 0.3844,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "129",
         "133"
       ],
       "status": "suggested"

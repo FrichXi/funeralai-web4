@@ -95,7 +95,7 @@
       }
     ],
     "degree": 13,
-    "composite_weight": 0.146
+    "composite_weight": 0.1441
   },
   "links": [
     {
@@ -387,6 +387,19 @@
   ],
   "suggested_edges": [
     {
+      "source": "deepseek",
+      "target": "小米",
+      "score": 0.4861,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "109",
+        "131",
+        "137"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "minimax",
       "target": "小米",
       "score": 0.4838,
@@ -401,15 +414,15 @@
       "status": "suggested"
     },
     {
-      "source": "deepseek",
+      "source": "kimi",
       "target": "小米",
-      "score": 0.4361,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "score": 0.4561,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
-        "109",
-        "131",
-        "137"
+        "040",
+        "057",
+        "109"
       ],
       "status": "suggested"
     },
@@ -425,19 +438,6 @@
         "097",
         "123",
         "128"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "kimi",
-      "target": "小米",
-      "score": 0.4061,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
-      "evidence_article_ids": [
-        "040",
-        "057",
-        "109"
       ],
       "status": "suggested"
     },

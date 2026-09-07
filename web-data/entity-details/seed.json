@@ -4,8 +4,8 @@
     "name": "Seed",
     "type": "product",
     "description": "字节跳动的基础大模型系列，文中评价其基模能力弱于产品表现",
-    "mention_count": 82,
-    "article_count": 4,
+    "mention_count": 85,
+    "article_count": 5,
     "aliases": [
       "Doubao-Seed-2.0-pro",
       "Doubao-Seed-2.1-pro",
@@ -23,8 +23,8 @@
       "编程能力",
       "长程任务"
     ],
-    "references": 4,
-    "source_article_count": 4,
+    "references": 5,
+    "source_article_count": 5,
     "source_articles": [
       {
         "article_id": "110",
@@ -61,10 +61,19 @@
         "permalink": "/articles/112",
         "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
         "mention_count": 6
+      },
+      {
+        "article_id": "144",
+        "title": "客观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-06",
+        "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/144",
+        "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 3
       }
     ],
     "degree": 26,
-    "composite_weight": 0.2844
+    "composite_weight": 0.2973
   },
   "links": [
     {
@@ -461,17 +470,28 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节跳动开发了Seed基础模型",
-      "weight": 4,
+      "weight": 5,
       "strength": 4,
-      "effective_weight": 20,
-      "article_count": 4,
+      "effective_weight": 25,
+      "article_count": 5,
       "evidence_articles": [
         "065",
         "110",
         "111",
-        "112"
+        "112",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "Seed是字节跳动自研模型，供豆包工作使用",
+          "weight": 1
+        },
         {
           "article_id": "112",
           "title": "老天保佑Qwen救救阿里巴巴",
@@ -721,6 +741,19 @@
       "suggested_relation_type": "compares_to",
       "reason": "共享 7 个邻居",
       "evidence_article_ids": [],
+      "status": "suggested"
+    },
+    {
+      "source": "seed",
+      "target": "阿里巴巴",
+      "score": 0.395,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "065",
+        "112",
+        "144"
+      ],
       "status": "suggested"
     }
   ]

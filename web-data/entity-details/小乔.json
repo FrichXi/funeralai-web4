@@ -1,0 +1,60 @@
+{
+  "node": {
+    "id": "小乔",
+    "name": "小乔",
+    "type": "person",
+    "description": "Coze产品负责人",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [
+      "Coze老大"
+    ],
+    "tags": [
+      "产品负责人"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "144",
+        "title": "客观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-06",
+        "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/144",
+        "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0174
+  },
+  "links": [
+    {
+      "source": "小乔",
+      "target": "扣子",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "小乔是Coze的产品负责人",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "小乔是Coze的产品负责人",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

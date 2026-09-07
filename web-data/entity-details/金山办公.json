@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "金山办公",
+    "name": "金山办公",
+    "type": "company",
+    "description": "办公软件厂商，推出灵犀Agent，拥有2G市场优势",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [
+      "金山"
+    ],
+    "tags": [
+      "Agent",
+      "办公"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "144",
+        "title": "客观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-06",
+        "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/144",
+        "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0174
+  },
+  "links": [
+    {
+      "source": "金山办公",
+      "target": "灵犀agent",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "金山办公开发灵犀Agent用于公文处理等场景",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "金山办公开发灵犀Agent用于公文处理等场景",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

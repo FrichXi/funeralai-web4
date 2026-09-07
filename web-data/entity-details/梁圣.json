@@ -47,7 +47,7 @@
       }
     ],
     "degree": 6,
-    "composite_weight": 0.0616
+    "composite_weight": 0.0608
   },
   "links": [
     {
@@ -196,25 +196,13 @@
     {
       "source": "qwen",
       "target": "梁圣",
-      "score": 0.4561,
+      "score": 0.4061,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "105",
         "110",
         "133"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "claude",
-      "target": "梁圣",
-      "score": 0.3861,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "105",
-        "110"
       ],
       "status": "suggested"
     }

@@ -4,23 +4,25 @@
     "name": "腾讯",
     "type": "company",
     "description": "中国知名科技互联网公司，在文中开发了多款Agent及其他软件产品",
-    "mention_count": 49,
-    "article_count": 12,
+    "mention_count": 68,
+    "article_count": 13,
     "aliases": [
       "Tencent"
     ],
     "tags": [
       "AI公司",
+      "Agent",
       "互联网",
       "互联网大厂",
       "互联网巨头",
+      "办公",
       "大厂",
       "科技公司",
       "科技大厂",
       "资方"
     ],
-    "references": 12,
-    "source_article_count": 12,
+    "references": 13,
+    "source_article_count": 13,
     "source_articles": [
       {
         "article_id": "102",
@@ -30,6 +32,15 @@
         "permalink": "/articles/102",
         "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
         "mention_count": 21
+      },
+      {
+        "article_id": "144",
+        "title": "客观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-06",
+        "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/144",
+        "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 19
       },
       {
         "article_id": "055",
@@ -131,10 +142,62 @@
         "mention_count": 1
       }
     ],
-    "degree": 28,
-    "composite_weight": 0.2774
+    "degree": 30,
+    "composite_weight": 0.338
   },
   "links": [
+    {
+      "source": "腾讯",
+      "target": "manus",
+      "relation_type": "acquires",
+      "type": "acquires",
+      "label": "作者脑洞设想：腾讯收购Manus",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "作者脑洞设想：腾讯收购Manus",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "腾讯",
+      "target": "plaud",
+      "relation_type": "acquires",
+      "type": "acquires",
+      "label": "作者脑洞设想：腾讯收购Plaud",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "作者脑洞设想：腾讯收购Plaud",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "百度",
       "target": "腾讯",
@@ -180,15 +243,26 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "同属互联网巨头，未来大概率在AI领域有直接竞争。",
-      "weight": 2,
+      "weight": 3,
       "strength": 3,
-      "effective_weight": 8,
-      "article_count": 2,
+      "effective_weight": 12,
+      "article_count": 3,
       "evidence_articles": [
         "018",
-        "102"
+        "102",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "在Agent大战中争夺AI入口和市场身位",
+          "weight": 1
+        },
         {
           "article_id": "102",
           "title": "腾讯做了一堆情感陪伴Agent",
@@ -230,16 +304,27 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "阿里、腾讯、谷歌、AWS在云端Agent市场展开百厂大战全线突围",
-      "weight": 3,
+      "weight": 4,
       "strength": 3,
-      "effective_weight": 12,
-      "article_count": 3,
+      "effective_weight": 16,
+      "article_count": 4,
       "evidence_articles": [
         "071",
         "086",
-        "102"
+        "102",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "在Agent大战中争夺AI入口和市场身位",
+          "weight": 1
+        },
         {
           "article_id": "102",
           "title": "腾讯做了一堆情感陪伴Agent",
@@ -406,15 +491,26 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "腾讯正在猛推WorkBuddy",
-      "weight": 2,
+      "weight": 3,
       "strength": 4,
-      "effective_weight": 10,
-      "article_count": 2,
+      "effective_weight": 15,
+      "article_count": 3,
       "evidence_articles": [
         "102",
-        "111"
+        "111",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "腾讯开发WorkBuddy作为办公Agent产品",
+          "weight": 1
+        },
         {
           "article_id": "111",
           "title": "用豆包办公得坐小孩那桌",
@@ -907,13 +1003,14 @@
     {
       "source": "扣子",
       "target": "腾讯",
-      "score": 0.4829,
+      "score": 0.5526,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "018",
         "071",
-        "102"
+        "102",
+        "144"
       ],
       "status": "suggested"
     },

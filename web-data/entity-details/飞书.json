@@ -4,8 +4,8 @@
     "name": "飞书",
     "type": "product",
     "description": "办公协作平台，支持通过插件将文档和会议内容导入Creative OS",
-    "mention_count": 50,
-    "article_count": 12,
+    "mention_count": 54,
+    "article_count": 13,
     "aliases": [],
     "tags": [
       "GUI",
@@ -16,14 +16,15 @@
       "办公平台",
       "办公生态",
       "办公软件",
+      "协同办公",
       "协同工具",
       "多维表格",
       "数据源",
       "聊天框",
       "聊天软件"
     ],
-    "references": 12,
-    "source_article_count": 12,
+    "references": 13,
+    "source_article_count": 13,
     "source_articles": [
       {
         "article_id": "070",
@@ -60,6 +61,15 @@
         "permalink": "/articles/082",
         "markdown_link": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
         "mention_count": 5
+      },
+      {
+        "article_id": "144",
+        "title": "客观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-06",
+        "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/144",
+        "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 4
       },
       {
         "article_id": "097",
@@ -134,8 +144,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 19,
-    "composite_weight": 0.23
+    "degree": 20,
+    "composite_weight": 0.2497
   },
   "links": [
     {
@@ -417,16 +427,27 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "文章提到飞书属于字节生态",
-      "weight": 3,
+      "weight": 4,
       "strength": 4,
-      "effective_weight": 15,
-      "article_count": 3,
+      "effective_weight": 20,
+      "article_count": 4,
       "evidence_articles": [
         "082",
         "088",
-        "102"
+        "102",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "飞书是字节跳动旗下产品，现作为豆包工作的基建",
+          "weight": 1
+        },
         {
           "article_id": "102",
           "title": "腾讯做了一堆情感陪伴Agent",
@@ -573,13 +594,39 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "豆包工作",
+      "target": "飞书",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "豆包工作客户端与飞书打通，可在飞书中调用",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "豆包工作客户端与飞书打通，可在飞书中调用",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "claude",
       "target": "飞书",
-      "score": 0.7863,
+      "score": 0.785,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 6 个邻居",
       "evidence_article_ids": [

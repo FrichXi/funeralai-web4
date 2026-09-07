@@ -1,0 +1,98 @@
+{
+  "node": {
+    "id": "灵犀agent",
+    "name": "灵犀Agent",
+    "type": "product",
+    "description": "金山办公推出的Agent产品，擅长公文写作",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Agent",
+      "办公"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "144",
+        "title": "客观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-06",
+        "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/144",
+        "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0269
+  },
+  "links": [
+    {
+      "source": "灵犀agent",
+      "target": "豆包工作",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "大厂Agent与垂直领域办公Agent的竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "大厂Agent与垂直领域办公Agent的竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包工作",
+      "target": "灵犀agent",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "大厂Agent与垂直领域办公Agent的竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "金山办公",
+      "target": "灵犀agent",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "金山办公开发灵犀Agent用于公文处理等场景",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "金山办公开发灵犀Agent用于公文处理等场景",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

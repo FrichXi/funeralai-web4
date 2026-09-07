@@ -4,8 +4,8 @@
     "name": "扣子",
     "type": "product",
     "description": "支持创建Agent、定时任务、云电脑及内置邮箱的AI构建平台",
-    "mention_count": 68,
-    "article_count": 7,
+    "mention_count": 72,
+    "article_count": 8,
     "aliases": [
       "Coze",
       "Coze 2.5",
@@ -26,8 +26,8 @@
       "定时任务",
       "工作流"
     ],
-    "references": 7,
-    "source_article_count": 7,
+    "references": 8,
+    "source_article_count": 8,
     "source_articles": [
       {
         "article_id": "017",
@@ -46,6 +46,15 @@
         "permalink": "/articles/082",
         "markdown_link": "articles/082_2026-04-20_葬爱咸鱼_Coze 2.5让Agent成群结队.md",
         "mention_count": 25
+      },
+      {
+        "article_id": "144",
+        "title": "客观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-06",
+        "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/144",
+        "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 4
       },
       {
         "article_id": "018",
@@ -93,8 +102,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 21,
-    "composite_weight": 0.2024
+    "degree": 22,
+    "composite_weight": 0.2234
   },
   "links": [
     {
@@ -426,18 +435,29 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "扣子是字节跳动为探索AI应用落地而开发的平台。",
-      "weight": 5,
+      "weight": 6,
       "strength": 4,
-      "effective_weight": 25,
-      "article_count": 5,
+      "effective_weight": 30,
+      "article_count": 6,
       "evidence_articles": [
         "017",
         "018",
         "082",
         "088",
-        "102"
+        "102",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "Coze是字节跳动旗下产品，已划归豆包体系",
+          "weight": 1
+        },
         {
           "article_id": "102",
           "title": "腾讯做了一堆情感陪伴Agent",
@@ -593,19 +613,46 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "小乔",
+      "target": "扣子",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "小乔是Coze的产品负责人",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "小乔是Coze的产品负责人",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "扣子",
       "target": "腾讯",
-      "score": 0.4829,
+      "score": 0.5526,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "018",
         "071",
-        "102"
+        "102",
+        "144"
       ],
       "status": "suggested"
     },
@@ -623,7 +670,7 @@
     {
       "source": "openclaw",
       "target": "扣子",
-      "score": 0.4357,
+      "score": 0.4342,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -634,25 +681,25 @@
     },
     {
       "source": "扣子",
-      "target": "火山引擎",
-      "score": 0.4356,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "017",
-        "071"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "扣子",
       "target": "豆包",
-      "score": 0.4154,
+      "score": 0.4136,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "071",
         "088"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "codex",
+      "target": "扣子",
+      "score": 0.3967,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "088",
+        "102"
       ],
       "status": "suggested"
     }

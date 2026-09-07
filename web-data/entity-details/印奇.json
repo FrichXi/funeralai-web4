@@ -47,7 +47,7 @@
       }
     ],
     "degree": 12,
-    "composite_weight": 0.0997
+    "composite_weight": 0.0992
   },
   "links": [
     {
@@ -324,5 +324,17 @@
       ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "kimi",
+      "target": "印奇",
+      "score": 0.4304,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "057"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

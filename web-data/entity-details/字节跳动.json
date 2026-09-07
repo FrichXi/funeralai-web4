@@ -4,8 +4,8 @@
     "name": "字节跳动",
     "type": "company",
     "description": "中国互联网科技公司，开发了抖音、即梦等产品，文中探讨了其通过AI视频模型实现社交的布局。",
-    "mention_count": 143,
-    "article_count": 34,
+    "mention_count": 161,
+    "article_count": 35,
     "aliases": [
       "ByteDance",
       "大厂",
@@ -24,12 +24,14 @@
       "AI战略",
       "AI社交",
       "AI视频生成",
+      "Agent",
       "LP",
       "云计算",
       "互联网公司",
       "互联网大厂",
       "互联网巨头",
       "元宇宙",
+      "办公",
       "基础设施",
       "大厂",
       "大模型",
@@ -45,8 +47,8 @@
       "视频生成",
       "语音模型"
     ],
-    "references": 34,
-    "source_article_count": 34,
+    "references": 35,
+    "source_article_count": 35,
     "source_articles": [
       {
         "article_id": "040",
@@ -56,6 +58,15 @@
         "permalink": "/articles/040",
         "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
         "mention_count": 32
+      },
+      {
+        "article_id": "144",
+        "title": "客观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-06",
+        "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/144",
+        "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 18
       },
       {
         "article_id": "106",
@@ -355,8 +366,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 55,
-    "composite_weight": 0.648
+    "degree": 57,
+    "composite_weight": 0.7014
   },
   "links": [
     {
@@ -651,15 +662,26 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "同属互联网巨头，未来大概率在AI领域有直接竞争。",
-      "weight": 2,
+      "weight": 3,
       "strength": 3,
-      "effective_weight": 8,
-      "article_count": 2,
+      "effective_weight": 12,
+      "article_count": 3,
       "evidence_articles": [
         "018",
-        "102"
+        "102",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "在Agent大战中争夺AI入口和市场身位",
+          "weight": 1
+        },
         {
           "article_id": "102",
           "title": "腾讯做了一堆情感陪伴Agent",
@@ -688,15 +710,26 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "两家公司被对比谁是中国最伟大的AI公司",
-      "weight": 2,
+      "weight": 3,
       "strength": 3,
-      "effective_weight": 8,
-      "article_count": 2,
+      "effective_weight": 12,
+      "article_count": 3,
       "evidence_articles": [
         "065",
-        "086"
+        "086",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "在Agent大战中争夺AI入口和市场身位",
+          "weight": 1
+        },
         {
           "article_id": "086",
           "title": "世界模型是梦核军备竞赛",
@@ -816,17 +849,28 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节跳动开发了Seed基础模型",
-      "weight": 4,
+      "weight": 5,
       "strength": 4,
-      "effective_weight": 20,
-      "article_count": 4,
+      "effective_weight": 25,
+      "article_count": 5,
       "evidence_articles": [
         "065",
         "110",
         "111",
-        "112"
+        "112",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "Seed是字节跳动自研模型，供豆包工作使用",
+          "weight": 1
+        },
         {
           "article_id": "112",
           "title": "老天保佑Qwen救救阿里巴巴",
@@ -1034,15 +1078,26 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节大力投入Trae",
-      "weight": 2,
+      "weight": 3,
       "strength": 4,
-      "effective_weight": 10,
-      "article_count": 2,
+      "effective_weight": 15,
+      "article_count": 3,
       "evidence_articles": [
         "103",
-        "111"
+        "111",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "Trae是字节跳动旗下产品，已划归豆包体系",
+          "weight": 1
+        },
         {
           "article_id": "111",
           "title": "用豆包办公得坐小孩那桌",
@@ -1311,18 +1366,29 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "扣子是字节跳动为探索AI应用落地而开发的平台。",
-      "weight": 5,
+      "weight": 6,
       "strength": 4,
-      "effective_weight": 25,
-      "article_count": 5,
+      "effective_weight": 30,
+      "article_count": 6,
       "evidence_articles": [
         "017",
         "018",
         "082",
         "088",
-        "102"
+        "102",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "Coze是字节跳动旗下产品，已划归豆包体系",
+          "weight": 1
+        },
         {
           "article_id": "102",
           "title": "腾讯做了一堆情感陪伴Agent",
@@ -1648,6 +1714,32 @@
     },
     {
       "source": "字节跳动",
+      "target": "豆包工作",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "字节跳动开发并主推豆包工作作为办公Agent入口",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "字节跳动开发并主推豆包工作作为办公Agent入口",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "字节跳动",
       "target": "豆包手机",
       "relation_type": "develops",
       "type": "develops",
@@ -1665,16 +1757,27 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "文章提到飞书属于字节生态",
-      "weight": 3,
+      "weight": 4,
       "strength": 4,
-      "effective_weight": 15,
-      "article_count": 3,
+      "effective_weight": 20,
+      "article_count": 4,
       "evidence_articles": [
         "082",
         "088",
-        "102"
+        "102",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "飞书是字节跳动旗下产品，现作为豆包工作的基建",
+          "weight": 1
+        },
         {
           "article_id": "102",
           "title": "腾讯做了一堆情感陪伴Agent",
@@ -2005,6 +2108,32 @@
       ]
     },
     {
+      "source": "梁汝波",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "梁汝波（一鸣）是字节跳动CEO，主导了Agent战略调整",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "梁汝波（一鸣）是字节跳动CEO，主导了Agent战略调整",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "王学智",
       "target": "字节跳动",
       "relation_type": "works_at",
@@ -2157,9 +2286,9 @@
     {
       "source": "flova",
       "target": "字节跳动",
-      "score": 0.9594,
+      "score": 0.9094,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 7 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 7 个邻居",
       "evidence_article_ids": [
         "052",
         "065",
@@ -2172,9 +2301,9 @@
     {
       "source": "manus",
       "target": "字节跳动",
-      "score": 0.8209,
+      "score": 0.8177,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 7 篇文章；共享 6 个邻居",
+      "reason": "共同出现于 8 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "017",
         "018",
@@ -2185,24 +2314,9 @@
       "status": "suggested"
     },
     {
-      "source": "oiioii",
-      "target": "字节跳动",
-      "score": 0.7341,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 7 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "046",
-        "052",
-        "062",
-        "065",
-        "078"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "claude",
       "target": "字节跳动",
-      "score": 0.714,
+      "score": 0.7127,
       "suggested_relation_type": "related",
       "reason": "共同出现于 8 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -2226,6 +2340,21 @@
         "085",
         "110",
         "112"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "oiioii",
+      "target": "字节跳动",
+      "score": 0.6837,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 7 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "046",
+        "052",
+        "062",
+        "065",
+        "078"
       ],
       "status": "suggested"
     }

@@ -285,7 +285,7 @@
       }
     ],
     "degree": 51,
-    "composite_weight": 0.5902
+    "composite_weight": 0.584
   },
   "links": [
     {
@@ -1412,9 +1412,9 @@
     {
       "source": "codex",
       "target": "deepseek",
-      "score": 0.6647,
+      "score": 0.6147,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "088",
         "103",
@@ -1426,10 +1426,25 @@
     },
     {
       "source": "deepseek",
-      "target": "gemini",
-      "score": 0.5782,
+      "target": "杨植麟",
+      "score": 0.5298,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 6 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "004",
+        "049",
+        "103",
+        "109",
+        "122"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "deepseek",
+      "target": "gemini",
+      "score": 0.5282,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "004",
         "110"
@@ -1439,24 +1454,13 @@
     {
       "source": "deepseek",
       "target": "glm",
-      "score": 0.5772,
+      "score": 0.5272,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "049",
         "105",
         "109",
-        "110"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "deepseek",
-      "target": "seed",
-      "score": 0.5217,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 1 篇文章；共享 6 个邻居",
-      "evidence_article_ids": [
         "110"
       ],
       "status": "suggested"

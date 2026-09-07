@@ -85,7 +85,7 @@
       }
     ],
     "degree": 21,
-    "composite_weight": 0.2114
+    "composite_weight": 0.2099
   },
   "links": [
     {
@@ -531,15 +531,26 @@
     {
       "source": "minimax",
       "target": "可灵",
-      "score": 0.5694,
+      "score": 0.5194,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "004",
         "012",
         "116",
         "117",
         "141"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "可灵",
+      "target": "字节跳动",
+      "score": 0.4002,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "104"
       ],
       "status": "suggested"
     },
@@ -558,6 +569,17 @@
       "status": "suggested"
     },
     {
+      "source": "sora",
+      "target": "可灵",
+      "score": 0.3896,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "104"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "veo",
       "target": "可灵",
       "score": 0.3885,
@@ -565,19 +587,6 @@
       "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "012"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "libtv",
-      "target": "可灵",
-      "score": 0.3854,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
-      "evidence_article_ids": [
-        "116",
-        "117",
-        "141"
       ],
       "status": "suggested"
     }

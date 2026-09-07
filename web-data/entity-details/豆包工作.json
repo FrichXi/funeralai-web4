@@ -1,0 +1,204 @@
+{
+  "node": {
+    "id": "豆包工作",
+    "name": "豆包工作",
+    "type": "product",
+    "description": "字节跳动推出的办公Agent产品，整合了飞书等基建",
+    "mention_count": 22,
+    "article_count": 1,
+    "aliases": [
+      "豆姐"
+    ],
+    "tags": [
+      "Agent",
+      "办公"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "144",
+        "title": "客观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-06",
+        "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/144",
+        "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 22
+      }
+    ],
+    "degree": 8,
+    "composite_weight": 0.1048
+  },
+  "links": [
+    {
+      "source": "workbuddy",
+      "target": "豆包工作",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为大厂核心办公Agent产品，存在直接竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "两者均为大厂核心办公Agent产品，存在直接竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "千问办公",
+      "target": "豆包工作",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为大厂核心办公Agent产品，存在直接竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "两者均为大厂核心办公Agent产品，存在直接竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "灵犀agent",
+      "target": "豆包工作",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "大厂Agent与垂直领域办公Agent的竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "大厂Agent与垂直领域办公Agent的竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包工作",
+      "target": "workbuddy",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为大厂核心办公Agent产品，存在直接竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "豆包工作",
+      "target": "千问办公",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为大厂核心办公Agent产品，存在直接竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "豆包工作",
+      "target": "灵犀agent",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "大厂Agent与垂直领域办公Agent的竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "字节跳动",
+      "target": "豆包工作",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "字节跳动开发并主推豆包工作作为办公Agent入口",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "字节跳动开发并主推豆包工作作为办公Agent入口",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包工作",
+      "target": "飞书",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "豆包工作客户端与飞书打通，可在飞书中调用",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "豆包工作客户端与飞书打通，可在飞书中调用",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

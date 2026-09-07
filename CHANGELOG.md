@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+- Content update through 144: 143 articles; latest: 客观评价字节阿里腾讯之Agent大战.
+
 ### Fixed — 2026-09-06
 - Graph startup now preloads the existing lightweight shell and renders precomputed coordinates; entity details load on selection with cancellation, timeout and retry. Removed browser-side force layout and its dependency.
 - Zoom labels update only when crossing one of three tiers; filtering/highlighting batch style changes, viewport movement skips edge rendering, and canvas resolution is capped for high-density screens. Deep links can reveal filtered nodes.

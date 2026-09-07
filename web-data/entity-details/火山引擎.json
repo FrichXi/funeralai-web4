@@ -85,7 +85,7 @@
       }
     ],
     "degree": 13,
-    "composite_weight": 0.1226
+    "composite_weight": 0.1214
   },
   "links": [
     {
@@ -390,9 +390,9 @@
     {
       "source": "火山引擎",
       "target": "豆包",
-      "score": 0.5925,
+      "score": 0.5422,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "040",
         "057",
@@ -403,14 +403,14 @@
       "status": "suggested"
     },
     {
-      "source": "扣子",
-      "target": "火山引擎",
-      "score": 0.4356,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "source": "火山引擎",
+      "target": "腾讯",
+      "score": 0.4578,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
-        "017",
-        "071"
+        "071",
+        "106"
       ],
       "status": "suggested"
     },
@@ -429,14 +429,14 @@
       "status": "suggested"
     },
     {
-      "source": "火山引擎",
-      "target": "腾讯",
-      "score": 0.4081,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居",
+      "source": "扣子",
+      "target": "火山引擎",
+      "score": 0.3853,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
-        "071",
-        "106"
+        "017",
+        "071"
       ],
       "status": "suggested"
     }

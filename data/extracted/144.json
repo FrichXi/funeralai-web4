@@ -1,0 +1,501 @@
+{
+  "article": {
+    "id": "144",
+    "title": "客观评价字节阿里腾讯之Agent大战",
+    "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+    "date": "2026-09-06",
+    "author": "葬爱咸鱼",
+    "content_hash": "e432e2d719e4b902d48ea1c60825de3226736c72fc71e049bd8192bee381c683"
+  },
+  "entities": [
+    {
+      "id": "豆包工作",
+      "name": "豆包工作",
+      "type": "product",
+      "description": "字节跳动推出的办公Agent产品，整合了飞书等基建",
+      "mention_count": 22,
+      "aliases": [
+        "豆姐"
+      ],
+      "tags": [
+        "Agent",
+        "办公"
+      ]
+    },
+    {
+      "id": "千问办公",
+      "name": "千问办公",
+      "type": "product",
+      "description": "阿里巴巴推出的办公Agent产品，面临内部竞品分流",
+      "mention_count": 16,
+      "aliases": [],
+      "tags": [
+        "Agent",
+        "办公"
+      ]
+    },
+    {
+      "id": "腾讯",
+      "name": "腾讯",
+      "type": "company",
+      "description": "互联网大厂，Agent大战主要选手之一，内部卡位逻辑明显",
+      "mention_count": 14,
+      "aliases": [],
+      "tags": [
+        "Agent",
+        "办公"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "互联网大厂，Agent大战主要选手之一，组织效率高",
+      "mention_count": 13,
+      "aliases": [
+        "字节"
+      ],
+      "tags": [
+        "Agent",
+        "办公"
+      ]
+    },
+    {
+      "id": "阿里巴巴",
+      "name": "阿里巴巴",
+      "type": "company",
+      "description": "互联网大厂，Agent大战主要选手之一，面临内部产品整合问题",
+      "mention_count": 12,
+      "aliases": [
+        "阿里"
+      ],
+      "tags": [
+        "Agent",
+        "办公"
+      ]
+    },
+    {
+      "id": "qoder",
+      "name": "Qoder",
+      "type": "product",
+      "description": "阿里旗下独立发展的Agent产品，与千问办公功能重叠",
+      "mention_count": 8,
+      "aliases": [
+        "QoderWork"
+      ],
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "id": "workbuddy",
+      "name": "WorkBuddy",
+      "type": "product",
+      "description": "腾讯推出的办公Agent产品，插件复杂但模型切换灵活",
+      "mention_count": 8,
+      "aliases": [],
+      "tags": [
+        "Agent",
+        "办公"
+      ]
+    },
+    {
+      "id": "trae",
+      "name": "Trae",
+      "type": "product",
+      "description": "字节跳动旗下AI IDE产品，已划归豆包体系",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "AI编程"
+      ]
+    },
+    {
+      "id": "扣子",
+      "name": "扣子",
+      "type": "product",
+      "description": "字节跳动旗下Bot开发平台，已划归豆包体系",
+      "mention_count": 4,
+      "aliases": [
+        "Coze"
+      ],
+      "tags": [
+        "Agent平台"
+      ]
+    },
+    {
+      "id": "梁汝波",
+      "name": "梁汝波",
+      "type": "person",
+      "description": "字节跳动CEO，决策将飞书、Trae、Coze划归豆包体系",
+      "mention_count": 4,
+      "aliases": [
+        "一鸣",
+        "老板"
+      ],
+      "tags": [
+        "高管"
+      ]
+    },
+    {
+      "id": "百度",
+      "name": "百度",
+      "type": "company",
+      "description": "互联网大厂，在Agent竞争中被评价为落后",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "id": "飞书",
+      "name": "飞书",
+      "type": "product",
+      "description": "字节跳动协作平台，已作为基建接入豆包工作",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "协同办公"
+      ]
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "type": "product",
+      "description": "通用Agent赛道开创者，被讨论可能回归国内市场或被收购",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "id": "seed",
+      "name": "Seed",
+      "type": "product",
+      "description": "字节跳动自研大模型系列，被评价能力尚需提升",
+      "mention_count": 3,
+      "aliases": [
+        "Seed模型"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "plaud",
+      "name": "Plaud",
+      "type": "product",
+      "description": "AI硬件公司，文中建议腾讯将其与Manus一同收购",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI硬件"
+      ]
+    },
+    {
+      "id": "小乔",
+      "name": "小乔",
+      "type": "person",
+      "description": "Coze产品负责人",
+      "mention_count": 2,
+      "aliases": [
+        "Coze老大"
+      ],
+      "tags": [
+        "产品负责人"
+      ]
+    },
+    {
+      "id": "石扬",
+      "name": "石扬",
+      "type": "person",
+      "description": "Trae产品负责人",
+      "mention_count": 2,
+      "aliases": [
+        "Trae老大"
+      ],
+      "tags": [
+        "产品负责人"
+      ]
+    },
+    {
+      "id": "金山办公",
+      "name": "金山办公",
+      "type": "company",
+      "description": "办公软件厂商，推出灵犀Agent，拥有2G市场优势",
+      "mention_count": 2,
+      "aliases": [
+        "金山"
+      ],
+      "tags": [
+        "Agent",
+        "办公"
+      ]
+    },
+    {
+      "id": "文心一言",
+      "name": "文心一言",
+      "type": "product",
+      "description": "百度旗下大模型应用，在Agent竞争中表现不佳",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "ChatBot"
+      ]
+    },
+    {
+      "id": "灵犀agent",
+      "name": "灵犀Agent",
+      "type": "product",
+      "description": "金山办公推出的Agent产品，擅长公文写作",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "Agent",
+        "办公"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "腾讯",
+      "target": "Manus",
+      "relation_type": "acquires",
+      "label": "作者脑洞设想：腾讯收购Manus",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "low"
+    },
+    {
+      "source": "腾讯",
+      "target": "Plaud",
+      "relation_type": "acquires",
+      "label": "作者脑洞设想：腾讯收购Plaud",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "low"
+    },
+    {
+      "source": "Qoder",
+      "target": "千问办公",
+      "relation_type": "competes_with",
+      "label": "阿里内部两款Agent产品功能重叠，存在内部竞争与分流",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "WorkBuddy",
+      "target": "千问办公",
+      "relation_type": "competes_with",
+      "label": "两者均为大厂核心办公Agent产品，存在直接竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "WorkBuddy",
+      "target": "豆包工作",
+      "relation_type": "competes_with",
+      "label": "两者均为大厂核心办公Agent产品，存在直接竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "千问办公",
+      "target": "豆包工作",
+      "relation_type": "competes_with",
+      "label": "两者均为大厂核心办公Agent产品，存在直接竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "腾讯",
+      "relation_type": "competes_with",
+      "label": "在Agent大战中争夺AI入口和市场身位",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "阿里巴巴",
+      "relation_type": "competes_with",
+      "label": "在Agent大战中争夺AI入口和市场身位",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "灵犀Agent",
+      "target": "豆包工作",
+      "relation_type": "competes_with",
+      "label": "大厂Agent与垂直领域办公Agent的竞争",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "腾讯",
+      "target": "阿里巴巴",
+      "relation_type": "competes_with",
+      "label": "在Agent大战中争夺AI入口和市场身位",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "Seed",
+      "relation_type": "develops",
+      "label": "Seed是字节跳动自研模型，供豆包工作使用",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "Trae",
+      "relation_type": "develops",
+      "label": "Trae是字节跳动旗下产品，已划归豆包体系",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "扣子",
+      "relation_type": "develops",
+      "label": "Coze是字节跳动旗下产品，已划归豆包体系",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "豆包工作",
+      "relation_type": "develops",
+      "label": "字节跳动开发并主推豆包工作作为办公Agent入口",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "飞书",
+      "relation_type": "develops",
+      "label": "飞书是字节跳动旗下产品，现作为豆包工作的基建",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "百度",
+      "target": "文心一言",
+      "relation_type": "develops",
+      "label": "百度开发文心一言，但在Agent大战中落后",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "腾讯",
+      "target": "WorkBuddy",
+      "relation_type": "develops",
+      "label": "腾讯开发WorkBuddy作为办公Agent产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "金山办公",
+      "target": "灵犀Agent",
+      "relation_type": "develops",
+      "label": "金山办公开发灵犀Agent用于公文处理等场景",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "Qoder",
+      "relation_type": "develops",
+      "label": "阿里巴巴开发Qoder，目前与千问办公并行发展",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "阿里巴巴",
+      "target": "千问办公",
+      "relation_type": "develops",
+      "label": "阿里巴巴开发千问办公作为Agent主力产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "豆包工作",
+      "target": "飞书",
+      "relation_type": "integrates_with",
+      "label": "豆包工作客户端与飞书打通，可在飞书中调用",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Manus",
+      "target": "Plaud",
+      "relation_type": "related",
+      "label": "文中设想腾讯同时收购两者以实现软硬一体",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "low"
+    },
+    {
+      "source": "梁汝波",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "label": "梁汝波（一鸣）是字节跳动CEO，主导了Agent战略调整",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "小乔",
+      "target": "扣子",
+      "relation_type": "works_on",
+      "label": "小乔是Coze的产品负责人",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "石扬",
+      "target": "Trae",
+      "relation_type": "works_on",
+      "label": "石扬是Trae的产品负责人",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 20,
+    "relationship_count": 25,
+    "pruned_entities": [
+      {
+        "name": "陈冕",
+        "reason": "low-signal"
+      }
+    ],
+    "provider": "dashscope"
+  }
+}

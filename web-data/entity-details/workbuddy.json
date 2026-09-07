@@ -3,22 +3,32 @@
     "id": "workbuddy",
     "name": "WorkBuddy",
     "type": "product",
-    "description": "本地Agent工具，文中用于对比贬低秒哒3.0",
-    "mention_count": 11,
-    "article_count": 5,
+    "description": "腾讯推出的办公Agent产品，插件复杂但模型切换灵活",
+    "mention_count": 19,
+    "article_count": 6,
     "aliases": [],
     "tags": [
       "AI办公",
       "AI工具",
       "Agent",
+      "办公",
       "本地工具",
       "生产力工具",
       "编程工具",
       "腾讯云团队"
     ],
-    "references": 5,
-    "source_article_count": 5,
+    "references": 6,
+    "source_article_count": 6,
     "source_articles": [
+      {
+        "article_id": "144",
+        "title": "客观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-06",
+        "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/144",
+        "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 8
+      },
       {
         "article_id": "102",
         "title": "腾讯做了一堆情感陪伴Agent",
@@ -65,8 +75,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 13,
-    "composite_weight": 0.126
+    "degree": 17,
+    "composite_weight": 0.1736
   },
   "links": [
     {
@@ -304,20 +314,109 @@
       "evidences": []
     },
     {
+      "source": "workbuddy",
+      "target": "千问办公",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为大厂核心办公Agent产品，存在直接竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "两者均为大厂核心办公Agent产品，存在直接竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "workbuddy",
+      "target": "豆包工作",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为大厂核心办公Agent产品，存在直接竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "两者均为大厂核心办公Agent产品，存在直接竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "千问办公",
+      "target": "workbuddy",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为大厂核心办公Agent产品，存在直接竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "豆包工作",
+      "target": "workbuddy",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为大厂核心办公Agent产品，存在直接竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "腾讯",
       "target": "workbuddy",
       "relation_type": "develops",
       "type": "develops",
       "label": "腾讯正在猛推WorkBuddy",
-      "weight": 2,
+      "weight": 3,
       "strength": 4,
-      "effective_weight": 10,
-      "article_count": 2,
+      "effective_weight": 15,
+      "article_count": 3,
       "evidence_articles": [
         "102",
-        "111"
+        "111",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "腾讯开发WorkBuddy作为办公Agent产品",
+          "weight": 1
+        },
         {
           "article_id": "111",
           "title": "用豆包办公得坐小孩那桌",
@@ -341,5 +440,59 @@
       ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "workbuddy",
+      "target": "阿里巴巴",
+      "score": 0.4961,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "102",
+        "125",
+        "128",
+        "144"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "qoder",
+      "target": "workbuddy",
+      "score": 0.4567,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "128",
+        "144"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "workbuddy",
+      "target": "字节跳动",
+      "score": 0.4461,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "102",
+        "111",
+        "125",
+        "144"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "workbuddy",
+      "target": "百度",
+      "score": 0.4089,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "102",
+        "125",
+        "144"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

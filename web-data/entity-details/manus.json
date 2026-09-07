@@ -4,8 +4,8 @@
     "name": "Manus",
     "type": "product",
     "description": "AI Agent产品，主张less structure more intelligence，对Lovart有启发作用",
-    "mention_count": 129,
-    "article_count": 28,
+    "mention_count": 132,
+    "article_count": 29,
     "aliases": [
       "Manus (产品)",
       "Manus Agents",
@@ -41,8 +41,8 @@
       "邮件交互",
       "高营收"
     ],
-    "references": 28,
-    "source_article_count": 28,
+    "references": 29,
+    "source_article_count": 29,
     "source_articles": [
       {
         "article_id": "016",
@@ -142,6 +142,15 @@
         "permalink": "/articles/039",
         "markdown_link": "articles/039_2025-12-05_葬爱咸鱼_Agnes只会抄和炒的公司，把自己蹭成AI圈大冰.md",
         "mention_count": 4
+      },
+      {
+        "article_id": "144",
+        "title": "客观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-06",
+        "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/144",
+        "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 3
       },
       {
         "article_id": "047",
@@ -297,10 +306,36 @@
         "mention_count": 6
       }
     ],
-    "degree": 62,
-    "composite_weight": 0.5759
+    "degree": 63,
+    "composite_weight": 0.5916
   },
   "links": [
+    {
+      "source": "腾讯",
+      "target": "manus",
+      "relation_type": "acquires",
+      "type": "acquires",
+      "label": "作者脑洞设想：腾讯收购Manus",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "144"
+      ],
+      "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "作者脑洞设想：腾讯收购Manus",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "agnes",
       "target": "manus",
@@ -1622,9 +1657,9 @@
     {
       "source": "manus",
       "target": "字节跳动",
-      "score": 0.8209,
+      "score": 0.8177,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 7 篇文章；共享 6 个邻居",
+      "reason": "共同出现于 8 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "017",
         "018",
@@ -1637,7 +1672,7 @@
     {
       "source": "cursor",
       "target": "manus",
-      "score": 0.6586,
+      "score": 0.6573,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1680,14 +1715,16 @@
     },
     {
       "source": "manus",
-      "target": "豆包",
-      "score": 0.5866,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
+      "target": "百度",
+      "score": 0.62,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
-        "004",
-        "040",
-        "057"
+        "017",
+        "022",
+        "055",
+        "059",
+        "144"
       ],
       "status": "suggested"
     }

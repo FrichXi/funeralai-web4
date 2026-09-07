@@ -4,14 +4,15 @@
     "name": "百度",
     "type": "company",
     "description": "BAT之一，好大夫在线的前股东，曾雪中送炭投资多位AI创业者",
-    "mention_count": 78,
-    "article_count": 10,
+    "mention_count": 82,
+    "article_count": 11,
     "aliases": [
       "Baidu",
       "百度战投"
     ],
     "tags": [
       "AI应用",
+      "Agent",
       "大厂",
       "大模型",
       "大模型公司",
@@ -20,8 +21,8 @@
       "搜索引擎",
       "落后版本"
     ],
-    "references": 10,
-    "source_article_count": 10,
+    "references": 11,
+    "source_article_count": 11,
     "source_articles": [
       {
         "article_id": "125",
@@ -58,6 +59,15 @@
         "permalink": "/articles/059",
         "markdown_link": "articles/059_2026-01-28_沐秋_「Dokie不如ListenHub」.md",
         "mention_count": 6
+      },
+      {
+        "article_id": "144",
+        "title": "客观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-06",
+        "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/144",
+        "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 4
       },
       {
         "article_id": "058",
@@ -115,7 +125,7 @@
       }
     ],
     "degree": 26,
-    "composite_weight": 0.2772
+    "composite_weight": 0.2914
   },
   "links": [
     {
@@ -449,14 +459,25 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "百度开发了文心一言产品",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "125"
+        "125",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "百度开发文心一言，但在Agent大战中落后",
+          "weight": 1
+        },
         {
           "article_id": "125",
           "title": "建议百度文心一言申请非遗",
@@ -765,27 +786,15 @@
     {
       "source": "manus",
       "target": "百度",
-      "score": 0.5504,
+      "score": 0.62,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "017",
         "022",
         "055",
-        "059"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "libtv",
-      "target": "百度",
-      "score": 0.4724,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "099",
-        "125",
-        "136"
+        "059",
+        "144"
       ],
       "status": "suggested"
     },
@@ -802,9 +811,22 @@
       "status": "suggested"
     },
     {
+      "source": "libtv",
+      "target": "百度",
+      "score": 0.4717,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "099",
+        "125",
+        "136"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "genspark",
       "target": "百度",
-      "score": 0.4093,
+      "score": 0.4089,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -815,16 +837,15 @@
       "status": "suggested"
     },
     {
-      "source": "deepseek",
+      "source": "workbuddy",
       "target": "百度",
-      "score": 0.3836,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 1 个邻居",
+      "score": 0.4089,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
-        "099",
-        "122",
+        "102",
         "125",
-        "136"
+        "144"
       ],
       "status": "suggested"
     }

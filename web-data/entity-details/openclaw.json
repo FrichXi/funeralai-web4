@@ -169,7 +169,7 @@
       }
     ],
     "degree": 34,
-    "composite_weight": 0.3671
+    "composite_weight": 0.3646
   },
   "links": [
     {
@@ -967,9 +967,9 @@
     {
       "source": "chatgpt",
       "target": "openclaw",
-      "score": 0.5372,
+      "score": 0.4872,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 5 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 2 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "067",
         "070"
@@ -979,7 +979,7 @@
     {
       "source": "openclaw",
       "target": "扣子",
-      "score": 0.4357,
+      "score": 0.4342,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1002,13 +1002,15 @@
     },
     {
       "source": "openclaw",
-      "target": "proma",
-      "score": 0.4241,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "target": "字节跳动",
+      "score": 0.4154,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
-        "060",
-        "066"
+        "064",
+        "070",
+        "102",
+        "104"
       ],
       "status": "suggested"
     }

@@ -4,17 +4,18 @@
     "name": "文心一言",
     "type": "product",
     "description": "百度推出的对话式AI产品，文中被批评能力落后、DAU低",
-    "mention_count": 20,
-    "article_count": 1,
+    "mention_count": 21,
+    "article_count": 2,
     "aliases": [
       "ERNIE Bot"
     ],
     "tags": [
+      "ChatBot",
       "Chatbot",
       "ToC"
     ],
-    "references": 1,
-    "source_article_count": 1,
+    "references": 2,
+    "source_article_count": 2,
     "source_articles": [
       {
         "article_id": "125",
@@ -24,10 +25,19 @@
         "permalink": "/articles/125",
         "markdown_link": "articles/125_2026-07-28_葬爱咸鱼_建议百度文心一言申请非遗.md",
         "mention_count": 20
+      },
+      {
+        "article_id": "144",
+        "title": "客观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-06",
+        "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/144",
+        "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 1
       }
     ],
     "degree": 8,
-    "composite_weight": 0.0929
+    "composite_weight": 0.1019
   },
   "links": [
     {
@@ -179,14 +189,25 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "百度开发了文心一言产品",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "125"
+        "125",
+        "144"
       ],
       "evidences": [
+        {
+          "article_id": "144",
+          "title": "客观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/144",
+          "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-06",
+          "label": "百度开发文心一言，但在Agent大战中落后",
+          "weight": 1
+        },
         {
           "article_id": "125",
           "title": "建议百度文心一言申请非遗",
