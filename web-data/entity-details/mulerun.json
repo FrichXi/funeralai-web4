@@ -4,8 +4,8 @@
     "name": "MuleRun",
     "type": "product",
     "description": "阿里云推出的Agent平台，核心思路为放弃UGC做小B2C供给侧改革，定位类似AI时代的淘宝。",
-    "mention_count": 75,
-    "article_count": 9,
+    "mention_count": 77,
+    "article_count": 10,
     "aliases": [
       "Mulerun",
       "电骡",
@@ -13,6 +13,7 @@
       "骡子快跑"
     ],
     "tags": [
+      "AI Workspace",
       "Agent",
       "Agent Marketplace",
       "Agent交易市场",
@@ -28,8 +29,8 @@
       "游戏开发",
       "视频生成"
     ],
-    "references": 9,
-    "source_article_count": 9,
+    "references": 10,
+    "source_article_count": 10,
     "source_articles": [
       {
         "article_id": "018",
@@ -86,6 +87,15 @@
         "mention_count": 3
       },
       {
+        "article_id": "145",
+        "title": "主观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-08",
+        "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/145",
+        "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 2
+      },
+      {
         "article_id": "017",
         "title": "字节用扣子证明，Agent只能被计划",
         "date": "2025-08-29",
@@ -114,7 +124,7 @@
       }
     ],
     "degree": 33,
-    "composite_weight": 0.305
+    "composite_weight": 0.3151
   },
   "links": [
     {
@@ -552,15 +562,26 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "两者同为AI Agent平台，属于竞争关系。",
-      "weight": 2,
+      "weight": 3,
       "strength": 3,
-      "effective_weight": 8,
-      "article_count": 2,
+      "effective_weight": 12,
+      "article_count": 3,
       "evidence_articles": [
         "018",
-        "071"
+        "071",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "两者都意识到AI Workspace是刚需并更新了类似功能",
+          "weight": 1
+        },
         {
           "article_id": "071",
           "title": "Mulerun借假修真Agent市场明牌竞争",
@@ -809,23 +830,23 @@
       "target": "mulerun",
       "relation_type": "works_at",
       "type": "works_at",
-      "label": "付铖是MuleRun的现任操盘者/产品经理",
+      "label": "付铖是MuleRun的前产品负责人",
       "weight": 1,
-      "strength": 3,
-      "effective_weight": 4,
+      "strength": 4,
+      "effective_weight": 5,
       "article_count": 1,
       "evidence_articles": [
-        "066"
+        "145"
       ],
       "evidences": [
         {
-          "article_id": "066",
-          "title": "AI编程创造世界",
-          "permalink": "/articles/066",
-          "markdown_link": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
-          "path": "articles/066_2026-02-24_葬爱咸鱼_AI编程创造世界.md",
-          "date": "2026-02-24",
-          "label": "付铖是MuleRun的现任操盘者/产品经理",
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "付铖是MuleRun的前产品负责人",
           "weight": 1
         }
       ]
@@ -835,14 +856,28 @@
     {
       "source": "claude",
       "target": "mulerun",
-      "score": 0.5863,
+      "score": 0.6563,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "017",
         "030",
         "066",
-        "071"
+        "071",
+        "145"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "mulerun",
+      "target": "腾讯",
+      "score": 0.5187,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "018",
+        "071",
+        "145"
       ],
       "status": "suggested"
     },
@@ -873,25 +908,14 @@
     },
     {
       "source": "mulerun",
-      "target": "腾讯",
-      "score": 0.4487,
+      "target": "字节跳动",
+      "score": 0.4094,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "018",
-        "071"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "chatgpt",
-      "target": "mulerun",
-      "score": 0.3987,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "017",
-        "030"
+        "018",
+        "145"
       ],
       "status": "suggested"
     }

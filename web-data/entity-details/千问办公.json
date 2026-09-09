@@ -3,9 +3,9 @@
     "id": "千问办公",
     "name": "千问办公",
     "type": "product",
-    "description": "文中建议用于构建bench场景的主力Harness工具",
-    "mention_count": 18,
-    "article_count": 3,
+    "description": "阿里巴巴推出的办公Agent产品，与Qoder存在内部竞争或整合关系",
+    "mention_count": 24,
+    "article_count": 4,
     "aliases": [],
     "tags": [
       "Agent",
@@ -13,8 +13,8 @@
       "办公Agent",
       "办公工具"
     ],
-    "references": 3,
-    "source_article_count": 3,
+    "references": 4,
+    "source_article_count": 4,
     "source_articles": [
       {
         "article_id": "144",
@@ -24,6 +24,15 @@
         "permalink": "/articles/144",
         "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
         "mention_count": 16
+      },
+      {
+        "article_id": "145",
+        "title": "主观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-08",
+        "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/145",
+        "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 6
       },
       {
         "article_id": "133",
@@ -45,7 +54,7 @@
       }
     ],
     "degree": 8,
-    "composite_weight": 0.1076
+    "composite_weight": 0.1274
   },
   "links": [
     {
@@ -54,14 +63,25 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "阿里内部两款Agent产品功能重叠，存在内部竞争与分流",
-      "weight": 1,
+      "weight": 2,
       "strength": 3,
-      "effective_weight": 4,
-      "article_count": 1,
+      "effective_weight": 8,
+      "article_count": 2,
       "evidence_articles": [
-        "144"
+        "144",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "阿里内部两款产品的竞争与整合博弈",
+          "weight": 1
+        },
         {
           "article_id": "144",
           "title": "客观评价字节阿里腾讯之Agent大战",
@@ -132,14 +152,25 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "两者均为大厂核心办公Agent产品，存在直接竞争关系",
-      "weight": 1,
+      "weight": 2,
       "strength": 3,
-      "effective_weight": 4,
-      "article_count": 1,
+      "effective_weight": 8,
+      "article_count": 2,
       "evidence_articles": [
-        "144"
+        "144",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "两者在办公Agent市场直接竞争，且豆包工作赶超了千问办公",
+          "weight": 1
+        },
         {
           "article_id": "144",
           "title": "客观评价字节阿里腾讯之Agent大战",
@@ -171,15 +202,26 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "千问办公是阿里旗下的办公产品",
-      "weight": 2,
+      "weight": 3,
       "strength": 4,
-      "effective_weight": 10,
-      "article_count": 2,
+      "effective_weight": 15,
+      "article_count": 3,
       "evidence_articles": [
         "129",
-        "144"
+        "144",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "阿里巴巴开发千问办公产品",
+          "weight": 1
+        },
         {
           "article_id": "144",
           "title": "客观评价字节阿里腾讯之Agent大战",

@@ -4,8 +4,8 @@
     "name": "阿里巴巴",
     "type": "company",
     "description": "开发了Happy Horse视频模型和Happy Oyster世界模型",
-    "mention_count": 108,
-    "article_count": 21,
+    "mention_count": 117,
+    "article_count": 22,
     "aliases": [
       "老辈子阿里",
       "阿里"
@@ -19,6 +19,7 @@
       "云计算",
       "互联网大厂",
       "办公",
+      "办公Agent",
       "匿名打榜",
       "国产大模型",
       "大厂",
@@ -34,8 +35,8 @@
       "视频生成",
       "阿里味"
     ],
-    "references": 21,
-    "source_article_count": 21,
+    "references": 22,
+    "source_article_count": 22,
     "source_articles": [
       {
         "article_id": "112",
@@ -54,6 +55,15 @@
         "permalink": "/articles/144",
         "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
         "mention_count": 17
+      },
+      {
+        "article_id": "145",
+        "title": "主观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-08",
+        "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/145",
+        "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 9
       },
       {
         "article_id": "055",
@@ -228,7 +238,7 @@
       }
     ],
     "degree": 42,
-    "composite_weight": 0.4997
+    "composite_weight": 0.5232
   },
   "links": [
     {
@@ -732,16 +742,27 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "阿里重点押注Qoder",
-      "weight": 3,
+      "weight": 4,
       "strength": 4,
-      "effective_weight": 15,
-      "article_count": 3,
+      "effective_weight": 20,
+      "article_count": 4,
       "evidence_articles": [
         "103",
         "129",
-        "144"
+        "144",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "阿里巴巴开发Qoder产品",
+          "weight": 1
+        },
         {
           "article_id": "144",
           "title": "客观评价字节阿里腾讯之Agent大战",
@@ -930,15 +951,26 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "千问办公是阿里旗下的办公产品",
-      "weight": 2,
+      "weight": 3,
       "strength": 4,
-      "effective_weight": 10,
-      "article_count": 2,
+      "effective_weight": 15,
+      "article_count": 3,
       "evidence_articles": [
         "129",
-        "144"
+        "144",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "阿里巴巴开发千问办公产品",
+          "weight": 1
+        },
         {
           "article_id": "144",
           "title": "客观评价字节阿里腾讯之Agent大战",
@@ -1032,15 +1064,26 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "结合上下文办公场景竞争推断钉钉为阿里旗下产品",
-      "weight": 2,
+      "weight": 3,
       "strength": 4,
-      "effective_weight": 10,
-      "article_count": 2,
+      "effective_weight": 15,
+      "article_count": 3,
       "evidence_articles": [
         "102",
-        "112"
+        "112",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "钉钉是阿里巴巴旗下的协作平台",
+          "weight": 1
+        },
         {
           "article_id": "112",
           "title": "老天保佑Qwen救救阿里巴巴",
@@ -1313,6 +1356,21 @@
       "status": "suggested"
     },
     {
+      "source": "claude",
+      "target": "阿里巴巴",
+      "score": 0.7501,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "049",
+        "071",
+        "103",
+        "105",
+        "145"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "deepseek",
       "target": "阿里巴巴",
       "score": 0.7014,
@@ -1328,43 +1386,31 @@
       "status": "suggested"
     },
     {
-      "source": "claude",
-      "target": "阿里巴巴",
-      "score": 0.6855,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "049",
-        "071",
-        "103",
-        "105"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "workbuddy",
       "target": "阿里巴巴",
-      "score": 0.4961,
+      "score": 0.5657,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "102",
         "125",
         "128",
-        "144"
+        "144",
+        "145"
       ],
       "status": "suggested"
     },
     {
-      "source": "lovart",
-      "target": "阿里巴巴",
-      "score": 0.4736,
+      "source": "阿里巴巴",
+      "target": "陈冕",
+      "score": 0.5349,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "049",
         "055",
-        "085"
+        "085",
+        "145"
       ],
       "status": "suggested"
     }

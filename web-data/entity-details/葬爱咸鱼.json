@@ -4,10 +4,11 @@
     "name": "葬爱咸鱼",
     "type": "person",
     "description": "公众号“葬AI”主理人，葬爱咸鱼科技有限公司实控人，脱口秀演讲者",
-    "mention_count": 35,
-    "article_count": 13,
+    "mention_count": 38,
+    "article_count": 14,
     "aliases": [
       "咸鱼",
+      "葬愛咸鱼",
       "葬爱咸鱼实控人"
     ],
     "tags": [
@@ -15,6 +16,7 @@
       "AI硬件",
       "AI评论",
       "KOL",
+      "主播",
       "体验者",
       "内测用户",
       "创作者",
@@ -22,13 +24,14 @@
       "实控人",
       "投资者",
       "测评",
+      "行业评论",
       "行业评论者",
       "评论员",
       "评论者",
       "黑客松"
     ],
-    "references": 13,
-    "source_article_count": 13,
+    "references": 14,
+    "source_article_count": 14,
     "source_articles": [
       {
         "article_id": "064",
@@ -47,6 +50,15 @@
         "permalink": "/articles/020",
         "markdown_link": "articles/020_2025-09-08_葬爱咸鱼_半年来目睹之AI创业怪现状.md",
         "mention_count": 4
+      },
+      {
+        "article_id": "145",
+        "title": "主观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-08",
+        "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/145",
+        "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 3
       },
       {
         "article_id": "125",
@@ -148,8 +160,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 20,
-    "composite_weight": 0.2216
+    "degree": 21,
+    "composite_weight": 0.2385
   },
   "links": [
     {
@@ -669,19 +681,46 @@
       "article_count": 0,
       "evidence_articles": [],
       "evidences": []
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "raft",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "咸鱼与作者使用Raft进行活动报名表筛选等实际工作",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "145"
+      ],
+      "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "咸鱼与作者使用Raft进行活动报名表筛选等实际工作",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "claude",
       "target": "葬爱咸鱼",
-      "score": 0.6153,
+      "score": 0.6853,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 6 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "068",
         "100",
-        "111"
+        "111",
+        "145"
       ],
       "status": "suggested"
     },
@@ -701,39 +740,43 @@
     {
       "source": "葬爱咸鱼",
       "target": "飞书",
-      "score": 0.5052,
+      "score": 0.5752,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "120",
-        "124"
+        "124",
+        "145"
       ],
       "status": "suggested"
     },
     {
       "source": "字节跳动",
       "target": "葬爱咸鱼",
-      "score": 0.4882,
+      "score": 0.5582,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "064",
         "106",
         "111",
-        "125"
+        "125",
+        "145"
       ],
       "status": "suggested"
     },
     {
-      "source": "kimi",
+      "source": "腾讯",
       "target": "葬爱咸鱼",
-      "score": 0.4852,
+      "score": 0.5502,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "068",
-        "100",
-        "116"
+        "106",
+        "111",
+        "125",
+        "145"
       ],
       "status": "suggested"
     }

@@ -4,8 +4,8 @@
     "name": "扣子",
     "type": "product",
     "description": "支持创建Agent、定时任务、云电脑及内置邮箱的AI构建平台",
-    "mention_count": 72,
-    "article_count": 8,
+    "mention_count": 74,
+    "article_count": 9,
     "aliases": [
       "Coze",
       "Coze 2.5",
@@ -26,8 +26,8 @@
       "定时任务",
       "工作流"
     ],
-    "references": 8,
-    "source_article_count": 8,
+    "references": 9,
+    "source_article_count": 9,
     "source_articles": [
       {
         "article_id": "017",
@@ -64,6 +64,15 @@
         "permalink": "/articles/018",
         "markdown_link": "articles/018_2025-09-02_葬爱咸鱼_电骡快跑，Mulerun想做AI淘宝.md",
         "mention_count": 4
+      },
+      {
+        "article_id": "145",
+        "title": "主观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-08",
+        "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/145",
+        "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 2
       },
       {
         "article_id": "071",
@@ -103,7 +112,7 @@
       }
     ],
     "degree": 22,
-    "composite_weight": 0.2234
+    "composite_weight": 0.2334
   },
   "links": [
     {
@@ -294,15 +303,26 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "两者同为AI Agent平台，属于竞争关系。",
-      "weight": 2,
+      "weight": 3,
       "strength": 3,
-      "effective_weight": 8,
-      "article_count": 2,
+      "effective_weight": 12,
+      "article_count": 3,
       "evidence_articles": [
         "018",
-        "071"
+        "071",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "两者都意识到AI Workspace是刚需并更新了类似功能",
+          "weight": 1
+        },
         {
           "article_id": "071",
           "title": "Mulerun借假修真Agent市场明牌竞争",
@@ -435,19 +455,30 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "扣子是字节跳动为探索AI应用落地而开发的平台。",
-      "weight": 6,
+      "weight": 7,
       "strength": 4,
-      "effective_weight": 30,
-      "article_count": 6,
+      "effective_weight": 35,
+      "article_count": 7,
       "evidence_articles": [
         "017",
         "018",
         "082",
         "088",
         "102",
-        "144"
+        "144",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "字节跳动开发Coze平台",
+          "weight": 1
+        },
         {
           "article_id": "144",
           "title": "客观评价字节阿里腾讯之Agent大战",
@@ -645,14 +676,28 @@
     {
       "source": "扣子",
       "target": "腾讯",
-      "score": 0.5526,
+      "score": 0.6226,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "018",
         "071",
         "102",
-        "144"
+        "144",
+        "145"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "codex",
+      "target": "扣子",
+      "score": 0.4667,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "088",
+        "102",
+        "145"
       ],
       "status": "suggested"
     },
@@ -668,6 +713,18 @@
       "status": "suggested"
     },
     {
+      "source": "扣子",
+      "target": "火山引擎",
+      "score": 0.4353,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "017",
+        "071"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "openclaw",
       "target": "扣子",
       "score": 0.4342,
@@ -675,30 +732,6 @@
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "071",
-        "102"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "扣子",
-      "target": "豆包",
-      "score": 0.4136,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "071",
-        "088"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "codex",
-      "target": "扣子",
-      "score": 0.3967,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居",
-      "evidence_article_ids": [
-        "088",
         "102"
       ],
       "status": "suggested"

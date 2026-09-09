@@ -4,8 +4,8 @@
     "name": "Codex",
     "type": "product",
     "description": "AI编程/代理工具，文中作为本地Agent的代表被Raft和Tutti集成或模拟",
-    "mention_count": 45,
-    "article_count": 18,
+    "mention_count": 49,
+    "article_count": 19,
     "aliases": [
       "Codex SDK",
       "codex",
@@ -24,11 +24,12 @@
       "客户端",
       "对标产品",
       "开发工具",
+      "标杆",
       "校对",
       "编程Agent"
     ],
-    "references": 18,
-    "source_article_count": 18,
+    "references": 19,
+    "source_article_count": 19,
     "source_articles": [
       {
         "article_id": "120",
@@ -65,6 +66,15 @@
         "permalink": "/articles/103",
         "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
         "mention_count": 5
+      },
+      {
+        "article_id": "145",
+        "title": "主观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-08",
+        "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/145",
+        "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 4
       },
       {
         "article_id": "100",
@@ -193,8 +203,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 35,
-    "composite_weight": 0.3607
+    "degree": 37,
+    "composite_weight": 0.3848
   },
   "links": [
     {
@@ -229,15 +239,26 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "作者认为Codex比Claude code更快干脆",
-      "weight": 2,
+      "weight": 3,
       "strength": 2,
-      "effective_weight": 6,
-      "article_count": 2,
+      "effective_weight": 9,
+      "article_count": 3,
       "evidence_articles": [
         "066",
-        "101"
+        "101",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "两者被并称为硅谷双子星，代表超高难度任务的处理能力",
+          "weight": 1
+        },
         {
           "article_id": "101",
           "title": "AI圈神童杀死神人",
@@ -457,6 +478,32 @@
     },
     {
       "source": "codex",
+      "target": "qoder",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章指出Qoder升级改版为对话框形态是在抄袭/对标Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "145"
+      ],
+      "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "文章指出Qoder升级改版为对话框形态是在抄袭/对标Codex",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "codex",
       "target": "tapnow",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -539,6 +586,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文章指出在干活能力上大家都比不上Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "qoder",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章指出Qoder升级改版为对话框形态是在抄袭/对标Codex",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,

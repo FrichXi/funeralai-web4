@@ -4,20 +4,21 @@
     "name": "Trae",
     "type": "product",
     "description": "字节跳动旗下AI IDE产品，已划归豆包体系",
-    "mention_count": 12,
-    "article_count": 4,
+    "mention_count": 13,
+    "article_count": 5,
     "aliases": [
       "Trae Work"
     ],
     "tags": [
+      "AI IDE",
       "AI工具",
       "AI编程",
       "国产AI",
       "开发工具",
       "编程工具"
     ],
-    "references": 4,
-    "source_article_count": 4,
+    "references": 5,
+    "source_article_count": 5,
     "source_articles": [
       {
         "article_id": "144",
@@ -54,10 +55,19 @@
         "permalink": "/articles/100",
         "markdown_link": "articles/100_2026-06-07_沐秋_网吧黑客松里有真黑客.md",
         "mention_count": 2
+      },
+      {
+        "article_id": "145",
+        "title": "主观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-08",
+        "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/145",
+        "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 1
       }
     ],
     "degree": 9,
-    "composite_weight": 0.0976
+    "composite_weight": 0.1056
   },
   "links": [
     {
@@ -183,16 +193,27 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节大力投入Trae",
-      "weight": 3,
+      "weight": 4,
       "strength": 4,
-      "effective_weight": 15,
-      "article_count": 3,
+      "effective_weight": 20,
+      "article_count": 4,
       "evidence_articles": [
         "103",
         "111",
-        "144"
+        "144",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "字节跳动开发Trae IDE",
+          "weight": 1
+        },
         {
           "article_id": "144",
           "title": "客观评价字节阿里腾讯之Agent大战",
@@ -282,13 +303,27 @@
     {
       "source": "claude",
       "target": "trae",
-      "score": 0.4662,
+      "score": 0.5307,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "100",
         "103",
-        "111"
+        "111",
+        "145"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "codex",
+      "target": "trae",
+      "score": 0.4425,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "100",
+        "103",
+        "145"
       ],
       "status": "suggested"
     }

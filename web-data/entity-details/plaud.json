@@ -4,22 +4,24 @@
     "name": "Plaud",
     "type": "product",
     "description": "主打海外市场的AI硬件录音卡公司，近期宣布进入中国内地市场",
-    "mention_count": 78,
-    "article_count": 8,
+    "mention_count": 80,
+    "article_count": 9,
     "aliases": [
       "Plaud录音卡片"
     ],
     "tags": [
       "AI硬件",
       "出海",
+      "录音卡",
       "录音卡片",
       "录音总结",
       "游击战",
+      "硬件",
       "硬件公司",
       "语音输入"
     ],
-    "references": 8,
-    "source_article_count": 8,
+    "references": 9,
+    "source_article_count": 9,
     "source_articles": [
       {
         "article_id": "044",
@@ -47,6 +49,15 @@
         "permalink": "/articles/042",
         "markdown_link": "articles/042_2025-12-16_沐秋_Looki开创AI胸载摄像头.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "145",
+        "title": "主观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-08",
+        "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/145",
+        "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 2
       },
       {
         "article_id": "144",
@@ -94,10 +105,36 @@
         "mention_count": 1
       }
     ],
-    "degree": 20,
-    "composite_weight": 0.1877
+    "degree": 21,
+    "composite_weight": 0.2037
   },
   "links": [
+    {
+      "source": "workbuddy",
+      "target": "plaud",
+      "relation_type": "acquires",
+      "type": "acquires",
+      "label": "作者强烈建议WorkBuddy收购Plaud以完善硬件入口（非既定事实，但为核心论述关系）",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "145"
+      ],
+      "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "作者强烈建议WorkBuddy收购Plaud以完善硬件入口（非既定事实，但为核心论述关系）",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "腾讯",
       "target": "plaud",
@@ -566,11 +603,12 @@
     {
       "source": "plaud",
       "target": "阿里巴巴",
-      "score": 0.3909,
+      "score": 0.4605,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 1 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 2 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
-        "144"
+        "144",
+        "145"
       ],
       "status": "suggested"
     }

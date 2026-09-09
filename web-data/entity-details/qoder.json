@@ -4,21 +4,23 @@
     "name": "Qoder",
     "type": "product",
     "description": "文中建议用于构建bench场景的主力Harness工具",
-    "mention_count": 17,
-    "article_count": 8,
+    "mention_count": 22,
+    "article_count": 9,
     "aliases": [
       "QoderWork"
     ],
     "tags": [
       "AI工具",
       "Agent",
+      "IDE",
+      "办公Agent",
       "国产AI",
       "开发工具",
       "编程Agent",
       "编程工具"
     ],
-    "references": 8,
-    "source_article_count": 8,
+    "references": 9,
+    "source_article_count": 9,
     "source_articles": [
       {
         "article_id": "144",
@@ -28,6 +30,15 @@
         "permalink": "/articles/144",
         "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
         "mention_count": 8
+      },
+      {
+        "article_id": "145",
+        "title": "主观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-08",
+        "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/145",
+        "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 5
       },
       {
         "article_id": "103",
@@ -93,10 +104,49 @@
         "mention_count": 1
       }
     ],
-    "degree": 10,
-    "composite_weight": 0.1306
+    "degree": 12,
+    "composite_weight": 0.1589
   },
   "links": [
+    {
+      "source": "codex",
+      "target": "qoder",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章指出Qoder升级改版为对话框形态是在抄袭/对标Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "145"
+      ],
+      "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "文章指出Qoder升级改版为对话框形态是在抄袭/对标Codex",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "qoder",
+      "target": "codex",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章指出Qoder升级改版为对话框形态是在抄袭/对标Codex",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
     {
       "source": "catpaw",
       "target": "qoder",
@@ -218,14 +268,25 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "阿里内部两款Agent产品功能重叠，存在内部竞争与分流",
-      "weight": 1,
+      "weight": 2,
       "strength": 3,
-      "effective_weight": 4,
-      "article_count": 1,
+      "effective_weight": 8,
+      "article_count": 2,
       "evidence_articles": [
-        "144"
+        "144",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "阿里内部两款产品的竞争与整合博弈",
+          "weight": 1
+        },
         {
           "article_id": "144",
           "title": "客观评价字节阿里腾讯之Agent大战",
@@ -270,16 +331,27 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "阿里重点押注Qoder",
-      "weight": 3,
+      "weight": 4,
       "strength": 4,
-      "effective_weight": 15,
-      "article_count": 3,
+      "effective_weight": 20,
+      "article_count": 4,
       "evidence_articles": [
         "103",
         "129",
-        "144"
+        "144",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "阿里巴巴开发Qoder产品",
+          "weight": 1
+        },
         {
           "article_id": "144",
           "title": "客观评价字节阿里腾讯之Agent大战",
@@ -343,9 +415,9 @@
     {
       "source": "kimi",
       "target": "qoder",
-      "score": 0.503,
+      "score": 0.5701,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "027",
         "029",
@@ -358,12 +430,13 @@
     {
       "source": "qoder",
       "target": "workbuddy",
-      "score": 0.4567,
+      "score": 0.5267,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "128",
-        "144"
+        "144",
+        "145"
       ],
       "status": "suggested"
     },

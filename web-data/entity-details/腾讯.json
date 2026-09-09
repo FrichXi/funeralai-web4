@@ -4,8 +4,8 @@
     "name": "腾讯",
     "type": "company",
     "description": "中国知名科技互联网公司，在文中开发了多款Agent及其他软件产品",
-    "mention_count": 68,
-    "article_count": 13,
+    "mention_count": 76,
+    "article_count": 14,
     "aliases": [
       "Tencent"
     ],
@@ -16,13 +16,14 @@
       "互联网大厂",
       "互联网巨头",
       "办公",
+      "办公Agent",
       "大厂",
       "科技公司",
       "科技大厂",
       "资方"
     ],
-    "references": 13,
-    "source_article_count": 13,
+    "references": 14,
+    "source_article_count": 14,
     "source_articles": [
       {
         "article_id": "102",
@@ -41,6 +42,15 @@
         "permalink": "/articles/144",
         "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
         "mention_count": 19
+      },
+      {
+        "article_id": "145",
+        "title": "主观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-08",
+        "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/145",
+        "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 8
       },
       {
         "article_id": "055",
@@ -142,8 +152,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 30,
-    "composite_weight": 0.338
+    "degree": 31,
+    "composite_weight": 0.3669
   },
   "links": [
     {
@@ -491,16 +501,27 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "腾讯正在猛推WorkBuddy",
-      "weight": 3,
+      "weight": 4,
       "strength": 4,
-      "effective_weight": 15,
-      "article_count": 3,
+      "effective_weight": 20,
+      "article_count": 4,
       "evidence_articles": [
         "102",
         "111",
-        "144"
+        "144",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "WorkBuddy是腾讯推出的AI办公助手",
+          "weight": 1
+        },
         {
           "article_id": "144",
           "title": "客观评价字节阿里腾讯之Agent大战",
@@ -581,6 +602,32 @@
           "path": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
           "date": "2026-03-04",
           "label": "作者指出腾讯正在全心全意做元宝派",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "腾讯",
+      "target": "天美工作室",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "天美工作室隶属于腾讯",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "145"
+      ],
+      "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "天美工作室隶属于腾讯",
           "weight": 1
         }
       ]
@@ -988,6 +1035,21 @@
       "status": "suggested"
     },
     {
+      "source": "扣子",
+      "target": "腾讯",
+      "score": 0.6226,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "018",
+        "071",
+        "102",
+        "144",
+        "145"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "腾讯",
       "target": "蚂蚁集团",
       "score": 0.607,
@@ -1001,43 +1063,29 @@
       "status": "suggested"
     },
     {
-      "source": "扣子",
-      "target": "腾讯",
-      "score": 0.5526,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "018",
-        "071",
-        "102",
-        "144"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "腾讯",
       "target": "葬爱咸鱼",
-      "score": 0.4802,
+      "score": 0.5502,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "068",
         "106",
         "111",
-        "125"
+        "125",
+        "145"
       ],
       "status": "suggested"
     },
     {
       "source": "腾讯",
-      "target": "阿里云",
-      "score": 0.4663,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "target": "钉钉",
+      "score": 0.5298,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
-        "018",
-        "055",
-        "071"
+        "102",
+        "145"
       ],
       "status": "suggested"
     }

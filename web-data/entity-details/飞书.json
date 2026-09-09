@@ -4,12 +4,14 @@
     "name": "飞书",
     "type": "product",
     "description": "办公协作平台，支持通过插件将文档和会议内容导入Creative OS",
-    "mention_count": 54,
-    "article_count": 13,
+    "mention_count": 59,
+    "article_count": 14,
     "aliases": [],
     "tags": [
       "GUI",
+      "IM",
       "企业服务",
+      "办公Agent入口",
       "办公协作",
       "办公协同",
       "办公工具",
@@ -23,8 +25,8 @@
       "聊天框",
       "聊天软件"
     ],
-    "references": 13,
-    "source_article_count": 13,
+    "references": 14,
+    "source_article_count": 14,
     "source_articles": [
       {
         "article_id": "070",
@@ -43,6 +45,15 @@
         "permalink": "/articles/120",
         "markdown_link": "articles/120_2026-07-15_葬爱咸鱼_Raft说明AI应用不会亡！.md",
         "mention_count": 6
+      },
+      {
+        "article_id": "145",
+        "title": "主观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-08",
+        "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/145",
+        "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 5
       },
       {
         "article_id": "124",
@@ -144,8 +155,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 20,
-    "composite_weight": 0.2497
+    "degree": 22,
+    "composite_weight": 0.2774
   },
   "links": [
     {
@@ -331,6 +342,32 @@
       ]
     },
     {
+      "source": "raft",
+      "target": "飞书",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Raft作为AI协作产品试图颠覆飞书等传统IM办公模式",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "145"
+      ],
+      "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "Raft作为AI协作产品试图颠覆飞书等传统IM办公模式",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "扣子空间",
       "target": "飞书",
       "relation_type": "competes_with",
@@ -397,6 +434,19 @@
     },
     {
       "source": "飞书",
+      "target": "raft",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Raft作为AI协作产品试图颠覆飞书等传统IM办公模式",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "飞书",
       "target": "扣子空间",
       "relation_type": "competes_with",
       "type": "competes_with",
@@ -427,17 +477,28 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "文章提到飞书属于字节生态",
-      "weight": 4,
+      "weight": 5,
       "strength": 4,
-      "effective_weight": 20,
-      "article_count": 4,
+      "effective_weight": 25,
+      "article_count": 5,
       "evidence_articles": [
         "082",
         "088",
         "102",
-        "144"
+        "144",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "飞书是字节跳动旗下的协作平台",
+          "weight": 1
+        },
         {
           "article_id": "144",
           "title": "客观评价字节阿里腾讯之Agent大战",
@@ -628,7 +689,7 @@
       "target": "飞书",
       "score": 0.785,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 5 篇文章；共享 6 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "033",
         "067",
@@ -653,27 +714,28 @@
       "status": "suggested"
     },
     {
-      "source": "codex",
+      "source": "葬爱咸鱼",
       "target": "飞书",
-      "score": 0.563,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
+      "score": 0.5752,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
-        "088",
-        "090",
-        "102",
         "120",
-        "124"
+        "124",
+        "145"
       ],
       "status": "suggested"
     },
     {
-      "source": "葬爱咸鱼",
+      "source": "codex",
       "target": "飞书",
-      "score": 0.5052,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 5 个邻居",
+      "score": 0.563,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
+        "088",
+        "090",
+        "102",
         "120",
         "124"
       ],

@@ -4,8 +4,8 @@
     "name": "陈冕",
     "type": "person",
     "description": "LibTV/Lovart创始人，被称为“冕神”，双子座，主张激进执行与长期主义",
-    "mention_count": 27,
-    "article_count": 13,
+    "mention_count": 30,
+    "article_count": 14,
     "aliases": [
       "Amian",
       "冕",
@@ -16,14 +16,16 @@
       "CEO",
       "KOL",
       "产品负责人",
+      "价格战",
       "字节4-1",
+      "意见领袖",
       "行业KOL",
       "行业人物",
       "视频Agent",
       "高管"
     ],
-    "references": 13,
-    "source_article_count": 13,
+    "references": 14,
+    "source_article_count": 14,
     "source_articles": [
       {
         "article_id": "126",
@@ -33,6 +35,15 @@
         "permalink": "/articles/126",
         "markdown_link": "articles/126_2026-07-29_葬爱咸鱼_冕神语录.md",
         "mention_count": 7
+      },
+      {
+        "article_id": "145",
+        "title": "主观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-08",
+        "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/145",
+        "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 3
       },
       {
         "article_id": "119",
@@ -144,7 +155,7 @@
       }
     ],
     "degree": 22,
-    "composite_weight": 0.2401
+    "composite_weight": 0.2509
   },
   "links": [
     {
@@ -775,6 +786,20 @@
       "status": "suggested"
     },
     {
+      "source": "阿里巴巴",
+      "target": "陈冕",
+      "score": 0.5349,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "049",
+        "055",
+        "085",
+        "145"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "tapnow",
       "target": "陈冕",
       "score": 0.5331,
@@ -786,19 +811,6 @@
         "116",
         "119",
         "126"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "阿里巴巴",
-      "target": "陈冕",
-      "score": 0.4653,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "049",
-        "055",
-        "085"
       ],
       "status": "suggested"
     },

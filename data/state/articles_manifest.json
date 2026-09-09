@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-07T19:19:37Z",
+  "updatedAt": "2026-09-09T06:03:24Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -2881,6 +2881,26 @@
       "artifact_path": "data/extracted/144.json",
       "raw_path": "data/gemini_raw/144.json",
       "extracted_at": "2026-09-07T19:19:37Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "145": {
+      "article_id": "145",
+      "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+      "title": "主观评价字节阿里腾讯之Agent大战",
+      "date": "2026-09-08",
+      "author": "沐秋",
+      "content_hash": "46c0dfd9008fda2be7c2fb867b9addf8e938a19d826adb91c785ea71d43eb005",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/145.json",
+      "raw_path": "data/gemini_raw/145.json",
+      "extracted_at": "2026-09-09T06:03:24Z",
       "last_error": null,
       "extractor": {
         "name": "dashscope",

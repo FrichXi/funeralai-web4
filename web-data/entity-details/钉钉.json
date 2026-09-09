@@ -4,8 +4,8 @@
     "name": "钉钉",
     "type": "product",
     "description": "企业级办公协作平台，文中作为Raft和Tutti的对标/替代对象",
-    "mention_count": 49,
-    "article_count": 8,
+    "mention_count": 54,
+    "article_count": 9,
     "aliases": [
       "DingTalk"
     ],
@@ -14,14 +14,16 @@
       "Agent载体",
       "B端应用",
       "GUI",
+      "IM",
+      "办公Agent入口",
       "办公工具",
       "办公生态",
       "办公软件",
       "大厂",
       "聊天软件"
     ],
-    "references": 8,
-    "source_article_count": 8,
+    "references": 9,
+    "source_article_count": 9,
     "source_articles": [
       {
         "article_id": "045",
@@ -31,6 +33,15 @@
         "permalink": "/articles/045",
         "markdown_link": "articles/045_2025-12-24_葬爱咸鱼_无招把钉钉当玩具整.md",
         "mention_count": 26
+      },
+      {
+        "article_id": "145",
+        "title": "主观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-08",
+        "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/145",
+        "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 5
       },
       {
         "article_id": "044",
@@ -96,8 +107,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 24,
-    "composite_weight": 0.2204
+    "degree": 26,
+    "composite_weight": 0.2492
   },
   "links": [
     {
@@ -255,11 +266,50 @@
       ]
     },
     {
+      "source": "raft",
+      "target": "钉钉",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Raft作为AI协作产品试图颠覆钉钉等传统IM办公模式",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "145"
+      ],
+      "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "Raft作为AI协作产品试图颠覆钉钉等传统IM办公模式",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "钉钉",
       "target": "plaud",
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "文中明确指出钉钉抄袭了Plaud的功能",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "钉钉",
+      "target": "raft",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Raft作为AI协作产品试图颠覆钉钉等传统IM办公模式",
       "weight": 1,
       "strength": 3,
       "effective_weight": 3,
@@ -546,15 +596,26 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "结合上下文办公场景竞争推断钉钉为阿里旗下产品",
-      "weight": 2,
+      "weight": 3,
       "strength": 4,
-      "effective_weight": 10,
-      "article_count": 2,
+      "effective_weight": 15,
+      "article_count": 3,
       "evidence_articles": [
         "102",
-        "112"
+        "112",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "钉钉是阿里巴巴旗下的协作平台",
+          "weight": 1
+        },
         {
           "article_id": "112",
           "title": "老天保佑Qwen救救阿里巴巴",
@@ -697,18 +758,44 @@
     {
       "source": "腾讯",
       "target": "钉钉",
-      "score": 0.4613,
+      "score": 0.5298,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 1 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
-        "102"
+        "102",
+        "145"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "钉钉",
+      "score": 0.4527,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "120",
+        "145"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "codex",
+      "target": "钉钉",
+      "score": 0.4361,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "102",
+        "120",
+        "145"
       ],
       "status": "suggested"
     },
     {
       "source": "note",
       "target": "钉钉",
-      "score": 0.411,
+      "score": 0.4094,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [

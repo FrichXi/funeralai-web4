@@ -4,8 +4,8 @@
     "name": "Claude",
     "type": "product",
     "description": "Anthropic 的模型系列，文中评测显示其信息量高于 GPT，且 Fable-5 版本隐喻率最高",
-    "mention_count": 236,
-    "article_count": 38,
+    "mention_count": 237,
+    "article_count": 39,
     "aliases": [
       "CC",
       "CC SDK",
@@ -69,8 +69,8 @@
       "通用引擎",
       "闭源模型"
     ],
-    "references": 38,
-    "source_article_count": 38,
+    "references": 39,
+    "source_article_count": 39,
     "source_articles": [
       {
         "article_id": "024",
@@ -343,6 +343,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "145",
+        "title": "主观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-08",
+        "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/145",
+        "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "088",
         "title": "读过豆包赚钱手册才敢自称懂AI",
         "date": "2026-05-07",
@@ -416,7 +425,7 @@
       }
     ],
     "degree": 85,
-    "composite_weight": 0.9174
+    "composite_weight": 0.9203
   },
   "links": [
     {
@@ -538,15 +547,26 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "作者认为Codex比Claude code更快干脆",
-      "weight": 2,
+      "weight": 3,
       "strength": 2,
-      "effective_weight": 6,
-      "article_count": 2,
+      "effective_weight": 9,
+      "article_count": 3,
       "evidence_articles": [
         "066",
-        "101"
+        "101",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "两者被并称为硅谷双子星，代表超高难度任务的处理能力",
+          "weight": 1
+        },
         {
           "article_id": "101",
           "title": "AI圈神童杀死神人",
@@ -2613,7 +2633,7 @@
       "target": "飞书",
       "score": 0.785,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 5 篇文章；共享 6 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "033",
         "067",
@@ -2625,10 +2645,25 @@
     },
     {
       "source": "claude",
+      "target": "阿里巴巴",
+      "score": 0.7501,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "049",
+        "071",
+        "103",
+        "105",
+        "145"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "claude",
       "target": "字节跳动",
       "score": 0.7127,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 8 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 9 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "017",
         "040",
@@ -2647,20 +2682,6 @@
       "evidence_article_ids": [
         "076",
         "099",
-        "103",
-        "105"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "claude",
-      "target": "阿里巴巴",
-      "score": 0.6855,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "049",
-        "071",
         "103",
         "105"
       ],

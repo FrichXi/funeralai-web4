@@ -4,8 +4,8 @@
     "name": "字节跳动",
     "type": "company",
     "description": "中国互联网科技公司，开发了抖音、即梦等产品，文中探讨了其通过AI视频模型实现社交的布局。",
-    "mention_count": 161,
-    "article_count": 35,
+    "mention_count": 171,
+    "article_count": 36,
     "aliases": [
       "ByteDance",
       "大厂",
@@ -32,6 +32,7 @@
       "互联网巨头",
       "元宇宙",
       "办公",
+      "办公Agent",
       "基础设施",
       "大厂",
       "大模型",
@@ -47,8 +48,8 @@
       "视频生成",
       "语音模型"
     ],
-    "references": 35,
-    "source_article_count": 35,
+    "references": 36,
+    "source_article_count": 36,
     "source_articles": [
       {
         "article_id": "040",
@@ -85,6 +86,15 @@
         "permalink": "/articles/062",
         "markdown_link": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
         "mention_count": 12
+      },
+      {
+        "article_id": "145",
+        "title": "主观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-08",
+        "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/145",
+        "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 10
       },
       {
         "article_id": "017",
@@ -367,7 +377,7 @@
       }
     ],
     "degree": 57,
-    "composite_weight": 0.7014
+    "composite_weight": 0.7247
   },
   "links": [
     {
@@ -1078,16 +1088,27 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节大力投入Trae",
-      "weight": 3,
+      "weight": 4,
       "strength": 4,
-      "effective_weight": 15,
-      "article_count": 3,
+      "effective_weight": 20,
+      "article_count": 4,
       "evidence_articles": [
         "103",
         "111",
-        "144"
+        "144",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "字节跳动开发Trae IDE",
+          "weight": 1
+        },
         {
           "article_id": "144",
           "title": "客观评价字节阿里腾讯之Agent大战",
@@ -1366,19 +1387,30 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "扣子是字节跳动为探索AI应用落地而开发的平台。",
-      "weight": 6,
+      "weight": 7,
       "strength": 4,
-      "effective_weight": 30,
-      "article_count": 6,
+      "effective_weight": 35,
+      "article_count": 7,
       "evidence_articles": [
         "017",
         "018",
         "082",
         "088",
         "102",
-        "144"
+        "144",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "字节跳动开发Coze平台",
+          "weight": 1
+        },
         {
           "article_id": "144",
           "title": "客观评价字节阿里腾讯之Agent大战",
@@ -1718,14 +1750,25 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节跳动开发并主推豆包工作作为办公Agent入口",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "144"
+        "144",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "字节跳动开发并推广豆包工作作为办公Agent入口",
+          "weight": 1
+        },
         {
           "article_id": "144",
           "title": "客观评价字节阿里腾讯之Agent大战",
@@ -1757,17 +1800,28 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "文章提到飞书属于字节生态",
-      "weight": 4,
+      "weight": 5,
       "strength": 4,
-      "effective_weight": 20,
-      "article_count": 4,
+      "effective_weight": 25,
+      "article_count": 5,
       "evidence_articles": [
         "082",
         "088",
         "102",
-        "144"
+        "144",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "飞书是字节跳动旗下的协作平台",
+          "weight": 1
+        },
         {
           "article_id": "144",
           "title": "客观评价字节阿里腾讯之Agent大战",
@@ -2301,7 +2355,7 @@
     {
       "source": "manus",
       "target": "字节跳动",
-      "score": 0.8177,
+      "score": 0.8174,
       "suggested_relation_type": "related",
       "reason": "共同出现于 8 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
@@ -2318,7 +2372,7 @@
       "target": "字节跳动",
       "score": 0.7127,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 8 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 9 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "017",
         "040",
@@ -2346,7 +2400,7 @@
     {
       "source": "oiioii",
       "target": "字节跳动",
-      "score": 0.6837,
+      "score": 0.6834,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 4 个邻居",
       "evidence_article_ids": [

@@ -4,22 +4,33 @@
     "name": "WorkBuddy",
     "type": "product",
     "description": "腾讯推出的办公Agent产品，插件复杂但模型切换灵活",
-    "mention_count": 19,
-    "article_count": 6,
+    "mention_count": 27,
+    "article_count": 7,
     "aliases": [],
     "tags": [
       "AI办公",
       "AI工具",
       "Agent",
       "办公",
+      "办公Agent",
+      "开放生态",
       "本地工具",
       "生产力工具",
       "编程工具",
       "腾讯云团队"
     ],
-    "references": 6,
-    "source_article_count": 6,
+    "references": 7,
+    "source_article_count": 7,
     "source_articles": [
+      {
+        "article_id": "145",
+        "title": "主观评价字节阿里腾讯之Agent大战",
+        "date": "2026-09-08",
+        "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "permalink": "/articles/145",
+        "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+        "mention_count": 8
+      },
       {
         "article_id": "144",
         "title": "客观评价字节阿里腾讯之Agent大战",
@@ -75,10 +86,36 @@
         "mention_count": 1
       }
     ],
-    "degree": 17,
-    "composite_weight": 0.1736
+    "degree": 19,
+    "composite_weight": 0.2091
   },
   "links": [
+    {
+      "source": "workbuddy",
+      "target": "plaud",
+      "relation_type": "acquires",
+      "type": "acquires",
+      "label": "作者强烈建议WorkBuddy收购Plaud以完善硬件入口（非既定事实，但为核心论述关系）",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "145"
+      ],
+      "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "作者强烈建议WorkBuddy收购Plaud以完善硬件入口（非既定事实，但为核心论述关系）",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "qclaw",
       "target": "workbuddy",
@@ -397,16 +434,27 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "腾讯正在猛推WorkBuddy",
-      "weight": 3,
+      "weight": 4,
       "strength": 4,
-      "effective_weight": 15,
-      "article_count": 3,
+      "effective_weight": 20,
+      "article_count": 4,
       "evidence_articles": [
         "102",
         "111",
-        "144"
+        "144",
+        "145"
       ],
       "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "WorkBuddy是腾讯推出的AI办公助手",
+          "weight": 1
+        },
         {
           "article_id": "144",
           "title": "客观评价字节阿里腾讯之Agent大战",
@@ -438,59 +486,89 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "workbuddy",
+      "target": "天美工作室",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "WorkBuddy已接入和平精英，作者期待进一步打通天美工作室权益",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "145"
+      ],
+      "evidences": [
+        {
+          "article_id": "145",
+          "title": "主观评价字节阿里腾讯之Agent大战",
+          "permalink": "/articles/145",
+          "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "path": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
+          "date": "2026-09-08",
+          "label": "WorkBuddy已接入和平精英，作者期待进一步打通天美工作室权益",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "workbuddy",
       "target": "阿里巴巴",
-      "score": 0.4961,
+      "score": 0.5657,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "102",
         "125",
         "128",
-        "144"
+        "144",
+        "145"
       ],
       "status": "suggested"
     },
     {
       "source": "qoder",
       "target": "workbuddy",
-      "score": 0.4567,
+      "score": 0.5267,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "128",
-        "144"
+        "144",
+        "145"
       ],
       "status": "suggested"
     },
     {
       "source": "workbuddy",
       "target": "字节跳动",
-      "score": 0.4461,
+      "score": 0.5157,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "102",
         "111",
         "125",
-        "144"
+        "144",
+        "145"
       ],
       "status": "suggested"
     },
     {
       "source": "workbuddy",
       "target": "百度",
-      "score": 0.4089,
+      "score": 0.4786,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "102",
         "125",
-        "144"
+        "144",
+        "145"
       ],
       "status": "suggested"
     }
