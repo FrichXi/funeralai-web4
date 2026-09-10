@@ -4,8 +4,8 @@
     "name": "字节跳动",
     "type": "company",
     "description": "中国互联网科技公司，开发了抖音、即梦等产品，文中探讨了其通过AI视频模型实现社交的布局。",
-    "mention_count": 171,
-    "article_count": 36,
+    "mention_count": 177,
+    "article_count": 37,
     "aliases": [
       "ByteDance",
       "大厂",
@@ -20,6 +20,7 @@
     ],
     "tags": [
       "AI公司",
+      "AI办公",
       "AI应用",
       "AI战略",
       "AI社交",
@@ -48,8 +49,8 @@
       "视频生成",
       "语音模型"
     ],
-    "references": 36,
-    "source_article_count": 36,
+    "references": 37,
+    "source_article_count": 37,
     "source_articles": [
       {
         "article_id": "040",
@@ -104,6 +105,15 @@
         "permalink": "/articles/017",
         "markdown_link": "articles/017_2025-08-29_葬爱咸鱼_字节用扣子证明，Agent只能被计划.md",
         "mention_count": 9
+      },
+      {
+        "article_id": "146",
+        "title": "我妈不让我和百度搭子玩",
+        "date": "2026-09-09",
+        "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "permalink": "/articles/146",
+        "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "mention_count": 6
       },
       {
         "article_id": "119",
@@ -377,7 +387,7 @@
       }
     ],
     "degree": 57,
-    "composite_weight": 0.7247
+    "composite_weight": 0.7387
   },
   "links": [
     {
@@ -646,14 +656,25 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "在搜索基本盘和AI应用上存在竞争关系",
-      "weight": 1,
+      "weight": 2,
       "strength": 3,
-      "effective_weight": 4,
-      "article_count": 1,
+      "effective_weight": 8,
+      "article_count": 2,
       "evidence_articles": [
-        "125"
+        "125",
+        "146"
       ],
       "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "在AI办公领域存在竞争关系",
+          "weight": 1
+        },
         {
           "article_id": "125",
           "title": "建议百度文心一言申请非遗",
@@ -2370,7 +2391,7 @@
     {
       "source": "claude",
       "target": "字节跳动",
-      "score": 0.7127,
+      "score": 0.7125,
       "suggested_relation_type": "related",
       "reason": "共同出现于 9 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -2385,9 +2406,9 @@
     {
       "source": "kimi",
       "target": "字节跳动",
-      "score": 0.7076,
+      "score": 0.7074,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "040",
         "065",

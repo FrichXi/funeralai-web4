@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "懂模帝bench",
+    "name": "懂模帝Bench",
+    "type": "product",
+    "description": "由葬AI与Qwen联合举办的黑客松赛事名称",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Benchmark",
+      "黑客松"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "147",
+        "title": "好测风大模型如何夺取网吧大结果",
+        "date": "2026-09-10",
+        "path": "articles/147_2026-09-10_葬爱咸鱼_好测风大模型如何夺取网吧大结果.md",
+        "permalink": "/articles/147",
+        "markdown_link": "articles/147_2026-09-10_葬爱咸鱼_好测风大模型如何夺取网吧大结果.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0147
+  },
+  "links": [
+    {
+      "source": "qwen",
+      "target": "懂模帝bench",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Qwen联合举办了懂模帝Bench黑客松",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "147"
+      ],
+      "evidences": [
+        {
+          "article_id": "147",
+          "title": "好测风大模型如何夺取网吧大结果",
+          "permalink": "/articles/147",
+          "markdown_link": "articles/147_2026-09-10_葬爱咸鱼_好测风大模型如何夺取网吧大结果.md",
+          "path": "articles/147_2026-09-10_葬爱咸鱼_好测风大模型如何夺取网吧大结果.md",
+          "date": "2026-09-10",
+          "label": "Qwen联合举办了懂模帝Bench黑客松",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

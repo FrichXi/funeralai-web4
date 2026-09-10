@@ -4,9 +4,11 @@
     "name": "WorkBuddy",
     "type": "product",
     "description": "腾讯推出的办公Agent产品，插件复杂但模型切换灵活",
-    "mention_count": 27,
-    "article_count": 7,
-    "aliases": [],
+    "mention_count": 30,
+    "article_count": 8,
+    "aliases": [
+      "Workbuddy"
+    ],
     "tags": [
       "AI办公",
       "AI工具",
@@ -16,11 +18,12 @@
       "开放生态",
       "本地工具",
       "生产力工具",
+      "竞品",
       "编程工具",
       "腾讯云团队"
     ],
-    "references": 7,
-    "source_article_count": 7,
+    "references": 8,
+    "source_article_count": 8,
     "source_articles": [
       {
         "article_id": "145",
@@ -48,6 +51,15 @@
         "permalink": "/articles/102",
         "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
         "mention_count": 6
+      },
+      {
+        "article_id": "146",
+        "title": "我妈不让我和百度搭子玩",
+        "date": "2026-09-09",
+        "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "permalink": "/articles/146",
+        "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "mention_count": 3
       },
       {
         "article_id": "131",
@@ -86,8 +98,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 19,
-    "composite_weight": 0.2091
+    "degree": 21,
+    "composite_weight": 0.2326
   },
   "links": [
     {
@@ -183,6 +195,32 @@
     },
     {
       "source": "workbuddy",
+      "target": "百度搭子",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "百度在PR稿件中将百度搭子与Workbuddy并称为AI办公双雄",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "146"
+      ],
+      "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "百度在PR稿件中将百度搭子与Workbuddy并称为AI办公双雄",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "workbuddy",
       "target": "秒哒3-0",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -213,6 +251,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "在办公场景下，腾讯开始用WorkBuddy平替/取代元宝的生态定位",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "百度搭子",
+      "target": "workbuddy",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "百度在PR稿件中将百度搭子与Workbuddy并称为AI办公双雄",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -517,10 +568,25 @@
   "suggested_edges": [
     {
       "source": "workbuddy",
+      "target": "百度",
+      "score": 0.6301,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "102",
+        "125",
+        "144",
+        "145",
+        "146"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "workbuddy",
       "target": "阿里巴巴",
       "score": 0.5657,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "102",
         "125",
@@ -548,7 +614,7 @@
       "target": "字节跳动",
       "score": 0.5157,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "102",
         "111",
@@ -560,15 +626,15 @@
     },
     {
       "source": "workbuddy",
-      "target": "百度",
-      "score": 0.4786,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
+      "target": "豆包",
+      "score": 0.3915,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 1 个邻居",
       "evidence_article_ids": [
-        "102",
+        "111",
         "125",
-        "144",
-        "145"
+        "128",
+        "146"
       ],
       "status": "suggested"
     }

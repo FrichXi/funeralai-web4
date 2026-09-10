@@ -4,8 +4,8 @@
     "name": "Qwen",
     "type": "product",
     "description": "通义千问大模型系列，文中提及Qwen3.8-Max等版本，在嵌入式驱动、物理模拟及无人机飞控等Bench中表现突出",
-    "mention_count": 219,
-    "article_count": 24,
+    "mention_count": 220,
+    "article_count": 25,
     "aliases": [
       "Qwen 3",
       "Qwen 3.7",
@@ -53,10 +53,11 @@
       "物理模拟",
       "编程",
       "语音输入",
-      "长程任务"
+      "长程任务",
+      "黑客松主办方"
     ],
-    "references": 24,
-    "source_article_count": 24,
+    "references": 25,
+    "source_article_count": 25,
     "source_articles": [
       {
         "article_id": "112",
@@ -167,6 +168,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "147",
+        "title": "好测风大模型如何夺取网吧大结果",
+        "date": "2026-09-10",
+        "path": "articles/147_2026-09-10_葬爱咸鱼_好测风大模型如何夺取网吧大结果.md",
+        "permalink": "/articles/147",
+        "markdown_link": "articles/147_2026-09-10_葬爱咸鱼_好测风大模型如何夺取网吧大结果.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "076",
         "title": "葬CLI如闪电般上线",
         "date": "2026-03-26",
@@ -275,8 +285,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 59,
-    "composite_weight": 0.6875
+    "degree": 60,
+    "composite_weight": 0.6982
   },
   "links": [
     {
@@ -1236,6 +1246,32 @@
       "evidences": []
     },
     {
+      "source": "qwen",
+      "target": "懂模帝bench",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Qwen联合举办了懂模帝Bench黑客松",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "147"
+      ],
+      "evidences": [
+        {
+          "article_id": "147",
+          "title": "好测风大模型如何夺取网吧大结果",
+          "permalink": "/articles/147",
+          "markdown_link": "articles/147_2026-09-10_葬爱咸鱼_好测风大模型如何夺取网吧大结果.md",
+          "path": "articles/147_2026-09-10_葬爱咸鱼_好测风大模型如何夺取网吧大结果.md",
+          "date": "2026-09-10",
+          "label": "Qwen联合举办了懂模帝Bench黑客松",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "阿里云",
       "target": "qwen",
       "relation_type": "develops",
@@ -1570,7 +1606,7 @@
     {
       "source": "qwen",
       "target": "智谱ai",
-      "score": 0.787,
+      "score": 0.7868,
       "suggested_relation_type": "related",
       "reason": "共同出现于 8 篇文章；共享 7 个邻居",
       "evidence_article_ids": [
@@ -1585,7 +1621,7 @@
     {
       "source": "codex",
       "target": "qwen",
-      "score": 0.7794,
+      "score": 0.7792,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 6 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1615,7 +1651,7 @@
     {
       "source": "qwen",
       "target": "字节跳动",
-      "score": 0.6092,
+      "score": 0.609,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1629,7 +1665,7 @@
     {
       "source": "qwen",
       "target": "阶跃星辰",
-      "score": 0.6062,
+      "score": 0.6057,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 5 个邻居",
       "evidence_article_ids": [

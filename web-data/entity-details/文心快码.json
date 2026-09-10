@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "文心快码",
+    "name": "文心快码",
+    "type": "product",
+    "description": "百度的AI代码助手，文中提及已并入百度搭子",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI编程"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "146",
+        "title": "我妈不让我和百度搭子玩",
+        "date": "2026-09-09",
+        "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "permalink": "/articles/146",
+        "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0205
+  },
+  "links": [
+    {
+      "source": "百度",
+      "target": "文心快码",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "百度开发文心快码",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "146"
+      ],
+      "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "百度开发文心快码",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "文心快码",
+      "target": "百度搭子",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文中提及文心快码已并入百度搭子",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "146"
+      ],
+      "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "文中提及文心快码已并入百度搭子",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

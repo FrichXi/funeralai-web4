@@ -4,13 +4,14 @@
     "name": "腾讯",
     "type": "company",
     "description": "中国知名科技互联网公司，在文中开发了多款Agent及其他软件产品",
-    "mention_count": 76,
-    "article_count": 14,
+    "mention_count": 83,
+    "article_count": 15,
     "aliases": [
       "Tencent"
     ],
     "tags": [
       "AI公司",
+      "AI办公",
       "Agent",
       "互联网",
       "互联网大厂",
@@ -22,8 +23,8 @@
       "科技大厂",
       "资方"
     ],
-    "references": 14,
-    "source_article_count": 14,
+    "references": 15,
+    "source_article_count": 15,
     "source_articles": [
       {
         "article_id": "102",
@@ -51,6 +52,15 @@
         "permalink": "/articles/145",
         "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
         "mention_count": 8
+      },
+      {
+        "article_id": "146",
+        "title": "我妈不让我和百度搭子玩",
+        "date": "2026-09-09",
+        "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "permalink": "/articles/146",
+        "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "mention_count": 7
       },
       {
         "article_id": "055",
@@ -152,8 +162,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 31,
-    "composite_weight": 0.3669
+    "degree": 33,
+    "composite_weight": 0.3991
   },
   "links": [
     {
@@ -296,11 +306,50 @@
       ]
     },
     {
+      "source": "百度",
+      "target": "腾讯",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在AI办公领域存在竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "146"
+      ],
+      "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "在AI办公领域存在竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "腾讯",
       "target": "字节跳动",
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "同属互联网巨头，未来大概率在AI领域有直接竞争。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "腾讯",
+      "target": "百度",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在AI办公领域存在竞争关系",
       "weight": 1,
       "strength": 3,
       "effective_weight": 3,
@@ -1065,7 +1114,7 @@
     {
       "source": "腾讯",
       "target": "葬爱咸鱼",
-      "score": 0.5502,
+      "score": 0.549,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [

@@ -119,7 +119,7 @@
       }
     ],
     "degree": 23,
-    "composite_weight": 0.1822
+    "composite_weight": 0.181
   },
   "links": [
     {
@@ -595,9 +595,9 @@
     {
       "source": "cherry-studio",
       "target": "阶跃桌面伙伴",
-      "score": 0.6854,
+      "score": 0.7351,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "027",
         "029",
@@ -609,9 +609,9 @@
     {
       "source": "codex",
       "target": "阶跃桌面伙伴",
-      "score": 0.5367,
+      "score": 0.5867,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "027",
         "029",
@@ -621,23 +621,11 @@
       "status": "suggested"
     },
     {
-      "source": "genspark",
-      "target": "阶跃桌面伙伴",
-      "score": 0.5117,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "032",
-        "067"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "qwen",
       "target": "阶跃桌面伙伴",
-      "score": 0.4988,
+      "score": 0.5485,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "027",
         "029",
@@ -649,7 +637,7 @@
     {
       "source": "kimi",
       "target": "阶跃桌面伙伴",
-      "score": 0.4947,
+      "score": 0.4945,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
@@ -657,6 +645,18 @@
         "029",
         "030",
         "057"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "genspark",
+      "target": "阶跃桌面伙伴",
+      "score": 0.4617,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "032",
+        "067"
       ],
       "status": "suggested"
     }

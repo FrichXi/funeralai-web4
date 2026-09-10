@@ -4,8 +4,8 @@
     "name": "Kimi",
     "type": "product",
     "description": "具有长上下文能力的大语言模型，文中被用作Claude Code的后端调用模型",
-    "mention_count": 216,
-    "article_count": 34,
+    "mention_count": 217,
+    "article_count": 35,
     "aliases": [
       "K2",
       "K2.7 Code",
@@ -67,8 +67,8 @@
       "长文本处理",
       "高估值"
     ],
-    "references": 34,
-    "source_article_count": 34,
+    "references": 35,
+    "source_article_count": 35,
     "source_articles": [
       {
         "article_id": "134",
@@ -287,6 +287,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "146",
+        "title": "我妈不让我和百度搭子玩",
+        "date": "2026-09-09",
+        "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "permalink": "/articles/146",
+        "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "065",
         "title": "豆包有Seed，火山有种",
         "date": "2026-02-14",
@@ -377,8 +386,8 @@
         "mention_count": 2
       }
     ],
-    "degree": 72,
-    "composite_weight": 0.8658
+    "degree": 74,
+    "composite_weight": 0.8806
   },
   "links": [
     {
@@ -882,6 +891,32 @@
     },
     {
       "source": "kimi",
+      "target": "百度搭子",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "百度搭子模仿Kimi宣传片制作风格",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "146"
+      ],
+      "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "百度搭子模仿Kimi宣传片制作风格",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
       "target": "砸盘两兄弟",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -990,6 +1025,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "Kimi的性价比被用来与代表极致性价比的‘梁圣’进行对比，处于斩杀线以下",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "百度搭子",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "百度搭子模仿Kimi宣传片制作风格",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -2002,7 +2050,7 @@
     {
       "source": "chatgpt",
       "target": "kimi",
-      "score": 0.8271,
+      "score": 0.8265,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 8 个邻居",
       "evidence_article_ids": [
@@ -2017,9 +2065,9 @@
     {
       "source": "kimi",
       "target": "字节跳动",
-      "score": 0.7076,
+      "score": 0.7074,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "040",
         "065",

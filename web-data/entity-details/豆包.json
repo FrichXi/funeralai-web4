@@ -4,8 +4,8 @@
     "name": "豆包",
     "type": "product",
     "description": "抖音旗下/字节系的AI大模型产品，也是《豆包AI赚钱手册》的核心探讨对象",
-    "mention_count": 269,
-    "article_count": 28,
+    "mention_count": 277,
+    "article_count": 29,
     "aliases": [
       "Doubao",
       "糖包",
@@ -44,8 +44,8 @@
       "语音模式",
       "超级APP"
     ],
-    "references": 28,
-    "source_article_count": 28,
+    "references": 29,
+    "source_article_count": 29,
     "source_articles": [
       {
         "article_id": "065",
@@ -91,6 +91,15 @@
         "permalink": "/articles/112",
         "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
         "mention_count": 15
+      },
+      {
+        "article_id": "146",
+        "title": "我妈不让我和百度搭子玩",
+        "date": "2026-09-09",
+        "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "permalink": "/articles/146",
+        "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "mention_count": 8
       },
       {
         "article_id": "123",
@@ -300,8 +309,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 70,
-    "composite_weight": 0.7653
+    "degree": 72,
+    "composite_weight": 0.7977
   },
   "links": [
     {
@@ -1430,6 +1439,32 @@
       ]
     },
     {
+      "source": "百度搭子",
+      "target": "豆包",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同属AI办公Agent赛道，且百度搭子试图替代豆包的生态位",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "146"
+      ],
+      "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "同属AI办公Agent赛道，且百度搭子试图替代豆包的生态位",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "豆包",
       "target": "cherry-studio",
       "relation_type": "competes_with",
@@ -1565,6 +1600,19 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "文章提及蚂蚁集团可能试图用灵光去打（竞争）豆包。",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "豆包",
+      "target": "百度搭子",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同属AI办公Agent赛道，且百度搭子试图替代豆包的生态位",
       "weight": 1,
       "strength": 3,
       "effective_weight": 3,
@@ -1830,9 +1878,9 @@
     {
       "source": "豆包",
       "target": "阿里巴巴",
-      "score": 0.7998,
+      "score": 0.7992,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 7 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 8 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "034",
         "065",
@@ -1845,7 +1893,7 @@
     {
       "source": "智谱ai",
       "target": "豆包",
-      "score": 0.6664,
+      "score": 0.6662,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1860,7 +1908,7 @@
     {
       "source": "minimax",
       "target": "豆包",
-      "score": 0.6173,
+      "score": 0.6167,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1868,21 +1916,6 @@
         "057",
         "110",
         "128"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "火山引擎",
-      "target": "豆包",
-      "score": 0.5922,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "040",
-        "057",
-        "065",
-        "071",
-        "110"
       ],
       "status": "suggested"
     },
@@ -1896,6 +1929,19 @@
         "004",
         "040",
         "057"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "豆包",
+      "score": 0.581,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "064",
+        "111",
+        "125"
       ],
       "status": "suggested"
     }

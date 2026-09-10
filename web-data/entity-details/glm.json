@@ -74,7 +74,7 @@
       }
     ],
     "degree": 18,
-    "composite_weight": 0.2384
+    "composite_weight": 0.2375
   },
   "links": [
     {
@@ -514,7 +514,7 @@
     {
       "source": "deepseek",
       "target": "glm",
-      "score": 0.5272,
+      "score": 0.5266,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -528,7 +528,7 @@
     {
       "source": "chatgpt",
       "target": "glm",
-      "score": 0.4766,
+      "score": 0.4762,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 1 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -539,7 +539,7 @@
     {
       "source": "gemini",
       "target": "glm",
-      "score": 0.4733,
+      "score": 0.4727,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 1 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -550,7 +550,7 @@
     {
       "source": "glm",
       "target": "minimax",
-      "score": 0.4667,
+      "score": 0.4661,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 3 个邻居",
       "evidence_article_ids": [

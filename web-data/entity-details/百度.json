@@ -3,14 +3,15 @@
     "id": "百度",
     "name": "百度",
     "type": "company",
-    "description": "BAT之一，好大夫在线的前股东，曾雪中送炭投资多位AI创业者",
-    "mention_count": 84,
-    "article_count": 12,
+    "description": "中国头部互联网公司，文中讨论其AI办公Agent业务及内部赛马机制",
+    "mention_count": 137,
+    "article_count": 13,
     "aliases": [
       "Baidu",
       "百度战投"
     ],
     "tags": [
+      "AI办公",
       "AI应用",
       "Agent",
       "办公Agent",
@@ -22,9 +23,18 @@
       "搜索引擎",
       "落后版本"
     ],
-    "references": 12,
-    "source_article_count": 12,
+    "references": 13,
+    "source_article_count": 13,
     "source_articles": [
+      {
+        "article_id": "146",
+        "title": "我妈不让我和百度搭子玩",
+        "date": "2026-09-09",
+        "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "permalink": "/articles/146",
+        "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "mention_count": 53
+      },
       {
         "article_id": "125",
         "title": "建议百度文心一言申请非遗",
@@ -134,8 +144,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 26,
-    "composite_weight": 0.3006
+    "degree": 30,
+    "composite_weight": 0.3868
   },
   "links": [
     {
@@ -261,14 +271,25 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "在搜索基本盘和AI应用上存在竞争关系",
-      "weight": 1,
+      "weight": 2,
       "strength": 3,
-      "effective_weight": 4,
-      "article_count": 1,
+      "effective_weight": 8,
+      "article_count": 2,
       "evidence_articles": [
-        "125"
+        "125",
+        "146"
       ],
       "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "在AI办公领域存在竞争关系",
+          "weight": 1
+        },
         {
           "article_id": "125",
           "title": "建议百度文心一言申请非遗",
@@ -296,18 +317,55 @@
     },
     {
       "source": "百度",
-      "target": "阿里巴巴",
+      "target": "腾讯",
       "relation_type": "competes_with",
       "type": "competes_with",
-      "label": "在大模型和AI应用赛道存在竞争",
+      "label": "在AI办公领域存在竞争关系",
       "weight": 1,
       "strength": 3,
       "effective_weight": 4,
       "article_count": 1,
       "evidence_articles": [
-        "125"
+        "146"
       ],
       "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "在AI办公领域存在竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "百度",
+      "target": "阿里巴巴",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在大模型和AI应用赛道存在竞争",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "125",
+        "146"
+      ],
+      "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "在AI办公领域存在竞争关系",
+          "weight": 1
+        },
         {
           "article_id": "125",
           "title": "建议百度文心一言申请非遗",
@@ -319,6 +377,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "腾讯",
+      "target": "百度",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在AI办公领域存在竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
     },
     {
       "source": "阿里巴巴",
@@ -417,14 +488,25 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "百度开发了库库AI",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "136"
+        "136",
+        "146"
       ],
       "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "百度文库事业部开发了库库AI",
+          "weight": 1
+        },
         {
           "article_id": "136",
           "title": "AI应用骗钱，哦不融资指南",
@@ -469,15 +551,26 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "百度开发了文心一言产品",
-      "weight": 2,
+      "weight": 3,
       "strength": 4,
-      "effective_weight": 10,
-      "article_count": 2,
+      "effective_weight": 15,
+      "article_count": 3,
       "evidence_articles": [
         "125",
-        "144"
+        "144",
+        "146"
       ],
       "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "百度开发文心一言大模型",
+          "weight": 1
+        },
         {
           "article_id": "144",
           "title": "客观评价字节阿里腾讯之Agent大战",
@@ -502,18 +595,81 @@
     },
     {
       "source": "百度",
-      "target": "秒哒",
+      "target": "文心快码",
       "relation_type": "develops",
       "type": "develops",
-      "label": "百度开发了秒哒产品",
+      "label": "百度开发文心快码",
       "weight": 1,
       "strength": 4,
       "effective_weight": 5,
       "article_count": 1,
       "evidence_articles": [
-        "099"
+        "146"
       ],
       "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "百度开发文心快码",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "百度",
+      "target": "百度搭子",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "百度智能云事业部开发了百度搭子",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "146"
+      ],
+      "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "百度智能云事业部开发了百度搭子",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "百度",
+      "target": "秒哒",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "百度开发了秒哒产品",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "099",
+        "146"
+      ],
+      "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "百度开发秒哒平台",
+          "weight": 1
+        },
         {
           "article_id": "099",
           "title": "马卡龙开创AI短剧Neo Lab",
@@ -557,13 +713,26 @@
       "target": "百度",
       "relation_type": "founder_of",
       "type": "founder_of",
-      "label": "李彦宏创立百度",
+      "label": "Robin（李彦宏）是百度创始人",
       "weight": 1,
       "strength": 5,
-      "effective_weight": 5,
-      "article_count": 0,
-      "evidence_articles": [],
-      "evidences": []
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "146"
+      ],
+      "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "Robin（李彦宏）是百度创始人",
+          "weight": 1
+        }
+      ]
     },
     {
       "source": "百度",
@@ -794,6 +963,21 @@
   ],
   "suggested_edges": [
     {
+      "source": "workbuddy",
+      "target": "百度",
+      "score": 0.6301,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "102",
+        "125",
+        "144",
+        "145",
+        "146"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "manus",
       "target": "百度",
       "score": 0.6196,
@@ -805,20 +989,6 @@
         "055",
         "059",
         "144"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "workbuddy",
-      "target": "百度",
-      "score": 0.4786,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
-      "evidence_article_ids": [
-        "102",
-        "125",
-        "144",
-        "145"
       ],
       "status": "suggested"
     },
@@ -848,17 +1018,15 @@
       "status": "suggested"
     },
     {
-      "source": "扣子",
-      "target": "百度",
-      "score": 0.4095,
+      "source": "百度",
+      "target": "豆包",
+      "score": 0.453,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 1 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
-        "017",
-        "022",
-        "102",
-        "144",
-        "145"
+        "058",
+        "125",
+        "146"
       ],
       "status": "suggested"
     }

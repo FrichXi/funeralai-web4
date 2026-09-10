@@ -1,0 +1,57 @@
+{
+  "article": {
+    "id": "147",
+    "title": "好测风大模型如何夺取网吧大结果",
+    "path": "articles/147_2026-09-10_葬爱咸鱼_好测风大模型如何夺取网吧大结果.md",
+    "date": "2026-09-10",
+    "author": "葬爱咸鱼",
+    "content_hash": "d255c20dfa768191c43d64f6cb8754fa08cad54c787e114867b305a7c7ab697d"
+  },
+  "entities": [
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "与葬AI联合举办懂模帝Bench黑客松的大模型产品",
+      "mention_count": 1,
+      "aliases": [
+        "通义千问"
+      ],
+      "tags": [
+        "大模型",
+        "黑客松主办方"
+      ]
+    },
+    {
+      "id": "懂模帝bench",
+      "name": "懂模帝Bench",
+      "type": "product",
+      "description": "由葬AI与Qwen联合举办的黑客松赛事名称",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "Benchmark",
+        "黑客松"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Qwen",
+      "target": "懂模帝Bench",
+      "relation_type": "develops",
+      "label": "Qwen联合举办了懂模帝Bench黑客松",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 2,
+    "relationship_count": 1,
+    "pruned_entities": [],
+    "provider": "dashscope"
+  }
+}

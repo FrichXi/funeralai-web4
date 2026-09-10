@@ -3,18 +3,28 @@
     "id": "秒哒",
     "name": "秒哒",
     "type": "product",
-    "description": "百度推出的产品，主打一句话生成小程序",
-    "mention_count": 2,
-    "article_count": 2,
+    "description": "百度旗下的应用开发平台，文中提及可能并入百度搭子",
+    "mention_count": 3,
+    "article_count": 3,
     "aliases": [
       "百度秒哒"
     ],
     "tags": [
-      "一句话生成小程序"
+      "一句话生成小程序",
+      "低代码"
     ],
-    "references": 2,
-    "source_article_count": 2,
+    "references": 3,
+    "source_article_count": 3,
     "source_articles": [
+      {
+        "article_id": "146",
+        "title": "我妈不让我和百度搭子玩",
+        "date": "2026-09-09",
+        "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "permalink": "/articles/146",
+        "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "mention_count": 1
+      },
       {
         "article_id": "101",
         "title": "AI圈神童杀死神人",
@@ -34,8 +44,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 7,
-    "composite_weight": 0.0537
+    "degree": 8,
+    "composite_weight": 0.0679
   },
   "links": [
     {
@@ -161,14 +171,25 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "百度开发了秒哒产品",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "099"
+        "099",
+        "146"
       ],
       "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "百度开发秒哒平台",
+          "weight": 1
+        },
         {
           "article_id": "099",
           "title": "马卡龙开创AI短剧Neo Lab",
@@ -177,6 +198,32 @@
           "path": "articles/099_2026-06-04_葬爱咸鱼_马卡龙开创AI短剧Neo Lab.md",
           "date": "2026-06-04",
           "label": "百度开发了秒哒产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "百度搭子",
+      "target": "秒哒",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文中推测秒哒也将合并入百度搭子",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "146"
+      ],
+      "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "文中推测秒哒也将合并入百度搭子",
           "weight": 1
         }
       ]

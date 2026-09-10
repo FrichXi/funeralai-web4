@@ -4,13 +4,14 @@
     "name": "阿里巴巴",
     "type": "company",
     "description": "开发了Happy Horse视频模型和Happy Oyster世界模型",
-    "mention_count": 117,
-    "article_count": 22,
+    "mention_count": 125,
+    "article_count": 23,
     "aliases": [
       "老辈子阿里",
       "阿里"
     ],
     "tags": [
+      "AI办公",
       "AI整合",
       "Agent",
       "云市场",
@@ -35,8 +36,8 @@
       "视频生成",
       "阿里味"
     ],
-    "references": 22,
-    "source_article_count": 22,
+    "references": 23,
+    "source_article_count": 23,
     "source_articles": [
       {
         "article_id": "112",
@@ -64,6 +65,15 @@
         "permalink": "/articles/145",
         "markdown_link": "articles/145_2026-09-08_沐秋_主观评价字节阿里腾讯之Agent大战.md",
         "mention_count": 9
+      },
+      {
+        "article_id": "146",
+        "title": "我妈不让我和百度搭子玩",
+        "date": "2026-09-09",
+        "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "permalink": "/articles/146",
+        "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+        "mention_count": 8
       },
       {
         "article_id": "055",
@@ -238,7 +248,7 @@
       }
     ],
     "degree": 42,
-    "composite_weight": 0.5232
+    "composite_weight": 0.5442
   },
   "links": [
     {
@@ -412,14 +422,25 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "在大模型和AI应用赛道存在竞争",
-      "weight": 1,
+      "weight": 2,
       "strength": 3,
-      "effective_weight": 4,
-      "article_count": 1,
+      "effective_weight": 8,
+      "article_count": 2,
       "evidence_articles": [
-        "125"
+        "125",
+        "146"
       ],
       "evidences": [
+        {
+          "article_id": "146",
+          "title": "我妈不让我和百度搭子玩",
+          "permalink": "/articles/146",
+          "markdown_link": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "path": "articles/146_2026-09-09_沐秋_我妈不让我和百度搭子玩.md",
+          "date": "2026-09-09",
+          "label": "在AI办公领域存在竞争关系",
+          "weight": 1
+        },
         {
           "article_id": "125",
           "title": "建议百度文心一言申请非遗",
@@ -1343,9 +1364,9 @@
     {
       "source": "豆包",
       "target": "阿里巴巴",
-      "score": 0.7998,
+      "score": 0.7992,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 7 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 8 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "034",
         "065",
@@ -1358,7 +1379,7 @@
     {
       "source": "claude",
       "target": "阿里巴巴",
-      "score": 0.7501,
+      "score": 0.7495,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1373,7 +1394,7 @@
     {
       "source": "deepseek",
       "target": "阿里巴巴",
-      "score": 0.7014,
+      "score": 0.7008,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 6 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1390,7 +1411,7 @@
       "target": "阿里巴巴",
       "score": 0.5657,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "102",
         "125",
@@ -1403,7 +1424,7 @@
     {
       "source": "阿里巴巴",
       "target": "陈冕",
-      "score": 0.5349,
+      "score": 0.5337,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [

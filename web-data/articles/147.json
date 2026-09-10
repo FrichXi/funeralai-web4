@@ -1,0 +1,69 @@
+{
+  "id": "147",
+  "title": "好测风大模型如何夺取网吧大结果",
+  "date": "2026-09-10",
+  "author": "葬爱咸鱼",
+  "path": "articles/147_2026-09-10_葬爱咸鱼_好测风大模型如何夺取网吧大结果.md",
+  "permalink": "/articles/147",
+  "markdown_link": "articles/147_2026-09-10_葬爱咸鱼_好测风大模型如何夺取网吧大结果.md",
+  "raw_markdown": "# 好测风大模型如何夺取网吧大结果\n\n2026年9月10日 葬爱咸鱼 葬AI\n\n---\n\n在葬AI与Qwen联合举办的懂模帝Bench黑客松上，一众选手使出了全身力气，拼命想拿大结果，如同现在的模型厂拼命更新，全都想拿大结果——我是指追求AGI——一样。\n",
+  "body_markdown": "在葬AI与Qwen联合举办的懂模帝Bench黑客松上，一众选手使出了全身力气，拼命想拿大结果，如同现在的模型厂拼命更新，全都想拿大结果——我是指追求AGI——一样。",
+  "excerpt": "在葬AI与Qwen联合举办的懂模帝Bench黑客松上，一众选手使出了全身力气，拼命想拿大结果，如同现在的模型厂拼命更新，全都想拿大结果——我是指追求AGI——一样。",
+  "entity_count": 2,
+  "relationship_count": 1,
+  "entities": [
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "description": "通义千问大模型系列，文中提及Qwen3.8-Max等版本，在嵌入式驱动、物理模拟及无人机飞控等Bench中表现突出",
+      "mention_count": 1,
+      "aliases": [
+        "Qwen 3",
+        "Qwen 3.7",
+        "Qwen 3.7 Max",
+        "Qwen 3.7 plus",
+        "Qwen image",
+        "Qwen-Max",
+        "Qwen3.5-7B",
+        "Qwen3.8-Max",
+        "任务助手",
+        "千问",
+        "千问APP",
+        "千问任务助理",
+        "通义",
+        "通义APP",
+        "通义千问",
+        "通义大模型",
+        "阿里通义"
+      ],
+      "tags": [
+        "大模型",
+        "黑客松主办方"
+      ]
+    },
+    {
+      "id": "懂模帝bench",
+      "name": "懂模帝Bench",
+      "type": "product",
+      "description": "由葬AI与Qwen联合举办的黑客松赛事名称",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "Benchmark",
+        "黑客松"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "qwen",
+      "target_id": "懂模帝bench",
+      "source": "Qwen",
+      "target": "懂模帝Bench",
+      "relation_type": "develops",
+      "label": "Qwen联合举办了懂模帝Bench黑客松",
+      "weight": 1
+    }
+  ]
+}
