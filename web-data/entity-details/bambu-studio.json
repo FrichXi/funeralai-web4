@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "bambu-studio",
+    "name": "Bambu Studio",
+    "type": "product",
+    "description": "拓竹开发的3D打印切片软件，被GPT-6通过Computer Use操控",
+    "mention_count": 5,
+    "article_count": 1,
+    "aliases": [
+      "拓竹电脑端"
+    ],
+    "tags": [
+      "3D打印",
+      "切片软件"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "148",
+        "title": "GPT-6利好3D打印",
+        "date": "2026-09-11",
+        "path": "articles/148_2026-09-11_葬爱咸鱼_GPT-6利好3D打印.md",
+        "permalink": "/articles/148",
+        "markdown_link": "articles/148_2026-09-11_葬爱咸鱼_GPT-6利好3D打印.md",
+        "mention_count": 5
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0241
+  },
+  "links": [
+    {
+      "source": "拓竹",
+      "target": "bambu-studio",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "拓竹开发了Bambu Studio切片软件",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "148"
+      ],
+      "evidences": [
+        {
+          "article_id": "148",
+          "title": "GPT-6利好3D打印",
+          "permalink": "/articles/148",
+          "markdown_link": "articles/148_2026-09-11_葬爱咸鱼_GPT-6利好3D打印.md",
+          "path": "articles/148_2026-09-11_葬爱咸鱼_GPT-6利好3D打印.md",
+          "date": "2026-09-11",
+          "label": "拓竹开发了Bambu Studio切片软件",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

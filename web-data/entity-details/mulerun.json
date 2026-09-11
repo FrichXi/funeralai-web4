@@ -870,19 +870,6 @@
     },
     {
       "source": "mulerun",
-      "target": "腾讯",
-      "score": 0.5187,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "018",
-        "071",
-        "145"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "mulerun",
       "target": "qwen",
       "score": 0.4761,
       "suggested_relation_type": "compares_to",
@@ -890,6 +877,19 @@
       "evidence_article_ids": [
         "026",
         "066"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "mulerun",
+      "target": "腾讯",
+      "score": 0.4687,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "018",
+        "071",
+        "145"
       ],
       "status": "suggested"
     },

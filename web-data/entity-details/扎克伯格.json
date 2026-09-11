@@ -4,8 +4,8 @@
     "name": "扎克伯格",
     "type": "person",
     "description": "Facebook创始人，被36氪采访对标为陈总的比较对象。",
-    "mention_count": 7,
-    "article_count": 4,
+    "mention_count": 8,
+    "article_count": 5,
     "aliases": [
       "Mark Zuckerberg",
       "Zuckerberg",
@@ -18,8 +18,8 @@
       "CEO",
       "科技人物"
     ],
-    "references": 4,
-    "source_article_count": 4,
+    "references": 5,
+    "source_article_count": 5,
     "source_articles": [
       {
         "article_id": "015",
@@ -40,6 +40,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "148",
+        "title": "GPT-6利好3D打印",
+        "date": "2026-09-11",
+        "path": "articles/148_2026-09-11_葬爱咸鱼_GPT-6利好3D打印.md",
+        "permalink": "/articles/148",
+        "markdown_link": "articles/148_2026-09-11_葬爱咸鱼_GPT-6利好3D打印.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "050",
         "title": "Rokid是我的太阳（指物理温度）",
         "date": "2026-01-08",
@@ -58,8 +67,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 5,
-    "composite_weight": 0.0427
+    "degree": 6,
+    "composite_weight": 0.0574
   },
   "links": [
     {
@@ -130,17 +139,54 @@
     {
       "source": "扎克伯格",
       "target": "meta",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "作者借扎克伯格批评Meta模型刷榜（此处应为作者批评扎克伯格/Meta，修正为作者对实体的评价，但受限于schema，若必须person->any，则保留此条表示文中人物与公司的负面关联；严格来说应是作者criticizes Meta，但因作者非实体，故提取文中明确提到的负面行为主体关系）",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "148"
+      ],
+      "evidences": [
+        {
+          "article_id": "148",
+          "title": "GPT-6利好3D打印",
+          "permalink": "/articles/148",
+          "markdown_link": "articles/148_2026-09-11_葬爱咸鱼_GPT-6利好3D打印.md",
+          "path": "articles/148_2026-09-11_葬爱咸鱼_GPT-6利好3D打印.md",
+          "date": "2026-09-11",
+          "label": "作者借扎克伯格批评Meta模型刷榜（此处应为作者批评扎克伯格/Meta，修正为作者对实体的评价，但受限于schema，若必须person->any，则保留此条表示文中人物与公司的负面关联；严格来说应是作者criticizes Meta，但因作者非实体，故提取文中明确提到的负面行为主体关系）",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "扎克伯格",
+      "target": "meta",
       "relation_type": "founder_of",
       "type": "founder_of",
       "label": "扎克伯格是Meta的核心人物及掌控者",
-      "weight": 1,
+      "weight": 2,
       "strength": 5,
-      "effective_weight": 6,
-      "article_count": 1,
+      "effective_weight": 12,
+      "article_count": 2,
       "evidence_articles": [
-        "050"
+        "050",
+        "148"
       ],
       "evidences": [
+        {
+          "article_id": "148",
+          "title": "GPT-6利好3D打印",
+          "permalink": "/articles/148",
+          "markdown_link": "articles/148_2026-09-11_葬爱咸鱼_GPT-6利好3D打印.md",
+          "path": "articles/148_2026-09-11_葬爱咸鱼_GPT-6利好3D打印.md",
+          "date": "2026-09-11",
+          "label": "扎克伯格是Meta的创始人（文中隐含身份）",
+          "weight": 1
+        },
         {
           "article_id": "050",
           "title": "Rokid是我的太阳（指物理温度）",

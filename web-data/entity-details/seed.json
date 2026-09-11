@@ -704,6 +704,15 @@
   ],
   "suggested_edges": [
     {
+      "source": "codex",
+      "target": "seed",
+      "score": 0.5311,
+      "suggested_relation_type": "compares_to",
+      "reason": "共享 6 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [],
+      "status": "suggested"
+    },
+    {
       "source": "deepseek",
       "target": "seed",
       "score": 0.5209,
@@ -715,11 +724,11 @@
       "status": "suggested"
     },
     {
-      "source": "codex",
+      "source": "cherry-studio",
       "target": "seed",
-      "score": 0.4811,
+      "score": 0.4959,
       "suggested_relation_type": "compares_to",
-      "reason": "共享 6 个邻居",
+      "reason": "共享 7 个邻居；处于同一讨论社区",
       "evidence_article_ids": [],
       "status": "suggested"
     },
@@ -735,24 +744,13 @@
       "status": "suggested"
     },
     {
-      "source": "cherry-studio",
+      "source": "grok",
       "target": "seed",
-      "score": 0.4459,
+      "score": 0.4149,
       "suggested_relation_type": "compares_to",
-      "reason": "共享 7 个邻居",
-      "evidence_article_ids": [],
-      "status": "suggested"
-    },
-    {
-      "source": "seed",
-      "target": "阿里巴巴",
-      "score": 0.3944,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
-        "065",
-        "112",
-        "144"
+        "110"
       ],
       "status": "suggested"
     }

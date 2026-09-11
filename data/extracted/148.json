@@ -1,0 +1,182 @@
+{
+  "article": {
+    "id": "148",
+    "title": "GPT-6利好3D打印",
+    "path": "articles/148_2026-09-11_葬爱咸鱼_GPT-6利好3D打印.md",
+    "date": "2026-09-11",
+    "author": "葬爱咸鱼",
+    "content_hash": "210c11fab6fde4b166e083a8e737155faf8f8b6b610fc0ff70566ebda304a272"
+  },
+  "entities": [
+    {
+      "id": "拓竹",
+      "name": "拓竹",
+      "type": "company",
+      "description": "3D打印机厂商，文中提及P1S、A2L型号及Bambu Studio软件",
+      "mention_count": 14,
+      "aliases": [
+        "Bambu Lab"
+      ],
+      "tags": [
+        "3D打印",
+        "硬件"
+      ]
+    },
+    {
+      "id": "bambu-studio",
+      "name": "Bambu Studio",
+      "type": "product",
+      "description": "拓竹开发的3D打印切片软件，被GPT-6通过Computer Use操控",
+      "mention_count": 5,
+      "aliases": [
+        "拓竹电脑端"
+      ],
+      "tags": [
+        "3D打印",
+        "切片软件"
+      ]
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "type": "company",
+      "description": "GPT-6和Astra的开发公司，被指在模型产品化上领先",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "3D生成"
+      ]
+    },
+    {
+      "id": "tripo",
+      "name": "Tripo",
+      "type": "product",
+      "description": "专门的3D生成模型/工具，被GPT-6调用以优化人物模型生成",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "3D生成",
+        "AI工具"
+      ]
+    },
+    {
+      "id": "kimi-k3",
+      "name": "Kimi K3",
+      "type": "product",
+      "description": "月之暗面推出的模型，具备一次性生成前端小游戏能力",
+      "mention_count": 4,
+      "aliases": [
+        "K3"
+      ],
+      "tags": [
+        "大模型",
+        "代码生成"
+      ]
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "type": "product",
+      "description": "开源3D创作软件，被GPT-6 Astra调用以生成3D模型",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "3D建模"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "OpenAI的代码生成/执行环境，文中用于测试3D模型复刻",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "编程Agent"
+      ]
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "type": "company",
+      "description": "被批评新模型跑分高但存在刷榜嫌疑",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "扎克伯格",
+      "name": "扎克伯格",
+      "type": "person",
+      "description": "Meta创始人，被作者批评为进行刷榜恶行",
+      "mention_count": 1,
+      "aliases": [
+        "Mark Zuckerberg"
+      ],
+      "tags": [
+        "CEO"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "扎克伯格",
+      "target": "Meta",
+      "relation_type": "criticizes",
+      "label": "作者借扎克伯格批评Meta模型刷榜（此处应为作者批评扎克伯格/Meta，修正为作者对实体的评价，但受限于schema，若必须person->any，则保留此条表示文中人物与公司的负面关联；严格来说应是作者criticizes Meta，但因作者非实体，故提取文中明确提到的负面行为主体关系）",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "拓竹",
+      "target": "Bambu Studio",
+      "relation_type": "develops",
+      "label": "拓竹开发了Bambu Studio切片软件",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "扎克伯格",
+      "target": "Meta",
+      "relation_type": "founder_of",
+      "label": "扎克伯格是Meta的创始人（文中隐含身份）",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 9,
+    "relationship_count": 3,
+    "pruned_entities": [
+      {
+        "name": "Anthropic",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Fable",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Grok",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Qwen",
+        "reason": "low-signal"
+      },
+      {
+        "name": "a16z",
+        "reason": "low-signal"
+      }
+    ],
+    "provider": "dashscope"
+  }
+}

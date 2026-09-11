@@ -4,12 +4,13 @@
     "name": "OpenAI",
     "type": "company",
     "description": "AI 公司，文中提及其 DeepResearch 产品作为行业对标对象",
-    "mention_count": 27,
-    "article_count": 15,
+    "mention_count": 32,
+    "article_count": 16,
     "aliases": [
       "O社"
     ],
     "tags": [
+      "3D生成",
       "AI机构",
       "估值参考",
       "大模型",
@@ -22,9 +23,18 @@
       "行业标杆",
       "闭源模型"
     ],
-    "references": 15,
-    "source_article_count": 15,
+    "references": 16,
+    "source_article_count": 16,
     "source_articles": [
+      {
+        "article_id": "148",
+        "title": "GPT-6利好3D打印",
+        "date": "2026-09-11",
+        "path": "articles/148_2026-09-11_葬爱咸鱼_GPT-6利好3D打印.md",
+        "permalink": "/articles/148",
+        "markdown_link": "articles/148_2026-09-11_葬爱咸鱼_GPT-6利好3D打印.md",
+        "mention_count": 5
+      },
       {
         "article_id": "125",
         "title": "建议百度文心一言申请非遗",
@@ -162,7 +172,7 @@
       }
     ],
     "degree": 23,
-    "composite_weight": 0.2212
+    "composite_weight": 0.2395
   },
   "links": [
     {
@@ -658,21 +668,6 @@
   ],
   "suggested_edges": [
     {
-      "source": "kimi",
-      "target": "openai",
-      "score": 0.6666,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "005",
-        "048",
-        "099",
-        "109",
-        "138"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "claude",
       "target": "openai",
       "score": 0.6247,
@@ -684,6 +679,21 @@
         "103",
         "109",
         "143"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "kimi",
+      "target": "openai",
+      "score": 0.6166,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "005",
+        "048",
+        "099",
+        "109",
+        "138"
       ],
       "status": "suggested"
     },

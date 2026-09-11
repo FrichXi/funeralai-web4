@@ -4,8 +4,8 @@
     "name": "Kimi",
     "type": "product",
     "description": "具有长上下文能力的大语言模型，文中被用作Claude Code的后端调用模型",
-    "mention_count": 217,
-    "article_count": 35,
+    "mention_count": 221,
+    "article_count": 36,
     "aliases": [
       "K2",
       "K2.7 Code",
@@ -36,6 +36,7 @@
       "Long Context",
       "ToC",
       "产出不稳定",
+      "代码生成",
       "前端优化",
       "前端生成",
       "后端模型",
@@ -67,8 +68,8 @@
       "长文本处理",
       "高估值"
     ],
-    "references": 35,
-    "source_article_count": 35,
+    "references": 36,
+    "source_article_count": 36,
     "source_articles": [
       {
         "article_id": "134",
@@ -359,6 +360,15 @@
         "mention_count": 7
       },
       {
+        "article_id": "148",
+        "title": "GPT-6利好3D打印",
+        "date": "2026-09-11",
+        "path": "articles/148_2026-09-11_葬爱咸鱼_GPT-6利好3D打印.md",
+        "permalink": "/articles/148",
+        "markdown_link": "articles/148_2026-09-11_葬爱咸鱼_GPT-6利好3D打印.md",
+        "mention_count": 4
+      },
+      {
         "article_id": "132",
         "title": "Seedance 2.5自绝于网民",
         "date": "2026-08-12",
@@ -387,7 +397,7 @@
       }
     ],
     "degree": 74,
-    "composite_weight": 0.8806
+    "composite_weight": 0.8965
   },
   "links": [
     {
@@ -2050,9 +2060,9 @@
     {
       "source": "chatgpt",
       "target": "kimi",
-      "score": 0.8265,
+      "score": 0.8765,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 5 篇文章；共享 8 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 8 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "030",
         "040",
@@ -2078,11 +2088,24 @@
       "status": "suggested"
     },
     {
+      "source": "cursor",
+      "target": "kimi",
+      "score": 0.6209,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "004",
+        "030",
+        "138"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "kimi",
       "target": "openai",
-      "score": 0.6666,
+      "score": 0.6166,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "005",
         "048",
@@ -2103,19 +2126,6 @@
         "116",
         "138",
         "140"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "cursor",
-      "target": "kimi",
-      "score": 0.5709,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "004",
-        "030",
-        "138"
       ],
       "status": "suggested"
     }

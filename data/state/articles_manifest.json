@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T06:01:35Z",
+  "updatedAt": "2026-09-11T06:02:21Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -2941,6 +2941,26 @@
       "artifact_path": "data/extracted/147.json",
       "raw_path": "data/gemini_raw/147.json",
       "extracted_at": "2026-09-10T06:01:02Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "148": {
+      "article_id": "148",
+      "path": "articles/148_2026-09-11_葬爱咸鱼_GPT-6利好3D打印.md",
+      "title": "GPT-6利好3D打印",
+      "date": "2026-09-11",
+      "author": "葬爱咸鱼",
+      "content_hash": "210c11fab6fde4b166e083a8e737155faf8f8b6b610fc0ff70566ebda304a272",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/148.json",
+      "raw_path": "data/gemini_raw/148.json",
+      "extracted_at": "2026-09-11T06:02:21Z",
       "last_error": null,
       "extractor": {
         "name": "dashscope",

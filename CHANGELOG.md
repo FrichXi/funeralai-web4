@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+- Content update through 148: 147 articles; latest: GPT-6利好3D打印.
+
 - Content update through 147: 146 articles; latest: 好测风大模型如何夺取网吧大结果.
 
 - Content update through 145: 144 articles; latest: 主观评价字节阿里腾讯之Agent大战.
