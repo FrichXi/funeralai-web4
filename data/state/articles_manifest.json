@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-11T06:02:21Z",
+  "updatedAt": "2026-09-16T06:04:00Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -2961,6 +2961,26 @@
       "artifact_path": "data/extracted/148.json",
       "raw_path": "data/gemini_raw/148.json",
       "extracted_at": "2026-09-11T06:02:21Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "149": {
+      "article_id": "149",
+      "path": "articles/149_2026-09-15_沐秋_AI Dating都是衡水中学.md",
+      "title": "AI Dating都是衡水中学",
+      "date": "2026-09-15",
+      "author": "沐秋",
+      "content_hash": "fb83bdf986b424602f6b1124cb7405cb287994caf1ee63cba6bad97043de8819",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/149.json",
+      "raw_path": "data/gemini_raw/149.json",
+      "extracted_at": "2026-09-16T06:04:00Z",
       "last_error": null,
       "extractor": {
         "name": "dashscope",

@@ -2361,9 +2361,9 @@
     {
       "source": "flova",
       "target": "字节跳动",
-      "score": 0.9094,
+      "score": 0.9594,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 7 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 7 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "052",
         "065",
@@ -2389,9 +2389,24 @@
       "status": "suggested"
     },
     {
+      "source": "oiioii",
+      "target": "字节跳动",
+      "score": 0.7334,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 7 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "046",
+        "052",
+        "062",
+        "065",
+        "078"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "claude",
       "target": "字节跳动",
-      "score": 0.7125,
+      "score": 0.7123,
       "suggested_relation_type": "related",
       "reason": "共同出现于 9 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -2406,7 +2421,7 @@
     {
       "source": "kimi",
       "target": "字节跳动",
-      "score": 0.7074,
+      "score": 0.7072,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -2415,21 +2430,6 @@
         "085",
         "110",
         "112"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "oiioii",
-      "target": "字节跳动",
-      "score": 0.6834,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 7 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "046",
-        "052",
-        "062",
-        "065",
-        "078"
       ],
       "status": "suggested"
     }

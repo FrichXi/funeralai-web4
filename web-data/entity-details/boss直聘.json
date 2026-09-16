@@ -1,0 +1,97 @@
+{
+  "node": {
+    "id": "boss直聘",
+    "name": "Boss直聘",
+    "type": "company",
+    "description": "招聘平台，看准App的母公司",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "招聘"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "149",
+        "title": "AI Dating都是衡水中学",
+        "date": "2026-09-15",
+        "path": "articles/149_2026-09-15_沐秋_AI Dating都是衡水中学.md",
+        "permalink": "/articles/149",
+        "markdown_link": "articles/149_2026-09-15_沐秋_AI Dating都是衡水中学.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.029
+  },
+  "links": [
+    {
+      "source": "boss直聘",
+      "target": "看准",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中提到看准的投流凶猛程度和界面体验让人幻视Boss直聘",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "149"
+      ],
+      "evidences": [
+        {
+          "article_id": "149",
+          "title": "AI Dating都是衡水中学",
+          "permalink": "/articles/149",
+          "markdown_link": "articles/149_2026-09-15_沐秋_AI Dating都是衡水中学.md",
+          "path": "articles/149_2026-09-15_沐秋_AI Dating都是衡水中学.md",
+          "date": "2026-09-15",
+          "label": "文中提到看准的投流凶猛程度和界面体验让人幻视Boss直聘",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "看准",
+      "target": "boss直聘",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中提到看准的投流凶猛程度和界面体验让人幻视Boss直聘",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "boss直聘",
+      "target": "看准",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "看准是Boss直聘旗下的社交产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "149"
+      ],
+      "evidences": [
+        {
+          "article_id": "149",
+          "title": "AI Dating都是衡水中学",
+          "permalink": "/articles/149",
+          "markdown_link": "articles/149_2026-09-15_沐秋_AI Dating都是衡水中学.md",
+          "path": "articles/149_2026-09-15_沐秋_AI Dating都是衡水中学.md",
+          "date": "2026-09-15",
+          "label": "看准是Boss直聘旗下的社交产品",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

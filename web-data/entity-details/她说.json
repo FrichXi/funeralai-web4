@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "她说",
+    "name": "她说",
+    "type": "product",
+    "description": "文中提及的另一款Dating App，被描述为池子更大、调性相对严肃",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Dating App"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "149",
+        "title": "AI Dating都是衡水中学",
+        "date": "2026-09-15",
+        "path": "articles/149_2026-09-15_沐秋_AI Dating都是衡水中学.md",
+        "permalink": "/articles/149",
+        "markdown_link": "articles/149_2026-09-15_沐秋_AI Dating都是衡水中学.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0255
+  },
+  "links": [
+    {
+      "source": "她说",
+      "target": "良配",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比两者池子大小和调性，认为她说池子更大",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "149"
+      ],
+      "evidences": [
+        {
+          "article_id": "149",
+          "title": "AI Dating都是衡水中学",
+          "permalink": "/articles/149",
+          "markdown_link": "articles/149_2026-09-15_沐秋_AI Dating都是衡水中学.md",
+          "path": "articles/149_2026-09-15_沐秋_AI Dating都是衡水中学.md",
+          "date": "2026-09-15",
+          "label": "文中对比两者池子大小和调性，认为她说池子更大",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "良配",
+      "target": "她说",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比两者池子大小和调性，认为她说池子更大",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

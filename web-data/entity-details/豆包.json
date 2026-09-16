@@ -4,8 +4,8 @@
     "name": "豆包",
     "type": "product",
     "description": "抖音旗下/字节系的AI大模型产品，也是《豆包AI赚钱手册》的核心探讨对象",
-    "mention_count": 277,
-    "article_count": 29,
+    "mention_count": 278,
+    "article_count": 30,
     "aliases": [
       "Doubao",
       "糖包",
@@ -17,6 +17,7 @@
     "tags": [
       "2C",
       "2C应用",
+      "AI人格",
       "AI伴游",
       "AI助手",
       "AI大模型",
@@ -44,8 +45,8 @@
       "语音模式",
       "超级APP"
     ],
-    "references": 29,
-    "source_article_count": 29,
+    "references": 30,
+    "source_article_count": 30,
     "source_articles": [
       {
         "article_id": "065",
@@ -246,6 +247,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "149",
+        "title": "AI Dating都是衡水中学",
+        "date": "2026-09-15",
+        "path": "articles/149_2026-09-15_沐秋_AI Dating都是衡水中学.md",
+        "permalink": "/articles/149",
+        "markdown_link": "articles/149_2026-09-15_沐秋_AI Dating都是衡水中学.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "113",
         "title": "世界模型走了一些弯路",
         "date": "2026-07-02",
@@ -309,8 +319,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 72,
-    "composite_weight": 0.7977
+    "degree": 73,
+    "composite_weight": 0.8125
   },
   "links": [
     {
@@ -1869,6 +1879,32 @@
           "path": "articles/088_2026-05-07_沐秋_读过豆包赚钱手册才敢自称懂AI.md",
           "date": "2026-05-07",
           "label": "豆包深度学习了抖音上数以亿计的爆款产品数据和热梗",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "良配",
+      "target": "豆包",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文中提到良配的AI军师是'纯豆包人格'，暗示集成了豆包模型或使用了其人格设定",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "149"
+      ],
+      "evidences": [
+        {
+          "article_id": "149",
+          "title": "AI Dating都是衡水中学",
+          "permalink": "/articles/149",
+          "markdown_link": "articles/149_2026-09-15_沐秋_AI Dating都是衡水中学.md",
+          "path": "articles/149_2026-09-15_沐秋_AI Dating都是衡水中学.md",
+          "date": "2026-09-15",
+          "label": "文中提到良配的AI军师是'纯豆包人格'，暗示集成了豆包模型或使用了其人格设定",
           "weight": 1
         }
       ]

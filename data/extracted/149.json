@@ -1,0 +1,198 @@
+{
+  "article": {
+    "id": "149",
+    "title": "AI Dating都是衡水中学",
+    "path": "articles/149_2026-09-15_沐秋_AI Dating都是衡水中学.md",
+    "date": "2026-09-15",
+    "author": "沐秋",
+    "content_hash": "fb83bdf986b424602f6b1124cb7405cb287994caf1ee63cba6bad97043de8819"
+  },
+  "entities": [
+    {
+      "id": "良配",
+      "name": "良配",
+      "type": "product",
+      "description": "一款主打精准匹配和严肃婚恋的AI Dating应用，以高门槛注册流程和保结婚会员著称",
+      "mention_count": 20,
+      "aliases": [],
+      "tags": [
+        "AI Dating",
+        "严肃婚恋",
+        "做题家"
+      ]
+    },
+    {
+      "id": "世纪佳缘",
+      "name": "世纪佳缘",
+      "type": "product",
+      "description": "传统婚恋交友平台，文中作为上一代产品的代表与AI Dating产品进行对比",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "传统婚恋"
+      ]
+    },
+    {
+      "id": "看准",
+      "name": "看准",
+      "type": "product",
+      "description": "Boss直聘旗下的社交产品，前身为公司点评平台，现转型为Dating App",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "AI Dating"
+      ]
+    },
+    {
+      "id": "她说",
+      "name": "她说",
+      "type": "product",
+      "description": "文中提及的另一款Dating App，被描述为池子更大、调性相对严肃",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "Dating App"
+      ]
+    },
+    {
+      "id": "boss直聘",
+      "name": "Boss直聘",
+      "type": "company",
+      "description": "招聘平台，看准App的母公司",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "招聘"
+      ]
+    },
+    {
+      "id": "tinder",
+      "name": "Tinder",
+      "type": "product",
+      "description": "全球知名Dating App，文中作为滑动匹配机制和娱乐化社交的代表",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "Dating App",
+        "Swipe"
+      ]
+    },
+    {
+      "id": "三文盐",
+      "name": "三文盐",
+      "type": "person",
+      "description": "文章作者及评论者，Dating爱好者，对AI Dating产品持批判态度",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "评论员",
+        "Dating爱好者"
+      ]
+    },
+    {
+      "id": "百合网",
+      "name": "百合网",
+      "type": "company",
+      "description": "传统婚恋平台，文中提及曾收购世纪佳缘",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "传统婚恋"
+      ]
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "字节跳动旗下的大模型产品，文中指代良配AI军师底层的人格或模型能力",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "AI人格"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "百合网",
+      "target": "世纪佳缘",
+      "relation_type": "acquires",
+      "label": "文中明确提到百合网当年收购过世纪佳缘",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "Boss直聘",
+      "target": "看准",
+      "relation_type": "compares_to",
+      "label": "文中提到看准的投流凶猛程度和界面体验让人幻视Boss直聘",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Tinder",
+      "target": "良配",
+      "relation_type": "compares_to",
+      "label": "隐含对比，Tinder追求好玩和滑动交互，而良配等AI Dating追求效率和结婚结果",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "世纪佳缘",
+      "target": "良配",
+      "relation_type": "compares_to",
+      "label": "文中将良配的用户画像、严肃导向与世纪佳缘进行对比，认为用户可平移",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "她说",
+      "target": "良配",
+      "relation_type": "compares_to",
+      "label": "文中对比两者池子大小和调性，认为她说池子更大",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "三文盐",
+      "target": "良配",
+      "relation_type": "criticizes",
+      "label": "批评良配注册流程繁琐、AI军师功能尴尬、强行提效违背情感规律",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Boss直聘",
+      "target": "看准",
+      "relation_type": "develops",
+      "label": "看准是Boss直聘旗下的社交产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "良配",
+      "target": "豆包",
+      "relation_type": "integrates_with",
+      "label": "文中提到良配的AI军师是'纯豆包人格'，暗示集成了豆包模型或使用了其人格设定",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 9,
+    "relationship_count": 8,
+    "pruned_entities": [],
+    "provider": "dashscope"
+  }
+}
