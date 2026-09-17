@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T06:04:00Z",
+  "generatedAt": "2026-09-17T06:24:30Z",
   "segments": {
     "products": [
       {
@@ -130,15 +130,15 @@
       },
       {
         "rank": 8,
-        "nodeId": "seedance",
-        "name": "Seedance",
-        "displayName": "Seedance",
+        "nodeId": "codex",
+        "name": "Codex",
+        "displayName": "Codex",
         "type": "product",
-        "degree": 32,
-        "mention_count": 124,
-        "article_count": 12,
-        "composite_weight": 0.4065,
-        "description": "字节推出的AI视频生成大模型，支持参考图片、视频和音频生成并复刻内容。",
+        "degree": 38,
+        "mention_count": 52,
+        "article_count": 21,
+        "composite_weight": 0.4218,
+        "description": "AI编程/代理工具，文中作为本地Agent的代表被Raft和Tutti集成或模拟",
         "visualMode": "text",
         "asset": null,
         "featured": false,
@@ -148,15 +148,15 @@
       },
       {
         "rank": 9,
-        "nodeId": "codex",
-        "name": "Codex",
-        "displayName": "Codex",
+        "nodeId": "seedance",
+        "name": "Seedance",
+        "displayName": "Seedance",
         "type": "product",
-        "degree": 37,
-        "mention_count": 51,
-        "article_count": 20,
-        "composite_weight": 0.4063,
-        "description": "AI编程/代理工具，文中作为本地Agent的代表被Raft和Tutti集成或模拟",
+        "degree": 32,
+        "mention_count": 124,
+        "article_count": 12,
+        "composite_weight": 0.4065,
+        "description": "字节推出的AI视频生成大模型，支持参考图片、视频和音频生成并复刻内容。",
         "visualMode": "text",
         "asset": null,
         "featured": false,
@@ -546,6 +546,24 @@
       },
       {
         "rank": 11,
+        "nodeId": "雷军",
+        "name": "雷军",
+        "displayName": "雷军",
+        "type": "person",
+        "degree": 5,
+        "mention_count": 11,
+        "article_count": 2,
+        "composite_weight": 0.2976,
+        "description": "小米创始人，文中被作为大模型行业急需的产品定义能力代表人物",
+        "visualMode": "text",
+        "asset": null,
+        "featured": false,
+        "leaderboardSegments": [
+          "founders"
+        ]
+      },
+      {
+        "rank": 12,
         "nodeId": "彼得-蒂尔",
         "name": "彼得·蒂尔",
         "displayName": "彼得·蒂尔",
@@ -563,7 +581,7 @@
         ]
       },
       {
-        "rank": 12,
+        "rank": 13,
         "nodeId": "王小川",
         "name": "王小川",
         "displayName": "王小川",
@@ -581,7 +599,7 @@
         ]
       },
       {
-        "rank": 13,
+        "rank": 14,
         "nodeId": "周卓泉",
         "name": "周卓泉",
         "displayName": "周卓泉",
@@ -599,7 +617,7 @@
         ]
       },
       {
-        "rank": 14,
+        "rank": 15,
         "nodeId": "郭列",
         "name": "郭列",
         "displayName": "郭列",
@@ -617,7 +635,7 @@
         ]
       },
       {
-        "rank": 15,
+        "rank": 16,
         "nodeId": "闫俊杰",
         "name": "闫俊杰",
         "displayName": "闫俊杰",
@@ -635,7 +653,7 @@
         ]
       },
       {
-        "rank": 16,
+        "rank": 17,
         "nodeId": "张一鸣",
         "name": "张一鸣",
         "displayName": "张一鸣",
@@ -653,7 +671,7 @@
         ]
       },
       {
-        "rank": 17,
+        "rank": 18,
         "nodeId": "梁圣",
         "name": "梁圣",
         "displayName": "梁圣",
@@ -671,7 +689,7 @@
         ]
       },
       {
-        "rank": 18,
+        "rank": 19,
         "nodeId": "扎克伯格",
         "name": "扎克伯格",
         "displayName": "扎克伯格",
@@ -689,7 +707,7 @@
         ]
       },
       {
-        "rank": 19,
+        "rank": 20,
         "nodeId": "孙洋",
         "name": "孙洋",
         "displayName": "孙洋",
@@ -699,24 +717,6 @@
         "article_count": 1,
         "composite_weight": 0.2128,
         "description": "Looki创始人",
-        "visualMode": "text",
-        "asset": null,
-        "featured": false,
-        "leaderboardSegments": [
-          "founders"
-        ]
-      },
-      {
-        "rank": 20,
-        "nodeId": "唐杰",
-        "name": "唐杰",
-        "displayName": "唐杰",
-        "type": "person",
-        "degree": 5,
-        "mention_count": 5,
-        "article_count": 4,
-        "composite_weight": 0.2083,
-        "description": "智谱AI创始人/CEO，强调AI时代技术快速进步的重要性",
         "visualMode": "text",
         "asset": null,
         "featured": false,
@@ -1198,6 +1198,24 @@
       },
       {
         "rank": 14,
+        "nodeId": "小米",
+        "name": "小米",
+        "displayName": "小米",
+        "type": "company",
+        "degree": 14,
+        "mention_count": 18,
+        "article_count": 9,
+        "composite_weight": 0.1333,
+        "description": "科技公司，文中以其产品定义能力（如自带帐篷）作为大模型行业的对标案例",
+        "visualMode": "text",
+        "asset": null,
+        "featured": false,
+        "leaderboardSegments": [
+          "companies"
+        ]
+      },
+      {
+        "rank": 15,
         "nodeId": "谷歌",
         "name": "谷歌",
         "displayName": "谷歌",
@@ -1215,7 +1233,7 @@
         ]
       },
       {
-        "rank": 15,
+        "rank": 16,
         "nodeId": "vivix",
         "name": "Vivix",
         "displayName": "Vivix",
@@ -1225,24 +1243,6 @@
         "article_count": 6,
         "composite_weight": 0.1156,
         "description": "刘宇和张月光所在的AI公司，文章假设其如果转做算法实验室的处境",
-        "visualMode": "text",
-        "asset": null,
-        "featured": false,
-        "leaderboardSegments": [
-          "companies"
-        ]
-      },
-      {
-        "rank": 16,
-        "nodeId": "小米",
-        "name": "小米",
-        "displayName": "小米",
-        "type": "company",
-        "degree": 13,
-        "mention_count": 15,
-        "article_count": 8,
-        "composite_weight": 0.1156,
-        "description": "曾推出匿名模型Hunter Alpha参与打榜的科技公司",
         "visualMode": "text",
         "asset": null,
         "featured": false,

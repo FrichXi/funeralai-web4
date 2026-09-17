@@ -813,8 +813,22 @@
   "suggested_edges": [
     {
       "source": "cherry-studio",
+      "target": "阶跃桌面伙伴",
+      "score": 0.7356,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 5 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "027",
+        "029",
+        "060",
+        "066"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "cherry-studio",
       "target": "codex",
-      "score": 0.7092,
+      "score": 0.7098,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -826,23 +840,9 @@
       "status": "suggested"
     },
     {
-      "source": "cherry-studio",
-      "target": "阶跃桌面伙伴",
-      "score": 0.6849,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 5 个邻居",
-      "evidence_article_ids": [
-        "027",
-        "029",
-        "060",
-        "066"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "anthropic",
       "target": "cherry-studio",
-      "score": 0.6597,
+      "score": 0.6602,
       "suggested_relation_type": "related",
       "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -857,7 +857,7 @@
     {
       "source": "cherry-studio",
       "target": "manus",
-      "score": 0.5778,
+      "score": 0.5784,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -869,11 +869,15 @@
     },
     {
       "source": "cherry-studio",
-      "target": "seed",
-      "score": 0.4957,
+      "target": "toki",
+      "score": 0.4942,
       "suggested_relation_type": "compares_to",
-      "reason": "共享 7 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [],
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "020",
+        "021",
+        "040"
+      ],
       "status": "suggested"
     }
   ]

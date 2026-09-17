@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T06:04:00Z",
+  "updatedAt": "2026-09-17T06:24:30Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -2981,6 +2981,26 @@
       "artifact_path": "data/extracted/149.json",
       "raw_path": "data/gemini_raw/149.json",
       "extracted_at": "2026-09-16T06:04:00Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "150": {
+      "article_id": "150",
+      "path": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+      "title": "大模型需要雷军",
+      "date": "2026-09-16",
+      "author": "葬爱咸鱼",
+      "content_hash": "e27272111585b27f509cd5daf3f401a71822553e345b65828057c0b0b48e97c3",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/150.json",
+      "raw_path": "data/gemini_raw/150.json",
+      "extracted_at": "2026-09-17T06:24:30Z",
       "last_error": null,
       "extractor": {
         "name": "dashscope",

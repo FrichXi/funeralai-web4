@@ -236,5 +236,18 @@
       ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "claude",
+      "target": "yc",
+      "score": 0.3891,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "074",
+        "090"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

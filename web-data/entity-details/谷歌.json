@@ -513,23 +513,11 @@
   ],
   "suggested_edges": [
     {
-      "source": "claude",
-      "target": "谷歌",
-      "score": 0.5778,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "060",
-        "071"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "谷歌",
       "target": "豆包",
-      "score": 0.532,
+      "score": 0.5825,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "014",
         "065",
@@ -539,11 +527,23 @@
       "status": "suggested"
     },
     {
+      "source": "claude",
+      "target": "谷歌",
+      "score": 0.5788,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "060",
+        "071"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "字节跳动",
       "target": "谷歌",
-      "score": 0.4863,
+      "score": 0.5366,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "054",
         "065",
@@ -555,7 +555,7 @@
     {
       "source": "qwen",
       "target": "谷歌",
-      "score": 0.4545,
+      "score": 0.4551,
       "suggested_relation_type": "related",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -565,14 +565,14 @@
       "status": "suggested"
     },
     {
-      "source": "cherry-studio",
+      "source": "火山引擎",
       "target": "谷歌",
-      "score": 0.3994,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 2 个邻居",
+      "score": 0.4063,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 1 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
-        "021",
-        "060"
+        "065",
+        "071"
       ],
       "status": "suggested"
     }

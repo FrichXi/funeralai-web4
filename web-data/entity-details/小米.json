@@ -3,23 +3,25 @@
     "id": "小米",
     "name": "小米",
     "type": "company",
-    "description": "曾推出匿名模型Hunter Alpha参与打榜的科技公司",
-    "mention_count": 15,
-    "article_count": 8,
+    "description": "科技公司，文中以其产品定义能力（如自带帐篷）作为大模型行业的对标案例",
+    "mention_count": 18,
+    "article_count": 9,
     "aliases": [
       "Xiaomi"
     ],
     "tags": [
+      "产品定义",
       "匿名打榜",
       "大模型",
       "手机",
       "汽车",
       "消费电子",
+      "电动车",
       "硬件厂商",
       "科技公司"
     ],
-    "references": 8,
-    "source_article_count": 8,
+    "references": 9,
+    "source_article_count": 9,
     "source_articles": [
       {
         "article_id": "131",
@@ -29,6 +31,15 @@
         "permalink": "/articles/131",
         "markdown_link": "articles/131_2026-08-10_沐秋_大模型能干，懂模帝会飞.md",
         "mention_count": 6
+      },
+      {
+        "article_id": "150",
+        "title": "大模型需要雷军",
+        "date": "2026-09-16",
+        "path": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+        "permalink": "/articles/150",
+        "markdown_link": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+        "mention_count": 3
       },
       {
         "article_id": "128",
@@ -94,8 +105,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 13,
-    "composite_weight": 0.1407
+    "degree": 14,
+    "composite_weight": 0.1603
   },
   "links": [
     {
@@ -333,19 +344,56 @@
       ]
     },
     {
+      "source": "小米",
+      "target": "小米澎程",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "小米澎程是小米推出的SUV产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "150"
+      ],
+      "evidences": [
+        {
+          "article_id": "150",
+          "title": "大模型需要雷军",
+          "permalink": "/articles/150",
+          "markdown_link": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+          "path": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+          "date": "2026-09-16",
+          "label": "小米澎程是小米推出的SUV产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "雷军",
       "target": "小米",
       "relation_type": "founder_of",
       "type": "founder_of",
       "label": "雷军是小米的创始人",
-      "weight": 1,
+      "weight": 2,
       "strength": 5,
-      "effective_weight": 6,
-      "article_count": 1,
+      "effective_weight": 12,
+      "article_count": 2,
       "evidence_articles": [
-        "040"
+        "040",
+        "150"
       ],
       "evidences": [
+        {
+          "article_id": "150",
+          "title": "大模型需要雷军",
+          "permalink": "/articles/150",
+          "markdown_link": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+          "path": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+          "date": "2026-09-16",
+          "label": "文中称呼雷军为“雷总”并建议小米发新模型让他开发布会，隐含创始人与公司的归属关系",
+          "weight": 1
+        },
         {
           "article_id": "040",
           "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
@@ -389,7 +437,7 @@
     {
       "source": "deepseek",
       "target": "小米",
-      "score": 0.4861,
+      "score": 0.4865,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -402,7 +450,7 @@
     {
       "source": "minimax",
       "target": "小米",
-      "score": 0.4838,
+      "score": 0.484,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -414,26 +462,11 @@
       "status": "suggested"
     },
     {
-      "source": "小米",
-      "target": "豆包",
-      "score": 0.4125,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 1 个邻居",
-      "evidence_article_ids": [
-        "040",
-        "057",
-        "097",
-        "123",
-        "128"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "kimi",
       "target": "小米",
-      "score": 0.4061,
+      "score": 0.4565,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "040",
         "057",
@@ -442,13 +475,17 @@
       "status": "suggested"
     },
     {
-      "source": "刘芹",
-      "target": "小米",
-      "score": 0.3895,
+      "source": "小米",
+      "target": "豆包",
+      "score": 0.4126,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 1 个邻居",
       "evidence_article_ids": [
-        "040"
+        "040",
+        "057",
+        "097",
+        "123",
+        "128"
       ],
       "status": "suggested"
     }

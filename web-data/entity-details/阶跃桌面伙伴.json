@@ -595,9 +595,9 @@
     {
       "source": "cherry-studio",
       "target": "阶跃桌面伙伴",
-      "score": 0.6849,
+      "score": 0.7356,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "027",
         "029",
@@ -609,9 +609,9 @@
     {
       "source": "codex",
       "target": "阶跃桌面伙伴",
-      "score": 0.5367,
+      "score": 0.5872,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "027",
         "029",
@@ -621,23 +621,11 @@
       "status": "suggested"
     },
     {
-      "source": "genspark",
-      "target": "阶跃桌面伙伴",
-      "score": 0.5117,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "032",
-        "067"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "qwen",
       "target": "阶跃桌面伙伴",
-      "score": 0.4983,
+      "score": 0.5486,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "027",
         "029",
@@ -649,7 +637,7 @@
     {
       "source": "kimi",
       "target": "阶跃桌面伙伴",
-      "score": 0.4943,
+      "score": 0.4946,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
@@ -657,6 +645,18 @@
         "029",
         "030",
         "057"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "genspark",
+      "target": "阶跃桌面伙伴",
+      "score": 0.4622,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "032",
+        "067"
       ],
       "status": "suggested"
     }

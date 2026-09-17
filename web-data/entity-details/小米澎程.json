@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "小米澎程",
+    "name": "小米澎程",
+    "type": "product",
+    "description": "小米旗下的SUV车型产品，文中以其“自带帐篷”等功能为例说明优秀的产品定义",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "SUV",
+      "产品定义案例"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "150",
+        "title": "大模型需要雷军",
+        "date": "2026-09-16",
+        "path": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+        "permalink": "/articles/150",
+        "markdown_link": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0173
+  },
+  "links": [
+    {
+      "source": "小米",
+      "target": "小米澎程",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "小米澎程是小米推出的SUV产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "150"
+      ],
+      "evidences": [
+        {
+          "article_id": "150",
+          "title": "大模型需要雷军",
+          "permalink": "/articles/150",
+          "markdown_link": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+          "path": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+          "date": "2026-09-16",
+          "label": "小米澎程是小米推出的SUV产品",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

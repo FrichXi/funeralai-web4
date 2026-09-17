@@ -1,0 +1,159 @@
+{
+  "article": {
+    "id": "150",
+    "title": "大模型需要雷军",
+    "path": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+    "date": "2026-09-16",
+    "author": "葬爱咸鱼",
+    "content_hash": "e27272111585b27f509cd5daf3f401a71822553e345b65828057c0b0b48e97c3"
+  },
+  "entities": [
+    {
+      "id": "雷军",
+      "name": "雷军",
+      "type": "person",
+      "description": "小米创始人，文中被作为大模型行业急需的产品定义能力代表人物",
+      "mention_count": 5,
+      "aliases": [
+        "雷总"
+      ],
+      "tags": [
+        "产品定义",
+        "用户需求"
+      ]
+    },
+    {
+      "id": "小米",
+      "name": "小米",
+      "type": "company",
+      "description": "科技公司，文中以其产品定义能力（如自带帐篷）作为大模型行业的对标案例",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "产品定义",
+        "电动车"
+      ]
+    },
+    {
+      "id": "九号",
+      "name": "九号",
+      "type": "company",
+      "description": "电动交通工具公司，作者日常使用的代步工具品牌",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "电动车"
+      ]
+    },
+    {
+      "id": "剪映",
+      "name": "剪映",
+      "type": "product",
+      "description": "视频剪辑软件，文中作为被AI工具（Codex）操纵的对象出现",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "视频编辑",
+        "工具软件"
+      ]
+    },
+    {
+      "id": "小米澎程",
+      "name": "小米澎程",
+      "type": "product",
+      "description": "小米旗下的SUV车型产品，文中以其“自带帐篷”等功能为例说明优秀的产品定义",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "SUV",
+        "产品定义案例"
+      ]
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "description": "文中作者用于操纵剪映进行视频剪辑的AI编程/代理工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI Agent",
+        "代码生成"
+      ]
+    },
+    {
+      "id": "罗福莉",
+      "name": "罗福莉",
+      "type": "person",
+      "description": "文中提及的人物，被作者认为相比雷军，大模型创业更需要后者",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型创业"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "罗福莉",
+      "target": "雷军",
+      "relation_type": "compares_to",
+      "label": "文章标题及结尾明确对比两人，认为大模型创业更需要雷军而非罗福莉",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "小米",
+      "target": "小米澎程",
+      "relation_type": "develops",
+      "label": "小米澎程是小米推出的SUV产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "雷军",
+      "target": "小米",
+      "relation_type": "founder_of",
+      "label": "文中称呼雷军为“雷总”并建议小米发新模型让他开发布会，隐含创始人与公司的归属关系",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "Codex",
+      "target": "剪映",
+      "relation_type": "integrates_with",
+      "label": "作者使用Codex操纵剪映进行视频剪辑，表明AI工具对传统软件的调用/集成关系",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 7,
+    "relationship_count": 4,
+    "pruned_entities": [
+      {
+        "name": "Blender",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Kimi",
+        "reason": "low-signal"
+      },
+      {
+        "name": "OpenAI",
+        "reason": "low-signal"
+      },
+      {
+        "name": "乐享科技",
+        "reason": "low-signal"
+      }
+    ],
+    "provider": "dashscope"
+  }
+}

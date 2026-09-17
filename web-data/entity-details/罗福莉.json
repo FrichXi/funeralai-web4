@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "罗福莉",
+    "name": "罗福莉",
+    "type": "person",
+    "description": "文中提及的人物，被作者认为相比雷军，大模型创业更需要后者",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "大模型创业"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "150",
+        "title": "大模型需要雷军",
+        "date": "2026-09-16",
+        "path": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+        "permalink": "/articles/150",
+        "markdown_link": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0207
+  },
+  "links": [
+    {
+      "source": "罗福莉",
+      "target": "雷军",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章标题及结尾明确对比两人，认为大模型创业更需要雷军而非罗福莉",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "150"
+      ],
+      "evidences": [
+        {
+          "article_id": "150",
+          "title": "大模型需要雷军",
+          "permalink": "/articles/150",
+          "markdown_link": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+          "path": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+          "date": "2026-09-16",
+          "label": "文章标题及结尾明确对比两人，认为大模型创业更需要雷军而非罗福莉",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "雷军",
+      "target": "罗福莉",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章标题及结尾明确对比两人，认为大模型创业更需要雷军而非罗福莉",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

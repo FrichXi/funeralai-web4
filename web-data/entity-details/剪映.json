@@ -4,20 +4,21 @@
     "name": "剪映",
     "type": "product",
     "description": "一款视频编辑软件，提供价格低廉的AI文字成片和非线性编辑功能，文章标题建议Medeo改名为该产品的删减版。",
-    "mention_count": 62,
-    "article_count": 7,
+    "mention_count": 64,
+    "article_count": 8,
     "aliases": [],
     "tags": [
       "AI工作流",
       "AI文字成片",
+      "工具软件",
       "生产力工具",
       "视频剪辑",
       "视频工具",
       "视频编辑",
       "非线性编辑"
     ],
-    "references": 7,
-    "source_article_count": 7,
+    "references": 8,
+    "source_article_count": 8,
     "source_articles": [
       {
         "article_id": "063",
@@ -56,6 +57,15 @@
         "mention_count": 3
       },
       {
+        "article_id": "150",
+        "title": "大模型需要雷军",
+        "date": "2026-09-16",
+        "path": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+        "permalink": "/articles/150",
+        "markdown_link": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+        "mention_count": 2
+      },
+      {
         "article_id": "078",
         "title": "Flova和TapNow背对背拥抱",
         "date": "2026-04-07",
@@ -83,8 +93,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 13,
-    "composite_weight": 0.1558
+    "degree": 14,
+    "composite_weight": 0.1731
   },
   "links": [
     {
@@ -312,6 +322,32 @@
       ]
     },
     {
+      "source": "codex",
+      "target": "剪映",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "作者使用Codex操纵剪映进行视频剪辑，表明AI工具对传统软件的调用/集成关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "150"
+      ],
+      "evidences": [
+        {
+          "article_id": "150",
+          "title": "大模型需要雷军",
+          "permalink": "/articles/150",
+          "markdown_link": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+          "path": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+          "date": "2026-09-16",
+          "label": "作者使用Codex操纵剪映进行视频剪辑，表明AI工具对传统软件的调用/集成关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "seedance",
       "target": "剪映",
       "relation_type": "integrates_with",
@@ -444,23 +480,9 @@
   ],
   "suggested_edges": [
     {
-      "source": "剪映",
-      "target": "即梦",
-      "score": 0.5582,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "063",
-        "078",
-        "088",
-        "132"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "oiioii",
       "target": "剪映",
-      "score": 0.5134,
+      "score": 0.5139,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -471,9 +493,23 @@
       "status": "suggested"
     },
     {
+      "source": "剪映",
+      "target": "即梦",
+      "score": 0.5086,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "063",
+        "078",
+        "088",
+        "132"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "libtv",
       "target": "剪映",
-      "score": 0.4867,
+      "score": 0.4872,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -485,9 +521,9 @@
     {
       "source": "剪映",
       "target": "郭列",
-      "score": 0.4768,
+      "score": 0.4272,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "037",
         "052",

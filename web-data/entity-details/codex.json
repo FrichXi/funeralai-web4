@@ -4,8 +4,8 @@
     "name": "Codex",
     "type": "product",
     "description": "AI编程/代理工具，文中作为本地Agent的代表被Raft和Tutti集成或模拟",
-    "mention_count": 51,
-    "article_count": 20,
+    "mention_count": 52,
+    "article_count": 21,
     "aliases": [
       "Codex SDK",
       "codex",
@@ -28,8 +28,8 @@
       "校对",
       "编程Agent"
     ],
-    "references": 20,
-    "source_article_count": 20,
+    "references": 21,
+    "source_article_count": 21,
     "source_articles": [
       {
         "article_id": "120",
@@ -140,6 +140,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "150",
+        "title": "大模型需要雷军",
+        "date": "2026-09-16",
+        "path": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+        "permalink": "/articles/150",
+        "markdown_link": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "118",
         "title": "第一届AI恐怖片黑客松开办",
         "date": "2026-07-12",
@@ -212,8 +221,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 37,
-    "composite_weight": 0.3923
+    "degree": 38,
+    "composite_weight": 0.4072
   },
   "links": [
     {
@@ -1013,6 +1022,32 @@
       ]
     },
     {
+      "source": "codex",
+      "target": "剪映",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "作者使用Codex操纵剪映进行视频剪辑，表明AI工具对传统软件的调用/集成关系",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "150"
+      ],
+      "evidences": [
+        {
+          "article_id": "150",
+          "title": "大模型需要雷军",
+          "permalink": "/articles/150",
+          "markdown_link": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+          "path": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
+          "date": "2026-09-16",
+          "label": "作者使用Codex操纵剪映进行视频剪辑，表明AI工具对传统软件的调用/集成关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "奥特曼",
       "target": "codex",
       "relation_type": "works_on",
@@ -1043,7 +1078,7 @@
     {
       "source": "codex",
       "target": "qwen",
-      "score": 0.7792,
+      "score": 0.7798,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 6 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1058,7 +1093,7 @@
     {
       "source": "anthropic",
       "target": "codex",
-      "score": 0.7299,
+      "score": 0.7306,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1073,7 +1108,7 @@
     {
       "source": "cherry-studio",
       "target": "codex",
-      "score": 0.7092,
+      "score": 0.7098,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1087,7 +1122,7 @@
     {
       "source": "codex",
       "target": "deepseek",
-      "score": 0.6145,
+      "score": 0.6149,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1102,7 +1137,7 @@
     {
       "source": "bloome",
       "target": "codex",
-      "score": 0.6103,
+      "score": 0.6111,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [

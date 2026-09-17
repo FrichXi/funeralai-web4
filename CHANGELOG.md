@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+- Content update through 150: 149 articles; latest: 大模型需要雷军.
+
 - Content update through 149: 148 articles; latest: AI Dating都是衡水中学.
 
 - Content update through 148: 147 articles; latest: GPT-6利好3D打印.
