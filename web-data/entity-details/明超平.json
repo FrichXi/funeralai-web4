@@ -4,8 +4,8 @@
     "name": "明超平",
     "type": "person",
     "description": "Youware创始人、产品经理，Bloome的打造者",
-    "mention_count": 29,
-    "article_count": 8,
+    "mention_count": 30,
+    "article_count": 9,
     "aliases": [
       "小明",
       "神父"
@@ -13,8 +13,8 @@
     "tags": [
       "AI产品之神"
     ],
-    "references": 8,
-    "source_article_count": 8,
+    "references": 9,
+    "source_article_count": 9,
     "source_articles": [
       {
         "article_id": "090",
@@ -62,6 +62,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "152",
+        "title": "世界模型是上不了桌的另开一桌",
+        "date": "2026-09-21",
+        "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+        "permalink": "/articles/152",
+        "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "136",
         "title": "AI应用骗钱，哦不融资指南",
         "date": "2026-08-23",
@@ -89,10 +98,36 @@
         "mention_count": 1
       }
     ],
-    "degree": 17,
-    "composite_weight": 0.1647
+    "degree": 18,
+    "composite_weight": 0.1782
   },
   "links": [
+    {
+      "source": "明超平",
+      "target": "马卡龙",
+      "relation_type": "collaborates_with",
+      "type": "collaborates_with",
+      "label": "文中将两人并列提及，作为曾经能讲出创新故事的代表人物",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "152"
+      ],
+      "evidences": [
+        {
+          "article_id": "152",
+          "title": "世界模型是上不了桌的另开一桌",
+          "permalink": "/articles/152",
+          "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "date": "2026-09-21",
+          "label": "文中将两人并列提及，作为曾经能讲出创新故事的代表人物",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "dereknee",
       "target": "明超平",
@@ -519,7 +554,7 @@
     {
       "source": "字节跳动",
       "target": "明超平",
-      "score": 0.4587,
+      "score": 0.4583,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -533,7 +568,7 @@
     {
       "source": "明超平",
       "target": "陈冕",
-      "score": 0.4187,
+      "score": 0.4183,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 2 个邻居",
       "evidence_article_ids": [

@@ -4,23 +4,33 @@
     "name": "MiniMax H3",
     "type": "product",
     "description": "MiniMax推出的视频生成模型，在meme bench中排名第一，指令遵循能力强",
-    "mention_count": 57,
-    "article_count": 4,
+    "mention_count": 62,
+    "article_count": 5,
     "aliases": [
       "H3",
       "胖猫"
     ],
     "tags": [
       "后期软件",
+      "基座",
       "开源",
       "文生视频",
       "视频模型",
       "视频生成",
       "高性价比"
     ],
-    "references": 4,
-    "source_article_count": 4,
+    "references": 5,
+    "source_article_count": 5,
     "source_articles": [
+      {
+        "article_id": "152",
+        "title": "世界模型是上不了桌的另开一桌",
+        "date": "2026-09-21",
+        "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+        "permalink": "/articles/152",
+        "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+        "mention_count": 5
+      },
       {
         "article_id": "132",
         "title": "Seedance 2.5自绝于网民",
@@ -58,8 +68,8 @@
         "mention_count": 6
       }
     ],
-    "degree": 16,
-    "composite_weight": 0.2001
+    "degree": 21,
+    "composite_weight": 0.2447
   },
   "links": [
     {
@@ -246,6 +256,32 @@
     },
     {
       "source": "minimax-h3",
+      "target": "seedance-2-0",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中称MiniMax H3是唯一能与Seedance 2.0一战的开源视频模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "152"
+      ],
+      "evidences": [
+        {
+          "article_id": "152",
+          "title": "世界模型是上不了桌的另开一桌",
+          "permalink": "/articles/152",
+          "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "date": "2026-09-21",
+          "label": "文中称MiniMax H3是唯一能与Seedance 2.0一战的开源视频模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax-h3",
       "target": "seedance-2-5",
       "relation_type": "competes_with",
       "type": "competes_with",
@@ -310,6 +346,19 @@
       "evidences": []
     },
     {
+      "source": "seedance-2-0",
+      "target": "minimax-h3",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中称MiniMax H3是唯一能与Seedance 2.0一战的开源视频模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "seedance-2-5",
       "target": "minimax-h3",
       "relation_type": "competes_with",
@@ -341,15 +390,26 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "MiniMax H3是MiniMax公司的视频模型",
-      "weight": 2,
+      "weight": 3,
       "strength": 4,
-      "effective_weight": 10,
-      "article_count": 2,
+      "effective_weight": 15,
+      "article_count": 3,
       "evidence_articles": [
         "130",
-        "132"
+        "132",
+        "152"
       ],
       "evidences": [
+        {
+          "article_id": "152",
+          "title": "世界模型是上不了桌的另开一桌",
+          "permalink": "/articles/152",
+          "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "date": "2026-09-21",
+          "label": "MiniMax H3是MiniMax开发的视频模型",
+          "weight": 1
+        },
         {
           "article_id": "132",
           "title": "Seedance 2.5自绝于网民",
@@ -368,6 +428,58 @@
           "path": "articles/130_2026-08-07_葬爱咸鱼_致视频模型：群众不喜闻乐见，你算老几.md",
           "date": "2026-08-07",
           "label": "MiniMax H3是MiniMax公司的视频模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax-h3",
+      "target": "爱诗科技",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文中暗示此类视频模型公司近期宣发是因为后训练H3效果更好",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "152"
+      ],
+      "evidences": [
+        {
+          "article_id": "152",
+          "title": "世界模型是上不了桌的另开一桌",
+          "permalink": "/articles/152",
+          "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "date": "2026-09-21",
+          "label": "文中暗示此类视频模型公司近期宣发是因为后训练H3效果更好",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax-h3",
+      "target": "生数",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文中暗示此类视频模型公司近期宣发是因为后训练H3效果更好",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "152"
+      ],
+      "evidences": [
+        {
+          "article_id": "152",
+          "title": "世界模型是上不了桌的另开一桌",
+          "permalink": "/articles/152",
+          "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "date": "2026-09-21",
+          "label": "文中暗示此类视频模型公司近期宣发是因为后训练H3效果更好",
           "weight": 1
         }
       ]
@@ -397,15 +509,41 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "闫俊杰",
+      "target": "minimax-h3",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "作为创始人，闫俊杰对H3模型的开源和迭代起决定性作用",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "152"
+      ],
+      "evidences": [
+        {
+          "article_id": "152",
+          "title": "世界模型是上不了桌的另开一桌",
+          "permalink": "/articles/152",
+          "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "date": "2026-09-21",
+          "label": "作为创始人，闫俊杰对H3模型的开源和迭代起决定性作用",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "minimax-h3",
       "target": "字节跳动",
-      "score": 0.5077,
+      "score": 0.6118,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "130",
         "132"

@@ -1,0 +1,100 @@
+{
+  "node": {
+    "id": "生数",
+    "name": "生数",
+    "type": "company",
+    "description": "视频模型公司，通过后训练实时生成模型号称做世界模型",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "Shengshu"
+    ],
+    "tags": [
+      "世界模型",
+      "视频模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "152",
+        "title": "世界模型是上不了桌的另开一桌",
+        "date": "2026-09-21",
+        "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+        "permalink": "/articles/152",
+        "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0267
+  },
+  "links": [
+    {
+      "source": "爱诗科技",
+      "target": "生数",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者同属混不下去的视频模型公司转型世界模型的典型案例",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "152"
+      ],
+      "evidences": [
+        {
+          "article_id": "152",
+          "title": "世界模型是上不了桌的另开一桌",
+          "permalink": "/articles/152",
+          "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "date": "2026-09-21",
+          "label": "两者同属混不下去的视频模型公司转型世界模型的典型案例",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "生数",
+      "target": "爱诗科技",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者同属混不下去的视频模型公司转型世界模型的典型案例",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "minimax-h3",
+      "target": "生数",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文中暗示此类视频模型公司近期宣发是因为后训练H3效果更好",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "152"
+      ],
+      "evidences": [
+        {
+          "article_id": "152",
+          "title": "世界模型是上不了桌的另开一桌",
+          "permalink": "/articles/152",
+          "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "date": "2026-09-21",
+          "label": "文中暗示此类视频模型公司近期宣发是因为后训练H3效果更好",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

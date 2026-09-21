@@ -172,7 +172,7 @@
       }
     ],
     "degree": 23,
-    "composite_weight": 0.2395
+    "composite_weight": 0.2377
   },
   "links": [
     {
@@ -668,26 +668,11 @@
   ],
   "suggested_edges": [
     {
-      "source": "kimi",
-      "target": "openai",
-      "score": 0.6665,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "005",
-        "048",
-        "099",
-        "109",
-        "138"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "claude",
       "target": "openai",
-      "score": 0.6246,
+      "score": 0.6756,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "031",
         "099",
@@ -698,9 +683,24 @@
       "status": "suggested"
     },
     {
+      "source": "kimi",
+      "target": "openai",
+      "score": 0.6173,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "005",
+        "048",
+        "099",
+        "109",
+        "138"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "openai",
       "target": "字节跳动",
-      "score": 0.438,
+      "score": 0.4383,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -714,7 +714,7 @@
     {
       "source": "openai",
       "target": "阿里巴巴",
-      "score": 0.438,
+      "score": 0.4383,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -726,15 +726,15 @@
       "status": "suggested"
     },
     {
-      "source": "minimax",
-      "target": "openai",
-      "score": 0.4161,
-      "suggested_relation_type": "compares_to",
+      "source": "openai",
+      "target": "qwen",
+      "score": 0.3946,
+      "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
+        "051",
         "099",
-        "103",
-        "109"
+        "103"
       ],
       "status": "suggested"
     }

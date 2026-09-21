@@ -1,0 +1,58 @@
+{
+  "node": {
+    "id": "红果短剧",
+    "name": "红果短剧",
+    "type": "product",
+    "description": "短剧平台，文中分析其生态规律并认为其面临危险",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "短剧平台"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "151",
+        "title": "冕神信仰公开课来了",
+        "date": "2026-09-17",
+        "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+        "permalink": "/articles/151",
+        "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0148
+  },
+  "links": [
+    {
+      "source": "陈冕",
+      "target": "红果短剧",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "陈冕分析短剧生态规律，作者解读为“红果也危险了”，隐含对红果短剧现状的批判性分析",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "151"
+      ],
+      "evidences": [
+        {
+          "article_id": "151",
+          "title": "冕神信仰公开课来了",
+          "permalink": "/articles/151",
+          "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "date": "2026-09-17",
+          "label": "陈冕分析短剧生态规律，作者解读为“红果也危险了”，隐含对红果短剧现状的批判性分析",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

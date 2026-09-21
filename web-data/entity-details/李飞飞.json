@@ -4,8 +4,8 @@
     "name": "李飞飞",
     "type": "person",
     "description": "知名AI学者，其相关产品为可拓展操纵的3D世界模型Marble",
-    "mention_count": 4,
-    "article_count": 3,
+    "mention_count": 5,
+    "article_count": 4,
     "aliases": [
       "Fei-Fei Li"
     ],
@@ -13,10 +13,11 @@
       "3D生成",
       "AI学者",
       "世界模型",
-      "学术圈"
+      "学术圈",
+      "学者"
     ],
-    "references": 3,
-    "source_article_count": 3,
+    "references": 4,
+    "source_article_count": 4,
     "source_articles": [
       {
         "article_id": "086",
@@ -26,6 +27,15 @@
         "permalink": "/articles/086",
         "markdown_link": "articles/086_2026-05-05_骡子马_世界模型是梦核军备竞赛.md",
         "mention_count": 2
+      },
+      {
+        "article_id": "152",
+        "title": "世界模型是上不了桌的另开一桌",
+        "date": "2026-09-21",
+        "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+        "permalink": "/articles/152",
+        "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+        "mention_count": 1
       },
       {
         "article_id": "113",
@@ -46,10 +56,36 @@
         "mention_count": 1
       }
     ],
-    "degree": 5,
-    "composite_weight": 0.0465
+    "degree": 7,
+    "composite_weight": 0.0671
   },
   "links": [
+    {
+      "source": "李飞飞",
+      "target": "杨立昆",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中指出两人虽同为世界模型代表人物，但做的东西截然不同",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "152"
+      ],
+      "evidences": [
+        {
+          "article_id": "152",
+          "title": "世界模型是上不了桌的另开一桌",
+          "permalink": "/articles/152",
+          "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "date": "2026-09-21",
+          "label": "文中指出两人虽同为世界模型代表人物，但做的东西截然不同",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "李飞飞",
       "target": "黄仁勋",
@@ -75,6 +111,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "杨立昆",
+      "target": "李飞飞",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中指出两人虽同为世界模型代表人物，但做的东西截然不同",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
     },
     {
       "source": "黄仁勋",

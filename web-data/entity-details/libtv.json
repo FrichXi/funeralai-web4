@@ -4,8 +4,8 @@
     "name": "LibTV",
     "type": "product",
     "description": "AI短剧/视频平台，是Seedance的大客户，也是MiniMax复刻的对象",
-    "mention_count": 92,
-    "article_count": 15,
+    "mention_count": 94,
+    "article_count": 16,
     "aliases": [
       "Liblib",
       "Libtv",
@@ -15,6 +15,7 @@
     "tags": [
       "AI应用",
       "AI短剧",
+      "AI视频",
       "AI视频平台",
       "Agentic Generation",
       "KA客户",
@@ -30,8 +31,8 @@
       "视频生成",
       "超长视频"
     ],
-    "references": 15,
-    "source_article_count": 15,
+    "references": 16,
+    "source_article_count": 16,
     "source_articles": [
       {
         "article_id": "106",
@@ -115,6 +116,15 @@
         "mention_count": 3
       },
       {
+        "article_id": "151",
+        "title": "冕神信仰公开课来了",
+        "date": "2026-09-17",
+        "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+        "permalink": "/articles/151",
+        "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+        "mention_count": 2
+      },
+      {
         "article_id": "132",
         "title": "Seedance 2.5自绝于网民",
         "date": "2026-08-12",
@@ -169,8 +179,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 46,
-    "composite_weight": 0.5049
+    "degree": 52,
+    "composite_weight": 0.545
   },
   "links": [
     {
@@ -335,15 +345,26 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文章核心论点，指出LibTV在UI设计、交互、分镜解析等大量功能上像素级模仿（抄袭/致敬）TapNow。",
-      "weight": 2,
+      "weight": 3,
       "strength": 2,
-      "effective_weight": 6,
-      "article_count": 2,
+      "effective_weight": 9,
+      "article_count": 3,
       "evidence_articles": [
         "073",
-        "119"
+        "119",
+        "151"
       ],
       "evidences": [
+        {
+          "article_id": "151",
+          "title": "冕神信仰公开课来了",
+          "permalink": "/articles/151",
+          "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "date": "2026-09-17",
+          "label": "文中评论“冕神抄TapNow确实是抄得快”，暗示LibTV在产品形态或功能上对标/模仿TapNow",
+          "weight": 1
+        },
         {
           "article_id": "119",
           "title": "视频Agent进入大致敬时代",
@@ -602,18 +623,55 @@
     },
     {
       "source": "libtv",
-      "target": "即梦",
+      "target": "剪映",
       "relation_type": "competes_with",
       "type": "competes_with",
-      "label": "文中对比两者接入Seedance模型的速度与价格，存在直接业务竞争",
+      "label": "文中评论“LibTV干...剪映...指日可待”，表明两者存在竞争关系",
       "weight": 1,
       "strength": 3,
       "effective_weight": 4,
       "article_count": 1,
       "evidence_articles": [
-        "119"
+        "151"
       ],
       "evidences": [
+        {
+          "article_id": "151",
+          "title": "冕神信仰公开课来了",
+          "permalink": "/articles/151",
+          "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "date": "2026-09-17",
+          "label": "文中评论“LibTV干...剪映...指日可待”，表明两者存在竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "libtv",
+      "target": "即梦",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中对比两者接入Seedance模型的速度与价格，存在直接业务竞争",
+      "weight": 2,
+      "strength": 3,
+      "effective_weight": 8,
+      "article_count": 2,
+      "evidence_articles": [
+        "119",
+        "151"
+      ],
+      "evidences": [
+        {
+          "article_id": "151",
+          "title": "冕神信仰公开课来了",
+          "permalink": "/articles/151",
+          "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "date": "2026-09-17",
+          "label": "文中评论“LibTV干即梦...指日可待”，表明两者存在竞争关系",
+          "weight": 1
+        },
         {
           "article_id": "119",
           "title": "视频Agent进入大致敬时代",
@@ -622,6 +680,58 @@
           "path": "articles/119_2026-07-14_沐秋_视频Agent进入大致敬时代.md",
           "date": "2026-07-14",
           "label": "文中对比两者接入Seedance模型的速度与价格，存在直接业务竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "libtv",
+      "target": "小云雀",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中评论“LibTV干...小云雀...指日可待”，表明两者存在竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "151"
+      ],
+      "evidences": [
+        {
+          "article_id": "151",
+          "title": "冕神信仰公开课来了",
+          "permalink": "/articles/151",
+          "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "date": "2026-09-17",
+          "label": "文中评论“LibTV干...小云雀...指日可待”，表明两者存在竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "libtv",
+      "target": "抖音",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中评论“最后干抖音指日可待”，暗示LibTV未来可能与抖音形成竞争或替代关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "151"
+      ],
+      "evidences": [
+        {
+          "article_id": "151",
+          "title": "冕神信仰公开课来了",
+          "permalink": "/articles/151",
+          "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "date": "2026-09-17",
+          "label": "文中评论“最后干抖音指日可待”，暗示LibTV未来可能与抖音形成竞争或替代关系",
           "weight": 1
         }
       ]
@@ -679,11 +789,50 @@
       "evidences": []
     },
     {
+      "source": "剪映",
+      "target": "libtv",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中评论“LibTV干...剪映...指日可待”，表明两者存在竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "即梦",
       "target": "libtv",
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "文中对比两者接入Seedance模型的速度与价格，存在直接业务竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "小云雀",
+      "target": "libtv",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中评论“LibTV干...小云雀...指日可待”，表明两者存在竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "抖音",
+      "target": "libtv",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中评论“最后干抖音指日可待”，暗示LibTV未来可能与抖音形成竞争或替代关系",
       "weight": 1,
       "strength": 3,
       "effective_weight": 3,
@@ -864,15 +1013,26 @@
       "relation_type": "founder_of",
       "type": "founder_of",
       "label": "陈冕创办了LibTV",
-      "weight": 2,
+      "weight": 3,
       "strength": 5,
-      "effective_weight": 12,
-      "article_count": 2,
+      "effective_weight": 18,
+      "article_count": 3,
       "evidence_articles": [
         "106",
-        "126"
+        "126",
+        "151"
       ],
       "evidences": [
+        {
+          "article_id": "151",
+          "title": "冕神信仰公开课来了",
+          "permalink": "/articles/151",
+          "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "date": "2026-09-17",
+          "label": "陈冕是LibTV的创始人，文中以“冕神”代指并在公开课中分享创业经验",
+          "weight": 1
+        },
         {
           "article_id": "126",
           "title": "冕神语录",
@@ -1271,7 +1431,7 @@
     {
       "source": "libtv",
       "target": "manus",
-      "score": 0.5795,
+      "score": 0.5791,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1284,9 +1444,9 @@
     {
       "source": "libtv",
       "target": "minimax",
-      "score": 0.5642,
+      "score": 0.5652,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 8 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 9 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "099",
         "109",
@@ -1299,7 +1459,7 @@
     {
       "source": "kimi",
       "target": "libtv",
-      "score": 0.5419,
+      "score": 0.5408,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 6 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -1314,7 +1474,7 @@
     {
       "source": "deepseek",
       "target": "libtv",
-      "score": 0.4986,
+      "score": 0.4992,
       "suggested_relation_type": "related",
       "reason": "共同出现于 6 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -1329,7 +1489,7 @@
     {
       "source": "libtv",
       "target": "智谱ai",
-      "score": 0.4945,
+      "score": 0.495,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 2 个邻居",
       "evidence_article_ids": [

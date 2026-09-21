@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-17T06:24:30Z",
+  "updatedAt": "2026-09-21T10:19:11Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -3001,6 +3001,46 @@
       "artifact_path": "data/extracted/150.json",
       "raw_path": "data/gemini_raw/150.json",
       "extracted_at": "2026-09-17T06:24:30Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "151": {
+      "article_id": "151",
+      "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+      "title": "冕神信仰公开课来了",
+      "date": "2026-09-17",
+      "author": "沐秋",
+      "content_hash": "513e1afd11e63a111d6e3980cb30770a6f0736733a059f0bf279f1828282121c",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/151.json",
+      "raw_path": "data/gemini_raw/151.json",
+      "extracted_at": "2026-09-21T10:18:58Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "152": {
+      "article_id": "152",
+      "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+      "title": "世界模型是上不了桌的另开一桌",
+      "date": "2026-09-21",
+      "author": "葬爱咸鱼",
+      "content_hash": "bdf8c421a5ab9d94e9fa097a8d32eb44a2cd85271b72dd6afdfcee33e5746ec6",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/152.json",
+      "raw_path": "data/gemini_raw/152.json",
+      "extracted_at": "2026-09-21T10:19:11Z",
       "last_error": null,
       "extractor": {
         "name": "dashscope",

@@ -4,12 +4,13 @@
     "name": "剪映",
     "type": "product",
     "description": "一款视频编辑软件，提供价格低廉的AI文字成片和非线性编辑功能，文章标题建议Medeo改名为该产品的删减版。",
-    "mention_count": 64,
-    "article_count": 8,
+    "mention_count": 65,
+    "article_count": 9,
     "aliases": [],
     "tags": [
       "AI工作流",
       "AI文字成片",
+      "字节跳动",
       "工具软件",
       "生产力工具",
       "视频剪辑",
@@ -17,8 +18,8 @@
       "视频编辑",
       "非线性编辑"
     ],
-    "references": 8,
-    "source_article_count": 8,
+    "references": 9,
+    "source_article_count": 9,
     "source_articles": [
       {
         "article_id": "063",
@@ -75,6 +76,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "151",
+        "title": "冕神信仰公开课来了",
+        "date": "2026-09-17",
+        "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+        "permalink": "/articles/151",
+        "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "088",
         "title": "读过豆包赚钱手册才敢自称懂AI",
         "date": "2026-05-07",
@@ -93,8 +103,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 14,
-    "composite_weight": 0.1731
+    "degree": 16,
+    "composite_weight": 0.1913
   },
   "links": [
     {
@@ -187,6 +197,32 @@
       "evidences": []
     },
     {
+      "source": "libtv",
+      "target": "剪映",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中评论“LibTV干...剪映...指日可待”，表明两者存在竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "151"
+      ],
+      "evidences": [
+        {
+          "article_id": "151",
+          "title": "冕神信仰公开课来了",
+          "permalink": "/articles/151",
+          "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "date": "2026-09-17",
+          "label": "文中评论“LibTV干...剪映...指日可待”，表明两者存在竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "medeo",
       "target": "剪映",
       "relation_type": "competes_with",
@@ -211,6 +247,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "剪映",
+      "target": "libtv",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中评论“LibTV干...剪映...指日可待”，表明两者存在竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
     },
     {
       "source": "剪映",
@@ -480,11 +529,26 @@
   ],
   "suggested_edges": [
     {
+      "source": "剪映",
+      "target": "即梦",
+      "score": 0.6414,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "063",
+        "078",
+        "088",
+        "132",
+        "151"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "oiioii",
       "target": "剪映",
-      "score": 0.5139,
+      "score": 0.5768,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "046",
         "052",
@@ -494,34 +558,21 @@
     },
     {
       "source": "剪映",
-      "target": "即梦",
-      "score": 0.5086,
+      "target": "小云雀",
+      "score": 0.4325,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "063",
-        "078",
-        "088",
-        "132"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "libtv",
-      "target": "剪映",
-      "score": 0.4872,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "078",
-        "132"
+        "132",
+        "151"
       ],
       "status": "suggested"
     },
     {
       "source": "剪映",
       "target": "郭列",
-      "score": 0.4272,
+      "score": 0.428,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [

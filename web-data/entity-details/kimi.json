@@ -4,8 +4,8 @@
     "name": "Kimi",
     "type": "product",
     "description": "具有长上下文能力的大语言模型，文中被用作Claude Code的后端调用模型",
-    "mention_count": 221,
-    "article_count": 36,
+    "mention_count": 223,
+    "article_count": 37,
     "aliases": [
       "K2",
       "K2.7 Code",
@@ -17,6 +17,7 @@
       "Kimi K2.7-code",
       "Kimi K3",
       "Kimi work",
+      "Moonshot",
       "Moonshot AI",
       "k2"
     ],
@@ -68,8 +69,8 @@
       "长文本处理",
       "高估值"
     ],
-    "references": 36,
-    "source_article_count": 36,
+    "references": 37,
+    "source_article_count": 37,
     "source_articles": [
       {
         "article_id": "134",
@@ -205,6 +206,15 @@
         "permalink": "/articles/004",
         "markdown_link": "articles/004_2025-06-23_葬爱咸鱼_MiniMax的胖猫宇宙.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "152",
+        "title": "世界模型是上不了桌的另开一桌",
+        "date": "2026-09-21",
+        "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+        "permalink": "/articles/152",
+        "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+        "mention_count": 2
       },
       {
         "article_id": "138",
@@ -397,7 +407,7 @@
       }
     ],
     "degree": 74,
-    "composite_weight": 0.8965
+    "composite_weight": 0.895
   },
   "links": [
     {
@@ -716,16 +726,27 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "市场认为MiniMax和Kimi是一个级别，形成强行双骄效果",
-      "weight": 3,
+      "weight": 4,
       "strength": 2,
-      "effective_weight": 9,
-      "article_count": 3,
+      "effective_weight": 12,
+      "article_count": 4,
       "evidence_articles": [
         "116",
         "117",
-        "141"
+        "141",
+        "152"
       ],
       "evidences": [
+        {
+          "article_id": "152",
+          "title": "世界模型是上不了桌的另开一桌",
+          "permalink": "/articles/152",
+          "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "date": "2026-09-21",
+          "label": "文中将MiniMax与Kimi、智谱并列为同类大模型公司进行比较",
+          "weight": 1
+        },
         {
           "article_id": "141",
           "title": "再爱MiniMax一次",
@@ -2060,7 +2081,7 @@
     {
       "source": "chatgpt",
       "target": "kimi",
-      "score": 0.8266,
+      "score": 0.8285,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 8 个邻居",
       "evidence_article_ids": [
@@ -2075,7 +2096,7 @@
     {
       "source": "kimi",
       "target": "字节跳动",
-      "score": 0.7078,
+      "score": 0.709,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -2090,9 +2111,9 @@
     {
       "source": "kimi",
       "target": "openai",
-      "score": 0.6665,
+      "score": 0.6173,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "005",
         "048",
@@ -2105,7 +2126,7 @@
     {
       "source": "kimi",
       "target": "美团",
-      "score": 0.6026,
+      "score": 0.6038,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -2119,7 +2140,7 @@
     {
       "source": "cursor",
       "target": "kimi",
-      "score": 0.5709,
+      "score": 0.5723,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [

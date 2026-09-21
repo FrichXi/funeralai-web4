@@ -4,19 +4,30 @@
     "name": "闫俊杰",
     "type": "person",
     "description": "MiniMax创始人，被称为“俊杰老师”、“剑眉星目闫俊杰”、“胖猫”",
-    "mention_count": 5,
-    "article_count": 3,
+    "mention_count": 10,
+    "article_count": 5,
     "aliases": [
       "俊杰老师",
       "剑眉星目闫俊杰",
-      "胖猫"
+      "胖猫",
+      "闫神"
     ],
     "tags": [
-      "CEO"
+      "CEO",
+      "大模型"
     ],
-    "references": 3,
-    "source_article_count": 3,
+    "references": 5,
+    "source_article_count": 5,
     "source_articles": [
+      {
+        "article_id": "152",
+        "title": "世界模型是上不了桌的另开一桌",
+        "date": "2026-09-21",
+        "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+        "permalink": "/articles/152",
+        "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+        "mention_count": 4
+      },
       {
         "article_id": "141",
         "title": "再爱MiniMax一次",
@@ -25,6 +36,15 @@
         "permalink": "/articles/141",
         "markdown_link": "articles/141_2026-09-01_葬爱咸鱼_再爱MiniMax一次.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "151",
+        "title": "冕神信仰公开课来了",
+        "date": "2026-09-17",
+        "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+        "permalink": "/articles/151",
+        "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+        "mention_count": 1
       },
       {
         "article_id": "085",
@@ -45,8 +65,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 7,
-    "composite_weight": 0.0628
+    "degree": 9,
+    "composite_weight": 0.0992
   },
   "links": [
     {
@@ -133,15 +153,37 @@
       "relation_type": "founder_of",
       "type": "founder_of",
       "label": "闫俊杰创立了MiniMax",
-      "weight": 2,
+      "weight": 4,
       "strength": 5,
-      "effective_weight": 12,
-      "article_count": 2,
+      "effective_weight": 24,
+      "article_count": 4,
       "evidence_articles": [
         "085",
-        "141"
+        "141",
+        "151",
+        "152"
       ],
       "evidences": [
+        {
+          "article_id": "152",
+          "title": "世界模型是上不了桌的另开一桌",
+          "permalink": "/articles/152",
+          "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "date": "2026-09-21",
+          "label": "文中明确提到闫俊杰是MiniMax的创始人/核心人物",
+          "weight": 1
+        },
+        {
+          "article_id": "151",
+          "title": "冕神信仰公开课来了",
+          "permalink": "/articles/151",
+          "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "date": "2026-09-17",
+          "label": "文中提到“同为校友的MiniMax闫神”，推断闫俊杰为MiniMax创始人",
+          "weight": 1
+        },
         {
           "article_id": "141",
           "title": "再爱MiniMax一次",
@@ -160,6 +202,32 @@
           "path": "articles/085_2026-04-27_沐秋_谁是宇宙第一FA.md",
           "date": "2026-04-27",
           "label": "闫俊杰创立了MiniMax",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "闫俊杰",
+      "target": "东南大学",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "文中明确提及闫俊杰与陈冕“同为校友”，表明闫俊杰也是东南大学校友",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "151"
+      ],
+      "evidences": [
+        {
+          "article_id": "151",
+          "title": "冕神信仰公开课来了",
+          "permalink": "/articles/151",
+          "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "date": "2026-09-17",
+          "label": "文中明确提及闫俊杰与陈冕“同为校友”，表明闫俊杰也是东南大学校友",
           "weight": 1
         }
       ]
@@ -215,7 +283,62 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "闫俊杰",
+      "target": "minimax-h3",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "作为创始人，闫俊杰对H3模型的开源和迭代起决定性作用",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "152"
+      ],
+      "evidences": [
+        {
+          "article_id": "152",
+          "title": "世界模型是上不了桌的另开一桌",
+          "permalink": "/articles/152",
+          "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "date": "2026-09-21",
+          "label": "作为创始人，闫俊杰对H3模型的开源和迭代起决定性作用",
+          "weight": 1
+        }
+      ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "kimi",
+      "target": "闫俊杰",
+      "score": 0.5325,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "049",
+        "085",
+        "141",
+        "152"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "闫俊杰",
+      "target": "陈冕",
+      "score": 0.4974,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 1 个邻居",
+      "evidence_article_ids": [
+        "049",
+        "085",
+        "141",
+        "151"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

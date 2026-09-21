@@ -4,8 +4,8 @@
     "name": "TapNow",
     "type": "company",
     "description": "AI视频创作平台，推出了Creative OS系统，致力于构建AI视频创作生态",
-    "mention_count": 58,
-    "article_count": 8,
+    "mention_count": 59,
+    "article_count": 9,
     "aliases": [
       "Tapnow"
     ],
@@ -22,8 +22,8 @@
       "视频Agent",
       "视频工作流"
     ],
-    "references": 8,
-    "source_article_count": 8,
+    "references": 9,
+    "source_article_count": 9,
     "source_articles": [
       {
         "article_id": "073",
@@ -71,6 +71,15 @@
         "mention_count": 3
       },
       {
+        "article_id": "151",
+        "title": "冕神信仰公开课来了",
+        "date": "2026-09-17",
+        "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+        "permalink": "/articles/151",
+        "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "126",
         "title": "冕神语录",
         "date": "2026-07-29",
@@ -99,7 +108,7 @@
       }
     ],
     "degree": 19,
-    "composite_weight": 0.2393
+    "composite_weight": 0.2446
   },
   "links": [
     {
@@ -173,15 +182,26 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文章核心论点，指出LibTV在UI设计、交互、分镜解析等大量功能上像素级模仿（抄袭/致敬）TapNow。",
-      "weight": 2,
+      "weight": 3,
       "strength": 2,
-      "effective_weight": 6,
-      "article_count": 2,
+      "effective_weight": 9,
+      "article_count": 3,
       "evidence_articles": [
         "073",
-        "119"
+        "119",
+        "151"
       ],
       "evidences": [
+        {
+          "article_id": "151",
+          "title": "冕神信仰公开课来了",
+          "permalink": "/articles/151",
+          "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "date": "2026-09-17",
+          "label": "文中评论“冕神抄TapNow确实是抄得快”，暗示LibTV在产品形态或功能上对标/模仿TapNow",
+          "weight": 1
+        },
         {
           "article_id": "119",
           "title": "视频Agent进入大致敬时代",
@@ -508,9 +528,9 @@
     {
       "source": "tapnow",
       "target": "陈冕",
-      "score": 0.5333,
+      "score": 0.5327,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "073",
         "078",

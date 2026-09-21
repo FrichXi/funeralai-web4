@@ -4,8 +4,8 @@
     "name": "马卡龙",
     "type": "product",
     "description": "Mindverse的起家产品，曾定位为Personal agent，现转型为收集数据的Agent harness",
-    "mention_count": 108,
-    "article_count": 8,
+    "mention_count": 109,
+    "article_count": 9,
     "aliases": [
       "3D版马卡龙",
       "Macaron",
@@ -25,8 +25,8 @@
       "基准测试",
       "网络小说"
     ],
-    "references": 8,
-    "source_article_count": 8,
+    "references": 9,
+    "source_article_count": 9,
     "source_articles": [
       {
         "article_id": "099",
@@ -83,6 +83,15 @@
         "mention_count": 3
       },
       {
+        "article_id": "152",
+        "title": "世界模型是上不了桌的另开一桌",
+        "date": "2026-09-21",
+        "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+        "permalink": "/articles/152",
+        "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "121",
         "title": "蚂蚁把世界模型作为一场儿戏",
         "date": "2026-07-16",
@@ -101,8 +110,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 27,
-    "composite_weight": 0.2752
+    "degree": 28,
+    "composite_weight": 0.2865
   },
   "links": [
     {
@@ -127,6 +136,32 @@
           "path": "articles/055_2026-01-22_沐秋_来认识下2025年最活跃的CVC.md",
           "date": "2026-01-22",
           "label": "文中提到马卡龙距离被蚂蚁收购更近一步",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "明超平",
+      "target": "马卡龙",
+      "relation_type": "collaborates_with",
+      "type": "collaborates_with",
+      "label": "文中将两人并列提及，作为曾经能讲出创新故事的代表人物",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "152"
+      ],
+      "evidences": [
+        {
+          "article_id": "152",
+          "title": "世界模型是上不了桌的另开一桌",
+          "permalink": "/articles/152",
+          "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "date": "2026-09-21",
+          "label": "文中将两人并列提及，作为曾经能讲出创新故事的代表人物",
           "weight": 1
         }
       ]
@@ -704,9 +739,23 @@
   ],
   "suggested_edges": [
     {
+      "source": "kimi",
+      "target": "马卡龙",
+      "score": 0.4497,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "040",
+        "055",
+        "099",
+        "152"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "孙宇晨",
       "target": "马卡龙",
-      "score": 0.4403,
+      "score": 0.4419,
       "suggested_relation_type": "related",
       "reason": "共同出现于 2 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -718,7 +767,7 @@
     {
       "source": "lovart",
       "target": "马卡龙",
-      "score": 0.406,
+      "score": 0.4067,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 2 个邻居",
       "evidence_article_ids": [

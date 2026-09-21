@@ -4,8 +4,8 @@
     "name": "即梦",
     "type": "product",
     "description": "字节旗下的AI创作应用，内置了AI形象定制和视频合拍功能。",
-    "mention_count": 41,
-    "article_count": 10,
+    "mention_count": 42,
+    "article_count": 11,
     "aliases": [
       "Jimeng"
     ],
@@ -14,16 +14,18 @@
       "AI创作",
       "AI工具",
       "AI应用",
+      "AI视频",
       "C端产品",
       "图片生成",
       "字节系",
+      "字节跳动",
       "视频大模型",
       "视频模型",
       "视频生成",
       "音色模拟"
     ],
-    "references": 10,
-    "source_article_count": 10,
+    "references": 11,
+    "source_article_count": 11,
     "source_articles": [
       {
         "article_id": "095",
@@ -89,6 +91,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "151",
+        "title": "冕神信仰公开课来了",
+        "date": "2026-09-17",
+        "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+        "permalink": "/articles/151",
+        "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "088",
         "title": "读过豆包赚钱手册才敢自称懂AI",
         "date": "2026-05-07",
@@ -117,7 +128,7 @@
       }
     ],
     "degree": 21,
-    "composite_weight": 0.2199
+    "composite_weight": 0.2264
   },
   "links": [
     {
@@ -243,14 +254,25 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "文中对比两者接入Seedance模型的速度与价格，存在直接业务竞争",
-      "weight": 1,
+      "weight": 2,
       "strength": 3,
-      "effective_weight": 4,
-      "article_count": 1,
+      "effective_weight": 8,
+      "article_count": 2,
       "evidence_articles": [
-        "119"
+        "119",
+        "151"
       ],
       "evidences": [
+        {
+          "article_id": "151",
+          "title": "冕神信仰公开课来了",
+          "permalink": "/articles/151",
+          "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "date": "2026-09-17",
+          "label": "文中评论“LibTV干即梦...指日可待”，表明两者存在竞争关系",
+          "weight": 1
+        },
         {
           "article_id": "119",
           "title": "视频Agent进入大致敬时代",
@@ -655,9 +677,52 @@
   ],
   "suggested_edges": [
     {
+      "source": "剪映",
+      "target": "即梦",
+      "score": 0.6414,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "063",
+        "078",
+        "088",
+        "132",
+        "151"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "即梦",
+      "target": "小云雀",
+      "score": 0.5525,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "062",
+        "063",
+        "132",
+        "151"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "即梦",
+      "target": "抖音",
+      "score": 0.5525,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "062",
+        "063",
+        "088",
+        "151"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "sora",
       "target": "即梦",
-      "score": 0.5301,
+      "score": 0.5311,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -668,55 +733,15 @@
       "status": "suggested"
     },
     {
-      "source": "剪映",
-      "target": "即梦",
-      "score": 0.5086,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
-      "evidence_article_ids": [
-        "063",
-        "078",
-        "088",
-        "132"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "oiioii",
       "target": "即梦",
-      "score": 0.4521,
+      "score": 0.45,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "062",
         "078",
         "119"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "即梦",
-      "target": "小云雀",
-      "score": 0.4182,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "062",
-        "063",
-        "132"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "即梦",
-      "target": "抖音",
-      "score": 0.4182,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "062",
-        "063",
-        "088"
       ],
       "status": "suggested"
     }

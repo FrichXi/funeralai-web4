@@ -1,0 +1,84 @@
+{
+  "node": {
+    "id": "东南大学",
+    "name": "东南大学",
+    "type": "company",
+    "description": "陈冕和闫俊杰的母校",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "高校"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "151",
+        "title": "冕神信仰公开课来了",
+        "date": "2026-09-17",
+        "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+        "permalink": "/articles/151",
+        "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0207
+  },
+  "links": [
+    {
+      "source": "闫俊杰",
+      "target": "东南大学",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "文中明确提及闫俊杰与陈冕“同为校友”，表明闫俊杰也是东南大学校友",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "151"
+      ],
+      "evidences": [
+        {
+          "article_id": "151",
+          "title": "冕神信仰公开课来了",
+          "permalink": "/articles/151",
+          "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "date": "2026-09-17",
+          "label": "文中明确提及闫俊杰与陈冕“同为校友”，表明闫俊杰也是东南大学校友",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "陈冕",
+      "target": "东南大学",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "陈冕回到母校东南大学演讲，且被称为“陈冕学长”，表明校友关系（此处用works_at兜底校友/就读关系）",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "151"
+      ],
+      "evidences": [
+        {
+          "article_id": "151",
+          "title": "冕神信仰公开课来了",
+          "permalink": "/articles/151",
+          "markdown_link": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+          "date": "2026-09-17",
+          "label": "陈冕回到母校东南大学演讲，且被称为“陈冕学长”，表明校友关系（此处用works_at兜底校友/就读关系）",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

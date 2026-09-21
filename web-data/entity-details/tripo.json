@@ -4,8 +4,8 @@
     "name": "Tripo",
     "type": "company",
     "description": "专门的3D生成模型/工具，被GPT-6调用以优化人物模型生成",
-    "mention_count": 21,
-    "article_count": 5,
+    "mention_count": 22,
+    "article_count": 6,
     "aliases": [
       "Tirpo",
       "Tripo AI"
@@ -16,10 +16,11 @@
       "3D生成",
       "AI公司",
       "AI工具",
+      "世界模型",
       "赞助方"
     ],
-    "references": 5,
-    "source_article_count": 5,
+    "references": 6,
+    "source_article_count": 6,
     "source_articles": [
       {
         "article_id": "115",
@@ -65,12 +66,99 @@
         "permalink": "/articles/093",
         "markdown_link": "articles/093_2026-05-19_沐秋_在网吧办黑客松才是正经事.md",
         "mention_count": 2
+      },
+      {
+        "article_id": "152",
+        "title": "世界模型是上不了桌的另开一桌",
+        "date": "2026-09-21",
+        "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+        "permalink": "/articles/152",
+        "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+        "mention_count": 1
       }
     ],
-    "degree": 2,
-    "composite_weight": 0.0759
+    "degree": 6,
+    "composite_weight": 0.1069
   },
   "links": [
+    {
+      "source": "meshy",
+      "target": "tripo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者同属AI 3D模型公司转型世界模型并获得融资的案例",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "152"
+      ],
+      "evidences": [
+        {
+          "article_id": "152",
+          "title": "世界模型是上不了桌的另开一桌",
+          "permalink": "/articles/152",
+          "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "date": "2026-09-21",
+          "label": "两者同属AI 3D模型公司转型世界模型并获得融资的案例",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "tripo",
+      "target": "meshy",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者同属AI 3D模型公司转型世界模型并获得融资的案例",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "tripo",
+      "target": "影眸",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者同属AI 3D模型公司转型世界模型并获得融资的案例",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "152"
+      ],
+      "evidences": [
+        {
+          "article_id": "152",
+          "title": "世界模型是上不了桌的另开一桌",
+          "permalink": "/articles/152",
+          "markdown_link": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "path": "articles/152_2026-09-21_葬爱咸鱼_世界模型是上不了桌的另开一桌.md",
+          "date": "2026-09-21",
+          "label": "两者同属AI 3D模型公司转型世界模型并获得融资的案例",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "影眸",
+      "target": "tripo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者同属AI 3D模型公司转型世界模型并获得融资的案例",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
     {
       "source": "vast",
       "target": "tripo",
@@ -111,5 +199,18 @@
       "evidences": []
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "minimax",
+      "target": "tripo",
+      "score": 0.4074,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 1 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "100",
+        "152"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

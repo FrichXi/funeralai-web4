@@ -124,7 +124,7 @@
       }
     ],
     "degree": 33,
-    "composite_weight": 0.3138
+    "composite_weight": 0.3102
   },
   "links": [
     {
@@ -856,7 +856,7 @@
     {
       "source": "claude",
       "target": "mulerun",
-      "score": 0.6568,
+      "score": 0.6578,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -870,8 +870,21 @@
     },
     {
       "source": "mulerun",
+      "target": "腾讯",
+      "score": 0.5189,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "018",
+        "071",
+        "145"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "mulerun",
       "target": "qwen",
-      "score": 0.4767,
+      "score": 0.4779,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -881,22 +894,9 @@
       "status": "suggested"
     },
     {
-      "source": "mulerun",
-      "target": "腾讯",
-      "score": 0.4691,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "018",
-        "071",
-        "145"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "cursor",
       "target": "mulerun",
-      "score": 0.4572,
+      "score": 0.458,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
@@ -909,7 +909,7 @@
     {
       "source": "mulerun",
       "target": "字节跳动",
-      "score": 0.4098,
+      "score": 0.4094,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [

@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+- Content update through 152: 151 articles; latest: 世界模型是上不了桌的另开一桌.
+
 - Content update through 150: 149 articles; latest: 大模型需要雷军.
 
 - Content update through 149: 148 articles; latest: AI Dating都是衡水中学.

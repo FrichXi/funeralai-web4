@@ -1,0 +1,252 @@
+{
+  "article": {
+    "id": "151",
+    "title": "冕神信仰公开课来了",
+    "path": "articles/151_2026-09-17_沐秋_冕神信仰公开课来了.md",
+    "date": "2026-09-17",
+    "author": "沐秋",
+    "content_hash": "513e1afd11e63a111d6e3980cb30770a6f0736733a059f0bf279f1828282121c"
+  },
+  "entities": [
+    {
+      "id": "陈冕",
+      "name": "陈冕",
+      "type": "person",
+      "description": "LibTV创始人，被称为“冕神”，东南大学校友",
+      "mention_count": 15,
+      "aliases": [
+        "冕神",
+        "陈冕学长"
+      ],
+      "tags": [
+        "AI短剧",
+        "信仰公开课"
+      ]
+    },
+    {
+      "id": "libtv",
+      "name": "LibTV",
+      "type": "company",
+      "description": "陈冕创立的公司，主营AI视频/短剧相关业务",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI视频",
+        "短剧"
+      ]
+    },
+    {
+      "id": "抖音",
+      "name": "抖音",
+      "type": "product",
+      "description": "短视频平台，文中提及为创作者变现平台及LibTV潜在目标",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "短视频平台",
+        "字节跳动"
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "description": "闫俊杰创立的大模型公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "tapnow",
+      "name": "TapNow",
+      "type": "product",
+      "description": "被指LibTV抄袭的对象产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI应用"
+      ]
+    },
+    {
+      "id": "东南大学",
+      "name": "东南大学",
+      "type": "company",
+      "description": "陈冕和闫俊杰的母校",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "高校"
+      ]
+    },
+    {
+      "id": "剪映",
+      "name": "剪映",
+      "type": "product",
+      "description": "字节跳动旗下视频剪辑工具，LibTV潜在竞争对象",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "视频编辑",
+        "字节跳动"
+      ]
+    },
+    {
+      "id": "即梦",
+      "name": "即梦",
+      "type": "product",
+      "description": "字节跳动旗下AI创作工具，LibTV竞品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI视频",
+        "字节跳动"
+      ]
+    },
+    {
+      "id": "小云雀",
+      "name": "小云雀",
+      "type": "product",
+      "description": "AI相关产品，LibTV竞品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI音频/视频"
+      ]
+    },
+    {
+      "id": "红果短剧",
+      "name": "红果短剧",
+      "type": "product",
+      "description": "短剧平台，文中分析其生态规律并认为其面临危险",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "短剧平台"
+      ]
+    },
+    {
+      "id": "闫俊杰",
+      "name": "闫俊杰",
+      "type": "person",
+      "description": "MiniMax创始人，被称为“闫神”，东南大学校友",
+      "mention_count": 1,
+      "aliases": [
+        "闫神"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "LibTV",
+      "target": "TapNow",
+      "relation_type": "compares_to",
+      "label": "文中评论“冕神抄TapNow确实是抄得快”，暗示LibTV在产品形态或功能上对标/模仿TapNow",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "LibTV",
+      "target": "剪映",
+      "relation_type": "competes_with",
+      "label": "文中评论“LibTV干...剪映...指日可待”，表明两者存在竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "LibTV",
+      "target": "即梦",
+      "relation_type": "competes_with",
+      "label": "文中评论“LibTV干即梦...指日可待”，表明两者存在竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "LibTV",
+      "target": "小云雀",
+      "relation_type": "competes_with",
+      "label": "文中评论“LibTV干...小云雀...指日可待”，表明两者存在竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "LibTV",
+      "target": "抖音",
+      "relation_type": "competes_with",
+      "label": "文中评论“最后干抖音指日可待”，暗示LibTV未来可能与抖音形成竞争或替代关系",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "low"
+    },
+    {
+      "source": "陈冕",
+      "target": "红果短剧",
+      "relation_type": "criticizes",
+      "label": "陈冕分析短剧生态规律，作者解读为“红果也危险了”，隐含对红果短剧现状的批判性分析",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "闫俊杰",
+      "target": "MiniMax",
+      "relation_type": "founder_of",
+      "label": "文中提到“同为校友的MiniMax闫神”，推断闫俊杰为MiniMax创始人",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "陈冕",
+      "target": "LibTV",
+      "relation_type": "founder_of",
+      "label": "陈冕是LibTV的创始人，文中以“冕神”代指并在公开课中分享创业经验",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "剪映",
+      "target": "即梦",
+      "relation_type": "related",
+      "label": "两者均为字节跳动旗下产品，且在文中被并列提及作为LibTV的竞争对象",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "medium"
+    },
+    {
+      "source": "闫俊杰",
+      "target": "东南大学",
+      "relation_type": "works_at",
+      "label": "文中明确提及闫俊杰与陈冕“同为校友”，表明闫俊杰也是东南大学校友",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "陈冕",
+      "target": "东南大学",
+      "relation_type": "works_at",
+      "label": "陈冕回到母校东南大学演讲，且被称为“陈冕学长”，表明校友关系（此处用works_at兜底校友/就读关系）",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 11,
+    "relationship_count": 11,
+    "pruned_entities": [],
+    "provider": "dashscope"
+  }
+}
