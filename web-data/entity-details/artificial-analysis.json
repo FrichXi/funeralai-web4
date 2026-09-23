@@ -1,0 +1,60 @@
+{
+  "node": {
+    "id": "artificial-analysis",
+    "name": "Artificial Analysis",
+    "type": "company",
+    "description": "AI模型评测榜单机构",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [
+      "AA"
+    ],
+    "tags": [
+      "评测榜单"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "153",
+        "title": "阶跃应该在桌上而不是桌底",
+        "date": "2026-09-22",
+        "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "permalink": "/articles/153",
+        "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0173
+  },
+  "links": [
+    {
+      "source": "kk",
+      "target": "artificial-analysis",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "kk批评Artificial Analysis的权重指标聚拢太多问题，看不出实际意义",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "kk批评Artificial Analysis的权重指标聚拢太多问题，看不出实际意义",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

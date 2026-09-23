@@ -10,8 +10,8 @@
     {
       "id": "c02",
       "name": "Kimi / MiniMax / 智谱AI 圈",
-      "node_count": 101,
-      "link_count": 233,
+      "node_count": 102,
+      "link_count": 234,
       "top_nodes": [
         {
           "id": "kimi",
@@ -45,8 +45,8 @@
           "id": "阶跃星辰",
           "name": "阶跃星辰",
           "type": "company",
-          "degree": 51,
-          "composite_weight": 0.4296
+          "degree": 56,
+          "composite_weight": 0.5082
         }
       ],
       "color": "#14c8a8"
@@ -54,15 +54,15 @@
     {
       "id": "c03",
       "name": "豆包 / 字节跳动 / Seedance 圈",
-      "node_count": 74,
-      "link_count": 196,
+      "node_count": 69,
+      "link_count": 174,
       "top_nodes": [
         {
           "id": "豆包",
           "name": "豆包",
           "type": "product",
-          "degree": 73,
-          "composite_weight": 0.8017
+          "degree": 75,
+          "composite_weight": 0.8226
         },
         {
           "id": "字节跳动",
@@ -142,8 +142,8 @@
     {
       "id": "c01",
       "name": "Claude / Qwen / ChatGPT 圈",
-      "node_count": 59,
-      "link_count": 183,
+      "node_count": 56,
+      "link_count": 166,
       "top_nodes": [
         {
           "id": "claude",
@@ -174,108 +174,20 @@
           "composite_weight": 0.4036
         },
         {
-          "id": "openclaw",
-          "name": "OpenClaw",
-          "type": "product",
-          "degree": 34,
-          "composite_weight": 0.3557
+          "id": "anthropic",
+          "name": "Anthropic",
+          "type": "company",
+          "degree": 24,
+          "composite_weight": 0.2464
         }
       ],
       "color": "#7351cf"
     },
     {
-      "id": "c06",
-      "name": "阿里巴巴 / 腾讯 / MuleRun 圈",
-      "node_count": 57,
-      "link_count": 107,
-      "top_nodes": [
-        {
-          "id": "阿里巴巴",
-          "name": "阿里巴巴",
-          "type": "company",
-          "degree": 42,
-          "composite_weight": 0.5362
-        },
-        {
-          "id": "腾讯",
-          "name": "腾讯",
-          "type": "company",
-          "degree": 33,
-          "composite_weight": 0.3933
-        },
-        {
-          "id": "mulerun",
-          "name": "MuleRun",
-          "type": "product",
-          "degree": 33,
-          "composite_weight": 0.3102
-        },
-        {
-          "id": "workbuddy",
-          "name": "WorkBuddy",
-          "type": "product",
-          "degree": 21,
-          "composite_weight": 0.23
-        },
-        {
-          "id": "qoder",
-          "name": "Qoder",
-          "type": "product",
-          "degree": 12,
-          "composite_weight": 0.1552
-        }
-      ],
-      "color": "#a855f7"
-    },
-    {
-      "id": "c08",
-      "name": "马卡龙 / 蚂蚁集团 / Looki 圈",
-      "node_count": 57,
-      "link_count": 112,
-      "top_nodes": [
-        {
-          "id": "马卡龙",
-          "name": "马卡龙",
-          "type": "product",
-          "degree": 28,
-          "composite_weight": 0.2865
-        },
-        {
-          "id": "蚂蚁集团",
-          "name": "蚂蚁集团",
-          "type": "company",
-          "degree": 33,
-          "composite_weight": 0.2552
-        },
-        {
-          "id": "looki",
-          "name": "Looki",
-          "type": "product",
-          "degree": 21,
-          "composite_weight": 0.2138
-        },
-        {
-          "id": "灵光",
-          "name": "灵光",
-          "type": "product",
-          "degree": 18,
-          "composite_weight": 0.1652
-        },
-        {
-          "id": "光帆耳机",
-          "name": "光帆耳机",
-          "type": "product",
-          "degree": 15,
-          "composite_weight": 0.135
-        }
-      ],
-      "color": "#f97316"
-    },
-    {
       "id": "c04",
-      "name": "Manus / GenSpark / Agnes 圈",
-      "node_count": 46,
-      "link_count": 97,
+      "name": "Manus / OpenClaw / GenSpark 圈",
+      "node_count": 55,
+      "link_count": 122,
       "top_nodes": [
         {
           "id": "manus",
@@ -283,6 +195,13 @@
           "type": "product",
           "degree": 63,
           "composite_weight": 0.5786
+        },
+        {
+          "id": "openclaw",
+          "name": "OpenClaw",
+          "type": "product",
+          "degree": 34,
+          "composite_weight": 0.3557
         },
         {
           "id": "genspark",
@@ -299,27 +218,108 @@
           "composite_weight": 0.181
         },
         {
-          "id": "flowith-os",
-          "name": "Flowith OS",
+          "id": "阶跃桌面伙伴",
+          "name": "阶跃桌面伙伴",
           "type": "product",
-          "degree": 20,
-          "composite_weight": 0.1367
-        },
-        {
-          "id": "夸克",
-          "name": "夸克",
-          "type": "product",
-          "degree": 9,
-          "composite_weight": 0.0694
+          "degree": 23,
+          "composite_weight": 0.1802
         }
       ],
       "color": "#ef476f"
     },
     {
+      "id": "c06",
+      "name": "阿里巴巴 / MuleRun / 美团 圈",
+      "node_count": 45,
+      "link_count": 73,
+      "top_nodes": [
+        {
+          "id": "阿里巴巴",
+          "name": "阿里巴巴",
+          "type": "company",
+          "degree": 42,
+          "composite_weight": 0.5362
+        },
+        {
+          "id": "mulerun",
+          "name": "MuleRun",
+          "type": "product",
+          "degree": 33,
+          "composite_weight": 0.3102
+        },
+        {
+          "id": "美团",
+          "name": "美团",
+          "type": "company",
+          "degree": 14,
+          "composite_weight": 0.1763
+        },
+        {
+          "id": "qoder",
+          "name": "Qoder",
+          "type": "product",
+          "degree": 12,
+          "composite_weight": 0.1552
+        },
+        {
+          "id": "阿里云",
+          "name": "阿里云",
+          "type": "company",
+          "degree": 19,
+          "composite_weight": 0.1457
+        }
+      ],
+      "color": "#a855f7"
+    },
+    {
+      "id": "c09",
+      "name": "葬爱咸鱼 / Looki / 沐秋 圈",
+      "node_count": 45,
+      "link_count": 81,
+      "top_nodes": [
+        {
+          "id": "葬爱咸鱼",
+          "name": "葬爱咸鱼",
+          "type": "person",
+          "degree": 22,
+          "composite_weight": 0.2487
+        },
+        {
+          "id": "looki",
+          "name": "Looki",
+          "type": "product",
+          "degree": 21,
+          "composite_weight": 0.2138
+        },
+        {
+          "id": "沐秋",
+          "name": "沐秋",
+          "type": "person",
+          "degree": 14,
+          "composite_weight": 0.1682
+        },
+        {
+          "id": "小米",
+          "name": "小米",
+          "type": "company",
+          "degree": 14,
+          "composite_weight": 0.1589
+        },
+        {
+          "id": "光帆耳机",
+          "name": "光帆耳机",
+          "type": "product",
+          "degree": 15,
+          "composite_weight": 0.135
+        }
+      ],
+      "color": "#06b6d4"
+    },
+    {
       "id": "c05",
       "name": "LibTV / 陈冕 / Lovart 圈",
-      "node_count": 33,
-      "link_count": 98,
+      "node_count": 42,
+      "link_count": 123,
       "top_nodes": [
         {
           "id": "libtv",
@@ -360,61 +360,31 @@
       "color": "#4cc9f0"
     },
     {
-      "id": "c09",
-      "name": "钉钉 / 葬爱咸鱼 / Plaud 圈",
-      "node_count": 31,
-      "link_count": 56,
-      "top_nodes": [
-        {
-          "id": "钉钉",
-          "name": "钉钉",
-          "type": "product",
-          "degree": 26,
-          "composite_weight": 0.2452
-        },
-        {
-          "id": "葬爱咸鱼",
-          "name": "葬爱咸鱼",
-          "type": "person",
-          "degree": 21,
-          "composite_weight": 0.2338
-        },
-        {
-          "id": "plaud",
-          "name": "Plaud",
-          "type": "product",
-          "degree": 21,
-          "composite_weight": 0.2004
-        },
-        {
-          "id": "raft",
-          "name": "Raft",
-          "type": "product",
-          "degree": 15,
-          "composite_weight": 0.1413
-        },
-        {
-          "id": "tutti",
-          "name": "Tutti",
-          "type": "product",
-          "degree": 7,
-          "composite_weight": 0.0626
-        }
-      ],
-      "color": "#06b6d4"
-    },
-    {
       "id": "c07",
-      "name": "百度 / 百度搭子 / 张月光 圈",
-      "node_count": 29,
-      "link_count": 58,
+      "name": "腾讯 / 百度 / WorkBuddy 圈",
+      "node_count": 42,
+      "link_count": 75,
       "top_nodes": [
+        {
+          "id": "腾讯",
+          "name": "腾讯",
+          "type": "company",
+          "degree": 35,
+          "composite_weight": 0.4188
+        },
         {
           "id": "百度",
           "name": "百度",
           "type": "company",
           "degree": 30,
           "composite_weight": 0.3806
+        },
+        {
+          "id": "workbuddy",
+          "name": "WorkBuddy",
+          "type": "product",
+          "degree": 21,
+          "composite_weight": 0.23
         },
         {
           "id": "百度搭子",
@@ -429,23 +399,53 @@
           "type": "person",
           "degree": 12,
           "composite_weight": 0.1172
-        },
-        {
-          "id": "文心一言",
-          "name": "文心一言",
-          "type": "product",
-          "degree": 8,
-          "composite_weight": 0.1167
-        },
-        {
-          "id": "listenhub",
-          "name": "ListenHub",
-          "type": "product",
-          "degree": 13,
-          "composite_weight": 0.09
         }
       ],
       "color": "#22c55e"
+    },
+    {
+      "id": "c08",
+      "name": "马卡龙 / 蚂蚁集团 / 灵光 圈",
+      "node_count": 36,
+      "link_count": 63,
+      "top_nodes": [
+        {
+          "id": "马卡龙",
+          "name": "马卡龙",
+          "type": "product",
+          "degree": 28,
+          "composite_weight": 0.2865
+        },
+        {
+          "id": "蚂蚁集团",
+          "name": "蚂蚁集团",
+          "type": "company",
+          "degree": 33,
+          "composite_weight": 0.2552
+        },
+        {
+          "id": "灵光",
+          "name": "灵光",
+          "type": "product",
+          "degree": 18,
+          "composite_weight": 0.1652
+        },
+        {
+          "id": "秒哒",
+          "name": "秒哒",
+          "type": "product",
+          "degree": 8,
+          "composite_weight": 0.0677
+        },
+        {
+          "id": "mindverse",
+          "name": "Mindverse",
+          "type": "company",
+          "degree": 6,
+          "composite_weight": 0.0552
+        }
+      ],
+      "color": "#f97316"
     },
     {
       "id": "c15",
@@ -492,7 +492,7 @@
       "color": "#4cc9f0"
     },
     {
-      "id": "c11",
+      "id": "c12",
       "name": "Bloome / 明超平 / YouWare 圈",
       "node_count": 26,
       "link_count": 53,
@@ -533,10 +533,54 @@
           "composite_weight": 0.0775
         }
       ],
-      "color": "#7351cf"
+      "color": "#14c8a8"
     },
     {
       "id": "c10",
+      "name": "钉钉 / Plaud / Raft 圈",
+      "node_count": 25,
+      "link_count": 46,
+      "top_nodes": [
+        {
+          "id": "钉钉",
+          "name": "钉钉",
+          "type": "product",
+          "degree": 26,
+          "composite_weight": 0.2452
+        },
+        {
+          "id": "plaud",
+          "name": "Plaud",
+          "type": "product",
+          "degree": 21,
+          "composite_weight": 0.2004
+        },
+        {
+          "id": "raft",
+          "name": "Raft",
+          "type": "product",
+          "degree": 15,
+          "composite_weight": 0.1413
+        },
+        {
+          "id": "tutti",
+          "name": "Tutti",
+          "type": "product",
+          "degree": 7,
+          "composite_weight": 0.0626
+        },
+        {
+          "id": "无招",
+          "name": "无招",
+          "type": "person",
+          "degree": 3,
+          "composite_weight": 0.0437
+        }
+      ],
+      "color": "#e879f9"
+    },
+    {
+      "id": "c11",
       "name": "Elys / EVE / 良配 圈",
       "node_count": 21,
       "link_count": 43,
@@ -577,7 +621,7 @@
           "composite_weight": 0.0667
         }
       ],
-      "color": "#e879f9"
+      "color": "#7351cf"
     },
     {
       "id": "c14",
@@ -622,50 +666,6 @@
         }
       ],
       "color": "#ef476f"
-    },
-    {
-      "id": "c12",
-      "name": "美团 / Yinsen / OpenRouter 圈",
-      "node_count": 16,
-      "link_count": 19,
-      "top_nodes": [
-        {
-          "id": "美团",
-          "name": "美团",
-          "type": "company",
-          "degree": 14,
-          "composite_weight": 0.1763
-        },
-        {
-          "id": "yinsen",
-          "name": "Yinsen",
-          "type": "person",
-          "degree": 13,
-          "composite_weight": 0.1135
-        },
-        {
-          "id": "openrouter",
-          "name": "OpenRouter",
-          "type": "company",
-          "degree": 4,
-          "composite_weight": 0.0624
-        },
-        {
-          "id": "longcat-2-0",
-          "name": "LongCat 2.0",
-          "type": "product",
-          "degree": 4,
-          "composite_weight": 0.0499
-        },
-        {
-          "id": "longcat",
-          "name": "LongCat",
-          "type": "product",
-          "degree": 5,
-          "composite_weight": 0.0458
-        }
-      ],
-      "color": "#14c8a8"
     },
     {
       "id": "c16",
@@ -756,51 +756,7 @@
       "color": "#22c55e"
     },
     {
-      "id": "c19",
-      "name": "Uber / ofo / 滴滴 圈",
-      "node_count": 9,
-      "link_count": 11,
-      "top_nodes": [
-        {
-          "id": "uber",
-          "name": "Uber",
-          "type": "company",
-          "degree": 6,
-          "composite_weight": 0.0481
-        },
-        {
-          "id": "ofo",
-          "name": "ofo",
-          "type": "company",
-          "degree": 6,
-          "composite_weight": 0.0444
-        },
-        {
-          "id": "滴滴",
-          "name": "滴滴",
-          "type": "company",
-          "degree": 3,
-          "composite_weight": 0.0256
-        },
-        {
-          "id": "金沙江",
-          "name": "金沙江",
-          "type": "vc_firm",
-          "degree": 3,
-          "composite_weight": 0.0207
-        },
-        {
-          "id": "摩拜",
-          "name": "摩拜",
-          "type": "company",
-          "degree": 2,
-          "composite_weight": 0.0153
-        }
-      ],
-      "color": "#06b6d4"
-    },
-    {
-      "id": "c22",
+      "id": "c21",
       "name": "真格基金 / BodyPark / 云望创新 圈",
       "node_count": 3,
       "link_count": 2,
@@ -827,10 +783,10 @@
           "composite_weight": 0.0126
         }
       ],
-      "color": "#14c8a8"
+      "color": "#7351cf"
     },
     {
-      "id": "c26",
+      "id": "c25",
       "name": "网易 / 丁磊 / 有道龙虾 圈",
       "node_count": 3,
       "link_count": 2,
@@ -857,7 +813,7 @@
           "composite_weight": 0.0127
         }
       ],
-      "color": "#a855f7"
+      "color": "#4cc9f0"
     },
     {
       "id": "c18",
@@ -883,7 +839,7 @@
       "color": "#f97316"
     },
     {
-      "id": "c20",
+      "id": "c19",
       "name": "看准 / Boss直聘 圈",
       "node_count": 2,
       "link_count": 3,
@@ -903,10 +859,10 @@
           "composite_weight": 0.0288
         }
       ],
-      "color": "#e879f9"
+      "color": "#06b6d4"
     },
     {
-      "id": "c21",
+      "id": "c20",
       "name": "葬AI基准测试 / SWE-bench 圈",
       "node_count": 2,
       "link_count": 2,
@@ -926,10 +882,10 @@
           "composite_weight": 0.0196
         }
       ],
-      "color": "#7351cf"
+      "color": "#e879f9"
     },
     {
-      "id": "c24",
+      "id": "c23",
       "name": "Nuna / Whoop手环 圈",
       "node_count": 2,
       "link_count": 2,
@@ -949,10 +905,10 @@
           "composite_weight": 0.0198
         }
       ],
-      "color": "#ef476f"
+      "color": "#f59e0b"
     },
     {
-      "id": "c27",
+      "id": "c26",
       "name": "柯洁 / 阿尔法狗 圈",
       "node_count": 2,
       "link_count": 2,
@@ -972,10 +928,10 @@
           "composite_weight": 0.0164
         }
       ],
-      "color": "#22c55e"
+      "color": "#a855f7"
     },
     {
-      "id": "c28",
+      "id": "c27",
       "name": "Odyss / Chris 圈",
       "node_count": 2,
       "link_count": 1,
@@ -995,10 +951,10 @@
           "composite_weight": 0.0123
         }
       ],
-      "color": "#f97316"
+      "color": "#22c55e"
     },
     {
-      "id": "c29",
+      "id": "c28",
       "name": "小鹏 / 理想 圈",
       "node_count": 2,
       "link_count": 2,
@@ -1018,10 +974,10 @@
           "composite_weight": 0.0154
         }
       ],
-      "color": "#06b6d4"
+      "color": "#f97316"
     },
     {
-      "id": "c30",
+      "id": "c29",
       "name": "葬AI Web4 / Justin 圈",
       "node_count": 2,
       "link_count": 1,
@@ -1041,10 +997,10 @@
           "composite_weight": 0.0104
         }
       ],
-      "color": "#e879f9"
+      "color": "#06b6d4"
     },
     {
-      "id": "c32",
+      "id": "c31",
       "name": "罗子马 / 豆包耳机 圈",
       "node_count": 2,
       "link_count": 1,
@@ -1064,10 +1020,10 @@
           "composite_weight": 0.0126
         }
       ],
-      "color": "#14c8a8"
+      "color": "#7351cf"
     },
     {
-      "id": "c33",
+      "id": "c32",
       "name": "LPM 1.0 / 蔡浩宇 圈",
       "node_count": 2,
       "link_count": 1,
@@ -1087,10 +1043,10 @@
           "composite_weight": 0.0125
         }
       ],
-      "color": "#f59e0b"
+      "color": "#14c8a8"
     },
     {
-      "id": "c34",
+      "id": "c33",
       "name": "VAM 1.0 / 虎牙 圈",
       "node_count": 2,
       "link_count": 1,
@@ -1110,10 +1066,10 @@
           "composite_weight": 0.0125
         }
       ],
-      "color": "#ef476f"
+      "color": "#f59e0b"
     },
     {
-      "id": "c41",
+      "id": "c40",
       "name": "俞浩 / 宇树 圈",
       "node_count": 2,
       "link_count": 1,
@@ -1133,10 +1089,10 @@
           "composite_weight": 0.0109
         }
       ],
-      "color": "#7351cf"
+      "color": "#e879f9"
     },
     {
-      "id": "c42",
+      "id": "c41",
       "name": "黄女士 / 黄姐传媒 圈",
       "node_count": 2,
       "link_count": 1,
@@ -1156,10 +1112,10 @@
           "composite_weight": 0.0108
         }
       ],
-      "color": "#14c8a8"
+      "color": "#7351cf"
     },
     {
-      "id": "c45",
+      "id": "c44",
       "name": "尚晋 / Readever 圈",
       "node_count": 2,
       "link_count": 1,
@@ -1179,10 +1135,10 @@
           "composite_weight": 0.0094
         }
       ],
-      "color": "#4cc9f0"
+      "color": "#ef476f"
     },
     {
-      "id": "c46",
+      "id": "c45",
       "name": "神奇百货 / 王凯歆 圈",
       "node_count": 2,
       "link_count": 1,
@@ -1202,10 +1158,10 @@
           "composite_weight": 0.0084
         }
       ],
-      "color": "#a855f7"
+      "color": "#4cc9f0"
     },
     {
-      "id": "c51",
+      "id": "c50",
       "name": "MOVA / Pilot 70 圈",
       "node_count": 2,
       "link_count": 1,
@@ -1225,10 +1181,10 @@
           "composite_weight": 0.0096
         }
       ],
-      "color": "#7351cf"
+      "color": "#e879f9"
     },
     {
-      "id": "c56",
+      "id": "c54",
       "name": "IMX681 / 索尼 圈",
       "node_count": 2,
       "link_count": 1,
@@ -1248,10 +1204,10 @@
           "composite_weight": 0.0093
         }
       ],
-      "color": "#a855f7"
+      "color": "#ef476f"
     },
     {
-      "id": "c57",
+      "id": "c55",
       "name": "ServiceNow / Element AI 圈",
       "node_count": 2,
       "link_count": 1,
@@ -1271,10 +1227,10 @@
           "composite_weight": 0.0084
         }
       ],
-      "color": "#22c55e"
+      "color": "#4cc9f0"
     },
     {
-      "id": "c23",
+      "id": "c22",
       "name": "meme bench 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1287,10 +1243,10 @@
           "composite_weight": 0.0254
         }
       ],
-      "color": "#f59e0b"
+      "color": "#14c8a8"
     },
     {
-      "id": "c25",
+      "id": "c24",
       "name": "良子 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1303,10 +1259,10 @@
           "composite_weight": 0.0213
         }
       ],
-      "color": "#4cc9f0"
+      "color": "#ef476f"
     },
     {
-      "id": "c31",
+      "id": "c30",
       "name": "孙笑川 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1319,10 +1275,10 @@
           "composite_weight": 0.0133
         }
       ],
-      "color": "#7351cf"
+      "color": "#e879f9"
     },
     {
-      "id": "c35",
+      "id": "c34",
       "name": "B站直播 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1335,10 +1291,10 @@
           "composite_weight": 0.0121
         }
       ],
-      "color": "#4cc9f0"
+      "color": "#ef476f"
     },
     {
-      "id": "c36",
+      "id": "c35",
       "name": "宰治 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1351,10 +1307,10 @@
           "composite_weight": 0.0121
         }
       ],
-      "color": "#a855f7"
+      "color": "#4cc9f0"
     },
     {
-      "id": "c37",
+      "id": "c36",
       "name": "Wan 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1367,10 +1323,10 @@
           "composite_weight": 0.0114
         }
       ],
-      "color": "#22c55e"
+      "color": "#a855f7"
     },
     {
-      "id": "c38",
+      "id": "c37",
       "name": "九号 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1383,10 +1339,10 @@
           "composite_weight": 0.0112
         }
       ],
-      "color": "#f97316"
+      "color": "#22c55e"
     },
     {
-      "id": "c39",
+      "id": "c38",
       "name": "Seulgi 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1399,10 +1355,10 @@
           "composite_weight": 0.0111
         }
       ],
-      "color": "#06b6d4"
+      "color": "#f97316"
     },
     {
-      "id": "c40",
+      "id": "c39",
       "name": "二金 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1415,10 +1371,10 @@
           "composite_weight": 0.0111
         }
       ],
-      "color": "#e879f9"
+      "color": "#06b6d4"
     },
     {
-      "id": "c43",
+      "id": "c42",
       "name": "仙五 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1431,10 +1387,10 @@
           "composite_weight": 0.0106
         }
       ],
-      "color": "#f59e0b"
+      "color": "#14c8a8"
     },
     {
-      "id": "c44",
+      "id": "c43",
       "name": "NemoVideo 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1447,10 +1403,10 @@
           "composite_weight": 0.0104
         }
       ],
-      "color": "#ef476f"
+      "color": "#f59e0b"
     },
     {
-      "id": "c47",
+      "id": "c46",
       "name": "Viktor 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1463,10 +1419,10 @@
           "composite_weight": 0.0102
         }
       ],
-      "color": "#22c55e"
+      "color": "#a855f7"
     },
     {
-      "id": "c48",
+      "id": "c47",
       "name": "Evolvent AI 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1479,10 +1435,10 @@
           "composite_weight": 0.0099
         }
       ],
-      "color": "#f97316"
+      "color": "#22c55e"
     },
     {
-      "id": "c49",
+      "id": "c48",
       "name": "Somnia Lab 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1495,10 +1451,10 @@
           "composite_weight": 0.0099
         }
       ],
-      "color": "#06b6d4"
+      "color": "#f97316"
     },
     {
-      "id": "c50",
+      "id": "c49",
       "name": "自变量 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1511,10 +1467,10 @@
           "composite_weight": 0.0099
         }
       ],
-      "color": "#e879f9"
+      "color": "#06b6d4"
     },
     {
-      "id": "c52",
+      "id": "c51",
       "name": "Looki L1 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1527,10 +1483,10 @@
           "composite_weight": 0.0095
         }
       ],
-      "color": "#14c8a8"
+      "color": "#7351cf"
     },
     {
-      "id": "c53",
+      "id": "c52",
       "name": "Seed Evolving 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1543,26 +1499,10 @@
           "composite_weight": 0.0095
         }
       ],
-      "color": "#f59e0b"
+      "color": "#14c8a8"
     },
     {
-      "id": "c54",
-      "name": "姚顺雨 圈",
-      "node_count": 1,
-      "link_count": 0,
-      "top_nodes": [
-        {
-          "id": "姚顺雨",
-          "name": "姚顺雨",
-          "type": "person",
-          "degree": 0,
-          "composite_weight": 0.0095
-        }
-      ],
-      "color": "#ef476f"
-    },
-    {
-      "id": "c55",
+      "id": "c53",
       "name": "六小虎 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1575,10 +1515,10 @@
           "composite_weight": 0.0094
         }
       ],
-      "color": "#4cc9f0"
+      "color": "#f59e0b"
     },
     {
-      "id": "c58",
+      "id": "c56",
       "name": "405游局 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1591,10 +1531,10 @@
           "composite_weight": 0.008
         }
       ],
-      "color": "#f97316"
+      "color": "#a855f7"
     },
     {
-      "id": "c59",
+      "id": "c57",
       "name": "范志毅 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1607,10 +1547,10 @@
           "composite_weight": 0.0073
         }
       ],
-      "color": "#06b6d4"
+      "color": "#22c55e"
     },
     {
-      "id": "c60",
+      "id": "c58",
       "name": "唐圣 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1623,10 +1563,10 @@
           "composite_weight": 0.0072
         }
       ],
-      "color": "#e879f9"
+      "color": "#f97316"
     },
     {
-      "id": "c61",
+      "id": "c59",
       "name": "微博 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1639,10 +1579,10 @@
           "composite_weight": 0.0069
         }
       ],
-      "color": "#7351cf"
+      "color": "#06b6d4"
     },
     {
-      "id": "c62",
+      "id": "c60",
       "name": "Moltbook 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1655,10 +1595,10 @@
           "composite_weight": 0.0063
         }
       ],
-      "color": "#14c8a8"
+      "color": "#e879f9"
     },
     {
-      "id": "c63",
+      "id": "c61",
       "name": "It's Time to Build 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1671,10 +1611,10 @@
           "composite_weight": 0.0062
         }
       ],
-      "color": "#f59e0b"
+      "color": "#7351cf"
     },
     {
-      "id": "c64",
+      "id": "c62",
       "name": "Wild Hornets 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1687,10 +1627,10 @@
           "composite_weight": 0.0051
         }
       ],
-      "color": "#ef476f"
+      "color": "#14c8a8"
     },
     {
-      "id": "c65",
+      "id": "c63",
       "name": "王慧文 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1703,10 +1643,10 @@
           "composite_weight": 0.0049
         }
       ],
-      "color": "#4cc9f0"
+      "color": "#f59e0b"
     },
     {
-      "id": "c66",
+      "id": "c64",
       "name": "The Little Tech Agenda 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1719,10 +1659,10 @@
           "composite_weight": 0.0043
         }
       ],
-      "color": "#a855f7"
+      "color": "#ef476f"
     },
     {
-      "id": "c67",
+      "id": "c65",
       "name": "影目 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1735,10 +1675,10 @@
           "composite_weight": 0.0043
         }
       ],
-      "color": "#22c55e"
+      "color": "#4cc9f0"
     },
     {
-      "id": "c68",
+      "id": "c66",
       "name": "华强北录音卡 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1751,10 +1691,10 @@
           "composite_weight": 0.0042
         }
       ],
-      "color": "#f97316"
+      "color": "#a855f7"
     },
     {
-      "id": "c69",
+      "id": "c67",
       "name": "蜜雪冰城 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1767,10 +1707,10 @@
           "composite_weight": 0.0038
         }
       ],
-      "color": "#06b6d4"
+      "color": "#22c55e"
     },
     {
-      "id": "c70",
+      "id": "c68",
       "name": "大华 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1783,10 +1723,10 @@
           "composite_weight": 0.0032
         }
       ],
-      "color": "#e879f9"
+      "color": "#f97316"
     },
     {
-      "id": "c71",
+      "id": "c69",
       "name": "海康威视 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1799,10 +1739,10 @@
           "composite_weight": 0.0032
         }
       ],
-      "color": "#7351cf"
+      "color": "#06b6d4"
     },
     {
-      "id": "c72",
+      "id": "c70",
       "name": "联影 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1815,10 +1755,10 @@
           "composite_weight": 0.0032
         }
       ],
-      "color": "#14c8a8"
+      "color": "#e879f9"
     },
     {
-      "id": "c73",
+      "id": "c71",
       "name": "The Techno-Optimist Manifesto 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1831,10 +1771,10 @@
           "composite_weight": 0.0031
         }
       ],
-      "color": "#f59e0b"
+      "color": "#7351cf"
     },
     {
-      "id": "c74",
+      "id": "c72",
       "name": "GreenWave 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1847,10 +1787,10 @@
           "composite_weight": 0.0025
         }
       ],
-      "color": "#ef476f"
+      "color": "#14c8a8"
     },
     {
-      "id": "c75",
+      "id": "c73",
       "name": "Spotify 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1863,10 +1803,10 @@
           "composite_weight": 0.0024
         }
       ],
-      "color": "#4cc9f0"
+      "color": "#f59e0b"
     },
     {
-      "id": "c76",
+      "id": "c74",
       "name": "马佳佳 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1879,10 +1819,10 @@
           "composite_weight": 0.0021
         }
       ],
-      "color": "#a855f7"
+      "color": "#ef476f"
     },
     {
-      "id": "c77",
+      "id": "c75",
       "name": "阿里通义 圈",
       "node_count": 1,
       "link_count": 0,
@@ -1895,11 +1835,10 @@
           "composite_weight": 0.002
         }
       ],
-      "color": "#22c55e"
+      "color": "#4cc9f0"
     }
   ],
   "node_communities": {
-    "amoo": "c01",
     "anthropic": "c01",
     "blender": "c01",
     "chatbox": "c01",
@@ -1914,7 +1853,6 @@
     "cursor": "c01",
     "dario": "c01",
     "deepseek-tui": "c01",
-    "discord": "c01",
     "erlich": "c01",
     "frame-io": "c01",
     "gemini": "c01",
@@ -1926,11 +1864,9 @@
     "ilya-sutskever": "c01",
     "kimi-code": "c01",
     "kimi-work": "c01",
-    "mimiclaw": "c01",
     "open-code": "c01",
     "openai": "c01",
     "openai-five": "c01",
-    "openclaw": "c01",
     "opencode": "c01",
     "pi-coding-agent": "c01",
     "proma": "c01",
@@ -1938,28 +1874,31 @@
     "qwen-code": "c01",
     "sam-altman": "c01",
     "stain": "c01",
-    "telegram": "c01",
     "wps": "c01",
+    "yinsen": "c01",
     "youmind": "c01",
+    "依图科技": "c01",
     "奥特曼": "c01",
-    "安卓": "c01",
+    "姚明": "c01",
     "小米mimo": "c01",
     "懂模帝bench": "c01",
     "玉伯": "c01",
+    "王谦": "c01",
     "硅基流动": "c01",
     "葬cli": "c01",
-    "虎哥": "c01",
     "虾评": "c01",
     "谷歌翻译": "c01",
     "豆包手机": "c01",
-    "贾维斯": "c01",
     "迪士尼": "c01",
     "邪恶意大利人": "c01",
-    "阶跃桌面伙伴": "c01",
     "飞猪": "c01",
+    "高利明": "c01",
     "高德": "c01",
+    "黑鲨": "c01",
     "016": "c02",
     "ai-2-0数字人": "c02",
+    "amoo": "c02",
+    "artificial-analysis": "c02",
     "autoclaw": "c02",
     "autoglm": "c02",
     "autoglm沉思": "c02",
@@ -1975,17 +1914,20 @@
     "glm-5-2": "c02",
     "glm-5-3": "c02",
     "grok-4-6": "c02",
-    "hunter-alpha": "c02",
+    "grok-imagine-1-5": "c02",
+    "happy-horse-1-1": "c02",
     "kimi": "c02",
     "kimi-agent": "c02",
     "kimi-api": "c02",
     "kimi-webbridge": "c02",
+    "kk": "c02",
     "m2": "c02",
     "manner": "c02",
     "maxclaw": "c02",
     "maxhermes": "c02",
     "meshy": "c02",
     "minimax": "c02",
+    "minimax-h3": "c02",
     "minimax-hub": "c02",
     "minimax-m3": "c02",
     "mistral-ai": "c02",
@@ -1993,6 +1935,9 @@
     "music-2-6": "c02",
     "oppo": "c02",
     "pony-alpha": "c02",
+    "seedance-2-0": "c02",
+    "seedance-2-5": "c02",
+    "step-5-preview": "c02",
     "stepx": "c02",
     "talkie": "c02",
     "tripo": "c02",
@@ -2004,10 +1949,8 @@
     "临汾市人民医院": "c02",
     "予彤": "c02",
     "云从科技": "c02",
-    "五源": "c02",
     "冒泡鸭": "c02",
     "写作蛙": "c02",
-    "刘芹": "c02",
     "北京儿童医院": "c02",
     "千里智驾": "c02",
     "千里科技": "c02",
@@ -2017,9 +1960,6 @@
     "咸鱼之王": "c02",
     "唐杰": "c02",
     "孩子王": "c02",
-    "小爱同学": "c02",
-    "小米": "c02",
-    "小米澎程": "c02",
     "张予彤": "c02",
     "影眸": "c02",
     "循环智能": "c02",
@@ -2035,7 +1975,6 @@
     "李开复": "c02",
     "杨植麟": "c02",
     "梁圣": "c02",
-    "沐秋": "c02",
     "泡泡玛特": "c02",
     "牛来大模型": "c02",
     "狸谱": "c02",
@@ -2045,10 +1984,10 @@
     "砸盘两兄弟": "c02",
     "福棠-百川": "c02",
     "科比-布莱恩特": "c02",
-    "罗福莉": "c02",
     "美团龙珠": "c02",
     "胖猫": "c02",
     "胖虎ai": "c02",
+    "腾讯混元": "c02",
     "荣耀": "c02",
     "谷雪梅": "c02",
     "贠烨祎": "c02",
@@ -2057,7 +1996,6 @@
     "阶跃ai桌面伙伴": "c02",
     "阶跃星辰": "c02",
     "零一万物": "c02",
-    "雷军": "c02",
     "面壁智能": "c02",
     "adobe": "c03",
     "ae": "c03",
@@ -2071,8 +2009,6 @@
     "google-deepmind": "c03",
     "google-imagen": "c03",
     "gpt-image": "c03",
-    "grok-imagine-1-5": "c03",
-    "happy-horse-1-1": "c03",
     "happy-oyster": "c03",
     "jiaming": "c03",
     "kling": "c03",
@@ -2080,7 +2016,6 @@
     "mainecoon": "c03",
     "marble": "c03",
     "midjourney": "c03",
-    "minimax-h3": "c03",
     "motubrain": "c03",
     "n8n": "c03",
     "odyssey": "c03",
@@ -2091,8 +2026,6 @@
     "robot-phone": "c03",
     "seed": "c03",
     "seedance": "c03",
-    "seedance-2-0": "c03",
-    "seedance-2-5": "c03",
     "seedream": "c03",
     "siri": "c03",
     "sora": "c03",
@@ -2138,6 +2071,8 @@
     "aws云电脑": "c04",
     "chrome": "c04",
     "dereknee": "c04",
+    "discord": "c04",
+    "dokie": "c04",
     "flowith-os": "c04",
     "gamma": "c04",
     "general-browser-operator": "c04",
@@ -2151,10 +2086,12 @@
     "instagram": "c04",
     "kaiyi": "c04",
     "manus": "c04",
+    "mimiclaw": "c04",
     "monica": "c04",
     "notebooklm": "c04",
     "notion": "c04",
     "office": "c04",
+    "openclaw": "c04",
     "opusclip": "c04",
     "peak": "c04",
     "pollo-ai": "c04",
@@ -2163,27 +2100,35 @@
     "sapiens-ai": "c04",
     "seaart": "c04",
     "snapchat": "c04",
+    "telegram": "c04",
     "wels": "c04",
     "windows": "c04",
     "刘元": "c04",
     "大冰": "c04",
     "夸克": "c04",
+    "安卓": "c04",
     "开为科技": "c04",
     "扣子空间": "c04",
     "杨通": "c04",
     "硅星人": "c04",
     "肖弘": "c04",
     "胡迪hoodie": "c04",
+    "虎哥": "c04",
+    "贾维斯": "c04",
     "郭宇": "c04",
     "锤子手机": "c04",
     "闪电说": "c04",
+    "阶跃桌面伙伴": "c04",
     "骆轶航": "c04",
     "龚震": "c04",
     "aix-studio": "c05",
     "canva": "c05",
+    "chatpods": "c05",
     "flova": "c05",
+    "icon": "c05",
     "liblib": "c05",
     "libtv": "c05",
+    "listenhub": "c05",
     "lovart": "c05",
     "medeo": "c05",
     "mureka": "c05",
@@ -2195,12 +2140,18 @@
     "tv-show": "c05",
     "东南大学": "c05",
     "剪映": "c05",
+    "喜马拉雅": "c05",
     "娄烨": "c05",
+    "小宇宙": "c05",
     "峰哥": "c05",
     "张逍然": "c05",
+    "微信读书": "c05",
     "昆汀": "c05",
     "星流": "c05",
+    "来福电台": "c05",
+    "橘子": "c05",
     "牟其中": "c05",
+    "猿辅导": "c05",
     "王学智": "c05",
     "王家卫": "c05",
     "红果短剧": "c05",
@@ -2212,38 +2163,29 @@
     "闹闹": "c05",
     "陈冕": "c05",
     "龙虾": "c05",
-    "appagent": "c06",
     "aute": "c06",
     "aws": "c06",
     "catpaw": "c06",
-    "computer-agent": "c06",
     "ebay": "c06",
     "ego-lite": "c06",
     "happy-horse": "c06",
+    "hermes-agent": "c06",
     "iaorta": "c06",
-    "ima": "c06",
-    "marvis": "c06",
+    "longcat": "c06",
+    "longcat-2-0": "c06",
     "mulerun": "c06",
-    "qclaw": "c06",
+    "openrouter": "c06",
     "qoder": "c06",
-    "qoder-work": "c06",
-    "qq": "c06",
     "rainfly": "c06",
     "temu": "c06",
     "token事业群": "c06",
-    "workbuddy": "c06",
+    "vivian": "c06",
     "万相": "c06",
-    "三角洲行动": "c06",
     "付铖": "c06",
-    "元宝": "c06",
     "千问办公": "c06",
     "吴妈": "c06",
     "吴泳铭": "c06",
-    "天美工作室": "c06",
     "夸克s1": "c06",
-    "应用宝": "c06",
-    "张小龙": "c06",
-    "微信": "c06",
     "懂模帝": "c06",
     "无影agentbay": "c06",
     "无影云电脑": "c06",
@@ -2252,15 +2194,12 @@
     "正阳": "c06",
     "浙大一院": "c06",
     "淘宝": "c06",
+    "混元3": "c06",
     "灵犀agent": "c06",
-    "王者荣耀": "c06",
-    "王者荣耀世界": "c06",
-    "电脑管家": "c06",
-    "秒哒3-0": "c06",
-    "绝悟-ai": "c06",
-    "腾讯": "c06",
-    "腾讯-ai-lab": "c06",
-    "腾讯云": "c06",
+    "王兴": "c06",
+    "美团": "c06",
+    "美团小美": "c06",
+    "觅游": "c06",
     "豆包工作": "c06",
     "金山办公": "c06",
     "钟十六": "c06",
@@ -2269,186 +2208,201 @@
     "阿里巴巴": "c06",
     "阿里达摩院": "c06",
     "陈宇森": "c06",
-    "chatpods": "c07",
+    "appagent": "c07",
     "coladapic": "c07",
+    "computer-agent": "c07",
     "deepseek-r1": "c07",
-    "dokie": "c07",
     "ernie-5-1": "c07",
-    "icon": "c07",
-    "listenhub": "c07",
+    "ima": "c07",
+    "marvis": "c07",
     "oreate-ai": "c07",
+    "qclaw": "c07",
+    "qoder-work": "c07",
+    "qq": "c07",
     "robin": "c07",
-    "喜马拉雅": "c07",
+    "workbuddy": "c07",
+    "三角洲行动": "c07",
+    "元宝": "c07",
+    "天美工作室": "c07",
     "妙鸭相机": "c07",
-    "小宇宙": "c07",
+    "姚顺雨": "c07",
     "库库ai": "c07",
+    "应用宝": "c07",
+    "张小龙": "c07",
     "张月光": "c07",
-    "微信读书": "c07",
+    "微信": "c07",
     "恋与深空": "c07",
     "文心5-1": "c07",
     "文心一言": "c07",
     "文心快码": "c07",
     "星眠": "c07",
     "景鲲": "c07",
-    "来福电台": "c07",
-    "橘子": "c07",
     "橙光游戏": "c07",
-    "猿辅导": "c07",
+    "王者荣耀": "c07",
+    "王者荣耀世界": "c07",
     "王者荣耀灵宝": "c07",
+    "电脑管家": "c07",
     "百度": "c07",
     "百度搭子": "c07",
+    "秒哒3-0": "c07",
     "纳米work": "c07",
-    "airpods": "c08",
+    "绝悟-ai": "c07",
+    "腾讯": "c07",
+    "腾讯-ai-lab": "c07",
+    "腾讯云": "c07",
     "atmos": "c08",
+    "doordash": "c08",
     "evomap": "c08",
-    "genie-3": "c08",
-    "insta360": "c08",
-    "ipod": "c08",
-    "lingbot-world-2-0": "c08",
-    "looki": "c08",
     "macaron-v1-preview": "c08",
-    "meta": "c08",
     "mindverse": "c08",
-    "nixon": "c08",
+    "ofo": "c08",
     "openai-cto": "c08",
     "rockflow": "c08",
-    "rokid": "c08",
-    "rokid创始人": "c08",
-    "sand-ai": "c08",
-    "step-aos": "c08",
     "thinking-machines": "c08",
-    "tosi": "c08",
-    "乐奇": "c08",
-    "乔布斯": "c08",
-    "光帆耳机": "c08",
+    "travis-kalanick": "c08",
+    "uber": "c08",
+    "uber-eats": "c08",
     "反诈助手": "c08",
     "哈啰": "c08",
-    "大疆": "c08",
     "大象": "c08",
     "奥比中光": "c08",
     "好大夫在线": "c08",
-    "孙洋": "c08",
     "富途牛牛": "c08",
-    "影石": "c08",
-    "快乐生蚝": "c08",
-    "扎克伯格": "c08",
-    "李飞飞": "c08",
-    "杨立昆": "c08",
+    "摩拜": "c08",
+    "朱啸虎": "c08",
     "波士顿动力": "c08",
     "深度原理": "c08",
-    "滴滴打车": "c08",
+    "滴滴": "c08",
     "灵光": "c08",
-    "灵波科技": "c08",
     "点点": "c08",
     "秒哒": "c08",
     "绿色浪潮能源": "c08",
-    "脑放电波": "c08",
-    "英伟达": "c08",
-    "苹果": "c08",
     "蚂蚁灵光": "c08",
     "蚂蚁阿福": "c08",
     "蚂蚁集团": "c08",
     "行程小助手": "c08",
     "金山画王": "c08",
+    "金沙江": "c08",
     "锴杰": "c08",
     "陪我": "c08",
     "马卡龙": "c08",
-    "骡子马": "c08",
-    "黄仁勋": "c08",
-    "ai作业批改仪": "c09",
-    "ai印": "c09",
-    "ai数字前台": "c09",
-    "ai防录音魔盒": "c09",
-    "dingtalk-real": "c09",
-    "note": "c09",
-    "note-pro": "c09",
-    "pin": "c09",
-    "plaud": "c09",
-    "raft": "c09",
-    "ticnote": "c09",
+    "airpods": "c09",
+    "genie-3": "c09",
+    "hunter-alpha": "c09",
+    "insta360": "c09",
+    "ipod": "c09",
+    "lingbot-world-2-0": "c09",
+    "looki": "c09",
+    "meta": "c09",
+    "nixon": "c09",
+    "rokid": "c09",
+    "rokid创始人": "c09",
+    "sand-ai": "c09",
+    "step-aos": "c09",
     "toki": "c09",
-    "tutti": "c09",
-    "出门问问": "c09",
+    "tosi": "c09",
+    "乐奇": "c09",
+    "乔布斯": "c09",
+    "五源": "c09",
+    "光帆耳机": "c09",
     "刀哥": "c09",
+    "刘芹": "c09",
+    "大疆": "c09",
     "好果汁店": "c09",
-    "悟空": "c09",
+    "孙洋": "c09",
+    "小爱同学": "c09",
+    "小米": "c09",
+    "小米澎程": "c09",
+    "影石": "c09",
+    "快乐生蚝": "c09",
+    "扎克伯格": "c09",
     "扫描全能王": "c09",
-    "数美万物": "c09",
-    "无招": "c09",
-    "曾哥": "c09",
-    "腾讯文档": "c09",
+    "李飞飞": "c09",
+    "杨立昆": "c09",
+    "沐秋": "c09",
+    "滴滴打车": "c09",
+    "灵波科技": "c09",
+    "罗福莉": "c09",
+    "脑放电波": "c09",
+    "英伟达": "c09",
+    "苹果": "c09",
     "葬ai": "c09",
     "葬爱咸鱼": "c09",
-    "讯飞": "c09",
-    "讯飞录音笔": "c09",
-    "许高": "c09",
-    "钉钉": "c09",
-    "钉钉a1": "c09",
-    "钉钉agent-os": "c09",
-    "钉钉one": "c09",
-    "clear": "c10",
-    "clubhouse": "c10",
-    "elys": "c10",
-    "eve": "c10",
-    "julian": "c10",
-    "kimi-claw": "c10",
-    "second-me": "c10",
-    "sekai": "c10",
-    "tinder": "c10",
-    "tristan": "c10",
-    "三文盐": "c10",
-    "世纪佳缘": "c10",
-    "内涵段子": "c10",
-    "即刻": "c10",
-    "她说": "c10",
-    "恺英网络": "c10",
-    "时光校园": "c10",
-    "瓦总": "c10",
-    "百合网": "c10",
-    "自然选择": "c10",
-    "良配": "c10",
-    "4399": "c11",
-    "atoms": "c11",
-    "bloome": "c11",
-    "c-ai": "c11",
-    "deepwisdom": "c11",
-    "lovable": "c11",
-    "metagpt": "c11",
-    "mgx": "c11",
-    "minimax-agent": "c11",
-    "moxt": "c11",
-    "myshell": "c11",
-    "openmanus": "c11",
-    "qq小冰": "c11",
-    "replit": "c11",
-    "shellagent": "c11",
-    "slack": "c11",
-    "slock": "c11",
-    "vm0": "c11",
-    "youware": "c11",
-    "元宝派": "c11",
-    "圆脸眼镜哥": "c11",
-    "小龙虾": "c11",
-    "明超平": "c11",
-    "派宝": "c11",
-    "知识星球": "c11",
-    "阿彪老哥": "c11",
-    "hermes-agent": "c12",
-    "longcat": "c12",
-    "longcat-2-0": "c12",
-    "openrouter": "c12",
-    "vivian": "c12",
-    "yinsen": "c12",
-    "依图科技": "c12",
-    "姚明": "c12",
-    "混元3": "c12",
-    "王兴": "c12",
-    "王谦": "c12",
-    "美团": "c12",
-    "美团小美": "c12",
-    "觅游": "c12",
-    "高利明": "c12",
-    "黑鲨": "c12",
+    "雷军": "c09",
+    "骡子马": "c09",
+    "黄仁勋": "c09",
+    "ai作业批改仪": "c10",
+    "ai印": "c10",
+    "ai数字前台": "c10",
+    "ai防录音魔盒": "c10",
+    "dingtalk-real": "c10",
+    "note": "c10",
+    "note-pro": "c10",
+    "pin": "c10",
+    "plaud": "c10",
+    "raft": "c10",
+    "ticnote": "c10",
+    "tutti": "c10",
+    "出门问问": "c10",
+    "悟空": "c10",
+    "数美万物": "c10",
+    "无招": "c10",
+    "曾哥": "c10",
+    "腾讯文档": "c10",
+    "讯飞": "c10",
+    "讯飞录音笔": "c10",
+    "许高": "c10",
+    "钉钉": "c10",
+    "钉钉a1": "c10",
+    "钉钉agent-os": "c10",
+    "钉钉one": "c10",
+    "clear": "c11",
+    "clubhouse": "c11",
+    "elys": "c11",
+    "eve": "c11",
+    "julian": "c11",
+    "kimi-claw": "c11",
+    "second-me": "c11",
+    "sekai": "c11",
+    "tinder": "c11",
+    "tristan": "c11",
+    "三文盐": "c11",
+    "世纪佳缘": "c11",
+    "内涵段子": "c11",
+    "即刻": "c11",
+    "她说": "c11",
+    "恺英网络": "c11",
+    "时光校园": "c11",
+    "瓦总": "c11",
+    "百合网": "c11",
+    "自然选择": "c11",
+    "良配": "c11",
+    "4399": "c12",
+    "atoms": "c12",
+    "bloome": "c12",
+    "c-ai": "c12",
+    "deepwisdom": "c12",
+    "lovable": "c12",
+    "metagpt": "c12",
+    "mgx": "c12",
+    "minimax-agent": "c12",
+    "moxt": "c12",
+    "myshell": "c12",
+    "openmanus": "c12",
+    "qq小冰": "c12",
+    "replit": "c12",
+    "shellagent": "c12",
+    "slack": "c12",
+    "slock": "c12",
+    "vm0": "c12",
+    "youware": "c12",
+    "元宝派": "c12",
+    "圆脸眼镜哥": "c12",
+    "小龙虾": "c12",
+    "明超平": "c12",
+    "派宝": "c12",
+    "知识星球": "c12",
+    "阿彪老哥": "c12",
     "7verse": "c13",
     "a16z": "c13",
     "aippy": "c13",
@@ -2580,94 +2534,84 @@
     "球球大作战": "c17",
     "moya": "c18",
     "郑潜": "c18",
-    "doordash": "c19",
-    "ofo": "c19",
-    "travis-kalanick": "c19",
-    "uber": "c19",
-    "uber-eats": "c19",
-    "摩拜": "c19",
-    "朱啸虎": "c19",
-    "滴滴": "c19",
-    "金沙江": "c19",
-    "boss直聘": "c20",
-    "看准": "c20",
-    "swe-bench": "c21",
-    "葬ai基准测试": "c21",
-    "bodypark": "c22",
-    "云望创新": "c22",
-    "真格基金": "c22",
-    "meme-bench": "c23",
-    "nuna": "c24",
-    "whoop手环": "c24",
-    "良子": "c25",
-    "丁磊": "c26",
-    "有道龙虾": "c26",
-    "网易": "c26",
-    "柯洁": "c27",
-    "阿尔法狗": "c27",
-    "chris": "c28",
-    "odyss": "c28",
-    "小鹏": "c29",
-    "理想": "c29",
-    "justin": "c30",
-    "葬ai-web4": "c30",
-    "孙笑川": "c31",
-    "罗子马": "c32",
-    "豆包耳机": "c32",
-    "lpm-1-0": "c33",
-    "蔡浩宇": "c33",
-    "vam-1-0": "c34",
-    "虎牙": "c34",
-    "b站直播": "c35",
-    "宰治": "c36",
-    "wan": "c37",
-    "九号": "c38",
-    "seulgi": "c39",
-    "二金": "c40",
-    "俞浩": "c41",
-    "宇树": "c41",
-    "黄女士": "c42",
-    "黄姐传媒": "c42",
-    "仙五": "c43",
-    "nemovideo": "c44",
-    "readever": "c45",
-    "尚晋": "c45",
-    "王凯歆": "c46",
-    "神奇百货": "c46",
-    "viktor": "c47",
-    "evolvent-ai": "c48",
-    "somnia-lab": "c49",
-    "自变量": "c50",
-    "mova": "c51",
-    "pilot-70": "c51",
-    "looki-l1": "c52",
-    "seed-evolving": "c53",
-    "姚顺雨": "c54",
-    "六小虎": "c55",
-    "imx681": "c56",
-    "索尼": "c56",
-    "element-ai": "c57",
-    "servicenow": "c57",
-    "405游局": "c58",
-    "范志毅": "c59",
-    "唐圣": "c60",
-    "微博": "c61",
-    "moltbook": "c62",
-    "it-s-time-to-build": "c63",
-    "wild-hornets": "c64",
-    "王慧文": "c65",
-    "the-little-tech-agenda": "c66",
-    "影目": "c67",
-    "华强北录音卡": "c68",
-    "蜜雪冰城": "c69",
-    "大华": "c70",
-    "海康威视": "c71",
-    "联影": "c72",
-    "the-techno-optimist-manifesto": "c73",
-    "greenwave": "c74",
-    "spotify": "c75",
-    "马佳佳": "c76",
-    "阿里通义": "c77"
+    "boss直聘": "c19",
+    "看准": "c19",
+    "swe-bench": "c20",
+    "葬ai基准测试": "c20",
+    "bodypark": "c21",
+    "云望创新": "c21",
+    "真格基金": "c21",
+    "meme-bench": "c22",
+    "nuna": "c23",
+    "whoop手环": "c23",
+    "良子": "c24",
+    "丁磊": "c25",
+    "有道龙虾": "c25",
+    "网易": "c25",
+    "柯洁": "c26",
+    "阿尔法狗": "c26",
+    "chris": "c27",
+    "odyss": "c27",
+    "小鹏": "c28",
+    "理想": "c28",
+    "justin": "c29",
+    "葬ai-web4": "c29",
+    "孙笑川": "c30",
+    "罗子马": "c31",
+    "豆包耳机": "c31",
+    "lpm-1-0": "c32",
+    "蔡浩宇": "c32",
+    "vam-1-0": "c33",
+    "虎牙": "c33",
+    "b站直播": "c34",
+    "宰治": "c35",
+    "wan": "c36",
+    "九号": "c37",
+    "seulgi": "c38",
+    "二金": "c39",
+    "俞浩": "c40",
+    "宇树": "c40",
+    "黄女士": "c41",
+    "黄姐传媒": "c41",
+    "仙五": "c42",
+    "nemovideo": "c43",
+    "readever": "c44",
+    "尚晋": "c44",
+    "王凯歆": "c45",
+    "神奇百货": "c45",
+    "viktor": "c46",
+    "evolvent-ai": "c47",
+    "somnia-lab": "c48",
+    "自变量": "c49",
+    "mova": "c50",
+    "pilot-70": "c50",
+    "looki-l1": "c51",
+    "seed-evolving": "c52",
+    "六小虎": "c53",
+    "imx681": "c54",
+    "索尼": "c54",
+    "element-ai": "c55",
+    "servicenow": "c55",
+    "405游局": "c56",
+    "范志毅": "c57",
+    "唐圣": "c58",
+    "微博": "c59",
+    "moltbook": "c60",
+    "it-s-time-to-build": "c61",
+    "wild-hornets": "c62",
+    "王慧文": "c63",
+    "the-little-tech-agenda": "c64",
+    "影目": "c65",
+    "华强北录音卡": "c66",
+    "蜜雪冰城": "c67",
+    "大华": "c68",
+    "海康威视": "c69",
+    "联影": "c70",
+    "the-techno-optimist-manifesto": "c71",
+    "greenwave": "c72",
+    "spotify": "c73",
+    "马佳佳": "c74",
+    "阿里通义": "c75"
   },
   "suggested_edges": [
     {
@@ -2718,7 +2662,7 @@
     {
       "source": "manus",
       "target": "字节跳动",
-      "score": 0.8184,
+      "score": 0.8178,
       "suggested_relation_type": "related",
       "reason": "共同出现于 8 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
@@ -2802,20 +2746,6 @@
         "103",
         "105",
         "145"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "cherry-studio",
-      "target": "阶跃桌面伙伴",
-      "score": 0.7371,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 5 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "027",
-        "029",
-        "060",
-        "066"
       ],
       "status": "suggested"
     },
@@ -2952,9 +2882,23 @@
       "status": "suggested"
     },
     {
+      "source": "cherry-studio",
+      "target": "阶跃桌面伙伴",
+      "score": 0.6871,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "027",
+        "029",
+        "060",
+        "066"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "oiioii",
       "target": "字节跳动",
-      "score": 0.6826,
+      "score": 0.6819,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -2963,6 +2907,21 @@
         "062",
         "065",
         "078"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "workbuddy",
+      "target": "百度",
+      "score": 0.6813,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "102",
+        "125",
+        "144",
+        "145",
+        "146"
       ],
       "status": "suggested"
     },
@@ -2984,7 +2943,7 @@
     {
       "source": "智谱ai",
       "target": "豆包",
-      "score": 0.6678,
+      "score": 0.6673,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -3042,6 +3001,20 @@
       "status": "suggested"
     },
     {
+      "source": "葬爱咸鱼",
+      "target": "豆包",
+      "score": 0.6531,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "064",
+        "111",
+        "125",
+        "153"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "minimax",
       "target": "seedance",
       "score": 0.6484,
@@ -3059,7 +3032,7 @@
     {
       "source": "manus",
       "target": "qwen",
-      "score": 0.6455,
+      "score": 0.6449,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -3130,21 +3103,6 @@
       "status": "suggested"
     },
     {
-      "source": "workbuddy",
-      "target": "百度",
-      "score": 0.6319,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
-      "evidence_article_ids": [
-        "102",
-        "125",
-        "144",
-        "145",
-        "146"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "扣子",
       "target": "腾讯",
       "score": 0.6241,
@@ -3162,7 +3120,7 @@
     {
       "source": "manus",
       "target": "百度",
-      "score": 0.6194,
+      "score": 0.618,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -3177,7 +3135,7 @@
     {
       "source": "minimax",
       "target": "豆包",
-      "score": 0.6185,
+      "score": 0.618,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -3219,21 +3177,6 @@
       "status": "suggested"
     },
     {
-      "source": "lovart",
-      "target": "字节跳动",
-      "score": 0.6137,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "040",
-        "073",
-        "085",
-        "106",
-        "126"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "claude",
       "target": "阶跃星辰",
       "score": 0.6135,
@@ -3249,6 +3192,21 @@
       "status": "suggested"
     },
     {
+      "source": "lovart",
+      "target": "字节跳动",
+      "score": 0.613,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "040",
+        "073",
+        "085",
+        "106",
+        "126"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "bloome",
       "target": "codex",
       "score": 0.6127,
@@ -3258,18 +3216,6 @@
         "089",
         "090",
         "120"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "minimax-h3",
-      "target": "字节跳动",
-      "score": 0.6118,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "130",
-        "132"
       ],
       "status": "suggested"
     },
@@ -3344,21 +3290,6 @@
       "status": "suggested"
     },
     {
-      "source": "火山引擎",
-      "target": "豆包",
-      "score": 0.5932,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "040",
-        "057",
-        "065",
-        "071",
-        "110"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "minimax",
       "target": "杨植麟",
       "score": 0.5931,
@@ -3374,6 +3305,21 @@
       "status": "suggested"
     },
     {
+      "source": "火山引擎",
+      "target": "豆包",
+      "score": 0.5927,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "040",
+        "057",
+        "065",
+        "071",
+        "110"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "chatgpt",
       "target": "飞书",
       "score": 0.5924,
@@ -3384,20 +3330,6 @@
         "070",
         "088",
         "124"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "codex",
-      "target": "阶跃桌面伙伴",
-      "score": 0.5881,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "027",
-        "029",
-        "066",
-        "102"
       ],
       "status": "suggested"
     },
@@ -3444,19 +3376,6 @@
       "status": "suggested"
     },
     {
-      "source": "葬爱咸鱼",
-      "target": "豆包",
-      "score": 0.5831,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
-      "evidence_article_ids": [
-        "064",
-        "111",
-        "125"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "claude",
       "target": "谷歌",
       "score": 0.5809,
@@ -3471,7 +3390,7 @@
     {
       "source": "cherry-studio",
       "target": "manus",
-      "score": 0.5796,
+      "score": 0.5789,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -3484,7 +3403,7 @@
     {
       "source": "libtv",
       "target": "manus",
-      "score": 0.5791,
+      "score": 0.5784,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -3564,21 +3483,6 @@
       "status": "suggested"
     },
     {
-      "source": "workbuddy",
-      "target": "阿里巴巴",
-      "score": 0.5667,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 2 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "102",
-        "125",
-        "128",
-        "144",
-        "145"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "libtv",
       "target": "minimax",
       "score": 0.5652,
@@ -3605,6 +3509,18 @@
         "102",
         "120",
         "124"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "minimax-h3",
+      "target": "字节跳动",
+      "score": 0.5618,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "130",
+        "132"
       ],
       "status": "suggested"
     },
@@ -3681,25 +3597,11 @@
       "status": "suggested"
     },
     {
-      "source": "qwen",
-      "target": "阶跃桌面伙伴",
-      "score": 0.5493,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "027",
-        "029",
-        "060",
-        "066"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "腾讯",
       "target": "葬爱咸鱼",
       "score": 0.5484,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "068",
         "106",
@@ -3793,14 +3695,16 @@
       "status": "suggested"
     },
     {
-      "source": "chatgpt",
-      "target": "openclaw",
-      "score": 0.538,
+      "source": "codex",
+      "target": "阶跃桌面伙伴",
+      "score": 0.5381,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 5 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
-        "067",
-        "070"
+        "027",
+        "029",
+        "066",
+        "102"
       ],
       "status": "suggested"
     },
@@ -3821,7 +3725,7 @@
     {
       "source": "阿里巴巴",
       "target": "陈冕",
-      "score": 0.535,
+      "score": 0.5343,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -3835,7 +3739,7 @@
     {
       "source": "kimi",
       "target": "阿里云",
-      "score": 0.5336,
+      "score": 0.5331,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -3843,6 +3747,19 @@
         "055",
         "057",
         "065"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "阶跃星辰",
+      "score": 0.533,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "053",
+        "116",
+        "153"
       ],
       "status": "suggested"
     },
@@ -3986,19 +3903,6 @@
       "status": "suggested"
     },
     {
-      "source": "qoder",
-      "target": "workbuddy",
-      "score": 0.5283,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "128",
-        "144",
-        "145"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "deepseek",
       "target": "glm",
       "score": 0.5276,
@@ -4047,22 +3951,9 @@
       "status": "suggested"
     },
     {
-      "source": "mulerun",
-      "target": "腾讯",
-      "score": 0.5189,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "018",
-        "071",
-        "145"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "workbuddy",
       "target": "字节跳动",
-      "score": 0.5167,
+      "score": 0.516,
       "suggested_relation_type": "related",
       "reason": "共同出现于 6 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -4071,6 +3962,33 @@
         "125",
         "144",
         "145"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "workbuddy",
+      "target": "阿里巴巴",
+      "score": 0.516,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "102",
+        "125",
+        "128",
+        "144",
+        "145"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "genspark",
+      "target": "阶跃桌面伙伴",
+      "score": 0.5133,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "032",
+        "067"
       ],
       "status": "suggested"
     },
@@ -4092,7 +4010,7 @@
     {
       "source": "genspark",
       "target": "lovart",
-      "score": 0.5108,
+      "score": 0.5101,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
@@ -4145,16 +4063,16 @@
       "status": "suggested"
     },
     {
-      "source": "智谱ai",
-      "target": "阿里云",
-      "score": 0.4995,
+      "source": "qwen",
+      "target": "阶跃桌面伙伴",
+      "score": 0.4993,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
-        "026",
-        "049",
-        "057",
-        "065"
+        "027",
+        "029",
+        "060",
+        "066"
       ],
       "status": "suggested"
     },
@@ -4174,6 +4092,20 @@
       "status": "suggested"
     },
     {
+      "source": "智谱ai",
+      "target": "阿里云",
+      "score": 0.4989,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "026",
+        "049",
+        "057",
+        "065"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "闫俊杰",
       "target": "陈冕",
       "score": 0.4974,
@@ -4184,44 +4116,6 @@
         "085",
         "141",
         "151"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "listenhub",
-      "target": "张月光",
-      "score": 0.4971,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "059"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "cherry-studio",
-      "target": "toki",
-      "score": 0.4956,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
-      "evidence_article_ids": [
-        "020",
-        "021",
-        "040"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "kimi",
-      "target": "阶跃桌面伙伴",
-      "score": 0.4952,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
-      "evidence_article_ids": [
-        "027",
-        "029",
-        "030",
-        "057"
       ],
       "status": "suggested"
     },
@@ -4241,6 +4135,33 @@
       "status": "suggested"
     },
     {
+      "source": "cherry-studio",
+      "target": "toki",
+      "score": 0.4949,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "020",
+        "021",
+        "040"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "kimi",
+      "target": "阶跃桌面伙伴",
+      "score": 0.4947,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "027",
+        "029",
+        "030",
+        "057"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "codex",
       "target": "minimax",
       "score": 0.4908,
@@ -4256,15 +4177,14 @@
       "status": "suggested"
     },
     {
-      "source": "deepseek",
-      "target": "小米",
-      "score": 0.487,
+      "source": "chatgpt",
+      "target": "openclaw",
+      "score": 0.488,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 2 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
-        "109",
-        "131",
-        "137"
+        "067",
+        "070"
       ],
       "status": "suggested"
     },
@@ -4305,20 +4225,6 @@
         "039",
         "047",
         "049"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "minimax",
-      "target": "小米",
-      "score": 0.4842,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 2 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "057",
-        "109",
-        "128",
-        "131"
       ],
       "status": "suggested"
     },
@@ -4380,6 +4286,19 @@
       "evidence_article_ids": [
         "109",
         "136"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "qoder",
+      "target": "workbuddy",
+      "score": 0.4783,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "128",
+        "144",
+        "145"
       ],
       "status": "suggested"
     },
@@ -4447,7 +4366,7 @@
     {
       "source": "lovart",
       "target": "阿里巴巴",
-      "score": 0.4733,
+      "score": 0.4727,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -4485,13 +4404,26 @@
     {
       "source": "libtv",
       "target": "百度",
-      "score": 0.471,
+      "score": 0.4703,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "099",
         "125",
         "136"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "mulerun",
+      "target": "腾讯",
+      "score": 0.4689,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "018",
+        "071",
+        "145"
       ],
       "status": "suggested"
     },
@@ -4516,19 +4448,6 @@
         "088",
         "102",
         "145"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "腾讯",
-      "target": "阿里云",
-      "score": 0.4674,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "018",
-        "055",
-        "071"
       ],
       "status": "suggested"
     },
@@ -4561,6 +4480,19 @@
       "status": "suggested"
     },
     {
+      "source": "kaiyi",
+      "target": "阶跃桌面伙伴",
+      "score": 0.4668,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "032",
+        "053",
+        "067"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "minimax",
       "target": "youware",
       "score": 0.4663,
@@ -4588,18 +4520,6 @@
       "status": "suggested"
     },
     {
-      "source": "genspark",
-      "target": "阶跃桌面伙伴",
-      "score": 0.4633,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "032",
-        "067"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "美团",
       "target": "豆包",
       "score": 0.4632,
@@ -4623,18 +4543,6 @@
       "status": "suggested"
     },
     {
-      "source": "plaud",
-      "target": "阿里巴巴",
-      "score": 0.4616,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 5 个邻居",
-      "evidence_article_ids": [
-        "144",
-        "145"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "杨植麟",
       "target": "阶跃星辰",
       "score": 0.4614,
@@ -4646,6 +4554,18 @@
         "109",
         "123",
         "134"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "plaud",
+      "target": "阿里巴巴",
+      "score": 0.4609,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "144",
+        "145"
       ],
       "status": "suggested"
     },
@@ -4728,19 +4648,6 @@
       "status": "suggested"
     },
     {
-      "source": "kimi",
-      "target": "小米",
-      "score": 0.457,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "040",
-        "057",
-        "109"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "qwen",
       "target": "谷歌",
       "score": 0.4564,
@@ -4762,18 +4669,6 @@
         "058",
         "125",
         "146"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "葬爱咸鱼",
-      "target": "钉钉",
-      "score": 0.4543,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "120",
-        "145"
       ],
       "status": "suggested"
     },
@@ -4841,17 +4736,6 @@
       "status": "suggested"
     },
     {
-      "source": "marvis",
-      "target": "天美工作室",
-      "score": 0.4489,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "102"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "anthropic",
       "target": "字节跳动",
       "score": 0.4487,
@@ -4866,9 +4750,20 @@
       "status": "suggested"
     },
     {
+      "source": "marvis",
+      "target": "天美工作室",
+      "score": 0.4482,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "102"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "cherry-studio",
       "target": "seed",
-      "score": 0.4481,
+      "score": 0.4475,
       "suggested_relation_type": "compares_to",
       "reason": "共享 7 个邻居",
       "evidence_article_ids": [],
@@ -4884,6 +4779,17 @@
         "066",
         "072",
         "108"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "listenhub",
+      "target": "张月光",
+      "score": 0.4471,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "059"
       ],
       "status": "suggested"
     },
@@ -4979,18 +4885,6 @@
       "status": "suggested"
     },
     {
-      "source": "minimax",
-      "target": "沐秋",
-      "score": 0.4405,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "122",
-        "131"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "pixverse",
       "target": "字节跳动",
       "score": 0.4399,
@@ -5069,6 +4963,19 @@
       "status": "suggested"
     },
     {
+      "source": "deepseek",
+      "target": "小米",
+      "score": 0.4364,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "109",
+        "131",
+        "137"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "codex",
       "target": "豆包",
       "score": 0.4359,
@@ -5118,6 +5025,20 @@
         "119",
         "132",
         "151"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "minimax",
+      "target": "小米",
+      "score": 0.4337,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "057",
+        "109",
+        "128",
+        "131"
       ],
       "status": "suggested"
     },
@@ -5175,28 +5096,6 @@
       "status": "suggested"
     },
     {
-      "source": "kimi",
-      "target": "印奇",
-      "score": 0.4323,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "057"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "lovart",
-      "target": "oiioii",
-      "score": 0.4321,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "055"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "阶跃星辰",
       "target": "阿里巴巴",
       "score": 0.4321,
@@ -5218,6 +5117,28 @@
         "016",
         "022",
         "032"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "kimi",
+      "target": "印奇",
+      "score": 0.4317,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "057"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "lovart",
+      "target": "oiioii",
+      "score": 0.4314,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "055"
       ],
       "status": "suggested"
     },
@@ -5272,18 +5193,6 @@
         "049",
         "053",
         "057"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "openclaw",
-      "target": "proma",
-      "score": 0.4252,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "060",
-        "066"
       ],
       "status": "suggested"
     },
@@ -5378,6 +5287,19 @@
       "status": "suggested"
     },
     {
+      "source": "腾讯",
+      "target": "阿里云",
+      "score": 0.4174,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "018",
+        "055",
+        "071"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "crepal",
       "target": "flova",
       "score": 0.4172,
@@ -5405,19 +5327,6 @@
       "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "085"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "kaiyi",
-      "target": "阶跃桌面伙伴",
-      "score": 0.4168,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
-      "evidence_article_ids": [
-        "032",
-        "053",
-        "067"
       ],
       "status": "suggested"
     },
@@ -5497,7 +5406,7 @@
     {
       "source": "kimi",
       "target": "火山引擎",
-      "score": 0.4134,
+      "score": 0.4129,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -5505,21 +5414,6 @@
         "057",
         "065",
         "110"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "小米",
-      "target": "豆包",
-      "score": 0.4128,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 1 个邻居",
-      "evidence_article_ids": [
-        "040",
-        "057",
-        "097",
-        "123",
-        "128"
       ],
       "status": "suggested"
     },
@@ -5559,6 +5453,21 @@
         "071",
         "111",
         "145"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "小米",
+      "target": "豆包",
+      "score": 0.4123,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 1 个邻居",
+      "evidence_article_ids": [
+        "040",
+        "057",
+        "097",
+        "123",
+        "128"
       ],
       "status": "suggested"
     },
@@ -5615,19 +5524,6 @@
       "status": "suggested"
     },
     {
-      "source": "genspark",
-      "target": "百度",
-      "score": 0.4099,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
-      "evidence_article_ids": [
-        "022",
-        "055",
-        "059"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "扣子",
       "target": "百度",
       "score": 0.4098,
@@ -5647,7 +5543,7 @@
       "target": "豆包",
       "score": 0.4098,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 7 篇文章；共享 1 个邻居",
+      "reason": "共同出现于 8 篇文章；共享 1 个邻居",
       "evidence_article_ids": [
         "014",
         "070",
@@ -5667,6 +5563,19 @@
         "017",
         "018",
         "145"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "genspark",
+      "target": "百度",
+      "score": 0.4092,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "022",
+        "055",
+        "059"
       ],
       "status": "suggested"
     },
@@ -5787,6 +5696,19 @@
       "status": "suggested"
     },
     {
+      "source": "kimi",
+      "target": "小米",
+      "score": 0.4064,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "040",
+        "057",
+        "109"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "chatgpt",
       "target": "葬爱咸鱼",
       "score": 0.4062,
@@ -5795,6 +5717,17 @@
       "evidence_article_ids": [
         "111",
         "124"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "listenhub",
+      "target": "medeo",
+      "score": 0.4056,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "001"
       ],
       "status": "suggested"
     },
@@ -5813,14 +5746,26 @@
       "status": "suggested"
     },
     {
-      "source": "chatgpt",
-      "target": "阶跃桌面伙伴",
-      "score": 0.4049,
-      "suggested_relation_type": "compares_to",
+      "source": "minimax-h3",
+      "target": "智谱ai",
+      "score": 0.4045,
+      "suggested_relation_type": "related",
       "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
-        "030",
-        "067"
+        "141",
+        "152"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "钉钉",
+      "score": 0.4043,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "120",
+        "145"
       ],
       "status": "suggested"
     },
@@ -6016,8 +5961,8 @@
       "name": "字节跳动",
       "type": "company",
       "community_id": "c03",
-      "cross_community_count": 11,
-      "betweenness": 0.098959,
+      "cross_community_count": 10,
+      "betweenness": 0.098569,
       "score": 1.0
     },
     {
@@ -6025,18 +5970,18 @@
       "name": "Kimi",
       "type": "product",
       "community_id": "c02",
-      "cross_community_count": 9,
-      "betweenness": 0.082219,
-      "score": 0.89
+      "cross_community_count": 8,
+      "betweenness": 0.081994,
+      "score": 0.8907
     },
     {
       "node_id": "豆包",
       "name": "豆包",
       "type": "product",
       "community_id": "c03",
-      "cross_community_count": 9,
-      "betweenness": 0.080121,
-      "score": 0.8763
+      "cross_community_count": 11,
+      "betweenness": 0.07984,
+      "score": 0.8765
     },
     {
       "node_id": "智谱ai",
@@ -6044,35 +5989,35 @@
       "type": "company",
       "community_id": "c02",
       "cross_community_count": 6,
-      "betweenness": 0.078862,
-      "score": 0.868
+      "betweenness": 0.078381,
+      "score": 0.8669
     },
     {
       "node_id": "阿里巴巴",
       "name": "阿里巴巴",
       "type": "company",
       "community_id": "c06",
-      "cross_community_count": 8,
-      "betweenness": 0.071648,
-      "score": 0.8206
+      "cross_community_count": 7,
+      "betweenness": 0.071272,
+      "score": 0.82
     },
     {
       "node_id": "claude",
       "name": "Claude",
       "type": "product",
       "community_id": "c01",
-      "cross_community_count": 9,
-      "betweenness": 0.069012,
-      "score": 0.8033
+      "cross_community_count": 8,
+      "betweenness": 0.06845,
+      "score": 0.8014
     },
     {
       "node_id": "manus",
       "name": "Manus",
       "type": "product",
       "community_id": "c04",
-      "cross_community_count": 9,
-      "betweenness": 0.062947,
-      "score": 0.7635
+      "cross_community_count": 8,
+      "betweenness": 0.063231,
+      "score": 0.767
     },
     {
       "node_id": "蚂蚁集团",
@@ -6080,35 +6025,44 @@
       "type": "company",
       "community_id": "c08",
       "cross_community_count": 7,
-      "betweenness": 0.060865,
-      "score": 0.7498
-    },
-    {
-      "node_id": "minimax",
-      "name": "MiniMax",
-      "type": "company",
-      "community_id": "c02",
-      "cross_community_count": 7,
-      "betweenness": 0.054884,
-      "score": 0.7105
-    },
-    {
-      "node_id": "qwen",
-      "name": "Qwen",
-      "type": "product",
-      "community_id": "c01",
-      "cross_community_count": 6,
-      "betweenness": 0.05374,
-      "score": 0.703
+      "betweenness": 0.060553,
+      "score": 0.7493
     },
     {
       "node_id": "阶跃星辰",
       "name": "阶跃星辰",
       "type": "company",
       "community_id": "c02",
+      "cross_community_count": 5,
+      "betweenness": 0.056142,
+      "score": 0.7202
+    },
+    {
+      "node_id": "minimax",
+      "name": "MiniMax",
+      "type": "company",
+      "community_id": "c02",
       "cross_community_count": 6,
-      "betweenness": 0.051953,
-      "score": 0.6912
+      "betweenness": 0.054711,
+      "score": 0.7108
+    },
+    {
+      "node_id": "qwen",
+      "name": "Qwen",
+      "type": "product",
+      "community_id": "c01",
+      "cross_community_count": 8,
+      "betweenness": 0.05365,
+      "score": 0.7038
+    },
+    {
+      "node_id": "腾讯",
+      "name": "腾讯",
+      "type": "company",
+      "community_id": "c07",
+      "cross_community_count": 8,
+      "betweenness": 0.049729,
+      "score": 0.6779
     },
     {
       "node_id": "deepseek",
@@ -6116,44 +6070,35 @@
       "type": "company",
       "community_id": "c02",
       "cross_community_count": 7,
-      "betweenness": 0.047957,
-      "score": 0.665
-    },
-    {
-      "node_id": "腾讯",
-      "name": "腾讯",
-      "type": "company",
-      "community_id": "c06",
-      "cross_community_count": 7,
-      "betweenness": 0.046099,
-      "score": 0.6528
+      "betweenness": 0.047782,
+      "score": 0.6651
     },
     {
       "node_id": "openclaw",
       "name": "OpenClaw",
       "type": "product",
-      "community_id": "c01",
-      "cross_community_count": 7,
-      "betweenness": 0.044026,
-      "score": 0.6392
+      "community_id": "c04",
+      "cross_community_count": 8,
+      "betweenness": 0.043957,
+      "score": 0.6399
     },
     {
       "node_id": "lovart",
       "name": "Lovart",
       "type": "product",
       "community_id": "c05",
-      "cross_community_count": 7,
-      "betweenness": 0.040829,
-      "score": 0.6182
+      "cross_community_count": 6,
+      "betweenness": 0.040886,
+      "score": 0.6196
     },
     {
       "node_id": "libtv",
       "name": "LibTV",
       "type": "product",
       "community_id": "c05",
-      "cross_community_count": 7,
-      "betweenness": 0.036282,
-      "score": 0.5883
+      "cross_community_count": 8,
+      "betweenness": 0.036116,
+      "score": 0.5882
     },
     {
       "node_id": "百度",
@@ -6161,44 +6106,35 @@
       "type": "company",
       "community_id": "c07",
       "cross_community_count": 6,
-      "betweenness": 0.031198,
-      "score": 0.5549
+      "betweenness": 0.031411,
+      "score": 0.5571
     },
     {
       "node_id": "looki",
       "name": "Looki",
       "type": "product",
-      "community_id": "c08",
+      "community_id": "c09",
       "cross_community_count": 4,
-      "betweenness": 0.027857,
-      "score": 0.533
+      "betweenness": 0.027789,
+      "score": 0.5332
     },
     {
       "node_id": "钉钉",
       "name": "钉钉",
       "type": "product",
-      "community_id": "c09",
+      "community_id": "c10",
       "cross_community_count": 4,
-      "betweenness": 0.027764,
-      "score": 0.5324
+      "betweenness": 0.027629,
+      "score": 0.5322
     },
     {
       "node_id": "plaud",
       "name": "Plaud",
       "type": "product",
-      "community_id": "c09",
+      "community_id": "c10",
       "cross_community_count": 4,
-      "betweenness": 0.027133,
-      "score": 0.5282
-    },
-    {
-      "node_id": "mulerun",
-      "name": "MuleRun",
-      "type": "product",
-      "community_id": "c06",
-      "cross_community_count": 5,
-      "betweenness": 0.025464,
-      "score": 0.5173
+      "betweenness": 0.027043,
+      "score": 0.5283
     },
     {
       "node_id": "葬爱咸鱼",
@@ -6206,8 +6142,26 @@
       "type": "person",
       "community_id": "c09",
       "cross_community_count": 8,
-      "betweenness": 0.023425,
-      "score": 0.5039
+      "betweenness": 0.026808,
+      "score": 0.5268
+    },
+    {
+      "node_id": "mulerun",
+      "name": "MuleRun",
+      "type": "product",
+      "community_id": "c06",
+      "cross_community_count": 4,
+      "betweenness": 0.025311,
+      "score": 0.5169
+    },
+    {
+      "node_id": "陈冕",
+      "name": "陈冕",
+      "type": "person",
+      "community_id": "c05",
+      "cross_community_count": 6,
+      "betweenness": 0.022732,
+      "score": 0.4999
     },
     {
       "node_id": "genspark",
@@ -6215,26 +6169,8 @@
       "type": "product",
       "community_id": "c04",
       "cross_community_count": 5,
-      "betweenness": 0.022533,
-      "score": 0.498
-    },
-    {
-      "node_id": "陈冕",
-      "name": "陈冕",
-      "type": "person",
-      "community_id": "c05",
-      "cross_community_count": 7,
-      "betweenness": 0.022424,
-      "score": 0.4973
-    },
-    {
-      "node_id": "沐秋",
-      "name": "沐秋",
-      "type": "person",
-      "community_id": "c02",
-      "cross_community_count": 4,
-      "betweenness": 0.020373,
-      "score": 0.4838
+      "betweenness": 0.022547,
+      "score": 0.4987
     },
     {
       "node_id": "马卡龙",
@@ -6242,8 +6178,8 @@
       "type": "product",
       "community_id": "c08",
       "cross_community_count": 4,
-      "betweenness": 0.019718,
-      "score": 0.4795
+      "betweenness": 0.019629,
+      "score": 0.4794
     },
     {
       "node_id": "cherry-studio",
@@ -6251,17 +6187,8 @@
       "type": "product",
       "community_id": "c01",
       "cross_community_count": 4,
-      "betweenness": 0.017467,
-      "score": 0.4647
-    },
-    {
-      "node_id": "elys",
-      "name": "Elys",
-      "type": "product",
-      "community_id": "c10",
-      "cross_community_count": 4,
-      "betweenness": 0.017382,
-      "score": 0.4642
+      "betweenness": 0.017452,
+      "score": 0.4651
     },
     {
       "node_id": "远识资本",
@@ -6269,8 +6196,8 @@
       "type": "vc_firm",
       "community_id": "c13",
       "cross_community_count": 3,
-      "betweenness": 0.029872,
-      "score": 0.4587
+      "betweenness": 0.029772,
+      "score": 0.4588
     },
     {
       "node_id": "flova",
@@ -6278,17 +6205,17 @@
       "type": "product",
       "community_id": "c05",
       "cross_community_count": 4,
-      "betweenness": 0.01639,
-      "score": 0.4577
+      "betweenness": 0.016278,
+      "score": 0.4573
     },
     {
       "node_id": "明超平",
       "name": "明超平",
       "type": "person",
-      "community_id": "c11",
+      "community_id": "c12",
       "cross_community_count": 5,
-      "betweenness": 0.015693,
-      "score": 0.4531
+      "betweenness": 0.015574,
+      "score": 0.4527
     },
     {
       "node_id": "seedance",
@@ -6296,17 +6223,8 @@
       "type": "product",
       "community_id": "c03",
       "cross_community_count": 4,
-      "betweenness": 0.015324,
-      "score": 0.4507
-    },
-    {
-      "node_id": "codex",
-      "name": "Codex",
-      "type": "product",
-      "community_id": "c01",
-      "cross_community_count": 8,
-      "betweenness": 0.015236,
-      "score": 0.4501
+      "betweenness": 0.015239,
+      "score": 0.4505
     },
     {
       "node_id": "openai",
@@ -6314,8 +6232,17 @@
       "type": "company",
       "community_id": "c01",
       "cross_community_count": 4,
-      "betweenness": 0.015217,
-      "score": 0.4499
+      "betweenness": 0.015125,
+      "score": 0.4497
+    },
+    {
+      "node_id": "codex",
+      "name": "Codex",
+      "type": "product",
+      "community_id": "c01",
+      "cross_community_count": 9,
+      "betweenness": 0.015109,
+      "score": 0.4496
     },
     {
       "node_id": "谷歌",
@@ -6323,26 +6250,44 @@
       "type": "company",
       "community_id": "c03",
       "cross_community_count": 5,
-      "betweenness": 0.015134,
+      "betweenness": 0.015074,
       "score": 0.4494
+    },
+    {
+      "node_id": "扣子",
+      "name": "扣子",
+      "type": "product",
+      "community_id": "c03",
+      "cross_community_count": 4,
+      "betweenness": 0.014941,
+      "score": 0.4485
     },
     {
       "node_id": "阶跃桌面伙伴",
       "name": "阶跃桌面伙伴",
       "type": "product",
-      "community_id": "c01",
-      "cross_community_count": 4,
-      "betweenness": 0.014648,
-      "score": 0.4462
+      "community_id": "c04",
+      "cross_community_count": 5,
+      "betweenness": 0.014494,
+      "score": 0.4456
     },
     {
       "node_id": "bloome",
       "name": "Bloome",
       "type": "product",
-      "community_id": "c11",
-      "cross_community_count": 5,
-      "betweenness": 0.013277,
-      "score": 0.4372
+      "community_id": "c12",
+      "cross_community_count": 6,
+      "betweenness": 0.013336,
+      "score": 0.4379
+    },
+    {
+      "node_id": "骡子马",
+      "name": "骡子马",
+      "type": "person",
+      "community_id": "c09",
+      "cross_community_count": 6,
+      "betweenness": 0.01319,
+      "score": 0.437
     },
     {
       "node_id": "刘宇",
@@ -6350,17 +6295,8 @@
       "type": "person",
       "community_id": "c13",
       "cross_community_count": 4,
-      "betweenness": 0.013124,
-      "score": 0.4362
-    },
-    {
-      "node_id": "骡子马",
-      "name": "骡子马",
-      "type": "person",
-      "community_id": "c08",
-      "cross_community_count": 6,
-      "betweenness": 0.013032,
-      "score": 0.4356
+      "betweenness": 0.012989,
+      "score": 0.4357
     },
     {
       "node_id": "飞书",
@@ -6368,8 +6304,17 @@
       "type": "product",
       "community_id": "c03",
       "cross_community_count": 6,
-      "betweenness": 0.011466,
-      "score": 0.4253
+      "betweenness": 0.011349,
+      "score": 0.4248
+    },
+    {
+      "node_id": "tapnow",
+      "name": "TapNow",
+      "type": "company",
+      "community_id": "c05",
+      "cross_community_count": 5,
+      "betweenness": 0.01047,
+      "score": 0.419
     }
   ]
 }

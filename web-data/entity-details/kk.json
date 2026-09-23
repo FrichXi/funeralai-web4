@@ -1,0 +1,110 @@
+{
+  "node": {
+    "id": "kk",
+    "name": "kk",
+    "type": "person",
+    "description": "文章提及的测试者/行业观察者，对Step 5 Preview进行了实测",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "测评人"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "153",
+        "title": "阶跃应该在桌上而不是桌底",
+        "date": "2026-09-22",
+        "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "permalink": "/articles/153",
+        "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0315
+  },
+  "links": [
+    {
+      "source": "kk",
+      "target": "artificial-analysis",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "kk批评Artificial Analysis的权重指标聚拢太多问题，看不出实际意义",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "kk批评Artificial Analysis的权重指标聚拢太多问题，看不出实际意义",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kk",
+      "target": "step-5-preview",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "kk认为Artificial Analysis权重意义不大，且指出Step 5 Preview与Opus 5差距不止1分",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "kk认为Artificial Analysis权重意义不大，且指出Step 5 Preview与Opus 5差距不止1分",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kk",
+      "target": "step-5-preview",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "kk对Step 5 Preview进行了详细的实测和分析",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "kk对Step 5 Preview进行了详细的实测和分析",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

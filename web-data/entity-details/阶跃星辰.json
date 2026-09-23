@@ -4,8 +4,8 @@
     "name": "阶跃星辰",
     "type": "company",
     "description": "AI四小虎之一，近期B+轮融资超50亿元，走软硬件一体闭环路线的大模型公司",
-    "mention_count": 62,
-    "article_count": 15,
+    "mention_count": 80,
+    "article_count": 16,
     "aliases": [
       "阶跃"
     ],
@@ -24,8 +24,8 @@
       "智能体",
       "软硬件一体"
     ],
-    "references": 15,
-    "source_article_count": 15,
+    "references": 16,
+    "source_article_count": 16,
     "source_articles": [
       {
         "article_id": "123",
@@ -35,6 +35,15 @@
         "permalink": "/articles/123",
         "markdown_link": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
         "mention_count": 20
+      },
+      {
+        "article_id": "153",
+        "title": "阶跃应该在桌上而不是桌底",
+        "date": "2026-09-22",
+        "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "permalink": "/articles/153",
+        "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "mention_count": 18
       },
       {
         "article_id": "009",
@@ -163,8 +172,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 51,
-    "composite_weight": 0.4296
+    "degree": 56,
+    "composite_weight": 0.5082
   },
   "links": [
     {
@@ -298,6 +307,32 @@
       ]
     },
     {
+      "source": "腾讯混元",
+      "target": "阶跃星辰",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Step 5 Preview的发布级别比作腾讯HY4级别的发布",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "文章将Step 5 Preview的发布级别比作腾讯HY4级别的发布",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "豆包",
       "target": "阶跃星辰",
       "relation_type": "compares_to",
@@ -381,6 +416,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文章将阶跃星辰形容为“上海小智谱”，作为北京智谱的对标",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "腾讯混元",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Step 5 Preview的发布级别比作腾讯HY4级别的发布",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -615,6 +663,32 @@
       ]
     },
     {
+      "source": "豆包",
+      "target": "阶跃星辰",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "阶跃星辰的AI手机业务与豆包手机存在竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "阶跃星辰的AI手机业务与豆包手机存在竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "阶跃星辰",
       "target": "deepseek",
       "relation_type": "competes_with",
@@ -698,6 +772,19 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "阶跃跨界到汽车产业，与特斯拉同台竞技",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "豆包",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "阶跃星辰的AI手机业务与豆包手机存在竞争关系",
       "weight": 1,
       "strength": 3,
       "effective_weight": 3,
@@ -907,6 +994,32 @@
           "path": "articles/110_2026-06-24_葬爱咸鱼_葬AI基准测试更新：Seed 2.1 Pro急需摆脱平庸的重力.md",
           "date": "2026-06-24",
           "label": "文中明确提到“阶跃的Step 3.7 Flash模型”",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "step-5-preview",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "阶跃星辰开发并发布了Step 5 Preview模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "阶跃星辰开发并发布了Step 5 Preview模型",
           "weight": 1
         }
       ]
@@ -1383,13 +1496,15 @@
       "status": "suggested"
     },
     {
-      "source": "seed",
+      "source": "葬爱咸鱼",
       "target": "阶跃星辰",
-      "score": 0.4624,
+      "score": 0.533,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 1 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
-        "110"
+        "053",
+        "116",
+        "153"
       ],
       "status": "suggested"
     }

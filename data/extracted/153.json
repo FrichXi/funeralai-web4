@@ -1,0 +1,233 @@
+{
+  "article": {
+    "id": "153",
+    "title": "阶跃应该在桌上而不是桌底",
+    "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+    "date": "2026-09-22",
+    "author": "沐秋",
+    "content_hash": "b28125ed4370a3084f527fbd042aa820826f530e0b729c159087944cf9d03359"
+  },
+  "entities": [
+    {
+      "id": "step-5-preview",
+      "name": "Step 5 Preview",
+      "type": "product",
+      "description": "阶跃星辰发布的开源大模型，总参数量600B",
+      "mention_count": 20,
+      "aliases": [],
+      "tags": [
+        "开源模型",
+        "多模态"
+      ]
+    },
+    {
+      "id": "阶跃星辰",
+      "name": "阶跃星辰",
+      "type": "company",
+      "description": "AI大模型公司，发布了Step 5 Preview模型",
+      "mention_count": 13,
+      "aliases": [
+        "阶跃"
+      ],
+      "tags": [
+        "大模型",
+        "AI手机"
+      ]
+    },
+    {
+      "id": "kk",
+      "name": "kk",
+      "type": "person",
+      "description": "文章提及的测试者/行业观察者，对Step 5 Preview进行了实测",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "测评人"
+      ]
+    },
+    {
+      "id": "腾讯",
+      "name": "腾讯",
+      "type": "company",
+      "description": "互联网科技公司，开发了腾讯混元大模型",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "大厂"
+      ]
+    },
+    {
+      "id": "腾讯混元",
+      "name": "腾讯混元",
+      "type": "product",
+      "description": "腾讯公司的大模型产品，文中以HY4指代其重要发布节点",
+      "mention_count": 3,
+      "aliases": [
+        "HY4"
+      ],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "artificial-analysis",
+      "name": "Artificial Analysis",
+      "type": "company",
+      "description": "AI模型评测榜单机构",
+      "mention_count": 2,
+      "aliases": [
+        "AA"
+      ],
+      "tags": [
+        "评测榜单"
+      ]
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "name": "Deepseek V4 Pro",
+      "type": "product",
+      "description": "DeepSeek公司的大模型产品，被用作对比基准",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型"
+      ]
+    },
+    {
+      "id": "姚顺雨",
+      "name": "姚顺雨",
+      "type": "person",
+      "description": "腾讯混元大模型负责人，文中提及他空降后推动了HY4发布",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "技术高管"
+      ]
+    },
+    {
+      "id": "葬爱咸鱼",
+      "name": "葬爱咸鱼",
+      "type": "person",
+      "description": "文章提及的测试者，与作者共同测试了Step 5 Preview",
+      "mention_count": 1,
+      "aliases": [
+        "咸鱼"
+      ],
+      "tags": [
+        "测评人"
+      ]
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "字节跳动旗下的AI产品，文中提及豆包手机2.0",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI应用",
+        "AI手机"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Deepseek V4 Pro",
+      "target": "Step 5 Preview",
+      "relation_type": "compares_to",
+      "label": "kk评价Step 5 Preview的体感与Deepseek V4 Pro大概一个水平",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "腾讯混元",
+      "target": "阶跃星辰",
+      "relation_type": "compares_to",
+      "label": "文章将Step 5 Preview的发布级别比作腾讯HY4级别的发布",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "豆包",
+      "target": "阶跃星辰",
+      "relation_type": "competes_with",
+      "label": "阶跃星辰的AI手机业务与豆包手机存在竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "kk",
+      "target": "Artificial Analysis",
+      "relation_type": "criticizes",
+      "label": "kk批评Artificial Analysis的权重指标聚拢太多问题，看不出实际意义",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "kk",
+      "target": "Step 5 Preview",
+      "relation_type": "criticizes",
+      "label": "kk认为Artificial Analysis权重意义不大，且指出Step 5 Preview与Opus 5差距不止1分",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "腾讯",
+      "target": "腾讯混元",
+      "relation_type": "develops",
+      "label": "腾讯开发了腾讯混元大模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "Step 5 Preview",
+      "relation_type": "develops",
+      "label": "阶跃星辰开发并发布了Step 5 Preview模型",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "姚顺雨",
+      "target": "腾讯",
+      "relation_type": "works_at",
+      "label": "姚顺雨在腾讯任职并负责混元大模型业务",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "kk",
+      "target": "Step 5 Preview",
+      "relation_type": "works_on",
+      "label": "kk对Step 5 Preview进行了详细的实测和分析",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "Step 5 Preview",
+      "relation_type": "works_on",
+      "label": "咸鱼参与了对Step 5 Preview的测试",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 10,
+    "relationship_count": 10,
+    "pruned_entities": [],
+    "provider": "dashscope"
+  }
+}

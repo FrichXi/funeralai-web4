@@ -1,0 +1,176 @@
+{
+  "node": {
+    "id": "step-5-preview",
+    "name": "Step 5 Preview",
+    "type": "product",
+    "description": "阶跃星辰发布的开源大模型，总参数量600B",
+    "mention_count": 20,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "多模态",
+      "开源模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "153",
+        "title": "阶跃应该在桌上而不是桌底",
+        "date": "2026-09-22",
+        "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "permalink": "/articles/153",
+        "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "mention_count": 20
+      }
+    ],
+    "degree": 6,
+    "composite_weight": 0.0892
+  },
+  "links": [
+    {
+      "source": "deepseek-v4-pro",
+      "target": "step-5-preview",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "kk评价Step 5 Preview的体感与Deepseek V4 Pro大概一个水平",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "kk评价Step 5 Preview的体感与Deepseek V4 Pro大概一个水平",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "step-5-preview",
+      "target": "deepseek-v4-pro",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "kk评价Step 5 Preview的体感与Deepseek V4 Pro大概一个水平",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "kk",
+      "target": "step-5-preview",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "kk认为Artificial Analysis权重意义不大，且指出Step 5 Preview与Opus 5差距不止1分",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "kk认为Artificial Analysis权重意义不大，且指出Step 5 Preview与Opus 5差距不止1分",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "step-5-preview",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "阶跃星辰开发并发布了Step 5 Preview模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "阶跃星辰开发并发布了Step 5 Preview模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kk",
+      "target": "step-5-preview",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "kk对Step 5 Preview进行了详细的实测和分析",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "kk对Step 5 Preview进行了详细的实测和分析",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "step-5-preview",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "咸鱼参与了对Step 5 Preview的测试",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "咸鱼参与了对Step 5 Preview的测试",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

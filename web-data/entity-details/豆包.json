@@ -4,8 +4,8 @@
     "name": "豆包",
     "type": "product",
     "description": "抖音旗下/字节系的AI大模型产品，也是《豆包AI赚钱手册》的核心探讨对象",
-    "mention_count": 278,
-    "article_count": 30,
+    "mention_count": 279,
+    "article_count": 31,
     "aliases": [
       "Doubao",
       "糖包",
@@ -23,6 +23,7 @@
       "AI大模型",
       "AI工具",
       "AI应用",
+      "AI手机",
       "AI生成",
       "AI软件",
       "Agent",
@@ -45,8 +46,8 @@
       "语音模式",
       "超级APP"
     ],
-    "references": 30,
-    "source_article_count": 30,
+    "references": 31,
+    "source_article_count": 31,
     "source_articles": [
       {
         "article_id": "065",
@@ -247,6 +248,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "153",
+        "title": "阶跃应该在桌上而不是桌底",
+        "date": "2026-09-22",
+        "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "permalink": "/articles/153",
+        "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "149",
         "title": "AI Dating都是衡水中学",
         "date": "2026-09-15",
@@ -319,8 +329,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 73,
-    "composite_weight": 0.8017
+    "degree": 75,
+    "composite_weight": 0.8226
   },
   "links": [
     {
@@ -1632,6 +1642,32 @@
     },
     {
       "source": "豆包",
+      "target": "阶跃星辰",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "阶跃星辰的AI手机业务与豆包手机存在竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "阶跃星辰的AI手机业务与豆包手机存在竞争关系",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包",
       "target": "阶跃桌面伙伴",
       "relation_type": "competes_with",
       "type": "competes_with",
@@ -1655,6 +1691,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "豆包",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "阶跃星辰的AI手机业务与豆包手机存在竞争关系",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
     },
     {
       "source": "阶跃桌面伙伴",
@@ -1929,7 +1978,7 @@
     {
       "source": "智谱ai",
       "target": "豆包",
-      "score": 0.6678,
+      "score": 0.6673,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1942,9 +1991,23 @@
       "status": "suggested"
     },
     {
+      "source": "葬爱咸鱼",
+      "target": "豆包",
+      "score": 0.6531,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "064",
+        "111",
+        "125",
+        "153"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "minimax",
       "target": "豆包",
-      "score": 0.6185,
+      "score": 0.618,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1958,7 +2021,7 @@
     {
       "source": "火山引擎",
       "target": "豆包",
-      "score": 0.5932,
+      "score": 0.5927,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1967,19 +2030,6 @@
         "065",
         "071",
         "110"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "manus",
-      "target": "豆包",
-      "score": 0.587,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
-      "evidence_article_ids": [
-        "004",
-        "040",
-        "057"
       ],
       "status": "suggested"
     }

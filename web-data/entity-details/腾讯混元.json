@@ -1,0 +1,99 @@
+{
+  "node": {
+    "id": "腾讯混元",
+    "name": "腾讯混元",
+    "type": "product",
+    "description": "腾讯公司的大模型产品，文中以HY4指代其重要发布节点",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [
+      "HY4"
+    ],
+    "tags": [
+      "大模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "153",
+        "title": "阶跃应该在桌上而不是桌底",
+        "date": "2026-09-22",
+        "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "permalink": "/articles/153",
+        "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0315
+  },
+  "links": [
+    {
+      "source": "腾讯混元",
+      "target": "阶跃星辰",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Step 5 Preview的发布级别比作腾讯HY4级别的发布",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "文章将Step 5 Preview的发布级别比作腾讯HY4级别的发布",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阶跃星辰",
+      "target": "腾讯混元",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Step 5 Preview的发布级别比作腾讯HY4级别的发布",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "腾讯",
+      "target": "腾讯混元",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "腾讯开发了腾讯混元大模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "腾讯开发了腾讯混元大模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

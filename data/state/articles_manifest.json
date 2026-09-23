@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-21T10:19:11Z",
+  "updatedAt": "2026-09-23T07:45:27Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -3041,6 +3041,26 @@
       "artifact_path": "data/extracted/152.json",
       "raw_path": "data/gemini_raw/152.json",
       "extracted_at": "2026-09-21T10:19:11Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "153": {
+      "article_id": "153",
+      "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+      "title": "阶跃应该在桌上而不是桌底",
+      "date": "2026-09-22",
+      "author": "沐秋",
+      "content_hash": "b28125ed4370a3084f527fbd042aa820826f530e0b729c159087944cf9d03359",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/153.json",
+      "raw_path": "data/gemini_raw/153.json",
+      "extracted_at": "2026-09-23T07:45:27Z",
       "last_error": null,
       "extractor": {
         "name": "dashscope",

@@ -4,8 +4,8 @@
     "name": "葬爱咸鱼",
     "type": "person",
     "description": "公众号“葬AI”主理人，葬爱咸鱼科技有限公司实控人，脱口秀演讲者",
-    "mention_count": 38,
-    "article_count": 14,
+    "mention_count": 39,
+    "article_count": 15,
     "aliases": [
       "咸鱼",
       "葬愛咸鱼",
@@ -24,14 +24,15 @@
       "实控人",
       "投资者",
       "测评",
+      "测评人",
       "行业评论",
       "行业评论者",
       "评论员",
       "评论者",
       "黑客松"
     ],
-    "references": 14,
-    "source_article_count": 14,
+    "references": 15,
+    "source_article_count": 15,
     "source_articles": [
       {
         "article_id": "064",
@@ -124,6 +125,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "153",
+        "title": "阶跃应该在桌上而不是桌底",
+        "date": "2026-09-22",
+        "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "permalink": "/articles/153",
+        "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "120",
         "title": "Raft说明AI应用不会亡！",
         "date": "2026-07-15",
@@ -160,8 +170,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 21,
-    "composite_weight": 0.2338
+    "degree": 22,
+    "composite_weight": 0.2487
   },
   "links": [
     {
@@ -707,6 +717,32 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "step-5-preview",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "咸鱼参与了对Step 5 Preview的测试",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "咸鱼参与了对Step 5 Preview的测试",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
@@ -727,13 +763,14 @@
     {
       "source": "葬爱咸鱼",
       "target": "豆包",
-      "score": 0.5831,
+      "score": 0.6531,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "064",
         "111",
-        "125"
+        "125",
+        "153"
       ],
       "status": "suggested"
     },
@@ -770,7 +807,7 @@
       "target": "葬爱咸鱼",
       "score": 0.5484,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "068",
         "106",

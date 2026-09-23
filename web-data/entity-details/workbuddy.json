@@ -569,9 +569,9 @@
     {
       "source": "workbuddy",
       "target": "百度",
-      "score": 0.6319,
+      "score": 0.6813,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "102",
         "125",
@@ -583,10 +583,25 @@
     },
     {
       "source": "workbuddy",
-      "target": "阿里巴巴",
-      "score": 0.5667,
+      "target": "字节跳动",
+      "score": 0.516,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "102",
+        "111",
+        "125",
+        "144",
+        "145"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "workbuddy",
+      "target": "阿里巴巴",
+      "score": 0.516,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "102",
         "125",
@@ -599,26 +614,11 @@
     {
       "source": "qoder",
       "target": "workbuddy",
-      "score": 0.5283,
+      "score": 0.4783,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "128",
-        "144",
-        "145"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "workbuddy",
-      "target": "字节跳动",
-      "score": 0.5167,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 2 个邻居",
-      "evidence_article_ids": [
-        "102",
-        "111",
-        "125",
         "144",
         "145"
       ],

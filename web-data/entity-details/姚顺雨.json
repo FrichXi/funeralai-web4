@@ -3,15 +3,16 @@
     "id": "姚顺雨",
     "name": "姚顺雨",
     "type": "person",
-    "description": "AI行业关键人物，文中建议美团挖角的对象",
-    "mention_count": 2,
-    "article_count": 1,
+    "description": "腾讯混元大模型负责人，文中提及他空降后推动了HY4发布",
+    "mention_count": 3,
+    "article_count": 2,
     "aliases": [],
     "tags": [
-      "AI人才"
+      "AI人才",
+      "技术高管"
     ],
-    "references": 1,
-    "source_article_count": 1,
+    "references": 2,
+    "source_article_count": 2,
     "source_articles": [
       {
         "article_id": "128",
@@ -21,11 +22,47 @@
         "permalink": "/articles/128",
         "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
         "mention_count": 2
+      },
+      {
+        "article_id": "153",
+        "title": "阶跃应该在桌上而不是桌底",
+        "date": "2026-09-22",
+        "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "permalink": "/articles/153",
+        "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "mention_count": 1
       }
     ],
-    "degree": 0,
-    "composite_weight": 0.0095
+    "degree": 1,
+    "composite_weight": 0.0245
   },
-  "links": [],
+  "links": [
+    {
+      "source": "姚顺雨",
+      "target": "腾讯",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "姚顺雨在腾讯任职并负责混元大模型业务",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "姚顺雨在腾讯任职并负责混元大模型业务",
+          "weight": 1
+        }
+      ]
+    }
+  ],
   "suggested_edges": []
 }

@@ -4,8 +4,8 @@
     "name": "腾讯",
     "type": "company",
     "description": "中国知名科技互联网公司，在文中开发了多款Agent及其他软件产品",
-    "mention_count": 83,
-    "article_count": 15,
+    "mention_count": 86,
+    "article_count": 16,
     "aliases": [
       "Tencent"
     ],
@@ -23,8 +23,8 @@
       "科技大厂",
       "资方"
     ],
-    "references": 15,
-    "source_article_count": 15,
+    "references": 16,
+    "source_article_count": 16,
     "source_articles": [
       {
         "article_id": "102",
@@ -79,6 +79,15 @@
         "permalink": "/articles/068",
         "markdown_link": "articles/068_2026-03-04_沐秋_云端OpenClaw更是路边一条.md",
         "mention_count": 4
+      },
+      {
+        "article_id": "153",
+        "title": "阶跃应该在桌上而不是桌底",
+        "date": "2026-09-22",
+        "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "permalink": "/articles/153",
+        "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+        "mention_count": 3
       },
       {
         "article_id": "106",
@@ -162,8 +171,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 33,
-    "composite_weight": 0.3933
+    "degree": 35,
+    "composite_weight": 0.4188
   },
   "links": [
     {
@@ -887,6 +896,32 @@
     },
     {
       "source": "腾讯",
+      "target": "腾讯混元",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "腾讯开发了腾讯混元大模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "腾讯开发了腾讯混元大模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "腾讯",
       "target": "genspark",
       "relation_type": "invests_in",
       "type": "invests_in",
@@ -1066,6 +1101,32 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "姚顺雨",
+      "target": "腾讯",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "姚顺雨在腾讯任职并负责混元大模型业务",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "153"
+      ],
+      "evidences": [
+        {
+          "article_id": "153",
+          "title": "阶跃应该在桌上而不是桌底",
+          "permalink": "/articles/153",
+          "markdown_link": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "path": "articles/153_2026-09-22_沐秋_阶跃应该在桌上而不是桌底.md",
+          "date": "2026-09-22",
+          "label": "姚顺雨在腾讯任职并负责混元大模型业务",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
@@ -1116,7 +1177,7 @@
       "target": "葬爱咸鱼",
       "score": 0.5484,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "068",
         "106",
