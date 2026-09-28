@@ -1,0 +1,228 @@
+{
+  "node": {
+    "id": "today-ai",
+    "name": "Today.ai",
+    "type": "product",
+    "description": "国内Personal agent产品，可连接Gmail和Notion自动处理任务",
+    "mention_count": 8,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Personal agent",
+      "办公Agent"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "154",
+        "title": "个人主义才能救AI",
+        "date": "2026-09-27",
+        "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "permalink": "/articles/154",
+        "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "mention_count": 8
+      }
+    ],
+    "degree": 9,
+    "composite_weight": 0.0778
+  },
+  "links": [
+    {
+      "source": "grok-bot",
+      "target": "today-ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了Grok bot与Today.ai在主动性和开放性上的差异",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "154"
+      ],
+      "evidences": [
+        {
+          "article_id": "154",
+          "title": "个人主义才能救AI",
+          "permalink": "/articles/154",
+          "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "date": "2026-09-27",
+          "label": "文章对比了Grok bot与Today.ai在主动性和开放性上的差异",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "muse",
+      "target": "today-ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Today.ai与Muse作为国内外Personal agent的代表进行对比评测",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "154"
+      ],
+      "evidences": [
+        {
+          "article_id": "154",
+          "title": "个人主义才能救AI",
+          "permalink": "/articles/154",
+          "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "date": "2026-09-27",
+          "label": "文章将Today.ai与Muse作为国内外Personal agent的代表进行对比评测",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "today-ai",
+      "target": "grok-bot",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了Grok bot与Today.ai在主动性和开放性上的差异",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "today-ai",
+      "target": "muse",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Today.ai与Muse作为国内外Personal agent的代表进行对比评测",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "today-ai",
+      "target": "龙虾",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了早期的龙虾与现在的Today.ai，指出后者对低能用户更友好",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "154"
+      ],
+      "evidences": [
+        {
+          "article_id": "154",
+          "title": "个人主义才能救AI",
+          "permalink": "/articles/154",
+          "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "date": "2026-09-27",
+          "label": "文章对比了早期的龙虾与现在的Today.ai，指出后者对低能用户更友好",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "龙虾",
+      "target": "today-ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了早期的龙虾与现在的Today.ai，指出后者对低能用户更友好",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "today-ai",
+      "target": "腾讯文档",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Today.ai支持连接腾讯文档",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "154"
+      ],
+      "evidences": [
+        {
+          "article_id": "154",
+          "title": "个人主义才能救AI",
+          "permalink": "/articles/154",
+          "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "date": "2026-09-27",
+          "label": "Today.ai支持连接腾讯文档",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "today-ai",
+      "target": "钉钉",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Today.ai支持连接钉钉",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "154"
+      ],
+      "evidences": [
+        {
+          "article_id": "154",
+          "title": "个人主义才能救AI",
+          "permalink": "/articles/154",
+          "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "date": "2026-09-27",
+          "label": "Today.ai支持连接钉钉",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "today-ai",
+      "target": "飞书",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Today.ai支持连接飞书",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "154"
+      ],
+      "evidences": [
+        {
+          "article_id": "154",
+          "title": "个人主义才能救AI",
+          "permalink": "/articles/154",
+          "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "date": "2026-09-27",
+          "label": "Today.ai支持连接飞书",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

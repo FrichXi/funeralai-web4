@@ -255,13 +255,13 @@
       ]
     },
     {
-      "id": "grok",
-      "name": "Grok",
+      "id": "grok-bot",
+      "name": "Grok bot",
       "type": "product",
-      "description": "xAI 的模型系列，文中提及 Grok-4.6 偏好商业和竞争分析类隐喻",
+      "description": "xAI推出的AI助手，支持多模态、云电脑及本地操作，风格开放",
       "mention_count": 1,
       "aliases": [
-        "Grok-4.6",
+        "Grok",
         "北美二豆包"
       ],
       "tags": [
@@ -338,9 +338,9 @@
       "weight": 1
     },
     {
-      "source_id": "grok",
+      "source_id": "grok-bot",
       "target_id": "豆包",
-      "source": "Grok",
+      "source": "Grok bot",
       "target": "豆包",
       "relation_type": "compares_to",
       "label": "Grok表现更差，被戏称为“北美二豆包”",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-23T07:45:27Z",
+  "updatedAt": "2026-09-28T06:34:33Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -3061,6 +3061,26 @@
       "artifact_path": "data/extracted/153.json",
       "raw_path": "data/gemini_raw/153.json",
       "extracted_at": "2026-09-23T07:45:27Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "154": {
+      "article_id": "154",
+      "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+      "title": "个人主义才能救AI",
+      "date": "2026-09-27",
+      "author": "骡子马",
+      "content_hash": "13a614285e39b16afcfe32f0c1ac22cc41b45957afef0d1ff1e8927c8a9c826e",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/154.json",
+      "raw_path": "data/gemini_raw/154.json",
+      "extracted_at": "2026-09-28T06:34:33Z",
       "last_error": null,
       "extractor": {
         "name": "dashscope",

@@ -4,8 +4,8 @@
     "name": "豆包",
     "type": "product",
     "description": "抖音旗下/字节系的AI大模型产品，也是《豆包AI赚钱手册》的核心探讨对象",
-    "mention_count": 279,
-    "article_count": 31,
+    "mention_count": 281,
+    "article_count": 32,
     "aliases": [
       "Doubao",
       "糖包",
@@ -46,8 +46,8 @@
       "语音模式",
       "超级APP"
     ],
-    "references": 31,
-    "source_article_count": 31,
+    "references": 32,
+    "source_article_count": 32,
     "source_articles": [
       {
         "article_id": "065",
@@ -165,6 +165,15 @@
         "permalink": "/articles/064",
         "markdown_link": "articles/064_2026-02-13_沐秋_Elys应该做成AI内涵段子.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "154",
+        "title": "个人主义才能救AI",
+        "date": "2026-09-27",
+        "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "permalink": "/articles/154",
+        "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "mention_count": 2
       },
       {
         "article_id": "128",
@@ -330,7 +339,7 @@
       }
     ],
     "degree": 75,
-    "composite_weight": 0.8226
+    "composite_weight": 0.8241
   },
   "links": [
     {
@@ -2019,17 +2028,15 @@
       "status": "suggested"
     },
     {
-      "source": "火山引擎",
+      "source": "manus",
       "target": "豆包",
-      "score": 0.5927,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "score": 0.5847,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
+        "004",
         "040",
-        "057",
-        "065",
-        "071",
-        "110"
+        "057"
       ],
       "status": "suggested"
     }

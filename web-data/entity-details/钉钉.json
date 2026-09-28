@@ -4,8 +4,8 @@
     "name": "钉钉",
     "type": "product",
     "description": "企业级办公协作平台，文中作为Raft和Tutti的对标/替代对象",
-    "mention_count": 54,
-    "article_count": 9,
+    "mention_count": 55,
+    "article_count": 10,
     "aliases": [
       "DingTalk"
     ],
@@ -22,8 +22,8 @@
       "大厂",
       "聊天软件"
     ],
-    "references": 9,
-    "source_article_count": 9,
+    "references": 10,
+    "source_article_count": 10,
     "source_articles": [
       {
         "article_id": "045",
@@ -98,6 +98,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "154",
+        "title": "个人主义才能救AI",
+        "date": "2026-09-27",
+        "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "permalink": "/articles/154",
+        "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "043",
         "title": "Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子",
         "date": "2025-12-18",
@@ -107,8 +116,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 26,
-    "composite_weight": 0.2452
+    "degree": 27,
+    "composite_weight": 0.2567
   },
   "links": [
     {
@@ -665,6 +674,32 @@
       ]
     },
     {
+      "source": "today-ai",
+      "target": "钉钉",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Today.ai支持连接钉钉",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "154"
+      ],
+      "evidences": [
+        {
+          "article_id": "154",
+          "title": "个人主义才能救AI",
+          "permalink": "/articles/154",
+          "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "date": "2026-09-27",
+          "label": "Today.ai支持连接钉钉",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "lovart",
       "target": "钉钉",
       "relation_type": "partners_with",
@@ -758,7 +793,7 @@
     {
       "source": "腾讯",
       "target": "钉钉",
-      "score": 0.5325,
+      "score": 0.4808,
       "suggested_relation_type": "related",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [

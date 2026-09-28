@@ -4,8 +4,8 @@
     "name": "扎克伯格",
     "type": "person",
     "description": "Facebook创始人，被36氪采访对标为陈总的比较对象。",
-    "mention_count": 8,
-    "article_count": 5,
+    "mention_count": 9,
+    "article_count": 6,
     "aliases": [
       "Mark Zuckerberg",
       "Zuckerberg",
@@ -16,10 +16,12 @@
     ],
     "tags": [
       "CEO",
+      "Meta",
+      "企业家",
       "科技人物"
     ],
-    "references": 5,
-    "source_article_count": 5,
+    "references": 6,
+    "source_article_count": 6,
     "source_articles": [
       {
         "article_id": "015",
@@ -38,6 +40,15 @@
         "permalink": "/articles/036",
         "markdown_link": "articles/036_2025-11-19_葬爱咸鱼_灵感式写作.md",
         "mention_count": 2
+      },
+      {
+        "article_id": "154",
+        "title": "个人主义才能救AI",
+        "date": "2026-09-27",
+        "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "permalink": "/articles/154",
+        "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "mention_count": 1
       },
       {
         "article_id": "148",
@@ -67,8 +78,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 6,
-    "composite_weight": 0.0571
+    "degree": 8,
+    "composite_weight": 0.0771
   },
   "links": [
     {
@@ -124,11 +135,50 @@
       ]
     },
     {
+      "source": "扎克伯格",
+      "target": "马斯克",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比两人对待中国用户/国籍的策略差异（看国籍下菜碟 vs 有奶便是娘）",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "154"
+      ],
+      "evidences": [
+        {
+          "article_id": "154",
+          "title": "个人主义才能救AI",
+          "permalink": "/articles/154",
+          "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "date": "2026-09-27",
+          "label": "文中对比两人对待中国用户/国籍的策略差异（看国籍下菜碟 vs 有奶便是娘）",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "锴杰",
       "target": "扎克伯格",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "36氪在采访中将陈总与扎克伯格对标，称扎克伯格想做的Agent被陈总先做出来了。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "马斯克",
+      "target": "扎克伯格",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比两人对待中国用户/国籍的策略差异（看国籍下菜碟 vs 有奶便是娘）",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,

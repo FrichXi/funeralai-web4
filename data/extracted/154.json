@@ -1,0 +1,312 @@
+{
+  "article": {
+    "id": "154",
+    "title": "个人主义才能救AI",
+    "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+    "date": "2026-09-27",
+    "author": "骡子马",
+    "content_hash": "13a614285e39b16afcfe32f0c1ac22cc41b45957afef0d1ff1e8927c8a9c826e"
+  },
+  "entities": [
+    {
+      "id": "grok-bot",
+      "name": "Grok bot",
+      "type": "product",
+      "description": "xAI推出的AI助手，支持多模态、云电脑及本地操作，风格开放",
+      "mention_count": 14,
+      "aliases": [
+        "Grok"
+      ],
+      "tags": [
+        "Personal agent",
+        "多模态"
+      ]
+    },
+    {
+      "id": "today-ai",
+      "name": "Today.ai",
+      "type": "product",
+      "description": "国内Personal agent产品，可连接Gmail和Notion自动处理任务",
+      "mention_count": 8,
+      "aliases": [],
+      "tags": [
+        "Personal agent",
+        "办公Agent"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "OpenAI开发的大模型对话产品",
+      "mention_count": 5,
+      "aliases": [
+        "GPT"
+      ],
+      "tags": [
+        "大模型",
+        "SOTA"
+      ]
+    },
+    {
+      "id": "微信",
+      "name": "微信",
+      "type": "product",
+      "description": "腾讯旗下国民社交软件，文中指出其未对Today.ai开放连接权限",
+      "mention_count": 5,
+      "aliases": [],
+      "tags": [
+        "社交平台",
+        "生态封闭"
+      ]
+    },
+    {
+      "id": "龙虾",
+      "name": "龙虾",
+      "type": "product",
+      "description": "早期的个人助理工具，需自行部署，对非技术用户不友好",
+      "mention_count": 5,
+      "aliases": [
+        "Lobster"
+      ],
+      "tags": [
+        "Personal agent",
+        "开源工具"
+      ]
+    },
+    {
+      "id": "muse",
+      "name": "Muse",
+      "type": "product",
+      "description": "国外Personal agent产品，主打帮人打电话功能",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "Personal agent"
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "type": "product",
+      "description": "Anthropic开发的大模型对话产品",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "大模型",
+        "SOTA"
+      ]
+    },
+    {
+      "id": "豆包",
+      "name": "豆包",
+      "type": "product",
+      "description": "字节跳动推出的AI助手，文中提及用于辅助代码部署",
+      "mention_count": 2,
+      "aliases": [
+        "豆姐"
+      ],
+      "tags": [
+        "AI助手"
+      ]
+    },
+    {
+      "id": "马斯克",
+      "name": "马斯克",
+      "type": "person",
+      "description": "xAI创始人，文中作为Grok bot背后的关键人物及隐私讨论对象被提及",
+      "mention_count": 2,
+      "aliases": [
+        "马圣"
+      ],
+      "tags": [
+        "企业家",
+        "xAI"
+      ]
+    },
+    {
+      "id": "seedream-5-0",
+      "name": "Seedream 5.0",
+      "type": "product",
+      "description": "图像生成模型API，文中作为Grok bot的集成生图能力被提及",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "图像生成",
+        "API"
+      ]
+    },
+    {
+      "id": "扎克伯格",
+      "name": "扎克伯格",
+      "type": "person",
+      "description": "Meta创始人，文中作为对比对象提及，指其按国籍限制服务",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "企业家",
+        "Meta"
+      ]
+    },
+    {
+      "id": "腾讯文档",
+      "name": "腾讯文档",
+      "type": "product",
+      "description": "腾讯旗下在线文档工具，已支持Today.ai连接",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "办公软件"
+      ]
+    },
+    {
+      "id": "钉钉",
+      "name": "钉钉",
+      "type": "product",
+      "description": "阿里旗下办公协同平台，已支持Today.ai连接",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "办公软件"
+      ]
+    },
+    {
+      "id": "飞书",
+      "name": "飞书",
+      "type": "product",
+      "description": "字节跳动旗下办公协同平台，已支持Today.ai连接",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "办公软件"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ChatGPT",
+      "target": "Grok bot",
+      "relation_type": "compares_to",
+      "label": "作者认为Grok bot等Personal agent是向下兼容的自由，而ChatGPT等SOTA模型能力过剩",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Claude",
+      "target": "Grok bot",
+      "relation_type": "compares_to",
+      "label": "作者认为Grok bot等Personal agent是向下兼容的自由，而Claude等SOTA模型能力过剩",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Grok bot",
+      "target": "Muse",
+      "relation_type": "compares_to",
+      "label": "文章将Grok bot与Muse进行对比，认为Grok bot更开放且无国界限制",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Grok bot",
+      "target": "Today.ai",
+      "relation_type": "compares_to",
+      "label": "文章对比了Grok bot与Today.ai在主动性和开放性上的差异",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Muse",
+      "target": "Today.ai",
+      "relation_type": "compares_to",
+      "label": "文章将Today.ai与Muse作为国内外Personal agent的代表进行对比评测",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Today.ai",
+      "target": "龙虾",
+      "relation_type": "compares_to",
+      "label": "文章对比了早期的龙虾与现在的Today.ai，指出后者对低能用户更友好",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "扎克伯格",
+      "target": "马斯克",
+      "relation_type": "compares_to",
+      "label": "文中对比两人对待中国用户/国籍的策略差异（看国籍下菜碟 vs 有奶便是娘）",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "Grok bot",
+      "target": "Seedream 5.0",
+      "relation_type": "integrates_with",
+      "label": "作者在Grok bot中接入了Seedream 5.0 API以增强生图搭配能力",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Today.ai",
+      "target": "腾讯文档",
+      "relation_type": "integrates_with",
+      "label": "Today.ai支持连接腾讯文档",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Today.ai",
+      "target": "钉钉",
+      "relation_type": "integrates_with",
+      "label": "Today.ai支持连接钉钉",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Today.ai",
+      "target": "飞书",
+      "relation_type": "integrates_with",
+      "label": "Today.ai支持连接飞书",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Grok bot",
+      "target": "马斯克",
+      "relation_type": "related",
+      "label": "马斯克是Grok bot背后公司的实际控制人，文中以其代指Grok的服务策略",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "high"
+    },
+    {
+      "source": "Today.ai",
+      "target": "微信",
+      "relation_type": "related",
+      "label": "Today.ai无法连接微信，但微信理论上可以连接Today.ai（单向阻断）",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 14,
+    "relationship_count": 13,
+    "pruned_entities": [],
+    "provider": "dashscope"
+  }
+}

@@ -119,7 +119,7 @@
       }
     ],
     "degree": 18,
-    "composite_weight": 0.153
+    "composite_weight": 0.1506
   },
   "links": [
     {
@@ -513,11 +513,23 @@
   ],
   "suggested_edges": [
     {
+      "source": "claude",
+      "target": "谷歌",
+      "score": 0.6309,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "060",
+        "071"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "谷歌",
       "target": "豆包",
-      "score": 0.5835,
+      "score": 0.5335,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "014",
         "065",
@@ -527,23 +539,23 @@
       "status": "suggested"
     },
     {
-      "source": "claude",
+      "source": "qwen",
       "target": "谷歌",
-      "score": 0.5809,
+      "score": 0.5064,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
-        "060",
-        "071"
+        "051",
+        "060"
       ],
       "status": "suggested"
     },
     {
       "source": "字节跳动",
       "target": "谷歌",
-      "score": 0.5374,
+      "score": 0.4874,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "054",
         "065",
@@ -553,26 +565,14 @@
       "status": "suggested"
     },
     {
-      "source": "qwen",
+      "source": "cherry-studio",
       "target": "谷歌",
-      "score": 0.4564,
+      "score": 0.4515,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
-        "051",
+        "021",
         "060"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "火山引擎",
-      "target": "谷歌",
-      "score": 0.4074,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 1 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "065",
-        "071"
       ],
       "status": "suggested"
     }

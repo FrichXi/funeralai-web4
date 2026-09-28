@@ -407,7 +407,7 @@
       }
     ],
     "degree": 74,
-    "composite_weight": 0.895
+    "composite_weight": 0.885
   },
   "links": [
     {
@@ -2081,9 +2081,9 @@
     {
       "source": "chatgpt",
       "target": "kimi",
-      "score": 0.8285,
+      "score": 0.8784,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 5 篇文章；共享 8 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 8 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "030",
         "040",
@@ -2111,14 +2111,27 @@
     {
       "source": "kimi",
       "target": "openai",
-      "score": 0.6173,
+      "score": 0.6673,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "005",
         "048",
         "099",
         "109",
+        "138"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "cursor",
+      "target": "kimi",
+      "score": 0.6221,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "004",
+        "030",
         "138"
       ],
       "status": "suggested"
@@ -2134,19 +2147,6 @@
         "116",
         "138",
         "140"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "cursor",
-      "target": "kimi",
-      "score": 0.5723,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "004",
-        "030",
-        "138"
       ],
       "status": "suggested"
     }

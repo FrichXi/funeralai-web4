@@ -66,7 +66,7 @@
       }
     ],
     "degree": 9,
-    "composite_weight": 0.0992
+    "composite_weight": 0.098
   },
   "links": [
     {
@@ -313,20 +313,6 @@
   ],
   "suggested_edges": [
     {
-      "source": "kimi",
-      "target": "闫俊杰",
-      "score": 0.5325,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "049",
-        "085",
-        "141",
-        "152"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "闫俊杰",
       "target": "陈冕",
       "score": 0.4974,
@@ -337,6 +323,20 @@
         "085",
         "141",
         "151"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "kimi",
+      "target": "闫俊杰",
+      "score": 0.4825,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "049",
+        "085",
+        "141",
+        "152"
       ],
       "status": "suggested"
     }

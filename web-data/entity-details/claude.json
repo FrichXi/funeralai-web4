@@ -4,8 +4,8 @@
     "name": "Claude",
     "type": "product",
     "description": "Anthropic 的模型系列，文中评测显示其信息量高于 GPT，且 Fable-5 版本隐喻率最高",
-    "mention_count": 237,
-    "article_count": 39,
+    "mention_count": 239,
+    "article_count": 40,
     "aliases": [
       "CC",
       "CC SDK",
@@ -40,6 +40,7 @@
       "Coding Agent",
       "LLM",
       "SDK",
+      "SOTA",
       "Vibe Coding",
       "上下文工程",
       "云端AI",
@@ -69,8 +70,8 @@
       "通用引擎",
       "闭源模型"
     ],
-    "references": 39,
-    "source_article_count": 39,
+    "references": 40,
+    "source_article_count": 40,
     "source_articles": [
       {
         "article_id": "024",
@@ -316,6 +317,15 @@
         "mention_count": 3
       },
       {
+        "article_id": "154",
+        "title": "个人主义才能救AI",
+        "date": "2026-09-27",
+        "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "permalink": "/articles/154",
+        "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "mention_count": 2
+      },
+      {
         "article_id": "111",
         "title": "用豆包办公得坐小孩那桌",
         "date": "2026-06-25",
@@ -424,8 +434,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 85,
-    "composite_weight": 0.9031
+    "degree": 87,
+    "composite_weight": 0.9148
   },
   "links": [
     {
@@ -785,6 +795,32 @@
           "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
           "date": "2026-09-04",
           "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "claude",
+      "target": "grok-bot",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Grok bot等Personal agent是向下兼容的自由，而Claude等SOTA模型能力过剩",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "154"
+      ],
+      "evidences": [
+        {
+          "article_id": "154",
+          "title": "个人主义才能救AI",
+          "permalink": "/articles/154",
+          "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "date": "2026-09-27",
+          "label": "作者认为Grok bot等Personal agent是向下兼容的自由，而Claude等SOTA模型能力过剩",
           "weight": 1
         }
       ]
@@ -1207,6 +1243,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "grok-bot",
+      "target": "claude",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Grok bot等Personal agent是向下兼容的自由，而Claude等SOTA模型能力过剩",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -2633,7 +2682,7 @@
       "target": "飞书",
       "score": 0.7868,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 6 篇文章；共享 6 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "033",
         "067",

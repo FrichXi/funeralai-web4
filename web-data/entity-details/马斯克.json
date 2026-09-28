@@ -4,8 +4,8 @@
     "name": "马斯克",
     "type": "person",
     "description": "特斯拉/SpaceX/Grok负责人，被用作判断行业是否属于制造业的标杆人物",
-    "mention_count": 31,
-    "article_count": 8,
+    "mention_count": 33,
+    "article_count": 9,
     "aliases": [
       "Elon Musk",
       "Musk",
@@ -14,6 +14,7 @@
     "tags": [
       "CEO",
       "KOL",
+      "xAI",
       "企业家",
       "制造业思维",
       "制造业标杆",
@@ -21,8 +22,8 @@
       "科技企业家",
       "科技领袖"
     ],
-    "references": 8,
-    "source_article_count": 8,
+    "references": 9,
+    "source_article_count": 9,
     "source_articles": [
       {
         "article_id": "060",
@@ -50,6 +51,15 @@
         "permalink": "/articles/035",
         "markdown_link": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
         "mention_count": 6
+      },
+      {
+        "article_id": "154",
+        "title": "个人主义才能救AI",
+        "date": "2026-09-27",
+        "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "permalink": "/articles/154",
+        "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "mention_count": 2
       },
       {
         "article_id": "134",
@@ -97,8 +107,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 18,
-    "composite_weight": 0.1752
+    "degree": 20,
+    "composite_weight": 0.196
   },
   "links": [
     {
@@ -180,6 +190,32 @@
       ]
     },
     {
+      "source": "扎克伯格",
+      "target": "马斯克",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比两人对待中国用户/国籍的策略差异（看国籍下菜碟 vs 有奶便是娘）",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "154"
+      ],
+      "evidences": [
+        {
+          "article_id": "154",
+          "title": "个人主义才能救AI",
+          "permalink": "/articles/154",
+          "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "date": "2026-09-27",
+          "label": "文中对比两人对待中国用户/国籍的策略差异（看国籍下菜碟 vs 有奶便是娘）",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "智谱ai",
       "target": "马斯克",
       "relation_type": "compares_to",
@@ -224,6 +260,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "作者认为很难分出马斯克和川普在舆论影响力和炒作能力上的高下。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "马斯克",
+      "target": "扎克伯格",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比两人对待中国用户/国籍的策略差异（看国籍下菜碟 vs 有奶便是娘）",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,

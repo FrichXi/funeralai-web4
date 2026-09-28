@@ -1,0 +1,110 @@
+{
+  "node": {
+    "id": "muse",
+    "name": "Muse",
+    "type": "product",
+    "description": "国外Personal agent产品，主打帮人打电话功能",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Personal agent"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "154",
+        "title": "个人主义才能救AI",
+        "date": "2026-09-27",
+        "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "permalink": "/articles/154",
+        "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0371
+  },
+  "links": [
+    {
+      "source": "grok-bot",
+      "target": "muse",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Grok bot与Muse进行对比，认为Grok bot更开放且无国界限制",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "154"
+      ],
+      "evidences": [
+        {
+          "article_id": "154",
+          "title": "个人主义才能救AI",
+          "permalink": "/articles/154",
+          "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "date": "2026-09-27",
+          "label": "文章将Grok bot与Muse进行对比，认为Grok bot更开放且无国界限制",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "muse",
+      "target": "grok-bot",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Grok bot与Muse进行对比，认为Grok bot更开放且无国界限制",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "muse",
+      "target": "today-ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Today.ai与Muse作为国内外Personal agent的代表进行对比评测",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "154"
+      ],
+      "evidences": [
+        {
+          "article_id": "154",
+          "title": "个人主义才能救AI",
+          "permalink": "/articles/154",
+          "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "date": "2026-09-27",
+          "label": "文章将Today.ai与Muse作为国内外Personal agent的代表进行对比评测",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "today-ai",
+      "target": "muse",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Today.ai与Muse作为国内外Personal agent的代表进行对比评测",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

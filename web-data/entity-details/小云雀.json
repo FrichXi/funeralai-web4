@@ -52,7 +52,7 @@
       }
     ],
     "degree": 4,
-    "composite_weight": 0.0499
+    "composite_weight": 0.0494
   },
   "links": [
     {
@@ -174,6 +174,19 @@
       "status": "suggested"
     },
     {
+      "source": "剪映",
+      "target": "小云雀",
+      "score": 0.4825,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "063",
+        "132",
+        "151"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "小云雀",
       "target": "抖音",
       "score": 0.4825,
@@ -182,19 +195,6 @@
       "evidence_article_ids": [
         "062",
         "063",
-        "151"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "剪映",
-      "target": "小云雀",
-      "score": 0.4325,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
-      "evidence_article_ids": [
-        "063",
-        "132",
         "151"
       ],
       "status": "suggested"

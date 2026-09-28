@@ -99,7 +99,7 @@
       }
     ],
     "degree": 21,
-    "composite_weight": 0.23
+    "composite_weight": 0.2272
   },
   "links": [
     {
@@ -569,15 +569,43 @@
     {
       "source": "workbuddy",
       "target": "百度",
-      "score": 0.6813,
+      "score": 0.6313,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "102",
         "125",
         "144",
         "145",
         "146"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "workbuddy",
+      "target": "阿里巴巴",
+      "score": 0.566,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "102",
+        "125",
+        "128",
+        "144",
+        "145"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "qoder",
+      "target": "workbuddy",
+      "score": 0.5283,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "128",
+        "144",
+        "145"
       ],
       "status": "suggested"
     },
@@ -593,48 +621,6 @@
         "125",
         "144",
         "145"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "workbuddy",
-      "target": "阿里巴巴",
-      "score": 0.516,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 2 个邻居",
-      "evidence_article_ids": [
-        "102",
-        "125",
-        "128",
-        "144",
-        "145"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "qoder",
-      "target": "workbuddy",
-      "score": 0.4783,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
-      "evidence_article_ids": [
-        "128",
-        "144",
-        "145"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "workbuddy",
-      "target": "豆包",
-      "score": 0.392,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 1 个邻居",
-      "evidence_article_ids": [
-        "111",
-        "125",
-        "128",
-        "146"
       ],
       "status": "suggested"
     }

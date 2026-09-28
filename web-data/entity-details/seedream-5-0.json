@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "seedream-5-0",
+    "name": "Seedream 5.0",
+    "type": "product",
+    "description": "图像生成模型API，文中作为Grok bot的集成生图能力被提及",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "API",
+      "图像生成"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "154",
+        "title": "个人主义才能救AI",
+        "date": "2026-09-27",
+        "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "permalink": "/articles/154",
+        "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.015
+  },
+  "links": [
+    {
+      "source": "grok-bot",
+      "target": "seedream-5-0",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "作者在Grok bot中接入了Seedream 5.0 API以增强生图搭配能力",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "154"
+      ],
+      "evidences": [
+        {
+          "article_id": "154",
+          "title": "个人主义才能救AI",
+          "permalink": "/articles/154",
+          "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "date": "2026-09-27",
+          "label": "作者在Grok bot中接入了Seedream 5.0 API以增强生图搭配能力",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

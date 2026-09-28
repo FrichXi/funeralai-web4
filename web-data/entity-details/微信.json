@@ -3,19 +3,21 @@
     "id": "微信",
     "name": "微信",
     "type": "product",
-    "description": "腾讯旗下的社交软件，文中作为评估抖音社交能力对比的基准。",
-    "mention_count": 26,
-    "article_count": 7,
+    "description": "腾讯旗下国民社交软件，文中指出其未对Today.ai开放连接权限",
+    "mention_count": 31,
+    "article_count": 8,
     "aliases": [],
     "tags": [
       "IM",
       "前端All in One",
+      "生态封闭",
       "社交",
+      "社交平台",
       "社交软件",
       "通讯软件"
     ],
-    "references": 7,
-    "source_article_count": 7,
+    "references": 8,
+    "source_article_count": 8,
     "source_articles": [
       {
         "article_id": "064",
@@ -34,6 +36,15 @@
         "permalink": "/articles/102",
         "markdown_link": "articles/102_2026-06-09_沐秋_腾讯做了一堆情感陪伴Agent.md",
         "mention_count": 7
+      },
+      {
+        "article_id": "154",
+        "title": "个人主义才能救AI",
+        "date": "2026-09-27",
+        "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "permalink": "/articles/154",
+        "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "mention_count": 5
       },
       {
         "article_id": "097",
@@ -82,7 +93,7 @@
       }
     ],
     "degree": 10,
-    "composite_weight": 0.1156
+    "composite_weight": 0.1332
   },
   "links": [
     {
@@ -322,14 +333,28 @@
     {
       "source": "微信",
       "target": "飞书",
-      "score": 0.4661,
+      "score": 0.5361,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "067",
         "090",
         "097",
-        "102"
+        "102",
+        "154"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "微信",
+      "target": "豆包",
+      "score": 0.4073,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "064",
+        "097",
+        "154"
       ],
       "status": "suggested"
     }

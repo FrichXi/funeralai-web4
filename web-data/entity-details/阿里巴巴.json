@@ -248,7 +248,7 @@
       }
     ],
     "degree": 42,
-    "composite_weight": 0.5362
+    "composite_weight": 0.5305
   },
   "links": [
     {
@@ -1407,6 +1407,21 @@
       "status": "suggested"
     },
     {
+      "source": "workbuddy",
+      "target": "阿里巴巴",
+      "score": 0.566,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "102",
+        "125",
+        "128",
+        "144",
+        "145"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "阿里巴巴",
       "target": "陈冕",
       "score": 0.5343,
@@ -1416,21 +1431,6 @@
         "049",
         "055",
         "085",
-        "145"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "workbuddy",
-      "target": "阿里巴巴",
-      "score": 0.516,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 2 个邻居",
-      "evidence_article_ids": [
-        "102",
-        "125",
-        "128",
-        "144",
         "145"
       ],
       "status": "suggested"

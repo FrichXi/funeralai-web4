@@ -128,14 +128,14 @@
       ]
     },
     {
-      "id": "grok",
-      "name": "Grok",
+      "id": "grok-bot",
+      "name": "Grok bot",
       "type": "product",
-      "description": "xAI 的模型系列，文中提及 Grok-4.6 偏好商业和竞争分析类隐喻",
+      "description": "xAI推出的AI助手，支持多模态、云电脑及本地操作，风格开放",
       "mention_count": 1,
       "aliases": [
-        "Grok-4.6",
-        "北美二豆包"
+        "Grok",
+        "Grok-4.6"
       ],
       "tags": [
         "LLM",
@@ -168,9 +168,9 @@
     },
     {
       "source_id": "chatgpt",
-      "target_id": "grok",
+      "target_id": "grok-bot",
       "source": "ChatGPT",
-      "target": "Grok",
+      "target": "Grok bot",
       "relation_type": "compares_to",
       "label": "文中在隐喻率测试中将 GPT 5.6 与 Grok-4.6 进行了横向对比",
       "weight": 1
@@ -204,18 +204,18 @@
     },
     {
       "source_id": "claude",
-      "target_id": "grok",
+      "target_id": "grok-bot",
       "source": "Claude",
-      "target": "Grok",
+      "target": "Grok bot",
       "relation_type": "compares_to",
       "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
       "weight": 1
     },
     {
       "source_id": "gemini",
-      "target_id": "grok",
+      "target_id": "grok-bot",
       "source": "Gemini",
-      "target": "Grok",
+      "target": "Grok bot",
       "relation_type": "compares_to",
       "label": "文中在隐喻率及文风特征测试中对两者进行了对比分析",
       "weight": 1

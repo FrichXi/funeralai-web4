@@ -64,14 +64,13 @@
       ]
     },
     {
-      "id": "grok",
-      "name": "Grok",
+      "id": "grok-bot",
+      "name": "Grok bot",
       "type": "product",
-      "description": "xAI 的模型系列，文中提及 Grok-4.6 偏好商业和竞争分析类隐喻",
+      "description": "xAI推出的AI助手，支持多模态、云电脑及本地操作，风格开放",
       "mention_count": 1,
       "aliases": [
-        "Grok-4.6",
-        "北美二豆包"
+        "Grok"
       ],
       "tags": [
         "大模型",
@@ -171,9 +170,9 @@
     },
     {
       "source_id": "马斯克",
-      "target_id": "grok",
+      "target_id": "grok-bot",
       "source": "马斯克",
-      "target": "Grok",
+      "target": "Grok bot",
       "relation_type": "works_on",
       "label": "文章指出Grok为马斯克旗下的产品",
       "weight": 1

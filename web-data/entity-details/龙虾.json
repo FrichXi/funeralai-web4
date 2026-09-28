@@ -4,16 +4,29 @@
     "name": "龙虾",
     "type": "product",
     "description": "一个AI Agent/连接器（MCP/Skill），可在飞书中调用LibTV生成视频。",
-    "mention_count": 1,
-    "article_count": 1,
-    "aliases": [],
+    "mention_count": 6,
+    "article_count": 2,
+    "aliases": [
+      "Lobster"
+    ],
     "tags": [
       "Agent",
+      "Personal agent",
+      "开源工具",
       "连接器"
     ],
-    "references": 1,
-    "source_article_count": 1,
+    "references": 2,
+    "source_article_count": 2,
     "source_articles": [
+      {
+        "article_id": "154",
+        "title": "个人主义才能救AI",
+        "date": "2026-09-27",
+        "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "permalink": "/articles/154",
+        "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "mention_count": 5
+      },
       {
         "article_id": "073",
         "title": "Lovart狂做TapNow",
@@ -24,10 +37,49 @@
         "mention_count": 1
       }
     ],
-    "degree": 1,
-    "composite_weight": 0.0103
+    "degree": 3,
+    "composite_weight": 0.0406
   },
   "links": [
+    {
+      "source": "today-ai",
+      "target": "龙虾",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了早期的龙虾与现在的Today.ai，指出后者对低能用户更友好",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "154"
+      ],
+      "evidences": [
+        {
+          "article_id": "154",
+          "title": "个人主义才能救AI",
+          "permalink": "/articles/154",
+          "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "date": "2026-09-27",
+          "label": "文章对比了早期的龙虾与现在的Today.ai，指出后者对低能用户更友好",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "龙虾",
+      "target": "today-ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章对比了早期的龙虾与现在的Today.ai，指出后者对低能用户更友好",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
     {
       "source": "libtv",
       "target": "龙虾",

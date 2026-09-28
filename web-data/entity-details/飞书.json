@@ -4,8 +4,8 @@
     "name": "飞书",
     "type": "product",
     "description": "办公协作平台，支持通过插件将文档和会议内容导入Creative OS",
-    "mention_count": 59,
-    "article_count": 14,
+    "mention_count": 60,
+    "article_count": 15,
     "aliases": [],
     "tags": [
       "GUI",
@@ -25,8 +25,8 @@
       "聊天框",
       "聊天软件"
     ],
-    "references": 14,
-    "source_article_count": 14,
+    "references": 15,
+    "source_article_count": 15,
     "source_articles": [
       {
         "article_id": "070",
@@ -119,6 +119,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "154",
+        "title": "个人主义才能救AI",
+        "date": "2026-09-27",
+        "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "permalink": "/articles/154",
+        "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "102",
         "title": "腾讯做了一堆情感陪伴Agent",
         "date": "2026-06-09",
@@ -155,8 +164,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 22,
-    "composite_weight": 0.2713
+    "degree": 23,
+    "composite_weight": 0.2833
   },
   "links": [
     {
@@ -605,6 +614,32 @@
       ]
     },
     {
+      "source": "today-ai",
+      "target": "飞书",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Today.ai支持连接飞书",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "154"
+      ],
+      "evidences": [
+        {
+          "article_id": "154",
+          "title": "个人主义才能救AI",
+          "permalink": "/articles/154",
+          "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "date": "2026-09-27",
+          "label": "Today.ai支持连接飞书",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "光帆耳机",
       "target": "飞书",
       "relation_type": "integrates_with",
@@ -689,7 +724,7 @@
       "target": "飞书",
       "score": 0.7868,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 6 篇文章；共享 6 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "033",
         "067",
@@ -702,14 +737,15 @@
     {
       "source": "chatgpt",
       "target": "飞书",
-      "score": 0.5924,
+      "score": 0.6624,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "067",
         "070",
         "088",
-        "124"
+        "124",
+        "154"
       ],
       "status": "suggested"
     },
@@ -744,14 +780,15 @@
     {
       "source": "微信",
       "target": "飞书",
-      "score": 0.4661,
+      "score": 0.5361,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "067",
         "090",
         "097",
-        "102"
+        "102",
+        "154"
       ],
       "status": "suggested"
     }

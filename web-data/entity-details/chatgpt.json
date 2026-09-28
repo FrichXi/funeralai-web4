@@ -4,8 +4,8 @@
     "name": "ChatGPT",
     "type": "product",
     "description": "OpenAI的通用大语言模型产品，被视为AI陪伴赛道的未来方向之一",
-    "mention_count": 75,
-    "article_count": 24,
+    "mention_count": 80,
+    "article_count": 25,
     "aliases": [
       "GPT",
       "GPT 5.6 luna",
@@ -21,6 +21,7 @@
       "AI热点",
       "ChatBot",
       "LLM",
+      "SOTA",
       "云端AI",
       "全双工",
       "大模型",
@@ -33,8 +34,8 @@
       "超级APP",
       "通用AI"
     ],
-    "references": 24,
-    "source_article_count": 24,
+    "references": 25,
+    "source_article_count": 25,
     "source_articles": [
       {
         "article_id": "048",
@@ -53,6 +54,15 @@
         "permalink": "/articles/034",
         "markdown_link": "articles/034_2025-11-17_葬爱咸鱼_千问唤起世界人民的最中幻想.md",
         "mention_count": 7
+      },
+      {
+        "article_id": "154",
+        "title": "个人主义才能救AI",
+        "date": "2026-09-27",
+        "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "permalink": "/articles/154",
+        "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+        "mention_count": 5
       },
       {
         "article_id": "091",
@@ -253,8 +263,8 @@
         "mention_count": 2
       }
     ],
-    "degree": 39,
-    "composite_weight": 0.4066
+    "degree": 41,
+    "composite_weight": 0.4318
   },
   "links": [
     {
@@ -431,6 +441,32 @@
           "path": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
           "date": "2026-09-04",
           "label": "文中在隐喻率测试中将 GPT 5.6 与 Grok-4.6 进行了横向对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "grok-bot",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Grok bot等Personal agent是向下兼容的自由，而ChatGPT等SOTA模型能力过剩",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "154"
+      ],
+      "evidences": [
+        {
+          "article_id": "154",
+          "title": "个人主义才能救AI",
+          "permalink": "/articles/154",
+          "markdown_link": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "path": "articles/154_2026-09-27_骡子马_个人主义才能救AI.md",
+          "date": "2026-09-27",
+          "label": "作者认为Grok bot等Personal agent是向下兼容的自由，而ChatGPT等SOTA模型能力过剩",
           "weight": 1
         }
       ]
@@ -747,6 +783,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文中在隐喻率测试中将 GPT 5.6 与 Grok-4.6 进行了横向对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "grok-bot",
+      "target": "chatgpt",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者认为Grok bot等Personal agent是向下兼容的自由，而ChatGPT等SOTA模型能力过剩",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -1132,9 +1181,9 @@
     {
       "source": "chatgpt",
       "target": "kimi",
-      "score": 0.8285,
+      "score": 0.8784,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 5 篇文章；共享 8 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 8 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "030",
         "040",
@@ -1145,9 +1194,24 @@
       "status": "suggested"
     },
     {
+      "source": "chatgpt",
+      "target": "飞书",
+      "score": 0.6624,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "067",
+        "070",
+        "088",
+        "124",
+        "154"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "anthropic",
       "target": "chatgpt",
-      "score": 0.5998,
+      "score": 0.5996,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1156,20 +1220,6 @@
         "070",
         "105",
         "136"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "chatgpt",
-      "target": "飞书",
-      "score": 0.5924,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "067",
-        "070",
-        "088",
-        "124"
       ],
       "status": "suggested"
     },

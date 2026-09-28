@@ -107,7 +107,7 @@
       }
     ],
     "degree": 18,
-    "composite_weight": 0.167
+    "composite_weight": 0.1646
   },
   "links": [
     {
@@ -490,15 +490,29 @@
     {
       "source": "oiioii",
       "target": "字节跳动",
-      "score": 0.6819,
+      "score": 0.7319,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 7 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "046",
         "052",
         "062",
         "065",
         "078"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "oiioii",
+      "target": "seedance",
+      "score": 0.5953,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "062",
+        "065",
+        "078",
+        "136"
       ],
       "status": "suggested"
     },
@@ -517,24 +531,10 @@
     },
     {
       "source": "oiioii",
-      "target": "seedance",
-      "score": 0.5453,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
-      "evidence_article_ids": [
-        "062",
-        "065",
-        "078",
-        "136"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "oiioii",
       "target": "即梦",
-      "score": 0.45,
+      "score": 0.5,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "062",
         "078",
