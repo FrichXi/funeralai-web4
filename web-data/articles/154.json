@@ -28,11 +28,14 @@
     },
     {
       "id": "today-ai",
-      "name": "Today.ai",
+      "name": "Today AI",
       "type": "product",
       "description": "国内Personal agent产品，可连接Gmail和Notion自动处理任务",
       "mention_count": 8,
-      "aliases": [],
+      "aliases": [
+        "Today.ai",
+        "Today办公小助理"
+      ],
       "tags": [
         "Personal agent",
         "办公Agent"
@@ -42,7 +45,7 @@
       "id": "chatgpt",
       "name": "ChatGPT",
       "type": "product",
-      "description": "OpenAI的通用大语言模型产品，被视为AI陪伴赛道的未来方向之一",
+      "description": "OpenAI旗下产品，文中作为通用Agent代表，具备云电脑和邮件预订功能",
       "mention_count": 5,
       "aliases": [
         "GPT",
@@ -137,7 +140,7 @@
       "id": "豆包",
       "name": "豆包",
       "type": "product",
-      "description": "抖音旗下/字节系的AI大模型产品，也是《豆包AI赚钱手册》的核心探讨对象",
+      "description": "字节跳动旗下的AI聊天机器人，文中被视为国内Personal agent的实际第一名",
       "mention_count": 2,
       "aliases": [
         "Doubao",
@@ -145,6 +148,7 @@
         "豆包APP",
         "豆包App",
         "豆包专业版",
+        "豆包同学",
         "豆姐"
       ],
       "tags": [
@@ -266,7 +270,7 @@
       "source_id": "grok-bot",
       "target_id": "today-ai",
       "source": "Grok bot",
-      "target": "Today.ai",
+      "target": "Today AI",
       "relation_type": "compares_to",
       "label": "文章对比了Grok bot与Today.ai在主动性和开放性上的差异",
       "weight": 1
@@ -275,7 +279,7 @@
       "source_id": "muse",
       "target_id": "today-ai",
       "source": "Muse",
-      "target": "Today.ai",
+      "target": "Today AI",
       "relation_type": "compares_to",
       "label": "文章将Today.ai与Muse作为国内外Personal agent的代表进行对比评测",
       "weight": 1
@@ -283,7 +287,7 @@
     {
       "source_id": "today-ai",
       "target_id": "openclaw",
-      "source": "Today.ai",
+      "source": "Today AI",
       "target": "OpenClaw",
       "relation_type": "compares_to",
       "label": "文章对比了早期的龙虾与现在的Today.ai，指出后者对低能用户更友好",
@@ -310,7 +314,7 @@
     {
       "source_id": "today-ai",
       "target_id": "腾讯文档",
-      "source": "Today.ai",
+      "source": "Today AI",
       "target": "腾讯文档",
       "relation_type": "integrates_with",
       "label": "Today.ai支持连接腾讯文档",
@@ -319,7 +323,7 @@
     {
       "source_id": "today-ai",
       "target_id": "钉钉",
-      "source": "Today.ai",
+      "source": "Today AI",
       "target": "钉钉",
       "relation_type": "integrates_with",
       "label": "Today.ai支持连接钉钉",
@@ -328,7 +332,7 @@
     {
       "source_id": "today-ai",
       "target_id": "飞书",
-      "source": "Today.ai",
+      "source": "Today AI",
       "target": "飞书",
       "relation_type": "integrates_with",
       "label": "Today.ai支持连接飞书",
@@ -346,7 +350,7 @@
     {
       "source_id": "today-ai",
       "target_id": "微信",
-      "source": "Today.ai",
+      "source": "Today AI",
       "target": "微信",
       "relation_type": "related",
       "label": "Today.ai无法连接微信，但微信理论上可以连接Today.ai（单向阻断）",

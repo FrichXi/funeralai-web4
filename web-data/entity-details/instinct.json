@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "instinct",
+    "name": "Instinct",
+    "type": "product",
+    "description": "文中提及的由创业公司发布的Personal agent产品",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Personal agent"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "155",
+        "title": "Personal agent把用户当傻子",
+        "date": "2026-10-07",
+        "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "permalink": "/articles/155",
+        "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0208
+  },
+  "links": [
+    {
+      "source": "grok",
+      "target": "instinct",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Instinct与Grok、Muse并列对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "155"
+      ],
+      "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "文中将Instinct与Grok、Muse并列对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "instinct",
+      "target": "grok",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Instinct与Grok、Muse并列对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

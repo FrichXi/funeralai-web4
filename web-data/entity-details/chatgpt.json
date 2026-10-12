@@ -3,9 +3,9 @@
     "id": "chatgpt",
     "name": "ChatGPT",
     "type": "product",
-    "description": "OpenAI的通用大语言模型产品，被视为AI陪伴赛道的未来方向之一",
-    "mention_count": 80,
-    "article_count": 25,
+    "description": "OpenAI旗下产品，文中作为通用Agent代表，具备云电脑和邮件预订功能",
+    "mention_count": 89,
+    "article_count": 26,
     "aliases": [
       "GPT",
       "GPT 5.6 luna",
@@ -20,6 +20,7 @@
       "AI应用",
       "AI热点",
       "ChatBot",
+      "Chatbot",
       "LLM",
       "SOTA",
       "云端AI",
@@ -32,11 +33,21 @@
       "竞品",
       "语音模式",
       "超级APP",
-      "通用AI"
+      "通用AI",
+      "通用Agent"
     ],
-    "references": 25,
-    "source_article_count": 25,
+    "references": 26,
+    "source_article_count": 26,
     "source_articles": [
+      {
+        "article_id": "155",
+        "title": "Personal agent把用户当傻子",
+        "date": "2026-10-07",
+        "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "permalink": "/articles/155",
+        "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "mention_count": 9
+      },
       {
         "article_id": "048",
         "title": "第一届Manus杯新加坡概念作文大赛",
@@ -263,8 +274,8 @@
         "mention_count": 2
       }
     ],
-    "degree": 41,
-    "composite_weight": 0.4318
+    "degree": 42,
+    "composite_weight": 0.4629
   },
   "links": [
     {
@@ -476,23 +487,23 @@
       "target": "manus",
       "relation_type": "compares_to",
       "type": "compares_to",
-      "label": "作者认为Manus大致相当于1%的ChatGPT",
+      "label": "文中认为Manus作为通用Agent应坚持初心，不应降级为Personal agent与ChatGPT等功能重叠",
       "weight": 1,
       "strength": 2,
       "effective_weight": 3,
       "article_count": 1,
       "evidence_articles": [
-        "048"
+        "155"
       ],
       "evidences": [
         {
-          "article_id": "048",
-          "title": "第一届Manus杯新加坡概念作文大赛",
-          "permalink": "/articles/048",
-          "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
-          "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
-          "date": "2025-12-30",
-          "label": "作者认为Manus大致相当于1%的ChatGPT",
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "文中认为Manus作为通用Agent应坚持初心，不应降级为Personal agent与ChatGPT等功能重叠",
           "weight": 1
         }
       ]
@@ -607,16 +618,27 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "豆包走的是类似ChatGPT的独立产品闭环道路",
-      "weight": 3,
+      "weight": 4,
       "strength": 2,
-      "effective_weight": 9,
-      "article_count": 3,
+      "effective_weight": 12,
+      "article_count": 4,
       "evidence_articles": [
         "031",
         "058",
-        "091"
+        "091",
+        "155"
       ],
       "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "文中将豆包与ChatGPT类比为各自市场的通用Agent/Chatbot代表",
+          "weight": 1
+        },
         {
           "article_id": "091",
           "title": "中亚世界没有豆包信仰",
@@ -808,7 +830,7 @@
       "target": "chatgpt",
       "relation_type": "compares_to",
       "type": "compares_to",
-      "label": "作者认为Manus大致相当于1%的ChatGPT",
+      "label": "文中认为Manus作为通用Agent应坚持初心，不应降级为Personal agent与ChatGPT等功能重叠",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -1126,6 +1148,32 @@
     },
     {
       "source": "chatgpt",
+      "target": "codex",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文中指出Codex和ChatGPT现在是一个东西，深度集成",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "155"
+      ],
+      "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "文中指出Codex和ChatGPT现在是一个东西，深度集成",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
       "target": "flova",
       "relation_type": "integrates_with",
       "type": "integrates_with",
@@ -1181,7 +1229,7 @@
     {
       "source": "chatgpt",
       "target": "kimi",
-      "score": 0.8784,
+      "score": 0.8782,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 8 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1196,7 +1244,7 @@
     {
       "source": "chatgpt",
       "target": "飞书",
-      "score": 0.6624,
+      "score": 0.6619,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1241,9 +1289,9 @@
     {
       "source": "chatgpt",
       "target": "字节跳动",
-      "score": 0.546,
+      "score": 0.5458,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 8 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 9 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "017",
         "040",

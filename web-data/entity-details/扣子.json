@@ -3,9 +3,9 @@
     "id": "扣子",
     "name": "扣子",
     "type": "product",
-    "description": "支持创建Agent、定时任务、云电脑及内置邮箱的AI构建平台",
-    "mention_count": 74,
-    "article_count": 9,
+    "description": "字节跳动的Agent开发平台，被文中观点认为是早期的Personal agent形态",
+    "mention_count": 75,
+    "article_count": 10,
     "aliases": [
       "Coze",
       "Coze 2.5",
@@ -23,11 +23,12 @@
       "云电脑",
       "低代码",
       "低代码平台",
+      "字节产品",
       "定时任务",
       "工作流"
     ],
-    "references": 9,
-    "source_article_count": 9,
+    "references": 10,
+    "source_article_count": 10,
     "source_articles": [
       {
         "article_id": "017",
@@ -84,6 +85,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "155",
+        "title": "Personal agent把用户当傻子",
+        "date": "2026-10-07",
+        "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "permalink": "/articles/155",
+        "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "102",
         "title": "腾讯做了一堆情感陪伴Agent",
         "date": "2026-06-09",
@@ -111,8 +121,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 22,
-    "composite_weight": 0.2262
+    "degree": 23,
+    "composite_weight": 0.2397
   },
   "links": [
     {
@@ -455,10 +465,10 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "扣子是字节跳动为探索AI应用落地而开发的平台。",
-      "weight": 7,
+      "weight": 8,
       "strength": 4,
-      "effective_weight": 35,
-      "article_count": 7,
+      "effective_weight": 40,
+      "article_count": 8,
       "evidence_articles": [
         "017",
         "018",
@@ -466,9 +476,20 @@
         "088",
         "102",
         "144",
-        "145"
+        "145",
+        "155"
       ],
       "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "字节跳动开发了Coze",
+          "weight": 1
+        },
         {
           "article_id": "145",
           "title": "主观评价字节阿里腾讯之Agent大战",
@@ -646,6 +667,32 @@
       ]
     },
     {
+      "source": "沐秋",
+      "target": "扣子",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "沐秋认为Coze是最早的Personal agent之一",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "155"
+      ],
+      "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "沐秋认为Coze是最早的Personal agent之一",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "小乔",
       "target": "扣子",
       "relation_type": "works_on",
@@ -676,7 +723,7 @@
     {
       "source": "扣子",
       "target": "腾讯",
-      "score": 0.6241,
+      "score": 0.6238,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -691,20 +738,34 @@
     {
       "source": "codex",
       "target": "扣子",
-      "score": 0.4679,
+      "score": 0.5379,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "088",
         "102",
-        "145"
+        "145",
+        "155"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "扣子",
+      "target": "豆包",
+      "score": 0.4831,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "071",
+        "088",
+        "155"
       ],
       "status": "suggested"
     },
     {
       "source": "扣子",
       "target": "阶跃桌面伙伴",
-      "score": 0.4586,
+      "score": 0.4583,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 1 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -715,24 +776,12 @@
     {
       "source": "openclaw",
       "target": "扣子",
-      "score": 0.4341,
+      "score": 0.4338,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "071",
         "102"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "扣子",
-      "target": "豆包",
-      "score": 0.4131,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "071",
-        "088"
       ],
       "status": "suggested"
     }

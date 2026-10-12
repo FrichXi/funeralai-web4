@@ -4,8 +4,8 @@
     "name": "Qwen",
     "type": "product",
     "description": "通义千问大模型系列，文中提及Qwen3.8-Max等版本，在嵌入式驱动、物理模拟及无人机飞控等Bench中表现突出",
-    "mention_count": 220,
-    "article_count": 25,
+    "mention_count": 222,
+    "article_count": 26,
     "aliases": [
       "Qwen 3",
       "Qwen 3.7",
@@ -32,10 +32,12 @@
       "Agent",
       "Agent能力",
       "ChatBot",
+      "Chatbot",
       "Flash",
       "任务助手",
       "免费AI",
       "原生应用",
+      "国产大模型",
       "国产模型",
       "图像模型",
       "图像识别",
@@ -56,8 +58,8 @@
       "长程任务",
       "黑客松主办方"
     ],
-    "references": 25,
-    "source_article_count": 25,
+    "references": 26,
+    "source_article_count": 26,
     "source_articles": [
       {
         "article_id": "112",
@@ -276,6 +278,15 @@
         "mention_count": 1
       },
       {
+        "article_id": "155",
+        "title": "Personal agent把用户当傻子",
+        "date": "2026-10-07",
+        "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "permalink": "/articles/155",
+        "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "mention_count": 2
+      },
+      {
         "article_id": "072",
         "title": "小智AI才是真正的具身智能",
         "date": "2026-03-17",
@@ -286,7 +297,7 @@
       }
     ],
     "degree": 60,
-    "composite_weight": 0.6801
+    "composite_weight": 0.6875
   },
   "links": [
     {
@@ -1623,7 +1634,7 @@
       "target": "qwen",
       "score": 0.7802,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 6 篇文章；共享 5 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 7 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "027",
         "029",
@@ -1634,45 +1645,47 @@
       "status": "suggested"
     },
     {
-      "source": "manus",
-      "target": "qwen",
-      "score": 0.6439,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "019",
-        "049",
-        "055",
-        "060",
-        "076"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "qwen",
       "target": "字节跳动",
-      "score": 0.6108,
+      "score": 0.6806,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "064",
         "103",
         "110",
-        "112"
+        "112",
+        "155"
       ],
       "status": "suggested"
     },
     {
       "source": "qwen",
       "target": "阶跃星辰",
-      "score": 0.6072,
+      "score": 0.677,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "029",
         "049",
         "110",
-        "134"
+        "134",
+        "155"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "manus",
+      "target": "qwen",
+      "score": 0.6439,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "019",
+        "049",
+        "055",
+        "060",
+        "076"
       ],
       "status": "suggested"
     }

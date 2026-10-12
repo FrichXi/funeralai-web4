@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+- Content update through 155: 154 articles; latest: Personal agent把用户当傻子.
+
 - Content update through 154: 153 articles; latest: 个人主义才能救AI.
 
 - Content update through 153: 152 articles; latest: 阶跃应该在桌上而不是桌底.

@@ -4,8 +4,8 @@
     "name": "阶跃星辰",
     "type": "company",
     "description": "AI四小虎之一，近期B+轮融资超50亿元，走软硬件一体闭环路线的大模型公司",
-    "mention_count": 80,
-    "article_count": 16,
+    "mention_count": 82,
+    "article_count": 17,
     "aliases": [
       "阶跃"
     ],
@@ -24,8 +24,8 @@
       "智能体",
       "软硬件一体"
     ],
-    "references": 16,
-    "source_article_count": 16,
+    "references": 17,
+    "source_article_count": 17,
     "source_articles": [
       {
         "article_id": "123",
@@ -71,6 +71,15 @@
         "permalink": "/articles/057",
         "markdown_link": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "155",
+        "title": "Personal agent把用户当傻子",
+        "date": "2026-10-07",
+        "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "permalink": "/articles/155",
+        "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "mention_count": 2
       },
       {
         "article_id": "134",
@@ -172,8 +181,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 56,
-    "composite_weight": 0.5006
+    "degree": 57,
+    "composite_weight": 0.5155
   },
   "links": [
     {
@@ -1311,6 +1320,32 @@
       ]
     },
     {
+      "source": "today-ai",
+      "target": "阶跃星辰",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "作者建议Today AI并入阶跃星辰或与阶跃手机强强联合",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "155"
+      ],
+      "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "作者建议Today AI并入阶跃星辰或与阶跃手机强强联合",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "千里科技",
       "target": "阶跃星辰",
       "relation_type": "partners_with",
@@ -1443,9 +1478,24 @@
   ],
   "suggested_edges": [
     {
+      "source": "qwen",
+      "target": "阶跃星辰",
+      "score": 0.677,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "029",
+        "049",
+        "110",
+        "134",
+        "155"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "claude",
       "target": "阶跃星辰",
-      "score": 0.6135,
+      "score": 0.6132,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1458,16 +1508,15 @@
       "status": "suggested"
     },
     {
-      "source": "qwen",
-      "target": "阶跃星辰",
-      "score": 0.6072,
+      "source": "阶跃星辰",
+      "target": "马斯克",
+      "score": 0.6095,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
-        "029",
-        "049",
-        "110",
-        "134"
+        "123",
+        "134",
+        "155"
       ],
       "status": "suggested"
     },
@@ -1484,21 +1533,9 @@
       "status": "suggested"
     },
     {
-      "source": "阶跃星辰",
-      "target": "马斯克",
-      "score": 0.5395,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "123",
-        "134"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "葬爱咸鱼",
       "target": "阶跃星辰",
-      "score": 0.533,
+      "score": 0.5309,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居",
       "evidence_article_ids": [

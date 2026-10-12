@@ -4,8 +4,8 @@
     "name": "字节跳动",
     "type": "company",
     "description": "中国互联网科技公司，开发了抖音、即梦等产品，文中探讨了其通过AI视频模型实现社交的布局。",
-    "mention_count": 177,
-    "article_count": 37,
+    "mention_count": 178,
+    "article_count": 38,
     "aliases": [
       "ByteDance",
       "大厂",
@@ -49,8 +49,8 @@
       "视频生成",
       "语音模型"
     ],
-    "references": 37,
-    "source_article_count": 37,
+    "references": 38,
+    "source_article_count": 38,
     "source_articles": [
       {
         "article_id": "040",
@@ -260,6 +260,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "155",
+        "title": "Personal agent把用户当傻子",
+        "date": "2026-10-07",
+        "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "permalink": "/articles/155",
+        "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "130",
         "title": "致视频模型：群众不喜闻乐见，你算老几",
         "date": "2026-08-07",
@@ -387,7 +396,7 @@
       }
     ],
     "degree": 57,
-    "composite_weight": 0.7208
+    "composite_weight": 0.7233
   },
   "links": [
     {
@@ -1408,10 +1417,10 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "扣子是字节跳动为探索AI应用落地而开发的平台。",
-      "weight": 7,
+      "weight": 8,
       "strength": 4,
-      "effective_weight": 35,
-      "article_count": 7,
+      "effective_weight": 40,
+      "article_count": 8,
       "evidence_articles": [
         "017",
         "018",
@@ -1419,9 +1428,20 @@
         "088",
         "102",
         "144",
-        "145"
+        "145",
+        "155"
       ],
       "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "字节跳动开发了Coze",
+          "weight": 1
+        },
         {
           "article_id": "145",
           "title": "主观评价字节阿里腾讯之Agent大战",
@@ -1646,10 +1666,10 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节跳动开发了豆包产品",
-      "weight": 10,
+      "weight": 11,
       "strength": 4,
-      "effective_weight": 50,
-      "article_count": 10,
+      "effective_weight": 55,
+      "article_count": 11,
       "evidence_articles": [
         "065",
         "084",
@@ -1660,9 +1680,20 @@
         "111",
         "112",
         "113",
-        "125"
+        "125",
+        "155"
       ],
       "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "字节跳动开发了豆包",
+          "weight": 1
+        },
         {
           "article_id": "125",
           "title": "建议百度文心一言申请非遗",
@@ -1890,16 +1921,27 @@
       "target": "字节跳动",
       "relation_type": "founder_of",
       "type": "founder_of",
-      "label": "张一鸣是字节跳动的创始人（文章设定站在张一鸣视角思考字节跳动的业务）。",
-      "weight": 2,
+      "label": "张一鸣是字节跳动创始人",
+      "weight": 3,
       "strength": 5,
-      "effective_weight": 12,
-      "article_count": 2,
+      "effective_weight": 18,
+      "article_count": 3,
       "evidence_articles": [
         "017",
-        "040"
+        "040",
+        "155"
       ],
       "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "张一鸣是字节跳动创始人",
+          "weight": 1
+        },
         {
           "article_id": "040",
           "title": "出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机",
@@ -2376,9 +2418,9 @@
     {
       "source": "manus",
       "target": "字节跳动",
-      "score": 0.8165,
+      "score": 0.8153,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 8 篇文章；共享 6 个邻居",
+      "reason": "共同出现于 9 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "017",
         "018",
@@ -2406,7 +2448,7 @@
     {
       "source": "claude",
       "target": "字节跳动",
-      "score": 0.7143,
+      "score": 0.713,
       "suggested_relation_type": "related",
       "reason": "共同出现于 9 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -2421,7 +2463,7 @@
     {
       "source": "kimi",
       "target": "字节跳动",
-      "score": 0.709,
+      "score": 0.7088,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [

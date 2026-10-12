@@ -3,9 +3,9 @@
     "id": "沐秋",
     "name": "沐秋",
     "type": "person",
-    "description": "本文作者，对匿名打榜行为持强烈批评态度的行业评论人",
-    "mention_count": 31,
-    "article_count": 10,
+    "description": "文章提及的行业观察者/同行者，提出美团小美和Coze是最早Personal agent的观点",
+    "mention_count": 33,
+    "article_count": 11,
     "aliases": [],
     "tags": [
       "AI硬件",
@@ -18,8 +18,8 @@
       "评测人",
       "评论员"
     ],
-    "references": 10,
-    "source_article_count": 10,
+    "references": 11,
+    "source_article_count": 11,
     "source_articles": [
       {
         "article_id": "043",
@@ -38,6 +38,15 @@
         "permalink": "/articles/115",
         "markdown_link": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
         "mention_count": 4
+      },
+      {
+        "article_id": "155",
+        "title": "Personal agent把用户当傻子",
+        "date": "2026-10-07",
+        "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "permalink": "/articles/155",
+        "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "mention_count": 2
       },
       {
         "article_id": "096",
@@ -112,8 +121,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 14,
-    "composite_weight": 0.1663
+    "degree": 16,
+    "composite_weight": 0.1874
   },
   "links": [
     {
@@ -452,6 +461,58 @@
     },
     {
       "source": "沐秋",
+      "target": "扣子",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "沐秋认为Coze是最早的Personal agent之一",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "155"
+      ],
+      "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "沐秋认为Coze是最早的Personal agent之一",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "沐秋",
+      "target": "美团小美",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "沐秋认为美团小美是最早且符合定义的Personal agent",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "155"
+      ],
+      "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "沐秋认为美团小美是最早且符合定义的Personal agent",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "沐秋",
       "target": "自然选择",
       "relation_type": "praises",
       "type": "praises",
@@ -490,5 +551,29 @@
       "evidences": []
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "沐秋",
+      "target": "豆包",
+      "score": 0.4429,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "123",
+        "155"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "claude",
+      "target": "沐秋",
+      "score": 0.4037,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "096"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

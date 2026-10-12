@@ -4,8 +4,8 @@
     "name": "Manus",
     "type": "product",
     "description": "AI Agent产品，主张less structure more intelligence，对Lovart有启发作用",
-    "mention_count": 132,
-    "article_count": 29,
+    "mention_count": 139,
+    "article_count": 30,
     "aliases": [
       "Manus (产品)",
       "Manus Agents",
@@ -25,6 +25,7 @@
       "Agent平台",
       "Agent集群",
       "PPT生成",
+      "Telegram bot",
       "云电脑",
       "云端AI",
       "任务调度",
@@ -41,8 +42,8 @@
       "邮件交互",
       "高营收"
     ],
-    "references": 29,
-    "source_article_count": 29,
+    "references": 30,
+    "source_article_count": 30,
     "source_articles": [
       {
         "article_id": "016",
@@ -70,6 +71,15 @@
         "permalink": "/articles/143",
         "markdown_link": "articles/143_2026-09-04_葬爱咸鱼_Manus团队测模型一点微小的经验.md",
         "mention_count": 9
+      },
+      {
+        "article_id": "155",
+        "title": "Personal agent把用户当傻子",
+        "date": "2026-10-07",
+        "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "permalink": "/articles/155",
+        "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "mention_count": 7
       },
       {
         "article_id": "067",
@@ -306,8 +316,8 @@
         "mention_count": 6
       }
     ],
-    "degree": 63,
-    "composite_weight": 0.5701
+    "degree": 65,
+    "composite_weight": 0.6022
   },
   "links": [
     {
@@ -378,23 +388,23 @@
       "target": "manus",
       "relation_type": "compares_to",
       "type": "compares_to",
-      "label": "作者认为Manus大致相当于1%的ChatGPT",
+      "label": "文中认为Manus作为通用Agent应坚持初心，不应降级为Personal agent与ChatGPT等功能重叠",
       "weight": 1,
       "strength": 2,
       "effective_weight": 3,
       "article_count": 1,
       "evidence_articles": [
-        "048"
+        "155"
       ],
       "evidences": [
         {
-          "article_id": "048",
-          "title": "第一届Manus杯新加坡概念作文大赛",
-          "permalink": "/articles/048",
-          "markdown_link": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
-          "path": "articles/048_2025-12-30_葬爱咸鱼_第一届Manus杯新加坡概念作文大赛.md",
-          "date": "2025-12-30",
-          "label": "作者认为Manus大致相当于1%的ChatGPT",
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "文中认为Manus作为通用Agent应坚持初心，不应降级为Personal agent与ChatGPT等功能重叠",
           "weight": 1
         }
       ]
@@ -673,7 +683,7 @@
       "target": "chatgpt",
       "relation_type": "compares_to",
       "type": "compares_to",
-      "label": "作者认为Manus大致相当于1%的ChatGPT",
+      "label": "文中认为Manus作为通用Agent应坚持初心，不应降级为Personal agent与ChatGPT等功能重叠",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -878,6 +888,32 @@
     },
     {
       "source": "manus",
+      "target": "today-ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比Manus和Today AI等Personal agent的场景覆盖能力",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "155"
+      ],
+      "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "文中对比Manus和Today AI等Personal agent的场景覆盖能力",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "manus",
       "target": "扣子空间",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -984,6 +1020,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "开为科技发文宣称Roles上个月就实现了Manus的功能",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "today-ai",
+      "target": "manus",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中对比Manus和Today AI等Personal agent的场景覆盖能力",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -1657,9 +1706,9 @@
     {
       "source": "manus",
       "target": "字节跳动",
-      "score": 0.8165,
+      "score": 0.8153,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 8 篇文章；共享 6 个邻居",
+      "reason": "共同出现于 9 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "017",
         "018",
@@ -1670,9 +1719,23 @@
       "status": "suggested"
     },
     {
+      "source": "manus",
+      "target": "豆包",
+      "score": 0.7321,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 6 个邻居",
+      "evidence_article_ids": [
+        "004",
+        "040",
+        "057",
+        "155"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "cursor",
       "target": "manus",
-      "score": 0.6586,
+      "score": 0.6575,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1689,7 +1752,7 @@
       "target": "qwen",
       "score": 0.6439,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "019",
         "049",
@@ -1710,21 +1773,6 @@
         "022",
         "039",
         "040"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "manus",
-      "target": "百度",
-      "score": 0.618,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "017",
-        "022",
-        "055",
-        "059",
-        "144"
       ],
       "status": "suggested"
     }

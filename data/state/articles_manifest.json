@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T06:34:33Z",
+  "updatedAt": "2026-10-12T06:06:58Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -3081,6 +3081,26 @@
       "artifact_path": "data/extracted/154.json",
       "raw_path": "data/gemini_raw/154.json",
       "extracted_at": "2026-09-28T06:34:33Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "155": {
+      "article_id": "155",
+      "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+      "title": "Personal agent把用户当傻子",
+      "date": "2026-10-07",
+      "author": "葬爱咸鱼",
+      "content_hash": "85d57fe17534b97f49f7f678a882d77be7b6dfb925d89a0264372a5adcc12a42",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/155.json",
+      "raw_path": "data/gemini_raw/155.json",
+      "extracted_at": "2026-10-12T06:06:58Z",
       "last_error": null,
       "extractor": {
         "name": "dashscope",

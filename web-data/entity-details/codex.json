@@ -4,8 +4,8 @@
     "name": "Codex",
     "type": "product",
     "description": "AI编程/代理工具，文中作为本地Agent的代表被Raft和Tutti集成或模拟",
-    "mention_count": 52,
-    "article_count": 21,
+    "mention_count": 54,
+    "article_count": 22,
     "aliases": [
       "Codex SDK",
       "codex",
@@ -17,6 +17,8 @@
       "AI工具",
       "AI编程",
       "Agent",
+      "Coding agent",
+      "OpenAI工具",
       "代码助手",
       "代码模型",
       "代码生成",
@@ -28,8 +30,8 @@
       "校对",
       "编程Agent"
     ],
-    "references": 21,
-    "source_article_count": 21,
+    "references": 22,
+    "source_article_count": 22,
     "source_articles": [
       {
         "article_id": "120",
@@ -93,6 +95,15 @@
         "permalink": "/articles/124",
         "markdown_link": "articles/124_2026-07-26_骡子马_TapNow想把你困在系统里.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "155",
+        "title": "Personal agent把用户当傻子",
+        "date": "2026-10-07",
+        "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "permalink": "/articles/155",
+        "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "mention_count": 2
       },
       {
         "article_id": "148",
@@ -221,8 +232,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 38,
-    "composite_weight": 0.3985
+    "degree": 39,
+    "composite_weight": 0.4118
   },
   "links": [
     {
@@ -866,6 +877,32 @@
       ]
     },
     {
+      "source": "chatgpt",
+      "target": "codex",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "文中指出Codex和ChatGPT现在是一个东西，深度集成",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "155"
+      ],
+      "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "文中指出Codex和ChatGPT现在是一个东西，深度集成",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "claude",
       "target": "codex",
       "relation_type": "integrates_with",
@@ -1080,7 +1117,7 @@
       "target": "qwen",
       "score": 0.7802,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 6 篇文章；共享 5 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 7 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "027",
         "029",

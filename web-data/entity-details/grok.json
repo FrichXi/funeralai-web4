@@ -3,22 +3,34 @@
     "id": "grok",
     "name": "Grok",
     "type": "product",
-    "description": "xAI 的模型系列，文中提及 Grok-4.6 偏好商业和竞争分析类隐喻",
-    "mention_count": 3,
-    "article_count": 3,
+    "description": "马斯克推出的AI产品，文中归类为补Chatbot课的Personal agent",
+    "mention_count": 5,
+    "article_count": 4,
     "aliases": [
+      "Grok bot",
       "Grok-4.6",
       "北美二豆包"
     ],
     "tags": [
       "AI应用",
       "LLM",
+      "Personal agent",
+      "xAI产品",
       "大模型",
       "文本生成"
     ],
-    "references": 3,
-    "source_article_count": 3,
+    "references": 4,
+    "source_article_count": 4,
     "source_articles": [
+      {
+        "article_id": "155",
+        "title": "Personal agent把用户当傻子",
+        "date": "2026-10-07",
+        "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "permalink": "/articles/155",
+        "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "mention_count": 2
+      },
       {
         "article_id": "143",
         "title": "Manus团队测模型一点微小的经验",
@@ -47,8 +59,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 10,
-    "composite_weight": 0.0761
+    "degree": 12,
+    "composite_weight": 0.0988
   },
   "links": [
     {
@@ -170,6 +182,32 @@
     },
     {
       "source": "grok",
+      "target": "instinct",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Instinct与Grok、Muse并列对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "155"
+      ],
+      "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "文中将Instinct与Grok、Muse并列对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "grok",
       "target": "豆包",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -193,6 +231,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "instinct",
+      "target": "grok",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Instinct与Grok、Muse并列对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
     },
     {
       "source": "豆包",
@@ -226,14 +277,25 @@
       "relation_type": "works_on",
       "type": "works_on",
       "label": "文章指出Grok为马斯克旗下的产品",
-      "weight": 1,
+      "weight": 2,
       "strength": 3,
-      "effective_weight": 4,
-      "article_count": 1,
+      "effective_weight": 8,
+      "article_count": 2,
       "evidence_articles": [
-        "061"
+        "061",
+        "155"
       ],
       "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "马斯克主导或参与Grok的开发/推广",
+          "weight": 1
+        },
         {
           "article_id": "061",
           "title": "AI硬件炒作上天了",
@@ -250,34 +312,13 @@
   "suggested_edges": [
     {
       "source": "grok",
-      "target": "kimi",
-      "score": 0.419,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "110"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "grok",
       "target": "qwen",
-      "score": 0.4151,
+      "score": 0.4349,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
-        "110"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "grok",
-      "target": "seed",
-      "score": 0.4151,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "110"
+        "110",
+        "155"
       ],
       "status": "suggested"
     }

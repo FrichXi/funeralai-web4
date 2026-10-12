@@ -3,15 +3,16 @@
     "id": "豆包",
     "name": "豆包",
     "type": "product",
-    "description": "抖音旗下/字节系的AI大模型产品，也是《豆包AI赚钱手册》的核心探讨对象",
-    "mention_count": 281,
-    "article_count": 32,
+    "description": "字节跳动旗下的AI聊天机器人，文中被视为国内Personal agent的实际第一名",
+    "mention_count": 293,
+    "article_count": 33,
     "aliases": [
       "Doubao",
       "糖包",
       "豆包APP",
       "豆包App",
       "豆包专业版",
+      "豆包同学",
       "豆姐"
     ],
     "tags": [
@@ -44,10 +45,11 @@
       "视频生成",
       "语音交互",
       "语音模式",
-      "超级APP"
+      "超级APP",
+      "通用Agent"
     ],
-    "references": 32,
-    "source_article_count": 32,
+    "references": 33,
+    "source_article_count": 33,
     "source_articles": [
       {
         "article_id": "065",
@@ -93,6 +95,15 @@
         "permalink": "/articles/112",
         "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
         "mention_count": 15
+      },
+      {
+        "article_id": "155",
+        "title": "Personal agent把用户当傻子",
+        "date": "2026-10-07",
+        "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "permalink": "/articles/155",
+        "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "mention_count": 12
       },
       {
         "article_id": "146",
@@ -338,8 +349,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 75,
-    "composite_weight": 0.8241
+    "degree": 77,
+    "composite_weight": 0.8666
   },
   "links": [
     {
@@ -400,16 +411,27 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "豆包走的是类似ChatGPT的独立产品闭环道路",
-      "weight": 3,
+      "weight": 4,
       "strength": 2,
-      "effective_weight": 9,
-      "article_count": 3,
+      "effective_weight": 12,
+      "article_count": 4,
       "evidence_articles": [
         "031",
         "058",
-        "091"
+        "091",
+        "155"
       ],
       "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "文中将豆包与ChatGPT类比为各自市场的通用Agent/Chatbot代表",
+          "weight": 1
+        },
         {
           "article_id": "091",
           "title": "中亚世界没有豆包信仰",
@@ -631,6 +653,32 @@
           "path": "articles/091_2026-05-14_沐秋_中亚世界没有豆包信仰.md",
           "date": "2026-05-14",
           "label": "文章在旅游翻译、探展图像识别、模型幻觉等多个场景中并列对比使用了豆包与千问",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "today-ai",
+      "target": "豆包",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Today AI与豆包进行对比，认为豆包在国内Personal agent赛道领先",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "155"
+      ],
+      "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "文中将Today AI与豆包进行对比，认为豆包在国内Personal agent赛道领先",
           "weight": 1
         }
       ]
@@ -992,6 +1040,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文章在旅游翻译、探展图像识别、模型幻觉等多个场景中并列对比使用了豆包与千问",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "豆包",
+      "target": "today-ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Today AI与豆包进行对比，认为豆包在国内Personal agent赛道领先",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -1733,10 +1794,10 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节跳动开发了豆包产品",
-      "weight": 10,
+      "weight": 11,
       "strength": 4,
-      "effective_weight": 50,
-      "article_count": 10,
+      "effective_weight": 55,
+      "article_count": 11,
       "evidence_articles": [
         "065",
         "084",
@@ -1747,9 +1808,20 @@
         "111",
         "112",
         "113",
-        "125"
+        "125",
+        "155"
       ],
       "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "字节跳动开发了豆包",
+          "weight": 1
+        },
         {
           "article_id": "125",
           "title": "建议百度文心一言申请非遗",
@@ -1985,9 +2057,23 @@
       "status": "suggested"
     },
     {
+      "source": "manus",
+      "target": "豆包",
+      "score": 0.7321,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 6 个邻居",
+      "evidence_article_ids": [
+        "004",
+        "040",
+        "057",
+        "155"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "智谱ai",
       "target": "豆包",
-      "score": 0.6673,
+      "score": 0.667,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -2016,7 +2102,7 @@
     {
       "source": "minimax",
       "target": "豆包",
-      "score": 0.618,
+      "score": 0.6177,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -2024,19 +2110,6 @@
         "057",
         "110",
         "128"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "manus",
-      "target": "豆包",
-      "score": 0.5847,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
-      "evidence_article_ids": [
-        "004",
-        "040",
-        "057"
       ],
       "status": "suggested"
     }

@@ -3,14 +3,15 @@
     "id": "美团",
     "name": "美团",
     "type": "company",
-    "description": "互联网平台公司，旗下龙猫团队参与评测，且被用作外卖比价场景",
-    "mention_count": 33,
-    "article_count": 7,
+    "description": "拥有美团小美产品的公司，被评价为拥有真实的Personal agent场景",
+    "mention_count": 35,
+    "article_count": 8,
     "aliases": [
       "Meituan",
       "团子"
     ],
     "tags": [
+      "AI应用",
       "AI评测",
       "互联网公司",
       "互联网大厂",
@@ -19,12 +20,13 @@
       "团购",
       "国产大模型",
       "大模型",
+      "本地生活",
       "物理AI",
       "生活方式Agent",
       "算力国产化"
     ],
-    "references": 7,
-    "source_article_count": 7,
+    "references": 8,
+    "source_article_count": 8,
     "source_articles": [
       {
         "article_id": "128",
@@ -43,6 +45,15 @@
         "permalink": "/articles/140",
         "markdown_link": "articles/140_2026-08-27_沐秋_一场黑客松斩杀了整个网吧.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "155",
+        "title": "Personal agent把用户当傻子",
+        "date": "2026-10-07",
+        "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "permalink": "/articles/155",
+        "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "mention_count": 2
       },
       {
         "article_id": "138",
@@ -91,7 +102,7 @@
       }
     ],
     "degree": 14,
-    "composite_weight": 0.1744
+    "composite_weight": 0.1848
   },
   "links": [
     {
@@ -295,14 +306,25 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "美团开发生活方式Agent应用美团小美",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "128"
+        "128",
+        "155"
       ],
       "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "美团开发了美团小美",
+          "weight": 1
+        },
         {
           "article_id": "128",
           "title": "美团大模型跟外卖一样纯出来送",
@@ -347,14 +369,25 @@
       "relation_type": "founder_of",
       "type": "founder_of",
       "label": "王兴作为创始人带领美团在百团大战中胜出。",
-      "weight": 1,
+      "weight": 2,
       "strength": 5,
-      "effective_weight": 6,
-      "article_count": 1,
+      "effective_weight": 12,
+      "article_count": 2,
       "evidence_articles": [
-        "018"
+        "018",
+        "155"
       ],
       "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "王兴（小兴）是美团创始人",
+          "weight": 1
+        },
         {
           "article_id": "018",
           "title": "电骡快跑，Mulerun想做AI淘宝",
@@ -450,12 +483,13 @@
     {
       "source": "美团",
       "target": "豆包",
-      "score": 0.4632,
+      "score": 0.4603,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "040",
-        "128"
+        "128",
+        "155"
       ],
       "status": "suggested"
     }

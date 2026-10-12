@@ -4,8 +4,8 @@
     "name": "马斯克",
     "type": "person",
     "description": "特斯拉/SpaceX/Grok负责人，被用作判断行业是否属于制造业的标杆人物",
-    "mention_count": 33,
-    "article_count": 9,
+    "mention_count": 35,
+    "article_count": 10,
     "aliases": [
       "Elon Musk",
       "Musk",
@@ -22,8 +22,8 @@
       "科技企业家",
       "科技领袖"
     ],
-    "references": 9,
-    "source_article_count": 9,
+    "references": 10,
+    "source_article_count": 10,
     "source_articles": [
       {
         "article_id": "060",
@@ -51,6 +51,15 @@
         "permalink": "/articles/035",
         "markdown_link": "articles/035_2025-11-18_葬爱咸鱼_彼得蒂尔是中国的辱追梦男.md",
         "mention_count": 6
+      },
+      {
+        "article_id": "155",
+        "title": "Personal agent把用户当傻子",
+        "date": "2026-10-07",
+        "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "permalink": "/articles/155",
+        "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+        "mention_count": 2
       },
       {
         "article_id": "154",
@@ -108,7 +117,7 @@
       }
     ],
     "degree": 20,
-    "composite_weight": 0.196
+    "composite_weight": 0.206
   },
   "links": [
     {
@@ -555,14 +564,25 @@
       "relation_type": "works_on",
       "type": "works_on",
       "label": "文章指出Grok为马斯克旗下的产品",
-      "weight": 1,
+      "weight": 2,
       "strength": 3,
-      "effective_weight": 4,
-      "article_count": 1,
+      "effective_weight": 8,
+      "article_count": 2,
       "evidence_articles": [
-        "061"
+        "061",
+        "155"
       ],
       "evidences": [
+        {
+          "article_id": "155",
+          "title": "Personal agent把用户当傻子",
+          "permalink": "/articles/155",
+          "markdown_link": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "path": "articles/155_2026-10-07_葬爱咸鱼_Personal agent把用户当傻子.md",
+          "date": "2026-10-07",
+          "label": "马斯克主导或参与Grok的开发/推广",
+          "weight": 1
+        },
         {
           "article_id": "061",
           "title": "AI硬件炒作上天了",
@@ -580,12 +600,27 @@
     {
       "source": "阶跃星辰",
       "target": "马斯克",
-      "score": 0.5395,
+      "score": 0.6095,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "123",
-        "134"
+        "134",
+        "155"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "豆包",
+      "target": "马斯克",
+      "score": 0.4307,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "065",
+        "123",
+        "154",
+        "155"
       ],
       "status": "suggested"
     },
