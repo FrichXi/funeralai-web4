@@ -117,7 +117,7 @@
       }
     ],
     "degree": 27,
-    "composite_weight": 0.2549
+    "composite_weight": 0.2532
   },
   "links": [
     {
@@ -793,7 +793,7 @@
     {
       "source": "腾讯",
       "target": "钉钉",
-      "score": 0.4808,
+      "score": 0.481,
       "suggested_relation_type": "related",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -805,7 +805,7 @@
     {
       "source": "manus",
       "target": "钉钉",
-      "score": 0.4552,
+      "score": 0.4553,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -815,21 +815,9 @@
       "status": "suggested"
     },
     {
-      "source": "葬爱咸鱼",
-      "target": "钉钉",
-      "score": 0.4543,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "120",
-        "145"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "codex",
       "target": "钉钉",
-      "score": 0.4374,
+      "score": 0.4376,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -842,11 +830,23 @@
     {
       "source": "note",
       "target": "钉钉",
-      "score": 0.4115,
+      "score": 0.4117,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 1 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "044"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "葬爱咸鱼",
+      "target": "钉钉",
+      "score": 0.4045,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "120",
+        "145"
       ],
       "status": "suggested"
     }

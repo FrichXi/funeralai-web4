@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "startlux",
+    "name": "StartLux",
+    "type": "company",
+    "description": "使用Qwen 27B后训练并宣称实现本地RSI的公司",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "RSI",
+      "后训练"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "156",
+        "title": "RSI神似狗吃屎",
+        "date": "2026-10-12",
+        "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "permalink": "/articles/156",
+        "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0149
+  },
+  "links": [
+    {
+      "source": "qwen",
+      "target": "startlux",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "StartLux拿Qwen 27B进行后训练以实现本地RSI",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "156"
+      ],
+      "evidences": [
+        {
+          "article_id": "156",
+          "title": "RSI神似狗吃屎",
+          "permalink": "/articles/156",
+          "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "date": "2026-10-12",
+          "label": "StartLux拿Qwen 27B进行后训练以实现本地RSI",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

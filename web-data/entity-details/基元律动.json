@@ -1,0 +1,73 @@
+{
+  "node": {
+    "id": "基元律动",
+    "name": "基元律动",
+    "type": "company",
+    "description": "宣称通过自动化强化学习实现RSI+FDE的公司",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "FDE",
+      "RSI",
+      "强化学习"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "156",
+        "title": "RSI神似狗吃屎",
+        "date": "2026-10-12",
+        "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "permalink": "/articles/156",
+        "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0232
+  },
+  "links": [
+    {
+      "source": "基元律动",
+      "target": "马卡龙",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者均被列入作者提名的RSI六小龙名单",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "156"
+      ],
+      "evidences": [
+        {
+          "article_id": "156",
+          "title": "RSI神似狗吃屎",
+          "permalink": "/articles/156",
+          "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "date": "2026-10-12",
+          "label": "两者均被列入作者提名的RSI六小龙名单",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "马卡龙",
+      "target": "基元律动",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者均被列入作者提名的RSI六小龙名单",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

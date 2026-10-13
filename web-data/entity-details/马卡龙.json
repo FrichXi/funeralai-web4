@@ -4,8 +4,8 @@
     "name": "马卡龙",
     "type": "product",
     "description": "Mindverse的起家产品，曾定位为Personal agent，现转型为收集数据的Agent harness",
-    "mention_count": 109,
-    "article_count": 9,
+    "mention_count": 114,
+    "article_count": 10,
     "aliases": [
       "3D版马卡龙",
       "Macaron",
@@ -19,14 +19,16 @@
       "Agent商店",
       "Personal Agent",
       "Personal agent",
+      "RSI",
       "Vibe Coding",
       "合成叙事",
       "后训练",
       "基准测试",
+      "持续学习",
       "网络小说"
     ],
-    "references": 9,
-    "source_article_count": 9,
+    "references": 10,
+    "source_article_count": 10,
     "source_articles": [
       {
         "article_id": "099",
@@ -63,6 +65,15 @@
         "permalink": "/articles/113",
         "markdown_link": "articles/113_2026-07-02_骡子马_世界模型走了一些弯路.md",
         "mention_count": 6
+      },
+      {
+        "article_id": "156",
+        "title": "RSI神似狗吃屎",
+        "date": "2026-10-12",
+        "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "permalink": "/articles/156",
+        "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "mention_count": 5
       },
       {
         "article_id": "055",
@@ -110,8 +121,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 28,
-    "composite_weight": 0.2813
+    "degree": 30,
+    "composite_weight": 0.3108
   },
   "links": [
     {
@@ -214,6 +225,32 @@
           "path": "articles/060_2026-01-30_葬爱咸鱼_Clawdbot是一场马斯克发动的中登炒作.md",
           "date": "2026-01-30",
           "label": "作者建议千问添加日程提醒功能，因为同类AI产品马卡龙已经实现了该功能。",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "基元律动",
+      "target": "马卡龙",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者均被列入作者提名的RSI六小龙名单",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "156"
+      ],
+      "evidences": [
+        {
+          "article_id": "156",
+          "title": "RSI神似狗吃屎",
+          "permalink": "/articles/156",
+          "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "date": "2026-10-12",
+          "label": "两者均被列入作者提名的RSI六小龙名单",
           "weight": 1
         }
       ]
@@ -404,6 +441,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "作者建议千问添加日程提醒功能，因为同类AI产品马卡龙已经实现了该功能。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "马卡龙",
+      "target": "基元律动",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者均被列入作者提名的RSI六小龙名单",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -741,7 +791,7 @@
     {
       "source": "孙宇晨",
       "target": "马卡龙",
-      "score": 0.4919,
+      "score": 0.4922,
       "suggested_relation_type": "related",
       "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -753,7 +803,7 @@
     {
       "source": "kimi",
       "target": "马卡龙",
-      "score": 0.4497,
+      "score": 0.4494,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -767,7 +817,7 @@
     {
       "source": "lovart",
       "target": "马卡龙",
-      "score": 0.4067,
+      "score": 0.4068,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 2 个邻居",
       "evidence_article_ids": [

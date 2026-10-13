@@ -1,0 +1,112 @@
+{
+  "node": {
+    "id": "video-rebirth",
+    "name": "Video Rebirth",
+    "type": "company",
+    "description": "视频基模公司，宣称第一家实现RSI的视频模型公司",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "RSI",
+      "自进化",
+      "视频生成"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "156",
+        "title": "RSI神似狗吃屎",
+        "date": "2026-10-12",
+        "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "permalink": "/articles/156",
+        "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0322
+  },
+  "links": [
+    {
+      "source": "seedance",
+      "target": "video-rebirth",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Video Rebirth的RSI能力与Seedance进行对比，暗示前者声称超越后者",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "156"
+      ],
+      "evidences": [
+        {
+          "article_id": "156",
+          "title": "RSI神似狗吃屎",
+          "permalink": "/articles/156",
+          "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "date": "2026-10-12",
+          "label": "文章将Video Rebirth的RSI能力与Seedance进行对比，暗示前者声称超越后者",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "video-rebirth",
+      "target": "seedance",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Video Rebirth的RSI能力与Seedance进行对比，暗示前者声称超越后者",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "video-rebirth",
+      "target": "字节跳动",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Video Rebirth宣称在RSI道路上碾压字节跳动",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "156"
+      ],
+      "evidences": [
+        {
+          "article_id": "156",
+          "title": "RSI神似狗吃屎",
+          "permalink": "/articles/156",
+          "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "date": "2026-10-12",
+          "label": "Video Rebirth宣称在RSI道路上碾压字节跳动",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "字节跳动",
+      "target": "video-rebirth",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Video Rebirth宣称在RSI道路上碾压字节跳动",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

@@ -4,8 +4,8 @@
     "name": "GLM",
     "type": "product",
     "description": "智谱AI开发的大语言模型，文中提及GLM 5.2版本",
-    "mention_count": 64,
-    "article_count": 5,
+    "mention_count": 67,
+    "article_count": 6,
     "aliases": [
       "GLM 5.2",
       "GLM-5",
@@ -24,8 +24,8 @@
       "编程能力强",
       "视觉复刻"
     ],
-    "references": 5,
-    "source_article_count": 5,
+    "references": 6,
+    "source_article_count": 6,
     "source_articles": [
       {
         "article_id": "105",
@@ -64,6 +64,15 @@
         "mention_count": 7
       },
       {
+        "article_id": "156",
+        "title": "RSI神似狗吃屎",
+        "date": "2026-10-12",
+        "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "permalink": "/articles/156",
+        "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "mention_count": 3
+      },
+      {
         "article_id": "049",
         "title": "建议六小虎合并，实现China AGI",
         "date": "2026-01-05",
@@ -74,7 +83,7 @@
       }
     ],
     "degree": 18,
-    "composite_weight": 0.2296
+    "composite_weight": 0.243
   },
   "links": [
     {
@@ -378,17 +387,28 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "智谱开发的大模型产品",
-      "weight": 4,
+      "weight": 5,
       "strength": 4,
-      "effective_weight": 20,
-      "article_count": 4,
+      "effective_weight": 25,
+      "article_count": 5,
       "evidence_articles": [
         "049",
         "105",
         "109",
-        "112"
+        "112",
+        "156"
       ],
       "evidences": [
+        {
+          "article_id": "156",
+          "title": "RSI神似狗吃屎",
+          "permalink": "/articles/156",
+          "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "date": "2026-10-12",
+          "label": "智谱开发GLM模型并在其中探索RSI",
+          "weight": 1
+        },
         {
           "article_id": "112",
           "title": "老天保佑Qwen救救阿里巴巴",
@@ -514,45 +534,9 @@
     {
       "source": "deepseek",
       "target": "glm",
-      "score": 0.5775,
+      "score": 0.5272,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "049",
-        "105",
-        "109",
-        "110"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "chatgpt",
-      "target": "glm",
-      "score": 0.476,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 1 篇文章；共享 5 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "105"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "gemini",
-      "target": "glm",
-      "score": 0.4736,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 1 篇文章；共享 5 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "110"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "glm",
-      "target": "minimax",
-      "score": 0.4669,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "049",
         "105",
@@ -564,12 +548,49 @@
     {
       "source": "glm",
       "target": "字节跳动",
-      "score": 0.4383,
+      "score": 0.5085,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "110",
-        "112"
+        "112",
+        "156"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "chatgpt",
+      "target": "glm",
+      "score": 0.4758,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 5 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "105"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "gemini",
+      "target": "glm",
+      "score": 0.4734,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 5 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "110"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "glm",
+      "target": "minimax",
+      "score": 0.4666,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "049",
+        "105",
+        "109",
+        "110"
       ],
       "status": "suggested"
     }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T06:06:58Z",
+  "updatedAt": "2026-10-13T06:01:49Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -3101,6 +3101,26 @@
       "artifact_path": "data/extracted/155.json",
       "raw_path": "data/gemini_raw/155.json",
       "extracted_at": "2026-10-12T06:06:58Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "156": {
+      "article_id": "156",
+      "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+      "title": "RSI神似狗吃屎",
+      "date": "2026-10-12",
+      "author": "沐秋",
+      "content_hash": "ff10aea80aab171053fbd488f64c9816ee2d48f2444ff7db36803ad0f6b4df47",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/156.json",
+      "raw_path": "data/gemini_raw/156.json",
+      "extracted_at": "2026-10-13T06:01:49Z",
       "last_error": null,
       "extractor": {
         "name": "dashscope",

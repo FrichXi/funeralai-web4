@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "theseus-labs",
+    "name": "Theseus Labs",
+    "type": "company",
+    "description": "文中提名的RSI六小龙之一",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "Neo Lab",
+      "RSI"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "156",
+        "title": "RSI神似狗吃屎",
+        "date": "2026-10-12",
+        "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "permalink": "/articles/156",
+        "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0207
+  },
+  "links": [
+    {
+      "source": "theseus-labs",
+      "target": "元环智能",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者均被列入作者提名的RSI六小龙名单",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "156"
+      ],
+      "evidences": [
+        {
+          "article_id": "156",
+          "title": "RSI神似狗吃屎",
+          "permalink": "/articles/156",
+          "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "date": "2026-10-12",
+          "label": "两者均被列入作者提名的RSI六小龙名单",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "元环智能",
+      "target": "theseus-labs",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "两者均被列入作者提名的RSI六小龙名单",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

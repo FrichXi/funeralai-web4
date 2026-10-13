@@ -4,8 +4,8 @@
     "name": "字节跳动",
     "type": "company",
     "description": "中国互联网科技公司，开发了抖音、即梦等产品，文中探讨了其通过AI视频模型实现社交的布局。",
-    "mention_count": 178,
-    "article_count": 38,
+    "mention_count": 179,
+    "article_count": 39,
     "aliases": [
       "ByteDance",
       "大厂",
@@ -49,8 +49,8 @@
       "视频生成",
       "语音模型"
     ],
-    "references": 38,
-    "source_article_count": 38,
+    "references": 39,
+    "source_article_count": 39,
     "source_articles": [
       {
         "article_id": "040",
@@ -260,6 +260,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "156",
+        "title": "RSI神似狗吃屎",
+        "date": "2026-10-12",
+        "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "permalink": "/articles/156",
+        "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "155",
         "title": "Personal agent把用户当傻子",
         "date": "2026-10-07",
@@ -395,8 +404,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 57,
-    "composite_weight": 0.7233
+    "degree": 59,
+    "composite_weight": 0.7374
   },
   "links": [
     {
@@ -603,6 +612,45 @@
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "video-rebirth",
+      "target": "字节跳动",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Video Rebirth宣称在RSI道路上碾压字节跳动",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "156"
+      ],
+      "evidences": [
+        {
+          "article_id": "156",
+          "title": "RSI神似狗吃屎",
+          "permalink": "/articles/156",
+          "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "date": "2026-10-12",
+          "label": "Video Rebirth宣称在RSI道路上碾压字节跳动",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "字节跳动",
+      "target": "video-rebirth",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Video Rebirth宣称在RSI道路上碾压字节跳动",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
       "article_count": 0,
       "evidence_articles": [],
       "evidences": []
@@ -959,19 +1007,30 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节跳动研发了Seedance视频生成大模型。",
-      "weight": 6,
+      "weight": 7,
       "strength": 4,
-      "effective_weight": 30,
-      "article_count": 6,
+      "effective_weight": 35,
+      "article_count": 7,
       "evidence_articles": [
         "062",
         "063",
         "065",
         "078",
         "106",
-        "132"
+        "132",
+        "156"
       ],
       "evidences": [
+        {
+          "article_id": "156",
+          "title": "RSI神似狗吃屎",
+          "permalink": "/articles/156",
+          "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "date": "2026-10-12",
+          "label": "字节跳动开发Seedance视频模型",
+          "weight": 1
+        },
         {
           "article_id": "132",
           "title": "Seedance 2.5自绝于网民",
@@ -2403,7 +2462,7 @@
     {
       "source": "flova",
       "target": "字节跳动",
-      "score": 0.9557,
+      "score": 0.9553,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 7 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -2418,7 +2477,7 @@
     {
       "source": "manus",
       "target": "字节跳动",
-      "score": 0.8153,
+      "score": 0.8156,
       "suggested_relation_type": "related",
       "reason": "共同出现于 9 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
@@ -2433,7 +2492,7 @@
     {
       "source": "oiioii",
       "target": "字节跳动",
-      "score": 0.7319,
+      "score": 0.7321,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -2448,7 +2507,7 @@
     {
       "source": "claude",
       "target": "字节跳动",
-      "score": 0.713,
+      "score": 0.7132,
       "suggested_relation_type": "related",
       "reason": "共同出现于 9 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -2463,7 +2522,7 @@
     {
       "source": "kimi",
       "target": "字节跳动",
-      "score": 0.7088,
+      "score": 0.709,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [

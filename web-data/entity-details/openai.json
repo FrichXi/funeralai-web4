@@ -4,15 +4,17 @@
     "name": "OpenAI",
     "type": "company",
     "description": "AI 公司，文中提及其 DeepResearch 产品作为行业对标对象",
-    "mention_count": 32,
-    "article_count": 16,
+    "mention_count": 34,
+    "article_count": 17,
     "aliases": [
       "O社"
     ],
     "tags": [
       "3D生成",
       "AI机构",
+      "RSI",
       "估值参考",
+      "具身智能",
       "大模型",
       "平台型科技巨头",
       "模型公司",
@@ -23,8 +25,8 @@
       "行业标杆",
       "闭源模型"
     ],
-    "references": 16,
-    "source_article_count": 16,
+    "references": 17,
+    "source_article_count": 17,
     "source_articles": [
       {
         "article_id": "148",
@@ -61,6 +63,15 @@
         "permalink": "/articles/006",
         "markdown_link": "articles/006_2025-06-25_葬爱咸鱼_智谱的存在主义危机.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "156",
+        "title": "RSI神似狗吃屎",
+        "date": "2026-10-12",
+        "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "permalink": "/articles/156",
+        "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "mention_count": 2
       },
       {
         "article_id": "138",
@@ -171,8 +182,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 23,
-    "composite_weight": 0.2319
+    "degree": 25,
+    "composite_weight": 0.2526
   },
   "links": [
     {
@@ -266,6 +277,32 @@
     },
     {
       "source": "openai",
+      "target": "乐享科技",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中讽刺OpenAI抄袭乐享科技关于RSI的阐述理念",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "156"
+      ],
+      "evidences": [
+        {
+          "article_id": "156",
+          "title": "RSI神似狗吃屎",
+          "permalink": "/articles/156",
+          "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "date": "2026-10-12",
+          "label": "文中讽刺OpenAI抄袭乐享科技关于RSI的阐述理念",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "openai",
       "target": "智谱ai",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -315,6 +352,19 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "乐享科技",
+      "target": "openai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中讽刺OpenAI抄袭乐享科技关于RSI的阐述理念",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
     },
     {
       "source": "智谱ai",
@@ -670,7 +720,7 @@
     {
       "source": "claude",
       "target": "openai",
-      "score": 0.6748,
+      "score": 0.6749,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -685,7 +735,7 @@
     {
       "source": "kimi",
       "target": "openai",
-      "score": 0.6673,
+      "score": 0.6674,
       "suggested_relation_type": "related",
       "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -700,14 +750,29 @@
     {
       "source": "openai",
       "target": "字节跳动",
-      "score": 0.4383,
+      "score": 0.5083,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "037",
         "103",
         "125",
-        "136"
+        "136",
+        "156"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "openai",
+      "target": "qwen",
+      "score": 0.4639,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "051",
+        "099",
+        "103",
+        "156"
       ],
       "status": "suggested"
     },

@@ -4,8 +4,8 @@
     "name": "智谱AI",
     "type": "company",
     "description": "被文章推测为“牛来大模型”背后厂商，多次采用匿名打榜营销策略的中国AI公司",
-    "mention_count": 152,
-    "article_count": 27,
+    "mention_count": 158,
+    "article_count": 28,
     "aliases": [
       "Zhipu",
       "智谱",
@@ -21,6 +21,7 @@
       "GLM",
       "G端市场",
       "IPO",
+      "RSI",
       "To B",
       "To G",
       "ToB",
@@ -41,8 +42,8 @@
       "独角兽",
       "编程场景"
     ],
-    "references": 27,
-    "source_article_count": 27,
+    "references": 28,
+    "source_article_count": 28,
     "source_articles": [
       {
         "article_id": "006",
@@ -97,6 +98,15 @@
         "permalink": "/articles/137",
         "markdown_link": "articles/137_2026-08-25_沐秋_匿名打榜的都是二流模型.md",
         "mention_count": 7
+      },
+      {
+        "article_id": "156",
+        "title": "RSI神似狗吃屎",
+        "date": "2026-10-12",
+        "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "permalink": "/articles/156",
+        "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "mention_count": 6
       },
       {
         "article_id": "105",
@@ -289,7 +299,7 @@
       }
     ],
     "degree": 70,
-    "composite_weight": 0.7025
+    "composite_weight": 0.7196
   },
   "links": [
     {
@@ -1490,17 +1500,28 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "智谱开发的大模型产品",
-      "weight": 4,
+      "weight": 5,
       "strength": 4,
-      "effective_weight": 20,
-      "article_count": 4,
+      "effective_weight": 25,
+      "article_count": 5,
       "evidence_articles": [
         "049",
         "105",
         "109",
-        "112"
+        "112",
+        "156"
       ],
       "evidences": [
+        {
+          "article_id": "156",
+          "title": "RSI神似狗吃屎",
+          "permalink": "/articles/156",
+          "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "date": "2026-10-12",
+          "label": "智谱开发GLM模型并在其中探索RSI",
+          "weight": 1
+        },
         {
           "article_id": "112",
           "title": "老天保佑Qwen救救阿里巴巴",
@@ -1718,14 +1739,25 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "Zcode是智谱旗下的产品",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "152"
+        "152",
+        "156"
       ],
       "evidences": [
+        {
+          "article_id": "156",
+          "title": "RSI神似狗吃屎",
+          "permalink": "/articles/156",
+          "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "date": "2026-10-12",
+          "label": "智谱开发Zcode工具",
+          "weight": 1
+        },
         {
           "article_id": "152",
           "title": "世界模型是上不了桌的另开一桌",
@@ -1988,7 +2020,7 @@
     {
       "source": "claude",
       "target": "智谱ai",
-      "score": 0.8919,
+      "score": 0.8923,
       "suggested_relation_type": "related",
       "reason": "共同出现于 10 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
@@ -2003,9 +2035,9 @@
     {
       "source": "qwen",
       "target": "智谱ai",
-      "score": 0.7895,
+      "score": 0.7897,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 8 篇文章；共享 7 个邻居",
+      "reason": "共同出现于 9 篇文章；共享 7 个邻居",
       "evidence_article_ids": [
         "026",
         "049",
@@ -2018,9 +2050,9 @@
     {
       "source": "智谱ai",
       "target": "杨植麟",
-      "score": 0.7076,
+      "score": 0.7078,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 7 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "004",
         "049",
@@ -2033,7 +2065,7 @@
     {
       "source": "智谱ai",
       "target": "豆包",
-      "score": 0.667,
+      "score": 0.6671,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -2048,7 +2080,7 @@
     {
       "source": "codex",
       "target": "智谱ai",
-      "score": 0.5707,
+      "score": 0.5695,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [

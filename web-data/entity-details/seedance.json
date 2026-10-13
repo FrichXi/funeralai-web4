@@ -3,9 +3,9 @@
     "id": "seedance",
     "name": "Seedance",
     "type": "product",
-    "description": "字节推出的AI视频生成大模型，支持参考图片、视频和音频生成并复刻内容。",
-    "mention_count": 124,
-    "article_count": 12,
+    "description": "字节跳动旗下的视频生成模型，文中作为Video Rebirth的竞品提及",
+    "mention_count": 126,
+    "article_count": 13,
     "aliases": [
       "Seedance 2.0",
       "Seedance 35折",
@@ -27,8 +27,8 @@
       "视频模型",
       "视频生成"
     ],
-    "references": 12,
-    "source_article_count": 12,
+    "references": 13,
+    "source_article_count": 13,
     "source_articles": [
       {
         "article_id": "132",
@@ -103,6 +103,15 @@
         "mention_count": 3
       },
       {
+        "article_id": "156",
+        "title": "RSI神似狗吃屎",
+        "date": "2026-10-12",
+        "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "permalink": "/articles/156",
+        "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "mention_count": 2
+      },
+      {
         "article_id": "141",
         "title": "再爱MiniMax一次",
         "date": "2026-09-01",
@@ -139,8 +148,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 32,
-    "composite_weight": 0.3767
+    "degree": 34,
+    "composite_weight": 0.3977
   },
   "links": [
     {
@@ -376,11 +385,50 @@
       ]
     },
     {
+      "source": "seedance",
+      "target": "video-rebirth",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Video Rebirth的RSI能力与Seedance进行对比，暗示前者声称超越后者",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "156"
+      ],
+      "evidences": [
+        {
+          "article_id": "156",
+          "title": "RSI神似狗吃屎",
+          "permalink": "/articles/156",
+          "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "date": "2026-10-12",
+          "label": "文章将Video Rebirth的RSI能力与Seedance进行对比，暗示前者声称超越后者",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "sora",
       "target": "seedance",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文章核心观点认为字节的Seedance在抄袭并借鉴Sora的产品逻辑。",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "video-rebirth",
+      "target": "seedance",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Video Rebirth的RSI能力与Seedance进行对比，暗示前者声称超越后者",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -602,19 +650,30 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节跳动研发了Seedance视频生成大模型。",
-      "weight": 6,
+      "weight": 7,
       "strength": 4,
-      "effective_weight": 30,
-      "article_count": 6,
+      "effective_weight": 35,
+      "article_count": 7,
       "evidence_articles": [
         "062",
         "063",
         "065",
         "078",
         "106",
-        "132"
+        "132",
+        "156"
       ],
       "evidences": [
+        {
+          "article_id": "156",
+          "title": "RSI神似狗吃屎",
+          "permalink": "/articles/156",
+          "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "date": "2026-10-12",
+          "label": "字节跳动开发Seedance视频模型",
+          "weight": 1
+        },
         {
           "article_id": "132",
           "title": "Seedance 2.5自绝于网民",
@@ -971,7 +1030,7 @@
     {
       "source": "minimax",
       "target": "seedance",
-      "score": 0.6484,
+      "score": 0.6486,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
@@ -986,7 +1045,7 @@
     {
       "source": "oiioii",
       "target": "seedance",
-      "score": 0.5953,
+      "score": 0.5954,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1000,7 +1059,7 @@
     {
       "source": "kimi",
       "target": "seedance",
-      "score": 0.5301,
+      "score": 0.5302,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 6 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
@@ -1013,13 +1072,17 @@
       "status": "suggested"
     },
     {
-      "source": "pixverse",
-      "target": "seedance",
-      "score": 0.5043,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "source": "seedance",
+      "target": "智谱ai",
+      "score": 0.4825,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 7 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
-        "113"
+        "065",
+        "099",
+        "113",
+        "116",
+        "117"
       ],
       "status": "suggested"
     }

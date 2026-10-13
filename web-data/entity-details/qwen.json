@@ -4,8 +4,8 @@
     "name": "Qwen",
     "type": "product",
     "description": "通义千问大模型系列，文中提及Qwen3.8-Max等版本，在嵌入式驱动、物理模拟及无人机飞控等Bench中表现突出",
-    "mention_count": 222,
-    "article_count": 26,
+    "mention_count": 223,
+    "article_count": 27,
     "aliases": [
       "Qwen 3",
       "Qwen 3.7",
@@ -41,6 +41,7 @@
       "国产模型",
       "图像模型",
       "图像识别",
+      "基座模型",
       "大模型",
       "大模型API",
       "大模型OS",
@@ -58,8 +59,8 @@
       "长程任务",
       "黑客松主办方"
     ],
-    "references": 26,
-    "source_article_count": 26,
+    "references": 27,
+    "source_article_count": 27,
     "source_articles": [
       {
         "article_id": "112",
@@ -168,6 +169,15 @@
         "permalink": "/articles/019",
         "markdown_link": "articles/019_2025-09-04_葬爱咸鱼_我研发出了主体思想AI.md",
         "mention_count": 2
+      },
+      {
+        "article_id": "156",
+        "title": "RSI神似狗吃屎",
+        "date": "2026-10-12",
+        "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "permalink": "/articles/156",
+        "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+        "mention_count": 1
       },
       {
         "article_id": "147",
@@ -296,8 +306,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 60,
-    "composite_weight": 0.6875
+    "degree": 61,
+    "composite_weight": 0.6981
   },
   "links": [
     {
@@ -1432,6 +1442,32 @@
     },
     {
       "source": "qwen",
+      "target": "startlux",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "StartLux拿Qwen 27B进行后训练以实现本地RSI",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "156"
+      ],
+      "evidences": [
+        {
+          "article_id": "156",
+          "title": "RSI神似狗吃屎",
+          "permalink": "/articles/156",
+          "markdown_link": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "path": "articles/156_2026-10-12_沐秋_RSI神似狗吃屎.md",
+          "date": "2026-10-12",
+          "label": "StartLux拿Qwen 27B进行后训练以实现本地RSI",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "qwen",
       "target": "小智ai",
       "relation_type": "integrates_with",
       "type": "integrates_with",
@@ -1617,9 +1653,9 @@
     {
       "source": "qwen",
       "target": "智谱ai",
-      "score": 0.7895,
+      "score": 0.7897,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 8 篇文章；共享 7 个邻居",
+      "reason": "共同出现于 9 篇文章；共享 7 个邻居",
       "evidence_article_ids": [
         "026",
         "049",
@@ -1632,7 +1668,7 @@
     {
       "source": "codex",
       "target": "qwen",
-      "score": 0.7802,
+      "score": 0.7804,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 7 篇文章；共享 5 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1647,9 +1683,9 @@
     {
       "source": "qwen",
       "target": "字节跳动",
-      "score": 0.6806,
+      "score": 0.6808,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "064",
         "103",
@@ -1662,7 +1698,7 @@
     {
       "source": "qwen",
       "target": "阶跃星辰",
-      "score": 0.677,
+      "score": 0.6772,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1677,7 +1713,7 @@
     {
       "source": "manus",
       "target": "qwen",
-      "score": 0.6439,
+      "score": 0.644,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 6 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
