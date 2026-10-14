@@ -4,8 +4,8 @@
     "name": "Trae",
     "type": "product",
     "description": "字节跳动旗下AI IDE产品，已划归豆包体系",
-    "mention_count": 13,
-    "article_count": 5,
+    "mention_count": 14,
+    "article_count": 6,
     "aliases": [
       "Trae Work"
     ],
@@ -14,11 +14,12 @@
       "AI工具",
       "AI编程",
       "国产AI",
+      "字节产品",
       "开发工具",
       "编程工具"
     ],
-    "references": 5,
-    "source_article_count": 5,
+    "references": 6,
+    "source_article_count": 6,
     "source_articles": [
       {
         "article_id": "144",
@@ -57,6 +58,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "157",
+        "title": "基座模型田柯宇从不缺卡",
+        "date": "2026-10-13",
+        "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+        "permalink": "/articles/157",
+        "markdown_link": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "145",
         "title": "主观评价字节阿里腾讯之Agent大战",
         "date": "2026-09-08",
@@ -67,7 +77,7 @@
       }
     ],
     "degree": 9,
-    "composite_weight": 0.0999
+    "composite_weight": 0.1078
   },
   "links": [
     {
@@ -193,17 +203,28 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节大力投入Trae",
-      "weight": 4,
+      "weight": 5,
       "strength": 4,
-      "effective_weight": 20,
-      "article_count": 4,
+      "effective_weight": 25,
+      "article_count": 5,
       "evidence_articles": [
         "103",
         "111",
         "144",
-        "145"
+        "145",
+        "157"
       ],
       "evidences": [
+        {
+          "article_id": "157",
+          "title": "基座模型田柯宇从不缺卡",
+          "permalink": "/articles/157",
+          "markdown_link": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "date": "2026-10-13",
+          "label": "Trae是字节跳动开发的产品",
+          "weight": 1
+        },
         {
           "article_id": "145",
           "title": "主观评价字节阿里腾讯之Agent大战",

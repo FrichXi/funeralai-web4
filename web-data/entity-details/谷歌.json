@@ -119,7 +119,7 @@
       }
     ],
     "degree": 18,
-    "composite_weight": 0.1479
+    "composite_weight": 0.1467
   },
   "links": [
     {
@@ -515,9 +515,9 @@
     {
       "source": "claude",
       "target": "谷歌",
-      "score": 0.5812,
+      "score": 0.6312,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "060",
         "071"
@@ -539,6 +539,18 @@
       "status": "suggested"
     },
     {
+      "source": "qwen",
+      "target": "谷歌",
+      "score": 0.5066,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "051",
+        "060"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "字节跳动",
       "target": "谷歌",
       "score": 0.4875,
@@ -553,23 +565,11 @@
       "status": "suggested"
     },
     {
-      "source": "qwen",
-      "target": "谷歌",
-      "score": 0.4566,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "051",
-        "060"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "cherry-studio",
       "target": "谷歌",
-      "score": 0.4017,
+      "score": 0.4517,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "021",
         "060"

@@ -4,8 +4,8 @@
     "name": "Kimi",
     "type": "product",
     "description": "具有长上下文能力的大语言模型，文中被用作Claude Code的后端调用模型",
-    "mention_count": 223,
-    "article_count": 37,
+    "mention_count": 224,
+    "article_count": 38,
     "aliases": [
       "K2",
       "K2.7 Code",
@@ -47,6 +47,7 @@
       "大模型",
       "大模型公司",
       "大模型厂商",
+      "大模型应用",
       "大语言模型",
       "工具调用",
       "平替",
@@ -69,8 +70,8 @@
       "长文本处理",
       "高估值"
     ],
-    "references": 37,
-    "source_article_count": 37,
+    "references": 38,
+    "source_article_count": 38,
     "source_articles": [
       {
         "article_id": "134",
@@ -298,6 +299,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "157",
+        "title": "基座模型田柯宇从不缺卡",
+        "date": "2026-10-13",
+        "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+        "permalink": "/articles/157",
+        "markdown_link": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "146",
         "title": "我妈不让我和百度搭子玩",
         "date": "2026-09-09",
@@ -406,8 +416,8 @@
         "mention_count": 2
       }
     ],
-    "degree": 74,
-    "composite_weight": 0.8721
+    "degree": 76,
+    "composite_weight": 0.8868
   },
   "links": [
     {
@@ -922,6 +932,32 @@
     },
     {
       "source": "kimi",
+      "target": "田柯宇",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中用Kimi的500亿美金估值对比田柯宇2亿美金估值的基座模型路线",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "157"
+      ],
+      "evidences": [
+        {
+          "article_id": "157",
+          "title": "基座模型田柯宇从不缺卡",
+          "permalink": "/articles/157",
+          "markdown_link": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "date": "2026-10-13",
+          "label": "文中用Kimi的500亿美金估值对比田柯宇2亿美金估值的基座模型路线",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
       "target": "百度搭子",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -1056,6 +1092,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "Kimi的性价比被用来与代表极致性价比的‘梁圣’进行对比，处于斩杀线以下",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "田柯宇",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中用Kimi的500亿美金估值对比田柯宇2亿美金估值的基座模型路线",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -2096,9 +2145,9 @@
     {
       "source": "kimi",
       "target": "字节跳动",
-      "score": 0.709,
+      "score": 0.8039,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 7 篇文章；共享 5 个邻居",
+      "reason": "共同出现于 8 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "040",
         "065",
@@ -2113,7 +2162,7 @@
       "target": "openai",
       "score": 0.6674,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 7 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "005",
         "048",

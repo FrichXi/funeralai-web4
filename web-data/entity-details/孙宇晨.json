@@ -4,14 +4,15 @@
     "name": "孙宇晨",
     "type": "person",
     "description": "币圈知名人物，文中被用作比喻对象，以对比a16z在一级市场的运作模式。",
-    "mention_count": 21,
-    "article_count": 6,
+    "mention_count": 30,
+    "article_count": 7,
     "aliases": [
       "孙割"
     ],
     "tags": [
       "90后创业者",
       "Web3",
+      "争议人物",
       "付费异性语音房",
       "加密行业",
       "区块链",
@@ -19,9 +20,18 @@
       "炒作",
       "炒作仙人"
     ],
-    "references": 6,
-    "source_article_count": 6,
+    "references": 7,
+    "source_article_count": 7,
     "source_articles": [
+      {
+        "article_id": "157",
+        "title": "基座模型田柯宇从不缺卡",
+        "date": "2026-10-13",
+        "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+        "permalink": "/articles/157",
+        "markdown_link": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+        "mention_count": 9
+      },
       {
         "article_id": "015",
         "title": "在马卡龙面前，孙宇晨和Web3都像是实体经济",
@@ -77,8 +87,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 8,
-    "composite_weight": 0.0692
+    "degree": 10,
+    "composite_weight": 0.1096
   },
   "links": [
     {
@@ -161,6 +171,32 @@
     },
     {
       "source": "孙宇晨",
+      "target": "田柯宇",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将田柯宇与孙宇晨进行对比，认为二者在争议性和融资能力上相似",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "157"
+      ],
+      "evidences": [
+        {
+          "article_id": "157",
+          "title": "基座模型田柯宇从不缺卡",
+          "permalink": "/articles/157",
+          "markdown_link": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "date": "2026-10-13",
+          "label": "文章将田柯宇与孙宇晨进行对比，认为二者在争议性和融资能力上相似",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "孙宇晨",
       "target": "锴杰",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -186,6 +222,19 @@
       ]
     },
     {
+      "source": "田柯宇",
+      "target": "孙宇晨",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将田柯宇与孙宇晨进行对比，认为二者在争议性和融资能力上相似",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "锴杰",
       "target": "孙宇晨",
       "relation_type": "compares_to",
@@ -204,14 +253,25 @@
       "relation_type": "invests_in",
       "type": "invests_in",
       "label": "孙宇晨同属IDG 90后基金投资的对象",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "037"
+        "037",
+        "157"
       ],
       "evidences": [
+        {
+          "article_id": "157",
+          "title": "基座模型田柯宇从不缺卡",
+          "permalink": "/articles/157",
+          "markdown_link": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "date": "2026-10-13",
+          "label": "文中提到IDG当年是孙宇晨的投资方",
+          "weight": 1
+        },
         {
           "article_id": "037",
           "title": "Gambo说自己要做最好的游戏引擎，也要做社区Sketch",
@@ -255,9 +315,9 @@
     {
       "source": "孙宇晨",
       "target": "马卡龙",
-      "score": 0.4922,
+      "score": 0.4422,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "015",
         "040"

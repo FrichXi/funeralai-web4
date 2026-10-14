@@ -3,17 +3,18 @@
     "id": "石扬",
     "name": "石扬",
     "type": "person",
-    "description": "Trae产品负责人",
-    "mention_count": 2,
-    "article_count": 1,
+    "description": "字节跳动Trae负责人，后离职创业，文中用于对标田柯宇的估值",
+    "mention_count": 3,
+    "article_count": 2,
     "aliases": [
       "Trae老大"
     ],
     "tags": [
-      "产品负责人"
+      "产品负责人",
+      "字节高管"
     ],
-    "references": 1,
-    "source_article_count": 1,
+    "references": 2,
+    "source_article_count": 2,
     "source_articles": [
       {
         "article_id": "144",
@@ -23,12 +24,47 @@
         "permalink": "/articles/144",
         "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
         "mention_count": 2
+      },
+      {
+        "article_id": "157",
+        "title": "基座模型田柯宇从不缺卡",
+        "date": "2026-10-13",
+        "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+        "permalink": "/articles/157",
+        "markdown_link": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+        "mention_count": 1
       }
     ],
-    "degree": 1,
-    "composite_weight": 0.016
+    "degree": 2,
+    "composite_weight": 0.0304
   },
   "links": [
+    {
+      "source": "石扬",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "石扬曾任字节跳动Trae负责人及数据安全负责人",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "157"
+      ],
+      "evidences": [
+        {
+          "article_id": "157",
+          "title": "基座模型田柯宇从不缺卡",
+          "permalink": "/articles/157",
+          "markdown_link": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "date": "2026-10-13",
+          "label": "石扬曾任字节跳动Trae负责人及数据安全负责人",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "石扬",
       "target": "trae",

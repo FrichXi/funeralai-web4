@@ -4,8 +4,8 @@
     "name": "字节跳动",
     "type": "company",
     "description": "中国互联网科技公司，开发了抖音、即梦等产品，文中探讨了其通过AI视频模型实现社交的布局。",
-    "mention_count": 179,
-    "article_count": 39,
+    "mention_count": 207,
+    "article_count": 40,
     "aliases": [
       "ByteDance",
       "大厂",
@@ -19,6 +19,7 @@
       "自绝跳动"
     ],
     "tags": [
+      "AI Lab",
       "AI公司",
       "AI办公",
       "AI应用",
@@ -49,8 +50,8 @@
       "视频生成",
       "语音模型"
     ],
-    "references": 39,
-    "source_article_count": 39,
+    "references": 40,
+    "source_article_count": 40,
     "source_articles": [
       {
         "article_id": "040",
@@ -60,6 +61,15 @@
         "permalink": "/articles/040",
         "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
         "mention_count": 32
+      },
+      {
+        "article_id": "157",
+        "title": "基座模型田柯宇从不缺卡",
+        "date": "2026-10-13",
+        "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+        "permalink": "/articles/157",
+        "markdown_link": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+        "mention_count": 28
       },
       {
         "article_id": "144",
@@ -404,8 +414,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 59,
-    "composite_weight": 0.7374
+    "degree": 62,
+    "composite_weight": 0.8186
   },
   "links": [
     {
@@ -907,6 +917,32 @@
     },
     {
       "source": "字节跳动",
+      "target": "田柯宇",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "字节跳动起诉田柯宇并索赔800万元，指控其破坏训练代码",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "157"
+      ],
+      "evidences": [
+        {
+          "article_id": "157",
+          "title": "基座模型田柯宇从不缺卡",
+          "permalink": "/articles/157",
+          "markdown_link": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "date": "2026-10-13",
+          "label": "字节跳动起诉田柯宇并索赔800万元，指控其破坏训练代码",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "字节跳动",
       "target": "omnihuman",
       "relation_type": "develops",
       "type": "develops",
@@ -1177,17 +1213,28 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节大力投入Trae",
-      "weight": 4,
+      "weight": 5,
       "strength": 4,
-      "effective_weight": 20,
-      "article_count": 4,
+      "effective_weight": 25,
+      "article_count": 5,
       "evidence_articles": [
         "103",
         "111",
         "144",
-        "145"
+        "145",
+        "157"
       ],
       "evidences": [
+        {
+          "article_id": "157",
+          "title": "基座模型田柯宇从不缺卡",
+          "permalink": "/articles/157",
+          "markdown_link": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "date": "2026-10-13",
+          "label": "Trae是字节跳动开发的产品",
+          "weight": 1
+        },
         {
           "article_id": "145",
           "title": "主观评价字节阿里腾讯之Agent大战",
@@ -2336,6 +2383,58 @@
       ]
     },
     {
+      "source": "田柯宇",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "田柯宇曾在字节跳动担任实习生",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "157"
+      ],
+      "evidences": [
+        {
+          "article_id": "157",
+          "title": "基座模型田柯宇从不缺卡",
+          "permalink": "/articles/157",
+          "markdown_link": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "date": "2026-10-13",
+          "label": "田柯宇曾在字节跳动担任实习生",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "石扬",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "石扬曾任字节跳动Trae负责人及数据安全负责人",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "157"
+      ],
+      "evidences": [
+        {
+          "article_id": "157",
+          "title": "基座模型田柯宇从不缺卡",
+          "permalink": "/articles/157",
+          "markdown_link": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "date": "2026-10-13",
+          "label": "石扬曾任字节跳动Trae负责人及数据安全负责人",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "郭列",
       "target": "字节跳动",
       "relation_type": "works_at",
@@ -2490,6 +2589,21 @@
       "status": "suggested"
     },
     {
+      "source": "kimi",
+      "target": "字节跳动",
+      "score": 0.8039,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 8 篇文章；共享 6 个邻居",
+      "evidence_article_ids": [
+        "040",
+        "065",
+        "085",
+        "110",
+        "112"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "oiioii",
       "target": "字节跳动",
       "score": 0.7321,
@@ -2516,21 +2630,6 @@
         "052",
         "070",
         "088"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "kimi",
-      "target": "字节跳动",
-      "score": 0.709,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 7 篇文章；共享 5 个邻居",
-      "evidence_article_ids": [
-        "040",
-        "065",
-        "085",
-        "110",
-        "112"
       ],
       "status": "suggested"
     }

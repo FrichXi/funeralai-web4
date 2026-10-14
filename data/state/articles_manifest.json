@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T06:01:49Z",
+  "updatedAt": "2026-10-14T06:04:28Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -3121,6 +3121,26 @@
       "artifact_path": "data/extracted/156.json",
       "raw_path": "data/gemini_raw/156.json",
       "extracted_at": "2026-10-13T06:01:49Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "157": {
+      "article_id": "157",
+      "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+      "title": "基座模型田柯宇从不缺卡",
+      "date": "2026-10-13",
+      "author": "沐秋",
+      "content_hash": "6b63054feec92685c7261f8fe57ef2fcdc032397ba64694df20427493fa6a81f",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/157.json",
+      "raw_path": "data/gemini_raw/157.json",
+      "extracted_at": "2026-10-14T06:04:28Z",
       "last_error": null,
       "extractor": {
         "name": "dashscope",

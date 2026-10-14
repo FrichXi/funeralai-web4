@@ -1,0 +1,286 @@
+{
+  "article": {
+    "id": "157",
+    "title": "基座模型田柯宇从不缺卡",
+    "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+    "date": "2026-10-13",
+    "author": "沐秋",
+    "content_hash": "6b63054feec92685c7261f8fe57ef2fcdc032397ba64694df20427493fa6a81f"
+  },
+  "entities": [
+    {
+      "id": "田柯宇",
+      "name": "田柯宇",
+      "type": "person",
+      "description": "基座模型创业者，前字节跳动实习生，因破坏训练代码被起诉后获得融资",
+      "mention_count": 61,
+      "aliases": [
+        "牢田",
+        "田神"
+      ],
+      "tags": [
+        "基座模型",
+        "世界模型",
+        "字节系创业者"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "互联网科技公司，田柯宇前实习单位及诉讼原告方",
+      "mention_count": 28,
+      "aliases": [
+        "字节"
+      ],
+      "tags": [
+        "AI Lab",
+        "大模型"
+      ]
+    },
+    {
+      "id": "孙宇晨",
+      "name": "孙宇晨",
+      "type": "person",
+      "description": "区块链创业者，文中作为田柯宇的对比对象，同为IDG被投项目创始人",
+      "mention_count": 9,
+      "aliases": [
+        "孙割"
+      ],
+      "tags": [
+        "区块链",
+        "争议人物"
+      ]
+    },
+    {
+      "id": "idg",
+      "name": "IDG",
+      "type": "vc_firm",
+      "description": "投资机构，参与了田柯宇项目的融资，也曾投资孙宇晨",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "AI投资"
+      ]
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "type": "company",
+      "description": "全球领先的AI实验室，文中提及作为行业标杆及缺卡背景",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI Lab"
+      ]
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "type": "product",
+      "description": "月之暗面开发的智能助手，文中作为高估值基座模型的对标案例",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "大模型应用"
+      ]
+    },
+    {
+      "id": "trae",
+      "name": "Trae",
+      "type": "product",
+      "description": "字节跳动旗下的AI编程工具/产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI IDE",
+        "字节产品"
+      ]
+    },
+    {
+      "id": "李飞飞",
+      "name": "李飞飞",
+      "type": "person",
+      "description": "斯坦福教授、AI学者，文中被用来对比田柯宇在世界模型方向的时间点",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI学者",
+        "世界模型"
+      ]
+    },
+    {
+      "id": "石扬",
+      "name": "石扬",
+      "type": "person",
+      "description": "字节跳动Trae负责人，后离职创业，文中用于对标田柯宇的估值",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "字节高管"
+      ]
+    },
+    {
+      "id": "红杉中国",
+      "name": "红杉中国",
+      "type": "company",
+      "description": "知名风投机构，文中作为IDG的竞争对手被提及",
+      "mention_count": 1,
+      "aliases": [
+        "红杉"
+      ],
+      "tags": [
+        "AI投资"
+      ]
+    },
+    {
+      "id": "钟鼎资本",
+      "name": "钟鼎资本",
+      "type": "company",
+      "description": "投资机构，参与了田柯宇项目的融资",
+      "mention_count": 1,
+      "aliases": [
+        "钟鼎"
+      ],
+      "tags": [
+        "AI投资"
+      ]
+    },
+    {
+      "id": "高瓴创投",
+      "name": "高瓴创投",
+      "type": "company",
+      "description": "知名投资机构，文中作为IDG的竞争对手被提及",
+      "mention_count": 1,
+      "aliases": [
+        "高瓴"
+      ],
+      "tags": [
+        "AI投资"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Kimi",
+      "target": "田柯宇",
+      "relation_type": "compares_to",
+      "label": "文中用Kimi的500亿美金估值对比田柯宇2亿美金估值的基座模型路线",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "孙宇晨",
+      "target": "田柯宇",
+      "relation_type": "compares_to",
+      "label": "文章将田柯宇与孙宇晨进行对比，认为二者在争议性和融资能力上相似",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "李飞飞",
+      "target": "田柯宇",
+      "relation_type": "compares_to",
+      "label": "文中称田柯宇在世界模型方向的定调领先李飞飞两年",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "IDG",
+      "target": "红杉中国",
+      "relation_type": "competes_with",
+      "label": "文中暗示在AI投资领域IDG胜过红杉和高瓴",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "IDG",
+      "target": "高瓴创投",
+      "relation_type": "competes_with",
+      "label": "文中暗示在AI投资领域IDG胜过高瓴和红杉",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "字节跳动",
+      "target": "田柯宇",
+      "relation_type": "criticizes",
+      "label": "字节跳动起诉田柯宇并索赔800万元，指控其破坏训练代码",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "Trae",
+      "relation_type": "develops",
+      "label": "Trae是字节跳动开发的产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "IDG",
+      "target": "孙宇晨",
+      "relation_type": "invests_in",
+      "label": "文中提到IDG当年是孙宇晨的投资方",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "IDG",
+      "target": "田柯宇",
+      "relation_type": "invests_in",
+      "label": "IDG参与了田柯宇创业项目3000万美金融资",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "钟鼎资本",
+      "target": "田柯宇",
+      "relation_type": "invests_in",
+      "label": "钟鼎资本参与了田柯宇创业项目3000万美金融资",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "田柯宇",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "label": "田柯宇曾在字节跳动担任实习生",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "石扬",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "label": "石扬曾任字节跳动Trae负责人及数据安全负责人",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 12,
+    "relationship_count": 12,
+    "pruned_entities": [
+      {
+        "name": "五源资本",
+        "reason": "not-in-body"
+      }
+    ],
+    "provider": "dashscope"
+  }
+}

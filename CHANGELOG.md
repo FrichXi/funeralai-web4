@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+- Content update through 157: 156 articles; latest: 基座模型田柯宇从不缺卡.
+
 - Content update through 156: 155 articles; latest: RSI神似狗吃屎.
 
 - Content update through 155: 154 articles; latest: Personal agent把用户当傻子.

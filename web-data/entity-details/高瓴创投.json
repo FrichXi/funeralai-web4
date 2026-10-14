@@ -1,0 +1,73 @@
+{
+  "node": {
+    "id": "高瓴创投",
+    "name": "高瓴创投",
+    "type": "company",
+    "description": "知名投资机构，文中作为IDG的竞争对手被提及",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "高瓴"
+    ],
+    "tags": [
+      "AI投资"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "157",
+        "title": "基座模型田柯宇从不缺卡",
+        "date": "2026-10-13",
+        "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+        "permalink": "/articles/157",
+        "markdown_link": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0204
+  },
+  "links": [
+    {
+      "source": "idg",
+      "target": "高瓴创投",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中暗示在AI投资领域IDG胜过高瓴和红杉",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "157"
+      ],
+      "evidences": [
+        {
+          "article_id": "157",
+          "title": "基座模型田柯宇从不缺卡",
+          "permalink": "/articles/157",
+          "markdown_link": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
+          "date": "2026-10-13",
+          "label": "文中暗示在AI投资领域IDG胜过高瓴和红杉",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "高瓴创投",
+      "target": "idg",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "文中暗示在AI投资领域IDG胜过高瓴和红杉",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}
