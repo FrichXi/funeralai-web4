@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14T06:04:28Z",
+  "updatedAt": "2026-10-20T06:03:16Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -3141,6 +3141,26 @@
       "artifact_path": "data/extracted/157.json",
       "raw_path": "data/gemini_raw/157.json",
       "extracted_at": "2026-10-14T06:04:28Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "158": {
+      "article_id": "158",
+      "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+      "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+      "date": "2026-10-19",
+      "author": "沐秋",
+      "content_hash": "550cdf72fd6fc7ca120c2f52d435e1958254b874d090c60a178ad543f6d34a6e",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/158.json",
+      "raw_path": "data/gemini_raw/158.json",
+      "extracted_at": "2026-10-20T06:03:16Z",
       "last_error": null,
       "extractor": {
         "name": "dashscope",

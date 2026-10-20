@@ -4,8 +4,8 @@
     "name": "字节跳动",
     "type": "company",
     "description": "中国互联网科技公司，开发了抖音、即梦等产品，文中探讨了其通过AI视频模型实现社交的布局。",
-    "mention_count": 207,
-    "article_count": 40,
+    "mention_count": 209,
+    "article_count": 41,
     "aliases": [
       "ByteDance",
       "大厂",
@@ -50,8 +50,8 @@
       "视频生成",
       "语音模型"
     ],
-    "references": 40,
-    "source_article_count": 40,
+    "references": 41,
+    "source_article_count": 41,
     "source_articles": [
       {
         "article_id": "040",
@@ -223,6 +223,15 @@
         "permalink": "/articles/078",
         "markdown_link": "articles/078_2026-04-07_骡子马_Flova和TapNow背对背拥抱.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "158",
+        "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+        "date": "2026-10-19",
+        "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+        "permalink": "/articles/158",
+        "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+        "mention_count": 2
       },
       {
         "article_id": "136",
@@ -414,8 +423,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 62,
-    "composite_weight": 0.8186
+    "degree": 64,
+    "composite_weight": 0.8353
   },
   "links": [
     {
@@ -1768,6 +1777,32 @@
     },
     {
       "source": "字节跳动",
+      "target": "猫箱",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "猫箱是字节跳动开发的产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "158"
+      ],
+      "evidences": [
+        {
+          "article_id": "158",
+          "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+          "permalink": "/articles/158",
+          "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "date": "2026-10-19",
+          "label": "猫箱是字节跳动开发的产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "字节跳动",
       "target": "豆包",
       "relation_type": "develops",
       "type": "develops",
@@ -2352,6 +2387,32 @@
           "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
           "date": "2026-09-06",
           "label": "梁汝波（一鸣）是字节跳动CEO，主导了Agent战略调整",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "梁琛奇",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "梁琛奇曾在字节跳动工作，后离开",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "158"
+      ],
+      "evidences": [
+        {
+          "article_id": "158",
+          "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+          "permalink": "/articles/158",
+          "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "date": "2026-10-19",
+          "label": "梁琛奇曾在字节跳动工作，后离开",
           "weight": 1
         }
       ]

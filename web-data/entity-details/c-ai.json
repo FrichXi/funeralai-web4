@@ -3,18 +3,30 @@
     "id": "c-ai",
     "name": "C.ai",
     "type": "product",
-    "description": "主打AI角色扮演的产品，文中用于形容Bloome的广场功能",
-    "mention_count": 1,
-    "article_count": 1,
+    "description": "Character.AI，初代AI陪伴产品代表，近期被迪士尼收购",
+    "mention_count": 4,
+    "article_count": 2,
     "aliases": [
+      "Character.AI",
       "Character.ai"
     ],
     "tags": [
+      "AI陪伴",
+      "对话式内容消费",
       "角色扮演"
     ],
-    "references": 1,
-    "source_article_count": 1,
+    "references": 2,
+    "source_article_count": 2,
     "source_articles": [
+      {
+        "article_id": "158",
+        "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+        "date": "2026-10-19",
+        "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+        "permalink": "/articles/158",
+        "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+        "mention_count": 3
+      },
       {
         "article_id": "090",
         "title": "Bloome重做元宝派",
@@ -25,10 +37,36 @@
         "mention_count": 1
       }
     ],
-    "degree": 2,
-    "composite_weight": 0.0164
+    "degree": 5,
+    "composite_weight": 0.0476
   },
   "links": [
+    {
+      "source": "迪士尼",
+      "target": "c-ai",
+      "relation_type": "acquires",
+      "type": "acquires",
+      "label": "迪士尼以2000万美金收购了C.ai",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "158"
+      ],
+      "evidences": [
+        {
+          "article_id": "158",
+          "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+          "permalink": "/articles/158",
+          "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "date": "2026-10-19",
+          "label": "迪士尼以2000万美金收购了C.ai",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "bloome",
       "target": "c-ai",
@@ -61,6 +99,45 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "Bloome的广场角色扮演Agent功能被描述为属于C.ai类",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "c-ai",
+      "target": "tipsy",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Tipsy被视为C.ai之后的新一代产品，且承接了C.ai被收购后的部分用户",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "158"
+      ],
+      "evidences": [
+        {
+          "article_id": "158",
+          "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+          "permalink": "/articles/158",
+          "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "date": "2026-10-19",
+          "label": "Tipsy被视为C.ai之后的新一代产品，且承接了C.ai被收购后的部分用户",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "tipsy",
+      "target": "c-ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Tipsy被视为C.ai之后的新一代产品，且承接了C.ai被收购后的部分用户",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,

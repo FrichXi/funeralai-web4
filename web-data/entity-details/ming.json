@@ -1,0 +1,85 @@
+{
+  "node": {
+    "id": "ming",
+    "name": "Ming",
+    "type": "person",
+    "description": "前明星公司海外增长负责人，资深乙女玩家，本文分析作者",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI从业者",
+      "增长专家"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "158",
+        "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+        "date": "2026-10-19",
+        "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+        "permalink": "/articles/158",
+        "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0256
+  },
+  "links": [
+    {
+      "source": "ming",
+      "target": "tipsy",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "Ming指出Tipsy目前只是现金流生意，缺乏网络效应，估值过高",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "158"
+      ],
+      "evidences": [
+        {
+          "article_id": "158",
+          "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+          "permalink": "/articles/158",
+          "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "date": "2026-10-19",
+          "label": "Ming指出Tipsy目前只是现金流生意，缺乏网络效应，估值过高",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "ming",
+      "target": "tipsy",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "Ming认为Tipsy撬动了高客单价市场，带动了AI应用赛道热度",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "158"
+      ],
+      "evidences": [
+        {
+          "article_id": "158",
+          "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+          "permalink": "/articles/158",
+          "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "date": "2026-10-19",
+          "label": "Ming认为Tipsy撬动了高客单价市场，带动了AI应用赛道热度",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

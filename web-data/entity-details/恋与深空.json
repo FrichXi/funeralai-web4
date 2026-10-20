@@ -4,15 +4,16 @@
     "name": "恋与深空",
     "type": "product",
     "description": "成熟的3D非AI乙女游戏，被多次用于与《星眠》对比",
-    "mention_count": 3,
-    "article_count": 1,
+    "mention_count": 4,
+    "article_count": 2,
     "aliases": [],
     "tags": [
       "IP塑造",
-      "乙女游戏"
+      "乙女游戏",
+      "竞品参考"
     ],
-    "references": 1,
-    "source_article_count": 1,
+    "references": 2,
+    "source_article_count": 2,
     "source_articles": [
       {
         "article_id": "058",
@@ -22,12 +23,60 @@
         "permalink": "/articles/058",
         "markdown_link": "articles/058_2026-01-27_沐秋_张月光给乙女游戏加了个Chatbot.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "158",
+        "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+        "date": "2026-10-19",
+        "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+        "permalink": "/articles/158",
+        "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+        "mention_count": 1
       }
     ],
-    "degree": 2,
-    "composite_weight": 0.0167
+    "degree": 5,
+    "composite_weight": 0.0427
   },
   "links": [
+    {
+      "source": "tipsy",
+      "target": "恋与深空",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Tipsy的增长素材和沉浸感体验对标恋与深空",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "158"
+      ],
+      "evidences": [
+        {
+          "article_id": "158",
+          "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+          "permalink": "/articles/158",
+          "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "date": "2026-10-19",
+          "label": "Tipsy的增长素材和沉浸感体验对标恋与深空",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "恋与深空",
+      "target": "tipsy",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "Tipsy的增长素材和沉浸感体验对标恋与深空",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
     {
       "source": "恋与深空",
       "target": "星眠",
@@ -63,6 +112,19 @@
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "叠纸",
+      "target": "恋与深空",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "叠纸开发恋与深空",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 4,
       "article_count": 0,
       "evidence_articles": [],
       "evidences": []

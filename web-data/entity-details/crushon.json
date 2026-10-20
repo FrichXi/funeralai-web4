@@ -1,0 +1,111 @@
+{
+  "node": {
+    "id": "crushon",
+    "name": "CrushOn",
+    "type": "product",
+    "description": "以尺度大著称的AI陪伴产品，MRR曾达500万美金",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI陪伴",
+      "NSFW"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "158",
+        "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+        "date": "2026-10-19",
+        "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+        "permalink": "/articles/158",
+        "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0371
+  },
+  "links": [
+    {
+      "source": "crushon",
+      "target": "tipsy",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Tipsy与CrushOn在尺度和商业化能力上进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "158"
+      ],
+      "evidences": [
+        {
+          "article_id": "158",
+          "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+          "permalink": "/articles/158",
+          "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "date": "2026-10-19",
+          "label": "文章将Tipsy与CrushOn在尺度和商业化能力上进行对比",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "crushon",
+      "target": "黄果",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "黄果的项目被期待能像CrushOn一样靠大胆尺度取得成功",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "158"
+      ],
+      "evidences": [
+        {
+          "article_id": "158",
+          "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+          "permalink": "/articles/158",
+          "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "date": "2026-10-19",
+          "label": "黄果的项目被期待能像CrushOn一样靠大胆尺度取得成功",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "tipsy",
+      "target": "crushon",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将Tipsy与CrushOn在尺度和商业化能力上进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "黄果",
+      "target": "crushon",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "黄果的项目被期待能像CrushOn一样靠大胆尺度取得成功",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

@@ -1,0 +1,323 @@
+{
+  "article": {
+    "id": "158",
+    "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+    "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+    "date": "2026-10-19",
+    "author": "沐秋",
+    "content_hash": "550cdf72fd6fc7ca120c2f52d435e1958254b874d090c60a178ad543f6d34a6e"
+  },
+  "entities": [
+    {
+      "id": "tipsy",
+      "name": "Tipsy",
+      "type": "product",
+      "description": "一款主打女性向、高ARPPU的AI情感陪伴产品，被称为赛博牛郎店",
+      "mention_count": 36,
+      "aliases": [],
+      "tags": [
+        "AI陪伴",
+        "女性向",
+        "NSFW",
+        "出海"
+      ]
+    },
+    {
+      "id": "c-ai",
+      "name": "C.ai",
+      "type": "product",
+      "description": "Character.AI，初代AI陪伴产品代表，近期被迪士尼收购",
+      "mention_count": 3,
+      "aliases": [
+        "Character.AI"
+      ],
+      "tags": [
+        "AI陪伴",
+        "对话式内容消费"
+      ]
+    },
+    {
+      "id": "crushon",
+      "name": "CrushOn",
+      "type": "product",
+      "description": "以尺度大著称的AI陪伴产品，MRR曾达500万美金",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "AI陪伴",
+        "NSFW"
+      ]
+    },
+    {
+      "id": "emochi",
+      "name": "Emochi",
+      "type": "product",
+      "description": "海外AI陪伴产品，DAU高于Tipsy但客单价较低",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "AI陪伴",
+        "IAA+IAP"
+      ]
+    },
+    {
+      "id": "ming",
+      "name": "Ming",
+      "type": "person",
+      "description": "前明星公司海外增长负责人，资深乙女玩家，本文分析作者",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "AI从业者",
+        "增长专家"
+      ]
+    },
+    {
+      "id": "猫箱",
+      "name": "猫箱",
+      "type": "product",
+      "description": "字节跳动推出的AI角色扮演产品，对标星野",
+      "mention_count": 3,
+      "aliases": [],
+      "tags": [
+        "AI陪伴"
+      ]
+    },
+    {
+      "id": "叠纸",
+      "name": "叠纸",
+      "type": "company",
+      "description": "乙女游戏公司，Ming是其VIP用户",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "游戏公司",
+        "乙女"
+      ]
+    },
+    {
+      "id": "字节跳动",
+      "name": "字节跳动",
+      "type": "company",
+      "description": "猫箱的开发公司，梁琛奇的前雇主",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "大厂",
+        "AI应用"
+      ]
+    },
+    {
+      "id": "星野",
+      "name": "星野",
+      "type": "product",
+      "description": "MiniMax推出的AI角色扮演产品",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "AI陪伴",
+        "MiniMax"
+      ]
+    },
+    {
+      "id": "恋与深空",
+      "name": "恋与深空",
+      "type": "product",
+      "description": "乙女游戏，其素材风格被Tipsy等AI产品借鉴",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "乙女游戏",
+        "竞品参考"
+      ]
+    },
+    {
+      "id": "梁琛奇",
+      "name": "梁琛奇",
+      "type": "person",
+      "description": "猫箱创始人，现获得美团龙珠投资",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "字节跳动前员工"
+      ]
+    },
+    {
+      "id": "美团龙珠",
+      "name": "美团龙珠",
+      "type": "company",
+      "description": "投资机构，投资了梁琛奇的新项目",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "VC",
+        "AI投资"
+      ]
+    },
+    {
+      "id": "迪士尼",
+      "name": "迪士尼",
+      "type": "company",
+      "description": "以2000万美金收购C.ai的公司",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "巨头",
+        "收购方"
+      ]
+    },
+    {
+      "id": "黄果",
+      "name": "黄果",
+      "type": "person",
+      "description": "AI应用创业者，依靠后训练H3模型做男性向产品",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": []
+    }
+  ],
+  "relationships": [
+    {
+      "source": "迪士尼",
+      "target": "C.ai",
+      "relation_type": "acquires",
+      "label": "迪士尼以2000万美金收购了C.ai",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "C.ai",
+      "target": "Tipsy",
+      "relation_type": "compares_to",
+      "label": "Tipsy被视为C.ai之后的新一代产品，且承接了C.ai被收购后的部分用户",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "CrushOn",
+      "target": "Tipsy",
+      "relation_type": "compares_to",
+      "label": "文章将Tipsy与CrushOn在尺度和商业化能力上进行对比",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "CrushOn",
+      "target": "黄果",
+      "relation_type": "compares_to",
+      "label": "黄果的项目被期待能像CrushOn一样靠大胆尺度取得成功",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "low"
+    },
+    {
+      "source": "Emochi",
+      "target": "Tipsy",
+      "relation_type": "compares_to",
+      "label": "文章对比了Tipsy和Emochi在女性向内容、客单价及模型策略上的差异",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Tipsy",
+      "target": "恋与深空",
+      "relation_type": "compares_to",
+      "label": "Tipsy的增长素材和沉浸感体验对标恋与深空",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "medium"
+    },
+    {
+      "source": "星野",
+      "target": "猫箱",
+      "relation_type": "competes_with",
+      "label": "猫箱是字节跳动用来对标星野的产品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "Ming",
+      "target": "Tipsy",
+      "relation_type": "criticizes",
+      "label": "Ming指出Tipsy目前只是现金流生意，缺乏网络效应，估值过高",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "high"
+    },
+    {
+      "source": "字节跳动",
+      "target": "猫箱",
+      "relation_type": "develops",
+      "label": "猫箱是字节跳动开发的产品",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "梁琛奇",
+      "target": "猫箱",
+      "relation_type": "founder_of",
+      "label": "梁琛奇是猫箱的创始人",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "美团龙珠",
+      "target": "梁琛奇",
+      "relation_type": "invests_in",
+      "label": "美团龙珠投资了梁琛奇2000万美金",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Ming",
+      "target": "Tipsy",
+      "relation_type": "praises",
+      "label": "Ming认为Tipsy撬动了高客单价市场，带动了AI应用赛道热度",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "梁琛奇",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "label": "梁琛奇曾在字节跳动工作，后离开",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 14,
+    "relationship_count": 13,
+    "pruned_entities": [
+      {
+        "name": "Loopit",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Rezona",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Talkie",
+        "reason": "low-signal"
+      },
+      {
+        "name": "zeta",
+        "reason": "low-signal"
+      }
+    ],
+    "provider": "dashscope"
+  }
+}

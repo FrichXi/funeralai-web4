@@ -1,0 +1,123 @@
+{
+  "node": {
+    "id": "猫箱",
+    "name": "猫箱",
+    "type": "product",
+    "description": "字节跳动推出的AI角色扮演产品，对标星野",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI陪伴"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "158",
+        "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+        "date": "2026-10-19",
+        "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+        "permalink": "/articles/158",
+        "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0371
+  },
+  "links": [
+    {
+      "source": "星野",
+      "target": "猫箱",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "猫箱是字节跳动用来对标星野的产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "158"
+      ],
+      "evidences": [
+        {
+          "article_id": "158",
+          "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+          "permalink": "/articles/158",
+          "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "date": "2026-10-19",
+          "label": "猫箱是字节跳动用来对标星野的产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "猫箱",
+      "target": "星野",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "猫箱是字节跳动用来对标星野的产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "字节跳动",
+      "target": "猫箱",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "猫箱是字节跳动开发的产品",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "158"
+      ],
+      "evidences": [
+        {
+          "article_id": "158",
+          "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+          "permalink": "/articles/158",
+          "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "date": "2026-10-19",
+          "label": "猫箱是字节跳动开发的产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "梁琛奇",
+      "target": "猫箱",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "梁琛奇是猫箱的创始人",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "158"
+      ],
+      "evidences": [
+        {
+          "article_id": "158",
+          "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+          "permalink": "/articles/158",
+          "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "date": "2026-10-19",
+          "label": "梁琛奇是猫箱的创始人",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

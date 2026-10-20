@@ -4,8 +4,8 @@
     "name": "星野",
     "type": "product",
     "description": "一款AI陪伴聊天应用，被用作与《星眠》进行对比",
-    "mention_count": 13,
-    "article_count": 4,
+    "mention_count": 15,
+    "article_count": 5,
     "aliases": [
       "Talkie",
       "星野app"
@@ -13,15 +13,17 @@
     "tags": [
       "AI对话",
       "AI聊天",
+      "AI陪伴",
       "C端",
       "C端应用",
+      "MiniMax",
       "UGC社区",
       "情感陪伴",
       "抽象网红",
       "智能体"
     ],
-    "references": 4,
-    "source_article_count": 4,
+    "references": 5,
+    "source_article_count": 5,
     "source_articles": [
       {
         "article_id": "004",
@@ -42,6 +44,15 @@
         "mention_count": 4
       },
       {
+        "article_id": "158",
+        "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+        "date": "2026-10-19",
+        "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+        "permalink": "/articles/158",
+        "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+        "mention_count": 2
+      },
+      {
         "article_id": "116",
         "title": "民办大模型MiniMax努力专升本",
         "date": "2026-07-09",
@@ -60,8 +71,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 3,
-    "composite_weight": 0.0378
+    "degree": 5,
+    "composite_weight": 0.0604
   },
   "links": [
     {
@@ -99,6 +110,45 @@
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "星野",
+      "target": "猫箱",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "猫箱是字节跳动用来对标星野的产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "158"
+      ],
+      "evidences": [
+        {
+          "article_id": "158",
+          "title": "揭秘Tipsy：千万美金的赛博牛郎店",
+          "permalink": "/articles/158",
+          "markdown_link": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "path": "articles/158_2026-10-19_沐秋_揭秘Tipsy：千万美金的赛博牛郎店.md",
+          "date": "2026-10-19",
+          "label": "猫箱是字节跳动用来对标星野的产品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "猫箱",
+      "target": "星野",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "猫箱是字节跳动用来对标星野的产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
       "article_count": 0,
       "evidence_articles": [],
       "evidences": []
