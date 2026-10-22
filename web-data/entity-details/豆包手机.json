@@ -4,17 +4,27 @@
     "name": "豆包手机",
     "type": "product",
     "description": "具备AI功能的手机产品，文中作为被围剿和体验不佳的反面案例",
-    "mention_count": 4,
-    "article_count": 2,
+    "mention_count": 9,
+    "article_count": 3,
     "aliases": [],
     "tags": [
       "AI硬件",
       "Agent手机",
+      "GUI",
       "智能手机"
     ],
-    "references": 2,
-    "source_article_count": 2,
+    "references": 3,
+    "source_article_count": 3,
     "source_articles": [
+      {
+        "article_id": "159",
+        "title": "阶跃手机是投降派",
+        "date": "2026-10-21",
+        "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "permalink": "/articles/159",
+        "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "mention_count": 5
+      },
       {
         "article_id": "038",
         "title": "建议蚂蚁集团收购马卡龙",
@@ -34,8 +44,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 4,
-    "composite_weight": 0.0301
+    "degree": 7,
+    "composite_weight": 0.0663
   },
   "links": [
     {
@@ -78,17 +88,69 @@
       "evidences": []
     },
     {
+      "source": "豆包手机",
+      "target": "阶跃ai手机",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为AI手机，但在技术路线(A2A vs GUI)和市场定位上竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "两者均为AI手机，但在技术路线(A2A vs GUI)和市场定位上竞争",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阶跃ai手机",
+      "target": "豆包手机",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "两者均为AI手机，但在技术路线(A2A vs GUI)和市场定位上竞争",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "字节跳动",
       "target": "豆包手机",
       "relation_type": "develops",
       "type": "develops",
-      "label": "字节跳动开发豆包手机",
+      "label": "字节跳动开发了豆包手机",
       "weight": 1,
       "strength": 4,
-      "effective_weight": 4,
-      "article_count": 0,
-      "evidence_articles": [],
-      "evidences": []
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "字节跳动开发了豆包手机",
+          "weight": 1
+        }
+      ]
     },
     {
       "source": "抖音极速版",
@@ -112,6 +174,32 @@
           "path": "articles/051_2026-01-15_骡子马_狠狠办千问.md",
           "date": "2026-01-15",
           "label": "豆包手机内部搭载或联动抖音极速版",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "托马斯白",
+      "target": "豆包手机",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "托马斯白支持GUI路线（豆包手机采用的路线），认为这是Agent进入手机的通用形态",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "托马斯白支持GUI路线（豆包手机采用的路线），认为这是Agent进入手机的通用形态",
           "weight": 1
         }
       ]

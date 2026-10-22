@@ -4,13 +4,14 @@
     "name": "美团",
     "type": "company",
     "description": "拥有美团小美产品的公司，被评价为拥有真实的Personal agent场景",
-    "mention_count": 35,
-    "article_count": 8,
+    "mention_count": 48,
+    "article_count": 9,
     "aliases": [
       "Meituan",
       "团子"
     ],
     "tags": [
+      "AI Agent",
       "AI应用",
       "AI评测",
       "互联网公司",
@@ -19,14 +20,15 @@
       "匿名打榜",
       "团购",
       "国产大模型",
+      "外卖",
       "大模型",
       "本地生活",
       "物理AI",
       "生活方式Agent",
       "算力国产化"
     ],
-    "references": 8,
-    "source_article_count": 8,
+    "references": 9,
+    "source_article_count": 9,
     "source_articles": [
       {
         "article_id": "128",
@@ -36,6 +38,15 @@
         "permalink": "/articles/128",
         "markdown_link": "articles/128_2026-08-04_葬爱咸鱼_美团大模型跟外卖一样纯出来送.md",
         "mention_count": 23
+      },
+      {
+        "article_id": "159",
+        "title": "阶跃手机是投降派",
+        "date": "2026-10-21",
+        "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "permalink": "/articles/159",
+        "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "mention_count": 13
       },
       {
         "article_id": "140",
@@ -101,8 +112,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 14,
-    "composite_weight": 0.1801
+    "degree": 15,
+    "composite_weight": 0.2241
   },
   "links": [
     {
@@ -306,15 +317,26 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "美团开发生活方式Agent应用美团小美",
-      "weight": 2,
+      "weight": 3,
       "strength": 4,
-      "effective_weight": 10,
-      "article_count": 2,
+      "effective_weight": 15,
+      "article_count": 3,
       "evidence_articles": [
         "128",
-        "155"
+        "155",
+        "159"
       ],
       "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "美团开发了AI助手小美",
+          "weight": 1
+        },
         {
           "article_id": "155",
           "title": "Personal agent把用户当傻子",
@@ -401,6 +423,32 @@
       ]
     },
     {
+      "source": "amoo",
+      "target": "美团",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Amoo尝试接入美团外卖服务但仅支持跑腿且体验不佳",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "Amoo尝试接入美团外卖服务但仅支持跑腿且体验不佳",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "红杉资本",
       "target": "美团",
       "relation_type": "invests_in",
@@ -457,14 +505,29 @@
     {
       "source": "kimi",
       "target": "美团",
-      "score": 0.604,
+      "score": 0.674,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "040",
         "116",
         "138",
-        "140"
+        "140",
+        "159"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "美团",
+      "target": "阶跃星辰",
+      "score": 0.5205,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "116",
+        "137",
+        "155",
+        "159"
       ],
       "status": "suggested"
     },
@@ -483,13 +546,27 @@
     {
       "source": "美团",
       "target": "豆包",
-      "score": 0.4605,
+      "score": 0.4485,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "040",
         "128",
         "155"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "字节跳动",
+      "target": "美团",
+      "score": 0.4343,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "018",
+        "040",
+        "155",
+        "159"
       ],
       "status": "suggested"
     }

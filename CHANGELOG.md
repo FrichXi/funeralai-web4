@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+- Content update through 159: 158 articles; latest: 阶跃手机是投降派.
+
 - Content update through 158: 157 articles; latest: 揭秘Tipsy：千万美金的赛博牛郎店.
 
 - Content update through 157: 156 articles; latest: 基座模型田柯宇从不缺卡.

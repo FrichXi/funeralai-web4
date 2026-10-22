@@ -4,17 +4,18 @@
     "name": "光帆耳机",
     "type": "product",
     "description": "AI耳机产品，文中作为生态整合失败的负面案例提及",
-    "mention_count": 21,
-    "article_count": 3,
+    "mention_count": 22,
+    "article_count": 4,
     "aliases": [],
     "tags": [
       "AI硬件",
       "AI耳机",
+      "竞品对比",
       "耳机",
       "负面案例"
     ],
-    "references": 3,
-    "source_article_count": 3,
+    "references": 4,
+    "source_article_count": 4,
     "source_articles": [
       {
         "article_id": "097",
@@ -24,6 +25,15 @@
         "permalink": "/articles/097",
         "markdown_link": "articles/097_2026-05-28_沐秋_光帆耳机拒绝长发男.md",
         "mention_count": 19
+      },
+      {
+        "article_id": "159",
+        "title": "阶跃手机是投降派",
+        "date": "2026-10-21",
+        "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "permalink": "/articles/159",
+        "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "mention_count": 1
       },
       {
         "article_id": "123",
@@ -44,8 +54,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 15,
-    "composite_weight": 0.1306
+    "degree": 17,
+    "composite_weight": 0.15
   },
   "links": [
     {
@@ -216,6 +226,32 @@
       ]
     },
     {
+      "source": "光帆耳机",
+      "target": "阶跃ai手机",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "测试体验相似，均存在硬件拉垮、失败率高的问题",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "测试体验相似，均存在硬件拉垮、失败率高的问题",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "小爱同学",
       "target": "光帆耳机",
       "relation_type": "compares_to",
@@ -247,6 +283,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "作者认为光帆耳机的智能程度远不如豆包",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阶跃ai手机",
+      "target": "光帆耳机",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "测试体验相似，均存在硬件拉垮、失败率高的问题",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -372,5 +421,18 @@
       ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "光帆耳机",
+      "target": "阶跃星辰",
+      "score": 0.4822,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "123",
+        "159"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

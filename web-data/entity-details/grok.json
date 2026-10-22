@@ -60,7 +60,7 @@
       }
     ],
     "degree": 12,
-    "composite_weight": 0.0963
+    "composite_weight": 0.0956
   },
   "links": [
     {
@@ -313,12 +313,23 @@
     {
       "source": "grok",
       "target": "qwen",
-      "score": 0.4351,
+      "score": 0.4851,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "110",
         "155"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "grok",
+      "target": "seed",
+      "score": 0.4151,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "110"
       ],
       "status": "suggested"
     }

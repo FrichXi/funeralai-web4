@@ -1,0 +1,61 @@
+{
+  "node": {
+    "id": "滴滴出行",
+    "name": "滴滴出行",
+    "type": "company",
+    "description": "网约车平台，文中提及对AI调用支持较好",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [
+      "滴滴"
+    ],
+    "tags": [
+      "API开放",
+      "出行"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "159",
+        "title": "阶跃手机是投降派",
+        "date": "2026-10-21",
+        "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "permalink": "/articles/159",
+        "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0197
+  },
+  "links": [
+    {
+      "source": "amoo",
+      "target": "滴滴出行",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Amoo接入了滴滴打车服务，基本可用",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "Amoo接入了滴滴打车服务，基本可用",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

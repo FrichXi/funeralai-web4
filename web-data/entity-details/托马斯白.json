@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "托马斯白",
+    "name": "托马斯白",
+    "type": "person",
+    "description": "《脑放电波》主播，评价GUI Agent像人形机器人",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "媒体人",
+      "行业评论"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "159",
+        "title": "阶跃手机是投降派",
+        "date": "2026-10-21",
+        "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "permalink": "/articles/159",
+        "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0144
+  },
+  "links": [
+    {
+      "source": "托马斯白",
+      "target": "豆包手机",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "托马斯白支持GUI路线（豆包手机采用的路线），认为这是Agent进入手机的通用形态",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "托马斯白支持GUI路线（豆包手机采用的路线），认为这是Agent进入手机的通用形态",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

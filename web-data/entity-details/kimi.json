@@ -4,8 +4,8 @@
     "name": "Kimi",
     "type": "product",
     "description": "具有长上下文能力的大语言模型，文中被用作Claude Code的后端调用模型",
-    "mention_count": 224,
-    "article_count": 38,
+    "mention_count": 225,
+    "article_count": 39,
     "aliases": [
       "K2",
       "K2.7 Code",
@@ -70,8 +70,8 @@
       "长文本处理",
       "高估值"
     ],
-    "references": 38,
-    "source_article_count": 38,
+    "references": 39,
+    "source_article_count": 39,
     "source_articles": [
       {
         "article_id": "134",
@@ -299,6 +299,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "159",
+        "title": "阶跃手机是投降派",
+        "date": "2026-10-21",
+        "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "permalink": "/articles/159",
+        "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "157",
         "title": "基座模型田柯宇从不缺卡",
         "date": "2026-10-13",
@@ -417,7 +426,7 @@
       }
     ],
     "degree": 76,
-    "composite_weight": 0.8812
+    "composite_weight": 0.8823
   },
   "links": [
     {
@@ -1554,14 +1563,25 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "同属AI四小虎的直接竞争对手",
-      "weight": 1,
+      "weight": 2,
       "strength": 3,
-      "effective_weight": 4,
-      "article_count": 1,
+      "effective_weight": 8,
+      "article_count": 2,
       "evidence_articles": [
-        "057"
+        "057",
+        "159"
       ],
       "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "同为大模型公司，在追求智能上限方面存在竞争关系",
+          "weight": 1
+        },
         {
           "article_id": "057",
           "title": "AI四小虎进入狠活大赛",
@@ -2130,9 +2150,9 @@
     {
       "source": "chatgpt",
       "target": "kimi",
-      "score": 0.8781,
+      "score": 0.8281,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 5 篇文章；共享 8 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 8 个邻居",
       "evidence_article_ids": [
         "030",
         "040",
@@ -2147,7 +2167,7 @@
       "target": "字节跳动",
       "score": 0.8039,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 8 篇文章；共享 6 个邻居",
+      "reason": "共同出现于 9 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "040",
         "065",
@@ -2159,10 +2179,25 @@
     },
     {
       "source": "kimi",
-      "target": "openai",
-      "score": 0.6674,
+      "target": "美团",
+      "score": 0.674,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 7 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 5 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "040",
+        "116",
+        "138",
+        "140",
+        "159"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "kimi",
+      "target": "openai",
+      "score": 0.6161,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 7 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "005",
         "048",
@@ -2175,27 +2210,13 @@
     {
       "source": "cursor",
       "target": "kimi",
-      "score": 0.6224,
+      "score": 0.5724,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "004",
         "030",
         "138"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "kimi",
-      "target": "美团",
-      "score": 0.604,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "040",
-        "116",
-        "138",
-        "140"
       ],
       "status": "suggested"
     }

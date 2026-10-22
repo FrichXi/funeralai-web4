@@ -3,9 +3,9 @@
     "id": "锦秋基金",
     "name": "锦秋基金",
     "type": "vc_firm",
-    "description": "AI项目天使期的主要金主之一",
-    "mention_count": 14,
-    "article_count": 4,
+    "description": "投资机构，与红杉一同给施凯文TS",
+    "mention_count": 16,
+    "article_count": 5,
     "aliases": [
       "锦秋"
     ],
@@ -16,8 +16,8 @@
       "基金",
       "美元基金"
     ],
-    "references": 4,
-    "source_article_count": 4,
+    "references": 5,
+    "source_article_count": 5,
     "source_articles": [
       {
         "article_id": "040",
@@ -27,6 +27,15 @@
         "permalink": "/articles/040",
         "markdown_link": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
         "mention_count": 10
+      },
+      {
+        "article_id": "159",
+        "title": "阶跃手机是投降派",
+        "date": "2026-10-21",
+        "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "permalink": "/articles/159",
+        "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "mention_count": 2
       },
       {
         "article_id": "061",
@@ -56,8 +65,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 16,
-    "composite_weight": 0.1145
+    "degree": 17,
+    "composite_weight": 0.131
   },
   "links": [
     {
@@ -290,6 +299,32 @@
           "path": "articles/040_2025-12-12_沐秋_出走字节狂投AI锦秋基金为什么不叫「杨洁跳动」AI死机.md",
           "date": "2025-12-12",
           "label": "锦秋基金在Pre IPO轮次投资了宇树科技",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "锦秋基金",
+      "target": "施凯文",
+      "relation_type": "invests_in",
+      "type": "invests_in",
+      "label": "锦秋曾给施凯文TS但最终资金未到账",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "锦秋曾给施凯文TS但最终资金未到账",
           "weight": 1
         }
       ]

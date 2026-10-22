@@ -4,8 +4,8 @@
     "name": "MiniMax",
     "type": "company",
     "description": "国内头部大模型公司，开发了M3模型、海螺视频模型及Talkie/星野等C端产品",
-    "mention_count": 297,
-    "article_count": 32,
+    "mention_count": 298,
+    "article_count": 33,
     "aliases": [
       "MinMax",
       "Minimax"
@@ -41,8 +41,8 @@
       "视频生成",
       "视频生成模型"
     ],
-    "references": 32,
-    "source_article_count": 32,
+    "references": 33,
+    "source_article_count": 33,
     "source_articles": [
       {
         "article_id": "117",
@@ -270,6 +270,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "159",
+        "title": "阶跃手机是投降派",
+        "date": "2026-10-21",
+        "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "permalink": "/articles/159",
+        "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "151",
         "title": "冕神信仰公开课来了",
         "date": "2026-09-17",
@@ -334,7 +343,7 @@
       }
     ],
     "degree": 51,
-    "composite_weight": 0.7578
+    "composite_weight": 0.7592
   },
   "links": [
     {
@@ -1089,16 +1098,27 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "同为国内大模型领域的AI六小虎，存在行业竞争关系",
-      "weight": 3,
+      "weight": 4,
       "strength": 3,
-      "effective_weight": 12,
-      "article_count": 3,
+      "effective_weight": 16,
+      "article_count": 4,
       "evidence_articles": [
         "004",
         "057",
-        "116"
+        "116",
+        "159"
       ],
       "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "同为大模型公司，在追求智能上限方面存在竞争关系",
+          "weight": 1
+        },
         {
           "article_id": "116",
           "title": "民办大模型MiniMax努力专升本",
@@ -1845,7 +1865,7 @@
       "target": "minimax",
       "score": 0.6365,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "060",
         "099",
@@ -1858,7 +1878,7 @@
     {
       "source": "minimax",
       "target": "豆包",
-      "score": 0.6173,
+      "score": 0.6167,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 5 个邻居",
       "evidence_article_ids": [

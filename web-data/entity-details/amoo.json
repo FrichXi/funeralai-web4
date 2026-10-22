@@ -3,16 +3,29 @@
     "id": "amoo",
     "name": "Amoo",
     "type": "product",
-    "description": "阶跃星辰推出的智能体应用",
-    "mention_count": 3,
-    "article_count": 1,
-    "aliases": [],
+    "description": "阶跃AI手机内置的AI助手及应用商店",
+    "mention_count": 14,
+    "article_count": 2,
+    "aliases": [
+      "Amoo store"
+    ],
     "tags": [
+      "AI Agent",
+      "应用商店",
       "智能体"
     ],
-    "references": 1,
-    "source_article_count": 1,
+    "references": 2,
+    "source_article_count": 2,
     "source_articles": [
+      {
+        "article_id": "159",
+        "title": "阶跃手机是投降派",
+        "date": "2026-10-21",
+        "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "permalink": "/articles/159",
+        "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "mention_count": 11
+      },
       {
         "article_id": "123",
         "title": "阶跃软的不行来硬的",
@@ -23,8 +36,8 @@
         "mention_count": 3
       }
     ],
-    "degree": 3,
-    "composite_weight": 0.0273
+    "degree": 10,
+    "composite_weight": 0.1022
   },
   "links": [
     {
@@ -54,11 +67,50 @@
       ]
     },
     {
+      "source": "amoo",
+      "target": "美团小美",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在外卖点单场景下，Amoo体验远不如美团小美",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "在外卖点单场景下，Amoo体验远不如美团小美",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "anthropic",
       "target": "amoo",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "Amoo的Logo被指在Anthropic Logo基础上加了刘海，设计高度相似",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "美团小美",
+      "target": "amoo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在外卖点单场景下，Amoo体验远不如美团小美",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -88,6 +140,136 @@
           "path": "articles/123_2026-07-23_沐秋_阶跃软的不行来硬的.md",
           "date": "2026-07-23",
           "label": "阶跃星辰开发了Amoo智能体",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "amoo",
+      "target": "携程",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Amoo接入了携程浏览界面但无法代下单",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "Amoo接入了携程浏览界面但无法代下单",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "amoo",
+      "target": "滴滴出行",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Amoo接入了滴滴打车服务，基本可用",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "Amoo接入了滴滴打车服务，基本可用",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "amoo",
+      "target": "美团",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Amoo尝试接入美团外卖服务但仅支持跑腿且体验不佳",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "Amoo尝试接入美团外卖服务但仅支持跑腿且体验不佳",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "amoo",
+      "target": "阶跃ai手机",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "阶跃AI手机内置Amoo助手及应用商店",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "阶跃AI手机内置Amoo助手及应用商店",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "施凯文",
+      "target": "amoo",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "施凯文负责阶跃手机中的Agent(即Amoo)相关业务",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "施凯文负责阶跃手机中的Agent(即Amoo)相关业务",
           "weight": 1
         }
       ]

@@ -4,12 +4,13 @@
     "name": "阶跃星辰",
     "type": "company",
     "description": "AI四小虎之一，近期B+轮融资超50亿元，走软硬件一体闭环路线的大模型公司",
-    "mention_count": 82,
-    "article_count": 17,
+    "mention_count": 115,
+    "article_count": 18,
     "aliases": [
       "阶跃"
     ],
     "tags": [
+      "A2A路线",
       "AI公司",
       "AI六小虎",
       "AI初创",
@@ -24,9 +25,18 @@
       "智能体",
       "软硬件一体"
     ],
-    "references": 17,
-    "source_article_count": 17,
+    "references": 18,
+    "source_article_count": 18,
     "source_articles": [
+      {
+        "article_id": "159",
+        "title": "阶跃手机是投降派",
+        "date": "2026-10-21",
+        "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "permalink": "/articles/159",
+        "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "mention_count": 33
+      },
       {
         "article_id": "123",
         "title": "阶跃软的不行来硬的",
@@ -181,8 +191,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 57,
-    "composite_weight": 0.5078
+    "degree": 62,
+    "composite_weight": 0.6049
   },
   "links": [
     {
@@ -207,6 +217,32 @@
           "path": "articles/117_2026-07-11_沐秋_我来给MiniMax道歉了.md",
           "date": "2026-07-11",
           "label": "同属AI四小龙，处于四进二竞争阶段",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "today-ai",
+      "target": "阶跃星辰",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章讨论AI应用公司与模型公司的关系时，将Today AI与阶跃进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "文章讨论AI应用公司与模型公司的关系时，将Today AI与阶跃进行对比",
           "weight": 1
         }
       ]
@@ -382,6 +418,19 @@
     },
     {
       "source": "阶跃星辰",
+      "target": "today-ai",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章讨论AI应用公司与模型公司的关系时，将Today AI与阶跃进行对比",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阶跃星辰",
       "target": "云从科技",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -477,14 +526,25 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "同属AI四小虎的直接竞争对手",
-      "weight": 1,
+      "weight": 2,
       "strength": 3,
-      "effective_weight": 4,
-      "article_count": 1,
+      "effective_weight": 8,
+      "article_count": 2,
       "evidence_articles": [
-        "057"
+        "057",
+        "159"
       ],
       "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "同为大模型公司，在追求智能上限方面存在竞争关系",
+          "weight": 1
+        },
         {
           "article_id": "057",
           "title": "AI四小虎进入狠活大赛",
@@ -503,16 +563,27 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "同为国内大模型领域的AI六小虎，存在行业竞争关系",
-      "weight": 3,
+      "weight": 4,
       "strength": 3,
-      "effective_weight": 12,
-      "article_count": 3,
+      "effective_weight": 16,
+      "article_count": 4,
       "evidence_articles": [
         "004",
         "057",
-        "116"
+        "116",
+        "159"
       ],
       "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "同为大模型公司，在追求智能上限方面存在竞争关系",
+          "weight": 1
+        },
         {
           "article_id": "116",
           "title": "民办大模型MiniMax努力专升本",
@@ -577,16 +648,27 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "同被列为AI六小虎并在业务路线上被对比评价",
-      "weight": 3,
+      "weight": 4,
       "strength": 3,
-      "effective_weight": 12,
-      "article_count": 3,
+      "effective_weight": 16,
+      "article_count": 4,
       "evidence_articles": [
         "004",
         "057",
-        "109"
+        "109",
+        "159"
       ],
       "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "同为大模型公司，在追求智能上限方面存在竞争关系",
+          "weight": 1
+        },
         {
           "article_id": "109",
           "title": "智谱与Anthropic是母凭子贵",
@@ -1191,6 +1273,32 @@
     },
     {
       "source": "阶跃星辰",
+      "target": "阶跃ai手机",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "阶跃星辰开发了阶跃AI手机",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "阶跃星辰开发了阶跃AI手机",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阶跃星辰",
       "target": "阶跃ai桌面伙伴",
       "relation_type": "develops",
       "type": "develops",
@@ -1424,6 +1532,32 @@
       ]
     },
     {
+      "source": "转转",
+      "target": "阶跃星辰",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "转转出现在阶跃晒出的朋友圈中，暗示有合作关系（尽管实际未打通）",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "转转出现在阶跃晒出的朋友圈中，暗示有合作关系（尽管实际未打通）",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "印奇",
       "target": "阶跃星辰",
       "relation_type": "works_at",
@@ -1445,6 +1579,32 @@
           "path": "articles/057_2026-01-26_葬爱咸鱼_AI四小虎进入狠活大赛.md",
           "date": "2026-01-26",
           "label": "印奇回归并出任阶跃星辰董事长",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "施凯文",
+      "target": "阶跃星辰",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "施凯文入职阶跃星辰负责Agent业务",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "施凯文入职阶跃星辰负责Agent业务",
           "weight": 1
         }
       ]
@@ -1523,21 +1683,22 @@
     {
       "source": "anthropic",
       "target": "阶跃星辰",
-      "score": 0.5451,
+      "score": 0.6077,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "109",
-        "123"
+        "123",
+        "159"
       ],
       "status": "suggested"
     },
     {
       "source": "葬爱咸鱼",
       "target": "阶跃星辰",
-      "score": 0.5311,
+      "score": 0.5811,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "053",
         "116",

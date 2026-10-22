@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-20T06:03:16Z",
+  "updatedAt": "2026-10-22T06:01:52Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -3161,6 +3161,26 @@
       "artifact_path": "data/extracted/158.json",
       "raw_path": "data/gemini_raw/158.json",
       "extracted_at": "2026-10-20T06:03:16Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "159": {
+      "article_id": "159",
+      "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+      "title": "阶跃手机是投降派",
+      "date": "2026-10-21",
+      "author": "沐秋",
+      "content_hash": "eec6e012ccce6e8625e57cb7ff6896cb00ab49a36125f373c42670c11507052e",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/159.json",
+      "raw_path": "data/gemini_raw/159.json",
+      "extracted_at": "2026-10-22T06:01:52Z",
       "last_error": null,
       "extractor": {
         "name": "dashscope",

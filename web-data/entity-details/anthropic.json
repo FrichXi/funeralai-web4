@@ -4,8 +4,8 @@
     "name": "Anthropic",
     "type": "company",
     "description": "Claude及Claude Code背后的AI开发公司",
-    "mention_count": 33,
-    "article_count": 15,
+    "mention_count": 36,
+    "article_count": 16,
     "aliases": [
       "A畜"
     ],
@@ -19,11 +19,12 @@
       "大模型厂商",
       "模型公司",
       "模型厂",
+      "知识产权",
       "美国AI",
       "闭源模型"
     ],
-    "references": 15,
-    "source_article_count": 15,
+    "references": 16,
+    "source_article_count": 16,
     "source_articles": [
       {
         "article_id": "109",
@@ -33,6 +34,15 @@
         "permalink": "/articles/109",
         "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
         "mention_count": 13
+      },
+      {
+        "article_id": "159",
+        "title": "阶跃手机是投降派",
+        "date": "2026-10-21",
+        "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "permalink": "/articles/159",
+        "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "mention_count": 3
       },
       {
         "article_id": "031",
@@ -161,8 +171,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 24,
-    "composite_weight": 0.2337
+    "degree": 26,
+    "composite_weight": 0.2568
   },
   "links": [
     {
@@ -294,6 +304,32 @@
       ]
     },
     {
+      "source": "anthropic",
+      "target": "阶跃ai手机",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "阶跃手机早期Logo被指抄袭Anthropic",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "阶跃手机早期Logo被指抄袭Anthropic",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "kimi",
       "target": "anthropic",
       "relation_type": "compares_to",
@@ -325,6 +361,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "文章调侃因为Anthropic给智谱带来了巨大流量收益，智谱仿佛成了Anthropic的“母公司”（母凭子贵）",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "阶跃ai手机",
+      "target": "anthropic",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "阶跃手机早期Logo被指抄袭Anthropic",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -795,13 +844,26 @@
       "target": "minimax",
       "score": 0.6365,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 7 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "060",
         "099",
         "103",
         "105",
         "109"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "anthropic",
+      "target": "阶跃星辰",
+      "score": 0.6077,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "109",
+        "123",
+        "159"
       ],
       "status": "suggested"
     },
@@ -817,21 +879,6 @@
         "070",
         "105",
         "136"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "anthropic",
-      "target": "qwen",
-      "score": 0.5868,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 5 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "060",
-        "066",
-        "099",
-        "103",
-        "105"
       ],
       "status": "suggested"
     }

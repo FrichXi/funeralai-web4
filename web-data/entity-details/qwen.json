@@ -307,7 +307,7 @@
       }
     ],
     "degree": 61,
-    "composite_weight": 0.6899
+    "composite_weight": 0.6843
   },
   "links": [
     {
@@ -1682,21 +1682,6 @@
     },
     {
       "source": "qwen",
-      "target": "字节跳动",
-      "score": 0.6808,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "064",
-        "103",
-        "110",
-        "112",
-        "155"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "qwen",
       "target": "阶跃星辰",
       "score": 0.677,
       "suggested_relation_type": "related",
@@ -1706,6 +1691,21 @@
         "049",
         "110",
         "134",
+        "155"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "qwen",
+      "target": "字节跳动",
+      "score": 0.6476,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "064",
+        "103",
+        "110",
+        "112",
         "155"
       ],
       "status": "suggested"

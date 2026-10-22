@@ -4,15 +4,17 @@
     "name": "转转",
     "type": "company",
     "description": "二手交易平台，文中用作比喻Lovart的套壳和流量转移生意。",
-    "mention_count": 6,
-    "article_count": 1,
+    "mention_count": 10,
+    "article_count": 2,
     "aliases": [],
     "tags": [
       "中转站",
-      "二手平台"
+      "二手交易",
+      "二手平台",
+      "生态合作"
     ],
-    "references": 1,
-    "source_article_count": 1,
+    "references": 2,
+    "source_article_count": 2,
     "source_articles": [
       {
         "article_id": "073",
@@ -22,10 +24,19 @@
         "permalink": "/articles/073",
         "markdown_link": "articles/073_2026-03-19_沐秋_Lovart狂做TapNow.md",
         "mention_count": 6
+      },
+      {
+        "article_id": "159",
+        "title": "阶跃手机是投降派",
+        "date": "2026-10-21",
+        "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "permalink": "/articles/159",
+        "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "mention_count": 4
       }
     ],
-    "degree": 4,
-    "composite_weight": 0.0326
+    "degree": 5,
+    "composite_weight": 0.0547
   },
   "links": [
     {
@@ -105,6 +116,32 @@
       "article_count": 0,
       "evidence_articles": [],
       "evidences": []
+    },
+    {
+      "source": "转转",
+      "target": "阶跃星辰",
+      "relation_type": "partners_with",
+      "type": "partners_with",
+      "label": "转转出现在阶跃晒出的朋友圈中，暗示有合作关系（尽管实际未打通）",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "转转出现在阶跃晒出的朋友圈中，暗示有合作关系（尽管实际未打通）",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": []

@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "携程",
+    "name": "携程",
+    "type": "company",
+    "description": "在线旅游平台，阶跃手机仅打通其浏览界面",
+    "mention_count": 3,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "AI集成",
+      "OTA"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "159",
+        "title": "阶跃手机是投降派",
+        "date": "2026-10-21",
+        "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "permalink": "/articles/159",
+        "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "mention_count": 3
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0197
+  },
+  "links": [
+    {
+      "source": "amoo",
+      "target": "携程",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "Amoo接入了携程浏览界面但无法代下单",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "Amoo接入了携程浏览界面但无法代下单",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

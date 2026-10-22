@@ -4,20 +4,31 @@
     "name": "美团小美",
     "type": "product",
     "description": "美团的AI助手，被评价为比Today AI更符合生活助理定义，具备真实线下服务场景",
-    "mention_count": 7,
-    "article_count": 3,
+    "mention_count": 14,
+    "article_count": 4,
     "aliases": [
       "小美"
     ],
     "tags": [
+      "AI Agent",
       "AI应用",
       "Agent",
       "Personal agent",
+      "外卖服务",
       "生活服务"
     ],
-    "references": 3,
-    "source_article_count": 3,
+    "references": 4,
+    "source_article_count": 4,
     "source_articles": [
+      {
+        "article_id": "159",
+        "title": "阶跃手机是投降派",
+        "date": "2026-10-21",
+        "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "permalink": "/articles/159",
+        "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+        "mention_count": 7
+      },
       {
         "article_id": "155",
         "title": "Personal agent把用户当傻子",
@@ -46,10 +57,49 @@
         "mention_count": 1
       }
     ],
-    "degree": 6,
-    "composite_weight": 0.0659
+    "degree": 8,
+    "composite_weight": 0.101
   },
   "links": [
+    {
+      "source": "amoo",
+      "target": "美团小美",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在外卖点单场景下，Amoo体验远不如美团小美",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "159"
+      ],
+      "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "在外卖点单场景下，Amoo体验远不如美团小美",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "美团小美",
+      "target": "amoo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "在外卖点单场景下，Amoo体验远不如美团小美",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
     {
       "source": "美团小美",
       "target": "豆包",
@@ -134,15 +184,26 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "美团开发生活方式Agent应用美团小美",
-      "weight": 2,
+      "weight": 3,
       "strength": 4,
-      "effective_weight": 10,
-      "article_count": 2,
+      "effective_weight": 15,
+      "article_count": 3,
       "evidence_articles": [
         "128",
-        "155"
+        "155",
+        "159"
       ],
       "evidences": [
+        {
+          "article_id": "159",
+          "title": "阶跃手机是投降派",
+          "permalink": "/articles/159",
+          "markdown_link": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
+          "date": "2026-10-21",
+          "label": "美团开发了AI助手小美",
+          "weight": 1
+        },
         {
           "article_id": "155",
           "title": "Personal agent把用户当傻子",
@@ -192,5 +253,18 @@
       ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "美团小美",
+      "target": "阶跃星辰",
+      "score": 0.4347,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "155",
+        "159"
+      ],
+      "status": "suggested"
+    }
+  ]
 }
