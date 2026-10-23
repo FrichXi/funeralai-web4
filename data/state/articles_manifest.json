@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-22T06:01:52Z",
+  "updatedAt": "2026-10-23T05:57:41Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -3181,6 +3181,26 @@
       "artifact_path": "data/extracted/159.json",
       "raw_path": "data/gemini_raw/159.json",
       "extracted_at": "2026-10-22T06:01:52Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "160": {
+      "article_id": "160",
+      "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+      "title": "豆包手机纯属豆姐痛机",
+      "date": "2026-10-22",
+      "author": "葬爱咸鱼",
+      "content_hash": "76a9992c70248c92d9a26cc993911c1eb479eeabfc42e2e3d338feccd25f20d2",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/160.json",
+      "raw_path": "data/gemini_raw/160.json",
+      "extracted_at": "2026-10-23T05:57:41Z",
       "last_error": null,
       "extractor": {
         "name": "dashscope",

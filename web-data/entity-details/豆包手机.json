@@ -3,19 +3,34 @@
     "id": "豆包手机",
     "name": "豆包手机",
     "type": "product",
-    "description": "具备AI功能的手机产品，文中作为被围剿和体验不佳的反面案例",
-    "mention_count": 9,
-    "article_count": 3,
-    "aliases": [],
+    "description": "字节跳动与努比亚联合研发的AI手机，搭载豆包手机助手消费者版",
+    "mention_count": 68,
+    "article_count": 4,
+    "aliases": [
+      "努比亚NaviX Ultra",
+      "豆二代"
+    ],
     "tags": [
+      "AI手机",
       "AI硬件",
       "Agent手机",
       "GUI",
+      "GUI路线",
+      "Personal agent",
       "智能手机"
     ],
-    "references": 3,
-    "source_article_count": 3,
+    "references": 4,
+    "source_article_count": 4,
     "source_articles": [
+      {
+        "article_id": "160",
+        "title": "豆包手机纯属豆姐痛机",
+        "date": "2026-10-22",
+        "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "permalink": "/articles/160",
+        "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "mention_count": 59
+      },
       {
         "article_id": "159",
         "title": "阶跃手机是投降派",
@@ -44,10 +59,114 @@
         "mention_count": 1
       }
     ],
-    "degree": 7,
-    "composite_weight": 0.0663
+    "degree": 19,
+    "composite_weight": 0.2065
   },
   "links": [
+    {
+      "source": "千问app",
+      "target": "豆包手机",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者在海外使用场景下，认为豆包手机体验等同于用千问APP截图问答",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "作者在海外使用场景下，认为豆包手机体验等同于用千问APP截图问答",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包手机",
+      "target": "千问app",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者在海外使用场景下，认为豆包手机体验等同于用千问APP截图问答",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "豆包手机",
+      "target": "阶跃手机",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将豆包手机的GUI路线与阶跃手机的A2A路线进行对比讨论",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "文章将豆包手机的GUI路线与阶跃手机的A2A路线进行对比讨论",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阶跃手机",
+      "target": "豆包手机",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将豆包手机的GUI路线与阶跃手机的A2A路线进行对比讨论",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "oppo",
+      "target": "豆包手机",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为安卓旗舰机竞品，作者对比了拍照和镜头切换体验",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "同为安卓旗舰机竞品，作者对比了拍照和镜头切换体验",
+          "weight": 1
+        }
+      ]
+    },
     {
       "source": "qwen",
       "target": "豆包手机",
@@ -75,11 +194,63 @@
       ]
     },
     {
+      "source": "华为",
+      "target": "豆包手机",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同价位段竞争，作者认为华为阔直板在质感和创新上优于豆包手机",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "同价位段竞争，作者认为华为阔直板在质感和创新上优于豆包手机",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包手机",
+      "target": "oppo",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同为安卓旗舰机竞品，作者对比了拍照和镜头切换体验",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
       "source": "豆包手机",
       "target": "qwen",
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "文章将千问的高效办事能力与豆包手机的表现不佳进行对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "豆包手机",
+      "target": "华为",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同价位段竞争，作者认为华为阔直板在质感和创新上优于豆包手机",
       "weight": 1,
       "strength": 3,
       "effective_weight": 3,
@@ -127,19 +298,56 @@
       "evidences": []
     },
     {
-      "source": "字节跳动",
+      "source": "努比亚",
       "target": "豆包手机",
       "relation_type": "develops",
       "type": "develops",
-      "label": "字节跳动开发了豆包手机",
+      "label": "努比亚作为硬件合作方参与研发豆包手机（努比亚NaviX Ultra）",
       "weight": 1,
       "strength": 4,
       "effective_weight": 5,
       "article_count": 1,
       "evidence_articles": [
-        "159"
+        "160"
       ],
       "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "努比亚作为硬件合作方参与研发豆包手机（努比亚NaviX Ultra）",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "字节跳动",
+      "target": "豆包手机",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "字节跳动开发了豆包手机",
+      "weight": 2,
+      "strength": 4,
+      "effective_weight": 10,
+      "article_count": 2,
+      "evidence_articles": [
+        "159",
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "字节跳动与努比亚共同研发豆包手机",
+          "weight": 1
+        },
         {
           "article_id": "159",
           "title": "阶跃手机是投降派",
@@ -148,6 +356,32 @@
           "path": "articles/159_2026-10-21_沐秋_阶跃手机是投降派.md",
           "date": "2026-10-21",
           "label": "字节跳动开发了豆包手机",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "抖音",
+      "target": "豆包手机",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "豆包手机通过GUI路线打通抖音，调用其外卖、酒店等服务",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "豆包手机通过GUI路线打通抖音，调用其外卖、酒店等服务",
           "weight": 1
         }
       ]
@@ -179,6 +413,32 @@
       ]
     },
     {
+      "source": "豆包手机",
+      "target": "飞书",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "豆包手机可调用飞书进行发消息、创建会议等操作",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "豆包手机可调用飞书进行发消息、创建会议等操作",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "托马斯白",
       "target": "豆包手机",
       "relation_type": "praises",
@@ -203,7 +463,57 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "刘成城",
+      "target": "豆包手机",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "刘成城作为负责人主导豆包手机助手产品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "刘成城作为负责人主导豆包手机助手产品",
+          "weight": 1
+        }
+      ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "豆包",
+      "target": "豆包手机",
+      "score": 0.5122,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 1 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "038"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "豆包手机",
+      "target": "齐俊元",
+      "score": 0.4208,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "159",
+        "160"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

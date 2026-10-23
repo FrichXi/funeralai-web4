@@ -4,8 +4,8 @@
     "name": "齐俊元",
     "type": "person",
     "description": "Today AI创始人，被评价为独立思考但战略缺失，建议其接管豆包手机业务",
-    "mention_count": 7,
-    "article_count": 3,
+    "mention_count": 8,
+    "article_count": 4,
     "aliases": [
       "俊元同学"
     ],
@@ -14,8 +14,8 @@
       "Today AI创始人",
       "比喻对象"
     ],
-    "references": 3,
-    "source_article_count": 3,
+    "references": 4,
+    "source_article_count": 4,
     "source_articles": [
       {
         "article_id": "155",
@@ -36,6 +36,15 @@
         "mention_count": 2
       },
       {
+        "article_id": "160",
+        "title": "豆包手机纯属豆姐痛机",
+        "date": "2026-10-22",
+        "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "permalink": "/articles/160",
+        "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "mention_count": 1
+      },
+      {
         "article_id": "159",
         "title": "阶跃手机是投降派",
         "date": "2026-10-21",
@@ -45,8 +54,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 5,
-    "composite_weight": 0.0563
+    "degree": 6,
+    "composite_weight": 0.0699
   },
   "links": [
     {
@@ -165,7 +174,46 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "齐俊元",
+      "target": "阶跃手机",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "齐俊元曾主导阶跃手机项目（文中推测不再继续）",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "齐俊元曾主导阶跃手机项目（文中推测不再继续）",
+          "weight": 1
+        }
+      ]
     }
   ],
-  "suggested_edges": []
+  "suggested_edges": [
+    {
+      "source": "豆包手机",
+      "target": "齐俊元",
+      "score": 0.4208,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "159",
+        "160"
+      ],
+      "status": "suggested"
+    }
+  ]
 }

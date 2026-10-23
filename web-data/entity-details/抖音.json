@@ -4,21 +4,23 @@
     "name": "抖音",
     "type": "product",
     "description": "短视频内容平台，作者提到用Medeo生成的解说视频适合发布在该平台上做营销号起号。",
-    "mention_count": 47,
-    "article_count": 8,
+    "mention_count": 64,
+    "article_count": 9,
     "aliases": [
       "TikTok"
     ],
     "tags": [
       "字节跳动",
       "数据源",
+      "本地生活",
+      "生态闭环",
       "短视频",
       "短视频平台",
       "社交",
       "营销号"
     ],
-    "references": 8,
-    "source_article_count": 8,
+    "references": 9,
+    "source_article_count": 9,
     "source_articles": [
       {
         "article_id": "062",
@@ -28,6 +30,15 @@
         "permalink": "/articles/062",
         "markdown_link": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
         "mention_count": 22
+      },
+      {
+        "article_id": "160",
+        "title": "豆包手机纯属豆姐痛机",
+        "date": "2026-10-22",
+        "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "permalink": "/articles/160",
+        "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "mention_count": 17
       },
       {
         "article_id": "063",
@@ -93,8 +104,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 11,
-    "composite_weight": 0.1381
+    "degree": 12,
+    "composite_weight": 0.1935
   },
   "links": [
     {
@@ -387,13 +398,39 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "抖音",
+      "target": "豆包手机",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "豆包手机通过GUI路线打通抖音，调用其外卖、酒店等服务",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "豆包手机通过GUI路线打通抖音，调用其外卖、酒店等服务",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "即梦",
       "target": "抖音",
-      "score": 0.5512,
+      "score": 0.5508,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 4 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -405,9 +442,22 @@
       "status": "suggested"
     },
     {
+      "source": "抖音",
+      "target": "飞书",
+      "score": 0.4843,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "070",
+        "088",
+        "160"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "小云雀",
       "target": "抖音",
-      "score": 0.4812,
+      "score": 0.4808,
       "suggested_relation_type": "compares_to",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [

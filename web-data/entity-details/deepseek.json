@@ -285,7 +285,7 @@
       }
     ],
     "degree": 51,
-    "composite_weight": 0.5358
+    "composite_weight": 0.5321
   },
   "links": [
     {
@@ -1426,6 +1426,20 @@
     },
     {
       "source": "deepseek",
+      "target": "glm",
+      "score": 0.577,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "049",
+        "105",
+        "109",
+        "110"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "deepseek",
       "target": "杨植麟",
       "score": 0.5301,
       "suggested_relation_type": "related",
@@ -1447,20 +1461,6 @@
       "reason": "共同出现于 2 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "004",
-        "110"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "deepseek",
-      "target": "glm",
-      "score": 0.527,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "049",
-        "105",
-        "109",
         "110"
       ],
       "status": "suggested"

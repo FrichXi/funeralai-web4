@@ -4,18 +4,19 @@
     "name": "千问APP",
     "type": "product",
     "description": "阿里巴巴推出的C端AI应用，集成Agent能力与多模态功能",
-    "mention_count": 10,
-    "article_count": 1,
+    "mention_count": 11,
+    "article_count": 2,
     "aliases": [
       "通义APP"
     ],
     "tags": [
       "2C应用",
       "Agent",
-      "Chatbot"
+      "Chatbot",
+      "大模型应用"
     ],
-    "references": 1,
-    "source_article_count": 1,
+    "references": 2,
+    "source_article_count": 2,
     "source_articles": [
       {
         "article_id": "112",
@@ -25,12 +26,60 @@
         "permalink": "/articles/112",
         "markdown_link": "articles/112_2026-07-02_葬爱咸鱼_老天保佑Qwen救救阿里巴巴.md",
         "mention_count": 10
+      },
+      {
+        "article_id": "160",
+        "title": "豆包手机纯属豆姐痛机",
+        "date": "2026-10-22",
+        "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "permalink": "/articles/160",
+        "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "mention_count": 1
       }
     ],
-    "degree": 3,
-    "composite_weight": 0.0383
+    "degree": 5,
+    "composite_weight": 0.0581
   },
   "links": [
+    {
+      "source": "千问app",
+      "target": "豆包手机",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者在海外使用场景下，认为豆包手机体验等同于用千问APP截图问答",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "作者在海外使用场景下，认为豆包手机体验等同于用千问APP截图问答",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包手机",
+      "target": "千问app",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者在海外使用场景下，认为豆包手机体验等同于用千问APP截图问答",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
     {
       "source": "千问app",
       "target": "豆包",

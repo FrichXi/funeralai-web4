@@ -1,0 +1,60 @@
+{
+  "node": {
+    "id": "赵祺",
+    "name": "赵祺",
+    "type": "person",
+    "description": "文中提及的字节跳动相关高管（大统领阁下）",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [
+      "赵祺大统领阁下"
+    ],
+    "tags": [
+      "高管"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "160",
+        "title": "豆包手机纯属豆姐痛机",
+        "date": "2026-10-22",
+        "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "permalink": "/articles/160",
+        "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0142
+  },
+  "links": [
+    {
+      "source": "赵祺",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "文中以“大统领阁下”称呼，暗示其为字节跳动高层",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "文中以“大统领阁下”称呼，暗示其为字节跳动高层",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

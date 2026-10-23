@@ -4,8 +4,8 @@
     "name": "字节跳动",
     "type": "company",
     "description": "中国互联网科技公司，开发了抖音、即梦等产品，文中探讨了其通过AI视频模型实现社交的布局。",
-    "mention_count": 210,
-    "article_count": 42,
+    "mention_count": 220,
+    "article_count": 43,
     "aliases": [
       "ByteDance",
       "大厂",
@@ -14,6 +14,7 @@
       "字节家族",
       "字节系",
       "宇宙厂",
+      "抖音集团",
       "火山",
       "老东家",
       "自绝跳动"
@@ -52,8 +53,8 @@
       "视频生成",
       "语音模型"
     ],
-    "references": 42,
-    "source_article_count": 42,
+    "references": 43,
+    "source_article_count": 43,
     "source_articles": [
       {
         "article_id": "040",
@@ -99,6 +100,15 @@
         "permalink": "/articles/062",
         "markdown_link": "articles/062_2026-02-10_骡子马_Seedance 2.0让字节元神启动.md",
         "mention_count": 12
+      },
+      {
+        "article_id": "160",
+        "title": "豆包手机纯属豆姐痛机",
+        "date": "2026-10-22",
+        "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "permalink": "/articles/160",
+        "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "mention_count": 10
       },
       {
         "article_id": "145",
@@ -434,8 +444,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 64,
-    "composite_weight": 0.8356
+    "degree": 67,
+    "composite_weight": 0.8791
   },
   "links": [
     {
@@ -1991,14 +2001,25 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "字节跳动开发了豆包手机",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "159"
+        "159",
+        "160"
       ],
       "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "字节跳动与努比亚共同研发豆包手机",
+          "weight": 1
+        },
         {
           "article_id": "159",
           "title": "阶跃手机是投降派",
@@ -2234,6 +2255,32 @@
       ]
     },
     {
+      "source": "刘成城",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "刘成城担任豆包手机助手负责人，任职于字节跳动",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "刘成城担任豆包手机助手负责人，任职于字节跳动",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "吴永辉",
       "target": "字节跳动",
       "relation_type": "works_at",
@@ -2390,6 +2437,32 @@
       ]
     },
     {
+      "source": "梁一鸣",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "文中以“一鸣总司令官先生”称呼，暗示其为字节跳动高层",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "文中以“一鸣总司令官先生”称呼，暗示其为字节跳动高层",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "梁汝波",
       "target": "字节跳动",
       "relation_type": "works_at",
@@ -2515,6 +2588,32 @@
           "path": "articles/157_2026-10-13_沐秋_基座模型田柯宇从不缺卡.md",
           "date": "2026-10-13",
           "label": "石扬曾任字节跳动Trae负责人及数据安全负责人",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "赵祺",
+      "target": "字节跳动",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "文中以“大统领阁下”称呼，暗示其为字节跳动高层",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "文中以“大统领阁下”称呼，暗示其为字节跳动高层",
           "weight": 1
         }
       ]
@@ -2661,9 +2760,9 @@
     {
       "source": "manus",
       "target": "字节跳动",
-      "score": 0.8143,
+      "score": 0.8131,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 9 篇文章；共享 6 个邻居",
+      "reason": "共同出现于 10 篇文章；共享 6 个邻居",
       "evidence_article_ids": [
         "017",
         "018",

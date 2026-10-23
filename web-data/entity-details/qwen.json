@@ -307,7 +307,7 @@
       }
     ],
     "degree": 61,
-    "composite_weight": 0.6843
+    "composite_weight": 0.6808
   },
   "links": [
     {
@@ -1668,9 +1668,9 @@
     {
       "source": "codex",
       "target": "qwen",
-      "score": 0.7802,
+      "score": 0.7302,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 7 篇文章；共享 5 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 7 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "027",
         "029",
@@ -1696,21 +1696,6 @@
       "status": "suggested"
     },
     {
-      "source": "qwen",
-      "target": "字节跳动",
-      "score": 0.6476,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "064",
-        "103",
-        "110",
-        "112",
-        "155"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "manus",
       "target": "qwen",
       "score": 0.644,
@@ -1722,6 +1707,21 @@
         "055",
         "060",
         "076"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "qwen",
+      "target": "字节跳动",
+      "score": 0.619,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 6 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "064",
+        "103",
+        "110",
+        "112",
+        "155"
       ],
       "status": "suggested"
     }

@@ -124,7 +124,7 @@
       }
     ],
     "degree": 33,
-    "composite_weight": 0.2991
+    "composite_weight": 0.2981
   },
   "links": [
     {
@@ -870,6 +870,18 @@
     },
     {
       "source": "mulerun",
+      "target": "qwen",
+      "score": 0.5281,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 2 篇文章；共享 4 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "026",
+        "066"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "mulerun",
       "target": "腾讯",
       "score": 0.5188,
       "suggested_relation_type": "related",
@@ -878,18 +890,6 @@
         "018",
         "071",
         "145"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "mulerun",
-      "target": "qwen",
-      "score": 0.4781,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "026",
-        "066"
       ],
       "status": "suggested"
     },

@@ -1,0 +1,71 @@
+{
+  "node": {
+    "id": "华为",
+    "name": "华为",
+    "type": "company",
+    "description": "安卓手机厂商，文中作为豆包手机在质感与创新方面的对比对象",
+    "mention_count": 4,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "手机厂商"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "160",
+        "title": "豆包手机纯属豆姐痛机",
+        "date": "2026-10-22",
+        "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "permalink": "/articles/160",
+        "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "mention_count": 4
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0278
+  },
+  "links": [
+    {
+      "source": "华为",
+      "target": "豆包手机",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同价位段竞争，作者认为华为阔直板在质感和创新上优于豆包手机",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "同价位段竞争，作者认为华为阔直板在质感和创新上优于豆包手机",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包手机",
+      "target": "华为",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "同价位段竞争，作者认为华为阔直板在质感和创新上优于豆包手机",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

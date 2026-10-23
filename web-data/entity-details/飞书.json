@@ -4,10 +4,11 @@
     "name": "飞书",
     "type": "product",
     "description": "办公协作平台，支持通过插件将文档和会议内容导入Creative OS",
-    "mention_count": 60,
-    "article_count": 15,
+    "mention_count": 69,
+    "article_count": 16,
     "aliases": [],
     "tags": [
+      "CLI",
       "GUI",
       "IM",
       "企业服务",
@@ -25,8 +26,8 @@
       "聊天框",
       "聊天软件"
     ],
-    "references": 15,
-    "source_article_count": 15,
+    "references": 16,
+    "source_article_count": 16,
     "source_articles": [
       {
         "article_id": "070",
@@ -36,6 +37,15 @@
         "permalink": "/articles/070",
         "markdown_link": "articles/070_2026-03-13_沐秋_一个山东套壳AI如何上桌对话Cherry Studio创始人.md",
         "mention_count": 21
+      },
+      {
+        "article_id": "160",
+        "title": "豆包手机纯属豆姐痛机",
+        "date": "2026-10-22",
+        "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "permalink": "/articles/160",
+        "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "mention_count": 9
       },
       {
         "article_id": "120",
@@ -164,8 +174,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 23,
-    "composite_weight": 0.2702
+    "degree": 24,
+    "composite_weight": 0.3035
   },
   "links": [
     {
@@ -713,6 +723,32 @@
           "path": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
           "date": "2026-09-06",
           "label": "豆包工作客户端与飞书打通，可在飞书中调用",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "豆包手机",
+      "target": "飞书",
+      "relation_type": "integrates_with",
+      "type": "integrates_with",
+      "label": "豆包手机可调用飞书进行发消息、创建会议等操作",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "豆包手机可调用飞书进行发消息、创建会议等操作",
           "weight": 1
         }
       ]

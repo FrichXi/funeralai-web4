@@ -1,0 +1,124 @@
+{
+  "node": {
+    "id": "阶跃手机",
+    "name": "阶跃手机",
+    "type": "product",
+    "description": "阶跃星辰推出的AI手机产品，采用A2A技术路线",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "A2A路线",
+      "AI手机"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "160",
+        "title": "豆包手机纯属豆姐痛机",
+        "date": "2026-10-22",
+        "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "permalink": "/articles/160",
+        "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 4,
+    "composite_weight": 0.0341
+  },
+  "links": [
+    {
+      "source": "豆包手机",
+      "target": "阶跃手机",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将豆包手机的GUI路线与阶跃手机的A2A路线进行对比讨论",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "文章将豆包手机的GUI路线与阶跃手机的A2A路线进行对比讨论",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "阶跃手机",
+      "target": "豆包手机",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文章将豆包手机的GUI路线与阶跃手机的A2A路线进行对比讨论",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "沐秋",
+      "target": "阶跃手机",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "沐秋批评阶跃手机采用A2A路线是投降派",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "沐秋批评阶跃手机采用A2A路线是投降派",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "齐俊元",
+      "target": "阶跃手机",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "齐俊元曾主导阶跃手机项目（文中推测不再继续）",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "齐俊元曾主导阶跃手机项目（文中推测不再继续）",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

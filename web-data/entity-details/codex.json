@@ -233,7 +233,7 @@
       }
     ],
     "degree": 39,
-    "composite_weight": 0.3957
+    "composite_weight": 0.3925
   },
   "links": [
     {
@@ -1113,21 +1113,6 @@
   ],
   "suggested_edges": [
     {
-      "source": "codex",
-      "target": "qwen",
-      "score": 0.7802,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 7 篇文章；共享 5 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "027",
-        "029",
-        "066",
-        "076",
-        "103"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "anthropic",
       "target": "codex",
       "score": 0.7305,
@@ -1139,6 +1124,21 @@
         "105",
         "109",
         "136"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "codex",
+      "target": "qwen",
+      "score": 0.7302,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 7 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "027",
+        "029",
+        "066",
+        "076",
+        "103"
       ],
       "status": "suggested"
     },

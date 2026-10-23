@@ -4,12 +4,13 @@
     "name": "沐秋",
     "type": "person",
     "description": "文章提及的行业观察者/同行者，提出美团小美和Coze是最早Personal agent的观点",
-    "mention_count": 33,
-    "article_count": 11,
+    "mention_count": 36,
+    "article_count": 12,
     "aliases": [],
     "tags": [
       "AI硬件",
       "AI评论",
+      "KOL",
       "协作者",
       "核心用户",
       "测评",
@@ -18,8 +19,8 @@
       "评测人",
       "评论员"
     ],
-    "references": 11,
-    "source_article_count": 11,
+    "references": 12,
+    "source_article_count": 12,
     "source_articles": [
       {
         "article_id": "043",
@@ -38,6 +39,15 @@
         "permalink": "/articles/115",
         "markdown_link": "articles/115_2026-07-08_葬爱咸鱼_网吧黑客松为西湖醋鱼平反.md",
         "mention_count": 4
+      },
+      {
+        "article_id": "160",
+        "title": "豆包手机纯属豆姐痛机",
+        "date": "2026-10-22",
+        "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "permalink": "/articles/160",
+        "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+        "mention_count": 3
       },
       {
         "article_id": "155",
@@ -121,8 +131,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 16,
-    "composite_weight": 0.1787
+    "degree": 17,
+    "composite_weight": 0.1965
   },
   "links": [
     {
@@ -346,6 +356,32 @@
     },
     {
       "source": "沐秋",
+      "target": "阶跃手机",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "沐秋批评阶跃手机采用A2A路线是投降派",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "160"
+      ],
+      "evidences": [
+        {
+          "article_id": "160",
+          "title": "豆包手机纯属豆姐痛机",
+          "permalink": "/articles/160",
+          "markdown_link": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "path": "articles/160_2026-10-22_葬爱咸鱼_豆包手机纯属豆姐痛机.md",
+          "date": "2026-10-22",
+          "label": "沐秋批评阶跃手机采用A2A路线是投降派",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "沐秋",
       "target": "阶跃星辰",
       "relation_type": "criticizes",
       "type": "criticizes",
@@ -554,18 +590,6 @@
   "suggested_edges": [
     {
       "source": "沐秋",
-      "target": "钟十六",
-      "score": 0.432,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "122",
-        "131"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "沐秋",
       "target": "豆包",
       "score": 0.4302,
       "suggested_relation_type": "related",
@@ -573,6 +597,17 @@
       "evidence_article_ids": [
         "123",
         "155"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "claude",
+      "target": "沐秋",
+      "score": 0.4037,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 1 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "096"
       ],
       "status": "suggested"
     }
