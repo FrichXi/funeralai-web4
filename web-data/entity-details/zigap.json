@@ -1,0 +1,72 @@
+{
+  "node": {
+    "id": "zigap",
+    "name": "Zigap",
+    "type": "product",
+    "description": "伊朗本土波斯语Chatbot产品",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "本土替代",
+      "聊天机器人"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "161",
+        "title": "伊朗闭门造AI",
+        "date": "2026-10-27",
+        "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+        "permalink": "/articles/161",
+        "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 2,
+    "composite_weight": 0.0228
+  },
+  "links": [
+    {
+      "source": "chatgpt",
+      "target": "zigap",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Zigap作为波斯语Chatbot，是ChatGPT在伊朗断网期间的本土替代品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "161"
+      ],
+      "evidences": [
+        {
+          "article_id": "161",
+          "title": "伊朗闭门造AI",
+          "permalink": "/articles/161",
+          "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "date": "2026-10-27",
+          "label": "Zigap作为波斯语Chatbot，是ChatGPT在伊朗断网期间的本土替代品",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "zigap",
+      "target": "chatgpt",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Zigap作为波斯语Chatbot，是ChatGPT在伊朗断网期间的本土替代品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    }
+  ],
+  "suggested_edges": []
+}

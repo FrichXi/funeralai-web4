@@ -3,15 +3,17 @@
     "id": "lovable",
     "name": "Lovable",
     "type": "product",
-    "description": "AI编程应用，被作为众多竞品的平替对标目标",
-    "mention_count": 22,
-    "article_count": 1,
+    "description": "AI编程/开发工具，文中用于类比Hadi Farnoud的业务模式",
+    "mention_count": 23,
+    "article_count": 2,
     "aliases": [],
     "tags": [
-      "AI编程"
+      "AI开发工具",
+      "AI编程",
+      "对标对象"
     ],
-    "references": 1,
-    "source_article_count": 1,
+    "references": 2,
+    "source_article_count": 2,
     "source_articles": [
       {
         "article_id": "054",
@@ -21,10 +23,19 @@
         "permalink": "/articles/054",
         "markdown_link": "articles/054_2026-01-21_葬爱咸鱼_Atoms，平替Lovable的残酷物语.md",
         "mention_count": 22
+      },
+      {
+        "article_id": "161",
+        "title": "伊朗闭门造AI",
+        "date": "2026-10-27",
+        "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+        "permalink": "/articles/161",
+        "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+        "mention_count": 1
       }
     ],
-    "degree": 7,
-    "composite_weight": 0.0624
+    "degree": 9,
+    "composite_weight": 0.0825
   },
   "links": [
     {
@@ -54,11 +65,50 @@
       ]
     },
     {
+      "source": "hadi-farnoud",
+      "target": "lovable",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Hadi Farnoud的业务模式比作Lovable+FDE，且得到本人认可",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "161"
+      ],
+      "evidences": [
+        {
+          "article_id": "161",
+          "title": "伊朗闭门造AI",
+          "permalink": "/articles/161",
+          "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "date": "2026-10-27",
+          "label": "作者将Hadi Farnoud的业务模式比作Lovable+FDE，且得到本人认可",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "lovable",
       "target": "atoms",
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "Atoms被核心论述为Lovable的平替产品",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "lovable",
+      "target": "hadi-farnoud",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Hadi Farnoud的业务模式比作Lovable+FDE，且得到本人认可",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,

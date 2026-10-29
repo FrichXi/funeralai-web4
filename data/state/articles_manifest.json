@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T05:57:41Z",
+  "updatedAt": "2026-10-29T07:32:17Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -3201,6 +3201,26 @@
       "artifact_path": "data/extracted/160.json",
       "raw_path": "data/gemini_raw/160.json",
       "extracted_at": "2026-10-23T05:57:41Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "161": {
+      "article_id": "161",
+      "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+      "title": "伊朗闭门造AI",
+      "date": "2026-10-27",
+      "author": "葬爱咸鱼",
+      "content_hash": "8f219fc30b7e4b71d09b56c3f7562d9e64480d6529b52499874416572b253909",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/161.json",
+      "raw_path": "data/gemini_raw/161.json",
+      "extracted_at": "2026-10-29T07:32:17Z",
       "last_error": null,
       "extractor": {
         "name": "dashscope",

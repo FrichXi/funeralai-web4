@@ -1,0 +1,98 @@
+{
+  "node": {
+    "id": "vira",
+    "name": "Vira",
+    "type": "product",
+    "description": "Part AI Research Center开发的波斯语AI超级应用，支持聊天、文生图和语音",
+    "mention_count": 4,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "波斯语AI",
+      "超级应用"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "161",
+        "title": "伊朗闭门造AI",
+        "date": "2026-10-27",
+        "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+        "permalink": "/articles/161",
+        "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+        "mention_count": 4
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0339
+  },
+  "links": [
+    {
+      "source": "chatgpt",
+      "target": "vira",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在国际互联网切断后，Vira作为本土服务替代了ChatGPT的部分功能",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "161"
+      ],
+      "evidences": [
+        {
+          "article_id": "161",
+          "title": "伊朗闭门造AI",
+          "permalink": "/articles/161",
+          "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "date": "2026-10-27",
+          "label": "在国际互联网切断后，Vira作为本土服务替代了ChatGPT的部分功能",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "vira",
+      "target": "chatgpt",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在国际互联网切断后，Vira作为本土服务替代了ChatGPT的部分功能",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "part-ai-research-center",
+      "target": "vira",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Part AI Research Center开发了AI超级应用Vira",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "161"
+      ],
+      "evidences": [
+        {
+          "article_id": "161",
+          "title": "伊朗闭门造AI",
+          "permalink": "/articles/161",
+          "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "date": "2026-10-27",
+          "label": "Part AI Research Center开发了AI超级应用Vira",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

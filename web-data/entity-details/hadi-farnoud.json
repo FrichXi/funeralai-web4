@@ -1,0 +1,100 @@
+{
+  "node": {
+    "id": "hadi-farnoud",
+    "name": "Hadi Farnoud",
+    "type": "person",
+    "description": "伊朗AI创业者，提供大模型API及企业服务，Kamva创始人",
+    "mention_count": 2,
+    "article_count": 1,
+    "aliases": [
+      "哈迪·法尔努德"
+    ],
+    "tags": [
+      "AI创业",
+      "大模型API"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "161",
+        "title": "伊朗闭门造AI",
+        "date": "2026-10-27",
+        "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+        "permalink": "/articles/161",
+        "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+        "mention_count": 2
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0286
+  },
+  "links": [
+    {
+      "source": "hadi-farnoud",
+      "target": "lovable",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Hadi Farnoud的业务模式比作Lovable+FDE，且得到本人认可",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "161"
+      ],
+      "evidences": [
+        {
+          "article_id": "161",
+          "title": "伊朗闭门造AI",
+          "permalink": "/articles/161",
+          "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "date": "2026-10-27",
+          "label": "作者将Hadi Farnoud的业务模式比作Lovable+FDE，且得到本人认可",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "lovable",
+      "target": "hadi-farnoud",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "作者将Hadi Farnoud的业务模式比作Lovable+FDE，且得到本人认可",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "hadi-farnoud",
+      "target": "kamva",
+      "relation_type": "founder_of",
+      "type": "founder_of",
+      "label": "Hadi Farnoud是Kamva的创始人，并明确表示公司因战争和断网关闭",
+      "weight": 1,
+      "strength": 5,
+      "effective_weight": 6,
+      "article_count": 1,
+      "evidence_articles": [
+        "161"
+      ],
+      "evidences": [
+        {
+          "article_id": "161",
+          "title": "伊朗闭门造AI",
+          "permalink": "/articles/161",
+          "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "date": "2026-10-27",
+          "label": "Hadi Farnoud是Kamva的创始人，并明确表示公司因战争和断网关闭",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

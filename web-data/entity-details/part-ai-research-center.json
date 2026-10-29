@@ -1,0 +1,59 @@
+{
+  "node": {
+    "id": "part-ai-research-center",
+    "name": "Part AI Research Center",
+    "type": "company",
+    "description": "开发面向消费者的AI超级应用Vira及企业级API的机构",
+    "mention_count": 1,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "大模型",
+      "生成式AI"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "161",
+        "title": "伊朗闭门造AI",
+        "date": "2026-10-27",
+        "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+        "permalink": "/articles/161",
+        "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+        "mention_count": 1
+      }
+    ],
+    "degree": 1,
+    "composite_weight": 0.0144
+  },
+  "links": [
+    {
+      "source": "part-ai-research-center",
+      "target": "vira",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "Part AI Research Center开发了AI超级应用Vira",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "161"
+      ],
+      "evidences": [
+        {
+          "article_id": "161",
+          "title": "伊朗闭门造AI",
+          "permalink": "/articles/161",
+          "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "date": "2026-10-27",
+          "label": "Part AI Research Center开发了AI超级应用Vira",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

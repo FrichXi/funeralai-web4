@@ -518,9 +518,9 @@
     {
       "source": "minimax",
       "target": "youware",
-      "score": 0.4665,
+      "score": 0.5165,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "016",
         "023",
@@ -553,17 +553,6 @@
         "016",
         "022",
         "032"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "youware",
-      "target": "圆脸眼镜哥",
-      "score": 0.4129,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 1 篇文章；共享 3 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "054"
       ],
       "status": "suggested"
     }

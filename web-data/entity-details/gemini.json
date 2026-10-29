@@ -4,8 +4,8 @@
     "name": "Gemini",
     "type": "product",
     "description": "Google 的模型系列，文中提及 Gemini-3.7-flash 偏好使用宏大词汇隐喻",
-    "mention_count": 23,
-    "article_count": 13,
+    "mention_count": 27,
+    "article_count": 14,
     "aliases": [
       "Gemini 2.5 Pro",
       "Gemini 3.5 Flash",
@@ -24,8 +24,8 @@
       "超长上下文",
       "长文写作"
     ],
-    "references": 13,
-    "source_article_count": 13,
+    "references": 14,
+    "source_article_count": 14,
     "source_articles": [
       {
         "article_id": "029",
@@ -35,6 +35,15 @@
         "permalink": "/articles/029",
         "markdown_link": "articles/029_2025-10-16_葬爱咸鱼_AI写作指南3.0编程式写作.md",
         "mention_count": 5
+      },
+      {
+        "article_id": "161",
+        "title": "伊朗闭门造AI",
+        "date": "2026-10-27",
+        "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+        "permalink": "/articles/161",
+        "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+        "mention_count": 4
       },
       {
         "article_id": "019",
@@ -146,7 +155,7 @@
       }
     ],
     "degree": 30,
-    "composite_weight": 0.2259
+    "composite_weight": 0.2426
   },
   "links": [
     {
@@ -154,13 +163,26 @@
       "target": "gemini",
       "relation_type": "compares_to",
       "type": "compares_to",
-      "label": "文中在隐喻率测试中将 GPT 5.6 与 Gemini-3.7-flash 进行了横向对比",
+      "label": "文中提到伊朗创业者认为中国开源模型输出波斯语远不如Gemini和ChatGPT",
       "weight": 1,
       "strength": 2,
-      "effective_weight": 2,
-      "article_count": 0,
-      "evidence_articles": [],
-      "evidences": []
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "161"
+      ],
+      "evidences": [
+        {
+          "article_id": "161",
+          "title": "伊朗闭门造AI",
+          "permalink": "/articles/161",
+          "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "date": "2026-10-27",
+          "label": "文中提到伊朗创业者认为中国开源模型输出波斯语远不如Gemini和ChatGPT",
+          "weight": 1
+        }
+      ]
     },
     {
       "source": "cherry-studio",
@@ -783,7 +805,7 @@
     {
       "source": "deepseek",
       "target": "gemini",
-      "score": 0.5276,
+      "score": 0.5262,
       "suggested_relation_type": "related",
       "reason": "共同出现于 2 篇文章；共享 6 个邻居",
       "evidence_article_ids": [

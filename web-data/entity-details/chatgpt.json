@@ -4,8 +4,8 @@
     "name": "ChatGPT",
     "type": "product",
     "description": "OpenAI旗下产品，文中作为通用Agent代表，具备云电脑和邮件预订功能",
-    "mention_count": 89,
-    "article_count": 26,
+    "mention_count": 100,
+    "article_count": 27,
     "aliases": [
       "GPT",
       "GPT 5.6 luna",
@@ -25,6 +25,7 @@
       "SOTA",
       "云端AI",
       "全双工",
+      "国际服务",
       "大模型",
       "大语言模型",
       "对话体验",
@@ -36,9 +37,18 @@
       "通用AI",
       "通用Agent"
     ],
-    "references": 26,
-    "source_article_count": 26,
+    "references": 27,
+    "source_article_count": 27,
     "source_articles": [
+      {
+        "article_id": "161",
+        "title": "伊朗闭门造AI",
+        "date": "2026-10-27",
+        "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+        "permalink": "/articles/161",
+        "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+        "mention_count": 11
+      },
       {
         "article_id": "155",
         "title": "Personal agent把用户当傻子",
@@ -274,8 +284,8 @@
         "mention_count": 2
       }
     ],
-    "degree": 42,
-    "composite_weight": 0.445
+    "degree": 46,
+    "composite_weight": 0.5034
   },
   "links": [
     {
@@ -422,13 +432,26 @@
       "target": "gemini",
       "relation_type": "compares_to",
       "type": "compares_to",
-      "label": "文中在隐喻率测试中将 GPT 5.6 与 Gemini-3.7-flash 进行了横向对比",
+      "label": "文中提到伊朗创业者认为中国开源模型输出波斯语远不如Gemini和ChatGPT",
       "weight": 1,
       "strength": 2,
-      "effective_weight": 2,
-      "article_count": 0,
-      "evidence_articles": [],
-      "evidences": []
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "161"
+      ],
+      "evidences": [
+        {
+          "article_id": "161",
+          "title": "伊朗闭门造AI",
+          "permalink": "/articles/161",
+          "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "date": "2026-10-27",
+          "label": "文中提到伊朗创业者认为中国开源模型输出波斯语远不如Gemini和ChatGPT",
+          "weight": 1
+        }
+      ]
     },
     {
       "source": "chatgpt",
@@ -1045,6 +1068,58 @@
       ]
     },
     {
+      "source": "chatgpt",
+      "target": "vira",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在国际互联网切断后，Vira作为本土服务替代了ChatGPT的部分功能",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "161"
+      ],
+      "evidences": [
+        {
+          "article_id": "161",
+          "title": "伊朗闭门造AI",
+          "permalink": "/articles/161",
+          "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "date": "2026-10-27",
+          "label": "在国际互联网切断后，Vira作为本土服务替代了ChatGPT的部分功能",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "chatgpt",
+      "target": "zigap",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Zigap作为波斯语Chatbot，是ChatGPT在伊朗断网期间的本土替代品",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "161"
+      ],
+      "evidences": [
+        {
+          "article_id": "161",
+          "title": "伊朗闭门造AI",
+          "permalink": "/articles/161",
+          "markdown_link": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+          "date": "2026-10-27",
+          "label": "Zigap作为波斯语Chatbot，是ChatGPT在伊朗断网期间的本土替代品",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "claude",
       "target": "chatgpt",
       "relation_type": "competes_with",
@@ -1102,6 +1177,32 @@
       "relation_type": "competes_with",
       "type": "competes_with",
       "label": "文章在烂字识图、医学建议、幽默理解、文章总结等多个场景下对千问和ChatGPT进行了深度测试与对比",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "vira",
+      "target": "chatgpt",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "在国际互联网切断后，Vira作为本土服务替代了ChatGPT的部分功能",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 3,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "zigap",
+      "target": "chatgpt",
+      "relation_type": "competes_with",
+      "type": "competes_with",
+      "label": "Zigap作为波斯语Chatbot，是ChatGPT在伊朗断网期间的本土替代品",
       "weight": 1,
       "strength": 3,
       "effective_weight": 3,

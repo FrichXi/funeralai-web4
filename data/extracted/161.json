@@ -1,0 +1,313 @@
+{
+  "article": {
+    "id": "161",
+    "title": "伊朗闭门造AI",
+    "path": "articles/161_2026-10-27_葬爱咸鱼_伊朗闭门造AI.md",
+    "date": "2026-10-27",
+    "author": "葬爱咸鱼",
+    "content_hash": "8f219fc30b7e4b71d09b56c3f7562d9e64480d6529b52499874416572b253909"
+  },
+  "entities": [
+    {
+      "id": "snapp",
+      "name": "Snapp",
+      "type": "company",
+      "description": "伊朗本土超级应用公司，提供网约车、外卖、支付等服务，被称为伊朗版Uber",
+      "mention_count": 12,
+      "aliases": [
+        "SnappBike",
+        "SnappFood",
+        "SnappPay"
+      ],
+      "tags": [
+        "超级应用",
+        "出行",
+        "本地生活"
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "type": "product",
+      "description": "OpenAI开发的AI对话产品，是伊朗使用人数最多的AI工具",
+      "mention_count": 11,
+      "aliases": [
+        "GPT"
+      ],
+      "tags": [
+        "LLM",
+        "国际服务"
+      ]
+    },
+    {
+      "id": "bale",
+      "name": "Bale",
+      "type": "product",
+      "description": "伊朗本土即时通信应用，断网期间被广泛用作替代通讯工具",
+      "mention_count": 7,
+      "aliases": [],
+      "tags": [
+        "IM",
+        "本土替代"
+      ]
+    },
+    {
+      "id": "digikala",
+      "name": "Digikala",
+      "type": "company",
+      "description": "伊朗最大的电子商务和线上交易平台，被称为伊朗版亚马逊",
+      "mention_count": 7,
+      "aliases": [],
+      "tags": [
+        "电商",
+        "互联网平台"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "type": "product",
+      "description": "Google开发的AI模型，在伊朗被用于对比波斯语能力",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "LLM",
+        "多模态"
+      ]
+    },
+    {
+      "id": "vira",
+      "name": "Vira",
+      "type": "product",
+      "description": "Part AI Research Center开发的波斯语AI超级应用，支持聊天、文生图和语音",
+      "mention_count": 4,
+      "aliases": [],
+      "tags": [
+        "波斯语AI",
+        "超级应用"
+      ]
+    },
+    {
+      "id": "hadi-farnoud",
+      "name": "Hadi Farnoud",
+      "type": "person",
+      "description": "伊朗AI创业者，提供大模型API及企业服务，Kamva创始人",
+      "mention_count": 2,
+      "aliases": [
+        "哈迪·法尔努德"
+      ],
+      "tags": [
+        "AI创业",
+        "大模型API"
+      ]
+    },
+    {
+      "id": "viravirast",
+      "name": "Viravirast",
+      "type": "product",
+      "description": "Pardazeshgaran Zaban-e Vira开发的波斯语校对工具",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "NLP工具",
+        "文本校对"
+      ]
+    },
+    {
+      "id": "zigap",
+      "name": "Zigap",
+      "type": "product",
+      "description": "伊朗本土波斯语Chatbot产品",
+      "mention_count": 2,
+      "aliases": [],
+      "tags": [
+        "聊天机器人",
+        "本土替代"
+      ]
+    },
+    {
+      "id": "kamva",
+      "name": "Kamva",
+      "type": "company",
+      "description": "伊朗建站和电商交易平台，因战争和断网于2026年4月关闭",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "电商SaaS",
+        "已关闭"
+      ]
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "type": "product",
+      "description": "AI编程/开发工具，文中用于类比Hadi Farnoud的业务模式",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "AI开发工具",
+        "对标对象"
+      ]
+    },
+    {
+      "id": "pardazeshgaran-zaban-e-vira",
+      "name": "Pardazeshgaran Zaban-e Vira",
+      "type": "company",
+      "description": "伊朗早期AI企业，专注于波斯语自然语言处理",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "NLP",
+        "波斯语AI"
+      ]
+    },
+    {
+      "id": "part-ai-research-center",
+      "name": "Part AI Research Center",
+      "type": "company",
+      "description": "开发面向消费者的AI超级应用Vira及企业级API的机构",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "生成式AI",
+        "大模型"
+      ]
+    },
+    {
+      "id": "viratype",
+      "name": "Viratype",
+      "type": "product",
+      "description": "Pardazeshgaran Zaban-e Vira开发的波斯语语音转文字工具",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "ASR",
+        "语音识别"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ChatGPT",
+      "target": "Gemini",
+      "relation_type": "compares_to",
+      "label": "文中提到伊朗创业者认为中国开源模型输出波斯语远不如Gemini和ChatGPT",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "Hadi Farnoud",
+      "target": "Lovable",
+      "relation_type": "compares_to",
+      "label": "作者将Hadi Farnoud的业务模式比作Lovable+FDE，且得到本人认可",
+      "weight": 1,
+      "strength": 2,
+      "confidence": "high"
+    },
+    {
+      "source": "ChatGPT",
+      "target": "Vira",
+      "relation_type": "competes_with",
+      "label": "在国际互联网切断后，Vira作为本土服务替代了ChatGPT的部分功能",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "ChatGPT",
+      "target": "Zigap",
+      "relation_type": "competes_with",
+      "label": "Zigap作为波斯语Chatbot，是ChatGPT在伊朗断网期间的本土替代品",
+      "weight": 1,
+      "strength": 3,
+      "confidence": "medium"
+    },
+    {
+      "source": "Pardazeshgaran Zaban-e Vira",
+      "target": "Viratype",
+      "relation_type": "develops",
+      "label": "该公司开发了波斯语语音转文字工具Viratype",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Pardazeshgaran Zaban-e Vira",
+      "target": "Viravirast",
+      "relation_type": "develops",
+      "label": "该公司开发了波斯语校对工具Viravirast",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Part AI Research Center",
+      "target": "Vira",
+      "relation_type": "develops",
+      "label": "Part AI Research Center开发了AI超级应用Vira",
+      "weight": 1,
+      "strength": 4,
+      "confidence": "high"
+    },
+    {
+      "source": "Hadi Farnoud",
+      "target": "Kamva",
+      "relation_type": "founder_of",
+      "label": "Hadi Farnoud是Kamva的创始人，并明确表示公司因战争和断网关闭",
+      "weight": 1,
+      "strength": 5,
+      "confidence": "high"
+    },
+    {
+      "source": "Digikala",
+      "target": "Snapp",
+      "relation_type": "related",
+      "label": "两者均为伊朗头部互联网产业控股集团，在断网期间均维持了核心服务运转",
+      "weight": 1,
+      "strength": 1,
+      "confidence": "high"
+    }
+  ],
+  "metadata": {
+    "model": "qwen3.7-max",
+    "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+    "entity_count": 14,
+    "relationship_count": 9,
+    "pruned_entities": [
+      {
+        "name": "Arvan cloud",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Azadi Innovation Factory",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Dataak",
+        "reason": "low-signal"
+      },
+      {
+        "name": "DeepSeek",
+        "reason": "low-signal"
+      },
+      {
+        "name": "GapGPT",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Mehrin Nazari",
+        "reason": "low-signal"
+      },
+      {
+        "name": "MetisAI",
+        "reason": "low-signal"
+      },
+      {
+        "name": "Robo",
+        "reason": "low-signal"
+      }
+    ],
+    "provider": "dashscope"
+  }
+}
