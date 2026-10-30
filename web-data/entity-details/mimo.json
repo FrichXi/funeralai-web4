@@ -1,0 +1,149 @@
+{
+  "node": {
+    "id": "mimo",
+    "name": "Mimo",
+    "type": "product",
+    "description": "小米开发的开源大模型，曾登顶AA榜",
+    "mention_count": 7,
+    "article_count": 1,
+    "aliases": [],
+    "tags": [
+      "开源模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "162",
+        "title": "开源模型亟需另开一桌",
+        "date": "2026-10-30",
+        "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "permalink": "/articles/162",
+        "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "mention_count": 7
+      }
+    ],
+    "degree": 5,
+    "composite_weight": 0.0533
+  },
+  "links": [
+    {
+      "source": "mimo",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Mimo刷榜现象与MiniMax当年登顶OpenRouter相提并论",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "文中将Mimo刷榜现象与MiniMax当年登顶OpenRouter相提并论",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
+      "target": "mimo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Mimo刷榜现象与MiniMax当年登顶OpenRouter相提并论",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "沐秋",
+      "target": "mimo",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "沐秋质疑Mimo宣传图嘲讽同行及刷分行为",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "沐秋质疑Mimo宣传图嘲讽同行及刷分行为",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "小米",
+      "target": "mimo",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "小米开发了Mimo开源大模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "小米开发了Mimo开源大模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "罗福莉",
+      "target": "mimo",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "罗福莉带领团队开发Mimo模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "罗福莉带领团队开发Mimo模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}

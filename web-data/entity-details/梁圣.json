@@ -4,20 +4,30 @@
     "name": "梁圣",
     "type": "person",
     "description": "指代DeepSeek创始人梁文锋，在文中被用作极致性价比的比喻标杆",
-    "mention_count": 5,
-    "article_count": 3,
+    "mention_count": 9,
+    "article_count": 4,
     "aliases": [
       "梁文锋",
       "牢梁"
     ],
     "tags": [
+      "创始人/CEO",
       "行业人物",
       "行业标杆",
       "降本增效"
     ],
-    "references": 3,
-    "source_article_count": 3,
+    "references": 4,
+    "source_article_count": 4,
     "source_articles": [
+      {
+        "article_id": "162",
+        "title": "开源模型亟需另开一桌",
+        "date": "2026-10-30",
+        "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "permalink": "/articles/162",
+        "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "mention_count": 4
+      },
       {
         "article_id": "105",
         "title": "葬AI基准测试发布，GLM 5.2第一，超越Opus 4.8",
@@ -47,7 +57,7 @@
       }
     ],
     "degree": 6,
-    "composite_weight": 0.0547
+    "composite_weight": 0.0711
   },
   "links": [
     {
@@ -171,14 +181,25 @@
       "relation_type": "works_at",
       "type": "works_at",
       "label": "文中将梁圣与DeepSeek强关联，指代其商业化行为",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "133"
+        "133",
+        "162"
       ],
       "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "梁圣是DeepSeek的核心领导者",
+          "weight": 1
+        },
         {
           "article_id": "133",
           "title": "速来网吧线下真实所有大模型",
@@ -196,9 +217,9 @@
     {
       "source": "qwen",
       "target": "梁圣",
-      "score": 0.4068,
+      "score": 0.4564,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
         "105",
         "110",

@@ -4,8 +4,8 @@
     "name": "小米",
     "type": "company",
     "description": "科技公司，文中以其产品定义能力（如自带帐篷）作为大模型行业的对标案例",
-    "mention_count": 18,
-    "article_count": 9,
+    "mention_count": 20,
+    "article_count": 10,
     "aliases": [
       "Xiaomi"
     ],
@@ -13,6 +13,7 @@
       "产品定义",
       "匿名打榜",
       "大模型",
+      "大模型厂商",
       "手机",
       "汽车",
       "消费电子",
@@ -20,8 +21,8 @@
       "硬件厂商",
       "科技公司"
     ],
-    "references": 9,
-    "source_article_count": 9,
+    "references": 10,
+    "source_article_count": 10,
     "source_articles": [
       {
         "article_id": "131",
@@ -40,6 +41,15 @@
         "permalink": "/articles/150",
         "markdown_link": "articles/150_2026-09-16_葬爱咸鱼_大模型需要雷军.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "162",
+        "title": "开源模型亟需另开一桌",
+        "date": "2026-10-30",
+        "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "permalink": "/articles/162",
+        "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "mention_count": 2
       },
       {
         "article_id": "128",
@@ -105,8 +115,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 14,
-    "composite_weight": 0.1469
+    "degree": 16,
+    "composite_weight": 0.169
   },
   "links": [
     {
@@ -319,6 +329,32 @@
     },
     {
       "source": "小米",
+      "target": "mimo",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "小米开发了Mimo开源大模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "小米开发了Mimo开源大模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "小米",
       "target": "小爱同学",
       "relation_type": "develops",
       "type": "develops",
@@ -431,33 +467,75 @@
           "weight": 1
         }
       ]
+    },
+    {
+      "source": "罗福莉",
+      "target": "小米",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "罗福莉在小米负责Mimo模型相关工作",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "罗福莉在小米负责Mimo模型相关工作",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": [
     {
       "source": "minimax",
       "target": "小米",
-      "score": 0.4328,
+      "score": 0.6174,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "057",
         "109",
         "128",
-        "131"
+        "131",
+        "162"
       ],
       "status": "suggested"
     },
     {
       "source": "deepseek",
       "target": "小米",
-      "score": 0.4325,
+      "score": 0.501,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "109",
         "131",
-        "137"
+        "137",
+        "162"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "kimi",
+      "target": "小米",
+      "score": 0.471,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "040",
+        "057",
+        "109",
+        "162"
       ],
       "status": "suggested"
     },

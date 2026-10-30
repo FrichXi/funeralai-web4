@@ -4,8 +4,8 @@
     "name": "百度",
     "type": "company",
     "description": "中国头部互联网公司，文中讨论其AI办公Agent业务及内部赛马机制",
-    "mention_count": 137,
-    "article_count": 13,
+    "mention_count": 139,
+    "article_count": 14,
     "aliases": [
       "Baidu",
       "百度战投"
@@ -14,17 +14,19 @@
       "AI办公",
       "AI应用",
       "Agent",
+      "互联网公司",
       "办公Agent",
       "大厂",
       "大模型",
       "大模型公司",
+      "大模型厂商",
       "投资方",
       "搜索",
       "搜索引擎",
       "落后版本"
     ],
-    "references": 13,
-    "source_article_count": 13,
+    "references": 14,
+    "source_article_count": 14,
     "source_articles": [
       {
         "article_id": "146",
@@ -79,6 +81,15 @@
         "permalink": "/articles/144",
         "markdown_link": "articles/144_2026-09-06_葬爱咸鱼_客观评价字节阿里腾讯之Agent大战.md",
         "mention_count": 4
+      },
+      {
+        "article_id": "162",
+        "title": "开源模型亟需另开一桌",
+        "date": "2026-10-30",
+        "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "permalink": "/articles/162",
+        "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "mention_count": 2
       },
       {
         "article_id": "145",
@@ -144,8 +155,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 30,
-    "composite_weight": 0.3627
+    "degree": 32,
+    "composite_weight": 0.3822
   },
   "links": [
     {
@@ -595,6 +606,32 @@
     },
     {
       "source": "百度",
+      "target": "文心大模型",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "百度开发了文心大模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "百度开发了文心大模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "百度",
       "target": "文心快码",
       "relation_type": "develops",
       "type": "develops",
@@ -898,6 +935,32 @@
       ]
     },
     {
+      "source": "沐秋",
+      "target": "百度",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "沐秋出于尊敬认为百度也算模型厂（反讽或特定语境下的认可）",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "沐秋出于尊敬认为百度也算模型厂（反讽或特定语境下的认可）",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "robin",
       "target": "百度",
       "relation_type": "works_at",
@@ -993,40 +1056,45 @@
       "status": "suggested"
     },
     {
-      "source": "百度",
-      "target": "蚂蚁集团",
-      "score": 0.4727,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "source": "kimi",
+      "target": "百度",
+      "score": 0.5632,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
       "evidence_article_ids": [
         "055",
-        "099"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "libtv",
-      "target": "百度",
-      "score": 0.4694,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
         "099",
-        "125",
-        "136"
+        "122",
+        "146",
+        "162"
       ],
       "status": "suggested"
     },
     {
       "source": "百度",
-      "target": "豆包",
-      "score": 0.4536,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "target": "蚂蚁集团",
+      "score": 0.5427,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
-        "058",
+        "055",
+        "099",
+        "162"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "deepseek",
+      "target": "百度",
+      "score": 0.521,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 5 篇文章；共享 2 个邻居",
+      "evidence_article_ids": [
+        "099",
+        "122",
         "125",
-        "146"
+        "136",
+        "162"
       ],
       "status": "suggested"
     }

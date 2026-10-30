@@ -4,8 +4,8 @@
     "name": "月之暗面",
     "type": "company",
     "description": "Kimi背后的公司，其股东参与了YouWare的投资",
-    "mention_count": 9,
-    "article_count": 3,
+    "mention_count": 14,
+    "article_count": 4,
     "aliases": [
       "Kimi",
       "Moonshot"
@@ -13,10 +13,11 @@
     "tags": [
       "AI公司",
       "国产大模型公司",
-      "大模型"
+      "大模型",
+      "大模型厂商"
     ],
-    "references": 3,
-    "source_article_count": 3,
+    "references": 4,
+    "source_article_count": 4,
     "source_articles": [
       {
         "article_id": "103",
@@ -26,6 +27,15 @@
         "permalink": "/articles/103",
         "markdown_link": "articles/103_2026-06-10_葬爱咸鱼_Kimi看天讨饭吃.md",
         "mention_count": 7
+      },
+      {
+        "article_id": "162",
+        "title": "开源模型亟需另开一桌",
+        "date": "2026-10-30",
+        "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "permalink": "/articles/162",
+        "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "mention_count": 5
       },
       {
         "article_id": "036",
@@ -47,7 +57,7 @@
       }
     ],
     "degree": 28,
-    "composite_weight": 0.1791
+    "composite_weight": 0.1981
   },
   "links": [
     {
@@ -548,14 +558,25 @@
       "relation_type": "works_at",
       "type": "works_at",
       "label": "予彤是让月之暗面再次伟大的关键人物",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "103"
+        "103",
+        "162"
       ],
       "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "予彤是Kimi/K3项目的关键负责人",
+          "weight": 1
+        },
         {
           "article_id": "103",
           "title": "Kimi看天讨饭吃",
@@ -673,7 +694,7 @@
     {
       "source": "claude",
       "target": "月之暗面",
-      "score": 0.4416,
+      "score": 0.4412,
       "suggested_relation_type": "related",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [

@@ -4,8 +4,8 @@
     "name": "Kimi",
     "type": "product",
     "description": "具有长上下文能力的大语言模型，文中被用作Claude Code的后端调用模型",
-    "mention_count": 225,
-    "article_count": 39,
+    "mention_count": 231,
+    "article_count": 40,
     "aliases": [
       "K2",
       "K2.7 Code",
@@ -70,8 +70,8 @@
       "长文本处理",
       "高估值"
     ],
-    "references": 39,
-    "source_article_count": 39,
+    "references": 40,
+    "source_article_count": 40,
     "source_articles": [
       {
         "article_id": "134",
@@ -389,6 +389,15 @@
         "mention_count": 7
       },
       {
+        "article_id": "162",
+        "title": "开源模型亟需另开一桌",
+        "date": "2026-10-30",
+        "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "permalink": "/articles/162",
+        "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "mention_count": 6
+      },
+      {
         "article_id": "148",
         "title": "GPT-6利好3D打印",
         "date": "2026-09-11",
@@ -425,8 +434,8 @@
         "mention_count": 2
       }
     ],
-    "degree": 76,
-    "composite_weight": 0.8772
+    "degree": 79,
+    "composite_weight": 0.9092
   },
   "links": [
     {
@@ -993,6 +1002,32 @@
     },
     {
       "source": "kimi",
+      "target": "百灵大模型",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中比较百灵与K3在AA榜上的排名和真实性能水平",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "文中比较百灵与K3在AA榜上的排名和真实性能水平",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "kimi",
       "target": "砸盘两兄弟",
       "relation_type": "compares_to",
       "type": "compares_to",
@@ -1127,6 +1162,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "百度搭子模仿Kimi宣传片制作风格",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "百灵大模型",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中比较百灵与K3在AA榜上的排名和真实性能水平",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -2083,6 +2131,32 @@
       ]
     },
     {
+      "source": "予彤",
+      "target": "kimi",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "予彤负责K3模型的差异化打法与优化",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "予彤负责K3模型的差异化打法与优化",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "明超平",
       "target": "kimi",
       "relation_type": "works_on",
@@ -2179,8 +2253,22 @@
     },
     {
       "source": "kimi",
+      "target": "蚂蚁集团",
+      "score": 0.7089,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "055",
+        "099",
+        "109",
+        "162"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "kimi",
       "target": "美团",
-      "score": 0.674,
+      "score": 0.6733,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -2203,19 +2291,6 @@
         "048",
         "099",
         "109",
-        "138"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "cursor",
-      "target": "kimi",
-      "score": 0.5724,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
-      "evidence_article_ids": [
-        "004",
-        "030",
         "138"
       ],
       "status": "suggested"

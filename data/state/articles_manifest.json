@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-29T07:32:17Z",
+  "updatedAt": "2026-10-30T06:03:44Z",
   "pipeline": {
     "extractor": "qwen-openai-compatible",
     "model": "qwen3.7-max",
@@ -3221,6 +3221,26 @@
       "artifact_path": "data/extracted/161.json",
       "raw_path": "data/gemini_raw/161.json",
       "extracted_at": "2026-10-29T07:32:17Z",
+      "last_error": null,
+      "extractor": {
+        "name": "dashscope",
+        "model": "qwen3.7-max",
+        "prompt_version": "2026-03-15-vc-firm-relationship-v7",
+        "extractor_version": "2026-07-03-qwen37max-openai-compatible-v1"
+      }
+    },
+    "162": {
+      "article_id": "162",
+      "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+      "title": "开源模型亟需另开一桌",
+      "date": "2026-10-30",
+      "author": "葬爱咸鱼",
+      "content_hash": "484739ec3bf1a08d3d197bdcc41d7cb0ec77301b41af3c12fb81a7ed9ff34a4b",
+      "status": "ready",
+      "reason": "missing_artifact",
+      "artifact_path": "data/extracted/162.json",
+      "raw_path": "data/gemini_raw/162.json",
+      "extracted_at": "2026-10-30T06:03:44Z",
       "last_error": null,
       "extractor": {
         "name": "dashscope",

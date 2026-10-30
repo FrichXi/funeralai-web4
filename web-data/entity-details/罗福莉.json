@@ -4,15 +4,25 @@
     "name": "罗福莉",
     "type": "person",
     "description": "文中提及的人物，被作者认为相比雷军，大模型创业更需要后者",
-    "mention_count": 1,
-    "article_count": 1,
+    "mention_count": 2,
+    "article_count": 2,
     "aliases": [],
     "tags": [
-      "大模型创业"
+      "大模型创业",
+      "技术负责人"
     ],
-    "references": 1,
-    "source_article_count": 1,
+    "references": 2,
+    "source_article_count": 2,
     "source_articles": [
+      {
+        "article_id": "162",
+        "title": "开源模型亟需另开一桌",
+        "date": "2026-10-30",
+        "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "permalink": "/articles/162",
+        "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "mention_count": 1
+      },
       {
         "article_id": "150",
         "title": "大模型需要雷军",
@@ -23,8 +33,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 2,
-    "composite_weight": 0.0189
+    "degree": 4,
+    "composite_weight": 0.039
   },
   "links": [
     {
@@ -65,6 +75,58 @@
       "article_count": 0,
       "evidence_articles": [],
       "evidences": []
+    },
+    {
+      "source": "罗福莉",
+      "target": "小米",
+      "relation_type": "works_at",
+      "type": "works_at",
+      "label": "罗福莉在小米负责Mimo模型相关工作",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "罗福莉在小米负责Mimo模型相关工作",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "罗福莉",
+      "target": "mimo",
+      "relation_type": "works_on",
+      "type": "works_on",
+      "label": "罗福莉带领团队开发Mimo模型",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "罗福莉带领团队开发Mimo模型",
+          "weight": 1
+        }
+      ]
     }
   ],
   "suggested_edges": []

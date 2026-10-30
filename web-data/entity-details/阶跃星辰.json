@@ -4,8 +4,8 @@
     "name": "阶跃星辰",
     "type": "company",
     "description": "AI四小虎之一，近期B+轮融资超50亿元，走软硬件一体闭环路线的大模型公司",
-    "mention_count": 115,
-    "article_count": 18,
+    "mention_count": 116,
+    "article_count": 19,
     "aliases": [
       "阶跃"
     ],
@@ -22,11 +22,12 @@
       "to G",
       "大模型",
       "大模型公司",
+      "大模型厂商",
       "智能体",
       "软硬件一体"
     ],
-    "references": 18,
-    "source_article_count": 18,
+    "references": 19,
+    "source_article_count": 19,
     "source_articles": [
       {
         "article_id": "159",
@@ -108,6 +109,15 @@
         "permalink": "/articles/109",
         "markdown_link": "articles/109_2026-06-23_沐秋_智谱与Anthropic是母凭子贵.md",
         "mention_count": 2
+      },
+      {
+        "article_id": "162",
+        "title": "开源模型亟需另开一桌",
+        "date": "2026-10-30",
+        "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "permalink": "/articles/162",
+        "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "mention_count": 1
       },
       {
         "article_id": "117",
@@ -192,7 +202,7 @@
       }
     ],
     "degree": 62,
-    "composite_weight": 0.6026
+    "composite_weight": 0.607
   },
   "links": [
     {
@@ -1095,14 +1105,25 @@
       "relation_type": "develops",
       "type": "develops",
       "label": "阶跃星辰开发并发布了Step 5 Preview模型",
-      "weight": 1,
+      "weight": 2,
       "strength": 4,
-      "effective_weight": 5,
-      "article_count": 1,
+      "effective_weight": 10,
+      "article_count": 2,
       "evidence_articles": [
-        "153"
+        "153",
+        "162"
       ],
       "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "阶跃星辰开发了Step 5 Preview模型",
+          "weight": 1
+        },
         {
           "article_id": "153",
           "title": "阶跃应该在桌上而不是桌底",
@@ -1638,9 +1659,23 @@
   ],
   "suggested_edges": [
     {
+      "source": "anthropic",
+      "target": "阶跃星辰",
+      "score": 0.6774,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "109",
+        "123",
+        "159",
+        "162"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "qwen",
       "target": "阶跃星辰",
-      "score": 0.677,
+      "score": 0.676,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1655,7 +1690,7 @@
     {
       "source": "claude",
       "target": "阶跃星辰",
-      "score": 0.6132,
+      "score": 0.6128,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1670,7 +1705,7 @@
     {
       "source": "阶跃星辰",
       "target": "马斯克",
-      "score": 0.6096,
+      "score": 0.6092,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
@@ -1681,22 +1716,9 @@
       "status": "suggested"
     },
     {
-      "source": "anthropic",
-      "target": "阶跃星辰",
-      "score": 0.6077,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
-      "evidence_article_ids": [
-        "109",
-        "123",
-        "159"
-      ],
-      "status": "suggested"
-    },
-    {
       "source": "葬爱咸鱼",
       "target": "阶跃星辰",
-      "score": 0.5802,
+      "score": 0.5787,
       "suggested_relation_type": "related",
       "reason": "共同出现于 3 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [

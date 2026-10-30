@@ -4,8 +4,8 @@
     "name": "MiniMax",
     "type": "company",
     "description": "国内头部大模型公司，开发了M3模型、海螺视频模型及Talkie/星野等C端产品",
-    "mention_count": 298,
-    "article_count": 33,
+    "mention_count": 301,
+    "article_count": 34,
     "aliases": [
       "MinMax",
       "Minimax"
@@ -33,6 +33,7 @@
       "大模型公司",
       "大模型厂商",
       "开源",
+      "开源模型",
       "情感陪伴",
       "斩杀线",
       "模型厂",
@@ -41,8 +42,8 @@
       "视频生成",
       "视频生成模型"
     ],
-    "references": 33,
-    "source_article_count": 33,
+    "references": 34,
+    "source_article_count": 34,
     "source_articles": [
       {
         "article_id": "117",
@@ -198,6 +199,15 @@
         "mention_count": 4
       },
       {
+        "article_id": "162",
+        "title": "开源模型亟需另开一桌",
+        "date": "2026-10-30",
+        "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "permalink": "/articles/162",
+        "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "mention_count": 3
+      },
+      {
         "article_id": "134",
         "title": "Kimi熹妃回宫",
         "date": "2026-08-17",
@@ -342,8 +352,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 51,
-    "composite_weight": 0.7547
+    "degree": 54,
+    "composite_weight": 0.7779
   },
   "links": [
     {
@@ -432,6 +442,32 @@
       ]
     },
     {
+      "source": "mimo",
+      "target": "minimax",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Mimo刷榜现象与MiniMax当年登顶OpenRouter相提并论",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "文中将Mimo刷榜现象与MiniMax当年登顶OpenRouter相提并论",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "source": "minimax",
       "target": "deepseek",
       "relation_type": "compares_to",
@@ -450,6 +486,19 @@
       "relation_type": "compares_to",
       "type": "compares_to",
       "label": "市场认为MiniMax和Kimi是一个级别，形成强行双骄效果",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "minimax",
+      "target": "mimo",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中将Mimo刷榜现象与MiniMax当年登顶OpenRouter相提并论",
       "weight": 1,
       "strength": 2,
       "effective_weight": 2,
@@ -1342,6 +1391,32 @@
     },
     {
       "source": "minimax",
+      "target": "minimax-3-1-flash",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "MiniMax开发了3.1 Flash模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "MiniMax开发了3.1 Flash模型",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "minimax",
       "target": "minimax-agent",
       "relation_type": "develops",
       "type": "develops",
@@ -1863,9 +1938,9 @@
     {
       "source": "anthropic",
       "target": "minimax",
-      "score": 0.6365,
+      "score": 0.6361,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 7 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 8 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "060",
         "099",
@@ -1877,8 +1952,23 @@
     },
     {
       "source": "minimax",
+      "target": "小米",
+      "score": 0.6174,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 5 篇文章；共享 3 个邻居",
+      "evidence_article_ids": [
+        "057",
+        "109",
+        "128",
+        "131",
+        "162"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "minimax",
       "target": "豆包",
-      "score": 0.6167,
+      "score": 0.6163,
       "suggested_relation_type": "related",
       "reason": "共同出现于 4 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
@@ -1892,7 +1982,7 @@
     {
       "source": "minimax",
       "target": "杨植麟",
-      "score": 0.593,
+      "score": 0.5926,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -1901,21 +1991,6 @@
         "085",
         "103",
         "109"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "libtv",
-      "target": "minimax",
-      "score": 0.5654,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 9 篇文章；共享 2 个邻居",
-      "evidence_article_ids": [
-        "099",
-        "109",
-        "116",
-        "117",
-        "119"
       ],
       "status": "suggested"
     }

@@ -125,7 +125,7 @@
       }
     ],
     "degree": 21,
-    "composite_weight": 0.2048
+    "composite_weight": 0.2037
   },
   "links": [
     {
@@ -660,7 +660,7 @@
     {
       "source": "智谱ai",
       "target": "杨植麟",
-      "score": 0.7076,
+      "score": 0.7072,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -675,7 +675,7 @@
     {
       "source": "minimax",
       "target": "杨植麟",
-      "score": 0.593,
+      "score": 0.5926,
       "suggested_relation_type": "related",
       "reason": "共同出现于 7 篇文章；共享 3 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -690,27 +690,15 @@
     {
       "source": "deepseek",
       "target": "杨植麟",
-      "score": 0.5301,
+      "score": 0.4797,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 6 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 6 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "004",
         "049",
         "103",
         "109",
         "122"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "李开复",
-      "target": "杨植麟",
-      "score": 0.4167,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 2 个邻居；处于同一讨论社区",
-      "evidence_article_ids": [
-        "004",
-        "049"
       ],
       "status": "suggested"
     },
@@ -725,6 +713,21 @@
         "103",
         "109",
         "156"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "杨植麟",
+      "target": "阶跃星辰",
+      "score": 0.4108,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 5 篇文章；共享 1 个邻居",
+      "evidence_article_ids": [
+        "004",
+        "049",
+        "109",
+        "123",
+        "134"
       ],
       "status": "suggested"
     }

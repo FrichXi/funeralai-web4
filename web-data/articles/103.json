@@ -356,6 +356,17 @@
       "tags": []
     },
     {
+      "id": "予彤",
+      "name": "予彤",
+      "type": "person",
+      "description": "Kimi/K3相关负责人，擅长前端领域优化打法",
+      "mention_count": 1,
+      "aliases": [],
+      "tags": [
+        "高管"
+      ]
+    },
+    {
       "id": "字节跳动",
       "name": "字节跳动",
       "type": "company",
@@ -379,19 +390,6 @@
       ]
     },
     {
-      "id": "张予彤",
-      "name": "张予彤",
-      "type": "person",
-      "description": "Kimi相关高管，主导了对同行IPO事件的PR反击",
-      "mention_count": 1,
-      "aliases": [
-        "予彤"
-      ],
-      "tags": [
-        "高管"
-      ]
-    },
-    {
       "id": "阿里巴巴",
       "name": "阿里巴巴",
       "type": "company",
@@ -408,9 +406,9 @@
   ],
   "relationships": [
     {
-      "source_id": "张予彤",
+      "source_id": "予彤",
       "target_id": "杨植麟",
-      "source": "张予彤",
+      "source": "予彤",
       "target": "杨植麟",
       "relation_type": "collaborates_with",
       "label": "两人共同合作让月之暗面再次伟大",
@@ -651,9 +649,9 @@
       "weight": 1
     },
     {
-      "source_id": "张予彤",
+      "source_id": "予彤",
       "target_id": "月之暗面",
-      "source": "张予彤",
+      "source": "予彤",
       "target": "月之暗面",
       "relation_type": "works_at",
       "label": "予彤是让月之暗面再次伟大的关键人物",

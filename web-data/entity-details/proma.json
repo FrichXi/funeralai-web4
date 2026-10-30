@@ -56,7 +56,7 @@
       }
     ],
     "degree": 8,
-    "composite_weight": 0.0663
+    "composite_weight": 0.0661
   },
   "links": [
     {
@@ -283,6 +283,19 @@
       "evidence_article_ids": [
         "060",
         "066"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "proma",
+      "target": "qwen",
+      "score": 0.4196,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 3 篇文章；共享 2 个邻居；处于同一讨论社区",
+      "evidence_article_ids": [
+        "060",
+        "066",
+        "103"
       ],
       "status": "suggested"
     }

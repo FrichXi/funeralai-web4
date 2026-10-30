@@ -4,8 +4,8 @@
     "name": "蚂蚁集团",
     "type": "company",
     "description": "灵波科技和灵光的母公司，被批评将世界模型作为儿戏",
-    "mention_count": 43,
-    "article_count": 9,
+    "mention_count": 44,
+    "article_count": 10,
     "aliases": [
       "支付宝",
       "蚂蚁",
@@ -21,14 +21,16 @@
       "信任机制",
       "具身智能",
       "大厂",
+      "大模型厂商",
       "战略投资",
       "支付",
       "支付工具",
+      "科技公司",
       "资方",
       "金融"
     ],
-    "references": 9,
-    "source_article_count": 9,
+    "references": 10,
+    "source_article_count": 10,
     "source_articles": [
       {
         "article_id": "038",
@@ -47,6 +49,15 @@
         "permalink": "/articles/121",
         "markdown_link": "articles/121_2026-07-16_骡子马_蚂蚁把世界模型作为一场儿戏.md",
         "mention_count": 6
+      },
+      {
+        "article_id": "162",
+        "title": "开源模型亟需另开一桌",
+        "date": "2026-10-30",
+        "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "permalink": "/articles/162",
+        "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "mention_count": 1
       },
       {
         "article_id": "099",
@@ -112,8 +123,8 @@
         "mention_count": 2
       }
     ],
-    "degree": 33,
-    "composite_weight": 0.2439
+    "degree": 34,
+    "composite_weight": 0.2576
   },
   "links": [
     {
@@ -386,6 +397,32 @@
       "article_count": 0,
       "evidence_articles": [],
       "evidences": []
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "百灵大模型",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "蚂蚁集团开发了百灵大模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "蚂蚁集团开发了百灵大模型",
+          "weight": 1
+        }
+      ]
     },
     {
       "source": "蚂蚁集团",
@@ -923,6 +960,20 @@
   ],
   "suggested_edges": [
     {
+      "source": "kimi",
+      "target": "蚂蚁集团",
+      "score": 0.7089,
+      "suggested_relation_type": "related",
+      "reason": "共同出现于 4 篇文章；共享 4 个邻居",
+      "evidence_article_ids": [
+        "055",
+        "099",
+        "109",
+        "162"
+      ],
+      "status": "suggested"
+    },
+    {
       "source": "腾讯",
       "target": "蚂蚁集团",
       "score": 0.6065,
@@ -938,25 +989,27 @@
     {
       "source": "百度",
       "target": "蚂蚁集团",
-      "score": 0.4727,
+      "score": 0.5427,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 2 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 3 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "055",
-        "099"
+        "099",
+        "162"
       ],
       "status": "suggested"
     },
     {
-      "source": "kimi",
+      "source": "minimax",
       "target": "蚂蚁集团",
-      "score": 0.4513,
-      "suggested_relation_type": "related",
-      "reason": "共同出现于 3 篇文章；共享 3 个邻居",
+      "score": 0.4367,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 2 个邻居",
       "evidence_article_ids": [
         "055",
         "099",
-        "109"
+        "109",
+        "162"
       ],
       "status": "suggested"
     }

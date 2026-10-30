@@ -4,8 +4,8 @@
     "name": "Anthropic",
     "type": "company",
     "description": "Claude及Claude Code背后的AI开发公司",
-    "mention_count": 36,
-    "article_count": 16,
+    "mention_count": 38,
+    "article_count": 17,
     "aliases": [
       "A畜"
     ],
@@ -21,10 +21,11 @@
       "模型厂",
       "知识产权",
       "美国AI",
+      "美国厂商",
       "闭源模型"
     ],
-    "references": 16,
-    "source_article_count": 16,
+    "references": 17,
+    "source_article_count": 17,
     "source_articles": [
       {
         "article_id": "109",
@@ -52,6 +53,15 @@
         "permalink": "/articles/031",
         "markdown_link": "articles/031_2025-10-27_葬爱咸鱼_追忆AI四小龙，热潮是怎么完蛋的.md",
         "mention_count": 3
+      },
+      {
+        "article_id": "162",
+        "title": "开源模型亟需另开一桌",
+        "date": "2026-10-30",
+        "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "permalink": "/articles/162",
+        "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "mention_count": 2
       },
       {
         "article_id": "138",
@@ -172,7 +182,7 @@
       }
     ],
     "degree": 26,
-    "composite_weight": 0.2548
+    "composite_weight": 0.2649
   },
   "links": [
     {
@@ -812,7 +822,7 @@
     {
       "source": "anthropic",
       "target": "codex",
-      "score": 0.7305,
+      "score": 0.7301,
       "suggested_relation_type": "related",
       "reason": "共同出现于 5 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -826,8 +836,22 @@
     },
     {
       "source": "anthropic",
+      "target": "阶跃星辰",
+      "score": 0.6774,
+      "suggested_relation_type": "compares_to",
+      "reason": "共同出现于 4 篇文章；共享 5 个邻居",
+      "evidence_article_ids": [
+        "109",
+        "123",
+        "159",
+        "162"
+      ],
+      "status": "suggested"
+    },
+    {
+      "source": "anthropic",
       "target": "cherry-studio",
-      "score": 0.6606,
+      "score": 0.6602,
       "suggested_relation_type": "related",
       "reason": "共同出现于 6 篇文章；共享 4 个邻居；处于同一讨论社区",
       "evidence_article_ids": [
@@ -842,28 +866,15 @@
     {
       "source": "anthropic",
       "target": "minimax",
-      "score": 0.6365,
+      "score": 0.6361,
       "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 7 篇文章；共享 4 个邻居",
+      "reason": "共同出现于 8 篇文章；共享 4 个邻居",
       "evidence_article_ids": [
         "060",
         "099",
         "103",
         "105",
         "109"
-      ],
-      "status": "suggested"
-    },
-    {
-      "source": "anthropic",
-      "target": "阶跃星辰",
-      "score": 0.6077,
-      "suggested_relation_type": "compares_to",
-      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
-      "evidence_article_ids": [
-        "109",
-        "123",
-        "159"
       ],
       "status": "suggested"
     },

@@ -4,8 +4,8 @@
     "name": "沐秋",
     "type": "person",
     "description": "文章提及的行业观察者/同行者，提出美团小美和Coze是最早Personal agent的观点",
-    "mention_count": 36,
-    "article_count": 12,
+    "mention_count": 40,
+    "article_count": 13,
     "aliases": [],
     "tags": [
       "AI硬件",
@@ -15,12 +15,13 @@
       "核心用户",
       "测评",
       "组织者",
+      "行业人物",
       "行业评论",
       "评测人",
       "评论员"
     ],
-    "references": 12,
-    "source_article_count": 12,
+    "references": 13,
+    "source_article_count": 13,
     "source_articles": [
       {
         "article_id": "043",
@@ -30,6 +31,15 @@
         "permalink": "/articles/043",
         "markdown_link": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
         "mention_count": 17
+      },
+      {
+        "article_id": "162",
+        "title": "开源模型亟需另开一桌",
+        "date": "2026-10-30",
+        "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "permalink": "/articles/162",
+        "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "mention_count": 4
       },
       {
         "article_id": "115",
@@ -131,8 +141,8 @@
         "mention_count": 1
       }
     ],
-    "degree": 17,
-    "composite_weight": 0.1965
+    "degree": 19,
+    "composite_weight": 0.2235
   },
   "links": [
     {
@@ -272,6 +282,32 @@
           "path": "articles/043_2025-12-18_沐秋_Looki孙洋和葬AI线下真实后，他说大疆当年也遇到很多喷子.md",
           "date": "2025-12-18",
           "label": "沐秋在测评中指出了Looki会丢、功能鸡肋等种种问题",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "沐秋",
+      "target": "mimo",
+      "relation_type": "criticizes",
+      "type": "criticizes",
+      "label": "沐秋质疑Mimo宣传图嘲讽同行及刷分行为",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "沐秋质疑Mimo宣传图嘲讽同行及刷分行为",
           "weight": 1
         }
       ]
@@ -523,6 +559,32 @@
     },
     {
       "source": "沐秋",
+      "target": "百度",
+      "relation_type": "praises",
+      "type": "praises",
+      "label": "沐秋出于尊敬认为百度也算模型厂（反讽或特定语境下的认可）",
+      "weight": 1,
+      "strength": 3,
+      "effective_weight": 4,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "沐秋出于尊敬认为百度也算模型厂（反讽或特定语境下的认可）",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "沐秋",
       "target": "美团小美",
       "relation_type": "praises",
       "type": "praises",
@@ -589,21 +651,22 @@
   ],
   "suggested_edges": [
     {
-      "source": "沐秋",
-      "target": "钟十六",
-      "score": 0.432,
+      "source": "minimax",
+      "target": "沐秋",
+      "score": 0.5732,
       "suggested_relation_type": "related",
-      "reason": "共同出现于 2 篇文章；共享 3 个邻居；处于同一讨论社区",
+      "reason": "共同出现于 3 篇文章；共享 5 个邻居",
       "evidence_article_ids": [
         "122",
-        "131"
+        "131",
+        "162"
       ],
       "status": "suggested"
     },
     {
       "source": "沐秋",
       "target": "豆包",
-      "score": 0.4302,
+      "score": 0.4298,
       "suggested_relation_type": "related",
       "reason": "共同出现于 2 篇文章；共享 4 个邻居",
       "evidence_article_ids": [

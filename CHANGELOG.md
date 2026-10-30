@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+- Content update through 162: 161 articles; latest: 开源模型亟需另开一桌.
+
 - Content update through 161: 160 articles; latest: 伊朗闭门造AI.
 
 - Content update through 160: 159 articles; latest: 豆包手机纯属豆姐痛机.

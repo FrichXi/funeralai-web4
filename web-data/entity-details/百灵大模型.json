@@ -1,0 +1,100 @@
+{
+  "node": {
+    "id": "百灵大模型",
+    "name": "百灵大模型",
+    "type": "product",
+    "description": "蚂蚁集团开发的大模型，文中提及Ling-3.1 Flash版本",
+    "mention_count": 5,
+    "article_count": 1,
+    "aliases": [
+      "Ling-3.1 Flash",
+      "百灵"
+    ],
+    "tags": [
+      "大模型"
+    ],
+    "references": 1,
+    "source_article_count": 1,
+    "source_articles": [
+      {
+        "article_id": "162",
+        "title": "开源模型亟需另开一桌",
+        "date": "2026-10-30",
+        "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "permalink": "/articles/162",
+        "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+        "mention_count": 5
+      }
+    ],
+    "degree": 3,
+    "composite_weight": 0.0365
+  },
+  "links": [
+    {
+      "source": "kimi",
+      "target": "百灵大模型",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中比较百灵与K3在AA榜上的排名和真实性能水平",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 3,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "文中比较百灵与K3在AA榜上的排名和真实性能水平",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "source": "百灵大模型",
+      "target": "kimi",
+      "relation_type": "compares_to",
+      "type": "compares_to",
+      "label": "文中比较百灵与K3在AA榜上的排名和真实性能水平",
+      "weight": 1,
+      "strength": 2,
+      "effective_weight": 2,
+      "article_count": 0,
+      "evidence_articles": [],
+      "evidences": []
+    },
+    {
+      "source": "蚂蚁集团",
+      "target": "百灵大模型",
+      "relation_type": "develops",
+      "type": "develops",
+      "label": "蚂蚁集团开发了百灵大模型",
+      "weight": 1,
+      "strength": 4,
+      "effective_weight": 5,
+      "article_count": 1,
+      "evidence_articles": [
+        "162"
+      ],
+      "evidences": [
+        {
+          "article_id": "162",
+          "title": "开源模型亟需另开一桌",
+          "permalink": "/articles/162",
+          "markdown_link": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "path": "articles/162_2026-10-30_葬爱咸鱼_开源模型亟需另开一桌.md",
+          "date": "2026-10-30",
+          "label": "蚂蚁集团开发了百灵大模型",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "suggested_edges": []
+}
